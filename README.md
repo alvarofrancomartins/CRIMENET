@@ -4,7 +4,7 @@ Open-source database and interactive visualization of alliances and rivalries be
 
 **2,127 organizations. 2,765 relationships. 737 source articles.**
 
-- Live visualization: [alvarofrancomartins.com/crimenet](https://www.alvarofrancomartins.com/crimenet)
+- Live visualization: <a href="https://www.alvarofrancomartins.com/crimenet" target="_blank">alvarofrancomartins.com/crimenet</a>
 
 ## Setup
 
