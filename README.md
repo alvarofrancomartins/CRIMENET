@@ -6,6 +6,12 @@ Open-source database and interactive visualization of alliances and rivalries be
 
 - Live visualization: <a href="https://www.alvarofrancomartins.com/crimenet" target="_blank">alvarofrancomartins.com/crimenet</a>
 
+<p align="center">
+  <a href="https://www.alvarofrancomartins.com/crimenet">
+    <img src="featured.png" alt="CRIMENET visualization" width="700">
+  </a>
+</p>
+
 ## Setup
 
 ```bash
