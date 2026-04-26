@@ -1,0 +1,24 @@
+cat > .gitignore <<'EOF'
+# Secrets
+deepseek_api_key.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
+EOF
