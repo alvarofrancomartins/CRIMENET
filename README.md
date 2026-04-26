@@ -12,10 +12,6 @@ Open-source database and interactive visualization of alliances and rivalries be
   </a>
 </p>
 
-## Setup
-
-Add a DeepSeek API key in `deepseek_api_key.txt` in the project root.
-
 ## Repository layout
 
 ```
@@ -73,6 +69,8 @@ Both English and Italian Wikipedia URLs are supported. Language is detected from
 Writes `txts/<slug>/content.txt` and `txts/<slug>/url.txt`. Resumes automatically. Use `--force` to re-fetch all.
 
 ### Step 2 — LLM extraction → `txts/<slug>/extracted.json`
+
+Add a DeepSeek API key in deepseek_api_key.txt in the project root.
 
 `2_extract_network.py` sends each article to the DeepSeek API with a structured prompt enforcing a strict output schema. Extracts:
 
