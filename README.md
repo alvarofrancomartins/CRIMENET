@@ -34,7 +34,7 @@ Open-source database and interactive visualization of alliances and rivalries be
 
 ## Pipeline
 
-Run the five numbered scripts in order. Each step resumes automatically and exposes `--force` to re-run everything.
+Run the five numbered scripts in order. 
 
 ```bash
 python 0_urls_to_articles.py --input page_hyperlinks.csv --output articles.csv
