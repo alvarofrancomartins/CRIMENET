@@ -37,7 +37,6 @@ Add a DeepSeek API key in `deepseek_api_key.txt` in the project root.
 ├── deepseek_api_key.txt       # API key (not committed)
 ├── txts/                      # One folder per article (content.txt, url.txt, extracted.json)
 ├── notebooks/                 # Analysis notebooks for the report
-├── OVERVIEW.md                # Project overview, findings, limitations
 └── README.md
 ```
 
