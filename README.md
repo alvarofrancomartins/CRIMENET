@@ -18,7 +18,7 @@ Open-source database and interactive visualization of alliances and rivalries be
 pip install requests networkx wikipedia beautifulsoup4
 ```
 
-Add a DeepSeek API key in `deepseek_api_key.txt` in the project root (not committed).
+Add a DeepSeek API key in `deepseek_api_key.txt` in the project root.
 
 ## Repository layout
 
