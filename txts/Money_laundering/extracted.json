@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Mafia",
+      "original_text_name": "Mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian organized crime group involved in money laundering and other illicit activities.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Chinese organized criminal groups",
+      "original_text_name": "Chinese organized criminal groups",
+      "aliases": [],
+      "type": "other",
+      "context": "Principal money launderers for drug cartels in Mexico, Italy, and elsewhere.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mexican drug cartels",
+      "original_text_name": "drug cartels in Mexico",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Drug trafficking organizations that use Chinese money laundering networks.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Italian organized crime",
+      "original_text_name": "Italy",
+      "aliases": [],
+      "type": "other",
+      "context": "Italian criminal groups that use Chinese money laundering networks.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Huione Group",
+      "original_text_name": "Huione Group",
+      "aliases": [
+        "Huione"
+      ],
+      "type": "other",
+      "context": "Cambodia-based operation identified as a leading actor in cyber-enabled fraud and money laundering.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Lazarus Group",
+      "original_text_name": "Lazarus Group",
+      "aliases": [],
+      "type": "other",
+      "context": "North Korean cybercriminal group, associated with DPRK, involved in hacking and theft.",
+      "time_period": "2009-present"
+    },
+    {
+      "standard_name": "Chee Kung Tong",
+      "original_text_name": "Chee Kung Tong",
+      "aliases": [],
+      "type": "other",
+      "context": "Chinese secret society involved in reverse money laundering activities.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Al-Qaeda",
+      "original_text_name": "al-Qaeda",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Terrorist group that received financial support from Dubai Islamic Bank for 9/11 attacks.",
+      "time_period": "1988-present"
+    },
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel involved in money laundering through Jose Franklin Jurado-Rodriguez.",
+      "time_period": "1970s-1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Chinese organized criminal groups",
+      "target": "Mexican drug cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Chinese organized criminal groups launder money for Mexican drug cartels.",
+      "time_period": null
+    },
+    {
+      "source": "Chinese organized criminal groups",
+      "target": "Italian organized crime",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Chinese organized criminal groups launder money for Italian organized crime.",
+      "time_period": null
+    },
+    {
+      "source": "Lazarus Group",
+      "target": "Tornado Cash",
+      "relationship": "other",
+      "detail": "used mixer",
+      "context": "Lazarus Group used Tornado Cash to launder stolen funds.",
+      "time_period": "2022"
+    },
+    {
+      "source": "Chee Kung Tong",
+      "target": "Leland Yee",
+      "relationship": "other",
+      "detail": "associated with",
+      "context": "Chee Kung Tong members and Senator Leland Yee engaged in reverse money laundering.",
+      "time_period": "2014"
+    },
+    {
+      "source": "Al-Qaeda",
+      "target": "Dubai Islamic Bank",
+      "relationship": "other",
+      "detail": "received support",
+      "context": "Dubai Islamic Bank provided financial services to al-Qaeda operatives planning 9/11.",
+      "time_period": "2001"
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "Jose Santacruz Londono",
+      "relationship": "other",
+      "detail": "kingpin of",
+      "context": "Jose Franklin Jurado-Rodriguez laundered money for Cali Cartel kingpin Jose Santacruz Londono.",
+      "time_period": "1990s"
+    }
+  ],
+  "source_file": "Money_laundering"
+}

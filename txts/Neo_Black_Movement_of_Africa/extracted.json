@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Neo Black Movement of Africa",
+      "original_text_name": "Neo Black Movement of Africa",
+      "aliases": [
+        "NBM",
+        "NBM of Africa"
+      ],
+      "type": "other",
+      "context": "International confraternity founded in 1977 at University of Benin, Nigeria; involved in Pan-Africanism and charitable activities.",
+      "time_period": "1977-present"
+    },
+    {
+      "standard_name": "Black Axe",
+      "original_text_name": "Black Axe",
+      "aliases": [],
+      "type": "faction",
+      "context": "Criminal subgroup of the Neo Black Movement of Africa formed in 1994; involved in organized crime, human trafficking, and money laundering.",
+      "time_period": "1994-present"
+    },
+    {
+      "standard_name": "National Association of Seadogs",
+      "original_text_name": "National Association of Seadogs (Pyrates)",
+      "aliases": [
+        "Pyrates"
+      ],
+      "type": "other",
+      "context": "Similar confraternity established in 1952; NBM formed as a response to its reported excesses.",
+      "time_period": "1952-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Neo Black Movement of Africa",
+      "target": "Black Axe",
+      "relationship": "other",
+      "detail": "parent subgroup",
+      "context": "Black Axe is a criminal subgroup of NBM, formed in 1994; NBM publicly disassociated from it in 2024.",
+      "time_period": "1994-present"
+    },
+    {
+      "source": "Neo Black Movement of Africa",
+      "target": "National Association of Seadogs",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "NBM formed as a response to the reported excesses of the Pyrates confraternity.",
+      "time_period": "1977-present"
+    }
+  ],
+  "source_file": "Neo_Black_Movement_of_Africa"
+}

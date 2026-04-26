@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno crime family",
+      "aliases": [
+        "Bonanno family",
+        "Bonannos"
+      ],
+      "type": "mafia",
+      "context": "American Mafia family based in New York City, involved in various rackets.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American Mafia organization; Bonanno family is a member.",
+      "time_period": "1930s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bonanno crime family",
+      "target": "Cosa Nostra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bonanno crime family is a constituent family of the Cosa Nostra.",
+      "time_period": "1930s-present"
+    }
+  ],
+  "source_file": "Dominick_Napolitano"
+}

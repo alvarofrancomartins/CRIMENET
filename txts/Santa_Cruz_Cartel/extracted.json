@@ -1,0 +1,68 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Santa Cruz Cartel",
+      "original_text_name": "Santa Cruz Cartel",
+      "aliases": [
+        "Cártel de Santa Cruz",
+        "La Conexión"
+      ],
+      "type": "cartel",
+      "context": "Bolivian drug cartel headquartered in Santa Cruz de la Sierra, involved in drug trafficking and narco-terrorism.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel allied with Santa Cruz Cartel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "Red Command"
+      ],
+      "type": "gang",
+      "context": "Brazilian drug gang, members have fled to Santa Cruz; allied with Santa Cruz Cartel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "La Corporación",
+      "original_text_name": "La Corporación",
+      "aliases": [],
+      "type": "other",
+      "context": "Rival criminal organization to Santa Cruz Cartel.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Santa Cruz Cartel",
+      "target": "Medellín Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Strongly allied with drug trafficking organizations in Colombia, including Medellín Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Santa Cruz Cartel",
+      "target": "Comando Vermelho",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with Comando Vermelho; members have fled to Santa Cruz.",
+      "time_period": null
+    },
+    {
+      "source": "Santa Cruz Cartel",
+      "target": "La Corporación",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rivalry with La Corporación, involved in turf wars.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Santa_Cruz_Cartel"
+}

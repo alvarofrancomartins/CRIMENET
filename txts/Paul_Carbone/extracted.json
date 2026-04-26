@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Carbone-Spirito clan",
+      "original_text_name": "Carbone-Spirito clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Corsican criminal organization involved in prostitution, drug trafficking, and protection rackets in Marseille and beyond.",
+      "time_period": "1920s-1943"
+    },
+    {
+      "standard_name": "Carlingue",
+      "original_text_name": "Carlingue",
+      "aliases": [],
+      "type": "other",
+      "context": "French collaborationist police force during WWII that worked with the Gestapo and engaged in black market activities.",
+      "time_period": "1940-1944"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Carbone-Spirito clan",
+      "target": "Carlingue",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Carbone and Spirito joined the Carlingue during WWII, collaborating with Germans in exchange for ignoring their criminal activities.",
+      "time_period": "1940-1943"
+    }
+  ],
+  "source_file": "Paul_Carbone"
+}

@@ -1,0 +1,177 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Moccia clan",
+      "original_text_name": "Moccia clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan operating in Afragola, Casoria, Arzano, Caivano and Lazio; involved in drug trafficking, money laundering, political corruption.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "type": "clan",
+      "context": "Coalition of Camorra clans opposed to the Nuova Camorra Organizzata.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "type": "clan",
+      "context": "Camorra organization led by Raffaele Cutolo, rival of the Nuova Famiglia.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "Magliulo clan",
+      "original_text_name": "Magliulo clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Rival Camorra clan that killed Vincenzo Moccia; later defeated by the Moccia clan.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Alfieri clan",
+      "original_text_name": "Alfieri clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan whose pillar was weakened by the Moccia clan after the Magliulo clan's downfall.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Russo clan",
+      "original_text_name": "Russo clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Allied Camorra clan of the Moccia clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Licciardi clan",
+      "original_text_name": "Licciardi clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Allied Camorra clan of the Moccia clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Galasso clan",
+      "original_text_name": "Galasso clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Defunct allied Camorra clan of the Moccia clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sacco-Bocchetti clan",
+      "original_text_name": "Sacco-Bocchetti clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Allied Camorra clan of the Moccia clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Contini clan",
+      "original_text_name": "Contini clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Allied Camorra clan of the Moccia clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cesarano clan",
+      "original_text_name": "Cesarano clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Rival Camorra clan of the Moccia clan.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Moccia clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Moccia clan was a loyal member of the Nuova Famiglia in the war against the Nuova Camorra Organizzata.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Nuova Famiglia",
+      "target": "Nuova Camorra Organizzata",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Nuova Famiglia fought a war against the Nuova Camorra Organizzata led by Raffaele Cutolo.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Moccia clan",
+      "target": "Magliulo clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Magliulo clan killed Vincenzo Moccia, leading to a war that the Moccia clan won.",
+      "time_period": "1987"
+    },
+    {
+      "source": "Moccia clan",
+      "target": "Alfieri clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "After defeating the Magliulo clan, the Moccia clan shot down one of the pillars of the Alfieri clan.",
+      "time_period": "1987"
+    },
+    {
+      "source": "Moccia clan",
+      "target": "Russo clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Russo clan is listed as an ally of the Moccia clan.",
+      "time_period": null
+    },
+    {
+      "source": "Moccia clan",
+      "target": "Licciardi clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Licciardi clan is listed as an ally of the Moccia clan.",
+      "time_period": null
+    },
+    {
+      "source": "Moccia clan",
+      "target": "Galasso clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Galasso clan is listed as an ally of the Moccia clan.",
+      "time_period": null
+    },
+    {
+      "source": "Moccia clan",
+      "target": "Sacco-Bocchetti clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Sacco-Bocchetti clan is listed as an ally of the Moccia clan.",
+      "time_period": null
+    },
+    {
+      "source": "Moccia clan",
+      "target": "Contini clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Contini clan is listed as an ally of the Moccia clan.",
+      "time_period": null
+    },
+    {
+      "source": "Moccia clan",
+      "target": "Cesarano clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Cesarano clan is listed as a rival of the Moccia clan.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Moccia_clan"
+}

@@ -1,0 +1,104 @@
+{
+  "nodes": [
+    {
+      "standard_name": "The Order",
+      "original_text_name": "The Order",
+      "aliases": [
+        "Silent Brotherhood",
+        "Bruder Schweigen"
+      ],
+      "type": "other",
+      "context": "Neo-Nazi paramilitary group active in the US in 1983-1984, engaged in robberies and murder.",
+      "time_period": "September 1983-December 1984"
+    },
+    {
+      "standard_name": "Sons of Liberty",
+      "original_text_name": "Sons of Liberty",
+      "aliases": [],
+      "type": "militia",
+      "context": "Anti-communist militia formed by Robert Jay Mathews, mostly Mormon survivalists.",
+      "time_period": "before 1983"
+    },
+    {
+      "standard_name": "National Alliance",
+      "original_text_name": "National Alliance",
+      "aliases": [],
+      "type": "other",
+      "context": "White supremacist organization led by William Pierce, received funds from The Order.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "White Patriot Party",
+      "original_text_name": "White Patriot Party",
+      "aliases": [],
+      "type": "other",
+      "context": "White supremacist group led by Frazier Glenn Miller, Jr., received funds from The Order.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Aryan Nations",
+      "original_text_name": "Aryan Nations",
+      "aliases": [],
+      "type": "other",
+      "context": "White supremacist organization affiliated with The Order and The Order II.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "The Order II",
+      "original_text_name": "The Order II",
+      "aliases": [
+        "Bruder Schweigen Strike Force II"
+      ],
+      "type": "other",
+      "context": "Successor group to The Order, active in Idaho, engaged in bombings.",
+      "time_period": "1986"
+    }
+  ],
+  "edges": [
+    {
+      "source": "The Order",
+      "target": "Sons of Liberty",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "Robert Jay Mathews founded Sons of Liberty before founding The Order.",
+      "time_period": "before 1983"
+    },
+    {
+      "source": "The Order",
+      "target": "National Alliance",
+      "relationship": "alliance",
+      "context": "The Order distributed robbery proceeds to William Pierce of the National Alliance.",
+      "time_period": "1984"
+    },
+    {
+      "source": "The Order",
+      "target": "White Patriot Party",
+      "relationship": "alliance",
+      "context": "The Order distributed robbery proceeds to Frazier Glenn Miller, Jr. of the White Patriot Party.",
+      "time_period": "1984"
+    },
+    {
+      "source": "The Order",
+      "target": "Aryan Nations",
+      "relationship": "alliance",
+      "context": "The Order had affiliations with Aryan Nations; members of Aryan Nations later formed The Order II.",
+      "time_period": "1983-1984"
+    },
+    {
+      "source": "The Order II",
+      "target": "The Order",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "The Order II grew out of the original Order after its collapse.",
+      "time_period": "1986"
+    },
+    {
+      "source": "The Order II",
+      "target": "Aryan Nations",
+      "relationship": "alliance",
+      "context": "Leaders David and Deborah Dorr were previously members of Aryan Nations.",
+      "time_period": "before 1986"
+    }
+  ],
+  "source_file": "The_Order_(white_supremacist_group)"
+}

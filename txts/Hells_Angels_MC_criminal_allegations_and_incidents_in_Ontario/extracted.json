@@ -1,0 +1,211 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [
+        "HAMC",
+        "Hells Angels Motorcycle Club",
+        "Angels"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw biker gang involved in drug trafficking, extortion, and violent incidents in Ontario since 2000.",
+      "time_period": "2000-present"
+    },
+    {
+      "standard_name": "Satan's Choice",
+      "original_text_name": "Satan's Choice",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Ontario outlaw biker gang that joined Hells Angels in the 2000 patch-over.",
+      "time_period": "1960s-2000"
+    },
+    {
+      "standard_name": "Para-Dice Riders",
+      "original_text_name": "Para-Dice Riders",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Ontario outlaw biker gang that joined Hells Angels in the 2000 patch-over.",
+      "time_period": "1960s-2000"
+    },
+    {
+      "standard_name": "Last Chance",
+      "original_text_name": "Last Chance",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Ontario outlaw biker gang that joined Hells Angels in the 2000 patch-over.",
+      "time_period": "unknown-2000"
+    },
+    {
+      "standard_name": "Lobos",
+      "original_text_name": "Lobos",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Ontario outlaw biker gang that joined Hells Angels in the 2000 patch-over.",
+      "time_period": "unknown-2000"
+    },
+    {
+      "standard_name": "Outlaws",
+      "original_text_name": "Outlaws",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "International outlaw biker gang; some members joined Hells Angels in 2000, later conflict with Hells Angels in Ontario.",
+      "time_period": "1935-present"
+    },
+    {
+      "standard_name": "Rock Machine",
+      "original_text_name": "Rock Machine",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Canadian outlaw biker gang; some members joined Hells Angels in 2000.",
+      "time_period": "1980s-2000"
+    },
+    {
+      "standard_name": "Dogs of War",
+      "original_text_name": "Dogs of War",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Puppet club of Hells Angels in Niagara Falls, Ontario.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Redline Crew",
+      "original_text_name": "Redline Crew",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Puppet club of Hells Angels in Toronto.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Jackals",
+      "original_text_name": "Jackals",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Hells Angels puppet gang in London, Ontario involved in a shoot-out with Outlaws in 2002.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Rockers",
+      "original_text_name": "Rockers",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Hells Angels Montreal puppet gang; members involved in 2002 shoot-out on Highway 401.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "standard_name": "Bandidos",
+      "original_text_name": "Bandidos",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "International outlaw biker gang; Hells Angels had pictures of every Bandido in Ontario in 2002.",
+      "time_period": "1966-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hells Angels",
+      "target": "Satan's Choice",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Satan's Choice joined Hells Angels in the 2000 patch-over.",
+      "time_period": "2000"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Para-Dice Riders",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Para-Dice Riders joined Hells Angels in the 2000 patch-over.",
+      "time_period": "2000"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Last Chance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Last Chance joined Hells Angels in the 2000 patch-over.",
+      "time_period": "2000"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Lobos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Lobos joined Hells Angels in the 2000 patch-over.",
+      "time_period": "2000"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Outlaws",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Some Outlaws members joined Hells Angels in 2000 patch-over.",
+      "time_period": "2000"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Rock Machine",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Some Rock Machine members joined Hells Angels in 2000 patch-over.",
+      "time_period": "2000"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Dogs of War",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dogs of War is a puppet club of Hells Angels in Niagara Falls.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Redline Crew",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Redline Crew is a puppet club of Hells Angels in Toronto.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Jackals",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Jackals is a Hells Angels puppet gang in London, Ontario.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Rockers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Rockers is a Hells Angels Montreal puppet gang.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Outlaws",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels burned down Outlaws clubhouse in 2001 and had shoot-outs with Outlaws.",
+      "time_period": "2001-2002"
+    },
+    {
+      "source": "Jackals",
+      "target": "Outlaws",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Jackals engaged in a shoot-out with Outlaws in London, Ontario in 2002.",
+      "time_period": "2002"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Bandidos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels had pictures of every Bandido in Ontario, indicating surveillance or rivalry.",
+      "time_period": "2002"
+    }
+  ],
+  "source_file": "Hells_Angels_MC_criminal_allegations_and_incidents_in_Ontario"
+}

@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Chicanos Motorcycle Club",
+      "original_text_name": "Chicanos Motorcycle Club",
+      "aliases": [
+        "Chicanos",
+        "CMC"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club founded in Germany in 2003, acts as a support club for the Bandidos.",
+      "time_period": "2003-present"
+    },
+    {
+      "standard_name": "Bandidos Motorcycle Club",
+      "original_text_name": "Bandidos",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Major international outlaw motorcycle club, supported by the Chicanos.",
+      "time_period": "1966-present"
+    },
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Major international outlaw motorcycle club, rival of the Chicanos and Bandidos.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Brigade 81",
+      "original_text_name": "Brigade 81",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Hells Angels-affiliated motorcycle club that raided the Chicanos' clubhouse in 2009.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Underdogs Motorcycle Club",
+      "original_text_name": "Underdogs Motorcycle Club",
+      "aliases": [
+        "Underdogs"
+      ],
+      "type": "motorcycle_club",
+      "context": "German motorcycle club involved in violent conflicts with the Chicanos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "District 61",
+      "original_text_name": "District 61",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Group comprised partially of former Underdogs members, involved in a shooting with Chicanos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Black Cobra",
+      "original_text_name": "Black Cobra",
+      "aliases": [],
+      "type": "gang",
+      "context": "Swedish gang involved in a conflict with the Chicanos after recruitment attempts.",
+      "time_period": null
+    },
+    {
+      "standard_name": "No Surrender",
+      "original_text_name": "No Surrender",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Motorcycle club whose chapter was patched over to form the first Chicanos branch in Sweden.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Chicanos Motorcycle Club",
+      "target": "Bandidos Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Chicanos are a support club (puppet club) for the Bandidos, providing recruits and engaging in criminal activities on their behalf.",
+      "time_period": "2003-present"
+    },
+    {
+      "source": "Chicanos Motorcycle Club",
+      "target": "Hells Angels Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Multiple violent incidents including assaults, bomb threats, and car chases between the two clubs in Germany.",
+      "time_period": "2008-2010"
+    },
+    {
+      "source": "Chicanos Motorcycle Club",
+      "target": "Brigade 81",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Brigade 81 raided the Chicanos' clubhouse in Ludwigsfelde in 2009, leaving several members injured.",
+      "time_period": "2009"
+    },
+    {
+      "source": "Chicanos Motorcycle Club",
+      "target": "Underdogs Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Multiple violent clashes including street fights, shootings, and stabbings between the two clubs in Germany.",
+      "time_period": "2010-2014"
+    },
+    {
+      "source": "Chicanos Motorcycle Club",
+      "target": "District 61",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "A member of District 61 shot at two Chicanos members in self-defense in 2013.",
+      "time_period": "2013"
+    },
+    {
+      "source": "Chicanos Motorcycle Club",
+      "target": "Black Cobra",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Conflict after Chicanos attempted to recruit Black Cobra members, leading to a riot in Trollhättan in 2013.",
+      "time_period": "2013"
+    },
+    {
+      "source": "Chicanos Motorcycle Club",
+      "target": "No Surrender",
+      "relationship": "other",
+      "detail": "patch-over",
+      "context": "The first Chicanos branch in Sweden was formed by patching over a No Surrender chapter in Vänersborg in 2012.",
+      "time_period": "2012"
+    }
+  ],
+  "source_file": "Chicanos_Motorcycle_Club"
+}

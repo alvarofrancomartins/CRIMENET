@@ -1,0 +1,130 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Satanas",
+      "original_text_name": "Satanas",
+      "aliases": [
+        "Ese Te Ese",
+        "STS"
+      ],
+      "type": "gang",
+      "context": "Filipino American street gang in Southern California, founded in 1972.",
+      "time_period": "1972-present"
+    },
+    {
+      "standard_name": "Demonios",
+      "original_text_name": "Demonios",
+      "aliases": [],
+      "type": "gang",
+      "context": "Filipino gang that originated from Satanas members.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Diablos",
+      "original_text_name": "Diablos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Filipino gang that originated from Satanas members, distinct from Mexican gang of same name.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Lemonwood Chiques",
+      "original_text_name": "Lemonwood Chiques",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang involved in a fatal shooting with Satanas in 1989.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Avenue King Crips",
+      "original_text_name": "Avenue King Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with Satanas.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Temple Street",
+      "original_text_name": "Temple Street",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with Satanas; Satanas was originally a clique from Temple Street.",
+      "time_period": "1920s-1970s"
+    },
+    {
+      "standard_name": "Avenues",
+      "original_text_name": "Avenues",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Satanas.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bahala Na Gang",
+      "original_text_name": "Bahala Na Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Satanas.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Demonios",
+      "target": "Satanas",
+      "relationship": "other",
+      "detail": "originated from",
+      "context": "Demonios originated from second generation Satanas members.",
+      "time_period": null
+    },
+    {
+      "source": "Diablos",
+      "target": "Satanas",
+      "relationship": "other",
+      "detail": "originated from",
+      "context": "Diablos originated from second generation Satanas members.",
+      "time_period": null
+    },
+    {
+      "source": "Satanas",
+      "target": "Lemonwood Chiques",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "A Satanas member killed a Lemonwood Chiques member in 1989.",
+      "time_period": "1989"
+    },
+    {
+      "source": "Satanas",
+      "target": "Avenue King Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Satanas is allied with Avenue King Crips.",
+      "time_period": null
+    },
+    {
+      "source": "Satanas",
+      "target": "Temple Street",
+      "relationship": "other",
+      "detail": "originated from",
+      "context": "Satanas was originally a clique from Temple Street before going solo in the 1970s.",
+      "time_period": "1920s-1970s"
+    },
+    {
+      "source": "Satanas",
+      "target": "Avenues",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Satanas has a rivalry with the Avenues.",
+      "time_period": null
+    },
+    {
+      "source": "Satanas",
+      "target": "Bahala Na Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Satanas has a rivalry with Bahala Na Gang.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Satanas_(gang)"
+}

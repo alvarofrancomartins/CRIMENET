@@ -1,0 +1,170 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cuntrera-Caruana Mafia clan",
+      "original_text_name": "Cuntrera-Caruana Mafia clan",
+      "aliases": [
+        "Cuntrera-Caruana clan",
+        "Cuntrera-Caruana family",
+        "The Rothschilds of the Mafia",
+        "The Bankers of Cosa Nostra"
+      ],
+      "type": "clan",
+      "context": "Sicilian Mafia clan involved in international drug trafficking and money laundering, operating from Sicily to Canada and Venezuela.",
+      "time_period": "1950s-2000s"
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
+      "aliases": [
+        "Sicilian Mafia"
+      ],
+      "type": "mafia",
+      "context": "Sicilian Mafia organization; the Cuntrera-Caruana clan was a part of it.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Corleonesi",
+      "original_text_name": "Corleonesi",
+      "aliases": [],
+      "type": "faction",
+      "context": "Sicilian Mafia faction from Corleone, led by Salvatore Riina, that fought in the Second Mafia War.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Rizzuto crime family",
+      "original_text_name": "Rizzuto crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-Canadian Mafia family based in Montreal, allied with the Cuntrera-Caruana clan.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel that supplied cocaine to the Cuntrera-Caruana clan.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Calabrian Mafia organization that partnered with the Cuntrera-Caruana clan in cocaine trafficking.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [
+        "Gambino Family"
+      ],
+      "type": "mafia",
+      "context": "New York Mafia family that received heroin shipments from the Cuntrera-Caruana clan.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York Mafia family involved in the Pizza Connection heroin trafficking with the Cuntrera-Caruana clan.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Corsican mafia",
+      "original_text_name": "Corsican mafia",
+      "aliases": [
+        "Corsican underworld"
+      ],
+      "type": "mafia",
+      "context": "Corsican criminal groups that supplied heroin to Sicilian networks including the Cuntrera-Caruana clan.",
+      "time_period": "20th century"
+    },
+    {
+      "standard_name": "La Corporación",
+      "original_text_name": "La Corporación",
+      "aliases": [],
+      "type": "other",
+      "context": "Venezuelan criminal organization allied with the Cuntrera-Caruana clan according to the infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cuntrera-Caruana Mafia clan",
+      "target": "Cosa Nostra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The clan was a part of Cosa Nostra and served as its international drug trafficking and money laundering arm.",
+      "time_period": "1950s-2000s"
+    },
+    {
+      "source": "Cuntrera-Caruana Mafia clan",
+      "target": "Corleonesi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Initially sided against the Corleonesi but later reached an agreement with Salvatore Riina.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Cuntrera-Caruana Mafia clan",
+      "target": "Rizzuto crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The clan moved cocaine distribution to Canada with the consent of Vito Rizzuto.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "Cuntrera-Caruana Mafia clan",
+      "target": "Cali Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Alfonso Caruana organized cocaine supply from the Cali Cartel to Italy.",
+      "time_period": "1991-1994"
+    },
+    {
+      "source": "Cuntrera-Caruana Mafia clan",
+      "target": "'Ndrangheta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The clan partnered with 'Ndrangheta families to smuggle cocaine from Venezuela to Italy.",
+      "time_period": "1991-1994"
+    },
+    {
+      "source": "Cuntrera-Caruana Mafia clan",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "John Gambino of the Gambino family received half of a 400 kg heroin shipment from the clan.",
+      "time_period": "1981"
+    },
+    {
+      "source": "Cuntrera-Caruana Mafia clan",
+      "target": "Bonanno crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The clan was involved in the Pizza Connection heroin trafficking with the Bonanno family.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Cuntrera-Caruana Mafia clan",
+      "target": "Corsican mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The clan sourced heroin from Corsican underworld suppliers in Marseilles.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "source": "Cuntrera-Caruana Mafia clan",
+      "target": "La Corporación",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The infobox lists La Corporación as an ally.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Cuntrera-Caruana_Mafia_clan"
+}

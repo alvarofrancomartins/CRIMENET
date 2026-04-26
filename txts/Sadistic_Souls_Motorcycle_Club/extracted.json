@@ -1,0 +1,68 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sadistic Souls Motorcycle Club",
+      "original_text_name": "Sadistic Souls Motorcycle Club",
+      "aliases": [
+        "Sadistic Souls MC",
+        "SSMC",
+        "Aryan Nations Sadistic Souls Motorcycle Club",
+        "ANSSMC"
+      ],
+      "type": "motorcycle_club",
+      "context": "White supremacist outlaw motorcycle club founded in 2010, acts as militant arm of Aryan Nations.",
+      "time_period": "2010-present"
+    },
+    {
+      "standard_name": "Aryan Nations",
+      "original_text_name": "Aryan Nations",
+      "aliases": [],
+      "type": "other",
+      "context": "Neo-Nazi organization based in North America, with which Sadistic Souls MC merged in 2012.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "United Klans of America",
+      "original_text_name": "United Klans of America",
+      "aliases": [],
+      "type": "other",
+      "context": "Racist organization part of a coalition with Sadistic Souls MC and The Creativity Movement.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "The Creativity Movement",
+      "original_text_name": "The Creativity Movement",
+      "aliases": [],
+      "type": "other",
+      "context": "Racist organization part of a coalition with Sadistic Souls MC and United Klans of America.",
+      "time_period": "1970s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Sadistic Souls Motorcycle Club",
+      "target": "Aryan Nations",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sadistic Souls MC was formed as the militant arm of Aryan Nations and formally merged with them in 2012.",
+      "time_period": "2012-present"
+    },
+    {
+      "source": "Sadistic Souls Motorcycle Club",
+      "target": "United Klans of America",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Part of a coalition called 'The Black & Silver Solution' along with The Creativity Movement.",
+      "time_period": null
+    },
+    {
+      "source": "Sadistic Souls Motorcycle Club",
+      "target": "The Creativity Movement",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Part of a coalition called 'The Black & Silver Solution' along with United Klans of America.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Sadistic_Souls_Motorcycle_Club"
+}

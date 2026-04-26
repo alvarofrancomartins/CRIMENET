@@ -1,0 +1,231 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Manitoba Warriors",
+      "original_text_name": "Manitoba Warriors",
+      "aliases": [
+        "MW"
+      ],
+      "type": "gang",
+      "context": "Indigenous street gang based in Winnipeg, Manitoba, Canada, involved in drug trafficking, auto theft, and other crimes.",
+      "time_period": "1992-present"
+    },
+    {
+      "standard_name": "Indian Posse",
+      "original_text_name": "Indian Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Indigenous street gang, rival of Manitoba Warriors, based in Winnipeg.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle gang; senior partner to Manitoba Warriors in drug trafficking.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "los Bravos",
+      "original_text_name": "los Bravos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Biker gang based in Winnipeg; allied with Manitoba Warriors and later joined Hells Angels.",
+      "time_period": "1990s-2000"
+    },
+    {
+      "standard_name": "Overlords",
+      "original_text_name": "Overlords",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang absorbed by Manitoba Warriors; had feud with Indian Posse.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Native Syndicate",
+      "original_text_name": "Native Syndicate",
+      "aliases": [],
+      "type": "gang",
+      "context": "Indigenous gang; rival of Manitoba Warriors.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang; rival sets emerged in Winnipeg in the 2000s.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Madcowz",
+      "original_text_name": "Madcowz",
+      "aliases": [],
+      "type": "gang",
+      "context": "Afro-Canadian-based gang in Winnipeg; rival of Manitoba Warriors.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Most Organized Brothers",
+      "original_text_name": "Most Organized Brothers",
+      "aliases": [
+        "MOB"
+      ],
+      "type": "gang",
+      "context": "Gang formerly affiliated with Manitoba Warriors; alliance fell apart.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Saskatchewan Warriors",
+      "original_text_name": "Saskatchewan Warriors",
+      "aliases": [
+        "SW"
+      ],
+      "type": "gang",
+      "context": "Aboriginal street gang in Saskatchewan; originally worked for Manitoba Warriors, now separate affiliate.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Alberta Warriors",
+      "original_text_name": "Alberta Warriors",
+      "aliases": [
+        "AW"
+      ],
+      "type": "gang",
+      "context": "Aboriginal street gang in Alberta; adopted Warriors banner, now separate.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "CENTRAL",
+      "original_text_name": "CENTRAL",
+      "aliases": [],
+      "type": "gang",
+      "context": "Affiliated criminal organization with Manitoba Warriors.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Loyalty Honour Silence",
+      "original_text_name": "Loyalty Honour Silence",
+      "aliases": [],
+      "type": "gang",
+      "context": "Affiliated criminal organization with Manitoba Warriors.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "MOB Squad",
+      "original_text_name": "MOB Squad",
+      "aliases": [],
+      "type": "gang",
+      "context": "Affiliated criminal organization with Manitoba Warriors.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Manitoba Warriors",
+      "target": "Indian Posse",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Manitoba Warriors were established to rival Indian Posse; violent feud including prison riot in 1996.",
+      "time_period": "1992-present"
+    },
+    {
+      "source": "Manitoba Warriors",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Manitoba Warriors support and facilitate criminal activities for Hells Angels; junior partners in drug trade.",
+      "time_period": "2000-present"
+    },
+    {
+      "source": "Manitoba Warriors",
+      "target": "los Bravos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Manitoba Warriors purchased drugs from los Bravos; alliance continued when los Bravos joined Hells Angels.",
+      "time_period": "1990s-2000"
+    },
+    {
+      "source": "Manitoba Warriors",
+      "target": "Overlords",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Manitoba Warriors absorbed Overlords into their ranks.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Manitoba Warriors",
+      "target": "Native Syndicate",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Long-time rivalry since early-to-mid 1990s.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Manitoba Warriors",
+      "target": "Bloods",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rival Bloods sets emerged in 2000s leading to skirmishes.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Manitoba Warriors",
+      "target": "Madcowz",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Madcowz pushed for drug trade leading to skirmishes.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Manitoba Warriors",
+      "target": "Most Organized Brothers",
+      "relationship": "other",
+      "detail": "former alliance",
+      "context": "Once affiliated but alliance fell apart due to unspecified blow out, leading to tension.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Manitoba Warriors",
+      "target": "Saskatchewan Warriors",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Saskatchewan Warriors originally worked for Manitoba Warriors; now separate but work together.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Manitoba Warriors",
+      "target": "Alberta Warriors",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Alberta Warriors adopted Warriors banner; known to work together.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Manitoba Warriors",
+      "target": "CENTRAL",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Affiliated criminal organization.",
+      "time_period": null
+    },
+    {
+      "source": "Manitoba Warriors",
+      "target": "Loyalty Honour Silence",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Affiliated criminal organization.",
+      "time_period": null
+    },
+    {
+      "source": "Manitoba Warriors",
+      "target": "MOB Squad",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Affiliated criminal organization.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Manitoba_Warriors"
+}

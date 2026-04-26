@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "standard_name": "211 Crew",
+      "original_text_name": "211 Crew",
+      "aliases": [
+        "Aryan Empire",
+        "Aryan Alliance",
+        "Brotherhood of Aryan Alliance",
+        "2-11 Crew",
+        "2-11 Irish Crew"
+      ],
+      "type": "gang",
+      "context": "White supremacist prison gang active in and out of prison, formed in 1995 at Denver County Jail, Colorado.",
+      "time_period": "1995-present"
+    },
+    {
+      "standard_name": "Aryan Syndicate",
+      "original_text_name": "Aryan Syndicate",
+      "aliases": [],
+      "type": "gang",
+      "context": "Colorado prison gang that merged with 211 Crew and ANP to form Aryan Empire.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "American Nazi Party",
+      "original_text_name": "ANP",
+      "aliases": [
+        "American Nazi Party"
+      ],
+      "type": "other",
+      "context": "Colorado prison gang, no relation to the group founded by Rockwell, merged with 211 Crew and Aryan Syndicate.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang; Benjamin Davis was a former member before forming 211 Crew.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Aryan Brotherhood",
+      "original_text_name": "Texas Aryan Brotherhood",
+      "aliases": [
+        "Aryan Brotherhood"
+      ],
+      "type": "gang",
+      "context": "Texas-based white supremacist prison gang; a member sent a threatening letter linked to assassinations.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "211 Crew",
+      "target": "Aryan Syndicate",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "211 Crew merged with Aryan Syndicate and ANP to form Aryan Empire.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "211 Crew",
+      "target": "American Nazi Party",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "211 Crew merged with ANP and Aryan Syndicate to form Aryan Empire.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "211 Crew",
+      "target": "Bloods",
+      "relationship": "other",
+      "detail": "former membership",
+      "context": "Founder Benjamin Davis was a former member of the Bloods before forming 211 Crew.",
+      "time_period": "before 1995"
+    },
+    {
+      "source": "211 Crew",
+      "target": "Aryan Brotherhood",
+      "relationship": "other",
+      "detail": "suspected link",
+      "context": "A Texas Aryan Brotherhood member sent a threatening letter, leading to suspicion of links to assassinations.",
+      "time_period": "2013"
+    }
+  ],
+  "source_file": "211_Crew"
+}

@@ -1,0 +1,193 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Pagans Motorcycle Club",
+      "original_text_name": "Pagan's Motorcycle Club",
+      "aliases": [
+        "Pagan Nation",
+        "Pagans",
+        "Pagans MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club active in the US, involved in drug trafficking and violent crimes.",
+      "time_period": "1959-present"
+    },
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels Motorcycle Club (HAMC)",
+      "aliases": [
+        "HAMC",
+        "Hells Angels"
+      ],
+      "type": "motorcycle_club",
+      "context": "Major outlaw motorcycle club, rival of the Pagans.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Rock Machine Motorcycle Club",
+      "original_text_name": "Rock Machine Motorcycle Club",
+      "aliases": [
+        "Rock Machine"
+      ],
+      "type": "motorcycle_club",
+      "context": "Canadian-based international motorcycle club, rival of Hells Angels.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "La Cosa Nostra",
+      "original_text_name": "La Cosa Nostra",
+      "aliases": [
+        "LCN",
+        "Mafia"
+      ],
+      "type": "mafia",
+      "context": "Italian-American organized crime families linked to Pagans in Philadelphia, Pittsburgh, New York.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Bandidos Motorcycle Club",
+      "original_text_name": "Bandidos",
+      "aliases": [
+        "Bandidos MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "One of the 'big four' motorcycle gangs, classified alongside Pagans.",
+      "time_period": "1966-present"
+    },
+    {
+      "standard_name": "Outlaws Motorcycle Club",
+      "original_text_name": "Outlaws",
+      "aliases": [
+        "Outlaws MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "One of the 'big four' motorcycle gangs, classified alongside Pagans.",
+      "time_period": "1935-present"
+    },
+    {
+      "standard_name": "Tri-County MC",
+      "original_text_name": "Tri-County MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Local motorcycle club in Hackettstown, New Jersey, targeted by Pagans.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "LaRocca crime family",
+      "original_text_name": "LaRocca crime family",
+      "aliases": [
+        "Pittsburgh mafia"
+      ],
+      "type": "mafia",
+      "context": "Pittsburgh mafia family; former boss John LaRocca was uncle to Pagan Anthony LaRocca.",
+      "time_period": "1900s-1990s"
+    },
+    {
+      "standard_name": "Breed",
+      "original_text_name": "Breed",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Motorcycle club involved in a gunfight with Pagans in Philadelphia in 1974.",
+      "time_period": "1970s"
+    },
+    {
+      "standard_name": "Wheels of Soul",
+      "original_text_name": "Wheels of Soul",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Motorcycle club attacked by Pagans in 1982 to stop their expansion in Philadelphia.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Iron Coffins",
+      "original_text_name": "Iron Coffins",
+      "aliases": [],
+      "type": "gang",
+      "context": "Erie-based gang indicted with Pagans in 1985 for drug sales.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Barbarians",
+      "original_text_name": "Barbarians",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Local motorcycle gang affiliated with Pagans in West Virginia.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Pagans Motorcycle Club",
+      "target": "Hells Angels Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Long-running feud over territory, with multiple violent incidents.",
+      "time_period": "1960s-present"
+    },
+    {
+      "source": "Pagans Motorcycle Club",
+      "target": "Rock Machine Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pagans supported Rock Machine as rivals of Hells Angels; met in 2011 to consolidate friendship.",
+      "time_period": "2011"
+    },
+    {
+      "source": "Pagans Motorcycle Club",
+      "target": "La Cosa Nostra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pagans have been linked to La Cosa Nostra crime families in Philadelphia, Pittsburgh, New York.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Pagans Motorcycle Club",
+      "target": "Tri-County MC",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Pagans attempted to intimidate Tri-County MC into aligning, leading to a violent fight in 1994.",
+      "time_period": "1994"
+    },
+    {
+      "source": "Pagans Motorcycle Club",
+      "target": "LaRocca crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pagans member Anthony LaRocca acted as liaison between Pagans and the LaRocca crime family.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "source": "Pagans Motorcycle Club",
+      "target": "Breed",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Pagans and Breed engaged in a gunfight at a Philadelphia show in 1974.",
+      "time_period": "1974"
+    },
+    {
+      "source": "Pagans Motorcycle Club",
+      "target": "Wheels of Soul",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Pagans attacked Wheels of Soul in 1982 to stop their expansion.",
+      "time_period": "1982"
+    },
+    {
+      "source": "Pagans Motorcycle Club",
+      "target": "Iron Coffins",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pagans and Iron Coffins were indicted together for drug sales in 1985.",
+      "time_period": "1985"
+    },
+    {
+      "source": "Pagans Motorcycle Club",
+      "target": "Barbarians",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pagans are affiliated with the Barbarians in West Virginia.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Pagan's_Motorcycle_Club"
+}

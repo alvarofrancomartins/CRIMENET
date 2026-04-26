@@ -1,0 +1,113 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Vineland Boys",
+      "original_text_name": "Vineland Boys",
+      "aliases": [
+        "Vineland Boyz"
+      ],
+      "type": "gang",
+      "context": "Hispanic street gang in San Fernando Valley, Los Angeles, founded in 1988.",
+      "time_period": "1988-present"
+    },
+    {
+      "standard_name": "18th Street Gang",
+      "original_text_name": "18th Street gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Large Hispanic street gang, originally from Los Angeles.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang and organized crime group controlling Sureño coalition.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureño gang coalition",
+      "aliases": [],
+      "type": "gang",
+      "context": "Coalition of Hispanic gangs allied with the Mexican Mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Armenian Power",
+      "original_text_name": "Armenian Power",
+      "aliases": [],
+      "type": "gang",
+      "context": "Armenian-American organized crime group in Los Angeles.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Abergil crime family",
+      "original_text_name": "Abergil crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Israeli mafia family involved in drug trafficking.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, one of the largest and most violent.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Vineland Boys",
+      "target": "18th Street Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Vineland Boys clashed with 18th Street gang.",
+      "time_period": null
+    },
+    {
+      "source": "Vineland Boys",
+      "target": "Mexican Mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Vineland Boys clashed with Mexican Mafia until founder was killed in 1998.",
+      "time_period": "1988-1998"
+    },
+    {
+      "source": "Vineland Boys",
+      "target": "Sureños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Vineland Boys joined the Mexican Mafia-controlled Sureño coalition after 1998.",
+      "time_period": "1998-present"
+    },
+    {
+      "source": "Vineland Boys",
+      "target": "Armenian Power",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Vineland Boys formed alliances with Armenian Power.",
+      "time_period": null
+    },
+    {
+      "source": "Vineland Boys",
+      "target": "Abergil crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Vineland Boys teamed up with Abergil crime family in 2000 for protection and cooperation in ecstasy trafficking.",
+      "time_period": "2000-present"
+    },
+    {
+      "source": "Vineland Boys",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Vineland Boys had ties to Sinaloa Cartel, revealed in 2003.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Vineland_Boys"
+}

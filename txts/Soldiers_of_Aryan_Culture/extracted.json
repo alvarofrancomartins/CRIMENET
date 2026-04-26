@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Soldiers of Aryan Culture",
+      "original_text_name": "Soldiers of Aryan Culture",
+      "aliases": [
+        "SAC",
+        "Soldiers of the Aryan Culture",
+        "Soldiers of an Aryan Culture"
+      ],
+      "type": "gang",
+      "context": "White supremacist prison gang in the United States, involved in drug trafficking, extortion, violence, and murder.",
+      "time_period": "1997-present"
+    },
+    {
+      "standard_name": "Aryan Brotherhood",
+      "original_text_name": "Aryan Brotherhood",
+      "aliases": [],
+      "type": "gang",
+      "context": "White supremacist prison gang; an affiliate introduced SAC founder to white supremacist literature.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Silent Aryan Warriors",
+      "original_text_name": "Silent Aryan Warriors",
+      "aliases": [],
+      "type": "gang",
+      "context": "White supremacist prison gang; allied with SAC in the 2002 Winter Olympics bomb plot and drug trafficking.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nazi Lowriders",
+      "original_text_name": "Nazi Lowriders",
+      "aliases": [],
+      "type": "gang",
+      "context": "White supremacist prison gang; mentioned as distinct from SAC in ideology.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Noble Elect Thugs",
+      "original_text_name": "Noble Elect Thugs",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group charged alongside SAC and Silent Aryan Warriors in a 2020 drug and firearms distribution case.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Krieger Verwandt",
+      "original_text_name": "Krieger Verwandt",
+      "aliases": [],
+      "type": "gang",
+      "context": "Listed as an ally of SAC in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Norteños",
+      "original_text_name": "Norteños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Hispanic street gang; listed as a rival of SAC in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Big Circle Gang",
+      "original_text_name": "Big Circle Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chinese organized crime group; listed as a rival of SAC in the infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Soldiers of Aryan Culture",
+      "target": "Aryan Brotherhood",
+      "relationship": "other",
+      "detail": "influence",
+      "context": "An Aryan Brotherhood affiliate introduced SAC founder to white supremacist literature, influencing SAC's formation.",
+      "time_period": "mid-to-late 1990s"
+    },
+    {
+      "source": "Soldiers of Aryan Culture",
+      "target": "Silent Aryan Warriors",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied in the 2002 Winter Olympics bomb plot and later charged together in a drug and firearms distribution case.",
+      "time_period": "2002-2020"
+    },
+    {
+      "source": "Soldiers of Aryan Culture",
+      "target": "Noble Elect Thugs",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Charged together with Silent Aryan Warriors in a 2020 drug and firearms distribution case.",
+      "time_period": "2020"
+    },
+    {
+      "source": "Soldiers of Aryan Culture",
+      "target": "Krieger Verwandt",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Soldiers of Aryan Culture",
+      "target": "Norteños",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Soldiers of Aryan Culture",
+      "target": "Big Circle Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Soldiers_of_Aryan_Culture"
+}

@@ -1,0 +1,91 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Gate Keepers Motorcycle Club",
+      "original_text_name": "Gate Keepers Motorcycle Club",
+      "aliases": [
+        "Gate Keepers MC",
+        "Gate Keepers"
+      ],
+      "type": "motorcycle_club",
+      "context": "Canadian outlaw motorcycle club founded in 2013, operates as a support club for Hells Angels in Canada.",
+      "time_period": "2013-present"
+    },
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels",
+      "aliases": [
+        "HAMC",
+        "Hells Angels Motorcycle Club"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club, sponsors Gate Keepers as a support club in Canada.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Bacchus Motorcycle Club",
+      "original_text_name": "Bacchus Motorcycle Club",
+      "aliases": [
+        "Bacchus MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Canadian outlaw motorcycle club that considers eastern Canada its territory, competes with Gate Keepers.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Red Devils Motorcycle Club",
+      "original_text_name": "Red Devils Motorcycle Club",
+      "aliases": [
+        "Red Devils MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "International support club of Hells Angels, expanded into eastern Canada recruiting from Gate Keepers and Darksiders.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Darksiders Motorcycle Club",
+      "original_text_name": "Darksiders MC",
+      "aliases": [
+        "Darksiders"
+      ],
+      "type": "motorcycle_club",
+      "context": "Nova Scotia motorcycle club that patched over to become Gate Keepers in 2013.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Gate Keepers Motorcycle Club",
+      "target": "Hells Angels Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Gate Keepers operates as a support club for Hells Angels, sponsored by Hells Angels London chapter.",
+      "time_period": "2013-present"
+    },
+    {
+      "source": "Gate Keepers Motorcycle Club",
+      "target": "Bacchus Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Both clubs compete to be the dominant biker club in Nova Scotia, though no direct conflict reported.",
+      "time_period": "2015-present"
+    },
+    {
+      "source": "Gate Keepers Motorcycle Club",
+      "target": "Red Devils Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Red Devils recruited members from Gate Keepers as part of Hells Angels' consolidation through support clubs.",
+      "time_period": "2018-present"
+    },
+    {
+      "source": "Gate Keepers Motorcycle Club",
+      "target": "Darksiders Motorcycle Club",
+      "relationship": "other",
+      "detail": "patch over",
+      "context": "Darksiders MC patched over to become a chapter of Gate Keepers in 2013.",
+      "time_period": "2013"
+    }
+  ],
+  "source_file": "Gate_Keepers_Motorcycle_Club"
+}

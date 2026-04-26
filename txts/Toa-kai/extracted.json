@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Toa-kai",
+      "original_text_name": "Toa-kai",
+      "aliases": [
+        "Tosei-kai",
+        "Toa Yuai Jigyo Kumiai",
+        "Toa Yuai",
+        "East Asia Friendship Enterprise Association"
+      ],
+      "type": "mafia",
+      "context": "Yakuza syndicate based in Tokyo, involved in anti-communist activism and legitimate businesses.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Kanto Hatsuka-kai",
+      "original_text_name": "Kanto Hatsuka-kai",
+      "aliases": [],
+      "type": "other",
+      "context": "Bakuto fraternal federation of Kanto-based yakuza syndicates.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sumiyoshi-kai",
+      "original_text_name": "Sumiyoshi-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza syndicate based in Kanto region, member of Kanto Hatsuka-kai.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Inagawa-kai",
+      "original_text_name": "Inagawa-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza syndicate based in Kanto region, member of Kanto Hatsuka-kai.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Matsuba-kai",
+      "original_text_name": "Matsuba-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza syndicate based in Kanto region, member of Kanto Hatsuka-kai.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Soai-kai",
+      "original_text_name": "Soai-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza syndicate based in Kanto region, member of Kanto Hatsuka-kai.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Largest known yakuza syndicate, based in Kobe, with influence nationwide.",
+      "time_period": "1915-present"
+    },
+    {
+      "standard_name": "Yoshimi-kogyo",
+      "original_text_name": "Yoshimi-kogyo",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Branch organization of Toa-kai in Okinawa, dissolved in 2012.",
+      "time_period": "late 20th century-2012"
+    },
+    {
+      "standard_name": "Makoto-kai",
+      "original_text_name": "Makoto-kai",
+      "aliases": [],
+      "type": "other",
+      "context": "Anti-left nationalist organization formed by Toshio Gibo in Okinawa, precursor to Yoshimi-kogyo.",
+      "time_period": "late 20th century"
+    },
+    {
+      "standard_name": "Kyokuryu-kai",
+      "original_text_name": "Kyokuryu-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Dominant yakuza syndicate in Okinawa, known for violently expelling other syndicates.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Okinawa Kyokuryu-kai",
+      "original_text_name": "Okinawa Kyokuryu-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Splinter or related group of Kyokuryu-kai in Okinawa.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dojin-kai",
+      "original_text_name": "Dojin-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza syndicate that attempted to expand into Okinawa with heavy violence.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Toa-kai",
+      "target": "Kanto Hatsuka-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Toa-kai is a member of the Kanto Hatsuka-kai federation.",
+      "time_period": null
+    },
+    {
+      "source": "Sumiyoshi-kai",
+      "target": "Kanto Hatsuka-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sumiyoshi-kai is a member of the Kanto Hatsuka-kai federation.",
+      "time_period": null
+    },
+    {
+      "source": "Inagawa-kai",
+      "target": "Kanto Hatsuka-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Inagawa-kai is a member of the Kanto Hatsuka-kai federation.",
+      "time_period": null
+    },
+    {
+      "source": "Matsuba-kai",
+      "target": "Kanto Hatsuka-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Matsuba-kai is a member of the Kanto Hatsuka-kai federation.",
+      "time_period": null
+    },
+    {
+      "source": "Soai-kai",
+      "target": "Kanto Hatsuka-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Soai-kai is a member of the Kanto Hatsuka-kai federation.",
+      "time_period": null
+    },
+    {
+      "source": "Toa-kai",
+      "target": "Yamaguchi-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Toa-kai has aligned with Yamaguchi-gumi since the Taoka era and is supported by its godfather.",
+      "time_period": "20th century-present"
+    },
+    {
+      "source": "Yoshimi-kogyo",
+      "target": "Toa-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Yoshimi-kogyo is a branch organization of Toa-kai in Okinawa.",
+      "time_period": "late 20th century-2012"
+    },
+    {
+      "source": "Makoto-kai",
+      "target": "Yoshimi-kogyo",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "Makoto-kai was the origin of Yoshimi-kogyo, formed by Toshio Gibo.",
+      "time_period": "late 20th century"
+    },
+    {
+      "source": "Kyokuryu-kai",
+      "target": "Toa-kai",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kyokuryu-kai has attacked and expelled other syndicates, but Toa-kai's gentle stance allowed it to remain active.",
+      "time_period": null
+    },
+    {
+      "source": "Kyokuryu-kai",
+      "target": "Yamaguchi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kyokuryu-kai violently opposed Yamaguchi-gumi's attempts to expand into Okinawa.",
+      "time_period": null
+    },
+    {
+      "source": "Kyokuryu-kai",
+      "target": "Dojin-kai",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kyokuryu-kai violently opposed Dojin-kai's attempts to expand into Okinawa.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Toa-kai"
+}

@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "standard_name": "McCarthy-Dundon Gang",
+      "original_text_name": "McCarthy-Dundon's",
+      "aliases": [
+        "McCarthy-Dundon Gang",
+        "McCarthy-Dundons"
+      ],
+      "type": "gang",
+      "context": "Criminal gang based in Limerick City, involved in drug dealing, extortion, and armed robbery.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Ryan Gang",
+      "original_text_name": "Ryans",
+      "aliases": [
+        "Ryan Gang"
+      ],
+      "type": "gang",
+      "context": "Criminal family involved in the Limerick feud.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Keane-Collopy Gang",
+      "original_text_name": "Keane-Collopy gang",
+      "aliases": [
+        "Keane-Collopy Gang"
+      ],
+      "type": "gang",
+      "context": "Criminal gang from St. Mary's Park, involved in the Limerick feud.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Hutch Organised Crime Gang",
+      "original_text_name": "Hutch Organised Crime Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with the McCarthy-Dundon Gang.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "McCarthy-Dundon Gang",
+      "target": "Ryan Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allies in the Limerick feud.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "McCarthy-Dundon Gang",
+      "target": "Keane-Collopy Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rivals in the Limerick feud.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "McCarthy-Dundon Gang",
+      "target": "Hutch Organised Crime Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allies according to infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "McCarthy-Dundon"
+}

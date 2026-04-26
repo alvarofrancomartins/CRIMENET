@@ -1,0 +1,113 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Azerbaijani mafia",
+      "original_text_name": "Azerbaijani mafia",
+      "aliases": [
+        "Azərbaycan mafiyası"
+      ],
+      "type": "mafia",
+      "context": "General term for organized criminal groups of ethnic Azerbaijanis, active in Russia, former Soviet states, Turkey, Netherlands, Germany, and other European countries. Engaged in drug trafficking, arms trafficking, fraud, money laundering, etc.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Chechen mafia",
+      "original_text_name": "Chechen mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Organized crime group from Chechnya, active in Russia. Weakened in the 1990s, allowing Azerbaijani groups to take over heroin trade.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Russian mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Organized crime groups from Russia, active in Moscow and other cities. Allies of Azerbaijani mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Turkish mafia",
+      "original_text_name": "Turkish mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Organized crime groups from Turkey. Allies of Azerbaijani mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Pakistani mafia",
+      "original_text_name": "Pakistani mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Organized crime groups from Pakistan. Allies of Azerbaijani mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Armenian mafia",
+      "original_text_name": "Armenian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Organized crime groups from Armenia. Rivals of Azerbaijani mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Elmuraz Mamedov's criminal band",
+      "original_text_name": "criminal band connected to Elmuraz Mamedov",
+      "aliases": [],
+      "type": "gang",
+      "context": "Azerbaijani criminal group operating from Poland, engaged in extortion in Tbilisi's Lilo Mall market and active in Ukraine.",
+      "time_period": "2023"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Azerbaijani mafia",
+      "target": "Chechen mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Azerbaijani groups took over heroin trade after Chechen mafia was weakened in the 1990s.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Azerbaijani mafia",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Azerbaijani mafia",
+      "target": "Turkish mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Azerbaijani mafia",
+      "target": "Pakistani mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Azerbaijani mafia",
+      "target": "Armenian mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rivals in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Elmuraz Mamedov's criminal band",
+      "target": "Azerbaijani mafia",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The band is an Azerbaijani criminal group connected to thief in law Elmuraz Mamedov, part of the broader Azerbaijani mafia.",
+      "time_period": "2023"
+    }
+  ],
+  "source_file": "Azerbaijani_mafia"
+}

@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Zetas Vieja Escuela",
+      "original_text_name": "Zetas Vieja Escuela",
+      "aliases": [
+        "ZVE",
+        "Old School Zetas"
+      ],
+      "type": "cartel",
+      "context": "Splinter group of Los Zetas, founded in 2014, involved in drug trafficking, extortion, kidnapping, murder, oil theft. Operates in multiple Mexican states.",
+      "time_period": "2014-present"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Original criminal organization from which Zetas Vieja Escuela splintered. Originated from Mexican Army special forces.",
+      "time_period": "1997-present"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "CJNG"
+      ],
+      "type": "cartel",
+      "context": "Rival cartel that executed a member of Zetas Vieja Escuela in March 2019 and was targeted by ZVE in retaliation.",
+      "time_period": "2009-present"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Ally of Zetas Vieja Escuela according to the infobox.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Cártel del Noreste",
+      "original_text_name": "Cártel del Noreste",
+      "aliases": [
+        "CDN"
+      ],
+      "type": "cartel",
+      "context": "Rival of Zetas Vieja Escuela according to the infobox.",
+      "time_period": "2014-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Zetas Vieja Escuela",
+      "target": "Los Zetas",
+      "relationship": "other",
+      "detail": "splintered from",
+      "context": "Zetas Vieja Escuela splintered from Los Zetas in 2014, founded by dissidents including José Guizar Valencia.",
+      "time_period": "2014"
+    },
+    {
+      "source": "Zetas Vieja Escuela",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "rivalry",
+      "context": "Members of CJNG executed a ZVE member in March 2019; ZVE retaliated by killing three alleged CJNG members in April 2019.",
+      "time_period": "2019"
+    },
+    {
+      "source": "Zetas Vieja Escuela",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "context": "According to the infobox, Gulf Cartel is an ally of Zetas Vieja Escuela.",
+      "time_period": null
+    },
+    {
+      "source": "Zetas Vieja Escuela",
+      "target": "Cártel del Noreste",
+      "relationship": "rivalry",
+      "context": "According to the infobox, Cártel del Noreste is a rival of Zetas Vieja Escuela.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Zetas_Vieja_Escuela"
+}

@@ -1,0 +1,169 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cesarano clan",
+      "original_text_name": "Cesarano clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Castellammare di Stabia, active in racketeering, drug trafficking, extortion, and usury.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra coalition that defeated the Nuova Camorra Organizzata in the 1980s.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "type": "clan",
+      "context": "Camorra organization led by Raffaele Cutolo, defeated by the Nuova Famiglia.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "Matrone clan",
+      "original_text_name": "Matrone clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan rival to the Cesarano clan over territorial expansion in Scafati.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mallardo clan",
+      "original_text_name": "Mallardo clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Giugliano in Campania, allied with the Cesarano clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Pecoraro-Renna clan",
+      "original_text_name": "Pecoraro-Renna clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Battipaglia, allied with the Cesarano clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "D'Alessandro clan",
+      "original_text_name": "D'Alessandro clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Castellammare di Stabia, allied with the Cesarano clan in funeral monopoly.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Alfieri clan",
+      "original_text_name": "Alfieri clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Defunct Camorra clan, former ally of the Cesarano clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Galasso clan",
+      "original_text_name": "Galasso clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Defunct Camorra clan, former ally of the Cesarano clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Russo clan",
+      "original_text_name": "Russo clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, ally of the Cesarano clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Moccia clan",
+      "original_text_name": "Moccia clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, rival of the Cesarano clan.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cesarano clan",
+      "target": "Nuova Famiglia",
+      "relationship": "other",
+      "detail": "former affiliation",
+      "context": "Founder Ferdinando Cesarano worked for the Nuova Famiglia before founding his own clan.",
+      "time_period": "late 1970s-1980s"
+    },
+    {
+      "source": "Cesarano clan",
+      "target": "Matrone clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Tension due to Cesarano attempts to expand into Scafati.",
+      "time_period": null
+    },
+    {
+      "source": "Cesarano clan",
+      "target": "Mallardo clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Alliance formed for criminal activities.",
+      "time_period": null
+    },
+    {
+      "source": "Cesarano clan",
+      "target": "Pecoraro-Renna clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Alliance formed for criminal activities.",
+      "time_period": null
+    },
+    {
+      "source": "Cesarano clan",
+      "target": "D'Alessandro clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Agreement to manage funeral monopoly in Castellammare di Stabia.",
+      "time_period": null
+    },
+    {
+      "source": "Cesarano clan",
+      "target": "Alfieri clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Former ally, now defunct.",
+      "time_period": null
+    },
+    {
+      "source": "Cesarano clan",
+      "target": "Galasso clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Former ally, now defunct.",
+      "time_period": null
+    },
+    {
+      "source": "Cesarano clan",
+      "target": "Russo clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ally.",
+      "time_period": null
+    },
+    {
+      "source": "Cesarano clan",
+      "target": "Moccia clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rival.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Cesarano_clan"
+}

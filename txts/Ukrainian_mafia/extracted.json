@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Ukrainian mafia",
+      "original_text_name": "Ukrainian mafia",
+      "aliases": [
+        "Ukrainian organized crime",
+        "Ukrainian crime syndicates"
+      ],
+      "type": "mafia",
+      "context": "Loosely connected criminal organizations from Ukraine involved in drug trafficking, arms smuggling, money laundering, extortion, and corruption.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Odesa mafia",
+      "original_text_name": "Odesa mafia",
+      "aliases": [
+        "Malina",
+        "Odesa Mob",
+        "Odesa crime family"
+      ],
+      "type": "mafia",
+      "context": "Infamous Ukrainian mafia group based in Odesa, involved in smuggling, drug trafficking, and arms trafficking, with international reach.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Neapolitan Camorra",
+      "aliases": [
+        "Camorra"
+      ],
+      "type": "clan",
+      "context": "Italian mafia-type organization from Naples, involved in cigarette smuggling and other illicit activities.",
+      "time_period": "1800s-present"
+    },
+    {
+      "standard_name": "Contini clan",
+      "original_text_name": "Contini clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "A clan of the Camorra, involved in cigarette smuggling cooperation with Ukrainian groups.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Russian mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [
+        "Russian organized crime"
+      ],
+      "type": "mafia",
+      "context": "Criminal organizations from Russia, cooperating with Ukrainian groups in trafficking and other activities.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Amber mafia",
+      "original_text_name": "amber mafia",
+      "aliases": [
+        "People's Republic of Amber"
+      ],
+      "type": "other",
+      "context": "Network of illegal miners, smugglers, corrupt officials, and armed groups involved in illegal amber mining in northwestern Ukraine.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "White Brotherhood",
+      "original_text_name": "White Brotherhood",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ukrainian criminal organization involved in drug production and trafficking in Dnipropetrovsk region.",
+      "time_period": "2020s-present"
+    },
+    {
+      "standard_name": "Zakarov Syndicate",
+      "original_text_name": "Zakarov Syndicate",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Fictional Ukrainian mafia family in the video game Stranglehold, involved in sweatshops and crack cocaine trade.",
+      "time_period": "2007"
+    },
+    {
+      "standard_name": "Whisper Gang",
+      "original_text_name": "Whisper Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Fictional Ukrainian mob group in Batman comics and Gotham TV series, led by Luka Volk.",
+      "time_period": "2012-present"
+    },
+    {
+      "standard_name": "Koshka Brotherhood",
+      "original_text_name": "Koshka Brotherhood",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Fictional Kyiv-based crime syndicate in the TV series Dexter, specializing in heroin and human trafficking.",
+      "time_period": "2012"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ukrainian mafia",
+      "target": "Camorra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ukrainian mafia cooperated with Camorra in cigarette smuggling from Ukraine to Italy.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Ukrainian mafia",
+      "target": "Contini clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Contini clan cooperated with Ukrainian mafia in cigarette smuggling scheme.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Ukrainian mafia",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ukrainian and Russian mafia cooperated in trafficking drugs, weapons, and people; ties severed after 2022 invasion but continue abroad.",
+      "time_period": "1990s-2022"
+    },
+    {
+      "source": "Odesa mafia",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Odesa mafia cooperated with Russian mafia gangs in trafficking heroin, people, and counterfeit cigarettes.",
+      "time_period": "1990s-2022"
+    }
+  ],
+  "source_file": "Ukrainian_mafia"
+}

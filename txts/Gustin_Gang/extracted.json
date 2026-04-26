@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Gustin Gang",
+      "original_text_name": "Gustin Gang",
+      "aliases": [
+        "Tailboard Thieves"
+      ],
+      "type": "gang",
+      "context": "Irish-American gang active in Boston during Prohibition, involved in hijacking, bootlegging, and armed robbery.",
+      "time_period": "1910s-1930s"
+    },
+    {
+      "standard_name": "Lombardo Crime Family",
+      "original_text_name": "Joe Lombardo (Lombardi) of the North End",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American gangsters from Boston's North End, rivals of the Gustin Gang.",
+      "time_period": "1920s-1930s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Gustin Gang",
+      "target": "Lombardo Crime Family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Lombardo's gang ambushed and killed Gustin leaders Frank Wallace and Bernard Walsh in 1931.",
+      "time_period": "1931"
+    }
+  ],
+  "source_file": "Gustin_Gang"
+}

@@ -1,0 +1,112 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Joe Boys",
+      "original_text_name": "Joe Boys",
+      "aliases": [
+        "JBS",
+        "Chung Ching Yee",
+        "Joe Fong Boys"
+      ],
+      "type": "gang",
+      "context": "Chinese American youth gang active in San Francisco's Chinatown, involved in drug trafficking, extortion, murder.",
+      "time_period": "1969-1977"
+    },
+    {
+      "standard_name": "Wah Ching",
+      "original_text_name": "Wah Ching",
+      "aliases": [],
+      "type": "gang",
+      "context": "Youth gang formed in Chinatown in 1964 to protect new immigrants; later absorbed into Hop Sing Tong.",
+      "time_period": "1964-1977"
+    },
+    {
+      "standard_name": "Hop Sing Tong",
+      "original_text_name": "Hop Sing Tong",
+      "aliases": [
+        "Hop Sing"
+      ],
+      "type": "other",
+      "context": "Traditional Chinatown organization that absorbed the Wah Ching as its youth wing.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Suey Sing Tong",
+      "original_text_name": "Suey Sing Tong",
+      "aliases": [],
+      "type": "other",
+      "context": "Traditional Chinatown organization rival to Hop Sing Tong; later allied with Joe Boys.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Yau Lai",
+      "original_text_name": "Yau Lai",
+      "aliases": [
+        "Yo Le",
+        "Yau Lay"
+      ],
+      "type": "gang",
+      "context": "Splinter group from Wah Ching formed in 1969; Joe Fong's group split from it.",
+      "time_period": "1969-1971"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Joe Boys",
+      "target": "Wah Ching",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Joe Boys and Wah Ching were engaged in a violent war from 1969 to 1977, culminating in the Golden Dragon Massacre.",
+      "time_period": "1969-1977"
+    },
+    {
+      "source": "Joe Boys",
+      "target": "Suey Sing Tong",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The infobox lists Suey Sing Tong as allies of the Joe Boys.",
+      "time_period": null
+    },
+    {
+      "source": "Wah Ching",
+      "target": "Hop Sing Tong",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Wah Ching were absorbed into the Hop Sing Tong as their youth organization.",
+      "time_period": "1968-1977"
+    },
+    {
+      "source": "Yau Lai",
+      "target": "Wah Ching",
+      "relationship": "other",
+      "detail": "splinter group",
+      "context": "The Yau Lai split from the Wah Ching in 1969 due to dissatisfaction with the merger into Hop Sing Tong.",
+      "time_period": "1969"
+    },
+    {
+      "source": "Joe Boys",
+      "target": "Yau Lai",
+      "relationship": "other",
+      "detail": "splinter group",
+      "context": "Joe Fong's group splintered from the Yau Lai in early 1971 and later re-absorbed and split again.",
+      "time_period": "1971"
+    },
+    {
+      "source": "Suey Sing Tong",
+      "target": "Wah Ching",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Suey Sing Tong were rivals of the Wah Ching, with violent clashes in 1970.",
+      "time_period": "1970"
+    },
+    {
+      "source": "Suey Sing Tong",
+      "target": "Hop Sing Tong",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Suey Sing Tong and Hop Sing Tong were prominent traditional rival gangs in Chinatown.",
+      "time_period": "1960s-1970s"
+    }
+  ],
+  "source_file": "Chung_Ching_Yee"
+}

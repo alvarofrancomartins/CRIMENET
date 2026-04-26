@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Charles Martel Group",
+      "original_text_name": "Charles Martel Group",
+      "aliases": [
+        "Groupe Charles-Martel",
+        "Club Charles-Martel",
+        "Cercle Charles-Martel",
+        "Commando Charles-Martel"
+      ],
+      "type": "other",
+      "context": "French far-right anti-Arab militant group active in the 1970s and 1980s, targeting Algerian properties and individuals.",
+      "time_period": "1973-1987"
+    },
+    {
+      "standard_name": "Organisation armée secrète",
+      "original_text_name": "Organisation armée secrète",
+      "aliases": [
+        "OAS"
+      ],
+      "type": "militia",
+      "context": "French far-right paramilitary organization that fought against Algerian independence during the Algerian War.",
+      "time_period": "1961-1962"
+    },
+    {
+      "standard_name": "Polisario Front",
+      "original_text_name": "Polisario Front",
+      "aliases": [],
+      "type": "militia",
+      "context": "Algerian-backed militant group involved in conflict in Mauritania, which kidnapped French nationals in 1977.",
+      "time_period": "1970s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Charles Martel Group",
+      "target": "Organisation armée secrète",
+      "relationship": "other",
+      "detail": "formed by veterans of",
+      "context": "The Charles Martel Group was formed by veterans of the Organisation armée secrète.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Charles Martel Group",
+      "target": "Polisario Front",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Charles Martel Group kidnapped two Algerians in 1977 as reprisal for Polisario Front's killing and kidnapping of French nationals.",
+      "time_period": "1977"
+    }
+  ],
+  "source_file": "Charles_Martel_Group"
+}

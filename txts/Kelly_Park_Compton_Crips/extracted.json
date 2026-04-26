@@ -1,0 +1,98 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kelly Park Compton Crips",
+      "original_text_name": "Kelly Park Compton Crips",
+      "aliases": [
+        "Kelly Park Hustler Crips",
+        "KPCC"
+      ],
+      "type": "gang",
+      "context": "A set of the Crips gang alliance based in Kelly Park, Compton, CA. Known for ties to N.W.A members Eazy-E and MC Ren.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A large alliance of street gangs based in Los Angeles, California. Kelly Park Compton Crips is a set within this alliance.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Lueders Park Piru",
+      "original_text_name": "Lueders Park Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Piru set (Bloods affiliate) based in Lueders Park, Compton. Involved in a gang war with Kelly Park Compton Crips in 1985.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Mob Piru",
+      "original_text_name": "Mob Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Piru set (Bloods affiliate) listed as a rival of Kelly Park Compton Crips.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Elm Street Piru",
+      "original_text_name": "Elm Street Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Piru set (Bloods affiliate) listed as a rival of Kelly Park Compton Crips.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Lime Hood Piru",
+      "original_text_name": "Lime Hood Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Piru set (Bloods affiliate) mentioned as having green as its gang color, prohibited in Kelly Park.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kelly Park Compton Crips",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kelly Park Compton Crips is a set within the larger Crips gang alliance.",
+      "time_period": "1980s-present"
+    },
+    {
+      "source": "Kelly Park Compton Crips",
+      "target": "Lueders Park Piru",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "A gang war in 1985 led to retaliatory killings between the two sets.",
+      "time_period": "1985"
+    },
+    {
+      "source": "Kelly Park Compton Crips",
+      "target": "Mob Piru",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Kelly Park Compton Crips",
+      "target": "Elm Street Piru",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Kelly Park Compton Crips",
+      "target": "Lime Hood Piru",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Lime Hood Piru is a Bloods affiliate; wearing green (their color) was prohibited in Kelly Park due to gang activity.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Kelly_Park_Compton_Crips"
+}

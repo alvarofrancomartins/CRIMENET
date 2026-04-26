@@ -1,0 +1,215 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Largest yakuza syndicate in Japan, based in Kobe.",
+      "time_period": "1915-present"
+    },
+    {
+      "standard_name": "Kobe Yamaguchi-gumi",
+      "original_text_name": "Kobe Yamaguchi-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Split from Yamaguchi-gumi in 2015, based in Kobe.",
+      "time_period": "2015-present"
+    },
+    {
+      "standard_name": "Kizuna-kai",
+      "original_text_name": "Kizuna-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Split from Kobe Yamaguchi-gumi in 2017.",
+      "time_period": "2017-present"
+    },
+    {
+      "standard_name": "Ikeda-gumi",
+      "original_text_name": "Ikeda-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Split from Kobe Yamaguchi-gumi in 2020.",
+      "time_period": "2020-present"
+    },
+    {
+      "standard_name": "Sumiyoshi-kai",
+      "original_text_name": "Sumiyoshi-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Major yakuza syndicate based in Tokyo.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Inagawa-kai",
+      "original_text_name": "Inagawa-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Major yakuza syndicate based in Tokyo.",
+      "time_period": "1949-present"
+    },
+    {
+      "standard_name": "Kudo-kai",
+      "original_text_name": "Kudo-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Designated yakuza based in Fukuoka, especially dangerous.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Taishu-kai",
+      "original_text_name": "Taishu-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Designated yakuza based in Fukuoka.",
+      "time_period": "unknown-present"
+    },
+    {
+      "standard_name": "Fukuhaku-kai",
+      "original_text_name": "Fukuhaku-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Designated yakuza based in Fukuoka.",
+      "time_period": "unknown-present"
+    },
+    {
+      "standard_name": "Dojin-kai",
+      "original_text_name": "Dojin-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Designated yakuza based in Fukuoka.",
+      "time_period": "unknown-present"
+    },
+    {
+      "standard_name": "Namikawa-kai",
+      "original_text_name": "Namikawa-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Designated yakuza based in Fukuoka.",
+      "time_period": "unknown-present"
+    },
+    {
+      "standard_name": "Goto-gumi",
+      "original_text_name": "Goto-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza group headed by Tadamasa Goto; involved in information exchange with FBI.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Tosei-kai",
+      "original_text_name": "Tosei-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza group founded by Hisayuki Machii, of Korean ancestry.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Aizukotetsu-kai",
+      "original_text_name": "Aizukotetsu-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza group; 4th-generation head was Tokutaro Takayama, of Korean ancestry.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kyokuto-kai",
+      "original_text_name": "Kyokuto-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza group; 5th-generation head was Shinichi Matsuyama, of Korean ancestry.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kyokushinrengo-kai",
+      "original_text_name": "Kyokushinrengo-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Now-defunct yakuza group founded by Hirofumi Hashimoto, of Korean ancestry.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kodo-kai",
+      "original_text_name": "Kodo-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza group; chief Kiyoshi Takayama was arrested in 2010.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kobe Yamaguchi-gumi",
+      "target": "Yamaguchi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kobe Yamaguchi-gumi split from Yamaguchi-gumi in 2015 and they are fighting each other.",
+      "time_period": "2015-present"
+    },
+    {
+      "source": "Kizuna-kai",
+      "target": "Kobe Yamaguchi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kizuna-kai split from Kobe Yamaguchi-gumi in 2017 and they are fighting each other.",
+      "time_period": "2017-present"
+    },
+    {
+      "source": "Ikeda-gumi",
+      "target": "Kobe Yamaguchi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ikeda-gumi split from Kobe Yamaguchi-gumi in 2020 and they are fighting each other.",
+      "time_period": "2020-present"
+    },
+    {
+      "source": "Yamaguchi-gumi",
+      "target": "Sumiyoshi-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The three major syndicates formed a loose alliance; leaders held a social gathering in April 2023.",
+      "time_period": "2023-present"
+    },
+    {
+      "source": "Yamaguchi-gumi",
+      "target": "Inagawa-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The three major syndicates formed a loose alliance; leaders held a social gathering in April 2023.",
+      "time_period": "2023-present"
+    },
+    {
+      "source": "Sumiyoshi-kai",
+      "target": "Inagawa-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The three major syndicates formed a loose alliance; leaders held a social gathering in April 2023.",
+      "time_period": "2023-present"
+    },
+    {
+      "source": "Yamaguchi-gumi",
+      "target": "Dojin-kai",
+      "relationship": "other",
+      "detail": "contrast in drug policy",
+      "context": "Yamaguchi-gumi officially forbids drug trafficking, while Dojin-kai is heavily involved.",
+      "time_period": null
+    },
+    {
+      "source": "Yamaguchi-gumi",
+      "target": "Goto-gumi",
+      "relationship": "other",
+      "detail": "hierarchy",
+      "context": "Goto-gumi is a subgroup within Yamaguchi-gumi; its head provided information on Yamaguchi-gumi operations.",
+      "time_period": null
+    },
+    {
+      "source": "Yamaguchi-gumi",
+      "target": "Kodo-kai",
+      "relationship": "other",
+      "detail": "hierarchy",
+      "context": "Kodo-kai is a subgroup within Yamaguchi-gumi; its chief was arrested as Yamaguchi-gumi's number two.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Yakuza"
+}

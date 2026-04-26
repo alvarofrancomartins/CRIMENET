@@ -1,0 +1,179 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sun Yee On",
+      "original_text_name": "Sun Yee On",
+      "aliases": [
+        "新義安",
+        "san1 ji6 on1",
+        "sān yih ōn"
+      ],
+      "type": "triad",
+      "context": "One of the leading triads in Hong Kong and China, with over 25,000 members worldwide. Active in racketeering, counterfeiting, extortion, drug trafficking, money laundering, murder, illegal gambling.",
+      "time_period": "1919-present"
+    },
+    {
+      "standard_name": "Wo Shing Wo",
+      "original_text_name": "Wo Shing Wo",
+      "aliases": [],
+      "type": "triad",
+      "context": "A triad gang that murdered Sun Yee On boss Lee Tai-lung in 2009 as a revenge attack.",
+      "time_period": null
+    },
+    {
+      "standard_name": "14K",
+      "original_text_name": "14K",
+      "aliases": [],
+      "type": "triad",
+      "context": "A triad group that competes with Sun Yee On in Roanapur in the anime Black Lagoon.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Wo Hop To",
+      "original_text_name": "Wo Hop To",
+      "aliases": [],
+      "type": "triad",
+      "context": "Listed as an ally of Sun Yee On in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Wo On Lok",
+      "original_text_name": "Wo On Lok",
+      "aliases": [],
+      "type": "triad",
+      "context": "Listed as an ally of Sun Yee On in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Albanian mafia",
+      "original_text_name": "Albanian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Listed as an ally of Sun Yee On in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "clan",
+      "context": "Listed as an ally of Sun Yee On in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Serbian mafia",
+      "original_text_name": "Serbian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Listed as an ally of Sun Yee On in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "American Mafia",
+      "original_text_name": "American Mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Listed as an ally of Sun Yee On in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Listed as an ally of Sun Yee On in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Wah Ching",
+      "original_text_name": "Wah Ching",
+      "aliases": [],
+      "type": "gang",
+      "context": "Listed as a rival of Sun Yee On in the infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Sun Yee On",
+      "target": "Wo Shing Wo",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Wo Shing Wo members murdered Sun Yee On boss Lee Tai-lung in 2009 as a revenge attack.",
+      "time_period": "2009"
+    },
+    {
+      "source": "Sun Yee On",
+      "target": "14K",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "In the anime Black Lagoon, the Thai branch of Sun Yee On competes with 14K in Roanapur.",
+      "time_period": null
+    },
+    {
+      "source": "Sun Yee On",
+      "target": "Wo Hop To",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Sun Yee On",
+      "target": "Wo On Lok",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Sun Yee On",
+      "target": "Albanian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Sun Yee On",
+      "target": "Camorra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Sun Yee On",
+      "target": "Serbian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Sun Yee On",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Sun Yee On",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Sun Yee On",
+      "target": "Wah Ching",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Sun_Yee_On"
+}

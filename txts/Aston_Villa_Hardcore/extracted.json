@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Aston Villa Hardcore",
+      "original_text_name": "Aston Villa Hardcore",
+      "aliases": [
+        "Villa Hardcore",
+        "Villa Youth",
+        "Hardcore Youth"
+      ],
+      "type": "gang",
+      "context": "Football hooligan firm associated with Aston Villa FC, based in Birmingham, England.",
+      "time_period": "1993-present"
+    },
+    {
+      "standard_name": "Steamers",
+      "original_text_name": "Steamers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Previous Aston Villa hooligan firm.",
+      "time_period": "before 1993"
+    },
+    {
+      "standard_name": "C-Crew",
+      "original_text_name": "C-Crew",
+      "aliases": [],
+      "type": "gang",
+      "context": "Previous Aston Villa hooligan firm.",
+      "time_period": "before 1993"
+    },
+    {
+      "standard_name": "Zulu Warriors",
+      "original_text_name": "Zulu Warriors",
+      "aliases": [
+        "Zulus"
+      ],
+      "type": "gang",
+      "context": "Football hooligan firm associated with Birmingham City FC.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Chelsea Headhunters",
+      "original_text_name": "Chelsea Headhunters",
+      "aliases": [],
+      "type": "gang",
+      "context": "Football hooligan firm associated with Chelsea FC.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kop of Boulogne",
+      "original_text_name": "Kop of Boulogne",
+      "aliases": [
+        "KoB"
+      ],
+      "type": "gang",
+      "context": "Football hooligan firm associated with Paris Saint-Germain FC.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Aston Villa Hardcore",
+      "target": "Steamers",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "Aston Villa Hardcore succeeded the Steamers as a hooligan firm.",
+      "time_period": "circa 1993"
+    },
+    {
+      "source": "Aston Villa Hardcore",
+      "target": "C-Crew",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "Aston Villa Hardcore succeeded the C-Crew as a hooligan firm.",
+      "time_period": "circa 1993"
+    },
+    {
+      "source": "Aston Villa Hardcore",
+      "target": "Zulu Warriors",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Hardcore have clashed multiple times with the Zulu Warriors.",
+      "time_period": null
+    },
+    {
+      "source": "Aston Villa Hardcore",
+      "target": "Chelsea Headhunters",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Members of Villa Hardcore were jailed for an organized brawl with Chelsea Headhunters in 2004.",
+      "time_period": "2004"
+    },
+    {
+      "source": "Aston Villa Hardcore",
+      "target": "Kop of Boulogne",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Members of the Hardcore fought with Kop of Boulogne in Paris in 2025.",
+      "time_period": "2025"
+    }
+  ],
+  "source_file": "Aston_Villa_Hardcore"
+}

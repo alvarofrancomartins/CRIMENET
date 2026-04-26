@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Red Devils Motorcycle Club",
+      "original_text_name": "Red Devils Motorcycle Club",
+      "aliases": [
+        "RDMC",
+        "Red Devils MC",
+        "Death patrol"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club and principal support club for Hells Angels, involved in violent crimes and drug trafficking.",
+      "time_period": "2001-present"
+    },
+    {
+      "standard_name": "Original Red Devils Motorcycle Club",
+      "original_text_name": "Original Red Devils Motorcycle Club",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Now-defunct Canadian motorcycle club founded in late 1940s, patched over to Bacchus in 2015.",
+      "time_period": "late 1940s-2015"
+    },
+    {
+      "standard_name": "Bacchus",
+      "original_text_name": "Bacchus",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "East Coast based motorcycle club that absorbed the Original Red Devils MC in 2015.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Major outlaw motorcycle club, supported by Red Devils MC; involved in disputes with rival gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bandidos Motorcycle Club",
+      "original_text_name": "Bandidos Motorcycle Club",
+      "aliases": [
+        "Bandidos"
+      ],
+      "type": "motorcycle_club",
+      "context": "Rival outlaw motorcycle club involved in dispute with Hells Angels, leading to attack on Red Devils member.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Outlaws Motorcycle Club",
+      "original_text_name": "Outlaws Motorcycle Club",
+      "aliases": [
+        "Outlaws"
+      ],
+      "type": "motorcycle_club",
+      "context": "Rival motorcycle club; member was assaulted by a Red Devils member in 2020.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Infamous Ryders",
+      "original_text_name": "Infamous Ryders",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Motorcycle club involved in a gun battle with Red Devils and Hells Angels in 2022.",
+      "time_period": null
+    },
+    {
+      "standard_name": "La Familia",
+      "original_text_name": "La Familia",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Motorcycle club involved in a gun battle with Red Devils and Hells Angels in 2022.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Red Devils Motorcycle Club",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Red Devils MC is the principal support club for Hells Angels, protecting them and doing violent tasks.",
+      "time_period": "2001-present"
+    },
+    {
+      "source": "Original Red Devils Motorcycle Club",
+      "target": "Bacchus",
+      "relationship": "other",
+      "detail": "patched over",
+      "context": "Original Red Devils MC patched over to Bacchus in 2015.",
+      "time_period": "2015"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Bandidos Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ongoing dispute between Hells Angels and Bandidos led to a shooting attack on a Red Devils member.",
+      "time_period": null
+    },
+    {
+      "source": "Red Devils Motorcycle Club",
+      "target": "Outlaws Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "A Red Devils member assaulted an Outlaws member in 2020.",
+      "time_period": null
+    },
+    {
+      "source": "Red Devils Motorcycle Club",
+      "target": "Infamous Ryders",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Red Devils and Hells Angels were involved in a gun battle with Infamous Ryders in 2022.",
+      "time_period": "2022"
+    },
+    {
+      "source": "Red Devils Motorcycle Club",
+      "target": "La Familia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Red Devils and Hells Angels were involved in a gun battle with La Familia in 2022.",
+      "time_period": "2022"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Infamous Ryders",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels and Red Devils fought Infamous Ryders in a 2022 gun battle.",
+      "time_period": "2022"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "La Familia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels and Red Devils fought La Familia in a 2022 gun battle.",
+      "time_period": "2022"
+    }
+  ],
+  "source_file": "Red_Devils_Motorcycle_Club"
+}

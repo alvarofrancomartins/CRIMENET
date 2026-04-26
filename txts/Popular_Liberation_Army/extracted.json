@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Popular Liberation Army",
+      "original_text_name": "Popular Liberation Army",
+      "aliases": [
+        "Ejército Popular de Liberación",
+        "EPL",
+        "Los Pelusos",
+        "Popular Liberation Army – Dissident Line",
+        "Ejército Popular de Liberación – Línea Disidente"
+      ],
+      "type": "militia",
+      "context": "Colombian anti-revisionist Marxist–Leninist guerrilla group created in 1967, active mainly in Norte de Santander.",
+      "time_period": "1967-present"
+    },
+    {
+      "standard_name": "Esperanza, Paz y Libertad",
+      "original_text_name": "Esperanza, Paz y Libertad",
+      "aliases": [
+        "Hope, Peace, and Liberty"
+      ],
+      "type": "other",
+      "context": "Political party formed by demobilized EPL members in 1991.",
+      "time_period": "1991-present"
+    },
+    {
+      "standard_name": "Revolutionary Armed Forces of Colombia",
+      "original_text_name": "FARC",
+      "aliases": [
+        "FARC"
+      ],
+      "type": "militia",
+      "context": "Larger Colombian guerrilla group, considered EPL dissidents and Esperanza members as traitors.",
+      "time_period": "1964-present"
+    },
+    {
+      "standard_name": "National Liberation Army",
+      "original_text_name": "ELN",
+      "aliases": [
+        "ELN"
+      ],
+      "type": "militia",
+      "context": "Colombian guerrilla group, considered EPL dissidents and Esperanza members as traitors.",
+      "time_period": "1964-present"
+    },
+    {
+      "standard_name": "19th of April Movement",
+      "original_text_name": "19th of April Movement",
+      "aliases": [
+        "M-19"
+      ],
+      "type": "militia",
+      "context": "Colombian guerrilla group mentioned as larger than EPL.",
+      "time_period": "1970-1990"
+    },
+    {
+      "standard_name": "Pedro León Arboleda Movement",
+      "original_text_name": "Pedro León Arboleda Movement",
+      "aliases": [],
+      "type": "faction",
+      "context": "Small splinter group of EPL created in 1979.",
+      "time_period": "1979-?"
+    },
+    {
+      "standard_name": "Clan del Golfo",
+      "original_text_name": "Clan del Golfo",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel, opponent of EPL.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Group of Popular Combatants",
+      "original_text_name": "Group of Popular Combatants",
+      "aliases": [],
+      "type": "militia",
+      "context": "Ally of EPL according to infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Communist Party of Colombia (Marxist–Leninist)",
+      "original_text_name": "Communist Party of Colombia (Marxist–Leninist)",
+      "aliases": [
+        "PCC(ml)"
+      ],
+      "type": "other",
+      "context": "Political party that founded the EPL.",
+      "time_period": "1967-present"
+    },
+    {
+      "standard_name": "Simón Bolívar Guerrilla Coordinating Board",
+      "original_text_name": "Simón Bolívar Guerrilla Coordinating Board",
+      "aliases": [],
+      "type": "other",
+      "context": "Coordination body of which EPL is part.",
+      "time_period": "1987-1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Popular Liberation Army",
+      "target": "Esperanza, Paz y Libertad",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "EPL dissidents considered demobilized members who formed Esperanza as traitors.",
+      "time_period": "1991-present"
+    },
+    {
+      "source": "Revolutionary Armed Forces of Colombia",
+      "target": "Esperanza, Paz y Libertad",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "FARC killed many Esperanza members, considering them traitors and paramilitary collaborators.",
+      "time_period": "1991-1995"
+    },
+    {
+      "source": "National Liberation Army",
+      "target": "Esperanza, Paz y Libertad",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "ELN considered Esperanza members as traitors.",
+      "time_period": "1991-present"
+    },
+    {
+      "source": "Popular Liberation Army",
+      "target": "Revolutionary Armed Forces of Colombia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "EPL and FARC were allies according to infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Popular Liberation Army",
+      "target": "National Liberation Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "EPL and ELN were allies according to infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Popular Liberation Army",
+      "target": "Clan del Golfo",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Clan del Golfo is listed as opponent of EPL.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Popular Liberation Army",
+      "target": "Group of Popular Combatants",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Group of Popular Combatants is listed as ally of EPL.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Popular Liberation Army",
+      "target": "Communist Party of Colombia (Marxist–Leninist)",
+      "relationship": "other",
+      "detail": "founded by",
+      "context": "EPL was founded by the Communist Party of Colombia (Marxist–Leninist).",
+      "time_period": "1967"
+    },
+    {
+      "source": "Popular Liberation Army",
+      "target": "Simón Bolívar Guerrilla Coordinating Board",
+      "relationship": "other",
+      "detail": "part of",
+      "context": "EPL is part of the Simón Bolívar Guerrilla Coordinating Board.",
+      "time_period": "1987-1990s"
+    },
+    {
+      "source": "Popular Liberation Army",
+      "target": "Pedro León Arboleda Movement",
+      "relationship": "other",
+      "detail": "splinter group",
+      "context": "Pedro León Arboleda Movement is a splinter group of EPL created in 1979.",
+      "time_period": "1979"
+    }
+  ],
+  "source_file": "Popular_Liberation_Army"
+}

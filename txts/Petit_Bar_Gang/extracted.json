@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Petit Bar Gang",
+      "original_text_name": "Petit Bar Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Corsican organized crime group involved in extortion, drug trafficking, money laundering, and political infiltration.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Mattei clan",
+      "original_text_name": "Mattei clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Corsican criminal coalition rivaling the Petit Bar Gang, bringing together groups from different regions.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Movement for Self-Determination",
+      "original_text_name": "Movement for Self-Determination (MPA)",
+      "aliases": [
+        "MPA"
+      ],
+      "type": "other",
+      "context": "Corsican nationalist political movement, formerly led by Alain Orsoni, involved in rivalry with Petit Bar Gang.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Petit Bar Gang",
+      "target": "Mattei clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Petit Bar Gang and the Mattei clan are the two dominant blocs in Corsican organized crime, with a fragile balance of power.",
+      "time_period": null
+    },
+    {
+      "source": "Petit Bar Gang",
+      "target": "Movement for Self-Determination",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Petit Bar Gang is suspected of assassination attempts against Alain Orsoni and his son Guy Orsoni, former leaders of the MPA.",
+      "time_period": "2008-2018"
+    }
+  ],
+  "source_file": "Petit_Bar_Gang"
+}

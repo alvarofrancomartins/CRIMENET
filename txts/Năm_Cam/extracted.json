@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Năm Cam Organization",
+      "original_text_name": "Năm Cam's mob",
+      "aliases": [
+        "Năm Cam's gang",
+        "Năm Cam's criminal enterprise"
+      ],
+      "type": "other",
+      "context": "Vietnamese criminal enterprise led by Trương Văn Cam, involved in gambling, extortion, murder, and bribery in Saigon.",
+      "time_period": "1962-2001"
+    },
+    {
+      "standard_name": "Huỳnh Tỳ Triad",
+      "original_text_name": "Huỳnh Tỳ",
+      "aliases": [],
+      "type": "triad",
+      "context": "Triad group in Saigon that initiated Năm Cam into the criminal underworld.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Đại Cathay Organization",
+      "original_text_name": "Đại Cathay's mob",
+      "aliases": [
+        "Cathay's mob"
+      ],
+      "type": "other",
+      "context": "Criminal organization led by Đại Cathay, a top mob boss in Saigon during the 1960s.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Bảy Sy Organization",
+      "original_text_name": "Bảy Sy",
+      "aliases": [],
+      "type": "other",
+      "context": "Criminal group led by Bảy Sy, Năm Cam's brother-in-law, who ran a casino.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Tài chém Gang",
+      "original_text_name": "Tài chém's gang brothers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang led by Tài chém, a notorious gangster in the first district of Saigon.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Dung Hà Gang",
+      "original_text_name": "Dung Hà's group",
+      "aliases": [
+        "Dung Hà's mob"
+      ],
+      "type": "gang",
+      "context": "Female-led gang from Haiphong, moved to Saigon and clashed with Năm Cam.",
+      "time_period": "1990s-2000"
+    },
+    {
+      "standard_name": "Lê Ngọc Lâm Organization",
+      "original_text_name": "Lê Ngọc Lâm",
+      "aliases": [],
+      "type": "other",
+      "context": "Criminal group led by Lê Ngọc Lâm, rival of Năm Cam.",
+      "time_period": "1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Năm Cam Organization",
+      "target": "Huỳnh Tỳ Triad",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Năm Cam was initiated into the criminal underworld by Huỳnh Tỳ.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Năm Cam Organization",
+      "target": "Đại Cathay Organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Năm Cam was a follower of Đại Cathay and learned casino operations from him.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Năm Cam Organization",
+      "target": "Bảy Sy Organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Năm Cam worked in Bảy Sy's casino and planned a murder with him.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Năm Cam Organization",
+      "target": "Tài chém Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Năm Cam planned to kill Tài chém, leading to a chase by Tài chém's gang.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Năm Cam Organization",
+      "target": "Dung Hà Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Dung Hà attempted to build her own gang in Saigon, leading to conflict and Năm Cam ordering her murder.",
+      "time_period": "1990s-2000"
+    },
+    {
+      "source": "Năm Cam Organization",
+      "target": "Lê Ngọc Lâm Organization",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Năm Cam ordered an acid attack on Lê Ngọc Lâm due to underworld friction.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Dung Hà Gang",
+      "target": "Lê Ngọc Lâm Organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Năm Cam ordered Dung Hà to carry out the attack on Lê Ngọc Lâm.",
+      "time_period": "1990s"
+    }
+  ],
+  "source_file": "Năm_Cam"
+}

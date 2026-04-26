@@ -1,0 +1,58 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bing Kong Tong",
+      "original_text_name": "Bing Kong Tong",
+      "aliases": [
+        "Bing Kong Tong Society",
+        "Bing Kung Association"
+      ],
+      "type": "other",
+      "context": "One of the most powerful Tongs in San Francisco's Chinatown during the early 20th century, involved in organized crime and Tong wars.",
+      "time_period": "early 20th century-present"
+    },
+    {
+      "standard_name": "Hop Sing Tong",
+      "original_text_name": "Hop Sing",
+      "aliases": [],
+      "type": "other",
+      "context": "A Tong that allied with the Suey Sing Tong against the Bing Kong Tong, instigating a violent Tong war.",
+      "time_period": "early 20th century"
+    },
+    {
+      "standard_name": "Suey Sing Tong",
+      "original_text_name": "Suey Sing",
+      "aliases": [],
+      "type": "other",
+      "context": "A Tong that allied with the Hop Sing Tong against the Bing Kong Tong, instigating a violent Tong war.",
+      "time_period": "early 20th century"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hop Sing Tong",
+      "target": "Suey Sing Tong",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied against the Bing Kong Tong, instigating one of the most violent Tong wars in the United States.",
+      "time_period": "early 20th century"
+    },
+    {
+      "source": "Hop Sing Tong",
+      "target": "Bing Kong Tong",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Allied with Suey Sing Tong against Bing Kong Tong in a violent Tong war.",
+      "time_period": "early 20th century"
+    },
+    {
+      "source": "Suey Sing Tong",
+      "target": "Bing Kong Tong",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Allied with Hop Sing Tong against Bing Kong Tong in a violent Tong war.",
+      "time_period": "early 20th century"
+    }
+  ],
+  "source_file": "Bing_Kong_Tong"
+}

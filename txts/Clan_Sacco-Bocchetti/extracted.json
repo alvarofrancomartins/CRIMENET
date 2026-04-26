@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Clan Sacco-Bocchetti",
+      "original_text_name": "clan Sacco-Bocchetti",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan operating in the northeast suburbs of Naples, specifically San Pietro a Patierno and Secondigliano.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Alleanza di Secondigliano",
+      "original_text_name": "Alleanza di Secondigliano",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra alliance founded by Gaetano Bocchetti, active in Secondigliano.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Clan Sacco-Bocchetti",
+      "target": "Alleanza di Secondigliano",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Gaetano Bocchetti, co-founder of the clan, was also the founder of the Alleanza di Secondigliano, indicating close ties.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Clan_Sacco-Bocchetti"
+}

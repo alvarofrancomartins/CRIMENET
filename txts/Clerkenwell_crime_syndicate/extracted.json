@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Clerkenwell Crime Syndicate",
+      "original_text_name": "Clerkenwell Crime Syndicate",
+      "aliases": [
+        "Adams Family",
+        "A-team",
+        "Adams mafia-like organised crime cartel"
+      ],
+      "type": "other",
+      "context": "English criminal organisation based in Clerkenwell, London, involved in drug trafficking, extortion, and murder.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "The Richardson Gang",
+      "original_text_name": "The Richardson Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "London-based gang involved in extortion and violence; former enforcer Frankie Fraser was shot in 1991.",
+      "time_period": "1960s-1990s"
+    },
+    {
+      "standard_name": "Yardie Gangs",
+      "original_text_name": "Yardie gangs",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican-origin street gangs in the UK involved in drug trafficking and violence.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Colombian Drug Cartels",
+      "original_text_name": "Colombian drug cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug trafficking organizations that provided an $80 million credit line to Tommy Adams.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "South American Drug Cartels",
+      "original_text_name": "South American drug cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Drug cartels from South America with connections to the Adams family.",
+      "time_period": "1980s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Clerkenwell Crime Syndicate",
+      "target": "The Richardson Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Adams family allegedly ordered the shooting of Frankie Fraser, a former enforcer for The Richardson Gang.",
+      "time_period": "1991"
+    },
+    {
+      "source": "Clerkenwell Crime Syndicate",
+      "target": "Yardie Gangs",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Tommy Adams established connections with numerous Yardie gangs for criminal cooperation.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "Clerkenwell Crime Syndicate",
+      "target": "Colombian Drug Cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Tommy Adams gained an $80 million credit line from Colombian drug cartels.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "Clerkenwell Crime Syndicate",
+      "target": "South American Drug Cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Adams family has connections with South American drug cartels.",
+      "time_period": "1990s-present"
+    }
+  ],
+  "source_file": "Clerkenwell_crime_syndicate"
+}

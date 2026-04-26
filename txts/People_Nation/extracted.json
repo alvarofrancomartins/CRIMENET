@@ -1,0 +1,269 @@
+{
+  "nodes": [
+    {
+      "standard_name": "People Nation",
+      "original_text_name": "People Nation",
+      "aliases": [
+        "People"
+      ],
+      "type": "gang",
+      "context": "An American alliance of street gangs generally associated with the Chicago area, formed in 1978.",
+      "time_period": "1978-present"
+    },
+    {
+      "standard_name": "Folk Nation",
+      "original_text_name": "Folk Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival alliance of street gangs to the People Nation, also based in Chicago.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Vice Lords",
+      "original_text_name": "Vice Lords",
+      "aliases": [
+        "Almighty Vice Lord Nation"
+      ],
+      "type": "gang",
+      "context": "A Chicago street gang and founding member of the People Nation.",
+      "time_period": "1978-present"
+    },
+    {
+      "standard_name": "Black P. Stones",
+      "original_text_name": "Black P. Stones",
+      "aliases": [
+        "Black P. Stone Nation",
+        "Almighty Black P. Stone Nation",
+        "Blackstone Rangers"
+      ],
+      "type": "gang",
+      "context": "A Chicago street gang and founding member of the People Nation.",
+      "time_period": "1978-present"
+    },
+    {
+      "standard_name": "Latin Kings",
+      "original_text_name": "Latin Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Chicago street gang and founding member of the People Nation.",
+      "time_period": "1978-present"
+    },
+    {
+      "standard_name": "El Rukns",
+      "original_text_name": "El Rukns",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Chicago street gang, with Jeff Fort as a leader involved in forming the People Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mickey Cobras",
+      "original_text_name": "Mickey Cobras",
+      "aliases": [
+        "Cobra Stones"
+      ],
+      "type": "gang",
+      "context": "A Chicago street gang and initial member of the People Nation.",
+      "time_period": "1978-present"
+    },
+    {
+      "standard_name": "Bishops",
+      "original_text_name": "Bishops",
+      "aliases": [
+        "Almighty Bishops"
+      ],
+      "type": "gang",
+      "context": "A Chicago street gang and initial member of the People Nation.",
+      "time_period": "1978-present"
+    },
+    {
+      "standard_name": "Spanish Lords",
+      "original_text_name": "Spanish Lords",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Chicago street gang and initial member of the People Nation.",
+      "time_period": "1978-present"
+    },
+    {
+      "standard_name": "Gaylords",
+      "original_text_name": "Gaylords",
+      "aliases": [
+        "Chicago Gaylords"
+      ],
+      "type": "gang",
+      "context": "A Chicago street gang and initial member of the People Nation.",
+      "time_period": "1978-present"
+    },
+    {
+      "standard_name": "Insane South Side Popes",
+      "original_text_name": "Insane South Side Popes",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Chicago street gang and initial member of the People Nation.",
+      "time_period": "1978-present"
+    },
+    {
+      "standard_name": "Almighty Saints",
+      "original_text_name": "Almighty Saints",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Chicago street gang and member of the People Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Four Corner Hustlers",
+      "original_text_name": "Four Corner Hustlers",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Chicago street gang and member of the People Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Insane Latin Brothers",
+      "original_text_name": "Insane Latin Brothers",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Chicago street gang and member of the People Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Latin Counts",
+      "original_text_name": "Latin Counts",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Chicago street gang and member of the People Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Spanish Vice Lords",
+      "original_text_name": "Spanish Vice Lords",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Chicago street gang and member of the People Nation.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "People Nation",
+      "target": "Folk Nation",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The People Nation and Folk Nation are rival alliances of street gangs in Chicago.",
+      "time_period": "1978-present"
+    },
+    {
+      "source": "Vice Lords",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Vice Lords are a founding member of the People Nation alliance.",
+      "time_period": "1978-present"
+    },
+    {
+      "source": "Black P. Stones",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Black P. Stones are a founding member of the People Nation alliance.",
+      "time_period": "1978-present"
+    },
+    {
+      "source": "Latin Kings",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Latin Kings are a founding member of the People Nation alliance.",
+      "time_period": "1978-present"
+    },
+    {
+      "source": "El Rukns",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "El Rukns leader Jeff Fort helped form the People Nation.",
+      "time_period": "1978-present"
+    },
+    {
+      "source": "Mickey Cobras",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mickey Cobras were an initial member of the People Nation.",
+      "time_period": "1978-present"
+    },
+    {
+      "source": "Bishops",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bishops were an initial member of the People Nation.",
+      "time_period": "1978-present"
+    },
+    {
+      "source": "Spanish Lords",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Spanish Lords were an initial member of the People Nation.",
+      "time_period": "1978-present"
+    },
+    {
+      "source": "Gaylords",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Gaylords were an initial member of the People Nation.",
+      "time_period": "1978-present"
+    },
+    {
+      "source": "Insane South Side Popes",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Insane South Side Popes were an initial member of the People Nation.",
+      "time_period": "1978-present"
+    },
+    {
+      "source": "Almighty Saints",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Almighty Saints are a member of the People Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Four Corner Hustlers",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Four Corner Hustlers are a member of the People Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Insane Latin Brothers",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Insane Latin Brothers are a member of the People Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Latin Counts",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Latin Counts are a member of the People Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Spanish Vice Lords",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Spanish Vice Lords are a member of the People Nation.",
+      "time_period": null
+    }
+  ],
+  "source_file": "People_Nation"
+}

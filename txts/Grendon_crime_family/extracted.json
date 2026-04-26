@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Grendon crime family",
+      "original_text_name": "Grendon Crime Family",
+      "aliases": [
+        "The Family"
+      ],
+      "type": "mafia",
+      "context": "Irish organized crime syndicate involved in drug trafficking, money laundering, firearms smuggling, extortion, and contract violence.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Kinahan Organised Crime Group",
+      "original_text_name": "Kinahan Organised Crime Group",
+      "aliases": [
+        "Kinahans"
+      ],
+      "type": "mafia",
+      "context": "International Irish organized crime group involved in drug trafficking and other crimes.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Grendon crime family",
+      "target": "Kinahan Organised Crime Group",
+      "relationship": "other",
+      "detail": "avoiding conflict",
+      "context": "The Family has avoided open conflict with the Kinahans in recent years.",
+      "time_period": "recent years"
+    }
+  ],
+  "source_file": "Grendon_crime_family"
+}

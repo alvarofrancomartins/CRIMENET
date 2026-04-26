@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "standard_name": "VVT",
+      "original_text_name": "VVT",
+      "aliases": [],
+      "type": "gang",
+      "context": "Canadian Tamil street gang originating in Toronto, involved in drug trafficking, fraud, weapons trafficking, counterfeiting, and extortion.",
+      "time_period": "early 1990s-present"
+    },
+    {
+      "standard_name": "AK Aannan",
+      "original_text_name": "AK Aannan",
+      "aliases": [],
+      "type": "gang",
+      "context": "Tamil gang based out of Scarborough, rival of VVT.",
+      "time_period": "mid 1990s-early 2000s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "VVT",
+      "target": "AK Aannan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ongoing war from mid 1990s to early 2000s, with a brief truce in 1998 that ended after a murder.",
+      "time_period": "mid 1990s-early 2000s"
+    }
+  ],
+  "source_file": "VVT_(gang)"
+}

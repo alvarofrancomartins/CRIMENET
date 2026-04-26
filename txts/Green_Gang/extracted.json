@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Green Gang",
+      "original_text_name": "Green Gang",
+      "aliases": [
+        "Qing Bang",
+        "Green Society",
+        "Society for Common Progress"
+      ],
+      "type": "triad",
+      "context": "Chinese secret society and triad prominent in Shanghai in early-mid 20th century, involved in opium, extortion, gambling, prostitution.",
+      "time_period": "early 1900s-1950s"
+    },
+    {
+      "standard_name": "Kuomintang",
+      "original_text_name": "Kuomintang",
+      "aliases": [],
+      "type": "other",
+      "context": "Chinese nationalist political party led by Chiang Kai-shek, allied with Green Gang.",
+      "time_period": "1910s-1949"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Green Gang",
+      "target": "Kuomintang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Green Gang supported Kuomintang financially and broke up strikes; Kuomintang granted rank to leader.",
+      "time_period": "1920s-1949"
+    }
+  ],
+  "source_file": "Green_Gang"
+}

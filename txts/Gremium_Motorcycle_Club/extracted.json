@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Gremium Motorcycle Club",
+      "original_text_name": "Gremium Motorcycle Club",
+      "aliases": [
+        "Gremium MC",
+        "Black Seven"
+      ],
+      "type": "motorcycle_club",
+      "context": "German outlaw motorcycle club founded in 1972 in Mannheim, involved in organized crime including human trafficking, illegal prostitution, drug and weapons trafficking.",
+      "time_period": "1972-present"
+    },
+    {
+      "standard_name": "Bones MC",
+      "original_text_name": "Bones MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Formerly Mannheim-based motorcycle club whose German chapters were patched over to Hells Angels in 1999.",
+      "time_period": "before 1999"
+    },
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels MC",
+      "aliases": [
+        "Hells Angels"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club that patched over the German chapters of Bones MC in 1999.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Bad 7 MC",
+      "original_text_name": "Bad 7 MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Support club for Gremium MC in Germany.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Gremium Motorcycle Club",
+      "target": "Bad 7 MC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bad 7 MC is a support club for Gremium MC.",
+      "time_period": null
+    },
+    {
+      "source": "Bones MC",
+      "target": "Hells Angels Motorcycle Club",
+      "relationship": "other",
+      "detail": "patchover",
+      "context": "German chapters of Bones MC were patched over to Hells Angels in 1999.",
+      "time_period": "1999"
+    }
+  ],
+  "source_file": "Gremium_Motorcycle_Club"
+}

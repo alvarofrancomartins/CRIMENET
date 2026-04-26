@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Quality Street Gang",
+      "original_text_name": "Quality Street Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Operated in Manchester, England, in the 1960s-1980s; involved in major crime, though some doubt their criminal nature.",
+      "time_period": "1960s-1980s"
+    },
+    {
+      "standard_name": "Inter City Jibbers",
+      "original_text_name": "Inter City Jibbers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal element associated with Manchester United football hooliganism; carried out armed robberies in Holland.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Quality Street Gang",
+      "target": "Inter City Jibbers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Members of the Quality Street Gang had links to the Inter City Jibbers and carried out armed robberies together in Holland.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Quality_Street_Gang"
+}

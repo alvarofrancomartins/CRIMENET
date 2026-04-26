@@ -1,0 +1,210 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Gang de la Brise de Mer",
+      "original_text_name": "Gang de la Brise de Mer",
+      "aliases": [
+        "Brise de Mer"
+      ],
+      "type": "gang",
+      "context": "Corsican criminal organization founded in the 1970s, based in Northern Corsica, involved in racketeering, drug trafficking, money laundering, and other illegal activities.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Armata Corsa",
+      "original_text_name": "Armata Corsa",
+      "aliases": [],
+      "type": "other",
+      "context": "Corsican separatist armed group, suspected to have been targeted by the Brise de Mer in 2001 murders.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Petit Bar Gang",
+      "original_text_name": "Petit Bar gang",
+      "aliases": [
+        "Petit Bar Gang"
+      ],
+      "type": "gang",
+      "context": "Corsican gang based in Ajaccio, dominant in the 2020s, rival of the Brise de Mer coalition.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Venzolasca Gang",
+      "original_text_name": "Venzolasca Gang",
+      "aliases": [
+        "Federici clan",
+        "Shepherd Robbers of Venzolasca"
+      ],
+      "type": "gang",
+      "context": "Corsican criminal group known as the 'Shepherd Robbers of Venzolasca', allied with Richard Casanova's faction.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hornec Family",
+      "original_text_name": "Hornec family",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal family allied with the Brise de Mer, based in mainland France.",
+      "time_period": null
+    },
+    {
+      "standard_name": "American Mafia",
+      "original_text_name": "American Mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American organized crime syndicate, allied with the Brise de Mer.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sicilian Mafia",
+      "original_text_name": "Sicilian Mafia",
+      "aliases": [
+        "Cosa Nostra"
+      ],
+      "type": "mafia",
+      "context": "Sicilian organized crime syndicate, allied with the Brise de Mer.",
+      "time_period": null
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Calabrian organized crime syndicate, allied with the Brise de Mer.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Clan del Golfo",
+      "original_text_name": "Clan del Golfo",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel, allied with the Brise de Mer.",
+      "time_period": null
+    },
+    {
+      "standard_name": "FLNC",
+      "original_text_name": "FLNC",
+      "aliases": [
+        "Front de Libération Nationale de la Corse"
+      ],
+      "type": "other",
+      "context": "Corsican nationalist militant group, allied with the Brise de Mer.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mattéi-Rogliano Family",
+      "original_text_name": "Mattéi-Rogliano family",
+      "aliases": [],
+      "type": "clan",
+      "context": "Corsican clan that split from the Brise de Mer after a 2000 prison-yard incident, later supported Richard Casanova's faction.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Alain Orsoni Group",
+      "original_text_name": "group from southern Corsica led by Alain Orsoni",
+      "aliases": [],
+      "type": "gang",
+      "context": "Corsican criminal group from southern Corsica, allied with Richard Casanova's faction.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Gang de la Brise de Mer",
+      "target": "Armata Corsa",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Brise de Mer is suspected of involvement in the 2001 murders of Armata Corsa members.",
+      "time_period": "2001"
+    },
+    {
+      "source": "Gang de la Brise de Mer",
+      "target": "Petit Bar Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Brise de Mer coalition and the Petit Bar gang are rival factions in the Corsican organized crime conflict.",
+      "time_period": "2000s-2020s"
+    },
+    {
+      "source": "Gang de la Brise de Mer",
+      "target": "Venzolasca Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Venzolasca Gang is listed as a rival of the Brise de Mer.",
+      "time_period": null
+    },
+    {
+      "source": "Gang de la Brise de Mer",
+      "target": "Hornec Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Hornec family is listed as an ally of the Brise de Mer.",
+      "time_period": null
+    },
+    {
+      "source": "Gang de la Brise de Mer",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The American Mafia is listed as an ally of the Brise de Mer.",
+      "time_period": null
+    },
+    {
+      "source": "Gang de la Brise de Mer",
+      "target": "Sicilian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Sicilian Mafia is listed as an ally of the Brise de Mer.",
+      "time_period": null
+    },
+    {
+      "source": "Gang de la Brise de Mer",
+      "target": "'Ndrangheta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The 'Ndrangheta is listed as an ally of the Brise de Mer.",
+      "time_period": null
+    },
+    {
+      "source": "Gang de la Brise de Mer",
+      "target": "Clan del Golfo",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Clan del Golfo is listed as an ally of the Brise de Mer.",
+      "time_period": null
+    },
+    {
+      "source": "Gang de la Brise de Mer",
+      "target": "FLNC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The FLNC is listed as an ally of the Brise de Mer.",
+      "time_period": null
+    },
+    {
+      "source": "Mattéi-Rogliano Family",
+      "target": "Gang de la Brise de Mer",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Mattéi-Rogliano family split from the Brise de Mer after a 2000 prison-yard incident.",
+      "time_period": "2000"
+    },
+    {
+      "source": "Mattéi-Rogliano Family",
+      "target": "Venzolasca Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Mattéi-Rogliano family supported Richard Casanova's faction, which included the Venzolasca Gang.",
+      "time_period": "early 2000s"
+    },
+    {
+      "source": "Alain Orsoni Group",
+      "target": "Venzolasca Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Alain Orsoni's group was brought into Richard Casanova's faction alongside the Venzolasca Gang.",
+      "time_period": "early 2000s"
+    }
+  ],
+  "source_file": "Gang_de_la_Brise_de_Mer"
+}

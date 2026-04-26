@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "CJNG"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel based in Jalisco, known for violent expansion.",
+      "time_period": "2009-present"
+    },
+    {
+      "standard_name": "El Abuelo Cartel",
+      "original_text_name": "El Abuelo Cartel",
+      "aliases": [
+        "Cártel del Abuelo"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel based in Tepalcatepec, Michoacán.",
+      "time_period": "2010s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Jalisco New Generation Cartel",
+      "target": "El Abuelo Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "CJNG attacked El Abuelo Cartel in Tepalcatepec, Michoacán, on 30 August 2019, declaring war to expand into the area.",
+      "time_period": "2019"
+    }
+  ],
+  "source_file": "2019_Western_Michoacán_clashes"
+}

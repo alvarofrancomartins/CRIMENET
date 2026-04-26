@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Albanian Boys",
+      "original_text_name": "Albanian Boys",
+      "aliases": [
+        "Albanian Bad Boys",
+        "Albanian Boys Inc."
+      ],
+      "type": "gang",
+      "context": "Youth ethnic street gang in central Bronx, evolved into subcontractors for organized crime, engaging in extortion and debt collection.",
+      "time_period": "1991-1990s"
+    },
+    {
+      "standard_name": "Rudaj Organization",
+      "original_text_name": "Rudaj Organization",
+      "aliases": [],
+      "type": "other",
+      "context": "Local organized crime group that the Albanian Boys worked for as subcontractors.",
+      "time_period": null
+    },
+    {
+      "standard_name": "MS-13",
+      "original_text_name": "MS-13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to the Albanian Boys.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Albanian Boys",
+      "target": "Rudaj Organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Albanian Boys worked as subcontractors for the Rudaj Organization, engaging in extortion and debt collection.",
+      "time_period": null
+    },
+    {
+      "source": "Albanian Boys",
+      "target": "MS-13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Albanian Boys and MS-13 were rivals.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Albanian_Boys"
+}

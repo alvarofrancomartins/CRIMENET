@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Clan Pariante",
+      "original_text_name": "Clan Pariante",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan operating in the western suburbs of Naples, specifically Bacoli and Monte di Procida.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Clan Di Lauro",
+      "original_text_name": "clan Di Lauro",
+      "aliases": [
+        "Di Lauro clan"
+      ],
+      "type": "clan",
+      "context": "Camorra clan founded by Paolo Di Lauro, operating in Secondigliano and Scampia areas of Naples.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Scissionisti di Secondigliano",
+      "original_text_name": "Scissionisti di Secondigliano",
+      "aliases": [
+        "Scissionisti"
+      ],
+      "type": "faction",
+      "context": "Splinter group from the Di Lauro clan, involved in the first Scampia feud.",
+      "time_period": "2004-2005"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Clan Pariante",
+      "target": "Clan Di Lauro",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Clan Pariante was originally the second-in-command and treasurer of the Di Lauro clan, helping to found it.",
+      "time_period": "1980s-2004"
+    },
+    {
+      "source": "Clan Pariante",
+      "target": "Scissionisti di Secondigliano",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Clan Pariante led the split from the Di Lauro clan, forming the Scissionisti di Secondigliano.",
+      "time_period": "2004-2005"
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Clan Di Lauro",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Scissionisti fought the Di Lauro clan in the first Scampia feud, with killings and attacks.",
+      "time_period": "2004-2005"
+    }
+  ],
+  "source_file": "Clan_Pariante"
+}

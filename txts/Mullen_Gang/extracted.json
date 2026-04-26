@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Mullen Gang",
+      "original_text_name": "Mullen Gang",
+      "aliases": [
+        "Mullens"
+      ],
+      "type": "gang",
+      "context": "Irish-American street gang in South Boston involved in burglary, auto theft, armed robbery, and racketeering.",
+      "time_period": "c. 1950s–1972"
+    },
+    {
+      "standard_name": "Killeen Gang",
+      "original_text_name": "Killeen Gang",
+      "aliases": [
+        "Killeen brothers",
+        "Killeen faction"
+      ],
+      "type": "gang",
+      "context": "Irish-American crime family controlling bookmaking and loansharking in South Boston.",
+      "time_period": "mid-1960s–1972"
+    },
+    {
+      "standard_name": "Winter Hill Gang",
+      "original_text_name": "Winter Hill Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Irish-American organized crime group based in Somerville, Massachusetts, led by Howie Winter.",
+      "time_period": "1960s–1990s"
+    },
+    {
+      "standard_name": "Patriarca crime family",
+      "original_text_name": "Patriarca crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American Mafia family based in New England, involved in various rackets.",
+      "time_period": "1910s–present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Mullen Gang",
+      "target": "Killeen Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Decade-long gang war for control of criminal rackets in South Boston, ending in 1972.",
+      "time_period": "mid-1960s–1972"
+    },
+    {
+      "source": "Mullen Gang",
+      "target": "Winter Hill Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "After the gang war, both Mullen and Killeen gangs consolidated under Winter Hill's control in 1972.",
+      "time_period": "1972"
+    },
+    {
+      "source": "Killeen Gang",
+      "target": "Winter Hill Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "After Killeen's murder, the Killeen faction joined forces with Winter Hill under Howie Winter's leadership.",
+      "time_period": "1972"
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Patriarca crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Howie Winter and Joseph Russo of the Patriarca family mediated the truce between the Mullens and Killeens.",
+      "time_period": "1972"
+    }
+  ],
+  "source_file": "Mullen_Gang"
+}

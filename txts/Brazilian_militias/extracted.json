@@ -1,0 +1,231 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Brazilian militias",
+      "original_text_name": "Brazilian militias",
+      "aliases": [
+        "Milícias"
+      ],
+      "type": "militia",
+      "context": "Illegal paramilitary groups in Rio de Janeiro, made up of current/former police and military officers, involved in extortion and political influence.",
+      "time_period": "early 1980s-present"
+    },
+    {
+      "standard_name": "Amigos dos Amigos",
+      "original_text_name": "ADA",
+      "aliases": [
+        "Amigos dos Amigos"
+      ],
+      "type": "gang",
+      "context": "Drug gang in Rio de Janeiro favelas, involved in trafficking and violence.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "Red Command"
+      ],
+      "type": "gang",
+      "context": "Drug trafficking network in Rio de Janeiro, started conflict with militias in 2006.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian mafia, allied with Brazilian militias.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Clan del Golfo",
+      "original_text_name": "Clan del Golfo",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel, allied with Brazilian militias.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Group America",
+      "original_text_name": "Group America",
+      "aliases": [],
+      "type": "other",
+      "context": "Criminal group allied with Brazilian militias.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Carecas do ABC",
+      "original_text_name": "Carecas do ABC",
+      "aliases": [],
+      "type": "gang",
+      "context": "Brazilian gang allied with militias.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Carecas do Subúrbio",
+      "original_text_name": "Carecas do Subúrbio",
+      "aliases": [],
+      "type": "gang",
+      "context": "Brazilian gang allied with militias.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Police Death squad",
+      "original_text_name": "Police Death squad",
+      "aliases": [],
+      "type": "militia",
+      "context": "Death squads from Brazilian military dictatorship, roots of militias.",
+      "time_period": "1964-1980s"
+    },
+    {
+      "standard_name": "Neo-integralist groups",
+      "original_text_name": "Neo-integralist groups",
+      "aliases": [],
+      "type": "other",
+      "context": "Far-right groups allied with militias.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bicheiros",
+      "original_text_name": "Bicheiros",
+      "aliases": [],
+      "type": "other",
+      "context": "Brazilian illegal gambling operators allied with militias.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Diehard Duterte Supporters",
+      "original_text_name": "Diehard Duterte Supporters",
+      "aliases": [],
+      "type": "other",
+      "context": "Philippine political supporters allied with militias.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Terceiro Comando Puro",
+      "original_text_name": "Terceiro Comando Puro",
+      "aliases": [],
+      "type": "gang",
+      "context": "Drug gang in Rio de Janeiro, opponent of militias.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Primeiro Comando da Capital",
+      "original_text_name": "Primeiro Comando da Capital",
+      "aliases": [
+        "PCC"
+      ],
+      "type": "gang",
+      "context": "Brazilian prison gang and drug trafficking organization, opponent of militias.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Brazilian militias",
+      "target": "Amigos dos Amigos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Militias historically force out drug traffickers like ADA from favelas.",
+      "time_period": null
+    },
+    {
+      "source": "Brazilian militias",
+      "target": "Comando Vermelho",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Comando Vermelho started a conflict against militias in 2006.",
+      "time_period": "2006-present"
+    },
+    {
+      "source": "Brazilian militias",
+      "target": "Cosa Nostra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cosa Nostra is listed as an ally of Brazilian militias.",
+      "time_period": null
+    },
+    {
+      "source": "Brazilian militias",
+      "target": "Clan del Golfo",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Clan del Golfo is listed as an ally of Brazilian militias.",
+      "time_period": null
+    },
+    {
+      "source": "Brazilian militias",
+      "target": "Group America",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Group America is listed as an ally of Brazilian militias.",
+      "time_period": null
+    },
+    {
+      "source": "Brazilian militias",
+      "target": "Carecas do ABC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Carecas do ABC is listed as an ally of Brazilian militias.",
+      "time_period": null
+    },
+    {
+      "source": "Brazilian militias",
+      "target": "Carecas do Subúrbio",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Carecas do Subúrbio is listed as an ally of Brazilian militias.",
+      "time_period": null
+    },
+    {
+      "source": "Brazilian militias",
+      "target": "Police Death squad",
+      "relationship": "other",
+      "detail": "historical predecessor",
+      "context": "Militias have their roots in the death squads of the Brazilian military dictatorship.",
+      "time_period": "1964-2000s"
+    },
+    {
+      "source": "Brazilian militias",
+      "target": "Neo-integralist groups",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Neo-integralist groups are listed as allies of Brazilian militias.",
+      "time_period": null
+    },
+    {
+      "source": "Brazilian militias",
+      "target": "Bicheiros",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bicheiros are listed as allies of Brazilian militias.",
+      "time_period": null
+    },
+    {
+      "source": "Brazilian militias",
+      "target": "Diehard Duterte Supporters",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Diehard Duterte Supporters are listed as allies of Brazilian militias.",
+      "time_period": null
+    },
+    {
+      "source": "Brazilian militias",
+      "target": "Terceiro Comando Puro",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Terceiro Comando Puro is listed as an opponent of Brazilian militias.",
+      "time_period": null
+    },
+    {
+      "source": "Brazilian militias",
+      "target": "Primeiro Comando da Capital",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Primeiro Comando da Capital is listed as an opponent of Brazilian militias.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Brazilian_militias"
+}

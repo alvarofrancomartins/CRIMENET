@@ -1,0 +1,252 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Popeye Moto Club",
+      "original_text_name": "Popeye Moto Club",
+      "aliases": [
+        "Popeye(s) MC",
+        "The Popeyes"
+      ],
+      "type": "motorcycle_club",
+      "context": "French-Canadian outlaw motorcycle club based in Quebec, involved in drug trafficking, murder, and other crimes.",
+      "time_period": "1965-1977"
+    },
+    {
+      "standard_name": "Satan's Choice Motorcycle Club",
+      "original_text_name": "Satan's Choice",
+      "aliases": [
+        "Satan's Choice MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Canadian outlaw motorcycle club, rival of the Popeyes and allied with the Outlaws.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels Motorcycle Club",
+      "aliases": [
+        "Hells Angels"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club that absorbed the Popeyes in 1977 to form the first Canadian chapter.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Devil's Disciples Motorcycle Club",
+      "original_text_name": "Devil's Disciples MC",
+      "aliases": [
+        "Devil's Disciples"
+      ],
+      "type": "motorcycle_club",
+      "context": "Canadian outlaw biker gang, rival of the Popeyes in a turf war from 1968 to 1970.",
+      "time_period": "1960s-1976"
+    },
+    {
+      "standard_name": "Outlaws Motorcycle Club",
+      "original_text_name": "Outlaws Motorcycle Club",
+      "aliases": [
+        "Outlaws"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club, rival of the Hells Angels and ally of Satan's Choice.",
+      "time_period": "1935-present"
+    },
+    {
+      "standard_name": "Dubois Brothers",
+      "original_text_name": "Dubois Brothers",
+      "aliases": [],
+      "type": "other",
+      "context": "Prominent crime family in Montreal that employed the Popeyes as muscle in the early 1970s.",
+      "time_period": "1970s"
+    },
+    {
+      "standard_name": "Montreal Mafia",
+      "original_text_name": "Montreal Mafia",
+      "aliases": [
+        "Rizzuto crime family"
+      ],
+      "type": "mafia",
+      "context": "Italian organized crime group in Montreal, involved with the Popeyes in criminal activities.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Mongols MC (Quebec)",
+      "original_text_name": "Mongols MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Quebec-based motorcycle club, unrelated to the U.S. club, absorbed by the Popeyes in 1974.",
+      "time_period": "1974"
+    },
+    {
+      "standard_name": "Zombi MC",
+      "original_text_name": "Zombi MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Local motorcycle club affected by the Popeyes' policy on red-and-white color schemes.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Black Angels MC",
+      "original_text_name": "Black Angels MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Local motorcycle club affected by the Popeyes' policy on red-and-white color schemes.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Escape Hell MC",
+      "original_text_name": "Escape Hell MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Local motorcycle club affected by the Popeyes' policy on red-and-white color schemes.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Grim Reapers Motorcycle Club",
+      "original_text_name": "Grim Reapers",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Allied with the Popeyes according to the infobox.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Gitans MC",
+      "original_text_name": "Gitans MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Allied with the Popeyes according to the infobox.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "13th Tribe MC",
+      "original_text_name": "13th Tribe MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Allied with the Popeyes according to the infobox.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Sundowners MC",
+      "original_text_name": "Sundowners MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Allied with the Popeyes according to the infobox.",
+      "time_period": "1960s-1970s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Popeye Moto Club",
+      "target": "Satan's Choice Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Two-year war between the Popeyes and Satan's Choice, resulting in deaths and injuries.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Popeye Moto Club",
+      "target": "Hells Angels Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Longtime allies; the Popeyes were patched over by the Hells Angels in 1977.",
+      "time_period": "1977"
+    },
+    {
+      "source": "Popeye Moto Club",
+      "target": "Devil's Disciples Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Turf war from 1968 to 1970 over drug trade, with violent confrontations and deaths.",
+      "time_period": "1968-1970"
+    },
+    {
+      "source": "Satan's Choice Motorcycle Club",
+      "target": "Outlaws Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Satan's Choice was backed by the Outlaws, a rival of the Hells Angels.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Popeye Moto Club",
+      "target": "Dubois Brothers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Popeyes worked as muscle for the Dubois Brothers in the early 1970s.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Popeye Moto Club",
+      "target": "Montreal Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Popeyes became involved with the Montreal Mafia in criminal activities.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Popeye Moto Club",
+      "target": "Mongols MC (Quebec)",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Mongols MC were absorbed by the Popeyes' Rive-Sud chapter in 1974.",
+      "time_period": "1974"
+    },
+    {
+      "source": "Popeye Moto Club",
+      "target": "Zombi MC",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Popeyes enforced a policy against clubs with red-and-white logos, including Zombi MC.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "source": "Popeye Moto Club",
+      "target": "Black Angels MC",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Popeyes enforced a policy against clubs with red-and-white logos, including Black Angels MC.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "source": "Popeye Moto Club",
+      "target": "Escape Hell MC",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Popeyes enforced a policy against clubs with red-and-white logos, including Escape Hell MC.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "source": "Popeye Moto Club",
+      "target": "Grim Reapers Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "source": "Popeye Moto Club",
+      "target": "Gitans MC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "source": "Popeye Moto Club",
+      "target": "13th Tribe MC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "source": "Popeye Moto Club",
+      "target": "Sundowners MC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": "1960s-1970s"
+    }
+  ],
+  "source_file": "Popeye_Moto_Club"
+}

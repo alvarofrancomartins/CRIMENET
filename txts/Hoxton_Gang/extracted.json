@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hoxton Gang",
+      "original_text_name": "Hoxton Gang",
+      "aliases": [
+        "Hoxton Mob"
+      ],
+      "type": "gang",
+      "context": "Independent street gang based in Soho, London, active during the interwar years, involved in racetrack and protection rackets.",
+      "time_period": "interwar years"
+    },
+    {
+      "standard_name": "Italian Mob",
+      "original_text_name": "Italian Mob",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group led by Charles Sabini, involved in control of gambling clubs in London's West End.",
+      "time_period": "interwar years"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hoxton Gang",
+      "target": "Italian Mob",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Hoxton Gang fought against the Italian Mob over control of gambling clubs.",
+      "time_period": "1930s"
+    }
+  ],
+  "source_file": "Hoxton_Gang"
+}

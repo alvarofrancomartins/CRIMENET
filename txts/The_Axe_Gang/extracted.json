@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Axe Gang",
+      "original_text_name": "Axe Gang",
+      "aliases": [
+        "斧头帮",
+        "斧頭幫"
+      ],
+      "type": "other",
+      "context": "Militant organization active in Shanghai, involved in political violence and assassinations during the Warlord Era and early Nationalist period.",
+      "time_period": "1921-1936"
+    },
+    {
+      "standard_name": "Green Gang",
+      "original_text_name": "Green Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Larger syndicate in Shanghai that absorbed smaller groups like the Axe Gang.",
+      "time_period": "early 20th century"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Axe Gang",
+      "target": "Green Gang",
+      "relationship": "other",
+      "detail": "absorbed by",
+      "context": "The Axe Gang was gradually eliminated or absorbed by the larger Green Gang as Nationalist control consolidated.",
+      "time_period": "1930s"
+    }
+  ],
+  "source_file": "The_Axe_Gang"
+}

@@ -1,0 +1,307 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Contras",
+      "original_text_name": "Contras",
+      "aliases": [
+        "FDN",
+        "Nicaraguan Democratic Force",
+        "Nicaraguan Resistance",
+        "contrarrevolucionarios",
+        "counter-revolutionaries"
+      ],
+      "type": "militia",
+      "context": "Anti-communist rebels waging guerrilla war against Sandinista government in Nicaragua, 1979-1990.",
+      "time_period": "1979-1990"
+    },
+    {
+      "standard_name": "Sandinista National Liberation Front",
+      "original_text_name": "Sandinista National Liberation Front",
+      "aliases": [
+        "FSLN",
+        "Sandinistas"
+      ],
+      "type": "militia",
+      "context": "Marxist revolutionary group that took power in Nicaragua after 1979 revolution.",
+      "time_period": "1961-present"
+    },
+    {
+      "standard_name": "Nicaraguan Democratic Force",
+      "original_text_name": "Nicaraguan Democratic Force",
+      "aliases": [
+        "FDN",
+        "Fuerza Democrática Nicaragüense"
+      ],
+      "type": "militia",
+      "context": "Largest Contra organization, formed in 1981 from merger of several groups.",
+      "time_period": "1981-1990"
+    },
+    {
+      "standard_name": "Fifteenth of September Legion",
+      "original_text_name": "Fifteenth of September Legion",
+      "aliases": [
+        "15 September Legion"
+      ],
+      "type": "militia",
+      "context": "Ex-National Guard group that merged into FDN in 1981.",
+      "time_period": "1980-1981"
+    },
+    {
+      "standard_name": "Anti-Sandinista Guerrilla Special Forces",
+      "original_text_name": "Anti-Sandinista Guerrilla Special Forces",
+      "aliases": [],
+      "type": "militia",
+      "context": "Ex-National Guard group, small and inactive initially.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "National Army of Liberation",
+      "original_text_name": "National Army of Liberation",
+      "aliases": [],
+      "type": "militia",
+      "context": "Ex-National Guard group, small and inactive initially.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Nicaraguan Democratic Union",
+      "original_text_name": "Nicaraguan Democratic Union",
+      "aliases": [
+        "UDN"
+      ],
+      "type": "militia",
+      "context": "Opposition group of Nicaraguan exiles based in Miami, merged into FDN.",
+      "time_period": "1980-1981"
+    },
+    {
+      "standard_name": "MILPAS",
+      "original_text_name": "MILPAS",
+      "aliases": [
+        "Milicias Populares Anti-Sandinistas",
+        "Milpistas",
+        "chilotes"
+      ],
+      "type": "militia",
+      "context": "Peasant militia led by disillusioned Sandinista veterans, operated in northern mountains.",
+      "time_period": "1980-1981"
+    },
+    {
+      "standard_name": "Sandinista Revolutionary Front",
+      "original_text_name": "Sandinista Revolutionary Front",
+      "aliases": [
+        "FRS"
+      ],
+      "type": "militia",
+      "context": "Contra group led by Edén Pastora, embedded in ARDE, operated in southern Nicaragua.",
+      "time_period": "1982-1984"
+    },
+    {
+      "standard_name": "Democratic Revolutionary Alliance",
+      "original_text_name": "Democratic Revolutionary Alliance",
+      "aliases": [
+        "ARDE"
+      ],
+      "type": "militia",
+      "context": "Umbrella group for southern Contra forces, including FRS.",
+      "time_period": "1982-1987"
+    },
+    {
+      "standard_name": "Misurasata",
+      "original_text_name": "Misurasata",
+      "aliases": [],
+      "type": "militia",
+      "context": "Indigenous movement of Miskito, Sumo and Rama peoples, conflicted with Sandinistas.",
+      "time_period": "1981-1987"
+    },
+    {
+      "standard_name": "Misura",
+      "original_text_name": "Misura",
+      "aliases": [],
+      "type": "militia",
+      "context": "Breakaway faction of Misurasata led by Stedman Fagoth Muller, aligned with FDN.",
+      "time_period": "1983-1987"
+    },
+    {
+      "standard_name": "United Nicaraguan Opposition",
+      "original_text_name": "United Nicaraguan Opposition",
+      "aliases": [
+        "UNO"
+      ],
+      "type": "militia",
+      "context": "Umbrella group of Contra factions formed in June 1985, dissolved early 1987.",
+      "time_period": "1985-1987"
+    },
+    {
+      "standard_name": "Nicaraguan Resistance",
+      "original_text_name": "Nicaraguan Resistance",
+      "aliases": [
+        "RN"
+      ],
+      "type": "militia",
+      "context": "Umbrella group of Contra factions formed in May 1987, succeeded UNO.",
+      "time_period": "1987-1990"
+    },
+    {
+      "standard_name": "The Enterprise",
+      "original_text_name": "The Enterprise",
+      "aliases": [],
+      "type": "other",
+      "context": "Secret organization created by Oliver North to fund and supply Contras using third-country and private funds.",
+      "time_period": "1984-1986"
+    },
+    {
+      "standard_name": "ARDE Frente Sur",
+      "original_text_name": "ARDE Frente Sur",
+      "aliases": [],
+      "type": "faction",
+      "context": "Contra faction operating in southern Nicaragua.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "YATAMA",
+      "original_text_name": "YATAMA",
+      "aliases": [],
+      "type": "faction",
+      "context": "Indigenous Miskito Contra group.",
+      "time_period": "1980s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Contras",
+      "target": "Sandinista National Liberation Front",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Contras waged guerrilla war against the Sandinista government from 1979 to 1990.",
+      "time_period": "1979-1990"
+    },
+    {
+      "source": "Nicaraguan Democratic Force",
+      "target": "Contras",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "FDN was the largest Contra organization, formed from merger of several groups.",
+      "time_period": "1981-1990"
+    },
+    {
+      "source": "Fifteenth of September Legion",
+      "target": "Nicaraguan Democratic Force",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Merged into FDN in 1981 under CIA and Argentine persuasion.",
+      "time_period": "1981"
+    },
+    {
+      "source": "Nicaraguan Democratic Union",
+      "target": "Nicaraguan Democratic Force",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Merged into FDN in 1981 under CIA and Argentine persuasion.",
+      "time_period": "1981"
+    },
+    {
+      "source": "MILPAS",
+      "target": "Nicaraguan Democratic Force",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MILPAS bands were recruited by FDN after 1981.",
+      "time_period": "1981-1982"
+    },
+    {
+      "source": "Sandinista Revolutionary Front",
+      "target": "Democratic Revolutionary Alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "FRS was embedded in ARDE, the southern Contra umbrella.",
+      "time_period": "1982-1984"
+    },
+    {
+      "source": "Misurasata",
+      "target": "Sandinista National Liberation Front",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Misurasata conflicted with Sandinista authorities over land nationalization.",
+      "time_period": "1981-1984"
+    },
+    {
+      "source": "Misura",
+      "target": "Nicaraguan Democratic Force",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Misura breakaway faction aligned more closely with FDN.",
+      "time_period": "1983-1987"
+    },
+    {
+      "source": "Misura",
+      "target": "Misurasata",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Misura split from Misurasata in 1983.",
+      "time_period": "1983"
+    },
+    {
+      "source": "United Nicaraguan Opposition",
+      "target": "Contras",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "UNO was an umbrella group reorganizing most Contra factions in 1985.",
+      "time_period": "1985-1987"
+    },
+    {
+      "source": "Nicaraguan Resistance",
+      "target": "Contras",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "RN succeeded UNO as the main Contra umbrella in 1987.",
+      "time_period": "1987-1990"
+    },
+    {
+      "source": "Nicaraguan Democratic Force",
+      "target": "Nicaraguan Resistance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "FDN was the largest group within the Nicaraguan Resistance.",
+      "time_period": "1987-1990"
+    },
+    {
+      "source": "The Enterprise",
+      "target": "Contras",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Enterprise provided funding and supplies to the Contras as part of the Iran-Contra affair.",
+      "time_period": "1984-1986"
+    },
+    {
+      "source": "Nicaraguan Democratic Force",
+      "target": "Contras",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "FDN was the largest faction within the Contra coalition.",
+      "time_period": "1981-1990"
+    },
+    {
+      "source": "ARDE Frente Sur",
+      "target": "Contras",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "ARDE Frente Sur was a Contra faction operating in southern Nicaragua.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "YATAMA",
+      "target": "Contras",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "YATAMA was an indigenous Miskito Contra group.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Misura",
+      "target": "Contras",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Misura was a Miskito Indian Contra group.",
+      "time_period": "1980s"
+    }
+  ],
+  "source_file": "Contras"
+}

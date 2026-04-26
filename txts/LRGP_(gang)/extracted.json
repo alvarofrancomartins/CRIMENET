@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "standard_name": "LRGP",
+      "original_text_name": "LRGP",
+      "aliases": [
+        "LRGP Crew",
+        "Lombard, Rother, Gibson, and Playter"
+      ],
+      "type": "gang",
+      "context": "Gang based in Buffalo, New York, active in the 2000s-2016, involved in drug trafficking and violence.",
+      "time_period": "2000s-2016"
+    },
+    {
+      "standard_name": "Bailey Boys",
+      "original_text_name": "Bailey Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to LRGP, based in Buffalo, New York.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "National street gang, allied with LRGP.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "LRGP",
+      "target": "Bailey Boys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "LRGP was the direct opposition to the Bailey Boys, involved in conflict and a murder of a Bailey Boys member.",
+      "time_period": "2000s-2016"
+    },
+    {
+      "source": "LRGP",
+      "target": "Bloods",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "LRGP had an alliance with the Bloods as stated in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "LRGP_(gang)"
+}

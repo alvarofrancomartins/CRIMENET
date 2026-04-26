@@ -1,0 +1,187 @@
+{
+  "nodes": [
+    {
+      "standard_name": "South Side Compton Crips",
+      "original_text_name": "South Side Compton Crips",
+      "aliases": [
+        "South Side Crips"
+      ],
+      "type": "gang",
+      "context": "A set of the Crips gang alliance based in Compton, California, known for drug trafficking and the murder of Tupac Shakur.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A large alliance of street gangs based in Los Angeles, California, known for rivalry with the Bloods.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Kelly Park Compton Crips",
+      "original_text_name": "Kelly Park Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Crips set that dominated parts of Compton during the 1970s.",
+      "time_period": "1970s"
+    },
+    {
+      "standard_name": "Neighbourhood Compton Crips",
+      "original_text_name": "Neighbourhood Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Crips set that dominated parts of Compton during the 1970s.",
+      "time_period": "1970s"
+    },
+    {
+      "standard_name": "Mob Piru Bloods",
+      "original_text_name": "Mob Piru Bloods",
+      "aliases": [
+        "Mob Piru"
+      ],
+      "type": "gang",
+      "context": "A Bloods set involved in altercations with the South Side Compton Crips.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Corner Poccet Crips",
+      "original_text_name": "Corner Poccet Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Crips set involved in a gunfight with South Side Compton Crips member Orlando Anderson.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Lime Hood Piru Bloods",
+      "original_text_name": "Lime Hood Piru Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Bloods set that was a rival of the South Side Compton Crips, involved in the murder of Yetunde Price.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Atlantic Drive Compton Crips",
+      "original_text_name": "Atlantic Drive Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of the South Side Compton Crips.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nutty Blocc Compton Crips",
+      "original_text_name": "Nutty Blocc Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of the South Side Compton Crips.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Fruit Town Piru",
+      "original_text_name": "Fruit Town Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of the South Side Compton Crips.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Lueders Park Piru",
+      "original_text_name": "Lueders Park Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of the South Side Compton Crips.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Santana Blocc Compton Crips",
+      "original_text_name": "Santana Blocc Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of the South Side Compton Crips.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "South Side Compton Crips",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "South Side Compton Crips is a set of the Crips gang alliance.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "South Side Compton Crips",
+      "target": "Mob Piru Bloods",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "South Side Compton Crips attacked Mob Piru Bloods member Trevon Lane, leading to the murder of Tupac Shakur.",
+      "time_period": "1996"
+    },
+    {
+      "source": "South Side Compton Crips",
+      "target": "Corner Poccet Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Orlando Anderson of South Side Compton Crips confronted Corner Poccet Crips members over a debt, resulting in a gunfight.",
+      "time_period": "1998"
+    },
+    {
+      "source": "South Side Compton Crips",
+      "target": "Lime Hood Piru Bloods",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "South Side Compton Crips members shot at a vehicle they believed belonged to Lime Hood Piru Bloods, killing Yetunde Price.",
+      "time_period": "2003"
+    },
+    {
+      "source": "South Side Compton Crips",
+      "target": "Atlantic Drive Compton Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "South Side Compton Crips",
+      "target": "Nutty Blocc Compton Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "South Side Compton Crips",
+      "target": "Fruit Town Piru",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "South Side Compton Crips",
+      "target": "Lueders Park Piru",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "South Side Compton Crips",
+      "target": "Santana Blocc Compton Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "South Side Compton Crips",
+      "target": "Neighbourhood Compton Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "South_Side_Compton_Crips"
+}

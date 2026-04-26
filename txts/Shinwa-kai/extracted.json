@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Shinwa-kai",
+      "original_text_name": "Shinwa-kai",
+      "aliases": [
+        "Takamatsu Shinwa-kai"
+      ],
+      "type": "mafia",
+      "context": "Yakuza group based in Takamatsu, Kagawa, Japan, with about 30 members.",
+      "time_period": "1971-present"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Major yakuza syndicate active in Kagawa Prefecture.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sumiyoshi-kai",
+      "original_text_name": "Sumiyoshi-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza syndicate active in Kagawa Prefecture.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kyodo-kai",
+      "original_text_name": "Kyodo-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza syndicate active in Kagawa Prefecture and member of Gosha-kai.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gosha-kai",
+      "original_text_name": "Gosha-kai",
+      "aliases": [],
+      "type": "other",
+      "context": "Anti-Yamaguchi federation of yakuza groups based in Chugoku region.",
+      "time_period": "1996-present"
+    },
+    {
+      "standard_name": "Kyosei-kai",
+      "original_text_name": "Kyosei-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Chugoku-based yakuza organization and member of Gosha-kai.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Goda-ikka",
+      "original_text_name": "Goda-ikka",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Chugoku-based yakuza organization and member of Gosha-kai.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Asano-gumi",
+      "original_text_name": "Asano-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Chugoku-based yakuza organization and member of Gosha-kai.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Shinwa-kai",
+      "target": "Yamaguchi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Shinwa-kai is part of an anti-Yamaguchi federation, indicating rivalry.",
+      "time_period": "1996-present"
+    },
+    {
+      "source": "Shinwa-kai",
+      "target": "Gosha-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Shinwa-kai has been a member of the Gosha-kai since 1996.",
+      "time_period": "1996-present"
+    },
+    {
+      "source": "Kyosei-kai",
+      "target": "Gosha-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kyosei-kai is a member of the Gosha-kai.",
+      "time_period": null
+    },
+    {
+      "source": "Kyodo-kai",
+      "target": "Gosha-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kyodo-kai is a member of the Gosha-kai.",
+      "time_period": null
+    },
+    {
+      "source": "Goda-ikka",
+      "target": "Gosha-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Goda-ikka is a member of the Gosha-kai.",
+      "time_period": null
+    },
+    {
+      "source": "Asano-gumi",
+      "target": "Gosha-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Asano-gumi is a member of the Gosha-kai.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Shinwa-kai"
+}

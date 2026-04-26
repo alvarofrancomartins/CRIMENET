@@ -1,0 +1,279 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Westside Locos 13",
+      "original_text_name": "Westside Locos 13",
+      "aliases": [
+        "Westside Locos",
+        "WS Locos",
+        "WSLS",
+        "LSX3",
+        "LOKOS"
+      ],
+      "type": "gang",
+      "context": "Predominantly Latino-American street gang based in San Fernando Valley Glendale, active since 1950s.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Chicos Malos",
+      "original_text_name": "Chicos Malos",
+      "aliases": [
+        "Lake street"
+      ],
+      "type": "gang",
+      "context": "Main subset or clique of Westside Locos 13, representing the center of the gang's territory.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Toonerville Rifa 13",
+      "original_text_name": "Toonerville Rifa 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Elmwood st 13",
+      "original_text_name": "Elmwood st 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Avenues 13",
+      "original_text_name": "Avenues 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Vanowen st Locos 13",
+      "original_text_name": "Vanowen st Locos 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mara SalvaTrucha",
+      "original_text_name": "Mara SalvaTrucha",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "North Hollywood Boyz 13",
+      "original_text_name": "North Hollywood Boyz 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "West Side Playboys 13",
+      "original_text_name": "West Side Playboys 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Burbank 13",
+      "original_text_name": "Burbank 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "CV Locos",
+      "original_text_name": "CV Locos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Part of the Locos 13 alliance, based in Compton, est 1979.",
+      "time_period": "1979-present"
+    },
+    {
+      "standard_name": "Westside Locos (West LA)",
+      "original_text_name": "Westside Locos of West La",
+      "aliases": [],
+      "type": "gang",
+      "context": "Part of the Locos 13 alliance, based in West LA, est 1978.",
+      "time_period": "1978-present"
+    },
+    {
+      "standard_name": "Locos 13",
+      "original_text_name": "Locos 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Larger alliance gang throughout Los Angeles County, includes CV Locos and Westside Locos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Justin Street Locos",
+      "original_text_name": "justin street locos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Historical street clique of Westside Locos 13 in Glendale.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Western Ave Little Locas",
+      "original_text_name": "Western Ave Little Locas",
+      "aliases": [],
+      "type": "gang",
+      "context": "Historical street clique of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Flower Park Rifa",
+      "original_text_name": "Flower Park Rifa",
+      "aliases": [],
+      "type": "gang",
+      "context": "Historical street clique of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Salem st Cholos",
+      "original_text_name": "Salem st Cholos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Historical street clique of Westside Locos 13.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Westside Locos 13",
+      "target": "Chicos Malos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Chicos Malos is a subset or clique of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "source": "Westside Locos 13",
+      "target": "Toonerville Rifa 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Toonerville Rifa 13 is listed as a main rival of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "source": "Westside Locos 13",
+      "target": "Elmwood st 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Elmwood st 13 is listed as a main rival of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "source": "Westside Locos 13",
+      "target": "Avenues 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Avenues 13 is listed as a main rival of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "source": "Westside Locos 13",
+      "target": "Vanowen st Locos 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Vanowen st Locos 13 is listed as a main rival of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "source": "Westside Locos 13",
+      "target": "Mara SalvaTrucha",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Mara SalvaTrucha is listed as a main rival of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "source": "Westside Locos 13",
+      "target": "North Hollywood Boyz 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "North Hollywood Boyz 13 is listed as a main rival of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "source": "Westside Locos 13",
+      "target": "West Side Playboys 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "West Side Playboys 13 is listed as a main rival of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "source": "Westside Locos 13",
+      "target": "Burbank 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Burbank 13 is listed as a main rival of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "source": "Westside Locos 13",
+      "target": "Locos 13",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Westside Locos 13 is part of the larger Locos 13 alliance.",
+      "time_period": null
+    },
+    {
+      "source": "CV Locos",
+      "target": "Locos 13",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "CV Locos is part of the Locos 13 alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Westside Locos (West LA)",
+      "target": "Locos 13",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Westside Locos (West LA) is part of the Locos 13 alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Westside Locos 13",
+      "target": "Justin Street Locos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Justin Street Locos is a historical street clique of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "source": "Westside Locos 13",
+      "target": "Western Ave Little Locas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Western Ave Little Locas is a historical street clique of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "source": "Westside Locos 13",
+      "target": "Flower Park Rifa",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Flower Park Rifa is a historical street clique of Westside Locos 13.",
+      "time_period": null
+    },
+    {
+      "source": "Westside Locos 13",
+      "target": "Salem st Cholos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Salem st Cholos is a historical street clique of Westside Locos 13.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Westside_Locos"
+}

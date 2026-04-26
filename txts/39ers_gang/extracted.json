@@ -1,0 +1,168 @@
+{
+  "nodes": [
+    {
+      "standard_name": "39ers gang",
+      "original_text_name": "39ers gang",
+      "aliases": [
+        "39ers"
+      ],
+      "type": "gang",
+      "context": "Hybrid gang formed from G-Strip and 3-N-G, active in New Orleans, involved in drug trafficking and murders.",
+      "time_period": "2009-present"
+    },
+    {
+      "standard_name": "G-Strip",
+      "original_text_name": "G-Strip gang",
+      "aliases": [
+        "Gallier Street gang",
+        "G-Strip gang Gallier Street"
+      ],
+      "type": "gang",
+      "context": "Gang operating in the 9th Ward of New Orleans, based around Gallier Street, involved in drug trade and homicides.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "3-N-G",
+      "original_text_name": "3-N-G",
+      "aliases": [
+        "3rd and Galvez gang"
+      ],
+      "type": "gang",
+      "context": "Street gang in Central City, New Orleans, known for violence and drug trade, formed the 39ers with G-Strip.",
+      "time_period": "early 2000s-present"
+    },
+    {
+      "standard_name": "Ride or Die gang",
+      "original_text_name": "Ride or Die gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang from the 8th Ward of New Orleans, targeted by the 39ers.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Young Melph Mafia",
+      "original_text_name": "Young Melph Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to 3-N-G, mentioned as a target of violence.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Calliope Porch Boyz",
+      "original_text_name": "Calliope Porch Boyz",
+      "aliases": [
+        "Porch Boyz"
+      ],
+      "type": "gang",
+      "context": "Central City gang that feuded with 3-N-G in early 2000s and was wiped out by 2003.",
+      "time_period": "early 2000s-2003"
+    },
+    {
+      "standard_name": "Byrd Gang",
+      "original_text_name": "Byrd Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang that clashed with 3-N-G at a Mardi Gras parade in 2009.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "110ers",
+      "original_text_name": "110ers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang listed in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Taliban Gang",
+      "original_text_name": "Taliban Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang listed in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Dooney Boys",
+      "original_text_name": "Dooney Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang listed in infobox.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "39ers gang",
+      "target": "G-Strip",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "39ers gang is a hybrid force formed from G-Strip and 3-N-G.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "39ers gang",
+      "target": "3-N-G",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "39ers gang is a hybrid force formed from G-Strip and 3-N-G.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "39ers gang",
+      "target": "Ride or Die gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "39ers gang used bloodshed against associates of Ride or Die gang.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "3-N-G",
+      "target": "Young Melph Mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "3-N-G is known for violent acts towards Young Melph Mafia.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "3-N-G",
+      "target": "Calliope Porch Boyz",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "3-N-G feuded with Calliope Porch Boyz in early 2000s.",
+      "time_period": "early 2000s-2003"
+    },
+    {
+      "source": "3-N-G",
+      "target": "Byrd Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "3-N-G clashed with Byrd Gang at a Mardi Gras parade in 2009.",
+      "time_period": "2009"
+    },
+    {
+      "source": "39ers gang",
+      "target": "110ers",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "110ers listed as rival in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "39ers gang",
+      "target": "Taliban Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Taliban Gang listed as rival in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "39ers gang",
+      "target": "Dooney Boys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Dooney Boys listed as rival in infobox.",
+      "time_period": "unknown"
+    }
+  ],
+  "source_file": "39ers_gang"
+}

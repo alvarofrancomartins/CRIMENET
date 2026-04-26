@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "standard_name": "The Corporation",
+      "original_text_name": "The Corporation",
+      "aliases": [
+        "Cuban mafia"
+      ],
+      "type": "mafia",
+      "context": "Cuban-American organized crime group involved in gambling, drug trafficking, murder, and racketeering.",
+      "time_period": "1960s-2000s"
+    },
+    {
+      "standard_name": "Italian Mafia",
+      "original_text_name": "Italian Mafia",
+      "aliases": [
+        "Italian mafia families"
+      ],
+      "type": "mafia",
+      "context": "Italian-American organized crime families in New York City area.",
+      "time_period": "20th century"
+    }
+  ],
+  "edges": [
+    {
+      "source": "The Corporation",
+      "target": "Italian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Corporation had good working relationships with the Italian Mafia in New York City.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "source": "The Corporation",
+      "target": "Italian Mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Corporation had violent turf wars with various Italian mafia families.",
+      "time_period": "1970s-1980s"
+    }
+  ],
+  "source_file": "José_Miguel_Battle_Sr."
+}

@@ -1,0 +1,194 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Armenian Power",
+      "original_text_name": "Armenian Power",
+      "aliases": [
+        "Armenian Power 13",
+        "AP",
+        "Armenian Mob",
+        "Armenian Mafia"
+      ],
+      "type": "gang",
+      "context": "Armenian-American street gang and organized crime group based in Los Angeles, involved in drug trafficking, fraud, extortion, and murder.",
+      "time_period": "1989-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [
+        "La Eme"
+      ],
+      "type": "gang",
+      "context": "Prison gang that controls Sureño gangs and collects protection money from Armenian Power.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [
+        "Sureño gangs"
+      ],
+      "type": "gang",
+      "context": "Southern California street gangs allied with the Mexican Mafia, historically in conflict with Armenian Power.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "White Fence",
+      "original_text_name": "White Fence",
+      "aliases": [],
+      "type": "gang",
+      "context": "Sureño gang from East Los Angeles; member Jose Argueta killed Armenian Power founder.",
+      "time_period": "1940s-present"
+    },
+    {
+      "standard_name": "Armenian Mafia",
+      "original_text_name": "Armenian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Transnational Armenian organized crime network; Armenian Power is considered part of it.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Russian Mafia",
+      "original_text_name": "Russian organized crime",
+      "aliases": [
+        "Russian mafia"
+      ],
+      "type": "mafia",
+      "context": "Russian criminal groups with ties to Armenian Power.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Italian-American Mafia",
+      "original_text_name": "Italian-American Mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Allied with Armenian Power according to infobox.",
+      "time_period": "1900s-present"
+    },
+    {
+      "standard_name": "Lebanese Mafia",
+      "original_text_name": "Lebanese mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Allied with Armenian Power according to infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Cachiros",
+      "original_text_name": "Cachiros",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Honduran drug trafficking organization; allied with Armenian Power according to infobox.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Vineland Boys",
+      "original_text_name": "Vineland Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Los Angeles street gang; allied with Armenian Power according to infobox.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Toonerville Rifa 13",
+      "original_text_name": "Toonerville Rifa 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Sureño gang; rival of Armenian Power according to infobox.",
+      "time_period": "1960s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Armenian Power",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mexican Mafia collects protection money from Armenian Power, which added '13' as a sign of loyalty; they work together to control criminal activities.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Armenian Power",
+      "target": "Sureños",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Armenian Power had a history of conflict with Sureño gangs, including driveby murders and a killing of a founder by a Sureño member.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "Armenian Power",
+      "target": "Sureños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "After the conflict ended, Sureños now work together with Armenian Power and Mexican Mafia to control and extort protection money.",
+      "time_period": "2010s-present"
+    },
+    {
+      "source": "Armenian Power",
+      "target": "White Fence",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "White Fence member Jose Argueta killed Armenian Power founder Armen Petrosyan in 2000.",
+      "time_period": "2000"
+    },
+    {
+      "source": "Armenian Power",
+      "target": "Armenian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Armenian Power is closely connected to and considered part of the larger Armenian mafia.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Armenian Power",
+      "target": "Russian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Armenian Power has strong ties to Russian organized crime and deals directly with high-level Russian crime figures.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Armenian Power",
+      "target": "Italian-American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Armenian Power",
+      "target": "Lebanese Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Armenian Power",
+      "target": "Cachiros",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Armenian Power",
+      "target": "Vineland Boys",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Armenian Power",
+      "target": "Toonerville Rifa 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Armenian_Power"
+}

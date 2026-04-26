@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Numbers Gang",
+      "original_text_name": "Numbers Gang",
+      "aliases": [
+        "Number",
+        "Number gangs",
+        "ndodas"
+      ],
+      "type": "gang",
+      "context": "South African prison gang operating in most prisons, divided into 26s, 27s, and 28s.",
+      "time_period": "late 1800s-present"
+    },
+    {
+      "standard_name": "26s",
+      "original_text_name": "26s",
+      "aliases": [
+        "Izisebenzi"
+      ],
+      "type": "faction",
+      "context": "Faction of Numbers Gang responsible for smuggling and accumulating wealth.",
+      "time_period": "late 1800s-present"
+    },
+    {
+      "standard_name": "27s",
+      "original_text_name": "27s",
+      "aliases": [
+        "27 gang"
+      ],
+      "type": "faction",
+      "context": "Faction of Numbers Gang that enforces rules and acts as judiciary/military enforcement.",
+      "time_period": "late 1800s-present"
+    },
+    {
+      "standard_name": "28s",
+      "original_text_name": "28s",
+      "aliases": [
+        "28 gang"
+      ],
+      "type": "faction",
+      "context": "Faction of Numbers Gang responsible for fighting and protecting prisoners' rights.",
+      "time_period": "late 1800s-present"
+    },
+    {
+      "standard_name": "Ninevites",
+      "original_text_name": "Ninevites",
+      "aliases": [],
+      "type": "gang",
+      "context": "Historical outlaw group in late 19th century Johannesburg, precursor to the 27s.",
+      "time_period": "late 1800s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Numbers Gang",
+      "target": "26s",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Numbers Gang is divided into three factions: 26s, 27s, and 28s.",
+      "time_period": "late 1800s-present"
+    },
+    {
+      "source": "Numbers Gang",
+      "target": "27s",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Numbers Gang is divided into three factions: 26s, 27s, and 28s.",
+      "time_period": "late 1800s-present"
+    },
+    {
+      "source": "Numbers Gang",
+      "target": "28s",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Numbers Gang is divided into three factions: 26s, 27s, and 28s.",
+      "time_period": "late 1800s-present"
+    },
+    {
+      "source": "27s",
+      "target": "26s",
+      "relationship": "other",
+      "detail": "mediator",
+      "context": "The 27s mediate conflicts between the 26s and 28s and serve as a communication channel.",
+      "time_period": "late 1800s-present"
+    },
+    {
+      "source": "27s",
+      "target": "28s",
+      "relationship": "other",
+      "detail": "mediator",
+      "context": "The 27s mediate conflicts between the 26s and 28s and serve as a communication channel.",
+      "time_period": "late 1800s-present"
+    },
+    {
+      "source": "28s",
+      "target": "26s",
+      "relationship": "other",
+      "detail": "no direct communication",
+      "context": "The 28s are not allowed to speak directly to the 26s; they communicate through the 27s.",
+      "time_period": "late 1800s-present"
+    },
+    {
+      "source": "Ninevites",
+      "target": "27s",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "The 27s descended from the Ninevites, an outlaw group led by Nongoloza Mathebula.",
+      "time_period": "late 1800s"
+    },
+    {
+      "source": "26s",
+      "target": "28s",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The 26s and 28s have waged wars for control of prisons, such as in Belville and Brandvlei.",
+      "time_period": "1967-1976"
+    }
+  ],
+  "source_file": "Numbers_Gang"
+}

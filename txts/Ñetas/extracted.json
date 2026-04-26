@@ -1,0 +1,265 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Ñetas",
+      "original_text_name": "Ñetas",
+      "aliases": [
+        "NETA Association",
+        "Asociación Pro-Derechos del Confinado",
+        "Asociación NETA",
+        "NETA"
+      ],
+      "type": "gang",
+      "context": "Prison gang founded in Puerto Rico in 1979, involved in drug trafficking and other crimes. Operates in Puerto Rico, mainland US, and Spain.",
+      "time_period": "1979-present"
+    },
+    {
+      "standard_name": "Grupo 27",
+      "original_text_name": "Grupo 27",
+      "aliases": [
+        "G27",
+        "Insectos"
+      ],
+      "type": "gang",
+      "context": "Rival prison gang in Puerto Rico, also known as Insectos. Conflicts with Ñetas.",
+      "time_period": "1970s-? (active during Ñetas' rise)"
+    },
+    {
+      "standard_name": "Boricua Popular Army",
+      "original_text_name": "Boricua Popular Army",
+      "aliases": [],
+      "type": "militia",
+      "context": "Puerto Rican revolutionary group seeking independence. Ñetas identify with their philosophy.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "United Blood Nation",
+      "original_text_name": "United Blood Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Ñetas in the US.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Ñetas.",
+      "time_period": null
+    },
+    {
+      "standard_name": "20 Luv",
+      "original_text_name": "20 Luv",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Ñetas.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dominican Power",
+      "original_text_name": "Dominican Power",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Ñetas.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dominicans Don't Play",
+      "original_text_name": "Dominicans Don't Play",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Ñetas.",
+      "time_period": null
+    },
+    {
+      "standard_name": "MS-13",
+      "original_text_name": "MS-13",
+      "aliases": [
+        "Mara Salvatrucha"
+      ],
+      "type": "gang",
+      "context": "Rival gang to Ñetas; Ñetas members killed MS-13 members in 2003.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Solidos",
+      "original_text_name": "Los Solidos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Ñetas.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Latin Kings",
+      "original_text_name": "Latin Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Ñetas in US and Spain; Ñetas killed Latin Kings members in 2004.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Trinitarios",
+      "original_text_name": "Trinitarios",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Ñetas in Spain; brawl in Madrid in 2014.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with Ñetas in Chelsea, Massachusetts, as per 2010 indictment.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Martinez Familia Sangeros",
+      "original_text_name": "Martinez Familia Sangeros",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with Ñetas according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "La ONU",
+      "original_text_name": "La ONU",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with Ñetas according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "La Rompe ONU",
+      "original_text_name": "La Rompe ONU",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival to Ñetas according to infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ñetas",
+      "target": "Grupo 27",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ñetas formed to fight Grupo 27; violent conflict including murders of leaders.",
+      "time_period": "1979-1980s"
+    },
+    {
+      "source": "Ñetas",
+      "target": "Boricua Popular Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ñetas identify with the Boricua Popular Army's revolutionary philosophy.",
+      "time_period": null
+    },
+    {
+      "source": "Ñetas",
+      "target": "United Blood Nation",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Ñetas",
+      "target": "Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in text.",
+      "time_period": null
+    },
+    {
+      "source": "Ñetas",
+      "target": "20 Luv",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Ñetas",
+      "target": "Dominican Power",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in text.",
+      "time_period": null
+    },
+    {
+      "source": "Ñetas",
+      "target": "Dominicans Don't Play",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Ñetas",
+      "target": "MS-13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ñetas members killed MS-13 members in 2003; also mistaken murder of non-member.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Ñetas",
+      "target": "Los Solidos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Ñetas",
+      "target": "Latin Kings",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rival in US and Spain; Ñetas leader convicted for killing Latin Kings members in 2004.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Ñetas",
+      "target": "Trinitarios",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Brawl in Madrid in 2014 between Ñetas and Trinitarios.",
+      "time_period": "2014"
+    },
+    {
+      "source": "Ñetas",
+      "target": "Bloods",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Twelve members of Ñetas and Bloods indicted together in Chelsea, Massachusetts in 2010.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Ñetas",
+      "target": "Martinez Familia Sangeros",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Ñetas",
+      "target": "La ONU",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Ñetas",
+      "target": "La Rompe ONU",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Ñetas"
+}

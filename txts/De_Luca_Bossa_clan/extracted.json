@@ -1,0 +1,216 @@
+{
+  "nodes": [
+    {
+      "standard_name": "De Luca Bossa clan",
+      "original_text_name": "De Luca Bossa clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Neapolitan Camorra clan operating in eastern suburbs of Naples, involved in racketeering, extortion, drug trafficking, murder.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra organization active in Naples and surrounding areas.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Sarno clan",
+      "original_text_name": "Sarno clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Powerful Camorra clan in Naples, now defunct due to arrests and pentiti.",
+      "time_period": "1980s-2000s"
+    },
+    {
+      "standard_name": "Marfella clan",
+      "original_text_name": "Marfella clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan based in Pianura, Naples.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Lago clan",
+      "original_text_name": "Lago clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, rival of Marfella and De Luca Bossa.",
+      "time_period": null
+    },
+    {
+      "standard_name": "D'Amico clan",
+      "original_text_name": "D'Amico clan",
+      "aliases": [
+        "Fraulella"
+      ],
+      "type": "clan",
+      "context": "Rival Camorra clan in Ponticelli area.",
+      "time_period": null
+    },
+    {
+      "standard_name": "De Micco clan",
+      "original_text_name": "De Micco clan",
+      "aliases": [
+        "Bodo"
+      ],
+      "type": "clan",
+      "context": "Rival Camorra clan in Ponticelli area.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Secondigliano Alliance",
+      "original_text_name": "Secondigliano Alliance",
+      "aliases": [],
+      "type": "clan",
+      "context": "Powerful Camorra alliance based in Secondigliano, Naples.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Minichini group",
+      "original_text_name": "Minichini",
+      "aliases": [],
+      "type": "clan",
+      "context": "Criminal group based in Ponticelli, merged with De Luca Bossa.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Rinaldi clan",
+      "original_text_name": "Rinaldi clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan based in eastern Naples, allied with De Luca Bossa.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Schisa's faction",
+      "original_text_name": "Schisa's faction",
+      "aliases": [],
+      "type": "faction",
+      "context": "Faction within De Luca Bossa clan, member Tommaso Schisa became pentito.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Aprea-Cuccaro clan",
+      "original_text_name": "Aprea-Cuccaro clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Allied clan mentioned in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mazzarella clan",
+      "original_text_name": "Mazzarella clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Rival clan mentioned in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mariano clan",
+      "original_text_name": "Mariano clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Rival clan mentioned in infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "De Luca Bossa clan",
+      "target": "Nuova Camorra Organizzata",
+      "relationship": "other",
+      "detail": "affiliation",
+      "context": "Founder's father Umberto De Luca Bossa was a trusted member of NCO.",
+      "time_period": "before 2008"
+    },
+    {
+      "source": "De Luca Bossa clan",
+      "target": "Sarno clan",
+      "relationship": "rivalry",
+      "context": "Bloody war for territorial control after Antonio De Luca Bossa left Sarno clan.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "De Luca Bossa clan",
+      "target": "Marfella clan",
+      "relationship": "alliance",
+      "context": "Alliance formed through Teresa De Luca Bossa's relationship with boss Giuseppe Marfella.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "De Luca Bossa clan",
+      "target": "Lago clan",
+      "relationship": "rivalry",
+      "context": "Allied with Marfella clan to fight Lago clan.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "De Luca Bossa clan",
+      "target": "D'Amico clan",
+      "relationship": "rivalry",
+      "context": "Rival clan disputing territory in Ponticelli.",
+      "time_period": "2010s"
+    },
+    {
+      "source": "De Luca Bossa clan",
+      "target": "De Micco clan",
+      "relationship": "rivalry",
+      "context": "Rival clan; war led to killing of Antonio Minichini in 2013.",
+      "time_period": "2010s"
+    },
+    {
+      "source": "De Luca Bossa clan",
+      "target": "Secondigliano Alliance",
+      "relationship": "alliance",
+      "context": "Alliance made when Teresa De Luca Bossa was in command.",
+      "time_period": "2000s-2010"
+    },
+    {
+      "source": "De Luca Bossa clan",
+      "target": "Minichini group",
+      "relationship": "alliance",
+      "context": "Merger with emergent Minichini group, now considered most powerful in Ponticelli.",
+      "time_period": "2010s-present"
+    },
+    {
+      "source": "De Luca Bossa clan",
+      "target": "Rinaldi clan",
+      "relationship": "alliance",
+      "context": "Alliance between the two clans, facilitated by Michele Minichini and Tommaso Schisa.",
+      "time_period": "2010s-present"
+    },
+    {
+      "source": "De Luca Bossa clan",
+      "target": "Schisa's faction",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Schisa's faction is a faction within the De Luca Bossa clan.",
+      "time_period": null
+    },
+    {
+      "source": "De Luca Bossa clan",
+      "target": "Aprea-Cuccaro clan",
+      "relationship": "alliance",
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "De Luca Bossa clan",
+      "target": "Mazzarella clan",
+      "relationship": "rivalry",
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "De Luca Bossa clan",
+      "target": "Mariano clan",
+      "relationship": "rivalry",
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "De_Luca_Bossa_clan"
+}

@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Chaldean mafia",
+      "original_text_name": "Chaldean mafia",
+      "aliases": [
+        "Chaldean organized crime"
+      ],
+      "type": "mafia",
+      "context": "A collective of criminal organizations composed of Chaldeans, active primarily in Detroit, San Diego, and Phoenix.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Detroit Partnership",
+      "original_text_name": "Detroit Partnership",
+      "aliases": [],
+      "type": "mafia",
+      "context": "The American Mafia family in Detroit, also known as the Detroit crime family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [
+        "Sinaloa Federation"
+      ],
+      "type": "cartel",
+      "context": "A powerful Mexican drug cartel involved in trafficking narcotics.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "A prison gang and criminal organization in the United States.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Romanian Mafia",
+      "original_text_name": "Romanian Mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Organized crime groups from Romania.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Chaldean mafia",
+      "target": "Detroit Partnership",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Chaldean mafia has links to the Detroit Partnership of the American Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Chaldean mafia",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Chaldean mafia has links to the Sinaloa Cartel and partnered with the Sinaloa Federation in Operation Shadowbox.",
+      "time_period": null
+    },
+    {
+      "source": "Chaldean mafia",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Chaldean mafia has links to the Mexican Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Chaldean mafia",
+      "target": "Romanian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Chaldean mafia is allied with the Romanian Mafia according to the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Chaldean_mafia"
+}

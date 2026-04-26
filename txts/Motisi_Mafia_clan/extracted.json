@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Motisi Mafia clan",
+      "original_text_name": "Motisi Mafia clan",
+      "aliases": [
+        "Motisi clan",
+        "Pagliarelli family"
+      ],
+      "type": "clan",
+      "context": "Historical Sicilian Mafia clan from Pagliarelli area in Palermo, active since 1936.",
+      "time_period": "1936-present"
+    },
+    {
+      "standard_name": "Corleonesi Mafia clan",
+      "original_text_name": "Corleonesi",
+      "aliases": [
+        "Corleonesi Mafia clan"
+      ],
+      "type": "clan",
+      "context": "Sicilian Mafia clan from Corleone, allied with Motisi.",
+      "time_period": "defunct"
+    },
+    {
+      "standard_name": "Inzerillo Mafia clan",
+      "original_text_name": "Inzerillo clan",
+      "aliases": [
+        "Inzerillo Mafia clan"
+      ],
+      "type": "clan",
+      "context": "Sicilian Mafia clan, rival of Motisi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bontade Mafia family",
+      "original_text_name": "Bontade Mafia family",
+      "aliases": [
+        "Bontade clan",
+        "Santa Maria di Gesù family"
+      ],
+      "type": "clan",
+      "context": "Sicilian Mafia family from Santa Maria di Gesù, rival of Motisi.",
+      "time_period": "defunct"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Motisi Mafia clan",
+      "target": "Corleonesi Mafia clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Matteo Motisi was an ally of the Corleonesi.",
+      "time_period": "1980s-2000s"
+    },
+    {
+      "source": "Motisi Mafia clan",
+      "target": "Inzerillo Mafia clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Motisi clan killed members of Inzerillo clan during Second Mafia War.",
+      "time_period": "1981-1983"
+    },
+    {
+      "source": "Motisi Mafia clan",
+      "target": "Bontade Mafia family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Motisi clan killed members of Bontade family during Second Mafia War.",
+      "time_period": "1981-1983"
+    }
+  ],
+  "source_file": "Motisi_Mafia_clan"
+}

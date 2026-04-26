@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Spook Hunters",
+      "original_text_name": "Spook Hunters",
+      "aliases": [],
+      "type": "gang",
+      "context": "White racist youth gang in South Gate, California, active 1940s-1950s, fought integration.",
+      "time_period": "1940s-1950s"
+    },
+    {
+      "standard_name": "Slausons",
+      "original_text_name": "Slausons",
+      "aliases": [],
+      "type": "gang",
+      "context": "Black youth gang formed in Los Angeles to protect against white racist gangs.",
+      "time_period": "1940s-1950s"
+    },
+    {
+      "standard_name": "Businessmen",
+      "original_text_name": "Businessmen",
+      "aliases": [],
+      "type": "gang",
+      "context": "Black youth gang formed in Los Angeles to protect against white racist gangs.",
+      "time_period": "1940s-1950s"
+    },
+    {
+      "standard_name": "Gladiators",
+      "original_text_name": "Gladiators",
+      "aliases": [],
+      "type": "gang",
+      "context": "Black youth gang formed in Los Angeles to protect against white racist gangs.",
+      "time_period": "1940s-1950s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Spook Hunters",
+      "target": "Slausons",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Spook Hunters attacked black youths, leading to formation of Slausons for self-defense.",
+      "time_period": "1940s-1950s"
+    },
+    {
+      "source": "Spook Hunters",
+      "target": "Businessmen",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Spook Hunters attacked black youths, leading to formation of Businessmen for self-defense.",
+      "time_period": "1940s-1950s"
+    },
+    {
+      "source": "Spook Hunters",
+      "target": "Gladiators",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Spook Hunters attacked black youths, leading to formation of Gladiators for self-defense.",
+      "time_period": "1940s-1950s"
+    }
+  ],
+  "source_file": "Spook_Hunters"
+}

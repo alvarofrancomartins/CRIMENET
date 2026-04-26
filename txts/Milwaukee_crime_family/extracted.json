@@ -1,0 +1,137 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Milwaukee crime family",
+      "original_text_name": "Milwaukee crime family",
+      "aliases": [
+        "Balistrieri crime family",
+        "Milwaukee Mafia"
+      ],
+      "type": "mafia",
+      "context": "Italian American Mafia family based in Milwaukee, Wisconsin, involved in racketeering, gambling, skimming, and extortion.",
+      "time_period": "c. 1918-2024"
+    },
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [
+        "Chicago family",
+        "Chicago Mafia"
+      ],
+      "type": "mafia",
+      "context": "Powerful Mafia family based in Chicago, Illinois, which exerted control over the Milwaukee family at various times.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Kansas City crime family",
+      "original_text_name": "Kansas City crime family",
+      "aliases": [
+        "Kansas City Mafia"
+      ],
+      "type": "mafia",
+      "context": "Mafia family based in Kansas City, Missouri, allied with Milwaukee and involved in Las Vegas skimming.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno crime family",
+      "aliases": [
+        "Bonanno family"
+      ],
+      "type": "mafia",
+      "context": "New York Mafia family that cooperated with the Milwaukee family in a vending machine extortion scheme.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Cleveland crime family",
+      "original_text_name": "Cleveland crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Cleveland, Ohio, listed as an ally of the Milwaukee family.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Rockford crime family",
+      "original_text_name": "Rockford crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Rockford, Illinois, listed as an ally of the Milwaukee family.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "St. Louis crime family",
+      "original_text_name": "St. Louis crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in St. Louis, Missouri, listed as an ally of the Milwaukee family.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Madison crime family",
+      "original_text_name": "Madison crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Madison, Wisconsin; disbanded and some members transferred to Milwaukee.",
+      "time_period": "unknown-1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Milwaukee crime family",
+      "target": "Chicago Outfit",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Milwaukee family was under the control of and answered directly to the Chicago Outfit after 1931.",
+      "time_period": "1931-2024"
+    },
+    {
+      "source": "Milwaukee crime family",
+      "target": "Kansas City crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Milwaukee recruited members from Kansas City to enforce protection rackets and cooperated in Las Vegas skimming.",
+      "time_period": "1960s-1980s"
+    },
+    {
+      "source": "Milwaukee crime family",
+      "target": "Bonanno crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The families cooperated in a vending machine extortion scheme in the late 1970s.",
+      "time_period": "1978-1979"
+    },
+    {
+      "source": "Milwaukee crime family",
+      "target": "Cleveland crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Milwaukee crime family",
+      "target": "Rockford crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Milwaukee crime family",
+      "target": "St. Louis crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Milwaukee crime family",
+      "target": "Madison crime family",
+      "relationship": "other",
+      "detail": "member transfer",
+      "context": "John Candela transferred from the Madison crime family to Milwaukee after Madison disbanded.",
+      "time_period": "1990s"
+    }
+  ],
+  "source_file": "Milwaukee_crime_family"
+}

@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bahala Na Gang",
+      "original_text_name": "Bahala Na Gang",
+      "aliases": [
+        "BNG",
+        "Bahala Na"
+      ],
+      "type": "gang",
+      "context": "Filipino street gang founded in the 1940s in Manila, involved in drug and weapons trafficking, murder, and other crimes. Active in the Philippines and the United States.",
+      "time_period": "1940s-present"
+    },
+    {
+      "standard_name": "Sige-Sige Gang",
+      "original_text_name": "Sige-Sige Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival Filipino street gang active in Manila during the 1940s-1960s, known for territorial conflicts.",
+      "time_period": "1940s-1960s"
+    },
+    {
+      "standard_name": "Sputnik Gang",
+      "original_text_name": "Sputnik gang",
+      "aliases": [
+        "Sputniks"
+      ],
+      "type": "gang",
+      "context": "Filipino street gang, rival of Bahala Na Gang, involved in drug trafficking.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Nuestra Familia",
+      "original_text_name": "Nuestra Familia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang based in California, allied with Bahala Na Gang according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "True Brown Style",
+      "original_text_name": "True Brown Style",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang, possibly allied with Bahala Na Gang according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Satanas",
+      "original_text_name": "Satanas",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Bahala Na Gang according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bahala Na Barkada",
+      "original_text_name": "Bahala Na Barkada",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Bahala Na Gang according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Pinoy Real",
+      "original_text_name": "Pinoy Real",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Bahala Na Gang according to infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bahala Na Gang",
+      "target": "Sige-Sige Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Bahala Na Gang was formed to counter the existing Sige-Sige Gang, and they had numerous altercations.",
+      "time_period": "1940s-1960s"
+    },
+    {
+      "source": "Bahala Na Gang",
+      "target": "Sputnik Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "A film titled 'Bahala Na vs. Sputnik' depicted a gang war between the two groups, and members were captured together in a buy-bust operation.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Bahala Na Gang",
+      "target": "Nuestra Familia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Infobox lists Nuestra Familia as an ally.",
+      "time_period": null
+    },
+    {
+      "source": "Bahala Na Gang",
+      "target": "True Brown Style",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Infobox lists True Brown Style as an ally.",
+      "time_period": null
+    },
+    {
+      "source": "Bahala Na Gang",
+      "target": "Satanas",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Infobox lists Satanas as a rival.",
+      "time_period": null
+    },
+    {
+      "source": "Bahala Na Gang",
+      "target": "Bahala Na Barkada",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Infobox lists Bahala Na Barkada as a rival.",
+      "time_period": null
+    },
+    {
+      "source": "Bahala Na Gang",
+      "target": "Pinoy Real",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Infobox lists Pinoy Real as a rival.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Bahala_Na_Gang"
+}

@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "standard_name": "69th Street Gang",
+      "original_text_name": "69th Street Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Philadelphia-based gang involved in prostitution, extortion, labor racketeering, and narcotics.",
+      "time_period": "1920s-1950s"
+    },
+    {
+      "standard_name": "Big Seven",
+      "original_text_name": "Big Seven",
+      "aliases": [],
+      "type": "other",
+      "context": "A coalition of major bootleggers during Prohibition, including the Philadelphia faction.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "A New York-based Mafia family involved in racketeering and garment district operations.",
+      "time_period": "1920s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "69th Street Gang",
+      "target": "Big Seven",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Rosen, as head of the 69th Street Gang, was a member of the Big Seven aligned with the Philadelphia faction.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "source": "69th Street Gang",
+      "target": "Lucchese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Rosen became partners with Tommy Lucchese, using a company to ship clothing for the Lucchese crime family.",
+      "time_period": "early 1950s"
+    }
+  ],
+  "source_file": "Nig_Rosen"
+}

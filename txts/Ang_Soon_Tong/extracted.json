@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Ang Soon Tong",
+      "original_text_name": "Ang Soon Tong",
+      "aliases": [],
+      "type": "gang",
+      "context": "Secret society and gang based in Singapore and Malaysia, active since the 1950s, involved in drug trafficking, arms smuggling, illegal moneylending, illegal gambling, extortion, and robbery.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Gi Leng Hor",
+      "original_text_name": "Gi Leng Hor",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang attacked by Ang Soon Tong in Marsiling in December 1990.",
+      "time_period": null
+    },
+    {
+      "standard_name": "See Tong",
+      "original_text_name": "See Tong",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang that clashed with Ang Soon Tong over a funeral banner in December 1995.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Loh Kuan",
+      "original_text_name": "Loh Kuan",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang that a former Ang Soon Tong member joined, leading to a fatal attack by Ang Soon Tong.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ang Soon Tong",
+      "target": "Gi Leng Hor",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ang Soon Tong members attacked Gi Leng Hor in Marsiling in December 1990, resulting in a death.",
+      "time_period": "1990"
+    },
+    {
+      "source": "Ang Soon Tong",
+      "target": "See Tong",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ang Soon Tong clashed with See Tong over a funeral banner in December 1995.",
+      "time_period": "1995"
+    },
+    {
+      "source": "Ang Soon Tong",
+      "target": "Loh Kuan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ang Soon Tong attacked a former member who had joined Loh Kuan, leading to a fatal stabbing in 2000.",
+      "time_period": "2000"
+    }
+  ],
+  "source_file": "Ang_Soon_Tong"
+}

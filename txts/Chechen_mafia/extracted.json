@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Chechen mafia",
+      "original_text_name": "Chechen mafia",
+      "aliases": [
+        "Obshina",
+        "community"
+      ],
+      "type": "mafia",
+      "context": "Ethnic organized crime group operating in former Soviet Union, involved in money laundering, racketeering, arms trafficking, etc.",
+      "time_period": "1974-present"
+    },
+    {
+      "standard_name": "Russian mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Established organized crime groups in Russia, including Solntsevskaya bratva and Orekhovskaya gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Solntsevskaya bratva",
+      "original_text_name": "Solntsevskaya bratva",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Slavic gang in Moscow, rival to Chechen mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Orekhovskaya gang",
+      "original_text_name": "Orekhovskaya gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Slavic gang in Moscow, rival to Chechen mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Special Purpose Islamic Regiment",
+      "original_text_name": "Special Purpose Islamic Regiment",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Insurgent group in Chechnya involved in kidnapping and criminal activities.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kadyrovtsy",
+      "original_text_name": "Kadyrovtsy",
+      "aliases": [],
+      "type": "militia",
+      "context": "Pro-government forces under Ramzan Kadyrov, accused of murders and embezzlement.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Lebanese mafia",
+      "original_text_name": "Lebanese mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Rival to Chechen mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ukrainian mafia",
+      "original_text_name": "Ukrainian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Rival to Chechen mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Serbian mafia",
+      "original_text_name": "Serbian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Rival to Chechen mafia.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Chechen mafia",
+      "target": "Russian mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Chechen mafia became dominant in Moscow, leading to conflict with Slavic gangs including Russian mafia groups.",
+      "time_period": null
+    },
+    {
+      "source": "Chechen mafia",
+      "target": "Solntsevskaya bratva",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Solntsevskaya bratva was concerned about Chechen mafia's links to separatism and their dominance.",
+      "time_period": null
+    },
+    {
+      "source": "Chechen mafia",
+      "target": "Orekhovskaya gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Orekhovskaya gang was concerned about Chechen mafia's links to separatism and their dominance.",
+      "time_period": null
+    },
+    {
+      "source": "Chechen mafia",
+      "target": "Special Purpose Islamic Regiment",
+      "relationship": "other",
+      "detail": "criminal cooperation",
+      "context": "Both groups involved in criminal activities in war-torn Chechnya, but not explicitly allied.",
+      "time_period": null
+    },
+    {
+      "source": "Chechen mafia",
+      "target": "Kadyrovtsy",
+      "relationship": "other",
+      "detail": "government connection",
+      "context": "Under Kadyrov, Chechnya's criminalization continued with government officials accused of embezzlement.",
+      "time_period": null
+    },
+    {
+      "source": "Chechen mafia",
+      "target": "Lebanese mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Chechen mafia",
+      "target": "Ukrainian mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Chechen mafia",
+      "target": "Serbian mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Chechen_mafia"
+}

@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sabini family",
+      "original_text_name": "Sabini family",
+      "aliases": [],
+      "type": "gang",
+      "context": "Italian-English crime family involved in protection rackets and gambling in London.",
+      "time_period": "early 1900s-1940s"
+    },
+    {
+      "standard_name": "Cortesi brothers",
+      "original_text_name": "Cortesi brothers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Four Italian-born brothers involved in protection racketeering in London.",
+      "time_period": "early 1900s-1920s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cortesi brothers",
+      "target": "Sabini family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Cortesi brothers became rivals with the Sabini family over a dispute about proceeds from bookmaking and gambling clubs.",
+      "time_period": "1922"
+    }
+  ],
+  "source_file": "Cortesi_brothers"
+}

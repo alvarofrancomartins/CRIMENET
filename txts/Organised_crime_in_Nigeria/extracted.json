@@ -1,0 +1,138 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Area Boys",
+      "original_text_name": "Area Boys",
+      "aliases": [
+        "Agberos"
+      ],
+      "type": "gang",
+      "context": "Loosely organized gangs of street children and teenagers in Lagos, Nigeria, involved in extortion, drug sales, and other crimes.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Neo Black Movement of Africa",
+      "original_text_name": "Neo Black Movement of Africa",
+      "aliases": [
+        "NBM"
+      ],
+      "type": "other",
+      "context": "A confraternity that serves as a facade for the Black Axe, involved in fraud, cybercrime, drug trafficking, and human trafficking.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Black Axe",
+      "original_text_name": "Black Axe",
+      "aliases": [],
+      "type": "other",
+      "context": "A Nigerian confraternity/campus gang involved in drug trafficking, fraud, cybercrime, car theft, and human trafficking, operating worldwide.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [
+        "Neapolitan Camorra"
+      ],
+      "type": "clan",
+      "context": "Italian organized crime group based in Campania, allied with Nigerian groups in prostitution, drugs, and human trafficking.",
+      "time_period": "1800s-present"
+    },
+    {
+      "standard_name": "Sicilian Mafia",
+      "original_text_name": "Sicilian Mafia",
+      "aliases": [
+        "Cosa Nostra"
+      ],
+      "type": "mafia",
+      "context": "Italian mafia based in Sicily, allied with Nigerian groups in prostitution, drugs, and human trafficking.",
+      "time_period": "1800s-present"
+    },
+    {
+      "standard_name": "Capriati clan",
+      "original_text_name": "Capriati clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "A crime clan in Bari, Italy, allied with a Nigerian crime group in drug trafficking.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Chinese triads",
+      "original_text_name": "Chinese triads",
+      "aliases": [],
+      "type": "triad",
+      "context": "Chinese organized crime groups that collaborate with Nigerian mafia in heroin trafficking in France.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Yakuza",
+      "original_text_name": "yakuza",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Japanese organized crime groups that engage in heroin dealing with Nigerian mafia in Tokyo.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Neo Black Movement of Africa",
+      "target": "Black Axe",
+      "relationship": "other",
+      "detail": "facade for",
+      "context": "The Neo Black Movement serves as a welfare facade for the Black Axe confraternity.",
+      "time_period": "1980s-present"
+    },
+    {
+      "source": "Black Axe",
+      "target": "Camorra",
+      "relationship": "alliance",
+      "context": "Nigerian groups are increasing alliances with the Neapolitan Camorra in prostitution, drugs, and human trafficking.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Black Axe",
+      "target": "Sicilian Mafia",
+      "relationship": "alliance",
+      "context": "Nigerian groups are increasing alliances with the Sicilian Mafia in prostitution, drugs, and human trafficking.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Nigerian mafia",
+      "target": "Camorra",
+      "relationship": "other",
+      "detail": "pays tribute to",
+      "context": "The Nigerian mafia pays a percentage of its profits to the Camorra.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Nigerian mafia",
+      "target": "Sicilian Mafia",
+      "relationship": "other",
+      "detail": "pays tribute to",
+      "context": "The Nigerian mafia pays a percentage of its profits to the Sicilian Mafia.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Nigerian crime group",
+      "target": "Capriati clan",
+      "relationship": "alliance",
+      "context": "Italian police dismantled a drug trafficking scheme between a Nigerian crime group and the Capriati clan in Bari.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Nigerian mafia",
+      "target": "Chinese triads",
+      "relationship": "alliance",
+      "context": "Nigerian mafia in France collaborates with Chinese triads in heroin trafficking.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Nigerian mafia",
+      "target": "Yakuza",
+      "relationship": "alliance",
+      "context": "Nigerian mafia in Tokyo engages in heroin dealing with the yakuza.",
+      "time_period": "unknown"
+    }
+  ],
+  "source_file": "Organised_crime_in_Nigeria"
+}

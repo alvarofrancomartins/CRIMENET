@@ -1,0 +1,139 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cártel del Noreste",
+      "original_text_name": "Cártel del Noreste",
+      "aliases": [
+        "Northeast Cartel"
+      ],
+      "type": "cartel",
+      "context": "Mexican criminal organization splintered from Los Zetas, active in drug trafficking, kidnapping, extortion, etc. Based in Nuevo Laredo.",
+      "time_period": "2014-present"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel that fractured after leadership capture, leading to splinter groups.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Los Texas",
+      "original_text_name": "Los Texas",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang controlling Nuevo Laredo, later absorbed by Gulf Cartel in 2001.",
+      "time_period": "before 2001"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, original employer of Los Zetas and rival of Cártel del Noreste.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Zetas Vieja Escuela",
+      "original_text_name": "Zetas Vieja Escuela",
+      "aliases": [],
+      "type": "faction",
+      "context": "Splinter faction of Los Zetas aligned with Gulf Cartel, rivals of Cártel del Noreste.",
+      "time_period": "2015-present"
+    },
+    {
+      "standard_name": "CJNG",
+      "original_text_name": "CJNG",
+      "aliases": [
+        "Cártel de Jalisco Nueva Generación"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel, rival of Cártel del Noreste.",
+      "time_period": "2009-present"
+    },
+    {
+      "standard_name": "La Línea",
+      "original_text_name": "La Línea",
+      "aliases": [],
+      "type": "faction",
+      "context": "Armed wing of the Juárez Cartel, rival of Cártel del Noreste.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, rival of Cártel del Noreste.",
+      "time_period": "1980s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cártel del Noreste",
+      "target": "Los Zetas",
+      "relationship": "other",
+      "detail": "splintered from",
+      "context": "Cártel del Noreste splintered from Los Zetas after the capture of Omar Treviño Morales.",
+      "time_period": "2014-2015"
+    },
+    {
+      "source": "Los Texas",
+      "target": "Gulf Cartel",
+      "relationship": "other",
+      "detail": "absorbed by",
+      "context": "Los Texas was absorbed by the Gulf Cartel in 2001.",
+      "time_period": "2001"
+    },
+    {
+      "source": "Cártel del Noreste",
+      "target": "Zetas Vieja Escuela",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Cártel del Noreste and Zetas Vieja Escuela are rival factions formed after the split of Los Zetas.",
+      "time_period": "2015-present"
+    },
+    {
+      "source": "Zetas Vieja Escuela",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zetas Vieja Escuela is aligned with the Gulf Cartel.",
+      "time_period": "2015-present"
+    },
+    {
+      "source": "Cártel del Noreste",
+      "target": "Gulf Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Cártel del Noreste is a rival of the Gulf Cartel.",
+      "time_period": "2014-present"
+    },
+    {
+      "source": "Cártel del Noreste",
+      "target": "CJNG",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "CJNG is listed as a rival of Cártel del Noreste.",
+      "time_period": null
+    },
+    {
+      "source": "Cártel del Noreste",
+      "target": "La Línea",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "La Línea is listed as a rival of Cártel del Noreste.",
+      "time_period": null
+    },
+    {
+      "source": "Cártel del Noreste",
+      "target": "Sinaloa Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sinaloa Cartel is listed as a rival of Cártel del Noreste.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Cártel_del_Noreste"
+}

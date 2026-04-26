@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "standard_name": "El Forastero Motorcycle Club",
+      "original_text_name": "El Forastero Motorcycle Club",
+      "aliases": [
+        "EFMC",
+        "El Forasteros"
+      ],
+      "type": "motorcycle_club",
+      "context": "One-percenter motorcycle club founded in 1962, involved in drug trafficking and motorcycle theft, operates in the Midwestern USA.",
+      "time_period": "1962-present"
+    },
+    {
+      "standard_name": "Satan Slaves Motorcycle Club",
+      "original_text_name": "Satan Slaves MC",
+      "aliases": [
+        "Satan Slaves"
+      ],
+      "type": "motorcycle_club",
+      "context": "Motorcycle club that turned down El Forastero for a chapter, leading to the latter's founding.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Galloping Goose Motorcycle Club",
+      "original_text_name": "Galloping Goose MC",
+      "aliases": [
+        "Galloping Goose Motorcycle Club"
+      ],
+      "type": "motorcycle_club",
+      "context": "Motorcycle club closely linked to El Forastero, involved in joint drug purchasing and distribution.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "El Forastero Motorcycle Club",
+      "target": "Satan Slaves Motorcycle Club",
+      "relationship": "other",
+      "detail": "rejected chapter",
+      "context": "El Forastero was established after being turned down for a chapter by the Satan Slaves MC.",
+      "time_period": "1962"
+    },
+    {
+      "source": "El Forastero Motorcycle Club",
+      "target": "Galloping Goose Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "El Forastero has close links to Galloping Goose MC, and members pooled money to buy drugs at joint runs.",
+      "time_period": null
+    }
+  ],
+  "source_file": "El_Forastero_Motorcycle_Club"
+}

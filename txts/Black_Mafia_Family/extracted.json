@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Black Mafia Family",
+      "original_text_name": "Black Mafia Family",
+      "aliases": [
+        "BMF",
+        "Black Mafia Family",
+        "Flenory organization"
+      ],
+      "type": "cartel",
+      "context": "Drug trafficking and money laundering organization founded in 1985 in Detroit, operating nationwide with links to Mexican cartels.",
+      "time_period": "1985-2005"
+    },
+    {
+      "standard_name": "50 Boyz",
+      "original_text_name": "50 Boyz",
+      "aliases": [],
+      "type": "gang",
+      "context": "Original group of the Flenory brothers selling $50 bags of cocaine in Detroit in the late 1980s.",
+      "time_period": "late 1980s"
+    },
+    {
+      "standard_name": "BMF Entertainment",
+      "original_text_name": "BMF Entertainment",
+      "aliases": [],
+      "type": "other",
+      "context": "Front organization and record label used by BMF to launder money from cocaine sales.",
+      "time_period": "early 2000s-2005"
+    },
+    {
+      "standard_name": "Rolling 20s Crips",
+      "original_text_name": "Rolling 20s Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang from Long Beach, California, associated with BMF Swishgang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sin City Mafia",
+      "original_text_name": "Sin City Mafia",
+      "aliases": [],
+      "type": "other",
+      "context": "Alleged sister organization of BMF, involved in drug trafficking and violence.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Folk Nation",
+      "original_text_name": "Folk Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "Alliance of street gangs including Gangster Disciples, Black Disciples, and others.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang based in Los Angeles, California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Zoe Pound",
+      "original_text_name": "Zoe Pound",
+      "aliases": [],
+      "type": "gang",
+      "context": "Haitian street gang based in Miami, Florida.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Black Mafia Family",
+      "target": "50 Boyz",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "50 Boyz was the original group that evolved into the Black Mafia Family.",
+      "time_period": "late 1980s-1985"
+    },
+    {
+      "source": "Black Mafia Family",
+      "target": "BMF Entertainment",
+      "relationship": "other",
+      "detail": "front organization",
+      "context": "BMF Entertainment was created by BMF to launder drug money and legitimize operations.",
+      "time_period": "early 2000s-2005"
+    },
+    {
+      "source": "Black Mafia Family",
+      "target": "Rolling 20s Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "BMF Swishgang, a subgroup of BMF, had ties to the Rolling 20s Crips.",
+      "time_period": null
+    },
+    {
+      "source": "Black Mafia Family",
+      "target": "Sin City Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sin City Mafia is described as BMF's supposed sister organization.",
+      "time_period": null
+    },
+    {
+      "source": "Black Mafia Family",
+      "target": "Folk Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "BMF is listed as an ally of Folk Nation in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Black Mafia Family",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "BMF is listed as an ally of Crips in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Black Mafia Family",
+      "target": "Zoe Pound",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "BMF is listed as an ally of Zoe Pound in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Black_Mafia_Family"
+}

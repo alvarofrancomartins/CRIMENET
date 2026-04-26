@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Manson Family",
+      "original_text_name": "Manson Family",
+      "aliases": [
+        "the Family"
+      ],
+      "type": "gang",
+      "context": "Commune, gang and cult led by Charles Manson, active in California in the late 1960s and early 1970s, responsible for multiple murders.",
+      "time_period": "1967-1975"
+    },
+    {
+      "standard_name": "Straight Satans",
+      "original_text_name": "Straight Satans",
+      "aliases": [
+        "Straight Satans Motorcycle Club"
+      ],
+      "type": "motorcycle_club",
+      "context": "Motorcycle club whose treasurer Danny DeCarlo was involved with the Manson Family; members acted as security for the Family.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Black Panthers",
+      "original_text_name": "Black Panthers",
+      "aliases": [
+        "Black Panther Party"
+      ],
+      "type": "militia",
+      "context": "Militant political organization; Manson feared retaliation from them after shooting Bernard Crowe, whom he mistakenly believed was a Panther.",
+      "time_period": "1966-1982"
+    },
+    {
+      "standard_name": "Aryan Brotherhood",
+      "original_text_name": "Aryan Brotherhood",
+      "aliases": [],
+      "type": "gang",
+      "context": "White supremacist prison gang; Manson found temporary acceptance from them at San Quentin.",
+      "time_period": "1960s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Manson Family",
+      "target": "Straight Satans",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Manson brought in Straight Satans members as security at Spahn Ranch and had dealings with their treasurer.",
+      "time_period": "1969"
+    },
+    {
+      "source": "Manson Family",
+      "target": "Black Panthers",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Manson expected retaliation from the Black Panthers after shooting Bernard Crowe, leading to defensive measures.",
+      "time_period": "1969"
+    },
+    {
+      "source": "Manson Family",
+      "target": "Aryan Brotherhood",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Manson found temporary acceptance from the Aryan Brotherhood at San Quentin.",
+      "time_period": "1970s"
+    }
+  ],
+  "source_file": "Manson_Family"
+}

@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Baybaşin family",
+      "original_text_name": "Baybaşin family",
+      "aliases": [
+        "Baybaşin crime syndicate",
+        "Baybaşinler"
+      ],
+      "type": "clan",
+      "context": "Kurdish crime syndicate involved in drug trafficking, arms trafficking, and other crimes, operating in Turkey and Western Europe.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Hackney Bombers",
+      "original_text_name": "Hackney Bombers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Kurdish gang in the UK under the command of Hüseyin Baybaşin, involved in armed clashes.",
+      "time_period": "2024"
+    },
+    {
+      "standard_name": "Tottenham Turks",
+      "original_text_name": "Tottenham Turks",
+      "aliases": [],
+      "type": "gang",
+      "context": "Turkish-controlled gang in the UK, rival of the Hackney Bombers.",
+      "time_period": "2024"
+    },
+    {
+      "standard_name": "Kurdistan Workers' Party",
+      "original_text_name": "Kurdistan Workers' Party",
+      "aliases": [
+        "PKK"
+      ],
+      "type": "militia",
+      "context": "Kurdish militant political organization, allied with the Baybaşin family.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Kurdish mafia",
+      "original_text_name": "Kurdish mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "General term for Kurdish organized crime groups, allied with the Baybaşin family.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Turkish mafia",
+      "original_text_name": "Turkish mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "General term for Turkish organized crime groups, rival of the Baybaşin family.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Baybaşin family",
+      "target": "Hackney Bombers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Baybaşin family armed and financially supported the Hackney Bombers.",
+      "time_period": "2024"
+    },
+    {
+      "source": "Hackney Bombers",
+      "target": "Tottenham Turks",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Hackney Bombers clashed with the Tottenham Turks, attacking a restaurant owned by them.",
+      "time_period": "2024"
+    },
+    {
+      "source": "Baybaşin family",
+      "target": "Kurdistan Workers' Party",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Baybaşin family is allied with the Kurdistan Workers' Party.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Baybaşin family",
+      "target": "Kurdish mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Baybaşin family is allied with the Kurdish mafia.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Baybaşin family",
+      "target": "Turkish mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Baybaşin family is a rival of the Turkish mafia.",
+      "time_period": "unknown"
+    }
+  ],
+  "source_file": "Baybaşin_family"
+}

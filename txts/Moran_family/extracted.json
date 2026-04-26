@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Moran family",
+      "original_text_name": "Moran family",
+      "aliases": [],
+      "type": "other",
+      "context": "Melbourne-based criminal family involved in drug trafficking, corruption, money laundering, and debt collection.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Carlton Crew",
+      "original_text_name": "Carlton Crew",
+      "aliases": [],
+      "type": "gang",
+      "context": "Melbourne-based criminal group allied with the Moran family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Federated Ship Painters and Dockers Union",
+      "original_text_name": "Federated Ship Painters and Dockers Union",
+      "aliases": [],
+      "type": "other",
+      "context": "Union with criminal ties, allied with the Moran family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Williams Gang",
+      "original_text_name": "Williams Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival criminal group to the Moran family in Melbourne.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Moran family",
+      "target": "Carlton Crew",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Moran family is allied with the Carlton Crew.",
+      "time_period": null
+    },
+    {
+      "source": "Moran family",
+      "target": "Federated Ship Painters and Dockers Union",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Moran family is allied with the Federated Ship Painters and Dockers Union.",
+      "time_period": null
+    },
+    {
+      "source": "Moran family",
+      "target": "Williams Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Moran family is rival to the Williams Gang.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Moran_family"
+}

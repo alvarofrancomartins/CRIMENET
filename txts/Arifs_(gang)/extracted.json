@@ -1,0 +1,109 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Arifs",
+      "original_text_name": "Arifs",
+      "aliases": [
+        "Arif family",
+        "Arif gang"
+      ],
+      "type": "gang",
+      "context": "Turkish Cypriot criminal organization in south-east London involved in armed robbery, drug trafficking, and racketeering since the late 1960s.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Kray brothers",
+      "original_text_name": "Kray brothers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Notorious London gangsters whose downfall left a power vacuum in the London underworld.",
+      "time_period": "1950s-1960s"
+    },
+    {
+      "standard_name": "Clerkenwell crime syndicate",
+      "original_text_name": "Clerkenwell crime syndicate",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal organization that competed for control of the London underworld after the Krays.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Brindle family",
+      "original_text_name": "Brindle family",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal family involved in a gangland war with the Arifs during the 1990s.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Adams family",
+      "original_text_name": "Adams family",
+      "aliases": [],
+      "type": "gang",
+      "context": "London-based crime family allied with the Arifs.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Turkish mafia",
+      "original_text_name": "Turkish mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Turkish organized crime groups allied with the Arifs, overseeing shipments from Turkey.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Baybaşin family",
+      "original_text_name": "Baybaşin family",
+      "aliases": [],
+      "type": "gang",
+      "context": "Turkish Cypriot crime family rival to the Arifs.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Arifs",
+      "target": "Kray brothers",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "Arifs filled the power vacuum left by the Kray brothers' downfall.",
+      "time_period": "late 1960s"
+    },
+    {
+      "source": "Arifs",
+      "target": "Clerkenwell crime syndicate",
+      "relationship": "rivalry",
+      "context": "Arifs competed with Clerkenwell crime syndicate for control of London underworld.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Arifs",
+      "target": "Brindle family",
+      "relationship": "rivalry",
+      "context": "Arifs engaged in a highly publicised gangland war with the Brindle family during the 1990s.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Arifs",
+      "target": "Adams family",
+      "relationship": "alliance",
+      "context": "Arifs are allied with the Adams family.",
+      "time_period": null
+    },
+    {
+      "source": "Arifs",
+      "target": "Turkish mafia",
+      "relationship": "alliance",
+      "context": "Arifs maintain ties with Turkish mafia for drug shipments from Turkey.",
+      "time_period": null
+    },
+    {
+      "source": "Arifs",
+      "target": "Baybaşin family",
+      "relationship": "rivalry",
+      "context": "Arifs are rivals of the Baybaşin family.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Arifs_(gang)"
+}

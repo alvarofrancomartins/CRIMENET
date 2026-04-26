@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Clan Magliulo",
+      "original_text_name": "clan Magliulo",
+      "aliases": [
+        "Magliulo"
+      ],
+      "type": "clan",
+      "context": "Camorra clan based in Afragola, operating in lower Lazio and Caserta, involved in construction, drug trafficking, and control of shopping centers.",
+      "time_period": "1960s-1990s"
+    },
+    {
+      "standard_name": "Casalesi clan",
+      "original_text_name": "clan dei Casalesi",
+      "aliases": [
+        "Casalesi"
+      ],
+      "type": "clan",
+      "context": "Powerful Camorra clan from Casal di Principe, involved in drug trafficking and construction.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Esposito clan",
+      "original_text_name": "Esposito di Sessa Aurunca",
+      "aliases": [
+        "Esposito"
+      ],
+      "type": "clan",
+      "context": "Camorra clan from Sessa Aurunca, allied with the Magliulo clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Moccia clan",
+      "original_text_name": "clan Moccia",
+      "aliases": [
+        "Moccia"
+      ],
+      "type": "clan",
+      "context": "Camorra clan from Afragola, rival of the Magliulo clan in a feud over construction contracts.",
+      "time_period": "1960s-1990s"
+    },
+    {
+      "standard_name": "Clan Falanga",
+      "original_text_name": "clan Falanga",
+      "aliases": [
+        "Falanga"
+      ],
+      "type": "clan",
+      "context": "Camorra clan from Torre del Greco, from which a splinter faction led by Gaetano Magliulo split.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Clan Magliulo",
+      "target": "Casalesi clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Magliulo had close ties with the Casalesi clan; Mario Magliulo was a co-founder and brother-in-law of boss Antonio Bardellino.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "source": "Clan Magliulo",
+      "target": "Esposito clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Magliulo had direct contacts with the Esposito clan of Sessa Aurunca.",
+      "time_period": null
+    },
+    {
+      "source": "Clan Magliulo",
+      "target": "Moccia clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Magliulo and Moccia clans were involved in a bloody feud over construction contracts for the Rione Salicelle.",
+      "time_period": "1960s-1990s"
+    },
+    {
+      "source": "Clan Magliulo",
+      "target": "Clan Falanga",
+      "relationship": "other",
+      "detail": "splinter faction",
+      "context": "Gaetano Magliulo led a splinter faction from the Falanga clan, indicating a breakaway from the original clan.",
+      "time_period": "2000s"
+    }
+  ],
+  "source_file": "Clan_Magliulo"
+}

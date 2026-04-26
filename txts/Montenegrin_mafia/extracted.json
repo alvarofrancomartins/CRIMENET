@@ -1,0 +1,288 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Montenegrin mafia",
+      "original_text_name": "Montenegrin mafia",
+      "aliases": [
+        "Crnogorska mafija",
+        "Montenegrin clans"
+      ],
+      "type": "mafia",
+      "context": "Various criminal organizations based in Montenegro or composed of Montenegrins, active in narcotics, tobacco, and arms smuggling.",
+      "time_period": "1992-present"
+    },
+    {
+      "standard_name": "Kavač clan",
+      "original_text_name": "Kavač clan",
+      "aliases": [
+        "Kavač OCG"
+      ],
+      "type": "clan",
+      "context": "One of the two most prominent Kotor clans, involved in cocaine smuggling and gang war with Škaljari clan.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Škaljari clan",
+      "original_text_name": "Škaljari clan",
+      "aliases": [
+        "Škaljari OCG"
+      ],
+      "type": "clan",
+      "context": "One of the two most prominent Kotor clans, decentralized association of regional clans, rival of Kavač clan.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Maximus OCG",
+      "original_text_name": "Maximus OCG",
+      "aliases": [
+        "Šarić OCG"
+      ],
+      "type": "other",
+      "context": "Early 2000s organized crime group led by Darko Šarić and Dragan Dudić, engaged in trans-Atlantic cocaine smuggling.",
+      "time_period": "early 2000s-2010"
+    },
+    {
+      "standard_name": "Šarić clan",
+      "original_text_name": "Šarić clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Remnants of Darko Šarić's criminal network, allied with Kavač clan.",
+      "time_period": "2010-present"
+    },
+    {
+      "standard_name": "Barska OCG",
+      "original_text_name": "Barska OCG",
+      "aliases": [],
+      "type": "other",
+      "context": "Regional clan within Škaljari clan, based in Bar, led by Mile Radulović.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Budvanska OCG",
+      "original_text_name": "Budvanska OCG",
+      "aliases": [],
+      "type": "other",
+      "context": "Regional clan within Škaljari clan, based in Budva.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Zemunska / Bojović OCG",
+      "original_text_name": "Zemunska / Bojović OCG",
+      "aliases": [],
+      "type": "other",
+      "context": "Regional clan within Škaljari clan, based in Zemun (Serbia).",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Berane clan",
+      "original_text_name": "Berane clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Organized criminal group from Berane, northern Montenegro, specialized in narcotics trade.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Pink Panthers",
+      "original_text_name": "Pink Panthers",
+      "aliases": [],
+      "type": "other",
+      "context": "Umbrella term for high-profile jewelry heist specialists from Balkans, mainly Montenegro and Serbia.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "clan",
+      "context": "Italian mafia-type organization based in Campania, allied with Montenegrin mafia.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Sacra Corona Unita",
+      "original_text_name": "Sacra Corona Unita",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian mafia organization based in Apulia, allied with Montenegrin mafia.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian mafia organization based in Calabria, cooperates with Kotor clans in cocaine transit.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Serbian mafia",
+      "original_text_name": "Serbian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Criminal organizations from Serbia, allied with Montenegrin mafia.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Colombian drug cartels",
+      "original_text_name": "Colombian drug cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug trafficking organizations, allied with Montenegrin mafia.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Mexican drug cartels",
+      "original_text_name": "Mexican drug cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug trafficking organizations, allied with Montenegrin mafia.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Penose",
+      "original_text_name": "Penose",
+      "aliases": [],
+      "type": "other",
+      "context": "Dutch criminal organization, allied with Montenegrin mafia.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Veljko Belivuk criminal group",
+      "original_text_name": "Veljko Belivuk criminal group",
+      "aliases": [],
+      "type": "gang",
+      "context": "Serbian criminal group considered a branch of Kavač clan.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kavač clan",
+      "target": "Škaljari clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Violent turf war over control of drug routes, with over 70 deaths as of 2025.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Kavač clan",
+      "target": "Šarić clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kavač clan maintains close links with remainders of the Šarić clan.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kavač clan",
+      "target": "Veljko Belivuk criminal group",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Veljko Belivuk criminal group is considered a Serbia branch of Kavač clan.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Škaljari clan",
+      "target": "Barska OCG",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Barska OCG is a regional clan within the decentralized Škaljari clan.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Škaljari clan",
+      "target": "Budvanska OCG",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Budvanska OCG is a regional clan within the decentralized Škaljari clan.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Škaljari clan",
+      "target": "Zemunska / Bojović OCG",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zemunska / Bojović OCG is a regional clan within the decentralized Škaljari clan.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Montenegrin mafia",
+      "target": "Camorra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Strategic alliance for drug entry into Italy, started in cigarette smuggling.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Montenegrin mafia",
+      "target": "Sacra Corona Unita",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Strategic alliance for drug entry into Italy, started in cigarette smuggling.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Kavač clan",
+      "target": "'Ndrangheta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cooperation in using Port of Gioia Tauro as transit point for cocaine.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Škaljari clan",
+      "target": "'Ndrangheta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cooperation in using Port of Gioia Tauro as transit point for cocaine.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Montenegrin mafia",
+      "target": "Serbian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied criminal organizations.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Montenegrin mafia",
+      "target": "Colombian drug cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied in cocaine trafficking.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Montenegrin mafia",
+      "target": "Mexican drug cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied in drug trafficking.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Montenegrin mafia",
+      "target": "Penose",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied criminal organizations.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Maximus OCG",
+      "target": "Kavač clan",
+      "relationship": "other",
+      "detail": "predecessor-successor",
+      "context": "Kavač clan emerged from the power vacuum after Maximus OCG's decline.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Maximus OCG",
+      "target": "Škaljari clan",
+      "relationship": "other",
+      "detail": "predecessor-successor",
+      "context": "Škaljari clan emerged from the power vacuum after Maximus OCG's decline.",
+      "time_period": "2010"
+    }
+  ],
+  "source_file": "Montenegrin_mafia"
+}

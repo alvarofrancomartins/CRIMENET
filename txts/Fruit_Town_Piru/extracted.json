@@ -1,0 +1,307 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Fruit Town Piru",
+      "original_text_name": "Fruit Town Piru",
+      "aliases": [
+        "Fruit Town Piru Bloods"
+      ],
+      "type": "gang",
+      "context": "A set of the Piru gang alliance, part of the Bloods, active in Compton and other US cities.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Piru",
+      "original_text_name": "Piru gang alliance",
+      "aliases": [],
+      "type": "gang",
+      "context": "A gang alliance that is part of the larger Bloods alliance.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "A large street gang alliance primarily African-American.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mob Piru",
+      "original_text_name": "Mob Piru",
+      "aliases": [
+        "Mob Piru Bloods"
+      ],
+      "type": "gang",
+      "context": "A Piru set rival to Fruit Town Piru, involved in a feud in the early 2000s.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cedar Block Piru",
+      "original_text_name": "Cedar Block Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Campanella Park Piru",
+      "original_text_name": "Campanella Park Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Westside Piru",
+      "original_text_name": "Westside Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "145 Neighborhood Piru",
+      "original_text_name": "145 Neighborhood Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Tree Top Pirus",
+      "original_text_name": "Tree Top Pirus",
+      "aliases": [],
+      "type": "gang",
+      "context": "Former rival of Fruit Town Piru, now coexists peacefully due to a 2024 peace treaty.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Compton Varrio Locos",
+      "original_text_name": "Compton Varrio Locos",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Compton Varrio Largo 36",
+      "original_text_name": "Compton Varrio Largo 36",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Paybacc Crips",
+      "original_text_name": "Paybacc Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Southside Compton Crips",
+      "original_text_name": "Southside Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Santana Blocc Compton Crips",
+      "original_text_name": "Santana Blocc Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Front Hood Compton Crips",
+      "original_text_name": "Front Hood Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Park Village Compton Crips",
+      "original_text_name": "Park Village Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Carver Park Compton Crips",
+      "original_text_name": "Carver Park Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Grape Street Watts Crips",
+      "original_text_name": "Grape Street Watts Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Compton Varrio Tortilla Flats",
+      "original_text_name": "Compton Varrio Tortilla Flats",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of Fruit Town Piru.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Fruit Town Piru",
+      "target": "Piru",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Fruit Town Piru is a set of the Piru gang alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Piru",
+      "target": "Bloods",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Piru is part of the larger Bloods alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Fruit Town Piru",
+      "target": "Mob Piru",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Fruit Town Piru had a feud with Mob Piru in the early 2000s, involving murders.",
+      "time_period": "early 2000s"
+    },
+    {
+      "source": "Fruit Town Piru",
+      "target": "Cedar Block Piru",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cedar Block Piru is listed as an ally of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Fruit Town Piru",
+      "target": "Campanella Park Piru",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Campanella Park Piru is listed as an ally of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Fruit Town Piru",
+      "target": "Westside Piru",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Westside Piru is listed as an ally of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Fruit Town Piru",
+      "target": "145 Neighborhood Piru",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "145 Neighborhood Piru is listed as an ally of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Fruit Town Piru",
+      "target": "Tree Top Pirus",
+      "relationship": "other",
+      "detail": "former rival, now peaceful",
+      "context": "Tree Top Pirus was a former rival but now coexists peacefully due to a 2024 peace treaty.",
+      "time_period": "until summer 2024"
+    },
+    {
+      "source": "Fruit Town Piru",
+      "target": "Compton Varrio Locos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Compton Varrio Locos is listed as an ally of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Fruit Town Piru",
+      "target": "Compton Varrio Largo 36",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Compton Varrio Largo 36 is listed as an ally of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Fruit Town Piru",
+      "target": "Paybacc Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Paybacc Crips is listed as an ally of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Fruit Town Piru",
+      "target": "Southside Compton Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Southside Compton Crips is listed as a rival of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Fruit Town Piru",
+      "target": "Santana Blocc Compton Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Santana Blocc Compton Crips is listed as a rival of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Fruit Town Piru",
+      "target": "Front Hood Compton Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Front Hood Compton Crips is listed as a rival of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Fruit Town Piru",
+      "target": "Park Village Compton Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Park Village Compton Crips is listed as a rival of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Fruit Town Piru",
+      "target": "Carver Park Compton Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Carver Park Compton Crips is listed as a rival of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Fruit Town Piru",
+      "target": "Grape Street Watts Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Grape Street Watts Crips is listed as a rival of Fruit Town Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Fruit Town Piru",
+      "target": "Compton Varrio Tortilla Flats",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Compton Varrio Tortilla Flats is listed as a rival of Fruit Town Piru.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Fruit_Town_Piru"
+}

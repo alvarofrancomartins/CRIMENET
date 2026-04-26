@@ -1,0 +1,110 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Velentzas Organization",
+      "original_text_name": "Velentzas Organization",
+      "aliases": [
+        "Velentzas crime family",
+        "Greek crew"
+      ],
+      "type": "mafia",
+      "context": "Greek-American criminal organization operating in New York City, involved in illegal gambling, loansharking, extortion.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Kourakos clan",
+      "original_text_name": "Kourakos clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Greek criminal organization led by Peter Kourakos, precursor to the Velentzas Organization.",
+      "time_period": "1950s-1980s"
+    },
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese crime family",
+      "aliases": [
+        "Lucchese family"
+      ],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, allied with Velentzas Organization, provided protection.",
+      "time_period": "1900s-present"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [
+        "Gambino family"
+      ],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, rival to Velentzas Organization over gambling territory.",
+      "time_period": "1900s-present"
+    },
+    {
+      "standard_name": "Rudaj Organization",
+      "original_text_name": "Rudaj Organization",
+      "aliases": [],
+      "type": "other",
+      "context": "Albanian criminal organization based in Bronx and Westchester, rival to Velentzas Organization.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "standard_name": "Philadelphia Greek Mob",
+      "original_text_name": "Philadelphia Greek Mob",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Greek-American criminal organization in Philadelphia, allied with Velentzas Organization.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Velentzas Organization",
+      "target": "Kourakos clan",
+      "relationship": "other",
+      "detail": "originated from",
+      "context": "The Velentzas Organization originated from the Kourakos clan.",
+      "time_period": "1950s-1980s"
+    },
+    {
+      "source": "Velentzas Organization",
+      "target": "Lucchese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Velentzas maintained a close working relationship with Lucchese consigliere Furnari; Lucchese provided protection for a share of gambling profits.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Velentzas Organization",
+      "target": "Gambino crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gambino boss John Gotti threatened to kill Velentzas for encroaching on Gambino gambling territory.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Velentzas Organization",
+      "target": "Rudaj Organization",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rudaj Organization extorted Velentzas associates and attacked them to take over gambling rackets in Astoria.",
+      "time_period": "2001-2004"
+    },
+    {
+      "source": "Rudaj Organization",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Rudaj Organization was supported by the Gambino family.",
+      "time_period": "2001-2004"
+    },
+    {
+      "source": "Velentzas Organization",
+      "target": "Philadelphia Greek Mob",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Velentzas Organization is allied with the Philadelphia Greek Mob.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Velentzas_Organization"
+}

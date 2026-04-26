@@ -1,0 +1,86 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Purple Gang",
+      "original_text_name": "Purple Gang",
+      "aliases": [
+        "Sugar House Gang"
+      ],
+      "type": "gang",
+      "context": "Jewish bootlegging and hijacking gang active in Detroit during Prohibition.",
+      "time_period": "1910s-1932"
+    },
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [
+        "Capone organization"
+      ],
+      "type": "mafia",
+      "context": "Chicago-based Italian-American crime syndicate led by Al Capone.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Licavoli Squad",
+      "original_text_name": "Licavoli Squad",
+      "aliases": [],
+      "type": "gang",
+      "context": "Italian bootlegging gang led by Tommy and Pete Licavoli in Detroit.",
+      "time_period": "1920s"
+    },
+    {
+      "standard_name": "Egan's Rats",
+      "original_text_name": "Egan's Rats",
+      "aliases": [],
+      "type": "gang",
+      "context": "St. Louis-based gang active in the early 20th century.",
+      "time_period": "1890s-1920s"
+    },
+    {
+      "standard_name": "The Detroit Partnership",
+      "original_text_name": "The Detroit Partnership",
+      "aliases": [
+        "Detroit Mafia",
+        "Sicilian mob"
+      ],
+      "type": "mafia",
+      "context": "Italian-American crime family that became dominant in Detroit after the Purple Gang's decline.",
+      "time_period": "1930s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Purple Gang",
+      "target": "Chicago Outfit",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Purple Gang supplied Canadian whisky to Capone's organization in Chicago.",
+      "time_period": "1920s"
+    },
+    {
+      "source": "Purple Gang",
+      "target": "Licavoli Squad",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Purples fought a vicious turf war with the Licavoli Squad in Detroit.",
+      "time_period": "1927"
+    },
+    {
+      "source": "Purple Gang",
+      "target": "Egan's Rats",
+      "relationship": "other",
+      "detail": "associate affiliation",
+      "context": "Fred Burke, an associate of the Purple Gang, was originally connected to Egan's Rats.",
+      "time_period": "1920s"
+    },
+    {
+      "source": "Purple Gang",
+      "target": "The Detroit Partnership",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Detroit Partnership (Sicilian mob) competed with and eventually replaced the Purple Gang.",
+      "time_period": "1930s"
+    }
+  ],
+  "source_file": "Purple_Gang"
+}

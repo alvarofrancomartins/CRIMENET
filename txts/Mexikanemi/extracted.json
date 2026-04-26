@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Mexikanemi",
+      "original_text_name": "Mexikanemi",
+      "aliases": [
+        "Texas Mexican Mafia",
+        "Mexican Mafia (Texas)",
+        "MM",
+        "eme"
+      ],
+      "type": "gang",
+      "context": "Mexican-American prison and street gang established in Texas in 1984, involved in drug trafficking, loan sharking, money laundering, extortion, and murder.",
+      "time_period": "1984-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [
+        "La Eme"
+      ],
+      "type": "gang",
+      "context": "Original California-based Mexican-American prison gang, separate from Mexikanemi.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel operating primarily in Tamaulipas, allied with Mexikanemi.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Juárez Cartel",
+      "original_text_name": "Juárez Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel based in Chihuahua, allied with Mexikanemi.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican criminal syndicate known for violence, allied with Mexikanemi.",
+      "time_period": "1999-present"
+    },
+    {
+      "standard_name": "Nuestra Familia",
+      "original_text_name": "Nuestra Familia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mexican-American prison gang, rival of Mexikanemi.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Texas Syndicate",
+      "original_text_name": "Texas Syndicate",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang in Texas, rival of Mexikanemi.",
+      "time_period": "1970s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Mexikanemi",
+      "target": "Mexican Mafia",
+      "relationship": "other",
+      "detail": "separate entities",
+      "context": "Mexikanemi functions separately from the original California Mexican Mafia.",
+      "time_period": "1984-present"
+    },
+    {
+      "source": "Mexikanemi",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mexikanemi is allied with the Gulf Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Mexikanemi",
+      "target": "Juárez Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mexikanemi is allied with the Juárez Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Mexikanemi",
+      "target": "Los Zetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mexikanemi is allied with Los Zetas.",
+      "time_period": null
+    },
+    {
+      "source": "Mexikanemi",
+      "target": "Nuestra Familia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Mexikanemi considers Nuestra Familia a rival.",
+      "time_period": null
+    },
+    {
+      "source": "Mexikanemi",
+      "target": "Texas Syndicate",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Mexikanemi considers the Texas Syndicate a rival.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Mexikanemi"
+}

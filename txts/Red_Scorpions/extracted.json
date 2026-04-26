@@ -1,0 +1,262 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Red Scorpions",
+      "original_text_name": "Red Scorpions",
+      "aliases": [
+        "RS"
+      ],
+      "type": "gang",
+      "context": "A gang based in British Columbia, Canada, involved in drug trafficking and gang violence.",
+      "time_period": "2000-present"
+    },
+    {
+      "standard_name": "United Nations gang",
+      "original_text_name": "United Nations gang",
+      "aliases": [
+        "UN",
+        "United Nations gang"
+      ],
+      "type": "gang",
+      "context": "A rival gang to the Red Scorpions, involved in drug trafficking in the Vancouver area.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Dominant organized crime group in the Lower Mainland, controlling other gangs as puppet gangs.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Independent Soldiers",
+      "original_text_name": "Independent Soldiers",
+      "aliases": [],
+      "type": "gang",
+      "context": "A puppet gang for the Hells Angels, involved in drug trafficking and violence.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Bacon brothers",
+      "original_text_name": "Bacon brothers",
+      "aliases": [
+        "Jonathan Bacon",
+        "Jarrod Bacon",
+        "Jamie Bacon"
+      ],
+      "type": "gang",
+      "context": "A trio of gangsters from Abbotsford, initially members of the United Nations gang, later joined Red Scorpions.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Blood In, Blood Out",
+      "original_text_name": "Blood In, Blood Out (Kang Crime family)",
+      "aliases": [
+        "Kang Crime family"
+      ],
+      "type": "gang",
+      "context": "A crime family allied with the Red Scorpions.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sanghera crime family",
+      "original_text_name": "Sanghera crime family",
+      "aliases": [],
+      "type": "clan",
+      "context": "A crime family allied with the Red Scorpions.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Russian mafia",
+      "original_text_name": "Russian mafia (bratva)",
+      "aliases": [
+        "Bratva"
+      ],
+      "type": "mafia",
+      "context": "Russian organized crime groups allied with the Red Scorpions.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinoloa cartel",
+      "aliases": [
+        "Sinaloa Cartel"
+      ],
+      "type": "cartel",
+      "context": "A Mexican drug cartel allied with the Red Scorpions.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dhure group",
+      "original_text_name": "Dhure group (BC, Alberta, Ontario)",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival group operating in BC, Alberta, and Ontario.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dhak group",
+      "original_text_name": "Dhak group (lower mainland)",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival group in the lower mainland of British Columbia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Fob-killers",
+      "original_text_name": "Fob-killers (Alberta)",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival gang based in Alberta.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Brothers Keepers",
+      "original_text_name": "Brothers Keepers (BC, Alberta, Ontario)",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival gang operating in BC, Alberta, and Ontario.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Red Scorpions",
+      "target": "United Nations gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Bitter rivalry due to gang violence and the Bacon brothers switching sides.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Red Scorpions",
+      "target": "Hells Angels",
+      "relationship": "other",
+      "detail": "subordinate relationship attempted",
+      "context": "Hells Angels attempted to bring Red Scorpions under their control as a puppet gang.",
+      "time_period": "2006"
+    },
+    {
+      "source": "Independent Soldiers",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Independent Soldiers acted as a puppet gang for the Hells Angels.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "United Nations gang",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "United Nations gang was reduced to a subordinate status under the Hells Angels.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Bacon brothers",
+      "target": "United Nations gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bacon brothers were initially members of the United Nations gang.",
+      "time_period": "early 2000s-2006"
+    },
+    {
+      "source": "Bacon brothers",
+      "target": "Red Scorpions",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bacon brothers left the United Nations to join forces with the Red Scorpions and later took leadership.",
+      "time_period": "2006-present"
+    },
+    {
+      "source": "Independent Soldiers",
+      "target": "Red Scorpions",
+      "relationship": "other",
+      "detail": "recruitment meeting",
+      "context": "Independent Soldiers acted as Hells Angels' proxy to lure Bacon brothers to Red Scorpions.",
+      "time_period": "2006"
+    },
+    {
+      "source": "Red Scorpions",
+      "target": "Blood In, Blood Out",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Blood In, Blood Out is listed as an ally of the Red Scorpions.",
+      "time_period": null
+    },
+    {
+      "source": "Red Scorpions",
+      "target": "Sanghera crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Sanghera crime family is listed as an ally of the Red Scorpions.",
+      "time_period": null
+    },
+    {
+      "source": "Red Scorpions",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Russian mafia is listed as an ally of the Red Scorpions.",
+      "time_period": null
+    },
+    {
+      "source": "Red Scorpions",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Sinaloa Cartel is listed as an ally of the Red Scorpions.",
+      "time_period": null
+    },
+    {
+      "source": "Red Scorpions",
+      "target": "Dhure group",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Dhure group is listed as a rival of the Red Scorpions.",
+      "time_period": null
+    },
+    {
+      "source": "Red Scorpions",
+      "target": "Dhak group",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Dhak group is listed as a rival of the Red Scorpions.",
+      "time_period": null
+    },
+    {
+      "source": "Red Scorpions",
+      "target": "Fob-killers",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Fob-killers are listed as a rival of the Red Scorpions.",
+      "time_period": null
+    },
+    {
+      "source": "Red Scorpions",
+      "target": "Hells Angels",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Hells Angels are listed as a rival of the Red Scorpions.",
+      "time_period": null
+    },
+    {
+      "source": "Red Scorpions",
+      "target": "Independent Soldiers",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Independent Soldiers are listed as a rival of the Red Scorpions.",
+      "time_period": null
+    },
+    {
+      "source": "Red Scorpions",
+      "target": "Brothers Keepers",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Brothers Keepers are listed as a rival of the Red Scorpions.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Red_Scorpions"
+}

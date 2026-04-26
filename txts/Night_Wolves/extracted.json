@@ -1,0 +1,88 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Night Wolves",
+      "original_text_name": "Night Wolves",
+      "aliases": [
+        "Night Wolves Motorcycle Club",
+        "Nochnyye Volki",
+        "Ночные Волки",
+        "Putin's Angels"
+      ],
+      "type": "motorcycle_club",
+      "context": "Russian motorcycle club with political ties to the Kremlin, involved in paramilitary activities in Ukraine.",
+      "time_period": "1989-present"
+    },
+    {
+      "standard_name": "Three Roads",
+      "original_text_name": "Three Roads",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Russian biker club, rival of the Night Wolves.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club with a chapter in Russia.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Pyatnashka International Brigade",
+      "original_text_name": "Pyatnashka International Brigade",
+      "aliases": [
+        "Pyatnashka Brigade"
+      ],
+      "type": "militia",
+      "context": "Pro-Russian volunteer unit in the Donbas war, joined by a Night Wolves volunteer unit.",
+      "time_period": "2014-present"
+    },
+    {
+      "standard_name": "Katyń Motorocycle Raid",
+      "original_text_name": "Katyń Motorocycle Raid",
+      "aliases": [
+        "KMR"
+      ],
+      "type": "motorcycle_club",
+      "context": "Polish motorcyclists' organization that supported the Night Wolves' trip to Berlin.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Night Wolves",
+      "target": "Three Roads",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "A Night Wolves member was killed in a dispute with Three Roads in 2012.",
+      "time_period": "2012"
+    },
+    {
+      "source": "Night Wolves",
+      "target": "Hells Angels",
+      "relationship": "other",
+      "detail": "avoidance of conflict",
+      "context": "Hells Angels representative stated they avoid political involvement, contrasting with Night Wolves.",
+      "time_period": null
+    },
+    {
+      "source": "Night Wolves",
+      "target": "Pyatnashka International Brigade",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Night Wolves formed a volunteer unit that joined the Pyatnashka International Brigade in 2022.",
+      "time_period": "2022-present"
+    },
+    {
+      "source": "Night Wolves",
+      "target": "Katyń Motorocycle Raid",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "KMR supported Night Wolves by lighting candles for fallen Red Army soldiers after Poland banned Night Wolves.",
+      "time_period": "2015"
+    }
+  ],
+  "source_file": "Night_Wolves"
+}

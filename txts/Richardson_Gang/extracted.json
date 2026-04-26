@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Richardson Gang",
+      "original_text_name": "Richardson Gang",
+      "aliases": [
+        "Torture Gang"
+      ],
+      "type": "gang",
+      "context": "English crime gang based in South London in the 1960s, involved in racketeering, extortion, torture, and drug trafficking.",
+      "time_period": "1950s-1960s"
+    },
+    {
+      "standard_name": "Kray Firm",
+      "original_text_name": "Krays",
+      "aliases": [
+        "Kray twins",
+        "Kray gang"
+      ],
+      "type": "gang",
+      "context": "Notorious East London gang led by the Kray twins, involved in organized crime and turf wars.",
+      "time_period": "1950s-1960s"
+    },
+    {
+      "standard_name": "Watney Streeters",
+      "original_text_name": "The Watney Streeters",
+      "aliases": [],
+      "type": "gang",
+      "context": "East End gang that George Cornell originally belonged to before joining the Richardsons.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Quality Street Gang",
+      "original_text_name": "Quality Street Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Manchester-based criminal group; Dougie Flood was an alleged member.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Hayward Gang",
+      "original_text_name": "South London gang led by Billy Hayward",
+      "aliases": [],
+      "type": "gang",
+      "context": "South London gang involved in the brawl at Mr Smith's Club.",
+      "time_period": "1960s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Richardson Gang",
+      "target": "Kray Firm",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Richardson Gang and the Kray twins were engaged in a turf war in the mid-to-late 1960s.",
+      "time_period": "1965-1966"
+    },
+    {
+      "source": "Richardson Gang",
+      "target": "Watney Streeters",
+      "relationship": "other",
+      "detail": "member defected",
+      "context": "George Cornell, originally a member of the Watney Streeters, later allied with the Richardsons.",
+      "time_period": "1964"
+    },
+    {
+      "source": "Richardson Gang",
+      "target": "Quality Street Gang",
+      "relationship": "other",
+      "detail": "business association",
+      "context": "Dougie Flood, an alleged member of the Quality Street Gang, hired the Richardsons to protect his club.",
+      "time_period": "1966"
+    },
+    {
+      "source": "Richardson Gang",
+      "target": "Hayward Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Members of the Richardson Gang and the Hayward Gang were involved in a brawl at Mr Smith's Club.",
+      "time_period": "1966"
+    }
+  ],
+  "source_file": "Richardson_Gang"
+}

@@ -1,0 +1,182 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Combat 18",
+      "original_text_name": "Combat 18",
+      "aliases": [
+        "C18",
+        "318"
+      ],
+      "type": "terrorist_organization",
+      "context": "Neo-Nazi terrorist group founded in 1992 in the UK, active worldwide.",
+      "time_period": "1992-present"
+    },
+    {
+      "standard_name": "Blood & Honour",
+      "original_text_name": "Blood & Honour",
+      "aliases": [],
+      "type": "other",
+      "context": "Neo-Nazi music network and affiliate of Combat 18.",
+      "time_period": null
+    },
+    {
+      "standard_name": "British National Party",
+      "original_text_name": "British National Party",
+      "aliases": [
+        "BNP"
+      ],
+      "type": "other",
+      "context": "Far-right political party in the UK that originally formed Combat 18 as a stewarding group.",
+      "time_period": "1992-present"
+    },
+    {
+      "standard_name": "White Wolves",
+      "original_text_name": "White Wolves",
+      "aliases": [],
+      "type": "faction",
+      "context": "Alleged splinter group of Combat 18, set up by former C18 second-in-command Del O'Connor.",
+      "time_period": "late 1990s"
+    },
+    {
+      "standard_name": "Racial Volunteer Force",
+      "original_text_name": "Racial Volunteer Force",
+      "aliases": [],
+      "type": "faction",
+      "context": "Splinter group from Combat 18 in 2002, retains close links to C18.",
+      "time_period": "2002-present"
+    },
+    {
+      "standard_name": "Combat 18 Flanders",
+      "original_text_name": "Combat 18 Flanders",
+      "aliases": [],
+      "type": "faction",
+      "context": "Belgian chapter of Combat 18, members arrested in 2006.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Combat 18 Australia",
+      "original_text_name": "Combat 18 Australia",
+      "aliases": [],
+      "type": "faction",
+      "context": "Australian chapter of Combat 18, members charged over mosque attack in 2010.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Combat 18 Deutschland",
+      "original_text_name": "Combat 18 Deutschland",
+      "aliases": [],
+      "type": "faction",
+      "context": "German offshoot of Combat 18, banned in 2020.",
+      "time_period": "until 2020"
+    },
+    {
+      "standard_name": "Seaburn Casuals",
+      "original_text_name": "Seaburn Casuals",
+      "aliases": [],
+      "type": "gang",
+      "context": "Football hooligan group associated with Sunderland AFC, some members involved with Combat 18.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Order of Nine Angles",
+      "original_text_name": "Order of Nine Angles",
+      "aliases": [
+        "O9A"
+      ],
+      "type": "other",
+      "context": "Satanic neo-Nazi group, banned in New Zealand in 2025; Combat 18 helped set it up.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Atomwaffen Division",
+      "original_text_name": "Atomwaffen",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Neo-Nazi terrorist group that received firearms trafficked by Serbian Combat 18.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Combat 18",
+      "target": "Blood & Honour",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Blood & Honour is an affiliate of Combat 18, both added to Canada's terrorist list together.",
+      "time_period": null
+    },
+    {
+      "source": "British National Party",
+      "target": "Combat 18",
+      "relationship": "other",
+      "detail": "founded",
+      "context": "BNP formed Combat 18 in 1992 as a stewarding group, but split in 1993.",
+      "time_period": "1992-1993"
+    },
+    {
+      "source": "Combat 18",
+      "target": "White Wolves",
+      "relationship": "other",
+      "detail": "splinter group",
+      "context": "White Wolves are alleged to be a splinter group of Combat 18, set up by former C18 second-in-command.",
+      "time_period": "late 1990s"
+    },
+    {
+      "source": "Combat 18",
+      "target": "Racial Volunteer Force",
+      "relationship": "other",
+      "detail": "splinter group",
+      "context": "Racial Volunteer Force split from C18 in 2002 but retains close links.",
+      "time_period": "2002-present"
+    },
+    {
+      "source": "Combat 18",
+      "target": "Combat 18 Flanders",
+      "relationship": "other",
+      "detail": "chapter",
+      "context": "Combat 18 Flanders is the Belgian chapter of Combat 18.",
+      "time_period": null
+    },
+    {
+      "source": "Combat 18",
+      "target": "Combat 18 Australia",
+      "relationship": "other",
+      "detail": "chapter",
+      "context": "Combat 18 Australia is the Australian chapter of Combat 18.",
+      "time_period": null
+    },
+    {
+      "source": "Combat 18",
+      "target": "Combat 18 Deutschland",
+      "relationship": "other",
+      "detail": "chapter",
+      "context": "Combat 18 Deutschland is the German offshoot of Combat 18, banned in 2020.",
+      "time_period": "until 2020"
+    },
+    {
+      "source": "Combat 18",
+      "target": "Seaburn Casuals",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Some Seaburn Casuals hooligans were involved with Combat 18.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Combat 18",
+      "target": "Order of Nine Angles",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Combat 18 was instrumental in setting up the Order of Nine Angles.",
+      "time_period": null
+    },
+    {
+      "source": "Combat 18",
+      "target": "Atomwaffen Division",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Serbian Combat 18 trafficked firearms to Atomwaffen Division.",
+      "time_period": "2019"
+    }
+  ],
+  "source_file": "Combat_18"
+}

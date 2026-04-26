@@ -1,0 +1,228 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Lenox Street Boys",
+      "original_text_name": "Lenox Street Boys",
+      "aliases": [
+        "Lenox Street Cardinals",
+        "Lenex Street Crew"
+      ],
+      "type": "gang",
+      "context": "One of the oldest and most dangerous street gangs in Boston, Massachusetts, involved in drug trafficking, robbery, and murder.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Ruggles Street Gang",
+      "original_text_name": "Ruggles Street gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "A street gang in Boston, possibly dating back to the 1950s.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Columbia Point Dawgs",
+      "original_text_name": "Columbia Point Dawgs",
+      "aliases": [
+        "CBDs"
+      ],
+      "type": "gang",
+      "context": "A street gang in Boston that had a bloody war with the Lenox Street Boys over turf in the early 1990s.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Orchard Park Trailblazers",
+      "original_text_name": "Orchard Park Trailblazers",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of the Lenox Street Boys in Boston.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Heath Street Gang",
+      "original_text_name": "Heath Street Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of the Lenox Street Boys in Boston.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Academy Homes Gang",
+      "original_text_name": "Academy Homes Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of the Lenox Street Boys in Boston.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Villa Victoria Park Gang",
+      "original_text_name": "Villa Victoria Park Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of the Lenox Street Boys in Boston.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Everton Geneva Grizzleys",
+      "original_text_name": "Everton Geneva Grizzleys",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of the Lenox Street Boys in Boston.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Vamp Hill Boys",
+      "original_text_name": "Vamp Hill Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of the Lenox Street Boys in Boston.",
+      "time_period": null
+    },
+    {
+      "standard_name": "H Block",
+      "original_text_name": "H Block",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of the Lenox Street Boys in Boston.",
+      "time_period": null
+    },
+    {
+      "standard_name": "X-men",
+      "original_text_name": "X-men",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of the Lenox Street Boys in Boston.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Franklin Hill Giants",
+      "original_text_name": "Franklin Hill Giants",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of the Lenox Street Boys in Boston.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Greenwood Street Posse",
+      "original_text_name": "Greenwood Street Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of the Lenox Street Boys in Boston.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Castle Square Cubs",
+      "original_text_name": "Castle Square Cubs",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of the Lenox Street Boys in Boston.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Lenox Street Boys",
+      "target": "Ruggles Street Gang",
+      "relationship": "other",
+      "detail": "coexistence",
+      "context": "Both gangs possibly date back to the 1950s in Boston.",
+      "time_period": "1950s"
+    },
+    {
+      "source": "Lenox Street Boys",
+      "target": "Columbia Point Dawgs",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "A bloody war started when Columbia Point Dawgs tried to set up shop in Lenox Street Boys' turf; multiple shootings occurred.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Lenox Street Boys",
+      "target": "Orchard Park Trailblazers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Lenox Street Boys",
+      "target": "Heath Street Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Lenox Street Boys",
+      "target": "Academy Homes Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Lenox Street Boys",
+      "target": "Villa Victoria Park Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Lenox Street Boys",
+      "target": "Everton Geneva Grizzleys",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Lenox Street Boys",
+      "target": "Vamp Hill Boys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Lenox Street Boys",
+      "target": "H Block",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Lenox Street Boys",
+      "target": "X-men",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Lenox Street Boys",
+      "target": "Franklin Hill Giants",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Lenox Street Boys",
+      "target": "Greenwood Street Posse",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Lenox Street Boys",
+      "target": "Castle Square Cubs",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Lenox_Street_Boys"
+}

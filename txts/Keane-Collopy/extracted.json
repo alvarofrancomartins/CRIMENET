@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Keane-Collopy Gang",
+      "original_text_name": "Keane-Collopy gang",
+      "aliases": [
+        "Keane-Collopys"
+      ],
+      "type": "gang",
+      "context": "Drug trafficking gang based in Limerick City, Ireland, involved in the Limerick feud.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "McCarthy-Dundon Gang",
+      "original_text_name": "McCarthy-Dundon gang",
+      "aliases": [
+        "McCarthy-Dundon"
+      ],
+      "type": "gang",
+      "context": "Rival gang in the Limerick feud, based in Limerick, Ireland.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ryan Gang",
+      "original_text_name": "Ryans",
+      "aliases": [
+        "Ryan Gang"
+      ],
+      "type": "gang",
+      "context": "Rival gang in the Limerick feud, involved in the attempt on Christy Keane's life.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hutch Organised Crime Gang",
+      "original_text_name": "Hutch Organised Crime Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied gang based in Dublin, Ireland, with links to Keane-Collopy.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Keane-Collopy Gang",
+      "target": "McCarthy-Dundon Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The two gangs are enemies in the Limerick feud, which has resulted in violent incidents and deaths.",
+      "time_period": "2000-present"
+    },
+    {
+      "source": "Keane-Collopy Gang",
+      "target": "Ryan Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The feud began with an attempt on Christy Keane's life by Eddie Ryan, leading to ongoing conflict.",
+      "time_period": "2000-present"
+    },
+    {
+      "source": "Keane-Collopy Gang",
+      "target": "Hutch Organised Crime Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Keane-Collopy gang has strong links to gangs in Dublin, including the Hutch Organised Crime Gang.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Keane-Collopy"
+}

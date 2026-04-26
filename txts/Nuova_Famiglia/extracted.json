@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [
+        "NF"
+      ],
+      "type": "other",
+      "context": "Camorra confederation created in the 1970s to oppose the Nuova Camorra Organizzata.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "type": "other",
+      "context": "Camorra organization created by Raffaele Cutolo, rival of the Nuova Famiglia.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Zaza clan",
+      "original_text_name": "Zaza clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan led by Michele Zaza, affiliated with Cosa Nostra.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Alfieri clan",
+      "original_text_name": "Alfieri clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Nola led by Carmine Alfieri.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Nuvoletta clan",
+      "original_text_name": "Nuvoletta clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Marano led by the Nuvoletta brothers, linked to the Corleonesi.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Giuliano clan",
+      "original_text_name": "Giuliano clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Naples led by Luigi Giuliano.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Casalesi clan",
+      "original_text_name": "Casalesi clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from San Cipriano d'Aversa led by Antonio Bardellino, linked to Cosa Nostra.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "D'Alessandro clan",
+      "original_text_name": "D'Alessandro clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Castellammare di Stabia led by Michele D'Alessandro.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Moccia clan",
+      "original_text_name": "Moccia clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Afragola led by Angelo Moccia.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Galasso clan",
+      "original_text_name": "Galasso clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Poggiomarino led by Pasquale Galasso.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Gionta clan",
+      "original_text_name": "Gionta clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Torre Annunziata led by Valentino Gionta.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Vollaro clan",
+      "original_text_name": "Vollaro clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Portici led by Luigi Vollaro.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Sicilian Mafia",
+      "original_text_name": "Sicilian Mafia",
+      "aliases": [
+        "Cosa Nostra"
+      ],
+      "type": "mafia",
+      "context": "Sicilian criminal organization, ally of the Nuova Famiglia.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Corleonesi",
+      "original_text_name": "Corleonesi",
+      "aliases": [],
+      "type": "faction",
+      "context": "Faction within the Sicilian Mafia, linked to the Nuvoletta clan.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Fabbrocino clan",
+      "original_text_name": "Fabbrocino clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan that killed Roberto Cutolo in 1990.",
+      "time_period": "1970s-1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Nuova Famiglia",
+      "target": "Nuova Camorra Organizzata",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Nuova Famiglia was created to oppose the Nuova Camorra Organizzata.",
+      "time_period": "1978-1983"
+    },
+    {
+      "source": "Nuova Famiglia",
+      "target": "Sicilian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Nuova Famiglia was affiliated with the Sicilian Mafia.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "source": "Zaza clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Zaza clan was part of the Nuova Famiglia confederation.",
+      "time_period": "1978-1990s"
+    },
+    {
+      "source": "Alfieri clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Alfieri clan was part of the Nuova Famiglia confederation.",
+      "time_period": "1978-1990s"
+    },
+    {
+      "source": "Nuvoletta clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Nuvoletta clan was part of the Nuova Famiglia confederation.",
+      "time_period": "1978-1983"
+    },
+    {
+      "source": "Giuliano clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Giuliano clan was part of the Nuova Famiglia confederation.",
+      "time_period": "1978-1990s"
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Casalesi clan was part of the Nuova Famiglia confederation.",
+      "time_period": "1978-1988"
+    },
+    {
+      "source": "D'Alessandro clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The D'Alessandro clan was part of the Nuova Famiglia confederation.",
+      "time_period": "1978-1990s"
+    },
+    {
+      "source": "Moccia clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Moccia clan was part of the Nuova Famiglia confederation.",
+      "time_period": "1978-1990s"
+    },
+    {
+      "source": "Galasso clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Galasso clan was part of the Nuova Famiglia confederation.",
+      "time_period": "1978-1990s"
+    },
+    {
+      "source": "Gionta clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Gionta clan was part of the Nuova Famiglia confederation.",
+      "time_period": "1978-1984"
+    },
+    {
+      "source": "Vollaro clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Vollaro clan was part of the Nuova Famiglia confederation.",
+      "time_period": "1978-1990s"
+    },
+    {
+      "source": "Zaza clan",
+      "target": "Sicilian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Michele Zaza was affiliated with Cosa Nostra.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "source": "Nuvoletta clan",
+      "target": "Corleonesi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Nuvoletta clan was closely linked with the Corleonesi.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Sicilian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Antonio Bardellino was linked to Cosa Nostra.",
+      "time_period": "1970s-1988"
+    },
+    {
+      "source": "Nuvoletta clan",
+      "target": "Casalesi clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "War broke out between the Nuvoletta clan and the Casalesi clan after the defeat of the NCO.",
+      "time_period": "1983-1984"
+    },
+    {
+      "source": "Alfieri clan",
+      "target": "Casalesi clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Carmine Alfieri sided with Bardellino's Casalesi clan against the Nuvoletta clan.",
+      "time_period": "1983-1988"
+    },
+    {
+      "source": "Gionta clan",
+      "target": "Nuvoletta clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Gionta clan was allied with the Nuvoletta clan during the internal war.",
+      "time_period": "1983-1984"
+    },
+    {
+      "source": "Fabbrocino clan",
+      "target": "Nuova Camorra Organizzata",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Members of the Fabbrocino clan killed Roberto Cutolo, son of Raffaele Cutolo.",
+      "time_period": "1990"
+    }
+  ],
+  "source_file": "Nuova_Famiglia"
+}

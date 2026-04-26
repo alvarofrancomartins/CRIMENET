@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Fourth Armoured Division",
+      "original_text_name": "Fourth Armoured Division",
+      "aliases": [],
+      "type": "faction",
+      "context": "Elite military unit of the Assad regime involved in drug production and smuggling.",
+      "time_period": "2013-2024"
+    },
+    {
+      "standard_name": "Hezbollah",
+      "original_text_name": "Hezbollah",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Lebanese militant group participating in drug production and smuggling networks in Syria.",
+      "time_period": "2013-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Fourth Armoured Division",
+      "target": "Hezbollah",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hezbollah closely participated in drug production and smuggling networks with the Fourth Armoured Division.",
+      "time_period": "2013-2024"
+    }
+  ],
+  "source_file": "Illegal_drug_trade_in_Syria"
+}

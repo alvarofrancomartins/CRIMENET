@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Zoe Pound",
+      "original_text_name": "Zoe Pound",
+      "aliases": [],
+      "type": "gang",
+      "context": "Haitian-American street gang based in Miami, Florida, involved in drug trafficking, robbery, murder, and racketeering.",
+      "time_period": "1990-present"
+    },
+    {
+      "standard_name": "ZMF",
+      "original_text_name": "ZMF",
+      "aliases": [],
+      "type": "faction",
+      "context": "A faction of Zoe Pound, involved in the 2018 murder of XXXTentacion.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Boogie Boys",
+      "original_text_name": "Boogie Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prominent Miami gang that declined after a police crackdown in 1999.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "John Does",
+      "original_text_name": "John Does",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prominent Miami gang that declined after a police crackdown in 1999.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Black Mafia Family",
+      "original_text_name": "Black Mafia Family",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with Zoe Pound.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with Zoe Pound.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with Zoe Pound.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sapp Boys",
+      "original_text_name": "Sapp Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Zoe Pound.",
+      "time_period": null
+    },
+    {
+      "standard_name": "MS-13",
+      "original_text_name": "MS-13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Zoe Pound.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Rival of Zoe Pound.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Zoe Pound",
+      "target": "ZMF",
+      "relationship": "other",
+      "detail": "faction of",
+      "context": "ZMF is a faction of Zoe Pound.",
+      "time_period": null
+    },
+    {
+      "source": "Zoe Pound",
+      "target": "Boogie Boys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Zoe Pound took advantage of the power vacuum after Boogie Boys declined.",
+      "time_period": "1999"
+    },
+    {
+      "source": "Zoe Pound",
+      "target": "John Does",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Zoe Pound took advantage of the power vacuum after John Does declined.",
+      "time_period": "1999"
+    },
+    {
+      "source": "Zoe Pound",
+      "target": "Black Mafia Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zoe Pound is allied with Black Mafia Family.",
+      "time_period": null
+    },
+    {
+      "source": "Zoe Pound",
+      "target": "Bloods",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zoe Pound is allied with Bloods.",
+      "time_period": null
+    },
+    {
+      "source": "Zoe Pound",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zoe Pound is allied with Crips.",
+      "time_period": null
+    },
+    {
+      "source": "Zoe Pound",
+      "target": "Sapp Boys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sapp Boys are rivals of Zoe Pound.",
+      "time_period": null
+    },
+    {
+      "source": "Zoe Pound",
+      "target": "MS-13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "MS-13 is a rival of Zoe Pound.",
+      "time_period": null
+    },
+    {
+      "source": "Zoe Pound",
+      "target": "Hells Angels",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels are rivals of Zoe Pound.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Zoe_Pound"
+}

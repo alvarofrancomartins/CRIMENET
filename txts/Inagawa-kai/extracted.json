@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Inagawa-kai",
+      "original_text_name": "Inagawa-kai",
+      "aliases": [
+        "Inagawa-gumi"
+      ],
+      "type": "mafia",
+      "context": "Third largest yakuza group in Japan, based in Kantō region, involved in gambling, drug trafficking, extortion.",
+      "time_period": "1949-present"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "The Sixth Yamaguchi-gumi",
+      "aliases": [
+        "Sixth Yamaguchi-gumi"
+      ],
+      "type": "mafia",
+      "context": "Largest yakuza syndicate in Japan, allied with Inagawa-kai.",
+      "time_period": "1915-present"
+    },
+    {
+      "standard_name": "Kobe Yamaguchi-gumi",
+      "original_text_name": "Kobe Yamaguchi-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Splinter group from Yamaguchi-gumi, rival of Inagawa-kai.",
+      "time_period": "2015-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Inagawa-kai",
+      "target": "Yamaguchi-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Inagawa-kai is allied with the Sixth Yamaguchi-gumi.",
+      "time_period": null
+    },
+    {
+      "source": "Inagawa-kai",
+      "target": "Kobe Yamaguchi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Inagawa-kai has a rivalry with the Kobe Yamaguchi-gumi.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Inagawa-kai"
+}

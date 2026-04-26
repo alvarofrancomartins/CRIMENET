@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Fullerton Boys",
+      "original_text_name": "Fullerton Boys",
+      "aliases": [
+        "Fullerton Boyz"
+      ],
+      "type": "gang",
+      "context": "A group of mostly Korean-American gang members in Fullerton, California, formed in 1996.",
+      "time_period": "1996-present"
+    },
+    {
+      "standard_name": "LVM",
+      "original_text_name": "LVM gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "A gang whose members were part of the Fullerton Boys.",
+      "time_period": null
+    },
+    {
+      "standard_name": "SZA",
+      "original_text_name": "SZA gang (Sarzana) gang",
+      "aliases": [
+        "Sarzana"
+      ],
+      "type": "gang",
+      "context": "A gang whose members were part of the Fullerton Boys.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Wah Ching",
+      "original_text_name": "Wah Ching gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Chinese-American gang whose some members were part of the Fullerton Boys.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "LVM",
+      "target": "Fullerton Boys",
+      "relationship": "other",
+      "detail": "membership",
+      "context": "Members of LVM gang were part of Fullerton Boys.",
+      "time_period": null
+    },
+    {
+      "source": "SZA",
+      "target": "Fullerton Boys",
+      "relationship": "other",
+      "detail": "membership",
+      "context": "Members of SZA gang were part of Fullerton Boys.",
+      "time_period": null
+    },
+    {
+      "source": "Wah Ching",
+      "target": "Fullerton Boys",
+      "relationship": "other",
+      "detail": "membership",
+      "context": "Some members of Wah Ching gang were part of Fullerton Boys.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Fullerton_Boys"
+}

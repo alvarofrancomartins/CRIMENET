@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Pelones",
+      "original_text_name": "Los Pelones",
+      "aliases": [
+        "The Bald Ones"
+      ],
+      "type": "gang",
+      "context": "Enforcer gang originally part of Sinaloa Cartel, later independent and then part of Gulf Cartel.",
+      "time_period": "2004-2025"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug trafficking organization headed by Joaquín El Chapo Guzmán.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Beltrán-Leyva Organization",
+      "original_text_name": "Beltrán-Leyva brothers",
+      "aliases": [
+        "Beltrán Leyva brothers"
+      ],
+      "type": "cartel",
+      "context": "Drug trafficking organization that split from Sinaloa Cartel; Los Pelones was originally part of it.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel that Los Pelones joined in 2012.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gente Nueva",
+      "original_text_name": "Gente Nueva",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Los Pelones.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Pelones",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Pelones was originally part of the Sinaloa Cartel.",
+      "time_period": "2004-? (until split)"
+    },
+    {
+      "source": "Los Pelones",
+      "target": "Beltrán-Leyva Organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Pelones was founded by Joaquín El Chapo Guzmán and the Beltrán Leyva brothers.",
+      "time_period": "2004-? (until split)"
+    },
+    {
+      "source": "Los Pelones",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Pelones announced they were part of the Gulf Cartel in 2012.",
+      "time_period": "2012-2020"
+    },
+    {
+      "source": "Los Pelones",
+      "target": "Gente Nueva",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Pelones lists Gente Nueva as rivals.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Los_Pelones"
+}

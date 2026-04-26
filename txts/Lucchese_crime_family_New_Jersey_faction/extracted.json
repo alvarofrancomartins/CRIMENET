@@ -1,0 +1,325 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese crime family",
+      "aliases": [
+        "Gagliano family",
+        "Gagliano-Lucchese family"
+      ],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, operates in New York and New Jersey.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Lucchese crime family New Jersey faction",
+      "original_text_name": "New Jersey faction of the Lucchese crime family",
+      "aliases": [
+        "Jersey Crew",
+        "North Jersey faction"
+      ],
+      "type": "faction",
+      "context": "Powerful crew of Italian-American mobsters operating in Northern New Jersey.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Sicilian faction (Newark)",
+      "original_text_name": "Sicilians",
+      "aliases": [],
+      "type": "faction",
+      "context": "Italian criminal group in Newark led by Stefano Badami in early 1900s.",
+      "time_period": "early 1900s-1930s"
+    },
+    {
+      "standard_name": "Neapolitan faction (Newark)",
+      "original_text_name": "Neapolitans",
+      "aliases": [],
+      "type": "faction",
+      "context": "Italian criminal group in Newark led by Ruggiero Boiardo in early 1900s.",
+      "time_period": "early 1900s-1930s"
+    },
+    {
+      "standard_name": "Zwillman organization",
+      "original_text_name": "Jewish gangster Abner \"Longie\" Zwillman",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jewish gang led by Abner Zwillman, controlled bootlegging in Newark's Third Ward.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "standard_name": "Maranzano crime family",
+      "original_text_name": "Salvatore Maranzano",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Sicilian Castellammarese Mafia boss who fought Masseria in the Castellammarese War.",
+      "time_period": "1920s-1931"
+    },
+    {
+      "standard_name": "Masseria crime family",
+      "original_text_name": "Joe \"The Boss\" Masseria",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York City Mafia boss who fought Maranzano in the Castellammarese War.",
+      "time_period": "1920s-1931"
+    },
+    {
+      "standard_name": "Newark family",
+      "original_text_name": "Newark family",
+      "aliases": [
+        "Badami Newark family"
+      ],
+      "type": "mafia",
+      "context": "Mafia family based in Newark, disbanded in 1937.",
+      "time_period": "1931-1937"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese family",
+      "aliases": [
+        "Luciano-Genovese family"
+      ],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, operates in New York and New Jersey.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, operates in New York and New Jersey.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Mangano crime family",
+      "original_text_name": "Mangano family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, later became the Gambino family.",
+      "time_period": "1930s-1950s"
+    },
+    {
+      "standard_name": "Profaci crime family",
+      "original_text_name": "Profaci family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, later became the Colombo family.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Philadelphia crime family",
+      "original_text_name": "Philadelphia crime family",
+      "aliases": [
+        "Bruno crime family"
+      ],
+      "type": "mafia",
+      "context": "Mafia family based in Philadelphia, Pennsylvania.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "DeCavalcante crime family",
+      "original_text_name": "DeCavalcante family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in New Jersey.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Nine Trey Gangsters",
+      "original_text_name": "Nine Trey Gangster's",
+      "aliases": [],
+      "type": "gang",
+      "context": "A set of the Bloods street gang, involved in drug smuggling.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Major street gang alliance, Nine Trey Gangsters is a set of the Bloods.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, operates in New York and New Jersey.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Colombo crime family",
+      "original_text_name": "Colombo",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, allied with Lucchese New Jersey faction.",
+      "time_period": "1928-present"
+    },
+    {
+      "standard_name": "Genovese crime family New Jersey faction",
+      "original_text_name": "Genovese (New Jersey faction)",
+      "aliases": [],
+      "type": "faction",
+      "context": "New Jersey faction of the Genovese crime family, allied with Lucchese New Jersey faction.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Lucchese crime family New Jersey faction",
+      "target": "Lucchese crime family",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The New Jersey faction is a crew within the Lucchese crime family.",
+      "time_period": "1930s-present"
+    },
+    {
+      "source": "Sicilian faction (Newark)",
+      "target": "Neapolitan faction (Newark)",
+      "relationship": "rivalry",
+      "context": "The Sicilian and Neapolitan factions were divided and likely rivals in early Newark.",
+      "time_period": "early 1900s"
+    },
+    {
+      "source": "Neapolitan faction (Newark)",
+      "target": "Zwillman organization",
+      "relationship": "rivalry",
+      "context": "Boiardo's Neapolitan faction fought a violent war with Zwillman's gang over bootlegging territory.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "source": "Sicilian faction (Newark)",
+      "target": "Maranzano crime family",
+      "relationship": "alliance",
+      "context": "Sicilian boss Badami joined Maranzano's side during the Castellammarese War.",
+      "time_period": "1930-1931"
+    },
+    {
+      "source": "Neapolitan faction (Newark)",
+      "target": "Masseria crime family",
+      "relationship": "alliance",
+      "context": "Boiardo formed an alliance with Masseria during the Castellammarese War.",
+      "time_period": "1930-1931"
+    },
+    {
+      "source": "Newark family",
+      "target": "Lucchese crime family",
+      "relationship": "other",
+      "detail": "absorbed into",
+      "context": "After the Newark family disbanded, many members joined the Gagliano-Lucchese family, forming the Jersey crew.",
+      "time_period": "1937"
+    },
+    {
+      "source": "Newark family",
+      "target": "Genovese crime family",
+      "relationship": "other",
+      "detail": "territory divided",
+      "context": "The Commission divided Newark family territory among the Five Families, including the Genovese family.",
+      "time_period": "1937"
+    },
+    {
+      "source": "Newark family",
+      "target": "Bonanno crime family",
+      "relationship": "other",
+      "detail": "territory divided",
+      "context": "The Bonanno family established a crew in Newark after the family disbanded.",
+      "time_period": "1937"
+    },
+    {
+      "source": "Newark family",
+      "target": "Mangano crime family",
+      "relationship": "other",
+      "detail": "territory divided",
+      "context": "The Mangano family established operations in Newark after the family disbanded.",
+      "time_period": "1937"
+    },
+    {
+      "source": "Newark family",
+      "target": "Profaci crime family",
+      "relationship": "other",
+      "detail": "territory divided",
+      "context": "The Profaci family established a crew in Newark after the family disbanded.",
+      "time_period": "1937"
+    },
+    {
+      "source": "Lucchese crime family New Jersey faction",
+      "target": "Philadelphia crime family",
+      "relationship": "rivalry",
+      "context": "Relations turned worse after the murder of Angelo Bruno, leading to termination of cooperation.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Lucchese crime family New Jersey faction",
+      "target": "Genovese crime family",
+      "relationship": "other",
+      "detail": "territorial absorption",
+      "context": "The Jersey crew absorbed gambling territory previously run by Genovese member Tino Fiumara.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Lucchese crime family New Jersey faction",
+      "target": "DeCavalcante crime family",
+      "relationship": "alliance",
+      "context": "Joseph Abate maintained close ties to the DeCavalcante family.",
+      "time_period": "1950s-1960s"
+    },
+    {
+      "source": "Lucchese crime family New Jersey faction",
+      "target": "Nine Trey Gangsters",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied to smuggle drugs and pre-paid cell phones into East Jersey State Prison.",
+      "time_period": "2007"
+    },
+    {
+      "source": "Nine Trey Gangsters",
+      "target": "Bloods",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Nine Trey Gangsters is a set of the Bloods.",
+      "time_period": null
+    },
+    {
+      "source": "Lucchese crime family New Jersey faction",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Martin Taccetta was indicted with Gambino capo Andrew Merola, indicating cooperation.",
+      "time_period": "2008"
+    },
+    {
+      "source": "Lucchese crime family New Jersey faction",
+      "target": "Bonanno crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Lucchese crime family New Jersey faction",
+      "target": "Colombo crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Lucchese crime family New Jersey faction",
+      "target": "Genovese crime family New Jersey faction",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Lucchese crime family New Jersey faction",
+      "target": "Philadelphia crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Lucchese_crime_family_New_Jersey_faction"
+}

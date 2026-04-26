@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Artistas Asesinos",
+      "original_text_name": "Artistas Asesinos",
+      "aliases": [
+        "Doble A",
+        "AA"
+      ],
+      "type": "gang",
+      "context": "Mexican street gang that works as an enforcement wing of the Sinaloa Cartel in Ciudad Juárez.",
+      "time_period": "2008-present"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel that uses Artistas Asesinos as an enforcement wing in Ciudad Juárez.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Barrio Azteca",
+      "original_text_name": "Barrio Azteca",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Artistas Asesinos in Ciudad Juárez.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Artistas Asesinos",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Artistas Asesinos works as an enforcement wing of the Sinaloa Cartel.",
+      "time_period": "2008-present"
+    },
+    {
+      "source": "Artistas Asesinos",
+      "target": "Barrio Azteca",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Artistas Asesinos and Barrio Azteca are rivals.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Artistas_Asesinos"
+}

@@ -1,0 +1,197 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Società Foggiana",
+      "original_text_name": "Società Foggiana",
+      "aliases": [
+        "Società",
+        "Mafia Foggiana",
+        "fifth mafia"
+      ],
+      "type": "mafia",
+      "context": "Mafia-type organization operating in Province of Foggia, Italy, involved in murder, drug trafficking, extortion.",
+      "time_period": "1989-present"
+    },
+    {
+      "standard_name": "Sacra Corona Unita",
+      "original_text_name": "Sacra Corona Unita",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Apulian mafia from which Società Foggiana split.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Cerignola clan",
+      "original_text_name": "Cerignola clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Subgroup in Foggia region known for armored car robberies and cocaine smuggling.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gargano group",
+      "original_text_name": "group active around Gargano",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group active around Gargano, smuggling marijuana from Balkans.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "type": "mafia",
+      "context": "Camorra organization led by Raffaele Cutolo, precursor to Società Foggiana.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "Nuova Camorra Pugliese",
+      "original_text_name": "Nuova Camorra Pugliese",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Offshoot of NCO in northern Apulia, predecessor of Società Foggiana.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Campanian mafia, allied with Società Foggiana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Calabrian mafia, allied with Società Foggiana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Albanian mafia",
+      "original_text_name": "Albanian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Eastern European criminal organization supporting Società Foggiana in drug market.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gionta clan",
+      "original_text_name": "Gionta clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan involved in international drug trafficking alliance with Società Foggiana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Trisciuoglio clan",
+      "original_text_name": "Trisciuoglio clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Powerful clan inside Società Foggiana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sinesi-Francavilla clan",
+      "original_text_name": "Sinesi-Francavilla clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Powerful clan inside Società Foggiana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Moretti-Pellegrino-Lanza clan",
+      "original_text_name": "Moretti-Pellegrino-Lanza clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Powerful clan inside Società Foggiana.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Società Foggiana",
+      "target": "Sacra Corona Unita",
+      "relationship": "other",
+      "detail": "split from",
+      "context": "Società Foggiana split from Sacra Corona Unita in the late 1980s.",
+      "time_period": "late 1980s"
+    },
+    {
+      "source": "Società Foggiana",
+      "target": "Nuova Camorra Organizzata",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "Società Foggiana originated from the Nuova Camorra Pugliese, an offshoot of NCO.",
+      "time_period": "1979-1980s"
+    },
+    {
+      "source": "Società Foggiana",
+      "target": "Nuova Camorra Pugliese",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "Nuova Camorra Pugliese was the direct predecessor of Società Foggiana.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Società Foggiana",
+      "target": "Camorra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Società Foggiana has deep ties with Camorra, especially NCO.",
+      "time_period": "since 1979"
+    },
+    {
+      "source": "Società Foggiana",
+      "target": "'Ndrangheta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Società Foggiana is allied with 'Ndrangheta.",
+      "time_period": null
+    },
+    {
+      "source": "Società Foggiana",
+      "target": "Albanian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Società Foggiana members cooperate with Albanian mafia in drug market.",
+      "time_period": null
+    },
+    {
+      "source": "Società Foggiana",
+      "target": "Gionta clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Società Foggiana allied with Gionta clan in international drug trafficking.",
+      "time_period": "until 2019"
+    },
+    {
+      "source": "Società Foggiana",
+      "target": "Trisciuoglio clan",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Trisciuoglio clan is a powerful clan within Società Foggiana.",
+      "time_period": null
+    },
+    {
+      "source": "Società Foggiana",
+      "target": "Sinesi-Francavilla clan",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Sinesi-Francavilla clan is a powerful clan within Società Foggiana.",
+      "time_period": null
+    },
+    {
+      "source": "Società Foggiana",
+      "target": "Moretti-Pellegrino-Lanza clan",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Moretti-Pellegrino-Lanza clan is a powerful clan within Società Foggiana.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Società_foggiana"
+}

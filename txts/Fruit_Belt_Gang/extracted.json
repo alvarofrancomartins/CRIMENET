@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Fruit Belt Gang",
+      "original_text_name": "Fruit Belt Gang",
+      "aliases": [
+        "Fruit Belt Posse"
+      ],
+      "type": "gang",
+      "context": "Street gang based in Buffalo, New York, involved in drug trafficking, weapons sales, and murder.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Central Park Gang",
+      "original_text_name": "Central Park Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival street gang to the Fruit Belt Gang, also based in Buffalo, New York.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Fruit Belt Gang",
+      "target": "Central Park Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The two gangs are direct rivals, with ongoing violence and retaliatory shootings.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Fruit_Belt_Gang"
+}

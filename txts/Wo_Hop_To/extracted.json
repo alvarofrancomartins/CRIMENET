@@ -1,0 +1,107 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Wo Hop To",
+      "original_text_name": "Wo Hop To",
+      "aliases": [
+        "WHT",
+        "Harmoniously United Association",
+        "Harmonious Union Plan"
+      ],
+      "type": "triad",
+      "context": "Triad group based in Wan Chai, Hong Kong, specializing in protection rackets.",
+      "time_period": "1908-present"
+    },
+    {
+      "standard_name": "Wo Shing Wo",
+      "original_text_name": "Wo Shing Wo",
+      "aliases": [],
+      "type": "triad",
+      "context": "One of the Four Major Gangs of Hong Kong.",
+      "time_period": null
+    },
+    {
+      "standard_name": "14K",
+      "original_text_name": "14K",
+      "aliases": [],
+      "type": "triad",
+      "context": "One of the Four Major Gangs of Hong Kong.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sun Yee On",
+      "original_text_name": "Sun Yee On",
+      "aliases": [],
+      "type": "triad",
+      "context": "One of the Four Major Gangs of Hong Kong, allied with Wo Hop To.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hop Sing Boys",
+      "original_text_name": "Hop Sing Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Former gang in San Francisco, dismantled after the Golden Dragon massacre.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Wah Ching",
+      "original_text_name": "Wah Ching",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chinatown gang that was chased out of the Bay Area by Wo Hop To.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Joe Boys",
+      "original_text_name": "Joe Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chinatown gang dismantled by police after the Golden Dragon massacre.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Tiny Rascal Gang",
+      "original_text_name": "Tiny Rascal Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with Wo Hop To according to infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Wo Hop To",
+      "target": "Sun Yee On",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Wo Hop To is affiliated with Sun Yee On.",
+      "time_period": null
+    },
+    {
+      "source": "Wo Hop To",
+      "target": "Wah Ching",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Wo Hop To chased Wah Ching out of the Bay Area and killed their leader Danny Wong.",
+      "time_period": "early 1990s"
+    },
+    {
+      "source": "Wo Hop To",
+      "target": "Tiny Rascal Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Tiny Rascal Gang is listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Wo Hop To",
+      "target": "Hop Sing Boys",
+      "relationship": "other",
+      "detail": "former affiliation",
+      "context": "Raymond Chow, a former Hop Sing Boys member, became a leader of Wo Hop To in the US.",
+      "time_period": "early 1990s"
+    }
+  ],
+  "source_file": "Wo_Hop_To"
+}

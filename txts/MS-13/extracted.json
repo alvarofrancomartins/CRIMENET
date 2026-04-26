@@ -1,0 +1,288 @@
+{
+  "nodes": [
+    {
+      "standard_name": "MS-13",
+      "original_text_name": "MS-13",
+      "aliases": [
+        "Mara Salvatrucha",
+        "Mara 18"
+      ],
+      "type": "gang",
+      "context": "International criminal gang originating in Los Angeles, active in US, Canada, Mexico, Central America.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "18th Street gang",
+      "original_text_name": "18th Street gang",
+      "aliases": [
+        "18th Street",
+        "18th Street Gang",
+        "Barrio 18",
+        "Mara 18"
+      ],
+      "type": "gang",
+      "context": "Rival gang to MS-13, active in Central America and US.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [
+        "Sinaloa Cartel"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel that recruited MS-13 members to battle Los Zetas.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [
+        "Los Zetas"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel, rival of Sinaloa Cartel, fought by MS-13 members recruited by Sinaloa.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [
+        "La Eme"
+      ],
+      "type": "gang",
+      "context": "Prison gang, rumored to be honored by the '13' in MS-13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Farabundo Martí National Liberation Front",
+      "original_text_name": "Farabundo Martí National Liberation Front",
+      "aliases": [
+        "FMLN"
+      ],
+      "type": "other",
+      "context": "Salvadoran guerrilla group, referenced in etymology of MS-13 name.",
+      "time_period": "1980-1992"
+    },
+    {
+      "standard_name": "Mara Salvatrucha",
+      "original_text_name": "MS-13",
+      "aliases": [
+        "MS-13",
+        "Mara Salvatrucha"
+      ],
+      "type": "gang",
+      "context": "International criminal gang originating in Los Angeles, active in US, Canada, Mexico, Central America. Engages in drug trafficking, extortion, assassination, arms trafficking.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Florencia 13",
+      "original_text_name": "Florencia 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Sureño gang expanding alongside MS-13 and 18th Street.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureño coalition",
+      "aliases": [
+        "Sureños"
+      ],
+      "type": "gang",
+      "context": "Coalition of gangs that pay tribute to the Mexican Mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf",
+      "aliases": [
+        "Gulf Cartel"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel that has brokered deals with MS-13 for narcotics and firearms.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation",
+      "aliases": [
+        "CJNG"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel that has brokered deals with MS-13 for narcotics and firearms.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to MS-13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Latin Kings",
+      "original_text_name": "Latin Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to MS-13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Norteños",
+      "original_text_name": "Norteños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to MS-13, associated with red clothing.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Tiny Rascal Gang",
+      "original_text_name": "Tiny Rascal Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to MS-13.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "MS-13",
+      "target": "18th Street gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "MS-13 has a longtime rivalry with the 18th Street gang.",
+      "time_period": null
+    },
+    {
+      "source": "MS-13",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MS-13 members were recruited by the Sinaloa Cartel to battle Los Zetas.",
+      "time_period": null
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "Los Zetas",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sinaloa Cartel recruited MS-13 to fight Los Zetas in the Mexican drug war.",
+      "time_period": null
+    },
+    {
+      "source": "MS-13",
+      "target": "Mexican Mafia",
+      "relationship": "other",
+      "detail": "rumored homage",
+      "context": "The '13' in MS-13 is rumored to pay homage to the Mexican Mafia prison gang.",
+      "time_period": null
+    },
+    {
+      "source": "Mara Salvatrucha",
+      "target": "18th Street Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Longtime rivalry; initially friendly but fell apart after a fight over a girl in 1989, leading to cycle of vengeance.",
+      "time_period": "1989-present"
+    },
+    {
+      "source": "Mara Salvatrucha",
+      "target": "18th Street Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Initially friendly as they were among the only gangs allowing Salvadorans to join.",
+      "time_period": "1980s-1989"
+    },
+    {
+      "source": "Mara Salvatrucha",
+      "target": "Florencia 13",
+      "relationship": "other",
+      "detail": "co-expansion",
+      "context": "Both are Sureño gangs expanding faster than other national-level gangs.",
+      "time_period": null
+    },
+    {
+      "source": "Mara Salvatrucha",
+      "target": "Sureños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MS-13 is affiliated with the Sureño coalition of gangs.",
+      "time_period": null
+    },
+    {
+      "source": "Mara Salvatrucha",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MS-13 has colluded with the Mexican Mafia in drug trafficking.",
+      "time_period": null
+    },
+    {
+      "source": "Mara Salvatrucha",
+      "target": "Los Zetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MS-13 leaders brokered deals with the Zetas to obtain narcotics and firearms.",
+      "time_period": null
+    },
+    {
+      "source": "Mara Salvatrucha",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MS-13 leaders brokered deals with the Gulf cartel to obtain narcotics and firearms.",
+      "time_period": null
+    },
+    {
+      "source": "Mara Salvatrucha",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MS-13 leaders brokered deals with the Jalisco New Generation cartel to obtain narcotics and firearms.",
+      "time_period": null
+    },
+    {
+      "source": "Mara Salvatrucha",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MS-13 leaders brokered deals with the Sinaloa cartel to obtain narcotics and firearms.",
+      "time_period": null
+    },
+    {
+      "source": "Mara Salvatrucha",
+      "target": "Bloods",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Bloods are listed as a rival gang to MS-13.",
+      "time_period": null
+    },
+    {
+      "source": "Mara Salvatrucha",
+      "target": "Latin Kings",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Latin Kings are listed as a rival gang to MS-13.",
+      "time_period": null
+    },
+    {
+      "source": "Mara Salvatrucha",
+      "target": "Norteños",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "MS-13 members mistook victims for Norteños due to red clothing.",
+      "time_period": null
+    },
+    {
+      "source": "Mara Salvatrucha",
+      "target": "Tiny Rascal Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "MS-13 is a rival of the Tiny Rascal Gang.",
+      "time_period": null
+    }
+  ],
+  "source_file": "MS-13"
+}

@@ -1,0 +1,178 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Russian Mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [
+        "Russian organized crime"
+      ],
+      "type": "mafia",
+      "context": "General term for Russian organized crime groups, including Ivankov's network.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Ivankov Gang",
+      "original_text_name": "Ivankov's gang",
+      "aliases": [
+        "Yaponchik's gang",
+        "Mazutka gang",
+        "Mazutkinskaya OPG"
+      ],
+      "type": "gang",
+      "context": "Russian criminal group led by Vyacheslav Ivankov, active in Russia and the US.",
+      "time_period": "1970s-2009"
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American Mafia, mentioned for comparison to Ivankov's leadership style.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Dagestani Bratva",
+      "original_text_name": "Dagestani Bratva",
+      "aliases": [],
+      "type": "clan",
+      "context": "Criminal group from Dagestan, sent a tribute to Ivankov's funeral.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kazakh Bratva",
+      "original_text_name": "Kazakh Bratva",
+      "aliases": [],
+      "type": "clan",
+      "context": "Criminal group from Kazakhstan, sent a tribute to Ivankov's funeral.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Usoyan Clan",
+      "original_text_name": "Aslan Usoyan (Ded Khasan)",
+      "aliases": [
+        "Ded Khasan",
+        "Grandpa Hassan"
+      ],
+      "type": "clan",
+      "context": "Criminal group led by Aslan Usoyan, involved in gang war with Tariel Oniani.",
+      "time_period": "1990s-2013"
+    },
+    {
+      "standard_name": "Oniani Clan",
+      "original_text_name": "Tariel Oniani",
+      "aliases": [],
+      "type": "clan",
+      "context": "Georgian crime boss, rival of Aslan Usoyan.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Brothers' Circle",
+      "original_text_name": "Brothers' Circle",
+      "aliases": [],
+      "type": "other",
+      "context": "International criminal network, Lasha Shushanashvili is a member.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Solntsevskaya Bratva",
+      "original_text_name": "Solntsevskaya",
+      "aliases": [
+        "Solntsevskaya Bratva"
+      ],
+      "type": "mafia",
+      "context": "Russian mafia group led by Mikhas, gained Ivankov's assets after his death.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Semion Mogilevich Crime Network",
+      "original_text_name": "Semion Mogilevich crime network",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Russian organized crime group led by Semion Mogilevich, gained Ivankov's assets.",
+      "time_period": "1990s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ivankov Gang",
+      "target": "Russian Mafia",
+      "relationship": "other",
+      "detail": "part of",
+      "context": "Ivankov's gang is a component of the broader Russian mafia.",
+      "time_period": "1970s-2009"
+    },
+    {
+      "source": "Ivankov Gang",
+      "target": "Cosa Nostra",
+      "relationship": "other",
+      "detail": "comparison",
+      "context": "Ivankov's leadership style contrasted with Cosa Nostra's hierarchical structure.",
+      "time_period": null
+    },
+    {
+      "source": "Ivankov Gang",
+      "target": "Dagestani Bratva",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dagestani Bratva sent a tribute to Ivankov's funeral, indicating respect or alliance.",
+      "time_period": "2009"
+    },
+    {
+      "source": "Ivankov Gang",
+      "target": "Kazakh Bratva",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kazakh Bratva sent a tribute to Ivankov's funeral, indicating respect or alliance.",
+      "time_period": "2009"
+    },
+    {
+      "source": "Ivankov Gang",
+      "target": "Usoyan Clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ivankov took Usoyan's side in the gang war against Oniani.",
+      "time_period": "2009"
+    },
+    {
+      "source": "Usoyan Clan",
+      "target": "Oniani Clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ongoing gang war between Usoyan and Oniani, leading to Ivankov's assassination.",
+      "time_period": "2000s-2013"
+    },
+    {
+      "source": "Brothers' Circle",
+      "target": "Usoyan Clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Lasha Shushanashvili, a member of Brothers' Circle, is close to Aslan Usoyan.",
+      "time_period": "2000s-2012"
+    },
+    {
+      "source": "Solntsevskaya Bratva",
+      "target": "Ivankov Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Solntsevskaya gained Ivankov's criminal assets after his death.",
+      "time_period": "2009"
+    },
+    {
+      "source": "Semion Mogilevich Crime Network",
+      "target": "Ivankov Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Mogilevich's network gained Ivankov's criminal assets after his death.",
+      "time_period": "2009"
+    },
+    {
+      "source": "Semion Mogilevich Crime Network",
+      "target": "Ivankov Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Semion Mogilevich was very close to the elder Ivankov, per his son's representation.",
+      "time_period": "1990s-2009"
+    }
+  ],
+  "source_file": "Vyacheslav_Ivankov"
+}

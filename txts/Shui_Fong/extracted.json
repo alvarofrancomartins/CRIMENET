@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Shui Fong",
+      "original_text_name": "Shui Fong",
+      "aliases": [
+        "Wo On Lok",
+        "WOL",
+        "Water Room Gang"
+      ],
+      "type": "triad",
+      "context": "One of the main Triad groups in Southern China, operating in Hong Kong, Macau, and abroad. Engages in extortion, loan sharking, narcotics, and control of nightclubs.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Sun Yee On",
+      "original_text_name": "Sun Yee On",
+      "aliases": [],
+      "type": "triad",
+      "context": "One of Hong Kong's most active triad groups, mentioned alongside Shui Fong.",
+      "time_period": null
+    },
+    {
+      "standard_name": "14K",
+      "original_text_name": "14K",
+      "aliases": [],
+      "type": "triad",
+      "context": "Major triad group active in Hong Kong and Macau, rival of Shui Fong.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Wo Shing Wo",
+      "original_text_name": "Wo Shing Wo",
+      "aliases": [],
+      "type": "triad",
+      "context": "Triad group in the 'Wo' family, active in Hong Kong and UK, rival of Shui Fong.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Wo Shing Yee",
+      "original_text_name": "Wo Shing Yee",
+      "aliases": [],
+      "type": "triad",
+      "context": "One of the 'Four Major Gangs' in Macau alongside Shui Fong.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Big Circle Gang",
+      "original_text_name": "Big Circle Gang",
+      "aliases": [],
+      "type": "triad",
+      "context": "One of the 'Four Major Gangs' in Macau.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Shui Fong",
+      "target": "14K",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Perennial rivals involved in gang wars in Macau during the 1990s and a clash in Hong Kong in 2010.",
+      "time_period": "1990s-2010"
+    },
+    {
+      "source": "Shui Fong",
+      "target": "Wo Shing Wo",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Wo Shing Wo wanted a share of Shui Fong's video rental business in the UK, leading to a murder.",
+      "time_period": "1985"
+    },
+    {
+      "source": "Shui Fong",
+      "target": "Sun Yee On",
+      "relationship": "other",
+      "detail": "coexistence",
+      "context": "Both are active triad groups in Hong Kong, but no direct conflict or alliance mentioned.",
+      "time_period": null
+    },
+    {
+      "source": "Shui Fong",
+      "target": "Wo Shing Yee",
+      "relationship": "other",
+      "detail": "coexistence",
+      "context": "Both are part of the 'Four Major Gangs' in Macau.",
+      "time_period": null
+    },
+    {
+      "source": "Shui Fong",
+      "target": "Big Circle Gang",
+      "relationship": "other",
+      "detail": "coexistence",
+      "context": "Both are part of the 'Four Major Gangs' in Macau.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Shui_Fong"
+}

@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "standard_name": "La Nueva Familia Michoacana",
+      "original_text_name": "La Nueva Familia Michoacana",
+      "aliases": [
+        "LNFM",
+        "La Nueva Familia"
+      ],
+      "type": "cartel",
+      "context": "Mexican criminal organization specializing in drug trafficking, illegal mining, and extortion. Operates in southern Mexico and parts of the US.",
+      "time_period": "2011-present"
+    },
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Original cartel from which LNFM splintered. Lost power in 2010.",
+      "time_period": "2000s-2010"
+    },
+    {
+      "standard_name": "Knights Templar Cartel",
+      "original_text_name": "Knights Templar Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Cartel that formed after La Familia Michoacana's decline.",
+      "time_period": "2010-present"
+    },
+    {
+      "standard_name": "CJNG",
+      "original_text_name": "CJNG",
+      "aliases": [
+        "Cártel Jalisco Nueva Generación"
+      ],
+      "type": "cartel",
+      "context": "Rival cartel battling LNFM in Tierra Caliente region.",
+      "time_period": "2010-present"
+    },
+    {
+      "standard_name": "El Zarco",
+      "original_text_name": "El Zarco",
+      "aliases": [],
+      "type": "faction",
+      "context": "Cell leader within LNFM who threatened CJNG leader El Mencho.",
+      "time_period": "2019"
+    }
+  ],
+  "edges": [
+    {
+      "source": "La Nueva Familia Michoacana",
+      "target": "La Familia Michoacana",
+      "relationship": "other",
+      "detail": "splinter group",
+      "context": "LNFM formed as a splinter group from La Familia Michoacana in 2011.",
+      "time_period": "2011"
+    },
+    {
+      "source": "La Nueva Familia Michoacana",
+      "target": "Knights Templar Cartel",
+      "relationship": "other",
+      "detail": "successor organization",
+      "context": "LNFM emerged after the Knights Templar Cartel formed from the original La Familia Michoacana.",
+      "time_period": "2011"
+    },
+    {
+      "source": "La Nueva Familia Michoacana",
+      "target": "CJNG",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "LNFM battles CJNG in Tierra Caliente region.",
+      "time_period": "2011-present"
+    },
+    {
+      "source": "El Zarco",
+      "target": "CJNG",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "El Zarco threatened CJNG leader El Mencho, leading to retaliation threats.",
+      "time_period": "2019"
+    }
+  ],
+  "source_file": "La_Nueva_Familia_Michoacana_Organization"
+}

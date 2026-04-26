@@ -1,0 +1,155 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sex Money Murder",
+      "original_text_name": "Sex, Money, Murder",
+      "aliases": [
+        "Sex Money Murda",
+        "S.M.M.",
+        "$.M.M."
+      ],
+      "type": "gang",
+      "context": "A set of the Bloods street gang operating on the East Coast of the United States, involved in drug trafficking, racketeering, armed robbery, assault, and murder.",
+      "time_period": "1995-present"
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "A national street gang alliance; Sex Money Murder is a set of the Bloods.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "United Blood Nation",
+      "original_text_name": "United Blood Nation",
+      "aliases": [
+        "UBN"
+      ],
+      "type": "gang",
+      "context": "The East Coast branch of the Bloods, founded in Rikers Island; Sex Money Murder was originally a sanctioned set of UBN.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Brims",
+      "original_text_name": "Brim affiliates",
+      "aliases": [
+        "Brim"
+      ],
+      "type": "gang",
+      "context": "A Bloods set that backed Sex Money Murder during the Wet T-Shirt War.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Pirus",
+      "original_text_name": "Pirus",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Bloods set; listed as an ally of Sex Money Murder in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "MS-13",
+      "original_text_name": "MS13",
+      "aliases": [
+        "Mara Salvatrucha"
+      ],
+      "type": "gang",
+      "context": "A transnational street gang; listed as a localized ally of Sex Money Murder in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival street gang to the Bloods; listed as a rival of Sex Money Murder in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Black Guerrilla Family",
+      "original_text_name": "Black Guerrilla Family",
+      "aliases": [
+        "BGF"
+      ],
+      "type": "gang",
+      "context": "A prison gang; listed as a rival of Sex Money Murder in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gangster Disciples",
+      "original_text_name": "Gangster Disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "A street gang; listed as a rival of Sex Money Murder in the infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Sex Money Murder",
+      "target": "Bloods",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sex Money Murder is a set of the Bloods street gang.",
+      "time_period": "1995-present"
+    },
+    {
+      "source": "Sex Money Murder",
+      "target": "United Blood Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sex Money Murder was originally a sanctioned set of UBN and later gained independence.",
+      "time_period": "1996-2000s"
+    },
+    {
+      "source": "Sex Money Murder",
+      "target": "Brims",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Brim affiliates backed Sex Money Murder during the Wet T-Shirt War.",
+      "time_period": null
+    },
+    {
+      "source": "Sex Money Murder",
+      "target": "Pirus",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pirus are listed as allies of Sex Money Murder in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Sex Money Murder",
+      "target": "MS-13",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MS-13 is listed as a localized ally of Sex Money Murder in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Sex Money Murder",
+      "target": "Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Crips are listed as rivals of Sex Money Murder in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Sex Money Murder",
+      "target": "Black Guerrilla Family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Black Guerrilla Family is listed as a rival of Sex Money Murder in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Sex Money Murder",
+      "target": "Gangster Disciples",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gangster Disciples are listed as rivals of Sex Money Murder in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Sex_Money_Murder"
+}

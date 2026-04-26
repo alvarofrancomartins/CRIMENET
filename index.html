@@ -217,8 +217,8 @@ async function init() {
     document.getElementById('ld-fill').style.width = p+'%';
   };
   try {
-    setLD('Fetching crimenet_specific.json…',15);
-    const res = await fetch('./crimenet_specific.json');
+    setLD('Fetching crimenet.json…',15);
+    const res = await fetch('./crimenet.json');
     if(!res.ok) throw new Error(`HTTP ${res.status}`);
     setLD('Parsing…',40); G = await res.json(); await tick();
     setLD('Building index…',65);
@@ -239,7 +239,7 @@ async function init() {
     document.getElementById('loader').style.display = 'none';
   } catch(e) {
     document.getElementById('ld-err').style.display = 'block';
-    document.getElementById('ld-err').innerHTML = `⚠ Cannot load <code>crimenet_specific.json</code><br>Place it alongside this HTML.<br><small style="color:#3a5060">${e.message}</small>`;
+    document.getElementById('ld-err').innerHTML = `⚠ Cannot load <code>crimenet.json</code><br>Place it alongside this HTML.<br><small style="color:#3a5060">${e.message}</small>`;
     document.getElementById('ld-msg').style.display='none';
     document.getElementById('ld-fill').parentElement.style.display='none';
   }

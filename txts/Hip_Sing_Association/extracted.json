@@ -1,0 +1,88 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hip Sing Association",
+      "original_text_name": "Hip Sing Association",
+      "aliases": [
+        "HSA",
+        "Hip Sing Tong",
+        "協勝公會",
+        "协胜公会",
+        "協勝堂",
+        "协胜堂"
+      ],
+      "type": "other",
+      "context": "Chinese-American criminal organization/gang formed as a labor organization in New York City's Chinatown, involved in drug trafficking and vice.",
+      "time_period": "c. 1904-present"
+    },
+    {
+      "standard_name": "On Leong Tong",
+      "original_text_name": "On Leong Tong",
+      "aliases": [],
+      "type": "other",
+      "context": "Rival tong to Hip Sing, involved in Tong wars for control of Chinatown in early 1900s.",
+      "time_period": "early 1900s-present"
+    },
+    {
+      "standard_name": "Four Brothers",
+      "original_text_name": "Four Brothers",
+      "aliases": [],
+      "type": "other",
+      "context": "Rival tong to Hip Sing, involved in Tong wars for control of Chinatown in early 1900s.",
+      "time_period": "early 1900s"
+    },
+    {
+      "standard_name": "Kuomintang",
+      "original_text_name": "Kuomintang",
+      "aliases": [
+        "KMT"
+      ],
+      "type": "other",
+      "context": "Chinese political party that collaborated with Hip Sing in drug trafficking during 1930s-1940s.",
+      "time_period": "1930s-1940s"
+    },
+    {
+      "standard_name": "Flying Dragons",
+      "original_text_name": "Flying Dragons",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang used by Hip Sing Tong to carry out crimes in New York City.",
+      "time_period": "1970s-1994"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hip Sing Association",
+      "target": "On Leong Tong",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hip Sing and On Leong were rivals in Tong wars for control of Chinatown in early 1900s.",
+      "time_period": "early 1900s"
+    },
+    {
+      "source": "Hip Sing Association",
+      "target": "Four Brothers",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hip Sing and Four Brothers were rivals in Tong wars for control of Chinatown in early 1900s.",
+      "time_period": "early 1900s"
+    },
+    {
+      "source": "Hip Sing Association",
+      "target": "Kuomintang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hip Sing collaborated with Kuomintang in drug trafficking operations during 1930s-1940s.",
+      "time_period": "1930s-1940s"
+    },
+    {
+      "source": "Hip Sing Association",
+      "target": "Flying Dragons",
+      "relationship": "other",
+      "detail": "control",
+      "context": "Hip Sing Tong secretly used Flying Dragons to carry out crimes, but control frayed by 1994.",
+      "time_period": "1970s-1994"
+    }
+  ],
+  "source_file": "Hip_Sing_Association"
+}

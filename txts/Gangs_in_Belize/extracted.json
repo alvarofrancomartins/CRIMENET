@@ -1,0 +1,115 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "American street gang; offshoots formed in Belize in the 1980s.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "American street gang; offshoots formed in Belize in the 1980s.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "George Street Bloods",
+      "original_text_name": "George Street",
+      "aliases": [],
+      "type": "gang",
+      "context": "First Bloods gang in Belize, founded in the 1980s.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Majestic Alley Crips",
+      "original_text_name": "Majestic Alley",
+      "aliases": [],
+      "type": "gang",
+      "context": "First Crips gang in Belize, founded in the 1980s.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Wild Bunch",
+      "original_text_name": "Wild Bunch",
+      "aliases": [],
+      "type": "gang",
+      "context": "Early Belizean gang formed in the 1970s, inspired by the movie.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "MS-13",
+      "original_text_name": "MS 13",
+      "aliases": [
+        "Mara Salvatrucha"
+      ],
+      "type": "gang",
+      "context": "Transnational gang; limited Mestizo membership in Belize.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "18th Street Gang",
+      "original_text_name": "18th Street",
+      "aliases": [
+        "Barrio 18"
+      ],
+      "type": "gang",
+      "context": "Transnational gang; limited Mestizo membership in Belize.",
+      "time_period": "1960s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "George Street Bloods",
+      "target": "Bloods",
+      "relationship": "other",
+      "detail": "offshoot",
+      "context": "George Street Bloods is an offshoot of the American Bloods gang.",
+      "time_period": "1980s-present"
+    },
+    {
+      "source": "Majestic Alley Crips",
+      "target": "Crips",
+      "relationship": "other",
+      "detail": "offshoot",
+      "context": "Majestic Alley Crips is an offshoot of the American Crips gang.",
+      "time_period": "1980s-present"
+    },
+    {
+      "source": "Bloods",
+      "target": "Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Bloods and Crips are rival gangs, with conflicts over turf and colors.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "George Street Bloods",
+      "target": "Majestic Alley Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The first Bloods and Crips gangs in Belize were rivals.",
+      "time_period": "1980s-present"
+    },
+    {
+      "source": "Wild Bunch",
+      "target": "Bloods",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "Wild Bunch was an early gang that preceded the Bloods and Crips in Belize.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "source": "Wild Bunch",
+      "target": "Crips",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "Wild Bunch was an early gang that preceded the Bloods and Crips in Belize.",
+      "time_period": "1970s-1980s"
+    }
+  ],
+  "source_file": "Gangs_in_Belize"
+}

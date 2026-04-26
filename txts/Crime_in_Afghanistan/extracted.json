@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Taliban",
+      "original_text_name": "Taliban",
+      "aliases": [],
+      "type": "other",
+      "context": "Islamist militant group that governed Afghanistan and engaged in drug trade and terrorism.",
+      "time_period": "1994-present"
+    },
+    {
+      "standard_name": "United Islamic Front for the Salvation of Afghanistan",
+      "original_text_name": "United Islamic Front for the Salvation of Afghanistan",
+      "aliases": [
+        "Northern Alliance"
+      ],
+      "type": "militia",
+      "context": "Anti-Taliban coalition that controlled areas where opium cultivation continued under Taliban ban.",
+      "time_period": "1996-2001"
+    },
+    {
+      "standard_name": "Islamic State of Iraq and the Levant – Khorasan Province",
+      "original_text_name": "Islamic State of Iraq and the Levant – Khorasan Province",
+      "aliases": [
+        "ISIS-K",
+        "ISIL-KP"
+      ],
+      "type": "terrorist_organization",
+      "context": "ISIL affiliate in Afghanistan and Pakistan, carries out terrorist attacks.",
+      "time_period": "2015-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Taliban",
+      "target": "United Islamic Front for the Salvation of Afghanistan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Taliban and Northern Alliance were adversaries during the Afghan civil war.",
+      "time_period": "1996-2001"
+    },
+    {
+      "source": "Taliban",
+      "target": "Islamic State of Iraq and the Levant – Khorasan Province",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Taliban and ISIS-K are hostile and have engaged in conflict.",
+      "time_period": "2015-present"
+    }
+  ],
+  "source_file": "Crime_in_Afghanistan"
+}

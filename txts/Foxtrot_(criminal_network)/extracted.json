@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Foxtrot",
+      "original_text_name": "Foxtrot",
+      "aliases": [
+        "The Foxtrot Network"
+      ],
+      "type": "gang",
+      "context": "Swedish criminal network distributing narcotics, involved in shootings, bombings, and terrorism.",
+      "time_period": "late 2010s-present"
+    },
+    {
+      "standard_name": "Iran's Ministry of Intelligence and Security",
+      "original_text_name": "Iran’s Ministry of Intelligence and Security (MOIS)",
+      "aliases": [
+        "MOIS"
+      ],
+      "type": "other",
+      "context": "Iranian government intelligence agency that recruited Foxtrot for attacks on Israeli and Jewish targets.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bro-network",
+      "original_text_name": "Bro-network",
+      "aliases": [],
+      "type": "gang",
+      "context": "Swedish criminal network allied with Foxtrot, involved in violent crimes against Dalen Network.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Zero Network",
+      "original_text_name": "Zero Network",
+      "aliases": [],
+      "type": "gang",
+      "context": "Swedish criminal network allied with Foxtrot, involved in violent crimes against Dalen Network.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dalen Network",
+      "original_text_name": "Dalen Network",
+      "aliases": [],
+      "type": "gang",
+      "context": "Swedish criminal network rival to Foxtrot, affiliated with Farsta yngre.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Farsta yngre",
+      "original_text_name": "Farsta yngre",
+      "aliases": [],
+      "type": "gang",
+      "context": "Swedish criminal network affiliated with Dalen Network.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Foxtrot",
+      "target": "Iran's Ministry of Intelligence and Security",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Foxtrot developed direct operational ties with MOIS, carrying out attacks on Israeli and Jewish targets in exchange for protection.",
+      "time_period": "since September 2023"
+    },
+    {
+      "source": "Foxtrot",
+      "target": "Bro-network",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Foxtrot is allied with Bro-network; Bro-network members committed violent crimes against Dalen Network on Foxtrot's behalf.",
+      "time_period": null
+    },
+    {
+      "source": "Foxtrot",
+      "target": "Zero Network",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Foxtrot is allied with Zero Network; Zero Network members committed violent crimes against Dalen Network on Foxtrot's behalf.",
+      "time_period": null
+    },
+    {
+      "source": "Foxtrot",
+      "target": "Dalen Network",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Foxtrot and Dalen Network have committed violent acts against each other and their respective allies.",
+      "time_period": null
+    },
+    {
+      "source": "Dalen Network",
+      "target": "Farsta yngre",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dalen Network appears to be affiliated with Farsta yngre.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Foxtrot_(criminal_network)"
+}

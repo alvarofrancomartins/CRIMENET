@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Gitans Moto Club",
+      "original_text_name": "Gitans Moto Club",
+      "aliases": [
+        "Gitans MC",
+        "Gitans"
+      ],
+      "type": "motorcycle_club",
+      "context": "French-Canadian outlaw motorcycle gang based in Sherbrooke, Quebec, involved in drug trafficking, robbery, and sexual violence.",
+      "time_period": "1967-1984"
+    },
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels Motorcycle Club",
+      "aliases": [
+        "Hells Angels MC",
+        "HAMC",
+        "Hells Angels"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club that expanded into Canada, absorbing the Gitans MC as its Sherbrooke charter.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Popeye Moto Club",
+      "original_text_name": "Popeye Moto Club",
+      "aliases": [
+        "Popeye MC",
+        "Popeyes"
+      ],
+      "type": "motorcycle_club",
+      "context": "Powerful Québécois biker gang that supplied drugs and weapons to the Gitans MC and later became the first Canadian Hells Angels chapter.",
+      "time_period": "1960s-1977"
+    },
+    {
+      "standard_name": "Atomes MC",
+      "original_text_name": "Atomes MC",
+      "aliases": [
+        "Atomes"
+      ],
+      "type": "motorcycle_club",
+      "context": "Sherbrooke-based outlaw biker gang that rivaled the Gitans MC over drug turf and was eventually wiped out.",
+      "time_period": "early 1970s-1984"
+    },
+    {
+      "standard_name": "Vikings",
+      "original_text_name": "Vikings",
+      "aliases": [],
+      "type": "gang",
+      "context": "Sherbrooke street gang in the mid-1960s that evolved into the Dirty Reich MC and later the Gitans MC.",
+      "time_period": "mid-1960s"
+    },
+    {
+      "standard_name": "Dirty Reich MC",
+      "original_text_name": "Dirty Reich MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club that preceded the Gitans MC, using a patch with Nazi imagery.",
+      "time_period": "late 1960s-1970"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Gitans Moto Club",
+      "target": "Hells Angels Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Gitans MC integrated into the Hells Angels MC in December 1984 to become the Hells Angels Sherbrooke charter.",
+      "time_period": "1984"
+    },
+    {
+      "source": "Gitans Moto Club",
+      "target": "Popeye Moto Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Popeyes supplied drugs and weapons to the Gitans MC and maintained positive relations.",
+      "time_period": "early 1970s-1977"
+    },
+    {
+      "source": "Gitans Moto Club",
+      "target": "Atomes MC",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Gitans and Atomes fought a violent turf war from 1973 to 1975, resulting in six murders, before reaching a truce.",
+      "time_period": "1973-1975"
+    },
+    {
+      "source": "Gitans Moto Club",
+      "target": "Atomes MC",
+      "relationship": "other",
+      "detail": "truce",
+      "context": "In 1975, both gangs agreed to share Sherbrooke's drug market, ending the turf war.",
+      "time_period": "1975"
+    },
+    {
+      "source": "Popeye Moto Club",
+      "target": "Hells Angels Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Popeyes became the first Canadian Hells Angels chapter (Montreal) in 1977.",
+      "time_period": "1977"
+    },
+    {
+      "source": "Vikings",
+      "target": "Dirty Reich MC",
+      "relationship": "other",
+      "detail": "evolved into",
+      "context": "The Vikings street gang evolved into the Dirty Reich MC outlaw motorcycle club.",
+      "time_period": "late 1960s"
+    },
+    {
+      "source": "Dirty Reich MC",
+      "target": "Gitans Moto Club",
+      "relationship": "other",
+      "detail": "rebranded as",
+      "context": "The Dirty Reich MC rebranded as the Gitans MC in 1970, keeping the same center-patch.",
+      "time_period": "1970"
+    }
+  ],
+  "source_file": "Gitans_Moto_Club"
+}

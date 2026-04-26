@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {
+      "standard_name": "White Tigers",
+      "original_text_name": "White Tigers",
+      "aliases": [
+        "白虎",
+        "Baak6 Fu2"
+      ],
+      "type": "gang",
+      "context": "Chinese American street gang active in Flushing, Queens and Chinatown, Manhattan from 1980s to 1990s.",
+      "time_period": "1980-1990s"
+    },
+    {
+      "standard_name": "Green Dragons",
+      "original_text_name": "Green Dragons",
+      "aliases": [],
+      "type": "gang",
+      "context": "Younger Queens gang that engaged in turf wars with the White Tigers.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Ghost Shadows",
+      "original_text_name": "Ghost Shadows",
+      "aliases": [],
+      "type": "gang",
+      "context": "Larger Manhattan gang that allowed White Tigers territory in upper Chinatown.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Flying Dragons",
+      "original_text_name": "Flying Dragons",
+      "aliases": [],
+      "type": "gang",
+      "context": "Larger Manhattan gang with 100 core members and 200 peripheral members.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Taiwan Brotherhood",
+      "original_text_name": "Taiwan Brotherhood",
+      "aliases": [],
+      "type": "gang",
+      "context": "Smaller Queens gang similar in size to White Tigers.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Golden Star",
+      "original_text_name": "Golden Star",
+      "aliases": [],
+      "type": "gang",
+      "context": "Smaller Queens gang similar in size to White Tigers.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Fuk Ching",
+      "original_text_name": "Fuk Ching",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang involved in human smuggling, similar to White Tigers.",
+      "time_period": "1980s-1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "White Tigers",
+      "target": "Green Dragons",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Engaged in bloody turf wars throughout the 1980s.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "White Tigers",
+      "target": "Ghost Shadows",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ghost Shadows allowed White Tigers to operate in upper Chinatown territory.",
+      "time_period": "1980s-1990s"
+    }
+  ],
+  "source_file": "White_Tigers_(gang)"
+}

@@ -1,0 +1,88 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Guardiões do Estado",
+      "original_text_name": "Guardiões do Estado",
+      "aliases": [
+        "Guardians of the State",
+        "GDE"
+      ],
+      "type": "gang",
+      "context": "Brazilian criminal faction operating in Ceará, involved in murder, drug trafficking, extortion, assault, and rebellion.",
+      "time_period": "2017-present"
+    },
+    {
+      "standard_name": "Terceiro Comando Puro",
+      "original_text_name": "Terceiro Comando Puro",
+      "aliases": [],
+      "type": "gang",
+      "context": "Brazilian criminal faction, ally of Guardiões do Estado.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Primeiro Comando da Capital",
+      "original_text_name": "Primeiro Comando da Capital",
+      "aliases": [
+        "PCC"
+      ],
+      "type": "gang",
+      "context": "Brazilian criminal faction, ally of Guardiões do Estado.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "CV"
+      ],
+      "type": "gang",
+      "context": "Brazilian criminal faction, rival of Guardiões do Estado.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Família do Norte",
+      "original_text_name": "Família do Norte",
+      "aliases": [
+        "FDN"
+      ],
+      "type": "gang",
+      "context": "Brazilian criminal faction, rival of Guardiões do Estado.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Guardiões do Estado",
+      "target": "Terceiro Comando Puro",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Guardiões do Estado is allied with Terceiro Comando Puro.",
+      "time_period": null
+    },
+    {
+      "source": "Guardiões do Estado",
+      "target": "Primeiro Comando da Capital",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Guardiões do Estado is allied with Primeiro Comando da Capital.",
+      "time_period": null
+    },
+    {
+      "source": "Guardiões do Estado",
+      "target": "Comando Vermelho",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Guardiões do Estado is a rival of Comando Vermelho.",
+      "time_period": null
+    },
+    {
+      "source": "Guardiões do Estado",
+      "target": "Família do Norte",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Guardiões do Estado is a rival of Família do Norte.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Guardiões_do_Estado"
+}

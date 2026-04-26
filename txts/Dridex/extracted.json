@@ -1,0 +1,98 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Evil Corp",
+      "original_text_name": "Evil Corp",
+      "aliases": [
+        "Dridex",
+        "INDRIK SPIDER"
+      ],
+      "type": "other",
+      "context": "Russian hacking group behind Dridex malware, active since 2009, hierarchical structure.",
+      "time_period": "2009-present"
+    },
+    {
+      "standard_name": "Jabber Zeus",
+      "original_text_name": "Jabber Zeus hacking group",
+      "aliases": [],
+      "type": "other",
+      "context": "Hacking group whose core member Vyacheslav Penchukov was a personal friend of Evil Corp leader.",
+      "time_period": null
+    },
+    {
+      "standard_name": "REvil",
+      "original_text_name": "REvil",
+      "aliases": [],
+      "type": "other",
+      "context": "Ransomware group; a 2021 attack initially attributed to REvil may have been by Evil Corp.",
+      "time_period": null
+    },
+    {
+      "standard_name": "LockBit",
+      "original_text_name": "LockBit",
+      "aliases": [],
+      "type": "other",
+      "context": "Ransomware group that Evil Corp affiliated with between 2022 and 2024.",
+      "time_period": null
+    },
+    {
+      "standard_name": "UNC2165",
+      "original_text_name": "UNC2165",
+      "aliases": [],
+      "type": "other",
+      "context": "Threat actor linked to Evil Corp by Mandiant in 2022.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Wagner Group",
+      "original_text_name": "Wagner Group",
+      "aliases": [],
+      "type": "militia",
+      "context": "Russian paramilitary group; an Evil Corp member participated in a hackathon organized by them.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Evil Corp",
+      "target": "Jabber Zeus",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Evil Corp leader Yakubets was a personal friend of Jabber Zeus core member Penchukov.",
+      "time_period": null
+    },
+    {
+      "source": "Evil Corp",
+      "target": "REvil",
+      "relationship": "other",
+      "detail": "possible misattribution",
+      "context": "A 2021 ransomware attack initially attributed to REvil may have been by Evil Corp.",
+      "time_period": "2021"
+    },
+    {
+      "source": "Evil Corp",
+      "target": "LockBit",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Evil Corp affiliated with LockBit between 2022 and 2024, using their ransomware.",
+      "time_period": "2022-2024"
+    },
+    {
+      "source": "Evil Corp",
+      "target": "UNC2165",
+      "relationship": "other",
+      "detail": "linked by Mandiant",
+      "context": "Mandiant linked Evil Corp to threat actor UNC2165 in 2022.",
+      "time_period": "2022"
+    },
+    {
+      "source": "Evil Corp",
+      "target": "Wagner Group",
+      "relationship": "other",
+      "detail": "participated in hackathon",
+      "context": "Evil Corp member Igor Turashev placed third in a hackathon organized by Wagner Group in 2022.",
+      "time_period": "2022"
+    }
+  ],
+  "source_file": "Dridex"
+}

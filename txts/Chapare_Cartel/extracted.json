@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Chapare Cartel",
+      "original_text_name": "Chapare Cartel",
+      "aliases": [
+        "Chapare drug cartel"
+      ],
+      "type": "cartel",
+      "context": "Bolivian criminal organization dedicated to drug trafficking and human trafficking operating in the Chapare region.",
+      "time_period": "2006-present"
+    },
+    {
+      "standard_name": "Federaciones Cocaleras del Trópico",
+      "original_text_name": "Federaciones Cocaleras del Trópico",
+      "aliases": [],
+      "type": "other",
+      "context": "Six coca growers' federations in the Chapare region that merged to form the Chapare Cartel.",
+      "time_period": "1964-present"
+    },
+    {
+      "standard_name": "Federación Especial de Colonizadores de Chimoré",
+      "original_text_name": "Federación Especial de Colonizadores de Chimoré",
+      "aliases": [],
+      "type": "other",
+      "context": "Oldest coca growers' federation in the Chapare region, founded in 1964.",
+      "time_period": "1964-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Chapare Cartel",
+      "target": "Federaciones Cocaleras del Trópico",
+      "relationship": "other",
+      "detail": "originates from merger",
+      "context": "The Chapare Cartel originated from the merger of the six Federaciones Cocaleras del Trópico.",
+      "time_period": "2006"
+    },
+    {
+      "source": "Federaciones Cocaleras del Trópico",
+      "target": "Federación Especial de Colonizadores de Chimoré",
+      "relationship": "other",
+      "detail": "includes",
+      "context": "The Federación Especial de Colonizadores de Chimoré is one of the six federations that make up the Federaciones Cocaleras del Trópico.",
+      "time_period": "1964-present"
+    }
+  ],
+  "source_file": "Chapare_Cartel"
+}

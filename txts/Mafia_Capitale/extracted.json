@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Mafia Capitale",
+      "original_text_name": "Mafia Capitale",
+      "aliases": [],
+      "type": "other",
+      "context": "Criminal organization in Rome involved in corruption, racketeering, and money laundering.",
+      "time_period": "1999-2014"
+    },
+    {
+      "standard_name": "Nuclei Armati Rivoluzionari",
+      "original_text_name": "Nuclei Armati Rivoluzionari",
+      "aliases": [
+        "NAR"
+      ],
+      "type": "terrorist_organization",
+      "context": "Italian far-right terrorist group active in the 1970s-80s.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "Banda della Magliana",
+      "original_text_name": "Banda della Magliana",
+      "aliases": [],
+      "type": "gang",
+      "context": "Roman criminal organization active from the 1970s to 1990s.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Calabrian mafia organization involved in drug trafficking and corruption.",
+      "time_period": "19th century-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Mafia Capitale",
+      "target": "Nuclei Armati Rivoluzionari",
+      "relationship": "other",
+      "detail": "former member connection",
+      "context": "Massimo Carminati, a leader of Mafia Capitale, was a former member of Nuclei Armati Rivoluzionari.",
+      "time_period": null
+    },
+    {
+      "source": "Mafia Capitale",
+      "target": "Banda della Magliana",
+      "relationship": "other",
+      "detail": "former member connection",
+      "context": "Massimo Carminati was also a former member of Banda della Magliana.",
+      "time_period": null
+    },
+    {
+      "source": "Mafia Capitale",
+      "target": "'Ndrangheta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Members of 'Ndrangheta were among those investigated in connection with Mafia Capitale.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Mafia_Capitale"
+}

@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Gang des Tractions Avant",
+      "original_text_name": "Gang des Tractions Avant",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal gang in Pigalle, Paris, composed of former Carlingue militia, police, and Resistance members.",
+      "time_period": "1940s-1950s"
+    },
+    {
+      "standard_name": "Carlingue",
+      "original_text_name": "Carlingue",
+      "aliases": [],
+      "type": "militia",
+      "context": "French militia that collaborated with German occupiers during WWII.",
+      "time_period": "1940-1944"
+    },
+    {
+      "standard_name": "Bonnot Gang",
+      "original_text_name": "Bonnot Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "French anarchist criminal gang active in early 20th century.",
+      "time_period": "1911-1912"
+    },
+    {
+      "standard_name": "Gang des Postiches",
+      "original_text_name": "gang des postiches",
+      "aliases": [],
+      "type": "gang",
+      "context": "French criminal gang that continued methods of the Gang des Tractions Avant.",
+      "time_period": "1960s-1970s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Gang des Tractions Avant",
+      "target": "Carlingue",
+      "relationship": "other",
+      "detail": "membership origin",
+      "context": "The Gang des Tractions Avant was made up of surviving members of the Carlingue militia.",
+      "time_period": "1940s"
+    },
+    {
+      "source": "Gang des Tractions Avant",
+      "target": "Bonnot Gang",
+      "relationship": "other",
+      "detail": "methodological influence",
+      "context": "The gang's methods were largely derived from those of the Bonnot Gang.",
+      "time_period": null
+    },
+    {
+      "source": "Gang des Tractions Avant",
+      "target": "Gang des Postiches",
+      "relationship": "other",
+      "detail": "methodological influence",
+      "context": "The gang's methods were mostly continued by the gang des postiches.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Gang_des_Tractions_Avant"
+}

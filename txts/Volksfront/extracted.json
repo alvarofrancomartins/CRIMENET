@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Volksfront",
+      "original_text_name": "Volksfront",
+      "aliases": [
+        "Volksfront International"
+      ],
+      "type": "other",
+      "context": "American white separatist organization active 1994-2012, sought all-white homeland in Pacific Northwest.",
+      "time_period": "1994-2012"
+    },
+    {
+      "standard_name": "National Alliance",
+      "original_text_name": "National Alliance",
+      "aliases": [],
+      "type": "other",
+      "context": "Neo-Nazi organization mentioned as using similar rune symbol.",
+      "time_period": null
+    },
+    {
+      "standard_name": "East Side White Pride",
+      "original_text_name": "East Side White Pride",
+      "aliases": [],
+      "type": "gang",
+      "context": "Portland skinhead gang whose remnants formed Volksfront.",
+      "time_period": "before 1994"
+    },
+    {
+      "standard_name": "Hammerskins",
+      "original_text_name": "Hammerskins",
+      "aliases": [],
+      "type": "other",
+      "context": "White supremacist group formed in Texas, linked with Volksfront members.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Blood & Honour",
+      "original_text_name": "Blood & Honour",
+      "aliases": [],
+      "type": "other",
+      "context": "White supremacist group founded in UK in 1987, linked with Volksfront members.",
+      "time_period": "1987-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Volksfront",
+      "target": "National Alliance",
+      "relationship": "other",
+      "detail": "shared symbolism",
+      "context": "Both use the Algiz rune as a neo-Nazi symbol.",
+      "time_period": null
+    },
+    {
+      "source": "Volksfront",
+      "target": "East Side White Pride",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "Volksfront formed from remnants of East Side White Pride and other Portland skinhead gangs.",
+      "time_period": "1994"
+    },
+    {
+      "source": "Volksfront",
+      "target": "Hammerskins",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Volksfront members were linked with Hammerskins.",
+      "time_period": null
+    },
+    {
+      "source": "Volksfront",
+      "target": "Blood & Honour",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Volksfront members were linked with Blood & Honour.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Volksfront"
+}

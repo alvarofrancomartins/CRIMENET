@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bishnoi Gang",
+      "original_text_name": "Bishnoi gang",
+      "aliases": [
+        "Bishnoi Crime Group"
+      ],
+      "type": "gang",
+      "context": "Indian gang led by Lawrence Bishnoi, involved in extortion, murder, and drug trafficking, operating across India and internationally.",
+      "time_period": "2010-present"
+    },
+    {
+      "standard_name": "Khalistan Tiger Force",
+      "original_text_name": "Khalistan Tiger Force",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Pro-Khalistani militant group considered a terrorist organization by India.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bishnoi Gang",
+      "target": "Khalistan Tiger Force",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Bishnoi gang claimed responsibility for killing Sukhdool Singh Gill, a member of the Khalistan Tiger Force.",
+      "time_period": "2023"
+    }
+  ],
+  "source_file": "Lawrence_Bishnoi"
+}

@@ -1,0 +1,86 @@
+{
+  "nodes": [
+    {
+      "standard_name": "LockBit",
+      "original_text_name": "LockBit",
+      "aliases": [
+        "LockBit 2.0",
+        "LockBit 3.0",
+        "LockBit 4.0",
+        "LockBit Black",
+        "LockBit-NG-Dev",
+        "Lockbit"
+      ],
+      "type": "other",
+      "context": "Ransomware-as-a-service group that develops ransomware and recruits affiliates to conduct attacks.",
+      "time_period": "2019-present"
+    },
+    {
+      "standard_name": "Maze",
+      "original_text_name": "Maze",
+      "aliases": [],
+      "type": "other",
+      "context": "Ransomware group that cooperated with LockBit.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mora_001",
+      "original_text_name": "Mora_001",
+      "aliases": [],
+      "type": "other",
+      "context": "Ransomware group that used a variant of LockBit 3.0 to create SuperBlack ransomware.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Akira",
+      "original_text_name": "Akira",
+      "aliases": [],
+      "type": "other",
+      "context": "Rival ransomware group that may have benefited from LockBit's disruption.",
+      "time_period": null
+    },
+    {
+      "standard_name": "RansomHub",
+      "original_text_name": "RansomHub",
+      "aliases": [],
+      "type": "other",
+      "context": "Rival ransomware group that may have benefited from LockBit's disruption.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "LockBit",
+      "target": "Maze",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "LockBit cooperates with Maze as part of partnerships with other criminal groups.",
+      "time_period": null
+    },
+    {
+      "source": "Mora_001",
+      "target": "LockBit",
+      "relationship": "other",
+      "detail": "used variant of",
+      "context": "Mora_001 used a variant of LockBit 3.0 (LockBit Black) to create SuperBlack ransomware.",
+      "time_period": null
+    },
+    {
+      "source": "LockBit",
+      "target": "Akira",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Disruption of LockBit may have boosted rival operations like Akira.",
+      "time_period": null
+    },
+    {
+      "source": "LockBit",
+      "target": "RansomHub",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Disruption of LockBit may have boosted rival operations like RansomHub.",
+      "time_period": null
+    }
+  ],
+  "source_file": "LockBit"
+}

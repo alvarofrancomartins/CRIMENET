@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Three Brotherhood Alliance",
+      "original_text_name": "Three Brotherhood Alliance",
+      "aliases": [],
+      "type": "militia",
+      "context": "Alliance of ethnic armed groups in Myanmar that launched Operation 1027 against the Myanmar military regime.",
+      "time_period": "2023-present"
+    },
+    {
+      "standard_name": "Ming Syndicate",
+      "original_text_name": "Ming syndicate",
+      "aliases": [
+        "Ming family"
+      ],
+      "type": "other",
+      "context": "Criminal syndicate involved in online scamming operations in Myanmar, led by Ming Xuechang.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Three Brotherhood Alliance",
+      "target": "Ming Syndicate",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Three Brotherhood Alliance targeted scam centers operated by the Ming Syndicate in Kokang during Operation 1027.",
+      "time_period": "2023-2024"
+    }
+  ],
+  "source_file": "Scam_center"
+}

@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Lyons Crime Family",
+      "original_text_name": "Lyons Crime Family",
+      "aliases": [
+        "Lyons family"
+      ],
+      "type": "mafia",
+      "context": "Organised crime group in Glasgow, Scotland involved in drug trafficking, money laundering, extortion, and violence.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Daniel Crime Family",
+      "original_text_name": "Daniel Crime Family",
+      "aliases": [
+        "Daniels"
+      ],
+      "type": "mafia",
+      "context": "Glasgow-based crime family involved in drug trafficking and violence, feuding with the Lyons.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kinahan Organized Crime Group",
+      "original_text_name": "Kinahan Organized Crime Group",
+      "aliases": [
+        "KOCG"
+      ],
+      "type": "cartel",
+      "context": "Dubai-based organized crime group involved in drug trafficking and money laundering.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Moroccan mafia",
+      "original_text_name": "Moroccan mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Criminal organization from Morocco, allied with the Lyons Crime Family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hutch Organized Crime Gang",
+      "original_text_name": "Hutch Organized Crime Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Irish organized crime group, rival of the Lyons Crime Family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Grendon Crime Family",
+      "original_text_name": "Grendon Crime Family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Crime family, rival of the Lyons Crime Family.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Lyons Crime Family",
+      "target": "Daniel Crime Family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Deadly feud since 2001 over a stolen cocaine consignment.",
+      "time_period": "2001-present"
+    },
+    {
+      "source": "Lyons Crime Family",
+      "target": "Kinahan Organized Crime Group",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Steven Lyons has connections with the Dubai-based Kinahan Organized Crime Group.",
+      "time_period": null
+    },
+    {
+      "source": "Lyons Crime Family",
+      "target": "Moroccan mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Lyons Crime Family",
+      "target": "Hutch Organized Crime Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rivals in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Lyons Crime Family",
+      "target": "Grendon Crime Family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rivals in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Lyons_Crime_Family"
+}

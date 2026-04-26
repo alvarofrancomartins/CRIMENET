@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Red Army",
+      "original_text_name": "Red Army",
+      "aliases": [
+        "Men in Black"
+      ],
+      "type": "gang",
+      "context": "Hooligan firm following Manchester United, involved in football violence and organized crime.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Young Munichs",
+      "original_text_name": "Young Munichs",
+      "aliases": [],
+      "type": "faction",
+      "context": "Sub-division of the Red Army hooligan firm.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Inter City Jibbers",
+      "original_text_name": "Inter City Jibbers (ICJ)",
+      "aliases": [
+        "ICJ"
+      ],
+      "type": "faction",
+      "context": "Criminal wing of the Red Army, involved in drug smuggling, armed robberies, and theft.",
+      "time_period": null
+    },
+    {
+      "standard_name": "M58 Firm",
+      "original_text_name": "M58 Firm",
+      "aliases": [],
+      "type": "faction",
+      "context": "Sub-division of the Red Army hooligan firm.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Moston Rats",
+      "original_text_name": "Moston Rats",
+      "aliases": [],
+      "type": "faction",
+      "context": "Sub-division of the Red Army hooligan firm.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Inter City Firm",
+      "original_text_name": "Inter City Firm (ICF)",
+      "aliases": [
+        "ICF"
+      ],
+      "type": "gang",
+      "context": "Hooligan firm associated with West Ham United, rival of the Red Army.",
+      "time_period": "1970s-1980s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Young Munichs",
+      "target": "Red Army",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Young Munichs is a sub-division of the Red Army.",
+      "time_period": null
+    },
+    {
+      "source": "Inter City Jibbers",
+      "target": "Red Army",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Inter City Jibbers is the criminal wing of the Red Army.",
+      "time_period": null
+    },
+    {
+      "source": "M58 Firm",
+      "target": "Red Army",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "M58 Firm is a sub-division of the Red Army.",
+      "time_period": null
+    },
+    {
+      "source": "Moston Rats",
+      "target": "Red Army",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Moston Rats is a sub-division of the Red Army.",
+      "time_period": null
+    },
+    {
+      "source": "Red Army",
+      "target": "Inter City Firm",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Red Army fought with the Inter City Firm around Manchester in 1985.",
+      "time_period": "1985"
+    }
+  ],
+  "source_file": "Red_Army_(football)"
+}

@@ -1,0 +1,300 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Winter Hill Gang",
+      "original_text_name": "Winter Hill Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Irish-American organized crime group based in Boston, involved in drug trafficking, gambling, loan sharking, and weapons smuggling.",
+      "time_period": "1961-1990s"
+    },
+    {
+      "standard_name": "McLaughlin Gang",
+      "original_text_name": "McLaughlin Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Irish-American gang from Charlestown, Boston, led by the McLaughlin brothers.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Mullen Gang",
+      "original_text_name": "Mullen Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "South Boston street gang with about 60 members, involved in turf war with Killeen Gang.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Killeen Gang",
+      "original_text_name": "Killeen Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "South Boston gang led by the Killeen brothers, dominant in South Boston for two decades.",
+      "time_period": "1950s-1972"
+    },
+    {
+      "standard_name": "Patriarca crime family",
+      "original_text_name": "Patriarca crime family",
+      "aliases": [
+        "Patriarca crime family"
+      ],
+      "type": "mafia",
+      "context": "Italian-American Mafia family based in Providence, Rhode Island, the most powerful criminal organization in New England.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Provisional Irish Republican Army",
+      "original_text_name": "Provisional Irish Republican Army (IRA)",
+      "aliases": [
+        "IRA",
+        "Provisional IRA"
+      ],
+      "type": "terrorist_organization",
+      "context": "Irish republican paramilitary group that received weapons shipments from the Winter Hill Gang.",
+      "time_period": "1969-2005"
+    },
+    {
+      "standard_name": "Notarangeli Gang",
+      "original_text_name": "Notarangeli gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Small Somerville-based gang led by Alfred 'Indian Al' Notarangeli, extorted bookmakers under Patriarca protection.",
+      "time_period": "1970s"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York Mafia family that partnered with Winter Hill Gang in horse race-fixing.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Bruno crime family",
+      "original_text_name": "Bruno crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Philadelphia Mafia family that partnered with Winter Hill Gang in horse race-fixing.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Zerilli crime family",
+      "original_text_name": "Zerilli crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Detroit Mafia family that partnered with Winter Hill Gang in horse race-fixing.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "East Boston Gang",
+      "original_text_name": "East Boston Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang led by Joseph Barboza, active in 1960s Boston gang wars.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Charlestown Gang",
+      "original_text_name": "Charlestown gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Boston gang from Charlestown, associated with John Hurley.",
+      "time_period": "1960s-1980s"
+    },
+    {
+      "standard_name": "New York Mafia",
+      "original_text_name": "New York Mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia families operating in New York, involved in potential interference with World Jai Alai operations.",
+      "time_period": "1900s-present"
+    },
+    {
+      "standard_name": "Campbell brothers",
+      "original_text_name": "Campbell brothers",
+      "aliases": [],
+      "type": "other",
+      "context": "Criminal group allied with Winter Hill Gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Detroit Partnership",
+      "original_text_name": "Detroit Partnership",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American Mafia family based in Detroit, allied with Winter Hill Gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Philadelphia crime family",
+      "original_text_name": "Philadelphia crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American Mafia family based in Philadelphia, allied with Winter Hill Gang.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Winter Hill Gang",
+      "target": "McLaughlin Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Winter Hill Gang vanquished the McLaughlin Gang in the first Irish Gang War.",
+      "time_period": "1961-1966"
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Mullen Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Winter Hill Gang absorbed remnants of the Mullen Gang after the Irish gang wars.",
+      "time_period": "1972"
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Killeen Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Winter Hill Gang absorbed remnants of the Killeen Gang after the Irish gang wars.",
+      "time_period": "1972"
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Patriarca crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Winter Hill Gang partnered with Patriarca family to control gambling rackets and assisted in war against Notarangeli gang.",
+      "time_period": "1973-1975"
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Provisional Irish Republican Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Winter Hill Gang shipped weapons to the IRA.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Notarangeli Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Winter Hill Gang exterminated members of the Notarangeli gang on behalf of Patriarca family.",
+      "time_period": "1973-1974"
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Winter Hill Gang partnered with Genovese family in horse race-fixing scheme.",
+      "time_period": "1974-1979"
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Bruno crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Winter Hill Gang partnered with Bruno family in horse race-fixing scheme.",
+      "time_period": "1974-1979"
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Zerilli crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Winter Hill Gang partnered with Zerilli family in horse race-fixing scheme.",
+      "time_period": "1974-1979"
+    },
+    {
+      "source": "Mullen Gang",
+      "target": "Killeen Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Mullen and Killeen gangs fought a turf war in South Boston.",
+      "time_period": "1960s-1972"
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Patriarca crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Winter Hill Gang took over rackets controlled by Patriarca family after Jerry Angiulo's conviction.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Killeen Gang",
+      "relationship": "other",
+      "detail": "absorbed",
+      "context": "Winter Hill Gang absorbed remnants of the Killeen Gang after Irish gang wars.",
+      "time_period": "1972"
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Mullen Gang",
+      "relationship": "other",
+      "detail": "absorbed",
+      "context": "Winter Hill Gang absorbed remnants of the Mullen Gang after Irish gang wars.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "New York Mafia",
+      "relationship": "other",
+      "detail": "protected against",
+      "context": "Winter Hill Gang was hired to protect World Jai Alai operations from New York Mafia interference.",
+      "time_period": "1981"
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Mullen Gang",
+      "relationship": "other",
+      "detail": "absorption",
+      "context": "Winter Hill Gang absorbed the remnants of the Mullen Gang after the Irish gang wars.",
+      "time_period": null
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Killeen Gang",
+      "relationship": "other",
+      "detail": "absorption",
+      "context": "Winter Hill Gang absorbed the remnants of the Killeen Gang after the Irish gang wars.",
+      "time_period": null
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Campbell brothers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Winter Hill Gang was allied with the Campbell brothers.",
+      "time_period": null
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Detroit Partnership",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Winter Hill Gang was allied with the Detroit Partnership.",
+      "time_period": null
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Philadelphia crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Winter Hill Gang was allied with the Philadelphia crime family.",
+      "time_period": null
+    },
+    {
+      "source": "Winter Hill Gang",
+      "target": "Charlestown Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Winter Hill Gang had a rivalry with the Charlestown Gang.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Winter_Hill_Gang"
+}

@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Năm Cam's Gang",
+      "original_text_name": "Năm Cam's gang",
+      "aliases": [
+        "Năm Cam"
+      ],
+      "type": "gang",
+      "context": "Saigon-based criminal organization led by Năm Cam, involved in casinos and other illicit businesses.",
+      "time_period": "1990s-2000"
+    },
+    {
+      "standard_name": "Dung Hà's Gang",
+      "original_text_name": "Dung Hà's gang",
+      "aliases": [
+        "Dung Hà"
+      ],
+      "type": "gang",
+      "context": "Haiphong-based criminal group led by Dung Hà, involved in pickpocketing, robberies, and casinos.",
+      "time_period": "1980s-2000"
+    },
+    {
+      "standard_name": "Hùng 'the warbler' Gang",
+      "original_text_name": "Hùng 'the warbler'",
+      "aliases": [
+        "Hùng Warbler"
+      ],
+      "type": "gang",
+      "context": "Gang operating around Tam Bạc bus station in Haiphong, led by Hùng 'the warbler'.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Hùng Cốm's Gang",
+      "original_text_name": "Hùng Cốm",
+      "aliases": [],
+      "type": "gang",
+      "context": "Haiphong-based gang led by Hùng Cốm, involved in casinos and crime sprees.",
+      "time_period": "1985-1990"
+    },
+    {
+      "standard_name": "Hải Bánh's Gang",
+      "original_text_name": "Hải Bánh",
+      "aliases": [],
+      "type": "gang",
+      "context": "Northern mobster who migrated to Saigon and joined Năm Cam's gang, involved in casinos.",
+      "time_period": "1990s-2000"
+    },
+    {
+      "standard_name": "Son Bach Tang's Gang",
+      "original_text_name": "Son Bach Tang's Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang opposed to Dung Hà, mentioned as an opponent.",
+      "time_period": "1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Dung Hà's Gang",
+      "target": "Năm Cam's Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Dung Hà disrupted Năm Cam's businesses, leading to a feud and her assassination ordered by Năm Cam.",
+      "time_period": "late 1990s-2000"
+    },
+    {
+      "source": "Dung Hà's Gang",
+      "target": "Hùng 'the warbler' Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dung Hà was romantically involved with Hùng 'the warbler' and worked with his gang.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Dung Hà's Gang",
+      "target": "Hùng Cốm's Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dung Hà partnered with Hùng Cốm to open casinos and commit crimes together.",
+      "time_period": "1985-1990"
+    },
+    {
+      "source": "Hải Bánh's Gang",
+      "target": "Năm Cam's Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hải Bánh joined forces with Năm Cam and became wealthy, later carrying out orders to find Dung Hà.",
+      "time_period": "1990s-2000"
+    },
+    {
+      "source": "Dung Hà's Gang",
+      "target": "Son Bach Tang's Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Son Bach Tang's Gang is listed as an opponent of Dung Hà.",
+      "time_period": "1990s"
+    }
+  ],
+  "source_file": "Dung_Hà"
+}

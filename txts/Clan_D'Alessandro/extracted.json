@@ -1,0 +1,194 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Clan D'Alessandro",
+      "original_text_name": "clan D'Alessandro",
+      "aliases": [
+        "D'Alessandro clan",
+        "cosca di Scanzano"
+      ],
+      "type": "clan",
+      "context": "Camorra clan operating in Castellammare di Stabia and Emilia-Romagna, involved in drug trafficking, extortion, and murder.",
+      "time_period": "mid-1970s-present"
+    },
+    {
+      "standard_name": "Clan Di Martino",
+      "original_text_name": "clan Di Martino",
+      "aliases": [
+        "Afeltra-Di Martino"
+      ],
+      "type": "clan",
+      "context": "Camorra clan allied with D'Alessandro, active in Emilia-Romagna.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bellocco 'ndrina",
+      "original_text_name": "'ndrine Bellocco",
+      "aliases": [
+        "Bellocco"
+      ],
+      "type": "clan",
+      "context": "'Ndrangheta clan from Rosarno, Calabria, supplying drugs to D'Alessandro.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Pesce 'ndrina",
+      "original_text_name": "'ndrine Pesce",
+      "aliases": [
+        "Pesce"
+      ],
+      "type": "clan",
+      "context": "'Ndrangheta clan from Rosarno, Calabria, supplying drugs to D'Alessandro.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Clan dei Lattari",
+      "original_text_name": "clan dei Lattari",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan operating in the Lattari mountains, allied with D'Alessandro.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cutolo clan",
+      "original_text_name": "Cutolo",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan historically allied with D'Alessandro.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Bardellino clan",
+      "original_text_name": "Bardellino",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan historically allied with D'Alessandro.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Nuvoletta clan",
+      "original_text_name": "Nuvoletta",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan historically allied with D'Alessandro.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Gionta clan",
+      "original_text_name": "Gionta",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan historically allied with D'Alessandro.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Clan Imparato",
+      "original_text_name": "clan Imparato",
+      "aliases": [
+        "Imparato clan"
+      ],
+      "type": "clan",
+      "context": "Splinter group from D'Alessandro, led by Umberto Mario Imparato, engaged in a bloody feud.",
+      "time_period": "1980s-1993"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "type": "other",
+      "context": "Camorra coalition opposing the Cutolo clan; D'Alessandro was part of it.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Paolo Di Lauro clan",
+      "original_text_name": "Paolo Di Lauro",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Secondigliano, allied with D'Alessandro.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Clan D'Alessandro",
+      "target": "Clan Di Martino",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "They collaborate in Emilia-Romagna, as per investigation.",
+      "time_period": null
+    },
+    {
+      "source": "Clan D'Alessandro",
+      "target": "Bellocco 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bellocco supplied drugs to D'Alessandro.",
+      "time_period": null
+    },
+    {
+      "source": "Clan D'Alessandro",
+      "target": "Pesce 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pesce supplied drugs to D'Alessandro.",
+      "time_period": null
+    },
+    {
+      "source": "Clan D'Alessandro",
+      "target": "Clan dei Lattari",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "D'Alessandro was the main drug supply channel for Clan dei Lattari.",
+      "time_period": null
+    },
+    {
+      "source": "Clan D'Alessandro",
+      "target": "Cutolo clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Historically allied with Cutolo.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "source": "Clan D'Alessandro",
+      "target": "Bardellino clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Historically allied with Bardellino.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "source": "Clan D'Alessandro",
+      "target": "Nuvoletta clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Historically allied with Nuvoletta.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "source": "Clan D'Alessandro",
+      "target": "Gionta clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Historically allied with Gionta.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "source": "Clan D'Alessandro",
+      "target": "Clan Imparato",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Bloody feud over stolen money, resulting in over 70 deaths.",
+      "time_period": "1989-1993"
+    },
+    {
+      "source": "Clan D'Alessandro",
+      "target": "Paolo Di Lauro clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Paolo Di Lauro provided hideout for Michele D'Alessandro.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Clan_D'Alessandro"
+}

@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Original Red Devils Motorcycle Club",
+      "original_text_name": "Original Red Devils Motorcycle Club",
+      "aliases": [
+        "Red Devils",
+        "Original Red Devils MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Canadian outlaw motorcycle club based in Southern Ontario, founded in 1948. Involved in charity and criminal activities.",
+      "time_period": "1948-2014"
+    },
+    {
+      "standard_name": "Bacchus Motorcycle Club",
+      "original_text_name": "Bacchus Motorcycle Club",
+      "aliases": [
+        "Bacchus MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Long-time ally of Original Red Devils MC; absorbed the Red Devils' chapters in 2014.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club; had good relationships with Original Red Devils MC.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Original Red Devils Motorcycle Club",
+      "target": "Bacchus Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Original Red Devils MC patched over to Bacchus MC in late 2014; members sport a brotherhood patch indicating a lasting bond.",
+      "time_period": "2014"
+    },
+    {
+      "source": "Original Red Devils Motorcycle Club",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Original Red Devils MC had good relationships with Hells Angels, according to crime reporter Peter Edwards.",
+      "time_period": "unknown"
+    }
+  ],
+  "source_file": "Original_Red_Devils_Motorcycle_Club"
+}

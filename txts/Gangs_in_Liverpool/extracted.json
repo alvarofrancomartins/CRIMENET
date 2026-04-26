@@ -1,0 +1,167 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Crocky Crew",
+      "original_text_name": "Crocky Crew",
+      "aliases": [
+        "Croxteth Crew"
+      ],
+      "type": "gang",
+      "context": "Street gang from Croxteth, Liverpool, involved in feud with Strand Gang.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "standard_name": "Strand Gang",
+      "original_text_name": "Strand Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang from Norris Green, Liverpool, rival of Crocky Crew.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "standard_name": "The Huyton Firm",
+      "original_text_name": "The Huyton Firm",
+      "aliases": [
+        "Cantril Farm Cartel"
+      ],
+      "type": "cartel",
+      "context": "Secretive drug cartel from Huyton, Liverpool, founded in 1990s, internationally active.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Curtis Warren Cartel",
+      "original_text_name": "Curtis Warren Cartel",
+      "aliases": [
+        "Warren's gang"
+      ],
+      "type": "cartel",
+      "context": "Major drug trafficking organization led by Curtis Warren, linked to Cali Cartel.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian cocaine cartel that supplied drugs to Liverpool gangs.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Liverpool Mafia",
+      "original_text_name": "Liverpool Mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "First drug cartel to develop in the UK, active in Liverpool in the 1980s.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "The Whitneys",
+      "original_text_name": "The Whitneys",
+      "aliases": [
+        "Whitney gang"
+      ],
+      "type": "gang",
+      "context": "Family gang from Anfield, Liverpool, involved in drug smuggling.",
+      "time_period": "2000s-2011"
+    },
+    {
+      "standard_name": "The Fitzgibbons",
+      "original_text_name": "The Fitzgibbons",
+      "aliases": [
+        "Fitzgibbon brothers"
+      ],
+      "type": "gang",
+      "context": "Family-run international drug empire based in Liverpool, jailed in 2013.",
+      "time_period": "2000s-2013"
+    },
+    {
+      "standard_name": "The Clarkes",
+      "original_text_name": "The Clarkes",
+      "aliases": [
+        "Clarke brothers"
+      ],
+      "type": "gang",
+      "context": "Liverpool drugs gang led by Peter and Stephen Clarke, shipped drugs to Northern Ireland.",
+      "time_period": "2000s-2013"
+    },
+    {
+      "standard_name": "Transit Mob",
+      "original_text_name": "Transit Mob",
+      "aliases": [
+        "John Haase's Transit Mob"
+      ],
+      "type": "gang",
+      "context": "Criminal firm led by John Haase and Paul Bennett, involved in bank robbery and drug smuggling.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "standard_name": "Speke Firm",
+      "original_text_name": "Speke-based drug gang",
+      "aliases": [
+        "Speke firm"
+      ],
+      "type": "gang",
+      "context": "Drug gang from Speke, Liverpool, targeted by Huyton Firm in Amsterdam assassination plot.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "standard_name": "Kirk Bradley's Gang",
+      "original_text_name": "local gang led by Kirk Bradley and Tony Downes",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang hired by Huyton Firm to attack people associated with a trial in 2009.",
+      "time_period": "2009"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Crocky Crew",
+      "target": "Strand Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Feud between Crocky Crew and Strand Gang led to multiple shootings and murders, including Rhys Jones.",
+      "time_period": "2004-2012"
+    },
+    {
+      "source": "Curtis Warren Cartel",
+      "target": "Cali Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Curtis Warren forged direct links with the Cali Cartel to flood Europe with drugs.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Liverpool Mafia",
+      "target": "Cali Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Liverpool Mafia developed distribution networks with cocaine producers in South America, including the Cali cartel.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "The Huyton Firm",
+      "target": "Curtis Warren Cartel",
+      "relationship": "other",
+      "detail": "power vacuum",
+      "context": "The Huyton Firm filled the power vacuum left after Curtis Warren and his gang were jailed.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "The Huyton Firm",
+      "target": "Speke Firm",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Huyton Firm dispatched a hit team to Amsterdam to assassinate a member of the Speke-based drug gang.",
+      "time_period": "2010"
+    },
+    {
+      "source": "The Huyton Firm",
+      "target": "Kirk Bradley's Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Huyton Firm paid Kirk Bradley's gang to attack people associated with a trial in 2009.",
+      "time_period": "2009"
+    }
+  ],
+  "source_file": "Gangs_in_Liverpool"
+}

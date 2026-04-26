@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Mallardo clan",
+      "original_text_name": "Mallardo clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan operating from Giugliano in Campania, involved in drug trafficking, extortion, and racketeering.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Secondigliano Alliance",
+      "original_text_name": "Secondigliano Alliance",
+      "aliases": [],
+      "type": "alliance",
+      "context": "Powerful Camorra coalition dominating the Neapolitan underworld during the 1990s.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Licciardi clan",
+      "original_text_name": "Licciardi clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Secondigliano, co-founder of the Secondigliano Alliance.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Contini clan",
+      "original_text_name": "Contini clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan allied with Mallardo and Licciardi in the Secondigliano Alliance.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Casalesi clan",
+      "original_text_name": "Casalesi clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Casal di Principe, allied with Mallardo in controlling fruit and vegetable trade.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Catania Mafia family",
+      "original_text_name": "Catania Mafia family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Cosa Nostra family from Catania, allied with Mallardo and Casalesi in controlling wholesale markets.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cesarano clan",
+      "original_text_name": "Cesarano clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan listed as ally of Mallardo in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Polverino clan",
+      "original_text_name": "Polverino clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan listed as ally of Mallardo in the infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Mallardo clan",
+      "target": "Secondigliano Alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mallardo clan is a member of the Secondigliano Alliance.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Licciardi clan",
+      "target": "Secondigliano Alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Licciardi clan co-founded the Secondigliano Alliance.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Contini clan",
+      "target": "Secondigliano Alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Contini clan is a member of the Secondigliano Alliance.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Mallardo clan",
+      "target": "Licciardi clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mallardo formed a crucial alliance with Gennaro Licciardi.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Mallardo clan",
+      "target": "Contini clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mallardo developed close ties with Edoardo Contini, strengthened by family ties.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Mallardo clan",
+      "target": "Casalesi clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mallardo and Casalesi clans allied to control fruit and vegetable trade.",
+      "time_period": "2023"
+    },
+    {
+      "source": "Mallardo clan",
+      "target": "Catania Mafia family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mallardo and Casalesi clans allied with Catania Mafia family to control wholesale markets.",
+      "time_period": "2023"
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Catania Mafia family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Casalesi clan allied with Catania Mafia family alongside Mallardo.",
+      "time_period": "2023"
+    },
+    {
+      "source": "Mallardo clan",
+      "target": "Cesarano clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cesarano clan listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Mallardo clan",
+      "target": "Polverino clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Polverino clan listed as ally in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Mallardo_clan"
+}

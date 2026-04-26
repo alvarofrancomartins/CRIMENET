@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "standard_name": "D-Company",
+      "original_text_name": "D-Company",
+      "aliases": [
+        "Dawood Company",
+        "D Company"
+      ],
+      "type": "other",
+      "context": "Organized crime syndicate founded by Dawood Ibrahim, involved in drug trafficking, terrorism, and smuggling.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Pathan gang",
+      "original_text_name": "Pathan gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Influential gang in Mumbai during the 1970s-80s, rival to D-Company.",
+      "time_period": "1970s-1986"
+    },
+    {
+      "standard_name": "Lashkar-e-Taiba",
+      "original_text_name": "Lashkar-e-Taiba",
+      "aliases": [
+        "LeT"
+      ],
+      "type": "terrorist_organization",
+      "context": "Islamist militant group based in Pakistan, allied with D-Company.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Al-Qaeda",
+      "original_text_name": "al-Qaeda",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Global Islamist terrorist network, allied with D-Company.",
+      "time_period": "1988-present"
+    },
+    {
+      "standard_name": "Inter-Services Intelligence",
+      "original_text_name": "Inter-Services Intelligence",
+      "aliases": [
+        "ISI"
+      ],
+      "type": "other",
+      "context": "Pakistan's intelligence agency, allied with D-Company.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Dubai mafia",
+      "original_text_name": "Dubai mafia",
+      "aliases": [],
+      "type": "other",
+      "context": "Criminal network in Dubai, allied with D-Company.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mumbai Underworld",
+      "original_text_name": "Mumbai Underworld",
+      "aliases": [],
+      "type": "other",
+      "context": "General term for organized crime in Mumbai, allied with D-Company.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "D-Company",
+      "target": "Pathan gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "D-Company clashed with the Pathan gang and eliminated most of its leadership by 1986.",
+      "time_period": "1970s-1986"
+    },
+    {
+      "source": "D-Company",
+      "target": "Lashkar-e-Taiba",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "D-Company has forged relationships with Lashkar-e-Taiba, according to a US Congressional report.",
+      "time_period": "2015"
+    },
+    {
+      "source": "D-Company",
+      "target": "Al-Qaeda",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "D-Company has forged relationships with al-Qaeda, according to a US Congressional report.",
+      "time_period": "2015"
+    },
+    {
+      "source": "D-Company",
+      "target": "Inter-Services Intelligence",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "D-Company provided logistics for the 2008 Mumbai attacks along with ISI, and has a strategic alliance with ISI.",
+      "time_period": "2008-present"
+    },
+    {
+      "source": "D-Company",
+      "target": "Dubai mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "D-Company is listed as having allies including the Dubai mafia.",
+      "time_period": null
+    },
+    {
+      "source": "D-Company",
+      "target": "Mumbai Underworld",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "D-Company is listed as having allies including the Mumbai Underworld.",
+      "time_period": null
+    }
+  ],
+  "source_file": "D-Company"
+}

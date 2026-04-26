@@ -1,0 +1,171 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Pecoraro-Renna clan",
+      "original_text_name": "clan Pecoraro-Renna",
+      "aliases": [
+        "Pecoraro-Renna"
+      ],
+      "type": "clan",
+      "context": "Camorra clan from Battipaglia, involved in drug trafficking, extortion, usury, prostitution, and tax evasion.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Galasso clan",
+      "original_text_name": "clan omonimo (Galasso)",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan led by Pasquale Galasso, allied with the Nuova Famiglia.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "type": "other",
+      "context": "Camorra coalition opposing the Nuova Camorra Organizzata.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Cutoliani",
+      "original_text_name": "cutoliani",
+      "aliases": [],
+      "type": "clan",
+      "context": "Followers of Raffaele Cutolo, part of the Nuova Camorra Organizzata.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "De Feo clan",
+      "original_text_name": "clan De Feo",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Bellizzi, originally part of the Nuova Camorra Organizzata.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "type": "other",
+      "context": "Camorra organization founded by Raffaele Cutolo.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Maiale family",
+      "original_text_name": "famiglia Maiale",
+      "aliases": [],
+      "type": "clan",
+      "context": "Powerful criminal family from Eboli, allied with the Pecoraro-Renna clan.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Bisogni clan",
+      "original_text_name": "Bisogni",
+      "aliases": [],
+      "type": "clan",
+      "context": "Criminal family from Bellizzi, supporting the Pecoraro-Renna clan.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Mogavero clan",
+      "original_text_name": "Mogavero",
+      "aliases": [],
+      "type": "clan",
+      "context": "Criminal family from Pontecagnano Faiano, supporting the Pecoraro-Renna clan.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Trimarco-Frappaolo-Giffoni group",
+      "original_text_name": "famiglie Trimarco, Frappaolo e Giffoni",
+      "aliases": [],
+      "type": "clan",
+      "context": "Splinter groups from the Pecoraro-Renna clan.",
+      "time_period": "2000s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Pecoraro-Renna clan",
+      "target": "Galasso clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Giovanni Pecoraro met Pasquale Galasso in prison and allied with him.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Galasso clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Galasso clan was part of the Nuova Famiglia coalition.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Pecoraro-Renna clan",
+      "target": "Cutoliani",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Pecoraro-Renna clan fought against the cutoliani in the Piana del Sele.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Pecoraro-Renna clan",
+      "target": "De Feo clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Pecoraro-Renna clan clashed with the De Feo clan, leading to a bloody feud.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "De Feo clan",
+      "target": "Nuova Camorra Organizzata",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The De Feo clan belonged to the Nuova Camorra Organizzata.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Pecoraro-Renna clan",
+      "target": "Maiale family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Pecoraro-Renna clan had the support of the powerful Maiale family of Eboli.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Pecoraro-Renna clan",
+      "target": "Bisogni clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Bisogni clan supported the Pecoraro-Renna clan.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Pecoraro-Renna clan",
+      "target": "Mogavero clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Mogavero clan supported the Pecoraro-Renna clan.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Pecoraro-Renna clan",
+      "target": "Trimarco-Frappaolo-Giffoni group",
+      "relationship": "other",
+      "detail": "splinter",
+      "context": "Splinter groups formed from internal divisions within the Pecoraro-Renna clan.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Pecoraro-Renna clan",
+      "target": "De Feo clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "After the feud, the Pecoraro-Renna and De Feo clans formed an alliance to control drug trafficking.",
+      "time_period": "2019-present"
+    }
+  ],
+  "source_file": "Clan_Pecoraro-Renna"
+}

@@ -1,0 +1,167 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Honghuzi",
+      "original_text_name": "Honghuzi",
+      "aliases": [
+        "Chun-chuzes",
+        "Hung-hutzes",
+        "Red Beards",
+        "hong hu zi",
+        "hong huzi",
+        "hun-hutze",
+        "hunghutze",
+        "hunhutsi",
+        "khunkhuz",
+        "khunkhuzy",
+        "ma-jeok"
+      ],
+      "type": "other",
+      "context": "Armed Chinese robbers and bandits operating in eastern Russia-China borderland, southeastern Siberia, Russian Far East, and Manchuria during late 19th to early 20th century.",
+      "time_period": "second half of 19th century - first half of 20th century"
+    },
+    {
+      "standard_name": "Imperial Japanese Army",
+      "original_text_name": "Imperial Japanese Army",
+      "aliases": [],
+      "type": "other",
+      "context": "Japanese military force that recruited Honghuzi as guerrillas during the Russo-Japanese War.",
+      "time_period": "1904-1905"
+    },
+    {
+      "standard_name": "Boxers",
+      "original_text_name": "Boxers",
+      "aliases": [
+        "Boxer Rebellion"
+      ],
+      "type": "other",
+      "context": "Chinese anti-foreign, anti-colonial movement; Honghuzi were also Boxers during the Boxer Rebellion.",
+      "time_period": "1899-1901"
+    },
+    {
+      "standard_name": "Eight-Nation Alliance",
+      "original_text_name": "Eight-Nation Alliance",
+      "aliases": [],
+      "type": "other",
+      "context": "Coalition of eight nations that fought against the Boxer Rebellion; Honghuzi ambushed their Sikh forces.",
+      "time_period": "1900"
+    },
+    {
+      "standard_name": "Zhang Zuolin's forces",
+      "original_text_name": "Zhang Zuolin's forces",
+      "aliases": [
+        "Chung Tsor Lin's army"
+      ],
+      "type": "other",
+      "context": "Army of Honghuzi led by Zhang Zuolin, allied with Japan during the Russo-Japanese War.",
+      "time_period": "1904-1905"
+    },
+    {
+      "standard_name": "Chung Tsor Lin's Band",
+      "original_text_name": "Chung Tsor Lin's band",
+      "aliases": [],
+      "type": "faction",
+      "context": "A faction of Honghuzi led by Chung Tsor Lin, later incorporated into the Chinese army.",
+      "time_period": "1890s-1900s"
+    },
+    {
+      "standard_name": "General Ma's Troops",
+      "original_text_name": "General Ma's troops",
+      "aliases": [],
+      "type": "faction",
+      "context": "Chinese troops commanded by General Ma, which included 10,000 Honghuzi wearing imperial uniform.",
+      "time_period": "1904-1905"
+    },
+    {
+      "standard_name": "Peasant Robber Bands",
+      "original_text_name": "peasant robber bands",
+      "aliases": [],
+      "type": "gang",
+      "context": "Temporary bands of peasants who turned to robbery during the kaoliang growing season in Manchuria.",
+      "time_period": "1904-1905"
+    },
+    {
+      "standard_name": "Japanese Officers' Band",
+      "original_text_name": "Japanese officers directing operations",
+      "aliases": [],
+      "type": "faction",
+      "context": "A band of Honghuzi directed by Japanese officers, conducting guerrilla warfare against Russians.",
+      "time_period": "1904-1905"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Honghuzi",
+      "target": "Imperial Japanese Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Honghuzi were recruited as guerrillas by the Imperial Japanese Army during the Russo-Japanese War.",
+      "time_period": "1904-1905"
+    },
+    {
+      "source": "Honghuzi",
+      "target": "Boxers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Honghuzi were also Boxers and participated in the Boxer Rebellion against the Eight-Nation Alliance.",
+      "time_period": "1900"
+    },
+    {
+      "source": "Honghuzi",
+      "target": "Eight-Nation Alliance",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Honghuzi ambushed, tortured, and executed Sikh forces of the Eight-Nation Alliance during the Boxer Rebellion.",
+      "time_period": "1900"
+    },
+    {
+      "source": "Zhang Zuolin's forces",
+      "target": "Imperial Japanese Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zhang Zuolin's Honghuzi army was allied with Japan and fought against Russians during the Russo-Japanese War.",
+      "time_period": "1904-1905"
+    },
+    {
+      "source": "Zhang Zuolin's forces",
+      "target": "Honghuzi",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Zhang Zuolin commanded a large army of Honghuzi bandits.",
+      "time_period": "1904-1905"
+    },
+    {
+      "source": "Chung Tsor Lin's Band",
+      "target": "Honghuzi",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Chung Tsor Lin's band was a faction of the larger Honghuzi bandit groups.",
+      "time_period": "1890s-1900s"
+    },
+    {
+      "source": "General Ma's Troops",
+      "target": "Honghuzi",
+      "relationship": "other",
+      "detail": "incorporation",
+      "context": "General Ma's troops included 10,000 Honghuzi who were adopted into the Chinese army.",
+      "time_period": "1904-1905"
+    },
+    {
+      "source": "Peasant Robber Bands",
+      "target": "Honghuzi",
+      "relationship": "other",
+      "detail": "temporary alliance or conflict",
+      "context": "Peasant bands sometimes fought the Honghuzi or joined them temporarily.",
+      "time_period": "1904-1905"
+    },
+    {
+      "source": "Japanese Officers' Band",
+      "target": "Honghuzi",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "A band of Honghuzi was directed by Japanese officers.",
+      "time_period": "1904-1905"
+    }
+  ],
+  "source_file": "Honghuzi"
+}

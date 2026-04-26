@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Chao Pho",
+      "original_text_name": "Chao pho",
+      "aliases": [
+        "jao poh",
+        "godfathers"
+      ],
+      "type": "mafia",
+      "context": "Local mafia bosses in Thailand involved in prostitution, drug trafficking, illegal gambling, and legitimate businesses.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Red Wa",
+      "original_text_name": "Red Wa",
+      "aliases": [],
+      "type": "militia",
+      "context": "Group associated with the United Wa State Army, involved in narcotics trafficking.",
+      "time_period": null
+    },
+    {
+      "standard_name": "United Wa State Army",
+      "original_text_name": "United Wa State Army",
+      "aliases": [
+        "UWSA"
+      ],
+      "type": "militia",
+      "context": "Armed group in Myanmar involved in drug trafficking.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Chao Pho",
+      "target": "Red Wa",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Chao pho cooperate with the Red Wa for trafficking and sale of narcotics.",
+      "time_period": null
+    },
+    {
+      "source": "Red Wa",
+      "target": "United Wa State Army",
+      "relationship": "other",
+      "detail": "associated with",
+      "context": "Red Wa are associated with the United Wa State Army.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Chao_pho"
+}

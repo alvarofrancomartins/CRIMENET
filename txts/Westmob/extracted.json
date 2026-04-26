@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Westmob",
+      "original_text_name": "Westmob",
+      "aliases": [],
+      "type": "gang",
+      "context": "African-American street gang in San Francisco, California, active in Hunters Point projects.",
+      "time_period": "1999-present"
+    },
+    {
+      "standard_name": "Big Block",
+      "original_text_name": "Big Block",
+      "aliases": [],
+      "type": "gang",
+      "context": "Major rival of Westmob in San Francisco.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Oakdale Mob",
+      "original_text_name": "Oakdale Mob",
+      "aliases": [],
+      "type": "gang",
+      "context": "Associated with Westmob.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sunnydale Gangsters",
+      "original_text_name": "Sunnydale Gangsters",
+      "aliases": [],
+      "type": "gang",
+      "context": "Associated with Westmob.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Westmob",
+      "target": "Big Block",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Since 1999, Westmob has been in conflict with Big Block, its major rival.",
+      "time_period": "1999-present"
+    },
+    {
+      "source": "Westmob",
+      "target": "Oakdale Mob",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Westmob is known to associate with Oakdale Mob.",
+      "time_period": null
+    },
+    {
+      "source": "Westmob",
+      "target": "Sunnydale Gangsters",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Westmob is known to associate with Sunnydale Gangsters.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Westmob"
+}

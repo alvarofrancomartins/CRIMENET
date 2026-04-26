@@ -1,0 +1,241 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Black Cobra",
+      "original_text_name": "Black Cobra",
+      "aliases": [
+        "Black Cobra Gang"
+      ],
+      "type": "gang",
+      "context": "One of the largest immigrant street gangs in Denmark and Sweden, involved in drug trafficking, robbery, extortion, and murder.",
+      "time_period": "2000-present"
+    },
+    {
+      "standard_name": "Black Scorpions",
+      "original_text_name": "Black Scorpions",
+      "aliases": [],
+      "type": "gang",
+      "context": "Youth gang controlled by Black Cobra, active in Denmark.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Black Army",
+      "original_text_name": "Black Army",
+      "aliases": [],
+      "type": "gang",
+      "context": "Associated gang with Black Cobra in Denmark.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, main rival of Black Cobra in Denmark, involved in drug and prostitution trade.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Bandidos",
+      "original_text_name": "Bandidos",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, rival of Black Cobra, involved in drug trade.",
+      "time_period": "1966-present"
+    },
+    {
+      "standard_name": "AK81",
+      "original_text_name": "AK81",
+      "aliases": [],
+      "type": "gang",
+      "context": "Youth gang associated with Hells Angels in Denmark.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Chicanos",
+      "original_text_name": "Chicanos",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Bandidos support club in Sweden, involved in conflict with Black Cobra.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Vaerebros",
+      "original_text_name": "Vaerebros",
+      "aliases": [],
+      "type": "gang",
+      "context": "Danish gang rival to Black Cobra.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Immigrant gang in Denmark, involved in conflict with Hells Angels alongside Black Cobra.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Blagardsplads",
+      "original_text_name": "Blagardsplads",
+      "aliases": [],
+      "type": "gang",
+      "context": "Immigrant gang in Denmark, involved in conflict with Hells Angels.",
+      "time_period": null
+    },
+    {
+      "standard_name": "M16",
+      "original_text_name": "M16",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of Black Cobra mentioned in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Black Ghost",
+      "original_text_name": "Black Ghost",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of Black Cobra mentioned in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Black Spider",
+      "original_text_name": "Black Spider",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of Black Cobra mentioned in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Black Jackets",
+      "original_text_name": "Black Jackets",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of Black Cobra mentioned in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "X-Team",
+      "original_text_name": "X-Team",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Black Cobra mentioned in infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Black Cobra",
+      "target": "Black Scorpions",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Black Cobra controls the youth gang Black Scorpions.",
+      "time_period": null
+    },
+    {
+      "source": "Black Cobra",
+      "target": "Black Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Black Cobra is associated with Black Army in Denmark.",
+      "time_period": null
+    },
+    {
+      "source": "Black Cobra",
+      "target": "Hells Angels",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Main rival; gang warfare over drug and prostitution trade since 2007.",
+      "time_period": "2007-present"
+    },
+    {
+      "source": "Black Cobra",
+      "target": "Bandidos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Conflict erupted in Køge in 2013, later truce reached.",
+      "time_period": "2013"
+    },
+    {
+      "source": "Black Cobra",
+      "target": "AK81",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "AK81 is a youth gang of Hells Angels, involved in conflict with Black Cobra.",
+      "time_period": null
+    },
+    {
+      "source": "Black Cobra",
+      "target": "Chicanos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Conflict in Sweden after Chicanos attempted to recruit Black Cobra members.",
+      "time_period": "2013"
+    },
+    {
+      "source": "Black Cobra",
+      "target": "Vaerebros",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Black Cobra has rivalry with Vaerebros in Denmark.",
+      "time_period": null
+    },
+    {
+      "source": "Black Cobra",
+      "target": "Bloods",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both referred to as immigrant gangs in conflict with Hells Angels.",
+      "time_period": null
+    },
+    {
+      "source": "Black Cobra",
+      "target": "Blagardsplads",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both referred to as immigrant gangs in conflict with Hells Angels.",
+      "time_period": null
+    },
+    {
+      "source": "Black Cobra",
+      "target": "M16",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Black Cobra",
+      "target": "Black Ghost",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Black Cobra",
+      "target": "Black Spider",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Black Cobra",
+      "target": "Black Jackets",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Black Cobra",
+      "target": "X-Team",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Black_Cobra_(gang)"
+}

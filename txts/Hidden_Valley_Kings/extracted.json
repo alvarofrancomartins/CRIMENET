@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hidden Valley Kings",
+      "original_text_name": "Hidden Valley Kings",
+      "aliases": [
+        "HVK"
+      ],
+      "type": "gang",
+      "context": "Neighborhood-based gang in Charlotte, North Carolina, involved in drug trafficking, extortion, and murder.",
+      "time_period": "early 2000s-present"
+    },
+    {
+      "standard_name": "Queen City Kings",
+      "original_text_name": "Queen City Kings",
+      "aliases": [
+        "QCK"
+      ],
+      "type": "gang",
+      "context": "Parent gang formed in Charlotte by former Chicago gang members, with multiple factions.",
+      "time_period": "early 1990s-2000s"
+    },
+    {
+      "standard_name": "People Nation",
+      "original_text_name": "People Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago-based gang alliance that influenced the formation of Queen City Kings.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Folk Nation",
+      "original_text_name": "Folk Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago-based gang alliance that influenced the formation of Queen City Kings.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "United Blood Nation",
+      "original_text_name": "United Blood Nation",
+      "aliases": [
+        "UBN"
+      ],
+      "type": "gang",
+      "context": "Rival gang to Hidden Valley Kings, known for altercations within the neighborhood.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Zoe Pound",
+      "original_text_name": "Zoe Pound",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of Hidden Valley Kings according to infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hidden Valley Kings",
+      "target": "Queen City Kings",
+      "relationship": "other",
+      "detail": "branch of",
+      "context": "Hidden Valley Kings formed as a branch of Queen City Kings in the late 1990s to early 2000s.",
+      "time_period": "late 1990s-early 2000s"
+    },
+    {
+      "source": "Queen City Kings",
+      "target": "People Nation",
+      "relationship": "other",
+      "detail": "influenced by",
+      "context": "Queen City Kings were formed by members of People Nation and Folk Nation who moved from Chicago.",
+      "time_period": "early 1990s"
+    },
+    {
+      "source": "Queen City Kings",
+      "target": "Folk Nation",
+      "relationship": "other",
+      "detail": "influenced by",
+      "context": "Queen City Kings were formed by members of People Nation and Folk Nation who moved from Chicago.",
+      "time_period": "early 1990s"
+    },
+    {
+      "source": "Hidden Valley Kings",
+      "target": "United Blood Nation",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hidden Valley Kings have known altercations with United Blood Nation within the neighborhood.",
+      "time_period": null
+    },
+    {
+      "source": "Hidden Valley Kings",
+      "target": "Zoe Pound",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zoe Pound is listed as an ally of Hidden Valley Kings in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Hidden_Valley_Kings"
+}

@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Pakistani mafia",
+      "original_text_name": "Pakistani mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Ethnically based organized crime network involved in drug trafficking, assassination, land grabbing, arms smuggling.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "D-Company",
+      "original_text_name": "D-Company",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Indian underworld mobster Dawood Ibrahim's organization, with strategic alliance with Pakistan's ISI.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Peoples' Aman Committee",
+      "original_text_name": "Peoples' Aman Committee",
+      "aliases": [],
+      "type": "other",
+      "context": "Gang led by Rehman Dakait, involved in criminal activities in Pakistan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Chotu gang",
+      "original_text_name": "Chotu gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang led by Ghulam 'Chotu' Rasool, engaged in kidnapping, murder, smuggling, gun-running, highway robberies in Punjab.",
+      "time_period": "until 2010s"
+    },
+    {
+      "standard_name": "Baybaşin family",
+      "original_text_name": "Baybaşin family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Turkish organized crime family, allies of the Pakistani mafia.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "D-Company",
+      "target": "Pakistani mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "D-Company has a strategic alliance with Pakistan's Inter-Services Intelligence, which is part of the Pakistani mafia network.",
+      "time_period": null
+    },
+    {
+      "source": "Baybaşin family",
+      "target": "Pakistani mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Baybaşin family is listed as an ally of the Pakistani mafia.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Organised_crime_in_Pakistan"
+}

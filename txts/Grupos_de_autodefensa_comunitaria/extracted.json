@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Drug cartel that took over streets of Michoacán from previous groups.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Local criminal gang created to oust Los Zetas and control Michoacán.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "standard_name": "Knights Templar Cartel",
+      "original_text_name": "Knights Templar Cartel",
+      "aliases": [
+        "Caballeros Templarios"
+      ],
+      "type": "cartel",
+      "context": "Cartel formed by former La Familia Michoacana members; extorted, kidnapped, murdered.",
+      "time_period": "2010-2015"
+    },
+    {
+      "standard_name": "Los Viagras",
+      "original_text_name": "Los Viagras",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Cartel created by former Autodefensas leader Nicolás Sierra Santana; known for brutality.",
+      "time_period": "2014-present"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "Jalisco's New-Generation Cartel"
+      ],
+      "type": "cartel",
+      "context": "Cartel with ties and rivalry to Los Viagras; suspected of infiltrating self-defense groups.",
+      "time_period": "2009-present"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Cartel suspected of having members in self-defense groups in Tamaulipas.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Grupos de autodefensa comunitaria",
+      "original_text_name": "Grupos de autodefensa comunitaria",
+      "aliases": [
+        "Autodefensas",
+        "self-defense groups",
+        "Policía Comunitaria",
+        "Policía Popular"
+      ],
+      "type": "militia",
+      "context": "Vigilante self-defense groups formed to fight cartels in Michoacán and Guerrero.",
+      "time_period": "2012-present"
+    },
+    {
+      "standard_name": "Pañuelo Negro",
+      "original_text_name": "Pañuelo Negro",
+      "aliases": [
+        "Black Bandana"
+      ],
+      "type": "militia",
+      "context": "Self-defense group that emerged in Michoacán in January 2021.",
+      "time_period": "2021-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Zetas",
+      "target": "La Familia Michoacana",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Zetas took over Michoacán, prompting creation of La Familia Michoacana to oust them.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Knights Templar Cartel",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "After La Familia Michoacana disintegrated, former members created the Knights Templar Cartel.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Knights Templar Cartel",
+      "target": "Grupos de autodefensa comunitaria",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Autodefensas formed to fight against Knights Templar Cartel's extortion and violence.",
+      "time_period": "2013-2015"
+    },
+    {
+      "source": "Grupos de autodefensa comunitaria",
+      "target": "Los Viagras",
+      "relationship": "other",
+      "detail": "splinter",
+      "context": "Los Viagras was created by former Autodefensas leader Nicolás Sierra Santana.",
+      "time_period": "2014"
+    },
+    {
+      "source": "Los Viagras",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Viagras has ties with the Jalisco New Generation Cartel.",
+      "time_period": "2014-present"
+    },
+    {
+      "source": "Los Viagras",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Viagras also has rivalry with the Jalisco New Generation Cartel.",
+      "time_period": "2014-present"
+    },
+    {
+      "source": "Jalisco New Generation Cartel",
+      "target": "Grupos de autodefensa comunitaria",
+      "relationship": "other",
+      "detail": "infiltration",
+      "context": "Government declared some fake Autodefensas are working for Jalisco New Generation Cartel.",
+      "time_period": "2015"
+    },
+    {
+      "source": "Gulf Cartel",
+      "target": "Grupos de autodefensa comunitaria",
+      "relationship": "other",
+      "detail": "infiltration",
+      "context": "Suspected that some self-defense groups in Tamaulipas are members of Gulf Cartel.",
+      "time_period": "2013"
+    }
+  ],
+  "source_file": "Grupos_de_autodefensa_comunitaria"
+}

@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Comanchero Motorcycle Club",
+      "original_text_name": "Comanchero Motorcycle Club",
+      "aliases": [
+        "Comancheros"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle gang in Australia, Southeast Asia, and New Zealand. Involved in drug trafficking, violence, and organized crime.",
+      "time_period": "1968-present"
+    },
+    {
+      "standard_name": "United Motorcycle Council of NSW",
+      "original_text_name": "United Motorcycle Council of NSW",
+      "aliases": [],
+      "type": "other",
+      "context": "Coalition of motorcycle clubs in New South Wales formed to address legislation and public image.",
+      "time_period": "2009-present"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club, rival of Comancheros in Australia.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Bandidos",
+      "original_text_name": "Bandidos",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club, originally allied with a Comanchero chapter, later rival.",
+      "time_period": "1966-present"
+    },
+    {
+      "standard_name": "Rock Machine Motorcycle Club",
+      "original_text_name": "Rock Machine Motorcycle Club",
+      "aliases": [
+        "Rock Machine"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club in conflict with Comancheros, involved in patching over members.",
+      "time_period": "1986-present"
+    },
+    {
+      "standard_name": "Finks",
+      "original_text_name": "Finks",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club, members visited Vince Focarelli.",
+      "time_period": "1960s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Comanchero Motorcycle Club",
+      "target": "United Motorcycle Council of NSW",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Comancheros are participants in the United Motorcycle Council of NSW.",
+      "time_period": "2009-present"
+    },
+    {
+      "source": "Comanchero Motorcycle Club",
+      "target": "Hells Angels",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Comancheros and Hells Angels clashed at Sydney Airport in 2009 and have ongoing biker wars.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Comanchero Motorcycle Club",
+      "target": "Bandidos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "After a chapter patched over to Bandidos, the clubs became rivals and fought the Milperra massacre in 1984.",
+      "time_period": "1983-present"
+    },
+    {
+      "source": "Comanchero Motorcycle Club",
+      "target": "Rock Machine Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rock Machine patched over Comanchero members, causing tension and retaliatory shootings.",
+      "time_period": "2012"
+    },
+    {
+      "source": "Comanchero Motorcycle Club",
+      "target": "Finks",
+      "relationship": "other",
+      "detail": "social visit",
+      "context": "Finks members visited Vince Focarelli, a former Comanchero, in hospital and attended his son's funeral.",
+      "time_period": "2012"
+    }
+  ],
+  "source_file": "Comanchero_Motorcycle_Club"
+}

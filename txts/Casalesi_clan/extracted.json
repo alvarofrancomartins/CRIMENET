@@ -1,0 +1,259 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Casalesi clan",
+      "original_text_name": "Casalesi clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "A powerful Camorra clan operating from Caserta, involved in construction, drug trafficking, and waste management.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian criminal organization based in Campania, of which the Casalesi clan is a part.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "American Mafia family based in New York, received heroin shipments from the Casalesi clan.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "type": "faction",
+      "context": "A coalition of Camorra clans formed to oppose Raffaele Cutolo's Nuova Camorra Organizzata.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "type": "faction",
+      "context": "A Camorra organization led by Raffaele Cutolo, rival to the Casalesi clan.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Catania Mafia family",
+      "original_text_name": "Catania Mafia family",
+      "aliases": [
+        "Santapaola-Ercolano faction"
+      ],
+      "type": "mafia",
+      "context": "Sicilian Mafia family from Catania, allied with the Casalesi clan in a price-fixing cartel.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Licciardi clan",
+      "original_text_name": "Licciardi clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Naples, allied with the Casalesi clan.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Mallardo clan",
+      "original_text_name": "Mallardo clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from the Naples area, allied with the Casalesi clan.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Alfieri clan",
+      "original_text_name": "Alfieri clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Defunct Camorra clan, formerly allied with the Casalesi clan.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Galasso clan",
+      "original_text_name": "Galasso clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Defunct Camorra clan, formerly allied with the Casalesi clan.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Nuvoletta clan",
+      "original_text_name": "Nuvoletta clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Naples, rival to the Casalesi clan.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "La Torre clan",
+      "original_text_name": "La Torre clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Defunct Camorra clan, rival to the Casalesi clan.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Lubrano-Ligato clan",
+      "original_text_name": "Lubrano-Ligato clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, rival to the Casalesi clan.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Albanian mobsters",
+      "original_text_name": "Albanian mobsters",
+      "aliases": [],
+      "type": "other",
+      "context": "Albanian organized crime groups allied with the Casalesi clan in drug trafficking.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nigerian crime syndicates",
+      "original_text_name": "Nigerian crime syndicates",
+      "aliases": [],
+      "type": "other",
+      "context": "Nigerian organized crime groups allied with the Casalesi clan in drug trafficking.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Santapaola clan",
+      "original_text_name": "Santapaola clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "A faction of the Catania Mafia family, allied with the Casalesi clan.",
+      "time_period": "20th century-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Casalesi clan",
+      "target": "Camorra",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Casalesi clan is a clan within the Camorra.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Casalesi clan smuggled heroin to the Gambino crime family.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Casalesi clan sided with Nuova Famiglia during the Camorra war of the 1980s.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Nuova Camorra Organizzata",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Casalesi clan fought against Raffaele Cutolo's Nuova Camorra Organizzata.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Catania Mafia family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Casalesi clan formed a price-fixing cartel with the Catania Mafia family.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Licciardi clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Members of the Licciardi clan were arrested alongside Casalesi members in a joint operation.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Mallardo clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Members of the Mallardo clan were arrested alongside Casalesi members in a joint operation.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Alfieri clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Alfieri clan is listed as an ally of the Casalesi clan.",
+      "time_period": null
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Galasso clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Galasso clan is listed as an ally of the Casalesi clan.",
+      "time_period": null
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Nuvoletta clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Nuvoletta clan is listed as a rival of the Casalesi clan.",
+      "time_period": null
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "La Torre clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The La Torre clan is listed as a rival of the Casalesi clan.",
+      "time_period": null
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Lubrano-Ligato clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Lubrano-Ligato clan is listed as a rival of the Casalesi clan.",
+      "time_period": null
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Albanian mobsters",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Casalesi clan has alliances with Albanian mobsters in drug trafficking.",
+      "time_period": null
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Nigerian crime syndicates",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Casalesi clan has alliances with Nigerian crime syndicates in drug trafficking.",
+      "time_period": null
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Santapaola clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Santapaola clan is part of the Catania Mafia family allied with the Casalesi clan.",
+      "time_period": "2010"
+    }
+  ],
+  "source_file": "Casalesi_clan"
+}

@@ -1,0 +1,168 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Black Dragons",
+      "original_text_name": "Black Dragons",
+      "aliases": [
+        "黑龍",
+        "Haak1 Lung4"
+      ],
+      "type": "gang",
+      "context": "Chinese-American street gang formed in 1980 in Los Angeles, involved in organized and street-level crime.",
+      "time_period": "1980-2003, 2020-present"
+    },
+    {
+      "standard_name": "Hop Sing Tong",
+      "original_text_name": "Hop Sing Tong",
+      "aliases": [],
+      "type": "other",
+      "context": "Chinese secret society or tong, allied with Black Dragons.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bamboo Union",
+      "original_text_name": "Bamboo Union",
+      "aliases": [
+        "Bamboo Triad"
+      ],
+      "type": "triad",
+      "context": "Taiwanese triad, also known as Bamboo Triad, allied with Black Dragons.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Asian Boyz",
+      "original_text_name": "Asian Boyz",
+      "aliases": [
+        "Asian Boyz Gang"
+      ],
+      "type": "gang",
+      "context": "Asian street gang, allied with Black Dragons through family ties.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Vietnamese Boyz Gang",
+      "original_text_name": "Vietnamese Boyz Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Vietnamese street gang, allied with Black Dragons.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cool Boyz",
+      "original_text_name": "Cool Boyz",
+      "aliases": [],
+      "type": "gang",
+      "context": "Asian street gang, allied with Black Dragons.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Wah Ching",
+      "original_text_name": "Wah Ching",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chinese-American street gang, allied with Black Dragons.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Oriental Lazy Boyz",
+      "original_text_name": "Oriental Lazy Boyz",
+      "aliases": [],
+      "type": "gang",
+      "context": "Asian street gang, allied with Black Dragons.",
+      "time_period": null
+    },
+    {
+      "standard_name": "14K Triad",
+      "original_text_name": "14k Triad",
+      "aliases": [
+        "14K"
+      ],
+      "type": "triad",
+      "context": "Hong Kong-based triad, allied with Black Dragons.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Tiny Rascals",
+      "original_text_name": "Tiny Rascals",
+      "aliases": [],
+      "type": "gang",
+      "context": "Asian street gang, rival of Black Dragons.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Black Dragons",
+      "target": "Hop Sing Tong",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "A Black Dragon member is also a member of Hop Sing Tong.",
+      "time_period": null
+    },
+    {
+      "source": "Black Dragons",
+      "target": "Bamboo Union",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Bamboo Union's leader is godfather to a Black Dragon member.",
+      "time_period": null
+    },
+    {
+      "source": "Black Dragons",
+      "target": "Asian Boyz",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "A Black Dragon member has family ties with Asian Boyz.",
+      "time_period": null
+    },
+    {
+      "source": "Black Dragons",
+      "target": "Vietnamese Boyz Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Black Dragons have relations with Vietnamese Boyz Gang.",
+      "time_period": null
+    },
+    {
+      "source": "Black Dragons",
+      "target": "Cool Boyz",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Black Dragons have relations with Cool Boyz.",
+      "time_period": null
+    },
+    {
+      "source": "Black Dragons",
+      "target": "Wah Ching",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Wah Ching is listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Black Dragons",
+      "target": "Oriental Lazy Boyz",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Oriental Lazy Boyz is listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Black Dragons",
+      "target": "14K Triad",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "14K Triad is listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Black Dragons",
+      "target": "Tiny Rascals",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Tiny Rascals is listed as a rival in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Black_Dragons_(gang)"
+}

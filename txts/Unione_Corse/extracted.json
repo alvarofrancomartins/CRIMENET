@@ -1,0 +1,138 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Unione Corse",
+      "original_text_name": "Unione Corse",
+      "aliases": [
+        "Union Corse",
+        "Unione Corsa",
+        "Union Corsa"
+      ],
+      "type": "other",
+      "context": "Corsican organized crime network active 1930s-1970s, involved in heroin trafficking via the French Connection.",
+      "time_period": "1930s-1970s"
+    },
+    {
+      "standard_name": "American Mafia",
+      "original_text_name": "American Mafia",
+      "aliases": [
+        "Italian-American Mafia",
+        "Italian-American Cosa Nostra",
+        "Five Families"
+      ],
+      "type": "mafia",
+      "context": "Italian-American organized crime groups, including the Five Families, dominant in the US.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Sicilian Mafia",
+      "original_text_name": "Sicilian Mafia",
+      "aliases": [
+        "Cosa Nostra",
+        "Sicilian Cosa Nostra"
+      ],
+      "type": "mafia",
+      "context": "Sicilian organized crime, involved in heroin trafficking via the French Connection.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "clan",
+      "context": "Neapolitan organized crime, previously involved in heroin production before being shut down in 1951.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Francisci clan",
+      "original_text_name": "Francisci",
+      "aliases": [],
+      "type": "clan",
+      "context": "One of the Corsican families mentioned as part of the Unione Corse.",
+      "time_period": "1930s-1970s"
+    },
+    {
+      "standard_name": "Orsini clan",
+      "original_text_name": "Orsini",
+      "aliases": [],
+      "type": "clan",
+      "context": "One of the Corsican families mentioned as part of the Unione Corse.",
+      "time_period": "1930s-1970s"
+    },
+    {
+      "standard_name": "Venturi clan",
+      "original_text_name": "Venturi",
+      "aliases": [],
+      "type": "clan",
+      "context": "One of the Corsican families mentioned as part of the Unione Corse.",
+      "time_period": "1930s-1970s"
+    },
+    {
+      "standard_name": "Guerini clan",
+      "original_text_name": "Guerini",
+      "aliases": [],
+      "type": "clan",
+      "context": "One of the Corsican families mentioned as part of the Unione Corse.",
+      "time_period": "1930s-1970s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Unione Corse",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Unione Corse clans were commercial partners or subcontractors of the American Mafia in the French Connection.",
+      "time_period": "1950s-1970s"
+    },
+    {
+      "source": "Unione Corse",
+      "target": "Sicilian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Unione Corse participated in the French Connection in response to a call for tender from Sicilians in New York.",
+      "time_period": "1950s-1970s"
+    },
+    {
+      "source": "Unione Corse",
+      "target": "Camorra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Camorra is listed as an ally of Unione Corse in the infobox.",
+      "time_period": "1930s-1970s"
+    },
+    {
+      "source": "Francisci clan",
+      "target": "Unione Corse",
+      "relationship": "other",
+      "detail": "part of",
+      "context": "The Francisci clan was one of the families comprising the Unione Corse.",
+      "time_period": "1930s-1970s"
+    },
+    {
+      "source": "Orsini clan",
+      "target": "Unione Corse",
+      "relationship": "other",
+      "detail": "part of",
+      "context": "The Orsini clan was one of the families comprising the Unione Corse.",
+      "time_period": "1930s-1970s"
+    },
+    {
+      "source": "Venturi clan",
+      "target": "Unione Corse",
+      "relationship": "other",
+      "detail": "part of",
+      "context": "The Venturi clan was one of the families comprising the Unione Corse.",
+      "time_period": "1930s-1970s"
+    },
+    {
+      "source": "Guerini clan",
+      "target": "Unione Corse",
+      "relationship": "other",
+      "detail": "part of",
+      "context": "The Guerini clan was one of the families comprising the Unione Corse.",
+      "time_period": "1930s-1970s"
+    }
+  ],
+  "source_file": "Unione_Corse"
+}

@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Tambovskaya Bratva",
+      "original_text_name": "Tambovskaya Bratva",
+      "aliases": [
+        "Tambov Gang",
+        "Tambovskaya OGG",
+        "Tambovskaya Mafia"
+      ],
+      "type": "gang",
+      "context": "Large Russian gang based in Saint Petersburg, involved in racketeering, drug trafficking, money laundering, and other crimes.",
+      "time_period": "1988-present"
+    },
+    {
+      "standard_name": "Malyshevskaya OGG",
+      "original_text_name": "Malyshevskaya OGG",
+      "aliases": [
+        "Malyshev's Gang"
+      ],
+      "type": "gang",
+      "context": "Leading criminal group in Leningrad, rival of Tambovskaya Bratva for control of the sea port and narcotics trafficking.",
+      "time_period": "1980s-2000s"
+    },
+    {
+      "standard_name": "Kazan Gang",
+      "original_text_name": "Kazan gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang from Tatarstan with many devout Muslim Tatars, fought Tambov Gang for control of St. Petersburg's energy trade.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Chechen mafia",
+      "original_text_name": "Chechen mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Chechen organized crime group; member Temo Davidov introduced Russian mafia to Japanese yakuza.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Velikie Luki",
+      "original_text_name": "Velikie Luki",
+      "aliases": [],
+      "type": "gang",
+      "context": "Group suspected of attempting to kill Kumarin in 1994.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Solntsevskaya Bratva",
+      "original_text_name": "Solntsevskaya Bratva",
+      "aliases": [
+        "Solntsevo Gang"
+      ],
+      "type": "gang",
+      "context": "Russian mafia group; rival of Tambovskaya Bratva according to infobox.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Obshchak",
+      "original_text_name": "Obshchak",
+      "aliases": [],
+      "type": "other",
+      "context": "Allied organization of Tambovskaya Bratva according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Azerbaijani mafia",
+      "original_text_name": "Azerbaijani mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Controlled narcotics trade before being ousted by Alexander Malyshev in 1993.",
+      "time_period": "1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Tambovskaya Bratva",
+      "target": "Malyshevskaya OGG",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "War for control of Leningrad sea port and Colombian narcotics trafficking in 1989.",
+      "time_period": "1989-1990s"
+    },
+    {
+      "source": "Tambovskaya Bratva",
+      "target": "Malyshevskaya OGG",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Brief alliance to fight the Kazan gang after Kumarin's release from prison.",
+      "time_period": "1993"
+    },
+    {
+      "source": "Tambovskaya Bratva",
+      "target": "Kazan Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Fought for control of St. Petersburg's energy trade and seaport in 1993-1994.",
+      "time_period": "1993-1994"
+    },
+    {
+      "source": "Tambovskaya Bratva",
+      "target": "Velikie Luki",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kumarin believed Velikie Luki responsible for assassination attempt on him in 1994.",
+      "time_period": "1994"
+    },
+    {
+      "source": "Tambovskaya Bratva",
+      "target": "Solntsevskaya Bratva",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rivals in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Tambovskaya Bratva",
+      "target": "Obshchak",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Malyshevskaya OGG",
+      "target": "Azerbaijani mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Alexander Malyshev ousted Azerbaijani mafia from narcotics trade in 1993.",
+      "time_period": "1993"
+    },
+    {
+      "source": "Chechen mafia",
+      "target": "Tambovskaya Bratva",
+      "relationship": "other",
+      "detail": "introduction",
+      "context": "Chechen mafia member Temo Davidov introduced Tambov leaders to Japanese yakuza.",
+      "time_period": "1990"
+    }
+  ],
+  "source_file": "Tambovskaya_Bratva"
+}

@@ -1,0 +1,125 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
+      "aliases": [
+        "Sicilian Mafia"
+      ],
+      "type": "mafia",
+      "context": "Italian mafia originating from Sicily, involved in drug trafficking and political corruption.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian mafia originating from Campania, involved in waste management and political bribery.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian mafia originating from Calabria, involved in drug trafficking and infiltration of legitimate economy.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Yakuza",
+      "original_text_name": "Yakuza",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Japanese organized crime groups with close ties to government.",
+      "time_period": "historical-present"
+    },
+    {
+      "standard_name": "Camorra Casalesi clan",
+      "original_text_name": "Camorra Casalesi clan",
+      "aliases": [
+        "Casalesi"
+      ],
+      "type": "clan",
+      "context": "Clan within the Camorra, gained control of local economy through political manipulation and intimidation.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Cuntrera-Caruana Mafia clan",
+      "original_text_name": "Cuntrera-Caruana Mafia clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Sicilian Mafia clan that invested heavily in Aruba's hotels and casinos.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "GRIB Jaya",
+      "original_text_name": "GRIB Jaya",
+      "aliases": [],
+      "type": "gang",
+      "context": "Indonesian gang allegedly protected by the government for political and economic interests.",
+      "time_period": "present"
+    },
+    {
+      "standard_name": "Pancasila Youth",
+      "original_text_name": "Pancasila Youth",
+      "aliases": [],
+      "type": "gang",
+      "context": "Indonesian gang allegedly protected by the government for political and economic interests.",
+      "time_period": "present"
+    },
+    {
+      "standard_name": "Syndicate",
+      "original_text_name": "Syndicate",
+      "aliases": [
+        "Niqabeh"
+      ],
+      "type": "other",
+      "context": "Network of captagon manufacturing centers in Syria, tied to the Assad regime.",
+      "time_period": "2010s-2024"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Camorra Casalesi clan",
+      "target": "Camorra",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Casalesi clan is a sub-group of the Camorra.",
+      "time_period": "1980s-present"
+    },
+    {
+      "source": "Cosa Nostra",
+      "target": "Camorra",
+      "relationship": "other",
+      "detail": "separate organizations",
+      "context": "Both are distinct Italian mafia organizations operating in different regions.",
+      "time_period": null
+    },
+    {
+      "source": "Cosa Nostra",
+      "target": "'Ndrangheta",
+      "relationship": "other",
+      "detail": "separate organizations",
+      "context": "Both are distinct Italian mafia organizations operating in different regions.",
+      "time_period": null
+    },
+    {
+      "source": "Camorra",
+      "target": "'Ndrangheta",
+      "relationship": "other",
+      "detail": "separate organizations",
+      "context": "Both are distinct Italian mafia organizations operating in different regions.",
+      "time_period": null
+    },
+    {
+      "source": "GRIB Jaya",
+      "target": "Pancasila Youth",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The two gangs are rivalling, with accusations of government protection for both.",
+      "time_period": "present"
+    }
+  ],
+  "source_file": "Mafia_state"
+}

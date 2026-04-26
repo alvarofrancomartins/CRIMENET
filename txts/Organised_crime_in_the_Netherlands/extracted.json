@@ -1,0 +1,265 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle gang active in the Netherlands, with chapters in Amsterdam and Limburg.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Mocro Maffia",
+      "original_text_name": "Mocro Maffia",
+      "aliases": [
+        "Dutch Moroccan gangs"
+      ],
+      "type": "gang",
+      "context": "Dutch Moroccan criminal groups involved in drug trafficking, armed robbery, and prostitution.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Satudarah",
+      "original_text_name": "Satudarah",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "One-percenter motorcycle club of Ambonese origin, involved in organized crime.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Tattoo killers",
+      "original_text_name": "Tattoo killers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Moluccan/Ambonese gang specialized in contract killings.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Hopi Boys",
+      "original_text_name": "Hopi Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Amsterdam gang involved in turf wars in the Bijlmermeer district.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Kloekhorststraat Gang",
+      "original_text_name": "Kloekhorststraat Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Amsterdam gang involved in turf wars in the Bijlmermeer district.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "No Limit Soldiers",
+      "original_text_name": "No Limit Soldiers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Curaçao-originated gang with bases in Rotterdam, involved in gang violence and organized crime.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang with significant presence in the Netherlands, composed mainly of Dutch Antilleans and Afro-Surinamese.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Turkish mafia",
+      "original_text_name": "Turkish mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Turkish organized crime groups active in the Netherlands, not considered part of traditional Penose.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Triads",
+      "original_text_name": "Triads",
+      "aliases": [],
+      "type": "triad",
+      "context": "Chinese organized crime groups active in the Netherlands.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Serbian mafia",
+      "original_text_name": "Serbian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Serbian organized crime groups active in the Netherlands.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Russian mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Russian organized crime groups active in the Netherlands.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Albanian mafia",
+      "original_text_name": "Albanian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Albanian organized crime groups active in the Netherlands.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian organized crime group from Calabria, active in the Netherlands.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Colombian cartels",
+      "original_text_name": "Colombian cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartels cooperating with Dutch gangs for cocaine importation.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Moroccan mafia",
+      "original_text_name": "Moroccan mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Moroccan drug barons in the Riffian areas cooperating with Dutch gangs.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "British firms",
+      "original_text_name": "British firms",
+      "aliases": [],
+      "type": "other",
+      "context": "British organized crime groups cooperating with Dutch gangs in drug trafficking.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Surinamese cartels",
+      "original_text_name": "Surinamese cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Surinamese drug trafficking groups allied with Dutch crime groups.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Cape Verdean mafia",
+      "original_text_name": "Cape Verdean mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Cape Verdean organized crime groups allied with Dutch crime groups.",
+      "time_period": "1990s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hells Angels",
+      "target": "Dutch crime groups",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Local Dutch criminal groups are strongly connected with or have official membership to Hells Angels.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Dutch crime groups",
+      "target": "Colombian cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dutch gangs cooperate with Colombian cartels for cocaine importation.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Dutch crime groups",
+      "target": "British firms",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dutch gangs cooperate with British firms for ecstasy and cocaine trafficking.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Dutch crime groups",
+      "target": "Moroccan mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dutch gangs cooperate with Moroccan drug barons in the Riffian areas.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Afro-Dutch crime groups",
+      "target": "Colombian cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Curaçaoan and Surinamese crime groups in the Netherlands have alliances with Colombian groups.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Hopi Boys",
+      "target": "Kloekhorststraat Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gang wars over turf in the Bijlmermeer district.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Dutch crime groups",
+      "target": "Albanian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Dutch crime groups",
+      "target": "'Ndrangheta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Dutch crime groups",
+      "target": "Serbian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Dutch crime groups",
+      "target": "Triads",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Dutch crime groups",
+      "target": "Turkish mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Dutch crime groups",
+      "target": "Surinamese cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Dutch crime groups",
+      "target": "Cape Verdean mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox.",
+      "time_period": "1990s-present"
+    }
+  ],
+  "source_file": "Organised_crime_in_the_Netherlands"
+}

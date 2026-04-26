@@ -1,0 +1,286 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "CV",
+        "Falange Vermelha",
+        "Red Command",
+        "Red Commando"
+      ],
+      "type": "cartel",
+      "context": "Brazilian criminal organization engaged in drug trafficking, arms trafficking, truckjacking, and turf wars. Controls parts of Rio de Janeiro and has expanded to other states and neighboring countries.",
+      "time_period": "1979-present"
+    },
+    {
+      "standard_name": "Primeiro Comando da Capital",
+      "original_text_name": "Primeiro Comando da Capital (PCC)",
+      "aliases": [
+        "PCC"
+      ],
+      "type": "cartel",
+      "context": "Rival criminal organization based in São Paulo, Brazil. Engaged in drug trafficking and turf wars.",
+      "time_period": "1993-present"
+    },
+    {
+      "standard_name": "Amigos dos Amigos",
+      "original_text_name": "Amigos dos Amigos (ADA)",
+      "aliases": [
+        "ADA"
+      ],
+      "type": "cartel",
+      "context": "Splinter group from Comando Vermelho, engaged in drug trafficking and turf wars in Rio de Janeiro.",
+      "time_period": "mid-1980s-present"
+    },
+    {
+      "standard_name": "Terceiro Comando",
+      "original_text_name": "Terceiro Comando (TC)",
+      "aliases": [
+        "TC"
+      ],
+      "type": "cartel",
+      "context": "Splinter group from Comando Vermelho, resulted from a power struggle in the mid-1980s. Engaged in drug trafficking and turf wars.",
+      "time_period": "mid-1980s-present"
+    },
+    {
+      "standard_name": "FARC",
+      "original_text_name": "FARC",
+      "aliases": [
+        "Revolutionary Armed Forces of Colombia"
+      ],
+      "type": "militia",
+      "context": "Colombian guerrilla group that moved into the cocaine trade. Had a working relationship with Comando Vermelho.",
+      "time_period": "1964-present"
+    },
+    {
+      "standard_name": "Familia do Norte",
+      "original_text_name": "Familia do Norte",
+      "aliases": [
+        "FDN"
+      ],
+      "type": "cartel",
+      "context": "Brazilian criminal organization involved in drug trafficking in the Amazon region.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Border Command",
+      "original_text_name": "Border Command",
+      "aliases": [],
+      "type": "militia",
+      "context": "Colombian militia group operating in the tri-border region of Colombia, Brazil, and Peru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Carolina Ramirez Front",
+      "original_text_name": "Carolina Ramirez Front",
+      "aliases": [],
+      "type": "militia",
+      "context": "Colombian militia group operating in the tri-border region.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Campinho police militia",
+      "original_text_name": "Campinho police militia",
+      "aliases": [],
+      "type": "militia",
+      "context": "Armed militia group formed by former and current police officers in Rio de Janeiro, controlling territory and clashing with gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Primeiro Grupo Catarinense",
+      "original_text_name": "Primeiro Grupo Catarinense",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of Comando Vermelho mentioned in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bala na Cara",
+      "original_text_name": "Bala na Cara",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of Comando Vermelho mentioned in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Terceiro Comando Puro",
+      "original_text_name": "Terceiro Comando Puro",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Comando Vermelho mentioned in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Família do Norte",
+      "original_text_name": "Família do Norte",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Comando Vermelho mentioned in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Guardiões do Estado",
+      "original_text_name": "Guardiões do Estado",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Comando Vermelho mentioned in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bonde do Maluco",
+      "original_text_name": "Bonde do Maluco",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Comando Vermelho mentioned in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bonde dos 40",
+      "original_text_name": "Bonde dos 40",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Comando Vermelho mentioned in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Massa Carcerária",
+      "original_text_name": "Massa Carcerária",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Comando Vermelho mentioned in the infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Comando Vermelho",
+      "target": "Primeiro Comando da Capital",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The CV and PCC have fought in several small-scale conflicts and a 20-year truce broke down in 2016, sparking violent clashes.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "Amigos dos Amigos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "ADA is a splinter group from CV, and they have clashed over territory in Rio.",
+      "time_period": "mid-1980s-present"
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "Terceiro Comando",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "TC is a splinter group from CV resulting from a power struggle, and they have fought over territory.",
+      "time_period": "mid-1980s-present"
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "FARC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "CV established a working relationship with FARC, exchanging arms for cocaine.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "Familia do Norte",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "CV and FDN have fought over control of trafficking routes in the Amazon region.",
+      "time_period": "2010s-present"
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "Border Command",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "CV has violently fought with Border Command for control of trafficking routes in the tri-border region.",
+      "time_period": "2010s-present"
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "Carolina Ramirez Front",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "CV has violently fought with Carolina Ramirez Front for control of trafficking routes in the tri-border region.",
+      "time_period": "2010s-present"
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "Campinho police militia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "CV clashed frequently with the Campinho police militia for control of the Morro do Fuba community in 2022.",
+      "time_period": "2022"
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "Primeiro Grupo Catarinense",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "Bala na Cara",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "Terceiro Comando Puro",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "Família do Norte",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "Guardiões do Estado",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "Bonde do Maluco",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "Bonde dos 40",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "Massa Carcerária",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Comando_Vermelho"
+}

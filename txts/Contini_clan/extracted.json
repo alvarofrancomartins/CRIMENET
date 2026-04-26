@@ -1,0 +1,271 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Contini clan",
+      "original_text_name": "Contini clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Powerful Neapolitan Camorra clan operating in Naples and internationally, involved in drug trafficking, extortion, and money laundering.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Secondigliano Alliance",
+      "original_text_name": "Secondigliano Alliance",
+      "aliases": [],
+      "type": "faction",
+      "context": "Powerful Camorra alliance founded by Contini, Mallardo, and Licciardi clans.",
+      "time_period": "mid-1980s-present"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "type": "faction",
+      "context": "Camorra confederation against the Nuova Camorra Organizzata.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [],
+      "type": "faction",
+      "context": "Camorra organization led by Raffaele Cutolo, rival of Nuova Famiglia.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "Mallardo clan",
+      "original_text_name": "Mallardo clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan allied with Contini and co-founder of Secondigliano Alliance.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Licciardi clan",
+      "original_text_name": "Licciardi clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan allied with Contini and co-founder of Secondigliano Alliance.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Di Lauro clan",
+      "original_text_name": "Di Lauro clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan with alliance to Contini clan, involved in drug trafficking.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Ukrainian mafia",
+      "original_text_name": "Ukrainian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Ukrainian organized crime group cooperating with Contini clan in cigarette smuggling.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Commisso 'ndrina",
+      "original_text_name": "Commisso 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan cooperating with Contini clan in drug trafficking.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cesarano clan",
+      "original_text_name": "Cesarano clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Historical Camorra clan from Castellammare di Stabia allied with Contini clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Rinaldi clan",
+      "original_text_name": "Rinaldi clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan listed as ally of Contini clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Moccia clan",
+      "original_text_name": "Moccia clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan listed as ally of Contini clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mariano clan",
+      "original_text_name": "Mariano clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan listed as ally of Contini clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mazzarella clan",
+      "original_text_name": "Mazzarella clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan listed as rival of Contini clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Giuliano clan",
+      "original_text_name": "Giuliano clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Defunct Camorra clan listed as rival of Contini clan.",
+      "time_period": "defunct"
+    },
+    {
+      "standard_name": "Caldarelli clan",
+      "original_text_name": "Caldarelli Clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan listed as rival of Contini clan.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Contini clan",
+      "target": "Secondigliano Alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Contini clan is a founding member of the Secondigliano Alliance.",
+      "time_period": "mid-1980s-present"
+    },
+    {
+      "source": "Mallardo clan",
+      "target": "Secondigliano Alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mallardo clan is a founding member of the Secondigliano Alliance.",
+      "time_period": "mid-1980s-present"
+    },
+    {
+      "source": "Licciardi clan",
+      "target": "Secondigliano Alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Licciardi clan is a founding member of the Secondigliano Alliance.",
+      "time_period": "mid-1980s-present"
+    },
+    {
+      "source": "Contini clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Contini clan joined the Nuova Famiglia confederation against the Nuova Camorra Organizzata.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Nuova Famiglia",
+      "target": "Nuova Camorra Organizzata",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Nuova Famiglia was formed to oppose the Nuova Camorra Organizzata.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Contini clan",
+      "target": "Di Lauro clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Di Lauro clan has an alliance with Contini clan, particularly with Ciro Contini, regarding drug trafficking.",
+      "time_period": null
+    },
+    {
+      "source": "Contini clan",
+      "target": "Ukrainian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Contini clan cooperates with Ukrainian mafia in cigarette smuggling.",
+      "time_period": null
+    },
+    {
+      "source": "Contini clan",
+      "target": "Commisso 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Contini clan cooperates with Commisso 'ndrina in drug trafficking.",
+      "time_period": null
+    },
+    {
+      "source": "Contini clan",
+      "target": "Cesarano clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Contini clan has an alliance with the historical Cesarano clan.",
+      "time_period": null
+    },
+    {
+      "source": "Contini clan",
+      "target": "Mallardo clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mallardo clan is listed as an ally of Contini clan.",
+      "time_period": null
+    },
+    {
+      "source": "Contini clan",
+      "target": "Licciardi clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Licciardi clan is listed as an ally of Contini clan.",
+      "time_period": null
+    },
+    {
+      "source": "Contini clan",
+      "target": "Rinaldi clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Rinaldi clan is listed as an ally of Contini clan.",
+      "time_period": null
+    },
+    {
+      "source": "Contini clan",
+      "target": "Moccia clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Moccia clan is listed as an ally of Contini clan.",
+      "time_period": null
+    },
+    {
+      "source": "Contini clan",
+      "target": "Mariano clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mariano clan is listed as an ally of Contini clan.",
+      "time_period": null
+    },
+    {
+      "source": "Contini clan",
+      "target": "Mazzarella clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Mazzarella clan is listed as a rival of Contini clan.",
+      "time_period": null
+    },
+    {
+      "source": "Contini clan",
+      "target": "Giuliano clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Giuliano clan is listed as a rival of Contini clan (defunct).",
+      "time_period": null
+    },
+    {
+      "source": "Contini clan",
+      "target": "Caldarelli clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Caldarelli clan is listed as a rival of Contini clan.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Contini_clan"
+}

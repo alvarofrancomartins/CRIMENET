@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kurdish mafia",
+      "original_text_name": "Kurdish mafia",
+      "aliases": [
+        "Kurdish organised crime groups",
+        "Kurdish crime families",
+        "Kurdish mafia gangs"
+      ],
+      "type": "mafia",
+      "context": "Organized crime groups run by ethnic Kurds, involved in drug and arms trafficking, contract killing, and migrant smuggling across Europe, Asia, and North America.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "PKK",
+      "original_text_name": "PKK",
+      "aliases": [
+        "Kurdistan Workers' Party"
+      ],
+      "type": "terrorist_organization",
+      "context": "Kurdish militant political organization; receives funding from Kurdish mafia activities.",
+      "time_period": "1978-present"
+    },
+    {
+      "standard_name": "Tottenham Boys",
+      "original_text_name": "Tottenham Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Kurdish gang from London that funneled profits to the PKK.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Taliban",
+      "original_text_name": "Taliban",
+      "aliases": [],
+      "type": "militia",
+      "context": "Supplied opiates to Kurdish mafia in exchange for tax and guarantee not to sell to Kurds; later banned opiate trade in 2022.",
+      "time_period": "1994-present"
+    },
+    {
+      "standard_name": "Albanian mafia",
+      "original_text_name": "Albanian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Previously dominant in people smuggling; later overtaken by Kurdish mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Greek mafia",
+      "original_text_name": "Greek mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Ally of Kurdish mafia per infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Armenian mafia",
+      "original_text_name": "Armenian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Ally of Kurdish mafia per infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Russian mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Ally of Kurdish mafia per infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Iranian mafia",
+      "original_text_name": "Iranian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Ally of Kurdish mafia per infobox; cooperated in migrant smuggling.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Turkish mafia",
+      "original_text_name": "Turkish mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Rival of Kurdish mafia per infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kurdish mafia",
+      "target": "PKK",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kurdish mafia funnels profits to PKK; pays tax to pass through PKK territory.",
+      "time_period": null
+    },
+    {
+      "source": "Tottenham Boys",
+      "target": "PKK",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Tottenham Boys funneled profits to the PKK.",
+      "time_period": null
+    },
+    {
+      "source": "Kurdish mafia",
+      "target": "Taliban",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Taliban supplied opiates to Kurdish mafia in exchange for tax and guarantee not to sell to Kurds.",
+      "time_period": "until 2022"
+    },
+    {
+      "source": "Kurdish mafia",
+      "target": "Albanian mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kurdish mafia took over people smuggling business from Albanian mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Kurdish mafia",
+      "target": "Greek mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Kurdish mafia",
+      "target": "Armenian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Kurdish mafia",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Kurdish mafia",
+      "target": "Iranian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox; cooperated in migrant smuggling.",
+      "time_period": null
+    },
+    {
+      "source": "Kurdish mafia",
+      "target": "Turkish mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Kurdish_mafia"
+}

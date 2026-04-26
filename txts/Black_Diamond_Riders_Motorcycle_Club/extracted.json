@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Black Diamond Riders Motorcycle Club",
+      "original_text_name": "Black Diamond Riders Motorcycle Club",
+      "aliases": [
+        "Black Diamond Riders"
+      ],
+      "type": "motorcycle_club",
+      "context": "Toronto-based outlaw biker gang active from 1953, involved in drug trafficking, extortion, assault, kidnapping.",
+      "time_period": "1953-present"
+    },
+    {
+      "standard_name": "Humber Valley Riders Motorcycle Club",
+      "original_text_name": "Humber Valley Riders Motorcycle Club",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Early biker club in Toronto, precursor to Black Diamond Riders.",
+      "time_period": "late 1940s-1951"
+    },
+    {
+      "standard_name": "Satan's Choice Motorcycle Club",
+      "original_text_name": "Satan's Choice Motorcycle Club",
+      "aliases": [
+        "Satan's Choice"
+      ],
+      "type": "motorcycle_club",
+      "context": "Canadian outlaw biker club founded in 1965, rival to Black Diamond Riders.",
+      "time_period": "1965-present"
+    },
+    {
+      "standard_name": "Lost Souls Motorcycle Club",
+      "original_text_name": "Lost Souls Motorcycle Club",
+      "aliases": [
+        "Lost Souls"
+      ],
+      "type": "motorcycle_club",
+      "context": "Short-lived club formed by expelled Black Diamond Riders in 1996, later joined Satan's Choice.",
+      "time_period": "1996"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Black Diamond Riders Motorcycle Club",
+      "target": "Humber Valley Riders Motorcycle Club",
+      "relationship": "other",
+      "detail": "splinter group",
+      "context": "Black Diamond Riders were founded by a former member of Humber Valley Riders in 1951.",
+      "time_period": "1951"
+    },
+    {
+      "source": "Black Diamond Riders Motorcycle Club",
+      "target": "Satan's Choice Motorcycle Club",
+      "relationship": "rivalry",
+      "context": "Satan's Choice was formed to counter Black Diamond Riders, leading to biker wars in 1965-1966 and later conflicts.",
+      "time_period": "1965-1992"
+    },
+    {
+      "source": "Lost Souls Motorcycle Club",
+      "target": "Black Diamond Riders Motorcycle Club",
+      "relationship": "other",
+      "detail": "splinter group",
+      "context": "Lost Souls was founded by expelled Black Diamond Riders members in 1996.",
+      "time_period": "1996"
+    },
+    {
+      "source": "Lost Souls Motorcycle Club",
+      "target": "Satan's Choice Motorcycle Club",
+      "relationship": "alliance",
+      "context": "Lost Souls joined Satan's Choice on April 13, 1996, after a better offer.",
+      "time_period": "1996"
+    }
+  ],
+  "source_file": "Black_Diamond_Riders_Motorcycle_Club"
+}

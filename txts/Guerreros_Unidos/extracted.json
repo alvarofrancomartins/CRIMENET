@@ -1,0 +1,275 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Guerreros Unidos",
+      "original_text_name": "Guerreros Unidos",
+      "aliases": [
+        "United Warriors"
+      ],
+      "type": "cartel",
+      "context": "Mexican criminal syndicate operating in southern Mexico, involved in drug trafficking, corruption, extortion, kidnapping, murder.",
+      "time_period": "2010-present"
+    },
+    {
+      "standard_name": "Beltrán-Leyva Organization",
+      "original_text_name": "Beltrán-Leyva Organization",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel that splintered after leader Arturo Beltrán Leyva was killed in 2009.",
+      "time_period": "1990s-2010"
+    },
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel that split into factions, some merging with other cartels to form Guerreros Unidos.",
+      "time_period": "2000s-2010"
+    },
+    {
+      "standard_name": "Tijuana Cartel",
+      "original_text_name": "Tijuana Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel allied with Guerreros Unidos.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Juárez Cartel",
+      "original_text_name": "Juárez Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel allied with Guerreros Unidos.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel allied with Guerreros Unidos.",
+      "time_period": "1999-present"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, rival of Guerreros Unidos.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, rival of Guerreros Unidos.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Los Rojos",
+      "original_text_name": "los Rojos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mexican criminal group from which Guerreros Unidos splintered.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Knights Templar Cartel",
+      "original_text_name": "Knights Templar Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, rival of Guerreros Unidos.",
+      "time_period": "2010-2017"
+    },
+    {
+      "standard_name": "Popular Revolutionary Army",
+      "original_text_name": "Popular Revolutionary Army",
+      "aliases": [],
+      "type": "militia",
+      "context": "Mexican leftist guerrilla group, rival of Guerreros Unidos.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "La Nueva Familia Michoacana",
+      "original_text_name": "La Nueva Familia Michoacana",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, rival of Guerreros Unidos.",
+      "time_period": "2010-present"
+    },
+    {
+      "standard_name": "Los Tlacos",
+      "original_text_name": "Los Tlacos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mexican criminal group, rival of Guerreros Unidos.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "La Barredora",
+      "original_text_name": "La Barredora",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mexican criminal group allied with Guerreros Unidos.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "CIDA",
+      "original_text_name": "CIDA",
+      "aliases": [],
+      "type": "other",
+      "context": "Criminal group allied with Guerreros Unidos.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Los Talibanes",
+      "original_text_name": "Los Talibanes",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mexican criminal group allied with Guerreros Unidos.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "CJNG",
+      "original_text_name": "CJNG",
+      "aliases": [
+        "Cártel de Jalisco Nueva Generación"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel allied with Guerreros Unidos.",
+      "time_period": "2010-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Guerreros Unidos",
+      "target": "Beltrán-Leyva Organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Guerreros Unidos formed with remains of Beltrán-Leyva Organization.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Guerreros Unidos",
+      "target": "La Familia Michoacana",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Guerreros Unidos founded by remnants of La Familia Michoacana.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Guerreros Unidos",
+      "target": "Tijuana Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Guerreros Unidos allied with Tijuana Cartel.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Guerreros Unidos",
+      "target": "Juárez Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Guerreros Unidos allied with Juárez Cartel.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Guerreros Unidos",
+      "target": "Los Zetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Guerreros Unidos allied with Los Zetas.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Guerreros Unidos",
+      "target": "Gulf Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Guerreros Unidos rivals with Gulf Cartel.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Guerreros Unidos",
+      "target": "Sinaloa Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Guerreros Unidos rivals with Sinaloa Cartel.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Guerreros Unidos",
+      "target": "Los Rojos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Guerreros Unidos splintered from Los Rojos, making them rivals.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Guerreros Unidos",
+      "target": "Knights Templar Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Guerreros Unidos rivals with Knights Templar Cartel.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Guerreros Unidos",
+      "target": "Popular Revolutionary Army",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Guerreros Unidos rivals with Popular Revolutionary Army.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Guerreros Unidos",
+      "target": "La Nueva Familia Michoacana",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Guerreros Unidos rivals with La Nueva Familia Michoacana.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Guerreros Unidos",
+      "target": "Los Tlacos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Guerreros Unidos rivals with Los Tlacos.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Guerreros Unidos",
+      "target": "La Barredora",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Guerreros Unidos allied with La Barredora.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Guerreros Unidos",
+      "target": "CIDA",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Guerreros Unidos allied with CIDA.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Guerreros Unidos",
+      "target": "Los Talibanes",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Guerreros Unidos allied with Los Talibanes.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Guerreros Unidos",
+      "target": "CJNG",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Guerreros Unidos allied with CJNG.",
+      "time_period": "unknown"
+    }
+  ],
+  "source_file": "Guerreros_Unidos"
+}

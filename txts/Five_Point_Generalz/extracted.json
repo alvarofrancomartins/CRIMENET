@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Five Point Generalz",
+      "original_text_name": "Five Point Generalz",
+      "aliases": [
+        "5PGz",
+        "5PG"
+      ],
+      "type": "gang",
+      "context": "Street gang based in Toronto, involved in drug and weapon trafficking, robbery.",
+      "time_period": "late 1990s-present"
+    },
+    {
+      "standard_name": "Baghdad Crew",
+      "original_text_name": "Baghdad Crew",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Five Point Generalz, involved in a shootout that killed Ephraim Brown.",
+      "time_period": null
+    },
+    {
+      "standard_name": "G2M",
+      "original_text_name": "G2M",
+      "aliases": [],
+      "type": "faction",
+      "context": "Younger subset of Five Point Generalz targeted in 2018 police raids.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Five Point Generalz",
+      "target": "Baghdad Crew",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Allegedly involved in a shootout that killed Ephraim Brown in 2007.",
+      "time_period": "2007"
+    },
+    {
+      "source": "Five Point Generalz",
+      "target": "G2M",
+      "relationship": "other",
+      "detail": "subset",
+      "context": "G2M is a younger subset of Five Point Generalz.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Five_Point_Generalz"
+}

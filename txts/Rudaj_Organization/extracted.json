@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Rudaj Organization",
+      "original_text_name": "Rudaj Organization",
+      "aliases": [
+        "The Corporation",
+        "Albanian mafia's Rudaj Organization"
+      ],
+      "type": "gang",
+      "context": "Albanian-American gang active in New York City metro area, involved in extortion, illegal gambling, murder, robbery.",
+      "time_period": "1993-2004"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [
+        "Gambinos"
+      ],
+      "type": "mafia",
+      "context": "New York Mafia family; had soldier Phil Loscalzo and later Arnold Squitieri as leaders.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese crime family",
+      "aliases": [
+        "Lucchese family"
+      ],
+      "type": "mafia",
+      "context": "New York Mafia family; had gambling operations in Astoria, Queens taken over by Rudaj Organization.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Velentzas crime family",
+      "original_text_name": "Velentzas crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Greek-American crime family; rival of Rudaj Organization.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Rudaj Organization",
+      "target": "Gambino crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rudaj Organization had conflict with Gambino family over territory and operations; a meeting at a gas station nearly turned violent.",
+      "time_period": "2001-2004"
+    },
+    {
+      "source": "Rudaj Organization",
+      "target": "Lucchese crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rudaj Organization attacked Greek associates of Lucchese family and took over their gambling operations in Astoria, Queens.",
+      "time_period": "2001"
+    },
+    {
+      "source": "Rudaj Organization",
+      "target": "Velentzas crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rudaj Organization had trouble with Velentzas family, as noted in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Rudaj_Organization"
+}

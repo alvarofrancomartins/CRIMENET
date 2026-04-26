@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "standard_name": "856 Gang",
+      "original_text_name": "856 gang",
+      "aliases": [
+        "856"
+      ],
+      "type": "gang",
+      "context": "Youth gang turned sophisticated criminal organization active in Northwest Territories and British Columbia, involved in drug trafficking, arms trafficking, and murder.",
+      "time_period": "2003-present"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [
+        "Hell's Angel"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club active in Canada, involved in organized crime and drug trafficking.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Red Scorpions",
+      "original_text_name": "Red Scorpions",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal gang based in British Columbia, involved in drug trafficking and violence.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "UN Gang",
+      "original_text_name": "UN (gang)",
+      "aliases": [
+        "United Nations gang"
+      ],
+      "type": "gang",
+      "context": "Criminal gang based in British Columbia, involved in drug trafficking and organized crime.",
+      "time_period": "1990s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "856 Gang",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The 856 gang made ties to Hells Angels member Len Pelletier in 2007, indicating an alliance.",
+      "time_period": "2007"
+    },
+    {
+      "source": "856 Gang",
+      "target": "Hells Angels",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The gang is thought to be rivals of the Hells Angels after a member murdered Hells Angel Bob Green in 2016.",
+      "time_period": "2016-present"
+    },
+    {
+      "source": "856 Gang",
+      "target": "Red Scorpions",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The infobox lists Red Scorpions as allies of the 856 Gang.",
+      "time_period": null
+    },
+    {
+      "source": "856 Gang",
+      "target": "UN Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The infobox lists UN (gang) as rivals of the 856 Gang.",
+      "time_period": null
+    }
+  ],
+  "source_file": "856_gang"
+}

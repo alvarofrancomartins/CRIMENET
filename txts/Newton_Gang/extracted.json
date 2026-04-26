@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Newton Gang",
+      "original_text_name": "Newton Gang",
+      "aliases": [
+        "Newton brothers"
+      ],
+      "type": "gang",
+      "context": "Outlaw gang active 1919-1924, robbed banks and trains in the US and Canada.",
+      "time_period": "1919-1924"
+    },
+    {
+      "standard_name": "Barrow Gang",
+      "original_text_name": "Barrow Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group led by Clyde Barrow and Bonnie Parker, active in the 1930s.",
+      "time_period": "1930s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Newton Gang",
+      "target": "Barrow Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Newton Gang allowed the Barrow Gang to hide out in a house they owned in Tulsa in 1934.",
+      "time_period": "1934"
+    }
+  ],
+  "source_file": "Newton_Gang"
+}

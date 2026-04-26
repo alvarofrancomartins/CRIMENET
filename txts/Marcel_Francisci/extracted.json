@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Unione Corse",
+      "original_text_name": "Unione Corse",
+      "aliases": [
+        "Corsican Mafia"
+      ],
+      "type": "mafia",
+      "context": "Corsican organized crime group involved in drug trafficking and smuggling.",
+      "time_period": "20th century"
+    },
+    {
+      "standard_name": "Guérini clan",
+      "original_text_name": "Guérini clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Corsican Mafia clan led by Antoine Guérini, involved in heroin trafficking from Turkey.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Civic Action Service",
+      "original_text_name": "Civic Action Service (SAC)",
+      "aliases": [
+        "SAC"
+      ],
+      "type": "militia",
+      "context": "Gaullist militia with which Francisci was associated.",
+      "time_period": "1960s-1980s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Unione Corse",
+      "target": "Guérini clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Guérini clan was a ruling dynasty within the Corsican Mafia, and Francisci's faction fought a gangland war against them from 1965 to 1967.",
+      "time_period": "1965-1967"
+    }
+  ],
+  "source_file": "Marcel_Francisci"
+}

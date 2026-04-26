@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Savage Nomads",
+      "original_text_name": "Savage Nomads",
+      "aliases": [],
+      "type": "gang",
+      "context": "A mostly Puerto Rican and African American street gang started in the South Bronx, New York in the late 1960s, involved in small crime activities.",
+      "time_period": "late 1960s-present"
+    },
+    {
+      "standard_name": "Seven Immortals",
+      "original_text_name": "Seven Immortals",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival gang of the Savage Nomads in New York City.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Savage Skulls",
+      "original_text_name": "Savage Skulls",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival gang of the Savage Nomads, also known for appropriating Nazi symbolism.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dirty Dozen",
+      "original_text_name": "Dirty Dozen",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival gang of the Savage Nomads in New York City.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Savage Nomads",
+      "target": "Seven Immortals",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Savage Nomads had running battles with the Seven Immortals.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Savage Nomads",
+      "target": "Savage Skulls",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Savage Nomads had running battles with the Savage Skulls.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Savage Nomads",
+      "target": "Dirty Dozen",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Savage Nomads had running battles with the Dirty Dozen.",
+      "time_period": "1970s"
+    }
+  ],
+  "source_file": "Savage_Nomads"
+}

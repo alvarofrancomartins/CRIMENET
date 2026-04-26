@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kings Crew Motorcycle Club",
+      "original_text_name": "Kings Crew Motorcycle Club",
+      "aliases": [
+        "Kings Crew"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club based in Western Canada, founded in Calgary in 1977. Involved in drug trafficking, murder, assault, extortion.",
+      "time_period": "1977-1990s"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hell's Angels",
+      "aliases": [
+        "Hells Angels"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club that absorbed Kings Crew and other Alberta clubs in the late 1990s.",
+      "time_period": "founded 1948"
+    },
+    {
+      "standard_name": "Grim Reapers Motorcycle Club",
+      "original_text_name": "Grim Reapers Motorcycle Club",
+      "aliases": [
+        "Grim Reapers",
+        "Reapers"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club in Alberta, rival of Kings Crew and Rebels. Dominant in Red Deer and Calgary.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Rebels Motorcycle Club",
+      "original_text_name": "Rebels Motorcycle Club",
+      "aliases": [
+        "Rebels"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club in Alberta, dominant in Edmonton. Allied with Kings Crew, rival of Grim Reapers.",
+      "time_period": "founded 1968"
+    },
+    {
+      "standard_name": "Warlords Motorcycle Club",
+      "original_text_name": "Warlords Motorcycle Club",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "One of the four dominant outlaw motorcycle clubs in Alberta prior to 1997.",
+      "time_period": "before 1997"
+    },
+    {
+      "standard_name": "Lobos",
+      "original_text_name": "Lobos",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Listed as an ally of Kings Crew in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Warlocks Motorcycle Club (Florida)",
+      "original_text_name": "Warlocks Motorcycle Club (Florida)",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Listed as a rival of Kings Crew in the infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kings Crew Motorcycle Club",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kings Crew patched over to Hells Angels in the late 1990s, becoming part of them.",
+      "time_period": "late 1990s"
+    },
+    {
+      "source": "Kings Crew Motorcycle Club",
+      "target": "Rebels Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kings Crew aligned with Rebels against Grim Reapers.",
+      "time_period": "1977-1990s"
+    },
+    {
+      "source": "Kings Crew Motorcycle Club",
+      "target": "Grim Reapers Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Violent conflict including theft of cuts, bombings, shootings, and murders.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Rebels Motorcycle Club",
+      "target": "Grim Reapers Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Main rivals in Alberta, with violent exchanges and territorial disputes.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "source": "Kings Crew Motorcycle Club",
+      "target": "Lobos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Kings Crew Motorcycle Club",
+      "target": "Warlocks Motorcycle Club (Florida)",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rivals in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Kings_Crew_Motorcycle_Club"
+}

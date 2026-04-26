@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Solntsevskaya Bratva",
+      "original_text_name": "Solntsevskaya Bratva",
+      "aliases": [
+        "Solntsevo group"
+      ],
+      "type": "mafia",
+      "context": "Russian mafia syndicate; Mogilevich was their key money-laundering contact in the 1980s.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian American Mafia family; involved in a toxic waste scheme with Mogilevich.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "clan",
+      "context": "Italian organized crime group; Mogilevich had alliances with them, specifically the Giuliano clan.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Giuliano clan",
+      "original_text_name": "Giuliano clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan; Salvatore De Falco was a member who met with Mogilevich in Prague.",
+      "time_period": "1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Solntsevskaya Bratva",
+      "target": "Semion Mogilevich",
+      "relationship": "other",
+      "detail": "money-laundering contact",
+      "context": "Mogilevich was the key money-laundering contact for the Solntsevskaya Bratva in the 1980s.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Genovese crime family",
+      "target": "Semion Mogilevich",
+      "relationship": "other",
+      "detail": "business partners",
+      "context": "Mogilevich's lieutenants met with Genovese family associates to broker a toxic waste dumping scheme.",
+      "time_period": "1998"
+    },
+    {
+      "source": "Camorra",
+      "target": "Semion Mogilevich",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mogilevich had alliances with the Camorra, particularly with the Giuliano clan.",
+      "time_period": "1993"
+    },
+    {
+      "source": "Giuliano clan",
+      "target": "Semion Mogilevich",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Salvatore De Falco of the Giuliano clan met with Mogilevich in Prague in 1993.",
+      "time_period": "1993"
+    }
+  ],
+  "source_file": "Semion_Mogilevich"
+}

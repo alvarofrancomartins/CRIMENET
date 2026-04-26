@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sumiyoshi-kai",
+      "original_text_name": "Sumiyoshi-kai",
+      "aliases": [
+        "Sumiyoshi-rengo",
+        "Sumiyoshi-rengokai",
+        "Minato-kai"
+      ],
+      "type": "mafia",
+      "context": "Second-largest yakuza group in Japan, operates in Tokyo's upscale districts like Kabukichō and Ginza, involved in protection rackets.",
+      "time_period": "1958-present"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Largest yakuza group in Japan, main rival of Sumiyoshi-kai.",
+      "time_period": "1915-present"
+    },
+    {
+      "standard_name": "Nishida-gumi",
+      "original_text_name": "Nishida-gumi",
+      "aliases": [],
+      "type": "gang",
+      "context": "Affiliated group of Sumiyoshi-kai, its head was gunned down in 2003.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Kokusui-kai",
+      "original_text_name": "Kokusui-kai",
+      "aliases": [],
+      "type": "gang",
+      "context": "Group whose head was found dead in 2007, raising tensions between Sumiyoshi-kai and Yamaguchi-gumi.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Sumiyoshi-kai",
+      "target": "Yamaguchi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Main rival; involved in shootings and retribution attacks in 2003 and 2007.",
+      "time_period": "2003-2007"
+    },
+    {
+      "source": "Nishida-gumi",
+      "target": "Sumiyoshi-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nishida-gumi is an affiliated group of Sumiyoshi-kai.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kokusui-kai",
+      "target": "Sumiyoshi-kai",
+      "relationship": "other",
+      "detail": "affiliated",
+      "context": "Kokusui-kai's head was found dead, raising tensions between Sumiyoshi-kai and Yamaguchi-gumi.",
+      "time_period": "2007"
+    }
+  ],
+  "source_file": "Sumiyoshi-kai"
+}

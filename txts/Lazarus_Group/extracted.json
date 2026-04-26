@@ -1,0 +1,140 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Lazarus Group",
+      "original_text_name": "Lazarus Group",
+      "aliases": [
+        "414 Liaison Office",
+        "APT38",
+        "Diamond Sleet",
+        "Gods Apostles",
+        "Gods Disciples",
+        "Guardians of Peace",
+        "Hidden Cobra",
+        "Whois Team",
+        "ZINC"
+      ],
+      "type": "other",
+      "context": "State-sponsored North Korean hacker group responsible for numerous cyberattacks and thefts since 2009.",
+      "time_period": "2009-present"
+    },
+    {
+      "standard_name": "Bluenoroff",
+      "original_text_name": "Bluenoroff",
+      "aliases": [
+        "APT38",
+        "BeagleBoyz",
+        "NICKEL GLADSTONE",
+        "Stardust Chollima"
+      ],
+      "type": "faction",
+      "context": "Sub-group within Lazarus Group specializing in financial cyberattacks, identified by Kaspersky Lab.",
+      "time_period": "2017"
+    },
+    {
+      "standard_name": "Shadow Brokers",
+      "original_text_name": "Shadow Brokers",
+      "aliases": [],
+      "type": "other",
+      "context": "Hacker group that made public the EternalBlue exploit stolen from the NSA.",
+      "time_period": "2017"
+    },
+    {
+      "standard_name": "NewRomanic Cyber Army Team",
+      "original_text_name": "NewRomanic Cyber Army Team",
+      "aliases": [],
+      "type": "other",
+      "context": "Group that took credit for the 2013 DarkSeoul attack, later linked to Lazarus Group.",
+      "time_period": "2013"
+    },
+    {
+      "standard_name": "AndAriel",
+      "original_text_name": "AndAriel",
+      "aliases": [
+        "Andarial",
+        "Silent Chollima",
+        "Dark Seoul",
+        "Rifle",
+        "Wassonite"
+      ],
+      "type": "other",
+      "context": "Subgroup of Lazarus Group targeting South Korea and other governments for espionage.",
+      "time_period": "unknown-present"
+    },
+    {
+      "standard_name": "Reconnaissance General Bureau",
+      "original_text_name": "Reconnaissance General Bureau",
+      "aliases": [],
+      "type": "other",
+      "context": "North Korean military intelligence agency; indicted members participated in Lazarus campaigns.",
+      "time_period": "unknown-present"
+    },
+    {
+      "standard_name": "Huione Pay",
+      "original_text_name": "Huione Pay",
+      "aliases": [],
+      "type": "other",
+      "context": "Cambodian payment platform that received cryptocurrency from Lazarus Group.",
+      "time_period": "2023-2024"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bluenoroff",
+      "target": "Lazarus Group",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Bluenoroff is a sub-group within Lazarus Group specializing in financial cyberattacks.",
+      "time_period": "2017"
+    },
+    {
+      "source": "Shadow Brokers",
+      "target": "Lazarus Group",
+      "relationship": "other",
+      "detail": "indirect link via WannaCry",
+      "context": "Shadow Brokers leaked the EternalBlue exploit used in the WannaCry attack attributed to Lazarus Group.",
+      "time_period": "2017"
+    },
+    {
+      "source": "NewRomanic Cyber Army Team",
+      "target": "Lazarus Group",
+      "relationship": "other",
+      "detail": "possible alias",
+      "context": "NewRomanic Cyber Army Team took credit for the 2013 DarkSeoul attack, later attributed to Lazarus Group.",
+      "time_period": "2013"
+    },
+    {
+      "source": "Lazarus Group",
+      "target": "BlueNorOff",
+      "relationship": "other",
+      "detail": "subgroup",
+      "context": "BlueNorOff is a financially motivated subgroup of Lazarus Group.",
+      "time_period": "2014-present"
+    },
+    {
+      "source": "Lazarus Group",
+      "target": "AndAriel",
+      "relationship": "other",
+      "detail": "subgroup",
+      "context": "AndAriel is a subgroup of Lazarus Group targeting South Korea.",
+      "time_period": "unknown-present"
+    },
+    {
+      "source": "Lazarus Group",
+      "target": "Reconnaissance General Bureau",
+      "relationship": "other",
+      "detail": "affiliated",
+      "context": "Indicted members of Reconnaissance General Bureau participated in Lazarus hacking campaigns.",
+      "time_period": "unknown-present"
+    },
+    {
+      "source": "Lazarus Group",
+      "target": "Huione Pay",
+      "relationship": "other",
+      "detail": "financial transaction",
+      "context": "Huione Pay received cryptocurrency from Lazarus Group between June 2023 and February 2024.",
+      "time_period": "2023-2024"
+    }
+  ],
+  "source_file": "Lazarus_Group"
+}

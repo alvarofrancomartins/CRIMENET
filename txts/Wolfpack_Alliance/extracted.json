@@ -1,0 +1,271 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Wolfpack Alliance",
+      "original_text_name": "Wolfpack Alliance",
+      "aliases": [
+        "Wolfpack"
+      ],
+      "type": "other",
+      "context": "Canadian organized crime consortium founded in 2010, distributing cocaine from Sinaloa Cartel.",
+      "time_period": "2010-present"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [
+        "Hells Angels MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club; member Larry Amero founded Wolfpack as a side project.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Red Scorpions",
+      "original_text_name": "Red Scorpions",
+      "aliases": [],
+      "type": "gang",
+      "context": "Canadian gang; leader Jonathan Bacon was a Wolfpack leader.",
+      "time_period": "2000s-2011"
+    },
+    {
+      "standard_name": "Independent Soldiers",
+      "original_text_name": "Independent Soldiers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Canadian gang; leaders Randy Naicker and James Riach were Wolfpack leaders.",
+      "time_period": "2000s-2012"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel; supplied cocaine to Wolfpack.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Alkhalil family",
+      "original_text_name": "Alkhalil family",
+      "aliases": [],
+      "type": "other",
+      "context": "Canadian crime family; members Nabil and Rabih Alkhalil were Wolfpack members.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "West End Gang",
+      "original_text_name": "West End Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Montreal-based gang controlling Port of Montreal; member Shane Maloney was Wolfpack leader.",
+      "time_period": "1900s-present"
+    },
+    {
+      "standard_name": "Rizzuto family",
+      "original_text_name": "Rizzuto family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Montreal Mafia family; Martino Caputo worked as their agent.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Dhak-Duhre group",
+      "original_text_name": "Dhak-Duhre group",
+      "aliases": [
+        "Dhak-Duhre gang"
+      ],
+      "type": "gang",
+      "context": "Canadian gang; rivals of Wolfpack, allied with United Nations gang.",
+      "time_period": "2000s-2013"
+    },
+    {
+      "standard_name": "United Nations gang",
+      "original_text_name": "United Nations gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Canadian gang; allied with Dhak-Duhre group against Wolfpack.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian mafia; families dominate Toronto area.",
+      "time_period": "1800s-present"
+    },
+    {
+      "standard_name": "Five Families",
+      "original_text_name": "Five Families",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York Mafia families; dealt with Montreal Mafia.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Siderno Group",
+      "original_text_name": "Siderno Group",
+      "aliases": [
+        "Commisso 'ndrina"
+      ],
+      "type": "mafia",
+      "context": "'Ndrangheta clan from Siderno, Italy; involved in a gang war with the Wolfpack.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Vagabonds",
+      "original_text_name": "Vagabonds",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club; member John Ignagni was also in the Wolfpack.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Dhak Crime Group",
+      "original_text_name": "Dhak Crime Group",
+      "aliases": [],
+      "type": "gang",
+      "context": "Canadian organized crime group; rival of the Wolfpack Alliance.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Duhre Crime Group",
+      "original_text_name": "Duhre Crime Group",
+      "aliases": [],
+      "type": "gang",
+      "context": "Canadian organized crime group; rival of the Wolfpack Alliance.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "United Nations",
+      "original_text_name": "United Nations",
+      "aliases": [],
+      "type": "gang",
+      "context": "Canadian street gang; rival of the Wolfpack Alliance.",
+      "time_period": "1990s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Wolfpack was founded by Hells Angels member Larry Amero as a side project.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Red Scorpions",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Red Scorpions leader Jonathan Bacon was a Wolfpack leader.",
+      "time_period": "2010-2011"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Independent Soldiers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Independent Soldiers leaders Randy Naicker and James Riach were Wolfpack leaders.",
+      "time_period": "2010-2012"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Wolfpack distributed cocaine from Sinaloa Cartel; Nabil Alkhalil was liaison.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Alkhalil family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Alkhalil family members were part of Wolfpack.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "West End Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "West End Gang member Shane Maloney was a Wolfpack leader; gang controlled port used for smuggling.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Rizzuto family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Wolfpack member Martino Caputo worked as Rizzuto family's agent in Toronto.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Dhak-Duhre group",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Wolfpack was blamed for murder of Gurmit Dhak, sparking a gang war.",
+      "time_period": "2010-2013"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "United Nations gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "United Nations gang aligned with Dhak-Duhre group against Wolfpack.",
+      "time_period": "2011-2012"
+    },
+    {
+      "source": "Dhak-Duhre group",
+      "target": "United Nations gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "United Nations gang aligned with Dhak-Duhre group against Wolfpack.",
+      "time_period": "2011-2012"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Siderno Group",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Wolfpack engaged in a gang war with the Siderno Group in Toronto from 2016-2018.",
+      "time_period": "2016-2018"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Vagabonds",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Vagabonds member John Ignagni was also a Wolfpack member until 2016.",
+      "time_period": "until 2016"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Dhak Crime Group",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Dhak Crime Group is listed as a rival of the Wolfpack Alliance.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Duhre Crime Group",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Duhre Crime Group is listed as a rival of the Wolfpack Alliance.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "United Nations",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "United Nations is listed as a rival of the Wolfpack Alliance.",
+      "time_period": "2010-present"
+    }
+  ],
+  "source_file": "Wolfpack_Alliance"
+}

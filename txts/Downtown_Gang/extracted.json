@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Downtown Gang",
+      "original_text_name": "Downtown Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Bootlegging, gambling, and nightclub operation in Galveston, Texas during Prohibition.",
+      "time_period": "c. 1920 – 1935"
+    },
+    {
+      "standard_name": "Beach Gang",
+      "original_text_name": "Beach Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang controlling gambling and bootlegging in Galveston, Texas.",
+      "time_period": "c. 1920 – 1935"
+    },
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Major organized crime syndicate based in Chicago, involved in bootlegging and other rackets.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Maceo Syndicate",
+      "original_text_name": "Maceo Syndicate",
+      "aliases": [],
+      "type": "other",
+      "context": "Successor to the Beach Gang, took over much of Galveston island after Prohibition.",
+      "time_period": "1930s-1940s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Downtown Gang",
+      "target": "Beach Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The two gangs fought for control of Galveston, with shootouts and hijackings common.",
+      "time_period": "c. 1920 – 1935"
+    },
+    {
+      "source": "Downtown Gang",
+      "target": "Chicago Outfit",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Frank Nitti of the Chicago Outfit was a business partner of Johnny Jack Nounes.",
+      "time_period": "1920s"
+    },
+    {
+      "source": "Downtown Gang",
+      "target": "Maceo Syndicate",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Maceo Syndicate succeeded the Beach Gang and ordered the assassination of George Musey.",
+      "time_period": "1930s"
+    }
+  ],
+  "source_file": "Downtown_Gang"
+}

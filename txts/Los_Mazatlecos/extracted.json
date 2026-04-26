@@ -1,0 +1,113 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Mazatlecos",
+      "original_text_name": "Los Mazatlecos",
+      "aliases": [
+        "The Mazatlan people"
+      ],
+      "type": "gang",
+      "context": "Enforcer gang for the Beltrán Leyva Cartel, active in Sinaloa, Sonora, Durango, Nayarit.",
+      "time_period": "2000-present"
+    },
+    {
+      "standard_name": "Beltrán Leyva Cartel",
+      "original_text_name": "Beltrán Leyva Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, formerly led by Héctor Beltrán Leyva.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, rival of Los Mazatlecos and Beltrán Leyva Cartel.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican criminal organization, allied with Beltrán Leyva Cartel.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Juarez Cartel",
+      "original_text_name": "Juarez Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, allied with Beltrán Leyva Cartel.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Los Ántrax",
+      "original_text_name": "Los Ántrax",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mexican gang, rival of Los Mazatlecos.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, rival of Los Mazatlecos.",
+      "time_period": "1930s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Mazatlecos",
+      "target": "Beltrán Leyva Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Mazatlecos is an enforcer gang for the Beltrán Leyva Cartel.",
+      "time_period": "2000-present"
+    },
+    {
+      "source": "Los Mazatlecos",
+      "target": "Sinaloa Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Mazatlecos are in a turf war against the Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Beltrán Leyva Cartel",
+      "target": "Los Zetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Beltrán Leyva Cartel is allied with Los Zetas.",
+      "time_period": null
+    },
+    {
+      "source": "Beltrán Leyva Cartel",
+      "target": "Juarez Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Beltrán Leyva Cartel is allied with the Juarez Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Los Mazatlecos",
+      "target": "Los Ántrax",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Mazatlecos have Los Ántrax as rivals.",
+      "time_period": null
+    },
+    {
+      "source": "Los Mazatlecos",
+      "target": "Gulf Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Mazatlecos have the Gulf Cartel as rivals.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Los_Mazatlecos"
+}

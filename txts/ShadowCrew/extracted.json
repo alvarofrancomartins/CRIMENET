@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "standard_name": "ShadowCrew",
+      "original_text_name": "ShadowCrew",
+      "aliases": [
+        "ShadowCrew.com"
+      ],
+      "type": "other",
+      "context": "Cybercrime forum operating from 2002 to 2004, facilitating credit card fraud, hacking, and drug sales.",
+      "time_period": "2002-2004"
+    },
+    {
+      "standard_name": "Counterfeit Library",
+      "original_text_name": "counterfeitlibrary.com",
+      "aliases": [],
+      "type": "other",
+      "context": "Underground site run by Brett Johnson, precursor to ShadowCrew.",
+      "time_period": "early 2000s"
+    },
+    {
+      "standard_name": "Carder Planet",
+      "original_text_name": "carderplanet.com",
+      "aliases": [],
+      "type": "other",
+      "context": "Russian-language carding forum owned by Dmitry Golubov, successor to Counterfeit Library.",
+      "time_period": "early 2000s"
+    },
+    {
+      "standard_name": "ScandinavianCarding",
+      "original_text_name": "ScandinavianCarding",
+      "aliases": [],
+      "type": "other",
+      "context": "Carding forum where Brett Johnson was embedded as an informant.",
+      "time_period": "mid-2000s"
+    },
+    {
+      "standard_name": "CardersMarket",
+      "original_text_name": "CardersMarket",
+      "aliases": [],
+      "type": "other",
+      "context": "Carding forum where Brett Johnson was embedded as an informant.",
+      "time_period": "mid-2000s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "ShadowCrew",
+      "target": "Counterfeit Library",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "ShadowCrew emerged from Counterfeit Library, which was run by Brett Johnson.",
+      "time_period": "2002"
+    },
+    {
+      "source": "Counterfeit Library",
+      "target": "Carder Planet",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "Counterfeit Library was followed up by Carder Planet, owned by Dmitry Golubov.",
+      "time_period": "early 2000s"
+    },
+    {
+      "source": "ShadowCrew",
+      "target": "ScandinavianCarding",
+      "relationship": "other",
+      "detail": "informant infiltration",
+      "context": "Brett Johnson, a ShadowCrew admin turned informant, was embedded in ScandinavianCarding.",
+      "time_period": "2005-2006"
+    },
+    {
+      "source": "ShadowCrew",
+      "target": "CardersMarket",
+      "relationship": "other",
+      "detail": "informant infiltration",
+      "context": "Brett Johnson, a ShadowCrew admin turned informant, was embedded in CardersMarket.",
+      "time_period": "2005-2006"
+    }
+  ],
+  "source_file": "ShadowCrew"
+}

@@ -1,0 +1,166 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Playboys 13",
+      "original_text_name": "Playboys 13 Gang",
+      "aliases": [
+        "PBS13",
+        "Conejo",
+        "Rabbit gang",
+        "Playboys"
+      ],
+      "type": "gang",
+      "context": "American street gang founded in Los Angeles County, active in drug trafficking, murder, and other crimes.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "La EME",
+      "aliases": [
+        "Mexican Mafia"
+      ],
+      "type": "gang",
+      "context": "Prison gang that the Playboys align with.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Southern California gang members; Playboys are Sureño but rivals with most other Sureño gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "MS-13",
+      "original_text_name": "MS-13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with Playboys according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Aryan Brotherhood",
+      "original_text_name": "Aryan Brotherhood",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with Playboys according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Primera Flats",
+      "original_text_name": "Primera Flats",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with Playboys according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "18th Street gang",
+      "original_text_name": "18th Street gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Playboys according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "38th Street gang",
+      "original_text_name": "38th Street gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Playboys according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Venice Shoreline Crips",
+      "original_text_name": "Venice Shoreline Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Playboys according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Florencia 13",
+      "original_text_name": "Florencia 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Playboys according to infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Playboys 13",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Playboys align with La EME (Mexican Mafia) and use the number 13 to show allegiance.",
+      "time_period": null
+    },
+    {
+      "source": "Playboys 13",
+      "target": "Sureños",
+      "relationship": "other",
+      "detail": "affiliation",
+      "context": "Playboys are a Sureño gang but rivals with most other Sureño gangs.",
+      "time_period": null
+    },
+    {
+      "source": "Playboys 13",
+      "target": "MS-13",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Infobox lists MS-13 as an ally.",
+      "time_period": null
+    },
+    {
+      "source": "Playboys 13",
+      "target": "Aryan Brotherhood",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Infobox lists Aryan Brotherhood as an ally.",
+      "time_period": null
+    },
+    {
+      "source": "Playboys 13",
+      "target": "Primera Flats",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Infobox lists Primera Flats as an ally.",
+      "time_period": null
+    },
+    {
+      "source": "Playboys 13",
+      "target": "18th Street gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Infobox lists 18th Street gang as a rival.",
+      "time_period": null
+    },
+    {
+      "source": "Playboys 13",
+      "target": "38th Street gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Infobox lists 38th Street gang as a rival.",
+      "time_period": null
+    },
+    {
+      "source": "Playboys 13",
+      "target": "Venice Shoreline Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Infobox lists Venice Shoreline Crips as a rival.",
+      "time_period": null
+    },
+    {
+      "source": "Playboys 13",
+      "target": "Florencia 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Infobox lists Florencia 13 as a rival.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Playboys_(gang)"
+}

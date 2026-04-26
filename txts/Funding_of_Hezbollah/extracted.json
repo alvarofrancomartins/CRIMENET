@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hezbollah",
+      "original_text_name": "Hezbollah",
+      "aliases": [
+        "Hizbullah",
+        "Party of God"
+      ],
+      "type": "terrorist_organization",
+      "context": "Lebanese Shia Islamist militant group and political party, involved in various criminal activities for funding.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "North Valley Cartel",
+      "original_text_name": "North Valley",
+      "aliases": [
+        "Norte del Valle Cartel"
+      ],
+      "type": "cartel",
+      "context": "Colombian drug cartel that allied with Hezbollah for cocaine smuggling and money laundering.",
+      "time_period": "1990s-2010s"
+    },
+    {
+      "standard_name": "FARC",
+      "original_text_name": "FARC",
+      "aliases": [
+        "Revolutionary Armed Forces of Colombia"
+      ],
+      "type": "militia",
+      "context": "Colombian leftist guerrilla group involved in drug trafficking and alliance with Hezbollah.",
+      "time_period": "1964-2017"
+    },
+    {
+      "standard_name": "Kinahan Cartel",
+      "original_text_name": "Kinahan cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Irish drug trafficking organization that coordinated a cocaine shipment with Hezbollah from Venezuela.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Al-Qard Al-Hassan Association",
+      "original_text_name": "Al-Qard Al-Hassan Association",
+      "aliases": [],
+      "type": "other",
+      "context": "Charity used to collect money for Hezbollah in Nigeria, pretending to help the Lebanese community.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Whish Money",
+      "original_text_name": "Whish Money",
+      "aliases": [],
+      "type": "other",
+      "context": "Digital payment service used by groups tied to Hezbollah to raise money, exploiting weak anti-money laundering rules.",
+      "time_period": null
+    },
+    {
+      "standard_name": "OMT",
+      "original_text_name": "OMT",
+      "aliases": [],
+      "type": "other",
+      "context": "Digital payment service used by groups tied to Hezbollah to raise money, exploiting weak anti-money laundering rules.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hezbollah",
+      "target": "North Valley Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hezbollah allied with North Valley Cartel for cocaine smuggling and money laundering, with 12% of profits going to Hezbollah.",
+      "time_period": "2000s-2008"
+    },
+    {
+      "source": "Hezbollah",
+      "target": "FARC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hezbollah allied with FARC and North Valley Cartel in a drug smuggling and money laundering cell dismantled in 2008.",
+      "time_period": "2000s-2008"
+    },
+    {
+      "source": "Hezbollah",
+      "target": "Kinahan Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hezbollah coordinated a cocaine shipment from Venezuela with the Kinahan Cartel, seized in Ireland in 2023.",
+      "time_period": "2023"
+    },
+    {
+      "source": "Hezbollah",
+      "target": "Al-Qard Al-Hassan Association",
+      "relationship": "other",
+      "detail": "funding conduit",
+      "context": "Al-Qard Al-Hassan Association collects money for Hezbollah under the guise of charity.",
+      "time_period": null
+    },
+    {
+      "source": "Hezbollah",
+      "target": "Whish Money",
+      "relationship": "other",
+      "detail": "funding conduit",
+      "context": "Groups tied to Hezbollah use Whish Money to raise funds, exploiting weak anti-money laundering rules.",
+      "time_period": null
+    },
+    {
+      "source": "Hezbollah",
+      "target": "OMT",
+      "relationship": "other",
+      "detail": "funding conduit",
+      "context": "Groups tied to Hezbollah use OMT to raise funds, exploiting weak anti-money laundering rules.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Funding_of_Hezbollah"
+}

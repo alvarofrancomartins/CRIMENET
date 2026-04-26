@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Ride or Die Gang",
+      "original_text_name": "ROD Gang",
+      "aliases": [
+        "Ride or Die Gang"
+      ],
+      "type": "gang",
+      "context": "Small murderous drug ring operating in New Orleans, primarily in St. Roch neighborhood.",
+      "time_period": "2007-2013"
+    },
+    {
+      "standard_name": "39ers Gang",
+      "original_text_name": "39ers gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to the Ride or Die Gang in New Orleans.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ride or Die Gang",
+      "target": "39ers Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The 39ers gang is listed as a rival of the Ride or Die Gang.",
+      "time_period": null
+    }
+  ],
+  "source_file": "ROD_Gang"
+}

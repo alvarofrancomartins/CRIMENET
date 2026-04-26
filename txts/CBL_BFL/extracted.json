@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "CBL/BFL",
+      "original_text_name": "CBL/BFL",
+      "aliases": [
+        "Cash Been Long / Brothers For Life"
+      ],
+      "type": "gang",
+      "context": "American gang based in Buffalo, New York, involved in drug trafficking, weapons, and violence.",
+      "time_period": "2009-present"
+    },
+    {
+      "standard_name": "Ronnie Gang",
+      "original_text_name": "Ronnie Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to CBL/BFL, mentioned in the infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "CBL/BFL",
+      "target": "Ronnie Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "CBL/BFL and Ronnie Gang are rivals, as stated in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "CBL_BFL"
+}

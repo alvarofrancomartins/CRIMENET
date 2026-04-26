@@ -1,0 +1,190 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Norte del Valle Cartel",
+      "original_text_name": "Norte del Valle Cartel",
+      "aliases": [
+        "Cártel del Norte del Valle",
+        "Los Norteños",
+        "NVC",
+        "North Valley Cartel"
+      ],
+      "type": "cartel",
+      "context": "Colombian drug cartel operating in northern Valle del Cauca, prominent in the 1990s-2000s.",
+      "time_period": "1990s-2008"
+    },
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel that fragmented, leading to the formation of the Norte del Valle Cartel.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel that fragmented, allowing Norte del Valle to rise.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "United Self-Defense Forces of Colombia",
+      "original_text_name": "United Self-Defense Forces of Colombia (AUC)",
+      "aliases": [
+        "AUC"
+      ],
+      "type": "militia",
+      "context": "Right-wing paramilitary group that protected Norte del Valle cartel's operations.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "standard_name": "North Coast Cartel",
+      "original_text_name": "North Coast Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Smaller Colombian cartel mentioned as less powerful than Norte del Valle.",
+      "time_period": null
+    },
+    {
+      "standard_name": "FARC",
+      "original_text_name": "FARC Marxist guerrilla",
+      "aliases": [
+        "FARC"
+      ],
+      "type": "militia",
+      "context": "Left-wing guerrilla group mentioned as active in Colombia alongside cartels.",
+      "time_period": "1964-2017"
+    },
+    {
+      "standard_name": "Los Machos",
+      "original_text_name": "Los Machos",
+      "aliases": [
+        "Diego Montoya Organization"
+      ],
+      "type": "faction",
+      "context": "Paramilitary security force of Diego Montoya, later a drug trafficking organization.",
+      "time_period": "2000s-2008"
+    },
+    {
+      "standard_name": "Los Rastrojos",
+      "original_text_name": "Los Rastrojos",
+      "aliases": [
+        "Wilber Varela Organization"
+      ],
+      "type": "faction",
+      "context": "Colombian drug trafficking paramilitary group formed by Wilber Varela in 2004.",
+      "time_period": "2004-present"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, ally of Norte del Valle Cartel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "AUC",
+      "original_text_name": "AUC",
+      "aliases": [
+        "United Self-Defense Forces of Colombia"
+      ],
+      "type": "militia",
+      "context": "Colombian paramilitary group, involved in drug trafficking.",
+      "time_period": "1997-2006"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Norte del Valle Cartel",
+      "target": "Cali Cartel",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "Norte del Valle formed after Cali Cartel dissolved, with former members joining.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Norte del Valle Cartel",
+      "target": "Medellín Cartel",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "Norte del Valle rose after Medellín Cartel fragmented.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Norte del Valle Cartel",
+      "target": "United Self-Defense Forces of Colombia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Norte del Valle employed AUC to protect drug routes and labs.",
+      "time_period": "1990s-2004"
+    },
+    {
+      "source": "Norte del Valle Cartel",
+      "target": "North Coast Cartel",
+      "relationship": "other",
+      "detail": "comparison",
+      "context": "Norte del Valle was more powerful than the North Coast Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Norte del Valle Cartel",
+      "target": "FARC",
+      "relationship": "other",
+      "detail": "comparison",
+      "context": "Norte del Valle was considered more powerful than FARC.",
+      "time_period": null
+    },
+    {
+      "source": "Norte del Valle Cartel",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Norte del Valle Cartel allied with Sinaloa Cartel for drug trafficking.",
+      "time_period": null
+    },
+    {
+      "source": "Norte del Valle Cartel",
+      "target": "Cali Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Norte del Valle Cartel rivaled the Cali Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Los Machos",
+      "target": "Norte del Valle Cartel",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Los Machos started as Montoya's security force within the Norte del Valle Cartel.",
+      "time_period": "2000s-2008"
+    },
+    {
+      "source": "Los Rastrojos",
+      "target": "Norte del Valle Cartel",
+      "relationship": "other",
+      "detail": "splinter group",
+      "context": "Los Rastrojos formed from a faction of the Norte del Valle Cartel after Varela split from Montoya.",
+      "time_period": "2004-2008"
+    },
+    {
+      "source": "Los Rastrojos",
+      "target": "Los Machos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Rastrojos and Los Machos were at war during the Montoya-Varela conflict.",
+      "time_period": "2004-2008"
+    },
+    {
+      "source": "AUC",
+      "target": "Los Rastrojos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "AUC commander Carlos Mario Jimenez conspired with Los Rastrojos leaders to murder Wilber Varela.",
+      "time_period": "2008"
+    }
+  ],
+  "source_file": "Norte_del_Valle_Cartel"
+}

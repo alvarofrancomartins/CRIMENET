@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Terceiro Comando",
+      "original_text_name": "Terceiro Comando",
+      "aliases": [
+        "TC",
+        "Third Command"
+      ],
+      "type": "gang",
+      "context": "Brazilian criminal organization engaged in drug trafficking in Rio de Janeiro, founded early 1980s.",
+      "time_period": "early 1980s-2006"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival criminal organization in Rio de Janeiro, engaged in drug trafficking.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Terceiro Comando",
+      "target": "Comando Vermelho",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Terceiro Comando fought conflicts with Comando Vermelho in 2001 and 2004.",
+      "time_period": "2001-2004"
+    }
+  ],
+  "source_file": "Terceiro_Comando"
+}

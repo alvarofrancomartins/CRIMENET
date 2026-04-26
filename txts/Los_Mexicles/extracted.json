@@ -1,0 +1,97 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Mexicles",
+      "original_text_name": "Los Mexicles",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mexican street gang based in Ciudad Juárez, involved in murder, drug trafficking, and other crimes.",
+      "time_period": "1987-present"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Criminal group based in Sinaloa, Mexico, involved in drug trafficking.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel (CJNG)",
+      "aliases": [
+        "CJNG"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel based in Jalisco, allied with Los Mexicles.",
+      "time_period": null
+    },
+    {
+      "standard_name": "La Línea",
+      "original_text_name": "La Línea",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mexican gang allied with Los Mexicles.",
+      "time_period": null
+    },
+    {
+      "standard_name": "La Nueva Empresa",
+      "original_text_name": "La Nueva Empresa",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mexican gang allied with Los Mexicles.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Barrio Azteca",
+      "original_text_name": "Barrio Azteca",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang and street gang based in Texas and Mexico, rival of Los Mexicles.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Mexicles",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Mexicles is allied to the Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Los Mexicles",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Mexicles is allied with CJNG.",
+      "time_period": null
+    },
+    {
+      "source": "Los Mexicles",
+      "target": "La Línea",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Mexicles is allied with La Línea.",
+      "time_period": null
+    },
+    {
+      "source": "Los Mexicles",
+      "target": "La Nueva Empresa",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Mexicles is allied with La Nueva Empresa.",
+      "time_period": null
+    },
+    {
+      "source": "Los Mexicles",
+      "target": "Barrio Azteca",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Mexicles has Barrio Azteca as a rival.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Los_Mexicles"
+}

@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Ashkenazum",
+      "original_text_name": "Ashkenazum",
+      "aliases": [],
+      "type": "other",
+      "context": "Organized crime group active in Argentina in early 1900s-1930s, involved in sex trafficking and silk smuggling.",
+      "time_period": "early 1900s-1930s"
+    },
+    {
+      "standard_name": "Zwi Migdal",
+      "original_text_name": "Zwi Migdal",
+      "aliases": [],
+      "type": "other",
+      "context": "Larger organized crime group active across five continents, specialized in sex trafficking of Eastern European Jewish girls.",
+      "time_period": "early 1900s-1930s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ashkenazum",
+      "target": "Zwi Migdal",
+      "relationship": "other",
+      "detail": "splinter group",
+      "context": "Ashkenazum was founded as a splinter group from Zwi Migdal.",
+      "time_period": "early 1900s-1930s"
+    }
+  ],
+  "source_file": "Ashkenazum"
+}

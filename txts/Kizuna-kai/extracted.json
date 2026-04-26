@@ -1,0 +1,153 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kizuna-kai",
+      "original_text_name": "Kizuna-kai",
+      "aliases": [
+        "Ninkyo-dantai-Yamaguchi-gumi",
+        "Ninkyo Yamaguchi-gumi"
+      ],
+      "type": "mafia",
+      "context": "Yakuza group based in Hyogo, Japan, formed in 2017 from a split of the Kobe Yamaguchi-gumi.",
+      "time_period": "2017-present"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [
+        "6th generation Yamaguchi-gumi"
+      ],
+      "type": "mafia",
+      "context": "Major yakuza syndicate based in Japan, split in 2015 leading to formation of Kobe Yamaguchi-gumi.",
+      "time_period": "1915-present"
+    },
+    {
+      "standard_name": "Kobe Yamaguchi-gumi",
+      "original_text_name": "Kobe Yamaguchi-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Splinter group from Yamaguchi-gumi formed in 2015, based in Kobe, Japan.",
+      "time_period": "2015-present"
+    },
+    {
+      "standard_name": "Yamaken-gumi",
+      "original_text_name": "Yamaken-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Affiliate of Kobe Yamaguchi-gumi, core organization of the Kobe Yamaguchi-gumi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Keiji Union",
+      "original_text_name": "Keiji Union",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Group that split from Tankai-ikka and joined Ninkyo-dantai-Yamaguchi-gumi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Tankai-ikka",
+      "original_text_name": "Tankai-ikka",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Affiliate of the 6th generation Yamaguchi-gumi, from which Keiji Union split.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Manabe-gumi",
+      "original_text_name": "Manabe-gumi",
+      "aliases": [
+        "Yondaime Manabe-gumi",
+        "4th generation Manabe-gumi"
+      ],
+      "type": "mafia",
+      "context": "Yakuza group whose office was used by Ninkyo Yamaguchi-gumi; later disbanded.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ikeda-gumi",
+      "original_text_name": "Ikeda-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Ally of Kizuna-kai according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Oda Kogyo",
+      "original_text_name": "Oda Kogyo",
+      "aliases": [
+        "3rd generation Oda Kogyo"
+      ],
+      "type": "mafia",
+      "context": "Yakuza group whose chairman was a top executive of Kizuna-kai before expulsion.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kizuna-kai",
+      "target": "Kobe Yamaguchi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kizuna-kai formed from members who rebelled against Kobe Yamaguchi-gumi.",
+      "time_period": "2017-present"
+    },
+    {
+      "source": "Kobe Yamaguchi-gumi",
+      "target": "Yamaguchi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kobe Yamaguchi-gumi split from Yamaguchi-gumi in 2015.",
+      "time_period": "2015-present"
+    },
+    {
+      "source": "Kizuna-kai",
+      "target": "Yamaguchi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kizuna-kai is a rival of Yamaguchi-gumi according to infobox.",
+      "time_period": "2017-present"
+    },
+    {
+      "source": "Kizuna-kai",
+      "target": "Ikeda-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ikeda-gumi is listed as an ally of Kizuna-kai in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Keiji Union",
+      "target": "Tankai-ikka",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Keiji Union split from Tankai-ikka.",
+      "time_period": "2017"
+    },
+    {
+      "source": "Keiji Union",
+      "target": "Kizuna-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Keiji Union joined Ninkyo-dantai-Yamaguchi-gumi (later Kizuna-kai) in 2017.",
+      "time_period": "2017"
+    },
+    {
+      "source": "Kizuna-kai",
+      "target": "Manabe-gumi",
+      "relationship": "other",
+      "detail": "used office",
+      "context": "Kizuna-kai used Manabe-gumi's office as headquarters.",
+      "time_period": "2017-2020"
+    },
+    {
+      "source": "Kizuna-kai",
+      "target": "Oda Kogyo",
+      "relationship": "other",
+      "detail": "former affiliation",
+      "context": "Chairman of Oda Kogyo was a top executive of Kizuna-kai until expelled in 2022.",
+      "time_period": "2017-2022"
+    }
+  ],
+  "source_file": "Kizuna-kai"
+}

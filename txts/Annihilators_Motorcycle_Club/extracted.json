@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Annihilators Motorcycle Club",
+      "original_text_name": "Annihilators Motorcycle Club",
+      "aliases": [
+        "Annihilators"
+      ],
+      "type": "motorcycle_club",
+      "context": "Canadian outlaw biker club active 1988-1999, involved in drug trafficking, extortion, murder.",
+      "time_period": "1988-1999"
+    },
+    {
+      "standard_name": "Queensmen Motorcycle Club",
+      "original_text_name": "Queensmen Motorcycle Club",
+      "aliases": [
+        "Queensmen"
+      ],
+      "type": "motorcycle_club",
+      "context": "Predecessor club based in Amherstburg, established in the 1950s.",
+      "time_period": "1950s-1982"
+    },
+    {
+      "standard_name": "Outlaws Motorcycle Club",
+      "original_text_name": "Outlaws",
+      "aliases": [
+        "Outlaws MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Dominant biker club in Ontario from 1977 to 2000, had puppet clubs.",
+      "time_period": "1977-2000"
+    },
+    {
+      "standard_name": "Holocaust Motorcycle Club",
+      "original_text_name": "Holocaust Motorcycle Club",
+      "aliases": [
+        "Holocaust club"
+      ],
+      "type": "motorcycle_club",
+      "context": "Puppet club of Outlaws, renamed from Queensmen, based in Chatham.",
+      "time_period": "1982-1988"
+    },
+    {
+      "standard_name": "Satan's Choice Motorcycle Club",
+      "original_text_name": "Satan's Choice",
+      "aliases": [
+        "Satan's Choice MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Enemies of the Outlaws, based in Ontario.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Loners Motorcycle Club",
+      "original_text_name": "Loners Motorcycle Club",
+      "aliases": [
+        "Loners"
+      ],
+      "type": "motorcycle_club",
+      "context": "Based in Woodbridge, merged with Annihilators in 1999 to counter Hells Angels.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels",
+      "aliases": [
+        "Hells Angels MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Rival of Outlaws and Annihilators, expanding into Ontario.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Annihilators Motorcycle Club",
+      "target": "Outlaws Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Annihilators were a support club for Outlaws until late 1990s.",
+      "time_period": "1988-late 1990s"
+    },
+    {
+      "source": "Holocaust Motorcycle Club",
+      "target": "Outlaws Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Holocaust was a puppet club of Outlaws, with Kellestine as president.",
+      "time_period": "1982-1988"
+    },
+    {
+      "source": "Queensmen Motorcycle Club",
+      "target": "Holocaust Motorcycle Club",
+      "relationship": "other",
+      "detail": "predecessor-successor",
+      "context": "Queensmen were renamed to Holocaust in 1982.",
+      "time_period": "1982"
+    },
+    {
+      "source": "Holocaust Motorcycle Club",
+      "target": "Annihilators Motorcycle Club",
+      "relationship": "other",
+      "detail": "predecessor-successor",
+      "context": "Holocaust was renamed to Annihilators in 1988.",
+      "time_period": "1988"
+    },
+    {
+      "source": "Annihilators Motorcycle Club",
+      "target": "Loners Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Annihilators merged into Loners in 1999.",
+      "time_period": "1999"
+    },
+    {
+      "source": "Outlaws Motorcycle Club",
+      "target": "Satan's Choice Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Satan's Choice were enemies of the Outlaws.",
+      "time_period": null
+    },
+    {
+      "source": "Annihilators Motorcycle Club",
+      "target": "Hells Angels Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels were rivals of Annihilators per infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Annihilators_Motorcycle_Club"
+}

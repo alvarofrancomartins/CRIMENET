@@ -1,0 +1,122 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Papalia 'ndrina",
+      "original_text_name": "Papalia 'ndrina",
+      "aliases": [
+        "Papalia family",
+        "Papalia clan"
+      ],
+      "type": "clan",
+      "context": "A clan of the 'Ndrangheta based in Platì, with strongholds in Northern Italy and Australia. Engaged in drug trafficking, extortion, and construction.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Criminal and mafia-type organization in Calabria, Italy. The Papalia 'ndrina is a clan within it.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Barbaro 'ndrina",
+      "original_text_name": "Barbaro 'ndrina",
+      "aliases": [
+        "Barbaro family"
+      ],
+      "type": "clan",
+      "context": "Powerful 'Ndrangheta clan from Platì, allied with Papalia and Sergi. The Papalia 'ndrina originated as a branch of it.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Sergi 'ndrina",
+      "original_text_name": "Sergi 'ndrina",
+      "aliases": [
+        "Sergi family"
+      ],
+      "type": "clan",
+      "context": "'Ndrangheta clan from Platì, allied with Papalia and Barbaro. Active in Australia.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Trimboli 'ndrina",
+      "original_text_name": "Trimboli 'ndrina",
+      "aliases": [
+        "Trimboli family"
+      ],
+      "type": "clan",
+      "context": "'Ndrangheta clan from Platì, allied with Papalia.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Molluso 'ndrina",
+      "original_text_name": "Molluso 'ndrina",
+      "aliases": [
+        "Molluso family"
+      ],
+      "type": "clan",
+      "context": "'Ndrangheta clan allied with Papalia, mentioned in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "South American drug cartels",
+      "original_text_name": "South American drug cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Drug cartels from South America allied with Papalia 'ndrina for drug trafficking.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Papalia 'ndrina",
+      "target": "'Ndrangheta",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Papalia 'ndrina is a clan within the 'Ndrangheta organization.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Papalia 'ndrina",
+      "target": "Barbaro 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Papalia 'ndrina originated as a branch of the Barbaro 'ndrina and remains allied.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Papalia 'ndrina",
+      "target": "Sergi 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with the Sergi 'ndrina, both originating from Platì and operating in Australia.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Papalia 'ndrina",
+      "target": "Trimboli 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with the Trimboli 'ndrina, all from Platì.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Papalia 'ndrina",
+      "target": "Molluso 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with the Molluso 'ndrina as per infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Papalia 'ndrina",
+      "target": "South American drug cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with South American drug cartels for drug trafficking.",
+      "time_period": "unknown"
+    }
+  ],
+  "source_file": "Papalia_'ndrina"
+}

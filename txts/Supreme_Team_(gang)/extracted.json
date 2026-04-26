@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Supreme Team",
+      "original_text_name": "Supreme Team",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang operating in New York City in the 1980s, involved in drug trafficking, murder, and money laundering.",
+      "time_period": "1981-2001"
+    },
+    {
+      "standard_name": "Lorenzo Nichols gang",
+      "original_text_name": "Lorenzo \"Fat Cat\" Nichols gang",
+      "aliases": [
+        "Nichols organization"
+      ],
+      "type": "gang",
+      "context": "Drug gang led by Lorenzo Nichols, allied with Supreme Team and supplied them with cocaine.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang based in Los Angeles, allied with Supreme Team.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Black Disciples",
+      "original_text_name": "Black Disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang based in Chicago, allied with Supreme Team.",
+      "time_period": null
+    },
+    {
+      "standard_name": "South Brooklyn Boys",
+      "original_text_name": "South Brooklyn Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Supreme Team in New York City.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Supreme Team",
+      "target": "Lorenzo Nichols gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Supreme Team was allied with Lorenzo Nichols' gang, which supplied them with powder cocaine.",
+      "time_period": "1987"
+    },
+    {
+      "source": "Supreme Team",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Supreme Team had an alliance with the Crips.",
+      "time_period": null
+    },
+    {
+      "source": "Supreme Team",
+      "target": "Black Disciples",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Supreme Team had an alliance with the Black Disciples.",
+      "time_period": null
+    },
+    {
+      "source": "Supreme Team",
+      "target": "South Brooklyn Boys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Supreme Team had a rivalry with the South Brooklyn Boys.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Supreme_Team_(gang)"
+}

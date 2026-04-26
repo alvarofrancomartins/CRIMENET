@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kuratong Baleleng",
+      "original_text_name": "Kuratong Baleleng",
+      "aliases": [],
+      "type": "other",
+      "context": "Organized crime syndicate in the Philippines, originally an anti-communist vigilante group involved in drug trafficking, kidnapping, murder, extortion, and illegal gambling.",
+      "time_period": "1986-present"
+    },
+    {
+      "standard_name": "Botanical Youth Club",
+      "original_text_name": "Botanical Youth Club",
+      "aliases": [],
+      "type": "other",
+      "context": "Youth club that originally established Kuratong Baleleng in 1986 to prevent the spread of Communist guerrillas.",
+      "time_period": "1986"
+    },
+    {
+      "standard_name": "Maguindanao guerrillas",
+      "original_text_name": "Maguindanao guerrillas",
+      "aliases": [],
+      "type": "militia",
+      "context": "Muslim guerrilla group in Mindanao; ties to Kuratong Baleleng led Maguindanaon clans to join the syndicate.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Parojinog clan",
+      "original_text_name": "Parojinogs",
+      "aliases": [],
+      "type": "clan",
+      "context": "Criminal clan associated with Kuratong Baleleng; most members were killed or captured during the Philippine drug war.",
+      "time_period": "1986-2017"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kuratong Baleleng",
+      "target": "Botanical Youth Club",
+      "relationship": "other",
+      "detail": "founded by",
+      "context": "Kuratong Baleleng was originally established by the Botanical Youth Club in 1986.",
+      "time_period": "1986"
+    },
+    {
+      "source": "Kuratong Baleleng",
+      "target": "Maguindanao guerrillas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ties to Maguindanao guerrillas led Muslim Maguindanaon clans to join Kuratong Baleleng.",
+      "time_period": null
+    },
+    {
+      "source": "Kuratong Baleleng",
+      "target": "Parojinog clan",
+      "relationship": "other",
+      "detail": "led by",
+      "context": "The Parojinog clan, led by Octavio Parojinog, was the founding leadership of Kuratong Baleleng.",
+      "time_period": "1986-2017"
+    }
+  ],
+  "source_file": "Kuratong_Baleleng"
+}

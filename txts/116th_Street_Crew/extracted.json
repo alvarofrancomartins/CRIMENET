@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    {
+      "standard_name": "116th Street Crew",
+      "original_text_name": "116th Street Crew",
+      "aliases": [
+        "Uptown Crew",
+        "116th Street Mob",
+        "Morello gang"
+      ],
+      "type": "faction",
+      "context": "Faction of the Genovese crime family operating in East Harlem and the Bronx, involved in racketeering, gambling, loansharking.",
+      "time_period": "c. 1890s-present"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [
+        "Luciano crime family"
+      ],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, controlling organized crime in New York City.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "East Harlem Purple Gang",
+      "original_text_name": "East Harlem Purple Gang",
+      "aliases": [
+        "Purple Gang"
+      ],
+      "type": "gang",
+      "context": "Italian-American murder-for-hire and drug trafficking gang operating in 1970s Italian Harlem, independent of the Mafia.",
+      "time_period": "1970s"
+    },
+    {
+      "standard_name": "Morello crime family",
+      "original_text_name": "Morello crime family",
+      "aliases": [
+        "Morello-Terranova family"
+      ],
+      "type": "mafia",
+      "context": "Early Sicilian Mafia family in New York, founded by the Morello brothers, precursor to the Genovese family.",
+      "time_period": "c. 1890s-1930s"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "clan",
+      "context": "Neapolitan crime organization active in New York, involved in the Mafia-Camorra War.",
+      "time_period": "early 1900s"
+    },
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, allied with the Genovese family.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, listed as an ally in the infobox.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Colombo crime family",
+      "original_text_name": "Colombo",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, listed as an ally in the infobox.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, listed as an ally in the infobox.",
+      "time_period": "1930s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "116th Street Crew",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The 116th Street Crew is a faction of the Genovese crime family.",
+      "time_period": "c. 1930s-present"
+    },
+    {
+      "source": "116th Street Crew",
+      "target": "East Harlem Purple Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The 116th Street Crew absorbed and initiated many former members of the Purple Gang.",
+      "time_period": "late 1970s-early 1980s"
+    },
+    {
+      "source": "Morello crime family",
+      "target": "Camorra",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Morello family fought the Camorra in the Mafia-Camorra War for control of New York gangs.",
+      "time_period": "1915-1916"
+    },
+    {
+      "source": "116th Street Crew",
+      "target": "Lucchese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The 116th Street Crew's boss Salerno discussed affairs with Lucchese boss Corallo, and the infobox lists Lucchese as an ally.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "116th Street Crew",
+      "target": "Bonanno crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "116th Street Crew",
+      "target": "Colombo crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "116th Street Crew",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "116th_Street_Crew"
+}

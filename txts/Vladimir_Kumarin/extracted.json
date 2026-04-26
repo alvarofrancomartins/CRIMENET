@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Tambovskaya Bratva",
+      "original_text_name": "Tambovskaya Bratva",
+      "aliases": [
+        "Tambov gang",
+        "Tambovskaya"
+      ],
+      "type": "gang",
+      "context": "Russian criminal gang founded by Vladimir Kumarin, operating in Saint Petersburg and northwestern Russia.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Velikolukskaya Gang",
+      "original_text_name": "Velikolukskaya",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group from Velikie Luki, Pskov region, initially hosted the Tambovskaya gang.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Malyshevskaya Gang",
+      "original_text_name": "Malyshevskaya",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal gang involved in a firefight with Kumarin's gang in 1989.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali cocaine cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel allegedly involved in money laundering with Kumarin's associates.",
+      "time_period": "1990s-2000s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Tambovskaya Bratva",
+      "target": "Velikolukskaya Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Tambovskaya merged into Velikolukskaya for protection and engaged in racketeering together.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Tambovskaya Bratva",
+      "target": "Velikolukskaya Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "After gaining strength, Tambovskaya challenged Velikolukskaya, leading to a bloody skirmish.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Tambovskaya Bratva",
+      "target": "Malyshevskaya Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kumarin's gang engaged in a firefight with Malyshevskaya in 1989.",
+      "time_period": "1989"
+    },
+    {
+      "source": "Tambovskaya Bratva",
+      "target": "Cali Cartel",
+      "relationship": "other",
+      "detail": "money laundering",
+      "context": "Kumarin's associates were suspected of laundering money through the Cali Cartel.",
+      "time_period": "2003"
+    }
+  ],
+  "source_file": "Vladimir_Kumarin"
+}

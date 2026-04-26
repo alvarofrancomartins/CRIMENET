@@ -1,0 +1,172 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bacchus Motorcycle Club",
+      "original_text_name": "Bacchus Motorcycle Club",
+      "aliases": [
+        "Bacchus MC",
+        "BMC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club in Canada, founded 1972, with 17 chapters across five provinces.",
+      "time_period": "1972-present"
+    },
+    {
+      "standard_name": "Para-Dice Riders",
+      "original_text_name": "Para-Dice Riders",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Canadian motorcycle club allied with Hells Angels and Bacchus MC.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club with chapters in Canada; allied with Para-Dice Riders and Bacchus MC.",
+      "time_period": null
+    },
+    {
+      "standard_name": "East Coast Riders",
+      "original_text_name": "East Coast Riders",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Motorcycle club whose members patched over to Bacchus MC in 2010.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Easton Crew",
+      "original_text_name": "Easton Crew",
+      "aliases": [],
+      "type": "gang",
+      "context": "Crew based in Grand Falls, Newfoundland, that patched over to become Bacchus MC chapter in 2011.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Original Red Devils Motorcycle Club",
+      "original_text_name": "Original Red Devils Motorcycle Club",
+      "aliases": [
+        "Red Devils MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Canadian motorcycle club that patched over to Bacchus MC in 2014, becoming its Ontario chapters.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Vagabonds MC",
+      "original_text_name": "Vagabonds MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Canadian motorcycle club with close relationship to Bacchus MC.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Highlanders MC",
+      "original_text_name": "Highlanders MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Canadian motorcycle club with close relationship to Bacchus MC.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Charlottetown Harley Club",
+      "original_text_name": "Charlottetown Harley Club",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Canadian motorcycle club with close relationship to Bacchus MC.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Valhellions MC",
+      "original_text_name": "Valhellions MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Support club for Bacchus MC.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bacchus Motorcycle Club",
+      "target": "Para-Dice Riders",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bacchus MC was closely allied to Para-Dice Riders, which allied with Hells Angels in 1997.",
+      "time_period": "1997-present"
+    },
+    {
+      "source": "Para-Dice Riders",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Para-Dice Riders became closely allied to Hells Angels in 1997.",
+      "time_period": "1997-present"
+    },
+    {
+      "source": "Bacchus Motorcycle Club",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bacchus MC was pulled into Hells Angels sphere of friendly clubs via Para-Dice Riders alliance.",
+      "time_period": "1997-present"
+    },
+    {
+      "source": "East Coast Riders",
+      "target": "Bacchus Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "East Coast Riders members patched over to Bacchus MC in 2010.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Easton Crew",
+      "target": "Bacchus Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Easton Crew patched over to become Bacchus MC chapter in Newfoundland in 2011.",
+      "time_period": "2011"
+    },
+    {
+      "source": "Original Red Devils Motorcycle Club",
+      "target": "Bacchus Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Original Red Devils MC patched over to Bacchus MC in 2014, becoming its Ontario chapters.",
+      "time_period": "2014"
+    },
+    {
+      "source": "Bacchus Motorcycle Club",
+      "target": "Vagabonds MC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bacchus MC manages close relationships with Vagabonds MC.",
+      "time_period": null
+    },
+    {
+      "source": "Bacchus Motorcycle Club",
+      "target": "Highlanders MC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bacchus MC manages close relationships with Highlanders MC.",
+      "time_period": null
+    },
+    {
+      "source": "Bacchus Motorcycle Club",
+      "target": "Charlottetown Harley Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bacchus MC manages close relationships with Charlottetown Harley Club.",
+      "time_period": null
+    },
+    {
+      "source": "Valhellions MC",
+      "target": "Bacchus Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Valhellions MC is a support club for Bacchus MC.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Bacchus_Motorcycle_Club"
+}

@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Nine Trey Gangsters",
+      "original_text_name": "Nine Trey Gangsters",
+      "aliases": [
+        "Nine Trey Gangster Bloods",
+        "Nine Trey Gangsta Bloods",
+        "NTG",
+        "Bentley's",
+        "Billionaires"
+      ],
+      "type": "gang",
+      "context": "A set of the United Blood Nation street gang, operating on the East Coast of the United States, involved in drug trafficking, sex trafficking, racketeering, and counterfeiting.",
+      "time_period": "1993-present"
+    },
+    {
+      "standard_name": "United Blood Nation",
+      "original_text_name": "United Blood Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "A street gang that is itself a set of the Bloods gang; Nine Trey Gangsters is a set of United Blood Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "A major street gang; United Blood Nation is a set of the Bloods.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "An American Mafia family; a high-ranking Nine Trey Gangsters member with ties to the Lucchese family was arrested in 2023.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A major street gang and rival of the Bloods and its sets.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Nine Trey Gangsters",
+      "target": "United Blood Nation",
+      "relationship": "other",
+      "detail": "sub-set",
+      "context": "Nine Trey Gangsters is a set of the United Blood Nation street gang.",
+      "time_period": "1993-present"
+    },
+    {
+      "source": "United Blood Nation",
+      "target": "Bloods",
+      "relationship": "other",
+      "detail": "sub-set",
+      "context": "United Blood Nation is itself a set of the Bloods gang.",
+      "time_period": null
+    },
+    {
+      "source": "Nine Trey Gangsters",
+      "target": "Lucchese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "A high-ranking Nine Trey Gangsters member with ties to the Lucchese crime family was arrested in 2023, indicating an alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Nine Trey Gangsters",
+      "target": "Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Crips are listed as rivals of the Nine Trey Gangsters.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Nine_Trey_Gangsters"
+}

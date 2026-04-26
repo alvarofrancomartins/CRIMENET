@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bloque Meta",
+      "original_text_name": "Bloque Meta",
+      "aliases": [
+        "Meta Block"
+      ],
+      "type": "other",
+      "context": "Colombian drug trafficking and neo-paramilitary organization active in the eastern plains.",
+      "time_period": "2009-2017"
+    },
+    {
+      "standard_name": "United Self-Defense Forces of Colombia",
+      "original_text_name": "United Self-Defense Forces of Colombia",
+      "aliases": [
+        "AUC"
+      ],
+      "type": "militia",
+      "context": "Colombian paramilitary coalition that demobilized in 2006.",
+      "time_period": "1997-2006"
+    },
+    {
+      "standard_name": "ERPAC",
+      "original_text_name": "ERPAC",
+      "aliases": [],
+      "type": "other",
+      "context": "Colombian neo-paramilitary group formed after AUC demobilization, precursor to Bloque Meta.",
+      "time_period": "2006-2009"
+    },
+    {
+      "standard_name": "FARC",
+      "original_text_name": "FARC",
+      "aliases": [
+        "Revolutionary Armed Forces of Colombia"
+      ],
+      "type": "militia",
+      "context": "Colombian left-wing guerrilla group, enemy of Bloque Meta.",
+      "time_period": "1964-2017"
+    },
+    {
+      "standard_name": "Libertadores del Vichada",
+      "original_text_name": "Libertadores del Vichada",
+      "aliases": [],
+      "type": "other",
+      "context": "Colombian drug trafficking group, rival of Bloque Meta.",
+      "time_period": "2009-2017"
+    },
+    {
+      "standard_name": "Los Puntilleros",
+      "original_text_name": "Los Puntilleros",
+      "aliases": [],
+      "type": "other",
+      "context": "Colombian drug trafficking group formed by reuniting Bloque Meta and Libertadores del Vichada.",
+      "time_period": "2017"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bloque Meta",
+      "target": "United Self-Defense Forces of Colombia",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "Bloque Meta traces its origins to the AUC via ERPAC.",
+      "time_period": "2009-2017"
+    },
+    {
+      "source": "ERPAC",
+      "target": "United Self-Defense Forces of Colombia",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "ERPAC formed from former AUC members who refused to demobilize.",
+      "time_period": "2006-2009"
+    },
+    {
+      "source": "Bloque Meta",
+      "target": "ERPAC",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "Bloque Meta emerged from the disintegration of ERPAC in 2009.",
+      "time_period": "2009"
+    },
+    {
+      "source": "Bloque Meta",
+      "target": "FARC",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Bloque Meta continued the counterrevolutionary struggle against FARC.",
+      "time_period": "2009-2017"
+    },
+    {
+      "source": "Bloque Meta",
+      "target": "Libertadores del Vichada",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Bloque Meta and Libertadores del Vichada fought over drug trafficking control.",
+      "time_period": "2009-2017"
+    },
+    {
+      "source": "Bloque Meta",
+      "target": "Los Puntilleros",
+      "relationship": "other",
+      "detail": "merged_into",
+      "context": "Bloque Meta and Libertadores del Vichada were reunited under the name Los Puntilleros.",
+      "time_period": "2017"
+    },
+    {
+      "source": "Libertadores del Vichada",
+      "target": "Los Puntilleros",
+      "relationship": "other",
+      "detail": "merged_into",
+      "context": "Libertadores del Vichada merged with Bloque Meta to form Los Puntilleros.",
+      "time_period": "2017"
+    }
+  ],
+  "source_file": "Bloque_Meta"
+}

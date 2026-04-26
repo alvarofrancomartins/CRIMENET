@@ -1,0 +1,157 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Boricua Popular Army",
+      "original_text_name": "Ejército Popular Boricua",
+      "aliases": [
+        "Boricua Popular Army",
+        "EPB",
+        "Ejército Popular Boricua",
+        "Los Macheteros",
+        "Macheteros"
+      ],
+      "type": "militia",
+      "context": "Clandestine militant and insurgent organization based in Puerto Rico, campaigns for Puerto Rican independence.",
+      "time_period": "1976-present"
+    },
+    {
+      "standard_name": "Macheteros de Puerto Rico",
+      "original_text_name": "Macheteros de Puerto Rico",
+      "aliases": [],
+      "type": "militia",
+      "context": "Historical voluntary group that defended Puerto Rico during the Spanish-American War in 1898.",
+      "time_period": "1898"
+    },
+    {
+      "standard_name": "Guardias de la Paz",
+      "original_text_name": "Guardias de la Paz",
+      "aliases": [],
+      "type": "militia",
+      "context": "Voluntary group that cooperated with Macheteros de Puerto Rico during the Spanish-American War.",
+      "time_period": "1898"
+    },
+    {
+      "standard_name": "Tiradores de Altura",
+      "original_text_name": "Tiradores de Altura",
+      "aliases": [],
+      "type": "militia",
+      "context": "Voluntary group that cooperated with Macheteros de Puerto Rico during the Spanish-American War.",
+      "time_period": "1898"
+    },
+    {
+      "standard_name": "Volunteers",
+      "original_text_name": "Volunteers",
+      "aliases": [],
+      "type": "militia",
+      "context": "Group that worked in conjunction with EPB in bombings and other actions.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "FARP",
+      "original_text_name": "FARP",
+      "aliases": [],
+      "type": "militia",
+      "context": "Group that worked in conjunction with EPB in bombings and other actions.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "FALN",
+      "original_text_name": "FALN",
+      "aliases": [],
+      "type": "militia",
+      "context": "Group that worked in conjunction with EPB in bombings and other actions.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "COR",
+      "original_text_name": "COR",
+      "aliases": [],
+      "type": "other",
+      "context": "Puerto Rican militant group classified by FBI as requiring full investigation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "MLN",
+      "original_text_name": "MLN",
+      "aliases": [],
+      "type": "other",
+      "context": "Puerto Rican militant group classified by FBI as requiring full investigation.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Boricua Popular Army",
+      "target": "Volunteers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "EPB revealed it was working in conjunction with the Volunteers in 1979.",
+      "time_period": "1979"
+    },
+    {
+      "source": "Boricua Popular Army",
+      "target": "FARP",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "EPB revealed it was working in conjunction with FARP in 1979.",
+      "time_period": "1979"
+    },
+    {
+      "source": "Boricua Popular Army",
+      "target": "FALN",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "EPB revealed it was working in conjunction with FALN in 1979.",
+      "time_period": "1979"
+    },
+    {
+      "source": "Macheteros de Puerto Rico",
+      "target": "Guardias de la Paz",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Macheteros de Puerto Rico worked in cooperation with Guardias de la Paz during the Spanish-American War.",
+      "time_period": "1898"
+    },
+    {
+      "source": "Macheteros de Puerto Rico",
+      "target": "Tiradores de Altura",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Macheteros de Puerto Rico worked in cooperation with Tiradores de Altura during the Spanish-American War.",
+      "time_period": "1898"
+    },
+    {
+      "source": "Boricua Popular Army",
+      "target": "FARP",
+      "relationship": "other",
+      "detail": "co-classified",
+      "context": "Both groups were classified by the FBI as requiring full investigation under the Levi guidelines.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Boricua Popular Army",
+      "target": "FALN",
+      "relationship": "other",
+      "detail": "co-classified",
+      "context": "Both groups were classified by the FBI as requiring full investigation under the Levi guidelines.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Boricua Popular Army",
+      "target": "COR",
+      "relationship": "other",
+      "detail": "co-classified",
+      "context": "Both groups were classified by the FBI as requiring full investigation under the Levi guidelines.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Boricua Popular Army",
+      "target": "MLN",
+      "relationship": "other",
+      "detail": "co-classified",
+      "context": "Both groups were classified by the FBI as requiring full investigation under the Levi guidelines.",
+      "time_period": "1980s"
+    }
+  ],
+  "source_file": "Boricua_Popular_Army"
+}

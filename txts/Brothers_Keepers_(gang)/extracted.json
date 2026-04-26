@@ -1,0 +1,296 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Brothers Keepers",
+      "original_text_name": "Brothers Keepers",
+      "aliases": [
+        "Wolfpack"
+      ],
+      "type": "gang",
+      "context": "Organized crime group based in British Columbia, Canada, engaged in transnational crime.",
+      "time_period": "2016-present"
+    },
+    {
+      "standard_name": "Red Scorpions",
+      "original_text_name": "Red Scorpions",
+      "aliases": [],
+      "type": "gang",
+      "context": "Canadian gang based in British Columbia; many members joined Brothers Keepers.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "standard_name": "Kang crime family",
+      "original_text_name": "Kang crime family",
+      "aliases": [
+        "BIBO gang",
+        "Blood In Blood Out gang",
+        "Kang faction"
+      ],
+      "type": "gang",
+      "context": "Criminal group in British Columbia; includes a faction within Brothers Keepers.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "United Nations",
+      "original_text_name": "United Nations gang",
+      "aliases": [
+        "UN gang"
+      ],
+      "type": "gang",
+      "context": "Rival gang to the Brothers Keepers, involved in the Lower Mainland gang conflict.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Wolfpack",
+      "original_text_name": "Wolfpack",
+      "aliases": [
+        "Wolfpack alliance"
+      ],
+      "type": "gang",
+      "context": "Alliance that included Brothers Keepers and Independent Soldiers; later split.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Independent Soldiers",
+      "original_text_name": "Independent Soldiers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang allied with Brothers Keepers, originating from South Vancouver.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sanghera crime family",
+      "original_text_name": "Sanghera crime family",
+      "aliases": [],
+      "type": "clan",
+      "context": "Crime family associated with Red Scorpions and Bacon Brothers.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bacon Brothers",
+      "original_text_name": "Bacon Brothers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang associated with Red Scorpions and Sanghera crime family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Punjabi Mafia",
+      "original_text_name": "Punjabi Mafia",
+      "aliases": [],
+      "type": "other",
+      "context": "Organized crime group with co-leader Manny Buttar; associate Bikramjit Khakh was former associate.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dhak crime group",
+      "original_text_name": "Dhak crime group",
+      "aliases": [
+        "Dhak group"
+      ],
+      "type": "gang",
+      "context": "Rival group to Brothers Keepers; Anees Mohammed was once associated.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club allied with Brothers Keepers, including its 'Hardside' Chapter.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Driftwood Crips",
+      "original_text_name": "Driftwood Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Toronto-based gang aligned with Brothers Keepers, running drug lines for them.",
+      "time_period": null
+    },
+    {
+      "standard_name": "United Nations gang",
+      "original_text_name": "United Nations gang",
+      "aliases": [
+        "UN gang"
+      ],
+      "type": "gang",
+      "context": "Rival gang to Brothers Keepers, involved in drug trafficking and violence.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dhak-Duhre crime group",
+      "original_text_name": "Dhak-Duhre crime groups",
+      "aliases": [
+        "Dhak group",
+        "Dhak-Duhre group"
+      ],
+      "type": "gang",
+      "context": "Allied with United Nations gang, involved in drug trafficking and violence.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Clan del Golfo",
+      "original_text_name": "Clan del Golfo",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel allied with Brothers Keepers.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bishnoi gang",
+      "original_text_name": "Bishnoi gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Brothers Keepers.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Brothers Keepers",
+      "target": "Red Scorpions",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Brothers Keepers was founded by former Red Scorpions members and leadership.",
+      "time_period": "2016-present"
+    },
+    {
+      "source": "Brothers Keepers",
+      "target": "Kang crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kang crime family is a historic enemy of the Brothers Keepers.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kang crime family",
+      "target": "Brothers Keepers",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kang crime family is a historic enemy of the Brothers Keepers.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Brothers Keepers",
+      "target": "United Nations",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Brothers Keepers are in conflict with the United Nations gang.",
+      "time_period": null
+    },
+    {
+      "source": "Brothers Keepers",
+      "target": "Red Scorpions",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Brothers Keepers are in conflict with the Red Scorpions, who are allied with the Kang crime family.",
+      "time_period": null
+    },
+    {
+      "source": "Red Scorpions",
+      "target": "Kang crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Red Scorpions are allied with the Kang crime family, forming the BIBO coalition.",
+      "time_period": null
+    },
+    {
+      "source": "Brothers Keepers",
+      "target": "Independent Soldiers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Brothers Keepers are closely allied with the Independent Soldiers, stemming from their Wolfpack alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Brothers Keepers",
+      "target": "Wolfpack",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Brothers Keepers were part of the Wolfpack alliance, which also included Independent Soldiers.",
+      "time_period": null
+    },
+    {
+      "source": "Independent Soldiers",
+      "target": "Wolfpack",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Independent Soldiers were part of the Wolfpack alliance with Brothers Keepers.",
+      "time_period": null
+    },
+    {
+      "source": "Brothers Keepers",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Brothers Keepers have a close alliance with the Hells Angels, including its Hardside Chapter.",
+      "time_period": null
+    },
+    {
+      "source": "Brothers Keepers",
+      "target": "Driftwood Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Brothers Keepers are aligned with the Driftwood Crips, who run drug lines for them.",
+      "time_period": null
+    },
+    {
+      "source": "Red Scorpions",
+      "target": "Sanghera crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Navdip Sanghera was a member of the Sanghera crime family and close with the Bacon Brothers.",
+      "time_period": null
+    },
+    {
+      "source": "Sanghera crime family",
+      "target": "Bacon Brothers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Navdip Sanghera was close with the Bacon Brothers.",
+      "time_period": null
+    },
+    {
+      "source": "Brothers Keepers",
+      "target": "Dhak crime group",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Anees Mohammed, associated with Brothers Keepers, was once associated with the rival Dhak crime group.",
+      "time_period": null
+    },
+    {
+      "source": "Brothers Keepers",
+      "target": "United Nations gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Brothers Keepers are rivals of the United Nations gang.",
+      "time_period": null
+    },
+    {
+      "source": "Brothers Keepers",
+      "target": "Bishnoi gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Brothers Keepers are rivals of the Bishnoi gang.",
+      "time_period": null
+    },
+    {
+      "source": "United Nations gang",
+      "target": "Dhak-Duhre crime group",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The United Nations gang is closely allied with the Dhak-Duhre crime group.",
+      "time_period": null
+    },
+    {
+      "source": "Brothers Keepers",
+      "target": "Clan del Golfo",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Brothers Keepers are allied with Clan del Golfo.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Brothers_Keepers_(gang)"
+}

@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bailey Boys",
+      "original_text_name": "Bailey Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang based in Buffalo, New York, involved in murder, robbery, drug trafficking.",
+      "time_period": "2011-present"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with Bailey Boys.",
+      "time_period": null
+    },
+    {
+      "standard_name": "LRGP",
+      "original_text_name": "LRGP",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Bailey Boys.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Milla Gangsta Bloods",
+      "original_text_name": "Milla Gangsta Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Bailey Boys.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bailey Boys",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bailey Boys are allied with Crips.",
+      "time_period": null
+    },
+    {
+      "source": "Bailey Boys",
+      "target": "LRGP",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Bailey Boys have a rivalry with LRGP.",
+      "time_period": null
+    },
+    {
+      "source": "Bailey Boys",
+      "target": "Milla Gangsta Bloods",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Bailey Boys have a rivalry with Milla Gangsta Bloods.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Bailey_Boys"
+}

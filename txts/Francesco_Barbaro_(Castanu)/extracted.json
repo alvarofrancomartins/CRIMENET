@@ -1,0 +1,261 @@
+{
+  "nodes": [
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia-type criminal organisation based in Calabria, Italy.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Barbaro 'ndrina",
+      "original_text_name": "Barbaro 'ndrina",
+      "aliases": [
+        "Barbaro clan"
+      ],
+      "type": "clan",
+      "context": "Powerful 'Ndrangheta clan based in Platì, involved in kidnappings and drug trafficking.",
+      "time_period": "early 20th century-present"
+    },
+    {
+      "standard_name": "Castani",
+      "original_text_name": "Castani",
+      "aliases": [],
+      "type": "faction",
+      "context": "Branch of the Barbaro 'ndrina, named after Francesco Barbaro's nickname.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Nigri",
+      "original_text_name": "Nigri",
+      "aliases": [],
+      "type": "faction",
+      "context": "Branch of the Barbaro 'ndrina.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Pillari",
+      "original_text_name": "Pillari",
+      "aliases": [],
+      "type": "faction",
+      "context": "Branch of the Barbaro 'ndrina.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Rosi",
+      "original_text_name": "Rosi",
+      "aliases": [],
+      "type": "faction",
+      "context": "Branch of the Barbaro 'ndrina.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Camera di Controllo",
+      "original_text_name": "Camera di Controllo",
+      "aliases": [],
+      "type": "other",
+      "context": "Provincial commission of the 'Ndrangheta formed to avoid internal conflicts.",
+      "time_period": "1991-present"
+    },
+    {
+      "standard_name": "Mammoliti 'ndrina",
+      "original_text_name": "Mammoliti 'ndrina",
+      "aliases": [
+        "Mammoliti clan"
+      ],
+      "type": "clan",
+      "context": "'Ndrangheta clan from Castellace, Oppido Mamertina, involved in feud with Barbaro.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Trimboli",
+      "original_text_name": "Trimboli",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan in Platì associated with Barbaro through blood relations.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Sergi",
+      "original_text_name": "Sergi",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan in Platì associated with Barbaro through blood relations.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Romeo",
+      "original_text_name": "Romeo",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan in Platì associated with Barbaro through blood relations.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Zappia",
+      "original_text_name": "Zappia",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan in Platì associated with Barbaro through blood relations.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Papalia",
+      "original_text_name": "Papalia",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan in Platì associated with Barbaro through blood relations.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Marando",
+      "original_text_name": "Marando",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan in Platì associated with Barbaro through blood relations.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Mafia family of Mariano Agate",
+      "original_text_name": "Mafia family of Mariano Agate",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Sicilian Mafia family involved in cocaine trafficking with Barbaro clan.",
+      "time_period": "20th century"
+    },
+    {
+      "standard_name": "Pelle 'ndrina",
+      "original_text_name": "Pelle 'ndrina",
+      "aliases": [
+        "Pelle clan"
+      ],
+      "type": "clan",
+      "context": "'Ndrangheta clan from San Luca, allied with Barbaro through marriage.",
+      "time_period": "20th century-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "'Ndrangheta",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Barbaro 'ndrina is a clan within the 'Ndrangheta organization.",
+      "time_period": "early 20th century-present"
+    },
+    {
+      "source": "Castani",
+      "target": "Barbaro 'ndrina",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Castani is a branch of the Barbaro 'ndrina.",
+      "time_period": "20th century-present"
+    },
+    {
+      "source": "Nigri",
+      "target": "Barbaro 'ndrina",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Nigri is a branch of the Barbaro 'ndrina.",
+      "time_period": "20th century-present"
+    },
+    {
+      "source": "Pillari",
+      "target": "Barbaro 'ndrina",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Pillari is a branch of the Barbaro 'ndrina.",
+      "time_period": "20th century-present"
+    },
+    {
+      "source": "Rosi",
+      "target": "Barbaro 'ndrina",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Rosi is a branch of the Barbaro 'ndrina.",
+      "time_period": "20th century-present"
+    },
+    {
+      "source": "Camera di Controllo",
+      "target": "'Ndrangheta",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Camera di Controllo is a provincial commission of the 'Ndrangheta.",
+      "time_period": "1991-present"
+    },
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "Mammoliti 'ndrina",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Barbaro clan was involved in a bloody feud with Mammoliti clan in the 1950s.",
+      "time_period": "1950s"
+    },
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "Trimboli",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Trimboli clan is associated with Barbaro through blood relations.",
+      "time_period": "20th century-present"
+    },
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "Sergi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sergi clan is associated with Barbaro through blood relations.",
+      "time_period": "20th century-present"
+    },
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "Romeo",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Romeo clan is associated with Barbaro through blood relations.",
+      "time_period": "20th century-present"
+    },
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "Zappia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zappia clan is associated with Barbaro through blood relations.",
+      "time_period": "20th century-present"
+    },
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "Papalia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Papalia clan is associated with Barbaro through blood relations.",
+      "time_period": "20th century-present"
+    },
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "Marando",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Marando clan is associated with Barbaro through blood relations.",
+      "time_period": "20th century-present"
+    },
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "Mafia family of Mariano Agate",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Barbaro clan participated in a cartel with the Mafia family of Mariano Agate for cocaine trafficking.",
+      "time_period": "20th century"
+    },
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "Pelle 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Alliance secured through marriage of Francesco Barbaro's daughter to Giuseppe Pelle.",
+      "time_period": "20th century-present"
+    }
+  ],
+  "source_file": "Francesco_Barbaro_(Castanu)"
+}

@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    {
+      "standard_name": "El Monte Flores",
+      "original_text_name": "El Monte Flores",
+      "aliases": [
+        "EMF",
+        "Monte Flores",
+        "El Monte F",
+        "Flores"
+      ],
+      "type": "gang",
+      "context": "Mexican-American street gang based in El Monte, California, involved in drug trafficking, murder, and racketeering.",
+      "time_period": "1950-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "La eMe",
+      "aliases": [
+        "La eMe",
+        "Mexican Mafia"
+      ],
+      "type": "gang",
+      "context": "Prison gang that controls Sureño gangs in the prison system.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [
+        "Sureño"
+      ],
+      "type": "gang",
+      "context": "Umbrella term for Southern California gangs aligned with the Mexican Mafia.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Bassett Grande",
+      "original_text_name": "Bassett Grande",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to El Monte Flores.",
+      "time_period": null
+    },
+    {
+      "standard_name": "NS/ES Bolen",
+      "original_text_name": "NS/ES Bolen",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to El Monte Flores.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Lomas",
+      "original_text_name": "Lomas",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to El Monte Flores.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sangra",
+      "original_text_name": "Sangra",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to El Monte Flores.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Azusa 13",
+      "original_text_name": "Azusa 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to El Monte Flores.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "El Monte Flores",
+      "target": "Sureños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "El Monte Flores is a Sureño gang, aligning with the Sureño umbrella.",
+      "time_period": "1950-present"
+    },
+    {
+      "source": "El Monte Flores",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "El Monte Flores is controlled by the Mexican Mafia in the prison system.",
+      "time_period": "1950-present"
+    },
+    {
+      "source": "Sureños",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sureños are controlled by the Mexican Mafia in prison.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "El Monte Flores",
+      "target": "Bassett Grande",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Bassett Grande is listed as a rival of El Monte Flores.",
+      "time_period": null
+    },
+    {
+      "source": "El Monte Flores",
+      "target": "NS/ES Bolen",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "NS/ES Bolen is listed as a rival of El Monte Flores.",
+      "time_period": null
+    },
+    {
+      "source": "El Monte Flores",
+      "target": "Lomas",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Lomas is listed as a rival of El Monte Flores.",
+      "time_period": null
+    },
+    {
+      "source": "El Monte Flores",
+      "target": "Sangra",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sangra is listed as a rival of El Monte Flores.",
+      "time_period": null
+    },
+    {
+      "source": "El Monte Flores",
+      "target": "Azusa 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Azusa 13 is listed as a rival of El Monte Flores.",
+      "time_period": null
+    }
+  ],
+  "source_file": "El_Monte_Flores"
+}

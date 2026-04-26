@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Grape Street Watts Crips",
+      "original_text_name": "Grape Street Watts Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A set of the Crips gang based in Watts, Los Angeles, active since the 1970s.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Bounty Hunter Bloods",
+      "original_text_name": "Bounty Hunter Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Bloods set in Watts, Los Angeles, rival of the Grape Street Watts Crips.",
+      "time_period": null
+    },
+    {
+      "standard_name": "East Coast Crips",
+      "original_text_name": "East Coast Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Crips set involved in a conflict with Grape Street Watts Crips after a murder in 2008.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Grape Street Watts Crips",
+      "target": "Bounty Hunter Bloods",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Described as the most violent and long lasting feud between two gangs in the Watts area.",
+      "time_period": null
+    },
+    {
+      "source": "Grape Street Watts Crips",
+      "target": "East Coast Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The murder of Grape Street member Brandon Bullard by East Coast Crips sparked a war resulting in casualties.",
+      "time_period": "2008"
+    }
+  ],
+  "source_file": "Grape_Street_Watts_Crips"
+}

@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Jumok",
+      "original_text_name": "Jumok",
+      "aliases": [],
+      "type": "gang",
+      "context": "Local gang in colonial-era Korea; Kim Du-han was a member.",
+      "time_period": "1910-1945"
+    },
+    {
+      "standard_name": "Yakuza",
+      "original_text_name": "yakuza",
+      "aliases": [
+        "Japanese mobs"
+      ],
+      "type": "mafia",
+      "context": "Japanese organized crime groups active in Korea during colonial period.",
+      "time_period": "1910-1945"
+    },
+    {
+      "standard_name": "Hayashi's Yakuza",
+      "original_text_name": "Hayashi's yakuza",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Colonial branch of Imperial Japanese yakuza controlled by Hayashi, an ethnic Korean.",
+      "time_period": "1910-1945"
+    },
+    {
+      "standard_name": "Koo Majok's Mob",
+      "original_text_name": "Koo Majok",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival mob to Hayashi's yakuza, led by Koo Majok.",
+      "time_period": "1910-1945"
+    },
+    {
+      "standard_name": "Shin Majak's Mob",
+      "original_text_name": "Shin Majak",
+      "aliases": [],
+      "type": "gang",
+      "context": "Splinter mob from Koo Majok's group, led by Shin Majak.",
+      "time_period": "1910-1945"
+    },
+    {
+      "standard_name": "Shang Kal",
+      "original_text_name": "Shang Kal",
+      "aliases": [
+        "twin knives"
+      ],
+      "type": "gang",
+      "context": "Splinter mob from Koo Majok's group; Kim Du-han was originally a member.",
+      "time_period": "1910-1945"
+    },
+    {
+      "standard_name": "Myung-dong Gang",
+      "original_text_name": "Myung-dong",
+      "aliases": [],
+      "type": "gang",
+      "context": "Seoul-based group in the 1950s protecting Korean merchants from Japanese criminals.",
+      "time_period": "1950s"
+    },
+    {
+      "standard_name": "Chong-ro Gang",
+      "original_text_name": "Chong-ro",
+      "aliases": [],
+      "type": "gang",
+      "context": "Seoul-based group in the 1950s protecting Korean merchants from Japanese criminals.",
+      "time_period": "1950s"
+    },
+    {
+      "standard_name": "Beomseobangpa",
+      "original_text_name": "Beomseobangpa",
+      "aliases": [],
+      "type": "gang",
+      "context": "Founded in the 1990s by Kim Tae-chon, one of the most powerful criminals in South Korea.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Yangeuni Family",
+      "original_text_name": "Yangeuni Family",
+      "aliases": [],
+      "type": "gang",
+      "context": "Founded in the 1970s by Cho Yang-eun, a powerful South Korean crime boss.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Chilsung-pa",
+      "original_text_name": "Chilsung-pa",
+      "aliases": [
+        "Seven Star Mob"
+      ],
+      "type": "gang",
+      "context": "Biggest crime syndicate of Busan; main profit from extortion and blackmail.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Jumok",
+      "target": "Shang Kal",
+      "relationship": "other",
+      "detail": "member affiliation",
+      "context": "Kim Du-han was a member of Jumok before joining Shang Kal.",
+      "time_period": "1910-1945"
+    },
+    {
+      "source": "Shang Kal",
+      "target": "Koo Majok's Mob",
+      "relationship": "rivalry",
+      "context": "Shang Kal was a splinter mob that rebelled against Koo Majok's control.",
+      "time_period": "1910-1945"
+    },
+    {
+      "source": "Shin Majak's Mob",
+      "target": "Koo Majok's Mob",
+      "relationship": "rivalry",
+      "context": "Shin Majak's mob was a splinter group disloyal to Koo Majok.",
+      "time_period": "1910-1945"
+    },
+    {
+      "source": "Koo Majok's Mob",
+      "target": "Hayashi's Yakuza",
+      "relationship": "rivalry",
+      "context": "Koo Majok's mob was a rival to Hayashi's yakuza.",
+      "time_period": "1910-1945"
+    },
+    {
+      "source": "Shang Kal",
+      "target": "Hayashi's Yakuza",
+      "relationship": "rivalry",
+      "context": "Kim Du-han of Shang Kal fought against the yakuza.",
+      "time_period": "1910-1945"
+    },
+    {
+      "source": "Myung-dong Gang",
+      "target": "Chong-ro Gang",
+      "relationship": "alliance",
+      "context": "Both groups operated to protect Korean merchants from Japanese criminals.",
+      "time_period": "1950s"
+    }
+  ],
+  "source_file": "Kkangpae"
+}

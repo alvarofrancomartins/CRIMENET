@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "standard_name": "The Family",
+      "original_text_name": "The Family",
+      "aliases": [
+        "Pray's organization",
+        "Akbar Pray's criminal network"
+      ],
+      "type": "gang",
+      "context": "African-American drug trafficking organization based in Newark, New Jersey, active 1970-1995.",
+      "time_period": "1970-1995"
+    },
+    {
+      "standard_name": "New World of Islam",
+      "original_text_name": "New World of Islam",
+      "aliases": [],
+      "type": "other",
+      "context": "Muslim group that initially focused on bank robberies and operated a bank robbery school; precursor to The Family.",
+      "time_period": "early 1970s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "The Family",
+      "target": "New World of Islam",
+      "relationship": "other",
+      "detail": "outgrowth",
+      "context": "The Family started in the early 1970s as an outgrowth of the New World of Islam.",
+      "time_period": "early 1970s"
+    }
+  ],
+  "source_file": "The_Family_(American_crime_organization)"
+}

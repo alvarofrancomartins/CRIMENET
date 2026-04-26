@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Mickey Cobras",
+      "original_text_name": "Mickey Cobras",
+      "aliases": [
+        "Mickey Cobra Nation",
+        "Mickey",
+        "Egyptian King Cobras",
+        "Cobras Stones",
+        "Cobra"
+      ],
+      "type": "gang",
+      "context": "African American street gang based in Chicago, involved in drug trafficking, robbery, extortion, and murder.",
+      "time_period": "1954-present"
+    },
+    {
+      "standard_name": "People Nation",
+      "original_text_name": "People Nation",
+      "aliases": [],
+      "type": "other",
+      "context": "Alliance of Chicago street gangs under a five-point star banner, including Vice Lords, Black P. Stones, Latin Kings, Mickey Cobras, and Four Corner Hustlers.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Gangster Disciples",
+      "original_text_name": "Gangster Disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago street gang and part of the Folk Nation alliance, rivals of the Mickey Cobras.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Black Disciples",
+      "original_text_name": "Black Disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago street gang and part of the Folk Nation alliance, rivals of the Mickey Cobras.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "14th Street Clovers",
+      "original_text_name": "14th Street Clovers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago street gang that later became the Vice Lords in the late 1950s.",
+      "time_period": "1950s"
+    },
+    {
+      "standard_name": "Vice Lords",
+      "original_text_name": "Vice Lords",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago street gang that emerged from the 14th Street Clovers, dominant in Lawndale in the late 1950s.",
+      "time_period": "1957-present"
+    },
+    {
+      "standard_name": "Black P. Stone Nation",
+      "original_text_name": "Black P. Stone Nation",
+      "aliases": [
+        "BPSN"
+      ],
+      "type": "gang",
+      "context": "Chicago street gang, formerly allied with the Egyptian Cobras against the Disciple Alliance and Gangster Nation.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American organized crime syndicate in Chicago, linked to the Mickey Cobras via Mickey Cogwell.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "El Rukn",
+      "original_text_name": "El Rukn",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago street gang formerly known as the Black P. Stone Nation, led by Jeff Fort who assassinated Mickey Cogwell.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Folk Nation",
+      "original_text_name": "Folk Nation",
+      "aliases": [],
+      "type": "other",
+      "context": "Alliance of Chicago street gangs, rivals of the People Nation.",
+      "time_period": "1970s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Mickey Cobras",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mickey Cobras are affiliated with People Nation, a coalition of Chicago gangs.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Mickey Cobras",
+      "target": "Gangster Disciples",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gangster Disciples are listed as rivals of the Mickey Cobras.",
+      "time_period": null
+    },
+    {
+      "source": "Mickey Cobras",
+      "target": "Black Disciples",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Black Disciples are listed as rivals of the Mickey Cobras.",
+      "time_period": null
+    },
+    {
+      "source": "Egyptian Cobras",
+      "target": "14th Street Clovers",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Egyptian Cobras fought heavily with the 14th Street Clovers in the mid-1950s.",
+      "time_period": "1954-1957"
+    },
+    {
+      "source": "14th Street Clovers",
+      "target": "Vice Lords",
+      "relationship": "other",
+      "detail": "evolved into",
+      "context": "The 14th Street Clovers reorganized and became the Vice Lords in the late 1950s.",
+      "time_period": "1957"
+    },
+    {
+      "source": "Egyptian Cobras",
+      "target": "Vice Lords",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "After the Vice Lords returned to Lawndale in 1958, they became dominant and the Egyptian Cobras relocated.",
+      "time_period": "1958-1960"
+    },
+    {
+      "source": "Egyptian Cobras",
+      "target": "Black P. Stone Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Cobras and Black P. Stone Nation allied against the Disciple Alliance and later the Gangster Nation.",
+      "time_period": "1966"
+    },
+    {
+      "source": "Mickey Cobras",
+      "target": "Chicago Outfit",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mickey Cogwell was portrayed as the link between the Mickey Cobras and the Chicago Outfit.",
+      "time_period": "1970"
+    },
+    {
+      "source": "Mickey Cobras",
+      "target": "El Rukn",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Jeff Fort of El Rukn assassinated Mickey Cogwell because he did not want to join El Rukn.",
+      "time_period": "1977"
+    },
+    {
+      "source": "Mickey Cobras",
+      "target": "Folk Nation",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Folk Nation is the rival alliance to People Nation, which the Mickey Cobras belong to.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Mickey_Cobras"
+}

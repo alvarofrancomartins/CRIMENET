@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Somali Pirates",
+      "original_text_name": "Somali pirates",
+      "aliases": [
+        "Somali pirate groups",
+        "pirates"
+      ],
+      "type": "other",
+      "context": "Armed groups from Somali coastal communities that hijack vessels for ransom, operating in the Gulf of Aden and Indian Ocean.",
+      "time_period": "2000-present"
+    },
+    {
+      "standard_name": "Islamic Courts Union",
+      "original_text_name": "Islamic Court Union",
+      "aliases": [
+        "ICU"
+      ],
+      "type": "other",
+      "context": "Islamist organization that ruled southern Somalia in 2006; suppressed piracy during its rule.",
+      "time_period": "2006-2007"
+    },
+    {
+      "standard_name": "Transitional Federal Government",
+      "original_text_name": "Transitional Federal Government",
+      "aliases": [
+        "TFG"
+      ],
+      "type": "other",
+      "context": "Somalia's interim government from 2004 to 2012; some elements were involved in piracy.",
+      "time_period": "2004-2012"
+    },
+    {
+      "standard_name": "Puntland Maritime Police Force",
+      "original_text_name": "maritime police force (PMPF)",
+      "aliases": [
+        "PMPF"
+      ],
+      "type": "other",
+      "context": "Law enforcement agency of the autonomous Puntland region that combats piracy.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Islamic State – Somalia Province",
+      "original_text_name": "Islamic State – Somalia Province",
+      "aliases": [
+        "ISS"
+      ],
+      "type": "terrorist_organization",
+      "context": "Militant group operating in Somalia, rival of al-Shabaab.",
+      "time_period": "2015-present"
+    },
+    {
+      "standard_name": "Hobyo-Haradhere Piracy Network",
+      "original_text_name": "Hobyo-Haradhere Piracy Network",
+      "aliases": [],
+      "type": "gang",
+      "context": "Somali pirate network led by Mohamed Garfanje, based in Hobyo and Haradhere.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Al-Shabaab",
+      "original_text_name": "al-Shabaab",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Islamist militant group in Somalia, rival of Islamic State.",
+      "time_period": "2006-present"
+    },
+    {
+      "standard_name": "Houthis",
+      "original_text_name": "Houthis",
+      "aliases": [
+        "Ansar Allah"
+      ],
+      "type": "militia",
+      "context": "Yemeni rebel group, involved in regional conflicts and arms trade.",
+      "time_period": "2004-present"
+    },
+    {
+      "standard_name": "Italian Mafia",
+      "original_text_name": "Italian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian mafia front companies were involved in illegal dumping of toxic waste in Somali waters.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Hizbul Islam",
+      "original_text_name": "Hizbul Islam",
+      "aliases": [],
+      "type": "militia",
+      "context": "Islamist militia that briefly controlled Harardhere and vowed to eradicate piracy by imposing sharia law.",
+      "time_period": "2009-2010"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Somali Pirates",
+      "target": "Islamic Courts Union",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Piracy ceased during ICU rule due to anti-piracy operations; resumed after ICU collapse.",
+      "time_period": "2006-2007"
+    },
+    {
+      "source": "Somali Pirates",
+      "target": "Transitional Federal Government",
+      "relationship": "other",
+      "detail": "collaboration",
+      "context": "Elements within TFG were involved in the piracy business, sharing profits.",
+      "time_period": "2007-2009"
+    },
+    {
+      "source": "Somali Pirates",
+      "target": "Puntland Maritime Police Force",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "PMPF intervened to combat piracy in Puntland region.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Islamic State – Somalia Province",
+      "target": "Hobyo-Haradhere Piracy Network",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "ISS works closely with Somali pirates, including the Hobyo-Haradhere network.",
+      "time_period": "2017"
+    },
+    {
+      "source": "Hobyo-Haradhere Piracy Network",
+      "target": "Al-Shabaab",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pirates supply al-Shabaab with weapons and materials.",
+      "time_period": "2017"
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Houthis",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Growing relationship with arms sales and meetings reported in 2025.",
+      "time_period": "2025"
+    },
+    {
+      "source": "Italian Mafia",
+      "target": "Hizbul Islam",
+      "relationship": "other",
+      "detail": "no direct relationship",
+      "context": "No direct relationship mentioned between Italian mafia and Hizbul Islam.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Piracy_off_the_coast_of_Somalia"
+}

@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [
+        "Gulf cartel"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug trafficking organization operating primarily in Tamaulipas.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Los Metros",
+      "original_text_name": "Los Metros",
+      "aliases": [
+        "Metros"
+      ],
+      "type": "faction",
+      "context": "Faction of the Gulf Cartel, originally its armed wing, based in Matamoros.",
+      "time_period": "1988-present"
+    },
+    {
+      "standard_name": "Los Rojos",
+      "original_text_name": "Los Rojos",
+      "aliases": [
+        "Rojos"
+      ],
+      "type": "faction",
+      "context": "Faction of the Gulf Cartel based in Reynosa, Tamaulipas.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Former armed wing of the Gulf Cartel that split and became a rival cartel.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Cártel del Noreste",
+      "original_text_name": "Cártel del Noreste",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Rival cartel to Los Metros, mentioned in infobox.",
+      "time_period": "2010s-present"
+    },
+    {
+      "standard_name": "Los Lobos",
+      "original_text_name": "Lobos",
+      "aliases": [],
+      "type": "faction",
+      "context": "Faction of the Gulf Cartel based in Laredo, Tamaulipas.",
+      "time_period": "1990s-2010s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Metros",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Metros is a faction of the Gulf Cartel.",
+      "time_period": "1988-present"
+    },
+    {
+      "source": "Los Rojos",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Rojos is a faction of the Gulf Cartel.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Los Metros",
+      "target": "Los Rojos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Infighting between Metros and Rojos began in 2010 over leadership and territory.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Los Metros",
+      "target": "Los Zetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Infobox lists Los Zetas as allies of Los Metros.",
+      "time_period": null
+    },
+    {
+      "source": "Los Metros",
+      "target": "Cártel del Noreste",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Infobox lists Cártel del Noreste as rivals of Los Metros.",
+      "time_period": null
+    },
+    {
+      "source": "Gulf Cartel",
+      "target": "Los Zetas",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gulf Cartel and Los Zetas split in early 2010 and became bitter enemies.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Los Lobos",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Lobos is a faction of the Gulf Cartel based in Laredo.",
+      "time_period": "1990s-2010s"
+    }
+  ],
+  "source_file": "Los_Metros"
+}

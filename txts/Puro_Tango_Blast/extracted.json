@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Puro Tango Blast",
+      "original_text_name": "Puro Tango Blast",
+      "aliases": [
+        "Tango Blast",
+        "PTB"
+      ],
+      "type": "gang",
+      "context": "A loose affiliation of Hispanic street and prison gangs from major Texas cities, lacking strict hierarchy.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Mexikanemi",
+      "original_text_name": "Mexikanemi",
+      "aliases": [],
+      "type": "gang",
+      "context": "A structured prison gang in Texas, considered a security threat group.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Texas Syndicate",
+      "original_text_name": "Texas Syndicate",
+      "aliases": [],
+      "type": "gang",
+      "context": "A structured prison gang in Texas, considered a security threat group.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Barrio Azteca",
+      "original_text_name": "Barrio Azteca",
+      "aliases": [],
+      "type": "gang",
+      "context": "A prison gang in Texas, listed as a rival of Puro Tango Blast.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A street gang, listed as a rival of Puro Tango Blast.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Puro Tango Blast",
+      "target": "Mexikanemi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Puro Tango Blast formed for protection from established groups like Mexikanemi.",
+      "time_period": "1980s-present"
+    },
+    {
+      "source": "Puro Tango Blast",
+      "target": "Texas Syndicate",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Puro Tango Blast formed for protection from established groups like Texas Syndicate.",
+      "time_period": "1980s-present"
+    },
+    {
+      "source": "Puro Tango Blast",
+      "target": "Barrio Azteca",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Barrio Azteca is listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Puro Tango Blast",
+      "target": "Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Crips is listed as a rival in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Puro_Tango_Blast"
+}

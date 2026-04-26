@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Carecas do ABC",
+      "original_text_name": "Carecas do ABC",
+      "aliases": [
+        "ABC region Skinheads"
+      ],
+      "type": "gang",
+      "context": "Brazilian skinhead group based in the ABC region of São Paulo, involved in murders.",
+      "time_period": "1987-present"
+    },
+    {
+      "standard_name": "Carecas do Subúrbio",
+      "original_text_name": "Carecas do Subúrbio",
+      "aliases": [],
+      "type": "gang",
+      "context": "Brazilian skinhead group from which Carecas do ABC dissented.",
+      "time_period": "before 1987"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Carecas do ABC",
+      "target": "Carecas do Subúrbio",
+      "relationship": "other",
+      "detail": "dissident group",
+      "context": "Carecas do ABC emerged in 1987 as a dissident from Carecas do Subúrbio.",
+      "time_period": "1987"
+    }
+  ],
+  "source_file": "Carecas_do_ABC"
+}

@@ -1,0 +1,245 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Eastman Gang",
+      "original_text_name": "Eastman Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jewish gang led by Monk Eastman in New York City, competed with Italian and Irish gangs.",
+      "time_period": "late 19th century-early 20th century"
+    },
+    {
+      "standard_name": "Five Points Gang",
+      "original_text_name": "Five Points Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Italian gang led by Paul Kelly, rival of the Eastman Gang in New York City.",
+      "time_period": "late 19th century-early 20th century"
+    },
+    {
+      "standard_name": "Lenox Avenue Gang",
+      "original_text_name": "Lenox Avenue Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Violent Jewish gang led by Harry 'Gyp the Blood' Horowitz, involved in murder of Herman Rosenthal.",
+      "time_period": "early 20th century"
+    },
+    {
+      "standard_name": "Purple Gang",
+      "original_text_name": "Purple Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jewish bootlegging mob that dominated Detroit underworld during Prohibition.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "standard_name": "Bugs and Meyer Mob",
+      "original_text_name": "Bugs and Meyer Mob",
+      "aliases": [
+        "Bug and Meyer Mob"
+      ],
+      "type": "gang",
+      "context": "Jewish gang led by Meyer Lansky and Bugsy Siegel, operated on Lower East Side before being absorbed into Murder, Inc.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "standard_name": "Murder, Inc.",
+      "original_text_name": "Murder, Inc.",
+      "aliases": [],
+      "type": "gang",
+      "context": "Largely Jewish and Italian gang that served as the enforcement arm of the National Crime Syndicate.",
+      "time_period": "1930s-1940s"
+    },
+    {
+      "standard_name": "National Crime Syndicate",
+      "original_text_name": "National Crime Syndicate",
+      "aliases": [],
+      "type": "other",
+      "context": "Loosely organized Jewish and Italian criminal syndicate formed in the 1930s.",
+      "time_period": "1930s-1960s"
+    },
+    {
+      "standard_name": "Italian-American Mafia",
+      "original_text_name": "Italian-American Mafia",
+      "aliases": [
+        "Cosa Nostra"
+      ],
+      "type": "mafia",
+      "context": "Italian-American organized crime groups that cooperated with Jewish mobsters.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Cleveland Syndicate",
+      "original_text_name": "Cleveland Syndicate",
+      "aliases": [],
+      "type": "other",
+      "context": "Jewish-led syndicate involved in bootlegging and casinos, established by Moe Dalitz.",
+      "time_period": "1920s-1960s"
+    },
+    {
+      "standard_name": "Mayfield Road Mob",
+      "original_text_name": "Mayfield Road Mob",
+      "aliases": [],
+      "type": "gang",
+      "context": "Italian mob in Cleveland, headed by Alfred Polizzi, associated with the Cleveland Syndicate.",
+      "time_period": "1920s-1960s"
+    },
+    {
+      "standard_name": "Yiddish Black Hand",
+      "original_text_name": "Yiddish Black Hand",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jewish extortion gang in New York's Lower East Side, early 20th century.",
+      "time_period": "early 20th century"
+    },
+    {
+      "standard_name": "New York divorce coercion gang",
+      "original_text_name": "New York divorce coercion gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Orthodox Jewish gang that kidnapped and tortured men to force religious divorces.",
+      "time_period": "1990s-2013"
+    },
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American crime syndicate in Chicago.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Cleveland crime family",
+      "original_text_name": "Cleveland crime family",
+      "aliases": [
+        "Cleveland Syndicate"
+      ],
+      "type": "mafia",
+      "context": "Italian-American crime family in Cleveland.",
+      "time_period": "20th century"
+    },
+    {
+      "standard_name": "Five Families",
+      "original_text_name": "Five Families",
+      "aliases": [],
+      "type": "mafia",
+      "context": "The five major Italian-American Mafia families in New York City.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families in New York City.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "New Orleans crime family",
+      "original_text_name": "New Orleans crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American crime family in New Orleans.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Abergil crime family",
+      "original_text_name": "Abergil crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Israeli mafia family based in Tel Aviv involved in ecstasy trafficking.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Israeli mafia",
+      "original_text_name": "Israeli mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Organized crime groups from Israel operating in the US and elsewhere.",
+      "time_period": "late 20th century-present"
+    },
+    {
+      "standard_name": "Russian mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Organized crime groups from Russia, including Soviet Jewish émigrés.",
+      "time_period": "late 20th century-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Eastman Gang",
+      "target": "Five Points Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Competed for control of New York City's underworld.",
+      "time_period": "late 19th century-early 20th century"
+    },
+    {
+      "source": "Bugs and Meyer Mob",
+      "target": "Murder, Inc.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bugs and Meyer Mob was absorbed into Murder, Inc. and became affiliates.",
+      "time_period": "1930s"
+    },
+    {
+      "source": "Murder, Inc.",
+      "target": "Italian-American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Murder, Inc. served as the enforcement arm for the Italian-American Mafia and the National Crime Syndicate.",
+      "time_period": "1930s-1940s"
+    },
+    {
+      "source": "National Crime Syndicate",
+      "target": "Italian-American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The National Crime Syndicate was a consortium that included Italian-American Mafia and Jewish mobsters.",
+      "time_period": "1930s-1960s"
+    },
+    {
+      "source": "Cleveland Syndicate",
+      "target": "Mayfield Road Mob",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Cleveland Syndicate and Mayfield Road Mob were connected through family ties and cooperation.",
+      "time_period": "1920s-1960s"
+    },
+    {
+      "source": "New York divorce coercion gang",
+      "target": "Italian-American Mafia",
+      "relationship": "other",
+      "detail": "compared to",
+      "context": "Prosecutors described the gang as akin to the Mafia.",
+      "time_period": "1990s-2013"
+    },
+    {
+      "source": "Italian-American Mafia",
+      "target": "Israeli mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allies listed in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Italian-American Mafia",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allies listed in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Israeli mafia",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both listed as allies of Italian-American Mafia.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Jewish-American_organized_crime"
+}

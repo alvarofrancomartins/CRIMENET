@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "standard_name": "7th Street Gang",
+      "original_text_name": "7th Street Gang",
+      "aliases": [
+        "Cheko's Crew"
+      ],
+      "type": "gang",
+      "context": "Hispanic street gang based in Buffalo, New York, involved in drug trafficking and violent crime.",
+      "time_period": "2000-2017"
+    },
+    {
+      "standard_name": "10th Street Gang",
+      "original_text_name": "10th Street Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival street gang in Buffalo, New York, involved in drug trade and violence.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Latin Kings",
+      "original_text_name": "Latin Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "Hispanic street gang, listed as an ally of the 7th Street Gang.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "7th Street Gang",
+      "target": "10th Street Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The 7th Street Gang and 10th Street Gang were heated rivals, with violence surging in 2009 including shootings and murders.",
+      "time_period": "2000-2012"
+    },
+    {
+      "source": "7th Street Gang",
+      "target": "Latin Kings",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Latin Kings are listed as allies of the 7th Street Gang in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "7th_Street_Gang"
+}

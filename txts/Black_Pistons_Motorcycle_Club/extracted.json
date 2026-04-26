@@ -1,0 +1,86 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Black Pistons Motorcycle Club",
+      "original_text_name": "Black Pistons Motorcycle Club",
+      "aliases": [
+        "Black Pistons MC",
+        "BPMC"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club and support club for the Outlaws, involved in drug trafficking and other crimes.",
+      "time_period": "2002-present"
+    },
+    {
+      "standard_name": "Outlaws Motorcycle Club",
+      "original_text_name": "Outlaws Motorcycle Club",
+      "aliases": [
+        "Outlaws"
+      ],
+      "type": "motorcycle_club",
+      "context": "Major outlaw motorcycle club that uses the Black Pistons as a support club and recruitment source.",
+      "time_period": "1935-present"
+    },
+    {
+      "standard_name": "Satan's Syndicate",
+      "original_text_name": "Satan's Syndicate",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Biker club that patched over to become the first US Black Pistons chapter in 2002.",
+      "time_period": "before 2002"
+    },
+    {
+      "standard_name": "The Brotherhood",
+      "original_text_name": "The Brotherhood",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Club in Birmingham that became the first Black Pistons chapter in the UK in 2003.",
+      "time_period": "before 2003"
+    },
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels",
+      "aliases": [
+        "Hells Angels MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Rival outlaw motorcycle club involved in a violent clash with Black Pistons in Fredericton, Canada in 2016.",
+      "time_period": "1948-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Black Pistons Motorcycle Club",
+      "target": "Outlaws Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Black Pistons is an official support club for the Outlaws, providing recruitment and conducting criminal activities on their behalf.",
+      "time_period": "2002-present"
+    },
+    {
+      "source": "Satan's Syndicate",
+      "target": "Black Pistons Motorcycle Club",
+      "relationship": "other",
+      "detail": "patched over",
+      "context": "Satan's Syndicate patched over to become the first US Black Pistons chapter in 2002.",
+      "time_period": "2002"
+    },
+    {
+      "source": "The Brotherhood",
+      "target": "Black Pistons Motorcycle Club",
+      "relationship": "other",
+      "detail": "patched over",
+      "context": "The Brotherhood patched over to become the first UK Black Pistons chapter in 2003.",
+      "time_period": "2003"
+    },
+    {
+      "source": "Black Pistons Motorcycle Club",
+      "target": "Hells Angels Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Members of the Black Pistons' Fredericton chapter were involved in a violent clash with Quebec Hells Angels bikers in October 2016.",
+      "time_period": "2016"
+    }
+  ],
+  "source_file": "Black_Pistons_Motorcycle_Club"
+}

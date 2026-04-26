@@ -1,0 +1,191 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sergi 'ndrina",
+      "original_text_name": "Sergi 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "A clan of the 'Ndrangheta based in Platì, Calabria, active in drug trafficking and other crimes in Italy and Australia.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "A criminal and mafia-type organization in Calabria, Italy.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Papalia 'ndrina",
+      "original_text_name": "Papalia 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "A clan of the 'Ndrangheta, allied with the Sergi 'ndrina in drug trafficking in Northern Italy.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Marando 'ndrina",
+      "original_text_name": "Marando 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "A clan of the 'Ndrangheta, allied with the Sergi 'ndrina in drug trafficking in Northern Italy and supplying cocaine to the Cataldo 'ndrina.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Barbaro 'ndrina",
+      "original_text_name": "Barbaro 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "A powerful 'Ndrangheta clan from which the Sergi 'ndrina emerged as a branch.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Trimboli 'ndrina",
+      "original_text_name": "Trimboli 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "A clan of the 'Ndrangheta that originated from the Barbaro 'ndrina, allied with the Sergi 'ndrina.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Perre 'ndrina",
+      "original_text_name": "Perre 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "A clan of the 'Ndrangheta that originated from the Barbaro 'ndrina.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Cataldo 'ndrina",
+      "original_text_name": "Cataldo 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "A clan of the 'Ndrangheta from Locri, supplied with cocaine by the Sergi and Marando 'ndrine.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Molluso 'ndrina",
+      "original_text_name": "Molluso 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "A clan of the 'Ndrangheta listed as an ally of the Sergi 'ndrina in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "South American drug cartels",
+      "original_text_name": "South American drug cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Drug cartels from South America that supply cocaine to the Sergi and Marando 'ndrine.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Sergi 'ndrina",
+      "target": "'Ndrangheta",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Sergi 'ndrina is a clan (sub-group) of the 'Ndrangheta.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Sergi 'ndrina",
+      "target": "Papalia 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "They collaborate in drug trafficking in Northern Italy, and Paolo Sergi is brother-in-law of Antonio Papalia.",
+      "time_period": "1980s-present"
+    },
+    {
+      "source": "Sergi 'ndrina",
+      "target": "Marando 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "They collaborate in drug trafficking in Northern Italy and supply cocaine to the Cataldo 'ndrina.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Sergi 'ndrina",
+      "target": "Barbaro 'ndrina",
+      "relationship": "other",
+      "detail": "branch of",
+      "context": "The Sergi 'ndrina emerged as a branch of the Barbaro 'ndrina.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Sergi 'ndrina",
+      "target": "Trimboli 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Sergi 'ndrina",
+      "target": "Molluso 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Sergi 'ndrina",
+      "target": "South American drug cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "They import cocaine from South American drug cartels.",
+      "time_period": null
+    },
+    {
+      "source": "Marando 'ndrina",
+      "target": "South American drug cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "They import cocaine from South American drug cartels.",
+      "time_period": null
+    },
+    {
+      "source": "Sergi 'ndrina",
+      "target": "Cataldo 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Sergi 'ndrina supplied cocaine to the Cataldo 'ndrina.",
+      "time_period": "2008"
+    },
+    {
+      "source": "Marando 'ndrina",
+      "target": "Cataldo 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Marando 'ndrina supplied cocaine to the Cataldo 'ndrina.",
+      "time_period": "2008"
+    },
+    {
+      "source": "Papalia 'ndrina",
+      "target": "Barbaro 'ndrina",
+      "relationship": "other",
+      "detail": "branch of",
+      "context": "The Papalia 'ndrina originated from the Barbaro 'ndrina.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Trimboli 'ndrina",
+      "target": "Barbaro 'ndrina",
+      "relationship": "other",
+      "detail": "branch of",
+      "context": "The Trimboli 'ndrina originated from the Barbaro 'ndrina.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Perre 'ndrina",
+      "target": "Barbaro 'ndrina",
+      "relationship": "other",
+      "detail": "branch of",
+      "context": "The Perre 'ndrina originated from the Barbaro 'ndrina.",
+      "time_period": "1970s"
+    }
+  ],
+  "source_file": "Sergi_'ndrina"
+}

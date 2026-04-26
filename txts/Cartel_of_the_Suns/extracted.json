@@ -1,0 +1,203 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cartel of the Suns",
+      "original_text_name": "Cartel of the Suns",
+      "aliases": [
+        "Cartel de los Soles"
+      ],
+      "type": "other",
+      "context": "Umbrella term for a drug trafficking network involving Venezuelan military and political officials.",
+      "time_period": "1993-present"
+    },
+    {
+      "standard_name": "Revolutionary Armed Forces of Colombia",
+      "original_text_name": "Revolutionary Armed Forces of Colombia (FARC)",
+      "aliases": [
+        "FARC"
+      ],
+      "type": "militia",
+      "context": "Colombian guerrilla group involved in drug trafficking and cooperating with Venezuelan officials.",
+      "time_period": "1964-present"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel that allegedly worked with Maduro in drug trafficking.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Zeta",
+      "aliases": [
+        "Los Zetas"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel that allegedly worked with Maduro in drug trafficking.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Tren de Aragua",
+      "original_text_name": "Tren de Aragua",
+      "aliases": [],
+      "type": "gang",
+      "context": "Venezuelan criminal gang that allegedly worked with Maduro in drug trafficking.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Bolivarian Cartel",
+      "original_text_name": "Cartel Bolivariano",
+      "aliases": [
+        "Bolivarian Cartel"
+      ],
+      "type": "other",
+      "context": "Alleged group within Chávez's movement involved in drug trafficking.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "FARC",
+      "original_text_name": "FARC",
+      "aliases": [
+        "Revolutionary Armed Forces of Colombia"
+      ],
+      "type": "militia",
+      "context": "Colombian guerrilla group involved in drug trafficking and alliance with Cartel of the Suns.",
+      "time_period": "1964-2017"
+    },
+    {
+      "standard_name": "ELN",
+      "original_text_name": "ELN",
+      "aliases": [
+        "National Liberation Army"
+      ],
+      "type": "militia",
+      "context": "Colombian Marxist guerrilla group that cooperates with Cartel of the Suns in Venezuela.",
+      "time_period": "1964-present"
+    },
+    {
+      "standard_name": "Hamas",
+      "original_text_name": "Hamas",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Palestinian militant group alleged to be involved in weapons-for-cocaine deals with Cartel of the Suns.",
+      "time_period": "1987-present"
+    },
+    {
+      "standard_name": "Hezbollah",
+      "original_text_name": "Hezbollah",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Lebanese militant group alleged to be involved in weapons-for-cocaine deals with Cartel of the Suns.",
+      "time_period": "1985-present"
+    },
+    {
+      "standard_name": "El Carmen Cartel",
+      "original_text_name": "El Carmen Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Nicaraguan drug trafficking network allegedly linked to Cartel of the Suns.",
+      "time_period": null
+    },
+    {
+      "standard_name": "FARC dissidents",
+      "original_text_name": "FARC dissidents",
+      "aliases": [],
+      "type": "faction",
+      "context": "Splinter groups from FARC, alleged allies of Cartel of the Suns.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cartel of the Suns",
+      "target": "Revolutionary Armed Forces of Colombia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cartel of the Suns allegedly coordinated with FARC for drug trafficking and weapons.",
+      "time_period": "1999-2020s"
+    },
+    {
+      "source": "Cartel of the Suns",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Maduro allegedly worked with Sinaloa Cartel in drug trafficking.",
+      "time_period": "2000s-2020s"
+    },
+    {
+      "source": "Cartel of the Suns",
+      "target": "Los Zetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Maduro allegedly worked with Los Zetas in drug trafficking.",
+      "time_period": "2000s-2020s"
+    },
+    {
+      "source": "Cartel of the Suns",
+      "target": "Tren de Aragua",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Maduro allegedly worked with Tren de Aragua in drug trafficking.",
+      "time_period": "2000s-2020s"
+    },
+    {
+      "source": "Bolivarian Cartel",
+      "target": "Cartel of the Suns",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "Bolivarian Cartel was an earlier alleged group that preceded Cartel of the Suns.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Cartel of the Suns",
+      "target": "FARC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cartel of the Suns cooperated with FARC in drug trafficking and received financial support.",
+      "time_period": "2000s-2017"
+    },
+    {
+      "source": "Cartel of the Suns",
+      "target": "ELN",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "ELN became a strategic partner of Cartel of the Suns after FARC disbanded, controlling border operations.",
+      "time_period": "2017-present"
+    },
+    {
+      "source": "Cartel of the Suns",
+      "target": "Hamas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hamas allegedly participated in weapons-for-cocaine agreements with Cartel of the Suns.",
+      "time_period": null
+    },
+    {
+      "source": "Cartel of the Suns",
+      "target": "Hezbollah",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hezbollah allegedly participated in weapons-for-cocaine agreements with Cartel of the Suns.",
+      "time_period": null
+    },
+    {
+      "source": "Cartel of the Suns",
+      "target": "El Carmen Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "El Carmen Cartel is closely related to Cartel of the Suns, sharing drug trafficking networks.",
+      "time_period": null
+    },
+    {
+      "source": "Cartel of the Suns",
+      "target": "FARC dissidents",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cartel of the Suns is allegedly allied with FARC dissidents.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Cartel_of_the_Suns"
+}

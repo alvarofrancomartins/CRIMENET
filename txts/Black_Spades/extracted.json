@@ -1,0 +1,154 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Black Spades",
+      "original_text_name": "Black Spades",
+      "aliases": [
+        "TBS New Direction",
+        "Black Lotus"
+      ],
+      "type": "gang",
+      "context": "African-American street gang founded in the Bronx in 1968, active in New York City and other states.",
+      "time_period": "1968-present"
+    },
+    {
+      "standard_name": "Savage Seven",
+      "original_text_name": "Savage Seven",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rumored original name of the Black Spades, but not confirmed.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Five-Percent Nation",
+      "original_text_name": "Five-Percent Nation",
+      "aliases": [],
+      "type": "other",
+      "context": "Religious and cultural group that influenced the Black Spades.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Nation of Islam",
+      "original_text_name": "Nation of Islam",
+      "aliases": [],
+      "type": "other",
+      "context": "Religious organization that influenced the Black Spades; original president was a member.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Black Panther Party",
+      "original_text_name": "Black Panthers",
+      "aliases": [],
+      "type": "militia",
+      "context": "Political organization that influenced the Black Spades.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Weather Underground Organization",
+      "original_text_name": "Weather Underground Organization",
+      "aliases": [],
+      "type": "other",
+      "context": "Left-wing militant group that influenced the Black Spades.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Universal Zulu Nation",
+      "original_text_name": "Universal Zulu Nation",
+      "aliases": [],
+      "type": "other",
+      "context": "Hip hop awareness group formed by former Black Spades member Afrika Bambaataa.",
+      "time_period": "1977-present"
+    },
+    {
+      "standard_name": "Savage Skulls",
+      "original_text_name": "Savage Skulls",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang mentioned as terrorizing discotheques in early hip hop.",
+      "time_period": "1970s"
+    },
+    {
+      "standard_name": "Glory Stompers",
+      "original_text_name": "Glory Stompers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang mentioned as terrorizing discotheques in early hip hop.",
+      "time_period": "1970s"
+    },
+    {
+      "standard_name": "Blue Diamonds",
+      "original_text_name": "Blue Diamonds",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang mentioned as terrorizing discotheques in early hip hop.",
+      "time_period": "1970s"
+    },
+    {
+      "standard_name": "Black Cats",
+      "original_text_name": "Black Cats",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang mentioned as terrorizing discotheques in early hip hop.",
+      "time_period": "1970s"
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang that many Black Spades members transitioned to in the late 1990s.",
+      "time_period": "1990s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Black Spades",
+      "target": "Five-Percent Nation",
+      "relationship": "other",
+      "detail": "influence",
+      "context": "Black Spades followed the teachings of the Five-Percent Nation.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "source": "Black Spades",
+      "target": "Nation of Islam",
+      "relationship": "other",
+      "detail": "influence",
+      "context": "Black Spades were influenced by the Nation of Islam; original president was a member.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "source": "Black Spades",
+      "target": "Black Panther Party",
+      "relationship": "other",
+      "detail": "influence",
+      "context": "Black Spades were influenced by the Black Panthers.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "source": "Black Spades",
+      "target": "Weather Underground Organization",
+      "relationship": "other",
+      "detail": "influence",
+      "context": "Black Spades were influenced by the Weather Underground Organization.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "source": "Black Spades",
+      "target": "Universal Zulu Nation",
+      "relationship": "other",
+      "detail": "founder_membership",
+      "context": "Afrika Bambaataa, a former Black Spades member, founded the Universal Zulu Nation; several members followed him.",
+      "time_period": "1977"
+    },
+    {
+      "source": "Black Spades",
+      "target": "Bloods",
+      "relationship": "other",
+      "detail": "membership_transition",
+      "context": "Many young Black Spades members transitioned their membership to the Bloods street gang in the late 1990s.",
+      "time_period": "1990s"
+    }
+  ],
+  "source_file": "Black_Spades"
+}

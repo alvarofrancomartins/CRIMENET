@@ -1,0 +1,281 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels Motorcycle Club",
+      "aliases": [
+        "HAMC",
+        "Hells Angels"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club involved in drug trafficking, extortion, and violent crimes. Operates worldwide with chapters in New York and elsewhere.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Aliens Motorcycle Club",
+      "original_text_name": "Aliens motorcycle gang",
+      "aliases": [
+        "Aliens"
+      ],
+      "type": "motorcycle_club",
+      "context": "Motorcycle gang that was patched over by the Hells Angels in New York City in 1969.",
+      "time_period": "before 1969"
+    },
+    {
+      "standard_name": "Hackers Motorcycle Club",
+      "original_text_name": "Hackers biker gang",
+      "aliases": [
+        "Hackers"
+      ],
+      "type": "motorcycle_club",
+      "context": "Biker gang in Rochester that was patched over by the Hells Angels in 1969.",
+      "time_period": "before 1969"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York Mafia family that has links with the Hells Angels, providing security and transportation in narcotics deals.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York Mafia family that has links with the Hells Angels, providing security and transportation in narcotics deals.",
+      "time_period": "1890s-present"
+    },
+    {
+      "standard_name": "Bufalino crime family",
+      "original_text_name": "Bufalino crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Western New York Mafia family that has links with the Hells Angels, providing security and transportation in narcotics deals.",
+      "time_period": "1900s-present"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel that partnered with the New York Hells Angels in smuggling cocaine.",
+      "time_period": "1970s-1993"
+    },
+    {
+      "standard_name": "Outlaws Motorcycle Club",
+      "original_text_name": "Outlaws",
+      "aliases": [
+        "Outlaws Motorcycle Club"
+      ],
+      "type": "motorcycle_club",
+      "context": "Rival outlaw motorcycle club engaged in a long conflict with the Hells Angels, including violent incidents in New York.",
+      "time_period": "1935-present"
+    },
+    {
+      "standard_name": "Kingsmen Motorcycle Club",
+      "original_text_name": "Kingsmen Motorcycle Club",
+      "aliases": [
+        "Kingsmen"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaws support club based in Fulton, New York, targeted by Hells Angels in a conflict.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Pagans Motorcycle Club",
+      "original_text_name": "Pagans",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club involved in a conflict with Hells Angels in the Bronx, New York.",
+      "time_period": "1959-present"
+    },
+    {
+      "standard_name": "Lucifer's Henchmen",
+      "original_text_name": "Lucifer's Henchmen",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Motorcycle club that the Hells Angels were feuding with in Massachusetts in the 1970s.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Hells Angels MC",
+      "original_text_name": "Hells Angels",
+      "aliases": [
+        "HAMC",
+        "Hells Angels Motorcycle Club"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club involved in drug trafficking, weapons trafficking, and other crimes. Operates worldwide with chapters in New York and elsewhere.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Aliens motorcycle gang",
+      "original_text_name": "Aliens motorcycle gang",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Motorcycle gang that was patched over by Hells Angels in New York City in 1969.",
+      "time_period": "before 1969"
+    },
+    {
+      "standard_name": "Hackers biker gang",
+      "original_text_name": "Hackers biker gang",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Biker gang that was patched over by Hells Angels in Rochester in 1969.",
+      "time_period": "before 1969"
+    },
+    {
+      "standard_name": "Confederate Angels Motorcycle Club",
+      "original_text_name": "Confederate Angels Motorcycle Club",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Richmond, Virginia-based motorcycle club that introduced an informant to Hells Angels.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Church of Angels",
+      "original_text_name": "Church of Angels",
+      "aliases": [],
+      "type": "other",
+      "context": "Nonprofit religious organization under which HAMC was incorporated in New York state.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hells Angels Motorcycle Club",
+      "target": "Aliens Motorcycle Club",
+      "relationship": "other",
+      "detail": "patched over",
+      "context": "The Hells Angels founded their New York City chapter by patching over the Aliens motorcycle gang in 1969.",
+      "time_period": "1969"
+    },
+    {
+      "source": "Hells Angels Motorcycle Club",
+      "target": "Hackers Motorcycle Club",
+      "relationship": "other",
+      "detail": "patched over",
+      "context": "The Hells Angels founded their Rochester chapter by patching over the Hackers biker gang in 1969.",
+      "time_period": "1969"
+    },
+    {
+      "source": "Hells Angels Motorcycle Club",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Hells Angels formed links with the Gambino crime family, providing security and transportation in narcotics deals in exchange for drugs.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels Motorcycle Club",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Hells Angels formed links with the Genovese crime family, providing security and transportation in narcotics deals in exchange for drugs.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels Motorcycle Club",
+      "target": "Bufalino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Hells Angels formed links with the Bufalino crime family, providing security and transportation in narcotics deals in exchange for drugs.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels Motorcycle Club",
+      "target": "Medellín Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The New York Hells Angels partnered with the Medellín Cartel in smuggling cocaine.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels Motorcycle Club",
+      "target": "Outlaws Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Hells Angels and Outlaws have a decades-long conflict involving violent incidents, including a fatal brawl at Lancaster Speedway in 1994.",
+      "time_period": "1969-present"
+    },
+    {
+      "source": "Hells Angels Motorcycle Club",
+      "target": "Kingsmen Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Hells Angels targeted Kingsmen members due to the Kingsmen being an Outlaws support club, leading to a conspiracy to commit murder.",
+      "time_period": "2005"
+    },
+    {
+      "source": "Hells Angels Motorcycle Club",
+      "target": "Pagans Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Hells Angels and Pagans have a conflict, with a Pagans leader killed in the Bronx in 2020 in retaliation for an attack on Hells Angels.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels Motorcycle Club",
+      "target": "Lucifer's Henchmen",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Hells Angels were feuding with Lucifer's Henchmen in Massachusetts in the 1970s.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Hells Angels MC",
+      "target": "Aliens motorcycle gang",
+      "relationship": "other",
+      "detail": "patched over",
+      "context": "Hells Angels patched over the Aliens motorcycle gang in New York City in 1969.",
+      "time_period": "1969"
+    },
+    {
+      "source": "Hells Angels MC",
+      "target": "Hackers biker gang",
+      "relationship": "other",
+      "detail": "patched over",
+      "context": "Hells Angels patched over the Hackers biker gang in Rochester in 1969.",
+      "time_period": "1969"
+    },
+    {
+      "source": "Hells Angels MC",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "context": "Hells Angels provided security, transportation, and contract killings for the Gambino family in exchange for drugs.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels MC",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "context": "Hells Angels provided security, transportation, and contract killings for the Genovese family in exchange for drugs.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels MC",
+      "target": "Bufalino crime family",
+      "relationship": "alliance",
+      "context": "Hells Angels provided security, transportation, and contract killings for the Bufalino family in exchange for drugs.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels MC",
+      "target": "Medellín Cartel",
+      "relationship": "alliance",
+      "context": "New York Hells Angels partnered with the Medellín Cartel in cocaine smuggling.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels MC",
+      "target": "Confederate Angels Motorcycle Club",
+      "relationship": "other",
+      "detail": "introduced informant",
+      "context": "Confederate Angels president introduced an informant to Hells Angels San Francisco chapter president.",
+      "time_period": "1982"
+    }
+  ],
+  "source_file": "Hells_Angels_MC_criminal_allegations_and_incidents_in_New_York"
+}

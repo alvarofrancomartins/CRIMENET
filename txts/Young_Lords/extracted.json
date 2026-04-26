@@ -1,0 +1,258 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Young Lords",
+      "original_text_name": "Young Lords",
+      "aliases": [
+        "YLO",
+        "YLP",
+        "Young Lords Organization",
+        "Young Lords Party"
+      ],
+      "type": "gang",
+      "context": "Chicago street gang founded in 1959 that evolved into a political organization.",
+      "time_period": "1959-1972"
+    },
+    {
+      "standard_name": "Black Panther Party",
+      "original_text_name": "Black Panther Party",
+      "aliases": [
+        "Black Panther Party",
+        "Black Panthers"
+      ],
+      "type": "other",
+      "context": "Revolutionary socialist organization that inspired and allied with the Young Lords.",
+      "time_period": "1966-1982"
+    },
+    {
+      "standard_name": "Young Lords Party",
+      "original_text_name": "Young Lords Party",
+      "aliases": [
+        "YLP"
+      ],
+      "type": "faction",
+      "context": "New York chapter that split from the main Young Lords in 1970.",
+      "time_period": "1970-1972"
+    },
+    {
+      "standard_name": "Puerto Rican Revolutionary Workers Organization",
+      "original_text_name": "Puerto Rican Revolutionary Workers Organization",
+      "aliases": [
+        "PRRWO"
+      ],
+      "type": "other",
+      "context": "Renamed from YLP in 1972.",
+      "time_period": "1972"
+    },
+    {
+      "standard_name": "Partido Socialista Puertorriqueño",
+      "original_text_name": "Partido Socialista Puertorriqueño",
+      "aliases": [
+        "PSPR",
+        "Puerto Rican Socialist Party"
+      ],
+      "type": "other",
+      "context": "Political party that some YLP members joined after 1972.",
+      "time_period": "1971-present"
+    },
+    {
+      "standard_name": "Latin American Defense Organization",
+      "original_text_name": "Latin American Defense Organization",
+      "aliases": [
+        "LADO"
+      ],
+      "type": "other",
+      "context": "Activist organization that allied with the Young Lords.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Young Patriots Organization",
+      "original_text_name": "Young Patriots Organization",
+      "aliases": [],
+      "type": "other",
+      "context": "Multiracial leftist group that collaborated with the Young Lords.",
+      "time_period": "1969-1970s"
+    },
+    {
+      "standard_name": "Students for a Democratic Society",
+      "original_text_name": "Students for a Democratic Society",
+      "aliases": [
+        "SDS"
+      ],
+      "type": "other",
+      "context": "Student activist organization that allied with the Young Lords.",
+      "time_period": "1960-1974"
+    },
+    {
+      "standard_name": "Sociedad Albizu Campos",
+      "original_text_name": "Sociedad Albizu Campos",
+      "aliases": [
+        "Albizu Campos Society"
+      ],
+      "type": "other",
+      "context": "Reading group that merged to form the New York Young Lords.",
+      "time_period": "1969"
+    },
+    {
+      "standard_name": "Photography Workshop",
+      "original_text_name": "Photography Workshop",
+      "aliases": [],
+      "type": "other",
+      "context": "Activist arts organization that merged to form the New York Young Lords.",
+      "time_period": "1969"
+    },
+    {
+      "standard_name": "Health Revolutionary Unity Movement",
+      "original_text_name": "Health Revolutionary Unity Movement",
+      "aliases": [
+        "HRUM"
+      ],
+      "type": "other",
+      "context": "Health activist group that collaborated with the Young Lords Party at Lincoln Hospital.",
+      "time_period": "1970"
+    },
+    {
+      "standard_name": "Movement Pro Independence",
+      "original_text_name": "Movement Pro Independence",
+      "aliases": [
+        "MPI"
+      ],
+      "type": "other",
+      "context": "Puerto Rican nationalist group that criticized the Young Lords Party's expansion into Puerto Rico.",
+      "time_period": "1971"
+    },
+    {
+      "standard_name": "Street Transvestite Action Revolutionaries",
+      "original_text_name": "Street Transvestite Action Revolutionaries",
+      "aliases": [
+        "STAR"
+      ],
+      "type": "other",
+      "context": "LGBTQ advocacy organization founded by Sylvia Rivera, which had ties to the Young Lords.",
+      "time_period": "1970-1973"
+    },
+    {
+      "standard_name": "Rainbow Coalition",
+      "original_text_name": "Rainbow Coalition",
+      "aliases": [],
+      "type": "other",
+      "context": "Coalition of leftist organizations including the Young Lords, Black Panthers, and others.",
+      "time_period": "1969-1970s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Young Lords",
+      "target": "Black Panther Party",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Young Lords allied with the Black Panther Party and adopted their Ten-Point Program.",
+      "time_period": "1969-1972"
+    },
+    {
+      "source": "Young Lords Party",
+      "target": "Young Lords",
+      "relationship": "other",
+      "detail": "split from",
+      "context": "The New York chapter split from the main Young Lords in 1970 to form the Young Lords Party.",
+      "time_period": "1970"
+    },
+    {
+      "source": "Young Lords Party",
+      "target": "Puerto Rican Revolutionary Workers Organization",
+      "relationship": "other",
+      "detail": "renamed to",
+      "context": "The YLP was renamed the Puerto Rican Revolutionary Workers Organization in June 1972.",
+      "time_period": "1972"
+    },
+    {
+      "source": "Young Lords Party",
+      "target": "Partido Socialista Puertorriqueño",
+      "relationship": "other",
+      "detail": "members joined",
+      "context": "Some YLP members left to join the Partido Socialista Puertorriqueño in 1972.",
+      "time_period": "1972"
+    },
+    {
+      "source": "Young Lords",
+      "target": "Latin American Defense Organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Young Lords collaborated with LADO during the McCormick Theological Seminary occupation.",
+      "time_period": "1969"
+    },
+    {
+      "source": "Young Lords",
+      "target": "Young Patriots Organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Young Lords occupied the seminary with the Young Patriots Organization.",
+      "time_period": "1969"
+    },
+    {
+      "source": "Young Lords",
+      "target": "Students for a Democratic Society",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Young Lords allied with SDS during the McCormick occupation and other actions.",
+      "time_period": "1969-1970"
+    },
+    {
+      "source": "Sociedad Albizu Campos",
+      "target": "Young Lords",
+      "relationship": "other",
+      "detail": "merged into",
+      "context": "Sociedad Albizu Campos merged with the Lower East Side chapter to form the New York Young Lords.",
+      "time_period": "1969"
+    },
+    {
+      "source": "Photography Workshop",
+      "target": "Young Lords",
+      "relationship": "other",
+      "detail": "merged into",
+      "context": "The Photography Workshop merged to form the New York Young Lords.",
+      "time_period": "1969"
+    },
+    {
+      "source": "Young Lords Party",
+      "target": "Health Revolutionary Unity Movement",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The YLP collaborated with HRUM to form the Think Lincoln Committee and occupy Lincoln Hospital.",
+      "time_period": "1970"
+    },
+    {
+      "source": "Young Lords Party",
+      "target": "Movement Pro Independence",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The MPI criticized the YLP's arrogance and unfamiliarity with the local independence movement in Puerto Rico.",
+      "time_period": "1971"
+    },
+    {
+      "source": "Young Lords",
+      "target": "Street Transvestite Action Revolutionaries",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Young Lords provided bodyguards for STAR founder Sylvia Rivera and built alliances with LGBTQ advocates.",
+      "time_period": "1970-1972"
+    },
+    {
+      "source": "Young Lords",
+      "target": "Puerto Rican Revolutionary Workers Organization",
+      "relationship": "other",
+      "detail": "succeeded by",
+      "context": "The Puerto Rican Revolutionary Workers Organization succeeded the Young Lords after its dissolution in 1972.",
+      "time_period": "1972"
+    },
+    {
+      "source": "Young Lords",
+      "target": "Rainbow Coalition",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Young Lords were a member of the Rainbow Coalition, a multi-racial alliance of leftist groups.",
+      "time_period": "1969-1970s"
+    }
+  ],
+  "source_file": "Young_Lords"
+}

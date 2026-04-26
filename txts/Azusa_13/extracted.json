@@ -1,0 +1,97 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Azusa 13",
+      "original_text_name": "Azusa 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang based in Azusa, California, affiliated with Sureños and Mexican Mafia.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [
+        "La Eme"
+      ],
+      "type": "gang",
+      "context": "Prison-based gang that controls many Latino gangs in Southern California.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Alliance of Mexican American street gangs in Southern California, affiliated with the Mexican Mafia.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Sentinel Boys 13",
+      "original_text_name": "Sentinel Boys 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Azusa 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Duroc",
+      "original_text_name": "Duroc",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Azusa 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "West Covina",
+      "original_text_name": "West Covina",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Azusa 13.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Azusa 13",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Azusa 13 is affiliated with the Mexican Mafia, indicated by the '13' in its name, and funnels money to them.",
+      "time_period": "1960s-present"
+    },
+    {
+      "source": "Azusa 13",
+      "target": "Sureños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Azusa 13 is a Sureño street gang, part of the Sureños alliance.",
+      "time_period": "1960s-present"
+    },
+    {
+      "source": "Azusa 13",
+      "target": "Sentinel Boys 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sentinel Boys 13 are listed as rivals of Azusa 13.",
+      "time_period": null
+    },
+    {
+      "source": "Azusa 13",
+      "target": "Duroc",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Duroc is listed as a rival of Azusa 13.",
+      "time_period": null
+    },
+    {
+      "source": "Azusa 13",
+      "target": "West Covina",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "West Covina is listed as a rival of Azusa 13.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Azusa_13"
+}

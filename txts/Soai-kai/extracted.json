@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Soai-kai",
+      "original_text_name": "Soai-kai",
+      "aliases": [
+        "Sōai-kai",
+        "Gyosui-kai",
+        "Takatora-gumi"
+      ],
+      "type": "mafia",
+      "context": "Yakuza group based in Chiba, Japan, with about 80 members.",
+      "time_period": "1945-present"
+    },
+    {
+      "standard_name": "Sasada-ikka",
+      "original_text_name": "Sasada-ikka",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yokohama-based bakuto group that the Soai-kai originally belonged to.",
+      "time_period": "before 1945-1955"
+    },
+    {
+      "standard_name": "Sumiyoshi-kai",
+      "original_text_name": "Sumiyoshi-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the three dominating yakuza groups in Chiba Prefecture.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Inagawa-kai",
+      "original_text_name": "Inagawa-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the three dominating yakuza groups in Chiba Prefecture.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Soai-kai",
+      "target": "Sasada-ikka",
+      "relationship": "other",
+      "detail": "former affiliate",
+      "context": "The Soai-kai was originally an affiliate of the Sasada-ikka before becoming independent in 1955.",
+      "time_period": "1945-1955"
+    },
+    {
+      "source": "Soai-kai",
+      "target": "Sumiyoshi-kai",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Soai-kai is one of three dominating groups in Chiba, implying rivalry with Sumiyoshi-kai.",
+      "time_period": null
+    },
+    {
+      "source": "Soai-kai",
+      "target": "Inagawa-kai",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Soai-kai is one of three dominating groups in Chiba, implying rivalry with Inagawa-kai.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Soai-kai"
+}

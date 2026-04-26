@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Vory v Zakone",
+      "original_text_name": "vory v zakone",
+      "aliases": [
+        "thieves in law",
+        "Vory",
+        "thief in law",
+        "vorovskoy mir"
+      ],
+      "type": "other",
+      "context": "Elite criminal society ruling the underworld in Soviet and post-Soviet states, originating in prison camps.",
+      "time_period": "1917-present"
+    },
+    {
+      "standard_name": "Suki",
+      "original_text_name": "suki",
+      "aliases": [
+        "bitches"
+      ],
+      "type": "faction",
+      "context": "Former Vory who broke the code by cooperating with prison authorities and the Soviet government.",
+      "time_period": "1940s-1950s"
+    },
+    {
+      "standard_name": "Brothers' Circle",
+      "original_text_name": "Brothers' Circle",
+      "aliases": [],
+      "type": "other",
+      "context": "International criminal organization targeted by US sanctions in 2011, includes thieves-in-law.",
+      "time_period": "2000s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Vory v Zakone",
+      "target": "Suki",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Bitch Wars were a prison gang war between pure Vory and the Suki who broke the thieves' code.",
+      "time_period": "1940s-1950s"
+    }
+  ],
+  "source_file": "Thief_in_law"
+}

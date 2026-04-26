@@ -1,0 +1,36 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Aizukotetsu-kai",
+      "original_text_name": "Aizukotetsu-kai",
+      "aliases": [
+        "Aizu-Kotetsukai",
+        "Aizu Kotetsu-kai"
+      ],
+      "type": "mafia",
+      "context": "Yakuza organization based in Kyoto, Japan. Named after the Aizu region and a type of sword.",
+      "time_period": "1868-present"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Sixth Yamaguchi-gumi",
+      "aliases": [
+        "Yamaguchi-gumi"
+      ],
+      "type": "mafia",
+      "context": "Japan's largest yakuza clan, led by Kenichi Shinoda and Kiyoshi Takayama.",
+      "time_period": "1915-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Aizukotetsu-kai",
+      "target": "Yamaguchi-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "In October 2005, the Aizukotetsu-kai allied with the Sixth Yamaguchi-gumi.",
+      "time_period": "2005-present"
+    }
+  ],
+  "source_file": "Aizukotetsu-kai"
+}

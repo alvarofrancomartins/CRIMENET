@@ -1,0 +1,202 @@
+{
+  "nodes": [
+    {
+      "standard_name": "West End Gang",
+      "original_text_name": "West End Gang",
+      "aliases": [
+        "Gang de l'ouest",
+        "Irish Gang"
+      ],
+      "type": "gang",
+      "context": "Irish-Canadian organized crime group in Montreal, involved in bank robbery, drug trafficking, and port control.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel that partnered with the West End Gang to smuggle cocaine into Canada.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Cotroni family",
+      "original_text_name": "Cotroni family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Montreal Mafia family involved in joint bank robbery with West End Gang in 1958.",
+      "time_period": "1950s-1990s"
+    },
+    {
+      "standard_name": "Montreal Mafia",
+      "original_text_name": "Montreal Mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian organized crime group in Montreal, part of the Consortium with West End Gang and Hells Angels.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
+      "aliases": [
+        "American Mafia"
+      ],
+      "type": "mafia",
+      "context": "Italian-American organized crime network with ties to West End Gang.",
+      "time_period": "1900s-present"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [
+        "Hells Angels MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club in Montreal, part of the Consortium and involved in contract killings for West End Gang.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Rizzuto crime family",
+      "original_text_name": "Rizzuto crime family",
+      "aliases": [
+        "Montreal Mafia"
+      ],
+      "type": "mafia",
+      "context": "Italian-Canadian Mafia family based in Montreal, involved in drug trafficking and other organized crime.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Wolfpack Alliance",
+      "original_text_name": "Wolfpack Alliance",
+      "aliases": [],
+      "type": "other",
+      "context": "Criminal alliance involving multiple groups, including the West End Gang, for drug trafficking.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, one of the most powerful in the world, involved in cocaine smuggling.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Cotroni crime family",
+      "original_text_name": "Cotroni crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-Canadian Mafia family based in Montreal, predecessor to the Rizzuto family.",
+      "time_period": "1950s-1990s"
+    },
+    {
+      "standard_name": "Rock Machine",
+      "original_text_name": "Rock Machine MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club based in Canada, rival to Hells Angels.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Provisional IRA",
+      "original_text_name": "Provisional IRA",
+      "aliases": [
+        "IRA"
+      ],
+      "type": "terrorist_organization",
+      "context": "Irish republican paramilitary group, involved in arms smuggling and other criminal activities.",
+      "time_period": "1969-2005"
+    }
+  ],
+  "edges": [
+    {
+      "source": "West End Gang",
+      "target": "Cali Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "West End Gang formed a partnership with a Florida-based cell of the Cali Cartel to smuggle cocaine into Canada.",
+      "time_period": "1980s-1992"
+    },
+    {
+      "source": "West End Gang",
+      "target": "Cotroni family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "West End Gang and Cotroni family jointly committed the largest bank robbery in Canadian history in 1958.",
+      "time_period": "1958"
+    },
+    {
+      "source": "West End Gang",
+      "target": "Montreal Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "West End Gang, Montreal Mafia, and Hells Angels form the Consortium to fix drug prices.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "West End Gang",
+      "target": "Cosa Nostra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "West End Gang formulated ties to Cosa Nostra as part of its international connections.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "West End Gang",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "West End Gang and Hells Angels are part of the Consortium; Hells Angels hitman killed for West End Gang.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "West End Gang",
+      "target": "Rizzuto crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The West End Gang collaborated with the Rizzuto crime family on drug shipments, but had a dispute over a cocaine shipment in 2005-2006.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "West End Gang",
+      "target": "Wolfpack Alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Shane Maloney was a key member of the Wolfpack Alliance, which involved the West End Gang.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "source": "West End Gang",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Shane Maloney transferred his loyalty to help the Sinaloa Cartel smuggle cocaine into Ontario.",
+      "time_period": "2010s"
+    },
+    {
+      "source": "West End Gang",
+      "target": "Cotroni crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The West End Gang was allied with the Cotroni crime family, as listed in the infobox.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "source": "West End Gang",
+      "target": "Rock Machine",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The West End Gang was allied with the Rock Machine MC, as listed in the infobox.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "West End Gang",
+      "target": "Provisional IRA",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The West End Gang was allied with the Provisional IRA, as listed in the infobox.",
+      "time_period": "1970s-1990s"
+    }
+  ],
+  "source_file": "West_End_Gang"
+}

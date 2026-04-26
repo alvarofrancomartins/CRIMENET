@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Tanglewood Boys",
+      "original_text_name": "Tanglewood Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Italian-American recruitment gang for the Lucchese crime family, operating in Yonkers, Westchester County, the Bronx, and Upper West Side.",
+      "time_period": "c. 1990s-2000s"
+    },
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese crime family",
+      "aliases": [
+        "Lucchese family"
+      ],
+      "type": "mafia",
+      "context": "One of the Five Families of the American Mafia, based in New York City.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of the American Mafia, based in New York City.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of the American Mafia, based in New York City.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Albanian Boys",
+      "original_text_name": "Albanian Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to the Tanglewood Boys, involved in conflicts in New York City.",
+      "time_period": "1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Tanglewood Boys",
+      "target": "Lucchese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Tanglewood Boys served as a recruitment gang or 'farm team' for the Lucchese crime family.",
+      "time_period": "c. 1990s-2000s"
+    },
+    {
+      "source": "Tanglewood Boys",
+      "target": "Albanian Boys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Tanglewood Boys had conflicts with Albanian gangsters, including a murder mistaken for an Albanian gangster.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Tanglewood Boys",
+      "target": "Bonanno crime family",
+      "relationship": "other",
+      "detail": "used location",
+      "context": "A sit-down between Tanglewood Boys members occurred in a bar owned by Bonanno crime family soldier Vincent Basciano.",
+      "time_period": "1995"
+    },
+    {
+      "source": "Tanglewood Boys",
+      "target": "Genovese crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Tanglewood Boys member John Petrucelli murdered Paul Cicero, a cousin of Genovese associate Gene Gallo, in retaliation for a shooting.",
+      "time_period": "1995"
+    }
+  ],
+  "source_file": "Tanglewood_Boys"
+}

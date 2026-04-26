@@ -1,0 +1,229 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Vollaro clan",
+      "original_text_name": "Vollaro clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Neapolitan Camorra clan operating in Portici and San Sebastiano al Vesuvio, involved in racketeering, drug trafficking, extortion, etc.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Cozzilino clan",
+      "original_text_name": "Cozzilino clan",
+      "aliases": [
+        "Cozzolino clan"
+      ],
+      "type": "clan",
+      "context": "Camorra clan that fought a war with the Vollaro clan in 2001-2002.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Alfieri clan",
+      "original_text_name": "Alfieri clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Powerful Camorra clan from Piazzolla di Nola, led by Carmine Alfieri, allied with Vollaro clan against NCO.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "type": "clan",
+      "context": "Camorra organization led by Raffaele Cutolo, opposed by the Vollaro clan and the Nuova Famiglia.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [
+        "NF"
+      ],
+      "type": "clan",
+      "context": "Coalition of anti-Cutolo Camorra clans formed to contrast the NCO, joined by Vollaro clan.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Sarno clan",
+      "original_text_name": "Sarno clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "More powerful Camorra clan that may fill the void left by the weakening Vollaro clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mazzarella clan",
+      "original_text_name": "Mazzarella clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan at war with Vollaro clan as of 2019 due to territorial expansion.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ascione clan",
+      "original_text_name": "Ascione clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Ally of the Vollaro clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Abate clan",
+      "original_text_name": "Abate clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Defunct ally of the Vollaro clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Giuliano clan",
+      "original_text_name": "Giuliano clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Defunct ally of the Vollaro clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Anastasio clan",
+      "original_text_name": "Anastasio clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Ally of the Vollaro clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Veneruso clan",
+      "original_text_name": "Veneruso clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Ally of the Vollaro clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Marfella clan",
+      "original_text_name": "Marfella clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Ally of the Vollaro clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Birra clan",
+      "original_text_name": "Birra clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Rival of the Vollaro clan.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Vollaro clan",
+      "target": "Cozzilino clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Fought a war in late 2001 and early 2002.",
+      "time_period": "2001-2002"
+    },
+    {
+      "source": "Vollaro clan",
+      "target": "Alfieri clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Vollaro clan sided with Alfieri clan against the NCO.",
+      "time_period": "late 1970s-1980s"
+    },
+    {
+      "source": "Vollaro clan",
+      "target": "Nuova Camorra Organizzata",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Vollaro clan opposed the NCO and joined the Nuova Famiglia to fight it.",
+      "time_period": "late 1970s-1980s"
+    },
+    {
+      "source": "Vollaro clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Vollaro clan was one of the first to join the anti-Cutolo coalition.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Vollaro clan",
+      "target": "Sarno clan",
+      "relationship": "other",
+      "detail": "power shift",
+      "context": "Weakening of Vollaro clan may pave way for Sarno clan.",
+      "time_period": "2009"
+    },
+    {
+      "source": "Vollaro clan",
+      "target": "Mazzarella clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "At war as of 2019 due to Mazzarella clan's territorial expansion.",
+      "time_period": "2019-present"
+    },
+    {
+      "source": "Vollaro clan",
+      "target": "Ascione clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Vollaro clan",
+      "target": "Abate clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as defunct ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Vollaro clan",
+      "target": "Giuliano clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as defunct ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Vollaro clan",
+      "target": "Anastasio clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Vollaro clan",
+      "target": "Veneruso clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Vollaro clan",
+      "target": "Marfella clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Vollaro clan",
+      "target": "Birra clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Vollaro_clan"
+}

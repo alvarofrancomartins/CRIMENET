@@ -1,0 +1,161 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Rinaldi clan",
+      "original_text_name": "Rinaldi clan",
+      "aliases": [
+        "Rinaldi-De Luca Bossa-Aprea"
+      ],
+      "type": "clan",
+      "context": "Camorra clan operating in San Giovanni a Teduccio, Naples. Involved in murder, drug trafficking, counterfeiting.",
+      "time_period": "1989-present"
+    },
+    {
+      "standard_name": "De Luca Bossa clan",
+      "original_text_name": "De Luca Bossa clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Ponticelli, allied with Rinaldi clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Aprea-Cuccaro clan",
+      "original_text_name": "Aprea-Cuccaro clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Barra, allied with Rinaldi clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mazzarella clan",
+      "original_text_name": "Mazzarella clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from which Rinaldi split; rival of Rinaldi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Secondigliano Alliance",
+      "original_text_name": "Secondigliano Alliance",
+      "aliases": [],
+      "type": "clan",
+      "context": "Powerful Camorra alliance allied with Rinaldi clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Paranza dei bambini",
+      "original_text_name": "Paranza dei bambini",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra group, made pact with Rinaldi to eliminate Mazzarella.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Giuliano clan",
+      "original_text_name": "Giuliano clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, heirs of which headed Paranza dei bambini.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Contini clan",
+      "original_text_name": "Contini clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, ally of Rinaldi according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Piezzo group",
+      "original_text_name": "Piezzo group",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra group involved in drug business with Rinaldi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "barbudos faction",
+      "original_text_name": "barbudos faction",
+      "aliases": [],
+      "type": "faction",
+      "context": "Faction of Rione Sanità, whose boss Raffaele Cepparulo was killed by Rinaldi.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Rinaldi clan",
+      "target": "Mazzarella clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rinaldi clan split from Mazzarella in 1989 and has been in conflict since.",
+      "time_period": "1989-present"
+    },
+    {
+      "source": "Rinaldi clan",
+      "target": "De Luca Bossa clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Since 2019, Rinaldi formed a strong alliance with De Luca Bossa.",
+      "time_period": "2019-present"
+    },
+    {
+      "source": "Rinaldi clan",
+      "target": "Aprea-Cuccaro clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Since 2019, Rinaldi formed a strong alliance with Aprea-Cuccaro.",
+      "time_period": "2019-present"
+    },
+    {
+      "source": "Rinaldi clan",
+      "target": "Secondigliano Alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Rinaldi is allied with the powerful Secondigliano Alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Rinaldi clan",
+      "target": "Paranza dei bambini",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Rinaldi made a pact with Paranza dei bambini to eliminate Mazzarella.",
+      "time_period": null
+    },
+    {
+      "source": "Rinaldi clan",
+      "target": "Giuliano clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Rinaldi allied with Giuliano clan according to infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Rinaldi clan",
+      "target": "Contini clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Rinaldi allied with Contini clan according to infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Rinaldi clan",
+      "target": "Piezzo group",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Rinaldi had a pact on drug business with Piezzo group.",
+      "time_period": null
+    },
+    {
+      "source": "Rinaldi clan",
+      "target": "barbudos faction",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rinaldi killed boss Raffaele Cepparulo of the barbudos faction.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Rinaldi_clan"
+}

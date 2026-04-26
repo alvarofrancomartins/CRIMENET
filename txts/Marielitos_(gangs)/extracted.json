@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Marielitos",
+      "original_text_name": "Marielitos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Cuban immigrant crime gangs involved in drug trafficking, contract killing, and other crimes, active in US cities.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "American Mafia",
+      "original_text_name": "American Mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American organized crime families operating in the United States.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Colombian Cartels",
+      "original_text_name": "Colombian Cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug trafficking organizations.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mexican Cartels",
+      "original_text_name": "Mexican Cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug trafficking organizations.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cuban Mafia",
+      "original_text_name": "Cuban mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Cuban organized crime groups, possibly in the US or Cuba.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Marielitos",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Marielitos have aligned with American Mafia families to set up drug pipelines and work as enforcers.",
+      "time_period": null
+    },
+    {
+      "source": "Marielitos",
+      "target": "Colombian Cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Marielitos have aligned with Colombian cartels to set up drug pipelines and work as enforcers.",
+      "time_period": null
+    },
+    {
+      "source": "Marielitos",
+      "target": "Mexican Cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Marielitos are listed as allies of Mexican cartels in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Marielitos",
+      "target": "Cuban Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Marielitos are listed as allies of the Cuban mafia in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Marielitos_(gangs)"
+}

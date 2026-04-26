@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "standard_name": "AK81",
+      "original_text_name": "AK81",
+      "aliases": [
+        "Altid Klar"
+      ],
+      "type": "gang",
+      "context": "Danish street gang involved in drug and gun trafficking, formed in 2007 as a support gang for Hells Angels.",
+      "time_period": "2007-present"
+    },
+    {
+      "standard_name": "Hells Angels MC",
+      "original_text_name": "Hells Angels",
+      "aliases": [
+        "Hells Angels MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, supported by AK81 in conflicts with immigrant gangs.",
+      "time_period": "founded 1948"
+    },
+    {
+      "standard_name": "Black Cobra",
+      "original_text_name": "Black Cobra",
+      "aliases": [],
+      "type": "gang",
+      "context": "Immigrant gang, rival of AK81 and Hells Angels.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Black Scorpions",
+      "original_text_name": "Black Scorpions",
+      "aliases": [],
+      "type": "gang",
+      "context": "Immigrant gang, rival of AK81 and Hells Angels.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Loyal to Familia",
+      "original_text_name": "Loyal to Familia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Immigrant gang, rival of AK81 and Hells Angels.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Black Jackets",
+      "original_text_name": "Black Jackets",
+      "aliases": [],
+      "type": "gang",
+      "context": "Immigrant gang, rival of AK81 and Hells Angels.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "AK81",
+      "target": "Hells Angels MC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "AK81 is a support gang for Hells Angels, providing muscle and recruiting faster.",
+      "time_period": "2007-present"
+    },
+    {
+      "source": "AK81",
+      "target": "Black Cobra",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "AK81 and Hells Angels are in conflict with immigrant gangs including Black Cobra.",
+      "time_period": "2007-2009"
+    },
+    {
+      "source": "AK81",
+      "target": "Black Scorpions",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "AK81 and Hells Angels are in conflict with immigrant gangs including Black Scorpions.",
+      "time_period": "2007-2009"
+    },
+    {
+      "source": "AK81",
+      "target": "Loyal to Familia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "AK81 and Hells Angels are in conflict with immigrant gangs including Loyal to Familia.",
+      "time_period": "2007-2009"
+    },
+    {
+      "source": "AK81",
+      "target": "Black Jackets",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "AK81 and Hells Angels are in conflict with immigrant gangs including Black Jackets.",
+      "time_period": "2007-2009"
+    },
+    {
+      "source": "Hells Angels MC",
+      "target": "Black Cobra",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels and AK81 are in conflict with immigrant gangs including Black Cobra.",
+      "time_period": "2007-2009"
+    },
+    {
+      "source": "Hells Angels MC",
+      "target": "Black Scorpions",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels and AK81 are in conflict with immigrant gangs including Black Scorpions.",
+      "time_period": "2007-2009"
+    },
+    {
+      "source": "Hells Angels MC",
+      "target": "Loyal to Familia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels and AK81 are in conflict with immigrant gangs including Loyal to Familia.",
+      "time_period": "2007-2009"
+    },
+    {
+      "source": "Hells Angels MC",
+      "target": "Black Jackets",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels and AK81 are in conflict with immigrant gangs including Black Jackets.",
+      "time_period": "2007-2009"
+    }
+  ],
+  "source_file": "AK81"
+}

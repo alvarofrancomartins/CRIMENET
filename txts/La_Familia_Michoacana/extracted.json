@@ -1,0 +1,405 @@
+{
+  "nodes": [
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [
+        "LFM",
+        "La Familia",
+        "La Familia Michoacana",
+        "The Family",
+        "The Michoacán Family"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel based in Michoacán, produces methamphetamine, involved in drug trafficking and violence.",
+      "time_period": "1980s-2011"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, formerly allied with La Familia Michoacana as part of Los Zetas.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel and paramilitary group, initially trained La Familia, later became rival.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Knights Templar Cartel",
+      "original_text_name": "Knights Templar Cartel",
+      "aliases": [
+        "Caballeros Templarios"
+      ],
+      "type": "cartel",
+      "context": "Splinter group from La Familia Michoacana formed after Nazario Moreno's death.",
+      "time_period": "2010-present"
+    },
+    {
+      "standard_name": "La Nueva Familia Michoacana",
+      "original_text_name": "La Nueva Familia Michoacana",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Splinter group from La Familia Michoacana formed after Nazario Moreno's death.",
+      "time_period": "2010-present"
+    },
+    {
+      "standard_name": "Beltrán-Leyva Cartel",
+      "original_text_name": "Beltrán-Leyva Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, rival of La Familia Michoacana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, allied with La Familia Michoacana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Juárez Cartel",
+      "original_text_name": "Juárez Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, part of faction opposing La Familia's alliance.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Tijuana Cartel",
+      "original_text_name": "Tijuana Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, part of faction opposing La Familia's alliance.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Flores Camargo Cartel",
+      "original_text_name": "Flores Camargo cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Small drug trafficking group operating in Atlanta, connected to La Familia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Viagras",
+      "original_text_name": "Los Viagras",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican criminal group, ally of La Familia Michoacana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Menace of Destruction",
+      "original_text_name": "Menace of Destruction",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang, ally of La Familia Michoacana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mara Salvatrucha",
+      "original_text_name": "Mara Salvatrucha",
+      "aliases": [
+        "MS-13"
+      ],
+      "type": "gang",
+      "context": "Transnational gang, ally of La Familia Michoacana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Tequileros",
+      "original_text_name": "Los Tequileros",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican criminal group, ally of La Familia Michoacana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Guerreros Unidos",
+      "original_text_name": "Guerrero's Unidos",
+      "aliases": [
+        "Guerreros Unidos"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel, ally of La Familia Michoacana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Juarez Cartel",
+      "original_text_name": "Juarez Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, ally of La Familia Michoacana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Rural Defense Force",
+      "original_text_name": "Rural Defense Force",
+      "aliases": [],
+      "type": "militia",
+      "context": "Vigilante group, ally of La Familia Michoacana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "La Unión Tepito",
+      "original_text_name": "La Unión Tepito",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mexican gang, rival of La Familia Michoacana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "CJNG"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel, rival of La Familia Michoacana.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "La Familia Michoacana",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Familia was formerly allied to the Gulf Cartel as part of Los Zetas.",
+      "time_period": "until 2006"
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Los Zetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Familia initially trained with Los Zetas as part of the Gulf Cartel.",
+      "time_period": "until 2006"
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Los Zetas",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "After splitting off in 2006, La Familia became a strong rival of Los Zetas.",
+      "time_period": "2006-present"
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Beltrán-Leyva Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "La Familia has a strong rivalry with the Beltrán-Leyva Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Familia has strong ties with the Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Knights Templar Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "La Familia became a rival of its splinter group Knights Templar.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "La Nueva Familia Michoacana",
+      "relationship": "other",
+      "detail": "splinter group",
+      "context": "Several leaders split off after Nazario Moreno's death to form La Nueva Familia Michoacana.",
+      "time_period": "2010"
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Flores Camargo Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Familia has connections with the Flores Camargo cartel for drug trafficking.",
+      "time_period": null
+    },
+    {
+      "source": "Gulf Cartel",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "In February 2010, the Gulf Cartel and Sinaloa Cartel aligned in one faction with La Familia.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Juárez Cartel",
+      "target": "Tijuana Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "In February 2010, Juárez Cartel and Tijuana Cartel aligned with Los Zetas and Beltrán-Leyva.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Juárez Cartel",
+      "target": "Los Zetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "In February 2010, Juárez Cartel aligned with Los Zetas.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Juárez Cartel",
+      "target": "Beltrán-Leyva Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "In February 2010, Juárez Cartel aligned with Beltrán-Leyva Cartel.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Tijuana Cartel",
+      "target": "Los Zetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "In February 2010, Tijuana Cartel aligned with Los Zetas.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Tijuana Cartel",
+      "target": "Beltrán-Leyva Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "In February 2010, Tijuana Cartel aligned with Beltrán-Leyva Cartel.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Los Zetas",
+      "target": "Beltrán-Leyva Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "In February 2010, Los Zetas aligned with Beltrán-Leyva Cartel.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Gulf Cartel",
+      "target": "La Familia Michoacana",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "In February 2010, Gulf Cartel aligned with La Familia Michoacana.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "La Familia Michoacana",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "In February 2010, Sinaloa Cartel aligned with La Familia Michoacana.",
+      "time_period": "2010"
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "La Nueva Familia Michoacana",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies; splinter group that remains allied.",
+      "time_period": null
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Los Viagras",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies.",
+      "time_period": null
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Menace of Destruction",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies.",
+      "time_period": null
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Mara Salvatrucha",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies.",
+      "time_period": null
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Beltrán-Leyva Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies.",
+      "time_period": null
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Los Tequileros",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies.",
+      "time_period": null
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Guerreros Unidos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies.",
+      "time_period": null
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Juarez Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies.",
+      "time_period": null
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Tijuana Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies.",
+      "time_period": null
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Rural Defense Force",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies.",
+      "time_period": null
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "La Unión Tepito",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rivals.",
+      "time_period": null
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rivals.",
+      "time_period": null
+    }
+  ],
+  "source_file": "La_Familia_Michoacana"
+}

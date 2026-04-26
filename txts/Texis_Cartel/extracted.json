@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Texis Cartel",
+      "original_text_name": "Texis Cartel",
+      "aliases": [
+        "Cártel de Texis"
+      ],
+      "type": "cartel",
+      "context": "Salvadoran drug trafficking cartel active from 1990s to 2018, transported drugs from Colombia through El Salvador to North America.",
+      "time_period": "1990s-2018"
+    },
+    {
+      "standard_name": "MS-13",
+      "original_text_name": "MS-13",
+      "aliases": [
+        "Mara Salvatrucha"
+      ],
+      "type": "gang",
+      "context": "Salvadoran criminal street gang hired by Texis Cartel for intimidation and killings.",
+      "time_period": null
+    },
+    {
+      "standard_name": "18th Street Gang",
+      "original_text_name": "18th Street gang",
+      "aliases": [
+        "Barrio 18",
+        "Mara 18"
+      ],
+      "type": "gang",
+      "context": "Salvadoran criminal street gang hired by Texis Cartel for intimidation and killings.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Perrones",
+      "original_text_name": "Los Perrones",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Drug trafficking group in El Salvador that received protection from Salvadoran government officials alongside Texis Cartel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Colombian Drug Cartels",
+      "original_text_name": "Colombian drug cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian cartels that manufactured drugs transported by Texis Cartel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mexican Drug Cartels",
+      "original_text_name": "Mexican drug cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican cartels that Texis Cartel worked with, offering services to whichever group paid.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Texis Cartel",
+      "target": "MS-13",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Texis Cartel hired MS-13 gang members to intimidate and kill opponents if necessary.",
+      "time_period": null
+    },
+    {
+      "source": "Texis Cartel",
+      "target": "18th Street Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Texis Cartel hired 18th Street gang members to intimidate and kill opponents if necessary.",
+      "time_period": null
+    },
+    {
+      "source": "Texis Cartel",
+      "target": "Los Perrones",
+      "relationship": "other",
+      "detail": "mentioned together",
+      "context": "Both groups received protection from Salvadoran government officials according to UN in 2011.",
+      "time_period": "2011"
+    },
+    {
+      "source": "Texis Cartel",
+      "target": "Colombian Drug Cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Texis Cartel transported drugs manufactured by Colombian cartels through El Salvador.",
+      "time_period": null
+    },
+    {
+      "source": "Texis Cartel",
+      "target": "Mexican Drug Cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Texis Cartel worked with Mexican drug cartels, offering services to whichever group paid.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Texis_Cartel"
+}

@@ -1,0 +1,116 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bounty Hunter Watts Bloods",
+      "original_text_name": "Bounty Hunter Watts Bloods",
+      "aliases": [
+        "Bounty Hunter Bloods",
+        "Bounty Hunters"
+      ],
+      "type": "gang",
+      "context": "Bloods set in Nickerson Gardens, Watts, Los Angeles; involved in drug trafficking, murder, and other crimes.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Major street gang alliance; Bounty Hunter Watts Bloods is a set of the Bloods.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "PJ Watts Crips",
+      "original_text_name": "PJ Watts Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Crips set in Imperial Courts, Watts; allied with Bounty Hunter Watts Bloods.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Grape Street Watts Crips",
+      "original_text_name": "Grape Street Watts Crips",
+      "aliases": [
+        "Grape Street Crips"
+      ],
+      "type": "gang",
+      "context": "Crips set in Watts; long-standing rival of Bounty Hunter Watts Bloods.",
+      "time_period": null
+    },
+    {
+      "standard_name": "West Side Piru",
+      "original_text_name": "West Side Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "Bloods set based in Compton; rival of Bounty Hunter Watts Bloods.",
+      "time_period": null
+    },
+    {
+      "standard_name": "118 East Coast Crips",
+      "original_text_name": "118 East Coast Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Crips set; rival of Bounty Hunter Watts Bloods.",
+      "time_period": null
+    },
+    {
+      "standard_name": "59 Bounty Hunter Bloods",
+      "original_text_name": "59 Bounty Hunter Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Bloods set in Houston, Texas; shares name with Bounty Hunter Watts Bloods.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bounty Hunter Bloods (Detroit)",
+      "original_text_name": "Bounty Hunter Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Bloods set in Detroit, Michigan; shares name with Bounty Hunter Watts Bloods.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bounty Hunter Watts Bloods",
+      "target": "Bloods",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bounty Hunter Watts Bloods is a set of the Bloods gang alliance.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Bounty Hunter Watts Bloods",
+      "target": "PJ Watts Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied against Grape Street Watts Crips and other enemies.",
+      "time_period": null
+    },
+    {
+      "source": "Bounty Hunter Watts Bloods",
+      "target": "Grape Street Watts Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Longstanding violent feud; truce in 1992 but collapsed by 2005.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Bounty Hunter Watts Bloods",
+      "target": "West Side Piru",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Known to feud with West Side Piru based in Compton.",
+      "time_period": null
+    },
+    {
+      "source": "Bounty Hunter Watts Bloods",
+      "target": "118 East Coast Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Known to feud with 118 East Coast Crips; members shot at a school bus targeting Bounty Hunter Bloods.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Bounty_Hunter_Watts_Bloods"
+}

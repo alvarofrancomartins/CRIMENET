@@ -1,0 +1,149 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Charlines",
+      "original_text_name": "Los Charlines",
+      "aliases": [
+        "Os Charlíns"
+      ],
+      "type": "clan",
+      "context": "Galician drug trafficking clan involved in smuggling and cocaine trafficking.",
+      "time_period": "1975-present"
+    },
+    {
+      "standard_name": "Oubiña",
+      "original_text_name": "Oubiña",
+      "aliases": [],
+      "type": "clan",
+      "context": "Galician drug trafficking clan, mentioned alongside Los Charlines.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Miñanco",
+      "original_text_name": "Miñanco",
+      "aliases": [],
+      "type": "clan",
+      "context": "Galician drug trafficking clan, mentioned alongside Los Charlines.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Os Caneos",
+      "original_text_name": "Caneos clan",
+      "aliases": [
+        "Os Caneos"
+      ],
+      "type": "clan",
+      "context": "Galician drug trafficking clan, rival of Los Charlines.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellin Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel, ally of Los Charlines.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel, ally of Los Charlines.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Clan del Golfo",
+      "original_text_name": "Clan del Golfo",
+      "aliases": [],
+      "type": "clan",
+      "context": "Colombian drug trafficking group, ally of Los Charlines.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Corleonesi",
+      "original_text_name": "Corleonesi clan",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Sicilian Mafia clan, ally of Los Charlines.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "type": "mafia",
+      "context": "Italian Camorra organization, ally of Los Charlines.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, ally of Los Charlines.",
+      "time_period": "1990s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Charlines",
+      "target": "Medellín Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Charlines allied with Medellín Cartel for drug trafficking.",
+      "time_period": null
+    },
+    {
+      "source": "Los Charlines",
+      "target": "Cali Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Charlines allied with Cali Cartel for drug trafficking.",
+      "time_period": null
+    },
+    {
+      "source": "Los Charlines",
+      "target": "Clan del Golfo",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Charlines allied with Clan del Golfo for drug trafficking.",
+      "time_period": null
+    },
+    {
+      "source": "Los Charlines",
+      "target": "Corleonesi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Charlines allied with Corleonesi clan for drug trafficking.",
+      "time_period": null
+    },
+    {
+      "source": "Los Charlines",
+      "target": "Nuova Camorra Organizzata",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Charlines allied with Nuova Camorra Organizzata for drug trafficking.",
+      "time_period": null
+    },
+    {
+      "source": "Los Charlines",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Charlines allied with Sinaloa Cartel for drug trafficking.",
+      "time_period": null
+    },
+    {
+      "source": "Los Charlines",
+      "target": "Os Caneos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Charlines had a rivalry with Os Caneos, leading to assassination of Os Caneos leader.",
+      "time_period": "1990s"
+    }
+  ],
+  "source_file": "Los_Charlines"
+}

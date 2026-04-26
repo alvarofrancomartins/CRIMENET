@@ -1,0 +1,112 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hutch Organised Crime Gang",
+      "original_text_name": "Hutch Organised Crime Gang",
+      "aliases": [
+        "Hutch Gang",
+        "HOCG"
+      ],
+      "type": "gang",
+      "context": "Irish criminal organization involved in drug trafficking, armed robberies, and murder.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Kinahan Organised Crime Group",
+      "original_text_name": "Kinahan Organised Crime Group",
+      "aliases": [
+        "Kinahans"
+      ],
+      "type": "gang",
+      "context": "Irish criminal organization, rival of the Hutch gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Keane-Collopy Gang",
+      "original_text_name": "Keane-Collopy Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Irish criminal gang allied with the Hutch gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "McCarthy-Dundon Gang",
+      "original_text_name": "McCarthy-Dundon Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Irish criminal gang allied with the Hutch gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Real Irish Republican Army",
+      "original_text_name": "RIRA",
+      "aliases": [
+        "Real IRA"
+      ],
+      "type": "militia",
+      "context": "Irish republican paramilitary group allied with the Hutch gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "New Irish Republican Army",
+      "original_text_name": "New IRA",
+      "aliases": [],
+      "type": "militia",
+      "context": "Irish republican paramilitary group allied with the Hutch gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Provisional Irish Republican Army",
+      "original_text_name": "Provisional IRA",
+      "aliases": [
+        "IRA"
+      ],
+      "type": "militia",
+      "context": "Irish republican paramilitary group; former member David Douglas was killed in the feud.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hutch Organised Crime Gang",
+      "target": "Kinahan Organised Crime Group",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The murder of Gary Hutch in 2015 sparked a feud between the Hutch gang and the Kinahans.",
+      "time_period": "2015-present"
+    },
+    {
+      "source": "Hutch Organised Crime Gang",
+      "target": "Keane-Collopy Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Keane-Collopy Gang is listed as an ally of the Hutch gang.",
+      "time_period": null
+    },
+    {
+      "source": "Hutch Organised Crime Gang",
+      "target": "McCarthy-Dundon Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The McCarthy-Dundon Gang is listed as an ally of the Hutch gang.",
+      "time_period": null
+    },
+    {
+      "source": "Hutch Organised Crime Gang",
+      "target": "Real Irish Republican Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The RIRA is listed as an ally of the Hutch gang.",
+      "time_period": null
+    },
+    {
+      "source": "Hutch Organised Crime Gang",
+      "target": "New Irish Republican Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The New IRA is listed as an ally of the Hutch gang.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Hutch_Organised_Crime_Gang"
+}

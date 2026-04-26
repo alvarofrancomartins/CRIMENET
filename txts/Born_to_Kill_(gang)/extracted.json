@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Born to Kill",
+      "original_text_name": "Born to Kill",
+      "aliases": [
+        "BTK",
+        "Canal Boys"
+      ],
+      "type": "gang",
+      "context": "Vietnamese street gang active in New York City's Chinatown in the 1980s-1990s, involved in counterfeiting, extortion, robbery, and murder.",
+      "time_period": "1988-1992"
+    },
+    {
+      "standard_name": "Flying Dragons",
+      "original_text_name": "Flying Dragons",
+      "aliases": [
+        "Vietnamese Flying Dragons"
+      ],
+      "type": "gang",
+      "context": "Chinese organized crime group in New York City's Chinatown, involved in racketeering and other criminal activities.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Ghost Shadows",
+      "original_text_name": "Ghost Shadows",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chinese street gang in New York City's Chinatown, rival of Born to Kill.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "United Bamboo",
+      "original_text_name": "United Bamboo",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chinese organized crime group in New York City's Chinatown, weakened by arrests in the late 1980s.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "American Mafia",
+      "original_text_name": "American mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American organized crime network that funded Born to Kill's brothel in exchange for a cut of robbery proceeds.",
+      "time_period": "1980s-1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Born to Kill",
+      "target": "Flying Dragons",
+      "relationship": "other",
+      "detail": "former affiliation",
+      "context": "Born to Kill founder David Thai was briefly a member of the Flying Dragons before forming his own gang.",
+      "time_period": "1983"
+    },
+    {
+      "source": "Born to Kill",
+      "target": "Ghost Shadows",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Born to Kill was embroiled in a violent conflict with the Ghost Shadows over turf.",
+      "time_period": "late 1980s-early 1990s"
+    },
+    {
+      "source": "Born to Kill",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The American mafia funded Born to Kill's brothel in exchange for a cut of robbery proceeds.",
+      "time_period": "late 1980s-early 1990s"
+    }
+  ],
+  "source_file": "Born_to_Kill_(gang)"
+}

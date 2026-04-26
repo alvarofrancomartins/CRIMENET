@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "standard_name": "The Firm",
+      "original_text_name": "the Firm",
+      "aliases": [
+        "Kray gang",
+        "Kray twins' gang"
+      ],
+      "type": "gang",
+      "context": "London gang led by the Kray twins, involved in murder, armed robbery, arson, protection rackets, gambling and assaults.",
+      "time_period": "late 1950s-1968"
+    },
+    {
+      "standard_name": "Richardson Gang",
+      "original_text_name": "Richardson Gang",
+      "aliases": [
+        "Richardsons"
+      ],
+      "type": "gang",
+      "context": "South London gang rival to the Krays' Firm, led by Charlie Richardson.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "American Mafia",
+      "original_text_name": "American Mafia",
+      "aliases": [
+        "Mafia",
+        "the Commission"
+      ],
+      "type": "mafia",
+      "context": "Governing body of organized crime in the United States, allied with the Kray twins in the 1960s.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Cotroni crime family",
+      "original_text_name": "Cotroni crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Montreal-based Mafia family, satellite of the Bonanno crime family, sold stolen bonds to the Krays.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York Mafia family, parent organization of the Cotroni crime family.",
+      "time_period": "1960s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "The Firm",
+      "target": "Richardson Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Richardson Gang was a rival of the Krays’ Firm.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "The Firm",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Kray twins formed an alliance with the American Mafia's Commission, working with Meyer Lansky and Angelo Bruno.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "The Firm",
+      "target": "Cotroni crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Cotroni crime family sold stolen bearer bonds to the Krays, who redeemed them in London.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Cotroni crime family",
+      "target": "Bonanno crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Cotroni crime family was a Canadian satellite of the Bonanno crime family.",
+      "time_period": "1960s"
+    }
+  ],
+  "source_file": "Kray_twins"
+}

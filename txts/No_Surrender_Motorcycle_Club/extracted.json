@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "No Surrender Motorcycle Club",
+      "original_text_name": "No Surrender Motorcycle Club",
+      "aliases": [
+        "No Surrender MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "International one-percenter outlaw motorcycle club established in the Netherlands in 2013.",
+      "time_period": "2013-present"
+    },
+    {
+      "standard_name": "Satudarah",
+      "original_text_name": "Satudarah",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club; former club of No Surrender founder Klaas Otto.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "No Surrender Motorcycle Club",
+      "target": "Satudarah",
+      "relationship": "other",
+      "detail": "splinter group",
+      "context": "No Surrender was founded by a former member of Satudarah.",
+      "time_period": "2013"
+    }
+  ],
+  "source_file": "No_Surrender_Motorcycle_Club"
+}

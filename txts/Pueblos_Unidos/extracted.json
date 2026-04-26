@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Pueblos Unidos",
+      "original_text_name": "Pueblos Unidos",
+      "aliases": [],
+      "type": "other",
+      "context": "Mexican criminal group active in Michoacán, started as self-defense group but became racketeering group.",
+      "time_period": "2021-present"
+    },
+    {
+      "standard_name": "Los Viagras",
+      "original_text_name": "Los Viagras",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Cartel gang active in Michoacán, targeted by Pueblos Unidos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation",
+      "aliases": [
+        "CJNG"
+      ],
+      "type": "cartel",
+      "context": "Cartel gang active in Michoacán, targeted by Pueblos Unidos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "La Resistencia",
+      "original_text_name": "La Resistencia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang possibly tied to Pueblos Unidos.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Pueblos Unidos",
+      "target": "Los Viagras",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Pueblos Unidos formed to defend against Los Viagras.",
+      "time_period": "2021-present"
+    },
+    {
+      "source": "Pueblos Unidos",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Pueblos Unidos formed to defend against Jalisco New Generation.",
+      "time_period": "2021-present"
+    },
+    {
+      "source": "Pueblos Unidos",
+      "target": "La Resistencia",
+      "relationship": "other",
+      "detail": "possible alliance",
+      "context": "Pueblos Unidos is suggested to be tied to La Resistencia.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Pueblos_Unidos"
+}

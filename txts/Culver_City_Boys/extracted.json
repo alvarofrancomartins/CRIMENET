@@ -1,0 +1,98 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Culver City Boys",
+      "original_text_name": "Culver City Boys",
+      "aliases": [
+        "Culver City 13",
+        "CCB13"
+      ],
+      "type": "gang",
+      "context": "Mexican-American street gang from Mar Vista, Los Angeles, involved in murder, drug trafficking, extortion, assault, auto theft, robbery.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang and organized crime syndicate operating in the southwestern United States.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Santa Monica 13",
+      "original_text_name": "Santa Monica 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mexican-American street gang based in Santa Monica, California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "18th Street Gang",
+      "original_text_name": "18th Street Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Multi-ethnic street gang originating in Los Angeles, one of the largest in the United States.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Venice Shoreline Crips",
+      "original_text_name": "Venice Shoreline Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Crip street gang based in Venice, Los Angeles.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Venice 13",
+      "original_text_name": "Venice 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mexican-American street gang based in Venice, Los Angeles.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Culver City Boys",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Culver City Boys are allies with the Mexican Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Culver City Boys",
+      "target": "Santa Monica 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Culver City Boys have a rivalry with Santa Monica 13.",
+      "time_period": null
+    },
+    {
+      "source": "Culver City Boys",
+      "target": "18th Street Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Culver City Boys have a rivalry with 18th Street Gang.",
+      "time_period": null
+    },
+    {
+      "source": "Culver City Boys",
+      "target": "Venice Shoreline Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Culver City Boys have a rivalry with Venice Shoreline Crips.",
+      "time_period": null
+    },
+    {
+      "source": "Culver City Boys",
+      "target": "Venice 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Culver City Boys have a rivalry with Venice 13.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Culver_City_Boys"
+}

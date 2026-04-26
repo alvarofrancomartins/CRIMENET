@@ -1,0 +1,219 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Dhak-Duhre coalition",
+      "original_text_name": "Dhak-Duhre coalition",
+      "aliases": [
+        "Dhak-Duhre"
+      ],
+      "type": "other",
+      "context": "Coalition of Indo-Canadian crime groups, decentralized after leaders killed.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "United Nations gang",
+      "original_text_name": "United Nations gang",
+      "aliases": [
+        "UN"
+      ],
+      "type": "gang",
+      "context": "Indo-Canadian gang involved in drug trafficking and conflict with Wolf Pack.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Wolf Pack",
+      "original_text_name": "Wolf Pack",
+      "aliases": [],
+      "type": "other",
+      "context": "Coalition of gangs including Independent Soldiers, Red Scorpions, and Hells Angels factions.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Independent Soldiers",
+      "original_text_name": "Independent Soldiers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang with Punjabi and Caucasian factions, part of Wolf Pack.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Red Scorpions",
+      "original_text_name": "Red Scorpions",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang involved in drug trafficking, part of Wolf Pack.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hell's Angels",
+      "aliases": [
+        "Hells Angels"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, part of Wolf Pack coalition.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Punjabi Mafia",
+      "original_text_name": "Punjabi Mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Indo-Canadian organized crime group, originally founded by Ranjit Cheema and others.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Dosanjh gang",
+      "original_text_name": "Dosanjh gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang led by Ranjit and Jimsher Dosanjh, involved in Khalistan movement.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Dhak gang",
+      "original_text_name": "Dhak gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang led by Gurmit Singh Dhak, involved in drug trafficking.",
+      "time_period": "1990s-2010"
+    },
+    {
+      "standard_name": "Brothers Keepers",
+      "original_text_name": "Brothers Keepers",
+      "aliases": [
+        "BK"
+      ],
+      "type": "gang",
+      "context": "Gang founded by Gavin Grewal, active in Metro Vancouver and beyond.",
+      "time_period": "2010s-present"
+    },
+    {
+      "standard_name": "Kang Crime Group",
+      "original_text_name": "Kang Crime Group",
+      "aliases": [
+        "Kang group"
+      ],
+      "type": "gang",
+      "context": "Splinter group from Brothers Keepers, based in Burnaby.",
+      "time_period": "2010s-present"
+    },
+    {
+      "standard_name": "Sanghera Crime Group",
+      "original_text_name": "Sanghera Crime Group",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang founded by Uddham Sanghera, involved in South Slope Gang War.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "standard_name": "Malhi-Buttar Coalition",
+      "original_text_name": "Malhi-Buttar Coalition",
+      "aliases": [],
+      "type": "other",
+      "context": "Coalition of two groups led by T.J. Malhi and Buttar brothers, now defunct.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "standard_name": "International Sikh Youth Federation",
+      "original_text_name": "International Sikh Youth Federation",
+      "aliases": [],
+      "type": "other",
+      "context": "Sikh separatist organization, involved in political activism and crime.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Chinese Triads",
+      "original_text_name": "Chinese Triads",
+      "aliases": [
+        "Triads"
+      ],
+      "type": "triad",
+      "context": "Chinese organized crime groups, ranked above Indo-Canadian groups in sophistication.",
+      "time_period": "historical-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Dhak-Duhre coalition",
+      "target": "United Nations gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dhak-Duhre coalition developed strong ties with the UN gang.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Dhak-Duhre coalition",
+      "target": "Wolf Pack",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Dhak-Duhre coalition waged a war against the Wolf Pack.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "source": "Wolf Pack",
+      "target": "Independent Soldiers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Independent Soldiers are part of the Wolf Pack coalition.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Wolf Pack",
+      "target": "Red Scorpions",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Red Scorpions are part of the Wolf Pack coalition.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Wolf Pack",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hells Angels factions are part of the Wolf Pack coalition.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Brothers Keepers",
+      "target": "Red Scorpions",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Brothers Keepers members were formerly aligned with Red Scorpions.",
+      "time_period": "2010s"
+    },
+    {
+      "source": "Brothers Keepers",
+      "target": "Kang Crime Group",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kang Crime Group splintered from Brothers Keepers and is in a war for territory.",
+      "time_period": "2010s-present"
+    },
+    {
+      "source": "Sanghera Crime Group",
+      "target": "Malhi-Buttar Coalition",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "These groups were involved in the South Slope Gang War.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "source": "Punjabi Mafia",
+      "target": "Dosanjh gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Punjabi Mafia was originally founded by the Dosanjh Brothers among others.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "International Sikh Youth Federation",
+      "target": "Dosanjh gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ranjit Dosanjh was president of the Vancouver chapter of ISYF and leader of the Dosanjh gang.",
+      "time_period": "1980s-1990s"
+    }
+  ],
+  "source_file": "Indo-Canadian_organized_crime"
+}

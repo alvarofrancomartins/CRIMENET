@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bulgarian mafia",
+      "original_text_name": "Bulgarian mafia",
+      "aliases": [
+        "Bulgarian organized crime",
+        "Mutri",
+        "Мутри"
+      ],
+      "type": "mafia",
+      "context": "General term for criminal organizations based in Bulgaria, involved in drug trafficking, arms smuggling, human trafficking, etc.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "VIS",
+      "original_text_name": "VIS",
+      "aliases": [
+        "VIS1",
+        "VIS2"
+      ],
+      "type": "mafia",
+      "context": "Criminal group founded by Vasil Iliev, involved in various illegal activities.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "SIC",
+      "original_text_name": "SIC",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Criminal group founded by Krasimir Marinov, Milcho Bonev, and others, involved in drug trafficking, fraud, extortion.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "standard_name": "Multigroup",
+      "original_text_name": "Multigroup",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Criminal group founded by Ilia Pavlov, involved in smuggling and other crimes.",
+      "time_period": "1990s-2003"
+    },
+    {
+      "standard_name": "Kintex",
+      "original_text_name": "Kintex",
+      "aliases": [],
+      "type": "other",
+      "context": "State-owned import-export company used for illegal weapons and contraband smuggling in the 1960s-1980s.",
+      "time_period": "1960s-1980s"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian mafia group reported to cooperate with Bulgarian mafia in Italy.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Evelin Banev group",
+      "original_text_name": "Bulgarian cocaine trafficking group",
+      "aliases": [
+        "Brendo group"
+      ],
+      "type": "mafia",
+      "context": "Drug trafficking group led by Evelin Banev, involved in cocaine smuggling and money laundering.",
+      "time_period": "2004-2008"
+    }
+  ],
+  "edges": [
+    {
+      "source": "VIS",
+      "target": "SIC",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Pantyu Pantev initially affiliated with VIS later with SIC, indicating rivalry between groups.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "Bulgarian mafia",
+      "target": "'Ndrangheta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Italian police reported Bulgarian mafia cooperating with 'Ndrangheta in Italy.",
+      "time_period": "2020"
+    },
+    {
+      "source": "Evelin Banev group",
+      "target": "Credit Suisse",
+      "relationship": "other",
+      "detail": "money laundering",
+      "context": "Credit Suisse was accused of enabling Evelin Banev's group to launder drug trafficking proceeds.",
+      "time_period": "2004-2008"
+    }
+  ],
+  "source_file": "Bulgarian_mafia"
+}

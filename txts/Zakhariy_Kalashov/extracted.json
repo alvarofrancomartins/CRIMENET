@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Brothers' Circle",
+      "original_text_name": "Brothers' Circle",
+      "aliases": [],
+      "type": "other",
+      "context": "A criminal syndicate involved in money laundering and racketeering, operating internationally.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Russian Mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [
+        "Russian underworld"
+      ],
+      "type": "mafia",
+      "context": "Organized crime groups from Russia and former Soviet states, involved in various illegal activities.",
+      "time_period": "1990s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Brothers' Circle",
+      "target": "Russian Mafia",
+      "relationship": "other",
+      "detail": "part of",
+      "context": "The Brothers' Circle is a criminal syndicate that includes members of the Russian mafia.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Zakhariy_Kalashov"
+}

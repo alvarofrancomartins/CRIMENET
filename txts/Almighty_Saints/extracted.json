@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Almighty Saints",
+      "original_text_name": "Almighty Saints",
+      "aliases": [
+        "Saints",
+        "Almighty Saints street gang"
+      ],
+      "type": "gang",
+      "context": "Street gang founded in early 1960s in Chicago, involved in drug trafficking and murder.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "People Nation",
+      "original_text_name": "People Nation",
+      "aliases": [],
+      "type": "other",
+      "context": "An alliance of street gangs in Chicago, formed in the 1980s.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Folk Nation",
+      "original_text_name": "Folk Nation",
+      "aliases": [],
+      "type": "other",
+      "context": "An alliance of street gangs in Chicago, formed in the 1980s.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Latin Kings",
+      "original_text_name": "Latin Kings",
+      "aliases": [
+        "Almighty Latin Kings"
+      ],
+      "type": "gang",
+      "context": "A Chicago-based street gang, part of the People Nation.",
+      "time_period": "1940s-present"
+    },
+    {
+      "standard_name": "Gangster Disciples",
+      "original_text_name": "Gangster Disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Chicago-based street gang, part of the Folk Nation.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "La Raza Nation",
+      "original_text_name": "La Raza Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Chicago-based street gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gangster Two Six",
+      "original_text_name": "Gangster Two Six",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Chicago-based street gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Satan's Disciples",
+      "original_text_name": "Satan's Disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Chicago-based street gang.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Almighty Saints",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Saints joined the People Nation for protection in the late 1980s to early 1990s.",
+      "time_period": "late 1980s-early 1990s"
+    },
+    {
+      "source": "Almighty Saints",
+      "target": "Latin Kings",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Saints were brought into the People Nation by the Latin Kings as cousins.",
+      "time_period": "late 1980s-early 1990s"
+    },
+    {
+      "source": "Almighty Saints",
+      "target": "Folk Nation",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Saints are rivals of the Folk Nation as per infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Saints",
+      "target": "Gangster Disciples",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Saints are rivals of the Gangster Disciples as per infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Saints",
+      "target": "La Raza Nation",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Saints are rivals of La Raza Nation as per infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Saints",
+      "target": "Gangster Two Six",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Saints are rivals of Gangster Two Six as per infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Saints",
+      "target": "Satan's Disciples",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Saints are rivals of Satan's Disciples as per infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Almighty_Saints"
+}

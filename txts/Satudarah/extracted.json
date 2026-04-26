@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Satudarah MC",
+      "original_text_name": "Satudarah MC",
+      "aliases": [
+        "Satudarah",
+        "Satudarah Belgium District 9"
+      ],
+      "type": "motorcycle_club",
+      "context": "One-percenter outlaw motorcycle club founded in 1990 in Moordrecht, Netherlands, involved in violent crime, extortion, drug trade, and arms trafficking.",
+      "time_period": "1990-present"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club with chapters in the Netherlands and Belgium, involved in a feud with Satudarah MC.",
+      "time_period": "founded 1948"
+    },
+    {
+      "standard_name": "Council of Eight",
+      "original_text_name": "Council of Eight",
+      "aliases": [
+        "Raad van Acht"
+      ],
+      "type": "other",
+      "context": "Consultative body of major motorcycle clubs in the Netherlands, of which Satudarah MC was a member until expelled in 2011.",
+      "time_period": "until 2011"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Satudarah MC",
+      "target": "Hells Angels",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Feud between Dutch chapters in 2011 and competition in Belgium in 2012.",
+      "time_period": "2011-2012"
+    },
+    {
+      "source": "Satudarah MC",
+      "target": "Council of Eight",
+      "relationship": "other",
+      "detail": "membership",
+      "context": "Satudarah MC was a member of the Council of Eight until expelled in early 2011.",
+      "time_period": "until 2011"
+    }
+  ],
+  "source_file": "Satudarah"
+}

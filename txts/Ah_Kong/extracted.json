@@ -1,0 +1,208 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Ah Kong",
+      "original_text_name": "Ah Kong",
+      "aliases": [
+        "The Company",
+        "kongsi"
+      ],
+      "type": "gang",
+      "context": "Organized crime and drugs syndicate controlling European heroin trade in 1970s-1990s, based in Amsterdam and Bangkok.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "See Tong",
+      "original_text_name": "See Tong",
+      "aliases": [],
+      "type": "gang",
+      "context": "Singaporean gang whose members formed Ah Kong after a gang clash.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Pek Kim Leng",
+      "original_text_name": "Pek Kim Leng",
+      "aliases": [
+        "White Golden Dragon"
+      ],
+      "type": "gang",
+      "context": "Rival gang of See Tong in Singapore, involved in a fatal clash in 1969.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Sio Sam Ong",
+      "original_text_name": "Sio Sam Ong",
+      "aliases": [],
+      "type": "gang",
+      "context": "Penang-based gang with strong ties to Ah Kong.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Sin Ma",
+      "original_text_name": "Sin Ma",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rotterdam-based gang that gained influence after Ah Kong's decline post-1997.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "14K",
+      "original_text_name": "14K",
+      "aliases": [],
+      "type": "triad",
+      "context": "Hong Kong-based triad involved in heroin trade in Amsterdam, rival to Ah Kong.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Wo Shing Wo",
+      "original_text_name": "Wo Shing Wo",
+      "aliases": [],
+      "type": "triad",
+      "context": "Hong Kong triad with presence in Rotterdam, had dispute with Ah Kong.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Sun Yee On",
+      "original_text_name": "Sun Yee On",
+      "aliases": [],
+      "type": "triad",
+      "context": "Hong Kong triad mentioned as established group in Amsterdam.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Hainan Gang",
+      "original_text_name": "Hainan gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang established by Johnny in Bangkok after split from Ah Kong.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Italian Mafia",
+      "original_text_name": "Italian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian organized crime group that had business dealings with Ah Kong under Dennis.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Yugoslavian Crime Syndicate",
+      "original_text_name": "Yugoslavian crime syndicate",
+      "aliases": [],
+      "type": "other",
+      "context": "Balkan criminal group that had business dealings with Ah Kong under Dennis.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Tai Hun Zai",
+      "original_text_name": "Tai Hun Zai (Big Circle Gang)",
+      "aliases": [
+        "Big Circle Gang"
+      ],
+      "type": "gang",
+      "context": "Chinese gang from China, clashed with Sin Ma in Rotterdam.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Danish branch held parties at Roland Tan's restaurant, involved in drugs and prostitution.",
+      "time_period": "2000s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ah Kong",
+      "target": "See Tong",
+      "relationship": "other",
+      "detail": "originated from",
+      "context": "Ah Kong was formed by members of See Tong after a gang clash.",
+      "time_period": "1969"
+    },
+    {
+      "source": "See Tong",
+      "target": "Pek Kim Leng",
+      "relationship": "rivalry",
+      "context": "See Tong attacked Pek Kim Leng members, leading to deaths and injuries.",
+      "time_period": "1969"
+    },
+    {
+      "source": "Ah Kong",
+      "target": "Sio Sam Ong",
+      "relationship": "alliance",
+      "context": "Ah Kong built strong ties with Penang-based Sio Sam Ong.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "source": "Ah Kong",
+      "target": "Sin Ma",
+      "relationship": "rivalry",
+      "context": "After 1997, Ah Kong lost influence to Sin Ma gang based in Rotterdam.",
+      "time_period": "1997-present"
+    },
+    {
+      "source": "Ah Kong",
+      "target": "14K",
+      "relationship": "rivalry",
+      "context": "Ah Kong killed 14K leaders and took over their drug trade areas.",
+      "time_period": "1975-1976"
+    },
+    {
+      "source": "Ah Kong",
+      "target": "Wo Shing Wo",
+      "relationship": "rivalry",
+      "context": "Ah Kong members severed a Wo Shing Wo boss's arm during a dispute.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Ah Kong",
+      "target": "Hainan Gang",
+      "relationship": "other",
+      "detail": "split into",
+      "context": "After a split, Johnny left Ah Kong and established the Hainan gang in Bangkok.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Hainan Gang",
+      "target": "14K",
+      "relationship": "alliance",
+      "context": "Johnny maintained close relationship with 14K despite killing their leader.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "source": "Ah Kong",
+      "target": "Italian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Under Dennis, Ah Kong had business dealings with the Italian mafia.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Ah Kong",
+      "target": "Yugoslavian Crime Syndicate",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Under Dennis, Ah Kong had business dealings with Yugoslavian crime syndicate.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Sin Ma",
+      "target": "Tai Hun Zai",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sin Ma often clashed with Tai Hun Zai (Big Circle Gang) in Rotterdam.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Ah Kong",
+      "relationship": "other",
+      "detail": "associated with",
+      "context": "Danish Hells Angels held parties at Roland Tan's restaurant, indicating association.",
+      "time_period": "2000s"
+    }
+  ],
+  "source_file": "Ah_Kong"
+}

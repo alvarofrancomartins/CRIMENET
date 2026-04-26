@@ -1,0 +1,287 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Musitano crime family",
+      "original_text_name": "Musitano crime family",
+      "aliases": [
+        "Musitano 'ndrina",
+        "Musitano family"
+      ],
+      "type": "clan",
+      "context": "'Ndrangheta family based in Hamilton, Canada, with branches in Italy.",
+      "time_period": "1940s-present"
+    },
+    {
+      "standard_name": "Luppino crime family",
+      "original_text_name": "Luppino crime family",
+      "aliases": [
+        "Luppino family",
+        "Luppino-Violi crime family",
+        "Luppino-Violi group"
+      ],
+      "type": "clan",
+      "context": "One of three centralized organized crime organizations in Hamilton, Canada.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Papalia crime family",
+      "original_text_name": "Papalia crime family",
+      "aliases": [
+        "Papalia family"
+      ],
+      "type": "clan",
+      "context": "One of three centralized organized crime organizations in Hamilton, Canada.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Buffalo crime family",
+      "original_text_name": "Buffalo crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "American Mafia family based in Buffalo, New York.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ruga 'ndrina",
+      "original_text_name": "Ruga",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta cell affiliated with Musitano in Italy during the 1980s.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Aquilino 'ndrina",
+      "original_text_name": "Aquilino",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta cell affiliated with Musitano in Italy during the 1980s.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Wild Ones",
+      "original_text_name": "Wild Ones",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Biker gang employed by Musitano family to build and plant bombs in Hamilton.",
+      "time_period": "1970s-1979"
+    },
+    {
+      "standard_name": "Outlaws Motorcycle Club",
+      "original_text_name": "Outlaws",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Hamilton chapter killed five Wild Ones members in 1978-1979.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Siderno Group",
+      "original_text_name": "Siderno Group",
+      "aliases": [],
+      "type": "clan",
+      "context": "Toronto mob group; member Domenic Racco was murdered by Musitano family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Rizzuto crime family",
+      "original_text_name": "Rizzuto family",
+      "aliases": [
+        "Montreal's Rizzuto family"
+      ],
+      "type": "mafia",
+      "context": "Montreal-based Mafia family led by Vito Rizzuto. Expanded into Ontario, allied with Musitanos against Papalias.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Magaddino crime family",
+      "original_text_name": "Magaddino family",
+      "aliases": [
+        "Buffalo crime family",
+        "Buffalo family"
+      ],
+      "type": "mafia",
+      "context": "Buffalo-based Mafia family, also known as the Magaddino family. Papalia family was its Canadian branch.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Satan's Choice Motorcycle Club",
+      "original_text_name": "Satan's Choice Hamilton chapter",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, Hamilton chapter. President Ion Croitoru was a target of the Musitanos.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Cuntrera-Caruana Mafia clan",
+      "original_text_name": "Cuntrera-Caruana Mafia clan",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia clan with roots in Montreal and Toronto, allied with Musitanos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Independent Soldiers",
+      "original_text_name": "Independent Soldiers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Canadian street gang, allied with Musitanos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "West End Gang",
+      "original_text_name": "West End Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Montreal-based organized crime group, allied with Musitanos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, allied with Musitanos.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Musitano crime family",
+      "target": "Luppino crime family",
+      "relationship": "other",
+      "detail": "coexistence",
+      "context": "Both were among three centralized organized crime organizations in Hamilton.",
+      "time_period": null
+    },
+    {
+      "source": "Musitano crime family",
+      "target": "Papalia crime family",
+      "relationship": "rivalry",
+      "context": "Musitanos ordered the killing of Johnny Papalia in 1997, decapitating the Papalia family.",
+      "time_period": "1997"
+    },
+    {
+      "source": "Musitano crime family",
+      "target": "Buffalo crime family",
+      "relationship": "other",
+      "detail": "no alliance",
+      "context": "Musitanos did not form a strong alliance with the Buffalo crime family, unlike other Hamilton families.",
+      "time_period": null
+    },
+    {
+      "source": "Musitano crime family",
+      "target": "Ruga 'ndrina",
+      "relationship": "alliance",
+      "context": "Musitano 'ndrina was affiliated with Ruga in Italy during the 1980s.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Musitano crime family",
+      "target": "Aquilino 'ndrina",
+      "relationship": "alliance",
+      "context": "Musitano 'ndrina was affiliated with Aquilino in Italy during the 1980s.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Musitano crime family",
+      "target": "Wild Ones",
+      "relationship": "alliance",
+      "context": "Musitano family employed the Wild Ones biker gang as subcontractors to build and plant bombs.",
+      "time_period": "1978-1979"
+    },
+    {
+      "source": "Wild Ones",
+      "target": "Outlaws Motorcycle Club",
+      "relationship": "rivalry",
+      "context": "Five Wild Ones members were killed by the Hamilton chapter of the Outlaws in 1978-1979.",
+      "time_period": "1978-1979"
+    },
+    {
+      "source": "Musitano crime family",
+      "target": "Siderno Group",
+      "relationship": "rivalry",
+      "context": "Musitano family murdered Siderno Group member Domenic Racco over a cocaine trade dispute.",
+      "time_period": "1983"
+    },
+    {
+      "source": "Musitano crime family",
+      "target": "Rizzuto crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Musitanos allied with Rizzuto family to eliminate Papalia family and gain protection from Buffalo family.",
+      "time_period": "1997"
+    },
+    {
+      "source": "Papalia crime family",
+      "target": "Magaddino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Papalia family was the Canadian branch of the Magaddino (Buffalo) family; Papalia and Barillaro were made men in Buffalo.",
+      "time_period": "1940s-1997"
+    },
+    {
+      "source": "Musitano crime family",
+      "target": "Magaddino crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Musitanos resented being subordinate to the Buffalo family and wanted to break away, leading to conflict.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Musitano crime family",
+      "target": "Luppino crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Pat Musitano planned to murder Luppino family leaders to become godfather of Hamilton.",
+      "time_period": "1997"
+    },
+    {
+      "source": "Musitano crime family",
+      "target": "Satan's Choice Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Musitanos ordered hit on Satan's Choice Hamilton chapter president Ion Croitoru.",
+      "time_period": "1997"
+    },
+    {
+      "source": "Musitano crime family",
+      "target": "Outlaws Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Musitanos ordered hit on Outlaws' Hamilton chapter president Mario Parente.",
+      "time_period": "1997"
+    },
+    {
+      "source": "Musitano crime family",
+      "target": "Cuntrera-Caruana Mafia clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Court records indicate Musitanos were supporting the Cuntrera-Caruana clan.",
+      "time_period": null
+    },
+    {
+      "source": "Musitano crime family",
+      "target": "Independent Soldiers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Independent Soldiers are listed as allies of the Musitanos.",
+      "time_period": null
+    },
+    {
+      "source": "Musitano crime family",
+      "target": "West End Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The West End Gang is listed as an ally of the Musitanos.",
+      "time_period": null
+    },
+    {
+      "source": "Musitano crime family",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Hells Angels are listed as allies of the Musitanos.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Musitano_crime_family"
+}

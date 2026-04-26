@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Ántrax",
+      "original_text_name": "Los Ántrax",
+      "aliases": [
+        "Los Antrax"
+      ],
+      "type": "gang",
+      "context": "Enforcer unit and hit squad for the Sinaloa Cartel, operating in Culiacán, Sinaloa.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Major crime syndicate based in Sinaloa, Mexico, led by Ismael El Mayo Zambada and Joaquín El Chapo Guzmán.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Beltrán Leyva Cartel",
+      "original_text_name": "Beltrán Leyva Cartel",
+      "aliases": [
+        "Cártel de los Beltrán-Leyva"
+      ],
+      "type": "cartel",
+      "context": "Drug cartel that disputes drug trafficking corridors with the Sinaloa Cartel in western Mexico.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Drug cartel and paramilitary group, allied with Beltrán Leyva Cartel against Sinaloa Cartel.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Los Mazatlecos",
+      "original_text_name": "Los Mazatlecos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang headed by Fausto Isidro Meza Flores, part of the Beltrán Leyva Cartel, rival of Los Ántrax.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Gente Nueva",
+      "original_text_name": "Gente Nueva",
+      "aliases": [],
+      "type": "gang",
+      "context": "Armed wing of the Sinaloa Cartel, allied with Los Ántrax.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Los Chapitos",
+      "original_text_name": "Los Chapitos",
+      "aliases": [],
+      "type": "faction",
+      "context": "Faction of the Sinaloa Cartel led by the sons of El Chapo, allied with Los Ántrax.",
+      "time_period": "2010s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Ántrax",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Ántrax is the enforcer unit and hit squad for the Sinaloa Cartel.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Los Ántrax",
+      "target": "Beltrán Leyva Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Ántrax fought against Beltrán Leyva Cartel in the Tubutama shooting and other conflicts.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Los Ántrax",
+      "target": "Los Zetas",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Ántrax clashed with Los Zetas, who supported the Beltrán Leyva Cartel.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Los Ántrax",
+      "target": "Los Mazatlecos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Mazatlecos killed Los Ántrax leader Francisco Arce Rubio.",
+      "time_period": "2011"
+    },
+    {
+      "source": "Los Ántrax",
+      "target": "Gente Nueva",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both are allied with the Sinaloa Cartel.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Los Ántrax",
+      "target": "Los Chapitos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both are allied with the Sinaloa Cartel.",
+      "time_period": "2010s-present"
+    },
+    {
+      "source": "Beltrán Leyva Cartel",
+      "target": "Los Zetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Beltrán Leyva Cartel had support from Los Zetas in the Tubutama shooting.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Los Mazatlecos",
+      "target": "Beltrán Leyva Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Mazatlecos are reportedly part of the Beltrán Leyva Cartel.",
+      "time_period": "2000s-present"
+    }
+  ],
+  "source_file": "Los_Ántrax"
+}

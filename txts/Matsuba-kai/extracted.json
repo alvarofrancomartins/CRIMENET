@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Matsuba-kai",
+      "original_text_name": "Matsuba-kai",
+      "aliases": [
+        "Pine Needle Society",
+        "松葉会"
+      ],
+      "type": "mafia",
+      "context": "Yakuza group based in Tokyo, Japan, involved in smuggling and violent feuds.",
+      "time_period": "1953-present"
+    },
+    {
+      "standard_name": "Kantō Hatsuka-kai",
+      "original_text_name": "Kantō Hatsuka-kai",
+      "aliases": [],
+      "type": "other",
+      "context": "Fraternal federation of yakuza syndicates in the Kantō region.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sumiyoshi-kai",
+      "original_text_name": "Sumiyoshi-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza syndicate based in Kantō, member of Kantō Hatsuka-kai.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Inagawa-kai",
+      "original_text_name": "Inagawa-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza syndicate based in Kantō, member of Kantō Hatsuka-kai.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Toa-kai",
+      "original_text_name": "Toa-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza syndicate based in Kantō, member of Kantō Hatsuka-kai.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Soai-kai",
+      "original_text_name": "Soai-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza syndicate based in Kantō, member of Kantō Hatsuka-kai.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sekine-gumi",
+      "original_text_name": "Sekine-gumi",
+      "aliases": [
+        "関根組"
+      ],
+      "type": "gang",
+      "context": "Precursor yakuza gang to Matsuba-kai, founded in 1936 in Tokyo.",
+      "time_period": "1936-1947"
+    },
+    {
+      "standard_name": "Fujita-gumi",
+      "original_text_name": "Fujita-gumi",
+      "aliases": [],
+      "type": "gang",
+      "context": "Yakuza gang whose remnants merged with Sekine-gumi remnants to form Matsuba-kai.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kyokuto-kai",
+      "original_text_name": "Kyokuto-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Rival yakuza group involved in a violent feud with Matsuba-kai in early 2000s.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Matsuba-kai",
+      "target": "Kantō Hatsuka-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Matsuba-kai is a member of the Kantō Hatsuka-kai federation.",
+      "time_period": null
+    },
+    {
+      "source": "Sumiyoshi-kai",
+      "target": "Kantō Hatsuka-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sumiyoshi-kai is a member of the Kantō Hatsuka-kai federation.",
+      "time_period": null
+    },
+    {
+      "source": "Inagawa-kai",
+      "target": "Kantō Hatsuka-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Inagawa-kai is a member of the Kantō Hatsuka-kai federation.",
+      "time_period": null
+    },
+    {
+      "source": "Toa-kai",
+      "target": "Kantō Hatsuka-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Toa-kai is a member of the Kantō Hatsuka-kai federation.",
+      "time_period": null
+    },
+    {
+      "source": "Soai-kai",
+      "target": "Kantō Hatsuka-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Soai-kai is a member of the Kantō Hatsuka-kai federation.",
+      "time_period": null
+    },
+    {
+      "source": "Sekine-gumi",
+      "target": "Matsuba-kai",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "Sekine-gumi was a precursor gang whose remnants helped form Matsuba-kai.",
+      "time_period": "1953"
+    },
+    {
+      "source": "Fujita-gumi",
+      "target": "Matsuba-kai",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "Fujita-gumi remnants merged with Sekine-gumi remnants to form Matsuba-kai.",
+      "time_period": "1953"
+    },
+    {
+      "source": "Matsuba-kai",
+      "target": "Kyokuto-kai",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Matsuba-kai was involved in a violent feud with Kyokuto-kai in early 2000s.",
+      "time_period": "early 2000s"
+    }
+  ],
+  "source_file": "Matsuba-kai"
+}

@@ -1,0 +1,258 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Scissionisti di Secondigliano",
+      "original_text_name": "Scissionisti di Secondigliano",
+      "aliases": [
+        "Amato-Pagano clan",
+        "Spagnoli"
+      ],
+      "type": "clan",
+      "context": "Camorra clan from Secondigliano, Naples, involved in international drug trafficking, extortion, and murder.",
+      "time_period": "2004-present"
+    },
+    {
+      "standard_name": "Di Lauro clan",
+      "original_text_name": "Di Lauro clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan historically controlling Secondigliano; fought a war with the Scissionisti.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Abbinante clan",
+      "original_text_name": "Abbinante clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Marano, originally part of Di Lauro clan, later allied with Scissionisti, then became rivals.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Notturno clan",
+      "original_text_name": "Notturno clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Scampia, allied with Scissionisti, later became rivals.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Abete clan",
+      "original_text_name": "Abete clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Scampia, allied with Scissionisti, later became rivals.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Pariante clan",
+      "original_text_name": "Pariante clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Bacoli and Monte di Procida, former Di Lauro lieutenant, joined Scissionisti alliance, later rival.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Marino clan",
+      "original_text_name": "Marino clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Case Celesti, Secondigliano, military wing of Scissionisti, later went to war against them.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Lo Russo clan",
+      "original_text_name": "Lo Russo clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Defunct Camorra clan, listed as ally of Scissionisti in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Russo clan (QS)",
+      "original_text_name": "Russo clan (from the QS)",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from the QS area, listed as ally of Scissionisti.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Bizzarro clan",
+      "original_text_name": "Bizzarro clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan listed as ally of Scissionisti.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Lepre clan",
+      "original_text_name": "Lepre clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan listed as ally of Scissionisti.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Ruocco clan",
+      "original_text_name": "Ruocco clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan listed as ally of Scissionisti.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Calabrian mafia, listed as ally of Scissionisti.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Vanella Grassi",
+      "original_text_name": "Vanella Grassi (girati)",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan listed as rival of Scissionisti.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Di Lauro clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Scissionisti split from Di Lauro clan and fought a war (Scampia feud) in 2004-2005.",
+      "time_period": "2004-2005"
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Abbinante clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Abbinante clan aligned with Scissionisti after splitting from Di Lauro.",
+      "time_period": "2004-2012"
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Notturno clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Notturno clan was part of the Scissionisti alliance.",
+      "time_period": "2004-2012"
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Abete clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Abete clan was part of the Scissionisti alliance.",
+      "time_period": "2004-2012"
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Pariante clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pariante clan joined the Scissionisti alliance in late 2004.",
+      "time_period": "2004-2012"
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Marino clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Marino clan was the military wing of the Scissionisti.",
+      "time_period": "2004-2012"
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Abbinante clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "After 2012, Abbinante clan fought an internal war against Amato-Pagano clan.",
+      "time_period": "2012-present"
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Notturno clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "After 2012, Notturno clan fought an internal war against Amato-Pagano clan.",
+      "time_period": "2012-present"
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Abete clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "After 2012, Abete clan fought an internal war against Amato-Pagano clan.",
+      "time_period": "2012-present"
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Marino clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "After the Scampia feud, Marino clan went to war against the Scissionisti.",
+      "time_period": "2012-present"
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Lo Russo clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Russo clan (QS)",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Bizzarro clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Lepre clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Ruocco clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "'Ndrangheta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Vanella Grassi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Scissionisti_di_Secondigliano"
+}

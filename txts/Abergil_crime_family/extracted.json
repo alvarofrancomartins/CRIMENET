@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Abergil crime family",
+      "original_text_name": "Abergil organization",
+      "aliases": [
+        "Abergil Organization",
+        "Abergil crime family",
+        "Abergil crime syndicate",
+        "Abergil group",
+        "Abergil mob"
+      ],
+      "type": "mafia",
+      "context": "Israeli organized crime syndicate involved in drug trafficking, money laundering, extortion, and murder.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Jerusalem Gang",
+      "original_text_name": "Jerusalem Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group involved in extortion and money laundering, associated with the Abergil organization.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Vineland Boys",
+      "original_text_name": "Vineland Boys",
+      "aliases": [
+        "Vineland Boyz"
+      ],
+      "type": "gang",
+      "context": "Latino street gang that partnered with the Abergil organization for drug trafficking.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [
+        "La Eme"
+      ],
+      "type": "gang",
+      "context": "Prison gang that had a feud with the Vineland Boys.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Alperon crime family",
+      "original_text_name": "Alperon crime family",
+      "aliases": [
+        "Alperons"
+      ],
+      "type": "mafia",
+      "context": "Israeli crime family rival to the Abergil organization, involved in a vendetta.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Vineland Boyz",
+      "original_text_name": "Vineland Boyz",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang based in North Hollywood, hired by Abergil crime family to commit murder.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Alperon crime organization",
+      "original_text_name": "Alperon crime organization",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Israeli crime organization, rival of Abergil crime family.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Abergil crime family",
+      "target": "Jerusalem Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Jerusalem Gang assisted the Abergil organization in money laundering through extortion.",
+      "time_period": "2002-2006"
+    },
+    {
+      "source": "Abergil crime family",
+      "target": "Vineland Boys",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Abergil organization partnered with the Vineland Boys for drug trafficking in the US.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Vineland Boys",
+      "target": "Mexican Mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Vineland Boys had a feud with the Mexican Mafia, leading them to seek new drug sources.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Abergil crime family",
+      "target": "Alperon crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Alperon crime family was involved in a vendetta with the Abergil organization, including assassination attempts.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Abergil crime family",
+      "target": "Vineland Boyz",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Abergil crime family hired Vineland Boyz to kill Sami Atias.",
+      "time_period": null
+    },
+    {
+      "source": "Abergil crime family",
+      "target": "Mexican Mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Mexican Mafia is listed as a rival of the Abergil crime family.",
+      "time_period": null
+    },
+    {
+      "source": "Abergil crime family",
+      "target": "Alperon crime organization",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Alperon crime organization is listed as a rival of the Abergil crime family.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Abergil_crime_family"
+}

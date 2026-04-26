@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Rollin' 30s Harlem Crips",
+      "original_text_name": "Rollin' 30s Harlem Crips",
+      "aliases": [
+        "Rollin 30s Harlem Crips",
+        "Rollin' 30s Crips"
+      ],
+      "type": "gang",
+      "context": "A set of the Crips alliance, involved in drug trafficking, weapon trafficking, murder, and robbery. Active in Los Angeles, New York City, and Belize City.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A large alliance of street gangs based in Los Angeles, California, involved in various criminal activities.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival alliance of street gangs to the Crips, based in Los Angeles and other cities.",
+      "time_period": "1960s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Rollin' 30s Harlem Crips",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Rollin' 30s Harlem Crips are a set of the larger Crips alliance.",
+      "time_period": "1960s-present"
+    },
+    {
+      "source": "Rollin' 30s Harlem Crips",
+      "target": "Bloods",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The gang assaulted a girl wearing red, the color of the rival Bloods gang.",
+      "time_period": "1995"
+    }
+  ],
+  "source_file": "Rollin'_30s_Harlem_Crips"
+}

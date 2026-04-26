@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "standard_name": "AZ Syndicate",
+      "original_text_name": "AZ Syndicate",
+      "aliases": [
+        "The Syndicate"
+      ],
+      "type": "other",
+      "context": "Criminal organization led by Kid Cann and his brothers, involved in bootlegging, gambling, prostitution, and labor racketeering in Minneapolis.",
+      "time_period": "1920s-1950s"
+    },
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Major organized crime syndicate based in Chicago, Illinois.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York City's American Mafia.",
+      "time_period": "1890s-present"
+    },
+    {
+      "standard_name": "Irish Mob",
+      "original_text_name": "Irish Mob",
+      "aliases": [],
+      "type": "gang",
+      "context": "Irish-American organized crime group in Minneapolis, rival to Kid Cann's organization.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "standard_name": "David Berman's Organization",
+      "original_text_name": "David Berman",
+      "aliases": [],
+      "type": "other",
+      "context": "Rival Jewish mob faction in Minneapolis led by David Berman, briefly eclipsed Kid Cann in the 1940s.",
+      "time_period": "1940s"
+    },
+    {
+      "standard_name": "Bugsy Siegel's Organization",
+      "original_text_name": "Bugsy Siegel",
+      "aliases": [],
+      "type": "other",
+      "context": "Las Vegas-based criminal operation run by Bugsy Siegel; Kid Cann was involved in running the El Cortez Hotel and Casino.",
+      "time_period": "1940s"
+    },
+    {
+      "standard_name": "Meyer Lansky's Organization",
+      "original_text_name": "Meyer Lansky",
+      "aliases": [],
+      "type": "other",
+      "context": "Miami-based criminal syndicate led by Meyer Lansky; Kid Cann and Lansky operated a real estate empire in Miami Beach.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Tommy Banks' Organization",
+      "original_text_name": "Tommy Banks",
+      "aliases": [],
+      "type": "other",
+      "context": "Minneapolis criminal faction led by Tommy Banks; left largely unscathed by Humphrey's crackdown.",
+      "time_period": "1940s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "AZ Syndicate",
+      "target": "Chicago Outfit",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The AZ Syndicate had ties to the Chicago Outfit dating back to the Prohibition period.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "source": "AZ Syndicate",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The AZ Syndicate had ties to the Genovese crime family dating back to the Prohibition period.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "source": "AZ Syndicate",
+      "target": "Irish Mob",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kid Cann's rivalry with Minneapolis's Irish Mob ended after dividing the city with a handshake.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "source": "AZ Syndicate",
+      "target": "David Berman's Organization",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "David Berman briefly eclipsed the Blumenfelds and became leader of the Minneapolis underworld during Kline's mayoral term.",
+      "time_period": "1941-1945"
+    },
+    {
+      "source": "AZ Syndicate",
+      "target": "Bugsy Siegel's Organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kid Cann was involved with Bugsy Siegel in running the El Cortez Hotel and Casino in Las Vegas.",
+      "time_period": "1940s"
+    },
+    {
+      "source": "AZ Syndicate",
+      "target": "Meyer Lansky's Organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kid Cann and Meyer Lansky operated a real estate empire in Miami Beach and had financial stakes in hotels.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "source": "AZ Syndicate",
+      "target": "Tommy Banks' Organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Blumenfelds and Tommy Banks' operations were left largely unscathed by Humphrey's crackdown on David Berman.",
+      "time_period": "1940s"
+    }
+  ],
+  "source_file": "Kid_Cann"
+}

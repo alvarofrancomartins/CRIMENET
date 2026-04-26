@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Oaxaca Cartel",
+      "original_text_name": "Oaxaca cartel",
+      "aliases": [
+        "Cártel de Oaxaca",
+        "Díaz-Parada cartel",
+        "Cártel del Istmo"
+      ],
+      "type": "cartel",
+      "context": "Smaller Mexican drug cartel operating in Oaxaca and Chiapas, trafficking marijuana and cocaine.",
+      "time_period": "1980-2011"
+    },
+    {
+      "standard_name": "Tijuana Cartel",
+      "original_text_name": "Tijuana Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel that the Oaxaca Cartel served and allied with.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Juárez Cartel",
+      "original_text_name": "Juárez Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel listed as an ally of the Oaxaca Cartel in the infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Oaxaca Cartel",
+      "target": "Tijuana Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Oaxaca Cartel was at the service of the Tijuana Cartel and joined forces with them in 2003.",
+      "time_period": "2003-2007"
+    },
+    {
+      "source": "Oaxaca Cartel",
+      "target": "Juárez Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Juárez Cartel is listed as an ally in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Oaxaca_Cartel"
+}

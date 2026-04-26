@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Rollin' 90s Neighborhood Crips",
+      "original_text_name": "Rollin' 90s Neighborhood Crips",
+      "aliases": [
+        "Rollin' 90s Crips",
+        "Rollin's 90 Crips",
+        "Rollin's 90 Cripss"
+      ],
+      "type": "gang",
+      "context": "A set of the Crips gang alliance, based in South Los Angeles, involved in drug trafficking and murder.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A large alliance of street gangs based in Los Angeles, California.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Rollin' 60s Neighborhood Crips",
+      "original_text_name": "Rollin' 60s Crips",
+      "aliases": [
+        "Rollin's 60s Crips",
+        "Rollin's 60 Crips"
+      ],
+      "type": "gang",
+      "context": "A set of the Crips gang alliance, based in South Los Angeles.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Rollin' 40s Neighborhood Crips",
+      "original_text_name": "Rollin' 40s Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A set of the Crips gang alliance, based in South Los Angeles.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Eight Tray Gangster Crips",
+      "original_text_name": "Eight Tray Gangster Crips",
+      "aliases": [
+        "Eight Trey Gangster Crips"
+      ],
+      "type": "gang",
+      "context": "A set of the Crips gang alliance, based in South Los Angeles, rivals of the Rollin' 60s and Rollin' 90s Crips.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "East Nashville Crips",
+      "original_text_name": "East Nashville Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A set of the Rollin' 90s Crips based in Nashville, Tennessee, involved in drug trafficking and murder.",
+      "time_period": "mid-1990s-present"
+    },
+    {
+      "standard_name": "Crenshaw Mafia Gangster Bloods",
+      "original_text_name": "Crenshaw Mafia Gangster Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Bloods set based in Los Angeles, rival of the Rollin' 90s Neighborhood Crips.",
+      "time_period": "1970s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Rollin' 90s Neighborhood Crips",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Rollin' 90s are a set of the larger Crips gang alliance.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Rollin' 90s Neighborhood Crips",
+      "target": "Rollin' 60s Neighborhood Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Rollin' 90s branched off from or allied with the Rollin' 60s, and they are allies.",
+      "time_period": "1983-present"
+    },
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Eight Tray Gangster Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "A rivalry developed in 1979 after a fight over a girl.",
+      "time_period": "1979-present"
+    },
+    {
+      "source": "Rollin' 90s Neighborhood Crips",
+      "target": "Eight Tray Gangster Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Rollin' 90s sided with the Rollin' 60s in their rivalry with the Eight Tray Gangster Crips.",
+      "time_period": "1979-present"
+    },
+    {
+      "source": "Rollin' 90s Neighborhood Crips",
+      "target": "East Nashville Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The East Nashville Crips are a set of the Rollin' 90s Crips founded in Nashville.",
+      "time_period": "mid-1990s-present"
+    },
+    {
+      "source": "Rollin' 90s Neighborhood Crips",
+      "target": "Crenshaw Mafia Gangster Bloods",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Rollin' 90s list the Crenshaw Mafia Gangster Bloods as rivals.",
+      "time_period": null
+    },
+    {
+      "source": "Rollin' 40s Neighborhood Crips",
+      "target": "Rollin' 60s Neighborhood Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The alliance between Rollin' 60s and Rollin' 90s spread to include the Rollin' 40s.",
+      "time_period": "1983-present"
+    }
+  ],
+  "source_file": "Rollin'_90s_Neighborhood_Crips"
+}

@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Chambers Brothers",
+      "original_text_name": "Chambers Brothers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Crack cocaine distribution gang in Detroit, Michigan, active in the 1980s.",
+      "time_period": "1982-1988"
+    },
+    {
+      "standard_name": "Six-Mile Syndicate",
+      "original_text_name": "Six-Mile Syndicate",
+      "aliases": [],
+      "type": "gang",
+      "context": "Fictional street gang in the novel Warpath, based loosely on the Chambers Brothers.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Six-Mile Syndicate",
+      "target": "Chambers Brothers",
+      "relationship": "other",
+      "detail": "fictional inspiration",
+      "context": "The Six-Mile Syndicate in the novel Warpath is based loosely on the Chambers Brothers gang.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Chambers_Brothers_(gang)"
+}

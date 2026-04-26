@@ -1,0 +1,202 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bonde dos 40",
+      "original_text_name": "Bonde dos 40",
+      "aliases": [
+        "B40",
+        "Tram of the 40"
+      ],
+      "type": "gang",
+      "context": "Brazilian criminal organization founded in 2007 in Pedrinhas Penitentiary Complex, active in Maranhão, Piauí, and Mato Grosso.",
+      "time_period": "2007-present"
+    },
+    {
+      "standard_name": "Primeiro Comando da Capital",
+      "original_text_name": "Primeiro Comando da Capital",
+      "aliases": [
+        "PCC"
+      ],
+      "type": "gang",
+      "context": "Brazilian criminal organization, former ally of Bonde dos 40 until 2017, now rival.",
+      "time_period": "1993-present"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "CV"
+      ],
+      "type": "gang",
+      "context": "Brazilian criminal organization, former ally of Bonde dos 40, later rival.",
+      "time_period": "1979-present"
+    },
+    {
+      "standard_name": "Amigos dos Amigos",
+      "original_text_name": "Amigos dos Amigos",
+      "aliases": [
+        "ADA"
+      ],
+      "type": "gang",
+      "context": "Brazilian criminal organization, former ally of Bonde dos 40.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Primeiro Comando do Maranhão",
+      "original_text_name": "Primeiro Comando do Maranhão",
+      "aliases": [
+        "PCM"
+      ],
+      "type": "gang",
+      "context": "Brazilian criminal organization, rival of Bonde dos 40 in Maranhão.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Guardiões do Estado",
+      "original_text_name": "Guardiões do Estado",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of Bonde dos 40 according to infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Terceiro Comando Puro",
+      "original_text_name": "Terceiro Comando Puro",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of Bonde dos 40 according to infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Nova Okaida",
+      "original_text_name": "Nova Okaida",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of Bonde dos 40 according to infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Sindicato do Crime do Rio Grande do Norte",
+      "original_text_name": "Sindicato do Crime do Rio Grande do Norte",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of Bonde dos 40 according to infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Bonde do Maluco",
+      "original_text_name": "Bonde do Maluco",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of Bonde dos 40 according to infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Comando Classe A",
+      "original_text_name": "Comando Classe A",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of Bonde dos 40 according to infobox.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bonde dos 40",
+      "target": "Primeiro Comando da Capital",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bonde dos 40 was an ally of Primeiro Comando da Capital until 2017.",
+      "time_period": "2007-2017"
+    },
+    {
+      "source": "Bonde dos 40",
+      "target": "Primeiro Comando da Capital",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "They broke with their former allies in Teresina, sparking an intense war.",
+      "time_period": "2017-present"
+    },
+    {
+      "source": "Bonde dos 40",
+      "target": "Comando Vermelho",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bonde dos 40 formed alliances with Comando Vermelho early in its history.",
+      "time_period": "2009-2019"
+    },
+    {
+      "source": "Bonde dos 40",
+      "target": "Comando Vermelho",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "In 2019, Bonde dos 40 entered into a war with Comando Vermelho to dominate a neighborhood in São Luís.",
+      "time_period": "2019-present"
+    },
+    {
+      "source": "Bonde dos 40",
+      "target": "Amigos dos Amigos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bonde dos 40 formed alliances with Amigos dos Amigos early in its history.",
+      "time_period": "2009-2014"
+    },
+    {
+      "source": "Bonde dos 40",
+      "target": "Primeiro Comando do Maranhão",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Bonde dos 40 instigated riots against PCM and has been violently battling for control over neighborhoods.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Bonde dos 40",
+      "target": "Guardiões do Estado",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Bonde dos 40",
+      "target": "Terceiro Comando Puro",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Bonde dos 40",
+      "target": "Nova Okaida",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Bonde dos 40",
+      "target": "Sindicato do Crime do Rio Grande do Norte",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Bonde dos 40",
+      "target": "Bonde do Maluco",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Bonde dos 40",
+      "target": "Comando Classe A",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Bonde_dos_40"
+}

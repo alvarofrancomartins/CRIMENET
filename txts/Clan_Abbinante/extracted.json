@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Clan Abbinante",
+      "original_text_name": "Clan Abbinante",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan operating in northern Naples, specifically Marano di Napoli.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Clan Nuvoletta",
+      "original_text_name": "clan Nuvoletta",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan; Raffaele Abbinante was originally affiliated with them.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Clan Di Lauro",
+      "original_text_name": "clan Di Lauro",
+      "aliases": [
+        "Paolo Di Lauro group"
+      ],
+      "type": "clan",
+      "context": "Camorra clan led by Paolo Di Lauro, involved in drug trafficking and cigarette smuggling.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Scissionisti",
+      "original_text_name": "Scissionisti",
+      "aliases": [
+        "Scissionist faction"
+      ],
+      "type": "faction",
+      "context": "Splinter group from the Di Lauro clan; Francesco Abbinante sided with them.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Clan Abbinante",
+      "target": "Clan Nuvoletta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Raffaele Abbinante was originally an affiliate of the Nuvoletta clan.",
+      "time_period": null
+    },
+    {
+      "source": "Clan Abbinante",
+      "target": "Clan Di Lauro",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Abbinante brothers were top members of the Di Lauro drug trafficking group before joining the Spanish group.",
+      "time_period": null
+    },
+    {
+      "source": "Clan Abbinante",
+      "target": "Scissionisti",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Francesco Abbinante sided with the Scissionisti, a splinter group from the Di Lauro clan.",
+      "time_period": null
+    },
+    {
+      "source": "Clan Abbinante",
+      "target": "Clan Di Lauro",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Guido Abbinante was the mastermind of over 50 murders during the feud with the rival Di Lauro clan.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Clan_Abbinante"
+}

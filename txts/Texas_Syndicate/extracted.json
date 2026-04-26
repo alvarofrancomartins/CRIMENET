@@ -1,0 +1,162 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Texas Syndicate",
+      "original_text_name": "Texas Syndicate",
+      "aliases": [
+        "Sindicato Tejano",
+        "TS"
+      ],
+      "type": "gang",
+      "context": "Texas-based street and prison gang with Mexican American membership, involved in drug trafficking, extortion, and contract killing.",
+      "time_period": "1978-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "California-based prison gang, rival to Texas Syndicate.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nuestra Familia",
+      "original_text_name": "Nuestra Familia",
+      "aliases": [],
+      "type": "gang",
+      "context": "California-based prison gang, rival to Texas Syndicate.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Aryan Brotherhood",
+      "original_text_name": "Aryan Brotherhood",
+      "aliases": [],
+      "type": "gang",
+      "context": "White supremacist prison gang, rival to Texas Syndicate.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, allied with Texas Syndicate.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, Texas Syndicate carries out contract killings for them.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dirty White Boys",
+      "original_text_name": "Dirty White Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang, ally of Texas Syndicate.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Texas Mafia",
+      "original_text_name": "Texas Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang, ally of Texas Syndicate.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mexikanemi",
+      "original_text_name": "Mexikanemi",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang, rival to Texas Syndicate.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Tango Blast",
+      "original_text_name": "Tango Blast",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang, rival to Texas Syndicate.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Texas Syndicate",
+      "target": "Aryan Brotherhood",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Texas Syndicate formed in response to Aryan Brotherhood preying on Texas inmates.",
+      "time_period": "1978-present"
+    },
+    {
+      "source": "Texas Syndicate",
+      "target": "Mexican Mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Texas Syndicate formed in response to Mexican Mafia preying on Texas inmates.",
+      "time_period": "1978-present"
+    },
+    {
+      "source": "Texas Syndicate",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Texas Syndicate has a direct working relationship with Gulf Cartel members.",
+      "time_period": null
+    },
+    {
+      "source": "Texas Syndicate",
+      "target": "Los Zetas",
+      "relationship": "other",
+      "detail": "contract killings",
+      "context": "Texas Syndicate members carry out contract killings for Los Zetas.",
+      "time_period": null
+    },
+    {
+      "source": "Texas Syndicate",
+      "target": "Dirty White Boys",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dirty White Boys are listed as allies of Texas Syndicate.",
+      "time_period": null
+    },
+    {
+      "source": "Texas Syndicate",
+      "target": "Texas Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Texas Mafia is listed as an ally of Texas Syndicate.",
+      "time_period": null
+    },
+    {
+      "source": "Texas Syndicate",
+      "target": "Nuestra Familia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Nuestra Familia is listed as a rival of Texas Syndicate.",
+      "time_period": null
+    },
+    {
+      "source": "Texas Syndicate",
+      "target": "Mexikanemi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Mexikanemi is listed as a rival of Texas Syndicate.",
+      "time_period": null
+    },
+    {
+      "source": "Texas Syndicate",
+      "target": "Tango Blast",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Tango Blast is listed as a rival of Texas Syndicate.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Texas_Syndicate"
+}

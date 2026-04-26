@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "clan",
+      "context": "Italian criminal organization based in Campania, involved in various illegal activities.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "type": "clan",
+      "context": "Former Camorra coalition led by Carmine Alfieri, active in the 1980s.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Loreto-Matrone clan",
+      "original_text_name": "Loreto-Matrone clan",
+      "aliases": [
+        "Matrone clan"
+      ],
+      "type": "clan",
+      "context": "Camorra clan based in the Province of Salerno, led by Francesco Matrone and Pasquale Loreto.",
+      "time_period": "1980s-2010s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Loreto-Matrone clan",
+      "target": "Camorra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Loreto-Matrone clan is a clan within the Camorra organization.",
+      "time_period": "1980s-2010s"
+    },
+    {
+      "source": "Nuova Famiglia",
+      "target": "Camorra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nuova Famiglia was a coalition of Camorra clans.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Loreto-Matrone clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Francesco Matrone was the right-hand man of Carmine Alfieri, leader of Nuova Famiglia.",
+      "time_period": "1980s"
+    }
+  ],
+  "source_file": "Francesco_Matrone"
+}

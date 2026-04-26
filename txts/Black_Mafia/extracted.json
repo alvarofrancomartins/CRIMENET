@@ -1,0 +1,189 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Black Mafia",
+      "original_text_name": "Black Mafia",
+      "aliases": [
+        "Black Muslim Mafia",
+        "Muslim Mob",
+        "PBM",
+        "Philadelphia Black Mafia"
+      ],
+      "type": "other",
+      "context": "Philadelphia-based African-American organized crime syndicate active from 1960s to early 1980s, involved in drug trafficking, extortion, murder, and other rackets.",
+      "time_period": "1960s-early 1980s"
+    },
+    {
+      "standard_name": "Nation of Islam",
+      "original_text_name": "Nation of Islam",
+      "aliases": [
+        "NOI"
+      ],
+      "type": "other",
+      "context": "Religious organization; many Black Mafia members converted to Islam, giving the group the nickname 'Muslim Mafia'.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Philadelphia crime family",
+      "original_text_name": "Philadelphia crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American Mafia family in Philadelphia; don Angelo Bruno discouraged drug dealing but tolerated some business with black organized crime.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino Crime Family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York Mafia family that did business with the Black Mafia, supplying drugs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Junior Black Mafia",
+      "original_text_name": "Junior Black Mafia",
+      "aliases": [
+        "JBM",
+        "Young Black Mafia"
+      ],
+      "type": "other",
+      "context": "Later iteration or splinter of the Black Mafia mentioned at the end of the text.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Shower Posse",
+      "original_text_name": "Shower Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posses that took over drug distribution in black neighborhoods of Philadelphia in the 1980s.",
+      "time_period": "1980s–1990s"
+    },
+    {
+      "standard_name": "La Cosa Nostra",
+      "original_text_name": "La Cosa Nostra",
+      "aliases": [
+        "LCN"
+      ],
+      "type": "mafia",
+      "context": "Italian-American Mafia organization used as a model by the JBM.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bruno-Scarfo Crime Family",
+      "original_text_name": "Bruno-Scarfo Mafia crime family",
+      "aliases": [
+        "Philadelphia crime family"
+      ],
+      "type": "mafia",
+      "context": "Philadelphia-based Italian-American Mafia family; allied with Black Mafia and cooperated with JBM.",
+      "time_period": null
+    },
+    {
+      "standard_name": "The Council",
+      "original_text_name": "The Council",
+      "aliases": [],
+      "type": "other",
+      "context": "Allied organization mentioned in the infobox as an ally of the Black Mafia.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Black Mafia",
+      "target": "Nation of Islam",
+      "relationship": "other",
+      "detail": "affiliation",
+      "context": "Many Black Mafia members converted to Islam, giving the group the nickname 'Muslim Mafia'.",
+      "time_period": null
+    },
+    {
+      "source": "Black Mafia",
+      "target": "Philadelphia crime family",
+      "relationship": "other",
+      "detail": "territorial coexistence",
+      "context": "Angelo Bruno turned a blind eye to Italian gangsters doing business with black drug lords, with a rough territorial division east/west of Broad Street.",
+      "time_period": null
+    },
+    {
+      "source": "Black Mafia",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Gambino family did business with the Black Mafia, supplying drugs through black New York drug lord Frank Matthews.",
+      "time_period": null
+    },
+    {
+      "source": "Junior Black Mafia",
+      "target": "Black Mafia",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "The Junior Black Mafia is a later iteration or splinter of the original Black Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Black Mafia",
+      "target": "Junior Black Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Black Mafia members organized and mentored the JBM to counter Jamaican posses.",
+      "time_period": "c. 1985–1992"
+    },
+    {
+      "source": "Junior Black Mafia",
+      "target": "Shower Posse",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "JBM was involved in a drug war with the Shower Posse in Southwest Philadelphia during the 1980s and early 1990s.",
+      "time_period": "1980s–early 1990s"
+    },
+    {
+      "source": "Junior Black Mafia",
+      "target": "La Cosa Nostra",
+      "relationship": "other",
+      "detail": "modeled after",
+      "context": "JBM modeled its criminal methods after La Cosa Nostra.",
+      "time_period": null
+    },
+    {
+      "source": "Junior Black Mafia",
+      "target": "Bruno-Scarfo Crime Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "JBM cooperated with associates of the Bruno-Scarfo crime family in cocaine distribution.",
+      "time_period": null
+    },
+    {
+      "source": "Black Mafia",
+      "target": "Bruno-Scarfo Crime Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Infobo lists the Philadelphia crime family as an ally of the Black Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Black Mafia",
+      "target": "Nation of Islam",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Many Black Mafia members were Nation of Islam members, giving the group the nickname 'Muslim Mafia'.",
+      "time_period": null
+    },
+    {
+      "source": "Black Mafia",
+      "target": "The Council",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Infobo lists The Council as an ally of the Black Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Black Mafia",
+      "target": "Shower Posse",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Infobo lists Shower Posse as a rival of the Black Mafia.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Black_Mafia"
+}

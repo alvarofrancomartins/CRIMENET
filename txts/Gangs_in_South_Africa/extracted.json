@@ -1,0 +1,275 @@
+{
+  "nodes": [
+    {
+      "standard_name": "The Americans",
+      "original_text_name": "The Americans",
+      "aliases": [],
+      "type": "gang",
+      "context": "One of the two largest street gangs in Cape Town, functioning as an umbrella organization for smaller gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hard Livings",
+      "original_text_name": "Hard Livings",
+      "aliases": [],
+      "type": "gang",
+      "context": "One of the two largest street gangs in Cape Town, functioning as an umbrella organization for smaller gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Young Dixie Boys",
+      "original_text_name": "Young Dixie Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Smaller gang in Cape Town, likely allied with one of the two super gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Clever Kids",
+      "original_text_name": "Clever Kids",
+      "aliases": [],
+      "type": "gang",
+      "context": "Smaller gang in Cape Town, likely allied with one of the two super gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Naughty Boys",
+      "original_text_name": "Naughty Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Smaller gang in Cape Town, likely allied with one of the two super gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Junky Funky Kids",
+      "original_text_name": "Junky Funky Kids",
+      "aliases": [],
+      "type": "gang",
+      "context": "Smaller gang in Cape Town, likely allied with one of the two super gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "1400 EstateBoyz",
+      "original_text_name": "1400 EstateBoyz",
+      "aliases": [],
+      "type": "gang",
+      "context": "Smaller gang in Cape Town, likely allied with one of the two super gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Respectable Peacefuls",
+      "original_text_name": "Respectable Peacefuls",
+      "aliases": [],
+      "type": "gang",
+      "context": "Smaller gang in Cape Town, likely allied with one of the two super gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Wonder Kids",
+      "original_text_name": "Wonder Kids",
+      "aliases": [],
+      "type": "gang",
+      "context": "Smaller gang in Cape Town, likely allied with one of the two super gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "School Boys",
+      "original_text_name": "School Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Smaller gang in Cape Town, likely allied with one of the two super gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Yuru Cats",
+      "original_text_name": "Yuru Cats",
+      "aliases": [],
+      "type": "gang",
+      "context": "Smaller gang in Cape Town, likely allied with one of the two super gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Black Axes",
+      "original_text_name": "Black Axes",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang that started operating in Cape Town by 2022.",
+      "time_period": "2022-present"
+    },
+    {
+      "standard_name": "Numbers Gangs",
+      "original_text_name": "Numbers Gangs",
+      "aliases": [
+        "26s",
+        "27s",
+        "28s"
+      ],
+      "type": "gang",
+      "context": "Prison-based gangs in KwaZulu-Natal, highly structured with hierarchical command.",
+      "time_period": null
+    },
+    {
+      "standard_name": "The Globe",
+      "original_text_name": "The Globe",
+      "aliases": [],
+      "type": "gang",
+      "context": "Often cited as the first gang in Cape Town, started as a neighbourhood watch in District Six.",
+      "time_period": "1960s-1970s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "The Americans",
+      "target": "Hard Livings",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The two largest street gangs in Cape Town are rivals, functioning as opposing umbrella organizations.",
+      "time_period": null
+    },
+    {
+      "source": "The Americans",
+      "target": "Young Dixie Boys",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like Young Dixie Boys are likely allied with The Americans as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "The Americans",
+      "target": "Clever Kids",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like Clever Kids are likely allied with The Americans as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "The Americans",
+      "target": "Naughty Boys",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like Naughty Boys are likely allied with The Americans as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "The Americans",
+      "target": "Junky Funky Kids",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like Junky Funky Kids are likely allied with The Americans as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "The Americans",
+      "target": "1400 EstateBoyz",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like 1400 EstateBoyz are likely allied with The Americans as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "The Americans",
+      "target": "Respectable Peacefuls",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like Respectable Peacefuls are likely allied with The Americans as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "The Americans",
+      "target": "Wonder Kids",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like Wonder Kids are likely allied with The Americans as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "The Americans",
+      "target": "School Boys",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like School Boys are likely allied with The Americans as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "The Americans",
+      "target": "Yuru Cats",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like Yuru Cats are likely allied with The Americans as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "Hard Livings",
+      "target": "Young Dixie Boys",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like Young Dixie Boys are likely allied with Hard Livings as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "Hard Livings",
+      "target": "Clever Kids",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like Clever Kids are likely allied with Hard Livings as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "Hard Livings",
+      "target": "Naughty Boys",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like Naughty Boys are likely allied with Hard Livings as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "Hard Livings",
+      "target": "Junky Funky Kids",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like Junky Funky Kids are likely allied with Hard Livings as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "Hard Livings",
+      "target": "1400 EstateBoyz",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like 1400 EstateBoyz are likely allied with Hard Livings as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "Hard Livings",
+      "target": "Respectable Peacefuls",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like Respectable Peacefuls are likely allied with Hard Livings as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "Hard Livings",
+      "target": "Wonder Kids",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like Wonder Kids are likely allied with Hard Livings as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "Hard Livings",
+      "target": "School Boys",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like School Boys are likely allied with Hard Livings as part of its umbrella.",
+      "time_period": null
+    },
+    {
+      "source": "Hard Livings",
+      "target": "Yuru Cats",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Smaller gangs like Yuru Cats are likely allied with Hard Livings as part of its umbrella.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Gangs_in_South_Africa"
+}

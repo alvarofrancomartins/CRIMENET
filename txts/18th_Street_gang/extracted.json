@@ -1,0 +1,260 @@
+{
+  "nodes": [
+    {
+      "standard_name": "18th Street Gang",
+      "original_text_name": "18th Street Gang",
+      "aliases": [
+        "Eighteen St",
+        "Barrio 18",
+        "Mara 18",
+        "18"
+      ],
+      "type": "gang",
+      "context": "Multi-ethnic street gang from Los Angeles, involved in drug trafficking, extortion, murder, and other crimes. Active in US, Mexico, Central America.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Clanton 14",
+      "original_text_name": "Clanton 14",
+      "aliases": [],
+      "type": "gang",
+      "context": "Hispanic street gang from Los Angeles that rejected multi-ethnic membership, leading to formation of 18th Street.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "MS-13",
+      "original_text_name": "MS-13",
+      "aliases": [
+        "Mara Salvatrucha"
+      ],
+      "type": "gang",
+      "context": "Rival gang to 18th Street, also active in Central America and US, involved in violent crime.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Revolucionarios",
+      "original_text_name": "Revolucionarios",
+      "aliases": [
+        "Revolutionaries"
+      ],
+      "type": "faction",
+      "context": "Splinter faction of 18th Street in El Salvador, formed in 2005, became rivals with the Sureños faction.",
+      "time_period": "2005-present"
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [
+        "Southerners"
+      ],
+      "type": "faction",
+      "context": "Faction of 18th Street in El Salvador that remained after the Revolucionarios split, rivals with them.",
+      "time_period": "2005-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang and organized crime group, allied with 18th Street.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "38th Street gang",
+      "original_text_name": "38th Street gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang allied with 18th Street.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Avenues",
+      "original_text_name": "Avenues",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang rival to 18th Street.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Playboys",
+      "original_text_name": "Playboys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang rival to 18th Street.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Santa Monica 13",
+      "original_text_name": "Santa Monica 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang rival to 18th Street.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Temple Street",
+      "original_text_name": "Temple Street (gang)",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang rival to 18th Street.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Vineland Boys",
+      "original_text_name": "Vineland Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang rival to 18th Street.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Florencia 13",
+      "original_text_name": "Florencia 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang rival to 18th Street.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang rival to 18th Street.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Black P. Stones",
+      "original_text_name": "Black P. Stones (Jungles)",
+      "aliases": [
+        "Black P. Stones"
+      ],
+      "type": "gang",
+      "context": "Street gang rival to 18th Street.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "18th Street Gang",
+      "target": "Clanton 14",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "18th Street formed after Clanton 14 rejected multi-ethnic membership; they have been bitter rivals ever since.",
+      "time_period": "1960s-present"
+    },
+    {
+      "source": "18th Street Gang",
+      "target": "MS-13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Both gangs are bitter rivals seeking supremacy in Central America, contributing to high homicide rates.",
+      "time_period": null
+    },
+    {
+      "source": "Revolucionarios",
+      "target": "18th Street Gang",
+      "relationship": "other",
+      "detail": "splinter faction",
+      "context": "Revolucionarios split from 18th Street in 2005 and became rivals with the remaining Sureños faction.",
+      "time_period": "2005-present"
+    },
+    {
+      "source": "Revolucionarios",
+      "target": "Sureños",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "After the split, Revolucionarios became rivals with the Sureños faction of 18th Street.",
+      "time_period": "2005-present"
+    },
+    {
+      "source": "18th Street Gang",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "18th Street uses blue to pay tribute to the Mexican Mafia, indicating an alliance.",
+      "time_period": null
+    },
+    {
+      "source": "18th Street Gang",
+      "target": "Sureños",
+      "relationship": "other",
+      "detail": "faction",
+      "context": "Sureños is a faction of 18th Street in El Salvador.",
+      "time_period": "2005-present"
+    },
+    {
+      "source": "18th Street Gang",
+      "target": "38th Street gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "18th Street Gang",
+      "target": "Avenues",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "18th Street Gang",
+      "target": "Playboys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "18th Street Gang",
+      "target": "Santa Monica 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "18th Street Gang",
+      "target": "Temple Street",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "18th Street Gang",
+      "target": "Vineland Boys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "18th Street Gang",
+      "target": "Florencia 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "18th Street Gang",
+      "target": "Bloods",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "18th Street Gang",
+      "target": "Black P. Stones",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "18th_Street_gang"
+}

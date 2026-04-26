@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Colima Cartel",
+      "original_text_name": "Colima Cartel",
+      "aliases": [
+        "Cártel de Colima"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug trafficking and methamphetamine producing cartel operating in Guadalajara, Jalisco.",
+      "time_period": "1988-2005"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel; Colima Cartel became a branch of it.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Milenio Cartel",
+      "original_text_name": "Milenio Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel; also a branch of Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Guadalajara Cartel",
+      "original_text_name": "Guadalajara Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel; also a branch of Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sonora Cartel",
+      "original_text_name": "Sonora Cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel; also a branch of Sinaloa Cartel.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Colima Cartel",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Colima Cartel became a branch of Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Milenio Cartel",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Milenio Cartel is a branch of Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Guadalajara Cartel",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Guadalajara Cartel is a branch of Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Sonora Cartel",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sonora Cartel is a branch of Sinaloa Cartel.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Colima_Cartel"
+}

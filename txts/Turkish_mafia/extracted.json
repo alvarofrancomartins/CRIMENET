@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Turkish mafia",
+      "original_text_name": "Turkish mafia",
+      "aliases": [
+        "Türk mafyası"
+      ],
+      "type": "mafia",
+      "context": "General term for criminal organizations based in Turkey or composed of Turkish citizens, involved in drug trafficking, human smuggling, etc.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Bulgarian mafia",
+      "original_text_name": "Bulgarian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Bulgarian organized crime groups that transport heroin from Turkey to Italy.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cartel of the Suns",
+      "original_text_name": "Cartel of the Suns",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Venezuelan drug-trafficking organization that ships cocaine to Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
+      "aliases": [
+        "Sicilian Mafia"
+      ],
+      "type": "mafia",
+      "context": "Sicilian mafia known to be very close with Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Grey Wolves",
+      "original_text_name": "Grey Wolves",
+      "aliases": [],
+      "type": "other",
+      "context": "Ultra-nationalist movement in Turkish community, politically and criminally active, linked to mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "PKK",
+      "original_text_name": "PKK",
+      "aliases": [
+        "Kurdistan Workers' Party"
+      ],
+      "type": "terrorist_organization",
+      "context": "Kurdish militant group fought by Grey Wolves.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Turkish Cypriot crime groups",
+      "original_text_name": "Turkish Cypriot crime groups",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal gangs composed of Turkish Cypriots in London, involved in drug trafficking, armed robbery.",
+      "time_period": null
+    },
+    {
+      "standard_name": "British firms",
+      "original_text_name": "British firms",
+      "aliases": [],
+      "type": "gang",
+      "context": "Traditional White British crime firms, allied with Turkish Cypriot crime groups.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Albanian mafia",
+      "original_text_name": "Albanian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Albanian organized crime groups, listed as ally of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Azerbaijani mafia",
+      "original_text_name": "Azerbaijani mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Azerbaijani organized crime groups, listed as ally of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Pakistani mafia",
+      "original_text_name": "Pakistani mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Pakistani organized crime groups, listed as ally of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Russian mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Russian organized crime groups, listed as ally of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Colombian cartels",
+      "original_text_name": "Colombian cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartels, listed as ally of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Serbian mafia",
+      "original_text_name": "Serbian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Serbian organized crime groups, listed as ally of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, listed as ally of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Armenian mafia",
+      "original_text_name": "Armenian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Armenian organized crime groups, listed as rival of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Greek mafia",
+      "original_text_name": "Greek mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Greek organized crime groups, listed as rival of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kurdish mafia",
+      "original_text_name": "Kurdish mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Kurdish organized crime groups, listed as rival of Turkish mafia.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Turkish mafia",
+      "target": "Bulgarian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Turkish mafia cooperates with Bulgarian mafia to transport heroin to Italy.",
+      "time_period": null
+    },
+    {
+      "source": "Turkish mafia",
+      "target": "Cartel of the Suns",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Turkish mafia has a lucrative partnership with Cartel of the Suns for cocaine smuggling.",
+      "time_period": null
+    },
+    {
+      "source": "Turkish mafia",
+      "target": "Cosa Nostra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cosa Nostra and Turkish mafia are known to be very close.",
+      "time_period": null
+    },
+    {
+      "source": "Turkish mafia",
+      "target": "Grey Wolves",
+      "relationship": "other",
+      "detail": "ideological ties",
+      "context": "Some Turkish mafia members have ties to Grey Wolves, an ultra-nationalist movement.",
+      "time_period": null
+    },
+    {
+      "source": "Grey Wolves",
+      "target": "PKK",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Grey Wolves were an instrument to fight the Kurds of PKK.",
+      "time_period": null
+    },
+    {
+      "source": "Turkish Cypriot crime groups",
+      "target": "British firms",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Turkish Cypriot crime groups have more in common with traditional British crime firms.",
+      "time_period": null
+    },
+    {
+      "source": "Turkish mafia",
+      "target": "Albanian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Albanian mafia listed as ally of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Turkish mafia",
+      "target": "Azerbaijani mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Azerbaijani mafia listed as ally of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Turkish mafia",
+      "target": "Pakistani mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pakistani mafia listed as ally of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Turkish mafia",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Russian mafia listed as ally of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Turkish mafia",
+      "target": "Colombian cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Colombian cartels listed as ally of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Turkish mafia",
+      "target": "Serbian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Serbian mafia listed as ally of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Turkish mafia",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sinaloa Cartel listed as ally of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Turkish mafia",
+      "target": "Armenian mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Armenian mafia listed as rival of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Turkish mafia",
+      "target": "Greek mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Greek mafia listed as rival of Turkish mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Turkish mafia",
+      "target": "Kurdish mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kurdish mafia listed as rival of Turkish mafia.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Turkish_mafia"
+}

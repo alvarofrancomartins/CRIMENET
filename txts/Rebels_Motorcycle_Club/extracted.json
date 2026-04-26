@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Rebels Motorcycle Club",
+      "original_text_name": "Rebels Motorcycle Club",
+      "aliases": [
+        "Rebels MC",
+        "Confederates"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club founded in 1969 in Brisbane, Australia; involved in drug trafficking, arms dealing, and other crimes.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Bandidos Motorcycle Club",
+      "original_text_name": "Bandidos",
+      "aliases": [
+        "Bandidos MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club; member Ross Brand was murdered by Rebels associates in 2008.",
+      "time_period": "1966-present"
+    },
+    {
+      "standard_name": "Rock Machine Motorcycle Club",
+      "original_text_name": "Rock Machine",
+      "aliases": [
+        "Rock Machine MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club that established a chapter in Perth in 2009, leading to conflict with the Rebels.",
+      "time_period": "1986-present"
+    },
+    {
+      "standard_name": "Gypsy Joker Motorcycle Club",
+      "original_text_name": "Gypsy Joker Motorcycle Club",
+      "aliases": [
+        "Gypsy Joker MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club; member Anthony Perish was involved in a homicide with a Rebels member.",
+      "time_period": "1966-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Rebels Motorcycle Club",
+      "target": "Bandidos Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rebels associates murdered Bandidos member Ross Brand in 2008.",
+      "time_period": "2008"
+    },
+    {
+      "source": "Rebels Motorcycle Club",
+      "target": "Rock Machine Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Violent feud sparked by defections and turf war in Perth from 2009 onward.",
+      "time_period": "2009-present"
+    },
+    {
+      "source": "Rebels Motorcycle Club",
+      "target": "Gypsy Joker Motorcycle Club",
+      "relationship": "other",
+      "detail": "co-offending",
+      "context": "Members of both clubs were involved together in the homicide of Terry Falconer in 2012.",
+      "time_period": "2012"
+    }
+  ],
+  "source_file": "Rebels_Motorcycle_Club"
+}

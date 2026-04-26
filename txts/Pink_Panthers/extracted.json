@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Pink Panthers",
+      "original_text_name": "Pink Panthers",
+      "aliases": [],
+      "type": "other",
+      "context": "International jewel thief network with about 800 core members, mostly Serbian and Montenegrin ex-soldiers.",
+      "time_period": "2001-present"
+    },
+    {
+      "standard_name": "Serbian mafia",
+      "original_text_name": "Serbian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Organized crime groups in Serbia, allied with Pink Panthers.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Zemun Clan",
+      "original_text_name": "Zemun Clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Serbian organized crime clan, allied with Pink Panthers.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Russian mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Russian organized crime groups, allied with Pink Panthers.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Romanian mafia",
+      "original_text_name": "Romanian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Romanian organized crime groups, allied with Pink Panthers.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Pink Panthers",
+      "target": "Serbian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pink Panthers are allied with Serbian mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Pink Panthers",
+      "target": "Zemun Clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pink Panthers are allied with Zemun Clan.",
+      "time_period": null
+    },
+    {
+      "source": "Pink Panthers",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pink Panthers are allied with Russian mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Pink Panthers",
+      "target": "Romanian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pink Panthers are allied with Romanian mafia.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Pink_Panthers"
+}

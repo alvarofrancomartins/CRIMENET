@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Abu Sayyaf",
+      "original_text_name": "Abu Sayyaf",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Terrorist organization active in the southern Philippines.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Ajang Ajang group",
+      "original_text_name": "Ajang Ajang group",
+      "aliases": [
+        "Baanan Ajang Ajang"
+      ],
+      "type": "faction",
+      "context": "Cell within Abu Sayyaf specializing in bomb attacks, active in the southern Philippines.",
+      "time_period": "2018-2019"
+    },
+    {
+      "standard_name": "Islamic State",
+      "original_text_name": "Islamic State",
+      "aliases": [
+        "ISIS",
+        "ISIL"
+      ],
+      "type": "terrorist_organization",
+      "context": "Global jihadist terrorist group; claimed responsibility for attacks alongside Ajang Ajang.",
+      "time_period": "2014-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ajang Ajang group",
+      "target": "Abu Sayyaf",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Ajang Ajang group was a cell within Abu Sayyaf.",
+      "time_period": "2018-2019"
+    },
+    {
+      "source": "Ajang Ajang group",
+      "target": "Islamic State",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Ajang Ajang group claimed attacks under the signature of Islamic State elders.",
+      "time_period": "2018-2019"
+    }
+  ],
+  "source_file": "Ajang_Ajang_group"
+}

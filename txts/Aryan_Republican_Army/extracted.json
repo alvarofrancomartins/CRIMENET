@@ -1,0 +1,68 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Aryan Republican Army",
+      "original_text_name": "Aryan Republican Army",
+      "aliases": [
+        "ARA",
+        "Midwest Bank bandits"
+      ],
+      "type": "terrorist_organization",
+      "context": "White nationalist terrorist gang that robbed 22 banks in the Midwest from 1994 to 1996.",
+      "time_period": "1992-1996"
+    },
+    {
+      "standard_name": "Aryan Nations",
+      "original_text_name": "Aryan Nations",
+      "aliases": [],
+      "type": "other",
+      "context": "White supremacist organization; some ARA members were also members.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Ku Klux Klan",
+      "original_text_name": "Ku Klux Klan",
+      "aliases": [
+        "KKK"
+      ],
+      "type": "other",
+      "context": "White supremacist group; some ARA members were affiliated.",
+      "time_period": "1865-present"
+    },
+    {
+      "standard_name": "Day of the Sword",
+      "original_text_name": "Day of the Sword",
+      "aliases": [],
+      "type": "other",
+      "context": "RAC band founded by ARA member Scott Stedeford.",
+      "time_period": "1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Aryan Republican Army",
+      "target": "Aryan Nations",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "ARA members were recruited by Aryan Nations leaders and shared ideology.",
+      "time_period": "1992-1996"
+    },
+    {
+      "source": "Aryan Republican Army",
+      "target": "Ku Klux Klan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "ARA members had ties to Klan-affiliated church and members.",
+      "time_period": "1992-1996"
+    },
+    {
+      "source": "Aryan Republican Army",
+      "target": "Day of the Sword",
+      "relationship": "other",
+      "detail": "member affiliation",
+      "context": "ARA member Scott Stedeford was founding member and frontman of Day of the Sword.",
+      "time_period": "1990s"
+    }
+  ],
+  "source_file": "Aryan_Republican_Army"
+}

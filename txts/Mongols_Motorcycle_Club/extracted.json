@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Mongols Motorcycle Club",
+      "original_text_name": "Mongols Motorcycle Club",
+      "aliases": [
+        "Mongol Brotherhood",
+        "Mongol Nation",
+        "MMC"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club founded in 1969 in California, involved in drug trafficking, money laundering, and violent crimes.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Major outlaw motorcycle club, rival of the Mongols, with a long-term feud since 1977.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Outlaws Motorcycle Club",
+      "original_text_name": "Outlaws",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, one of the 'big five' in the US, larger than the Mongols.",
+      "time_period": "1935-present"
+    },
+    {
+      "standard_name": "Bandidos Motorcycle Club",
+      "original_text_name": "Bandidos",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, part of the 'big five' in the US and 'big six' in Australia.",
+      "time_period": "1966-present"
+    },
+    {
+      "standard_name": "Pagans Motorcycle Club",
+      "original_text_name": "Pagans",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, part of the 'big five' in the US.",
+      "time_period": "1959-present"
+    },
+    {
+      "standard_name": "Comanchero Motorcycle Club",
+      "original_text_name": "Comanchero",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, part of the 'big six' in Australia.",
+      "time_period": "1968-present"
+    },
+    {
+      "standard_name": "Finks Motorcycle Club",
+      "original_text_name": "Finks",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, part of the 'big six' in Australia.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Rebels Motorcycle Club",
+      "original_text_name": "Rebels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, part of the 'big six' in Australia.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Raiders MC",
+      "original_text_name": "Raiders MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Official support club for the Mongols Motorcycle Club.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Mongols Motorcycle Club",
+      "target": "Hells Angels Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Long-term feud beginning in 1977; Hells Angels ceded Southern California to Mongols in 1980s.",
+      "time_period": "1977-present"
+    },
+    {
+      "source": "Mongols Motorcycle Club",
+      "target": "Raiders MC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Raiders MC is an official support club for the Mongols.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Mongols_Motorcycle_Club"
+}

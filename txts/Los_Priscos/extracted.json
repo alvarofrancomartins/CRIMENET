@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Priscos",
+      "original_text_name": "Los Priscos",
+      "aliases": [],
+      "type": "faction",
+      "context": "Armed wing of the Medellín Cartel, involved in assassinations and other crimes in Colombia.",
+      "time_period": "1980s-1991"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Major drug trafficking cartel based in Medellín, Colombia, led by Pablo Escobar.",
+      "time_period": "1970s-1993"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Priscos",
+      "target": "Medellín Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Priscos functioned as the armed wing of the Medellín Cartel, carrying out assassinations ordered by Pablo Escobar.",
+      "time_period": "1984-1991"
+    }
+  ],
+  "source_file": "Los_Priscos"
+}

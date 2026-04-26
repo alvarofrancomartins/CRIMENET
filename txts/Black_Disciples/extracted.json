@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Black Disciples",
+      "original_text_name": "Black Disciples",
+      "aliases": [
+        "BD's",
+        "Black Disciples Nation"
+      ],
+      "type": "gang",
+      "context": "African-American street gang based in Chicago, Illinois, involved in various criminal activities.",
+      "time_period": "1966-present"
+    },
+    {
+      "standard_name": "Devil's Disciples",
+      "original_text_name": "Devil's Disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "Predecessor gang formed in 1958 in Chicago, later evolved into Black Disciples.",
+      "time_period": "1958-1966"
+    },
+    {
+      "standard_name": "Gangster Disciples",
+      "original_text_name": "Gangster Disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Black Disciples, led by Larry Hoover, based in Chicago.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Black Gangster Disciples Nation",
+      "original_text_name": "Black Gangster Disciples Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "Unified gang formed by merger of Black Disciples and Gangster Disciples in 1969.",
+      "time_period": "1969-1974"
+    },
+    {
+      "standard_name": "Black Gangsters Disciples",
+      "original_text_name": "Black Gangsters Disciples",
+      "aliases": [],
+      "type": "faction",
+      "context": "Faction that split from Black Gangster Disciples Nation after Barksdale's death.",
+      "time_period": "1974-present"
+    },
+    {
+      "standard_name": "Vice Lords",
+      "original_text_name": "Vice Lords",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Black Disciples, based in Chicago.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Black P. Stones",
+      "original_text_name": "Black P. Stones",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Black Disciples, based in Chicago.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Mickey Cobras",
+      "original_text_name": "Mickey Cobras",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Black Disciples, based in Chicago.",
+      "time_period": "1960s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Devil's Disciples",
+      "target": "Black Disciples",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "Devil's Disciples evolved into Black Disciples Nation in 1966.",
+      "time_period": "1966"
+    },
+    {
+      "source": "Black Disciples",
+      "target": "Gangster Disciples",
+      "relationship": "alliance",
+      "context": "Merged in 1969 to form Black Gangster Disciples Nation.",
+      "time_period": "1969-1974"
+    },
+    {
+      "source": "Black Disciples",
+      "target": "Gangster Disciples",
+      "relationship": "rivalry",
+      "context": "After Barksdale's death, the groups split and became rivals, with violent conflicts.",
+      "time_period": "1974-present"
+    },
+    {
+      "source": "Black Gangster Disciples Nation",
+      "target": "Black Gangsters Disciples",
+      "relationship": "other",
+      "detail": "split_into",
+      "context": "After Barksdale's death, ideological differences led to the creation of Black Gangsters Disciples as a rival faction.",
+      "time_period": "1974"
+    },
+    {
+      "source": "Black Gangster Disciples Nation",
+      "target": "Black Disciples",
+      "relationship": "other",
+      "detail": "split_into",
+      "context": "After Barksdale's death, the Black Disciples re-emerged as a separate faction.",
+      "time_period": "1974"
+    },
+    {
+      "source": "Black Disciples",
+      "target": "Vice Lords",
+      "relationship": "rivalry",
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Black Disciples",
+      "target": "Black P. Stones",
+      "relationship": "rivalry",
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Black Disciples",
+      "target": "Mickey Cobras",
+      "relationship": "rivalry",
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Black_Disciples"
+}

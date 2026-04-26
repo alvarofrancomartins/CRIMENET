@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "standard_name": "On Leong Chinese Merchants Association",
+      "original_text_name": "On Leong Chinese Merchants Association",
+      "aliases": [
+        "Chinese Merchants Association",
+        "On Leong Tong"
+      ],
+      "type": "other",
+      "context": "Tong society operating in Chinatown, Manhattan, involved in rackets and businesses.",
+      "time_period": "1893-present"
+    },
+    {
+      "standard_name": "Hip Sing Tong",
+      "original_text_name": "Hip Sing Tong",
+      "aliases": [],
+      "type": "other",
+      "context": "Tong society that fought a violent war with On Leong for control of Chinatown's rackets.",
+      "time_period": "late 19th century-present"
+    },
+    {
+      "standard_name": "Ghost Shadows",
+      "original_text_name": "Ghost Shadows",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang linked to On Leong, led by Wing Yeung Chan.",
+      "time_period": "20th century"
+    }
+  ],
+  "edges": [
+    {
+      "source": "On Leong Chinese Merchants Association",
+      "target": "Hip Sing Tong",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Fought a violent war for control of Chinatown's rackets and businesses.",
+      "time_period": "late 19th century-early 20th century"
+    },
+    {
+      "source": "On Leong Chinese Merchants Association",
+      "target": "Ghost Shadows",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "On Leong has been linked to the Ghost Shadows street gang.",
+      "time_period": "recent years"
+    }
+  ],
+  "source_file": "On_Leong_Chinese_Merchants_Association"
+}

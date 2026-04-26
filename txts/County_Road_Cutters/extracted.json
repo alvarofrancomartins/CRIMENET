@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "standard_name": "County Road Cutters",
+      "original_text_name": "County Road Cutters",
+      "aliases": [
+        "Cutters"
+      ],
+      "type": "other",
+      "context": "Hooligan firm associated with Everton F.C., active in Liverpool, England.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Seaburn Casuals",
+      "original_text_name": "Seaburn Casuals",
+      "aliases": [],
+      "type": "other",
+      "context": "Hooligan firm associated with Sunderland F.C.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Chelsea Headhunters",
+      "original_text_name": "Chelsea Headhunters",
+      "aliases": [],
+      "type": "other",
+      "context": "Hooligan firm associated with Chelsea F.C.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Millwall Bushwackers",
+      "original_text_name": "Millwall Bushwackers",
+      "aliases": [],
+      "type": "other",
+      "context": "Hooligan firm associated with Millwall F.C.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Red Army",
+      "original_text_name": "Red Army",
+      "aliases": [],
+      "type": "other",
+      "context": "Hooligan firm associated with Manchester United F.C.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "County Road Cutters",
+      "target": "Seaburn Casuals",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Strong rivalry with Sunderland's firm Seaburn Casuals.",
+      "time_period": null
+    },
+    {
+      "source": "County Road Cutters",
+      "target": "Chelsea Headhunters",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Strong rivalry with Chelsea's firm Chelsea Headhunters.",
+      "time_period": null
+    },
+    {
+      "source": "County Road Cutters",
+      "target": "Millwall Bushwackers",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Strong rivalry with Millwall's firm Millwall Bushwackers.",
+      "time_period": null
+    },
+    {
+      "source": "County Road Cutters",
+      "target": "Red Army",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "High-profile clashes including the 2005 Battle of Everton Valley; also disputes over ticket touting.",
+      "time_period": "2005"
+    }
+  ],
+  "source_file": "County_Road_Cutters"
+}

@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Shapiro Brothers",
+      "original_text_name": "Shapiro Brothers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jewish-American mobsters from New York City, based in Williamsburg, involved in the garment industry.",
+      "time_period": "1920s-1934"
+    },
+    {
+      "standard_name": "Murder, Inc.",
+      "original_text_name": "Murder, Inc.",
+      "aliases": [],
+      "type": "gang",
+      "context": "Organized crime enforcement group in New York City, carried out contract killings.",
+      "time_period": "1920s-1940s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Murder, Inc.",
+      "target": "Shapiro Brothers",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Murder, Inc. killed members of the Shapiro Brothers on orders from Louis Buchalter.",
+      "time_period": "1931-1934"
+    }
+  ],
+  "source_file": "Shapiro_Brothers"
+}

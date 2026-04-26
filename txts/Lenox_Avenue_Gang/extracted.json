@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Lenox Avenue Gang",
+      "original_text_name": "Lenox Avenue Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Early 20th-century New York City street gang based in Harlem, involved in muggings, robberies, and murder.",
+      "time_period": "Early 1900s-1914"
+    },
+    {
+      "standard_name": "Eastman Gang",
+      "original_text_name": "Eastman Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "New York City gang led by Jack Zelig, which the Lenox Avenue Gang operated under.",
+      "time_period": "Late 19th-early 20th century"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Lenox Avenue Gang",
+      "target": "Eastman Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Lenox Avenue Gang operated under Jack Zelig's Eastman Gang, which occasionally hired them for murder.",
+      "time_period": "Early 1900s-1914"
+    }
+  ],
+  "source_file": "Lenox_Avenue_Gang"
+}

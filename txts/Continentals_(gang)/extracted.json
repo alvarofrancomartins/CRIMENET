@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Continentals",
+      "original_text_name": "Continentals",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chinese American street gang in New York City's Chinatown, active 1961-1964, involved in vandalism and assault.",
+      "time_period": "1961-1964"
+    },
+    {
+      "standard_name": "White Eagles",
+      "original_text_name": "White Eagles",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chinese gang in California that recruited immigrants from Hong Kong and mainland China.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Chung Ching Yee",
+      "original_text_name": "Chung Ching Yee",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chinese gang in California that recruited immigrants from Hong Kong and mainland China.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ghost Shadows",
+      "original_text_name": "Ghost Shadows",
+      "aliases": [],
+      "type": "gang",
+      "context": "Violent Chinese gang in New York City's Chinatown, involved in racketeering.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Flying Dragons",
+      "original_text_name": "Flying Dragons",
+      "aliases": [],
+      "type": "gang",
+      "context": "Violent Chinese gang in New York City's Chinatown, involved in racketeering.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Continentals",
+      "target": "White Eagles",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "White Eagles recruited immigrants after Continentals declined, succeeding them.",
+      "time_period": "late 1960s"
+    },
+    {
+      "source": "Continentals",
+      "target": "Chung Ching Yee",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "Chung Ching Yee recruited immigrants after Continentals declined, succeeding them.",
+      "time_period": "late 1960s"
+    },
+    {
+      "source": "Continentals",
+      "target": "Ghost Shadows",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "Ghost Shadows succeeded Continentals as a more violent gang in Chinatown.",
+      "time_period": "late 1960s"
+    },
+    {
+      "source": "Continentals",
+      "target": "Flying Dragons",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "Flying Dragons succeeded Continentals as a more violent gang in Chinatown.",
+      "time_period": "late 1960s"
+    }
+  ],
+  "source_file": "Continentals_(gang)"
+}

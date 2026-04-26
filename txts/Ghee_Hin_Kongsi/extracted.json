@@ -1,0 +1,36 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Ghee Hin Kongsi",
+      "original_text_name": "Ghee Hin Kongsi",
+      "aliases": [
+        "Ghee Hin",
+        "Yi Xing Gongsi"
+      ],
+      "type": "other",
+      "context": "Chinese secret society in Singapore and Malaya, formed in 1820, part of the Hongmen network.",
+      "time_period": "1820-1890s"
+    },
+    {
+      "standard_name": "Hai San Secret Society",
+      "original_text_name": "Hai San secret society",
+      "aliases": [
+        "Hai San"
+      ],
+      "type": "other",
+      "context": "Hakka-dominated secret society in Malaya, rival of Ghee Hin.",
+      "time_period": "19th century"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ghee Hin Kongsi",
+      "target": "Hai San Secret Society",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ghee Hin often fought against the Hakka-dominated Hai San secret society.",
+      "time_period": "19th century"
+    }
+  ],
+  "source_file": "Ghee_Hin_Kongsi"
+}

@@ -1,0 +1,113 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Four Corner Hustlers",
+      "original_text_name": "Four Corner Hustlers",
+      "aliases": [
+        "4CH"
+      ],
+      "type": "gang",
+      "context": "African American street gang founded in West Garfield Park, Chicago in the 1960s. Involved in drug trafficking, robbery, murder, and racketeering.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Vice Lords",
+      "original_text_name": "Vice Lords",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago street gang that allied with Four Corner Hustlers to form People Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "People Nation",
+      "original_text_name": "People Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "Alliance of Chicago street gangs including Vice Lords, Four Corner Hustlers, Black P. Stones, and Latin Kings.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Black P. Stones",
+      "original_text_name": "Black P. Stones",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago street gang and ally of Four Corner Hustlers within People Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Latin Kings",
+      "original_text_name": "Latin Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago street gang and ally of Four Corner Hustlers within People Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Folk Nation",
+      "original_text_name": "Folk Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival alliance of Chicago street gangs opposing People Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gangster Disciples",
+      "original_text_name": "Gangster Disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago street gang and rival of Four Corner Hustlers, part of Folk Nation.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Four Corner Hustlers",
+      "target": "Vice Lords",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Four Corner Hustlers and Vice Lords became allies, forming People Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Four Corner Hustlers",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Four Corner Hustlers are a member of the People Nation alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Four Corner Hustlers",
+      "target": "Black P. Stones",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Black P. Stones are allies of Four Corner Hustlers within People Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Four Corner Hustlers",
+      "target": "Latin Kings",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Latin Kings are allies of Four Corner Hustlers within People Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Four Corner Hustlers",
+      "target": "Folk Nation",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Folk Nation is a rival alliance opposing Four Corner Hustlers and People Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Four Corner Hustlers",
+      "target": "Gangster Disciples",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gangster Disciples are rivals of Four Corner Hustlers, part of Folk Nation.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Four_Corner_Hustlers"
+}

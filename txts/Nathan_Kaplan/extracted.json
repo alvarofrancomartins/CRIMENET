@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Five Points Gang",
+      "original_text_name": "Five Points Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Powerful New York street gang led by Paul Kelly, with mostly Italian members but also Irish and Jewish members.",
+      "time_period": "1890s-1920s"
+    },
+    {
+      "standard_name": "Eastman Gang",
+      "original_text_name": "Eastman Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to the Five Points Gang, led by Monk Eastman, predominantly Jewish members.",
+      "time_period": "1890s-1910s"
+    },
+    {
+      "standard_name": "Kid Dropper Gang",
+      "original_text_name": "Kid Dropper's gang",
+      "aliases": [
+        "Kaplan's gang"
+      ],
+      "type": "gang",
+      "context": "Small gang formed by Nathan Kaplan after leaving the Five Points Gang, involved in labor slugging.",
+      "time_period": "1910s-1923"
+    },
+    {
+      "standard_name": "Johnny Spanish Gang",
+      "original_text_name": "Johnny Spanish's gang",
+      "aliases": [
+        "Spanish's gang"
+      ],
+      "type": "gang",
+      "context": "Small gang formed by Johnny Spanish after splitting from Kaplan, rival to Kid Dropper Gang.",
+      "time_period": "1910s-1919"
+    },
+    {
+      "standard_name": "Little Augie Gang",
+      "original_text_name": "Little Augie's gang",
+      "aliases": [
+        "Orgen's gang"
+      ],
+      "type": "gang",
+      "context": "Jewish labor slugging gang led by Jacob 'Little Augie' Orgen, rival to Kid Dropper Gang.",
+      "time_period": "1910s-1927"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kid Dropper Gang",
+      "target": "Five Points Gang",
+      "relationship": "other",
+      "detail": "former member",
+      "context": "Nathan Kaplan was a member of the Five Points Gang before forming his own gang.",
+      "time_period": "1900s-1910s"
+    },
+    {
+      "source": "Kid Dropper Gang",
+      "target": "Johnny Spanish Gang",
+      "relationship": "alliance",
+      "context": "The two gangs were initially allied before a bitter rivalry developed.",
+      "time_period": "late 1900s-early 1910s"
+    },
+    {
+      "source": "Kid Dropper Gang",
+      "target": "Johnny Spanish Gang",
+      "relationship": "rivalry",
+      "context": "A bitter personal rivalry developed between Kaplan and Spanish, leading to a violent war.",
+      "time_period": "1910s-1919"
+    },
+    {
+      "source": "Kid Dropper Gang",
+      "target": "Little Augie Gang",
+      "relationship": "rivalry",
+      "context": "Kaplan and Orgen fought over protection of wet wash laundry workers, leading to violent shootouts.",
+      "time_period": "1923"
+    },
+    {
+      "source": "Five Points Gang",
+      "target": "Eastman Gang",
+      "relationship": "rivalry",
+      "context": "The Five Points Gang and Eastman Gang were rivals in New York's underworld.",
+      "time_period": "1890s-1910s"
+    }
+  ],
+  "source_file": "Nathan_Kaplan"
+}

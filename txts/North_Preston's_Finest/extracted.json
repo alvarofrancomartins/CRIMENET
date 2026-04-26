@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "standard_name": "North Preston's Finest",
+      "original_text_name": "North Preston's Finest",
+      "aliases": [
+        "NPF",
+        "North Preston gang",
+        "the Scotians"
+      ],
+      "type": "gang",
+      "context": "A gang of pimps based in North Preston, Nova Scotia, involved in sex trafficking, drug and arms trafficking.",
+      "time_period": "mid-to-late 1980s-present"
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Haitian Canadian gang that took over sex trafficking in Toronto after NPF moved west.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Haitian Canadian gang that took over sex trafficking in Toronto after NPF moved west.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "North Preston's Finest",
+      "target": "Bloods",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "NPF's move away from Toronto led to Haitian Canadian gangs (Bloods and Crips) taking control of sex trafficking, implying competition.",
+      "time_period": "late 2000s"
+    },
+    {
+      "source": "North Preston's Finest",
+      "target": "Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "NPF's move away from Toronto led to Haitian Canadian gangs (Bloods and Crips) taking control of sex trafficking, implying competition.",
+      "time_period": "late 2000s"
+    }
+  ],
+  "source_file": "North_Preston's_Finest"
+}

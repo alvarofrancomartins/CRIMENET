@@ -1,0 +1,147 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Temple Street",
+      "original_text_name": "Temple Street gang",
+      "aliases": [
+        "TST",
+        "Templero Surenos",
+        "Varrio Temple Street"
+      ],
+      "type": "gang",
+      "context": "Street gang in downtown Los Angeles, involved in murders, drug trafficking, etc.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang that collects taxes from street gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Alliance of Southern California street gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Satanas",
+      "original_text_name": "Satanas",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang allied with Temple Street.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Florencia 13",
+      "original_text_name": "Florencia 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang in Los Angeles.",
+      "time_period": null
+    },
+    {
+      "standard_name": "MS-13",
+      "original_text_name": "MS-13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Transnational street gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "White Fence",
+      "original_text_name": "White Fence",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang in Los Angeles.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Norteños",
+      "original_text_name": "Norteños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Alliance of Northern California street gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "18th Street gang",
+      "original_text_name": "18th Street gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang in Los Angeles.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Temple Street",
+      "target": "Sureños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Temple Street is allied with Sureños.",
+      "time_period": null
+    },
+    {
+      "source": "Temple Street",
+      "target": "Satanas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Temple Street is allied with Satanas.",
+      "time_period": null
+    },
+    {
+      "source": "Temple Street",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Temple Street is allied with Mexican Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Temple Street",
+      "target": "Florencia 13",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Temple Street is allied with Florencia 13.",
+      "time_period": null
+    },
+    {
+      "source": "Temple Street",
+      "target": "MS-13",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Temple Street is allied with MS-13.",
+      "time_period": null
+    },
+    {
+      "source": "Temple Street",
+      "target": "White Fence",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Temple Street is allied with White Fence.",
+      "time_period": null
+    },
+    {
+      "source": "Temple Street",
+      "target": "Norteños",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Temple Street has a rivalry with Norteños.",
+      "time_period": null
+    },
+    {
+      "source": "Temple Street",
+      "target": "18th Street gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Temple Street has a rivalry with 18th Street gang.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Temple_Street_(gang)"
+}

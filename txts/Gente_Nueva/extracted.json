@@ -1,0 +1,293 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Gente Nueva",
+      "original_text_name": "Gente Nueva",
+      "aliases": [
+        "Los Chapos"
+      ],
+      "type": "faction",
+      "context": "Armed wing of the Sinaloa Cartel, active in northern Mexico.",
+      "time_period": "1995-present"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [
+        "Sinaloa Federation"
+      ],
+      "type": "cartel",
+      "context": "Major drug trafficking organization based in Sinaloa, Mexico.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Juárez Cartel",
+      "original_text_name": "Juárez Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Drug cartel based in Ciudad Juárez, rival of Sinaloa Cartel.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "La Línea",
+      "original_text_name": "La Línea",
+      "aliases": [],
+      "type": "faction",
+      "context": "Enforcer wing of the Juárez Cartel.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "La Mafia",
+      "original_text_name": "La Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang used by Juárez Cartel to fight Sinaloa Cartel.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "standard_name": "Los Muertos",
+      "original_text_name": "Los Muertos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang allied with Juárez Cartel, targeted by Gente Nueva.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "standard_name": "Artistas Asesinos",
+      "original_text_name": "Artistas Asesinos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang employed by Sinaloa Cartel in Ciudad Juárez.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "standard_name": "Los Mexicles",
+      "original_text_name": "Los Mexicles",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang employed by Sinaloa Cartel in Ciudad Juárez.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Drug cartel and paramilitary group, rival of Sinaloa Cartel.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "CJNG"
+      ],
+      "type": "cartel",
+      "context": "Drug cartel that assumed responsibility for Veracruz massacre.",
+      "time_period": "2009-present"
+    },
+    {
+      "standard_name": "Knights Templar Cartel",
+      "original_text_name": "Knights Templar Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Drug cartel listed as rival of Gente Nueva.",
+      "time_period": "2006-2017"
+    },
+    {
+      "standard_name": "La Mayiza",
+      "original_text_name": "La Mayiza",
+      "aliases": [],
+      "type": "faction",
+      "context": "Faction within Sinaloa Cartel, rival of Gente Nueva.",
+      "time_period": "2010s-present"
+    },
+    {
+      "standard_name": "Los Antrax",
+      "original_text_name": "Los Antrax",
+      "aliases": [],
+      "type": "gang",
+      "context": "Armed wing of Sinaloa Cartel, allied with Gente Nueva.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Barrio Chino",
+      "original_text_name": "Barrio Chino",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang with relationship to Juárez Cartel.",
+      "time_period": "2000s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Gente Nueva",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Gente Nueva is the armed wing of the Sinaloa Cartel.",
+      "time_period": "1995-present"
+    },
+    {
+      "source": "Gente Nueva",
+      "target": "Juárez Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gente Nueva fought a war with Juárez Cartel for control of smuggling routes.",
+      "time_period": "2008-2012"
+    },
+    {
+      "source": "Gente Nueva",
+      "target": "La Línea",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gente Nueva battled La Línea, the enforcer wing of Juárez Cartel.",
+      "time_period": "2008-2012"
+    },
+    {
+      "source": "Gente Nueva",
+      "target": "Los Muertos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gente Nueva targeted Los Muertos, a gang allied with Juárez Cartel.",
+      "time_period": "2008-2012"
+    },
+    {
+      "source": "Gente Nueva",
+      "target": "Artistas Asesinos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sinaloa Cartel employed Artistas Asesinos alongside Gente Nueva.",
+      "time_period": "2008-2012"
+    },
+    {
+      "source": "Gente Nueva",
+      "target": "Los Mexicles",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sinaloa Cartel employed Los Mexicles alongside Gente Nueva.",
+      "time_period": "2008-2012"
+    },
+    {
+      "source": "Gente Nueva",
+      "target": "Los Zetas",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gente Nueva and Sinaloa Cartel fought Los Zetas in Veracruz.",
+      "time_period": "2011"
+    },
+    {
+      "source": "Gente Nueva",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "CJNG assumed responsibility for a massacre initially attributed to Gente Nueva.",
+      "time_period": "2011"
+    },
+    {
+      "source": "Gente Nueva",
+      "target": "Knights Templar Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Knights Templar Cartel listed as rival of Gente Nueva.",
+      "time_period": "2010s"
+    },
+    {
+      "source": "Gente Nueva",
+      "target": "La Mayiza",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "La Mayiza is a rival faction within Sinaloa Cartel.",
+      "time_period": "2010s"
+    },
+    {
+      "source": "Gente Nueva",
+      "target": "Los Antrax",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Antrax is another armed wing of Sinaloa Cartel allied with Gente Nueva.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Juárez Cartel",
+      "target": "La Línea",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Línea is the enforcer wing of Juárez Cartel.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Juárez Cartel",
+      "target": "La Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Juárez Cartel used La Mafia to fight Sinaloa Cartel.",
+      "time_period": "2008-2012"
+    },
+    {
+      "source": "Juárez Cartel",
+      "target": "Los Muertos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Juárez Cartel used Los Muertos to fight Sinaloa Cartel.",
+      "time_period": "2008-2012"
+    },
+    {
+      "source": "Juárez Cartel",
+      "target": "Barrio Chino",
+      "relationship": "other",
+      "detail": "tampered relationship",
+      "context": "Juárez Cartel's decline tampered its relationship with Barrio Chino.",
+      "time_period": "2010s"
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "Artistas Asesinos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sinaloa Cartel employed Artistas Asesinos in the turf war.",
+      "time_period": "2008-2012"
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "Los Mexicles",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sinaloa Cartel employed Los Mexicles in the turf war.",
+      "time_period": "2008-2012"
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "Los Antrax",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Antrax is an armed wing of Sinaloa Cartel.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "Juárez Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sinaloa Cartel fought Juárez Cartel for control of smuggling routes.",
+      "time_period": "2008-2012"
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "Los Zetas",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sinaloa Cartel and Los Zetas fought in Veracruz.",
+      "time_period": "2011"
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "La Mayiza",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "La Mayiza is a rival faction within Sinaloa Cartel.",
+      "time_period": "2010s"
+    }
+  ],
+  "source_file": "Gente_Nueva"
+}

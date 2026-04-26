@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Polish Mob",
+      "original_text_name": "Polish Mob",
+      "aliases": [
+        "Polska mafia",
+        "Polish-American organized crime"
+      ],
+      "type": "other",
+      "context": "Polish-American organized crime group active in the US since the 1920s, involved in drug trafficking, racketeering, and other crimes.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American crime syndicate based in Chicago, led by Al Capone during Prohibition.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "North Side Gang",
+      "original_text_name": "North Side Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mostly Irish-American gang with Polish presence, operated in Chicago during Prohibition.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "standard_name": "Kielbasa Posse",
+      "original_text_name": "Kielbasa Posse",
+      "aliases": [
+        "Philly Polish Mob",
+        "Philadelphia Polish Mob"
+      ],
+      "type": "gang",
+      "context": "Polish-American gang operating in Philadelphia, involved in drug trafficking, bookmaking, and loansharking.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "K&A Gang",
+      "original_text_name": "K&A Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Irish-American gang controlling Northeast Philadelphia.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Greenpoint Crew",
+      "original_text_name": "Greenpoint Crew",
+      "aliases": [],
+      "type": "gang",
+      "context": "Polish criminal organization based in Greenpoint, Brooklyn, involved in gunrunning, armed robbery, and drug trafficking.",
+      "time_period": "2000s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Polish Mob",
+      "target": "Chicago Outfit",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "During Prohibition, Polish-American gangsters Joseph Saltis and Jake Guzik allied with Al Capone's Chicago Outfit.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "source": "Polish Mob",
+      "target": "North Side Gang",
+      "relationship": "other",
+      "detail": "overlap",
+      "context": "The North Side Gang had a large Polish presence, including Hymie Weiss of Polish heritage.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "source": "Kielbasa Posse",
+      "target": "K&A Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Kielbasa Posse does not have a good relationship with the K&A Gang, which controls most of Northeast Philly.",
+      "time_period": "unknown"
+    }
+  ],
+  "source_file": "Polish-American_organized_crime"
+}

@@ -1,0 +1,298 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kinahan Organised Crime Group",
+      "original_text_name": "Kinahan Organised Crime Group",
+      "aliases": [
+        "Kinahan Cartel",
+        "KOCG",
+        "Kinahan gang",
+        "Kinahan crime family"
+      ],
+      "type": "cartel",
+      "context": "Major Irish transnational drug trafficking syndicate operating in Ireland, UK, Spain, UAE.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Hutch Gang",
+      "original_text_name": "Hutch Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Irish criminal group involved in feud with Kinahan Cartel since 2015.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Hezbollah",
+      "original_text_name": "Hezbollah",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Lebanese militant group; coordinated with Kinahan in failed cocaine smuggling attempt.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Lyons Crime Family",
+      "original_text_name": "Lyons Crime Family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Glasgow-based organized crime family with connections to Kinahan Group.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Moroccan Mafia",
+      "original_text_name": "Moroccan mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Moroccan organized crime group allied with Kinahan Cartel.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Tito and Dino Cartel",
+      "original_text_name": "Tito and Dino Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Drug cartel allied with Kinahan Cartel.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian mafia organization allied with Kinahan Cartel.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Liverpool Mafia",
+      "original_text_name": "Liverpool mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "English organized crime group allied with Kinahan Cartel.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "clan",
+      "context": "Italian crime syndicate allied with Kinahan Cartel.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel allied with Kinahan Cartel.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Clan del Golfo",
+      "original_text_name": "Clan del Golfo",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel allied with Kinahan Cartel.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Chinese Mafia",
+      "original_text_name": "Chinese mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Chinese organized crime group allied with Kinahan Cartel.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Chosen Few Motorcycle Club",
+      "original_text_name": "Chosen Few Motorcycle Club",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club allied with Kinahan Cartel.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Hells Angels MC",
+      "original_text_name": "Hells Angels MC",
+      "aliases": [
+        "Hells Angels"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club allied with Kinahan Cartel.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "New IRA",
+      "original_text_name": "New IRA",
+      "aliases": [],
+      "type": "militia",
+      "context": "Irish republican paramilitary group; rival of Kinahan Cartel.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Real IRA",
+      "original_text_name": "Real IRA",
+      "aliases": [],
+      "type": "militia",
+      "context": "Irish republican paramilitary group; rival of Kinahan Cartel.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Grendon Crime Family",
+      "original_text_name": "Grendon Crime Family",
+      "aliases": [
+        "The Family"
+      ],
+      "type": "mafia",
+      "context": "Irish crime family; rival of Kinahan Cartel.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Irish National Liberation Army",
+      "original_text_name": "Irish National Liberation Army",
+      "aliases": [
+        "INLA"
+      ],
+      "type": "militia",
+      "context": "Irish republican paramilitary group; had feud with Kinahan associate Freddie Thompson.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "Hutch Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ongoing feud since 2015 resulting in 18 deaths by August 2021.",
+      "time_period": "2015-present"
+    },
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "Hezbollah",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Coordinated in failed attempt to smuggle 2.2 tons of cocaine from Venezuela to Ireland in September 2023.",
+      "time_period": "2023"
+    },
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "Lyons Crime Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Lyons Crime Family leader Steven Lyons believed to have connections with Kinahan Group.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "Moroccan Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "Tito and Dino Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "'Ndrangheta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "Liverpool Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "Camorra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "Clan del Golfo",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "Chinese Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "Chosen Few Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "Hells Angels MC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "New IRA",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "Real IRA",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "Grendon Crime Family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Kinahan Organised Crime Group",
+      "target": "Irish National Liberation Army",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kinahan associate Freddie Thompson had feud with INLA.",
+      "time_period": "1997-2008"
+    }
+  ],
+  "source_file": "Kinahan_Organised_Crime_Group"
+}

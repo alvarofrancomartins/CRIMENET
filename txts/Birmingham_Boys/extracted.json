@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Birmingham Boys",
+      "original_text_name": "Birmingham Boys",
+      "aliases": [
+        "Brummagem Boys",
+        "Brum Boys"
+      ],
+      "type": "gang",
+      "context": "Street gang active in England from 1910s to 1930s, involved in racecourse protection and bookmaking.",
+      "time_period": "c. 1910–1930"
+    },
+    {
+      "standard_name": "Sabini Gang",
+      "original_text_name": "Sabini Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Italian gang based in London, provided protection for Jewish bookmakers and rivaled the Birmingham Boys.",
+      "time_period": "1910s-1930s"
+    },
+    {
+      "standard_name": "Hoxton Gang",
+      "original_text_name": "Hoxton Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Smaller London gang allied with the Birmingham Boys.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Elephant and Castle Mob",
+      "original_text_name": "Elephant and Castle Mob",
+      "aliases": [],
+      "type": "gang",
+      "context": "Smaller London gang allied with the Birmingham Boys.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Birmingham Boys",
+      "target": "Sabini Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Birmingham Boys lost control of South East racecourses to the Sabini Gang and engaged in violent conflict.",
+      "time_period": "1920s"
+    },
+    {
+      "source": "Birmingham Boys",
+      "target": "Hoxton Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Birmingham Boys formed an alliance with the Hoxton Gang to control racecourses.",
+      "time_period": null
+    },
+    {
+      "source": "Birmingham Boys",
+      "target": "Elephant and Castle Mob",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Birmingham Boys formed an alliance with the Elephant and Castle Mob to control racecourses.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Birmingham_Boys"
+}

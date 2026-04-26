@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Grim Reapers Motorcycle Club",
+      "original_text_name": "Grim Reapers Motorcycle Club",
+      "aliases": [
+        "Grim Reapers MC",
+        "GRMC"
+      ],
+      "type": "motorcycle_club",
+      "context": "American outlaw motorcycle club founded in 1965, active in Southeastern and Midwestern US, involved in drug trafficking, theft, and money laundering.",
+      "time_period": "1965-present"
+    },
+    {
+      "standard_name": "Outlaws Motorcycle Club",
+      "original_text_name": "Outlaws",
+      "aliases": [
+        "Outlaws MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "One of the 'Big Four' outlaw motorcycle clubs, allied with the Grim Reapers.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ku Klux Klan",
+      "original_text_name": "Ku Klux Klan",
+      "aliases": [
+        "KKK"
+      ],
+      "type": "other",
+      "context": "White supremacist hate group alleged to have ties with the Grim Reapers.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Grim Reapers Motorcycle Club",
+      "target": "Outlaws Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Grim Reapers are allied with the Outlaws, as stated in the text.",
+      "time_period": null
+    },
+    {
+      "source": "Grim Reapers Motorcycle Club",
+      "target": "Ku Klux Klan",
+      "relationship": "other",
+      "detail": "alleged ties",
+      "context": "The Grim Reapers have alleged ties to the Ku Klux Klan, as mentioned in the text.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Grim_Reapers_Motorcycle_Club_(USA)"
+}

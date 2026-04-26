@@ -1,0 +1,176 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Milenio Cartel",
+      "original_text_name": "Milenio Cartel",
+      "aliases": [
+        "Cártel de los Valencia"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel based in Michoacán and Jalisco, active from 1970s to 2010.",
+      "time_period": "1970s-2010"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "CJNG",
+        "matazetas"
+      ],
+      "type": "cartel",
+      "context": "Splinter faction of Milenio Cartel formed in 2010, led by Nemesio Oseguera.",
+      "time_period": "2010-present"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel that had connections with Milenio Cartel in the 1990s.",
+      "time_period": "1970s-1993"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [
+        "Sinaloa Federation"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel that allied with Milenio Cartel and later with CJNG.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "La Resistencia",
+      "original_text_name": "La Resistencia",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Splinter faction of Milenio Cartel led by Ramiro Pozos, allied with Los Zetas.",
+      "time_period": "2010-2011"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [
+        "Los Zetas Cartel"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel that allied with La Resistencia and later with Milenio remnants.",
+      "time_period": "1999-present"
+    },
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel that had a working agreement with Milenio remnants.",
+      "time_period": "2006-2011"
+    },
+    {
+      "standard_name": "Los Cuinis",
+      "original_text_name": "Los Cuinis",
+      "aliases": [],
+      "type": "faction",
+      "context": "Wing of CJNG that absorbed remnants of Milenio Cartel.",
+      "time_period": "2010-present"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Rival of Milenio Cartel according to infobox.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Knights Templar Cartel",
+      "original_text_name": "Knights Templar Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Rival of Milenio Cartel according to infobox.",
+      "time_period": "2010-2017"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Milenio Cartel",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "other",
+      "detail": "splintered from",
+      "context": "CJNG was born from the splintering of Milenio Cartel in 2010.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Milenio Cartel",
+      "target": "Medellín Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Milenio Cartel had close connections with Medellín Cartel in the 1990s.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Milenio Cartel",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Milenio Cartel became a branch of the Sinaloa Federation under Ignacio Coronel.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "La Resistencia",
+      "target": "Los Zetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Resistencia formed a brief alliance with Los Zetas to oppose CJNG.",
+      "time_period": "2010-2011"
+    },
+    {
+      "source": "Jalisco New Generation Cartel",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "CJNG reunited with the Sinaloa Cartel after splitting from Milenio.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Milenio Cartel",
+      "target": "La Familia Michoacana",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Milenio remnants reached a working agreement with La Familia Michoacana.",
+      "time_period": "2010-2011"
+    },
+    {
+      "source": "Milenio Cartel",
+      "target": "Los Zetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Former Milenio members forged a loose alliance with a faction of Los Zetas.",
+      "time_period": "2011"
+    },
+    {
+      "source": "Milenio Cartel",
+      "target": "Los Cuinis",
+      "relationship": "other",
+      "detail": "absorbed into",
+      "context": "Remnants of Milenio Cartel became part of CJNG wing Los Cuinis.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Milenio Cartel",
+      "target": "Gulf Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gulf Cartel listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Milenio Cartel",
+      "target": "Knights Templar Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Knights Templar Cartel listed as rival in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Milenio_Cartel"
+}

@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Vagos Motorcycle Club",
+      "original_text_name": "Vagos Motorcycle Club",
+      "aliases": [
+        "Vagos MC",
+        "Green Nation",
+        "Vagos"
+      ],
+      "type": "motorcycle_club",
+      "context": "One percenter motorcycle club formed in the 1960s in San Bernardino, California. Involved in drug trafficking, weapons, and violent crimes.",
+      "time_period": "1966-present"
+    },
+    {
+      "standard_name": "Outlaws Motorcycle Club",
+      "original_text_name": "Outlaws Motorcycle Club",
+      "aliases": [
+        "American Outlaws Association",
+        "AOA"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club; Vagos members in Ontario, Canada patched over to Outlaws in 2015 before AOA disbanded in 2018.",
+      "time_period": "1935-present"
+    },
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels",
+      "aliases": [
+        "Hells Angels MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club; involved in a shooting with Vagos at Nugget Casino in Sparks, Nevada in 2011.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Galloping Goose Motorcycle Club",
+      "original_text_name": "Galloping Goose Motorcycle Club",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Motorcycle club involved in a shootout with Vagos on I-44 near Waynesville, Missouri in 2011.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Vagos Motorcycle Club",
+      "target": "Outlaws Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Vagos members in Ontario, Canada patched over to Outlaws in 2015.",
+      "time_period": "2015"
+    },
+    {
+      "source": "Vagos Motorcycle Club",
+      "target": "Hells Angels Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Vagos and Hells Angels were involved in a shooting at Nugget Casino in Sparks, Nevada in 2011, resulting in deaths and injuries.",
+      "time_period": "2011"
+    },
+    {
+      "source": "Vagos Motorcycle Club",
+      "target": "Galloping Goose Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Vagos and Galloping Goose were involved in a shootout on I-44 near Waynesville, Missouri in 2011.",
+      "time_period": "2011"
+    }
+  ],
+  "source_file": "Vagos_Motorcycle_Club"
+}

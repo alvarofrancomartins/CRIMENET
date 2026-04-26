@@ -1,0 +1,221 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Giuliano clan",
+      "original_text_name": "Giuliano clan",
+      "aliases": [
+        "Giuliano family",
+        "Giuliano-Amirante-Sibillo",
+        "Paranza dei bambini"
+      ],
+      "type": "clan",
+      "context": "Neapolitan Camorra clan based in Forcella, Naples, involved in drug trafficking, smuggling, extortion.",
+      "time_period": "early 1950s-present"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "type": "clan",
+      "context": "Camorra organization headed by Raffaele Cutolo, rival to historic clans.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "Vollaro clan",
+      "original_text_name": "Vollaro clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan allied with Giuliano against NCO.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "type": "clan",
+      "context": "Alliance of Camorra clans formed to oppose NCO, including Giuliano, Zaza, Nuvoletta, Casalesi.",
+      "time_period": "1979-1980s"
+    },
+    {
+      "standard_name": "Zaza clan",
+      "original_text_name": "Zaza clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan headed by Michele Zaza, member of Nuova Famiglia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nuvoletta clan",
+      "original_text_name": "Nuvoletta clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, member of Nuova Famiglia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Casalesi clan",
+      "original_text_name": "Casalesi clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan headed by Antonio Bardellino, member of Nuova Famiglia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Di Biasi clan",
+      "original_text_name": "Di Biasi clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan founded by Di Biasi brothers, took control of Quartieri Spagnoli from Giuliano.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mazzarella clan",
+      "original_text_name": "Mazzarella clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, rivals and later allies of Giuliano clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Amirante-Brunetti-Sibillo",
+      "original_text_name": "Amirante-Brunetti-Sibillo",
+      "aliases": [],
+      "type": "clan",
+      "context": "Small group aligned with Giuliano third generation, part of Paranza dei bambini.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Di Lauro clan",
+      "original_text_name": "Di Lauro clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan listed as ally of Giuliano in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Rinaldi clan",
+      "original_text_name": "Rinaldi clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan listed as ally of Giuliano in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Licciardi clan",
+      "original_text_name": "Licciardi clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan listed as ally of Giuliano in infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Giuliano clan",
+      "target": "Nuova Camorra Organizzata",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Conflict broke out in 1979 after NCO demanded a cut from Giuliano's gambling and lottery.",
+      "time_period": "1979-1980s"
+    },
+    {
+      "source": "Giuliano clan",
+      "target": "Vollaro clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Vollaro proposed anti-Cutolo alliance with Giuliano, forming a death squad.",
+      "time_period": "1979"
+    },
+    {
+      "source": "Giuliano clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Giuliano clan was a founding member of Nuova Famiglia, an alliance against NCO.",
+      "time_period": "1979-1980s"
+    },
+    {
+      "source": "Zaza clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zaza clan was a member of Nuova Famiglia.",
+      "time_period": "1979-1980s"
+    },
+    {
+      "source": "Nuvoletta clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nuvoletta clan was a member of Nuova Famiglia.",
+      "time_period": "1979-1980s"
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Casalesi clan was a member of Nuova Famiglia.",
+      "time_period": "1979-1980s"
+    },
+    {
+      "source": "Giuliano clan",
+      "target": "Di Biasi clan",
+      "relationship": "other",
+      "detail": "ceded territory",
+      "context": "Luigi Giuliano relinquished control of Quartieri Spagnoli to Di Biasi brothers.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Giuliano clan",
+      "target": "Mazzarella clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Despite marriage ties, the two clans were rivals, with violence in the 2000s.",
+      "time_period": "1996-2010s"
+    },
+    {
+      "source": "Giuliano clan",
+      "target": "Amirante-Brunetti-Sibillo",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Small groups aligned with Giuliano third generation, forming Paranza dei bambini.",
+      "time_period": "2010s"
+    },
+    {
+      "source": "Giuliano clan",
+      "target": "Mazzarella clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "In 2020s, they formed a criminal alliance known as Giuliano-Mazzarella cartel.",
+      "time_period": "2020s"
+    },
+    {
+      "source": "Giuliano clan",
+      "target": "Di Lauro clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Giuliano clan",
+      "target": "Rinaldi clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Giuliano clan",
+      "target": "Licciardi clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Giuliano_clan"
+}

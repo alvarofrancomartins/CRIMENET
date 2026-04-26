@@ -1,0 +1,229 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Lebanese mafia",
+      "original_text_name": "Lebanese mafia",
+      "aliases": [
+        "Lebanese organised crime",
+        "Lebanese crime families",
+        "Lebanese drug clans"
+      ],
+      "type": "other",
+      "context": "Colloquial term for organized crime groups originating from Lebanon, active globally in drug trafficking, extortion, etc.",
+      "time_period": "1940s-present"
+    },
+    {
+      "standard_name": "Corsican mafia",
+      "original_text_name": "Corsican mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Corsican organized crime group involved in heroin processing and smuggling during the French Connection era.",
+      "time_period": "1950s-1970s"
+    },
+    {
+      "standard_name": "Alameddine family",
+      "original_text_name": "Alameddines",
+      "aliases": [],
+      "type": "clan",
+      "context": "Lebanese Sunni crime family based in Sydney, Australia, involved in drug and weapons trafficking.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Hamze family",
+      "original_text_name": "Hamze",
+      "aliases": [],
+      "type": "clan",
+      "context": "Lebanese crime family in Australia, rival of the Alameddine family.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club involved in drug trafficking in Montreal, supplied by Lebanese drug clans.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Italian mafia",
+      "original_text_name": "Italian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian organized crime groups in Montreal, supplied cocaine by Lebanese drug clans.",
+      "time_period": "1900s-present"
+    },
+    {
+      "standard_name": "Younes Clan",
+      "original_text_name": "el-koura Younes Clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Lebanese mafia family based in Germany, involved in various criminal activities.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Al-Qulaytat Tribe",
+      "original_text_name": "Al-Qulaytat Tribe",
+      "aliases": [],
+      "type": "clan",
+      "context": "Lebanese clan from Marwahin and Yarine, active in organized crime in Germany.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Shams Clan",
+      "original_text_name": "Shams Clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Lebanese mafia family operating in Germany.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Al Zein Clan",
+      "original_text_name": "Al Zein Clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Lebanese mafia family in Germany.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Miri Clan",
+      "original_text_name": "Miri Clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Lebanese mafia family based in Bremen, Germany.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Hezbollah",
+      "original_text_name": "Hezbollah",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Lebanese Shia militant group involved in smuggling and money laundering in the Triple Frontier.",
+      "time_period": "1982-present"
+    },
+    {
+      "standard_name": "Michaels family",
+      "original_text_name": "Michaels family",
+      "aliases": [],
+      "type": "clan",
+      "context": "Lebanese-American crime family in St. Louis, Missouri, involved in bootlegging and gambling.",
+      "time_period": "1920s-1980s"
+    },
+    {
+      "standard_name": "Leisure family",
+      "original_text_name": "Leisure family",
+      "aliases": [],
+      "type": "clan",
+      "context": "Lebanese-American crime family in St. Louis, Missouri, rival of the Michaels family.",
+      "time_period": "1920s-1980s"
+    },
+    {
+      "standard_name": "Cuckoo Gang",
+      "original_text_name": "Cuckoo Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Bootlegging and gambling outfit in St. Louis during Prohibition, precursor to Michaels and Leisure families.",
+      "time_period": "1920s-1933"
+    },
+    {
+      "standard_name": "St. Louis crime family",
+      "original_text_name": "Italian-American St. Louis crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American mafia family that controlled the Michaels and Leisure families in St. Louis.",
+      "time_period": "1900s-1980s"
+    },
+    {
+      "standard_name": "Comanchero Motorcycle Club",
+      "original_text_name": "Comanchero Motorcycle Club",
+      "aliases": [
+        "Comanchero MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club with Lebanese-Australian members like Mick Hawi and Tarek Zahed.",
+      "time_period": "1968-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Lebanese mafia",
+      "target": "Corsican mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Lebanese mafia acted as middlemen, selling morphine base to Corsican mafia for heroin processing.",
+      "time_period": "1950s-1970s"
+    },
+    {
+      "source": "Alameddine family",
+      "target": "Hamze family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Alameddine and Hamze families are rival Lebanese crime families in Australia engaged in feuds.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Lebanese mafia",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Lebanese drug clans supplied cocaine to Hells Angels in Montreal.",
+      "time_period": "2010s"
+    },
+    {
+      "source": "Lebanese mafia",
+      "target": "Italian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Lebanese drug clans supplied cocaine to Italian mafia in Montreal.",
+      "time_period": "2010s"
+    },
+    {
+      "source": "Lebanese mafia",
+      "target": "Hezbollah",
+      "relationship": "other",
+      "detail": "coexistence",
+      "context": "Lebanese mafia groups and Hezbollah both use the Triple Frontier for smuggling and money laundering.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Michaels family",
+      "target": "Leisure family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Michaels and Leisure families entered open warfare after the death of Anthony Giordano.",
+      "time_period": "1980-1985"
+    },
+    {
+      "source": "Michaels family",
+      "target": "St. Louis crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Michaels family was affiliated with and under control of the St. Louis crime family.",
+      "time_period": "1950s-1980"
+    },
+    {
+      "source": "Leisure family",
+      "target": "St. Louis crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Leisure family was affiliated with and under control of the St. Louis crime family.",
+      "time_period": "1950s-1980"
+    },
+    {
+      "source": "Michaels family",
+      "target": "Cuckoo Gang",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "Michaels family emerged from the remnants of the Cuckoo Gang.",
+      "time_period": "1930s-1940s"
+    },
+    {
+      "source": "Leisure family",
+      "target": "Cuckoo Gang",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "Leisure family emerged from the remnants of the Cuckoo Gang.",
+      "time_period": "1930s-1940s"
+    }
+  ],
+  "source_file": "Lebanese_mafia"
+}

@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Public Enemy No. 1",
+      "original_text_name": "Public Enemy No. 1",
+      "aliases": [
+        "PEN1",
+        "PENI Death Squad",
+        "PDS"
+      ],
+      "type": "gang",
+      "context": "Prison and street gang based in Orange County, California, involved in identity theft, credit card fraud, and methamphetamine sales.",
+      "time_period": "1986-present"
+    },
+    {
+      "standard_name": "Aryan Brotherhood",
+      "original_text_name": "Aryan Brotherhood",
+      "aliases": [],
+      "type": "gang",
+      "context": "White supremacist prison gang with ties to PEN1.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nazi Lowriders",
+      "original_text_name": "Nazi Lowriders",
+      "aliases": [],
+      "type": "gang",
+      "context": "White supremacist prison gang with ties to PEN1.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Public Enemy No. 1",
+      "target": "Aryan Brotherhood",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "PEN1 formed ties with the Aryan Brotherhood in the prison system; one founder became a made member.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Public Enemy No. 1",
+      "target": "Nazi Lowriders",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "PEN1 formed ties with the Nazi Lowriders in the prison system.",
+      "time_period": "1990s-present"
+    }
+  ],
+  "source_file": "Public_Enemy_No._1_(gang)"
+}

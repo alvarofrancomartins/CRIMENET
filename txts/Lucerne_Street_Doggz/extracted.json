@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Lucerne Street Doggz",
+      "original_text_name": "Lucerne Street Doggz",
+      "aliases": [
+        "Lucerne Street Gang"
+      ],
+      "type": "gang",
+      "context": "Street gang in the Lucerne Street area of Mattapan, Boston, involved in drug trafficking, robbery, and murder.",
+      "time_period": "2003-present"
+    },
+    {
+      "standard_name": "Mascot Street Killas",
+      "original_text_name": "Mascot Street Killas",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied gang of Lucerne Street Doggz.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Norfolk Street Bulls",
+      "original_text_name": "Norfolk street Bulls",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Lucerne Street Doggz.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Morse Street County",
+      "original_text_name": "Morse Street County",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Lucerne Street Doggz.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Lucerne Street Doggz",
+      "target": "Mascot Street Killas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mascot Street Killas are listed as allies of Lucerne Street Doggz.",
+      "time_period": null
+    },
+    {
+      "source": "Lucerne Street Doggz",
+      "target": "Norfolk Street Bulls",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Norfolk Street Bulls are listed as rivals of Lucerne Street Doggz.",
+      "time_period": null
+    },
+    {
+      "source": "Lucerne Street Doggz",
+      "target": "Morse Street County",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Morse Street County are listed as rivals of Lucerne Street Doggz.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Lucerne_Street_Doggz"
+}

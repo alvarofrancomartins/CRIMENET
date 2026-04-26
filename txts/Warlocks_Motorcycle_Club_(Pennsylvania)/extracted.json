@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Warlocks Motorcycle Club (Pennsylvania)",
+      "original_text_name": "Warlocks Motorcycle Club",
+      "aliases": [
+        "Harpy Warlocks",
+        "Philadelphia Warlocks",
+        "Philly Warlocks",
+        "Warlocks MC",
+        "WMC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club based in Philadelphia, involved in drug trafficking, murder, and other crimes.",
+      "time_period": "1967-present"
+    },
+    {
+      "standard_name": "Pagans Motorcycle Club",
+      "original_text_name": "Pagans",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Dominant motorcycle club in the Delaware Valley, allied with the Warlocks.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Philadelphia crime family",
+      "original_text_name": "Philadelphia crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family involved in labor racketeering and criminal associations with the Warlocks.",
+      "time_period": "1900s-present"
+    },
+    {
+      "standard_name": "Breed Motorcycle Club",
+      "original_text_name": "Breed",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Rival motorcycle gang that had conflicts with the Warlocks.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Florida Warlocks",
+      "original_text_name": "Florida Warlocks",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Rival motorcycle club to the Pennsylvania Warlocks.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Warlocks Motorcycle Club (Pennsylvania)",
+      "target": "Pagans Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Warlocks are allied with the Pagans and have associated in criminal activities.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Warlocks Motorcycle Club (Pennsylvania)",
+      "target": "Philadelphia crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Warlocks have criminal associations with the Philadelphia crime family, including labor union strong-arm tactics.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Warlocks Motorcycle Club (Pennsylvania)",
+      "target": "Breed Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Breed is a rival gang; a Warlocks member kidnapped the Breed chapter president in retaliation for an attack.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Warlocks Motorcycle Club (Pennsylvania)",
+      "target": "Florida Warlocks",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Florida Warlocks are listed as a rival gang.",
+      "time_period": "unknown"
+    }
+  ],
+  "source_file": "Warlocks_Motorcycle_Club_(Pennsylvania)"
+}

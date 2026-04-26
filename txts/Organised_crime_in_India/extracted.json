@@ -1,0 +1,162 @@
+{
+  "nodes": [
+    {
+      "standard_name": "D-Company",
+      "original_text_name": "D-Company",
+      "aliases": [],
+      "type": "other",
+      "context": "Organised crime group controlled by Dawood Ibrahim, originating in Mumbai, involved in terrorism and smuggling.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Chotta Rajan Gang",
+      "original_text_name": "Chotta Rajan",
+      "aliases": [],
+      "type": "other",
+      "context": "Major crime syndicate based in Mumbai, led by Chotta Rajan, involved in extortion, murder, smuggling, drug trafficking.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Arun Gawli Gang",
+      "original_text_name": "Arun Gawli's gang",
+      "aliases": [],
+      "type": "other",
+      "context": "Gang based at Dagdi Chawl in Byculla, Mumbai, involved in kidnapping, extortion, murder.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Haji Mastan Gang",
+      "original_text_name": "Haji Mastan",
+      "aliases": [],
+      "type": "other",
+      "context": "Bombay-based Tamil mobster involved in smuggling gold, silver, electronic goods, and Bollywood film production.",
+      "time_period": "1940s-1980s"
+    },
+    {
+      "standard_name": "Varadarajan Mudaliar Gang",
+      "original_text_name": "Varadarajan Mudaliar",
+      "aliases": [
+        "Vardha Bhai",
+        "Vardhabhai"
+      ],
+      "type": "other",
+      "context": "Bombay-based Tamil mobster involved in illicit liquor, dock cargo theft, contract killings, narcotics.",
+      "time_period": "1960s-1980"
+    },
+    {
+      "standard_name": "Karim Lala Gang",
+      "original_text_name": "Karim Lala",
+      "aliases": [
+        "Afghan mafia",
+        "Pathan mafia"
+      ],
+      "type": "other",
+      "context": "Crime syndicate of ethnic Pashtuns involved in hashish trafficking, protection rackets, extortion, gambling, gold smuggling, contract killings.",
+      "time_period": "1940-1985"
+    },
+    {
+      "standard_name": "Chaddi Baniyan Gangs",
+      "original_text_name": "Chaddi Baniyan Gangs",
+      "aliases": [
+        "Kachcha Baniyan Gangs"
+      ],
+      "type": "gang",
+      "context": "Criminal groups operating in parts of India, known for robbing houses while wearing only underwear and masks.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kala Kachcha Gangs",
+      "original_text_name": "Kala Kachcha Gangs",
+      "aliases": [
+        "Kale-Kachchewale",
+        "Kale Kachche Gangs"
+      ],
+      "type": "gang",
+      "context": "Organized criminal gangs in Punjab, India, who rob and thrash victims while wearing police uniform or black underpants.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Indian mafia",
+      "original_text_name": "Indian mafia",
+      "aliases": [],
+      "type": "other",
+      "context": "Umbrella term for organized crime groups in India, involved in various criminal activities.",
+      "time_period": "1940s-present"
+    },
+    {
+      "standard_name": "Afghan mafia",
+      "original_text_name": "Afghan mafia",
+      "aliases": [],
+      "type": "other",
+      "context": "Organized crime groups from Afghanistan, involved in drug trafficking and smuggling.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Canadian mafia",
+      "original_text_name": "Canadian mafia",
+      "aliases": [],
+      "type": "other",
+      "context": "Organized crime groups in Canada, involved in various criminal activities.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Pakistani mafia",
+      "original_text_name": "Pakistani mafia",
+      "aliases": [],
+      "type": "other",
+      "context": "Organized crime groups from Pakistan, involved in drug trafficking and smuggling.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Chotta Rajan Gang",
+      "target": "D-Company",
+      "relationship": "other",
+      "detail": "former lieutenant",
+      "context": "Chotta Rajan was a former key aide and lieutenant of Dawood Ibrahim, leader of D-Company.",
+      "time_period": "before 1988"
+    },
+    {
+      "source": "Haji Mastan Gang",
+      "target": "Karim Lala Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Haji Mastan worked in association with Karim Lala.",
+      "time_period": "1940s-1960s"
+    },
+    {
+      "source": "Varadarajan Mudaliar Gang",
+      "target": "Haji Mastan Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Varadarajan Mudaliar operated in tandem with Haji Mastan, venturing into stealing dock cargo.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "source": "Indian mafia",
+      "target": "Afghan mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Indian mafia has alliances with the Afghan mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Indian mafia",
+      "target": "Canadian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Indian mafia has alliances with the Canadian mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Indian mafia",
+      "target": "Pakistani mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Indian mafia has rivalries with the Pakistani mafia.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Organised_crime_in_India"
+}

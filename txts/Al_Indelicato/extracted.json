@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno crime family",
+      "aliases": [
+        "Bonanno family"
+      ],
+      "type": "mafia",
+      "context": "One of the Five Families of New York; involved in racketeering, murder, and drug trafficking.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Colombo crime family",
+      "original_text_name": "Colombo crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York; boss Carmine Persico advised Massino.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York; boss Paul Castellano and capo John Gotti assisted Massino.",
+      "time_period": "1930s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bonanno crime family",
+      "target": "Colombo crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Massino turned to Colombo boss Carmine Persico for advice on handling the rebellious capos.",
+      "time_period": "1981"
+    },
+    {
+      "source": "Bonanno crime family",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Massino sought advice from Gambino boss Paul Castellano, and John Gotti arranged burial of bodies in Gambino graveyard.",
+      "time_period": "1981"
+    }
+  ],
+  "source_file": "Al_Indelicato"
+}

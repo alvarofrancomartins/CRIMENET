@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Charlestown Gang",
+      "original_text_name": "Charlestown Gang",
+      "aliases": [
+        "McLaughlin Gang"
+      ],
+      "type": "gang",
+      "context": "Irish American organized crime gang based in Charlestown, Boston, involved in racketeering, gambling, loan sharking.",
+      "time_period": "c. 1950s–1966"
+    },
+    {
+      "standard_name": "Winter Hill Gang",
+      "original_text_name": "Winter Hill Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Irish mob group from Somerville, Massachusetts, led by James 'Buddy' McLean, rival of the Charlestown Gang.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Patriarca crime family",
+      "original_text_name": "Patriarca crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in New England, allied with the Charlestown Gang for contract killings.",
+      "time_period": "1950s-1960s"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in New York City, allied with the Charlestown Gang for contract killings.",
+      "time_period": "1950s-1960s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Charlestown Gang",
+      "target": "Winter Hill Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The two gangs engaged in a violent gang war from 1961 to 1966, resulting in multiple deaths.",
+      "time_period": "1961-1966"
+    },
+    {
+      "source": "Charlestown Gang",
+      "target": "Patriarca crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Charlestown Gang carried out contract killings for the Patriarca crime family.",
+      "time_period": "1950s-1960s"
+    },
+    {
+      "source": "Charlestown Gang",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Charlestown Gang carried out contract killings for the Genovese crime family.",
+      "time_period": "1950s-1960s"
+    }
+  ],
+  "source_file": "Charlestown_Gang"
+}

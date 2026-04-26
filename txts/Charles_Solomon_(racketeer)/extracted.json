@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Big Seven",
+      "original_text_name": "Big Seven",
+      "aliases": [],
+      "type": "other",
+      "context": "Group of major bootleggers who negotiated territorial disputes and policies.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "standard_name": "National Crime Syndicate",
+      "original_text_name": "National Crime Syndicate",
+      "aliases": [],
+      "type": "other",
+      "context": "Umbrella organization of American organized crime formed in 1932.",
+      "time_period": "1932-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Big Seven",
+      "target": "National Crime Syndicate",
+      "relationship": "other",
+      "detail": "precursor",
+      "context": "The Big Seven helped establish policies that influenced the later National Crime Syndicate.",
+      "time_period": "1929-1932"
+    }
+  ],
+  "source_file": "Charles_Solomon_(racketeer)"
+}

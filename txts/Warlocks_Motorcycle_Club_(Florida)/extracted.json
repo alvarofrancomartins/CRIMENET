@@ -1,0 +1,88 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Warlocks Motorcycle Club",
+      "original_text_name": "Warlocks Motorcycle Club",
+      "aliases": [
+        "Warlocks MC",
+        "Phoenix Warlocks",
+        "Florida Warlocks",
+        "WMC"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club founded in 1967 in Florida, with chapters in the US, Canada, England, and Germany.",
+      "time_period": "1967-present"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Major outlaw motorcycle club; the Warlocks were in talks to merge interests with them in Florida in 1991.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Boozefighters",
+      "original_text_name": "Boozefighters",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club; the Warlocks were in talks with them about patching over in 1991.",
+      "time_period": "1946-present"
+    },
+    {
+      "standard_name": "Outlaws Motorcycle Club",
+      "original_text_name": "Outlaws",
+      "aliases": [
+        "Outlaws MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Major outlaw motorcycle club; the Warlocks have a rivalry with them.",
+      "time_period": "1935-present"
+    },
+    {
+      "standard_name": "Pagans Motorcycle Club",
+      "original_text_name": "Pagans",
+      "aliases": [
+        "Pagans MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club; the Warlocks have a rivalry with them.",
+      "time_period": "1959-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Warlocks Motorcycle Club",
+      "target": "Hells Angels",
+      "relationship": "other",
+      "detail": "merger talks",
+      "context": "In 1991, the Warlocks were in talks to merge interests with the Hells Angels in Florida.",
+      "time_period": "1991"
+    },
+    {
+      "source": "Warlocks Motorcycle Club",
+      "target": "Boozefighters",
+      "relationship": "other",
+      "detail": "patch-over talks",
+      "context": "In 1991, the Warlocks were in talks with the Boozefighters about patching over into the Warlocks.",
+      "time_period": "1991"
+    },
+    {
+      "source": "Warlocks Motorcycle Club",
+      "target": "Outlaws Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Warlocks have a rivalry with the Outlaws.",
+      "time_period": null
+    },
+    {
+      "source": "Warlocks Motorcycle Club",
+      "target": "Pagans Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Warlocks have a rivalry with the Pagans.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Warlocks_Motorcycle_Club_(Florida)"
+}

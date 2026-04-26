@@ -1,0 +1,267 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cárteles Unidos",
+      "original_text_name": "Cárteles Unidos",
+      "aliases": [
+        "La Resistencia"
+      ],
+      "type": "cartel",
+      "context": "Mexican criminal enforcer squad and U.S.-designated Foreign Terrorist Organization, originally formed to expel Los Zetas from Michoacán and Jalisco.",
+      "time_period": "2010-present"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Major Mexican drug cartel, originally part of Cárteles Unidos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, originally part of Cárteles Unidos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel based in Michoacán, originally part of Cárteles Unidos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Knights Templar Cartel",
+      "original_text_name": "Knights Templar Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, splinter from La Familia Michoacana, originally part of Cárteles Unidos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel and paramilitary group, original target of Cárteles Unidos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "CJNG"
+      ],
+      "type": "cartel",
+      "context": "Paramilitary criminal organization based in Jalisco, main rival of Cárteles Unidos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "La Nueva Familia Michoacana Organization",
+      "original_text_name": "La Nueva Familia Michoacana Organization",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Splinter group from La Familia Michoacana, involved in infighting.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Viagras",
+      "original_text_name": "Los Viagras",
+      "aliases": [],
+      "type": "gang",
+      "context": "Armed wing of La Nueva Familia Michoacana Organization.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Milenio Cartel",
+      "original_text_name": "Milenio Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel loyal to Sinaloa Cartel, originally composed La Resistencia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Beltrán-Leyva Cartel",
+      "original_text_name": "Beltrán-Leyva Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, fought against by La Resistencia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Blancos de Troya",
+      "original_text_name": "Los Blancos de Troya",
+      "aliases": [],
+      "type": "gang",
+      "context": "Local self-defense group or gang allied with Cárteles Unidos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Correa",
+      "original_text_name": "Los Correa",
+      "aliases": [],
+      "type": "gang",
+      "context": "Local group allied with Cárteles Unidos.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cárteles Unidos",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sinaloa Cartel was originally part of Cárteles Unidos.",
+      "time_period": "2010-2023"
+    },
+    {
+      "source": "Cárteles Unidos",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Gulf Cartel was originally part of Cárteles Unidos.",
+      "time_period": "2010-2023"
+    },
+    {
+      "source": "Cárteles Unidos",
+      "target": "La Familia Michoacana",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Familia Michoacana was originally part of Cárteles Unidos.",
+      "time_period": "2010-2023"
+    },
+    {
+      "source": "Cárteles Unidos",
+      "target": "Knights Templar Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Knights Templar Cartel was originally part of Cárteles Unidos.",
+      "time_period": "2010-2023"
+    },
+    {
+      "source": "Cárteles Unidos",
+      "target": "Los Zetas",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Cárteles Unidos was formed to expel Los Zetas from Michoacán and Jalisco.",
+      "time_period": "2010-2011"
+    },
+    {
+      "source": "Cárteles Unidos",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Cárteles Unidos' main rival is the Jalisco New Generation Cartel.",
+      "time_period": "2011-present"
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "La Nueva Familia Michoacana Organization",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Infighting between La Familia Michoacana and La Nueva Familia Michoacana Organization is ongoing.",
+      "time_period": "present"
+    },
+    {
+      "source": "La Nueva Familia Michoacana Organization",
+      "target": "Los Viagras",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Viagras is the armed wing of La Nueva Familia Michoacana Organization.",
+      "time_period": null
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Familia Michoacana has a truce with the Jalisco New Generation Cartel.",
+      "time_period": "present"
+    },
+    {
+      "source": "Knights Templar Cartel",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Knights Templar Cartel are now allied with the Jalisco New Generation Cartel.",
+      "time_period": "present"
+    },
+    {
+      "source": "Knights Templar Cartel",
+      "target": "La Nueva Familia Michoacana Organization",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Knights Templar Cartel are fighting La Nueva Familia Michoacana Organization.",
+      "time_period": "present"
+    },
+    {
+      "source": "Milenio Cartel",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Milenio Cartel was loyal to the Sinaloa Cartel.",
+      "time_period": "2010"
+    },
+    {
+      "source": "La Resistencia",
+      "target": "Milenio Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Resistencia was originally composed of gunmen from the Milenio Cartel.",
+      "time_period": "2010"
+    },
+    {
+      "source": "La Resistencia",
+      "target": "La Familia Michoacana",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Resistencia was supported by La Familia Michoacana to fight Los Zetas.",
+      "time_period": "2010"
+    },
+    {
+      "source": "La Resistencia",
+      "target": "Los Zetas",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "La Resistencia fought against Los Zetas.",
+      "time_period": "2010-2011"
+    },
+    {
+      "source": "La Resistencia",
+      "target": "Beltrán-Leyva Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "La Resistencia fought against the Beltrán-Leyva Cartel.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Cárteles Unidos",
+      "target": "Los Viagras",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cárteles Unidos made an alliance with Los Viagras in 2015 to expel CJNG.",
+      "time_period": "2015-present"
+    },
+    {
+      "source": "Cárteles Unidos",
+      "target": "Los Blancos de Troya",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Blancos de Troya are allies of Cárteles Unidos per infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Cárteles Unidos",
+      "target": "Los Correa",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Correa are allies of Cárteles Unidos per infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "La_Resistencia_(gang)"
+}

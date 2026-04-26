@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Amigos dos Amigos",
+      "original_text_name": "Amigos dos Amigos",
+      "aliases": [
+        "ADA",
+        "Friends of Friends"
+      ],
+      "type": "gang",
+      "context": "Brazilian criminal organization operating in Rio de Janeiro, controls drug selling points and favelas.",
+      "time_period": "1998-present"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "Red Command"
+      ],
+      "type": "gang",
+      "context": "Brazilian criminal organization, rival of Amigos dos Amigos, imposes control through violence.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Terceiro Comando Puro",
+      "original_text_name": "Terceiro Comando Puro",
+      "aliases": [],
+      "type": "gang",
+      "context": "Brazilian criminal organization, rival of Amigos dos Amigos.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Amigos dos Amigos",
+      "target": "Comando Vermelho",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Amigos dos Amigos was formed by an expelled Comando Vermelho member and they are main rivals.",
+      "time_period": "1998-present"
+    },
+    {
+      "source": "Amigos dos Amigos",
+      "target": "Terceiro Comando Puro",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Amigos dos Amigos considers Terceiro Comando Puro a main rival.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Amigos_dos_Amigos"
+}

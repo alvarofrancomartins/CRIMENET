@@ -1,0 +1,260 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Tiny Rascal Gang",
+      "original_text_name": "Tiny Rascal Gang",
+      "aliases": [
+        "TRG",
+        "Tiny Rascals"
+      ],
+      "type": "gang",
+      "context": "Primarily Cambodian-American gang based in Long Beach, California, involved in drug trafficking, murder, and other crimes.",
+      "time_period": "1981-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang that ordered hit lists and directed Sureños against TRG.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Southern California gang alliance that was at war with TRG.",
+      "time_period": null
+    },
+    {
+      "standard_name": "West Side Longo",
+      "original_text_name": "West Side Longo",
+      "aliases": [],
+      "type": "gang",
+      "context": "Hispanic gang in Long Beach, ordered by Mexican Mafia to ally with East Side Longo against TRG.",
+      "time_period": null
+    },
+    {
+      "standard_name": "East Side Longo",
+      "original_text_name": "East Side Longo",
+      "aliases": [],
+      "type": "gang",
+      "context": "Hispanic gang in Long Beach, rival of TRG in early 1990s.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Asian Boyz",
+      "original_text_name": "Asian Boyz",
+      "aliases": [
+        "ABZ"
+      ],
+      "type": "gang",
+      "context": "Splinter group from TRG, later allied with other gangs, rival of TRG.",
+      "time_period": null
+    },
+    {
+      "standard_name": "14K",
+      "original_text_name": "14K",
+      "aliases": [],
+      "type": "triad",
+      "context": "Chinese triad allied with TRG in California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Wah Ching",
+      "original_text_name": "Wah Ching",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chinese gang allied with TRG in California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Wo Hop To",
+      "original_text_name": "Wo Hop To",
+      "aliases": [],
+      "type": "triad",
+      "context": "Chinese triad allied with TRG in California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ghost Shadows",
+      "original_text_name": "Ghost Shadows",
+      "aliases": [],
+      "type": "gang",
+      "context": "New York City-based Chinese gang allied with TRG.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Red Scorpions",
+      "original_text_name": "Red Scorpions",
+      "aliases": [],
+      "type": "gang",
+      "context": "Asian gang in South Philadelphia, rival of TRG.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang listed as rival of TRG.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang listed as rival of TRG.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Latin Kings",
+      "original_text_name": "Latin Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang listed as rival of TRG.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Trinitarios",
+      "original_text_name": "Trinitarios",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang listed as rival of TRG.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Mexican Mafia",
+      "target": "Sureños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mexican Mafia ordered Sureños to war with TRG.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Mexican Mafia",
+      "target": "West Side Longo",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mexican Mafia ordered West Side Longo to ally with East Side Longo against TRG.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Mexican Mafia",
+      "target": "East Side Longo",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mexican Mafia ordered West Side Longo to support East Side Longo against TRG.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "West Side Longo",
+      "target": "East Side Longo",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Put aside rivalry to unite against TRG under Mexican Mafia order.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Sureños",
+      "target": "Tiny Rascal Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sureños were at war with TRG after Mexican Mafia green light.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "East Side Longo",
+      "target": "Tiny Rascal Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Violent rivalry during early 1990s.",
+      "time_period": "early 1990s"
+    },
+    {
+      "source": "Tiny Rascal Gang",
+      "target": "Asian Boyz",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Prominent rivalry with murders on both sides; ABZ splintered from TRG.",
+      "time_period": null
+    },
+    {
+      "source": "Tiny Rascal Gang",
+      "target": "14K",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with 14K in California.",
+      "time_period": null
+    },
+    {
+      "source": "Tiny Rascal Gang",
+      "target": "Wah Ching",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with Wah Ching in California.",
+      "time_period": null
+    },
+    {
+      "source": "Tiny Rascal Gang",
+      "target": "Wo Hop To",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with Wo Hop To in California.",
+      "time_period": null
+    },
+    {
+      "source": "Tiny Rascal Gang",
+      "target": "Ghost Shadows",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with Ghost Shadows in New York City.",
+      "time_period": null
+    },
+    {
+      "source": "Tiny Rascal Gang",
+      "target": "Red Scorpions",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rivalry in South Philadelphia with sporadic shootings.",
+      "time_period": null
+    },
+    {
+      "source": "Tiny Rascal Gang",
+      "target": "Bloods",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Tiny Rascal Gang",
+      "target": "Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Tiny Rascal Gang",
+      "target": "Latin Kings",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Tiny Rascal Gang",
+      "target": "Trinitarios",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Tiny_Rascal_Gang"
+}

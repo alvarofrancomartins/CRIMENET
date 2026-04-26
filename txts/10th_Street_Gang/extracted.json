@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "10th Street Gang",
+      "original_text_name": "10th Street Gang",
+      "aliases": [
+        "1015",
+        "MOB",
+        "1015 Gang"
+      ],
+      "type": "gang",
+      "context": "Street gang in Buffalo, New York, mainly Hispanic, active since 1980s.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "7th Street Gang",
+      "original_text_name": "7th Street gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang in Buffalo, New York, rival of 10th Street Gang.",
+      "time_period": "2000s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "10th Street Gang",
+      "target": "7th Street Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rivalry escalated in 2009, involved in 38 homicides between 2009 and 2012.",
+      "time_period": "2009-2012"
+    }
+  ],
+  "source_file": "10th_Street_Gang"
+}

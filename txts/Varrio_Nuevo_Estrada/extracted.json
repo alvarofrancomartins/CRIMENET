@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Varrio Nuevo Estrada",
+      "original_text_name": "Varrio Nuevo Estrada",
+      "aliases": [
+        "VNE13",
+        "VNE"
+      ],
+      "type": "gang",
+      "context": "Chicano street gang founded in Boyle Heights, involved in murder, drug trafficking, and other crimes.",
+      "time_period": "1940s-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang that has old ties to Varrio Nuevo Estrada.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Umbrella gang alliance in the California prison system; VNE unites under this banner.",
+      "time_period": null
+    },
+    {
+      "standard_name": "White Fence",
+      "original_text_name": "White Fence",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Varrio Nuevo Estrada.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Varrio Nuevo Estrada",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "VNE has old ties to the Mexican Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Varrio Nuevo Estrada",
+      "target": "Sureños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "VNE unites under the Sureño banner in the California prison system.",
+      "time_period": null
+    },
+    {
+      "source": "Varrio Nuevo Estrada",
+      "target": "White Fence",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "White Fence is listed as a rival of VNE.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Varrio_Nuevo_Estrada"
+}

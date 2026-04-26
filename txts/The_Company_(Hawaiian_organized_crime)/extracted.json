@@ -1,0 +1,208 @@
+{
+  "nodes": [
+    {
+      "standard_name": "The Company",
+      "original_text_name": "The Company",
+      "aliases": [
+        "Hawaiian Syndicate"
+      ],
+      "type": "other",
+      "context": "Hawaiian organized crime syndicate controlling criminal activities from late 1960s to mid-1990s.",
+      "time_period": "late 1960s-present"
+    },
+    {
+      "standard_name": "American Mafia",
+      "original_text_name": "American Mafia",
+      "aliases": [
+        "mainland mafia"
+      ],
+      "type": "mafia",
+      "context": "Mainland US mafia; had connections and rivalries with The Company.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago mobsters",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Chicago mafia family active in Las Vegas; sent members to Hawaii who were killed by The Company.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Chinese Triads",
+      "original_text_name": "Chinese Triads",
+      "aliases": [],
+      "type": "triad",
+      "context": "Asian criminal organizations active in Hawaii in the 1960s and currently.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Yakuza",
+      "original_text_name": "Japanese Yakuza",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Japanese organized crime groups active in Hawaii in the 1960s and currently.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Kkangpae",
+      "original_text_name": "Korean Kkangpae",
+      "aliases": [],
+      "type": "gang",
+      "context": "Korean criminal organizations active in Hawaii in the 1960s and currently.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Samoan criminal organizations",
+      "original_text_name": "Samoan criminal outfits",
+      "aliases": [],
+      "type": "gang",
+      "context": "Samoan gangs active in Hawaii in the 1960s and currently.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "George Chung's organization",
+      "original_text_name": "George Chung's criminal organization",
+      "aliases": [],
+      "type": "gang",
+      "context": "Korean-led criminal group formed in 1962, recruited multi-ethnic members.",
+      "time_period": "1962-1967"
+    },
+    {
+      "standard_name": "Alema Leota's mob",
+      "original_text_name": "Alema Leota's Samoan mob",
+      "aliases": [],
+      "type": "gang",
+      "context": "Samoan-led mob that briefly took over after Chung's death.",
+      "time_period": "1967-1969"
+    },
+    {
+      "standard_name": "Joseph family",
+      "original_text_name": "Joseph family",
+      "aliases": [],
+      "type": "clan",
+      "context": "Criminal family within The Company, controlled Waianae Coast until early 1990s.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Native Hawaiian crime syndicates",
+      "original_text_name": "Native Hawaiian crime syndicates",
+      "aliases": [],
+      "type": "other",
+      "context": "Current Native Hawaiian criminal groups, including remnants of The Company.",
+      "time_period": "1990s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "The Company",
+      "target": "American Mafia",
+      "relationship": "other",
+      "detail": "mixed connections and rivalry",
+      "context": "The Company made connections with American Mafia figures but also had rivalries with some.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "source": "The Company",
+      "target": "Chicago Outfit",
+      "relationship": "rivalry",
+      "context": "The Company killed two Chicago mobsters sent to Hawaii and returned their bodies.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "The Company",
+      "target": "Chinese Triads",
+      "relationship": "other",
+      "detail": "coexistence",
+      "context": "The Company operated alongside Chinese Triads in Hawaii, both before and after its reign.",
+      "time_period": "1960s-present"
+    },
+    {
+      "source": "The Company",
+      "target": "Yakuza",
+      "relationship": "other",
+      "detail": "coexistence",
+      "context": "The Company operated alongside Yakuza in Hawaii.",
+      "time_period": "1960s-present"
+    },
+    {
+      "source": "The Company",
+      "target": "Kkangpae",
+      "relationship": "other",
+      "detail": "coexistence",
+      "context": "The Company operated alongside Korean Kkangpae in Hawaii.",
+      "time_period": "1960s-present"
+    },
+    {
+      "source": "The Company",
+      "target": "Samoan criminal organizations",
+      "relationship": "other",
+      "detail": "coexistence",
+      "context": "The Company operated alongside Samoan criminal organizations in Hawaii.",
+      "time_period": "1960s-present"
+    },
+    {
+      "source": "The Company",
+      "target": "Joseph family",
+      "relationship": "alliance",
+      "context": "The Joseph family was a component of The Company, controlling the Waianae Coast.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "source": "The Company",
+      "target": "Native Hawaiian crime syndicates",
+      "relationship": "other",
+      "detail": "remnants",
+      "context": "Remnants of The Company are part of current Native Hawaiian crime syndicates.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "George Chung's organization",
+      "target": "Chinese Triads",
+      "relationship": "other",
+      "detail": "coexistence",
+      "context": "Chung's organization operated alongside Chinese Triads in the 1960s.",
+      "time_period": "1962-1967"
+    },
+    {
+      "source": "George Chung's organization",
+      "target": "Yakuza",
+      "relationship": "other",
+      "detail": "coexistence",
+      "context": "Chung's organization operated alongside Yakuza in the 1960s.",
+      "time_period": "1962-1967"
+    },
+    {
+      "source": "George Chung's organization",
+      "target": "Kkangpae",
+      "relationship": "other",
+      "detail": "coexistence",
+      "context": "Chung's organization operated alongside Korean Kkangpae in the 1960s.",
+      "time_period": "1962-1967"
+    },
+    {
+      "source": "George Chung's organization",
+      "target": "Samoan criminal organizations",
+      "relationship": "other",
+      "detail": "coexistence",
+      "context": "Chung's organization operated alongside Samoan criminal organizations in the 1960s.",
+      "time_period": "1962-1967"
+    },
+    {
+      "source": "Alema Leota's mob",
+      "target": "Samoan criminal organizations",
+      "relationship": "alliance",
+      "context": "Alema Leota's mob was a Samoan-led group that took over after Chung's death.",
+      "time_period": "1967-1969"
+    },
+    {
+      "source": "The Company",
+      "target": "Alema Leota's mob",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "The Company was formed by Wilford Pulawa, a lieutenant of Alema Leota, succeeding his mob.",
+      "time_period": "1969"
+    }
+  ],
+  "source_file": "The_Company_(Hawaiian_organized_crime)"
+}

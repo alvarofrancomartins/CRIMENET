@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "standard_name": "No Limit Soldiers",
+      "original_text_name": "No Limit Soldiers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang from Curaçao involved in drug trafficking and contract killings.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Colombian cartels",
+      "original_text_name": "Colombian crime groups",
+      "aliases": [
+        "Colombian cartels"
+      ],
+      "type": "cartel",
+      "context": "Drug trafficking organizations from Colombia, business partners of No Limit Soldiers.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Penose",
+      "original_text_name": "Dutch Penose",
+      "aliases": [
+        "Penose"
+      ],
+      "type": "other",
+      "context": "Dutch underworld criminal organizations involved in contract killings with No Limit Soldiers.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Yardies",
+      "original_text_name": "Yardies",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican criminal groups, allies of No Limit Soldiers.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Zoe Pound",
+      "original_text_name": "Zoe Pound",
+      "aliases": [],
+      "type": "gang",
+      "context": "Haitian street gang, allies of No Limit Soldiers.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "No Limit Soldiers",
+      "target": "Colombian cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "No Limit Soldiers obtain cocaine from Colombian business partners and cooperate in contract killings.",
+      "time_period": null
+    },
+    {
+      "source": "No Limit Soldiers",
+      "target": "Penose",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "No Limit Soldiers do business with Dutch Penose in committing contract killings.",
+      "time_period": null
+    },
+    {
+      "source": "No Limit Soldiers",
+      "target": "Yardies",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Yardies are listed as allies of No Limit Soldiers in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "No Limit Soldiers",
+      "target": "Zoe Pound",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zoe Pound is listed as an ally of No Limit Soldiers in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "No_Limit_Soldiers_(organized_crime_group)"
+}

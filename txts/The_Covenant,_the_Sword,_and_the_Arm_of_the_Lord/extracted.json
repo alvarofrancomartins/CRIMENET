@@ -1,0 +1,168 @@
+{
+  "nodes": [
+    {
+      "standard_name": "The Covenant, the Sword, and the Arm of the Lord",
+      "original_text_name": "The Covenant, the Sword, and the Arm of the Lord",
+      "aliases": [
+        "CSA"
+      ],
+      "type": "militia",
+      "context": "Far-right survivalist anti-government militia advocating Christian Identity, active in the US in the 1970s-1980s.",
+      "time_period": "1970s-1985"
+    },
+    {
+      "standard_name": "Zarephath-Horeb Community Church",
+      "original_text_name": "Zarephath-Horeb Community Church",
+      "aliases": [],
+      "type": "other",
+      "context": "Baptist congregation founded in 1971 in Pontiac, Missouri, which evolved into the CSA.",
+      "time_period": "1971-1970s"
+    },
+    {
+      "standard_name": "Elohim City",
+      "original_text_name": "Elohim City",
+      "aliases": [],
+      "type": "other",
+      "context": "A community founded by Robert G. Millar, where James Ellison moved after prison.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Aryan Nations",
+      "original_text_name": "Aryan Nations",
+      "aliases": [],
+      "type": "militia",
+      "context": "White supremacist organization based in Hayden Lake, Idaho, led by Richard Girnt Butler.",
+      "time_period": "1970s-2000s"
+    },
+    {
+      "standard_name": "Mountain Church of Jesus Christ the Savior",
+      "original_text_name": "Mountain Church of Jesus Christ the Savior",
+      "aliases": [
+        "Mountain Church"
+      ],
+      "type": "other",
+      "context": "Church founded by Robert E. Miles in Cohoctah, Michigan, promoting Christian Identity.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Ku Klux Klan",
+      "original_text_name": "Ku Klux Klan",
+      "aliases": [
+        "KKK"
+      ],
+      "type": "other",
+      "context": "White supremacist hate group with which Ellison had close ties.",
+      "time_period": "1865-present"
+    },
+    {
+      "standard_name": "The Order",
+      "original_text_name": "The Order",
+      "aliases": [],
+      "type": "militia",
+      "context": "White supremacist revolutionary group formed in Idaho, which some CSA members joined.",
+      "time_period": "1983-1984"
+    },
+    {
+      "standard_name": "Aryan Brotherhood",
+      "original_text_name": "Aryan Brotherhood",
+      "aliases": [],
+      "type": "gang",
+      "context": "White supremacist prison gang with links to the CSA.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Pagans Motorcycle Club",
+      "original_text_name": "Pagans Motorcycle Club",
+      "aliases": [
+        "Pagans"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club that provided training to the CSA in exchange for weapons.",
+      "time_period": "1959-present"
+    },
+    {
+      "standard_name": "Posse Comitatus",
+      "original_text_name": "Posse Comitatus",
+      "aliases": [],
+      "type": "militia",
+      "context": "Far-right anti-government movement advocating local sovereignty, active in the US in the 1970s-1980s.",
+      "time_period": "1969-1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "The Covenant, the Sword, and the Arm of the Lord",
+      "target": "Zarephath-Horeb Community Church",
+      "relationship": "other",
+      "detail": "evolved from",
+      "context": "The CSA developed from the Zarephath-Horeb Community Church.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "The Covenant, the Sword, and the Arm of the Lord",
+      "target": "Aryan Nations",
+      "relationship": "alliance",
+      "context": "Ellison had close ties to Aryan Nations and was mentored by its founder Butler.",
+      "time_period": "1970s-1985"
+    },
+    {
+      "source": "The Covenant, the Sword, and the Arm of the Lord",
+      "target": "Mountain Church of Jesus Christ the Savior",
+      "relationship": "alliance",
+      "context": "Ellison was mentored by Robert E. Miles, founder of the Mountain Church.",
+      "time_period": "1970s-1985"
+    },
+    {
+      "source": "The Covenant, the Sword, and the Arm of the Lord",
+      "target": "Ku Klux Klan",
+      "relationship": "alliance",
+      "context": "Ellison had close ties to the Ku Klux Klan.",
+      "time_period": "1970s-1985"
+    },
+    {
+      "source": "The Covenant, the Sword, and the Arm of the Lord",
+      "target": "The Order",
+      "relationship": "alliance",
+      "context": "CSA members joined The Order, and the groups had links.",
+      "time_period": "1983-1984"
+    },
+    {
+      "source": "The Covenant, the Sword, and the Arm of the Lord",
+      "target": "Aryan Brotherhood",
+      "relationship": "alliance",
+      "context": "The CSA had links to the Aryan Brotherhood.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "The Covenant, the Sword, and the Arm of the Lord",
+      "target": "Pagans Motorcycle Club",
+      "relationship": "alliance",
+      "context": "The Pagans provided training to the CSA in exchange for weapons.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "The Order",
+      "target": "Aryan Nations",
+      "relationship": "alliance",
+      "context": "The Order was a splinter group from Aryan Nations or closely allied.",
+      "time_period": "1983-1984"
+    },
+    {
+      "source": "The Covenant, the Sword, and the Arm of the Lord",
+      "target": "Elohim City",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "CSA founder James Ellison moved to Elohim City after prison and married Robert Millar's granddaughter.",
+      "time_period": "1985-1990s"
+    },
+    {
+      "source": "The Covenant, the Sword, and the Arm of the Lord",
+      "target": "Posse Comitatus",
+      "relationship": "other",
+      "detail": "shared member",
+      "context": "CSA member Leonard Ginter hosted a meeting that led to the killing of Posse Comitatus member Gordon Kahl.",
+      "time_period": "1983"
+    }
+  ],
+  "source_file": "The_Covenant,_the_Sword,_and_the_Arm_of_the_Lord"
+}

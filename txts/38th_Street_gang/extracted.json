@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    {
+      "standard_name": "38th Street Gang",
+      "original_text_name": "38th Street Gang",
+      "aliases": [
+        "38th Street"
+      ],
+      "type": "gang",
+      "context": "Mexican-American street gang in Los Angeles, active since 1920s, involved in drug trafficking, murder, and racketeering.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang that controls and uses 38th Street gang members to carry out orders.",
+      "time_period": null
+    },
+    {
+      "standard_name": "18th Street Gang",
+      "original_text_name": "18th Street Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Los Angeles street gang with loose alliance to 38th Street due to common rivals.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with 38th Street Gang according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Street Saints 13",
+      "original_text_name": "Street Saints 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with 38th Street Gang according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Lennox 13",
+      "original_text_name": "Lennox 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied with 38th Street Gang according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of 38th Street Gang according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Florencia 13",
+      "original_text_name": "Florencia 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of 38th Street Gang according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Playboys",
+      "original_text_name": "Playboys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of 38th Street Gang according to infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Mexican Mafia",
+      "target": "38th Street Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mexican Mafia controls and uses 38th Street gang members to carry out orders.",
+      "time_period": null
+    },
+    {
+      "source": "38th Street Gang",
+      "target": "18th Street Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Loose alliance due to common rivals in South Los Angeles.",
+      "time_period": null
+    },
+    {
+      "source": "38th Street Gang",
+      "target": "Sureños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "38th Street Gang",
+      "target": "Street Saints 13",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "38th Street Gang",
+      "target": "Lennox 13",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "38th Street Gang",
+      "target": "Bloods",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "38th Street Gang",
+      "target": "Florencia 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "38th Street Gang",
+      "target": "Playboys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "38th_Street_gang"
+}

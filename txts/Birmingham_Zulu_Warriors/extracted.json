@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Zulu Warriors",
+      "original_text_name": "Zulu Warriors",
+      "aliases": [
+        "Zulus"
+      ],
+      "type": "gang",
+      "context": "Football hooligan firm associated with Birmingham City FC, active since 1982.",
+      "time_period": "1982-present"
+    },
+    {
+      "standard_name": "Apex",
+      "original_text_name": "Apex",
+      "aliases": [],
+      "type": "gang",
+      "context": "Earlier Birmingham City hooligan firm that amalgamated to form the Zulu Warriors.",
+      "time_period": "before 1982"
+    },
+    {
+      "standard_name": "Brew Crew",
+      "original_text_name": "Brew Crew",
+      "aliases": [],
+      "type": "gang",
+      "context": "Offshoot gang created from the Zulu Warriors.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Junior Business Boys",
+      "original_text_name": "Junior Business Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Offshoot gang created from the Zulu Warriors.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Inter City Firm",
+      "original_text_name": "Inter City Firm",
+      "aliases": [
+        "ICF"
+      ],
+      "type": "gang",
+      "context": "West Ham United hooligan firm, rivals of Zulu Warriors.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Zulu Warriors",
+      "target": "Apex",
+      "relationship": "other",
+      "detail": "amalgamation",
+      "context": "Zulu Warriors formed in 1982 from amalgamation of other firms including Apex.",
+      "time_period": "1982"
+    },
+    {
+      "source": "Zulu Warriors",
+      "target": "Brew Crew",
+      "relationship": "other",
+      "detail": "offshoot",
+      "context": "Brew Crew is an offshoot gang created from the Zulu Warriors.",
+      "time_period": null
+    },
+    {
+      "source": "Zulu Warriors",
+      "target": "Junior Business Boys",
+      "relationship": "other",
+      "detail": "offshoot",
+      "context": "Junior Business Boys is an offshoot gang created from the Zulu Warriors.",
+      "time_period": null
+    },
+    {
+      "source": "Zulu Warriors",
+      "target": "Inter City Firm",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Zulu Warriors are rivals of the Inter City Firm, as depicted in the film Green Street.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Birmingham_Zulu_Warriors"
+}

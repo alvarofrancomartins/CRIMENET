@@ -1,0 +1,370 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Alameddine crime network",
+      "original_text_name": "Alameddine crime network",
+      "aliases": [
+        "Alameddine Clan",
+        "Alameddine Crime Family",
+        "Alameddine Family",
+        "Alameddine clan",
+        "Alameddine family",
+        "Alameddine network",
+        "Alameddines"
+      ],
+      "type": "gang",
+      "context": "Australian organised crime group based in Western Sydney, involved in drug trafficking.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Hamzy crime family",
+      "original_text_name": "Hamzy/Hamze crime family",
+      "aliases": [
+        "Hamze crime family",
+        "Hamze family",
+        "Hamze/Hamzy crime family",
+        "Hamzy Clan",
+        "Hamzy family",
+        "Hamzy/Hamze crime family"
+      ],
+      "type": "gang",
+      "context": "Dominant faction of Brothers for Life, involved in Sydney gangland war.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Brothers for Life",
+      "original_text_name": "Brothers for Life",
+      "aliases": [
+        "B4L"
+      ],
+      "type": "gang",
+      "context": "Sydney-based gang involved in drug trafficking and violence, with Lebanese and Afghan chapters.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Islamic State",
+      "original_text_name": "Islamic State (ISIS)",
+      "aliases": [
+        "ISIS",
+        "Islamic State of Iraq and Syria"
+      ],
+      "type": "terrorist_organization",
+      "context": "Militant jihadist group, linked to Alameddine members via extremist connections.",
+      "time_period": "2014-present"
+    },
+    {
+      "standard_name": "Hauochar Clan",
+      "original_text_name": "Hauochar Clan",
+      "aliases": [
+        "Hauochars"
+      ],
+      "type": "clan",
+      "context": "Allies of Alameddine, linked to extremist activity and potential gun supply.",
+      "time_period": "2010s-present"
+    },
+    {
+      "standard_name": "Comanchero Motorcycle Club",
+      "original_text_name": "Comanchero Motorcycle Club",
+      "aliases": [
+        "Comancheros"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, former affiliation of Masood Zakaria.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "R4W",
+      "original_text_name": "R4W",
+      "aliases": [
+        "Ready for War"
+      ],
+      "type": "faction",
+      "context": "Subset of Alameddine family targeted by police for drug distribution.",
+      "time_period": "2020s"
+    },
+    {
+      "standard_name": "DLASTHR",
+      "original_text_name": "DLASTHR",
+      "aliases": [],
+      "type": "gang",
+      "context": "Sydney gang, member Samer Marcus was target of attempted murder.",
+      "time_period": "2010s-present"
+    },
+    {
+      "standard_name": "Elmir family",
+      "original_text_name": "Elmirs",
+      "aliases": [
+        "Elmir family"
+      ],
+      "type": "gang",
+      "context": "Sydney-based crime family involved in gang war with Ahmads and Hamzys.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Ahmad family",
+      "original_text_name": "Ahmads",
+      "aliases": [
+        "Ahmad family",
+        "Ahmad Family"
+      ],
+      "type": "gang",
+      "context": "Sydney-based crime family involved in gang war with Elmirs and Alameddines.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, associate Kemel Barakat worked as enforcer for Ahmad family.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "KVT",
+      "original_text_name": "KVT",
+      "aliases": [],
+      "type": "gang",
+      "context": "Islander gang used as muscle by Alameddines, led by Joseph Vokai.",
+      "time_period": "2010s-present"
+    },
+    {
+      "standard_name": "RFA",
+      "original_text_name": "RFA (Ready For Anything)",
+      "aliases": [
+        "Ready For Anything"
+      ],
+      "type": "gang",
+      "context": "Street gang linked to Mount Druitt gang Onefour, associate involved in shooting.",
+      "time_period": "2010s-present"
+    },
+    {
+      "standard_name": "Onefour",
+      "original_text_name": "Onefour",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mount Druitt street gang, linked to RFA.",
+      "time_period": "2010s-present"
+    },
+    {
+      "standard_name": "Haouchar crime family",
+      "original_text_name": "Haouchar crime family",
+      "aliases": [
+        "Hauochar Crime Family",
+        "Hauochar Family"
+      ],
+      "type": "gang",
+      "context": "One of Sydney's biggest criminal enterprises, led by Bilal Haouchar.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Lone Wolf bikie",
+      "original_text_name": "Lone Wolf bikie",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, member Yusuf Nazlioglu was involved in Sydney underworld.",
+      "time_period": "2000s-2020s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Alameddine crime network",
+      "target": "Hamzy crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Extended feud since October 2020, part of Sydney gangland war.",
+      "time_period": "2020-present"
+    },
+    {
+      "source": "Hamzy crime family",
+      "target": "Brothers for Life",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hamzy family is the most dominant faction of Brothers for Life.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Alameddine crime network",
+      "target": "Islamic State",
+      "relationship": "other",
+      "detail": "alleged connection",
+      "context": "Talal Alameddine implied connection; members watched ISIS videos.",
+      "time_period": "2015-present"
+    },
+    {
+      "source": "Alameddine crime network",
+      "target": "Hauochar Clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Long-time allies; Hauochars may have supplied gun for Lindt Cafe siege.",
+      "time_period": "2010s-present"
+    },
+    {
+      "source": "Brothers for Life",
+      "target": "Comanchero Motorcycle Club",
+      "relationship": "other",
+      "detail": "former membership",
+      "context": "Masood Zakaria was a lieutenant in Comanchero before joining Brothers for Life.",
+      "time_period": "before 2013"
+    },
+    {
+      "source": "Alameddine crime network",
+      "target": "R4W",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "R4W is a subset of the Alameddine family.",
+      "time_period": "2020s"
+    },
+    {
+      "source": "Alameddine crime network",
+      "target": "DLASTHR",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Alameddine associate Luke Sparos attempted murder of DLASTHR gangster Samer Marcus.",
+      "time_period": "2020"
+    },
+    {
+      "source": "Alameddine crime network",
+      "target": "Elmir family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Alameddines and Elmirs are allies, with Fawaz Elmir facilitating escape of Masood Zakaria.",
+      "time_period": "2022"
+    },
+    {
+      "source": "Alameddine crime network",
+      "target": "Ahmad family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ahmads killed Alameddine associate Charbaji, but later Bilal Alameddine wrote friendly letter to Mahmoud Ahmad.",
+      "time_period": "2016-2021"
+    },
+    {
+      "source": "Alameddine crime network",
+      "target": "Comanchero Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Comancheros were close allies and business partners of Alameddines through Mohammad Alameddine.",
+      "time_period": "2022"
+    },
+    {
+      "source": "Alameddine crime network",
+      "target": "KVT",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "KVT regularly used as muscle by Alameddines.",
+      "time_period": "2021"
+    },
+    {
+      "source": "Hamzy crime family",
+      "target": "Brothers for Life",
+      "relationship": "other",
+      "detail": "dominant faction",
+      "context": "Hamzy family is the most dominant faction of Brothers for Life.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Hamzy crime family",
+      "target": "Ahmad family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hamzy clan had relationship with Ahmad family, and Ahmads were responsible for killing Alameddine associate.",
+      "time_period": "2016-2022"
+    },
+    {
+      "source": "Elmir family",
+      "target": "Ahmad family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gang war in 2016-2017 between Elmirs and Ahmads, with multiple murders.",
+      "time_period": "2016-2017"
+    },
+    {
+      "source": "Ahmad family",
+      "target": "Comanchero Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Skirmish in 2022 involving shootings and murders between Ahmads and Comancheros.",
+      "time_period": "2022"
+    },
+    {
+      "source": "RFA",
+      "target": "Onefour",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "RFA is strongly linked to Mount Druitt street gang Onefour.",
+      "time_period": "2021"
+    },
+    {
+      "source": "Alameddine crime network",
+      "target": "Haouchar crime family",
+      "relationship": "other",
+      "detail": "mentor-trainee",
+      "context": "Rafat Alameddine shadowed Bilal Haouchar as a younger man, learning the criminal trade.",
+      "time_period": "early 2000s"
+    },
+    {
+      "source": "Alameddine crime network",
+      "target": "Haouchar crime family",
+      "relationship": "other",
+      "detail": "social ties",
+      "context": "Rafat and Bilal Alameddine dined with Osman Haouchar at a wedding before Bilal's arrest.",
+      "time_period": "before June 2017"
+    },
+    {
+      "source": "Alameddine crime network",
+      "target": "Haouchar crime family",
+      "relationship": "rivalry",
+      "context": "Alameddine members assaulted Mohamad Haouchar after he verbally abused senior Alameddine figures.",
+      "time_period": "October 2021"
+    },
+    {
+      "source": "Alameddine crime network",
+      "target": "Haouchar crime family",
+      "relationship": "other",
+      "detail": "drama overseas",
+      "context": "In March 2023, drama between Bilal Haouchar and Rafat Alameddine in Lebanon was reported.",
+      "time_period": "2023"
+    },
+    {
+      "source": "Alameddine crime network",
+      "target": "Islamic State",
+      "relationship": "other",
+      "detail": "implied connection",
+      "context": "Talal Alameddine implied a connection to ISIS, saying 'my beard is for ISIS'.",
+      "time_period": "2015-2018"
+    },
+    {
+      "source": "R4W",
+      "target": "Alameddine crime network",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "R4W is a subset within the Alameddine crime network, led by Rafat Alameddine's brother-in-law.",
+      "time_period": "2020s-present"
+    },
+    {
+      "source": "Alameddine crime network",
+      "target": "ONEFOUR",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ali 'Ay Huncho' Younes (Alameddine associate) fought with ONEFOUR associate in prison.",
+      "time_period": "2024"
+    },
+    {
+      "source": "Lone Wolf bikie",
+      "target": "Alameddine crime network",
+      "relationship": "other",
+      "detail": "marriage connection",
+      "context": "Jade Heffer, widow of Lone Wolf bikie Yusuf Nazlioglu, later married Alameddine member Trente Jeske.",
+      "time_period": "2024"
+    },
+    {
+      "source": "Alameddine crime network",
+      "target": "KVT",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Alleged feud began in 2025, with multiple violent confrontations including brawls and shootings.",
+      "time_period": "2025"
+    }
+  ],
+  "source_file": "Alameddine_crime_network"
+}

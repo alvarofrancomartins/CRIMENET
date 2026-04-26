@@ -1,0 +1,168 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Caborca Cartel",
+      "original_text_name": "Caborca Cartel",
+      "aliases": [
+        "Cártel de Caborca"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug trafficking organization led by Rafael Caro Quintero, operating mainly in Sonora and Chihuahua.",
+      "time_period": "2019-present"
+    },
+    {
+      "standard_name": "Guadalajara Cartel",
+      "original_text_name": "Guadalajara Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Defunct Mexican drug cartel founded by Rafael Caro Quintero and others.",
+      "time_period": "1970s-1989"
+    },
+    {
+      "standard_name": "Los Salazar",
+      "original_text_name": "Los Salazar",
+      "aliases": [],
+      "type": "faction",
+      "context": "Armed wing of the Sinaloa Cartel, involved in disputes with Caborca Cartel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Major Mexican drug cartel, rival of Caborca Cartel, with factions like Los Salazar and Los Chapitos.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Juárez Cartel",
+      "original_text_name": "Juárez Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel allied with Caborca Cartel to dispute territory in Sonora and Chihuahua.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Los Páez",
+      "original_text_name": "Los Páez",
+      "aliases": [
+        "Los Paleteros"
+      ],
+      "type": "faction",
+      "context": "Criminal cell led by Rodrigo Páez Quintero, nephew of Rafael Caro Quintero, associated with Caborca Cartel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Cazadores",
+      "original_text_name": "Los Cazadores",
+      "aliases": [],
+      "type": "faction",
+      "context": "Criminal cell related to the Sinaloa Cartel, involved in conflict with Los Páez.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Chapitos",
+      "original_text_name": "Los Chapitos",
+      "aliases": [],
+      "type": "faction",
+      "context": "Faction of the Sinaloa Cartel led by the sons of Joaquín 'El Chapo' Guzmán, disputed territory with Caborca Cartel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel listed as an ally of Caborca Cartel in the infobox.",
+      "time_period": "2009-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Caborca Cartel",
+      "target": "Guadalajara Cartel",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "Caborca Cartel was founded by Rafael Caro Quintero, founder of the defunct Guadalajara Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Caborca Cartel",
+      "target": "Los Salazar",
+      "relationship": "rivalry",
+      "context": "Caborca Cartel has a bloody dispute with Los Salazar, the armed wing of the Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Caborca Cartel",
+      "target": "Sinaloa Cartel",
+      "relationship": "rivalry",
+      "context": "Caborca Cartel disputes territory in Sonora with the Sinaloa Cartel and its factions.",
+      "time_period": null
+    },
+    {
+      "source": "Caborca Cartel",
+      "target": "Juárez Cartel",
+      "relationship": "alliance",
+      "context": "Caborca Cartel allied with the Juárez Cartel to dispute areas of Sonora and Chihuahua.",
+      "time_period": null
+    },
+    {
+      "source": "Los Páez",
+      "target": "Caborca Cartel",
+      "relationship": "alliance",
+      "context": "Los Páez is a criminal cell led by Rafael Caro Quintero's nephew, associated with Caborca Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Los Páez",
+      "target": "Los Cazadores",
+      "relationship": "rivalry",
+      "context": "Conflict between Los Páez and Los Cazadores (related to Sinaloa Cartel) caused increased homicides in Sonora.",
+      "time_period": null
+    },
+    {
+      "source": "Los Páez",
+      "target": "Los Salazar",
+      "relationship": "rivalry",
+      "context": "Los Páez and Los Salazar are in conflict as part of the larger Caborca-Sinaloa rivalry.",
+      "time_period": null
+    },
+    {
+      "source": "Los Cazadores",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "context": "Los Cazadores is a cell related to the Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Los Salazar",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "context": "Los Salazar is identified as the armed wing of the Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Los Chapitos",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "context": "Los Chapitos is a faction of the Sinaloa Cartel led by the sons of Joaquín Guzmán.",
+      "time_period": null
+    },
+    {
+      "source": "Caborca Cartel",
+      "target": "Los Chapitos",
+      "relationship": "rivalry",
+      "context": "Caborca Cartel disputes territory in Sonora with Los Chapitos faction.",
+      "time_period": null
+    },
+    {
+      "source": "Caborca Cartel",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "alliance",
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Caborca_Cartel"
+}

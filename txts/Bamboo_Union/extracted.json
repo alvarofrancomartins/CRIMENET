@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bamboo Union",
+      "original_text_name": "United Bamboo Gang",
+      "aliases": [
+        "Bamboo Union",
+        "UBG",
+        "Zhúliánbāng"
+      ],
+      "type": "triad",
+      "context": "Largest triad in Taiwan, involved in drug trafficking, contract killing, and extortion.",
+      "time_period": "1957-present"
+    },
+    {
+      "standard_name": "Iron Blood Patriots",
+      "original_text_name": "Iron Blood Patriots",
+      "aliases": [],
+      "type": "other",
+      "context": "Taiwanese gang that allied with Bamboo Union for heroin trade and overseas missions.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Four Seas Triad",
+      "original_text_name": "Four Seas Triad",
+      "aliases": [],
+      "type": "triad",
+      "context": "One of Taiwan's three main criminal triads, attended Chen Chi-li's funeral.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Celestial Way",
+      "original_text_name": "Celestial Way",
+      "aliases": [],
+      "type": "triad",
+      "context": "One of Taiwan's three main criminal triads, attended Chen Chi-li's funeral.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "yakuza",
+      "aliases": [
+        "Japanese yakuza"
+      ],
+      "type": "mafia",
+      "context": "Japanese organized crime group; members attended Chen Chi-li's funeral and Bamboo Union partners with them.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sam Gor",
+      "original_text_name": "Sam Gor syndicate",
+      "aliases": [],
+      "type": "other",
+      "context": "Multi-ethnic triad syndicate; Bamboo Union partners with them for drug trafficking and money laundering.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bamboo Union",
+      "target": "Iron Blood Patriots",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied in early 1980s for overseas missions and heroin trade; ended after Henry Liu murder.",
+      "time_period": "early 1980s"
+    },
+    {
+      "source": "Bamboo Union",
+      "target": "Four Seas Triad",
+      "relationship": "other",
+      "detail": "attended funeral",
+      "context": "Representatives of Four Seas Triad attended Chen Chi-li's funeral.",
+      "time_period": "2007"
+    },
+    {
+      "source": "Bamboo Union",
+      "target": "Celestial Way",
+      "relationship": "other",
+      "detail": "attended funeral",
+      "context": "Representatives of Celestial Way attended Chen Chi-li's funeral.",
+      "time_period": "2007"
+    },
+    {
+      "source": "Bamboo Union",
+      "target": "Yamaguchi-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bamboo Union partners with Japanese yakuza for drug trafficking and money laundering.",
+      "time_period": null
+    },
+    {
+      "source": "Bamboo Union",
+      "target": "Sam Gor",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bamboo Union partners with Sam Gor syndicate for drug trafficking and money laundering.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Bamboo_Union"
+}

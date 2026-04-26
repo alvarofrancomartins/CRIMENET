@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Santa Monica 13",
+      "original_text_name": "Santa Monica 13",
+      "aliases": [
+        "SMG",
+        "Santa Monica Gang",
+        "SM13",
+        "SMX3"
+      ],
+      "type": "gang",
+      "context": "Mexican-American street gang in Santa Monica, California, active since 1920s.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang that oversees Sureño gangs in Southern California.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Alliance of Mexican-American street gangs aligned with the Mexican Mafia.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Venice 13",
+      "original_text_name": "Venice 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mexican-American street gang in Venice, California; rival turned ally after truce.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "18th Street gang",
+      "original_text_name": "18th Street gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Large multi-ethnic street gang based in Los Angeles.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Culver City Boys",
+      "original_text_name": "Culver City Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang based in Culver City, California.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Venice Shoreline Crips",
+      "original_text_name": "Venice Shoreline Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Crips set in Venice, California.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Grave Yard Gangster Crips",
+      "original_text_name": "Grave Yard Gangster Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Crips set in Los Angeles.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Sotel 13",
+      "original_text_name": "Sotel 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mexican-American street gang in Los Angeles.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Santa Monica 13",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Santa Monica 13 is a Sureño gang under the Mexican Mafia's umbrella.",
+      "time_period": "1950s-present"
+    },
+    {
+      "source": "Santa Monica 13",
+      "target": "Sureños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Santa Monica 13 is a Sureño gang, part of the Sureño alliance.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Santa Monica 13",
+      "target": "Venice 13",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "After a truce, Santa Monica 13 and Venice 13 became allies.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Santa Monica 13",
+      "target": "18th Street gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "18th Street gang is listed as a rival of Santa Monica 13.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Santa Monica 13",
+      "target": "Culver City Boys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Culver City Boys is listed as a rival of Santa Monica 13.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Santa Monica 13",
+      "target": "Venice Shoreline Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Venice Shoreline Crips is listed as a rival of Santa Monica 13.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Santa Monica 13",
+      "target": "Grave Yard Gangster Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Grave Yard Gangster Crips is listed as a rival of Santa Monica 13.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Santa Monica 13",
+      "target": "Sotel 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sotel 13 is listed as a rival of Santa Monica 13.",
+      "time_period": "unknown"
+    }
+  ],
+  "source_file": "Santa_Monica_13"
+}

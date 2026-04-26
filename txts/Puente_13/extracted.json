@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Puente 13",
+      "original_text_name": "Puente 13",
+      "aliases": [
+        "P13",
+        "Bridgetown Gentlemen",
+        "Old Town Puente"
+      ],
+      "type": "gang",
+      "context": "Street gang in La Puente, California, active since 1953, involved in drug trafficking, fraud, murder, assault.",
+      "time_period": "1953-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [
+        "La Eme"
+      ],
+      "type": "gang",
+      "context": "Prison gang that controls many Hispanic street gangs in Southern California.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Alliance of Hispanic street gangs in Southern California, aligned with the Mexican Mafia.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Azusa 13",
+      "original_text_name": "Azusa 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival street gang to Puente 13, based in Azusa, California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Townsmen 13",
+      "original_text_name": "Townsmen 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival street gang to Puente 13.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Puente 13",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Puente 13 is described as Mafia related and supplies illicit contributions to the Mexican Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Puente 13",
+      "target": "Sureños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Puente 13 are Sureños, indicating membership in the Sureño alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Puente 13",
+      "target": "Azusa 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Azusa 13 is listed as a rival of Puente 13.",
+      "time_period": null
+    },
+    {
+      "source": "Puente 13",
+      "target": "Townsmen 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Townsmen 13 is listed as a rival of Puente 13.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Puente_13"
+}

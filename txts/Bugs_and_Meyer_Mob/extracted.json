@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bugs and Meyer Mob",
+      "original_text_name": "Bugs and Meyer Mob",
+      "aliases": [
+        "Bugs (Bugsy) and Meyer Mob"
+      ],
+      "type": "gang",
+      "context": "Jewish-American street gang in Manhattan's Lower East Side, involved in bootlegging, theft, murder, and gambling.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "standard_name": "Murder, Inc.",
+      "original_text_name": "Murder, Inc.",
+      "aliases": [],
+      "type": "gang",
+      "context": "Enforcement outfit for the National Crime Syndicate, handling murders for the syndicate.",
+      "time_period": "1930s-1940s"
+    },
+    {
+      "standard_name": "Broadway Mob",
+      "original_text_name": "Broadway Mob",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group led by Joe Adonis, operating in New York in the 1920s.",
+      "time_period": "1920s"
+    },
+    {
+      "standard_name": "National Crime Syndicate",
+      "original_text_name": "National Crime Syndicate",
+      "aliases": [],
+      "type": "other",
+      "context": "Umbrella organization of American crime families formed in the early 1930s.",
+      "time_period": "1930s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bugs and Meyer Mob",
+      "target": "Murder, Inc.",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "The Bugs and Meyer Mob acted as a predecessor to Murder, Inc., with several members serving as advisers or hitmen.",
+      "time_period": "1930s"
+    },
+    {
+      "source": "Bugs and Meyer Mob",
+      "target": "Broadway Mob",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Bugs and Meyer Mob frequently worked with Joe Adonis's Broadway Mob throughout the 1920s.",
+      "time_period": "1920s"
+    },
+    {
+      "source": "Bugs and Meyer Mob",
+      "target": "National Crime Syndicate",
+      "relationship": "other",
+      "detail": "member",
+      "context": "Lansky and Siegel pushed for the formation of Murder, Inc. within the National Crime Syndicate.",
+      "time_period": "1930s"
+    }
+  ],
+  "source_file": "Bugs_and_Meyer_Mob"
+}

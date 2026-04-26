@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Dubois Brothers",
+      "original_text_name": "Dubois Brothers",
+      "aliases": [
+        "Dubois gang"
+      ],
+      "type": "gang",
+      "context": "French-Canadian organized crime group of nine brothers operating in Montreal from 1950s to mid-1980s, involved in extortion, drug trafficking, loan sharking, and murder.",
+      "time_period": "1950s-mid-1980s"
+    },
+    {
+      "standard_name": "Cotroni family",
+      "original_text_name": "Cotroni family",
+      "aliases": [
+        "Cotroni Mafia family"
+      ],
+      "type": "mafia",
+      "context": "Mafia family in Montreal that rivaled the Dubois Brothers in the 1960s and 1970s.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Irish gang",
+      "original_text_name": "Irish gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang in Montreal that was wiped out by the Dubois Brothers.",
+      "time_period": "1970s"
+    },
+    {
+      "standard_name": "Motorcycle gang",
+      "original_text_name": "motorcycle gang",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Unnamed motorcycle gang outmuscled by the Dubois Brothers for drug market control.",
+      "time_period": "1970s"
+    },
+    {
+      "standard_name": "McSween Gang",
+      "original_text_name": "McSween gang",
+      "aliases": [
+        "McSweens"
+      ],
+      "type": "gang",
+      "context": "Irish-Canadian gang specializing in truck hijackings and theft, allied with Dubois Brothers before war.",
+      "time_period": "1957-1970s"
+    },
+    {
+      "standard_name": "Devil's Disciples Motorcycle Club",
+      "original_text_name": "Devil's Disciples Motorcycle Club",
+      "aliases": [
+        "Devil's Disciples"
+      ],
+      "type": "motorcycle_club",
+      "context": "French biker gang controlling drug trade in Saint-Louis Square, Montreal.",
+      "time_period": "1970s"
+    },
+    {
+      "standard_name": "Popeyes Motorcycle Club",
+      "original_text_name": "Popeyes Motorcycle Club",
+      "aliases": [
+        "Popeyes"
+      ],
+      "type": "motorcycle_club",
+      "context": "Biker gang hired by Dubois Brothers to fight Devil's Disciples, later managed drug sales.",
+      "time_period": "1970s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Dubois Brothers",
+      "target": "Cotroni family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Dubois Brothers rivaled the Cotroni family in the 1960s and 1970s, challenging their supremacy.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "source": "Dubois Brothers",
+      "target": "Irish gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Dubois Brothers wiped out the rival Irish gang to expand territory.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Dubois Brothers",
+      "target": "Motorcycle gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Dubois Brothers outmuscled a motorcycle gang to take over the lucrative drug market.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Dubois Brothers",
+      "target": "McSween Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "McSweens joined as associates in 1957, providing stolen goods in exchange for weapons and support.",
+      "time_period": "1957-1973"
+    },
+    {
+      "source": "Dubois Brothers",
+      "target": "McSween Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "War broke out in 1973 over territory; Dubois Brothers killed McSween members and took over their territory.",
+      "time_period": "1973-1975"
+    },
+    {
+      "source": "Dubois Brothers",
+      "target": "Devil's Disciples Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Dubois Brothers hired Popeyes to fight Devil's Disciples for control of Saint-Louis Square drug market.",
+      "time_period": "1974-1976"
+    },
+    {
+      "source": "Dubois Brothers",
+      "target": "Popeyes Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dubois Brothers hired Popeyes as muscle to fight Devil's Disciples; Popeyes later managed drug sales for Dubois.",
+      "time_period": "1974-1976"
+    }
+  ],
+  "source_file": "Dubois_brothers"
+}

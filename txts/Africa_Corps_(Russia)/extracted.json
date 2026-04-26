@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Africa Corps",
+      "original_text_name": "Africa Corps",
+      "aliases": [
+        "Африканский корпус",
+        "Afrikanskiy korpus"
+      ],
+      "type": "militia",
+      "context": "Russian state-controlled paramilitary group operating in Africa and Ukraine.",
+      "time_period": "2023-present"
+    },
+    {
+      "standard_name": "Wagner Group",
+      "original_text_name": "Wagner Group",
+      "aliases": [
+        "Wagner",
+        "PMC Wagner"
+      ],
+      "type": "militia",
+      "context": "Russian private military company that operated in Africa and Ukraine; largely replaced by Africa Corps.",
+      "time_period": "2014-2025"
+    },
+    {
+      "standard_name": "Bears Brigade",
+      "original_text_name": "Bears Brigade",
+      "aliases": [],
+      "type": "militia",
+      "context": "Russian government-controlled structure cooperating with Africa Corps in Africa.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Redut",
+      "original_text_name": "Redut",
+      "aliases": [],
+      "type": "militia",
+      "context": "Russian private military company; its leader involved in Africa Corps creation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Jama'at Nusrat al-Islam wal-Muslimin",
+      "original_text_name": "Jama'at Nusrat al-Islam wal-Muslimin",
+      "aliases": [
+        "JNIM"
+      ],
+      "type": "terrorist_organization",
+      "context": "Islamist militant group in the Sahel; abducted Russian geologists in Niger.",
+      "time_period": "2017-present"
+    },
+    {
+      "standard_name": "Azawad Liberation Front",
+      "original_text_name": "Azawad Liberation Front",
+      "aliases": [],
+      "type": "militia",
+      "context": "Tuareg separatist group in Mali; shot down Africa Corps helicopter.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Africa Corps",
+      "target": "Wagner Group",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "Africa Corps subsumed and rebranded Wagner Group's operations in Africa after Wagner's leadership died.",
+      "time_period": "2023-2025"
+    },
+    {
+      "source": "Africa Corps",
+      "target": "Bears Brigade",
+      "relationship": "alliance",
+      "context": "Africa Corps cooperates with Bears Brigade in Africa.",
+      "time_period": null
+    },
+    {
+      "source": "Africa Corps",
+      "target": "Redut",
+      "relationship": "alliance",
+      "context": "Redut's leader was involved in creating Africa Corps; both are government-controlled.",
+      "time_period": null
+    },
+    {
+      "source": "Africa Corps",
+      "target": "Jama'at Nusrat al-Islam wal-Muslimin",
+      "relationship": "rivalry",
+      "context": "Africa Corps rescued hostages abducted by JNIM in Niger.",
+      "time_period": "2024-2026"
+    },
+    {
+      "source": "Africa Corps",
+      "target": "Azawad Liberation Front",
+      "relationship": "rivalry",
+      "context": "Azawad Liberation Front shot down an Africa Corps helicopter in Mali.",
+      "time_period": "2026"
+    }
+  ],
+  "source_file": "Africa_Corps_(Russia)"
+}

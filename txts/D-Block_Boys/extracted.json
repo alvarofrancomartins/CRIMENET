@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "D-Block Boys",
+      "original_text_name": "D-Block Boys",
+      "aliases": [
+        "DBG",
+        "D-Block Gang",
+        "D-Block clique"
+      ],
+      "type": "gang",
+      "context": "American street gang in Algiers, New Orleans, involved in drug trafficking and murders.",
+      "time_period": "2004-2017"
+    },
+    {
+      "standard_name": "Fischer Fools",
+      "original_text_name": "Fischer Fools",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied gang mentioned in the infobox as allies of D-Block Boys.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "D-Block Boys",
+      "target": "Fischer Fools",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The infobox lists Fischer Fools as allies of D-Block Boys.",
+      "time_period": null
+    }
+  ],
+  "source_file": "D-Block_Boys"
+}

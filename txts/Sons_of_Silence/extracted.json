@@ -1,0 +1,234 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sons of Silence",
+      "original_text_name": "Sons of Silence",
+      "aliases": [
+        "SOSMC",
+        "Sons of Silence Motorcycle Club"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club founded in 1966 in Colorado, involved in drug trafficking, murder, and other crimes.",
+      "time_period": "1966-present"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Major outlaw motorcycle club, allied with Sons of Silence.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bandidos",
+      "original_text_name": "Bandidos",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Major outlaw motorcycle club, part of the 'big five' biker gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Outlaws",
+      "original_text_name": "Outlaws",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Major outlaw motorcycle club, rival of Sons of Silence.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Pagans",
+      "original_text_name": "Pagans",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Major outlaw motorcycle club, part of the 'big five' biker gangs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mongols",
+      "original_text_name": "Mongols",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Major outlaw motorcycle club, surpassed Sons of Silence in membership.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Iron Horsemen",
+      "original_text_name": "Iron Horsemen",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Motorcycle club allied with Sons of Silence.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dead Men",
+      "original_text_name": "Dead Men",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Motorcycle club involved in a power struggle with Sons of Silence in 1972.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Philtown",
+      "original_text_name": "Philtown",
+      "aliases": [],
+      "type": "gang",
+      "context": "Group involved in a power struggle with Sons of Silence in 1972.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Barhoppers Motorcycle Club",
+      "original_text_name": "Barhoppers Motorcycle Club",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Motorcycle club whose president's wife provided a mobile drug lab to Sons of Silence.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Diablos Lobos",
+      "original_text_name": "Diablos Lobos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang involved in a turf war with Sons of Silence in 1983.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Invaders",
+      "original_text_name": "Invaders",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Motorcycle gang involved in a bar fight and shootings with Sons of Silence.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Diablos",
+      "original_text_name": "Diablos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang that, along with Sons of Silence, is a primary wholesaler of methamphetamine in Vigo County, Indiana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Iron Order Motorcycle Club",
+      "original_text_name": "Iron Order Motorcycle Club",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Motorcycle club that had a conflict with Sons of Silence in 2014.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bad 7",
+      "original_text_name": "Bad 7",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Rival motorcycle club, members assaulted by Sons of Silence in Wyoming.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Sons of Silence",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sons of Silence have an alliance with Hells Angels, which enabled their expansion.",
+      "time_period": "since 1968"
+    },
+    {
+      "source": "Sons of Silence",
+      "target": "Iron Horsemen",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sons of Silence are allied with Iron Horsemen.",
+      "time_period": null
+    },
+    {
+      "source": "Sons of Silence",
+      "target": "Outlaws",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sons of Silence are rivals of Outlaws, with a history of violent conflict.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "source": "Sons of Silence",
+      "target": "Dead Men",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sons of Silence had a power struggle with Dead Men in 1972.",
+      "time_period": "1972"
+    },
+    {
+      "source": "Sons of Silence",
+      "target": "Philtown",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sons of Silence had a power struggle with Philtown in 1972.",
+      "time_period": "1972"
+    },
+    {
+      "source": "Sons of Silence",
+      "target": "Diablos Lobos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sons of Silence were involved in a turf war with Diablos Lobos in 1983.",
+      "time_period": "1983"
+    },
+    {
+      "source": "Sons of Silence",
+      "target": "Invaders",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sons of Silence had a bar fight and shootings with Invaders.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Sons of Silence",
+      "target": "Iron Order Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sons of Silence had a conflict with Iron Order Motorcycle Club in 2014.",
+      "time_period": "2014"
+    },
+    {
+      "source": "Sons of Silence",
+      "target": "Barhoppers Motorcycle Club",
+      "relationship": "other",
+      "detail": "drug supply",
+      "context": "Sons of Silence obtained a mobile drug lab from the wife of Barhoppers president.",
+      "time_period": "1983"
+    },
+    {
+      "source": "Sons of Silence",
+      "target": "Diablos",
+      "relationship": "other",
+      "detail": "cooperation",
+      "context": "Sons of Silence and Diablos are primary wholesalers of methamphetamine in Vigo County.",
+      "time_period": null
+    },
+    {
+      "source": "Sons of Silence",
+      "target": "Hells Angels",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Feud between Sons of Silence and Hells Angels linked to a fire in Fargo in 2019.",
+      "time_period": "2019"
+    },
+    {
+      "source": "Sons of Silence",
+      "target": "Iron Horsemen",
+      "relationship": "other",
+      "detail": "traveled together",
+      "context": "Members of both clubs were stopped together in 1997 while traveling to Sturgis.",
+      "time_period": "1997"
+    },
+    {
+      "source": "Sons of Silence",
+      "target": "Bad 7",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sons of Silence members assaulted a Bad 7 member and stole his colors in 2017.",
+      "time_period": "2017"
+    }
+  ],
+  "source_file": "Sons_of_Silence"
+}

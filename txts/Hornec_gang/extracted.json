@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hornec gang",
+      "original_text_name": "Hornec gang",
+      "aliases": [
+        "the H",
+        "the Montreuil gang",
+        "Hornec family",
+        "Hornec clan"
+      ],
+      "type": "gang",
+      "context": "Gitanes criminal group from Paris, controls racket, drug dealing, illegal slot machines.",
+      "time_period": "1994-present"
+    },
+    {
+      "standard_name": "Corsican mafia",
+      "original_text_name": "Corsican mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Criminal organization from Corsica, allied with Hornec gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Maghrebian gangs",
+      "original_text_name": "Maghrebian gangs",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gangs of Maghrebi origin in Paris, connected with Hornec gang.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hornec gang",
+      "target": "Corsican mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hornec gang has good connections with the Corsican mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Hornec gang",
+      "target": "Maghrebian gangs",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hornec gang has good connections with Maghrebian gangs.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Hornec_gang"
+}

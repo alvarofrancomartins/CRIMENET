@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Rosenzweig Gang",
+      "original_text_name": "Rosenzweig's organization",
+      "aliases": [
+        "Rosenzweig Gang"
+      ],
+      "type": "gang",
+      "context": "New York City labor slugging gang, controlled strikebreaking on Lower East Side.",
+      "time_period": "1907-1915"
+    },
+    {
+      "standard_name": "Fein Gang",
+      "original_text_name": "Benny Fein",
+      "aliases": [
+        "Dopey Benny Fein's gang"
+      ],
+      "type": "gang",
+      "context": "New York City labor slugging gang, allied with Rosenzweig during Labor Slugger Wars.",
+      "time_period": "1910s"
+    },
+    {
+      "standard_name": "Paul Gang",
+      "original_text_name": "Philip \"Pinchey\" Paul",
+      "aliases": [
+        "Pinchey Paul's gang"
+      ],
+      "type": "gang",
+      "context": "Rival labor slugging gang that warred with Rosenzweig in 1913-1914.",
+      "time_period": "1910s"
+    },
+    {
+      "standard_name": "Gordon Gang",
+      "original_text_name": "Waxey Gordon",
+      "aliases": [
+        "Waxey Gordon's gang"
+      ],
+      "type": "gang",
+      "context": "Former lieutenant of Rosenzweig who warned him not to reform his gang.",
+      "time_period": "1920s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Rosenzweig Gang",
+      "target": "Fein Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Rosenzweig was an ally of Benny Fein during the Labor Slugger Wars.",
+      "time_period": "1914-1917"
+    },
+    {
+      "source": "Rosenzweig Gang",
+      "target": "Paul Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Philip Paul started a war with Rosenzweig in 1913, ending with Paul's death in 1914.",
+      "time_period": "1913-1914"
+    },
+    {
+      "source": "Rosenzweig Gang",
+      "target": "Gordon Gang",
+      "relationship": "other",
+      "detail": "former lieutenant",
+      "context": "Waxey Gordon was a former lieutenant of Rosenzweig who warned him against reforming his gang.",
+      "time_period": "1925"
+    }
+  ],
+  "source_file": "Joseph_Rosenzweig"
+}

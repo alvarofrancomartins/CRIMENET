@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Baltimore Crew",
+      "original_text_name": "Baltimore Crew",
+      "aliases": [
+        "Baltimore Cosca"
+      ],
+      "type": "faction",
+      "context": "Italian-American organized crime group operating in Baltimore, Maryland, from 1900s to 1990s.",
+      "time_period": "1900-1990s"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [
+        "Gambino family"
+      ],
+      "type": "mafia",
+      "context": "New York-based Mafia family that controlled the Baltimore Crew from 1955 onward.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "clan",
+      "context": "Italian organized crime group; a member was killed by Patsy Corbi in 1923.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Baltimore Crew",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Baltimore Crew became a faction of the Gambino crime family in 1955, with local leaders answering to Gambino capos.",
+      "time_period": "1955-1990s"
+    },
+    {
+      "source": "Baltimore Crew",
+      "target": "Camorra",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Patsy Corbi of the Baltimore Crew murdered a reputed Camorra member in 1923.",
+      "time_period": "1923"
+    }
+  ],
+  "source_file": "Baltimore_Crew"
+}

@@ -1,0 +1,86 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Brazilian Integralist Action",
+      "original_text_name": "Ação Integralista Brasileira",
+      "aliases": [
+        "AIB",
+        "Brazilian Integralist Action"
+      ],
+      "type": "other",
+      "context": "Political movement with paramilitary characteristics, active in Brazil from 1932 to 1938.",
+      "time_period": "1932-1938"
+    },
+    {
+      "standard_name": "Popular Nationalist Insurgency Command of the Large Brazilian Integralist Family",
+      "original_text_name": "Popular Nationalist Insurgency Command of the Large Brazilian Integralist Family",
+      "aliases": [],
+      "type": "other",
+      "context": "Group claiming responsibility for a firebombing in Rio de Janeiro in 2019.",
+      "time_period": "2019"
+    },
+    {
+      "standard_name": "Frente Integralista Brasileira",
+      "original_text_name": "Frente Integralista Brasileira",
+      "aliases": [
+        "FIB"
+      ],
+      "type": "other",
+      "context": "Small remnant group upholding integralist ideology in Brazil today.",
+      "time_period": "21st century"
+    },
+    {
+      "standard_name": "Movimento Integralista e Linearista Brasileiro",
+      "original_text_name": "Movimento Integralista e Linearista Brasileiro",
+      "aliases": [
+        "MIL-B"
+      ],
+      "type": "other",
+      "context": "Small remnant group upholding integralist ideology in Brazil today.",
+      "time_period": "21st century"
+    },
+    {
+      "standard_name": "300 do Brasil",
+      "original_text_name": "300 do Brasil",
+      "aliases": [],
+      "type": "other",
+      "context": "Armed group with anti-democratic actions, active in Bolsonaro government.",
+      "time_period": "2019-2022"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Popular Nationalist Insurgency Command of the Large Brazilian Integralist Family",
+      "target": "Brazilian Integralist Action",
+      "relationship": "other",
+      "detail": "ideological successor",
+      "context": "The group claims inspiration from integralist ideology originally promoted by AIB.",
+      "time_period": "2019"
+    },
+    {
+      "source": "Frente Integralista Brasileira",
+      "target": "Brazilian Integralist Action",
+      "relationship": "other",
+      "detail": "ideological successor",
+      "context": "FIB is a modern remnant group that upholds the strict integralist ideology of AIB.",
+      "time_period": "21st century"
+    },
+    {
+      "source": "Movimento Integralista e Linearista Brasileiro",
+      "target": "Brazilian Integralist Action",
+      "relationship": "other",
+      "detail": "ideological successor",
+      "context": "MIL-B is a modern remnant group that upholds the strict integralist ideology of AIB.",
+      "time_period": "21st century"
+    },
+    {
+      "source": "300 do Brasil",
+      "target": "Frente Integralista Brasileira",
+      "relationship": "other",
+      "detail": "shared membership",
+      "context": "Sara Winter, a member of 300 do Brasil, also sympathized with integralist ideas and worked in the Bolsonaro government alongside FIB members.",
+      "time_period": "2019-2022"
+    }
+  ],
+  "source_file": "Brazilian_integralism"
+}

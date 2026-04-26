@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Fresno Bulldogs",
+      "original_text_name": "Fresno Bulldogs",
+      "aliases": [
+        "BDS",
+        "FBD",
+        "F-14",
+        "F-14ers",
+        "Bulldogs"
+      ],
+      "type": "gang",
+      "context": "Mexican American street and prison gang based in Fresno, California, involved in drug trafficking and other crimes.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Southern California-based Hispanic prison gang, rival of Fresno Bulldogs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [
+        "La Eme"
+      ],
+      "type": "gang",
+      "context": "Prison gang that controls Sureños, rival of Fresno Bulldogs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Norteños",
+      "original_text_name": "Norteños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Northern California-based Hispanic prison gang, former ally turned rival of Fresno Bulldogs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nuestra Familia",
+      "original_text_name": "Nuestra Familia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang that controls Norteños, rival of Fresno Bulldogs.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Fresno Bulldogs",
+      "target": "Norteños",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Fresno Bulldogs went to war with Norteños in 1986, leading to the 'Red Wave' prison war.",
+      "time_period": "1986-present"
+    },
+    {
+      "source": "Fresno Bulldogs",
+      "target": "Sureños",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Fresno Bulldogs are conflicted with Sureños and are unaffiliated with them.",
+      "time_period": null
+    },
+    {
+      "source": "Fresno Bulldogs",
+      "target": "Mexican Mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Mexican Mafia is listed as a rival of Fresno Bulldogs.",
+      "time_period": null
+    },
+    {
+      "source": "Fresno Bulldogs",
+      "target": "Nuestra Familia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Nuestra Familia is listed as a rival of Fresno Bulldogs.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Fresno_Bulldogs"
+}

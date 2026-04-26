@@ -1,0 +1,313 @@
+{
+  "nodes": [
+    {
+      "standard_name": "La Línea",
+      "original_text_name": "La Línea",
+      "aliases": [
+        "NJC",
+        "New Juárez Cartel",
+        "The Line"
+      ],
+      "type": "faction",
+      "context": "Enforcement wing of the Juárez Cartel, involved in drug trafficking, extortion, and kidnappings in Ciudad Juárez.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Juárez Cartel",
+      "original_text_name": "Juárez Cartel",
+      "aliases": [
+        "Vicente Carrillo Fuentes' organization"
+      ],
+      "type": "cartel",
+      "context": "Drug trafficking cartel controlling key smuggling routes in Ciudad Juárez.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Barrio Azteca",
+      "original_text_name": "Barrio Azteca",
+      "aliases": [
+        "Los Aztecas"
+      ],
+      "type": "gang",
+      "context": "Prison and street gang allied with La Línea and Juárez Cartel, involved in drug trafficking and violence.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Major drug trafficking cartel, rival of Juárez Cartel and La Línea.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "CJNG"
+      ],
+      "type": "cartel",
+      "context": "Powerful Mexican cartel allied with La Línea since 2021 to fight Sinaloa Cartel.",
+      "time_period": "2010s-present"
+    },
+    {
+      "standard_name": "Los Mexicles",
+      "original_text_name": "Los Mexicles",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang allied with Artistas Asesinos and Sinaloa Cartel, operating in Chihuahua.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Artistas Asesinos",
+      "original_text_name": "Artistas Asesinos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang allied with Los Mexicles and Sinaloa Cartel in Chihuahua.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Former enforcers turned cartel, allied with La Línea in 2011.",
+      "time_period": "1999-present"
+    },
+    {
+      "standard_name": "Beltrán-Leyva Cartel",
+      "original_text_name": "Beltrán-Leyva Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Former Sinaloa allies turned rivals, possibly trained La Línea.",
+      "time_period": "2000-2010"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Former employers of Los Zetas, allied with Sinaloa Cartel.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Extinct cartel that allied with Sinaloa and Gulf Cartels.",
+      "time_period": "2006-2011"
+    },
+    {
+      "standard_name": "Gente Nueva",
+      "original_text_name": "Gente Nueva",
+      "aliases": [],
+      "type": "faction",
+      "context": "Armed wing of the Sinaloa Cartel.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Los Ántrax",
+      "original_text_name": "Los Ántrax",
+      "aliases": [],
+      "type": "gang",
+      "context": "Sinaloa Cartel enforcer group, rival of La Línea.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "South Pacific Cartel",
+      "original_text_name": "South Pacific Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Splinter faction of Beltrán-Leyva Cartel.",
+      "time_period": "2010s"
+    },
+    {
+      "standard_name": "La Mano Con Ojos",
+      "original_text_name": "La Mano Con Ojos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Splinter faction of Beltrán-Leyva Cartel.",
+      "time_period": "2010s"
+    },
+    {
+      "standard_name": "Knights Templar Cartel",
+      "original_text_name": "Knights Templar Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Splinter from La Familia Michoacana.",
+      "time_period": "2011-2017"
+    },
+    {
+      "standard_name": "La Empresa",
+      "original_text_name": "La Empresa",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group possibly related to La Línea, involved in attacks on police.",
+      "time_period": "2010s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "La Línea",
+      "target": "Juárez Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Línea is the leading faction and enforcement wing of the Juárez Cartel.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "La Línea",
+      "target": "Barrio Azteca",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Línea formed an alliance with Barrio Azteca in 2008 to fight the Sinaloa Cartel.",
+      "time_period": "2008-present"
+    },
+    {
+      "source": "La Línea",
+      "target": "Sinaloa Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "La Línea fights against the Sinaloa Cartel for control of Ciudad Juárez.",
+      "time_period": "2008-present"
+    },
+    {
+      "source": "Juárez Cartel",
+      "target": "Sinaloa Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Juárez Cartel and Sinaloa Cartel are rival drug trafficking organizations.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "La Línea",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Línea formed an alliance with CJNG in 2021 to fight Sinaloa Cartel.",
+      "time_period": "2021-present"
+    },
+    {
+      "source": "Los Mexicles",
+      "target": "Artistas Asesinos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Mexicles fight alongside Artistas Asesinos and the Sinaloa Cartel.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Los Mexicles",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Mexicles are allied with the Sinaloa Cartel for control of smuggling routes.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Artistas Asesinos",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Artistas Asesinos are allied with the Sinaloa Cartel.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "La Línea",
+      "target": "Los Zetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Línea announced an alliance with Los Zetas in June 2011.",
+      "time_period": "2011"
+    },
+    {
+      "source": "La Línea",
+      "target": "Beltrán-Leyva Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Beltrán-Leyva Cartel possibly trained La Línea soldiers.",
+      "time_period": "2008-2010"
+    },
+    {
+      "source": "La Línea",
+      "target": "Gente Nueva",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gente Nueva is Sinaloa's armed wing, rival of La Línea.",
+      "time_period": "2008-present"
+    },
+    {
+      "source": "La Línea",
+      "target": "Los Ántrax",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Ántrax are Sinaloa enforcers, rivals of La Línea.",
+      "time_period": "2008-present"
+    },
+    {
+      "source": "La Línea",
+      "target": "Los Mexicles",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Mexicles are allied with Sinaloa, rivals of La Línea.",
+      "time_period": "2008-present"
+    },
+    {
+      "source": "La Línea",
+      "target": "Artistas Asesinos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Artistas Asesinos are allied with Sinaloa, rivals of La Línea.",
+      "time_period": "2008-present"
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sinaloa Cartel formed an alliance with Gulf Cartel.",
+      "time_period": "2011"
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "La Familia Michoacana",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sinaloa Cartel allied with La Familia Michoacana in the 'New Federation'.",
+      "time_period": "2011"
+    },
+    {
+      "source": "Los Zetas",
+      "target": "Beltrán-Leyva Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Zetas had an alliance with Beltrán-Leyva Cartel.",
+      "time_period": "2011"
+    },
+    {
+      "source": "Beltrán-Leyva Cartel",
+      "target": "South Pacific Cartel",
+      "relationship": "other",
+      "detail": "splintered into",
+      "context": "Beltrán-Leyva Cartel broke into South Pacific Cartel after arrests.",
+      "time_period": "2010s"
+    },
+    {
+      "source": "Beltrán-Leyva Cartel",
+      "target": "La Mano Con Ojos",
+      "relationship": "other",
+      "detail": "splintered into",
+      "context": "Beltrán-Leyva Cartel broke into La Mano Con Ojos after arrests.",
+      "time_period": "2010s"
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Knights Templar Cartel",
+      "relationship": "other",
+      "detail": "splintered into",
+      "context": "La Familia Michoacana splintered into Knights Templar Cartel.",
+      "time_period": "2011"
+    }
+  ],
+  "source_file": "La_Línea_(gang)"
+}

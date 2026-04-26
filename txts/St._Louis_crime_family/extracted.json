@@ -1,0 +1,206 @@
+{
+  "nodes": [
+    {
+      "standard_name": "St. Louis crime family",
+      "original_text_name": "St. Louis crime family",
+      "aliases": [
+        "Giordano crime family",
+        "St. Louis Mafia"
+      ],
+      "type": "mafia",
+      "context": "Italian-American Mafia crime family based in St. Louis, Missouri, active from c. 1890s to 2014.",
+      "time_period": "c. 1890s–2014"
+    },
+    {
+      "standard_name": "Green Ones",
+      "original_text_name": "Green Ones",
+      "aliases": [],
+      "type": "gang",
+      "context": "Sicilian gang formed in 1915 by Vito Giannola, John Giannola, and Alphonse Palizzola; active in St. Louis bootlegging wars.",
+      "time_period": "1915–1927"
+    },
+    {
+      "standard_name": "Pillow Gang",
+      "original_text_name": "Pillow gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Italian gang active since 1910, led by Pasquale Santino and later Carmelo Fresina; fought in bootlegging wars.",
+      "time_period": "1910–1930s"
+    },
+    {
+      "standard_name": "Russo Gang",
+      "original_text_name": "Russo gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Splinter group of the Green Ones led by Tony Russo; allied with Pillow Gang then turned rival.",
+      "time_period": "1920s–1930s"
+    },
+    {
+      "standard_name": "Egan's Rats",
+      "original_text_name": "Egan's Rats",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ethnic gang in St. Louis involved in bootlegging wars during Prohibition.",
+      "time_period": "early 1900s–1920s"
+    },
+    {
+      "standard_name": "Hogan Gang",
+      "original_text_name": "Hogan Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ethnic gang in St. Louis involved in bootlegging wars during Prohibition.",
+      "time_period": "early 1900s–1920s"
+    },
+    {
+      "standard_name": "Shelton Gang",
+      "original_text_name": "Shelton Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ethnic gang in St. Louis involved in bootlegging wars during Prohibition.",
+      "time_period": "early 1900s–1920s"
+    },
+    {
+      "standard_name": "Cuckoos",
+      "original_text_name": "Cuckoos",
+      "aliases": [
+        "Cuckoos Gang"
+      ],
+      "type": "gang",
+      "context": "Ethnic gang in St. Louis involved in bootlegging wars during Prohibition.",
+      "time_period": "early 1900s–1920s"
+    },
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Allied with St. Louis crime family according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cleveland crime family",
+      "original_text_name": "Cleveland crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Allied with St. Louis crime family according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Colorado crime family",
+      "original_text_name": "Colorado crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Allied with St. Louis crime family according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Detroit Partnership",
+      "original_text_name": "Detroit Partnership",
+      "aliases": [
+        "Detroit crime family"
+      ],
+      "type": "mafia",
+      "context": "Allied with St. Louis crime family; Detroit mobsters collaborated with St. Louis boss Giordano in Las Vegas.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kansas City crime family",
+      "original_text_name": "Kansas City crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "St. Louis family declared independence from Kansas City family under Giordano; listed as ally in infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Green Ones",
+      "target": "Pillow Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Green Ones battled with the Pillow Gang during the bootlegging wars.",
+      "time_period": "1920s"
+    },
+    {
+      "source": "Green Ones",
+      "target": "Russo Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Russo Gang was a splinter group of the Green Ones that later fought against them.",
+      "time_period": "1920s–1930s"
+    },
+    {
+      "source": "Green Ones",
+      "target": "Egan's Rats",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Vito Giannola fought with members of Egan's Rats over bootlegging rackets.",
+      "time_period": "1920s"
+    },
+    {
+      "source": "Green Ones",
+      "target": "Cuckoos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Vito Giannola fought with members of the Cuckoos Gang over bootlegging rackets.",
+      "time_period": "1920s"
+    },
+    {
+      "source": "Pillow Gang",
+      "target": "Russo Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Carmelo Fresina of the Pillow Gang formed an alliance with the Russo Gang to battle the Green Ones.",
+      "time_period": "1927–1928"
+    },
+    {
+      "source": "Pillow Gang",
+      "target": "Russo Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "After the Russo Gang lost members, they blamed the Pillow Gang for betrayal and fought them.",
+      "time_period": "1928–1931"
+    },
+    {
+      "source": "St. Louis crime family",
+      "target": "Kansas City crime family",
+      "relationship": "other",
+      "detail": "declared independence",
+      "context": "Under Anthony Giordano, the St. Louis family declared independence from the Kansas City crime family.",
+      "time_period": "1960–1980"
+    },
+    {
+      "source": "St. Louis crime family",
+      "target": "Detroit Partnership",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Giordano collaborated with Detroit mobsters Zerilli and Polizzi in a Las Vegas casino scheme.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "St. Louis crime family",
+      "target": "Chicago Outfit",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "St. Louis crime family",
+      "target": "Cleveland crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "St. Louis crime family",
+      "target": "Colorado crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "St._Louis_crime_family"
+}

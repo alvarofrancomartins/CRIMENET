@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Shower Posse",
+      "original_text_name": "Shower Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "One of the two largest Jamaican posses in the U.S., involved in drug trafficking and violence.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Spangler Posse",
+      "original_text_name": "Spangler Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "One of the two largest Jamaican posses in the U.S., involved in drug trafficking and violence.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "One Order Gang",
+      "original_text_name": "One Order Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posse whose alleged head was murdered in 2006, sparking a riot.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Banton Posse",
+      "original_text_name": "Banton Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posse operating in Miami, New York City, and Washington, D.C.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cuban Posse",
+      "original_text_name": "Cuban Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posse operating in Philadelphia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dog Posse",
+      "original_text_name": "Dog Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posse operating in Boston and Philadelphia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dunkirk Boys",
+      "original_text_name": "Dunkirk Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posse operating in New York City.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Fatherless Crew",
+      "original_text_name": "Fatherless Crew",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posse operating in Kingston and New York City.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Jungle Posse",
+      "original_text_name": "Jungle Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posse operating in Philadelphia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Montego Bay Posse",
+      "original_text_name": "Montego Bay Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posse operating in Philadelphia and Pittsburgh.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ragamuffin Posse",
+      "original_text_name": "Ragamuffin Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posse operating in Philadelphia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Reems Posse",
+      "original_text_name": "Reems Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posse operating in Philadelphia and Pittsburgh.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Riverton Posse",
+      "original_text_name": "Riverton Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posse operating in Washington, D.C.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Super Posse",
+      "original_text_name": "Super Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posse operating in Washington, D.C.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Spanish Town Posse",
+      "original_text_name": "Spanish Town Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posse operating in Philadelphia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Tel Aviv Posse",
+      "original_text_name": "Tel Aviv Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posse operating in Boston, Miami, New York City, and Washington, D.C.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Valley Boys",
+      "original_text_name": "Valley Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posse operating in New York City.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Waterhouse Posse",
+      "original_text_name": "Waterhouse Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican posse operating in Kansas City, Philadelphia and Washington, D.C.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Shower Posse",
+      "target": "Spangler Posse",
+      "relationship": "other",
+      "detail": "splinter groups",
+      "context": "Many other posses in the U.S. are splinter groups of the Shower and Spangler posses.",
+      "time_period": null
+    },
+    {
+      "source": "Shower Posse",
+      "target": "Jamaican posses",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Shower Posse is a subgroup of Jamaican posses, which are a general category.",
+      "time_period": null
+    },
+    {
+      "source": "Spangler Posse",
+      "target": "Jamaican posses",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Spangler Posse is a subgroup of Jamaican posses.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Jamaican_posse"
+}

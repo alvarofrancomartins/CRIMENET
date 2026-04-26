@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Khánh Trắng Organization",
+      "original_text_name": "Khánh Trắng's gang",
+      "aliases": [
+        "Dong Xuan Labor Union",
+        "Worker's Union"
+      ],
+      "type": "gang",
+      "context": "A Hanoi-based criminal organization led by Khánh Trắng, involved in extortion, murder, and tax evasion, operating under the cover of a labor union.",
+      "time_period": "1989-1998"
+    },
+    {
+      "standard_name": "Hung Cuba Group",
+      "original_text_name": "Hung Cuba's group",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival gang controlling the bus station and Long Bien market areas in Hanoi, led by Hung Cuba.",
+      "time_period": "1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Khánh Trắng Organization",
+      "target": "Hung Cuba Group",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Khánh Trắng's gang blockaded routes to force Hung Cuba's submission, then merged the groups under his control.",
+      "time_period": "1994"
+    }
+  ],
+  "source_file": "Khánh_Trắng"
+}

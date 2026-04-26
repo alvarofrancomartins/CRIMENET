@@ -1,0 +1,213 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Redd Alert",
+      "original_text_name": "Redd Alert",
+      "aliases": [
+        "RA"
+      ],
+      "type": "gang",
+      "context": "Indigenous Canadian criminal gang operating as both a prison gang and a street gang in Western Canada.",
+      "time_period": "1999-present"
+    },
+    {
+      "standard_name": "Indian Posse",
+      "original_text_name": "Indian Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Aboriginal gang within the Alberta prison system.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Manitoba Warriors",
+      "original_text_name": "Manitoba Warriors",
+      "aliases": [],
+      "type": "gang",
+      "context": "Aboriginal gang within the Alberta prison system.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Edmonton Northside Boys",
+      "original_text_name": "Edmonton Northside Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang from which Redd Alert may have originated as an offshoot.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels Motorcycle Club",
+      "aliases": [
+        "Hells Angels"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club allied with Redd Alert, for whom they reportedly sell drugs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Independent Soldiers",
+      "original_text_name": "Independent Soldiers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Organized crime gang active across Canada's Western provinces and internationally, affiliated with Redd Alert.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Brothers Keepers",
+      "original_text_name": "Brothers Keepers (gang)",
+      "aliases": [],
+      "type": "gang",
+      "context": "Organized crime gang active across Canada's Western provinces and internationally, affiliated with Redd Alert.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Native Syndicate",
+      "original_text_name": "Native Syndicate",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of Redd Alert listed in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "ASAP",
+      "original_text_name": "ASAP",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Redd Alert listed in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Red Scorpions",
+      "original_text_name": "Red Scorpions",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Redd Alert listed in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "United Nations",
+      "original_text_name": "United Nations (gang)",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Redd Alert listed in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kang crime family",
+      "original_text_name": "Kang crime family (BIBO gang)",
+      "aliases": [
+        "BIBO gang"
+      ],
+      "type": "gang",
+      "context": "Rival gang of Redd Alert listed in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "White Boy Posse",
+      "original_text_name": "White Boy Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Redd Alert listed in infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Redd Alert",
+      "target": "Indian Posse",
+      "relationship": "other",
+      "detail": "alternative to joining",
+      "context": "Redd Alert was established as an alternative to joining Indian Posse.",
+      "time_period": "1999"
+    },
+    {
+      "source": "Redd Alert",
+      "target": "Manitoba Warriors",
+      "relationship": "other",
+      "detail": "alternative to joining",
+      "context": "Redd Alert was established as an alternative to joining Manitoba Warriors.",
+      "time_period": "1999"
+    },
+    {
+      "source": "Redd Alert",
+      "target": "Edmonton Northside Boys",
+      "relationship": "other",
+      "detail": "possible offshoot",
+      "context": "Redd Alert may have originated as an offshoot of Edmonton Northside Boys.",
+      "time_period": null
+    },
+    {
+      "source": "Redd Alert",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Redd Alert maintain an alliance with Hells Angels, for whom they reportedly sell drugs.",
+      "time_period": null
+    },
+    {
+      "source": "Redd Alert",
+      "target": "Independent Soldiers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Redd Alert are affiliated with Independent Soldiers.",
+      "time_period": null
+    },
+    {
+      "source": "Redd Alert",
+      "target": "Brothers Keepers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Redd Alert are affiliated with Brothers Keepers.",
+      "time_period": null
+    },
+    {
+      "source": "Redd Alert",
+      "target": "Native Syndicate",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Native Syndicate is listed as an ally of Redd Alert.",
+      "time_period": null
+    },
+    {
+      "source": "Redd Alert",
+      "target": "ASAP",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "ASAP is listed as a rival of Redd Alert.",
+      "time_period": null
+    },
+    {
+      "source": "Redd Alert",
+      "target": "Red Scorpions",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Red Scorpions is listed as a rival of Redd Alert.",
+      "time_period": null
+    },
+    {
+      "source": "Redd Alert",
+      "target": "United Nations",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "United Nations is listed as a rival of Redd Alert.",
+      "time_period": null
+    },
+    {
+      "source": "Redd Alert",
+      "target": "Kang crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kang crime family is listed as a rival of Redd Alert.",
+      "time_period": null
+    },
+    {
+      "source": "Redd Alert",
+      "target": "White Boy Posse",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "White Boy Posse is listed as a rival of Redd Alert.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Redd_Alert"
+}

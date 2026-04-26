@@ -1,0 +1,110 @@
+{
+  "nodes": [
+    {
+      "standard_name": "La Empresa",
+      "original_text_name": "La Empresa",
+      "aliases": [
+        "The New Company",
+        "The Enterprise",
+        "La Nueva Empresa",
+        "A empresa"
+      ],
+      "type": "cartel",
+      "context": "Colombian drug trafficking cartel based in Medellín, formed in late 1990s.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Juárez Cartel",
+      "original_text_name": "Juárez Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel based in Ciudad Juárez, active since 1990s.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "La Linea",
+      "original_text_name": "La Linea",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mexican gang allied with Juárez Cartel, operates in border region.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Barrio Azteca",
+      "original_text_name": "Barrio Azteca",
+      "aliases": [],
+      "type": "gang",
+      "context": "Mexican-American prison gang and street gang, allied with Juárez Cartel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, rival of La Empresa.",
+      "time_period": null
+    },
+    {
+      "standard_name": "The Golden Triangle Alliance",
+      "original_text_name": "The Golden Triangle Alliance",
+      "aliases": [
+        "La Alianza Triángulo de Oro"
+      ],
+      "type": "other",
+      "context": "Alliance of Juárez members and drug lords from Chihuahua, Durango, and Sinaloa.",
+      "time_period": "early 2000s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "La Empresa",
+      "target": "Juárez Cartel",
+      "relationship": "other",
+      "detail": "breakaway",
+      "context": "La Empresa formed as a breakaway cartel from the Juárez Cartel.",
+      "time_period": "late 1990s"
+    },
+    {
+      "source": "La Empresa",
+      "target": "Juárez Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Empresa is listed as an ally of the Juárez Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "La Empresa",
+      "target": "La Linea",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Empresa is listed as an ally of La Linea.",
+      "time_period": null
+    },
+    {
+      "source": "La Empresa",
+      "target": "Barrio Azteca",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Empresa is listed as an ally of Barrio Azteca.",
+      "time_period": null
+    },
+    {
+      "source": "La Empresa",
+      "target": "Sinaloa Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "La Empresa is listed as a rival of the Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Juárez Cartel",
+      "target": "The Golden Triangle Alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Juárez Cartel members formed the Golden Triangle Alliance with other drug lords.",
+      "time_period": "early 2000s"
+    }
+  ],
+  "source_file": "La_Empresa"
+}

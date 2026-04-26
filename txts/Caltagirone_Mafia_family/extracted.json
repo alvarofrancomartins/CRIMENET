@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Caltagirone Mafia family",
+      "original_text_name": "Caltagirone Mafia family",
+      "aliases": [
+        "La Rocca Mafia clan",
+        "La Rocca family"
+      ],
+      "type": "mafia",
+      "context": "Crime family of Cosa Nostra based in Caltagirone, Sicily, involved in extortion, drug trafficking, and political manipulation.",
+      "time_period": "1982-present"
+    },
+    {
+      "standard_name": "Catania Mafia family",
+      "original_text_name": "Catania Mafia family",
+      "aliases": [
+        "Santapaola Mafia clan",
+        "Santapaola-Ercolano"
+      ],
+      "type": "mafia",
+      "context": "Mafia family based in Catania, Sicily, historically controlled Caltagirone area and allied with Caltagirone family.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Corleonesi",
+      "original_text_name": "Corleonesi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Powerful Cosa Nostra faction from Corleone, led by Totò Riina, allied with Caltagirone family.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Mazzei clan",
+      "original_text_name": "Mazzei clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Rival clan that attempted a coup against Santapaola leadership in Catania, supported by Gesualdo La Rocca.",
+      "time_period": "late 1990s"
+    },
+    {
+      "standard_name": "Nardo clan",
+      "original_text_name": "Nardo clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Criminal group from Lentini, maintains ties with Caltagirone family.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Ramacca Mafia family",
+      "original_text_name": "Ramacca Mafia family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family from Ramacca, listed as ally of Caltagirone family.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Caltagirone Mafia family",
+      "target": "Catania Mafia family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Caltagirone family was allied with Catania Mafia (Santapaola clan) and maintained longstanding loyalty.",
+      "time_period": "1980s-present"
+    },
+    {
+      "source": "Caltagirone Mafia family",
+      "target": "Corleonesi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Caltagirone family allied with Corleonesi led by Totò Riina, elevating its status.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Caltagirone Mafia family",
+      "target": "Mazzei clan",
+      "relationship": "other",
+      "detail": "brief support",
+      "context": "Gesualdo La Rocca supported Mazzei clan's attempted coup against Santapaola, straining alliances.",
+      "time_period": "late 1990s"
+    },
+    {
+      "source": "Caltagirone Mafia family",
+      "target": "Nardo clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Caltagirone family maintains ties with Nardo clan of Lentini.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Caltagirone Mafia family",
+      "target": "Ramacca Mafia family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ramacca Mafia family is listed as an ally of Caltagirone family.",
+      "time_period": "unknown"
+    }
+  ],
+  "source_file": "Caltagirone_Mafia_family"
+}

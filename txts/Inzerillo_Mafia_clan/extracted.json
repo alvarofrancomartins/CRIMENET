@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Inzerillo Mafia clan",
+      "original_text_name": "Inzerillo Mafia clan",
+      "aliases": [
+        "Inzerillo family",
+        "Inzerillo clan"
+      ],
+      "type": "clan",
+      "context": "Sicilian Mafia clan based in Passo di Rigano, Palermo, involved in drug trafficking and money laundering.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [
+        "Gambino family",
+        "Gambinos"
+      ],
+      "type": "mafia",
+      "context": "American Mafia family based in New York, involved in various criminal activities.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Santa Maria di Gesù Mafia family",
+      "original_text_name": "Santa Maria di Gesù Mafia family",
+      "aliases": [],
+      "type": "clan",
+      "context": "Sicilian Mafia family from Palermo, allied with the Inzerillos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Greco Mafia clan",
+      "original_text_name": "Greco Mafia clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Sicilian Mafia clan, allied with the Inzerillos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Catania Mafia family",
+      "original_text_name": "Catania Mafia family",
+      "aliases": [],
+      "type": "clan",
+      "context": "Sicilian Mafia family from Catania, allied with the Inzerillos.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Corleonesi",
+      "original_text_name": "Corleonesi",
+      "aliases": [],
+      "type": "clan",
+      "context": "Sicilian Mafia faction from Corleone, rivals of the Inzerillos.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Passo di Rigano mafia family",
+      "original_text_name": "Passo di Rigano mafia family",
+      "aliases": [],
+      "type": "clan",
+      "context": "Sicilian Mafia family in Palermo, headed by Salvatore Inzerillo in the 1960s.",
+      "time_period": "1960s-1980s"
+    },
+    {
+      "standard_name": "American Cosa Nostra",
+      "original_text_name": "American Cosa Nostra",
+      "aliases": [],
+      "type": "mafia",
+      "context": "The American branch of the Mafia, which pressured the Sicilian Mafia Commission to pardon the Inzerillos.",
+      "time_period": "1900s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Inzerillo Mafia clan",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Associated through Carlo Gambino and John Gambino, involved in heroin trafficking.",
+      "time_period": "1960s-2000s"
+    },
+    {
+      "source": "Inzerillo Mafia clan",
+      "target": "Santa Maria di Gesù Mafia family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Historical allies, as listed in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Inzerillo Mafia clan",
+      "target": "Greco Mafia clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allies as listed in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Inzerillo Mafia clan",
+      "target": "Catania Mafia family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allies as listed in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Inzerillo Mafia clan",
+      "target": "Corleonesi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Overwhelmed in the Mafia war of 1981-1983, with many members killed by the Corleonesi.",
+      "time_period": "1981-1983"
+    },
+    {
+      "source": "Inzerillo Mafia clan",
+      "target": "Passo di Rigano mafia family",
+      "relationship": "other",
+      "detail": "historical predecessor",
+      "context": "Salvatore Inzerillo headed the Passo di Rigano family, which evolved into the Inzerillo clan.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Inzerillo Mafia clan",
+      "target": "American Cosa Nostra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The American Cosa Nostra pressured the Sicilian Commission to pardon the Inzerillos.",
+      "time_period": "1980s"
+    }
+  ],
+  "source_file": "Inzerillo_Mafia_clan"
+}

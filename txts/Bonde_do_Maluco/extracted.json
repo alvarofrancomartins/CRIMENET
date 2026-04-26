@@ -1,0 +1,184 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bonde do Maluco",
+      "original_text_name": "Bonde do Maluco",
+      "aliases": [
+        "BDM",
+        "Tram of the Crazy"
+      ],
+      "type": "gang",
+      "context": "Brazilian criminal organization from Bahia, involved in drug trafficking, robberies, kidnappings, and murders.",
+      "time_period": "2015-present"
+    },
+    {
+      "standard_name": "Caveira",
+      "original_text_name": "Caveira",
+      "aliases": [
+        "Skull"
+      ],
+      "type": "gang",
+      "context": "Defunct criminal faction that was the predecessor of Bonde do Maluco, led by bank robber Zé de Lessa.",
+      "time_period": "before 2015"
+    },
+    {
+      "standard_name": "Primeiro Comando da Capital",
+      "original_text_name": "Primeiro Comando da Capital",
+      "aliases": [
+        "PCC"
+      ],
+      "type": "gang",
+      "context": "Major Brazilian criminal organization, allied with Bonde do Maluco.",
+      "time_period": "1993-present"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "CV"
+      ],
+      "type": "gang",
+      "context": "Major Brazilian criminal organization, rival of Bonde do Maluco.",
+      "time_period": "1979-present"
+    },
+    {
+      "standard_name": "Katiara",
+      "original_text_name": "Katiara",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group in Bahia, rival of Bonde do Maluco.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Primeiro Comando de Eunápolis",
+      "original_text_name": "Primeiro Comando de Eunápolis",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group in the interior of Bahia, rival of Bonde do Maluco.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Terceiro Comando Puro",
+      "original_text_name": "Terceiro Comando Puro",
+      "aliases": [],
+      "type": "gang",
+      "context": "Brazilian criminal organization, ally of Bonde do Maluco.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Guardiões do Estado",
+      "original_text_name": "Guardiões do Estado",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group, ally of Bonde do Maluco.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nova Okaida",
+      "original_text_name": "Nova Okaida",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group, ally of Bonde do Maluco.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sindicato do Crime do Rio Grande do Norte",
+      "original_text_name": "Sindicato do Crime do Rio Grande do Norte",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal organization from Rio Grande do Norte, ally of Bonde do Maluco.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mercado do Povo Atitude",
+      "original_text_name": "Mercado do Povo Atitude",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group, ally of Bonde do Maluco.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bonde do Maluco",
+      "target": "Caveira",
+      "relationship": "other",
+      "detail": "offshoot",
+      "context": "Bonde do Maluco was born as an offshoot of the defunct faction Caveira.",
+      "time_period": "2015"
+    },
+    {
+      "source": "Bonde do Maluco",
+      "target": "Primeiro Comando da Capital",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bonde do Maluco is allied with the Primeiro Comando da Capital (PCC).",
+      "time_period": null
+    },
+    {
+      "source": "Bonde do Maluco",
+      "target": "Comando Vermelho",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Comando Vermelho is a rival of Bonde do Maluco in the Bahian capital.",
+      "time_period": null
+    },
+    {
+      "source": "Bonde do Maluco",
+      "target": "Katiara",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Katiara is a rival of Bonde do Maluco in the Bahian capital.",
+      "time_period": null
+    },
+    {
+      "source": "Bonde do Maluco",
+      "target": "Primeiro Comando de Eunápolis",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Primeiro Comando de Eunápolis is a rival of Bonde do Maluco in the interior of Bahia.",
+      "time_period": null
+    },
+    {
+      "source": "Bonde do Maluco",
+      "target": "Terceiro Comando Puro",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Terceiro Comando Puro is listed as an ally of Bonde do Maluco.",
+      "time_period": null
+    },
+    {
+      "source": "Bonde do Maluco",
+      "target": "Guardiões do Estado",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Guardiões do Estado is listed as an ally of Bonde do Maluco.",
+      "time_period": null
+    },
+    {
+      "source": "Bonde do Maluco",
+      "target": "Nova Okaida",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nova Okaida is listed as an ally of Bonde do Maluco.",
+      "time_period": null
+    },
+    {
+      "source": "Bonde do Maluco",
+      "target": "Sindicato do Crime do Rio Grande do Norte",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sindicato do Crime do Rio Grande do Norte is listed as an ally of Bonde do Maluco.",
+      "time_period": null
+    },
+    {
+      "source": "Bonde do Maluco",
+      "target": "Mercado do Povo Atitude",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mercado do Povo Atitude is listed as an ally of Bonde do Maluco.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Bonde_do_Maluco"
+}

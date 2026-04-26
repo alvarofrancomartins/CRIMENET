@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cotroni crime family",
+      "original_text_name": "Cotroni crime family",
+      "aliases": [
+        "Cotrone"
+      ],
+      "type": "mafia",
+      "context": "Italian Canadian crime family based in Montreal, active from 1940s to 2000s.",
+      "time_period": "c. 1940s–2000s"
+    },
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York-based Mafia family that controlled Montreal's drug trade and considered Cotroni a branch.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Rizzuto crime family",
+      "original_text_name": "Rizzuto crime family",
+      "aliases": [
+        "Rizzuto faction"
+      ],
+      "type": "mafia",
+      "context": "Sicilian faction that overtook the Cotroni family as preeminent crime family in Montreal.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Commisso 'ndrina",
+      "original_text_name": "Commisso 'ndrina",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Calabrian 'Ndrangheta clan based in Toronto, allied with Cotroni family.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [
+        "Hells Angels MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club with East End Vancouver chapter allied with Cotroni family.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "West End Gang",
+      "original_text_name": "West End Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Montreal-based gang involved in drug trafficking, allied with Cotroni family.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Blass gang",
+      "original_text_name": "Blass gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "French-Canadian gang led by Richard Blass, rival to Cotroni family in the 1960s.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Dubois gang",
+      "original_text_name": "Dubois gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Montreal-based gang, rival to Cotroni family.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Rock Machine",
+      "original_text_name": "Rock Machine",
+      "aliases": [
+        "Rock Machine MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, rival to Cotroni family during Quebec Biker War.",
+      "time_period": "1980s-2000s"
+    },
+    {
+      "standard_name": "Magaddino crime family",
+      "original_text_name": "Magaddino family",
+      "aliases": [
+        "Buffalo crime family"
+      ],
+      "type": "mafia",
+      "context": "Buffalo-based Mafia family, rival to Bonanno family for control in Montreal.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Sorrento Gang",
+      "original_text_name": "Sorrento Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Montreal gang run by Nicola Di Iorio, part of Cotroni family operations.",
+      "time_period": "1960s-1970s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cotroni crime family",
+      "target": "Bonanno crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cotroni family was considered a branch of the Bonanno family and answered to them.",
+      "time_period": "1950s-1980s"
+    },
+    {
+      "source": "Cotroni crime family",
+      "target": "Rizzuto crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Internal war between Calabrian and Sicilian factions led to Rizzuto overtaking Cotroni.",
+      "time_period": "late 1970s-1980s"
+    },
+    {
+      "source": "Cotroni crime family",
+      "target": "Commisso 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Eddie Melo forged cross-Canada alliance with Commisso 'ndrina in early 1990s.",
+      "time_period": "early 1990s"
+    },
+    {
+      "source": "Cotroni crime family",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cotroni family allied with Hells Angels East End Vancouver chapter via Eddie Melo.",
+      "time_period": "early 1990s"
+    },
+    {
+      "source": "Cotroni crime family",
+      "target": "West End Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both groups arrested together in Operation Caviar for international drug network.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Cotroni crime family",
+      "target": "Blass gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Violent feud in late 1960s with French-Canadian mobster Richard Blass.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Cotroni crime family",
+      "target": "Dubois gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Cotroni crime family",
+      "target": "Rock Machine",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rock Machine contracted hit on Frank Cotroni's son during Quebec Biker War.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Bonanno crime family",
+      "target": "Magaddino crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Struggle for control of Montreal underworld between the two families.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Cotroni crime family",
+      "target": "Sorrento Gang",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Sorrento Gang was run by Nicola Di Iorio as part of Cotroni family operations.",
+      "time_period": "1960s-1970s"
+    }
+  ],
+  "source_file": "Cotroni_crime_family"
+}

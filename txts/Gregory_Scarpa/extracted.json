@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Colombo crime family",
+      "original_text_name": "Colombo crime family",
+      "aliases": [
+        "Colombo family"
+      ],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, involved in racketeering, murder, and other crimes.",
+      "time_period": "1928-present"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Another New York Mafia family; member Thomas Amato was killed by Scarpa.",
+      "time_period": "1890s-present"
+    },
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York Mafia family; members Michael DeRosa and Ronald Moran were involved in a shootout with Scarpa.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Ku Klux Klan",
+      "original_text_name": "Ku Klux Klan",
+      "aliases": [
+        "KKK"
+      ],
+      "type": "militia",
+      "context": "White supremacist group; Scarpa allegedly interrogated a Klansman for the FBI.",
+      "time_period": "1865-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Colombo crime family",
+      "target": "Genovese crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Scarpa, a Colombo capo, killed Genovese mobster Thomas Amato during the Colombo internal war.",
+      "time_period": "1991"
+    },
+    {
+      "source": "Colombo crime family",
+      "target": "Lucchese crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Scarpa was shot by Lucchese mobsters after a dispute over a drug deal involving his son.",
+      "time_period": "1992"
+    },
+    {
+      "source": "Colombo crime family",
+      "target": "Ku Klux Klan",
+      "relationship": "other",
+      "detail": "interrogation",
+      "context": "Scarpa allegedly interrogated a Klansman to find bodies of civil rights workers for the FBI.",
+      "time_period": "1964"
+    }
+  ],
+  "source_file": "Gregory_Scarpa"
+}

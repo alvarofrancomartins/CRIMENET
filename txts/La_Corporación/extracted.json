@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "standard_name": "La Corporación",
+      "original_text_name": "La Corporación",
+      "aliases": [
+        "Santa Ana Cartel"
+      ],
+      "type": "cartel",
+      "context": "Bolivian drug cartel and criminal organization, major cocaine producer in the 1970s-1980s.",
+      "time_period": "1970s-1990"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel led by Pablo Escobar, major buyer of cocaine from La Corporación.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Contras",
+      "original_text_name": "Contras",
+      "aliases": [],
+      "type": "militia",
+      "context": "Nicaraguan right-wing rebel group, allied with La Corporación according to infobox.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "La Conexión",
+      "original_text_name": "La Conexión",
+      "aliases": [],
+      "type": "other",
+      "context": "Rival organization to La Corporación, mentioned in infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "La Corporación",
+      "target": "Medellín Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Corporación was a major supplier of cocaine to the Medellín Cartel.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "source": "La Corporación",
+      "target": "Contras",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Infobox lists Contras as allies of La Corporación.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "La Corporación",
+      "target": "La Conexión",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Infobox lists La Conexión as a rival of La Corporación.",
+      "time_period": null
+    }
+  ],
+  "source_file": "La_Corporación"
+}

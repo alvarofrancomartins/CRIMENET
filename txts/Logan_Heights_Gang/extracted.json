@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Logan Heights Gang",
+      "original_text_name": "Logan Heights Gang",
+      "aliases": [
+        "Varrio Logan Heights",
+        "LH",
+        "LHG"
+      ],
+      "type": "gang",
+      "context": "Sureño street gang based in Southeast San Diego, involved in drug trafficking, murder, kidnapping, human smuggling.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Tijuana Cartel",
+      "original_text_name": "Tijuana Cartel",
+      "aliases": [
+        "Arellano-Félix Organization"
+      ],
+      "type": "cartel",
+      "context": "Drug trafficking cartel operating the Tijuana smuggling route to San Diego.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang with influence over Sureño street gangs, including Logan Heights.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Barrio Sherman",
+      "original_text_name": "Barrio Sherman",
+      "aliases": [],
+      "type": "gang",
+      "context": "San Diego County gang, rival of Logan Heights.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Varrio Shelltown",
+      "original_text_name": "Varrio Shelltown",
+      "aliases": [],
+      "type": "gang",
+      "context": "San Diego County gang, rival of Logan Heights.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Old Town National City",
+      "original_text_name": "Old Town National City",
+      "aliases": [],
+      "type": "gang",
+      "context": "San Diego County gang, rival of Logan Heights.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Logan Heights Gang",
+      "target": "Tijuana Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Logan Heights Gang allied with Tijuana Cartel over the Tijuana smuggling route, assisting in attacks and providing hired gunmen.",
+      "time_period": "1992-present"
+    },
+    {
+      "source": "Logan Heights Gang",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Logan Heights Gang has close ties to the Mexican Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Logan Heights Gang",
+      "target": "Barrio Sherman",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Barrio Sherman is an enemy of Logan Heights Gang.",
+      "time_period": null
+    },
+    {
+      "source": "Logan Heights Gang",
+      "target": "Varrio Shelltown",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Varrio Shelltown is an enemy of Logan Heights Gang.",
+      "time_period": null
+    },
+    {
+      "source": "Logan Heights Gang",
+      "target": "Old Town National City",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Old Town National City is an enemy of Logan Heights Gang.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Logan_Heights_Gang"
+}

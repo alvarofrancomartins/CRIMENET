@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Abergil crime family",
+      "original_text_name": "Abergil crime family",
+      "aliases": [
+        "Abergils"
+      ],
+      "type": "mafia",
+      "context": "Top Moroccan Jewish criminal organization in Israel, involved in drug trafficking and illegal gambling.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Abutbul crime family",
+      "original_text_name": "Abutbuls",
+      "aliases": [
+        "Abutbul clans"
+      ],
+      "type": "mafia",
+      "context": "Moroccan Jewish crime family operating in Israel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Alperon crime family",
+      "original_text_name": "Alperons",
+      "aliases": [
+        "Alperon clan",
+        "Alperon Crime Family"
+      ],
+      "type": "mafia",
+      "context": "Egyptian Jewish crime family in Israel, involved in various illegal activities.",
+      "time_period": "until 2008"
+    },
+    {
+      "standard_name": "Dumrani crime family",
+      "original_text_name": "Dumranis",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the major crime groups in Israel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Shirazi crime family",
+      "original_text_name": "Shirazis",
+      "aliases": [
+        "Shirazi clan"
+      ],
+      "type": "mafia",
+      "context": "Iranian Jewish crime family operating in Israel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Amir Molnar syndicate",
+      "original_text_name": "Amir Molnar",
+      "aliases": [
+        "Mulner Organization"
+      ],
+      "type": "mafia",
+      "context": "One of the major crime groups in Israel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Zeev Rosenstein syndicate",
+      "original_text_name": "Zeev Rosenstein syndicates",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Formerly top crime figure in Tel-Aviv, involved in drug trafficking.",
+      "time_period": "until 2006"
+    },
+    {
+      "standard_name": "Abdel-Kader family",
+      "original_text_name": "Abdel-Kader family",
+      "aliases": [],
+      "type": "clan",
+      "context": "Arab crime family from Tayibe, involved in extortion, drug and weapon trafficking.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Jarushi family",
+      "original_text_name": "Jarushi family",
+      "aliases": [],
+      "type": "clan",
+      "context": "One of the most powerful Arab crime families in Israel, from Ramla.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Qarajah crime family",
+      "original_text_name": "Qarajah crime family",
+      "aliases": [],
+      "type": "clan",
+      "context": "Arab crime family from Ramla, had blood feud with Jarushis.",
+      "time_period": "until 1990s"
+    },
+    {
+      "standard_name": "Abu Latif family",
+      "original_text_name": "Abu Latifs",
+      "aliases": [],
+      "type": "clan",
+      "context": "Druze crime family from Rameh, operates mainly in northern Israel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Moussa Aliyan gang",
+      "original_text_name": "Moussa Aliyan",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal gang in New York City involved in heroin importation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Russian mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [
+        "Russian organised crime"
+      ],
+      "type": "mafia",
+      "context": "Russian organized crime groups operating in Israel, involved in money laundering.",
+      "time_period": "1989-present"
+    },
+    {
+      "standard_name": "Melikhov clan",
+      "original_text_name": "Melikhov clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Georgian-Jewish crime family operating in Antwerp.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Johnny Attias syndicate",
+      "original_text_name": "Israeli mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Israeli crime syndicate in New York, involved in gold heist.",
+      "time_period": "1980s-1990"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "American Mafia family, underboss Sammy Gravano had ties to Israeli ecstasy traffickers.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Medellin Cartel",
+      "original_text_name": "Medellin Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel, had connections with Ludwig Fainberg.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "AlHanatsheh Cartel",
+      "original_text_name": "AlHanatsheh Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mentioned as notable member, likely an Israeli-Arab criminal organization.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Abergil crime family",
+      "target": "Abutbul crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both are major crime groups in Israel, likely cooperate.",
+      "time_period": null
+    },
+    {
+      "source": "Jarushi family",
+      "target": "Qarajah crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Long time blood feud resulting in 24 deaths in the 1990s.",
+      "time_period": "until 1990s"
+    },
+    {
+      "source": "Russian mafia",
+      "target": "Medellin Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ludwig Fainberg had connections with both groups.",
+      "time_period": null
+    },
+    {
+      "source": "Zeev Rosenstein syndicate",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zeev Rosenstein was involved in ecstasy trafficking with Gambino underboss Sammy Gravano.",
+      "time_period": "1999-2000"
+    },
+    {
+      "source": "Abergil crime family",
+      "target": "Zeev Rosenstein syndicate",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both involved in ecstasy trafficking in the US.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Israeli_mafia"
+}

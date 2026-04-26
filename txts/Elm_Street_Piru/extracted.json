@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Elm Street Piru",
+      "original_text_name": "Elm Street Piru",
+      "aliases": [
+        "Elm Street Piru Bloods"
+      ],
+      "type": "gang",
+      "context": "A set of the Piru gang alliance, part of the Bloods, active in Compton and other US cities.",
+      "time_period": "1972-present"
+    },
+    {
+      "standard_name": "Piru gang alliance",
+      "original_text_name": "Piru gang alliance",
+      "aliases": [],
+      "type": "gang",
+      "context": "An alliance of Bloods sets, including Elm Street Piru.",
+      "time_period": "1972-present"
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "A larger alliance of street gangs, including the Piru gang alliance.",
+      "time_period": "1972-present"
+    },
+    {
+      "standard_name": "Cedar Block Piru",
+      "original_text_name": "Cedar Block Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of Elm Street Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Fruit Town Piru",
+      "original_text_name": "Fruit Town Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of Elm Street Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Tree Top Piru",
+      "original_text_name": "Tree Top Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of Elm Street Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "South Side Compton Crips",
+      "original_text_name": "South Side Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of Elm Street Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kelly Park Compton Crips",
+      "original_text_name": "Kelly Park Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of Elm Street Piru.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Santana Blocc Compton Crips",
+      "original_text_name": "Santana Blocc Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival of Elm Street Piru.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Elm Street Piru",
+      "target": "Piru gang alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Elm Street Piru is a set within the Piru gang alliance.",
+      "time_period": "1972-present"
+    },
+    {
+      "source": "Piru gang alliance",
+      "target": "Bloods",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Piru gang alliance is part of the larger Bloods alliance.",
+      "time_period": "1972-present"
+    },
+    {
+      "source": "Elm Street Piru",
+      "target": "Cedar Block Piru",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cedar Block Piru is listed as an ally of Elm Street Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Elm Street Piru",
+      "target": "Fruit Town Piru",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Fruit Town Piru is listed as an ally of Elm Street Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Elm Street Piru",
+      "target": "Tree Top Piru",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Tree Top Piru is listed as an ally of Elm Street Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Elm Street Piru",
+      "target": "South Side Compton Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "South Side Compton Crips is listed as a rival of Elm Street Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Elm Street Piru",
+      "target": "Kelly Park Compton Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kelly Park Compton Crips is listed as a rival of Elm Street Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Elm Street Piru",
+      "target": "Santana Blocc Compton Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Santana Blocc Compton Crips is listed as a rival of Elm Street Piru.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Elm_Street_Piru"
+}

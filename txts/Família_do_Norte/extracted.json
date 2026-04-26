@@ -1,0 +1,78 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Família do Norte",
+      "original_text_name": "Familia do Norte",
+      "aliases": [
+        "FDN",
+        "Northern Family"
+      ],
+      "type": "faction",
+      "context": "Brazilian criminal faction operating in northern Brazil and neighboring countries, involved in drug trafficking and murder.",
+      "time_period": "2007-present"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "CV"
+      ],
+      "type": "faction",
+      "context": "Brazilian criminal faction, one of the largest in the country, involved in drug trafficking and prison control.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Primeiro Comando da Capital",
+      "original_text_name": "Primeiro Comando da Capital",
+      "aliases": [
+        "PCC"
+      ],
+      "type": "faction",
+      "context": "Brazilian criminal faction, the largest in the country, involved in drug trafficking and organized crime.",
+      "time_period": "1993-present"
+    },
+    {
+      "standard_name": "Guardiões do Estado",
+      "original_text_name": "Guardiões do Estado",
+      "aliases": [],
+      "type": "faction",
+      "context": "Brazilian criminal faction, rival of Família do Norte.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Família do Norte",
+      "target": "Comando Vermelho",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Alliance between 2015 and 2018 to prevent PCC's advance in Amazonas.",
+      "time_period": "2015-2018"
+    },
+    {
+      "source": "Família do Norte",
+      "target": "Comando Vermelho",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Alliance dissolved in 2018, leading to confrontation and weakening of FDN.",
+      "time_period": "2018-present"
+    },
+    {
+      "source": "Família do Norte",
+      "target": "Primeiro Comando da Capital",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "FDN allied with CV to prevent PCC's advance; PCC is a rival.",
+      "time_period": null
+    },
+    {
+      "source": "Família do Norte",
+      "target": "Guardiões do Estado",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Guardiões do Estado listed as rival in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Família_do_Norte"
+}

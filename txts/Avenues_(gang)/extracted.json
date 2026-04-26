@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Avenues",
+      "original_text_name": "Avenues",
+      "aliases": [
+        "Avenidas",
+        "AVE's"
+      ],
+      "type": "gang",
+      "context": "Mexican/Mexican American street gang in Los Angeles County, involved in drug trafficking, hate crimes, and murder.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang that controls Mexican gangs in Los Angeles when members are incarcerated.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Highland Park 13",
+      "original_text_name": "Highland Park 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to the Avenues in Los Angeles.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cypress Park Boys",
+      "original_text_name": "Cypress Park Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to the Avenues in Los Angeles.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Toonerville",
+      "original_text_name": "Toonerville",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to the Avenues in Los Angeles.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Frog Town Rifa",
+      "original_text_name": "Frog Town Rifa",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to the Avenues in Los Angeles.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Thee Rascals",
+      "original_text_name": "Thee Rascals",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to the Avenues in Los Angeles.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Medellin Cartel",
+      "original_text_name": "Medellin cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel whose fall affected cocaine availability.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel that supplies drugs to the Avenues.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Alliance of Mexican American street gangs in Southern California, allied with the Avenues.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "18th Street Gang",
+      "original_text_name": "18th Street gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to the Avenues.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Satanas",
+      "original_text_name": "Satanas",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to the Avenues.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Avenues",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Avenues are under the direct control of the Mexican Mafia when incarcerated.",
+      "time_period": null
+    },
+    {
+      "source": "Avenues",
+      "target": "Highland Park 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Avenues clashed with Highland Park 13 to assert dominance.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Avenues",
+      "target": "Cypress Park Boys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Avenues have ongoing gang wars with Cypress Park Boys.",
+      "time_period": null
+    },
+    {
+      "source": "Avenues",
+      "target": "Toonerville",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Avenues clashed with Toonerville to assert dominance.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Avenues",
+      "target": "Frog Town Rifa",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Avenues clashed with Frog Town Rifa to assert dominance.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Avenues",
+      "target": "Thee Rascals",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Avenues clashed with Thee Rascals to assert dominance.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Avenues",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Avenues are well connected with the Sinaloa Cartel for drug supply.",
+      "time_period": null
+    },
+    {
+      "source": "Avenues",
+      "target": "Sureños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Avenues are a Sureño set and allied with Sureños.",
+      "time_period": null
+    },
+    {
+      "source": "Avenues",
+      "target": "18th Street Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The 18th Street gang is listed as a rival of the Avenues.",
+      "time_period": null
+    },
+    {
+      "source": "Avenues",
+      "target": "Satanas",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Satanas is listed as a rival of the Avenues.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Avenues_(gang)"
+}

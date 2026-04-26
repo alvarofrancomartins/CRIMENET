@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Young Boys Inc.",
+      "original_text_name": "Young Boys Incorporated",
+      "aliases": [
+        "Y.B.I.",
+        "YBI",
+        "Young Boys Inc."
+      ],
+      "type": "cartel",
+      "context": "Major drug organization in Detroit, Michigan, among first African American drug cartels to operate on inner-city street corners.",
+      "time_period": "1976-1990s"
+    },
+    {
+      "standard_name": "Best Friends",
+      "original_text_name": "Best Friends",
+      "aliases": [],
+      "type": "gang",
+      "context": "Detroit drug gang that rose to prominence after YBI's downfall.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Pony Down",
+      "original_text_name": "Pony Down",
+      "aliases": [],
+      "type": "gang",
+      "context": "Detroit drug gang that rose to prominence after YBI's downfall.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Black Mafia Family",
+      "original_text_name": "Black Mafia Family",
+      "aliases": [
+        "BMF"
+      ],
+      "type": "cartel",
+      "context": "Detroit drug trafficking organization that rose to prominence after YBI's downfall.",
+      "time_period": "1980s-2000s"
+    },
+    {
+      "standard_name": "The Chambers Brothers",
+      "original_text_name": "The Chambers Brothers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Detroit drug gang that rose to prominence after YBI's downfall.",
+      "time_period": "1980s-1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Young Boys Inc.",
+      "target": "Best Friends",
+      "relationship": "other",
+      "detail": "influenced",
+      "context": "YBI's organizational structure influenced Best Friends and other Detroit gangs.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Young Boys Inc.",
+      "target": "Pony Down",
+      "relationship": "other",
+      "detail": "influenced",
+      "context": "YBI's organizational structure influenced Pony Down and other Detroit gangs.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Young Boys Inc.",
+      "target": "Black Mafia Family",
+      "relationship": "other",
+      "detail": "influenced",
+      "context": "YBI's organizational structure influenced Black Mafia Family and other Detroit gangs.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Young Boys Inc.",
+      "target": "The Chambers Brothers",
+      "relationship": "other",
+      "detail": "influenced",
+      "context": "YBI's organizational structure influenced The Chambers Brothers and other Detroit gangs.",
+      "time_period": "1980s-1990s"
+    }
+  ],
+  "source_file": "Young_Boys_Inc."
+}

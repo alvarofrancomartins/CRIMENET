@@ -1,0 +1,309 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Asian Boyz",
+      "original_text_name": "Asian Boyz",
+      "aliases": [
+        "ABZ",
+        "AB-26",
+        "ABZ Crips"
+      ],
+      "type": "gang",
+      "context": "Street gang based in Southern California, founded in late 1980s by Cambodian refugees. Active in 14 U.S. states.",
+      "time_period": "late 1980s-present"
+    },
+    {
+      "standard_name": "Tiny Rascal Gang",
+      "original_text_name": "Tiny Rascal Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Cambodian refugee gang formed in mid-1980s in Long Beach to defend against East Side Longos.",
+      "time_period": "mid-1980s-present"
+    },
+    {
+      "standard_name": "East Side Longos",
+      "original_text_name": "East Side Longos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang that harassed Cambodian refugees in Long Beach during the 1980s.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Asian Boys Insanity",
+      "original_text_name": "Asian Boys Insanity",
+      "aliases": [
+        "ABI"
+      ],
+      "type": "gang",
+      "context": "Independent gang operating in Chinatown Los Angeles and San Gabriel Valley in late-1980s, predominantly Chinese and Vietnamese.",
+      "time_period": "late 1980s-early 1990s"
+    },
+    {
+      "standard_name": "Monterey Park Asian Boyz",
+      "original_text_name": "Monterey Park Asian Boyz",
+      "aliases": [
+        "MP ABZ"
+      ],
+      "type": "gang",
+      "context": "Formed in early 1990s from merger of Asian Boys Insanity with Long Beach Asian Boyz.",
+      "time_period": "early 1990s-mid 1990s"
+    },
+    {
+      "standard_name": "West Side Asian Boyz",
+      "original_text_name": "West Side Asian Boyz",
+      "aliases": [
+        "WS ABZ"
+      ],
+      "type": "gang",
+      "context": "Formed in mid-1990s from merger of Asian Boys Insanity and Monterey Park Asian Boyz.",
+      "time_period": "mid 1990s-present"
+    },
+    {
+      "standard_name": "Asian Boy Style",
+      "original_text_name": "Asian Boy Style",
+      "aliases": [
+        "ABS",
+        "Van Nuys Asian Boys"
+      ],
+      "type": "gang",
+      "context": "Gang formed in late 1980s in Van Nuys, merged with Van Nuys Asian Boyz in mid-1990s.",
+      "time_period": "late 1980s-mid 1990s"
+    },
+    {
+      "standard_name": "Van Nuys Asian Boyz",
+      "original_text_name": "Van Nuys Asian Boyz",
+      "aliases": [],
+      "type": "gang",
+      "context": "Branch of Long Beach Asian Boyz in Van Nuys, merged with Asian Boy Style in mid-1990s.",
+      "time_period": "late 1980s-mid 1990s"
+    },
+    {
+      "standard_name": "Asian Bloods",
+      "original_text_name": "Asian Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang involved in a 2006 fight with Asian Boyz in Lowell, Massachusetts.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Reckless Tigers",
+      "original_text_name": "Reccless Tigers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang originating in Fairfax County, Virginia, expanded statewide in 2011, affiliated with West Side Asian Boyz.",
+      "time_period": "2011-present"
+    },
+    {
+      "standard_name": "Wah Ching",
+      "original_text_name": "Wah Ching",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang in long conflict with Asian Boyz, involved in shootouts in 1993.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied gang that influenced Asian Boyz; Asian Boyz wear blue and use Crips mannerisms.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Menace of Destruction",
+      "original_text_name": "Menace of Destruction",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied gang listed in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang listed in infobox.",
+      "time_period": "1972-present"
+    },
+    {
+      "standard_name": "Smiley Dragon",
+      "original_text_name": "Smiley Dragon",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang listed in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Crazy Brother Clan",
+      "original_text_name": "Crazy Brother Clan",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang listed in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Vietnamese Boyz",
+      "original_text_name": "Vietnamese Boyz",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang listed in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Fresno Bulldogs",
+      "original_text_name": "Fresno Bulldogs",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang listed in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sureno",
+      "original_text_name": "Sureno",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang involved in 2019 activity with Asian Boyz in Monterey Park.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Asian Boyz",
+      "target": "Tiny Rascal Gang",
+      "relationship": "other",
+      "detail": "splinter group",
+      "context": "Asian Boyz formed from members who left Tiny Rascal Gang after an internal dispute.",
+      "time_period": "late 1980s"
+    },
+    {
+      "source": "Tiny Rascal Gang",
+      "target": "East Side Longos",
+      "relationship": "rivalry",
+      "context": "Tiny Rascal Gang formed to defend Cambodian refugees from East Side Longos.",
+      "time_period": "mid-1980s"
+    },
+    {
+      "source": "Asian Boyz",
+      "target": "East Side Longos",
+      "relationship": "rivalry",
+      "context": "Asian Boyz founders were harassed by East Side Longos.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Asian Boys Insanity",
+      "target": "Asian Boyz",
+      "relationship": "alliance",
+      "context": "Asian Boys Insanity merged with Long Beach Asian Boyz in early 1990s.",
+      "time_period": "early 1990s"
+    },
+    {
+      "source": "Asian Boys Insanity",
+      "target": "Monterey Park Asian Boyz",
+      "relationship": "other",
+      "detail": "merged into",
+      "context": "After merging with Long Beach Asian Boyz, Asian Boys Insanity formed Monterey Park Asian Boyz.",
+      "time_period": "early 1990s"
+    },
+    {
+      "source": "Monterey Park Asian Boyz",
+      "target": "West Side Asian Boyz",
+      "relationship": "other",
+      "detail": "merged into",
+      "context": "Monterey Park Asian Boyz and Asian Boys Insanity became West Side Asian Boyz in mid-1990s.",
+      "time_period": "mid 1990s"
+    },
+    {
+      "source": "Asian Boy Style",
+      "target": "Van Nuys Asian Boyz",
+      "relationship": "alliance",
+      "context": "Asian Boy Style merged with Van Nuys Asian Boyz in mid-1990s.",
+      "time_period": "mid 1990s"
+    },
+    {
+      "source": "Van Nuys Asian Boyz",
+      "target": "Asian Boyz",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Van Nuys Asian Boyz was a branch of Long Beach Asian Boyz.",
+      "time_period": "late 1980s-mid 1990s"
+    },
+    {
+      "source": "Asian Boyz",
+      "target": "Asian Bloods",
+      "relationship": "rivalry",
+      "context": "Fight between Asian Bloods and Asian Boyz at a party in Lowell, Massachusetts in 2006.",
+      "time_period": "2006"
+    },
+    {
+      "source": "Reckless Tigers",
+      "target": "West Side Asian Boyz",
+      "relationship": "alliance",
+      "context": "Reckless Tigers are affiliated with West Side Asian Boyz.",
+      "time_period": "2011-present"
+    },
+    {
+      "source": "Asian Boyz",
+      "target": "Wah Ching",
+      "relationship": "rivalry",
+      "context": "Long conflict with shootouts, including 1993 El Monte pool hall killing.",
+      "time_period": "1993-present"
+    },
+    {
+      "source": "Asian Boyz",
+      "target": "Crips",
+      "relationship": "alliance",
+      "context": "Asian Boyz are influenced by and allied with Crips, wearing blue and using Crips mannerisms.",
+      "time_period": "late 1980s-present"
+    },
+    {
+      "source": "Asian Boyz",
+      "target": "Menace of Destruction",
+      "relationship": "alliance",
+      "context": "Listed as allies in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Asian Boyz",
+      "target": "Bloods",
+      "relationship": "rivalry",
+      "context": "Listed as rivals in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Asian Boyz",
+      "target": "Smiley Dragon",
+      "relationship": "rivalry",
+      "context": "Listed as rivals in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Asian Boyz",
+      "target": "Crazy Brother Clan",
+      "relationship": "rivalry",
+      "context": "Listed as rivals in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Asian Boyz",
+      "target": "Vietnamese Boyz",
+      "relationship": "rivalry",
+      "context": "Listed as rivals in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Asian Boyz",
+      "target": "Fresno Bulldogs",
+      "relationship": "rivalry",
+      "context": "Listed as rivals in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Asian Boyz",
+      "target": "Sureno",
+      "relationship": "rivalry",
+      "context": "Gang activity between ABZ and Sureno in Monterey Park in 2019.",
+      "time_period": "2019"
+    }
+  ],
+  "source_file": "Asian_Boyz"
+}

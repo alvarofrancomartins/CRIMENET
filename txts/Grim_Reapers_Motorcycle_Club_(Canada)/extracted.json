@@ -1,0 +1,113 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Grim Reapers Motorcycle Club (Canada)",
+      "original_text_name": "Grim Reapers Motorcycle Club",
+      "aliases": [
+        "Grim Reapers MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club founded in 1967 in Calgary, Alberta, active until 1997 when it patched over to Hells Angels.",
+      "time_period": "1967-1997"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club that absorbed the Grim Reapers in 1997.",
+      "time_period": "founded 1948"
+    },
+    {
+      "standard_name": "Rebels Motorcycle Club",
+      "original_text_name": "Rebels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Dominant outlaw motorcycle club in Alberta prior to 1997.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Warlords Motorcycle Club",
+      "original_text_name": "Warlords",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Dominant outlaw motorcycle club in Alberta prior to 1997.",
+      "time_period": null
+    },
+    {
+      "standard_name": "King's Crew",
+      "original_text_name": "King's Crew",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Dominant outlaw motorcycle club in Alberta prior to 1997.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Outcasts Motorcycle Club",
+      "original_text_name": "Outcasts Motorcycle Club",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Motorcycle club whose president Ronald Hartley was murdered by Grim Reapers members in 1970.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Rock Machine",
+      "original_text_name": "Rock Machine",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club involved in violence with Hells Angels in eastern Canada in 1990s.",
+      "time_period": "1980s-2000s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Grim Reapers Motorcycle Club (Canada)",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "In 1997, the Grim Reapers became part of the Hells Angels in a patch-over ceremony.",
+      "time_period": "1997"
+    },
+    {
+      "source": "Grim Reapers Motorcycle Club (Canada)",
+      "target": "Rebels Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Rebels were one of the dominant clubs in Alberta and rivals of the Grim Reapers.",
+      "time_period": "prior to 1997"
+    },
+    {
+      "source": "Grim Reapers Motorcycle Club (Canada)",
+      "target": "Warlords Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Warlords were one of the dominant clubs in Alberta and rivals of the Grim Reapers.",
+      "time_period": "prior to 1997"
+    },
+    {
+      "source": "Grim Reapers Motorcycle Club (Canada)",
+      "target": "King's Crew",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "King's Crew was one of the dominant clubs in Alberta and rivals of the Grim Reapers.",
+      "time_period": "prior to 1997"
+    },
+    {
+      "source": "Grim Reapers Motorcycle Club (Canada)",
+      "target": "Outcasts Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Grim Reapers members murdered Outcasts president Ronald Hartley in 1970.",
+      "time_period": "1970"
+    },
+    {
+      "source": "Rock Machine",
+      "target": "Hells Angels",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Violence between Rock Machine and Hells Angels in eastern Canada led to public outcry.",
+      "time_period": "1990s"
+    }
+  ],
+  "source_file": "Grim_Reapers_Motorcycle_Club_(Canada)"
+}

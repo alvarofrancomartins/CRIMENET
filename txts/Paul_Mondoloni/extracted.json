@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Corsican mafia",
+      "original_text_name": "Corsican mafioso",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Corsican organized crime group involved in drug trafficking and the French Connection.",
+      "time_period": "20th century"
+    },
+    {
+      "standard_name": "Santo Trafficante Jr. organization",
+      "original_text_name": "Santo Trafficante Jr.",
+      "aliases": [],
+      "type": "mafia",
+      "context": "American Mafia family in Florida and Cuba, involved in heroin trafficking.",
+      "time_period": "1950s-1980s"
+    },
+    {
+      "standard_name": "Meyer Lansky organization",
+      "original_text_name": "Meyer Lansky",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Jewish-American organized crime figure involved in money laundering and drug trafficking.",
+      "time_period": "1920s-1980s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Corsican mafia",
+      "target": "Santo Trafficante Jr. organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mondoloni worked with Santo Trafficante Jr. to smuggle heroin from Cuba to the US.",
+      "time_period": "1950s-1960s"
+    },
+    {
+      "source": "Corsican mafia",
+      "target": "Meyer Lansky organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mondoloni met with Meyer Lansky in 1970 to discuss opening new drug routes.",
+      "time_period": "1970"
+    }
+  ],
+  "source_file": "Paul_Mondoloni"
+}

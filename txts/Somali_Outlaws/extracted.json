@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Somali Outlaws",
+      "original_text_name": "Somali Outlaws",
+      "aliases": [],
+      "type": "gang",
+      "context": "Somali American street gang based in Minneapolis–Saint Paul, involved in drugs and human trafficking.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Hot Boyz",
+      "original_text_name": "Hot Boyz",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Somali Outlaws in Minneapolis–Saint Paul area.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Madhiban With Attitude",
+      "original_text_name": "Madhiban With Attitude",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Somali Outlaws in Minneapolis–Saint Paul area.",
+      "time_period": null
+    },
+    {
+      "standard_name": "1627 Boys",
+      "original_text_name": "1627 Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Somali Outlaws, named after a high-rise apartment building in Cedar-Riverside.",
+      "time_period": null
+    },
+    {
+      "standard_name": "East African Posse",
+      "original_text_name": "East African Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of Somali Outlaws.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Somali Outlaws",
+      "target": "Hot Boyz",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Main rivals; shootings on one gang's turf lead to retaliatory shootings.",
+      "time_period": null
+    },
+    {
+      "source": "Somali Outlaws",
+      "target": "Madhiban With Attitude",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Main rivals; shootings on one gang's turf lead to retaliatory shootings.",
+      "time_period": null
+    },
+    {
+      "source": "Somali Outlaws",
+      "target": "1627 Boys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Main rivals; shootings on one gang's turf lead to retaliatory shootings.",
+      "time_period": null
+    },
+    {
+      "source": "Somali Outlaws",
+      "target": "East African Posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allies according to infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Somali_Outlaws"
+}

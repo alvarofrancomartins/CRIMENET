@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [
+        "Gambino family"
+      ],
+      "type": "mafia",
+      "context": "New York Mafia family involved in racketeering, loansharking, extortion.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "South Florida Crew",
+      "original_text_name": "South Florida Crew",
+      "aliases": [],
+      "type": "faction",
+      "context": "Gambino crew operating in Florida and New York, led by capos including DiMaria.",
+      "time_period": "1995-2000s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "South Florida Crew",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The South Florida Crew is a faction of the Gambino crime family operating in Florida.",
+      "time_period": "1995-2000s"
+    }
+  ],
+  "source_file": "Leonard_DiMaria"
+}

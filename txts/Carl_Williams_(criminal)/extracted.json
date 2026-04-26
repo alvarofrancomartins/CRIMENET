@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Moran family",
+      "original_text_name": "Moran family",
+      "aliases": [],
+      "type": "other",
+      "context": "Criminal family involved in drug trafficking and gangland killings in Melbourne.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "standard_name": "Carl Williams criminal network",
+      "original_text_name": "Carl Williams",
+      "aliases": [],
+      "type": "other",
+      "context": "Drug trafficker and murderer who orchestrated contract killings in Melbourne gangland wars.",
+      "time_period": "1999-2010"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Carl Williams criminal network",
+      "target": "Moran family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Williams owed the Moran family $80,000 and was shot by Jason Moran, sparking the gangland war.",
+      "time_period": "1999-2004"
+    }
+  ],
+  "source_file": "Carl_Williams_(criminal)"
+}

@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York City, involved in racketeering, gambling, and other crimes.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Ozone Park Boys",
+      "original_text_name": "Ozone Park Boys",
+      "aliases": [
+        "Liberty Posse",
+        "The Young Guns",
+        "Trucchio organization"
+      ],
+      "type": "faction",
+      "context": "A crew within the Gambino crime family based in Ozone Park, Queens, involved in numerous crimes including gambling, theft, and murder.",
+      "time_period": "1980s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ozone Park Boys",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Ozone Park Boys are a crew within the Gambino crime family, operating under its umbrella.",
+      "time_period": "1980s-present"
+    }
+  ],
+  "source_file": "Ozone_Park_Boys"
+}

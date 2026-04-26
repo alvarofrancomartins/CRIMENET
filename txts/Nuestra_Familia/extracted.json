@@ -1,0 +1,211 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Nuestra Familia",
+      "original_text_name": "Nuestra Familia",
+      "aliases": [
+        "NF"
+      ],
+      "type": "gang",
+      "context": "Mexican American prison gang based in Northern California, involved in drug trafficking, extortion, and robbery.",
+      "time_period": "1965-present"
+    },
+    {
+      "standard_name": "Norteños",
+      "original_text_name": "Norteños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang considered foot soldiers of Nuestra Familia, operating in Northern California.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [
+        "La eMe"
+      ],
+      "type": "gang",
+      "context": "Southern California prison gang, rival of Nuestra Familia, involved in drug trafficking and extortion.",
+      "time_period": "1957-present"
+    },
+    {
+      "standard_name": "Northern Structure",
+      "original_text_name": "Northern Structure",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of Nuestra Familia, likely a related or allied gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Black Guerrilla Family",
+      "original_text_name": "Black Guerrilla Family",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang allied with Nuestra Familia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang allied with Nuestra Familia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang allied with Nuestra Familia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Latin Kings",
+      "original_text_name": "Latin Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang allied with Nuestra Familia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Aryan Brotherhood",
+      "original_text_name": "Aryan Brotherhood",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang rival of Nuestra Familia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Fresno Bulldogs",
+      "original_text_name": "Fresno Bulldogs",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang rival of Nuestra Familia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mexikanemi",
+      "original_text_name": "Mexikanemi",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang rival of Nuestra Familia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang rival of Nuestra Familia, affiliated with Mexican Mafia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Texas Syndicate",
+      "original_text_name": "Texas Syndicate",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang rival of Nuestra Familia.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Nuestra Familia",
+      "target": "Norteños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Norteños are considered foot soldiers of Nuestra Familia.",
+      "time_period": "1960s-present"
+    },
+    {
+      "source": "Nuestra Familia",
+      "target": "Mexican Mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Long-running gang war since 1965 over a stolen pair of shoes.",
+      "time_period": "1965-present"
+    },
+    {
+      "source": "Nuestra Familia",
+      "target": "Northern Structure",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Nuestra Familia",
+      "target": "Black Guerrilla Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Nuestra Familia",
+      "target": "Bloods",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Nuestra Familia",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Nuestra Familia",
+      "target": "Latin Kings",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Nuestra Familia",
+      "target": "Aryan Brotherhood",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Nuestra Familia",
+      "target": "Fresno Bulldogs",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Nuestra Familia",
+      "target": "Mexikanemi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Nuestra Familia",
+      "target": "Sureños",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Nuestra Familia",
+      "target": "Texas Syndicate",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Nuestra_Familia"
+}

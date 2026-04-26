@@ -1,0 +1,191 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese crime family",
+      "aliases": [
+        "Lucchese Borgata",
+        "Lucchese family"
+      ],
+      "type": "mafia",
+      "context": "Italian-American Mafia family operating in New York, primarily in Brooklyn and Staten Island.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Lucchese crime family Brooklyn faction",
+      "original_text_name": "Brooklyn faction",
+      "aliases": [
+        "19th Hole crew",
+        "Bensonhurst Crew",
+        "Brooklyn faction",
+        "Brooklyn faction of the Lucchese crime family",
+        "Canarsie Crew",
+        "Vario Crew"
+      ],
+      "type": "faction",
+      "context": "A faction within the Lucchese family formed by merging the Vario Crew and the 19th Hole Crew in the early 2000s.",
+      "time_period": "early 2000s-present"
+    },
+    {
+      "standard_name": "Vario Crew",
+      "original_text_name": "Vario Crew",
+      "aliases": [
+        "Canarsie Crew",
+        "Vario-Cutaia crew"
+      ],
+      "type": "faction",
+      "context": "A crew within the Lucchese family based in Canarsie and Flatlands, Brooklyn, led by Paul Vario and later Domenico Cutaia.",
+      "time_period": "1960s-2000"
+    },
+    {
+      "standard_name": "19th Hole Crew",
+      "original_text_name": "19th Hole Crew",
+      "aliases": [
+        "Bensonhurst Crew",
+        "McDonald Ave crew"
+      ],
+      "type": "faction",
+      "context": "A crew within the Lucchese family based in Bensonhurst, Brooklyn, known for violence under Anthony Casso.",
+      "time_period": "1970s-2000"
+    },
+    {
+      "standard_name": "Robert's Lounge Crew",
+      "original_text_name": "Robert's Lounge Crew",
+      "aliases": [],
+      "type": "gang",
+      "context": "A semi-independent crew of hijackers and criminals led by Jimmy Burke, associated with the Lucchese family.",
+      "time_period": "1960s-1980s"
+    },
+    {
+      "standard_name": "Brooklyn-Long Island Crew",
+      "original_text_name": "Brooklyn-Long Island Crew",
+      "aliases": [],
+      "type": "faction",
+      "context": "A splinter crew of the Brooklyn faction formed in 2017 under capo Patrick Dellorusso.",
+      "time_period": "2017-present"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American Mafia family in New York City.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American Mafia family in New York City.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American Mafia family in New York City.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Colombo crime family",
+      "original_text_name": "Colombo",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American Mafia family in New York City.",
+      "time_period": "1930s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Lucchese crime family Brooklyn faction",
+      "target": "Lucchese crime family",
+      "relationship": "other",
+      "detail": "sub-faction",
+      "context": "The Brooklyn faction is a part of the larger Lucchese crime family.",
+      "time_period": "early 2000s-present"
+    },
+    {
+      "source": "Vario Crew",
+      "target": "Lucchese crime family",
+      "relationship": "other",
+      "detail": "sub-crew",
+      "context": "The Vario Crew was a crew within the Lucchese crime family.",
+      "time_period": "1960s-2000"
+    },
+    {
+      "source": "19th Hole Crew",
+      "target": "Lucchese crime family",
+      "relationship": "other",
+      "detail": "sub-crew",
+      "context": "The 19th Hole Crew was a crew within the Lucchese crime family.",
+      "time_period": "1970s-2000"
+    },
+    {
+      "source": "Vario Crew",
+      "target": "19th Hole Crew",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The two crews were merged in the early 2000s to form the Brooklyn faction.",
+      "time_period": "early 2000s"
+    },
+    {
+      "source": "Robert's Lounge Crew",
+      "target": "Vario Crew",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Robert's Lounge Crew was associated with the Vario Crew through Jimmy Burke's friendship with Paul Vario.",
+      "time_period": "1960s-1980s"
+    },
+    {
+      "source": "Brooklyn-Long Island Crew",
+      "target": "Lucchese crime family Brooklyn faction",
+      "relationship": "other",
+      "detail": "splinter",
+      "context": "The Brooklyn-Long Island Crew split from the Brooklyn faction in 2017.",
+      "time_period": "2017-present"
+    },
+    {
+      "source": "Lucchese crime family Brooklyn faction",
+      "target": "Lucchese crime family",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Brooklyn faction is a crew within the Lucchese crime family.",
+      "time_period": "1930s-present"
+    },
+    {
+      "source": "Lucchese crime family",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Lucchese family is allied with the Gambino family.",
+      "time_period": null
+    },
+    {
+      "source": "Lucchese crime family",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Lucchese family is allied with the Genovese family.",
+      "time_period": null
+    },
+    {
+      "source": "Lucchese crime family",
+      "target": "Bonanno crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Lucchese family is allied with the Bonanno family.",
+      "time_period": null
+    },
+    {
+      "source": "Lucchese crime family",
+      "target": "Colombo crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Lucchese family is allied with the Colombo family.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Lucchese_crime_family_Brooklyn_faction"
+}

@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "standard_name": "The Council",
+      "original_text_name": "The Council",
+      "aliases": [],
+      "type": "other",
+      "context": "African-American organized crime syndicate controlling heroin trade in Harlem, New York City during the 1970s.",
+      "time_period": "1972-1983"
+    },
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American Mafia family in New York City that supplied raw heroin to The Council.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "East Harlem Purple Gang",
+      "original_text_name": "East Harlem Purple Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal gang based in East Harlem, allied with The Council.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "Frank Lucas gang",
+      "original_text_name": "Frank Lucas gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Drug trafficking organization led by Frank Lucas, rival of The Council.",
+      "time_period": "1960s-1970s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "The Council",
+      "target": "Lucchese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Lucchese crime family supplied raw heroin to The Council for distribution.",
+      "time_period": "1972-1978"
+    },
+    {
+      "source": "The Council",
+      "target": "East Harlem Purple Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Council was allied with the East Harlem Purple Gang.",
+      "time_period": null
+    },
+    {
+      "source": "The Council",
+      "target": "Frank Lucas gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Council was a rival of the Frank Lucas gang.",
+      "time_period": null
+    }
+  ],
+  "source_file": "The_Council_(drug_syndicate)"
+}

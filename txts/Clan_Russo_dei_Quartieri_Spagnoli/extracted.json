@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Clan Russo",
+      "original_text_name": "Clan Russo",
+      "aliases": [
+        "Clan Russo dei Quartieri Spagnoli",
+        "Russo"
+      ],
+      "type": "clan",
+      "context": "Camorra clan operating in the Quartieri Spagnoli neighborhood of Naples, involved in drug trafficking, extortion, and other crimes.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Clan Di Biasi",
+      "original_text_name": "clan Faiano",
+      "aliases": [
+        "Faiano",
+        "Di Biasi"
+      ],
+      "type": "clan",
+      "context": "Camorra clan from the Quartieri Spagnoli, rivals of the Russo clan, involved in drug trafficking and violence.",
+      "time_period": "1990s-2007"
+    },
+    {
+      "standard_name": "Clan Puccinelli",
+      "original_text_name": "clan Puccinelli",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan operating in Soccavo, Naples, with ties to the Russo clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Clan Russo del Rione Traiano",
+      "original_text_name": "famiglia Russo del Rione Traiano",
+      "aliases": [],
+      "type": "clan",
+      "context": "Related Camorra family from Rione Traiano, Naples, allied with the Russo clan of Quartieri Spagnoli.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Clan Russo di Fuorigrotta",
+      "original_text_name": "famiglia di Fuorigrotta",
+      "aliases": [],
+      "type": "clan",
+      "context": "Related Camorra family from Fuorigrotta, Naples, allied with the Russo clan of Quartieri Spagnoli.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Clan Misso",
+      "original_text_name": "Misso",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan allied with Ciro Lepre and the Russo clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Clan del Cavone",
+      "original_text_name": "boss del Cavone",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan led by Ciro Lepre, allied with Misso and the Russo clan.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Clan Russo",
+      "target": "Clan Di Biasi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Russo and Di Biasi clans were engaged in a violent feud from 1999 to the early 2000s, resulting in multiple deaths.",
+      "time_period": "1999-2007"
+    },
+    {
+      "source": "Clan Russo",
+      "target": "Clan Puccinelli",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "A member of the Russo clan is affiliated with the Puccinelli clan of Soccavo.",
+      "time_period": null
+    },
+    {
+      "source": "Clan Russo",
+      "target": "Clan Russo del Rione Traiano",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Russo clans of Quartieri Spagnoli and Rione Traiano are related by blood and allied.",
+      "time_period": null
+    },
+    {
+      "source": "Clan Russo",
+      "target": "Clan Russo di Fuorigrotta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Russo clans of Quartieri Spagnoli and Fuorigrotta are related by blood and allied.",
+      "time_period": null
+    },
+    {
+      "source": "Clan Russo",
+      "target": "Clan del Cavone",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Salvatore Russo married the daughter of Ciro Lepre, boss of the Cavone clan, forming an alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Clan del Cavone",
+      "target": "Clan Misso",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ciro Lepre of the Cavone clan is allied with Misso.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Clan_Russo_dei_Quartieri_Spagnoli"
+}

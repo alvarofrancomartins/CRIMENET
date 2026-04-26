@@ -1,0 +1,154 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Revolutionary Forces of the G9 Family and Allies",
+      "original_text_name": "Revolutionary Forces of the G9 Family and Allies",
+      "aliases": [
+        "G9 Family",
+        "G9"
+      ],
+      "type": "gang",
+      "context": "Federation of 12 armed groups in Haiti, controls over 80% of Port-au-Prince, involved in murder, drug trafficking, kidnapping.",
+      "time_period": "June 2020-present"
+    },
+    {
+      "standard_name": "Delmas 95",
+      "original_text_name": "Delmas 95",
+      "aliases": [],
+      "type": "gang",
+      "context": "Founding armed group of the G9 Family, led by Jimmy Chérizier.",
+      "time_period": "2020-present"
+    },
+    {
+      "standard_name": "G-Pèp",
+      "original_text_name": "G-Pèp",
+      "aliases": [],
+      "type": "gang",
+      "context": "Haitian armed group supportive of the Haitian Government, rival of G9.",
+      "time_period": "2020-present"
+    },
+    {
+      "standard_name": "Viv Ansanm",
+      "original_text_name": "Viv Ansanm",
+      "aliases": [],
+      "type": "gang",
+      "context": "Coalition formed by G9 and G-Pèp in February 2024.",
+      "time_period": "2024-present"
+    },
+    {
+      "standard_name": "Zoe Pound",
+      "original_text_name": "Zoe Pound",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of G9, likely a Haitian gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Zoe Nation",
+      "original_text_name": "Zoe Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of G9, likely a Haitian gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Zoe Mafia Family",
+      "original_text_name": "Zoe Mafia Family",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of G9, likely a Haitian gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Haitian Tèt Kale Party",
+      "original_text_name": "Haitian Tèt Kale Party",
+      "aliases": [],
+      "type": "other",
+      "context": "Political party, formerly allied with G9 until 2021.",
+      "time_period": "until 2021"
+    },
+    {
+      "standard_name": "400 Mawozo",
+      "original_text_name": "400 Mawozo",
+      "aliases": [],
+      "type": "gang",
+      "context": "Haitian gang, rival of G9.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Revolutionary Forces of the G9 Family and Allies",
+      "target": "Delmas 95",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Delmas 95 is a founding member of the G9 Family.",
+      "time_period": "June 2020-present"
+    },
+    {
+      "source": "Revolutionary Forces of the G9 Family and Allies",
+      "target": "G-Pèp",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "G9 and G-Pèp had clashes in 2022 causing casualties.",
+      "time_period": "2020-2024"
+    },
+    {
+      "source": "Revolutionary Forces of the G9 Family and Allies",
+      "target": "G-Pèp",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "G9 and G-Pèp formed coalition Viv Ansanm in February 2024.",
+      "time_period": "2024-present"
+    },
+    {
+      "source": "Revolutionary Forces of the G9 Family and Allies",
+      "target": "Viv Ansanm",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "G9 is a member of the Viv Ansanm coalition.",
+      "time_period": "2024-present"
+    },
+    {
+      "source": "Revolutionary Forces of the G9 Family and Allies",
+      "target": "Zoe Pound",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zoe Pound is listed as an ally of G9.",
+      "time_period": null
+    },
+    {
+      "source": "Revolutionary Forces of the G9 Family and Allies",
+      "target": "Zoe Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zoe Nation is listed as an ally of G9.",
+      "time_period": null
+    },
+    {
+      "source": "Revolutionary Forces of the G9 Family and Allies",
+      "target": "Zoe Mafia Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zoe Mafia Family is listed as an ally of G9.",
+      "time_period": null
+    },
+    {
+      "source": "Revolutionary Forces of the G9 Family and Allies",
+      "target": "Haitian Tèt Kale Party",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "G9 was formerly allied with the Haitian Tèt Kale Party until 2021.",
+      "time_period": "until 2021"
+    },
+    {
+      "source": "Revolutionary Forces of the G9 Family and Allies",
+      "target": "400 Mawozo",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "400 Mawozo is listed as a rival of G9.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Revolutionary_Forces_of_the_G9_Family_and_Allies"
+}

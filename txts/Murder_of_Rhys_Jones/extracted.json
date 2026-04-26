@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Croxteth Crew",
+      "original_text_name": "Croxteth Crew",
+      "aliases": [],
+      "type": "gang",
+      "context": "A criminal gang in Croxteth, Liverpool, involved in the murder of Rhys Jones.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Norris Green Strand Crew",
+      "original_text_name": "Norris Green Strand Crew",
+      "aliases": [
+        "Strand Crew"
+      ],
+      "type": "gang",
+      "context": "A rival gang to the Croxteth Crew, based in Norris Green, Liverpool.",
+      "time_period": "2000s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Croxteth Crew",
+      "target": "Norris Green Strand Crew",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Croxteth Crew and Norris Green Strand Crew were rival gangs; the murder of Rhys Jones occurred during a failed attempt by Croxteth Crew member Sean Mercer to shoot Strand Crew members.",
+      "time_period": "2006-2007"
+    }
+  ],
+  "source_file": "Murder_of_Rhys_Jones"
+}

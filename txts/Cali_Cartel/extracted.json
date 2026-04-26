@@ -1,0 +1,269 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali Cartel",
+      "aliases": [
+        "Cartel de Cali",
+        "Los Caballeros de Cali"
+      ],
+      "type": "cartel",
+      "context": "Drug cartel based in southern Colombia, controlled over 80% of world's cocaine market in mid-1990s.",
+      "time_period": "1988-1995"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Drug cartel led by Pablo Escobar, rival of Cali Cartel.",
+      "time_period": "1970s-1993"
+    },
+    {
+      "standard_name": "Las Chemas",
+      "original_text_name": "Las Chemas",
+      "aliases": [],
+      "type": "gang",
+      "context": "Kidnapping ring that preceded the Cali Cartel, led by Luis Fernando Tamayo García.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "clan",
+      "context": "Italian criminal organization that partnered with Cali Cartel for European cocaine distribution.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Movimiento 19 de Abril",
+      "original_text_name": "Movimiento 19 de Abril",
+      "aliases": [
+        "M-19",
+        "19th of April Movement"
+      ],
+      "type": "militia",
+      "context": "Colombian guerrilla group that kidnapped family members of cartel leaders.",
+      "time_period": "1970s-1990"
+    },
+    {
+      "standard_name": "Muerte a Secuestradores",
+      "original_text_name": "Muerte a Secuestradores",
+      "aliases": [
+        "Death to Kidnappers",
+        "MAS"
+      ],
+      "type": "militia",
+      "context": "Paramilitary group formed by Medellín and Cali cartels to retaliate against kidnappings.",
+      "time_period": "1981-1990s"
+    },
+    {
+      "standard_name": "Fuerzas Armadas Revolucionarias de Colombia",
+      "original_text_name": "Fuerzas Armadas Revolucionarias de Colombia",
+      "aliases": [
+        "FARC",
+        "Revolutionary Armed Forces of Colombia"
+      ],
+      "type": "militia",
+      "context": "Colombian guerrilla group that kidnapped a Cali Cartel leader's daughter.",
+      "time_period": "1964-2017"
+    },
+    {
+      "standard_name": "Los Pepes",
+      "original_text_name": "Los Pepes",
+      "aliases": [
+        "Perseguidos por Pablo Escobar"
+      ],
+      "type": "militia",
+      "context": "Vigilante group formed to target Pablo Escobar, allegedly including Cali Cartel members.",
+      "time_period": "1992-1993"
+    },
+    {
+      "standard_name": "Guadalajara Cartel",
+      "original_text_name": "Guadalajara Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, former ally of Cali Cartel.",
+      "time_period": "1970s-1989"
+    },
+    {
+      "standard_name": "The Extraditables",
+      "original_text_name": "The Extraditables",
+      "aliases": [],
+      "type": "faction",
+      "context": "Group of traffickers opposing extradition to US, allied with Cali Cartel.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Juarez Cartel",
+      "original_text_name": "Juarez Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, ally of Cali Cartel.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, ally of Cali Cartel.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Norte del Valle Cartel",
+      "original_text_name": "Norte del Valle Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel, initially ally then rival of Cali Cartel.",
+      "time_period": "1990s-2000s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cali Cartel",
+      "target": "Medellín Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Cali Cartel broke away from Medellín associates in 1988 and later waged war against Pablo Escobar.",
+      "time_period": "1988-1993"
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "Las Chemas",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "Las Chemas was the kidnapping ring that evolved into the Cali Cartel.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "Camorra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cali Cartel established a strategic alliance with Camorra for European cocaine distribution.",
+      "time_period": "mid-1980s-1990s"
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "Movimiento 19 de Abril",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Cali Cartel joined Medellín Cartel to form MAS in response to M-19 kidnapping.",
+      "time_period": "1981"
+    },
+    {
+      "source": "Medellín Cartel",
+      "target": "Movimiento 19 de Abril",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Medellín Cartel formed MAS with Cali Cartel after M-19 kidnapped a family member.",
+      "time_period": "1981"
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "Muerte a Secuestradores",
+      "relationship": "other",
+      "detail": "founding member",
+      "context": "Cali Cartel co-founded MAS with Medellín Cartel to retaliate against kidnappings.",
+      "time_period": "1981"
+    },
+    {
+      "source": "Medellín Cartel",
+      "target": "Muerte a Secuestradores",
+      "relationship": "other",
+      "detail": "founding member",
+      "context": "Medellín Cartel co-founded MAS with Cali Cartel.",
+      "time_period": "1981"
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "Fuerzas Armadas Revolucionarias de Colombia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "FARC kidnapped a Cali Cartel leader's daughter; Cali Cartel retaliated by kidnapping leftist members.",
+      "time_period": "1992"
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "Los Pepes",
+      "relationship": "other",
+      "detail": "alleged involvement",
+      "context": "Hélmer Herrera of Cali Cartel is believed to have been a founding member of Los Pepes.",
+      "time_period": "1992-1993"
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "Los Pepes",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cali Cartel founded Los Pepes to target Medellín Cartel and Pablo Escobar.",
+      "time_period": "1992-1993"
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "Muerte a Secuestradores",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cali Cartel co-founded MAS with Medellín Cartel to combat kidnappings.",
+      "time_period": "1981-1987"
+    },
+    {
+      "source": "Medellín Cartel",
+      "target": "Muerte a Secuestradores",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Medellín Cartel co-founded MAS with Cali Cartel.",
+      "time_period": "1981-1987"
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "Guadalajara Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "The Extraditables",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "Juarez Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "Norte del Valle Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Initially allies, later became rivals.",
+      "time_period": null
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "Norte del Valle Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Cali_Cartel"
+}

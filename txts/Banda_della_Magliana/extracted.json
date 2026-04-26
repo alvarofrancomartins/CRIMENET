@@ -1,0 +1,147 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Banda della Magliana",
+      "original_text_name": "Banda della Magliana",
+      "aliases": [
+        "Magliana Gang"
+      ],
+      "type": "gang",
+      "context": "Italian criminal organization based in Rome, founded in 1975, involved in drug dealing, murder, and political terrorism.",
+      "time_period": "1975-1993"
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
+      "aliases": [
+        "Sicilian Mafia"
+      ],
+      "type": "mafia",
+      "context": "Sicilian mafia organization, allied with Banda della Magliana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "clan",
+      "context": "Neapolitan criminal organization, allied with Banda della Magliana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Calabrian mafia organization, allied with Banda della Magliana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nuclei Armati Rivoluzionari",
+      "original_text_name": "Nuclei Armati Rivoluzionari",
+      "aliases": [
+        "NAR"
+      ],
+      "type": "terrorist_organization",
+      "context": "Italian neofascist terrorist group, allied with Banda della Magliana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Propaganda Due",
+      "original_text_name": "Propaganda Due",
+      "aliases": [
+        "P2"
+      ],
+      "type": "other",
+      "context": "Masonic lodge turned conspiratorial cell, linked to Banda della Magliana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "type": "clan",
+      "context": "Camorra faction led by Raffaele Cutolo, rival of Nuova Famiglia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [
+        "NF"
+      ],
+      "type": "clan",
+      "context": "Camorra faction led by Carmine Alfieri, rival of Nuova Camorra Organizzata.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Proietti clan",
+      "original_text_name": "Proietti clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Rival criminal group to Banda della Magliana.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Banda della Magliana",
+      "target": "Cosa Nostra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Italian government claimed close alliance between Banda della Magliana and Cosa Nostra.",
+      "time_period": null
+    },
+    {
+      "source": "Banda della Magliana",
+      "target": "Camorra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Italian government claimed close alliance between Banda della Magliana and Camorra.",
+      "time_period": null
+    },
+    {
+      "source": "Banda della Magliana",
+      "target": "'Ndrangheta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Italian government claimed close alliance between Banda della Magliana and 'Ndrangheta.",
+      "time_period": null
+    },
+    {
+      "source": "Banda della Magliana",
+      "target": "Nuclei Armati Rivoluzionari",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Banda della Magliana laundered money for NAR and NAR helped with street activities.",
+      "time_period": null
+    },
+    {
+      "source": "Banda della Magliana",
+      "target": "Propaganda Due",
+      "relationship": "other",
+      "detail": "links",
+      "context": "Banda della Magliana had links to P2 through Aldo Semerari and others.",
+      "time_period": null
+    },
+    {
+      "source": "Nuova Camorra Organizzata",
+      "target": "Nuova Famiglia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "NCO and NF were rival organizations; Semerari's deals with both displeased them.",
+      "time_period": null
+    },
+    {
+      "source": "Banda della Magliana",
+      "target": "Proietti clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Proietti clan listed as rival of Banda della Magliana.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Banda_della_Magliana"
+}

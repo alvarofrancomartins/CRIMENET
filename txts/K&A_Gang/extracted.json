@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    {
+      "standard_name": "K&A Gang",
+      "original_text_name": "K&A Gang",
+      "aliases": [
+        "Northeast Philly Irish Mob",
+        "K&A"
+      ],
+      "type": "gang",
+      "context": "Irish-American criminal network based in Philadelphia, involved in burglary, drug trafficking, and racketeering.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Scarfo crime family",
+      "original_text_name": "Scarfo crime family",
+      "aliases": [
+        "Philadelphia crime family"
+      ],
+      "type": "mafia",
+      "context": "Philadelphia-based La Cosa Nostra family led by Nicodemo Scarfo.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York-based La Cosa Nostra family with a South Jersey faction.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Philadelphia Greek Mob",
+      "original_text_name": "Philadelphia Greek Mob",
+      "aliases": [
+        "Greek mob"
+      ],
+      "type": "gang",
+      "context": "Greek-American criminal organization in Philadelphia involved in drug trafficking.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Junior Black Mafia",
+      "original_text_name": "Junior Black Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "African-American drug trafficking organization in Philadelphia.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Dixie Mafia",
+      "original_text_name": "Dixie Mafia",
+      "aliases": [],
+      "type": "other",
+      "context": "Criminal network operating in the Southern United States.",
+      "time_period": "1960s-1990s"
+    },
+    {
+      "standard_name": "Irish Republican Army",
+      "original_text_name": "Irish Republican Army",
+      "aliases": [
+        "IRA"
+      ],
+      "type": "terrorist_organization",
+      "context": "Irish republican paramilitary group seeking to end British rule in Northern Ireland.",
+      "time_period": "1919-present"
+    },
+    {
+      "standard_name": "Kielbasa Posse",
+      "original_text_name": "Kielbasa Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Local street gang in Philadelphia, rival of the K&A Gang.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "K&A Gang",
+      "target": "Scarfo crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "K&A Gang had amicable ties and collaborated in methamphetamine operations with the Scarfo crime family.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "K&A Gang",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "K&A Gang had amicable ties to the South Jersey faction of the Genovese crime family.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "K&A Gang",
+      "target": "Philadelphia Greek Mob",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "K&A Gang member John Berkery engaged in a large-scale meth deal with the leader of the Philadelphia Greek Mob.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "K&A Gang",
+      "target": "Junior Black Mafia",
+      "relationship": "other",
+      "detail": "coexistence",
+      "context": "Both groups were involved in making Philadelphia the 'meth capital of the world' in the 1980s.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "K&A Gang",
+      "target": "Dixie Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "K&A members known as the 'Hallmark Gang' collaborated with the Dixie Mafia in North Carolina.",
+      "time_period": "1950s-1960s"
+    },
+    {
+      "source": "K&A Gang",
+      "target": "Irish Republican Army",
+      "relationship": "other",
+      "detail": "contact",
+      "context": "K&A member John Berkery had contacts in the IRA while fleeing to Ireland.",
+      "time_period": "1982-1987"
+    },
+    {
+      "source": "K&A Gang",
+      "target": "Kielbasa Posse",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kielbasa Posse is listed as a rival of the K&A Gang.",
+      "time_period": null
+    }
+  ],
+  "source_file": "K&A_Gang"
+}

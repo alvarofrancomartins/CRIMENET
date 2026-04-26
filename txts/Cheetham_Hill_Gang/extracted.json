@@ -1,0 +1,122 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cheetham Hill Gang",
+      "original_text_name": "Cheetham Hill Gang",
+      "aliases": [
+        "Hillbillies",
+        "C.H.G.",
+        "Y.C.H.G.",
+        "L.H.G."
+      ],
+      "type": "gang",
+      "context": "Organised crime group based in Cheetham, Manchester, involved in drug trafficking, weapon trafficking, armed robbery, kidnapping, prostitution, extortion, racketeering, contract killing, money laundering.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Pepperhill Mob",
+      "original_text_name": "Pepperhill Mob",
+      "aliases": [],
+      "type": "gang",
+      "context": "Moss Side gang involved in turf war with Cheetham Hill Gang.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Doddington Gang",
+      "original_text_name": "Doddington Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Moss Side gang involved in turf war with Cheetham Hill Gang.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Gooch Close Gang",
+      "original_text_name": "Gooch Close Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang that bought and sold drugs to Cheetham Hill, had close ties with Cheetham Hill Gang.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Y.F.C.",
+      "original_text_name": "Y.F.C",
+      "aliases": [
+        "Young Firm Crew"
+      ],
+      "type": "faction",
+      "context": "Splinter cell of Cheetham Hill Gang in the 1990s.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "N.H.C.",
+      "original_text_name": "N.H.C",
+      "aliases": [
+        "Niggaz, Honks, Chinks"
+      ],
+      "type": "faction",
+      "context": "Splinter cell of Cheetham Hill Gang in the 1990s, named after ethnicity of members.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "H.B.B.",
+      "original_text_name": "H.B.B",
+      "aliases": [
+        "Hillbilly Bitches"
+      ],
+      "type": "faction",
+      "context": "All-female splinter cell of Cheetham Hill Gang in the 1990s.",
+      "time_period": "1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cheetham Hill Gang",
+      "target": "Pepperhill Mob",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Turf war over drug trade and control of Manchester's club scene in the 1980s and 1990s.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Cheetham Hill Gang",
+      "target": "Doddington Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Turf war with Moss Side gangs, including Doddington Gang, in the 1980s and 1990s.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Cheetham Hill Gang",
+      "target": "Gooch Close Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Gooch Close Gang bought and sold drugs to Cheetham Hill, with close ties and family connections.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Cheetham Hill Gang",
+      "target": "Y.F.C.",
+      "relationship": "other",
+      "detail": "splinter cell",
+      "context": "Y.F.C. is a splinter cell of Cheetham Hill Gang.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Cheetham Hill Gang",
+      "target": "N.H.C.",
+      "relationship": "other",
+      "detail": "splinter cell",
+      "context": "N.H.C. is a splinter cell of Cheetham Hill Gang.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Cheetham Hill Gang",
+      "target": "H.B.B.",
+      "relationship": "other",
+      "detail": "splinter cell",
+      "context": "H.B.B. is an all-female splinter cell of Cheetham Hill Gang.",
+      "time_period": "1990s"
+    }
+  ],
+  "source_file": "Cheetham_Hill_Gang"
+}

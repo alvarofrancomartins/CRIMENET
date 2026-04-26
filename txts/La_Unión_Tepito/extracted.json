@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "standard_name": "La Unión Tepito",
+      "original_text_name": "La Unión Tepito",
+      "aliases": [
+        "Chilango Cartel",
+        "La Unión de Tepito"
+      ],
+      "type": "cartel",
+      "context": "Mexican criminal organization based in Mexico City, involved in drug trafficking, kidnapping, extortion, and homicide.",
+      "time_period": "2009-present"
+    },
+    {
+      "standard_name": "Tláhuac Cartel",
+      "original_text_name": "Tláhuac Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Rival cartel to La Unión Tepito, operating in Mexico City.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Fuerza Anti-Unión",
+      "original_text_name": "Fuerza Anti-Unión",
+      "aliases": [],
+      "type": "faction",
+      "context": "Splinter group from La Unión Tepito, formed in 2016 after a leadership dispute.",
+      "time_period": "2016-present"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "CJNG"
+      ],
+      "type": "cartel",
+      "context": "Powerful Mexican cartel, national rival of La Unión Tepito.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Major Mexican cartel, national rival of La Unión Tepito.",
+      "time_period": null
+    },
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican cartel, national rival of La Unión Tepito.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Kilos",
+      "original_text_name": "Los Kilos",
+      "aliases": [],
+      "type": "other",
+      "context": "Ally of La Unión Tepito, likely a criminal group.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Tanzanios",
+      "original_text_name": "Los Tanzanios",
+      "aliases": [],
+      "type": "other",
+      "context": "Ally of La Unión Tepito, likely a criminal group.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Malcriados 3AD",
+      "original_text_name": "Los Malcriados 3AD",
+      "aliases": [],
+      "type": "other",
+      "context": "Ally of La Unión Tepito, likely a criminal group.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "La Unión Tepito",
+      "target": "Tláhuac Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "La Unión Tepito and Tláhuac Cartel have been enemies for more than a decade.",
+      "time_period": "2010s-present"
+    },
+    {
+      "source": "La Unión Tepito",
+      "target": "Fuerza Anti-Unión",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Fuerza Anti-Unión is a splinter group that broke away from La Unión Tepito in 2016 after a leadership dispute.",
+      "time_period": "2016-present"
+    },
+    {
+      "source": "La Unión Tepito",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "CJNG is a national rival seeking to take over La Unión Tepito's territories.",
+      "time_period": null
+    },
+    {
+      "source": "La Unión Tepito",
+      "target": "Sinaloa Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sinaloa Cartel is a national rival seeking to take over La Unión Tepito's territories.",
+      "time_period": null
+    },
+    {
+      "source": "La Unión Tepito",
+      "target": "La Familia Michoacana",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "La Familia Michoacana is a national rival seeking to take over La Unión Tepito's territories.",
+      "time_period": null
+    },
+    {
+      "source": "La Unión Tepito",
+      "target": "Los Kilos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Kilos is listed as an ally of La Unión Tepito.",
+      "time_period": null
+    },
+    {
+      "source": "La Unión Tepito",
+      "target": "Los Tanzanios",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Tanzanios is listed as an ally of La Unión Tepito.",
+      "time_period": null
+    },
+    {
+      "source": "La Unión Tepito",
+      "target": "Los Malcriados 3AD",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Malcriados 3AD is listed as an ally of La Unión Tepito.",
+      "time_period": null
+    }
+  ],
+  "source_file": "La_Unión_Tepito"
+}

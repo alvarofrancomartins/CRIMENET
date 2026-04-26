@@ -1,0 +1,256 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Almighty Insane Popes Nation",
+      "original_text_name": "Almighty Insane Popes Nation",
+      "aliases": [
+        "Popes",
+        "Insane Popes",
+        "North Side Popes",
+        "South Side Popes"
+      ],
+      "type": "gang",
+      "context": "Chicago street gang formed in late 1950s, active on north and south sides.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Latin Kings",
+      "original_text_name": "Latin Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "Large Chicago street gang, rivals of the Popes.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Almighty Simon City Royals",
+      "original_text_name": "Almighty Simon City Royals",
+      "aliases": [
+        "Simon City Royals"
+      ],
+      "type": "gang",
+      "context": "Chicago street gang, allies of the north side Popes.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Almighty Gaylords",
+      "original_text_name": "Almighty Gaylords",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago street gang, killed Popes leader Larkin in 1975.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Folks Nation",
+      "original_text_name": "Folks Nation",
+      "aliases": [],
+      "type": "other",
+      "context": "Chicago gang alliance, includes north side Popes and Simon City Royals.",
+      "time_period": null
+    },
+    {
+      "standard_name": "People Nation",
+      "original_text_name": "People Nation",
+      "aliases": [],
+      "type": "other",
+      "context": "Chicago gang alliance, includes south side Popes.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Satan Disciples",
+      "original_text_name": "Satan Disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago street gang, rivals of south side Popes.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Two-Six",
+      "original_text_name": "Two-Six",
+      "aliases": [
+        "Gangster Two-Six"
+      ],
+      "type": "gang",
+      "context": "Chicago street gang, rivals of south side Popes.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Spanish Cobras",
+      "original_text_name": "Spanish Cobras",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago street gang, rivals of south side Popes.",
+      "time_period": null
+    },
+    {
+      "standard_name": "TAP Boyz",
+      "original_text_name": "TAP Boyz",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allies of north side Popes.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Imperial Gangsters",
+      "original_text_name": "Imperial Gangsters",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allies of north side Popes.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Insane Deuces",
+      "original_text_name": "Insane Deuces",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rivals of north side Popes.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Familia Stones",
+      "original_text_name": "Familia Stones",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rivals of north side Popes.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Black P. Stones",
+      "original_text_name": "Black P. Stones",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rivals of north side Popes.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Assyrian Kings",
+      "original_text_name": "Assyrian Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rivals of north side Popes.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Almighty Insane Popes Nation",
+      "target": "Latin Kings",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Popes formed due to problems with Latin Kings; north side Popes' main rivals.",
+      "time_period": "late 1950s-present"
+    },
+    {
+      "source": "Almighty Insane Popes Nation",
+      "target": "Almighty Simon City Royals",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Popes associated with Royals for protection and later formed strong alliance called DAB.",
+      "time_period": "late 1950s-present"
+    },
+    {
+      "source": "Almighty Insane Popes Nation",
+      "target": "Almighty Gaylords",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gaylords killed Popes leader Larkin in 1975.",
+      "time_period": "1975"
+    },
+    {
+      "source": "Almighty Insane Popes Nation",
+      "target": "Folks Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "North side Popes joined Folks Nation alliance.",
+      "time_period": "mid 1970s-present"
+    },
+    {
+      "source": "Almighty Insane Popes Nation",
+      "target": "People Nation",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "North side Popes are rivals of People Nation; south side Popes are allied with People Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Insane Popes Nation",
+      "target": "Satan Disciples",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "South side Popes' main rivals include Satan Disciples.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Insane Popes Nation",
+      "target": "Two-Six",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "South side Popes' main rivals include Gangster Two-Six.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Insane Popes Nation",
+      "target": "Spanish Cobras",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "South side Popes' main rivals include Spanish Cobras.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Insane Popes Nation",
+      "target": "TAP Boyz",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "TAP Boyz are allies of north side Popes.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Insane Popes Nation",
+      "target": "Imperial Gangsters",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Imperial Gangsters are allies of north side Popes.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Insane Popes Nation",
+      "target": "Insane Deuces",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Insane Deuces are rivals of north side Popes.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Insane Popes Nation",
+      "target": "Familia Stones",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Familia Stones are rivals of north side Popes.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Insane Popes Nation",
+      "target": "Black P. Stones",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Black P. Stones are rivals of north side Popes.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Insane Popes Nation",
+      "target": "Assyrian Kings",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Assyrian Kings are rivals of north side Popes.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Simon City Royals",
+      "target": "Folks Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Royals joined Folks Nation.",
+      "time_period": "mid 1970s"
+    }
+  ],
+  "source_file": "Popes_(gang)"
+}

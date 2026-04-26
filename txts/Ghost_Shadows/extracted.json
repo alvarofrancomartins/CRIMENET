@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Ghost Shadows",
+      "original_text_name": "Ghost Shadows",
+      "aliases": [
+        "GSS"
+      ],
+      "type": "gang",
+      "context": "Chinese American street gang active in New York City's Chinatown from 1970s to 1990s, involved in extortion, drug trafficking, and murder.",
+      "time_period": "1971-1990s"
+    },
+    {
+      "standard_name": "On Leong Tong",
+      "original_text_name": "On Leong Tong",
+      "aliases": [],
+      "type": "other",
+      "context": "Chinese tong (secret society) that was affiliated with the Ghost Shadows.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Flying Dragons",
+      "original_text_name": "Flying Dragons",
+      "aliases": [],
+      "type": "gang",
+      "context": "Older Chinatown gang affiliated with Hip Sing Tong, rival of Ghost Shadows.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hip Sing Tong",
+      "original_text_name": "Hip Sing Tong",
+      "aliases": [],
+      "type": "other",
+      "context": "Chinese tong that was affiliated with the Flying Dragons.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Division Street Boys",
+      "original_text_name": "Division Street Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chinatown gang affiliated with Tung On Association, rival of Ghost Shadows.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Tung On Association",
+      "original_text_name": "Tung On Association",
+      "aliases": [],
+      "type": "other",
+      "context": "Chinese association that was affiliated with the Division Street Boys.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Big Circle Gang",
+      "original_text_name": "Big Circle Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chinese criminal gang, ally of Ghost Shadows according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Tiny Rascal Gang",
+      "original_text_name": "Tiny Rascal Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Asian American street gang, ally of Ghost Shadows according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sicilian-American Mafia",
+      "original_text_name": "Sicilian-American Mafia families",
+      "aliases": [
+        "American Mafia"
+      ],
+      "type": "mafia",
+      "context": "Italian-American organized crime families that had links to Ghost Shadows.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bayard Boys",
+      "original_text_name": "Bayard Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Breakaway faction of Ghost Shadows led by Shui Ping Wu in the late 1970s.",
+      "time_period": "late 1970s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ghost Shadows",
+      "target": "On Leong Tong",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ghost Shadows was affiliated with On Leong Tong.",
+      "time_period": null
+    },
+    {
+      "source": "Ghost Shadows",
+      "target": "Flying Dragons",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ghost Shadows engaged in bloody turf wars with Flying Dragons in the 1980s.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Flying Dragons",
+      "target": "Hip Sing Tong",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Flying Dragons were affiliated with Hip Sing Tong.",
+      "time_period": null
+    },
+    {
+      "source": "Ghost Shadows",
+      "target": "Division Street Boys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ghost Shadows fought with Division Street Boys, who were affiliated with Tung On Association.",
+      "time_period": null
+    },
+    {
+      "source": "Division Street Boys",
+      "target": "Tung On Association",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Division Street Boys were affiliated with Tung On Association.",
+      "time_period": null
+    },
+    {
+      "source": "Ghost Shadows",
+      "target": "Big Circle Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Big Circle Gang is listed as an ally of Ghost Shadows in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Ghost Shadows",
+      "target": "Tiny Rascal Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Tiny Rascal Gang is listed as an ally of Ghost Shadows in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Ghost Shadows",
+      "target": "Sicilian-American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ghost Shadows had links to Sicilian-American Mafia families.",
+      "time_period": null
+    },
+    {
+      "source": "Bayard Boys",
+      "target": "Ghost Shadows",
+      "relationship": "other",
+      "detail": "breakaway faction",
+      "context": "Bayard Boys were a breakaway faction of Ghost Shadows led by Shui Ping Wu.",
+      "time_period": "late 1970s"
+    }
+  ],
+  "source_file": "Ghost_Shadows"
+}

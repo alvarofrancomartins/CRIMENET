@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hermanos de Pistoleros Latinos",
+      "original_text_name": "Hermanos Pistoleros Latinos",
+      "aliases": [
+        "HPL",
+        "Brotherhood of Latin Gunmen",
+        "Pistoleros Latinos"
+      ],
+      "type": "gang",
+      "context": "Mexican American prison gang operating in Texas prisons and streets, active in Mexico, involved in drug trafficking.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "HPL 45s",
+      "original_text_name": "HPL 45s",
+      "aliases": [],
+      "type": "faction",
+      "context": "Splinter faction of HPL from original Rio Grande Valley members during internal conflict.",
+      "time_period": "1990s-1998"
+    },
+    {
+      "standard_name": "16/12s",
+      "original_text_name": "16/12s",
+      "aliases": [],
+      "type": "faction",
+      "context": "Splinter faction of HPL from San Antonio and Houston members during internal conflict.",
+      "time_period": "1990s-1998"
+    }
+  ],
+  "edges": [
+    {
+      "source": "HPL 45s",
+      "target": "16/12s",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The two factions went to war after a power struggle within HPL.",
+      "time_period": "1990s-1998"
+    },
+    {
+      "source": "HPL 45s",
+      "target": "Hermanos de Pistoleros Latinos",
+      "relationship": "other",
+      "detail": "reunited into",
+      "context": "The factions reunited under the name HPL in 1998.",
+      "time_period": "1998"
+    },
+    {
+      "source": "16/12s",
+      "target": "Hermanos de Pistoleros Latinos",
+      "relationship": "other",
+      "detail": "reunited into",
+      "context": "The factions reunited under the name HPL in 1998.",
+      "time_period": "1998"
+    }
+  ],
+  "source_file": "Hermanos_de_Pistoleros_Latinos"
+}

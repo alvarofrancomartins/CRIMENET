@@ -1,0 +1,98 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Snakehead",
+      "original_text_name": "Snakehead",
+      "aliases": [
+        "Snakeheads",
+        "蛇头"
+      ],
+      "type": "gang",
+      "context": "Chinese gangs that smuggle people to other countries, operating from Fujian region.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "14K",
+      "original_text_name": "14K",
+      "aliases": [],
+      "type": "triad",
+      "context": "Chinese triad group, ally of Snakehead.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian mafia, ally of Snakehead.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Inagawa-kai",
+      "original_text_name": "Inagawa-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Japanese yakuza group, ally of Snakehead.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sun Yee On",
+      "original_text_name": "Sun Yee On",
+      "aliases": [],
+      "type": "triad",
+      "context": "Chinese triad group, rival of Snakehead.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Wo Hop To",
+      "original_text_name": "Wo Hop To",
+      "aliases": [],
+      "type": "triad",
+      "context": "Chinese triad group, rival of Snakehead.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Snakehead",
+      "target": "14K",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Snakehead has an alliance with 14K.",
+      "time_period": null
+    },
+    {
+      "source": "Snakehead",
+      "target": "Cosa Nostra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Snakehead has an alliance with Cosa Nostra.",
+      "time_period": null
+    },
+    {
+      "source": "Snakehead",
+      "target": "Inagawa-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Snakehead has an alliance with Inagawa-kai.",
+      "time_period": null
+    },
+    {
+      "source": "Snakehead",
+      "target": "Sun Yee On",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Snakehead has a rivalry with Sun Yee On.",
+      "time_period": null
+    },
+    {
+      "source": "Snakehead",
+      "target": "Wo Hop To",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Snakehead has a rivalry with Wo Hop To.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Snakehead_(gang)"
+}

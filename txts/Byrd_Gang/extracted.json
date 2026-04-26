@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Byrd Gang",
+      "original_text_name": "Byrd Gang",
+      "aliases": [
+        "Piff Gang",
+        "M3"
+      ],
+      "type": "gang",
+      "context": "Criminal organization in New Orleans, Louisiana, involved in drug trafficking, murder, theft, and kidnapping.",
+      "time_period": "2006-present"
+    },
+    {
+      "standard_name": "3-N-G",
+      "original_text_name": "3-N-G",
+      "aliases": [
+        "3NG"
+      ],
+      "type": "gang",
+      "context": "Rival gang to the Byrd Gang, involved in a long-standing feud.",
+      "time_period": null
+    },
+    {
+      "standard_name": "39ers",
+      "original_text_name": "39ers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of the Byrd Gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "BTY",
+      "original_text_name": "BTY",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of the Byrd Gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "AHM",
+      "original_text_name": "AHM",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of the Byrd Gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gerttown Hounds",
+      "original_text_name": "Gerttown Hounds",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of the Byrd Gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Fischer Projects",
+      "original_text_name": "Fischer Projects",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of the Byrd Gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ghost Gang",
+      "original_text_name": "Ghost Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of the Byrd Gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Goonie Gang",
+      "original_text_name": "Goonie Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of the Byrd Gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Young Melph Mafia",
+      "original_text_name": "Young Melph Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of the Byrd Gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "St Bernard Projects",
+      "original_text_name": "St Bernard Projects",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of the Byrd Gang.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Byrd Gang",
+      "target": "3-N-G",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Byrd Gang has feuded with the 3-N-G gang for years, including a 2009 Mardi Gras shooting.",
+      "time_period": "2009-present"
+    },
+    {
+      "source": "Byrd Gang",
+      "target": "39ers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The 39ers are listed as allies of the Byrd Gang.",
+      "time_period": null
+    },
+    {
+      "source": "Byrd Gang",
+      "target": "BTY",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "BTY is listed as an ally of the Byrd Gang.",
+      "time_period": null
+    },
+    {
+      "source": "Byrd Gang",
+      "target": "AHM",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "AHM is listed as an ally of the Byrd Gang.",
+      "time_period": null
+    },
+    {
+      "source": "Byrd Gang",
+      "target": "Gerttown Hounds",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Gerttown Hounds is listed as an ally of the Byrd Gang.",
+      "time_period": null
+    },
+    {
+      "source": "Byrd Gang",
+      "target": "Fischer Projects",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Fischer Projects is listed as an ally of the Byrd Gang.",
+      "time_period": null
+    },
+    {
+      "source": "Byrd Gang",
+      "target": "Ghost Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ghost Gang is listed as a rival of the Byrd Gang.",
+      "time_period": null
+    },
+    {
+      "source": "Byrd Gang",
+      "target": "Goonie Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Goonie Gang is listed as a rival of the Byrd Gang.",
+      "time_period": null
+    },
+    {
+      "source": "Byrd Gang",
+      "target": "Young Melph Mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Young Melph Mafia is listed as a rival of the Byrd Gang.",
+      "time_period": null
+    },
+    {
+      "source": "Byrd Gang",
+      "target": "St Bernard Projects",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "St Bernard Projects is listed as a rival of the Byrd Gang.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Byrd_Gang"
+}

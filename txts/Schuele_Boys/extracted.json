@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Schuele Boys",
+      "original_text_name": "Schuele Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang based in Buffalo, New York, involved in drug trafficking, violence, and other crimes.",
+      "time_period": "2000-present"
+    },
+    {
+      "standard_name": "Buffalo crime family",
+      "original_text_name": "Buffalo crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Buffalo, New York, allied with the Schuele Boys.",
+      "time_period": null
+    },
+    {
+      "standard_name": "East Ferry Street Gang",
+      "original_text_name": "East Ferry Street Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to the Schuele Boys in Buffalo, New York.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Schuele Boys",
+      "target": "Buffalo crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Schuele Boys are allied with the Buffalo crime family.",
+      "time_period": null
+    },
+    {
+      "source": "Schuele Boys",
+      "target": "East Ferry Street Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Schuele Boys are rivals with the East Ferry Street Gang.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Schuele_Boys"
+}

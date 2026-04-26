@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kumi 415",
+      "original_text_name": "Kumi 415",
+      "aliases": [
+        "Kumi African Nation Organization",
+        "415"
+      ],
+      "type": "gang",
+      "context": "African-American prison gang formed in Folsom State Prison in the mid-1980s, active in California prisons.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang with large numbers in the Bay Area and Northern California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang with large numbers in the Bay Area and Northern California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Black Guerrilla Family",
+      "original_text_name": "Black Guerrilla Family",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang with large numbers in the Bay Area and Northern California, shares African orientation with Kumi 415.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kumi 415",
+      "target": "Black Guerrilla Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kumi 415 members provide recruitment pools for Black Guerrilla Family.",
+      "time_period": null
+    },
+    {
+      "source": "Crips",
+      "target": "Black Guerrilla Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Crips members provide recruitment pools for Black Guerrilla Family.",
+      "time_period": null
+    },
+    {
+      "source": "Bloods",
+      "target": "Black Guerrilla Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bloods members provide recruitment pools for Black Guerrilla Family.",
+      "time_period": null
+    },
+    {
+      "source": "Bloods",
+      "target": "Kumi 415",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Brief alliances reported in Monterey County Jail leading up to Stanley Williams' execution.",
+      "time_period": null
+    },
+    {
+      "source": "Crips",
+      "target": "Kumi 415",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Brief alliances reported in Monterey County Jail leading up to Stanley Williams' execution.",
+      "time_period": null
+    }
+  ],
+  "source_file": "KUMI_415"
+}

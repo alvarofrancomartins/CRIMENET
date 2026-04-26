@@ -1,0 +1,205 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kray twins",
+      "original_text_name": "Krays",
+      "aliases": [
+        "Kray twins",
+        "the Krays",
+        "Kray gang"
+      ],
+      "type": "gang",
+      "context": "London gangland bosses operating in the East End during the 1950s-1960s, involved in extortion, protection rackets, and murder.",
+      "time_period": "1950s-1960s"
+    },
+    {
+      "standard_name": "Richardson gang",
+      "original_text_name": "Richardsons",
+      "aliases": [
+        "Richardson gang",
+        "the Richardsons"
+      ],
+      "type": "gang",
+      "context": "London gangland group operating in South London, involved in scrap metal and organized crime.",
+      "time_period": "1950s-1960s"
+    },
+    {
+      "standard_name": "New York Mafia",
+      "original_text_name": "New York Mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "American organized crime syndicate based in New York, referred to in the text as recognizing Joey Pyle as 'London Don of Dons'.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nash brothers",
+      "original_text_name": "Nashes",
+      "aliases": [
+        "Nash brothers",
+        "Johnny and Jimmy Nash"
+      ],
+      "type": "gang",
+      "context": "London gangland group operating in Islington and the West End, associates of Joey Pyle.",
+      "time_period": "1950s-1960s"
+    },
+    {
+      "standard_name": "Foreman gang",
+      "original_text_name": "Freddie Foreman",
+      "aliases": [
+        "Freddie Foreman's gang"
+      ],
+      "type": "gang",
+      "context": "London gangland group ruling South London, involved in protection rackets and organized crime.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Billy Hill's gang",
+      "original_text_name": "Billy Hill",
+      "aliases": [
+        "Billy Hill's organization"
+      ],
+      "type": "gang",
+      "context": "London gangland group led by Billy Hill, involved in gambling and nightclub management.",
+      "time_period": "1950s-1960s"
+    },
+    {
+      "standard_name": "Pyle firm",
+      "original_text_name": "Pyle's firm",
+      "aliases": [
+        "Joey Pyle's firm"
+      ],
+      "type": "gang",
+      "context": "London gangland group led by Joey Pyle, involved in armed robbery, extortion, protection rackets, and gambling.",
+      "time_period": "1950s-1990s"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [
+        "Genovese family"
+      ],
+      "type": "mafia",
+      "context": "New York Mafia family; members include Joe Pagano and Carmine DeNoia.",
+      "time_period": "1890s-present"
+    },
+    {
+      "standard_name": "Los Angeles crime family",
+      "original_text_name": "Los Angeles crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "California Mafia family; member Bobby Milano mentioned.",
+      "time_period": "1900s-present"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [
+        "Gambino family"
+      ],
+      "type": "mafia",
+      "context": "New York Mafia family; reputed soldier Joe Isgro mentioned.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Colombo crime family",
+      "original_text_name": "Colombo crime family",
+      "aliases": [
+        "Colombo family"
+      ],
+      "type": "mafia",
+      "context": "New York Mafia family; underboss Sonny Franzese mentioned.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Outlaws Motorcycle Club",
+      "original_text_name": "Outlaws Motorcycle Club",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club that participated in Joey Pyle's funeral procession.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Pyle firm",
+      "target": "Kray twins",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pyle was an associate of the Krays, attended their weddings, and cooperated on protection rackets.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Pyle firm",
+      "target": "Richardson gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pyle was associated with the Richardsons, meeting Eddie Richardson through scrap metal dealings.",
+      "time_period": "1950s-1960s"
+    },
+    {
+      "source": "Pyle firm",
+      "target": "Nash brothers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pyle worked closely with the Nash brothers in protection rackets and gambling operations.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Pyle firm",
+      "target": "Foreman gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pyle and Foreman came to an informal agreement about splitting proceeds from protection rackets.",
+      "time_period": "1967"
+    },
+    {
+      "source": "Kray twins",
+      "target": "Richardson gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Krays and Richardsons were feuding gangland families, but Pyle mediated between them.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Pyle firm",
+      "target": "Billy Hill's gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pyle sought advice from Billy Hill on gambling operations.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Pyle firm",
+      "target": "New York Mafia",
+      "relationship": "other",
+      "detail": "recognition",
+      "context": "The New York Mafia referred to Pyle as the 'London Don of Dons'.",
+      "time_period": null
+    },
+    {
+      "source": "Genovese crime family",
+      "target": "Los Angeles crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Joe Pagano (Genovese) recommended Bobby Milano (Los Angeles) to Joey Pyle.",
+      "time_period": null
+    },
+    {
+      "source": "Genovese crime family",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Joe Pagano introduced Pyle to Joe Isgro, a Gambino associate.",
+      "time_period": null
+    },
+    {
+      "source": "Colombo crime family",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ori Spado, associate of Colombo underboss Sonny Franzese, was a friend of Pyle and connected to Genovese members.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Joey_Pyle"
+}

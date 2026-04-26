@@ -1,0 +1,193 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Folk Nation",
+      "original_text_name": "Folks Nation",
+      "aliases": [
+        "Folk Nation"
+      ],
+      "type": "gang",
+      "context": "Alliance of street gangs originating in Chicago, established in 1978.",
+      "time_period": "1978-present"
+    },
+    {
+      "standard_name": "Gangster Disciple Nation",
+      "original_text_name": "Gangster Disciple Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago street gang; chairman Larry Hoover founded Folk Nation.",
+      "time_period": "1978-present"
+    },
+    {
+      "standard_name": "Almighty Latin Eagle Nation",
+      "original_text_name": "Almighty Latin Eagle Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "Affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Almighty Simon City Royal Nation",
+      "original_text_name": "Almighty Simon City Royal Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "Affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Black Disciples",
+      "original_text_name": "Black Disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "Affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Spanish Gangster Disciples",
+      "original_text_name": "Spanish Gangster Disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "Affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "La Raza Nation",
+      "original_text_name": "La Raza Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "Affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Maniac Latin Disciple Nation",
+      "original_text_name": "Maniac Latin Disciple Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "Affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "North Side Insane Popes",
+      "original_text_name": "North Side Insane Popes",
+      "aliases": [],
+      "type": "gang",
+      "context": "Affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Spanish Cobras",
+      "original_text_name": "Spanish Cobras",
+      "aliases": [],
+      "type": "gang",
+      "context": "Affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Tiny Rascal Gang",
+      "original_text_name": "Tiny Rascal Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Affiliated gang of Folk Nation in Michigan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "People Nation",
+      "original_text_name": "People Nation",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival alliance of street gangs to Folk Nation.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Folk Nation",
+      "target": "Gangster Disciple Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Gangster Disciple Nation chairman Larry Hoover founded Folk Nation.",
+      "time_period": "1978-present"
+    },
+    {
+      "source": "Folk Nation",
+      "target": "Almighty Latin Eagle Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Almighty Latin Eagle Nation is an affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Folk Nation",
+      "target": "Almighty Simon City Royal Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Almighty Simon City Royal Nation is an affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Folk Nation",
+      "target": "Black Disciples",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Black Disciples is an affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Folk Nation",
+      "target": "Spanish Gangster Disciples",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Spanish Gangster Disciples is an affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Folk Nation",
+      "target": "La Raza Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Raza Nation is an affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Folk Nation",
+      "target": "Maniac Latin Disciple Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Maniac Latin Disciple Nation is an affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Folk Nation",
+      "target": "North Side Insane Popes",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "North Side Insane Popes is an affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Folk Nation",
+      "target": "Spanish Cobras",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Spanish Cobras is an affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Folk Nation",
+      "target": "Tiny Rascal Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Tiny Rascal Gang is an affiliated gang of Folk Nation in Michigan.",
+      "time_period": null
+    },
+    {
+      "source": "Folk Nation",
+      "target": "People Nation",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Folk Nation gangs disrespect People Nation symbols.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Folk_Nation"
+}

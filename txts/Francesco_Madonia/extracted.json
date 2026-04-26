@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Resuttana Mafia Family",
+      "original_text_name": "Resuttana Mafia family",
+      "aliases": [
+        "Resuttana mandamento",
+        "Madonia clan"
+      ],
+      "type": "mafia",
+      "context": "Sicilian Mafia family based in Palermo, led by Francesco Madonia.",
+      "time_period": "1970s-2007"
+    },
+    {
+      "standard_name": "Sicilian Mafia Commission",
+      "original_text_name": "Sicilian Mafia Commission",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Coordinating body of Sicilian Mafia families.",
+      "time_period": "1950s-1990s"
+    },
+    {
+      "standard_name": "Corleonesi",
+      "original_text_name": "Corleonesi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Sicilian Mafia faction from Corleone, led by Totò Riina.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Di Trapani clan",
+      "original_text_name": "Di Trapani clan",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Sicilian Mafia clan allied with the Madonia family.",
+      "time_period": "2000s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Resuttana Mafia Family",
+      "target": "Sicilian Mafia Commission",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Resuttana family was represented on the Commission by Francesco Madonia.",
+      "time_period": "1978-1990s"
+    },
+    {
+      "source": "Resuttana Mafia Family",
+      "target": "Corleonesi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Resuttana family strongly supported the Corleonesi during the Second Mafia War.",
+      "time_period": "1981-1984"
+    },
+    {
+      "source": "Resuttana Mafia Family",
+      "target": "Di Trapani clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Madonia clan exchanged information with the Di Trapani clan via Maria Angela Di Trapani.",
+      "time_period": "2000s"
+    }
+  ],
+  "source_file": "Francesco_Madonia"
+}

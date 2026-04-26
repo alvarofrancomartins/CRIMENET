@@ -1,0 +1,95 @@
+{
+  "nodes": [
+    {
+      "standard_name": "DLASTHR",
+      "original_text_name": "DLASTHR",
+      "aliases": [
+        "The Last Hour"
+      ],
+      "type": "gang",
+      "context": "Assyrian criminal organization active in southwestern Sydney, involved in drug trafficking, murders, and shootings.",
+      "time_period": "early 2000s-present"
+    },
+    {
+      "standard_name": "Assyrian Kings",
+      "original_text_name": "Assyrian Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "Predecessor gang to DLASTHR, active in 1990s, implicated in the murder of off-duty police officer David Carty.",
+      "time_period": "1990s-early 2000s"
+    },
+    {
+      "standard_name": "True Kings",
+      "original_text_name": "True Kings",
+      "type": "gang",
+      "context": "Rival gang to DLASTHR, involved in turf war over drug supply in Sydney's western suburbs.",
+      "time_period": "2010s",
+      "aliases": []
+    },
+    {
+      "standard_name": "Nomads",
+      "original_text_name": "Nomads",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle gang; former member Adrian Buxton was murdered, possibly by DLASTHR.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Comanchero",
+      "original_text_name": "Comanchero",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle gang; member Alen Moradian was murdered, and Luke Sparos was charged with the murder.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Bronx Boys",
+      "original_text_name": "Bronx Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to DLASTHR according to infobox.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "DLASTHR",
+      "target": "Assyrian Kings",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "DLASTHR originated from the Assyrian Kings after the latter fell apart following Carty's murder.",
+      "time_period": "early 2000s"
+    },
+    {
+      "source": "DLASTHR",
+      "target": "True Kings",
+      "relationship": "rivalry",
+      "context": "Turf war over drug supply led to drive-by shootings and firebombings in the 2010s.",
+      "time_period": "2010s"
+    },
+    {
+      "source": "DLASTHR",
+      "target": "Nomads",
+      "relationship": "other",
+      "detail": "possible involvement",
+      "context": "DLASTHR is suspected of murdering ex-Nomads member Adrian Buxton.",
+      "time_period": "2016"
+    },
+    {
+      "source": "DLASTHR",
+      "target": "Comanchero",
+      "relationship": "other",
+      "detail": "possible involvement",
+      "context": "Luke Sparos, charged with murder of Comanchero member Alen Moradian, also attempted murder of DLASTHR member Samer Marcus.",
+      "time_period": "2021-2023"
+    },
+    {
+      "source": "DLASTHR",
+      "target": "Bronx Boys",
+      "relationship": "rivalry",
+      "context": "Listed as rivals in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "DLASTHR"
+}

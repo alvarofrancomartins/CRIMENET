@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cossacks Motorcycle Club",
+      "original_text_name": "Cossacks Motorcycle Club",
+      "aliases": [
+        "Cossacks MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "American outlaw motorcycle club based in Texas, founded in 1969.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Bandidos Motorcycle Club",
+      "original_text_name": "Bandidos Motorcycle Club",
+      "aliases": [
+        "Bandidos MC",
+        "Bandidos"
+      ],
+      "type": "motorcycle_club",
+      "context": "Rival outlaw motorcycle club, involved in conflicts with Cossacks MC.",
+      "time_period": "1966-present"
+    },
+    {
+      "standard_name": "Dirty Knuckles MC",
+      "original_text_name": "Dirty Knuckles MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Support club allied with Cossacks MC.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sabres MC",
+      "original_text_name": "Sabres MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Support club allied with Cossacks MC.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dragoons MC",
+      "original_text_name": "Dragoons MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Support club allied with Cossacks MC.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Scimitars MC",
+      "original_text_name": "Scimitars MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Support club allied with Cossacks MC.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Chicanos MC",
+      "original_text_name": "Chicanos MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Rival motorcycle club of Cossacks MC.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Diablos MC",
+      "original_text_name": "Diablos MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Rival motorcycle club of Cossacks MC.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cossacks Motorcycle Club",
+      "target": "Bandidos Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Long-standing conflict, including the 2015 Waco shootout and multiple violent incidents.",
+      "time_period": "2013-present"
+    },
+    {
+      "source": "Cossacks Motorcycle Club",
+      "target": "Dirty Knuckles MC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dirty Knuckles MC is a support club allied with Cossacks MC.",
+      "time_period": null
+    },
+    {
+      "source": "Cossacks Motorcycle Club",
+      "target": "Sabres MC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sabres MC is a support club allied with Cossacks MC.",
+      "time_period": null
+    },
+    {
+      "source": "Cossacks Motorcycle Club",
+      "target": "Dragoons MC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dragoons MC is a support club allied with Cossacks MC.",
+      "time_period": null
+    },
+    {
+      "source": "Cossacks Motorcycle Club",
+      "target": "Scimitars MC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Scimitars MC is a support club allied with Cossacks MC.",
+      "time_period": null
+    },
+    {
+      "source": "Cossacks Motorcycle Club",
+      "target": "Chicanos MC",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Chicanos MC is listed as a rival of Cossacks MC.",
+      "time_period": null
+    },
+    {
+      "source": "Cossacks Motorcycle Club",
+      "target": "Diablos MC",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Diablos MC is listed as a rival of Cossacks MC.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Cossacks_Motorcycle_Club"
+}

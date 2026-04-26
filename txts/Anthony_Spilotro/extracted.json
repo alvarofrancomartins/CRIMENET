@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [
+        "The Outfit"
+      ],
+      "type": "mafia",
+      "context": "American Mafia family based in Chicago, involved in skimming Las Vegas casinos and other rackets.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Hole in the Wall Gang",
+      "original_text_name": "Hole in the Wall Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Burglary crew formed by Anthony Spilotro in Las Vegas, known for drilling through walls.",
+      "time_period": "1971-1982"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hole in the Wall Gang",
+      "target": "Chicago Outfit",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Hole in the Wall Gang was a burglary crew formed by Chicago Outfit member Anthony Spilotro and operated under the Outfit's umbrella.",
+      "time_period": "1971-1982"
+    }
+  ],
+  "source_file": "Anthony_Spilotro"
+}

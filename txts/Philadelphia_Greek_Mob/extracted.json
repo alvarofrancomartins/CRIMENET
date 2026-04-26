@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Philadelphia Greek Mob",
+      "original_text_name": "Philadelphia Greek Mob",
+      "aliases": [
+        "Philadelphia Greek Mafia",
+        "Greek Mob"
+      ],
+      "type": "faction",
+      "context": "Greek-American racketeers and drug dealers operating in Philadelphia, Pennsylvania.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Philadelphia crime family",
+      "original_text_name": "Philadelphia crime family",
+      "aliases": [
+        "Philadelphia Mafia",
+        "Philadelphia Cosa Nostra"
+      ],
+      "type": "mafia",
+      "context": "Italian-American Mafia family operating in Philadelphia, Pennsylvania.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "K&A Gang",
+      "original_text_name": "K&A Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Philadelphia-based Irish-American gang involved in organized crime.",
+      "time_period": "1960s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Philadelphia Greek Mob",
+      "target": "Philadelphia crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Greek Mob was closely affiliated with the Philadelphia crime family and fell under its control during Nicky Scarfo's reign.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "source": "Philadelphia Greek Mob",
+      "target": "K&A Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Greek Mob was allied with the K&A Gang according to the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Philadelphia_Greek_Mob"
+}

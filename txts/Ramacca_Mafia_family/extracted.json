@@ -1,0 +1,95 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Ramacca Mafia family",
+      "original_text_name": "Ramacca Mafia family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Crime family of Cosa Nostra operating in Ramacca, Sicily, involved in extortion, public contracts, and political influence.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Sicilian Mafia umbrella organization; Ramacca family is a member.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Corleonesi",
+      "original_text_name": "Corleonesi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Powerful Mafia clan from Corleone, Sicily, led by Luciano Leggio, Toto Riina, and Bernardo Provenzano.",
+      "time_period": "1950s-2000s"
+    },
+    {
+      "standard_name": "Caltagirone Mafia family",
+      "original_text_name": "Caltagirone Mafia family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Caltagirone, Sicily, headed by Francesco La Rocca.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Catania Mafia family",
+      "original_text_name": "Catania Mafia family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Catania, Sicily, with influence over the Calatino area.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Santapaola-Ercolano network",
+      "original_text_name": "Santapaola-Ercolano network",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia network in Catania area, with influence in Ramacca.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ramacca Mafia family",
+      "target": "Cosa Nostra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ramacca family is a member of Cosa Nostra.",
+      "time_period": "1950s-present"
+    },
+    {
+      "source": "Ramacca Mafia family",
+      "target": "Corleonesi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ramacca head Calogero Conti maintained ties with Corleonesi leaders and facilitated Leggio's refuge.",
+      "time_period": "1950s-2000s"
+    },
+    {
+      "source": "Ramacca Mafia family",
+      "target": "Caltagirone Mafia family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Conti was godfather to Francesco La Rocca, later head of Caltagirone family.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Ramacca Mafia family",
+      "target": "Catania Mafia family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Catania family member Vincenzo Aiello assumed control of Calatino area, designating Pasquale Oliva in Ramacca.",
+      "time_period": "early 2000s"
+    },
+    {
+      "source": "Ramacca Mafia family",
+      "target": "Santapaola-Ercolano network",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "2025 ROS operation revealed continued influence of Santapaola-Ercolano network in Ramacca.",
+      "time_period": "2025"
+    }
+  ],
+  "source_file": "Ramacca_Mafia_family"
+}

@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kinahan Cartel",
+      "original_text_name": "Kinahan Cartel",
+      "aliases": [
+        "Kinahan Organised Crime Group (KOCG)"
+      ],
+      "type": "cartel",
+      "context": "Irish drug trafficking cartel involved in smuggling drugs and firearms into UK, Ireland, and mainland Europe.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Islamic Revolutionary Guard Corps",
+      "original_text_name": "IRGC",
+      "aliases": [
+        "IRGC"
+      ],
+      "type": "militia",
+      "context": "Iranian military organization involved in shadow banking and sanctions evasion.",
+      "time_period": "1979-present"
+    },
+    {
+      "standard_name": "Iran's Ministry of Defense and Armed Forces Logistics",
+      "original_text_name": "Iran's Ministry of Defense and Armed Forces Logistics (MODAFL)",
+      "aliases": [
+        "MODAFL"
+      ],
+      "type": "other",
+      "context": "Iranian government ministry involved in sanctions evasion and money laundering.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Chinese Money Laundering Organizations",
+      "original_text_name": "Chinese Money Laundering Organizations",
+      "aliases": [],
+      "type": "other",
+      "context": "Complex money laundering groups targeted by FBI in 2025.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kinahan Cartel",
+      "target": "Islamic Revolutionary Guard Corps",
+      "relationship": "other",
+      "detail": "no direct relationship",
+      "context": "Both are mentioned in the context of UAE-based money laundering but no direct link is stated.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Anti–money_laundering"
+}

@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "standard_name": "South Pacific Cartel",
+      "original_text_name": "South Pacific Cartel",
+      "aliases": [
+        "Cártel del Pacífico Sur"
+      ],
+      "type": "cartel",
+      "context": "Mexican organized crime group based in Morelos, active since 2010, involved in drug trafficking, kidnapping, murder.",
+      "time_period": "2010-present"
+    },
+    {
+      "standard_name": "Beltrán-Leyva Cartel",
+      "original_text_name": "Beltrán-Leyva Cartel",
+      "aliases": [
+        "Beltran Leyva Cartel"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel, parent organization of the South Pacific Cartel.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican criminal organization, allied with South Pacific Cartel.",
+      "time_period": "1999-present"
+    },
+    {
+      "standard_name": "Los Mazatlecos",
+      "original_text_name": "Los Mazatlecos",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican criminal group, allied with South Pacific Cartel.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, rival of South Pacific Cartel.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, rival of South Pacific Cartel.",
+      "time_period": "1970s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "South Pacific Cartel",
+      "target": "Beltrán-Leyva Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "South Pacific Cartel is composed of remnants of the Beltrán-Leyva Cartel and was created by its leader.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "South Pacific Cartel",
+      "target": "Los Zetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "South Pacific Cartel is allied with Los Zetas.",
+      "time_period": null
+    },
+    {
+      "source": "South Pacific Cartel",
+      "target": "Los Mazatlecos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "South Pacific Cartel is allied with Los Mazatlecos.",
+      "time_period": null
+    },
+    {
+      "source": "South Pacific Cartel",
+      "target": "Sinaloa Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "South Pacific Cartel is a rival of the Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "South Pacific Cartel",
+      "target": "Gulf Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "South Pacific Cartel is a rival of the Gulf Cartel.",
+      "time_period": null
+    }
+  ],
+  "source_file": "South_Pacific_Cartel"
+}

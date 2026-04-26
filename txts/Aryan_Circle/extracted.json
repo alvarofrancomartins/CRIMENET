@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Aryan Circle",
+      "original_text_name": "Aryan Circle",
+      "aliases": [
+        "AC"
+      ],
+      "type": "gang",
+      "context": "White supremacist prison gang active in U.S. correctional facilities, primarily Texas.",
+      "time_period": "1985-present"
+    },
+    {
+      "standard_name": "Aryan Brotherhood of Texas",
+      "original_text_name": "Aryan Brotherhood of Texas",
+      "aliases": [
+        "ABT"
+      ],
+      "type": "gang",
+      "context": "White supremacist prison gang in Texas, from which Aryan Circle splintered.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "White Knights",
+      "original_text_name": "White Knights",
+      "aliases": [],
+      "type": "gang",
+      "context": "White supremacist prison gang that fought a war with Aryan Circle in the mid-1990s.",
+      "time_period": "mid-1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Aryan Circle",
+      "target": "Aryan Brotherhood of Texas",
+      "relationship": "other",
+      "detail": "splinter group",
+      "context": "Aryan Circle was founded as a splinter group of the Aryan Brotherhood of Texas in 1985.",
+      "time_period": "1985"
+    },
+    {
+      "source": "Aryan Circle",
+      "target": "White Knights",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Aryan Circle was involved in a bloody war with the White Knights in the mid-1990s.",
+      "time_period": "mid-1990s"
+    }
+  ],
+  "source_file": "Aryan_Circle"
+}

@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bengal Tigers",
+      "original_text_name": "Bengal Tigers",
+      "aliases": [],
+      "type": "gang",
+      "context": "A scuttling gang from Bengal Street in Ancoats, Manchester.",
+      "time_period": "1870s-1890s"
+    },
+    {
+      "standard_name": "Meadow Lads",
+      "original_text_name": "Meadow Lads",
+      "aliases": [],
+      "type": "gang",
+      "context": "A scuttling gang from Angel Meadow, Manchester.",
+      "time_period": "1870s-1890s"
+    },
+    {
+      "standard_name": "Holland Street Gang",
+      "original_text_name": "Holland Street",
+      "aliases": [],
+      "type": "gang",
+      "context": "A scuttling gang from Holland Street, Miles Platting.",
+      "time_period": "1870s-1890s"
+    },
+    {
+      "standard_name": "Grey Mare Lane Gang",
+      "original_text_name": "Grey Mare Lane",
+      "aliases": [],
+      "type": "gang",
+      "context": "A scuttling gang from Grey Mare Lane, Bradford.",
+      "time_period": "1870s-1890s"
+    },
+    {
+      "standard_name": "Hope Street Gang",
+      "original_text_name": "Hope Street",
+      "aliases": [],
+      "type": "gang",
+      "context": "A scuttling gang from Hope Street, Salford.",
+      "time_period": "1870s-1890s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bengal Tigers",
+      "target": "Meadow Lads",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Scuttling gangs were territorial fighting gangs, often clashing with each other.",
+      "time_period": "1870s-1890s"
+    },
+    {
+      "source": "Bengal Tigers",
+      "target": "Holland Street Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Scuttling gangs were territorial fighting gangs, often clashing with each other.",
+      "time_period": "1870s-1890s"
+    },
+    {
+      "source": "Bengal Tigers",
+      "target": "Grey Mare Lane Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Scuttling gangs were territorial fighting gangs, often clashing with each other.",
+      "time_period": "1870s-1890s"
+    },
+    {
+      "source": "Bengal Tigers",
+      "target": "Hope Street Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Scuttling gangs were territorial fighting gangs, often clashing with each other.",
+      "time_period": "1870s-1890s"
+    },
+    {
+      "source": "Meadow Lads",
+      "target": "Holland Street Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Scuttling gangs were territorial fighting gangs, often clashing with each other.",
+      "time_period": "1870s-1890s"
+    },
+    {
+      "source": "Meadow Lads",
+      "target": "Grey Mare Lane Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Scuttling gangs were territorial fighting gangs, often clashing with each other.",
+      "time_period": "1870s-1890s"
+    },
+    {
+      "source": "Meadow Lads",
+      "target": "Hope Street Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Scuttling gangs were territorial fighting gangs, often clashing with each other.",
+      "time_period": "1870s-1890s"
+    },
+    {
+      "source": "Holland Street Gang",
+      "target": "Grey Mare Lane Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Scuttling gangs were territorial fighting gangs, often clashing with each other.",
+      "time_period": "1870s-1890s"
+    },
+    {
+      "source": "Holland Street Gang",
+      "target": "Hope Street Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Scuttling gangs were territorial fighting gangs, often clashing with each other.",
+      "time_period": "1870s-1890s"
+    },
+    {
+      "source": "Grey Mare Lane Gang",
+      "target": "Hope Street Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Scuttling gangs were territorial fighting gangs, often clashing with each other.",
+      "time_period": "1870s-1890s"
+    }
+  ],
+  "source_file": "Scuttlers"
+}

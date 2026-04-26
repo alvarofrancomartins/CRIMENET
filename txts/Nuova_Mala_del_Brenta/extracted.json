@@ -1,0 +1,193 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Nuova Mala del Brenta",
+      "original_text_name": "Nuova Mala del Brenta",
+      "aliases": [
+        "New Brenta Mafia",
+        "Venetian Mafia",
+        "NMB"
+      ],
+      "type": "mafia",
+      "context": "Criminal organization based in Veneto, Italy, involved in drug trafficking, money laundering, extortion.",
+      "time_period": "late 1990s-present"
+    },
+    {
+      "standard_name": "Mala del Brenta",
+      "original_text_name": "Mala del Brenta",
+      "aliases": [
+        "Original Mala del Brenta"
+      ],
+      "type": "mafia",
+      "context": "Predecessor criminal organization in Veneto, active in 1970s-1980s, involved in drug trafficking, extortion, money laundering.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
+      "aliases": [
+        "Sicilian Mafia"
+      ],
+      "type": "mafia",
+      "context": "Sicilian mafia organization, allied with Nuova Mala del Brenta and supplied cocaine.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Neapolitan mafia organization, allied with Nuova Mala del Brenta.",
+      "time_period": null
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [
+        "Ndrangheta"
+      ],
+      "type": "mafia",
+      "context": "Calabrian mafia organization, believed to have associates operating in Veneto with Nuova Mala del Brenta.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sacra Corona Unita",
+      "original_text_name": "Sacra Corona Unita",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Apulian mafia organization, mentioned as having mafia-type affiliations within Italy.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Società foggiana",
+      "original_text_name": "Società foggiana",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia-type organization from Foggia, mentioned as having affiliations within Italy.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Clan Giostrai",
+      "original_text_name": "Clan Giostrai",
+      "aliases": [],
+      "type": "clan",
+      "context": "Affiliated groups of nomad criminals in Veneto, involved in bank heists, robberies, drug trade, kidnapping.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Mestrini",
+      "original_text_name": "Mestrini",
+      "aliases": [],
+      "type": "gang",
+      "context": "Powerful group based in Mestre, involved in drug trafficking and other criminal enterprises, strong ties to Mala del Brenta.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Veneziani",
+      "original_text_name": "Veneziani",
+      "aliases": [],
+      "type": "gang",
+      "context": "Old criminal underworld of Venice, engaged in similar activities as Mestrini, headed by Rizzi brothers and Giancarlo Millo.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "San Donà di Piave cartel",
+      "original_text_name": "San Donà di Piave cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Cartel under Silvano Maritan, involved in rivalry with another cartel, later became capo of eastern Venice province.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Stidda",
+      "original_text_name": "Stidda",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Sicilian mafia-type organization, colluded with Brenta mafiosi in fraudulent scams at a Maltese casino in 2002.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Defunct Neapolitan mafia organization, listed as ally of Nuova Mala del Brenta.",
+      "time_period": "defunct"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Nuova Mala del Brenta",
+      "target": "Mala del Brenta",
+      "relationship": "other",
+      "detail": "successor",
+      "context": "Nuova Mala del Brenta emerged as a successor to the original Mala del Brenta after its dismantlement.",
+      "time_period": "late 1990s"
+    },
+    {
+      "source": "Nuova Mala del Brenta",
+      "target": "Cosa Nostra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nuova Mala del Brenta bought cocaine directly from Sicilian Mafia (Cosa Nostra).",
+      "time_period": null
+    },
+    {
+      "source": "Nuova Mala del Brenta",
+      "target": "Camorra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nuova Mala del Brenta has associates from Camorra operating in Veneto.",
+      "time_period": null
+    },
+    {
+      "source": "Nuova Mala del Brenta",
+      "target": "'Ndrangheta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "It is believed that 'Ndrangheta associates operate in Veneto with Nuova Mala del Brenta.",
+      "time_period": null
+    },
+    {
+      "source": "Nuova Mala del Brenta",
+      "target": "Stidda",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Brenta mafiosi colluded with Stidda members in fraudulent scams at a Maltese casino in 2002.",
+      "time_period": "2002"
+    },
+    {
+      "source": "Nuova Mala del Brenta",
+      "target": "Nuova Camorra Organizzata",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nuova Camorra Organizzata is listed as an ally of Nuova Mala del Brenta.",
+      "time_period": null
+    },
+    {
+      "source": "Mala del Brenta",
+      "target": "Mestrini",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mestrini had strong ties to the Mala del Brenta.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Mala del Brenta",
+      "target": "San Donà di Piave cartel",
+      "relationship": "other",
+      "detail": "subordination",
+      "context": "Silvano Maritan of San Donà di Piave cartel gave a percentage of his assets to Maniero of Mala del Brenta.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "San Donà di Piave cartel",
+      "target": "Cosa Nostra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Silvano Maritan was a protégé of confined Cosa Nostra boss Salvatore Contorno.",
+      "time_period": "1980s"
+    }
+  ],
+  "source_file": "Nuova_Mala_del_Brenta"
+}

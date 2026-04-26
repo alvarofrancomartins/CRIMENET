@@ -1,0 +1,162 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Devil's Disciples Motorcycle Club (Canada)",
+      "original_text_name": "Devil's Disciples Motorcycle Club",
+      "aliases": [
+        "Devil's Disciples MC",
+        "Devil's Disciples",
+        "Devils Disciples"
+      ],
+      "type": "motorcycle_club",
+      "context": "Canadian outlaw motorcycle club based in Greater Montreal, active 1965-1976, involved in drug trafficking and violence.",
+      "time_period": "1965-1976"
+    },
+    {
+      "standard_name": "Popeye Moto Club",
+      "original_text_name": "Popeye Moto Club",
+      "aliases": [
+        "Popeyes",
+        "Popeye MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Rival outlaw motorcycle club in Montreal that defeated the Devil's Disciples and later became the first Hells Angels chapter in Canada.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels Motorcycle Club",
+      "aliases": [
+        "Hells Angels"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club; the Popeyes became their first Canadian chapter.",
+      "time_period": "founded 1948"
+    },
+    {
+      "standard_name": "Dubois Brothers",
+      "original_text_name": "Dubois Brothers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal organization involved in drug trade in Montreal, rival to Devil's Disciples and allied with Popeyes.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Satan's Choice Motorcycle Club",
+      "original_text_name": "Satan's Choice Motorcycle Club",
+      "aliases": [
+        "Satan's Choice"
+      ],
+      "type": "motorcycle_club",
+      "context": "Ontario-based outlaw motorcycle club that allied with Devil's Disciples and fought the Popeyes.",
+      "time_period": "founded 1960s"
+    },
+    {
+      "standard_name": "Devil's Disciples Motorcycle Club (Boston)",
+      "original_text_name": "Devil's Disciples MC (Boston, USA)",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "American outlaw motorcycle club in Boston, close friends with the Canadian Devil's Disciples.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Rock Machine",
+      "original_text_name": "Rock Machine",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club that fought the Hells Angels in the Quebec Biker War; the Dark Circle was described as its death squad.",
+      "time_period": "1980s-2000s"
+    },
+    {
+      "standard_name": "Dark Circle",
+      "original_text_name": "Dark Circle",
+      "aliases": [],
+      "type": "gang",
+      "context": "Crime ring founded by ex-Devil's Disciples members, involved in drug trafficking and described as Rock Machine's death squad.",
+      "time_period": "1994-?"
+    },
+    {
+      "standard_name": "Sundowners Motorcycle Club",
+      "original_text_name": "Sundowners MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Allied with Devil's Disciples according to infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Devil's Disciples Motorcycle Club (Canada)",
+      "target": "Popeye Moto Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "They fought a turf war from 1968 to 1970 for control of Montreal's drug trade, known as the First Quebec Biker War.",
+      "time_period": "1968-1970"
+    },
+    {
+      "source": "Devil's Disciples Motorcycle Club (Canada)",
+      "target": "Dubois Brothers",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Devil's Disciples had a longstanding feud with the Dubois Brothers over drug trade territory.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "source": "Devil's Disciples Motorcycle Club (Canada)",
+      "target": "Satan's Choice Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Satan's Choice allied with the Devil's Disciples against the Popeyes during the gang war from 1974 to 1976.",
+      "time_period": "1974-1976"
+    },
+    {
+      "source": "Devil's Disciples Motorcycle Club (Canada)",
+      "target": "Devil's Disciples Motorcycle Club (Boston)",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Canadian and Boston clubs maintained a close friendship.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "source": "Devil's Disciples Motorcycle Club (Canada)",
+      "target": "Sundowners Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Popeye Moto Club",
+      "target": "Hells Angels Motorcycle Club",
+      "relationship": "other",
+      "detail": "became chapter",
+      "context": "The Popeyes eventually became the first Hells Angels chapter in Canada.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Popeye Moto Club",
+      "target": "Dubois Brothers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Dubois Brothers were allied with the Popeyes MC.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Dark Circle",
+      "target": "Rock Machine",
+      "relationship": "other",
+      "detail": "death squad",
+      "context": "The Dark Circle was described as Rock Machine's death squad.",
+      "time_period": "1994-?"
+    },
+    {
+      "source": "Devil's Disciples Motorcycle Club (Canada)",
+      "target": "Dark Circle",
+      "relationship": "other",
+      "detail": "founded by ex-members",
+      "context": "The Dark Circle was founded by ex-Devil's Disciples members.",
+      "time_period": "1994"
+    }
+  ],
+  "source_file": "Devil's_Disciples_Motorcycle_Club_(Canada)"
+}

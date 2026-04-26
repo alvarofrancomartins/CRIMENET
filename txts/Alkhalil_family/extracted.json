@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Alkhalil family",
+      "original_text_name": "Alkhalil family",
+      "aliases": [
+        "al-Khalil family"
+      ],
+      "type": "gang",
+      "context": "Palestinian Canadian family of gangsters involved in drug trafficking and violence, based in Surrey, British Columbia.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Duhre brothers",
+      "original_text_name": "Duhre brothers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Three brothers (Sandip, Balraj, Paul) involved in drug trafficking and violence, formerly part of the Punjabi mafia.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Punjabi mafia",
+      "original_text_name": "Punjabi mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Organized crime group of Punjabi origin active in British Columbia, associated with Bindy Johal.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Independent Soldiers",
+      "original_text_name": "Independent Soldiers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang based in British Columbia; Mahmoud Alkhalil was a member.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club involved in a shoot-out with Mahmoud Alkhalil at Loft Six nightclub in 2003.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Dhak-Duhre group",
+      "original_text_name": "Dhak-Duhre group",
+      "aliases": [
+        "Dhak-Duhre gang"
+      ],
+      "type": "gang",
+      "context": "Drug trafficking group associated with the Duhre brothers; Martin Naud worked for them.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel; Nabil Alkhalil served as liaison for the Alkhalil family.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Wolfpack Alliance",
+      "original_text_name": "Wolfpack Alliance",
+      "aliases": [
+        "Wolfpack"
+      ],
+      "type": "gang",
+      "context": "A criminal group led by Rabih Alkhalil and Larry Amero, involved in drug trafficking and murder.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "standard_name": "West End Gang",
+      "original_text_name": "West End Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Montreal-based gang that controls the Port of Montreal; member Shane Maloney was key in the Wolfpack.",
+      "time_period": "1970s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Alkhalil family",
+      "target": "Duhre brothers",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Long-standing feud over drug territory and personal vendetta starting with Khalil Alkhalil's murder.",
+      "time_period": "2000-present"
+    },
+    {
+      "source": "Duhre brothers",
+      "target": "Punjabi mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Duhre brothers were once part of the Punjabi mafia and worked alongside Bindy Johal.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Alkhalil family",
+      "target": "Independent Soldiers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mahmoud Alkhalil was a member of the Independent Soldiers street gang.",
+      "time_period": "2003"
+    },
+    {
+      "source": "Alkhalil family",
+      "target": "Hells Angels",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels killed Mahmoud Alkhalil in a shoot-out at Loft Six nightclub.",
+      "time_period": "2003"
+    },
+    {
+      "source": "Dhak-Duhre group",
+      "target": "Duhre brothers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Martin Naud worked as a drug dealer for the Dhak-Duhre group, which is associated with the Duhre brothers.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Alkhalil family",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nabil Alkhalil served as the Alkhalil family's liaison with the Sinaloa Cartel.",
+      "time_period": "2013"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Wolfpack distributed cocaine from the Sinaloa Cartel.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "West End Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Shane Maloney of the West End Gang was a key member of the Wolfpack.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Larry Amero, a Hells Angel, co-led the Wolfpack with Alkhalil.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Dhak-Duhre group",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Wolfpack members murdered Sandip Duhre and Suhhveer Dhak of the Dhak-Duhre group.",
+      "time_period": "2012"
+    }
+  ],
+  "source_file": "Alkhalil_family"
+}

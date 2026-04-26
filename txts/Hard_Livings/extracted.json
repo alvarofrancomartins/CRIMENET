@@ -1,0 +1,135 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hard Livings",
+      "original_text_name": "Hard Livings",
+      "aliases": [
+        "Hard Livings gang"
+      ],
+      "type": "gang",
+      "context": "Large street gang and organized crime group based in Manenberg, Cape Town, involved in drug trafficking, diamond smuggling, and other crimes.",
+      "time_period": "1971-present"
+    },
+    {
+      "standard_name": "The Americans",
+      "original_text_name": "The Americans",
+      "aliases": [
+        "Americans gang"
+      ],
+      "type": "gang",
+      "context": "One of two 'super gangs' in Cape Town, rival of Hard Livings, involved in drug distribution.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "PAGAD",
+      "original_text_name": "People Against Gangsterism and Crime (PAGAD)",
+      "aliases": [
+        "PAGAD"
+      ],
+      "type": "militia",
+      "context": "Vigilante group that killed Hard Livings leaders Rashaad Staggie in 1996 and Rashied Staggie in 2019.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Westbury gang",
+      "original_text_name": "Westbury gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Associated with Hard Livings, likely a smaller Cape Town gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Varador Cortet",
+      "original_text_name": "Varador Cortet",
+      "aliases": [],
+      "type": "gang",
+      "context": "Associated with Hard Livings, likely a smaller Cape Town gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sicilian Mafia",
+      "original_text_name": "Sicilian mafia",
+      "aliases": [
+        "Sicilian Mafia"
+      ],
+      "type": "mafia",
+      "context": "Italian organized crime group that cooperated with Hard Livings in diamond and cannabis trafficking.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nigerian mafia",
+      "original_text_name": "Nigerian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Allied with Hard Livings according to infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Triads",
+      "original_text_name": "Triads",
+      "aliases": [],
+      "type": "triad",
+      "context": "Allied with Hard Livings according to infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hard Livings",
+      "target": "The Americans",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hard Livings competed with The Americans for drug distribution territory in Cape Town.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Hard Livings",
+      "target": "PAGAD",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "PAGAD killed Hard Livings leaders Rashaad Staggie (1996) and Rashied Staggie (2019).",
+      "time_period": "1990s-2019"
+    },
+    {
+      "source": "Hard Livings",
+      "target": "Westbury gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hard Livings has associations with Westbury gang.",
+      "time_period": null
+    },
+    {
+      "source": "Hard Livings",
+      "target": "Varador Cortet",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hard Livings has associations with Varador Cortet.",
+      "time_period": null
+    },
+    {
+      "source": "Hard Livings",
+      "target": "Sicilian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hard Livings cooperated with Sicilian Mafia in trafficking illegal diamonds and cannabis to Europe.",
+      "time_period": null
+    },
+    {
+      "source": "Hard Livings",
+      "target": "Nigerian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hard Livings is allied with Nigerian mafia according to infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Hard Livings",
+      "target": "Triads",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hard Livings is allied with Triads according to infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Hard_Livings"
+}

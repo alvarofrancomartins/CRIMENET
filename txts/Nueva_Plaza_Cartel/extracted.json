@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Nueva Plaza Cartel",
+      "original_text_name": "Nueva Plaza Cartel",
+      "aliases": [
+        "Cártel Nueva Plaza",
+        "Cartel Nuevo"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel based in Jalisco, formed in 2018 as a split from CJNG.",
+      "time_period": "2018-present"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "CJNG"
+      ],
+      "type": "cartel",
+      "context": "Mexican drug cartel based in Jalisco, one of the most powerful in Mexico.",
+      "time_period": "2009-present"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel based in Sinaloa, known for international drug trafficking.",
+      "time_period": "1980s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Nueva Plaza Cartel",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Nueva Plaza Cartel split from CJNG in 2018 and disputes territory in Jalisco.",
+      "time_period": "2018-present"
+    },
+    {
+      "source": "Nueva Plaza Cartel",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nueva Plaza Cartel receives funding from the Sinaloa Cartel.",
+      "time_period": "2018-present"
+    }
+  ],
+  "source_file": "Nueva_Plaza_Cartel"
+}

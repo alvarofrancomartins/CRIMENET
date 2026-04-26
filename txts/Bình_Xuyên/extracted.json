@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bình Xuyên",
+      "original_text_name": "Bình Xuyên",
+      "aliases": [
+        "Binh Xuyen Group",
+        "Binh Xuyen Force",
+        "Binh Xuyen Volunteer Police",
+        "Bộ đội Bình Xuyên",
+        "Bình Xuyên Troops",
+        "Bình Xuyên Auxiliary Forces",
+        "QDQG Bình Xuyên"
+      ],
+      "type": "other",
+      "context": "Independent military force turned criminal organization, active in Saigon, involved in organized crime and fighting communists.",
+      "time_period": "1945-1960"
+    },
+    {
+      "standard_name": "Ba Dương's Bình Xuyên",
+      "original_text_name": "Ba Dương's Bình Xuyên",
+      "aliases": [
+        "Bộ Đội Ba Dương",
+        "Ba Dương's troops"
+      ],
+      "type": "faction",
+      "context": "Early faction of Bình Xuyên led by Ba Dương, active in Saigon area, involved in protection and fighting French.",
+      "time_period": "1940-1946"
+    },
+    {
+      "standard_name": "Bảy Viễn's Bình Xuyên",
+      "original_text_name": "Bảy Viễn's Bình Xuyên",
+      "aliases": [
+        "Bình Xuyên Interzone"
+      ],
+      "type": "faction",
+      "context": "Faction led by Lê Văn Viễn (Bảy Viễn) after Ba Dương's death, later became dominant Bình Xuyên force.",
+      "time_period": "1946-1960"
+    },
+    {
+      "standard_name": "Sau Dõi's Gang",
+      "original_text_name": "Sau Dõi's gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang led by Trần Văn Dõi, known for protection services in Saigon port area.",
+      "time_period": "1920s-1940s"
+    },
+    {
+      "standard_name": "Sau Thọ's Gang",
+      "original_text_name": "Sau Thọ's gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang led by Trần Văn Thọ, focused on kidnapping and extortion of rich families.",
+      "time_period": "1920s-1940s"
+    },
+    {
+      "standard_name": "Ba Ngọc's Gang",
+      "original_text_name": "Ba Ngọc's gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang led by Đoàn Văn Ngọc, operated brothels and provided protection to prostitutes in Tân Thuận.",
+      "time_period": "1920s-1940s"
+    },
+    {
+      "standard_name": "Tám Mạnh's Gang",
+      "original_text_name": "Tám Mạnh's gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "First organized crime unit in Saigon led by Nguyễn Văn Mạnh, later joined Communist Party and Ba Dương's Bình Xuyên.",
+      "time_period": "1920s-1940"
+    },
+    {
+      "standard_name": "Macanese Organized Crime Groups",
+      "original_text_name": "Macanese organized crime groups",
+      "aliases": [],
+      "type": "other",
+      "context": "Groups that controlled casinos in Saigon before being forcibly taken over by Bảy Viễn's Bình Xuyên.",
+      "time_period": "1940s-1950s"
+    },
+    {
+      "standard_name": "Cao Đài",
+      "original_text_name": "Cao Đài",
+      "aliases": [],
+      "type": "other",
+      "context": "Religious sect with military forces, allied with Bình Xuyên and Hòa Hảo in 1955.",
+      "time_period": "1920s-1950s"
+    },
+    {
+      "standard_name": "Hòa Hảo",
+      "original_text_name": "Hòa Hảo",
+      "aliases": [],
+      "type": "other",
+      "context": "Religious sect with military forces, allied with Bình Xuyên and Cao Đài in 1955.",
+      "time_period": "1930s-1950s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ba Dương's Bình Xuyên",
+      "target": "Bình Xuyên",
+      "relationship": "other",
+      "detail": "predecessor faction",
+      "context": "Ba Dương's Bình Xuyên was the early core of the Bình Xuyên organization.",
+      "time_period": "1940-1946"
+    },
+    {
+      "source": "Bảy Viễn's Bình Xuyên",
+      "target": "Bình Xuyên",
+      "relationship": "other",
+      "detail": "successor faction",
+      "context": "After Ba Dương's death, Bảy Viễn's faction became the dominant Bình Xuyên force.",
+      "time_period": "1946-1960"
+    },
+    {
+      "source": "Tám Mạnh's Gang",
+      "target": "Ba Dương's Bình Xuyên",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Tám Mạnh brought his gang to join Ba Dương's Bình Xuyên troops.",
+      "time_period": "1940"
+    },
+    {
+      "source": "Bảy Viễn's Bình Xuyên",
+      "target": "Macanese Organized Crime Groups",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Bảy Viễn forcibly took control of casinos from Macanese organized crime groups.",
+      "time_period": "1949-1955"
+    },
+    {
+      "source": "Bình Xuyên",
+      "target": "Cao Đài",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bình Xuyên joined Cao Đài and Hòa Hảo in forming a 'United Front of the National Forces' in March 1955.",
+      "time_period": "1955"
+    },
+    {
+      "source": "Bình Xuyên",
+      "target": "Hòa Hảo",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bình Xuyên joined Hòa Hảo and Cao Đài in forming a 'United Front of the National Forces' in March 1955.",
+      "time_period": "1955"
+    }
+  ],
+  "source_file": "Bình_Xuyên"
+}

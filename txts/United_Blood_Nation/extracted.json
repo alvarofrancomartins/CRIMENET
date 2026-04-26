@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "standard_name": "United Blood Nation",
+      "original_text_name": "United Blood Nation",
+      "aliases": [
+        "East Coast Bloods",
+        "UBN"
+      ],
+      "type": "gang",
+      "context": "Street and prison gang active primarily in the New York metropolitan area, involved in drug trafficking.",
+      "time_period": "1993-present"
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "California-based street gang; the United Blood Nation is its East Coast faction.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival street gang to the Bloods and United Blood Nation.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Nine Trey Gangsters",
+      "original_text_name": "Nine Trey Gangsters",
+      "aliases": [
+        "NTG"
+      ],
+      "type": "faction",
+      "context": "Faction of the United Blood Nation involved in drug smuggling and alliance with Lucchese crime family.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York-based Mafia family; allied with Nine Trey Gangsters for smuggling operations.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Imperial Gangsta Bloods",
+      "original_text_name": "Imperial Gangsta Bloods",
+      "aliases": [
+        "IGB"
+      ],
+      "type": "faction",
+      "context": "Subdivision of the United Blood Nation in Northern Virginia, involved in drug trafficking and firearms.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Hunt's Point Family Bloods",
+      "original_text_name": "Hunt's Point Family Bloods",
+      "aliases": [],
+      "type": "faction",
+      "context": "Faction of the United Blood Nation involved in sex trafficking of a child.",
+      "time_period": "1990s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "United Blood Nation",
+      "target": "Bloods",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "United Blood Nation is the East Coast faction of the Bloods, loosely affiliated.",
+      "time_period": "1993-present"
+    },
+    {
+      "source": "United Blood Nation",
+      "target": "Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "UBN outnumbered the rival Crips on the East Coast during the 1990s.",
+      "time_period": "1993-present"
+    },
+    {
+      "source": "Nine Trey Gangsters",
+      "target": "Lucchese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "NTG allied with Lucchese crime family to smuggle drugs and cell phones into prison.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Nine Trey Gangsters",
+      "target": "United Blood Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nine Trey Gangsters is a faction of the United Blood Nation.",
+      "time_period": "1993-present"
+    },
+    {
+      "source": "Imperial Gangsta Bloods",
+      "target": "United Blood Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Imperial Gangsta Bloods is a subdivision of the United Blood Nation.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Hunt's Point Family Bloods",
+      "target": "United Blood Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hunt's Point Family Bloods is a faction of the United Blood Nation.",
+      "time_period": "1990s-present"
+    }
+  ],
+  "source_file": "United_Blood_Nation"
+}

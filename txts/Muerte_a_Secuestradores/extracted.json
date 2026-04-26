@@ -1,0 +1,106 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Muerte a Secuestradores",
+      "original_text_name": "Muerte a Secuestradores",
+      "aliases": [
+        "MAS",
+        "Death to Kidnappers"
+      ],
+      "type": "militia",
+      "context": "Colombian paramilitary group and private army supported by drug cartels, active in the 1980s-1990s.",
+      "time_period": "1981-1990s"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellin cartel",
+      "aliases": [
+        "Medellín Cartel"
+      ],
+      "type": "cartel",
+      "context": "Colombian drug cartel that supported MAS and fought against guerrillas.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "FARC-EP",
+      "original_text_name": "FARC-EP",
+      "aliases": [
+        "FARC"
+      ],
+      "type": "militia",
+      "context": "Colombian guerrilla movement targeted by MAS.",
+      "time_period": "1964-2017"
+    },
+    {
+      "standard_name": "M-19",
+      "original_text_name": "M-19",
+      "aliases": [],
+      "type": "militia",
+      "context": "Colombian guerrilla movement targeted by MAS.",
+      "time_period": "1970-1990"
+    },
+    {
+      "standard_name": "ACDEGAM",
+      "original_text_name": "ACDEGAM",
+      "aliases": [
+        "Asociación Campesina de Ganaderos y Agricultores del Magdalena Medio"
+      ],
+      "type": "other",
+      "context": "Legal front and logistics organization for paramilitary groups, including MAS.",
+      "time_period": "1982-1990s"
+    },
+    {
+      "standard_name": "MORENA",
+      "original_text_name": "MORENA",
+      "aliases": [
+        "Movimiento de Restauración Nacional"
+      ],
+      "type": "other",
+      "context": "Political movement formed by members of ACDEGAM in 1989.",
+      "time_period": "1989-1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Medellín Cartel",
+      "target": "Muerte a Secuestradores",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Medellín Cartel supported and funded MAS to protect economic interests and fight guerrillas.",
+      "time_period": "1981-1990s"
+    },
+    {
+      "source": "Muerte a Secuestradores",
+      "target": "FARC-EP",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "MAS waged counterinsurgency warfare against FARC-EP.",
+      "time_period": "1981-1990s"
+    },
+    {
+      "source": "Muerte a Secuestradores",
+      "target": "M-19",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "MAS waged counterinsurgency warfare against M-19.",
+      "time_period": "1981-1990s"
+    },
+    {
+      "source": "ACDEGAM",
+      "target": "Muerte a Secuestradores",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "ACDEGAM provided logistics and public relations for MAS.",
+      "time_period": "1982-1990s"
+    },
+    {
+      "source": "ACDEGAM",
+      "target": "MORENA",
+      "relationship": "other",
+      "detail": "founded",
+      "context": "MORENA was formed by members of ACDEGAM in 1989.",
+      "time_period": "1989"
+    }
+  ],
+  "source_file": "Muerte_a_Secuestradores"
+}

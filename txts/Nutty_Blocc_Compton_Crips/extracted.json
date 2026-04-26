@@ -1,0 +1,191 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Nutty Blocc Compton Crips",
+      "original_text_name": "Nutty Blocc Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A set of the Crips gang alliance based in Compton, California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A large street gang alliance based in Los Angeles, California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Acacia Blocc Compton Crips",
+      "original_text_name": "Acacia Blocc Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A set of the Crips gang alliance in Compton, California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Farm Dog Compton Crips",
+      "original_text_name": "Farm Dog Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A set of the Crips gang alliance in Compton, California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Spook Town Compton Crips",
+      "original_text_name": "Spook Town Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A set of the Crips gang alliance in Compton, California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "ATF",
+      "original_text_name": "ATF",
+      "aliases": [],
+      "type": "other",
+      "context": "An alliance of Acacia Blocc, Farm Dog, and Spook Town Compton Crips.",
+      "time_period": "1995"
+    },
+    {
+      "standard_name": "South Side Compton Crips",
+      "original_text_name": "South Side Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A set of the Crips gang alliance in Compton, California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Atlantic Drive Compton Crips",
+      "original_text_name": "Atlantic Drive Compton Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A set of the Crips gang alliance in Compton, California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Garden Blocc Crips",
+      "original_text_name": "Garden Blocc Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A set of the Crips gang alliance based in Sacramento, California.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Nutty Blocc Compton Crips",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nutty Blocc Compton Crips is a set of the Crips gang alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Acacia Blocc Compton Crips",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Acacia Blocc Compton Crips is a set of the Crips gang alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Farm Dog Compton Crips",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Farm Dog Compton Crips is a set of the Crips gang alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Spook Town Compton Crips",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Spook Town Compton Crips is a set of the Crips gang alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Acacia Blocc Compton Crips",
+      "target": "ATF",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Acacia Blocc Compton Crips was part of the ATF alliance.",
+      "time_period": "1995"
+    },
+    {
+      "source": "Farm Dog Compton Crips",
+      "target": "ATF",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Farm Dog Compton Crips was part of the ATF alliance.",
+      "time_period": "1995"
+    },
+    {
+      "source": "Spook Town Compton Crips",
+      "target": "ATF",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Spook Town Compton Crips was part of the ATF alliance.",
+      "time_period": "1995"
+    },
+    {
+      "source": "Nutty Blocc Compton Crips",
+      "target": "ATF",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Nutty Blocc Compton Crips were rivals with the ATF alliance in 1995.",
+      "time_period": "1995"
+    },
+    {
+      "source": "Nutty Blocc Compton Crips",
+      "target": "Acacia Blocc Compton Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Nutty Blocc Compton Crips were rivals with Acacia Blocc Compton Crips as part of the ATF conflict.",
+      "time_period": "1995"
+    },
+    {
+      "source": "Nutty Blocc Compton Crips",
+      "target": "Farm Dog Compton Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Nutty Blocc Compton Crips were rivals with Farm Dog Compton Crips as part of the ATF conflict.",
+      "time_period": "1995"
+    },
+    {
+      "source": "Nutty Blocc Compton Crips",
+      "target": "Spook Town Compton Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Nutty Blocc Compton Crips were rivals with Spook Town Compton Crips as part of the ATF conflict.",
+      "time_period": "1995"
+    },
+    {
+      "source": "Nutty Blocc Compton Crips",
+      "target": "South Side Compton Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "South Side Compton Crips are listed as allies of Nutty Blocc Compton Crips.",
+      "time_period": null
+    },
+    {
+      "source": "Nutty Blocc Compton Crips",
+      "target": "Atlantic Drive Compton Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Atlantic Drive Compton Crips are listed as allies of Nutty Blocc Compton Crips.",
+      "time_period": null
+    },
+    {
+      "source": "Nutty Blocc Compton Crips",
+      "target": "Garden Blocc Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Garden Blocc Crips are listed as allies of Nutty Blocc Compton Crips.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Nutty_Blocc_Compton_Crips"
+}

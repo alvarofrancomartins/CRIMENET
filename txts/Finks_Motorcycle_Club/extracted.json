@@ -1,0 +1,137 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Finks Motorcycle Club",
+      "original_text_name": "Finks Motorcycle Club",
+      "aliases": [
+        "Finks",
+        "Finks MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club formed in Sydney in 1969, with chapters in multiple states and international presence.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Mongols Motorcycle Club",
+      "original_text_name": "Mongols Motorcycle Club",
+      "aliases": [
+        "Mongols MC",
+        "Mongols"
+      ],
+      "type": "motorcycle_club",
+      "context": "US-based outlaw motorcycle club that absorbed Finks members in 2013.",
+      "time_period": "founded 1969"
+    },
+    {
+      "standard_name": "Coffin Cheaters",
+      "original_text_name": "Coffin Cheaters",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club; had a trust fund for a murdered member's daughters and rivalry with Finks.",
+      "time_period": "founded 1970"
+    },
+    {
+      "standard_name": "Club Deroes",
+      "original_text_name": "Club Deroes",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club involved in a 1998 bikie war with Coffin Cheaters.",
+      "time_period": "founded 1970"
+    },
+    {
+      "standard_name": "Rock Machine",
+      "original_text_name": "Rock Machine",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club that patched over Perth Finks in 2013 along with Mongols.",
+      "time_period": "founded 1986"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [
+        "Hells Angels MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club; Vince Focarelli was kicked out of Hells Angels.",
+      "time_period": "founded 1948"
+    },
+    {
+      "standard_name": "Comancheros",
+      "original_text_name": "Comancheros",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club; Vince Focarelli joined and later left.",
+      "time_period": "founded 1968"
+    },
+    {
+      "standard_name": "Bandidos",
+      "original_text_name": "Bandidos",
+      "aliases": [
+        "Bandidos MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club; a Finks member was charged with attempted murder of a Bandidos member.",
+      "time_period": "founded 1966"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Finks Motorcycle Club",
+      "target": "Mongols Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "In October 2013, most Finks members switched to the Mongols, and Perth Finks were patched over by Mongols and Rock Machine.",
+      "time_period": "2013"
+    },
+    {
+      "source": "Finks Motorcycle Club",
+      "target": "Coffin Cheaters",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Formation of Perth Finks chapter caused friction between Finks and Coffin Cheaters; money stolen from Coffin Cheaters trust fund used to buy Finks clubhouse.",
+      "time_period": "2008-2010"
+    },
+    {
+      "source": "Coffin Cheaters",
+      "target": "Club Deroes",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "1998 bikie war between Coffin Cheaters and Club Deroes resulted in murder of Coffin Cheaters member Marc Chabriere.",
+      "time_period": "1998"
+    },
+    {
+      "source": "Finks Motorcycle Club",
+      "target": "Rock Machine",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Perth Finks were patched over by Rock Machine along with Mongols in October 2013.",
+      "time_period": "2013"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Comancheros",
+      "relationship": "other",
+      "detail": "member transfer",
+      "context": "Vince Focarelli was kicked out of Hells Angels and later joined Comancheros.",
+      "time_period": "before 2012"
+    },
+    {
+      "source": "Comancheros",
+      "target": "Finks Motorcycle Club",
+      "relationship": "other",
+      "detail": "member association",
+      "context": "Vince Focarelli, who left Comancheros, was visited by Finks members while in hospital.",
+      "time_period": "2012"
+    },
+    {
+      "source": "Finks Motorcycle Club",
+      "target": "Bandidos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Finks member Mark James Graham was charged with attempted murder of Bandidos member Jacques Teamo in 2012.",
+      "time_period": "2012"
+    }
+  ],
+  "source_file": "Finks_Motorcycle_Club"
+}

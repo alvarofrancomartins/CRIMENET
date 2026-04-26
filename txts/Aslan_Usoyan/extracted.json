@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hasan Clan",
+      "original_text_name": "Hasan clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Criminal group supporting Aslan Usoyan, involved in war with other groups in Ural.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Tbilisi Criminal Group",
+      "original_text_name": "Tbilisi criminal group",
+      "aliases": [],
+      "type": "gang",
+      "context": "Georgian criminal group that supported Aslan Usoyan in conflict with Kutasis group.",
+      "time_period": "1994"
+    },
+    {
+      "standard_name": "Rustavi Criminal Group",
+      "original_text_name": "Rustavi criminal group",
+      "aliases": [],
+      "type": "gang",
+      "context": "Georgian criminal group that supported Aslan Usoyan in conflict with Kutasis group.",
+      "time_period": "1994"
+    },
+    {
+      "standard_name": "Kutasis Criminal Group",
+      "original_text_name": "Kutasis criminal group",
+      "aliases": [],
+      "type": "gang",
+      "context": "Georgian criminal group that opposed Aslan Usoyan.",
+      "time_period": "1994"
+    },
+    {
+      "standard_name": "Oniani Clan",
+      "original_text_name": "Tariel Oniani's faction",
+      "aliases": [],
+      "type": "clan",
+      "context": "Georgian mobster Tariel Oniani's group, rival to Usoyan.",
+      "time_period": "2007-2013"
+    },
+    {
+      "standard_name": "Ivankov Faction",
+      "original_text_name": "Vyacheslav Ivankov's faction",
+      "aliases": [],
+      "type": "faction",
+      "context": "Faction led by Vyacheslav Ivankov, sided with Usoyan in conflict.",
+      "time_period": "2009"
+    },
+    {
+      "standard_name": "Armenian Organized Crime Group",
+      "original_text_name": "Armenian organized crime group",
+      "aliases": [],
+      "type": "other",
+      "context": "Armenian criminal group involved in a rift with Usoyan's business in Ukraine.",
+      "time_period": "2010"
+    },
+    {
+      "standard_name": "Brothers' Circle",
+      "original_text_name": "Brothers' Circle",
+      "aliases": [],
+      "type": "other",
+      "context": "Alleged criminal organization speculated to be a stand-in for Usoyan's network.",
+      "time_period": "early 2010s"
+    },
+    {
+      "standard_name": "Kurdistan Workers' Party (PKK)",
+      "original_text_name": "Kurdistan Workers' Party (PKK)",
+      "aliases": [
+        "PKK"
+      ],
+      "type": "terrorist_organization",
+      "context": "Kurdish militant group allegedly supplied money and weapons by Usoyan.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hasan Clan",
+      "target": "Tbilisi Criminal Group",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Tbilisi group supported Usoyan's clan in war against Kutasis group.",
+      "time_period": "1994"
+    },
+    {
+      "source": "Hasan Clan",
+      "target": "Rustavi Criminal Group",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Rustavi group supported Usoyan's clan in war against Kutasis group.",
+      "time_period": "1994"
+    },
+    {
+      "source": "Hasan Clan",
+      "target": "Kutasis Criminal Group",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kutasis group opposed Usoyan, leading to murders and kidnappings.",
+      "time_period": "1994"
+    },
+    {
+      "source": "Hasan Clan",
+      "target": "Oniani Clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Usoyan was embroiled in a gang war with Tariel Oniani's group from 2007.",
+      "time_period": "2007-2013"
+    },
+    {
+      "source": "Ivankov Faction",
+      "target": "Hasan Clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ivankov mediated the conflict and sided with Usoyan's faction.",
+      "time_period": "2009"
+    },
+    {
+      "source": "Hasan Clan",
+      "target": "Armenian Organized Crime Group",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Usoyan's business in Ukraine was connected to a rift with an Armenian group.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Hasan Clan",
+      "target": "Brothers' Circle",
+      "relationship": "other",
+      "detail": "speculated stand-in",
+      "context": "Brothers' Circle is speculated to be a stand-in for Usoyan's network.",
+      "time_period": "early 2010s"
+    },
+    {
+      "source": "Hasan Clan",
+      "target": "Kurdistan Workers' Party (PKK)",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Usoyan was accused of supplying money and weapons to the PKK.",
+      "time_period": "unknown"
+    }
+  ],
+  "source_file": "Aslan_Usoyan"
+}

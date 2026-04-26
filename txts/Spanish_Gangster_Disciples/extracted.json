@@ -1,0 +1,340 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Spanish Gangster Disciples",
+      "original_text_name": "Spanish Gangster Disciples",
+      "aliases": [
+        "SGDs",
+        "Spanish Gangster Disciples street gang"
+      ],
+      "type": "gang",
+      "context": "A Latino street gang originating in Chicago, involved in drug trafficking, assault, robbery, and murder.",
+      "time_period": "early 1980s-present"
+    },
+    {
+      "standard_name": "Latin Scorpions",
+      "original_text_name": "Latin Scorpions",
+      "aliases": [
+        "Maniac Latin Disciples"
+      ],
+      "type": "gang",
+      "context": "A street gang that Rudy Rios was a former member of before founding the Spanish Gangster Disciples.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gangster Disciples",
+      "original_text_name": "Gangster Disciples",
+      "aliases": [
+        "Black Gangster Disciples",
+        "BGDs",
+        "GDN"
+      ],
+      "type": "gang",
+      "context": "A major Chicago street gang, the parent organization from which Spanish Gangster Disciples are an offshoot.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Insane Two One Boys",
+      "original_text_name": "Insane Two One Boys",
+      "aliases": [
+        "Two One Boys"
+      ],
+      "type": "gang",
+      "context": "A street gang that formed a friendship with Spanish Gangster Disciples in the early 1980s.",
+      "time_period": null
+    },
+    {
+      "standard_name": "P.R. Stones",
+      "original_text_name": "P.R. Stones",
+      "aliases": [],
+      "type": "gang",
+      "context": "A street gang that controlled the area where Northside SGDs started; they were enemies of the Northside SGDs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Simon City Royals",
+      "original_text_name": "Simon City Royals",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Folk Nation gang that had good relationships with Northside SGDs through drug sales.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Imperial Gangsters",
+      "original_text_name": "Imperial Gangsters",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Folk Nation gang that had good relationships with Northside SGDs through drug sales.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Harrison Gents",
+      "original_text_name": "Harrison Gents",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Folk Nation gang that had good relationships with Northside SGDs through drug sales.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Latin Eagles",
+      "original_text_name": "Latin Eagles",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Folk Nation gang that was an ally of SGDs but later warred with them under Demon's leadership.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Spanish Cobras",
+      "original_text_name": "Spanish Cobras",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Folk Nation gang that had good relationships with Northside SGDs through drug sales.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Latin Kings",
+      "original_text_name": "Latin Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "A People Nation gang that bought marijuana from Northside SGDs but was an enemy.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Milwaukee Kings",
+      "original_text_name": "Milwaukee Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "A street gang that Shaky was a former member of.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gangster Two-Six",
+      "original_text_name": "Gangster Two-Six",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Folk Nation gang that participated in the Spanish Growth and Development concept.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Maniac Latin Disciples",
+      "original_text_name": "Maniac Latin Disciples",
+      "aliases": [
+        "MLD"
+      ],
+      "type": "gang",
+      "context": "A Folk Nation gang that participated in the Spanish Growth and Development and later had conflicts with SGDs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Latin Counts",
+      "original_text_name": "Latin Counts",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival gang that feuded with Spanish Gangster Disciples.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Latin Dragons",
+      "original_text_name": "Latin Dragons",
+      "aliases": [],
+      "type": "gang",
+      "context": "A rival gang that feuded with Spanish Gangster Disciples.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Almighty Ambrose",
+      "original_text_name": "Almighty Ambrose",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Folk Nation gang that took over former SGD territory at 87th & Houston by 1997.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Satan Disciples",
+      "original_text_name": "Satan Disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of Spanish Gangster Disciples listed in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Vato Loko Boyz",
+      "original_text_name": "Vato Loko Boyz",
+      "aliases": [],
+      "type": "gang",
+      "context": "An ally of Spanish Gangster Disciples listed in the infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Spanish Gangster Disciples",
+      "target": "Gangster Disciples",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Spanish Gangster Disciples are an offshoot of Gangster Disciples and are considered 'brothers'.",
+      "time_period": "early 1980s-present"
+    },
+    {
+      "source": "Spanish Gangster Disciples",
+      "target": "Latin Scorpions",
+      "relationship": "other",
+      "detail": "former membership",
+      "context": "Founder Rudy Rios was a former member of Latin Scorpions.",
+      "time_period": "before 1974"
+    },
+    {
+      "source": "Spanish Gangster Disciples",
+      "target": "Insane Two One Boys",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Members of SGDs and Insane Two One Boys formed a friendship in prison that carried to the streets.",
+      "time_period": "early 1980s"
+    },
+    {
+      "source": "Spanish Gangster Disciples",
+      "target": "P.R. Stones",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "P.R. Stones were the only true enemy of the Northside SGDs.",
+      "time_period": "early 1980s"
+    },
+    {
+      "source": "Spanish Gangster Disciples",
+      "target": "Simon City Royals",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Drug sales created good relationships with Simon City Royals.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Spanish Gangster Disciples",
+      "target": "Imperial Gangsters",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Drug sales created good relationships with Imperial Gangsters.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Spanish Gangster Disciples",
+      "target": "Harrison Gents",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Drug sales created good relationships with Harrison Gents.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Spanish Gangster Disciples",
+      "target": "Latin Eagles",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Latin Eagles were originally close allies, but later warred under Demon's leadership.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Spanish Gangster Disciples",
+      "target": "Spanish Cobras",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Drug sales created good relationships with Spanish Cobras.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Spanish Gangster Disciples",
+      "target": "Latin Kings",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Latin Kings were enemies, though they bought marijuana from SGDs.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Spanish Gangster Disciples",
+      "target": "Maniac Latin Disciples",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Demon started conflicts with MLD on the streets.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Spanish Gangster Disciples",
+      "target": "Latin Counts",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Constant feuding with Latin Counts contributed to SGD decline.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Spanish Gangster Disciples",
+      "target": "Latin Dragons",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Constant feuding with Latin Dragons contributed to SGD decline.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Spanish Gangster Disciples",
+      "target": "Almighty Ambrose",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Almighty Ambrose took over former SGD territory at 87th & Houston by 1997.",
+      "time_period": "by 1997"
+    },
+    {
+      "source": "Spanish Gangster Disciples",
+      "target": "Satan Disciples",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Spanish Gangster Disciples",
+      "target": "Vato Loko Boyz",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Gangster Disciples",
+      "target": "Maniac Latin Disciples",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both participated in the Spanish Growth and Development concept.",
+      "time_period": "1978"
+    },
+    {
+      "source": "Gangster Disciples",
+      "target": "Imperial Gangsters",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both participated in the Spanish Growth and Development concept.",
+      "time_period": "1978"
+    },
+    {
+      "source": "Gangster Disciples",
+      "target": "Spanish Cobras",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both participated in the Spanish Growth and Development concept.",
+      "time_period": "1978"
+    },
+    {
+      "source": "Gangster Disciples",
+      "target": "Latin Eagles",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both participated in the Spanish Growth and Development concept.",
+      "time_period": "1978"
+    },
+    {
+      "source": "Gangster Disciples",
+      "target": "Gangster Two-Six",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both participated in the Spanish Growth and Development concept.",
+      "time_period": "1978"
+    }
+  ],
+  "source_file": "Spanish_Gangster_Disciples"
+}

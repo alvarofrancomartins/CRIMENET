@@ -1,0 +1,154 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Pirus",
+      "original_text_name": "Pirus",
+      "aliases": [
+        "Piru",
+        "Piru Street Boys"
+      ],
+      "type": "gang",
+      "context": "A subset of the Bloods gang alliance, founded in 1969 in Compton, California. Involved in drug trafficking, robbery, extortion, and murder.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "A larger gang alliance formed in the early 1970s in Los Angeles, primarily as a rival to the Crips. Includes the Pirus and other sets.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A major street gang founded in Los Angeles in the late 1960s by Raymond Washington and Stanley Williams. Known for wearing blue and rivalry with Bloods.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Brims",
+      "original_text_name": "Brims",
+      "aliases": [],
+      "type": "gang",
+      "context": "A smaller street gang that allied with the Piru Street Boys to form the Bloods alliance.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Bishops",
+      "original_text_name": "Bishops",
+      "aliases": [],
+      "type": "gang",
+      "context": "A smaller street gang that allied with the Piru Street Boys to form the Bloods alliance.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Denver Lanes",
+      "original_text_name": "Denver Lanes",
+      "aliases": [],
+      "type": "gang",
+      "context": "A smaller street gang that allied with the Piru Street Boys to form the Bloods alliance.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Mob Piru",
+      "original_text_name": "Mob Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Piru set that developed a rivalry with Fruit Town Piru in the late 1990s, resulting in murders.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Fruit Town Piru",
+      "original_text_name": "Fruit Town Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Piru set that developed a rivalry with Mob Piru in the late 1990s.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Juggalos",
+      "original_text_name": "Juggalos",
+      "aliases": [],
+      "type": "other",
+      "context": "A subculture and gang associated with the Insane Clown Posse, listed as allies of the Pirus in the infobox.",
+      "time_period": "1990s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Pirus",
+      "target": "Bloods",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Pirus are a subset of the larger Bloods gang alliance.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Pirus",
+      "target": "Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Pirus formed as a rival to the Crips, leading to violent gang wars.",
+      "time_period": "1969-present"
+    },
+    {
+      "source": "Bloods",
+      "target": "Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Bloods and Crips are long-standing rivals, with violent conflicts over territory and influence.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Piru Street Boys",
+      "target": "Crips",
+      "relationship": "other",
+      "detail": "initial association then falling-out",
+      "context": "The Piru Street Boys were initially associated with the Crips but later had a falling-out, though some sources dispute any alliance.",
+      "time_period": "1969-early 1970s"
+    },
+    {
+      "source": "Piru Street Boys",
+      "target": "Brims",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Piru Street Boys formed an alliance with the Brims to oppose the Crips, leading to the formation of the Bloods.",
+      "time_period": "early 1970s"
+    },
+    {
+      "source": "Piru Street Boys",
+      "target": "Bishops",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Piru Street Boys formed an alliance with the Bishops to oppose the Crips.",
+      "time_period": "early 1970s"
+    },
+    {
+      "source": "Piru Street Boys",
+      "target": "Denver Lanes",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Piru Street Boys formed an alliance with the Denver Lanes to oppose the Crips.",
+      "time_period": "early 1970s"
+    },
+    {
+      "source": "Mob Piru",
+      "target": "Fruit Town Piru",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Mob Piru and Fruit Town Piru developed a rivalry by the late 1990s, resulting in murders.",
+      "time_period": "late 1990s-present"
+    },
+    {
+      "source": "Pirus",
+      "target": "Juggalos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The infobox lists Juggalos as allies of the Pirus.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Pirus"
+}

@@ -1,0 +1,173 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Molluso 'ndrina",
+      "original_text_name": "Molluso 'ndrina",
+      "aliases": [
+        "Molluso clan"
+      ],
+      "type": "clan",
+      "context": "A clan of the 'Ndrangheta based in Platì, Calabria, with strong presence in Milan province. Involved in drug trafficking, money laundering, and corruption.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Criminal and mafia-type organization in Calabria, Italy.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Barbaro 'ndrina",
+      "original_text_name": "Barbaro 'ndrina",
+      "aliases": [
+        "Barbaro clan"
+      ],
+      "type": "clan",
+      "context": "Powerful 'ndrina from Platì, historically encompassing many other 'ndrine including Molluso.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Papalia 'ndrina",
+      "original_text_name": "Papalia 'ndrina",
+      "aliases": [
+        "Papalia clan"
+      ],
+      "type": "clan",
+      "context": "'Ndrina from Platì, historically allied to Molluso.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Agresta 'ndrina",
+      "original_text_name": "Agresta 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrina from Platì, originally a branch of the Barbaro 'ndrina.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Trimboli 'ndrina",
+      "original_text_name": "Trimboli 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrina from Platì, originally a branch of the Barbaro 'ndrina.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Perre 'ndrina",
+      "original_text_name": "Perre 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrina from Platì, originally a branch of the Barbaro 'ndrina.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Sergi 'ndrina",
+      "original_text_name": "Sergi 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrina from Platì, originally a branch of the Barbaro 'ndrina.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "South American drug cartels",
+      "original_text_name": "South American drug cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Drug trafficking organizations from South America, allied with Molluso for cocaine supply.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Molluso 'ndrina",
+      "target": "'Ndrangheta",
+      "relationship": "other",
+      "detail": "member of",
+      "context": "Molluso is a clan (ndrina) within the larger 'Ndrangheta organization.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Molluso 'ndrina",
+      "target": "Barbaro 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Historically allied and originally a branch of the Barbaro 'ndrina.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Molluso 'ndrina",
+      "target": "Papalia 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Historically allied, both from Platì.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Molluso 'ndrina",
+      "target": "Sergi 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Molluso 'ndrina",
+      "target": "Trimboli 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Molluso 'ndrina",
+      "target": "South American drug cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied for cocaine trafficking from South America.",
+      "time_period": "1990-1992"
+    },
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "Agresta 'ndrina",
+      "relationship": "other",
+      "detail": "encompasses",
+      "context": "Agresta was originally a branch of the Barbaro 'ndrina.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "Trimboli 'ndrina",
+      "relationship": "other",
+      "detail": "encompasses",
+      "context": "Trimboli was originally a branch of the Barbaro 'ndrina.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "Perre 'ndrina",
+      "relationship": "other",
+      "detail": "encompasses",
+      "context": "Perre was originally a branch of the Barbaro 'ndrina.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "Sergi 'ndrina",
+      "relationship": "other",
+      "detail": "encompasses",
+      "context": "Sergi was originally a branch of the Barbaro 'ndrina.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "Papalia 'ndrina",
+      "relationship": "other",
+      "detail": "encompasses",
+      "context": "Papalia was originally a branch of the Barbaro 'ndrina.",
+      "time_period": "1970s"
+    }
+  ],
+  "source_file": "Molluso_'ndrina"
+}

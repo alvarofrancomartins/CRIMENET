@@ -1,0 +1,300 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Martinez Familia Sangeros",
+      "original_text_name": "Martinez Familia Sangeros",
+      "aliases": [
+        "Estrella Family",
+        "Los Silencios",
+        "Puerto Rican Mafia",
+        "Puerto Rican Mob"
+      ],
+      "type": "mafia",
+      "context": "Puerto Rican crime family involved in drug trafficking, loan sharking, extortion, and murder. Operates in Puerto Rico, US mainland, Spain, and Europe.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel that supplied cocaine to the Martinez Familia and had strong connections with them.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Los Pepes",
+      "original_text_name": "Los Pepes",
+      "aliases": [],
+      "type": "militia",
+      "context": "Colombian vigilante group that opposed Pablo Escobar; had small connections with the Martinez Familia.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Paulino Castillo Organization",
+      "original_text_name": "Paulino Castillo Organization",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug trafficking organization; had small connections with the Martinez Familia.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel; initially had connections with Martinez Familia, later became rivals after a dispute over payment.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Ñetas",
+      "original_text_name": "Ñetas",
+      "aliases": [],
+      "type": "gang",
+      "context": "Puerto Rican street gang; had connections with Martinez Familia and was supplied by them.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Latin Kings",
+      "original_text_name": "Latin Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang; supplied by the Martinez Familia.",
+      "time_period": "1940s-present"
+    },
+    {
+      "standard_name": "Zoe Pound",
+      "original_text_name": "Zoe Pound",
+      "aliases": [],
+      "type": "gang",
+      "context": "Haitian-American street gang; supplied by the Martinez Familia.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "American Mafia",
+      "original_text_name": "American Mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American organized crime network; allied with the Martinez Familia.",
+      "time_period": "1900s-present"
+    },
+    {
+      "standard_name": "Guadalajara Cartel",
+      "original_text_name": "Guadalajara Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel; allied with the Martinez Familia.",
+      "time_period": "1970s-1989"
+    },
+    {
+      "standard_name": "Russian Mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Russian organized crime groups; allied with the Martinez Familia.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "La ONU",
+      "original_text_name": "La ONU",
+      "aliases": [],
+      "type": "gang",
+      "context": "Puerto Rican criminal organization; allied with the Martinez Familia.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "La Rompe ONU",
+      "original_text_name": "La Rompe ONU",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to La ONU; rival of the Martinez Familia.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "The Corporation",
+      "original_text_name": "The Corporation",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal organization; rival of the Martinez Familia.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Mau Maus",
+      "original_text_name": "Mau Maus",
+      "aliases": [],
+      "type": "gang",
+      "context": "Puerto Rican street gang; defunct rival of the Martinez Familia.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel; defunct rival of the Martinez Familia.",
+      "time_period": "1970s-1993"
+    },
+    {
+      "standard_name": "Grupo 27",
+      "original_text_name": "Grupo 27",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group; rival of the Martinez Familia.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Vega Family",
+      "original_text_name": "Vega family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "A crime family within the Puerto Rican Mafia; headed by Don Gonzalez.",
+      "time_period": "1980s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "Cali Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Strong connections; Cali Cartel supplied cocaine and helped with shipping.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "Los Pepes",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Small connections.",
+      "time_period": null
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "Paulino Castillo Organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Small connections.",
+      "time_period": null
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Initially had connections; later became rivals after a dispute over payment.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "Gulf Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gulf Cartel blackmailed the Martinez Familia, leading to kidnapping and killings of Gulf Cartel members.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "Ñetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Had connections and supplied drugs to Ñetas.",
+      "time_period": null
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "Latin Kings",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Supplied drugs to Latin Kings.",
+      "time_period": null
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "Zoe Pound",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Supplied drugs to Zoe Pound.",
+      "time_period": null
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The American Mafia is listed as an ally of the Martinez Familia.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "Guadalajara Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Guadalajara Cartel is listed as an ally of the Martinez Familia.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "Russian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Russian mafia is listed as an ally of the Martinez Familia.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "La ONU",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La ONU is listed as an ally of the Martinez Familia.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "La Rompe ONU",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "La Rompe ONU is listed as a rival of the Martinez Familia.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "The Corporation",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Corporation is listed as a rival of the Martinez Familia.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "Mau Maus",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Mau Maus are listed as a defunct rival of the Martinez Familia.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "Medellín Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Medellín Cartel is listed as a defunct rival of the Martinez Familia.",
+      "time_period": "1980s-1993"
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "Grupo 27",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Grupo 27 is listed as a rival of the Martinez Familia.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Martinez Familia Sangeros",
+      "target": "Vega Family",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Vega Family is a crime family within the Puerto Rican Mafia, which includes the Martinez Familia.",
+      "time_period": "1980s-present"
+    }
+  ],
+  "source_file": "Martinez_Familia_Sangeros"
+}

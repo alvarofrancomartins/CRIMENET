@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Dallas crime family",
+      "original_text_name": "Dallas crime family",
+      "aliases": [
+        "Civello crime family",
+        "Dallas Mafia"
+      ],
+      "type": "mafia",
+      "context": "Italian-American Mafia crime family based in Dallas, Texas, active from c. 1910 to 1990.",
+      "time_period": "c. 1910-1990"
+    },
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Major American Mafia organization based in Chicago, allied with the Dallas crime family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, allied with the Dallas crime family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kansas City crime family",
+      "original_text_name": "Kansas City crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Kansas City, allied with the Dallas crime family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "New Orleans crime family",
+      "original_text_name": "New Orleans crime family",
+      "aliases": [
+        "Marcello family"
+      ],
+      "type": "mafia",
+      "context": "Mafia family based in New Orleans, allied with the Dallas crime family and had close ties through Joseph Campisi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Trafficante crime family",
+      "original_text_name": "Trafficante crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Tampa, Florida, allied with the Dallas crime family and attempted to strengthen ties via Vincent LoScalzo.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Dallas crime family",
+      "target": "Chicago Outfit",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Dallas crime family was allied with the Chicago Outfit.",
+      "time_period": null
+    },
+    {
+      "source": "Dallas crime family",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Dallas crime family was allied with the Genovese crime family.",
+      "time_period": null
+    },
+    {
+      "source": "Dallas crime family",
+      "target": "Kansas City crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Dallas crime family was allied with the Kansas City crime family.",
+      "time_period": null
+    },
+    {
+      "source": "Dallas crime family",
+      "target": "New Orleans crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Dallas crime family was allied with the New Orleans crime family, with close ties through Joseph Campisi.",
+      "time_period": null
+    },
+    {
+      "source": "Dallas crime family",
+      "target": "Trafficante crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Dallas crime family was allied with the Trafficante crime family, and Vincent LoScalzo attempted to strengthen ties.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Dallas_crime_family"
+}

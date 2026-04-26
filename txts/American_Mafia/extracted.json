@@ -1,0 +1,826 @@
+{
+  "nodes": [
+    {
+      "standard_name": "American Mafia",
+      "original_text_name": "American Mafia",
+      "aliases": [
+        "Cosa Nostra",
+        "Italian-American Mafia",
+        "LCN",
+        "La Cosa Nostra",
+        "Mafia",
+        "Mob"
+      ],
+      "type": "mafia",
+      "context": "Highly organized Italian American criminal society operating in the United States, with families in many cities.",
+      "time_period": "late 19th century-present"
+    },
+    {
+      "standard_name": "Sicilian Mafia",
+      "original_text_name": "Sicilian Mafia",
+      "aliases": [
+        "Cosa Nostra"
+      ],
+      "type": "mafia",
+      "context": "Original Mafia from Sicily, related to but separate from the American Mafia.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "clan",
+      "context": "Italian organized crime group from Campania, active in the United States historically and cooperates with American Mafia.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian organized crime group from Calabria, cooperates with American Mafia.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Five Points Gang",
+      "original_text_name": "Five Points Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Powerful New York City gang in the late 19th to early 20th century, founded by Paul Kelly.",
+      "time_period": "1890s-1920s"
+    },
+    {
+      "standard_name": "Eastmans",
+      "original_text_name": "Jewish Eastmans",
+      "aliases": [
+        "Eastman Gang"
+      ],
+      "type": "gang",
+      "context": "Jewish gang in New York City, often in conflict with the Five Points Gang.",
+      "time_period": "1890s-1910s"
+    },
+    {
+      "standard_name": "White Hand Gang",
+      "original_text_name": "White Hand Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Irish-American gang in New York City, waged war with Frankie Yale's Mafia faction.",
+      "time_period": "1910s-1920s"
+    },
+    {
+      "standard_name": "North Side Gang",
+      "original_text_name": "North Side Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Irish-American outfit in Chicago, massacred by Al Capone's organization.",
+      "time_period": "1910s-1920s"
+    },
+    {
+      "standard_name": "Gambino family",
+      "original_text_name": "Gambino",
+      "aliases": [
+        "Gambino crime family"
+      ],
+      "type": "mafia",
+      "context": "One of the Five Families of New York City.",
+      "time_period": "1931-present"
+    },
+    {
+      "standard_name": "Lucchese family",
+      "original_text_name": "Lucchese",
+      "aliases": [
+        "Lucchese crime family"
+      ],
+      "type": "mafia",
+      "context": "One of the Five Families of New York City.",
+      "time_period": "1931-present"
+    },
+    {
+      "standard_name": "Genovese family",
+      "original_text_name": "Genovese",
+      "aliases": [
+        "Genovese crime family"
+      ],
+      "type": "mafia",
+      "context": "One of the Five Families of New York City.",
+      "time_period": "1931-present"
+    },
+    {
+      "standard_name": "Bonanno family",
+      "original_text_name": "Bonanno",
+      "aliases": [
+        "Bonanno crime family"
+      ],
+      "type": "mafia",
+      "context": "One of the Five Families of New York City.",
+      "time_period": "1931-present"
+    },
+    {
+      "standard_name": "Colombo family",
+      "original_text_name": "Colombo",
+      "aliases": [
+        "Colombo crime family"
+      ],
+      "type": "mafia",
+      "context": "One of the Five Families of New York City.",
+      "time_period": "1931-present"
+    },
+    {
+      "standard_name": "The Commission",
+      "original_text_name": "The Commission",
+      "aliases": [],
+      "type": "other",
+      "context": "Governing body of the American Mafia, consisting of bosses of the strongest families.",
+      "time_period": "1931-present"
+    },
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, involved in point-shaving scandal.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, boss Joseph Massino cooperated with authorities.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [
+        "Luciano crime family"
+      ],
+      "type": "mafia",
+      "context": "One of the Five Families of New York, created street boss position.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Philadelphia crime family",
+      "original_text_name": "Philadelphia crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Philadelphia Mafia family, boss Ralph Natale flipped in 1999.",
+      "time_period": "early 20th century-present"
+    },
+    {
+      "standard_name": "Russian Mafia",
+      "original_text_name": "Russian Mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Russian organized crime group, competes with American Mafia for criminal activities.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Chinese Triads",
+      "original_text_name": "Chinese Triads",
+      "aliases": [],
+      "type": "triad",
+      "context": "Chinese organized crime groups, compete with American Mafia.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Mexican drug cartels",
+      "original_text_name": "Mexican drug cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug trafficking organizations, compete with American Mafia.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Buffalo crime family",
+      "original_text_name": "Buffalo crime family",
+      "aliases": [
+        "Magaddino crime family"
+      ],
+      "type": "mafia",
+      "context": "Mafia family based in Buffalo, New York.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Rizzuto crime family",
+      "original_text_name": "Rizzuto crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Canadian Mafia family influenced by Bonanno family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cotroni crime family",
+      "original_text_name": "Cotroni crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Canadian Mafia family influenced by Bonanno family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Luppino crime family",
+      "original_text_name": "Luppino crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Canadian Mafia family influenced by Buffalo family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Papalia crime family",
+      "original_text_name": "Papalia crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Canadian Mafia family influenced by Buffalo family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bufalino crime family",
+      "original_text_name": "Bufalino crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Northeastern Pennsylvania.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Chicago, Illinois.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cleveland crime family",
+      "original_text_name": "Cleveland crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Cleveland, Ohio.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dallas crime family",
+      "original_text_name": "Dallas crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Dallas, Texas.",
+      "time_period": null
+    },
+    {
+      "standard_name": "DeCavalcante crime family",
+      "original_text_name": "DeCavalcante crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Northern New Jersey.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Denver crime family",
+      "original_text_name": "Denver crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Denver, Colorado.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Detroit Partnership",
+      "original_text_name": "Detroit Partnership",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Detroit, Michigan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Colombo crime family",
+      "original_text_name": "Colombo crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kansas City crime family",
+      "original_text_name": "Kansas City crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Kansas City, Missouri.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Angeles crime family",
+      "original_text_name": "Los Angeles crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Los Angeles, California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Milwaukee crime family",
+      "original_text_name": "Milwaukee crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Milwaukee, Wisconsin.",
+      "time_period": null
+    },
+    {
+      "standard_name": "New Orleans crime family",
+      "original_text_name": "New Orleans crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in New Orleans, Louisiana.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Patriarca crime family",
+      "original_text_name": "Patriarca crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in New England.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Pittsburgh crime family",
+      "original_text_name": "Pittsburgh crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Pittsburgh, Pennsylvania.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Rochester crime family",
+      "original_text_name": "Rochester crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Rochester, New York.",
+      "time_period": null
+    },
+    {
+      "standard_name": "San Francisco crime family",
+      "original_text_name": "San Francisco crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in San Francisco, California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "San Jose crime family",
+      "original_text_name": "San Jose crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in San Jose, California.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Seattle crime family",
+      "original_text_name": "Seattle crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Seattle, Washington.",
+      "time_period": null
+    },
+    {
+      "standard_name": "St. Louis crime family",
+      "original_text_name": "St. Louis crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in St. Louis, Missouri.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Trafficante crime family",
+      "original_text_name": "Trafficante crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Tampa, Florida.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ku Klux Klan",
+      "original_text_name": "Ku Klux Klan",
+      "aliases": [],
+      "type": "militia",
+      "context": "White supremacist group involved in murders in Mississippi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "10th & Oregon Crew",
+      "original_text_name": "10th & Oregon Crew",
+      "aliases": [],
+      "type": "gang",
+      "context": "Independent Italian-American gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Purple Gang",
+      "original_text_name": "Purple Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Independent Italian-American gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Tanglewood Boys",
+      "original_text_name": "Tanglewood Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Independent Italian-American gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Outlaws",
+      "original_text_name": "Outlaws",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club.",
+      "time_period": "1935-present"
+    },
+    {
+      "standard_name": "Pagans",
+      "original_text_name": "Pagan's",
+      "aliases": [
+        "Pagans"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club.",
+      "time_period": "1959-present"
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang.",
+      "time_period": "1972-present"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Latin Kings",
+      "original_text_name": "Latin Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang.",
+      "time_period": "1940s-present"
+    },
+    {
+      "standard_name": "Irish Mob",
+      "original_text_name": "Irish mob",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Irish-American organized crime groups.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Albanian Mafia",
+      "original_text_name": "Albanian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Albanian organized crime groups.",
+      "time_period": "1990s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "American Mafia",
+      "target": "Sicilian Mafia",
+      "relationship": "other",
+      "detail": "derived from",
+      "context": "The American Mafia's name and origins derive from the Sicilian Mafia.",
+      "time_period": "late 19th century-present"
+    },
+    {
+      "source": "American Mafia",
+      "target": "Camorra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The American Mafia cooperates in criminal activities with the Camorra.",
+      "time_period": "present"
+    },
+    {
+      "source": "American Mafia",
+      "target": "'Ndrangheta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The American Mafia cooperates in criminal activities with the 'Ndrangheta.",
+      "time_period": "present"
+    },
+    {
+      "source": "Five Points Gang",
+      "target": "Eastmans",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Five Points Gang was often in conflict with the Jewish Eastmans.",
+      "time_period": "1890s-1910s"
+    },
+    {
+      "source": "American Mafia",
+      "target": "White Hand Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Frankie Yale's Mafia faction waged war with the White Hand Gang.",
+      "time_period": "1920s"
+    },
+    {
+      "source": "American Mafia",
+      "target": "North Side Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Al Capone's family massacred the North Side Gang.",
+      "time_period": "1920s"
+    },
+    {
+      "source": "American Mafia",
+      "target": "Gambino family",
+      "relationship": "other",
+      "detail": "comprises",
+      "context": "The Gambino family is one of the Five Families that make up the American Mafia.",
+      "time_period": "1931-present"
+    },
+    {
+      "source": "American Mafia",
+      "target": "Lucchese family",
+      "relationship": "other",
+      "detail": "comprises",
+      "context": "The Lucchese family is one of the Five Families that make up the American Mafia.",
+      "time_period": "1931-present"
+    },
+    {
+      "source": "American Mafia",
+      "target": "Genovese family",
+      "relationship": "other",
+      "detail": "comprises",
+      "context": "The Genovese family is one of the Five Families that make up the American Mafia.",
+      "time_period": "1931-present"
+    },
+    {
+      "source": "American Mafia",
+      "target": "Bonanno family",
+      "relationship": "other",
+      "detail": "comprises",
+      "context": "The Bonanno family is one of the Five Families that make up the American Mafia.",
+      "time_period": "1931-present"
+    },
+    {
+      "source": "American Mafia",
+      "target": "Colombo family",
+      "relationship": "other",
+      "detail": "comprises",
+      "context": "The Colombo family is one of the Five Families that make up the American Mafia.",
+      "time_period": "1931-present"
+    },
+    {
+      "source": "American Mafia",
+      "target": "The Commission",
+      "relationship": "other",
+      "detail": "governed by",
+      "context": "The Commission oversees nationwide coordination of the American Mafia families.",
+      "time_period": "1931-present"
+    },
+    {
+      "source": "American Mafia",
+      "target": "Sicilian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cooperate in various criminal activities, including heroin smuggling.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "American Mafia",
+      "target": "Russian Mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Compete for criminal activities.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "American Mafia",
+      "target": "Chinese Triads",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Compete for criminal activities.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "American Mafia",
+      "target": "Mexican drug cartels",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Compete for criminal activities.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Lucchese crime family",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Lucchese is a constituent family of the American Mafia.",
+      "time_period": "1930s-present"
+    },
+    {
+      "source": "Bonanno crime family",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bonanno is a constituent family of the American Mafia.",
+      "time_period": "1930s-present"
+    },
+    {
+      "source": "Genovese crime family",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Genovese is a constituent family of the American Mafia.",
+      "time_period": "1930s-present"
+    },
+    {
+      "source": "Philadelphia crime family",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Philadelphia crime family is part of the American Mafia.",
+      "time_period": "early 20th century-present"
+    },
+    {
+      "source": "Bonanno crime family",
+      "target": "Rizzuto crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bonanno family had influence over Rizzuto family in Canada.",
+      "time_period": null
+    },
+    {
+      "source": "Bonanno crime family",
+      "target": "Cotroni crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bonanno family had influence over Cotroni family in Canada.",
+      "time_period": null
+    },
+    {
+      "source": "Buffalo crime family",
+      "target": "Luppino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Buffalo family had influence over Luppino family in Canada.",
+      "time_period": null
+    },
+    {
+      "source": "Buffalo crime family",
+      "target": "Papalia crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Buffalo family had influence over Papalia family in Canada.",
+      "time_period": null
+    },
+    {
+      "source": "Colombo crime family",
+      "target": "Ku Klux Klan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Colombo capo Gregory Scarpa threatened a Klansman to find bodies.",
+      "time_period": "1964"
+    },
+    {
+      "source": "American Mafia",
+      "target": "10th & Oregon Crew",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with independent Italian-American gangs.",
+      "time_period": null
+    },
+    {
+      "source": "American Mafia",
+      "target": "Purple Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with independent Italian-American gangs.",
+      "time_period": null
+    },
+    {
+      "source": "American Mafia",
+      "target": "Tanglewood Boys",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with independent Italian-American gangs.",
+      "time_period": null
+    },
+    {
+      "source": "American Mafia",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with various motorcycle gangs.",
+      "time_period": null
+    },
+    {
+      "source": "American Mafia",
+      "target": "Outlaws",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with various motorcycle gangs.",
+      "time_period": null
+    },
+    {
+      "source": "American Mafia",
+      "target": "Pagans",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with various motorcycle gangs.",
+      "time_period": null
+    },
+    {
+      "source": "American Mafia",
+      "target": "Bloods",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with various street gangs.",
+      "time_period": null
+    },
+    {
+      "source": "American Mafia",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with various street gangs.",
+      "time_period": null
+    },
+    {
+      "source": "American Mafia",
+      "target": "Latin Kings",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with various street gangs.",
+      "time_period": null
+    },
+    {
+      "source": "American Mafia",
+      "target": "Irish Mob",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Historically rivals.",
+      "time_period": null
+    },
+    {
+      "source": "American Mafia",
+      "target": "Albanian Mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Historically rivals.",
+      "time_period": null
+    },
+    {
+      "source": "Colombo crime family",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "One of the Five Families that make up the American Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Gambino crime family",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "One of the Five Families that make up the American Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "DeCavalcante crime family",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Affiliated with the American Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Patriarca crime family",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Affiliated with the American Mafia.",
+      "time_period": null
+    }
+  ],
+  "source_file": "American_Mafia"
+}

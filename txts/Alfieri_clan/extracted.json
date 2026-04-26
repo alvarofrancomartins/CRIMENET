@@ -1,0 +1,219 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Alfieri clan",
+      "original_text_name": "Alfieri clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Neapolitan Camorra clan operating in north-east Naples, Saviano and Nola.",
+      "time_period": "1960s-1990s"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "type": "clan",
+      "context": "Camorra organization led by Raffaele Cutolo, rival to Alfieri clan.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [
+        "NF"
+      ],
+      "type": "clan",
+      "context": "Alliance of Camorra clans formed to oppose the NCO.",
+      "time_period": "early 1980s"
+    },
+    {
+      "standard_name": "Casalesi clan",
+      "original_text_name": "Casalesi",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Casal di Principe, involved in infighting with Nuvoletta clan.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Nuvoletta clan",
+      "original_text_name": "Nuvoletta",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Marano di Napoli, rival of Casalesi and Alfieri.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Gionta clan",
+      "original_text_name": "Gionta clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Torre Annunziata, attacked in 1984 massacre.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Galasso clan",
+      "original_text_name": "Galasso clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Poggiomarino, ally of Alfieri clan.",
+      "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Anastasio clan",
+      "original_text_name": "Anastasio clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Sant'Anastasia, ally of Alfieri clan.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Moccia clan",
+      "original_text_name": "Moccia clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Afragola, ally of Alfieri clan.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Vangone-Limelli clan",
+      "original_text_name": "Vangone-Limelli clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Torre Annunziata, ally of Alfieri clan.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Russo clan",
+      "original_text_name": "Russo clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, ally of Alfieri clan per infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Cava clan",
+      "original_text_name": "Cava Clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Quindici, ally of Alfieri clan per infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Cesarano clan",
+      "original_text_name": "Cesarano clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Castellamare di Stabia, ally of Alfieri clan per infobox.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Alfieri clan",
+      "target": "Nuova Camorra Organizzata",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "NCO gunmen murdered Salvatore Alfieri; Alfieri clan joined NF to oppose NCO.",
+      "time_period": "early 1980s"
+    },
+    {
+      "source": "Alfieri clan",
+      "target": "Nuova Famiglia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Carmine Alfieri was a founding member of the NF alliance against NCO.",
+      "time_period": "early 1980s"
+    },
+    {
+      "source": "Alfieri clan",
+      "target": "Casalesi clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Casalesi clan listed as ally in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Alfieri clan",
+      "target": "Nuvoletta clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Nuvoletta clan listed as rival in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Alfieri clan",
+      "target": "Gionta clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gionta clan listed as rival in infobox; members killed in 1984 massacre.",
+      "time_period": "1984"
+    },
+    {
+      "source": "Alfieri clan",
+      "target": "Galasso clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Alfieri made alliance with Galasso clan; later Galasso became pentito.",
+      "time_period": "mid-1980s"
+    },
+    {
+      "source": "Alfieri clan",
+      "target": "Anastasio clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Alfieri made alliance with Anastasio clan.",
+      "time_period": "mid-1980s"
+    },
+    {
+      "source": "Alfieri clan",
+      "target": "Moccia clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Alfieri made alliance with Moccia clan.",
+      "time_period": "mid-1980s"
+    },
+    {
+      "source": "Alfieri clan",
+      "target": "Vangone-Limelli clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Alfieri made alliance with Vangone-Limelli clan.",
+      "time_period": "mid-1980s"
+    },
+    {
+      "source": "Alfieri clan",
+      "target": "Russo clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Russo clan listed as ally in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Alfieri clan",
+      "target": "Cava clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cava clan listed as ally in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Alfieri clan",
+      "target": "Cesarano clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cesarano clan listed as ally in infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Nuvoletta clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Infighting between Casalesi and Nuvoletta clans led to 1984 massacre.",
+      "time_period": "1984"
+    }
+  ],
+  "source_file": "Alfieri_clan"
+}

@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "standard_name": "White Boy Posse",
+      "original_text_name": "White Boy Posse",
+      "aliases": [
+        "Whiteboy Posse",
+        "WBP"
+      ],
+      "type": "gang",
+      "context": "White supremacist neo-Nazi organized crime group active in Western Canada, involved in drug trafficking, assault, and murder.",
+      "time_period": "2003-present"
+    },
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels Motorcycle Club",
+      "aliases": [
+        "Hells Angels"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club; founder of White Boy Posse was a close associate.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Crazy Dragon Killers",
+      "original_text_name": "Crazy Dragon Killers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang that kidnapped and assaulted White Boy Posse members in 2004.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Syndicate Motorcycle Club",
+      "original_text_name": "Syndicate Motorcycle Club",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Listed as an ally of White Boy Posse in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bandidos Motorcycle Club",
+      "original_text_name": "Bandidos Motorcycle Club",
+      "aliases": [
+        "Bandidos"
+      ],
+      "type": "motorcycle_club",
+      "context": "Listed as a rival of White Boy Posse in the infobox.",
+      "time_period": "1966-present"
+    },
+    {
+      "standard_name": "Manitoba Warriors",
+      "original_text_name": "Manitoba Warriors",
+      "aliases": [],
+      "type": "gang",
+      "context": "Listed as a rival of White Boy Posse in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Indian Posse",
+      "original_text_name": "Indian Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Listed as a rival of White Boy Posse in the infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "White Boy Posse",
+      "target": "Hells Angels Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Founder Sean Jackson was a close associate of Hells Angels; listed as ally in infobox.",
+      "time_period": "2003-present"
+    },
+    {
+      "source": "White Boy Posse",
+      "target": "Syndicate Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "White Boy Posse",
+      "target": "Crazy Dragon Killers",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Crazy Dragon Killers kidnapped and assaulted five WBP members in 2004.",
+      "time_period": "2004"
+    },
+    {
+      "source": "White Boy Posse",
+      "target": "Bandidos Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "White Boy Posse",
+      "target": "Manitoba Warriors",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "White Boy Posse",
+      "target": "Indian Posse",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "White_Boy_Posse"
+}

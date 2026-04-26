@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Rochester crime family",
+      "original_text_name": "Rochester crime family",
+      "aliases": [
+        "Valenti crime family",
+        "Rochester Mafia"
+      ],
+      "type": "mafia",
+      "context": "Italian American Mafia crime family based in Rochester, New York, active from 1950s to 1993.",
+      "time_period": "c. 1950s–1993"
+    },
+    {
+      "standard_name": "Buffalo crime family",
+      "original_text_name": "Buffalo crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Buffalo, New York; originally controlled Rochester as a crew.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Pittsburgh crime family",
+      "original_text_name": "Pittsburgh crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Pittsburgh, Pennsylvania; allied with Rochester family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York City Mafia family; allied with Rochester family and later absorbed some members.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Rochester crime family",
+      "target": "Buffalo crime family",
+      "relationship": "other",
+      "detail": "subordinate to independent",
+      "context": "Rochester was originally a crew under Buffalo, but became independent in 1970.",
+      "time_period": "c. 1950s–1970"
+    },
+    {
+      "source": "Rochester crime family",
+      "target": "Buffalo crime family",
+      "relationship": "rivalry",
+      "context": "After independence, Rochester family had rivalry with Buffalo family.",
+      "time_period": "1970–1993"
+    },
+    {
+      "source": "Rochester crime family",
+      "target": "Pittsburgh crime family",
+      "relationship": "alliance",
+      "context": "Rochester family allied with Pittsburgh family; Frank Valenti was an associate in Pittsburgh family.",
+      "time_period": "1964–1972"
+    },
+    {
+      "source": "Rochester crime family",
+      "target": "Bonanno crime family",
+      "relationship": "alliance",
+      "context": "Consigliere Rene Piccarreto made a secret alliance with Bonanno family in 1972.",
+      "time_period": "1972"
+    },
+    {
+      "source": "Rochester crime family",
+      "target": "Bonanno crime family",
+      "relationship": "other",
+      "detail": "members joined",
+      "context": "After the family's dissolution, some members joined the Bonanno family in 1996.",
+      "time_period": "1996"
+    }
+  ],
+  "source_file": "Rochester_crime_family"
+}

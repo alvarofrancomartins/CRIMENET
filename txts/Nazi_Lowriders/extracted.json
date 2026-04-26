@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Nazi Lowriders",
+      "original_text_name": "Nazi Lowriders",
+      "aliases": [
+        "NLR",
+        "the Ride"
+      ],
+      "type": "gang",
+      "context": "Neo-Nazi white supremacist prison and street gang based in Southern California, involved in drug trafficking, extortion, and murder.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Aryan Brotherhood",
+      "original_text_name": "Aryan Brotherhood",
+      "aliases": [
+        "AB"
+      ],
+      "type": "gang",
+      "context": "Leading white gang in the California prison system, involved in organized crime and drug trafficking.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Hispanic prison gang in California, involved in drug trafficking and organized crime.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Public Enemy No. 1",
+      "original_text_name": "Public Enemy No. 1",
+      "aliases": [
+        "PENI",
+        "PEE NYE"
+      ],
+      "type": "gang",
+      "context": "White supremacist prison and street gang in California, allied with Nazi Lowriders.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club with international presence, involved in drug trafficking and organized crime.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Mongols",
+      "original_text_name": "Mongols",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club based in Southern California, involved in drug trafficking and violence.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Vagos",
+      "original_text_name": "Vagos",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club based in Southern California, involved in drug trafficking and organized crime.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Ku Klux Klan",
+      "original_text_name": "Ku Klux Klan",
+      "aliases": [
+        "KKK"
+      ],
+      "type": "other",
+      "context": "White supremacist hate group with a history of terrorism and violence in the United States.",
+      "time_period": "1865-present"
+    },
+    {
+      "standard_name": "Combat 18",
+      "original_text_name": "Combat 18",
+      "aliases": [],
+      "type": "other",
+      "context": "Neo-Nazi organization with ties to white supremacist gangs, involved in violence and hate crimes.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Blood and Honour",
+      "original_text_name": "Blood and Honour",
+      "aliases": [],
+      "type": "other",
+      "context": "Neo-Nazi music network and political organization with ties to white supremacist gangs.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Hispanic street gang alliance in Southern California, involved in drug trafficking and organized crime.",
+      "time_period": "1960s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Nazi Lowriders",
+      "target": "Aryan Brotherhood",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nazi Lowriders originated as a middleman for Aryan Brotherhood and later became allied with them.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Nazi Lowriders",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nazi Lowriders are allied with the Mexican Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Nazi Lowriders",
+      "target": "Public Enemy No. 1",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nazi Lowriders struck an alliance with Public Enemy No. 1 to continue operations in prison.",
+      "time_period": "1999-present"
+    },
+    {
+      "source": "Nazi Lowriders",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nazi Lowriders have developed links with Hells Angels.",
+      "time_period": null
+    },
+    {
+      "source": "Nazi Lowriders",
+      "target": "Mongols",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nazi Lowriders have connections with the Mongols motorcycle gang.",
+      "time_period": null
+    },
+    {
+      "source": "Nazi Lowriders",
+      "target": "Vagos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nazi Lowriders have connections with the Vagos motorcycle gang.",
+      "time_period": null
+    },
+    {
+      "source": "Nazi Lowriders",
+      "target": "Ku Klux Klan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nazi Lowriders have developed links with the Ku Klux Klan.",
+      "time_period": null
+    },
+    {
+      "source": "Nazi Lowriders",
+      "target": "Combat 18",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nazi Lowriders have underground ties with Combat 18.",
+      "time_period": null
+    },
+    {
+      "source": "Nazi Lowriders",
+      "target": "Blood and Honour",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nazi Lowriders have underground ties with Blood and Honour.",
+      "time_period": null
+    },
+    {
+      "source": "Nazi Lowriders",
+      "target": "Sureños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nazi Lowriders are allied with Sureños according to the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Nazi_Lowriders"
+}

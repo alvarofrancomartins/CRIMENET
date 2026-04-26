@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Romanian Mafia",
+      "original_text_name": "Romanian mafia",
+      "aliases": [
+        "Romanian organized crime",
+        "Mafia Românească",
+        "Clanuri Interlope"
+      ],
+      "type": "other",
+      "context": "Umbrella term for Romanian organized crime groups active in Europe and the Americas, involved in human trafficking, drug trafficking, and financial crimes.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Brigada Oarza",
+      "original_text_name": "Brigada Oarza",
+      "aliases": [],
+      "type": "gang",
+      "context": "Romanian criminal group in Turin, Italy, specialized in extortion, robbery, and drug trafficking.",
+      "time_period": "2000s-2014"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel; has a lucrative pact with Romanian mafia gangs in the Americas.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian mafia organization; collaborates with Romanian mafia in drug trafficking in Europe.",
+      "time_period": "1800s-present"
+    },
+    {
+      "standard_name": "Cămătarilor clan",
+      "original_text_name": "Cămătarilor clan",
+      "aliases": [
+        "Clanul Cămătarilor",
+        "Cămătari clan"
+      ],
+      "type": "clan",
+      "context": "Headed by Ion Balint (Nuțu Cămătaru) and his brother Vasile Balint (Sile Cămătaru), involved in usury, prostitution, blackmail in Sector 5, Bucharest.",
+      "time_period": "Late 1980s-present"
+    },
+    {
+      "standard_name": "Caran clan",
+      "original_text_name": "Caran clan",
+      "aliases": [
+        "Clanul Caran"
+      ],
+      "type": "clan",
+      "context": "Led by Aurel Răducan, active in Pantelimon (Sector 2) and Cluj-Napoca, involved in usury and prostitution.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sportivilor clan",
+      "original_text_name": "Sportivilor clan",
+      "aliases": [
+        "Clanul Sportivilor"
+      ],
+      "type": "clan",
+      "context": "Headed by Radu Roșca, dominant in Sector 4, involved in blackmail, usury, protection rackets, security services, real estate.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Vancică clan",
+      "original_text_name": "Vancică clan",
+      "aliases": [
+        "Clanul Vancică"
+      ],
+      "type": "clan",
+      "context": "Led by brothers Licuță and Dănuț Udilă, operates in Sectors 1 and 4, involved in real estate and cigarette smuggling.",
+      "time_period": "2005-present"
+    },
+    {
+      "standard_name": "Chira clan",
+      "original_text_name": "Chira clan",
+      "aliases": [
+        "Clanul Chira"
+      ],
+      "type": "clan",
+      "context": "Led by Aurel Chira, controls Sector 3, involved in usury, drug trafficking, prostitution.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Duduienilor clan",
+      "original_text_name": "Duduienilor clan",
+      "aliases": [
+        "Clanul Duduienilor"
+      ],
+      "type": "clan",
+      "context": "One of the largest in Sectors 2 and 6, involved in prostitution, usury, blackmail; formerly led by Ion Duduianu (Segher).",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ștoacă clan",
+      "original_text_name": "Ștoacă clan",
+      "aliases": [
+        "Clanul Ștoacă"
+      ],
+      "type": "clan",
+      "context": "Led by Ion Voinea (Ion al lui Ștoacă), active in Sectors 4 and 5, specializes in international drug trafficking and prostitution.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Vasiloi clan",
+      "original_text_name": "Vasiloi clan",
+      "aliases": [
+        "Clanul Vasiloi"
+      ],
+      "type": "clan",
+      "context": "Led by Gheorghe Dincă and his son Vasile Dincă (Miky), based in Sector 6, involved in protection rackets, debt collection, real estate.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Domnu clan",
+      "original_text_name": "Domnu clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Led by Vasile Domnu (Liderică), controlled prostitution in Bucharest's Gara de Nord area; involved in feud with Sadoveanu clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sadoveanu clan",
+      "original_text_name": "Sadoveanu clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Mentioned as rival of Domnu clan in a feud.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Romanian Mafia",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Romanian mafia gangs in the Americas have built a lucrative pact with the Sinaloa Cartel.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Romanian Mafia",
+      "target": "'Ndrangheta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Romanian mafia collaborates with 'Ndrangheta to distribute narcotics throughout Europe.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Vancică clan",
+      "target": "Sportivilor clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Vancică clan formed an alliance with Sportivilor clan to challenge the Cămătari clan.",
+      "time_period": "since 2005"
+    },
+    {
+      "source": "Vancică clan",
+      "target": "Cămătarilor clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Vancică clan expanded into Cămătari territories after their imprisonment, leading to rivalry.",
+      "time_period": "since 2005"
+    },
+    {
+      "source": "Domnu clan",
+      "target": "Sadoveanu clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Domnu clan was involved in a violent feud with Sadoveanu clan.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Romanian_mafia"
+}

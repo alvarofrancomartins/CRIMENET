@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Birger Gang",
+      "original_text_name": "Birger Gang",
+      "aliases": [
+        "Birger's gang"
+      ],
+      "type": "gang",
+      "context": "Bootlegging gang led by Charles Birger in southern Illinois during Prohibition.",
+      "time_period": "1920-1928"
+    },
+    {
+      "standard_name": "Shelton Brothers Gang",
+      "original_text_name": "Shelton Brothers Gang",
+      "aliases": [
+        "Shelton Gang",
+        "Shelton Brothers"
+      ],
+      "type": "gang",
+      "context": "Bootlegging gang in southern Illinois, initially allied with Birger, later at war.",
+      "time_period": "1920s"
+    },
+    {
+      "standard_name": "Ku Klux Klan",
+      "original_text_name": "Ku Klux Klan",
+      "aliases": [
+        "KKK",
+        "Klan"
+      ],
+      "type": "militia",
+      "context": "White supremacist group enforcing Prohibition in southern Illinois, opposed bootleggers.",
+      "time_period": "1920s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Birger Gang",
+      "target": "Shelton Brothers Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Birger joined forces with the Shelton Brothers in 1920 to bootleg.",
+      "time_period": "1920-1926"
+    },
+    {
+      "source": "Birger Gang",
+      "target": "Shelton Brothers Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "War over control of bootlegging in southern Illinois from October 1926.",
+      "time_period": "1926-1928"
+    },
+    {
+      "source": "Birger Gang",
+      "target": "Ku Klux Klan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Birger and Shelton Brothers attacked Klan leaders in Herrin in April 1926.",
+      "time_period": "1923-1926"
+    },
+    {
+      "source": "Shelton Brothers Gang",
+      "target": "Ku Klux Klan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Shelton Brothers joined Birger to attack the Klan in Herrin.",
+      "time_period": "1923-1926"
+    }
+  ],
+  "source_file": "Charles_Birger"
+}

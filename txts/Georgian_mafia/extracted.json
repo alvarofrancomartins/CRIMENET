@@ -1,0 +1,94 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Georgian mafia",
+      "original_text_name": "Georgian mafia",
+      "aliases": [
+        "kartuli mapia",
+        "Georgian organized crime"
+      ],
+      "type": "mafia",
+      "context": "Organized crime network active in Europe, controlling many Russian-speaking mafia groups.",
+      "time_period": "Soviet era-present"
+    },
+    {
+      "standard_name": "Kutaisi Clan",
+      "original_text_name": "Kutaisi clan",
+      "aliases": [
+        "Kutaisi crime clan"
+      ],
+      "type": "clan",
+      "context": "Major Georgian criminal clan from Kutaisi, western Georgia, led by Tariel Oniani.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Tbilisi Clan",
+      "original_text_name": "Tbilisi clan",
+      "aliases": [
+        "Tbilisi crime clan"
+      ],
+      "type": "clan",
+      "context": "Major Georgian criminal clan from Tbilisi, led by Aslan Usoyan and Otari Kvantrishvili.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Mkhedrioni",
+      "original_text_name": "Mkhedrioni",
+      "aliases": [],
+      "type": "militia",
+      "context": "Georgian nationalist militia led by former thief-in-law Jaba Ioseliani, engaged in protection rackets and smuggling.",
+      "time_period": "1990-1995"
+    },
+    {
+      "standard_name": "National Guard of Georgia",
+      "original_text_name": "National Guard of Georgia",
+      "aliases": [],
+      "type": "militia",
+      "context": "Georgian nationalist militia led by ex-convict Tengiz Kitovani, involved in racketeering and smuggling.",
+      "time_period": "1990-1995"
+    },
+    {
+      "standard_name": "Nagazi",
+      "original_text_name": "Nagazi",
+      "aliases": [],
+      "type": "other",
+      "context": "Fictional crime syndicate in Georgia from the film Extraction 2.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Georgian mafia",
+      "target": "Kutaisi Clan",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Kutaisi Clan is a major criminal clan within the Georgian mafia.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Georgian mafia",
+      "target": "Tbilisi Clan",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Tbilisi Clan is a major criminal clan within the Georgian mafia.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Kutaisi Clan",
+      "target": "Tbilisi Clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Violent feud between the Kutaisi and Tbilisi clans, led by Tariel Oniani and Aslan Usoyan respectively.",
+      "time_period": "2000s-2013"
+    },
+    {
+      "source": "Mkhedrioni",
+      "target": "National Guard of Georgia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both militias operated alongside each other during the Georgian conflicts and coup.",
+      "time_period": "1990-1995"
+    }
+  ],
+  "source_file": "Georgian_mafia"
+}

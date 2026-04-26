@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Chijon Family",
+      "original_text_name": "Chijon Family",
+      "aliases": [
+        "Jijon Family",
+        "Chijon Group",
+        "Mascan"
+      ],
+      "type": "gang",
+      "context": "South Korean gang active 1993-1994, involved in murder, extortion, kidnapping, cannibalism, rape.",
+      "time_period": "1993-1994"
+    },
+    {
+      "standard_name": "Maggapa",
+      "original_text_name": "Maggapa",
+      "aliases": [
+        "막가파"
+      ],
+      "type": "gang",
+      "context": "South Korean copycat gang inspired by the Chijon Family, arrested in 1996.",
+      "time_period": "1996"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Maggapa",
+      "target": "Chijon Family",
+      "relationship": "other",
+      "detail": "copycat",
+      "context": "Maggapa was a copycat gang inspired by the Chijon Family.",
+      "time_period": "1996"
+    }
+  ],
+  "source_file": "Chijon_family"
+}

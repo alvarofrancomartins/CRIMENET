@@ -1,0 +1,36 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Dead Man Incorporated",
+      "original_text_name": "Dead Man Inc.",
+      "aliases": [
+        "DMI",
+        "Dead Man Incorporated"
+      ],
+      "type": "gang",
+      "context": "Predominantly white prison gang founded in Maryland, involved in drug trafficking, murder, and contract killing.",
+      "time_period": "2000-present"
+    },
+    {
+      "standard_name": "Black Guerrilla Family",
+      "original_text_name": "Black Guerrilla Family",
+      "aliases": [
+        "BGF"
+      ],
+      "type": "gang",
+      "context": "Prison gang that authorized the founding of DMI and initially employed them for services.",
+      "time_period": "1960s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Dead Man Incorporated",
+      "target": "Black Guerrilla Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "DMI was founded with permission from BGF and initially worked for them, later offering services to other gangs.",
+      "time_period": "late 1990s-2000s"
+    }
+  ],
+  "source_file": "Dead_Man_Incorporated"
+}

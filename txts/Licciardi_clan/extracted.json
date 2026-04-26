@@ -1,0 +1,271 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Licciardi clan",
+      "original_text_name": "Licciardi clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Neapolitan Camorra clan operating in Secondigliano, Scampia, and other areas of Naples; involved in drug trafficking, extortion, and racketeering.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Giuliano clan",
+      "original_text_name": "Giuliano clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Forcella, Naples; former boss of Gennaro Licciardi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Secondigliano Alliance",
+      "original_text_name": "Secondigliano Alliance",
+      "aliases": [],
+      "type": "other",
+      "context": "Coalition of Camorra clans controlling drug trafficking and extortion in Naples suburbs.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Contini clan",
+      "original_text_name": "Contini clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, member of the Secondigliano Alliance.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mallardo clan",
+      "original_text_name": "Mallardo clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, member of the Secondigliano Alliance.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Lo Russo clan",
+      "original_text_name": "Lo Russo clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, former member of Secondigliano Alliance; now defunct and rival.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Stabile clan",
+      "original_text_name": "Stabile clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, member of the Secondigliano Alliance.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Prestieri clan",
+      "original_text_name": "Prestieri clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, member of the Secondigliano Alliance.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bocchetti clan",
+      "original_text_name": "Bocchetti clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, member of the Secondigliano Alliance.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Di Lauro clan",
+      "original_text_name": "Di Lauro clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, member of the Secondigliano Alliance; involved in Scampia feud.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Filippone 'ndrina",
+      "original_text_name": "Filippone 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan, allied with Licciardi clan in drug trafficking.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gallico 'ndrina",
+      "original_text_name": "Gallico 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan, allied with Licciardi clan in drug trafficking.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nuvoletta clan",
+      "original_text_name": "Nuvoletta clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Polverino clan",
+      "original_text_name": "Polverino clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Moccia clan",
+      "original_text_name": "Moccia clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Catania Mafia family",
+      "original_text_name": "Catania Mafia family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Sicilian Mafia family from Catania, listed as ally in infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Licciardi clan",
+      "target": "Giuliano clan",
+      "relationship": "other",
+      "detail": "former subordination",
+      "context": "Gennaro Licciardi was second-in-command to Luigi Giuliano before forming his own clan.",
+      "time_period": "mid-1980s"
+    },
+    {
+      "source": "Licciardi clan",
+      "target": "Secondigliano Alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Licciardi clan was a founding member of the Secondigliano Alliance.",
+      "time_period": "since 1990s"
+    },
+    {
+      "source": "Secondigliano Alliance",
+      "target": "Contini clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Contini clan is a member of the Secondigliano Alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Secondigliano Alliance",
+      "target": "Mallardo clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mallardo clan is a member of the Secondigliano Alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Secondigliano Alliance",
+      "target": "Lo Russo clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Lo Russo clan was a member of the Secondigliano Alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Secondigliano Alliance",
+      "target": "Stabile clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Stabile clan is a member of the Secondigliano Alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Secondigliano Alliance",
+      "target": "Prestieri clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Prestieri clan is a member of the Secondigliano Alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Secondigliano Alliance",
+      "target": "Bocchetti clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bocchetti clan is a member of the Secondigliano Alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Secondigliano Alliance",
+      "target": "Di Lauro clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Di Lauro clan is a member of the Secondigliano Alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Licciardi clan",
+      "target": "Di Lauro clan",
+      "relationship": "other",
+      "detail": "mediation",
+      "context": "Licciardi clan mediated between Di Lauro clan and secessionists to end the Scampia feud.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Licciardi clan",
+      "target": "Filippone 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Members of Licciardi clan and Filippone 'ndrina were arrested together for drug trafficking in Rome.",
+      "time_period": "2018"
+    },
+    {
+      "source": "Licciardi clan",
+      "target": "Gallico 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Members of Licciardi clan and Gallico 'ndrina were arrested together for drug trafficking in Rome.",
+      "time_period": "2018"
+    },
+    {
+      "source": "Licciardi clan",
+      "target": "Nuvoletta clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Licciardi clan",
+      "target": "Polverino clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Licciardi clan",
+      "target": "Moccia clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Licciardi clan",
+      "target": "Catania Mafia family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Licciardi clan",
+      "target": "Lo Russo clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Lo Russo clan is listed as a rival (defunct) in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Licciardi_clan"
+}

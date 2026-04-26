@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Wo Shing Wo",
+      "original_text_name": "Wo Shing Wo",
+      "aliases": [
+        "WSW",
+        "和勝和"
+      ],
+      "type": "triad",
+      "context": "Oldest Wo Group triad in Hong Kong, involved in drug trafficking, extortion, gambling, prostitution.",
+      "time_period": "1930-present"
+    },
+    {
+      "standard_name": "Wo Group",
+      "original_text_name": "Wo Group",
+      "aliases": [],
+      "type": "other",
+      "context": "Umbrella group of triad societies in Hong Kong, includes Wo Shing Wo and others.",
+      "time_period": null
+    },
+    {
+      "standard_name": "14K",
+      "original_text_name": "14K",
+      "aliases": [],
+      "type": "triad",
+      "context": "Rival triad group active globally, involved in drug trafficking and other crimes.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ah Kong",
+      "original_text_name": "Ah Kong",
+      "aliases": [],
+      "type": "triad",
+      "context": "Triad group involved in heroin trade in Amsterdam, rival of Wo Shing Wo.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sun Yee On",
+      "original_text_name": "Sun Yee On",
+      "aliases": [],
+      "type": "triad",
+      "context": "Triad group listed as rival of Wo Shing Wo.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Wo On Lok",
+      "original_text_name": "Wo On Lok",
+      "aliases": [
+        "Wo on Lok"
+      ],
+      "type": "triad",
+      "context": "Triad group that attacked Wo Shing Wo members in 2006.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Big Circle Gang",
+      "original_text_name": "Big Circle Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chinese criminal group listed as ally of Wo Shing Wo.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Shui Fong",
+      "original_text_name": "Shui Fong",
+      "aliases": [],
+      "type": "triad",
+      "context": "Triad group mentioned in connection with a murder in Glasgow.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Wo Hop To",
+      "original_text_name": "Wo Hop To",
+      "aliases": [],
+      "type": "triad",
+      "context": "Triad from which Wo Shing Wo's Toronto branch originated.",
+      "time_period": "founded 1908"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Wo Shing Wo",
+      "target": "Wo Group",
+      "relationship": "other",
+      "detail": "member of",
+      "context": "Wo Shing Wo is the oldest triad in the Wo Group.",
+      "time_period": null
+    },
+    {
+      "source": "Wo Shing Wo",
+      "target": "14K",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Wo Shing Wo battled 14K for heroin trade in Amsterdam and had conflicts in UK and Ireland.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Wo Shing Wo",
+      "target": "Ah Kong",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Wo Shing Wo battled Ah Kong for control of heroin trade in Amsterdam in the 1970s.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Wo Shing Wo",
+      "target": "Sun Yee On",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sun Yee On is listed as a rival of Wo Shing Wo.",
+      "time_period": null
+    },
+    {
+      "source": "Wo Shing Wo",
+      "target": "Wo On Lok",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Wo Shing Wo members were attacked by Wo On Lok members in 2006.",
+      "time_period": "2006"
+    },
+    {
+      "source": "Wo Shing Wo",
+      "target": "Big Circle Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Big Circle Gang is listed as an ally of Wo Shing Wo.",
+      "time_period": null
+    },
+    {
+      "source": "Wo Shing Wo",
+      "target": "Shui Fong",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Wo Shing Wo wanted a share of Shui Fong's video rental business, leading to murder.",
+      "time_period": "1985"
+    },
+    {
+      "source": "Wo Shing Wo",
+      "target": "Wo Hop To",
+      "relationship": "other",
+      "detail": "derived from",
+      "context": "Wo Shing Wo's Toronto branch was established as an international branch of Wo Hop To.",
+      "time_period": "1930"
+    }
+  ],
+  "source_file": "Wo_Shing_Wo"
+}

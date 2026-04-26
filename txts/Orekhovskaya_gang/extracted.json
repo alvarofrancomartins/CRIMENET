@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Orekhovskaya gang",
+      "original_text_name": "Orekhovskaya Organized Crime Group",
+      "aliases": [
+        "Orekhovskaya gang",
+        "Orekhovskaya OCG"
+      ],
+      "type": "gang",
+      "context": "Powerful Moscow-based criminal group active late 1980s-2000s, involved in extortion, racketeering, murder.",
+      "time_period": "1988-2000s"
+    },
+    {
+      "standard_name": "Solntsevskaya bratva",
+      "original_text_name": "Solntsevskaya bratva",
+      "aliases": [
+        "Solntsevskaya Bratva"
+      ],
+      "type": "gang",
+      "context": "Moscow-based criminal group, allied with Orekhovskaya gang in 1989, later absorbed its remnants.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Chechen mafia",
+      "original_text_name": "Chechen mafia gangs",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Chechen organized crime groups that threatened Orekhovskaya and Solntsevskaya in 1989.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Kuntsevskaya gang",
+      "original_text_name": "Kuntsevskaya gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Moscow-based gang, rival of Orekhovskaya gang.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Izmailovskaya gang",
+      "original_text_name": "Izmailovskaya gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Moscow-based gang, rival of Orekhovskaya gang.",
+      "time_period": "1990s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Orekhovskaya gang",
+      "target": "Solntsevskaya bratva",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Merged in 1989 to combat Chechen mafia; alliance split by 1997.",
+      "time_period": "1989-1997"
+    },
+    {
+      "source": "Orekhovskaya gang",
+      "target": "Chechen mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Orekhovskaya and Solntsevskaya allied against Chechen mafia threat in 1989.",
+      "time_period": "1989"
+    },
+    {
+      "source": "Orekhovskaya gang",
+      "target": "Kuntsevskaya gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Orekhovskaya gang",
+      "target": "Izmailovskaya gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Orekhovskaya_gang"
+}

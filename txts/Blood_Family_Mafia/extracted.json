@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Blood Family Mafia",
+      "original_text_name": "Blood Family Mafia",
+      "aliases": [
+        "BFM"
+      ],
+      "type": "gang",
+      "context": "Canadian street gang active in Quebec, founded in 2006, involved in drug trafficking, torture, and conflict with Hells Angels.",
+      "time_period": "2006-present"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club with a Quebec chapter; demands 'tax' from other groups for drug sales.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Los Angeles-based street gang; BFM modeled its style after the Bloods.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Blood Family Mafia",
+      "target": "Hells Angels",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "BFM stopped paying 'tax' to Hells Angels in 2023, leading to conflict; BFM tortures Hells Angels members.",
+      "time_period": "2023-present"
+    },
+    {
+      "source": "Blood Family Mafia",
+      "target": "Bloods",
+      "relationship": "other",
+      "detail": "modeled after",
+      "context": "BFM's style is closely modelled after the Bloods gang of Los Angeles.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Blood_Family_Mafia"
+}

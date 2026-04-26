@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Black Axe",
+      "original_text_name": "Black Axe",
+      "aliases": [
+        "Axemen"
+      ],
+      "type": "other",
+      "context": "International confraternity from Nigeria involved in cybercrime, human trafficking, drug trafficking, and violence.",
+      "time_period": "1977-present"
+    },
+    {
+      "standard_name": "Neo Black Movement of Africa",
+      "original_text_name": "Neo Black Movement of Africa",
+      "aliases": [
+        "NBM"
+      ],
+      "type": "other",
+      "context": "Original parent organization of Black Axe, a Pan-African brotherhood founded at University of Benin.",
+      "time_period": "1977-present"
+    },
+    {
+      "standard_name": "Supreme Eiye Confraternity",
+      "original_text_name": "Eiye confraternity",
+      "aliases": [
+        "Eiye"
+      ],
+      "type": "other",
+      "context": "Rival confraternity to Black Axe, involved in violent clashes.",
+      "time_period": null
+    },
+    {
+      "standard_name": "De Norsemen Kclub of Nigeria",
+      "original_text_name": "De Norsemen Kclub of Nigeria",
+      "aliases": [],
+      "type": "other",
+      "context": "Rival confraternity to Black Axe, involved in a fight at University of Abuja in 2009.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Buccaneers Confraternity",
+      "original_text_name": "Buccaneers Confraternity",
+      "aliases": [],
+      "type": "other",
+      "context": "Rival confraternity to Black Axe listed in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Maphite Confraternity",
+      "original_text_name": "Maphite confraternity",
+      "aliases": [],
+      "type": "other",
+      "context": "Rival confraternity involved in a fight with Black Axe in March 2010 resulting in nine deaths.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Black Axe",
+      "target": "Neo Black Movement of Africa",
+      "relationship": "other",
+      "detail": "former affiliation",
+      "context": "Black Axe was originally a subgroup of NBM, but NBM publicly disassociated in 2024.",
+      "time_period": "1977-2024"
+    },
+    {
+      "source": "Black Axe",
+      "target": "Supreme Eiye Confraternity",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Violent clashes between Black Axe and Eiye from 2009 to 2013 resulted in at least 53 casualties.",
+      "time_period": "2009-2013"
+    },
+    {
+      "source": "Black Axe",
+      "target": "De Norsemen Kclub of Nigeria",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Fight between Black Axe and De Norsemen Kclub at University of Abuja in May 2009 led to injuries and deaths.",
+      "time_period": "2009"
+    },
+    {
+      "source": "Black Axe",
+      "target": "Buccaneers Confraternity",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Black Axe",
+      "target": "Maphite Confraternity",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Fight in March 2010 resulted in nine deaths.",
+      "time_period": "2010"
+    }
+  ],
+  "source_file": "Black_Axe_(confraternity)"
+}

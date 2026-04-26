@@ -1,0 +1,275 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Almighty Gaylords Nation",
+      "original_text_name": "Almighty Gaylords Nation",
+      "aliases": [
+        "Chicago Gaylords",
+        "Gaylords",
+        "Almighty Gaylords"
+      ],
+      "type": "gang",
+      "context": "Chicago street gang founded in 1952, part of People Nation alliance, known for violence and drug trafficking.",
+      "time_period": "1952-present"
+    },
+    {
+      "standard_name": "People Nation",
+      "original_text_name": "People Nation",
+      "aliases": [],
+      "type": "other",
+      "context": "Alliance of Chicago street gangs, including the Gaylords.",
+      "time_period": null
+    },
+    {
+      "standard_name": "C-Notes",
+      "original_text_name": "C-Notes",
+      "aliases": [],
+      "type": "gang",
+      "context": "Early rivals of the Gaylords in Chicago.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Lazy Gents",
+      "original_text_name": "Lazy Gents",
+      "aliases": [],
+      "type": "gang",
+      "context": "Early rivals of the Gaylords in Chicago.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Playboys",
+      "original_text_name": "Playboys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Early rivals of the Gaylords in Chicago.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Latin Kings",
+      "original_text_name": "Latin Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied gang with the Gaylords as part of People Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Insane South Side Popes",
+      "original_text_name": "Insane South Side Popes",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied gang with the Gaylords.",
+      "time_period": null
+    },
+    {
+      "standard_name": "12th Street Players",
+      "original_text_name": "12th Street Players",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied gang with the Gaylords.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Indiana Aryan Brotherhood",
+      "original_text_name": "Indiana Aryan Brotherhood",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied gang with the Gaylords.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Vice Lords",
+      "original_text_name": "Vice Lords",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied gang with the Gaylords as part of People Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Latin Brothers",
+      "original_text_name": "Latin Brothers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied gang with the Gaylords.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Folk Nation",
+      "original_text_name": "Folk Nation",
+      "aliases": [],
+      "type": "other",
+      "context": "Rival alliance of Chicago street gangs, opposed to People Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Insane Deuces",
+      "original_text_name": "Insane Deuces",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of the Gaylords.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Simon City Royals",
+      "original_text_name": "Simon City Royals",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of the Gaylords.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Insane Spanish Cobras",
+      "original_text_name": "Insane Spanish Cobras",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of the Gaylords.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Maniac Latin Disciples",
+      "original_text_name": "Maniac Latin Disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of the Gaylords.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Insane North Side Popes",
+      "original_text_name": "Insane North Side Popes",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of the Gaylords.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Almighty Gaylords Nation",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Gaylords are part of the People Nation alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Gaylords Nation",
+      "target": "C-Notes",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The C-Notes were among the earliest rivals of the Gaylords.",
+      "time_period": "1950s"
+    },
+    {
+      "source": "Almighty Gaylords Nation",
+      "target": "Lazy Gents",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Lazy Gents were among the earliest rivals of the Gaylords.",
+      "time_period": "1950s"
+    },
+    {
+      "source": "Almighty Gaylords Nation",
+      "target": "Playboys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Playboys were among the earliest rivals of the Gaylords.",
+      "time_period": "1950s"
+    },
+    {
+      "source": "Almighty Gaylords Nation",
+      "target": "Latin Kings",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Latin Kings are allies as part of People Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Gaylords Nation",
+      "target": "Insane South Side Popes",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Insane South Side Popes are listed as allies.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Gaylords Nation",
+      "target": "12th Street Players",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "12th Street Players are listed as allies.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Gaylords Nation",
+      "target": "Indiana Aryan Brotherhood",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Indiana Aryan Brotherhood are listed as allies.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Gaylords Nation",
+      "target": "Vice Lords",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Vice Lords are allies as part of People Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Gaylords Nation",
+      "target": "Latin Brothers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Latin Brothers are listed as allies.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Gaylords Nation",
+      "target": "Folk Nation",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Folk Nation is the rival alliance to People Nation, which the Gaylords belong to.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Gaylords Nation",
+      "target": "Insane Deuces",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Insane Deuces are listed as rivals.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Gaylords Nation",
+      "target": "Simon City Royals",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Simon City Royals are listed as rivals.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Gaylords Nation",
+      "target": "Insane Spanish Cobras",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Insane Spanish Cobras are listed as rivals.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Gaylords Nation",
+      "target": "Maniac Latin Disciples",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Maniac Latin Disciples are listed as rivals.",
+      "time_period": null
+    },
+    {
+      "source": "Almighty Gaylords Nation",
+      "target": "Insane North Side Popes",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Insane North Side Popes are listed as rivals.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Chicago_Gaylords"
+}

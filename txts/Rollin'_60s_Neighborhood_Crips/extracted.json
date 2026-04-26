@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Rollin' 60s Neighborhood Crips",
+      "original_text_name": "Rollin' 60s Neighborhood Crips",
+      "aliases": [
+        "Rollin 60s Neighborhood Crips",
+        "Rollin' 60s"
+      ],
+      "type": "gang",
+      "context": "A set of the Crips street gang alliance based in Los Angeles, involved in racketeering, murder, drug trafficking, etc.",
+      "time_period": "1976-present"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A street gang alliance based in Los Angeles, of which Rollin' 60s is a set.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Westside Crips",
+      "original_text_name": "Westside Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Original gang from which Rollin' 60s formed in 1976.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Rollin' 40s Neighborhood Crips",
+      "original_text_name": "Rollin 40's",
+      "aliases": [
+        "Rollin 40's NHC"
+      ],
+      "type": "gang",
+      "context": "Allied Crip set with Rollin' 60s.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Rollin' 90s Neighborhood Crips",
+      "original_text_name": "Rollin 90's NHCs",
+      "aliases": [
+        "Rollin 90's"
+      ],
+      "type": "gang",
+      "context": "Allied Crip set with Rollin' 60s.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang alliance to the Crips.",
+      "time_period": "1972-present"
+    },
+    {
+      "standard_name": "Hoover Factions",
+      "original_text_name": "Hoover factions",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang factions to Rollin' 60s.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Eight Trey Gangster Crip",
+      "original_text_name": "Eight Trey Gangster Crip (83GC)",
+      "aliases": [
+        "83GC"
+      ],
+      "type": "gang",
+      "context": "Rival Crip set to Rollin' 60s.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Rollin' 60s is a set of the Crips street gang alliance.",
+      "time_period": "1976-present"
+    },
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Westside Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Rollin' 60s originally formed from the Westside Crips.",
+      "time_period": "1976"
+    },
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Rollin' 40s Neighborhood Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied Crip sets according to the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Rollin' 90s Neighborhood Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied Crip sets according to the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Bloods",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Bloods are listed as rivals in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Hoover Factions",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hoover factions are listed as rivals in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Eight Trey Gangster Crip",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Eight Trey Gangster Crip is listed as a rival in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Rollin'_60s_Neighborhood_Crips"
+}

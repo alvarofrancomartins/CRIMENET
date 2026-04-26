@@ -1,0 +1,97 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Shower Posse",
+      "original_text_name": "Shower Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican gang involved in drug and arms smuggling, operating in Jamaica, Canada, US, and UK.",
+      "time_period": "c. 1981-present"
+    },
+    {
+      "standard_name": "Dog Posse",
+      "original_text_name": "Dog Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Boston-based Jamaican gang that challenged Shower Posse for control in New Jersey and Philadelphia.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Spangler Posse",
+      "original_text_name": "Spangler Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jamaican gang from Brooklyn and the Bronx involved in a shootout with Shower Posse and Dog Posse.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Tel Aviv Posse",
+      "original_text_name": "Tel Aviv Posse",
+      "aliases": [],
+      "type": "gang",
+      "context": "Boston-based Jamaican gang involved in a shootout with Shower Posse and Dog Posse.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Junior Black Mafia",
+      "original_text_name": "Junior Black Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Philadelphia-based gang involved in a drug war with Shower Posse in the 1980s-1990s.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Jamaica Labour Party",
+      "original_text_name": "Jamaica Labour Party",
+      "aliases": [
+        "JLP"
+      ],
+      "type": "other",
+      "context": "Political party in Jamaica allied with Shower Posse, providing political support.",
+      "time_period": "c. 1981-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Shower Posse",
+      "target": "Dog Posse",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Dog Posse challenged Shower Posse for control of operations in New Jersey and Philadelphia, leading to a gun battle in 1985.",
+      "time_period": "1985"
+    },
+    {
+      "source": "Shower Posse",
+      "target": "Spangler Posse",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Spangler Posse fought with Shower Posse at a picnic in Oakland, New Jersey in 1985.",
+      "time_period": "1985"
+    },
+    {
+      "source": "Shower Posse",
+      "target": "Tel Aviv Posse",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Tel Aviv Posse fought with Shower Posse at a picnic in Oakland, New Jersey in 1985.",
+      "time_period": "1985"
+    },
+    {
+      "source": "Shower Posse",
+      "target": "Junior Black Mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Shower Posse was involved in a drug war with Junior Black Mafia in Southwest Philadelphia during the 1980s and early 1990s.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Shower Posse",
+      "target": "Jamaica Labour Party",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Shower Posse acted as political enforcers for the JLP and received arms, training, and transport from the CIA via JLP.",
+      "time_period": "c. 1981-present"
+    }
+  ],
+  "source_file": "Shower_Posse"
+}

@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sicilian Mafia",
+      "original_text_name": "Sicilian Mafia",
+      "aliases": [
+        "Cosa Nostra"
+      ],
+      "type": "mafia",
+      "context": "The Sicilian Mafia is a criminal organization based in Sicily, Italy, involved in various illegal activities.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Castellammare del Golfo Mafia family",
+      "original_text_name": "Castellammare del Golfo Mafia family",
+      "aliases": [
+        "Castellammare family",
+        "Castellammarese Mafia family"
+      ],
+      "type": "mafia",
+      "context": "A Mafia family based in Castellammare del Golfo, Sicily, involved in extortion and control of economic activities.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Mandamento of Alcamo",
+      "original_text_name": "mandamento of Alcamo",
+      "aliases": [
+        "Alcamo's mandamento"
+      ],
+      "type": "mafia",
+      "context": "A Mafia district in Sicily that oversees several families, including the Castellammare del Golfo family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonannos",
+      "aliases": [
+        "Bonanno family",
+        "Bonanno crime family"
+      ],
+      "type": "mafia",
+      "context": "A New York-based Mafia family with connections to the Sicilian Mafia.",
+      "time_period": "20th century-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Castellammare del Golfo Mafia family",
+      "target": "Sicilian Mafia",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Castellammare del Golfo Mafia family is a constituent family of the Sicilian Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Castellammare del Golfo Mafia family",
+      "target": "Mandamento of Alcamo",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Castellammare del Golfo Mafia family belongs to the mandamento of Alcamo.",
+      "time_period": null
+    },
+    {
+      "source": "Castellammare del Golfo Mafia family",
+      "target": "Bonanno crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Castellammare family maintained close relations with the Bonanno family, with visits and message exchanges.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Francesco_Domingo"
+}

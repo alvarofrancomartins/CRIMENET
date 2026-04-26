@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A major street gang alliance based in Los Angeles, California.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Venice Shoreline Crips",
+      "original_text_name": "Venice Shoreline Crips",
+      "aliases": [
+        "VSLC",
+        "Shoreline Crips",
+        "Shorelines"
+      ],
+      "type": "gang",
+      "context": "A set of the Crips gang alliance based in Venice, Los Angeles, involved in drug trafficking.",
+      "time_period": "late 1960s-present"
+    },
+    {
+      "standard_name": "Venice 13",
+      "original_text_name": "Venice 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Sureño gang based in Venice, Los Angeles, involved in drug trade and rivalries.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Culver City 13",
+      "original_text_name": "Culver City 13",
+      "aliases": [
+        "Culver City Boyz"
+      ],
+      "type": "gang",
+      "context": "A Sureño gang based in Culver City, California, rival of the Venice Shoreline Crips.",
+      "time_period": "unknown-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Venice Shoreline Crips",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Venice Shoreline Crips is a set of the larger Crips gang alliance.",
+      "time_period": "late 1960s-present"
+    },
+    {
+      "source": "Venice Shoreline Crips",
+      "target": "Culver City 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Shoreline Crips warred with Culver City 13 after being pushed out of Mar Vista Gardens projects.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Venice Shoreline Crips",
+      "target": "Venice 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "A war broke out between the Shorelines and Venice 13 over control of the Venice drug trade.",
+      "time_period": "1990s"
+    }
+  ],
+  "source_file": "Venice_Shoreline_Crips"
+}

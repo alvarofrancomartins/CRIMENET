@@ -1,0 +1,275 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels Motorcycle Club",
+      "aliases": [
+        "HAMC",
+        "Hells Angels",
+        "Hells Angels MC"
+      ],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club involved in drug trafficking, violent crimes, and legitimate businesses in Australia.",
+      "time_period": "1975-present"
+    },
+    {
+      "standard_name": "Coffin Cheaters",
+      "original_text_name": "Coffin Cheaters",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club aligned with Hells Angels.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Immortals",
+      "original_text_name": "Immortals",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club aligned with Hells Angels.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Red Devils",
+      "original_text_name": "Red Devils",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Support club for Hells Angels, aligned with them.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Satans Soldiers",
+      "original_text_name": "Satans Soldiers",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club aligned with Hells Angels.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Vikings",
+      "original_text_name": "Vikings",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club aligned with Hells Angels.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Prisoners of War",
+      "original_text_name": "Prisoners of War",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang operating inside HMP Barwon, aligned with Hells Angels.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bandidos",
+      "original_text_name": "Bandidos",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club, rival of Hells Angels in Australia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Comancheros",
+      "original_text_name": "Comancheros",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club, rival of Hells Angels.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Diablos",
+      "original_text_name": "Diablos",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club, rival of Hells Angels.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Finks",
+      "original_text_name": "Finks",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club, rival of Hells Angels; later patched over to Mongols.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nomads",
+      "original_text_name": "Nomads",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club, rival of Hells Angels.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Notorious",
+      "original_text_name": "Notorious",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club, rival of Hells Angels.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Rebels",
+      "original_text_name": "Rebels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club, first conflict with Hells Angels over colors.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gyspy Jokers",
+      "original_text_name": "Gyspy Jokers",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Australian outlaw motorcycle club mentioned as having more members than Hells Angels.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Blonks",
+      "original_text_name": "Blonks",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Darwin-based bikie gang patched over by Hells Angels in 1993.",
+      "time_period": "before 1993"
+    },
+    {
+      "standard_name": "Mongols",
+      "original_text_name": "Mongols",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club; Finks patched over to Mongols.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hells Angels",
+      "target": "Coffin Cheaters",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hells Angels aligned with Coffin Cheaters in Australia.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Immortals",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hells Angels aligned with Immortals in Australia.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Red Devils",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Red Devils are a support club aligned with Hells Angels.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Satans Soldiers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hells Angels aligned with Satans Soldiers in Australia.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Vikings",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hells Angels aligned with Vikings in Australia.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Prisoners of War",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hells Angels aligned with Prisoners of War prison gang.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Bandidos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels involved in conflicts with Bandidos.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Comancheros",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels involved in conflicts with Comancheros, including Sydney Airport brawl.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Diablos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels involved in conflicts with Diablos.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Finks",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels involved in conflicts with Finks.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Nomads",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels involved in conflicts with Nomads.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Notorious",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hells Angels involved in conflicts with Notorious.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Rebels",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "First conflict with Rebels over colors; Rebels beat Hells Angels president.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Blonks",
+      "relationship": "other",
+      "detail": "patched over",
+      "context": "Hells Angels established NT chapter by patching over Blonks in 1993.",
+      "time_period": "1993"
+    },
+    {
+      "source": "Finks",
+      "target": "Mongols",
+      "relationship": "other",
+      "detail": "patched over",
+      "context": "Finks later patched over to Mongols.",
+      "time_period": null
+    },
+    {
+      "source": "Bandidos",
+      "target": "Diablos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bandidos members were ambushed outside Diablos clubhouse.",
+      "time_period": "2013"
+    }
+  ],
+  "source_file": "Hells_Angels_MC_criminal_allegations_and_incidents_in_Australia"
+}

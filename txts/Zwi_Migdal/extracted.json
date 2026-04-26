@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Zwi Migdal",
+      "original_text_name": "Zwi Migdal",
+      "aliases": [
+        "Varsovia Jewish Mutual Aid Society",
+        "Cwi Migdał"
+      ],
+      "type": "other",
+      "context": "A Jewish criminal organization founded in the 1860s, trafficking women from Central Europe into sexual slavery in Argentina and other countries.",
+      "time_period": "1860s-1939"
+    },
+    {
+      "standard_name": "Ashkenazum",
+      "original_text_name": "Ashkenazum",
+      "aliases": [],
+      "type": "other",
+      "context": "A splinter group of Zwi Migdal led by Simon Rubinstein, established its own society and cemetery.",
+      "time_period": "after 1920s"
+    },
+    {
+      "standard_name": "Jewish Mob",
+      "original_text_name": "Jewish Mob",
+      "aliases": [],
+      "type": "other",
+      "context": "A term referring to Jewish organized crime groups, mentioned as an ally of Zwi Migdal.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Zwi Migdal",
+      "target": "Ashkenazum",
+      "relationship": "other",
+      "detail": "splinter group",
+      "context": "Ashkenazum was a splinter group that split from Zwi Migdal.",
+      "time_period": null
+    },
+    {
+      "source": "Zwi Migdal",
+      "target": "Jewish Mob",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zwi Migdal had allies in the Jewish Mob.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Zwi_Migdal"
+}

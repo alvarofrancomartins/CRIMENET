@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Lynwood Vikings",
+      "original_text_name": "Lynwood Vikings",
+      "aliases": [
+        "Vikings"
+      ],
+      "type": "gang",
+      "context": "Deputy gang of the Los Angeles County Sheriff's Department, composed of sworn deputy sheriffs, involved in police corruption and racially motivated hostility.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Little Devils",
+      "original_text_name": "Little Devils",
+      "aliases": [],
+      "type": "gang",
+      "context": "First deputy gang in the LASD, founded at East L.A. Station in 1971, with overwhelmingly white membership.",
+      "time_period": "1971-present"
+    },
+    {
+      "standard_name": "Grim Reapers",
+      "original_text_name": "Grim Reapers",
+      "aliases": [],
+      "type": "gang",
+      "context": "LASD deputy gang based in Lennox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Regulators",
+      "original_text_name": "Regulators",
+      "aliases": [],
+      "type": "gang",
+      "context": "LASD deputy gang based at Century Station.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hats",
+      "original_text_name": "Hats",
+      "aliases": [],
+      "type": "gang",
+      "context": "LASD deputy gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Jump Out Boys",
+      "original_text_name": "Jump Out Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "LASD deputy gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "2000 Boys",
+      "original_text_name": "2000 Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "LASD deputy gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "3000 Boys",
+      "original_text_name": "3000 Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "LASD deputy gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Compton Executioners",
+      "original_text_name": "Compton Executioners",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ally of the Lynwood Vikings, mentioned in infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Lynwood Vikings",
+      "target": "Compton Executioners",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The infobox lists the Compton Executioners as allies of the Lynwood Vikings.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Lynwood_Vikings"
+}

@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "standard_name": "National Crime Syndicate",
+      "original_text_name": "National Crime Syndicate",
+      "aliases": [],
+      "type": "other",
+      "context": "Umbrella organization of American organized crime groups.",
+      "time_period": "1920s-1950s"
+    },
+    {
+      "standard_name": "New Jersey Minutemen",
+      "original_text_name": "New Jersey Minutemen",
+      "aliases": [],
+      "type": "militia",
+      "context": "Militant anti-fascist group operating in Newark, New Jersey.",
+      "time_period": "1933-1941"
+    },
+    {
+      "standard_name": "German American Bund",
+      "original_text_name": "German American Bund",
+      "aliases": [],
+      "type": "other",
+      "context": "Pro-Nazi organization in the United States.",
+      "time_period": "1930s-1940s"
+    },
+    {
+      "standard_name": "Christian Front",
+      "original_text_name": "Christian Front",
+      "aliases": [],
+      "type": "other",
+      "context": "Pro-fascist group in the United States.",
+      "time_period": "1930s-1940s"
+    },
+    {
+      "standard_name": "Luciano Family",
+      "original_text_name": "Luciano Family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American Mafia family, also known as Genovese family.",
+      "time_period": "1930s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "National Crime Syndicate",
+      "target": "Luciano Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The National Crime Syndicate included the Luciano Family as a member.",
+      "time_period": "1920s-1950s"
+    },
+    {
+      "source": "New Jersey Minutemen",
+      "target": "German American Bund",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Minutemen were antagonists of the pro-Nazi German American Bund.",
+      "time_period": "1933-1941"
+    },
+    {
+      "source": "New Jersey Minutemen",
+      "target": "Christian Front",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Minutemen were antagonists of the Christian Front.",
+      "time_period": "1933-1941"
+    }
+  ],
+  "source_file": "Abner_Zwillman"
+}

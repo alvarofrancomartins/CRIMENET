@@ -16,25 +16,27 @@ Open-source database and interactive visualization of alliances and rivalries be
 
 ```
 .
-├── 0_urls_to_articles.py      # Step 0: page_hyperlinks.csv → articles.csv
-├── 1_fetch_wikipedia.py       # Step 1: Wikipedia text + infobox → txts/
-├── 2_extract_network.py       # Step 2: LLM extraction → txts/<slug>/extracted.json
-├── 3_merge_network.py         # Step 3: merge per-article JSONs → global_network.json
-├── 4_cleanup_and_prepare.py   # Step 4: cleanup + centrality → crimenet_specific.json
-├── index.html                 # D3.js force-directed visualization
-├── page_hyperlinks.csv        # Input: one Wikipedia URL per row
-├── articles.csv               # Generated: title, folder_name, versioned URL
-├── global_network.json        # Raw merged network (pre-cleanup)
-├── crimenet_specific.json     # Final network (alliance/rivalry, cleaned)
-├── deepseek_api_key.txt       # API key (not committed)
-├── txts/                      # One folder per article (content.txt, url.txt, extracted.json)
-├── notebooks/                 # Analysis notebooks for the report
+├── 0_urls_to_articles.py        # Step 0: page_hyperlinks.csv → articles.csv (versioned URLs)
+├── 1_fetch_wikipedia.py         # Step 1: Wikipedia text + infobox → txts/
+├── 2_extract_network.py         # Step 2: LLM extraction → txts/<slug>/extracted.json
+├── 3_merge_network.py           # Step 3: merge per-article JSONs → global_network.json
+├── 4_cleanup_and_prepare.py     # Step 4: cleanup + centrality → crimenet.json
+├── 5_dedup_edges_with_llm.py    # Step 5: collapse duplicate pairs in crimenet.json
+├── cleanup_data.py              # Hand-curated duplicates, exclusions, type overrides
+├── index.html                   # D3.js force-directed visualization
+├── page_hyperlinks.csv          # Input: one Wikipedia URL per row
+├── articles.csv                 # Generated: title, folder_name, versioned URL
+├── global_network.json          # Raw merged network (pre-cleanup)
+├── crimenet.json                # Final network (cleaned, deduplicated, with centrality)
+├── deepseek_api_key.txt         # API key (not committed)
+├── txts/                        # One folder per article (content.txt, url.txt, extracted.json)
+├── notebooks/                   # Analysis notebooks for the report
 └── README.md
 ```
 
 ## Pipeline
 
-Run the five numbered scripts in order. 
+Run the six numbered scripts in order.
 
 ```bash
 python 0_urls_to_articles.py --input page_hyperlinks.csv --output articles.csv
@@ -42,11 +44,12 @@ python 1_fetch_wikipedia.py --csv articles.csv --output ./txts
 python 2_extract_network.py --dir ./txts
 python 3_merge_network.py --dir ./txts --output global_network.json --stats
 python 4_cleanup_and_prepare.py --input global_network.json --stats
+python 5_dedup_edges_with_llm.py --input crimenet.json
 ```
 
 ### Step 0: URLs → `articles.csv`
 
-`0_urls_to_articles.py` reads a list of plain Wikipedia URLs from `page_hyperlinks.csv` (one URL per row), queries the Wikipedia API for the current revision ID of each, and writes `articles.csv` with title, folder name, and versioned URL (`?oldid=...`).
+`0_urls_to_articles.py` reads plain Wikipedia URLs from `page_hyperlinks.csv` (one URL per row), queries the Wikipedia API for the current revision ID of each, and writes `articles.csv` with title, folder name, and versioned URL (`?oldid=...`).
 
 `page_hyperlinks.csv` format:
 
@@ -57,48 +60,67 @@ https://en.wikipedia.org/wiki/Sinaloa_Cartel
 https://it.wikipedia.org/wiki/Cosa_nostra
 ```
 
-Both English and Italian Wikipedia URLs are supported. Language is detected from the domain.
+Both English and Italian Wikipedia URLs are supported. Language is detected from the domain. The script is resumable: if it crashes, re-run and it picks up where it left off. Titles that fail to resolve to a revision after retries are listed at the end of the run and never silently saved.
+
+Folder names are sanitized to be filesystem-safe (path separators in titles like `CBL/BFL` become `CBL_BFL`), and URLs are properly percent-encoded so that titles with apostrophes, slashes, or accented characters work correctly downstream.
 
 ### Step 1: Fetch Wikipedia text → `txts/`
 
-`1_fetch_wikipedia.py` reads `articles.csv` and, for each article, fetches:
+`1_fetch_wikipedia.py` reads `articles.csv` and, for each article, makes two calls to the MediaWiki Action API, **both pinned to the recorded revision (`oldid`)**:
 
-- Clean article text via the Wikipedia API.
-- Infobox HTML, parsed with BeautifulSoup (aliases, allies, rivals, years active), appended to the article text as key-value pairs.
+- `action=query&prop=extracts&explaintext=1` — clean, well-structured plain text body.
+- `action=parse&prop=text` — rendered HTML, parsed with BeautifulSoup to extract the infobox table (aliases, allies, rivals, years active). The infobox is appended to the article text as key-value pairs.
 
-Writes `txts/<slug>/content.txt` and `txts/<slug>/url.txt`. Resumes automatically. Use `--force` to re-fetch all.
+Pinning both calls to the same `oldid` means the text used for extraction is exactly the version the URL points to, regardless of later edits to the article. Writes `txts/<slug>/content.txt` and `txts/<slug>/url.txt`. Resumes automatically. Use `--force` to re-fetch all.
 
 ### Step 2: LLM extraction → `txts/<slug>/extracted.json`
 
-Add a DeepSeek API key in deepseek_api_key.txt in the project root.
+Add a DeepSeek API key in `deepseek_api_key.txt` in the project root.
 
-`2_extract_network.py` sends each article to the DeepSeek API with a structured prompt enforcing a strict output schema. Extracts:
+`2_extract_network.py` sends each article to the DeepSeek API with a structured prompt that enforces canonical output directly. Extracts:
 
-- **Nodes**: standardized name, aliases, type, context, time period.
-- **Edges**: source, target, relationship type (`alliance`, `rivalry`, or `other`), optional detail, context, time period.
+- **Nodes**: standardized name, aliases, type, context, time period. The `type` is constrained to one of 9 canonical values (`cartel`, `mafia`, `gang`, `motorcycle_club`, `clan`, `triad`, `militia`, `faction`, `terrorist_organization`) or `other`.
+- **Edges**: source, target, relationship (`alliance`, `rivalry`, or `other`), optional detail, context, time period. The prompt explicitly instructs that cooperation belongs to `alliance` and conflict belongs to `rivalry` — only structural relations (splinter, merger, parent, etc.) use `other`. The detail vocabulary is fixed.
 
-Articles longer than 3,000 words are chunked, with the article's opening paragraph passed as context to every chunk. Runs in parallel across 50 workers. Outputs `extracted.json` in each article's folder.
+Constraining the schema in the prompt instead of post-processing means most cleanup work in step 4 becomes unnecessary.
+
+Articles longer than 2,500 words are chunked, with the article's opening paragraph passed as context to every chunk for entity resolution. Runs in parallel across 20 workers by default. On JSON parse errors or `finish_reason=length` truncations, retries with double `max_tokens` and a "be concise" nudge. Partial failures (some chunks succeeded, others failed) are flagged loudly and the output JSON is marked `incomplete`.
 
 - `--force`: re-extract everything.
-- `--force-failed`: retry only folders with missing or broken `extracted.json`.
+- `--force-failed`: retry only folders with missing, broken, or partial `extracted.json`.
+- `--workers N`: override default parallelism.
 
 ### Step 3: Merge → `global_network.json`
 
 `3_merge_network.py` combines all `extracted.json` files into a single `global_network.json`. Nodes are deduplicated by name (case-insensitive), with aliases, descriptions, and source references merged across duplicates. Edges are deduplicated by `(source, target, relationship, detail)`. Every node and edge is tagged with the source article's versioned Wikipedia URL.
 
-### Step 4: Cleanup → `crimenet_specific.json`
+### Step 4: Cleanup → `crimenet.json`
 
-`4_cleanup_and_prepare.py` applies:
+`4_cleanup_and_prepare.py` applies the work that can't be done at the LLM level:
 
-- **Type consolidation**: 60+ LLM-generated organization types are mapped to 9 canonical ones: gang, mafia, cartel, clan, motorcycle club, triad, militia, faction, terrorist organization.
-- **Relationship sanitization**: invalid or hallucinated relationship values are corrected; "other" edges whose detail matches alliance/rivalry language (e.g., "collaboration", "conflict") are reclassified to the correct type.
-- **Deduplication**: a curated dictionary maps known variant spellings to their canonical name (e.g., "Medellin Cartel" → "Medellín Cartel", "FARC-EP" → "FARC"). No fuzzy matching.
-- **Generic node filtering**: umbrella terms ("Russian organized crime", "Colombian drug cartels") are removed; specific organizations with similar names are preserved via a safelist.
-- **Defunct filtering**: organizations with documented dissolution dates and no evidence of continued activity are excluded.
-- **Source URL splitting**: each organization's URLs are split into "own source" (the page about the organization) and "mentioned in" (other articles referencing it).
+- **Cross-article deduplication**: a curated dictionary maps known variant spellings to their canonical name (e.g., `"Medellin Cartel"` → `"Medellín Cartel"`, `"FARC-EP"` → `"FARC"`). No fuzzy matching.
+- **Per-organization type overrides**: organizations the LLM consistently mistypes get their type forced to the correct value.
+- **Hand-curated exclusions**: non-criminal entities (governments, NGOs) that slip through extraction get removed.
+- **Generic node filtering**: umbrella terms (`"Russian organized crime"`, `"Colombian drug cartels"`) are removed; specific organizations with similar names are preserved via a safelist.
+- **Safety nets**: small fallback maps catch occasional LLM slips back to non-canonical types or relationship synonyms. The bulk of normalization happens upstream in step 2's prompt.
+- **Source URL splitting**: each organization's URLs are split into `own_source` (the page about the organization) and `mentioned_in` (other articles referencing it).
 - **Betweenness centrality**: computed three ways (alliance-only, rivalry-only, combined) using NetworkX, so the visualization can resize nodes correctly for each filter.
 
-Outputs `crimenet_specific.json` (full network).
+Hand-curated data lives in `cleanup_data.py` (`KNOWN_DUPLICATES`, `TO_BE_EXCLUDED`, `NODE_TYPE_OVERRIDES`). Edit that file to add new cases — no code changes needed.
+
+Outputs `crimenet.json`.
+
+### Step 5: Edge deduplication → `crimenet.json` (in place)
+
+`5_dedup_edges_with_llm.py` collapses cases where the same pair of organizations has multiple edges (typically because they appeared in several articles, or because their relationship changed over time). For each pair `(A, B)`:
+
+- If every edge has a parseable date → keep the one with the latest end date.
+- If some edges have dates and others don't → ask the LLM to pick the most current.
+- If no edges have dates → ask the LLM to pick the most current.
+
+Direction is treated as undirected: `(A, B)` and `(B, A)` are the same pair, and an alliance and a rivalry between the same pair compete (latest wins). Sources and descriptions from dropped edges are merged into the survivor so no provenance is lost. The original `crimenet.json` is backed up to `crimenet.json.bak` before overwriting.
+
+`--dry-run` runs the deduplication and logs every decision without writing the output file. Useful for inspecting the LLM's choices before committing.
 
 ### Visualize
 
@@ -106,4 +128,8 @@ Outputs `crimenet_specific.json` (full network).
 python -m http.server 8000
 ```
 
-Then open [http://localhost:8000/index.html](http://localhost:8000/index.html). `index.html` expects `crimenet_specific.json` in the same folder. The D3.js graph supports alliance/rivalry filtering, search by organization (dropdown ranked by betweenness), neighbor isolation on click, a side panel with organization details and edge evidence, and adjustable force parameters.
+Then open [http://localhost:8000/index.html](http://localhost:8000/index.html). `index.html` expects `crimenet.json` in the same folder. The D3.js graph supports alliance/rivalry filtering, search by organization (dropdown ranked by betweenness), neighbor isolation on click, a side panel with organization details and edge evidence, and adjustable force parameters.
+
+## License
+
+Code is MIT. Data is CC BY 4.0.

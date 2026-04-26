@@ -1,0 +1,187 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Colombo crime family",
+      "original_text_name": "Colombo crime family",
+      "aliases": [
+        "Colombo family",
+        "Colombos",
+        "Profaci crime family"
+      ],
+      "type": "mafia",
+      "context": "New York Mafia family, originally Profaci family, renamed after Joseph Colombo.",
+      "time_period": "1928-present"
+    },
+    {
+      "standard_name": "Profaci crime family",
+      "original_text_name": "Profaci crime family",
+      "aliases": [
+        "Colombo crime family",
+        "Profaci family"
+      ],
+      "type": "mafia",
+      "context": "Original name of the Colombo family under Joe Profaci.",
+      "time_period": "1928-1963"
+    },
+    {
+      "standard_name": "Gallo crew",
+      "original_text_name": "Gallo crew",
+      "aliases": [
+        "Gallo brothers",
+        "Gallo brothers crew"
+      ],
+      "type": "faction",
+      "context": "Splinter group within the Profaci/Colombo family led by Joe Gallo and his brothers.",
+      "time_period": "1950s-1972"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [
+        "Gambino family"
+      ],
+      "type": "mafia",
+      "context": "New York Mafia family, boss Albert Anastasia was murdered in 1957.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Patriarca crime family",
+      "original_text_name": "Patriarca family",
+      "aliases": [
+        "Patriarca crime family"
+      ],
+      "type": "mafia",
+      "context": "New England Mafia family, boss Raymond L.S. Patriarca mediated peace.",
+      "time_period": "1916-present"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [
+        "Genovese family",
+        "Genoveses"
+      ],
+      "type": "mafia",
+      "context": "New York Mafia family; controlled territory where Gallo was killed.",
+      "time_period": "1890s-present"
+    },
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese crime family",
+      "aliases": [
+        "Lucchese family"
+      ],
+      "type": "mafia",
+      "context": "New York Mafia family; Vic Amuso became boss.",
+      "time_period": "1920s-present"
+    },
+    {
+      "standard_name": "Los Angeles crime family",
+      "original_text_name": "Los Angeles crime family",
+      "aliases": [
+        "LA crime family"
+      ],
+      "type": "mafia",
+      "context": "California Mafia family; Michael Rizzitello transferred there.",
+      "time_period": "1900s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Gallo crew",
+      "target": "Profaci crime family",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Gallo crew was a faction within the Profaci family.",
+      "time_period": "1950s-1961"
+    },
+    {
+      "source": "Gallo crew",
+      "target": "Profaci crime family",
+      "relationship": "rivalry",
+      "context": "Gallo crew kidnapped Profaci's men, starting the First Colombo War.",
+      "time_period": "1961-1963"
+    },
+    {
+      "source": "Gallo crew",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "context": "Profaci and Gallo crew allegedly helped Gambino by murdering Anastasia.",
+      "time_period": "1957"
+    },
+    {
+      "source": "Gallo crew",
+      "target": "Colombo crime family",
+      "relationship": "rivalry",
+      "context": "Gallo crew blamed for Colombo's shooting, leading to Second Colombo War.",
+      "time_period": "1971-1972"
+    },
+    {
+      "source": "Patriarca crime family",
+      "target": "Gallo crew",
+      "relationship": "other",
+      "detail": "mediation",
+      "context": "Patriarca boss negotiated peace between Gallo crew and Profaci family.",
+      "time_period": "1963"
+    },
+    {
+      "source": "Gallo crew",
+      "target": "Colombo crime family",
+      "relationship": "other",
+      "detail": "faction of",
+      "context": "The Gallo crew was a faction within the Colombo family until it split off.",
+      "time_period": "1961-1975"
+    },
+    {
+      "source": "Colombo crime family",
+      "target": "Profaci crime family",
+      "relationship": "other",
+      "detail": "successor to",
+      "context": "The Colombo family was originally the Profaci family, renamed after Joe Colombo.",
+      "time_period": "1963"
+    },
+    {
+      "source": "Gallo crew",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "context": "After the Colombo war, Albert Gallo and his crew joined the Genovese family.",
+      "time_period": "1975"
+    },
+    {
+      "source": "Colombo crime family",
+      "target": "Genovese crime family",
+      "relationship": "rivalry",
+      "context": "Tensions existed after Gallo's murder; Genovese territory was used without approval.",
+      "time_period": "1972"
+    },
+    {
+      "source": "Patriarca crime family",
+      "target": "Colombo crime family",
+      "relationship": "alliance",
+      "context": "Patriarca members allegedly participated in Gallo's murder on Colombo orders.",
+      "time_period": "1972"
+    },
+    {
+      "source": "Gallo crew",
+      "target": "Lucchese crime family",
+      "relationship": "alliance",
+      "context": "Gallo crew member Vic Amuso transferred to the Lucchese family.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Gallo crew",
+      "target": "Los Angeles crime family",
+      "relationship": "alliance",
+      "context": "Gallo crew member Michael Rizzitello transferred to the LA family.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Gallo crew",
+      "target": "Patriarca crime family",
+      "relationship": "alliance",
+      "context": "Gallo crew member Nicholas Bianco transferred to the Patriarca family.",
+      "time_period": "1963"
+    }
+  ],
+  "source_file": "Joe_Gallo"
+}

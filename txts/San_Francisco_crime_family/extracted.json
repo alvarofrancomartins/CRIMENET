@@ -1,0 +1,130 @@
+{
+  "nodes": [
+    {
+      "standard_name": "San Francisco crime family",
+      "original_text_name": "San Francisco crime family",
+      "aliases": [
+        "Lanza crime family",
+        "San Francisco Mafia"
+      ],
+      "type": "mafia",
+      "context": "Italian American Mafia crime family based in San Francisco, active from c. 1928 to 2006.",
+      "time_period": "c. 1928-2006"
+    },
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York Mafia family allied with the San Francisco crime family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Chicago-based Mafia organization allied with the San Francisco crime family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dallas crime family",
+      "original_text_name": "Dallas crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Dallas Mafia family allied with the San Francisco crime family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Detroit Partnership",
+      "original_text_name": "Detroit Partnership",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Detroit Mafia organization allied with the San Francisco crime family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York Mafia family allied with the San Francisco crime family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Angeles crime family",
+      "original_text_name": "Los Angeles crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Los Angeles Mafia family allied with the San Francisco crime family.",
+      "time_period": null
+    },
+    {
+      "standard_name": "San Jose crime family",
+      "original_text_name": "San Jose crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "San Jose Mafia family allied with the San Francisco crime family.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "San Francisco crime family",
+      "target": "Bonanno crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "San Francisco crime family",
+      "target": "Chicago Outfit",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "San Francisco crime family",
+      "target": "Dallas crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox; James Lanza had ties with Joseph Civello of Dallas.",
+      "time_period": null
+    },
+    {
+      "source": "San Francisco crime family",
+      "target": "Detroit Partnership",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "San Francisco crime family",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox; James Lanza had connections via William Remmer.",
+      "time_period": null
+    },
+    {
+      "source": "San Francisco crime family",
+      "target": "Los Angeles crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox; underboss Gaspare Sciortino was cousin to LA underboss Samuel Sciortino.",
+      "time_period": null
+    },
+    {
+      "source": "San Francisco crime family",
+      "target": "San Jose crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox; James Lanza had ties with Joseph Cerrito of San Jose.",
+      "time_period": null
+    }
+  ],
+  "source_file": "San_Francisco_crime_family"
+}

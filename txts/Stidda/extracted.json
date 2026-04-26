@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Stidda",
+      "original_text_name": "Stidda",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Sicilian Mafia-type organization active in southern Sicily, rival to Cosa Nostra.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
+      "aliases": [
+        "Sicilian Mafia"
+      ],
+      "type": "mafia",
+      "context": "Traditional Sicilian Mafia, rival to Stidda.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Calabrian Mafia, allied with Stidda.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "clan",
+      "context": "Neapolitan crime organization, allied with Stidda.",
+      "time_period": "18th century-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Stidda",
+      "target": "Cosa Nostra",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Stidda originated as a dissident offshoot of Cosa Nostra and engaged in a violent war in the early 1990s.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Stidda",
+      "target": "'Ndrangheta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Stidda is allied with 'Ndrangheta according to the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Stidda",
+      "target": "Camorra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Stidda is allied with Camorra according to the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Stidda",
+      "target": "Cosa Nostra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Stidda sometimes allies with local chapters of Cosa Nostra despite overall rivalry.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Stidda"
+}

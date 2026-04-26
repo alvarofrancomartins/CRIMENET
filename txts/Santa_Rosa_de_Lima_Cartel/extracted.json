@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Santa Rosa de Lima Cartel",
+      "original_text_name": "Santa Rosa de Lima Cartel",
+      "aliases": [
+        "CSRL",
+        "Cártel de Santa Rosa de Lima"
+      ],
+      "type": "cartel",
+      "context": "Mexican criminal organization from Guanajuato, involved in oil theft, drug trafficking, extortion.",
+      "time_period": "2014-present"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "CJNG"
+      ],
+      "type": "cartel",
+      "context": "Mexican cartel rival to Santa Rosa de Lima Cartel, involved in drug trafficking and turf wars.",
+      "time_period": "2009-present"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel; Santa Rosa de Lima Cartel considered alliance after leader's mother arrest.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican cartel listed as ally of Santa Rosa de Lima Cartel in infobox.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Grupo Escorpión",
+      "original_text_name": "Grupo Escorpión",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group listed as ally of Santa Rosa de Lima Cartel in infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican cartel listed as rival of Santa Rosa de Lima Cartel in infobox.",
+      "time_period": "1999-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Santa Rosa de Lima Cartel",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Turf war over territory in Guanajuato, Querétaro, Hidalgo; CJNG attacked CSRL nightclub and sent assassins.",
+      "time_period": "2017-2020"
+    },
+    {
+      "source": "Santa Rosa de Lima Cartel",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "CSRL leader considered alliance with Sinaloa Cartel after his mother's arrest in June 2020.",
+      "time_period": "2020"
+    },
+    {
+      "source": "Santa Rosa de Lima Cartel",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Santa Rosa de Lima Cartel",
+      "target": "Grupo Escorpión",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Santa Rosa de Lima Cartel",
+      "target": "Los Zetas",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Santa_Rosa_de_Lima_Cartel"
+}

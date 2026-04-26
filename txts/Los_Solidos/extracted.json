@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Solidos",
+      "original_text_name": "Los Solidos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang based in Hartford, Connecticut, active in northeastern US, involved in drug trafficking, weapons, and prostitution.",
+      "time_period": "early 1990s-present"
+    },
+    {
+      "standard_name": "Latin Kings",
+      "original_text_name": "Latin Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "Larger street gang that Los Solidos feuded with in the 1990s.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Solidos",
+      "target": "Latin Kings",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Solidos formed to defend against Latin Kings and engaged in a feud from 1993-1994.",
+      "time_period": "1993-1994"
+    }
+  ],
+  "source_file": "Los_Solidos"
+}

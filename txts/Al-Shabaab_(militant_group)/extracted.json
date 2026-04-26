@@ -1,0 +1,316 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Al-Shabaab",
+      "original_text_name": "Al-Shabaab",
+      "aliases": [
+        "Al-Shabaab al-Mujahideen",
+        "Ash-Shabaab",
+        "Harakat al-Shabaab al-Mujahideen",
+        "Islamic Wilayah of Somalia",
+        "Jaysh al-Usra in Somalia",
+        "Shabaab",
+        "al-Shabaab",
+        "حركة الشباب المجاهدين"
+      ],
+      "type": "terrorist_organization",
+      "context": "Sunni Islamist militant group based in Somalia, involved in civil war and terrorist attacks.",
+      "time_period": "2003-present"
+    },
+    {
+      "standard_name": "Al-Qaeda",
+      "original_text_name": "al-Qaeda",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Pan-Islamist militant organization allied with Al-Shabaab.",
+      "time_period": "1988-present"
+    },
+    {
+      "standard_name": "Al-Qaeda in the Islamic Maghreb",
+      "original_text_name": "AQIM",
+      "aliases": [
+        "AQIM",
+        "Al-Qaeda in the Islamic Maghreb"
+      ],
+      "type": "terrorist_organization",
+      "context": "Insurgent group in North Africa, forged ties with Al-Shabaab.",
+      "time_period": "2007-present"
+    },
+    {
+      "standard_name": "Al-Qaeda in the Arabian Peninsula",
+      "original_text_name": "AQAP",
+      "aliases": [
+        "AQAP",
+        "Al-Qaeda in the Arabian Peninsula"
+      ],
+      "type": "terrorist_organization",
+      "context": "Insurgent group in Yemen, forged ties with Al-Shabaab.",
+      "time_period": "2009-present"
+    },
+    {
+      "standard_name": "Islamic Courts Union",
+      "original_text_name": "Islamic Courts Union",
+      "aliases": [
+        "ICU"
+      ],
+      "type": "other",
+      "context": "Umbrella group that provided governance in Somalia; Al-Shabaab originated as its youth militia.",
+      "time_period": "mid-1990s-2006"
+    },
+    {
+      "standard_name": "Al-Ittihad al-Islamiya",
+      "original_text_name": "al-Ittihad al-Islamiya",
+      "aliases": [],
+      "type": "other",
+      "context": "Older Islamist group in Somalia; some Al-Shabaab leaders previously belonged to it.",
+      "time_period": "1980s-2000s"
+    },
+    {
+      "standard_name": "Ahlu Sunna Waljama'a",
+      "original_text_name": "Ahlu Sunna Waljama'a",
+      "aliases": [],
+      "type": "militia",
+      "context": "Pro-AMISOM Sufi militia that clashed with Al-Shabaab.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Islamic State in Somalia",
+      "original_text_name": "Islamic State in Somalia",
+      "aliases": [
+        "ISIS",
+        "ISS"
+      ],
+      "type": "faction",
+      "context": "Expansionary group competing with Al-Shabaab in Somalia.",
+      "time_period": "2015-present"
+    },
+    {
+      "standard_name": "AQIM",
+      "original_text_name": "AQIM",
+      "aliases": [
+        "Al-Qaeda in the Islamic Maghreb"
+      ],
+      "type": "terrorist_organization",
+      "context": "Al-Qaeda affiliate in the Maghreb, has ties with Al-Shabaab.",
+      "time_period": "2007-present"
+    },
+    {
+      "standard_name": "AQAP",
+      "original_text_name": "AQAP",
+      "aliases": [
+        "Al-Qaeda in the Arabian Peninsula"
+      ],
+      "type": "terrorist_organization",
+      "context": "Al-Qaeda affiliate in Yemen, has ties with Al-Shabaab.",
+      "time_period": "2009-present"
+    },
+    {
+      "standard_name": "Hizbul Islam",
+      "original_text_name": "Hizbul Islam",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Somali militant group that merged with and later split from Al-Shabaab.",
+      "time_period": "2009-2014"
+    },
+    {
+      "standard_name": "Al-Hijra",
+      "original_text_name": "al-Hijra",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Al-Shabaab's official Kenyan wing from 2012.",
+      "time_period": "2012-2013"
+    },
+    {
+      "standard_name": "Jaysh Ayman",
+      "original_text_name": "Jaysh Ayman",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Al-Shabaab unit established in 2013 based in Boni Forest, Kenya.",
+      "time_period": "2013-present"
+    },
+    {
+      "standard_name": "Boko Haram",
+      "original_text_name": "Boko Haram",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Nigeria-based jihadist group, attempted coordination with Al-Shabaab.",
+      "time_period": "2002-present"
+    },
+    {
+      "standard_name": "Islamic State",
+      "original_text_name": "Islamic State of Iraq and the Levant",
+      "aliases": [
+        "ISIL",
+        "ISIS"
+      ],
+      "type": "terrorist_organization",
+      "context": "Global jihadist group, rival to Al-Shabaab after failed merger attempts.",
+      "time_period": "2013-present"
+    },
+    {
+      "standard_name": "Islamic State Somalia Province",
+      "original_text_name": "Islamic State Somalia Province",
+      "aliases": [
+        "Abnaa ul-Calipha"
+      ],
+      "type": "faction",
+      "context": "Islamic State affiliate in Somalia, opposed to Al-Shabaab.",
+      "time_period": "2015-present"
+    },
+    {
+      "standard_name": "Houthis",
+      "original_text_name": "Houthis",
+      "aliases": [],
+      "type": "militia",
+      "context": "Yemeni insurgent group, alleged ally of Al-Shabaab.",
+      "time_period": "2004-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Al-Shabaab",
+      "target": "Al-Qaeda",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Al-Shabaab is allied to Al-Qaeda and pledged allegiance to it in February 2012.",
+      "time_period": "2012-present"
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Al-Qaeda in the Islamic Maghreb",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Al-Shabaab has forged ties with AQIM.",
+      "time_period": null
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Al-Qaeda in the Arabian Peninsula",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Al-Shabaab has forged ties with AQAP.",
+      "time_period": null
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Islamic Courts Union",
+      "relationship": "other",
+      "detail": "originated as youth militia",
+      "context": "Al-Shabaab formed as a youth militia within the military wing of the Islamic Courts Union.",
+      "time_period": "mid-2000s-2006"
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Al-Ittihad al-Islamiya",
+      "relationship": "other",
+      "detail": "former members",
+      "context": "Many early Al-Shabaab leaders previously belonged to al-Ittihad al-Islamiya.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Ahlu Sunna Waljama'a",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Al-Shabaab has clashed with the pro-AMISOM Sufi militias of Ahlu Sunna Waljama'a.",
+      "time_period": null
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Islamic State in Somalia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Al-Shabaab competes with Islamic State in Somalia for territory and influence.",
+      "time_period": "2015-present"
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "AQIM",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Al-Shabaab has forged ties with AQIM.",
+      "time_period": null
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "AQAP",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Al-Shabaab has forged ties with AQAP.",
+      "time_period": null
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Islamic Courts Union",
+      "relationship": "other",
+      "detail": "formed from",
+      "context": "Al-Shabaab formed as a youth militia within the Islamic Courts Union's military wing.",
+      "time_period": "mid-2000s"
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Hizbul Islam",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Hizbul Islam suffered military defeats against Al-Shabaab before merging.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Hizbul Islam",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hizbul Islam was officially absorbed by Al-Shabaab in December 2010.",
+      "time_period": "2010-2012"
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Al-Hijra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Al-Hijra served as Al-Shabaab's official Kenyan wing from 2012.",
+      "time_period": "2012-2013"
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Jaysh Ayman",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Jaysh Ayman is a unit established by Al-Shabaab in 2013.",
+      "time_period": "2013-present"
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Boko Haram",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Al-Shabaab attempted to coordinate activities with Boko Haram, including training and explosives.",
+      "time_period": "2011-2012"
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Islamic State",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Al-Shabaab rejected ISIL's overtures, banned pro-ISIL discussion, and clashed violently.",
+      "time_period": "2015-present"
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Islamic State Somalia Province",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Islamic State Somalia Province is a non-state opponent of Al-Shabaab.",
+      "time_period": null
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Houthis",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Al-Shabaab is alleged to have ties with Houthis, though denied.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Al-Shabaab_(militant_group)"
+}

@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Spanish Cobras",
+      "original_text_name": "Spanish Cobras",
+      "aliases": [
+        "Insane Spanish Cobras Nation"
+      ],
+      "type": "gang",
+      "context": "Latino street gang operating in the Midwestern US, especially Chicago.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Maniac Latin Disciples",
+      "original_text_name": "Maniac Latin Disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang in Chicago, rivals of Spanish Cobras.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Two Sixers",
+      "original_text_name": "Two Sixers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago street gang involved in the Spanish Growth and Development alliance.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Spanish Growth and Development",
+      "original_text_name": "Spanish Growth and Development",
+      "aliases": [
+        "SGD"
+      ],
+      "type": "other",
+      "context": "Short-lived structured organization formed by Spanish Cobras, Maniac Latin Disciples, and Two Sixers to control violence.",
+      "time_period": "1989-? (collapsed)"
+    },
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American organized crime syndicate in Chicago, model for SGD.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Folk Nation",
+      "original_text_name": "Folk Nation",
+      "aliases": [],
+      "type": "other",
+      "context": "Alliance of street gangs; Spanish Cobras are allies.",
+      "time_period": null
+    },
+    {
+      "standard_name": "People Nation",
+      "original_text_name": "People Nation",
+      "aliases": [],
+      "type": "other",
+      "context": "Alliance of street gangs; rivals of Spanish Cobras.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Latin Kings",
+      "original_text_name": "Latin Kings",
+      "aliases": [],
+      "type": "gang",
+      "context": "Major Latino street gang, part of People Nation, rivals of Spanish Cobras.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Spanish Cobras",
+      "target": "Maniac Latin Disciples",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Spanish Cobras were founded by former Maniac Latin Disciples members and are rivals.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Spanish Cobras",
+      "target": "Two Sixers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Spanish Cobras and Two Sixers formed the Spanish Growth and Development together.",
+      "time_period": "1989"
+    },
+    {
+      "source": "Maniac Latin Disciples",
+      "target": "Two Sixers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Maniac Latin Disciples and Two Sixers were part of the Spanish Growth and Development.",
+      "time_period": "1989"
+    },
+    {
+      "source": "Spanish Growth and Development",
+      "target": "Chicago Outfit",
+      "relationship": "other",
+      "detail": "modeled after",
+      "context": "SGD was modeled after the Chicago Outfit's structure.",
+      "time_period": "1989"
+    },
+    {
+      "source": "Spanish Cobras",
+      "target": "Folk Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Spanish Cobras are allies of Folk Nation gangs.",
+      "time_period": null
+    },
+    {
+      "source": "Spanish Cobras",
+      "target": "People Nation",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Spanish Cobras are rivals of People Nation gangs.",
+      "time_period": null
+    },
+    {
+      "source": "Spanish Cobras",
+      "target": "Latin Kings",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Latin Kings are part of People Nation, rivals of Spanish Cobras.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Spanish_Cobras"
+}

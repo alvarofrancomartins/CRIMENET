@@ -1,0 +1,113 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Carlton Crew",
+      "original_text_name": "The Carlton Crew",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal organisation based in Melbourne, involved in racketeering, murder, drug trafficking.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Honoured Society",
+      "original_text_name": "Honoured Society",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Calabrian 'Ndrangheta group based in Melbourne.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Calabrese Family",
+      "original_text_name": "Calabrese Family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Calabrian 'Ndrangheta group based in Melbourne.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Moran family",
+      "original_text_name": "Moran family",
+      "aliases": [
+        "Moran and Pettingill families"
+      ],
+      "type": "gang",
+      "context": "Mostly Irish criminal family allied with Carlton Crew.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Williams Syndicate",
+      "original_text_name": "Williams Syndicate",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal syndicate led by Carl Williams, rival to Carlton Crew.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Radev Bratva",
+      "original_text_name": "Radev Bratva",
+      "aliases": [],
+      "type": "other",
+      "context": "Criminal group allied with Carlton Crew.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Carlton Crew",
+      "target": "Honoured Society",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Fierce rivals until the early 1990s.",
+      "time_period": "until early 1990s"
+    },
+    {
+      "source": "Carlton Crew",
+      "target": "Calabrese Family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Fierce rivals until the early 1990s.",
+      "time_period": "until early 1990s"
+    },
+    {
+      "source": "Carlton Crew",
+      "target": "Moran family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allies of the mostly Irish Moran family.",
+      "time_period": null
+    },
+    {
+      "source": "Carlton Crew",
+      "target": "Honoured Society",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allies since the mid-1990s.",
+      "time_period": "since mid-1990s"
+    },
+    {
+      "source": "Carlton Crew",
+      "target": "Calabrese Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allies since the mid-1990s.",
+      "time_period": "since mid-1990s"
+    },
+    {
+      "source": "Carlton Crew",
+      "target": "Williams Syndicate",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rivals; Carl Williams plotted to murder Carlton Crew member Mario Condello.",
+      "time_period": null
+    },
+    {
+      "source": "Carlton Crew",
+      "target": "Radev Bratva",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied with Radev Bratva.",
+      "time_period": null
+    }
+  ],
+  "source_file": "The_Carlton_Crew"
+}

@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "The Extraditables",
+      "original_text_name": "The Extraditables",
+      "aliases": [
+        "Los Extraditables"
+      ],
+      "type": "other",
+      "context": "Narcoterrorist organization created by Colombian drug lords to oppose extradition to the US.",
+      "time_period": "1984-1993"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Major Colombian drug cartel led by Pablo Escobar, involved in cocaine trafficking.",
+      "time_period": "1970s-1993"
+    }
+  ],
+  "edges": [
+    {
+      "source": "The Extraditables",
+      "target": "Medellín Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Extraditables were largely drawn from the Medellín Cartel and allied with them.",
+      "time_period": "1984-1993"
+    }
+  ],
+  "source_file": "The_Extraditables"
+}

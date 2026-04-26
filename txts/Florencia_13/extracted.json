@@ -1,0 +1,283 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Florencia 13",
+      "original_text_name": "Florencia 13",
+      "aliases": [
+        "South Side Florencia 13",
+        "Florence Gang",
+        "F13"
+      ],
+      "type": "gang",
+      "context": "American street gang based in Los Angeles, involved in drug trafficking, murder, assault, robbery.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Prison gang that controls Florencia 13 and ordered hits on East Coast Crips.",
+      "time_period": null
+    },
+    {
+      "standard_name": "East Coast Crips",
+      "original_text_name": "East Coast Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang targeted by Florencia 13 and Mexican Mafia after drug theft.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Norteños",
+      "original_text_name": "Norteños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang involved in a shooting with Florencia 13 in Utah.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied gang with Florencia 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Pueblo Bishop Bloods",
+      "original_text_name": "Pueblo Bishop Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied gang with Florencia 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mad Swan Bloods",
+      "original_text_name": "Mad Swan Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied gang with Florencia 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Harvard Park Brims",
+      "original_text_name": "Harvard Park Brims",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allied gang with Florencia 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "18th Street gang",
+      "original_text_name": "18th Street gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Florencia 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "38th Street gang",
+      "original_text_name": "38th Street gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Florencia 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Grape Street Watts Crips",
+      "original_text_name": "Grape Street Watts Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Florencia 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Watts Varrio Grape Street 13",
+      "original_text_name": "Watts Varrio Grape Street 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Florencia 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hat Gang Watts Crips",
+      "original_text_name": "Hat Gang Watts Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Florencia 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Huntington Park Locos",
+      "original_text_name": "Huntington Park Locos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Florencia 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Playboys",
+      "original_text_name": "Playboys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Florencia 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "East Side 13",
+      "original_text_name": "East Side 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Florencia 13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "South Los 13",
+      "original_text_name": "South Los 13",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang of Florencia 13.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Mexican Mafia",
+      "target": "Florencia 13",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mexican Mafia controls Florencia 13 and puts green lights on rivals.",
+      "time_period": null
+    },
+    {
+      "source": "Florencia 13",
+      "target": "East Coast Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Conflict triggered by drug theft; Mexican Mafia ordered killings.",
+      "time_period": null
+    },
+    {
+      "source": "Mexican Mafia",
+      "target": "East Coast Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Mexican Mafia put a green light on East Coast Crips.",
+      "time_period": null
+    },
+    {
+      "source": "Florencia 13",
+      "target": "Norteños",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Shooting between members in Utah in 2019.",
+      "time_period": null
+    },
+    {
+      "source": "Florencia 13",
+      "target": "Sureños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Florencia 13",
+      "target": "Pueblo Bishop Bloods",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Florencia 13",
+      "target": "Mad Swan Bloods",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Florencia 13",
+      "target": "Harvard Park Brims",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Florencia 13",
+      "target": "18th Street gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Florencia 13",
+      "target": "38th Street gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Florencia 13",
+      "target": "Grape Street Watts Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Florencia 13",
+      "target": "Watts Varrio Grape Street 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Florencia 13",
+      "target": "Hat Gang Watts Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Florencia 13",
+      "target": "Huntington Park Locos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Florencia 13",
+      "target": "Playboys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Florencia 13",
+      "target": "East Side 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Florencia 13",
+      "target": "South Los 13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Florencia_13"
+}

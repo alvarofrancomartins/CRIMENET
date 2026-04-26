@@ -1,0 +1,95 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Waray-Waray gangs",
+      "original_text_name": "Waray-Waray gangs",
+      "aliases": [
+        "Waray-Waray groups"
+      ],
+      "type": "gang",
+      "context": "Generic term for criminal groups of Waray ethnicity in the Philippines, involved in armed robbery, kidnapping, and narcotics.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Sudoy-Sudoy Gang",
+      "original_text_name": "Sudoy-Sudoy Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Waray gang that roams streets at night mugging people.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Waray-Waray K.F.R.",
+      "original_text_name": "Waray Waray K.F.R.",
+      "aliases": [
+        "Waray-Waray Kidnap For Ransom"
+      ],
+      "type": "gang",
+      "context": "Waray gang specializing in kidnapping for ransom, targeting Chinese nationals.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Waray-Abuyog Gang",
+      "original_text_name": "Waray-Abuyog Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Waray gang known for armed robberies and narcotics, with former soldiers as members.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Waray-Ozamiz Gang",
+      "original_text_name": "Waray-Ozamiz Gang",
+      "aliases": [
+        "Ozamiz-Waray-Waray group"
+      ],
+      "type": "gang",
+      "context": "Alliance between Waray and Ozamiz criminals, conducts bank robberies and drug sales.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "O.G. Imba: Waray-Waray Gang",
+      "original_text_name": "O.G. Imba: Waray-Waray Gang",
+      "aliases": [
+        "OG Imba: Waray-Waray Gang"
+      ],
+      "type": "gang",
+      "context": "Street gang of Waray youths involved in gang wars and riots.",
+      "time_period": "2010s"
+    },
+    {
+      "standard_name": "Martilyo/Waray-Waray Gang",
+      "original_text_name": "Martilyo/Waray-Waray Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Robbery gang specializing in invading pawnshops and jewelry stores using hammers.",
+      "time_period": "2000s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Waray-Abuyog Gang",
+      "target": "Sudoy-Sudoy Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Waray-Abuyog Gang has been documented making alliances with the Sudoy-Sudoy Gang.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Waray-Ozamiz Gang",
+      "target": "Waray-Waray gangs",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Waray-Ozamiz Gang is an alliance between Waray and Ozamiz criminals, considered a sub-group of Waray-Waray gangs.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "O.G. Imba: Waray-Waray Gang",
+      "target": "Waray-Waray gangs",
+      "relationship": "other",
+      "detail": "inspired by",
+      "context": "O.G. Imba is a street gang inspired by and taking its name from previous Waray-Waray gangs.",
+      "time_period": "2010s"
+    }
+  ],
+  "source_file": "Waray-Waray_gangs"
+}

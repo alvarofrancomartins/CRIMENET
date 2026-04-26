@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Đại Cathay's gang",
+      "original_text_name": "Đại Cathay's gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Saigon street gang led by Đại Cathay, involved in prostitution, drugs, nightclubs, and casinos.",
+      "time_period": "1960s-1967"
+    },
+    {
+      "standard_name": "Tín Mã Nàm's gang",
+      "original_text_name": "Tín Mã Nàm's gang",
+      "aliases": [
+        "Chinese mafia in Chợ Lớn"
+      ],
+      "type": "gang",
+      "context": "Chinese mafia in Chợ Lớn (Saigon's fifth district) led by Tín Mã Nàm, involved in illicit establishments.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Huỳnh Tỳ's gang",
+      "original_text_name": "Huỳnh Tỳ",
+      "aliases": [],
+      "type": "gang",
+      "context": "One of the 'four great kings' of Saigon underworld, rival to Đại Cathay.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Ngô Văn Cái's gang",
+      "original_text_name": "Ngô Văn Cái",
+      "aliases": [],
+      "type": "gang",
+      "context": "One of the 'four great kings' of Saigon underworld, rival to Đại Cathay.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Ba Thế's gang",
+      "original_text_name": "Ba Thế",
+      "aliases": [],
+      "type": "gang",
+      "context": "One of the 'four great kings' of Saigon underworld, initially allied with Đại Cathay then turned rival.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Bé Bún's gang",
+      "original_text_name": "Bé Bún's gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang in Saigon's fourth district, fought with Đại Cathay for control.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Bình Xuyên",
+      "original_text_name": "Bình Xuyên army",
+      "aliases": [],
+      "type": "militia",
+      "context": "Vietnamese militia that fought against the French; Đại Cathay's father served under them.",
+      "time_period": "1945-1950s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Đại Cathay's gang",
+      "target": "Tín Mã Nàm's gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Clashed violently in 1964; later negotiated a truce ceding territory.",
+      "time_period": "1964"
+    },
+    {
+      "source": "Đại Cathay's gang",
+      "target": "Huỳnh Tỳ's gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Huỳnh Tỳ was one of the 'four great kings' who ambushed Đại Cathay.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Đại Cathay's gang",
+      "target": "Ngô Văn Cái's gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ngô Văn Cái was one of the 'four great kings' who ambushed Đại Cathay.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Đại Cathay's gang",
+      "target": "Ba Thế's gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ba Thế initially allied with Đại Cathay in the attack on Tín Mã Nàm, but later joined the ambush against him.",
+      "time_period": "1964-1965"
+    },
+    {
+      "source": "Đại Cathay's gang",
+      "target": "Bé Bún's gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Fought for control of the fourth district after Đại Cathay returned from reformatory.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Đại Cathay's gang",
+      "target": "Tín Mã Nàm's gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "After negotiation, Tín Mã Nàm ceded territory to Đại Cathay, allowing him to operate casinos.",
+      "time_period": "1964"
+    },
+    {
+      "source": "Đại Cathay's gang",
+      "target": "Ba Thế's gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ba Thế joined Đại Cathay in the attack on Tín Mã Nàm's gang.",
+      "time_period": "1964"
+    }
+  ],
+  "source_file": "Đại_Cathay"
+}

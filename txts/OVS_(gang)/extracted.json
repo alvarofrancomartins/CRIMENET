@@ -1,0 +1,269 @@
+{
+  "nodes": [
+    {
+      "standard_name": "OVS",
+      "original_text_name": "OVS",
+      "aliases": [
+        "Ontario Varrio Sur",
+        "Onterio Varrio Sunkist",
+        "OVS Black Angels"
+      ],
+      "type": "gang",
+      "context": "Mexican American gang from Ontario, California, involved in murder, drug trafficking, and arms trafficking.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [
+        "La Eme"
+      ],
+      "type": "gang",
+      "context": "California prison gang and criminal organization, oversees Sureño gangs and drug trafficking.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Jr Black Angels",
+      "original_text_name": "Jr Black Angels",
+      "aliases": [],
+      "type": "gang",
+      "context": "Sub-clique of OVS, recruiting teens as young as 11.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Black Angels",
+      "original_text_name": "Black Angels",
+      "aliases": [],
+      "type": "gang",
+      "context": "Sub-clique of OVS, original name of the gang.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "OVS Earth Angels",
+      "original_text_name": "OVS Earth Angels",
+      "aliases": [
+        "Earth Angels"
+      ],
+      "type": "gang",
+      "context": "Offshoot of OVS Black Angels, formed in 1954, disbanded in 1990.",
+      "time_period": "1954-1990"
+    },
+    {
+      "standard_name": "Jr Earth Angels",
+      "original_text_name": "Jr Earth Angels",
+      "aliases": [],
+      "type": "gang",
+      "context": "Junior version of OVS Earth Angels, age bracket early 20s.",
+      "time_period": "1954-1990"
+    },
+    {
+      "standard_name": "Earth Angelettes",
+      "original_text_name": "Earth Angelettes",
+      "aliases": [],
+      "type": "gang",
+      "context": "Female gang associated with OVS Earth Angels, disbanded in 1990.",
+      "time_period": "1954-1990"
+    },
+    {
+      "standard_name": "Northside Ontario Calaveras",
+      "original_text_name": "Northside Ontario Calaveras",
+      "aliases": [],
+      "type": "gang",
+      "context": "Street gang formed in 1980 in Ontario, California, rival to OVS.",
+      "time_period": "1980-present"
+    },
+    {
+      "standard_name": "Eastside Ontario 4th Street YGW",
+      "original_text_name": "Eastside Ontario 4th street YGW",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang involved in a shooting targeting Northside Ontario Calaveras in 1999.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Pomona Sharkies",
+      "original_text_name": "Pomona Sharkies",
+      "aliases": [
+        "Pomona Sharkey's Gang"
+      ],
+      "type": "gang",
+      "context": "Gang from Pomona, California, involved in drug trafficking and allied with OVS.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [
+        "Surenos"
+      ],
+      "type": "gang",
+      "context": "Alliance of Southern California gangs affiliated with the Mexican Mafia.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "African American street gang, rival to OVS and Sureños.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "type": "gang",
+      "context": "African American street gang, rival to OVS and Sureños.",
+      "time_period": "1972-present"
+    },
+    {
+      "standard_name": "Aryan Brotherhood",
+      "original_text_name": "Aryan Brotherhood",
+      "aliases": [],
+      "type": "gang",
+      "context": "White supremacist prison gang, allied with OVS.",
+      "time_period": "1964-present"
+    },
+    {
+      "standard_name": "Peckerwoods",
+      "original_text_name": "Peckerwoods",
+      "aliases": [],
+      "type": "gang",
+      "context": "White supremacist gang, allied with OVS.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "BGF",
+      "original_text_name": "BGF",
+      "aliases": [
+        "Black Guerrilla Family"
+      ],
+      "type": "gang",
+      "context": "African American prison gang, rival to OVS.",
+      "time_period": "1966-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "OVS",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "OVS has deep-rooted ties with the Mexican Mafia, with many members active in La Eme.",
+      "time_period": "1950s-present"
+    },
+    {
+      "source": "OVS",
+      "target": "Jr Black Angels",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Jr Black Angels is a sub-clique of OVS.",
+      "time_period": "1950s-present"
+    },
+    {
+      "source": "OVS",
+      "target": "Black Angels",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Black Angels is a sub-clique of OVS.",
+      "time_period": "1950s-present"
+    },
+    {
+      "source": "OVS",
+      "target": "OVS Earth Angels",
+      "relationship": "other",
+      "detail": "offshoot",
+      "context": "OVS Earth Angels were offshoots from the Black Angels.",
+      "time_period": "1954-1990"
+    },
+    {
+      "source": "OVS Earth Angels",
+      "target": "Jr Earth Angels",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Jr Earth Angels is the junior version of OVS Earth Angels.",
+      "time_period": "1954-1990"
+    },
+    {
+      "source": "OVS Earth Angels",
+      "target": "Earth Angelettes",
+      "relationship": "other",
+      "detail": "associated",
+      "context": "Earth Angelettes is the female gang associated with OVS Earth Angels.",
+      "time_period": "1954-1990"
+    },
+    {
+      "source": "OVS",
+      "target": "Northside Ontario Calaveras",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Northside Ontario Calaveras is a rival gang to OVS.",
+      "time_period": "1980-present"
+    },
+    {
+      "source": "Northside Ontario Calaveras",
+      "target": "Eastside Ontario 4th Street YGW",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Eastside Ontario 4th Street YGW targeted Northside Ontario Calaveras in a shooting in 1999.",
+      "time_period": "1999"
+    },
+    {
+      "source": "OVS",
+      "target": "Sureños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "OVS is a Sureño gang, allied with other Sureño gangs under the Mexican Mafia.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "OVS",
+      "target": "Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "OVS and Sureños have orders to terrorize and kill Crips members.",
+      "time_period": "2020-present"
+    },
+    {
+      "source": "OVS",
+      "target": "Bloods",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "OVS and Sureños have orders to terrorize and kill Bloods members.",
+      "time_period": "2020-present"
+    },
+    {
+      "source": "OVS",
+      "target": "Aryan Brotherhood",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "OVS is allied with the Aryan Brotherhood.",
+      "time_period": null
+    },
+    {
+      "source": "OVS",
+      "target": "Peckerwoods",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "OVS is allied with the Peckerwoods.",
+      "time_period": null
+    },
+    {
+      "source": "OVS",
+      "target": "BGF",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "OVS is a rival of the Black Guerrilla Family.",
+      "time_period": null
+    },
+    {
+      "source": "OVS",
+      "target": "Pomona Sharkies",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "OVS and Pomona Sharkies were targeted together as a narcotics distribution network.",
+      "time_period": "2000s"
+    }
+  ],
+  "source_file": "OVS_(gang)"
+}

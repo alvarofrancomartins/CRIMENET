@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Trimboli 'ndrina",
+      "original_text_name": "Trimboli 'ndrina",
+      "aliases": [
+        "Trimboli clan"
+      ],
+      "type": "clan",
+      "context": "A clan of the 'Ndrangheta based in Platì, Calabria, with strong presence in Volpiano, Piedmont, and Australia. Involved in drug trafficking, extortion, money laundering, and murder.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Criminal and mafia-type organisation in Calabria, Italy. The Trimboli 'ndrina is a clan of this organization.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Marando 'ndrina",
+      "original_text_name": "Marando 'ndrina",
+      "aliases": [
+        "Marando clan"
+      ],
+      "type": "clan",
+      "context": "Allied with the Trimboli 'ndrina in Northern Italy, particularly in Volpiano.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Agresta 'ndrina",
+      "original_text_name": "Agresta 'ndrina",
+      "aliases": [
+        "Agresta clan"
+      ],
+      "type": "clan",
+      "context": "Allied with the Trimboli 'ndrina in Northern Italy, particularly in Volpiano.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Barbaro 'ndrina",
+      "original_text_name": "Barbaro 'ndrina",
+      "aliases": [
+        "Barbaro clan"
+      ],
+      "type": "clan",
+      "context": "Powerful 'ndrina from which the Trimboli 'ndrina emerged as a branch. Also allied with Trimboli.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Papalia 'ndrina",
+      "original_text_name": "Papalia 'ndrina",
+      "aliases": [
+        "Papalia clan"
+      ],
+      "type": "clan",
+      "context": "Originated from the Barbaro 'ndrina, intermarried with Trimboli and other families.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Sergi 'ndrina",
+      "original_text_name": "Sergi 'ndrina",
+      "aliases": [
+        "Sergi clan"
+      ],
+      "type": "clan",
+      "context": "Originated from the Barbaro 'ndrina, intermarried with Trimboli and other families.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Perre 'ndrina",
+      "original_text_name": "Perre 'ndrina",
+      "aliases": [
+        "Perre clan"
+      ],
+      "type": "clan",
+      "context": "Originated from the Barbaro 'ndrina, intermarried with Trimboli and other families.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Molluso 'ndrina",
+      "original_text_name": "Molluso 'ndrina",
+      "aliases": [
+        "Molluso clan"
+      ],
+      "type": "clan",
+      "context": "Allied with the Trimboli 'ndrina according to the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "South American drug cartels",
+      "original_text_name": "South American drug cartels",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Allied with the Trimboli 'ndrina for drug trafficking according to the infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Trimboli 'ndrina",
+      "target": "'Ndrangheta",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Trimboli 'ndrina is a clan (sub-group) of the 'Ndrangheta.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Trimboli 'ndrina",
+      "target": "Marando 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied in Northern Italy, particularly in Volpiano.",
+      "time_period": "since 1970s"
+    },
+    {
+      "source": "Trimboli 'ndrina",
+      "target": "Agresta 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied in Northern Italy, particularly in Volpiano.",
+      "time_period": "since 1970s"
+    },
+    {
+      "source": "Trimboli 'ndrina",
+      "target": "Barbaro 'ndrina",
+      "relationship": "other",
+      "detail": "branch of",
+      "context": "The Trimboli 'ndrina emerged as a branch of the Barbaro 'ndrina.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Trimboli 'ndrina",
+      "target": "Papalia 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Intermarriage to strengthen alliances; both originated from Barbaro 'ndrina.",
+      "time_period": "since 1970s"
+    },
+    {
+      "source": "Trimboli 'ndrina",
+      "target": "Sergi 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Intermarriage to strengthen alliances; both originated from Barbaro 'ndrina.",
+      "time_period": "since 1970s"
+    },
+    {
+      "source": "Trimboli 'ndrina",
+      "target": "Perre 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Intermarriage to strengthen alliances; both originated from Barbaro 'ndrina.",
+      "time_period": "since 1970s"
+    },
+    {
+      "source": "Trimboli 'ndrina",
+      "target": "Molluso 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied according to the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Trimboli 'ndrina",
+      "target": "South American drug cartels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied for drug trafficking according to the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Trimboli_'ndrina"
+}

@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Highwaymen Motorcycle Club",
+      "original_text_name": "Highwaymen Motorcycle Club",
+      "aliases": [
+        "Highwaymen MC",
+        "Highwaymen"
+      ],
+      "type": "motorcycle_club",
+      "context": "One-percenter outlaw motorcycle club based in Detroit, involved in drug trafficking, murder, and other crimes.",
+      "time_period": "1954-present"
+    },
+    {
+      "standard_name": "Detroit Federation of Motorcycle Clubs",
+      "original_text_name": "Detroit Federation of Motorcycle Clubs",
+      "aliases": [],
+      "type": "other",
+      "context": "Federation created to resolve turf wars among motorcycle clubs in Detroit.",
+      "time_period": "1970s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Highwaymen Motorcycle Club",
+      "target": "Detroit Federation of Motorcycle Clubs",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Highwaymen are banned from the Detroit Federation of Motorcycle Clubs, indicating a hostile relationship.",
+      "time_period": "1970s-present"
+    }
+  ],
+  "source_file": "Highwaymen_Motorcycle_Club"
+}
