@@ -2,7 +2,7 @@
 
 Open-source database and interactive visualization of alliances and rivalries between criminal organizations worldwide, extracted from Wikipedia with an LLM pipeline.
 
-**2,127 organizations. 2,765 relationships. 737 source articles.**
+**1,173 organizations. 2,765 relationships. 737 source articles.**
 
 - Live visualization: <a href="https://www.alvarofrancomartins.com/crimenet" target="_blank">alvarofrancomartins.com/crimenet</a>
 
