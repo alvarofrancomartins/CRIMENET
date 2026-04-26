@@ -44,7 +44,7 @@ python 3_merge_network.py --dir ./txts --output global_network.json --stats
 python 4_cleanup_and_prepare.py --input global_network.json --stats
 ```
 
-### Step 0 — URLs → `articles.csv`
+### Step 0: URLs → `articles.csv`
 
 `0_urls_to_articles.py` reads a list of plain Wikipedia URLs from `page_hyperlinks.csv` (one URL per row), queries the Wikipedia API for the current revision ID of each, and writes `articles.csv` with title, folder name, and versioned URL (`?oldid=...`).
 
@@ -59,7 +59,7 @@ https://it.wikipedia.org/wiki/Cosa_nostra
 
 Both English and Italian Wikipedia URLs are supported. Language is detected from the domain.
 
-### Step 1 — Fetch Wikipedia text → `txts/`
+### Step 1: Fetch Wikipedia text → `txts/`
 
 `1_fetch_wikipedia.py` reads `articles.csv` and, for each article, fetches:
 
@@ -68,7 +68,7 @@ Both English and Italian Wikipedia URLs are supported. Language is detected from
 
 Writes `txts/<slug>/content.txt` and `txts/<slug>/url.txt`. Resumes automatically. Use `--force` to re-fetch all.
 
-### Step 2 — LLM extraction → `txts/<slug>/extracted.json`
+### Step 2: LLM extraction → `txts/<slug>/extracted.json`
 
 Add a DeepSeek API key in deepseek_api_key.txt in the project root.
 
@@ -82,11 +82,11 @@ Articles longer than 3,000 words are chunked, with the article's opening paragra
 - `--force`: re-extract everything.
 - `--force-failed`: retry only folders with missing or broken `extracted.json`.
 
-### Step 3 — Merge → `global_network.json`
+### Step 3: Merge → `global_network.json`
 
 `3_merge_network.py` combines all `extracted.json` files into a single `global_network.json`. Nodes are deduplicated by name (case-insensitive), with aliases, descriptions, and source references merged across duplicates. Edges are deduplicated by `(source, target, relationship, detail)`. Every node and edge is tagged with the source article's versioned Wikipedia URL.
 
-### Step 4 — Cleanup → `crimenet_specific.json`
+### Step 4: Cleanup → `crimenet_specific.json`
 
 `4_cleanup_and_prepare.py` applies:
 
