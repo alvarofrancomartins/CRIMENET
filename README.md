@@ -8,7 +8,7 @@ Open-source database and interactive visualization of alliances and rivalries be
 
 <p align="center">
   <a href="https://www.alvarofrancomartins.com/crimenet">
-    <img src="featured.png" alt="CRIMENET visualization" width="700">
+    <img src="featured.png" alt="CRIMENET visualization" width="800">
   </a>
 </p>
 
