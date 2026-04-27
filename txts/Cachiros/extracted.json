@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cachiros",
+      "original_text_name": "Cachiros",
+      "aliases": [
+        "Los Cachiros"
+      ],
+      "type": "cartel",
+      "context": "Honduran drug trafficking organization founded in the 1990s by cattle farmers.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Los Rastrojos",
+      "original_text_name": "Los Rastrojos",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel allied with Cachiros.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Norte del Valle Cartel",
+      "original_text_name": "Norte del Valle Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Colombian drug cartel allied with Cachiros.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel allied with Cachiros.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cachiros",
+      "target": "Los Rastrojos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cachiros allied with Los Rastrojos for drug trafficking operations.",
+      "time_period": null
+    },
+    {
+      "source": "Cachiros",
+      "target": "Norte del Valle Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cachiros allied with Norte del Valle Cartel for drug trafficking.",
+      "time_period": null
+    },
+    {
+      "source": "Cachiros",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cachiros allied with Sinaloa Cartel for drug trafficking.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Cachiros"
+}

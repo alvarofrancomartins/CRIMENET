@@ -9,8 +9,25 @@
       "type": "militia",
       "context": "Banned ethnic organization in Kenya, involved in violence, protection racketeering, and political links.",
       "time_period": "late 1980s-present"
+    },
+    {
+      "standard_name": "Mau Mau",
+      "original_text_name": "Mau Mau",
+      "aliases": [],
+      "type": "militia",
+      "context": "Kenyan anti-colonial fighters who fought British rule; Mungiki modeled itself on them.",
+      "time_period": "1950s"
     }
   ],
-  "edges": [],
+  "edges": [
+    {
+      "source": "Mungiki",
+      "target": "Mau Mau",
+      "relationship": "other",
+      "detail": "ideological inspiration",
+      "context": "Mungiki's founders supposedly modeled the group on the Mau Mau fighters.",
+      "time_period": null
+    }
+  ],
   "source_file": "Mungiki"
 }

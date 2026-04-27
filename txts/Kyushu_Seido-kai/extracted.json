@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kyushu Seido-kai",
+      "original_text_name": "Kyushu Seido-kai",
+      "aliases": [
+        "Seido-kai",
+        "Namikawa Mutsumi-kai",
+        "Namikawa-kai",
+        "Seido Pharmacy"
+      ],
+      "type": "mafia",
+      "context": "Yakuza group based in Fukuoka, Japan, involved in drug trafficking and loansharking. Active 2006-2013 under this name, later renamed.",
+      "time_period": "2006-2013"
+    },
+    {
+      "standard_name": "Dojin-kai",
+      "original_text_name": "Dojin-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza syndicate based in Fukuoka, former parent organization of Kyushu Seido-kai.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Murakami-ikka",
+      "original_text_name": "Murakami-ikka",
+      "aliases": [],
+      "type": "clan",
+      "context": "Clan within Dojin-kai that splintered to form Kyushu Seido-kai.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kudo-kai",
+      "original_text_name": "Kudo-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Independent Fukuoka-based yakuza syndicate.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Taishu-kai",
+      "original_text_name": "Taishu-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Independent Fukuoka-based yakuza syndicate.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Fukuhaku-kai",
+      "original_text_name": "Fukuhaku-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Independent Fukuoka-based yakuza syndicate.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Largest yakuza syndicate in Japan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Yamaken-gumi",
+      "original_text_name": "Yamaken-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Affiliate of Yamaguchi-gumi, led by Kunio Inoue.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kyushu Seido-kai",
+      "target": "Dojin-kai",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Violent feud involving armed conflicts, grenades, and shootings.",
+      "time_period": "2006-2013"
+    },
+    {
+      "source": "Kyushu Seido-kai",
+      "target": "Dojin-kai",
+      "relationship": "other",
+      "detail": "splinter group",
+      "context": "Kyushu Seido-kai formed as a splinter from Dojin-kai in 2006.",
+      "time_period": "2006"
+    },
+    {
+      "source": "Murakami-ikka",
+      "target": "Dojin-kai",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Murakami-ikka was a clan within Dojin-kai before splintering.",
+      "time_period": null
+    },
+    {
+      "source": "Kyushu Seido-kai",
+      "target": "Kudo-kai",
+      "relationship": "other",
+      "detail": "absence from funeral",
+      "context": "Seido-kai was the only designated syndicate absent from Kudo-kai president's funeral.",
+      "time_period": "2008"
+    },
+    {
+      "source": "Kyushu Seido-kai",
+      "target": "Yamaken-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Second president Namikawa maintained close relationship with Yamaken-gumi president.",
+      "time_period": null
+    },
+    {
+      "source": "Yamaken-gumi",
+      "target": "Yamaguchi-gumi",
+      "relationship": "other",
+      "detail": "affiliate",
+      "context": "Yamaken-gumi is an affiliate of Yamaguchi-gumi.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Kyushu_Seido-kai"
+}

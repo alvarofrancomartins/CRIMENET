@@ -175,20 +175,20 @@
       "time_period": "1890s–present"
     },
     {
-      "standard_name": "Cleveland crime family",
-      "original_text_name": "Cleveland crime family",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Italian American Mafia family based in Cleveland; listed as ally in infobox.",
-      "time_period": "1910s–present"
-    },
-    {
       "standard_name": "Lucchese crime family",
       "original_text_name": "Lucchese crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families of New York; listed as ally in infobox.",
+      "context": "One of the Five Families of New York; listed as an ally in the infobox.",
       "time_period": "1920s–present"
+    },
+    {
+      "standard_name": "Cleveland crime family",
+      "original_text_name": "Cleveland crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian American Mafia family based in Cleveland; listed as an ally in the infobox.",
+      "time_period": "1910s–present"
     }
   ],
   "edges": [
@@ -325,7 +325,7 @@
       "target": "Bonanno crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Vincent Rotondo maintained close associations with Bonanno family; family listed as ally.",
+      "context": "Vincent Rotondo maintained close associations with Bonanno family; listed as ally in infobox.",
       "time_period": null
     },
     {
@@ -333,15 +333,7 @@
       "target": "Colombo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Vincent Rotondo had ties to Colombo family; family listed as ally.",
-      "time_period": null
-    },
-    {
-      "source": "DeCavalcante crime family",
-      "target": "Cleveland crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Cleveland crime family listed as ally in infobox.",
+      "context": "Vincent Rotondo had ties to Colombo family; listed as ally in infobox.",
       "time_period": null
     },
     {
@@ -349,8 +341,24 @@
       "target": "Lucchese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Lucchese crime family listed as ally in infobox.",
+      "context": "Listed as an ally in the infobox.",
       "time_period": null
+    },
+    {
+      "source": "DeCavalcante crime family",
+      "target": "Cleveland crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Gambino crime family",
+      "target": "DeCavalcante crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gambino boss John Gotti allegedly ordered Vincent Rotondo's murder due to his growing power.",
+      "time_period": "1988"
     }
   ],
   "source_file": "DeCavalcante_crime_family"

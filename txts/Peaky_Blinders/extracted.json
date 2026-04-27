@@ -3,11 +3,9 @@
     {
       "standard_name": "Peaky Blinders",
       "original_text_name": "Peaky Blinders",
-      "aliases": [
-        "Blinders"
-      ],
+      "aliases": [],
       "type": "gang",
-      "context": "Street gang based in Birmingham, England, active 1880s-1920s, engaged in robbery, violence, racketeering, illegal bookmaking, and gambling.",
+      "context": "Street gang based in Birmingham, England, active from 1880s to 1920s, engaged in robbery, violence, racketeering, illegal bookmaking, and gambling.",
       "time_period": "1880s-1920s"
     },
     {
@@ -25,8 +23,8 @@
       "original_text_name": "Birmingham Boys",
       "aliases": [],
       "type": "gang",
-      "context": "Larger gang led by Billy Kimber, overtook Peaky Blinders by 1920.",
-      "time_period": "1900s-1920s"
+      "context": "Larger gang led by Billy Kimber that overtook the Peaky Blinders in 1920.",
+      "time_period": "1910s-1920s"
     },
     {
       "standard_name": "Sabini gang",
@@ -35,16 +33,8 @@
         "Sabinis"
       ],
       "type": "gang",
-      "context": "Gang that moved in on Birmingham Boys after Peaky Blinders withdrew, solidified political control over Central England in the 1930s.",
+      "context": "Gang that moved in on the Birmingham Boys and solidified political control over Central England in the 1930s.",
       "time_period": "1930s"
-    },
-    {
-      "standard_name": "Summer Hill gang",
-      "original_text_name": "Summer Hill gang",
-      "aliases": [],
-      "type": "gang",
-      "context": "Rival gang; a member was shot and killed by Peaky Blinder William Lacey in 1905.",
-      "time_period": "1900s"
     }
   ],
   "edges": [
@@ -61,23 +51,15 @@
       "target": "Birmingham Boys",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Birmingham Boys, led by Billy Kimber, overtook Peaky Blinders by 1920 after violent backlash over racecourse expansion.",
-      "time_period": "1910s-1920"
-    },
-    {
-      "source": "Peaky Blinders",
-      "target": "Summer Hill gang",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Peaky Blinder William Lacey shot and killed a Summer Hill gang member in September 1905.",
-      "time_period": "1905"
+      "context": "The Birmingham Boys, led by Billy Kimber, overtook the Peaky Blinders in 1920 after a violent backlash over racecourse expansion.",
+      "time_period": "1910s-1920s"
     },
     {
       "source": "Birmingham Boys",
       "target": "Sabini gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "After Peaky Blinders withdrew, the Sabini gang moved in on the Birmingham Boys and solidified political control over Central England in the 1930s.",
+      "context": "The Sabini gang moved in on the Birmingham Boys and solidified political control over Central England in the 1930s.",
       "time_period": "1930s"
     }
   ],

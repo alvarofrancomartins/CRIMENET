@@ -21,8 +21,8 @@
         "Official IRA"
       ],
       "type": "terrorist_organization",
-      "context": "Marxist-oriented republican paramilitary that split from the IRA in 1969, opposed the Provisional IRA's campaign.",
-      "time_period": "1969-1972 (ceasefire)"
+      "context": "Socialist-oriented republican paramilitary that split from the IRA in 1969; called ceasefire in 1972.",
+      "time_period": "1969-1972"
     },
     {
       "standard_name": "Continuity Irish Republican Army",
@@ -31,7 +31,7 @@
         "Continuity IRA"
       ],
       "type": "terrorist_organization",
-      "context": "Dissident republican splinter group formed from a split in the IRA, still active in dissident campaign.",
+      "context": "Dissident republican splinter group formed from a split in the IRA; still active.",
       "time_period": "1986-present"
     },
     {
@@ -41,7 +41,7 @@
         "Real IRA"
       ],
       "type": "terrorist_organization",
-      "context": "Dissident republican splinter group formed from a split in the IRA after the 1997 ceasefire.",
+      "context": "Dissident republican splinter group formed from a split in the IRA.",
       "time_period": "1997-present"
     },
     {
@@ -51,7 +51,7 @@
         "UVF"
       ],
       "type": "militia",
-      "context": "Loyalist paramilitary group formed in 1966, targeted Catholics to maintain Northern Ireland's union with Britain.",
+      "context": "Loyalist paramilitary group that targeted Catholics to maintain Northern Ireland's union with Britain.",
       "time_period": "1966-present"
     },
     {
@@ -59,8 +59,8 @@
       "original_text_name": "Ulster Protestant Volunteers",
       "aliases": [],
       "type": "militia",
-      "context": "Loyalist paramilitary group led by Ian Paisley, involved in violent clashes with civil rights marchers.",
-      "time_period": "1960s-1970s"
+      "context": "Loyalist paramilitary group led by Ian Paisley involved in violent clashes with civil rights marchers.",
+      "time_period": "1966-1970s"
     },
     {
       "standard_name": "Palestine Liberation Organization",
@@ -68,7 +68,7 @@
       "aliases": [
         "PLO"
       ],
-      "type": "terrorist_organization",
+      "type": "other",
       "context": "Palestinian nationalist organization that aided the Provisional IRA with external support.",
       "time_period": "1964-present"
     },
@@ -239,7 +239,7 @@
       "target": "Continuity Irish Republican Army",
       "relationship": "other",
       "detail": "splinter group",
-      "context": "The Continuity IRA formed as a splinter group from the Provisional IRA after a split.",
+      "context": "The Continuity IRA formed as a splinter group from the Provisional IRA.",
       "time_period": "1986-present"
     },
     {
@@ -247,7 +247,7 @@
       "target": "Real Irish Republican Army",
       "relationship": "other",
       "detail": "splinter group",
-      "context": "The Real IRA formed as a splinter group from the Provisional IRA after the 1997 ceasefire.",
+      "context": "The Real IRA formed as a splinter group from the Provisional IRA.",
       "time_period": "1997-present"
     },
     {
@@ -255,7 +255,7 @@
       "target": "Ulster Volunteer Force",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The UVF was a loyalist paramilitary that targeted Catholics and fought against the IRA during the Troubles.",
+      "context": "The UVF carried out campaigns aimed at thwarting the IRA's aspirations and targeted Catholics.",
       "time_period": "1966-1998"
     },
     {
@@ -263,16 +263,16 @@
       "target": "Ulster Protestant Volunteers",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Ulster Protestant Volunteers were a loyalist group that clashed with republicans, including the IRA.",
-      "time_period": "1960s-1970s"
+      "context": "The Ulster Protestant Volunteers engaged in violent clashes with civil rights marchers, escalating tensions that the IRA responded to.",
+      "time_period": "1966-1970s"
     },
     {
       "source": "Provisional Irish Republican Army",
       "target": "Palestine Liberation Organization",
       "relationship": "alliance",
       "detail": null,
-      "context": "The PLO provided external aid to the Provisional IRA during its offensive campaign.",
-      "time_period": "1970s"
+      "context": "The PLO provided external aid to the Provisional IRA's offensive campaign.",
+      "time_period": "1970s-1980s"
     },
     {
       "source": "Provisional Irish Republican Army",

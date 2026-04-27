@@ -77,9 +77,11 @@
     {
       "standard_name": "Masseria faction",
       "original_text_name": "Masseria's faction",
-      "aliases": [],
+      "aliases": [
+        "Masseria gang"
+      ],
       "type": "faction",
-      "context": "Faction led by Giuseppe Masseria during the Castellammarese War, included Luciano, Anastasia, Genovese.",
+      "context": "Faction led by Giuseppe Masseria in the 1920s, opposed Maranzano in the Castellammarese War.",
       "time_period": "1920s-1931"
     },
     {
@@ -89,16 +91,8 @@
         "Maranzano faction"
       ],
       "type": "faction",
-      "context": "Faction led by Salvatore Maranzano during the Castellammarese War, included Bonanno, Profaci, Magaddino.",
+      "context": "Faction led by Salvatore Maranzano, fought Masseria in the Castellammarese War.",
       "time_period": "1920s-1931"
-    },
-    {
-      "standard_name": "Rizzuto crime family",
-      "original_text_name": "Rizzuto crime family",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Mafia family based in Quebec, Canada, with ties to the Bonanno family.",
-      "time_period": "1970s-present"
     },
     {
       "standard_name": "Bath Avenue Crew",
@@ -129,7 +123,7 @@
       "original_text_name": "Annadale-Rossville Boys",
       "aliases": [],
       "type": "gang",
-      "context": "Sub-group of the Staten Island Boys, associated with the Gambino family.",
+      "context": "Sub-group of the Staten Island Boys.",
       "time_period": null
     },
     {
@@ -137,7 +131,7 @@
       "original_text_name": "Great Kills Crew",
       "aliases": [],
       "type": "gang",
-      "context": "Sub-group of the Staten Island Boys, associated with the Gambino family.",
+      "context": "Sub-group of the Staten Island Boys.",
       "time_period": null
     },
     {
@@ -145,7 +139,7 @@
       "original_text_name": "North Staten Island Crew",
       "aliases": [],
       "type": "gang",
-      "context": "Sub-group of the Staten Island Boys, associated with the Gambino family.",
+      "context": "Sub-group of the Staten Island Boys.",
       "time_period": null
     },
     {
@@ -161,7 +155,7 @@
       "original_text_name": "Greenwich Village Crew",
       "aliases": [],
       "type": "gang",
-      "context": "Crew operating in Greenwich Village, Lower Manhattan, associated with the Genovese family.",
+      "context": "Crew operating in Greenwich Village, Manhattan, associated with the Genovese family.",
       "time_period": null
     },
     {
@@ -193,8 +187,16 @@
       "original_text_name": "Tanglewood Boys",
       "aliases": [],
       "type": "gang",
-      "context": "Recruitment gang operating in Westchester County, The Bronx, and Manhattan, associated with the Lucchese family.",
+      "context": "Recruitment gang operating in Westchester County, The Bronx, and Manhattan.",
       "time_period": null
+    },
+    {
+      "standard_name": "Rizzuto crime family",
+      "original_text_name": "Rizzuto crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Quebec, Canada, with ties to the Bonanno family.",
+      "time_period": "1970s-present"
     },
     {
       "standard_name": "Genovese family",
@@ -223,7 +225,7 @@
       "target": "Colombo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are among the Five Families and part of the Commission, cooperating under its authority.",
+      "context": "Both are among the Five Families, part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -231,7 +233,7 @@
       "target": "Gambino crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are among the Five Families and part of the Commission, cooperating under its authority.",
+      "context": "Both are among the Five Families, part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -239,7 +241,7 @@
       "target": "Genovese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are among the Five Families and part of the Commission, cooperating under its authority.",
+      "context": "Both are among the Five Families, part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -247,7 +249,7 @@
       "target": "Lucchese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are among the Five Families and part of the Commission, cooperating under its authority.",
+      "context": "Both are among the Five Families, part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -255,7 +257,7 @@
       "target": "Chicago Outfit",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the Commission, the ruling committee of the Mafia.",
+      "context": "Both are part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -263,7 +265,7 @@
       "target": "Buffalo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the Commission, the ruling committee of the Mafia.",
+      "context": "Both are part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -271,15 +273,7 @@
       "target": "Rizzuto crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Bonanno family has ties to the Rizzuto crime family in Quebec.",
-      "time_period": null
-    },
-    {
-      "source": "Bonanno crime family",
-      "target": "Bath Avenue Crew",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Bath Avenue Crew operated in Bensonhurst, Brooklyn, under the Bonanno family.",
+      "context": "The Bonanno family has ties to the Rizzuto family in Quebec.",
       "time_period": null
     },
     {
@@ -287,7 +281,7 @@
       "target": "Gambino crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are among the Five Families and part of the Commission, cooperating under its authority.",
+      "context": "Both are among the Five Families, part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -295,7 +289,7 @@
       "target": "Genovese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are among the Five Families and part of the Commission, cooperating under its authority.",
+      "context": "Both are among the Five Families, part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -303,7 +297,7 @@
       "target": "Lucchese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are among the Five Families and part of the Commission, cooperating under its authority.",
+      "context": "Both are among the Five Families, part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -311,7 +305,7 @@
       "target": "Chicago Outfit",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the Commission, the ruling committee of the Mafia.",
+      "context": "Both are part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -319,7 +313,7 @@
       "target": "Buffalo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the Commission, the ruling committee of the Mafia.",
+      "context": "Both are part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -327,7 +321,7 @@
       "target": "Genovese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are among the Five Families and part of the Commission, cooperating under its authority.",
+      "context": "Both are among the Five Families, part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -335,7 +329,7 @@
       "target": "Lucchese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are among the Five Families and part of the Commission, cooperating under its authority.",
+      "context": "Both are among the Five Families, part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -343,7 +337,7 @@
       "target": "Chicago Outfit",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the Commission, the ruling committee of the Mafia.",
+      "context": "Both are part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -351,55 +345,15 @@
       "target": "Buffalo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the Commission, the ruling committee of the Mafia.",
+      "context": "Both are part of the Commission.",
       "time_period": "1931-present"
-    },
-    {
-      "source": "Gambino crime family",
-      "target": "Ozone Park Boys",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Ozone Park Boys operate in Queens and Long Island under the Gambino family.",
-      "time_period": null
-    },
-    {
-      "source": "Gambino crime family",
-      "target": "Staten Island Boys",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Staten Island Boys operate in Staten Island under the Gambino family.",
-      "time_period": null
-    },
-    {
-      "source": "Staten Island Boys",
-      "target": "Annadale-Rossville Boys",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Annadale-Rossville Boys are a sub-group of the Staten Island Boys.",
-      "time_period": null
-    },
-    {
-      "source": "Staten Island Boys",
-      "target": "Great Kills Crew",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Great Kills Crew is a sub-group of the Staten Island Boys.",
-      "time_period": null
-    },
-    {
-      "source": "Staten Island Boys",
-      "target": "North Staten Island Crew",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The North Staten Island Crew is a sub-group of the Staten Island Boys.",
-      "time_period": null
     },
     {
       "source": "Genovese crime family",
       "target": "Lucchese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are among the Five Families and part of the Commission, cooperating under its authority.",
+      "context": "Both are among the Five Families, part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -407,7 +361,7 @@
       "target": "Chicago Outfit",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the Commission, the ruling committee of the Mafia.",
+      "context": "Both are part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -415,39 +369,15 @@
       "target": "Buffalo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the Commission, the ruling committee of the Mafia.",
+      "context": "Both are part of the Commission.",
       "time_period": "1931-present"
-    },
-    {
-      "source": "Genovese crime family",
-      "target": "116th Street Crew",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The 116th Street Crew operates in Upper Manhattan and The Bronx under the Genovese family.",
-      "time_period": null
-    },
-    {
-      "source": "Genovese crime family",
-      "target": "Greenwich Village Crew",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Greenwich Village Crew operates in Lower Manhattan under the Genovese family.",
-      "time_period": null
-    },
-    {
-      "source": "Genovese crime family",
-      "target": "Genovese crime family New Jersey faction",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The New Jersey faction operates throughout New Jersey under the Genovese family.",
-      "time_period": null
     },
     {
       "source": "Lucchese crime family",
       "target": "Chicago Outfit",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the Commission, the ruling committee of the Mafia.",
+      "context": "Both are part of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -455,48 +385,120 @@
       "target": "Buffalo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the Commission, the ruling committee of the Mafia.",
+      "context": "Both are part of the Commission.",
       "time_period": "1931-present"
-    },
-    {
-      "source": "Lucchese crime family",
-      "target": "Cutaia Crew",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Cutaia Crew operates in Brooklyn, Queens, and Long Island under the Lucchese family.",
-      "time_period": null
-    },
-    {
-      "source": "Lucchese crime family",
-      "target": "Lucchese crime family New Jersey faction",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The New Jersey faction operates throughout New Jersey under the Lucchese family.",
-      "time_period": null
-    },
-    {
-      "source": "Lucchese crime family",
-      "target": "Tanglewood Boys",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Tanglewood Boys were a recruitment gang operating in Westchester, the Bronx, and Manhattan under the Lucchese family.",
-      "time_period": null
-    },
-    {
-      "source": "Masseria faction",
-      "target": "Castellammarese faction",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "The two factions fought the Castellammarese War for control of the Mafia in New York.",
-      "time_period": "1928-1931"
     },
     {
       "source": "Chicago Outfit",
       "target": "Buffalo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the Commission, the ruling committee of the Mafia.",
+      "context": "Both are part of the Commission.",
       "time_period": "1931-present"
+    },
+    {
+      "source": "Masseria faction",
+      "target": "Castellammarese faction",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The two factions fought the Castellammarese War for control of the Mafia.",
+      "time_period": "1928-1931"
+    },
+    {
+      "source": "Bath Avenue Crew",
+      "target": "Bonanno crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Bath Avenue Crew operated in Bonanno territory and was associated with the family.",
+      "time_period": null
+    },
+    {
+      "source": "Ozone Park Boys",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Ozone Park Boys operated in Gambino territory and were associated with the family.",
+      "time_period": null
+    },
+    {
+      "source": "Staten Island Boys",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Staten Island Boys operated in Gambino territory and were associated with the family.",
+      "time_period": null
+    },
+    {
+      "source": "Annadale-Rossville Boys",
+      "target": "Staten Island Boys",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Annadale-Rossville Boys are a sub-group of the Staten Island Boys.",
+      "time_period": null
+    },
+    {
+      "source": "Great Kills Crew",
+      "target": "Staten Island Boys",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Great Kills Crew is a sub-group of the Staten Island Boys.",
+      "time_period": null
+    },
+    {
+      "source": "North Staten Island Crew",
+      "target": "Staten Island Boys",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The North Staten Island Crew is a sub-group of the Staten Island Boys.",
+      "time_period": null
+    },
+    {
+      "source": "116th Street Crew",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The 116th Street Crew operated in Genovese territory and was associated with the family.",
+      "time_period": null
+    },
+    {
+      "source": "Greenwich Village Crew",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Greenwich Village Crew operated in Genovese territory and was associated with the family.",
+      "time_period": null
+    },
+    {
+      "source": "Genovese crime family New Jersey faction",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The New Jersey faction is a part of the Genovese family.",
+      "time_period": null
+    },
+    {
+      "source": "Cutaia Crew",
+      "target": "Lucchese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Cutaia Crew operated in Lucchese territory and was associated with the family.",
+      "time_period": null
+    },
+    {
+      "source": "Lucchese crime family New Jersey faction",
+      "target": "Lucchese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The New Jersey faction is a part of the Lucchese family.",
+      "time_period": null
+    },
+    {
+      "source": "Tanglewood Boys",
+      "target": "Lucchese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Tanglewood Boys were a recruitment gang for the Lucchese family.",
+      "time_period": null
     }
   ],
   "source_file": "Five_Families"

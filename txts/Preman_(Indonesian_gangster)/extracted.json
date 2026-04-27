@@ -80,7 +80,7 @@
         "Youth Generation of Indonesia"
       ],
       "type": "militia",
-      "context": "Youth organization that had personal links to the underworld.",
+      "context": "Youth militia that had personal links to the Jakarta underworld.",
       "time_period": "1945-1946"
     },
     {
@@ -106,29 +106,13 @@
       "time_period": "1940s"
     },
     {
-      "standard_name": "Bambu Runcing Division",
-      "original_text_name": "Bambu Runcing Division",
-      "aliases": [],
-      "type": "militia",
-      "context": "Division to which some lasykar units pledged allegiance.",
-      "time_period": "1940s"
-    },
-    {
-      "standard_name": "SP88",
-      "original_text_name": "SP88",
-      "aliases": [],
-      "type": "militia",
-      "context": "Unit that engaged in psychological warfare against the Dutch.",
-      "time_period": "1940s"
-    },
-    {
       "standard_name": "Pasukan Siluman",
       "original_text_name": "Pasukan Siluman",
       "aliases": [
         "Ghost Squad"
       ],
-      "type": "militia",
-      "context": "Small unit that took up characteristics of pre-war gangs.",
+      "type": "gang",
+      "context": "Small unit of lasykar that took up characteristics of pre-war gangs.",
       "time_period": "1940s"
     },
     {
@@ -137,8 +121,8 @@
       "aliases": [
         "Black Jackal"
       ],
-      "type": "militia",
-      "context": "Small unit that took up characteristics of pre-war gangs.",
+      "type": "gang",
+      "context": "Small unit of lasykar that took up characteristics of pre-war gangs.",
       "time_period": "1940s"
     },
     {
@@ -147,8 +131,8 @@
       "aliases": [
         "Neck Cutters"
       ],
-      "type": "militia",
-      "context": "Small unit that took up characteristics of pre-war gangs.",
+      "type": "gang",
+      "context": "Small unit of lasykar that took up characteristics of pre-war gangs.",
       "time_period": "1940s"
     },
     {
@@ -157,8 +141,8 @@
       "aliases": [
         "White Eagle"
       ],
-      "type": "militia",
-      "context": "Small unit that took up characteristics of pre-war gangs.",
+      "type": "gang",
+      "context": "Small unit of lasykar that took up characteristics of pre-war gangs.",
       "time_period": "1940s"
     },
     {
@@ -176,7 +160,7 @@
         "Patriot Party"
       ],
       "type": "other",
-      "context": "A nationalist youth organization that absorbed many premans and galis after the petrus period.",
+      "context": "A nationalist youth organization that absorbed many premans after the petrus period; later formed a political party.",
       "time_period": "1960s-present"
     },
     {
@@ -185,7 +169,7 @@
       "aliases": [],
       "type": "other",
       "context": "A post-Pancasila ethnic/religious preman organization that emerged in the post-New Order period.",
-      "time_period": "1990s-present"
+      "time_period": "1998-present"
     },
     {
       "standard_name": "Front Pembela Islam",
@@ -193,7 +177,7 @@
       "aliases": [],
       "type": "other",
       "context": "A post-Pancasila religious preman organization that emerged in the post-New Order period.",
-      "time_period": "1990s-present"
+      "time_period": "1998-present"
     }
   ],
   "edges": [
@@ -210,24 +194,16 @@
       "target": "Jago",
       "relationship": "alliance",
       "detail": null,
-      "context": "PKI allied with Jakarta's underworld for support, protection, and organizational base.",
+      "context": "PKI allied with Jakarta's underworld, including Bantenese jagos (jawara), for support and protection.",
       "time_period": "1920s"
     },
     {
       "source": "Gerindo",
-      "target": "Jago",
+      "target": "Preman",
       "relationship": "alliance",
       "detail": null,
       "context": "Gerindo partnered with Jakarta's underworld to maintain popular credentials.",
       "time_period": "late 1930s"
-    },
-    {
-      "source": "Pembela Tanah Air",
-      "target": "Jago",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "PETA challenged the power of local gangs as a well-armed rival institution.",
-      "time_period": "1943-1945"
     },
     {
       "source": "BARA",
@@ -250,7 +226,7 @@
       "target": "Jago",
       "relationship": "alliance",
       "detail": null,
-      "context": "LRJR collaborated with local jagos like Haji Darip, Pak Macem, and Kyai Haji Nurali.",
+      "context": "LRJR collaborated with patriotic local jagos like Haji Darip.",
       "time_period": "1945-1946"
     },
     {
@@ -262,43 +238,35 @@
       "time_period": "1940s"
     },
     {
-      "source": "SP88",
-      "target": "Bambu Runcing Division",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "SP88 pledged allegiance to the Bambu Runcing Division.",
-      "time_period": "1940s"
-    },
-    {
       "source": "Pasukan Siluman",
-      "target": "SP88",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Pasukan Siluman was a small unit within SP88.",
+      "target": "Jago",
+      "relationship": "other",
+      "detail": "successor group",
+      "context": "Pasukan Siluman was a small unit of lasykar that evolved from pre-war jago gangs.",
       "time_period": "1940s"
     },
     {
       "source": "Srigala Hitam",
-      "target": "SP88",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Srigala Hitam was a small unit within SP88.",
+      "target": "Jago",
+      "relationship": "other",
+      "detail": "successor group",
+      "context": "Srigala Hitam was a small unit of lasykar that evolved from pre-war jago gangs.",
       "time_period": "1940s"
     },
     {
       "source": "Pemotong Leher",
-      "target": "SP88",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Pemotong Leher was a small unit within SP88.",
+      "target": "Jago",
+      "relationship": "other",
+      "detail": "successor group",
+      "context": "Pemotong Leher was a small unit of lasykar that evolved from pre-war jago gangs.",
       "time_period": "1940s"
     },
     {
       "source": "Garuda Putih",
-      "target": "SP88",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Garuda Putih was a small unit within SP88.",
+      "target": "Jago",
+      "relationship": "other",
+      "detail": "successor group",
+      "context": "Garuda Putih was a small unit of lasykar that evolved from pre-war jago gangs.",
       "time_period": "1940s"
     },
     {
@@ -313,17 +281,17 @@
       "source": "Pemuda Pancasila",
       "target": "Betawi Brotherhood Forum",
       "relationship": "other",
-      "detail": "split",
-      "context": "Betawi Brotherhood Forum is a new breed organization that split from the Pemuda Pancasila line.",
-      "time_period": "1990s-present"
+      "detail": "affiliated",
+      "context": "Local preman groups preferred to be affiliated to bigger groups like Pemuda Pancasila and Betawi Brotherhood Forum.",
+      "time_period": "1998-present"
     },
     {
       "source": "Pemuda Pancasila",
       "target": "Front Pembela Islam",
       "relationship": "other",
-      "detail": "split",
-      "context": "Front Pembela Islam is a new breed organization that split from the Pemuda Pancasila line.",
-      "time_period": "1990s-present"
+      "detail": "affiliated",
+      "context": "Local preman groups preferred to be affiliated to bigger groups like Pemuda Pancasila and Front Pembela Islam.",
+      "time_period": "1998-present"
     }
   ],
   "source_file": "Preman_(Indonesian_gangster)"

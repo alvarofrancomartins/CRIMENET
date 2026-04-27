@@ -5,7 +5,7 @@
       "original_text_name": "Los Zetas",
       "aliases": [],
       "type": "cartel",
-      "context": "Drug cartel that took over streets of Michoacán from previous groups.",
+      "context": "Drug cartel that took over streets of Michoacán, known for violence.",
       "time_period": "1990s-present"
     },
     {
@@ -13,7 +13,7 @@
       "original_text_name": "La Familia Michoacana",
       "aliases": [],
       "type": "cartel",
-      "context": "Local criminal gang created to oust Los Zetas and control Michoacán.",
+      "context": "Local criminal gang created to oust Los Zetas, later disintegrated.",
       "time_period": "2000s-2010s"
     },
     {
@@ -23,15 +23,15 @@
         "Caballeros Templarios"
       ],
       "type": "cartel",
-      "context": "Cartel formed by former La Familia Michoacana members; extorted, kidnapped, murdered.",
-      "time_period": "2010-2015"
+      "context": "Splinter group from La Familia Michoacana, extorted and killed civilians.",
+      "time_period": "2010s-present"
     },
     {
       "standard_name": "Los Viagras",
       "original_text_name": "Los Viagras",
       "aliases": [],
       "type": "cartel",
-      "context": "Cartel created by former Autodefensas leader Nicolás Sierra Santana; known for brutality.",
+      "context": "Drug cartel formed by former Autodefensas leader, known for brutality.",
       "time_period": "2014-present"
     },
     {
@@ -41,7 +41,7 @@
         "Jalisco's New-Generation Cartel"
       ],
       "type": "cartel",
-      "context": "Cartel with ties and rivalry to Los Viagras; suspected of infiltrating self-defense groups.",
+      "context": "Cartel with ties and rivalry to Los Viagras, suspected of infiltrating self-defense groups.",
       "time_period": "2009-present"
     },
     {
@@ -62,8 +62,18 @@
         "Policía Popular"
       ],
       "type": "militia",
-      "context": "Vigilante self-defense groups formed to fight cartels in Michoacán and Guerrero.",
+      "context": "Vigilante self-defense groups formed to fight cartels in Mexico.",
       "time_period": "2012-present"
+    },
+    {
+      "standard_name": "Rurales",
+      "original_text_name": "Rurales",
+      "aliases": [
+        "Rural Defense police"
+      ],
+      "type": "militia",
+      "context": "Registered self-defense groups absorbed into government as Rural Police.",
+      "time_period": "2013-present"
     },
     {
       "standard_name": "Pañuelo Negro",
@@ -72,7 +82,7 @@
         "Black Bandana"
       ],
       "type": "militia",
-      "context": "Self-defense group that emerged in Michoacán in January 2021.",
+      "context": "Self-defense group that emerged in Michoacan in 2021.",
       "time_period": "2021-present"
     }
   ],
@@ -89,32 +99,32 @@
       "source": "La Familia Michoacana",
       "target": "Knights Templar Cartel",
       "relationship": "other",
-      "detail": "successor",
+      "detail": "splinter group",
       "context": "After La Familia Michoacana disintegrated, former members created the Knights Templar Cartel.",
-      "time_period": "2010"
+      "time_period": "2010s"
     },
     {
       "source": "Knights Templar Cartel",
-      "target": "Grupos de autodefensa comunitaria",
+      "target": "Los Zetas",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Autodefensas formed to fight against Knights Templar Cartel's extortion and violence.",
-      "time_period": "2013-2015"
+      "context": "Knights Templar promised protection from Los Zetas, indicating rivalry.",
+      "time_period": "2010s"
     },
     {
       "source": "Grupos de autodefensa comunitaria",
-      "target": "Los Viagras",
-      "relationship": "other",
-      "detail": "splinter",
-      "context": "Los Viagras was created by former Autodefensas leader Nicolás Sierra Santana.",
-      "time_period": "2014"
+      "target": "Knights Templar Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Autodefensas formed to fight Knights Templar and other criminal groups.",
+      "time_period": "2013-present"
     },
     {
       "source": "Los Viagras",
       "target": "Jalisco New Generation Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Viagras has ties with the Jalisco New Generation Cartel.",
+      "context": "Los Viagras is known to have ties with the Jalisco New Generation Cartel.",
       "time_period": "2014-present"
     },
     {
@@ -126,12 +136,20 @@
       "time_period": "2014-present"
     },
     {
-      "source": "Jalisco New Generation Cartel",
-      "target": "Grupos de autodefensa comunitaria",
+      "source": "Grupos de autodefensa comunitaria",
+      "target": "Los Viagras",
       "relationship": "other",
-      "detail": "infiltration",
-      "context": "Government declared some fake Autodefensas are working for Jalisco New Generation Cartel.",
-      "time_period": "2015"
+      "detail": "splinter group",
+      "context": "Los Viagras emerged from Autodefensas when former leader created a drug cartel.",
+      "time_period": "2014"
+    },
+    {
+      "source": "Grupos de autodefensa comunitaria",
+      "target": "Rurales",
+      "relationship": "other",
+      "detail": "absorption",
+      "context": "Some Autodefensas were absorbed into Rurales, a government-sanctioned force.",
+      "time_period": "2013-present"
     },
     {
       "source": "Gulf Cartel",
@@ -139,7 +157,15 @@
       "relationship": "other",
       "detail": "infiltration",
       "context": "Suspected that some self-defense groups in Tamaulipas are members of Gulf Cartel.",
-      "time_period": "2013"
+      "time_period": "2010s"
+    },
+    {
+      "source": "Jalisco New Generation Cartel",
+      "target": "Grupos de autodefensa comunitaria",
+      "relationship": "other",
+      "detail": "infiltration",
+      "context": "Suspected that some self-defense groups in Jalisco are members of Jalisco New Generation Cartel.",
+      "time_period": "2010s"
     }
   ],
   "source_file": "Grupos_de_autodefensa_comunitaria"

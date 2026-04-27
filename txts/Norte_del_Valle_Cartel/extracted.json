@@ -64,7 +64,7 @@
         "Diego Montoya Organization"
       ],
       "type": "faction",
-      "context": "Paramilitary security force of Diego Montoya, later a drug trafficking organization.",
+      "context": "Paramilitary security force and hit squad for Diego Montoya, part of Norte del Valle Cartel.",
       "time_period": "2000s-2008"
     },
     {
@@ -74,7 +74,7 @@
         "Wilber Varela Organization"
       ],
       "type": "faction",
-      "context": "Colombian drug trafficking paramilitary group formed by Wilber Varela in 2004.",
+      "context": "Drug trafficking paramilitary group formed by Wilber Varela after split with Montoya.",
       "time_period": "2004-present"
     },
     {
@@ -139,6 +139,22 @@
     },
     {
       "source": "Norte del Valle Cartel",
+      "target": "Los Machos",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Los Machos was Montoya's security force within the Norte del Valle Cartel.",
+      "time_period": "2000s-2008"
+    },
+    {
+      "source": "Norte del Valle Cartel",
+      "target": "Los Rastrojos",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Los Rastrojos formed from a faction of the Norte del Valle Cartel under Wilber Varela.",
+      "time_period": "2004-2008"
+    },
+    {
+      "source": "Norte del Valle Cartel",
       "target": "Sinaloa Cartel",
       "relationship": "alliance",
       "detail": null,
@@ -154,35 +170,11 @@
       "time_period": null
     },
     {
-      "source": "Los Machos",
-      "target": "Norte del Valle Cartel",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Los Machos started as Montoya's security force within the Norte del Valle Cartel.",
-      "time_period": "2000s-2008"
-    },
-    {
       "source": "Los Rastrojos",
-      "target": "Norte del Valle Cartel",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "Los Rastrojos formed from a faction of the Norte del Valle Cartel after Varela split from Montoya.",
-      "time_period": "2004-2008"
-    },
-    {
-      "source": "Los Rastrojos",
-      "target": "Los Machos",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Los Rastrojos and Los Machos were at war during the Montoya-Varela conflict.",
-      "time_period": "2004-2008"
-    },
-    {
-      "source": "AUC",
-      "target": "Los Rastrojos",
+      "target": "AUC",
       "relationship": "alliance",
       "detail": null,
-      "context": "AUC commander Carlos Mario Jimenez conspired with Los Rastrojos leaders to murder Wilber Varela.",
+      "context": "Los Rastrojos conspired with AUC commander Carlos Mario Jiménez to murder Wilber Varela.",
       "time_period": "2008"
     }
   ],

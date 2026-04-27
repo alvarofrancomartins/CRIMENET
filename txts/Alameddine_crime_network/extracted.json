@@ -13,7 +13,7 @@
         "Alameddines"
       ],
       "type": "gang",
-      "context": "Australian organised crime group based in Western Sydney, involved in drug trafficking.",
+      "context": "Australian organised crime group operating out of Merrylands, Western Sydney, involved in drug trafficking.",
       "time_period": "1990s-present"
     },
     {
@@ -27,9 +27,9 @@
         "Hamzy family",
         "Hamzy/Hamze crime family"
       ],
-      "type": "gang",
-      "context": "Dominant faction of Brothers for Life, involved in Sydney gangland war.",
-      "time_period": "2000s-present"
+      "type": "clan",
+      "context": "Crime family involved in Sydney gangland war, dominant faction of Brothers for Life.",
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Brothers for Life",
@@ -38,7 +38,7 @@
         "B4L"
       ],
       "type": "gang",
-      "context": "Sydney-based gang involved in drug trafficking and violence, with Lebanese and Afghan chapters.",
+      "context": "Sydney-based gang with Lebanese and Afghan chapters, involved in drug trafficking and violence.",
       "time_period": "2000s-present"
     },
     {
@@ -49,7 +49,7 @@
         "Islamic State of Iraq and Syria"
       ],
       "type": "terrorist_organization",
-      "context": "Militant jihadist group, linked to Alameddine members via extremist connections.",
+      "context": "Militant jihadist group, linked to Alameddine members through extremist connections.",
       "time_period": "2014-present"
     },
     {
@@ -59,7 +59,7 @@
         "Hauochars"
       ],
       "type": "clan",
-      "context": "Allies of Alameddine, linked to extremist activity and potential gun supply.",
+      "context": "Allies of Alameddine crime network, linked to extremist activity.",
       "time_period": "2010s-present"
     },
     {
@@ -69,8 +69,16 @@
         "Comancheros"
       ],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club, former affiliation of Masood Zakaria.",
+      "context": "Outlaw motorcycle club in Australia, involved in drug trafficking and violence.",
       "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "DLASTHR",
+      "original_text_name": "DLASTHR",
+      "aliases": [],
+      "type": "gang",
+      "context": "Sydney gang, member Samer Marcus was target of attempted murder.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "R4W",
@@ -79,16 +87,8 @@
         "Ready for War"
       ],
       "type": "faction",
-      "context": "Subset of Alameddine family targeted by police for drug distribution.",
+      "context": "Subset of Alameddine crime network, targeted by police Strike Force Sugarcane.",
       "time_period": "2020s"
-    },
-    {
-      "standard_name": "DLASTHR",
-      "original_text_name": "DLASTHR",
-      "aliases": [],
-      "type": "gang",
-      "context": "Sydney gang, member Samer Marcus was target of attempted murder.",
-      "time_period": "2010s-present"
     },
     {
       "standard_name": "Elmir family",
@@ -171,7 +171,7 @@
       "target": "Hamzy crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Extended feud since October 2020, part of Sydney gangland war.",
+      "context": "Extended feud since October 2020 as part of Sydney gangland war.",
       "time_period": "2020-present"
     },
     {
@@ -186,8 +186,8 @@
       "source": "Alameddine crime network",
       "target": "Islamic State",
       "relationship": "other",
-      "detail": "alleged connection",
-      "context": "Talal Alameddine implied connection; members watched ISIS videos.",
+      "detail": "ideological link",
+      "context": "Members implied connection to ISIS; some attempted to join or expressed support.",
       "time_period": "2015-present"
     },
     {
@@ -195,7 +195,7 @@
       "target": "Hauochar Clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Long-time allies; Hauochars may have supplied gun for Lindt Cafe siege.",
+      "context": "Long-time allies; Hauochars may have sold gun used in Lindt Cafe siege.",
       "time_period": "2010s-present"
     },
     {
@@ -203,7 +203,7 @@
       "target": "Comanchero Motorcycle Club",
       "relationship": "other",
       "detail": "former membership",
-      "context": "Masood Zakaria was a lieutenant in Comanchero before joining Brothers for Life.",
+      "context": "Masood Zakaria, a Brothers for Life member, was formerly a lieutenant in Comanchero.",
       "time_period": "before 2013"
     },
     {
@@ -211,16 +211,16 @@
       "target": "R4W",
       "relationship": "alliance",
       "detail": null,
-      "context": "R4W is a subset of the Alameddine family.",
+      "context": "R4W is a subset of the Alameddine crime network.",
       "time_period": "2020s"
     },
     {
       "source": "Alameddine crime network",
-      "target": "DLASTHR",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Alameddine associate Luke Sparos attempted murder of DLASTHR gangster Samer Marcus.",
-      "time_period": "2020"
+      "target": "Islamic State",
+      "relationship": "other",
+      "detail": "alleged connection",
+      "context": "Talal Alameddine implied network connection to ISIS during legal proceedings.",
+      "time_period": "2015"
     },
     {
       "source": "Alameddine crime network",
@@ -353,9 +353,9 @@
       "source": "Lone Wolf bikie",
       "target": "Alameddine crime network",
       "relationship": "other",
-      "detail": "marriage connection",
-      "context": "Jade Heffer, widow of Lone Wolf bikie Yusuf Nazlioglu, later married Alameddine member Trente Jeske.",
-      "time_period": "2024"
+      "detail": "personal association",
+      "context": "Jade Heffer, widow of Lone Wolf bikie Yusuf Nazlioglu, later dated Alameddine associate Ahmed Alameddine.",
+      "time_period": "2023"
     },
     {
       "source": "Alameddine crime network",

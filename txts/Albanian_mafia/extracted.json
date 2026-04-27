@@ -58,17 +58,18 @@
       "original_text_name": "Parisi-Palermiti clan",
       "aliases": [],
       "type": "clan",
-      "context": "Bari-based clan involved in drug cutting and packaging, connected to Albanian mafia.",
+      "context": "Bari-based clan involved in drug trafficking with Albanian mafia.",
       "time_period": "unknown"
     },
     {
-      "standard_name": "Sicilian Mafia",
-      "original_text_name": "Sicilian Mafia",
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
       "aliases": [
-        "Cosa Nostra"
+        "Italian Mafia",
+        "Sicilian Mafia"
       ],
       "type": "mafia",
-      "context": "Sicilian mafia that formed symbiotic relationship with Albanian mafia in the 1990s.",
+      "context": "Sicilian mafia that formed symbiotic relationships with Albanian mafia in the 1990s.",
       "time_period": "19th century-present"
     },
     {
@@ -76,15 +77,17 @@
       "original_text_name": "Sacra Corona Unita",
       "aliases": [],
       "type": "mafia",
-      "context": "Apulia-based mafia group that partners with Albanian mafia in various criminal activities.",
+      "context": "Apulia-based mafia group partnered with Albanian mafia in various criminal activities.",
       "time_period": "1980s-present"
     },
     {
       "standard_name": "Camorra",
       "original_text_name": "Camorra",
-      "aliases": [],
+      "aliases": [
+        "Napolitan Camorra"
+      ],
       "type": "mafia",
-      "context": "Neapolitan mafia with alliances with Albanian mafia clans.",
+      "context": "Naples-based mafia with alliances with Albanian mafia clans.",
       "time_period": "18th century-present"
     },
     {
@@ -138,6 +141,14 @@
       "time_period": "unknown"
     },
     {
+      "standard_name": "Hellbanianz",
+      "original_text_name": "Hellbanianz",
+      "aliases": [],
+      "type": "gang",
+      "context": "Albanian criminal group in the UK involved in drug trafficking.",
+      "time_period": "unknown"
+    },
+    {
       "standard_name": "Turkish mafia",
       "original_text_name": "Turkish mafia",
       "aliases": [
@@ -148,20 +159,12 @@
       "time_period": "unknown"
     },
     {
-      "standard_name": "Hellbanianz",
-      "original_text_name": "Hellbanianz",
-      "aliases": [],
-      "type": "gang",
-      "context": "Albanian gang in the UK involved in drug trafficking.",
-      "time_period": "unknown"
-    },
-    {
-      "standard_name": "Russian mafia",
-      "original_text_name": "Russian mafia",
+      "standard_name": "Serbian mafia",
+      "original_text_name": "Serbian mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Russian organized crime, considered one of the 'big three' mafias in Canada alongside Italian and Albanian.",
-      "time_period": "1990s-present"
+      "context": "Serbian criminal groups controlling heroin, weapon and sex trafficking in Scandinavia alongside Albanian mafia.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "Rudaj Organization",
@@ -178,16 +181,6 @@
       "type": "gang",
       "context": "Albanian-American street gang based in New York City.",
       "time_period": "mid-1980s-present"
-    },
-    {
-      "standard_name": "Cosa Nostra",
-      "original_text_name": "Cosa Nostra",
-      "aliases": [
-        "Italian Mafia"
-      ],
-      "type": "mafia",
-      "context": "Italian-American Mafia crime families operating in the United States.",
-      "time_period": "20th century-present"
     },
     {
       "standard_name": "Latin Kings",
@@ -343,15 +336,15 @@
       "target": "Parisi-Palermiti clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Albanian mafia had a 'communion of interests' with Parisi-Palermiti clan in drug trafficking operations.",
+      "context": "Albanian mafia had a 'communion of interests' with Parisi-Palermiti clan in drug trafficking.",
       "time_period": "since 2016"
     },
     {
       "source": "Albanian mafia",
-      "target": "Sicilian Mafia",
+      "target": "Cosa Nostra",
       "relationship": "alliance",
       "detail": null,
-      "context": "Sicilian Mafia formed a symbiotic relationship with Albanian mafia in the 1990s, franchising criminal activities.",
+      "context": "Albanian mafia formed a symbiotic relationship with Cosa Nostra in the 1990s, franchising criminal activities.",
       "time_period": "1990s-present"
     },
     {
@@ -359,15 +352,15 @@
       "target": "Sacra Corona Unita",
       "relationship": "alliance",
       "detail": null,
-      "context": "Sacra Corona Unita and Albanian mafia are partners in Apulia, delegating criminal activities.",
-      "time_period": "1990s-present"
+      "context": "Albanian mafia and Sacra Corona Unita are partners in Apulia, delegating criminal activities.",
+      "time_period": "unknown"
     },
     {
       "source": "Albanian mafia",
       "target": "Camorra",
       "relationship": "alliance",
       "detail": null,
-      "context": "Albanian mafia has brotherly relationship with Camorra, with alliances with several clans.",
+      "context": "Albanian mafia has a brotherly relationship with Camorra, with alliances with several clans.",
       "time_period": "unknown"
     },
     {
@@ -399,7 +392,7 @@
       "target": "Barbaro 'ndrina",
       "relationship": "alliance",
       "detail": null,
-      "context": "Albanian mafia acted as brokers in cocaine trafficking network with Barbaro 'ndrina.",
+      "context": "Albanian mafia acted as brokers in cocaine trafficking with Barbaro 'ndrina.",
       "time_period": "unknown"
     },
     {
@@ -420,19 +413,11 @@
     },
     {
       "source": "Albanian mafia",
-      "target": "Hellbanianz",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Hellbanianz is an Albanian gang in the UK involved in drug trafficking, part of Albanian mafia.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "Albanian mafia",
-      "target": "Xhelili clan",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Xhelili clan is a Kosovar-Albanian criminal organization operating in Sweden.",
-      "time_period": "unknown"
+      "target": "Serbian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Albanian mafia along with Serbian mafia controls heroin, weapon and sex trafficking in Scandinavia.",
+      "time_period": "late 1990s-present"
     },
     {
       "source": "Albanian mafia",

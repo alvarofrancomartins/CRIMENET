@@ -20,8 +20,85 @@
         "Mexican Mafia"
       ],
       "type": "gang",
-      "context": "Prison gang that the Playboys align with.",
+      "context": "Prison gang that the Playboys align with; also known as La EME.",
       "time_period": null
+    },
+    {
+      "standard_name": "Malos",
+      "original_text_name": "Malos",
+      "aliases": [
+        "MLS"
+      ],
+      "type": "faction",
+      "context": "Oldest clique of the Playboys gang.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Chicos Locos",
+      "original_text_name": "Chicos Locos",
+      "aliases": [
+        "CLS"
+      ],
+      "type": "faction",
+      "context": "Clique of the Playboys gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bunny Gangster",
+      "original_text_name": "Bunny Gangster",
+      "aliases": [
+        "BGS"
+      ],
+      "type": "faction",
+      "context": "Clique of the Playboys gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Dukes",
+      "original_text_name": "Dukes",
+      "aliases": [
+        "DKS"
+      ],
+      "type": "faction",
+      "context": "Clique of the Playboys gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Crystal Bunnies",
+      "original_text_name": "Crystal Bunnies",
+      "aliases": [
+        "CBS"
+      ],
+      "type": "faction",
+      "context": "All-female clique of the Playboys gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "East Side Playboys",
+      "original_text_name": "East side Playboys 49th street clique",
+      "aliases": [],
+      "type": "faction",
+      "context": "Clique formed by Playboys Malos members in South Central Los Angeles.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "South Side Playboys",
+      "original_text_name": "South Side Playboys",
+      "aliases": [
+        "Enanos",
+        "ENS"
+      ],
+      "type": "faction",
+      "context": "Clique formed in Bell Gardens and South Gate area in the 1980s.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Orange County Playboys",
+      "original_text_name": "Orange County Playboys",
+      "aliases": [],
+      "type": "faction",
+      "context": "Clique started in Garden Grove, Orange County in the 1990s.",
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Sureños",
@@ -110,7 +187,7 @@
       "target": "MS-13",
       "relationship": "alliance",
       "detail": null,
-      "context": "Infobox lists MS-13 as an ally.",
+      "context": "MS-13 is listed as an ally in the infobox.",
       "time_period": null
     },
     {
@@ -118,7 +195,7 @@
       "target": "Aryan Brotherhood",
       "relationship": "alliance",
       "detail": null,
-      "context": "Infobox lists Aryan Brotherhood as an ally.",
+      "context": "Aryan Brotherhood is listed as an ally in the infobox.",
       "time_period": null
     },
     {
@@ -126,7 +203,7 @@
       "target": "Primera Flats",
       "relationship": "alliance",
       "detail": null,
-      "context": "Infobox lists Primera Flats as an ally.",
+      "context": "Primera Flats is listed as an ally in the infobox.",
       "time_period": null
     },
     {
@@ -134,7 +211,7 @@
       "target": "18th Street gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Infobox lists 18th Street gang as a rival.",
+      "context": "18th Street gang is listed as a rival in the infobox.",
       "time_period": null
     },
     {
@@ -142,7 +219,7 @@
       "target": "38th Street gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Infobox lists 38th Street gang as a rival.",
+      "context": "38th Street gang is listed as a rival in the infobox.",
       "time_period": null
     },
     {
@@ -150,7 +227,7 @@
       "target": "Venice Shoreline Crips",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Infobox lists Venice Shoreline Crips as a rival.",
+      "context": "Venice Shoreline Crips is listed as a rival in the infobox.",
       "time_period": null
     },
     {
@@ -158,7 +235,71 @@
       "target": "Florencia 13",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Infobox lists Florencia 13 as a rival.",
+      "context": "Florencia 13 is listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Playboys 13",
+      "target": "Malos",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Malos is a clique (sub-group) of the Playboys.",
+      "time_period": null
+    },
+    {
+      "source": "Playboys 13",
+      "target": "Chicos Locos",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Chicos Locos is a clique of the Playboys.",
+      "time_period": null
+    },
+    {
+      "source": "Playboys 13",
+      "target": "Bunny Gangster",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Bunny Gangster is a clique of the Playboys.",
+      "time_period": null
+    },
+    {
+      "source": "Playboys 13",
+      "target": "Dukes",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Dukes is a clique of the Playboys.",
+      "time_period": null
+    },
+    {
+      "source": "Playboys 13",
+      "target": "Crystal Bunnies",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Crystal Bunnies is an all-female clique of the Playboys.",
+      "time_period": null
+    },
+    {
+      "source": "Playboys 13",
+      "target": "East Side Playboys",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "East Side Playboys is a clique formed by Playboys Malos members.",
+      "time_period": null
+    },
+    {
+      "source": "Playboys 13",
+      "target": "South Side Playboys",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "South Side Playboys is a clique formed in the 1980s.",
+      "time_period": null
+    },
+    {
+      "source": "Playboys 13",
+      "target": "Orange County Playboys",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Orange County Playboys is a clique started in the 1990s.",
       "time_period": null
     }
   ],

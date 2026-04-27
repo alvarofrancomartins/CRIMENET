@@ -24,8 +24,7 @@
       "standard_name": "Karen National Union",
       "original_text_name": "Karen National Union",
       "aliases": [
-        "KNU",
-        "Karen National Union"
+        "KNU"
       ],
       "type": "other",
       "context": "Ethnic armed organization fighting for Karen autonomy or independence.",
@@ -108,7 +107,7 @@
       "original_text_name": "Northern Alliance",
       "aliases": [],
       "type": "other",
-      "context": "Coalition of four insurgent groups attacking towns along China border.",
+      "context": "Coalition of four insurgent groups: AA, KIA, MNDAA, TNLA.",
       "time_period": "2016-present"
     },
     {
@@ -118,7 +117,7 @@
         "ABSDF"
       ],
       "type": "other",
-      "context": "Student-led insurgent group, signatory of ceasefire agreement.",
+      "context": "Student-led insurgent group, signatory of Nationwide Ceasefire Agreement.",
       "time_period": "1988-present"
     },
     {
@@ -146,7 +145,7 @@
         "KPDF"
       ],
       "type": "other",
-      "context": "Armed group in Kayah State clashing with Tatmadaw.",
+      "context": "Armed group in Kayah State, clashed with Tatmadaw.",
       "time_period": "2021-present"
     },
     {
@@ -278,7 +277,7 @@
         "NMSP"
       ],
       "type": "other",
-      "context": "Mon political group seeking self-determination since 1962.",
+      "context": "Political party seeking Mon self-determination since 1962.",
       "time_period": "1962-present"
     },
     {
@@ -288,7 +287,7 @@
         "MNLA"
       ],
       "type": "militia",
-      "context": "Armed wing of NMSP, fighting since 1949, signed ceasefire in 2015.",
+      "context": "Armed wing of NMSP, fighting since 1949; signed ceasefire in 2015.",
       "time_period": "1949-present"
     },
     {
@@ -312,16 +311,6 @@
       "time_period": "1964-1976"
     },
     {
-      "standard_name": "Shan State Progress Party",
-      "original_text_name": "Shan State Progress Party (SSPP)",
-      "aliases": [
-        "SSPP"
-      ],
-      "type": "other",
-      "context": "Political wing formed in 1971, later formed SSA-N.",
-      "time_period": "1971-present"
-    },
-    {
       "standard_name": "Shan State Army – North",
       "original_text_name": "Shan State Army – North (SSA-N)",
       "aliases": [
@@ -329,7 +318,7 @@
         "Shan State Army – North"
       ],
       "type": "militia",
-      "context": "Pro-communist faction formed after SSA collapse, signed ceasefire in 1989.",
+      "context": "Pro-communist faction formed after SSA collapse; signed ceasefire in 1989.",
       "time_period": "1976-present"
     },
     {
@@ -444,7 +433,7 @@
         "Shan State Army-South"
       ],
       "type": "militia",
-      "context": "Insurgent group accused of press-ganging child soldiers.",
+      "context": "Insurgent group accused of press-ganging minors.",
       "time_period": "1996-present"
     },
     {
@@ -459,14 +448,6 @@
   "edges": [
     {
       "source": "Tatmadaw",
-      "target": "Communist Party of Burma",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Tatmadaw fought CPB in post-independence insurgencies.",
-      "time_period": "1948-1980s"
-    },
-    {
-      "source": "Tatmadaw",
       "target": "Karen National Union",
       "relationship": "rivalry",
       "detail": null,
@@ -475,19 +456,11 @@
     },
     {
       "source": "Tatmadaw",
-      "target": "Kachin Independence Army",
+      "target": "Communist Party of Burma",
       "relationship": "rivalry",
       "detail": null,
-      "context": "KIA formed to fight Tatmadaw after Ne Win's coup.",
-      "time_period": "1960s-present"
-    },
-    {
-      "source": "Karen National Union",
-      "target": "Karen National Liberation Army",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "KNLA is the armed wing of KNU.",
-      "time_period": "1960s-present"
+      "context": "Tatmadaw fought CPB insurgency since independence.",
+      "time_period": "1948-1980s"
     },
     {
       "source": "Tatmadaw",
@@ -514,84 +487,60 @@
       "time_period": "2016-present"
     },
     {
-      "source": "Arakan Army",
+      "source": "Tatmadaw",
       "target": "Northern Alliance",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "AA is a member of the Northern Alliance coalition.",
-      "time_period": "2016-present"
-    },
-    {
-      "source": "Kachin Independence Army",
-      "target": "Northern Alliance",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "KIA is a member of the Northern Alliance coalition.",
-      "time_period": "2016-present"
-    },
-    {
-      "source": "Myanmar National Democratic Alliance Army",
-      "target": "Northern Alliance",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "MNDAA is a member of the Northern Alliance coalition.",
-      "time_period": "2016-present"
-    },
-    {
-      "source": "Ta'ang National Liberation Army",
-      "target": "Northern Alliance",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "TNLA is a member of the Northern Alliance coalition.",
-      "time_period": "2016-present"
-    },
-    {
-      "source": "Northern Alliance",
-      "target": "Tatmadaw",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Northern Alliance attacked towns and border posts, leading to clashes with Tatmadaw.",
+      "context": "Tatmadaw fought Northern Alliance in Shan State from 2016.",
       "time_period": "2016-present"
     },
     {
-      "source": "All Burma Student Democratic Front",
-      "target": "National Unity Government",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "ABSDF joined the National Unity Government in 2021.",
-      "time_period": "2021"
-    },
-    {
-      "source": "Karen National Union",
-      "target": "National Unity Government",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "KNU joined the National Unity Government in 2021.",
-      "time_period": "2021"
-    },
-    {
-      "source": "Chinland Defence Force",
-      "target": "Tatmadaw",
+      "source": "Tatmadaw",
+      "target": "Kachin Independence Army",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Chinland Defence Force began armed resistance against Tatmadaw in 2021.",
-      "time_period": "2021-present"
+      "context": "KIA resumed attacks after 2021 coup.",
+      "time_period": "1960s-present"
     },
     {
-      "source": "People's Defence Force",
-      "target": "Tatmadaw",
+      "source": "Tatmadaw",
+      "target": "Karen National Liberation Army",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Tatmadaw launched offensive against KNLA in 2006.",
+      "time_period": "2006"
+    },
+    {
+      "source": "Tatmadaw",
+      "target": "People's Defence Force",
       "relationship": "rivalry",
       "detail": null,
       "context": "PDF clashed with Tatmadaw in Muse in May 2021.",
       "time_period": "2021-present"
     },
     {
-      "source": "Karenni People's Defence Force",
-      "target": "Tatmadaw",
+      "source": "Tatmadaw",
+      "target": "Chinland Defence Force",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Chinland Defence Force resisted Tatmadaw in Chin State.",
+      "time_period": "2021-present"
+    },
+    {
+      "source": "Tatmadaw",
+      "target": "Karenni People's Defence Force",
       "relationship": "rivalry",
       "detail": null,
       "context": "KPDF clashed with Tatmadaw near Loikaw.",
       "time_period": "2021-present"
+    },
+    {
+      "source": "Karen National Union",
+      "target": "Karen National Liberation Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "KNLA is the armed wing of KNU.",
+      "time_period": "1960s-present"
     },
     {
       "source": "Communist Party of Burma",
@@ -600,6 +549,78 @@
       "detail": null,
       "context": "People's Liberation Army is the new armed wing of CPB.",
       "time_period": "2021-present"
+    },
+    {
+      "source": "Arakan Army",
+      "target": "Northern Alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "AA is a member of the Northern Alliance.",
+      "time_period": "2016-present"
+    },
+    {
+      "source": "Kachin Independence Army",
+      "target": "Northern Alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "KIA is a member of the Northern Alliance.",
+      "time_period": "2016-present"
+    },
+    {
+      "source": "Myanmar National Democratic Alliance Army",
+      "target": "Northern Alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MNDAA is a member of the Northern Alliance.",
+      "time_period": "2016-present"
+    },
+    {
+      "source": "Ta'ang National Liberation Army",
+      "target": "Northern Alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "TNLA is a member of the Northern Alliance.",
+      "time_period": "2016-present"
+    },
+    {
+      "source": "Karen National Union",
+      "target": "All Burma Student Democratic Front",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both signed Nationwide Ceasefire Agreement and joined National Unity Government.",
+      "time_period": "2021"
+    },
+    {
+      "source": "Karen National Union",
+      "target": "National Unity Government",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "KNU joined the National Unity Government in 2021.",
+      "time_period": "2021-present"
+    },
+    {
+      "source": "All Burma Student Democratic Front",
+      "target": "National Unity Government",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "ABSDF joined the National Unity Government in 2021.",
+      "time_period": "2021-present"
+    },
+    {
+      "source": "National Unity Government",
+      "target": "People's Defence Force",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "PDF is the armed wing of the National Unity Government.",
+      "time_period": "2021-present"
+    },
+    {
+      "source": "Chin Liberation Army",
+      "target": "Mizo National Front",
+      "relationship": "other",
+      "detail": "shared ethnicity",
+      "context": "Both represent Zo people (Chin, Mizo, Kuki) with common culture.",
+      "time_period": null
     },
     {
       "source": "Kachin Independence Army",
@@ -618,6 +639,22 @@
       "time_period": "1957-present"
     },
     {
+      "source": "Karenni Army",
+      "target": "Kayan New Land Party",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "KNLP is a rival to KNPP and its armed wing Karenni Army.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Karenni Army",
+      "target": "Karenni National People's Liberation Front",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "KNPLF is a rival to KNPP and its armed wing Karenni Army.",
+      "time_period": "1990s"
+    },
+    {
       "source": "Karen National Liberation Army",
       "target": "Karen National Union",
       "relationship": "other",
@@ -634,36 +671,12 @@
       "time_period": "1962-present"
     },
     {
-      "source": "Shan State Army – North",
-      "target": "Shan State Progress Party",
-      "relationship": "other",
-      "detail": "armed wing",
-      "context": "SSA-N is the armed wing of SSPP.",
-      "time_period": "1976-present"
-    },
-    {
-      "source": "Karenni Army",
-      "target": "Kayan New Land Party",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "KNLP is a rival to KNPP and its armed wing Karenni Army.",
-      "time_period": "1990s-present"
-    },
-    {
-      "source": "Karenni Army",
-      "target": "Karenni National People's Liberation Front",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "KNPLF is a rival to KNPP and its armed wing Karenni Army.",
-      "time_period": "1990s-present"
-    },
-    {
       "source": "Mon National Liberation Army",
       "target": "Karen National Liberation Army",
       "relationship": "rivalry",
       "detail": null,
       "context": "MNLA has had minor skirmishes with KNLA.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "source": "Shan State Army",
@@ -674,11 +687,19 @@
       "time_period": "1960s-1976"
     },
     {
+      "source": "Shan State Army – North",
+      "target": "Communist Party of Burma",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "SSA-N was pro-communist and formed after CPB collapse.",
+      "time_period": "1976-1989"
+    },
+    {
       "source": "National Democratic Alliance Army",
       "target": "Communist Party of Burma",
       "relationship": "other",
       "detail": "splinter group",
-      "context": "NDAA was a splinter group that broke away from CPB in 1989.",
+      "context": "NDAA broke away from CPB in 1989.",
       "time_period": "1989"
     },
     {
@@ -731,6 +752,14 @@
       "relationship": "alliance",
       "context": "UWSA is allegedly linked to the Northern Alliance, a coalition of insurgent groups.",
       "time_period": "2010s-present"
+    },
+    {
+      "source": "Arakan Rohingya Salvation Army",
+      "target": "United Wa State Army",
+      "relationship": "other",
+      "detail": "no direct relation",
+      "context": "No direct relationship mentioned; both are insurgent groups in Myanmar.",
+      "time_period": null
     },
     {
       "source": "Tatmadaw",

@@ -48,9 +48,7 @@
     {
       "standard_name": "Hells Angels",
       "original_text_name": "Hells Angels",
-      "aliases": [
-        "Hells Angels MC"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
       "context": "Outlaw motorcycle club; Rizzuto mediated peace among them and other groups.",
       "time_period": "1948-present"
@@ -90,12 +88,20 @@
       "time_period": "1920s-present"
     },
     {
-      "standard_name": "Cuntrera-Caruana Mafia clan",
-      "original_text_name": "Cuntrera-Caruana Mafia clan",
+      "standard_name": "The 67s",
+      "original_text_name": "the 67s",
       "aliases": [],
-      "type": "clan",
-      "context": "Sicilian Mafia clan allied with the Rizzuto family.",
-      "time_period": null
+      "type": "gang",
+      "context": "Haitian-based street gang from Saint-Michel, Montreal, associated with the Crips.",
+      "time_period": "late 1980s–present"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Large street gang based in Los Angeles, associated with the 67s.",
+      "time_period": "1969–present"
     },
     {
       "standard_name": "Musitano crime family",
@@ -105,15 +111,7 @@
       ],
       "type": "mafia",
       "context": "Hamilton, Ontario-based Mafia family aligned with the Rizzutos.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Independent Soldiers",
-      "original_text_name": "Independent Soldiers",
-      "aliases": [],
-      "type": "gang",
-      "context": "Montreal street gang; allied with the Rizzutos.",
-      "time_period": null
+      "time_period": "c. 1970s–present"
     },
     {
       "standard_name": "Luppino crime family",
@@ -122,50 +120,48 @@
         "Luppino crime gang"
       ],
       "type": "mafia",
-      "context": "Hamilton-based Mafia family; rival of the Rizzutos.",
-      "time_period": null
+      "context": "Hamilton-based Mafia family, rival to the Musitanos and Rizzutos.",
+      "time_period": "c. 1970s–present"
+    },
+    {
+      "standard_name": "Papalia crime family",
+      "original_text_name": "Papalia crime gangs",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Hamilton-based Mafia family, rival to the Musitanos and Rizzutos.",
+      "time_period": "c. 1970s–present"
+    },
+    {
+      "standard_name": "Independent Soldiers",
+      "original_text_name": "Independent Soldiers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Montreal-based street gang, allied with the Rizzutos.",
+      "time_period": "c. 1990s–present"
+    },
+    {
+      "standard_name": "Cuntrera-Caruana Mafia clan",
+      "original_text_name": "Cuntrera-Caruana Mafia clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Sicilian Mafia clan allied with the Rizzutos.",
+      "time_period": "c. 1970s–present"
     },
     {
       "standard_name": "Siderno Group",
       "original_text_name": "Siderno Group",
       "aliases": [],
       "type": "mafia",
-      "context": "Calabrian Mafia group; rival of the Rizzutos.",
-      "time_period": null
+      "context": "Calabrian Mafia group based in Siderno, rival to the Rizzutos.",
+      "time_period": "c. 1970s–present"
     },
     {
       "standard_name": "Commisso 'ndrina",
       "original_text_name": "Commisso 'ndrina",
       "aliases": [],
       "type": "clan",
-      "context": "Calabrian 'Ndrangheta clan; rival of the Rizzutos.",
-      "time_period": null
-    },
-    {
-      "standard_name": "the 67s",
-      "original_text_name": "the 67s",
-      "aliases": [],
-      "type": "gang",
-      "context": "Haitian-based street gang in Montreal; involved in murder of Nick Rizzuto Jr.",
-      "time_period": "late 1980s–present"
-    },
-    {
-      "standard_name": "Crips",
-      "original_text_name": "Crips",
-      "aliases": [],
-      "type": "gang",
-      "context": "Los Angeles-based street gang; associated with the 67s.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Papalia crime family",
-      "original_text_name": "Papalia crime gangs",
-      "aliases": [
-        "Papalia crime family"
-      ],
-      "type": "mafia",
-      "context": "Hamilton-based Mafia family; rival of the Musitanos and Rizzutos.",
-      "time_period": null
+      "context": "'Ndrangheta clan from Siderno, rival to the Rizzutos.",
+      "time_period": "c. 1970s–present"
     }
   ],
   "edges": [
@@ -235,91 +231,90 @@
     },
     {
       "source": "Rizzuto crime family",
-      "target": "West End Gang",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "A dispute over a cocaine shipment led to the murder of West End Gang member Richard Griffin in 2006.",
-      "time_period": "2005-2006"
+      "target": "Bonanno crime family",
+      "relationship": "other",
+      "detail": "faction of",
+      "context": "The FBI considers the Rizzuto family a faction of the Bonanno crime family.",
+      "time_period": "1970s-present"
     },
     {
       "source": "Rizzuto crime family",
       "target": "'Ndrangheta",
-      "relationship": "other",
-      "detail": "potential partnership",
+      "relationship": "alliance",
       "context": "Zappia mentioned making both the Mafia (Rizzuto) and 'Ndrangheta happy with the bridge project.",
       "time_period": "2003"
     },
     {
       "source": "Rizzuto crime family",
-      "target": "Cuntrera-Caruana Mafia clan",
+      "target": "The 67s",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The 67s gang was involved in the murder of Nick Rizzuto Jr., leading to retaliation.",
+      "time_period": "2009–2014"
+    },
+    {
+      "source": "The 67s",
+      "target": "Crips",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied with the Rizzuto family.",
-      "time_period": null
+      "context": "The 67s are associated with the Crips gang.",
+      "time_period": "late 1980s–present"
     },
     {
       "source": "Rizzuto crime family",
       "target": "Musitano crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Musitano family was aligned with Rizzuto, which offered protection.",
-      "time_period": null
+      "context": "The Musitano family was aligned with the Rizzutos, which offered protection.",
+      "time_period": "c. 2000s–2020"
     },
     {
-      "source": "Rizzuto crime family",
-      "target": "Independent Soldiers",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Independent Soldiers are listed as an ally of the Rizzuto family.",
-      "time_period": null
-    },
-    {
-      "source": "Rizzuto crime family",
+      "source": "Musitano crime family",
       "target": "Luppino crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Luppino crime family is listed as a rival of the Rizzuto family.",
-      "time_period": null
-    },
-    {
-      "source": "Rizzuto crime family",
-      "target": "Siderno Group",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Siderno Group is listed as a rival of the Rizzuto family.",
-      "time_period": null
-    },
-    {
-      "source": "Rizzuto crime family",
-      "target": "Commisso 'ndrina",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Commisso 'ndrina is listed as a rival of the Rizzuto family.",
-      "time_period": null
-    },
-    {
-      "source": "Rizzuto crime family",
-      "target": "the 67s",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Rizzuto family targeted 67s leader Ducarme Joseph for involvement in Nick Rizzuto Jr.'s murder.",
-      "time_period": "2014"
-    },
-    {
-      "source": "the 67s",
-      "target": "Crips",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The 67s are associated with the Crips gang.",
-      "time_period": null
+      "context": "The Luppino crime gang was an enemy of the Musitanos.",
+      "time_period": "c. 2000s–present"
     },
     {
       "source": "Musitano crime family",
       "target": "Papalia crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Musitano family had enemies including Papalia crime gangs.",
-      "time_period": null
+      "context": "The Papalia crime gangs were enemies of the Musitanos.",
+      "time_period": "c. 2000s–present"
+    },
+    {
+      "source": "Rizzuto crime family",
+      "target": "Independent Soldiers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Independent Soldiers are an ally of the Rizzuto family.",
+      "time_period": "c. 1990s–present"
+    },
+    {
+      "source": "Rizzuto crime family",
+      "target": "Cuntrera-Caruana Mafia clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Cuntrera-Caruana Mafia clan is an ally of the Rizzuto family.",
+      "time_period": "c. 1970s–present"
+    },
+    {
+      "source": "Rizzuto crime family",
+      "target": "Siderno Group",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Siderno Group is a rival of the Rizzuto family.",
+      "time_period": "c. 1970s–present"
+    },
+    {
+      "source": "Rizzuto crime family",
+      "target": "Commisso 'ndrina",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Commisso 'ndrina is a rival of the Rizzuto family.",
+      "time_period": "c. 1970s–present"
     }
   ],
   "source_file": "Rizzuto_crime_family"

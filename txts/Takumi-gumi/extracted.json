@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Takumi-gumi",
+      "original_text_name": "Takumi-gumi",
+      "aliases": [
+        "Second Takumi-gumi"
+      ],
+      "type": "mafia",
+      "context": "Japanese yakuza syndicate based in Kansai, founded in 1967.",
+      "time_period": "1967-present"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Major Japanese yakuza syndicate, parent organization of Takumi-gumi.",
+      "time_period": "1915-present"
+    },
+    {
+      "standard_name": "Nakano-kai",
+      "original_text_name": "Nakano-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza group that assassinated Masaru Takumi in 1997.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kobe Yamaguchi-gumi",
+      "original_text_name": "Kobe Yamaguchi-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Splinter group formed in 2015 from Yamaguchi-gumi, later Takumi-gumi withdrew from it.",
+      "time_period": "2015-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Takumi-gumi",
+      "target": "Yamaguchi-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Takumi-gumi was a subsidiary of Yamaguchi-gumi until 2015.",
+      "time_period": "1967-2015"
+    },
+    {
+      "source": "Nakano-kai",
+      "target": "Takumi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Nakano-kai members assassinated Takumi-gumi's founder Masaru Takumi in 1997.",
+      "time_period": "1997"
+    },
+    {
+      "source": "Takumi-gumi",
+      "target": "Kobe Yamaguchi-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Takumi-gumi joined Kobe Yamaguchi-gumi in 2015 after leaving Yamaguchi-gumi.",
+      "time_period": "2015-2022"
+    },
+    {
+      "source": "Takumi-gumi",
+      "target": "Kobe Yamaguchi-gumi",
+      "relationship": "other",
+      "detail": "withdrawal",
+      "context": "Takumi-gumi withdrew from Kobe Yamaguchi-gumi in 2022.",
+      "time_period": "2022"
+    }
+  ],
+  "source_file": "Takumi-gumi"
+}

@@ -27,7 +27,7 @@
       "original_text_name": "Coffin Cheaters",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Australian outlaw motorcycle club; had a trust fund for a murdered member's daughters and rivalry with Finks.",
+      "context": "Australian outlaw motorcycle club; had a trust fund for a murdered member's daughters, and friction with Finks in Perth.",
       "time_period": "founded 1970"
     },
     {
@@ -35,16 +35,8 @@
       "original_text_name": "Club Deroes",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Australian outlaw motorcycle club involved in a 1998 bikie war with Coffin Cheaters.",
+      "context": "Australian outlaw motorcycle club; involved in a 1998 bikie war with Coffin Cheaters.",
       "time_period": "founded 1970"
-    },
-    {
-      "standard_name": "Rock Machine",
-      "original_text_name": "Rock Machine",
-      "aliases": [],
-      "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club that patched over Perth Finks in 2013 along with Mongols.",
-      "time_period": "founded 1986"
     },
     {
       "standard_name": "Hells Angels",
@@ -73,6 +65,14 @@
       "type": "motorcycle_club",
       "context": "International outlaw motorcycle club; a Finks member was charged with attempted murder of a Bandidos member.",
       "time_period": "founded 1966"
+    },
+    {
+      "standard_name": "Rock Machine",
+      "original_text_name": "Rock Machine",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club; patched over by Mongols along with Perth Finks in 2013.",
+      "time_period": "founded 1986"
     }
   ],
   "edges": [
@@ -89,39 +89,31 @@
       "target": "Coffin Cheaters",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Formation of Perth Finks chapter caused friction between Finks and Coffin Cheaters; money stolen from Coffin Cheaters trust fund used to buy Finks clubhouse.",
-      "time_period": "2008-2010"
+      "context": "The formation of the Perth Finks chapter caused friction between the Finks and the Coffin Cheaters in Perth.",
+      "time_period": "2008-present"
     },
     {
       "source": "Coffin Cheaters",
       "target": "Club Deroes",
       "relationship": "rivalry",
       "detail": null,
-      "context": "1998 bikie war between Coffin Cheaters and Club Deroes resulted in murder of Coffin Cheaters member Marc Chabriere.",
+      "context": "A 1998 bikie war between the Coffin Cheaters and the Club Deroes resulted in the murder of Coffin Cheaters member Marc Chabriere.",
       "time_period": "1998"
     },
     {
       "source": "Finks Motorcycle Club",
-      "target": "Rock Machine",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Perth Finks were patched over by Rock Machine along with Mongols in October 2013.",
-      "time_period": "2013"
+      "target": "Hells Angels",
+      "relationship": "other",
+      "detail": "membership overlap",
+      "context": "Vince Focarelli, kicked out of Hells Angels, later associated with Finks members who visited him in hospital.",
+      "time_period": "2012"
     },
     {
-      "source": "Hells Angels",
+      "source": "Finks Motorcycle Club",
       "target": "Comancheros",
       "relationship": "other",
-      "detail": "member transfer",
-      "context": "Vince Focarelli was kicked out of Hells Angels and later joined Comancheros.",
-      "time_period": "before 2012"
-    },
-    {
-      "source": "Comancheros",
-      "target": "Finks Motorcycle Club",
-      "relationship": "other",
-      "detail": "member association",
-      "context": "Vince Focarelli, who left Comancheros, was visited by Finks members while in hospital.",
+      "detail": "membership overlap",
+      "context": "Vince Focarelli joined Comancheros after Hells Angels, and later associated with Finks.",
       "time_period": "2012"
     },
     {
@@ -131,6 +123,14 @@
       "detail": null,
       "context": "Finks member Mark James Graham was charged with attempted murder of Bandidos member Jacques Teamo in 2012.",
       "time_period": "2012"
+    },
+    {
+      "source": "Mongols Motorcycle Club",
+      "target": "Rock Machine",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "In October 2013, the Perth Finks were patched over by the Mongols MC and Rock Machine, indicating cooperation.",
+      "time_period": "2013"
     }
   ],
   "source_file": "Finks_Motorcycle_Club"

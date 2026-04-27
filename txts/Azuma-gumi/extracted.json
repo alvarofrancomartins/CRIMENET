@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Azuma-gumi",
+      "original_text_name": "Azuma-gumi",
+      "aliases": [
+        "東組"
+      ],
+      "type": "mafia",
+      "context": "Yakuza group based in Osaka, Japan, with about 50 active members.",
+      "time_period": "1993-present"
+    },
+    {
+      "standard_name": "Sakaume-gumi",
+      "original_text_name": "Sakaume-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza group based in Osaka Prefecture, Japan.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Azuma-gumi",
+      "target": "Sakaume-gumi",
+      "relationship": "other",
+      "detail": "co-located",
+      "context": "Both are designated yakuza groups based in Osaka Prefecture.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Azuma-gumi"
+}

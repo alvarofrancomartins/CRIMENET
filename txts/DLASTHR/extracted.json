@@ -21,10 +21,10 @@
     {
       "standard_name": "True Kings",
       "original_text_name": "True Kings",
+      "aliases": [],
       "type": "gang",
       "context": "Rival gang to DLASTHR, involved in turf war over drug supply in Sydney's western suburbs.",
-      "time_period": "2010s",
-      "aliases": []
+      "time_period": "2010s"
     },
     {
       "standard_name": "Nomads",
@@ -39,7 +39,7 @@
       "original_text_name": "Comanchero",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle gang; member Alen Moradian was murdered, and Luke Sparos was charged with the murder.",
+      "context": "Outlaw motorcycle gang; member Alen Moradian was murdered, and Luke Sparos was charged with his murder.",
       "time_period": "unknown"
     },
     {
@@ -47,7 +47,7 @@
       "original_text_name": "Bronx Boys",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to DLASTHR according to infobox.",
+      "context": "Rival gang to DLASTHR listed in infobox.",
       "time_period": "unknown"
     }
   ],
@@ -71,7 +71,7 @@
       "source": "DLASTHR",
       "target": "Nomads",
       "relationship": "other",
-      "detail": "possible involvement",
+      "detail": "possible involvement in murder",
       "context": "DLASTHR is suspected of murdering ex-Nomads member Adrian Buxton.",
       "time_period": "2016"
     },
@@ -79,15 +79,16 @@
       "source": "DLASTHR",
       "target": "Comanchero",
       "relationship": "other",
-      "detail": "possible involvement",
-      "context": "Luke Sparos, charged with murder of Comanchero member Alen Moradian, also attempted murder of DLASTHR member Samer Marcus.",
-      "time_period": "2021-2023"
+      "detail": "member charged with murder",
+      "context": "Luke Sparos, charged with attempted murder of DLASTHR member Samer Marcus, was also charged with murder of Comanchero member Alen Moradian.",
+      "time_period": "2023"
     },
     {
       "source": "DLASTHR",
       "target": "Bronx Boys",
       "relationship": "rivalry",
-      "context": "Listed as rivals in the infobox.",
+      "detail": null,
+      "context": "Bronx Boys are listed as rivals of DLASTHR in the infobox.",
       "time_period": null
     }
   ],

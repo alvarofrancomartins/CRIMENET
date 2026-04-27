@@ -493,8 +493,8 @@
       "target": "Los Angeles crime family",
       "relationship": "other",
       "detail": "represents",
-      "context": "Los Angeles crime family held a seat from 1931 to 1956, represented by Chicago Outfit.",
-      "time_period": "1931-1956"
+      "context": "Los Angeles crime family was represented by the Chicago Outfit on the Commission.",
+      "time_period": "unknown"
     },
     {
       "source": "Chicago Outfit",
@@ -533,7 +533,7 @@
       "target": "Colombo crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Bonanno plotted to assassinate Colombo family boss and others on the Commission in 1963.",
+      "context": "Bonanno plotted to assassinate Colombo family boss Joseph Magliocco's rivals, but Magliocco's hitman betrayed the plot.",
       "time_period": "1963"
     },
     {
@@ -562,10 +562,18 @@
     },
     {
       "source": "Colombo crime family",
-      "target": "Bonanno crime family",
+      "target": "Lucchese crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Colombo revealed Bonanno's assassination plot to the Commission, leading to Bonanno's exile.",
+      "context": "Colombo family boss Joseph Magliocco was assigned to kill Lucchese boss Tommy Lucchese in 1963.",
+      "time_period": "1963"
+    },
+    {
+      "source": "Colombo crime family",
+      "target": "Gambino crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Colombo family boss Joseph Magliocco was assigned to kill Gambino boss Carlo Gambino in 1963.",
       "time_period": "1963"
     },
     {
@@ -573,7 +581,7 @@
       "target": "Gambino crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Genovese and Gambino families were allied in the liberal-American faction.",
+      "context": "Genovese and Gambino families were part of the liberal faction allied with Tommy Lucchese.",
       "time_period": "1950s-1960s"
     },
     {
@@ -581,7 +589,15 @@
       "target": "Lucchese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Genovese and Lucchese families were allied in the liberal-American faction.",
+      "context": "Genovese and Lucchese families were allied in the liberal faction.",
+      "time_period": "1950s-1960s"
+    },
+    {
+      "source": "Gambino crime family",
+      "target": "Lucchese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Gambino and Lucchese families were allied in the liberal faction.",
       "time_period": "1950s-1960s"
     },
     {
@@ -589,24 +605,24 @@
       "target": "Colombo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Bonanno and Profaci (later Colombo) families were allied in the conservative-Sicilian faction.",
-      "time_period": "1950s-1963"
+      "context": "Bonanno and Profaci (later Colombo) families were allied in the conservative faction.",
+      "time_period": "1950s-1960s"
     },
     {
       "source": "Bonanno crime family",
       "target": "Buffalo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Bonanno and Buffalo families were allied in the conservative-Sicilian faction.",
-      "time_period": "1950s-1963"
+      "context": "Bonanno and Buffalo families were allied in the conservative faction.",
+      "time_period": "1950s-1960s"
     },
     {
-      "source": "Luppino crime family",
+      "source": "Colombo crime family",
       "target": "Buffalo crime family",
-      "relationship": "other",
-      "detail": "subordinate",
-      "context": "Domenico Violi of the Luppino family was named underboss of the Buffalo crime family.",
-      "time_period": "2017"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Colombo (Profaci) and Buffalo families were allied in the conservative faction.",
+      "time_period": "1950s-1960s"
     }
   ],
   "source_file": "The_Commission_(American_Mafia)"

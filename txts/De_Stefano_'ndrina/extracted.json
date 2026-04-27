@@ -1,0 +1,272 @@
+{
+  "nodes": [
+    {
+      "standard_name": "De Stefano 'ndrina",
+      "original_text_name": "De Stefano 'ndrina",
+      "aliases": [
+        "De Stefano family",
+        "De Stefano-Tegano family"
+      ],
+      "type": "clan",
+      "context": "Powerful 'Ndrangheta clan from Reggio Calabria, involved in drug trafficking, public works, and extortion.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia-type criminal organization based in Calabria, Italy.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Tripodo clan",
+      "original_text_name": "Domenico Tripodo",
+      "aliases": [],
+      "type": "clan",
+      "context": "Old 'Ndrangheta clan from Reggio Calabria, involved in tobacco smuggling.",
+      "time_period": "1970s"
+    },
+    {
+      "standard_name": "Piromalli 'ndrina",
+      "original_text_name": "Piromalli 'ndrina",
+      "aliases": [
+        "Piromalli brothers"
+      ],
+      "type": "clan",
+      "context": "'Ndrangheta clan from Gioia Tauro, involved in public works and drug trafficking.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Mammoliti 'ndrina",
+      "original_text_name": "Mammoliti 'ndrine",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan allied with De Stefano during the first war.",
+      "time_period": "1970s"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata (NCO)",
+      "aliases": [
+        "NCO"
+      ],
+      "type": "clan",
+      "context": "Camorra organization led by Raffaele Cutolo, allied with De Stefano in drug trafficking.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "Condello clan",
+      "original_text_name": "Condello brothers",
+      "aliases": [
+        "Condello-Imerti clan"
+      ],
+      "type": "clan",
+      "context": "'Ndrangheta clan from Reggio Calabria, rivals of De Stefano in the second war.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Imerti clan",
+      "original_text_name": "Antonio Imerti",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan from Villa San Giovanni, allied with Condello against De Stefano.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "standard_name": "Tegano clan",
+      "original_text_name": "Tegano clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan allied with De Stefano through marriage.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Sicilian mafia, had joint ventures with De Stefano.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Banda della Magliana",
+      "original_text_name": "Banda della Magliana",
+      "aliases": [],
+      "type": "gang",
+      "context": "Roman criminal organization, had contacts with De Stefano.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Macrì clan",
+      "original_text_name": "Antonio Macrì",
+      "aliases": [],
+      "type": "clan",
+      "context": "Traditional 'Ndrangheta boss, rival of De Stefano in the first war.",
+      "time_period": "1970s"
+    },
+    {
+      "standard_name": "Libri 'ndrina",
+      "original_text_name": "Libri 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "Ally of De Stefano during the second 'Ndrangheta war.",
+      "time_period": "1985-1991"
+    },
+    {
+      "standard_name": "Latella 'ndrina",
+      "original_text_name": "Latella 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "Ally of De Stefano during the second 'Ndrangheta war.",
+      "time_period": "1985-1991"
+    },
+    {
+      "standard_name": "Serraino 'ndrina",
+      "original_text_name": "Serraino 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "Rival of De Stefano during the second 'Ndrangheta war.",
+      "time_period": "1985-1991"
+    },
+    {
+      "standard_name": "Rosmini 'ndrina",
+      "original_text_name": "Rosmini 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "Rival of De Stefano during the second 'Ndrangheta war.",
+      "time_period": "1985-1991"
+    }
+  ],
+  "edges": [
+    {
+      "source": "De Stefano 'ndrina",
+      "target": "'Ndrangheta",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "De Stefano is a clan within the 'Ndrangheta organization.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "De Stefano 'ndrina",
+      "target": "Tripodo clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "De Stefano fought Tripodo in the first 'Ndrangheta war, leading to Tripodo's death.",
+      "time_period": "1974-1976"
+    },
+    {
+      "source": "De Stefano 'ndrina",
+      "target": "Piromalli 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Piromalli supported De Stefano against Tripodo in the first war.",
+      "time_period": "1974-1976"
+    },
+    {
+      "source": "De Stefano 'ndrina",
+      "target": "Mammoliti 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mammoliti supported De Stefano against Tripodo in the first war.",
+      "time_period": "1974-1976"
+    },
+    {
+      "source": "De Stefano 'ndrina",
+      "target": "Nuova Camorra Organizzata",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "De Stefano collaborated with NCO in drug trafficking and had Cutolo kill Tripodo.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "source": "De Stefano 'ndrina",
+      "target": "Condello clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "De Stefano fought Condello in the second 'Ndrangheta war.",
+      "time_period": "1985-1991"
+    },
+    {
+      "source": "De Stefano 'ndrina",
+      "target": "Imerti clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "De Stefano fought Imerti in the second 'Ndrangheta war.",
+      "time_period": "1985-1991"
+    },
+    {
+      "source": "De Stefano 'ndrina",
+      "target": "Tegano clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "De Stefano allied with Tegano through marriage during the second war.",
+      "time_period": "1985-present"
+    },
+    {
+      "source": "De Stefano 'ndrina",
+      "target": "Cosa Nostra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "De Stefano had joint ventures with Cosa Nostra bosses Santapaola and Ferrera.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "De Stefano 'ndrina",
+      "target": "Banda della Magliana",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Giorgio De Stefano had contacts with Banda della Magliana from his law office.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "De Stefano 'ndrina",
+      "target": "Macrì clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "De Stefano fought Macrì in the first 'Ndrangheta war.",
+      "time_period": "1974-1976"
+    },
+    {
+      "source": "De Stefano 'ndrina",
+      "target": "Libri 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Libri was an ally of De Stefano during the second war.",
+      "time_period": "1985-1991"
+    },
+    {
+      "source": "De Stefano 'ndrina",
+      "target": "Latella 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Latella was an ally of De Stefano during the second war.",
+      "time_period": "1985-1991"
+    },
+    {
+      "source": "De Stefano 'ndrina",
+      "target": "Serraino 'ndrina",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Serraino was a rival of De Stefano during the second war.",
+      "time_period": "1985-1991"
+    },
+    {
+      "source": "De Stefano 'ndrina",
+      "target": "Rosmini 'ndrina",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rosmini was a rival of De Stefano during the second war.",
+      "time_period": "1985-1991"
+    },
+    {
+      "source": "Piromalli 'ndrina",
+      "target": "De Stefano 'ndrina",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Piromalli killed Giorgio De Stefano in 1977 over business disputes.",
+      "time_period": "1977"
+    }
+  ],
+  "source_file": "De_Stefano_'ndrina"
+}

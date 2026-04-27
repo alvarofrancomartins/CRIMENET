@@ -101,6 +101,7 @@
       "standard_name": "Tijuana Cartel",
       "original_text_name": "Tijuana Cartel",
       "aliases": [
+        "Arellano Félix Organization",
         "Arellano Félix organization"
       ],
       "type": "cartel",
@@ -328,7 +329,7 @@
       "target": "Gulf Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Zetas were originally the enforcement arm of the Gulf Cartel from late 1990s until 2010.",
+      "context": "Los Zetas were originally the enforcement arm of the Gulf Cartel from late 1990s until February 2010.",
       "time_period": "late 1990s-2010"
     },
     {
@@ -372,36 +373,84 @@
       "time_period": "2016-present"
     },
     {
-      "source": "Cartel del Noreste",
-      "target": "Gulf Cartel",
+      "source": "Grupo Bravo",
+      "target": "Cartel del Noreste",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Cartel del Noreste is a rival of Gulf Cartel and its allies.",
+      "context": "Grupo Bravo allied with Gulf Cartel against Cartel del Noreste.",
+      "time_period": "2016-present"
+    },
+    {
+      "source": "Los Talibanes",
+      "target": "Cartel del Noreste",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Talibanes allied with Gulf Cartel against Cartel del Noreste.",
+      "time_period": "2016-present"
+    },
+    {
+      "source": "Zetas Vieja Escuela",
+      "target": "Cartel del Noreste",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Zetas Vieja Escuela allied with Gulf Cartel against Cartel del Noreste.",
+      "time_period": "2016-present"
+    },
+    {
+      "source": "Gulf Cartel",
+      "target": "Cartel del Noreste",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gulf Cartel and its allies fought against Cartel del Noreste.",
       "time_period": "2010s-present"
     },
     {
-      "source": "Los Negros",
-      "target": "Sinaloa Cartel",
+      "source": "Los Zetas",
+      "target": "Cartel del Noreste",
+      "relationship": "other",
+      "detail": "splinter faction",
+      "context": "Cartel del Noreste is a splinter faction of Los Zetas.",
+      "time_period": "2010s-present"
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "Los Negros",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Negros was established by Sinaloa Cartel as its enforcer group.",
+      "context": "Sinaloa Cartel established Los Negros as its enforcer group to rival Los Zetas.",
       "time_period": "2000s"
     },
     {
-      "source": "Los Negros",
-      "target": "Los Zetas",
-      "relationship": "rivalry",
+      "source": "Los Zetas",
+      "target": "Beltrán-Leyva Cartel",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Los Negros was created to rival Los Zetas as an enforcer group.",
-      "time_period": "2000s"
+      "context": "After splitting from Gulf Cartel, Los Zetas allied with Beltrán-Leyva Cartel.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Los Zetas",
+      "target": "Juárez Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "After splitting from Gulf Cartel, Los Zetas allied with Juárez Cartel.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Los Zetas",
+      "target": "Tijuana Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "After splitting from Gulf Cartel, Los Zetas allied with Tijuana Cartel.",
+      "time_period": "2010"
     },
     {
       "source": "Gulf Cartel",
       "target": "Sinaloa Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Gulf Cartel allied with Sinaloa Cartel against Los Zetas after the split.",
-      "time_period": "2010-2010s"
+      "context": "Gulf Cartel joined forces with Sinaloa Cartel to take out Los Zetas after the split.",
+      "time_period": "2010"
     },
     {
       "source": "Gulf Cartel",
@@ -409,43 +458,11 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Gulf Cartel allied with La Familia Michoacana against Los Zetas after the split.",
-      "time_period": "2010-2010s"
-    },
-    {
-      "source": "Los Zetas",
-      "target": "Beltrán-Leyva Cartel",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Los Zetas allied with Beltrán-Leyva Cartel after splitting from Gulf Cartel.",
-      "time_period": "2010-2010s"
-    },
-    {
-      "source": "Los Zetas",
-      "target": "Juárez Cartel",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Los Zetas allied with Juárez Cartel after splitting from Gulf Cartel.",
-      "time_period": "2010-2010s"
-    },
-    {
-      "source": "Los Zetas",
-      "target": "Tijuana Cartel",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Los Zetas allied with Tijuana Cartel after splitting from Gulf Cartel.",
-      "time_period": "2010-2010s"
+      "time_period": "2010"
     },
     {
       "source": "Cartel del Noreste",
-      "target": "Los Zetas",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "Cartel del Noreste is a splinter faction that emerged from Los Zetas.",
-      "time_period": "2010s-present"
-    },
-    {
-      "source": "Tropa del Infierno",
-      "target": "Cartel del Noreste",
+      "target": "Tropa del Infierno",
       "relationship": "alliance",
       "detail": null,
       "context": "Tropa del Infierno is a group of hitmen under the direction of Cartel del Noreste.",
@@ -480,7 +497,7 @@
       "target": "Sureños",
       "relationship": "alliance",
       "detail": null,
-      "context": "Sureño street gangs maintain ties with Los Zetas in the U.S.",
+      "context": "Sureño street gangs maintain ties with Los Zetas in California and South Carolina.",
       "time_period": "2010-2010s"
     },
     {
@@ -513,13 +530,13 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Cartel del Noreste is a rival of Gulf Cartel and Zetas offshoots.",
-      "time_period": "since 2010s"
+      "time_period": "2010s-present"
     },
     {
       "source": "Panteras",
       "target": "Los Zetas",
-      "relationship": "alliance",
-      "detail": null,
+      "relationship": "other",
+      "detail": "sub-unit",
       "context": "Panteras is a female unit within Los Zetas.",
       "time_period": "2000s-2010s"
     },

@@ -107,10 +107,11 @@
       "standard_name": "M-19",
       "original_text_name": "M19",
       "aliases": [
+        "19th of April Movement",
         "Movimiento 19 de Abril"
       ],
       "type": "militia",
-      "context": "Former guerrilla group mentioned in context of peace process and coca plantations.",
+      "context": "Former guerrilla group that demobilized; mentioned in context of peace process.",
       "time_period": "1970-1990"
     },
     {
@@ -118,7 +119,7 @@
       "original_text_name": "New Illegal Armed Groups",
       "aliases": [],
       "type": "other",
-      "context": "Emerging armed groups from paramilitary process, targeted by President Santos.",
+      "context": "Post-paramilitary armed groups that emerged after paramilitary demobilization.",
       "time_period": "2000s-present"
     },
     {
@@ -137,7 +138,7 @@
         "dissidents of FARC's 1st Front"
       ],
       "type": "faction",
-      "context": "Splinter groups from FARC that continued armed actions after peace deal.",
+      "context": "Splinter groups of FARC that continued armed actions after peace deal.",
       "time_period": "2017-present"
     },
     {
@@ -213,7 +214,7 @@
         "MAS"
       ],
       "type": "militia",
-      "context": "Colombian right-wing paramilitary group, opposed FARC.",
+      "context": "Colombian right-wing paramilitary group, opponent of FARC.",
       "time_period": "1980s-1990s"
     }
   ],
@@ -318,7 +319,7 @@
       "target": "Common Alternative Revolutionary Force",
       "relationship": "other",
       "detail": "transformation",
-      "context": "FARC transformed into political party Common Alternative Revolutionary Force after peace deal.",
+      "context": "FARC transformed into the Common Alternative Revolutionary Force political party after peace deal.",
       "time_period": "2017"
     },
     {
@@ -326,7 +327,7 @@
       "target": "FARC dissidents",
       "relationship": "other",
       "detail": "splinter",
-      "context": "FARC dissidents are splinter groups that rejected peace deal and continued armed struggle.",
+      "context": "FARC dissidents are former members who rejected peace deal and continued armed struggle.",
       "time_period": "2017-present"
     },
     {
@@ -349,8 +350,8 @@
       "source": "Revolutionary Armed Forces of Colombia",
       "target": "FARC dissidents",
       "relationship": "other",
-      "detail": "splinter group",
-      "context": "FARC dissidents are former members of FARC who refused to demobilize after the peace treaty.",
+      "detail": "splinter faction",
+      "context": "FARC dissidents are former members who refused to demobilize after the 2016 peace treaty.",
       "time_period": "2016-present"
     },
     {
@@ -399,6 +400,30 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "MAS is a right-wing paramilitary group opposed to FARC.",
+      "time_period": null
+    },
+    {
+      "source": "FARC dissidents",
+      "target": "Popular Liberation Army",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Colombian armed forces fight both FARC dissidents and EPL simultaneously.",
+      "time_period": null
+    },
+    {
+      "source": "FARC dissidents",
+      "target": "National Liberation Army",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Colombian armed forces fight both FARC dissidents and ELN simultaneously.",
+      "time_period": null
+    },
+    {
+      "source": "FARC dissidents",
+      "target": "Clan del Golfo",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Colombian armed forces fight both FARC dissidents and Clan del Golfo simultaneously.",
       "time_period": null
     }
   ],

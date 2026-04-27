@@ -10,7 +10,7 @@
         "La Purissima Crowd"
       ],
       "type": "gang",
-      "context": "Predominantly Mexican American street gang in Boyle Heights, East Los Angeles. One of the oldest and most influential Chicano gangs.",
+      "context": "Mexican American street gang in Boyle Heights, East Los Angeles, active since early 1900s.",
       "time_period": "1900-present"
     },
     {
@@ -18,7 +18,7 @@
       "original_text_name": "El Hoyo Maravilla",
       "aliases": [],
       "type": "gang",
-      "context": "Hispanic street gang in East Los Angeles. Longtime rival of White Fence.",
+      "context": "Hispanic gang in East Los Angeles, long-time rival of White Fence.",
       "time_period": "1930s-present"
     },
     {
@@ -28,7 +28,7 @@
         "TBS"
       ],
       "type": "gang",
-      "context": "Street gang in Boyle Heights area. Territorial rival of White Fence.",
+      "context": "Gang in Boyle Heights area, territorial rival of White Fence.",
       "time_period": null
     },
     {
@@ -38,7 +38,7 @@
         "KAM"
       ],
       "type": "gang",
-      "context": "Street gang in Boyle Heights area. Territorial rival of White Fence.",
+      "context": "Gang in Boyle Heights area, territorial rival of White Fence.",
       "time_period": null
     },
     {
@@ -48,17 +48,17 @@
         "APX3"
       ],
       "type": "gang",
-      "context": "Street gang in Boyle Heights area. Territorial rival of White Fence.",
+      "context": "Gang in Boyle Heights area, rival of White Fence.",
       "time_period": null
     },
     {
-      "standard_name": "Avenues",
-      "original_text_name": "Avenues",
+      "standard_name": "The Avenues",
+      "original_text_name": "The Avenues",
       "aliases": [
         "AVES"
       ],
       "type": "gang",
-      "context": "Street gang that originally derived from Varrio White Fence.",
+      "context": "Gang derived from Varrio White Fence, operates in the area.",
       "time_period": null
     },
     {
@@ -68,7 +68,7 @@
         "FTR"
       ],
       "type": "gang",
-      "context": "Street gang that originally derived from Varrio White Fence.",
+      "context": "Gang derived from Varrio White Fence, operates in the area.",
       "time_period": null
     },
     {
@@ -78,7 +78,7 @@
         "BH"
       ],
       "type": "gang",
-      "context": "Street gang that originally derived from Varrio White Fence.",
+      "context": "Gang derived from Varrio White Fence, operates in the area.",
       "time_period": null
     },
     {
@@ -86,7 +86,7 @@
       "original_text_name": "Mexican Mafia",
       "aliases": [],
       "type": "gang",
-      "context": "Prison gang and organized crime syndicate. Allied with White Fence.",
+      "context": "Prison gang, ally of White Fence.",
       "time_period": null
     },
     {
@@ -94,7 +94,7 @@
       "original_text_name": "Sureños",
       "aliases": [],
       "type": "gang",
-      "context": "Alliance of Mexican American street gangs. Some sets are allied with White Fence.",
+      "context": "Alliance of gangs, some sets allied with White Fence.",
       "time_period": null
     },
     {
@@ -102,7 +102,7 @@
       "original_text_name": "Varrio Nuevo Estrada",
       "aliases": [],
       "type": "gang",
-      "context": "Street gang. Rival of White Fence.",
+      "context": "Rival gang of White Fence.",
       "time_period": null
     }
   ],
@@ -112,7 +112,7 @@
       "target": "El Hoyo Maravilla",
       "relationship": "rivalry",
       "detail": null,
-      "context": "One of the longest ongoing feuds in Los Angeles, dating back to the 1930s.",
+      "context": "Longest ongoing feud in Los Angeles, dating back to the 1930s.",
       "time_period": "1930s-present"
     },
     {
@@ -136,7 +136,7 @@
       "target": "Armenian Power",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Territorial beef in Boyle Heights.",
+      "context": "Rival gang in the area.",
       "time_period": null
     },
     {
@@ -144,31 +144,15 @@
       "target": "Varrio Nuevo Estrada",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as a rival in the infobox.",
+      "context": "Rival gang listed in infobox.",
       "time_period": null
     },
     {
-      "source": "White Fence",
-      "target": "Mexican Mafia",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Allied with Mexican Mafia as per infobox.",
-      "time_period": null
-    },
-    {
-      "source": "White Fence",
-      "target": "Sureños",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Allied with some Sureño sets as per infobox.",
-      "time_period": null
-    },
-    {
-      "source": "Avenues",
+      "source": "The Avenues",
       "target": "White Fence",
       "relationship": "other",
       "detail": "derived from",
-      "context": "Avenues originally derived from Varrio White Fence.",
+      "context": "The Avenues originally derived from Varrio White Fence.",
       "time_period": null
     },
     {
@@ -185,6 +169,22 @@
       "relationship": "other",
       "detail": "derived from",
       "context": "Hazard originally derived from Varrio White Fence.",
+      "time_period": null
+    },
+    {
+      "source": "White Fence",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "White Fence is allied with the Mexican Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "White Fence",
+      "target": "Sureños",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "White Fence is allied with some Sureño sets.",
       "time_period": null
     }
   ],

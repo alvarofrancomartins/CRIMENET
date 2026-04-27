@@ -1,0 +1,221 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cataldo 'ndrina",
+      "original_text_name": "Cataldo 'ndrina",
+      "aliases": [
+        "Cataldo clan"
+      ],
+      "type": "clan",
+      "context": "A clan of the 'Ndrangheta based in Locri, Calabria, involved in drug trafficking and public works contracts.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "A criminal and mafia-type organization in Calabria, Italy.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Marafioti 'ndrina",
+      "original_text_name": "Marafioti family",
+      "aliases": [
+        "Marafioti 'ndrina"
+      ],
+      "type": "clan",
+      "context": "A clan allied with the Cataldo 'ndrina, involved in the feud with the Cordì 'ndrina.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Cordì 'ndrina",
+      "original_text_name": "Cordì 'ndrina",
+      "aliases": [
+        "Cordì clan"
+      ],
+      "type": "clan",
+      "context": "A clan from Locri, rival of the Cataldo 'ndrina, involved in a long blood feud.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "De Stefano 'ndrina",
+      "original_text_name": "De Stefano 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "A clan from Reggio Calabria, allied with the Cataldo 'ndrina in the First 'Ndrangheta war.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Cuntrera-Caruana Mafia clan",
+      "original_text_name": "Cuntrera-Caruana Mafia clan",
+      "aliases": [],
+      "type": "mafia",
+      "context": "A Sicilian Mafia clan involved in cocaine trafficking with the Cataldo 'ndrina.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Barbaro 'ndrina",
+      "original_text_name": "Barbaro 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "A clan from Platì involved in a joint cocaine trafficking venture with the Cataldo 'ndrina.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Ierinò 'ndrina",
+      "original_text_name": "Ierinò 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "A clan from Gioiosa Ionica involved in a joint cocaine trafficking venture with the Cataldo 'ndrina.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Morabito 'ndrina",
+      "original_text_name": "Morabito 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "A clan from Africo involved in a joint cocaine trafficking venture with the Cataldo 'ndrina.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Mazzaferro 'ndrina",
+      "original_text_name": "Mazzaferro 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "A clan from Gioiosa Ionica involved in a joint cocaine trafficking venture with the Cataldo 'ndrina.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Pesce 'ndrina",
+      "original_text_name": "Pesce 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "A clan from Rosarno involved in a joint cocaine trafficking venture with the Cataldo 'ndrina.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Sergi 'ndrina",
+      "original_text_name": "Sergi 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "A clan allied with the Cataldo 'ndrina, involved in drug trafficking.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Marando 'ndrina",
+      "original_text_name": "Marando 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "A clan allied with the Cataldo 'ndrina, involved in drug trafficking.",
+      "time_period": "2000s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cataldo 'ndrina",
+      "target": "'Ndrangheta",
+      "relationship": "other",
+      "detail": "member of",
+      "context": "The Cataldo 'ndrina is a clan of the 'Ndrangheta.",
+      "time_period": "1960s-present"
+    },
+    {
+      "source": "Cataldo 'ndrina",
+      "target": "Marafioti 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Cataldo clan is allied with the Marafioti family.",
+      "time_period": "1960s-present"
+    },
+    {
+      "source": "Cataldo 'ndrina",
+      "target": "Cordì 'ndrina",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Cataldo clan has a long blood feud with the Cordì 'ndrina since the end of the 1960s.",
+      "time_period": "1967-2010"
+    },
+    {
+      "source": "Cataldo 'ndrina",
+      "target": "Cordì 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "In 2010, the Cordì and Cataldo clans signed a peace and formed a strong alliance for joint crime management.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Cataldo 'ndrina",
+      "target": "De Stefano 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Cataldos allied with the De Stefano 'ndrina in the First 'Ndrangheta war in the 1970s.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Cataldo 'ndrina",
+      "target": "Cuntrera-Caruana Mafia clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Cataldo clan was involved in cocaine trafficking from Colombia with the Sicilian Cuntrera-Caruana Mafia clan.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Cataldo 'ndrina",
+      "target": "Barbaro 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Cataldo clan was part of a joint venture of 'Ndrangheta clans in cocaine trafficking including the Barbaro 'ndrina.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Cataldo 'ndrina",
+      "target": "Ierinò 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Cataldo clan was part of a joint venture of 'Ndrangheta clans in cocaine trafficking including the Ierinò 'ndrina.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Cataldo 'ndrina",
+      "target": "Morabito 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Cataldo clan was part of a joint venture of 'Ndrangheta clans in cocaine trafficking including the Morabito 'ndrina.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Cataldo 'ndrina",
+      "target": "Mazzaferro 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Cataldo clan was part of a joint venture of 'Ndrangheta clans in cocaine trafficking including the Mazzaferro 'ndrina.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Cataldo 'ndrina",
+      "target": "Pesce 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Cataldo clan was part of a joint venture of 'Ndrangheta clans in cocaine trafficking including the Pesce 'ndrina.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Cataldo 'ndrina",
+      "target": "Sergi 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Cataldo clan was allied with the Sergi 'ndrina in drug trafficking.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Cataldo 'ndrina",
+      "target": "Marando 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Cataldo clan was allied with the Marando 'ndrina in drug trafficking.",
+      "time_period": "2000s"
+    }
+  ],
+  "source_file": "Cataldo_'ndrina"
+}

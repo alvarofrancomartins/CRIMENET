@@ -16,7 +16,7 @@
       "original_text_name": "See Tong",
       "aliases": [],
       "type": "gang",
-      "context": "Singaporean gang whose members formed Ah Kong after a gang clash.",
+      "context": "Singaporean gang whose members formed Ah Kong after a gang clash; means 'buddies' or 'group of close friends'.",
       "time_period": "1960s-1970s"
     },
     {
@@ -26,7 +26,7 @@
         "White Golden Dragon"
       ],
       "type": "gang",
-      "context": "Rival gang of See Tong in Singapore, involved in a fatal clash in 1969.",
+      "context": "Rival gang of See Tong in Singapore; involved in a fatal clash in 1969.",
       "time_period": "1960s-1970s"
     },
     {
@@ -35,7 +35,7 @@
       "aliases": [],
       "type": "gang",
       "context": "Penang-based gang with strong ties to Ah Kong.",
-      "time_period": "1970s-1990s"
+      "time_period": "unknown"
     },
     {
       "standard_name": "Sin Ma",
@@ -50,16 +50,16 @@
       "original_text_name": "14K",
       "aliases": [],
       "type": "triad",
-      "context": "Hong Kong-based triad involved in heroin trade in Amsterdam, rival to Ah Kong.",
-      "time_period": "1970s-present"
+      "context": "Hong Kong triad active in Amsterdam heroin trade; rival and later ally of Ah Kong.",
+      "time_period": "1950s-present"
     },
     {
       "standard_name": "Wo Shing Wo",
       "original_text_name": "Wo Shing Wo",
       "aliases": [],
       "type": "triad",
-      "context": "Hong Kong triad with presence in Rotterdam, had dispute with Ah Kong.",
-      "time_period": "1970s-present"
+      "context": "Hong Kong triad with presence in Rotterdam; had dispute with Ah Kong.",
+      "time_period": "1930s-present"
     },
     {
       "standard_name": "Sun Yee On",
@@ -67,15 +67,15 @@
       "aliases": [],
       "type": "triad",
       "context": "Hong Kong triad mentioned as established group in Amsterdam.",
-      "time_period": "1970s-present"
+      "time_period": "1919-present"
     },
     {
       "standard_name": "Hainan Gang",
       "original_text_name": "Hainan gang",
       "aliases": [],
       "type": "gang",
-      "context": "Gang established by Johnny in Bangkok after split from Ah Kong.",
-      "time_period": "1970s-1990s"
+      "context": "Gang established by Johnny in Bangkok after split from Ah Kong; involved in heroin export.",
+      "time_period": "1970s-1980s"
     },
     {
       "standard_name": "Italian Mafia",
@@ -109,7 +109,7 @@
       "aliases": [],
       "type": "motorcycle_club",
       "context": "Danish branch held parties at Roland Tan's restaurant, involved in drugs and prostitution.",
-      "time_period": "2000s"
+      "time_period": null
     }
   ],
   "edges": [
@@ -119,13 +119,13 @@
       "relationship": "other",
       "detail": "originated from",
       "context": "Ah Kong was formed by members of See Tong after a gang clash.",
-      "time_period": "1969"
+      "time_period": "1969-1970s"
     },
     {
       "source": "See Tong",
       "target": "Pek Kim Leng",
       "relationship": "rivalry",
-      "context": "See Tong attacked Pek Kim Leng members, leading to deaths and injuries.",
+      "context": "See Tong and Pek Kim Leng were rival gangs involved in a fatal clash in 1969.",
       "time_period": "1969"
     },
     {
@@ -139,37 +139,37 @@
       "source": "Ah Kong",
       "target": "Sin Ma",
       "relationship": "rivalry",
-      "context": "After 1997, Ah Kong lost influence to Sin Ma gang based in Rotterdam.",
-      "time_period": "1997-present"
+      "context": "After the assassination of Ah Kong's boss in 1997, Sin Ma gained influence over Ah Kong.",
+      "time_period": "1997-2010"
     },
     {
       "source": "Ah Kong",
       "target": "14K",
       "relationship": "rivalry",
-      "context": "Ah Kong killed 14K leaders and took over their drug trade areas.",
+      "context": "Ah Kong killed 14K leaders Chung Mon and Chan Yuen Muk, then took over their drug trade.",
       "time_period": "1975-1976"
     },
     {
       "source": "Ah Kong",
       "target": "Wo Shing Wo",
       "relationship": "rivalry",
-      "context": "Ah Kong members severed a Wo Shing Wo boss's arm during a dispute.",
-      "time_period": "1970s"
+      "context": "Ah Kong members severed the arm of a Wo Shing Wo boss during a dispute in Rotterdam.",
+      "time_period": "early 1970s"
     },
     {
-      "source": "Ah Kong",
-      "target": "Hainan Gang",
+      "source": "Hainan Gang",
+      "target": "Ah Kong",
       "relationship": "other",
-      "detail": "split into",
-      "context": "After a split, Johnny left Ah Kong and established the Hainan gang in Bangkok.",
-      "time_period": "1970s"
+      "detail": "split from",
+      "context": "Johnny founded the Hainan Gang in Bangkok after splitting from Ah Kong.",
+      "time_period": "mid-1970s"
     },
     {
       "source": "Hainan Gang",
       "target": "14K",
       "relationship": "alliance",
-      "context": "Johnny maintained close relationship with 14K despite killing their leader.",
-      "time_period": "1970s-1990s"
+      "context": "Johnny maintained close relationship with 14K despite killing their leader Chan Yuen Muk.",
+      "time_period": "1970s-1980s"
     },
     {
       "source": "Ah Kong",
@@ -200,8 +200,8 @@
       "target": "Ah Kong",
       "relationship": "other",
       "detail": "associated with",
-      "context": "Danish Hells Angels held parties at Roland Tan's restaurant, indicating association.",
-      "time_period": "2000s"
+      "context": "Danish Hells Angels held parties at Roland Tan's restaurant.",
+      "time_period": null
     }
   ],
   "source_file": "Ah_Kong"

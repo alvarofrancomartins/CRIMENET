@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Zemun Clan",
+      "original_text_name": "Zemun Clan",
+      "aliases": [
+        "Zemunski klan",
+        "new Zemun Clan"
+      ],
+      "type": "clan",
+      "context": "Serbian mafia group based in Zemun, Belgrade, involved in drug trafficking, kidnapping, murder, and racketeering.",
+      "time_period": "1993-2003; revived 2009-present"
+    },
+    {
+      "standard_name": "Surčin Clan",
+      "original_text_name": "Surčin clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Belgrade-based organized car theft group, later turned legitimate with a road construction company.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "standard_name": "Special Operations Unit",
+      "original_text_name": "Special Operations Unit",
+      "aliases": [
+        "Red Berets"
+      ],
+      "type": "militia",
+      "context": "Serbian paramilitary unit with ties to the Zemun Clan, dissolved after Đinđić assassination.",
+      "time_period": "1990s-2003"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Zemun Clan",
+      "target": "Surčin Clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zemun Clan initially operated under or in cooperation with Surčin Clan, later became autonomous.",
+      "time_period": "1995-1999"
+    },
+    {
+      "source": "Zemun Clan",
+      "target": "Surčin Clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Zemun Clan attempted to assassinate Surčin leader Ljubiša Buha twice in 2002.",
+      "time_period": "2002"
+    },
+    {
+      "source": "Zemun Clan",
+      "target": "Special Operations Unit",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zemun Clan recruited veterans and commander Milorad Ulemek from the Special Operations Unit.",
+      "time_period": "2001-2003"
+    }
+  ],
+  "source_file": "Zemun_Clan"
+}

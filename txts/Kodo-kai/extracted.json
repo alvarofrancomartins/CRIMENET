@@ -1,0 +1,230 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kodo-kai",
+      "original_text_name": "Kodo-kai",
+      "aliases": [
+        "Kōdō-kai",
+        "Koh-doh-kai"
+      ],
+      "type": "mafia",
+      "context": "Yakuza organization based in Nagoya, Japan; second-largest affiliate of the Yamaguchi-gumi with 4,000 members.",
+      "time_period": "1984-present"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [
+        "Sixth Yamaguchi-gumi",
+        "Fourth Yamaguchi-gumi",
+        "Fifth Yamaguchi-gumi"
+      ],
+      "type": "mafia",
+      "context": "Largest yakuza syndicate in Japan; Kodo-kai is a secondary organization of the Sixth Yamaguchi-gumi.",
+      "time_period": "1915-present"
+    },
+    {
+      "standard_name": "Yamaken-gumi",
+      "original_text_name": "Yamaken-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Largest Yamaguchi affiliate; Kodo-kai is the second-largest after Yamaken-gumi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Seibu Rengo",
+      "original_text_name": "Seibu Rengo",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Branch organization of Kodo-kai based in Hakata, Fukuoka, Kyushu.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Komatsu-gumi",
+      "original_text_name": "Komatsu-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Branch organization of Kodo-kai based in Tokyo, launched around 1987.",
+      "time_period": "1987-present"
+    },
+    {
+      "standard_name": "Koike-gumi",
+      "original_text_name": "Koike-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Branch organization of Kodo-kai based in Chiba.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Fukushima Rengo",
+      "original_text_name": "Fukushima Rengo",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Branch organization of Kodo-kai based in Sapporo, Hokkaido.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Jido-kai",
+      "original_text_name": "Jido-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Branch organization of Kodo-kai based in Nagano, largest Kodo affiliate in Nagano Prefecture.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Omi-ikka",
+      "original_text_name": "Omi-ikka",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Branch organization of Kodo-kai based in Otsu, Shiga; founded in 2003 by eldest son of Tokutaro Takayama.",
+      "time_period": "2003-present"
+    },
+    {
+      "standard_name": "Tsukasa-kogyo",
+      "original_text_name": "Tsukasa-kogyo",
+      "aliases": [],
+      "type": "other",
+      "context": "Founding head Shinobu Tsukasa; later became head of Hirota-gumi and supreme boss of Sixth Yamaguchi-gumi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hirota-gumi",
+      "original_text_name": "Hirota-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Shinobu Tsukasa became head of Hirota-gumi before becoming supreme boss of Sixth Yamaguchi-gumi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Takayama-gumi",
+      "original_text_name": "Takayama-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Founding head Kiyoshi Takayama; also number-two boss of Sixth Yamaguchi-gumi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ryoshin-kai",
+      "original_text_name": "Ryoshin-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Kiyoshi Takayama was former chief director (rijicho) of Ryoshin-kai.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Aizukotetsu-kai",
+      "original_text_name": "Aizukotetsu-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Kyoto-based organization; Tokutaro Takayama was fourth president; his eldest son founded Omi-ikka.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kodo-kai",
+      "target": "Yamaguchi-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kodo-kai is a secondary organization of the Sixth Yamaguchi-gumi.",
+      "time_period": "1984-present"
+    },
+    {
+      "source": "Kodo-kai",
+      "target": "Yamaken-gumi",
+      "relationship": "other",
+      "detail": "comparison",
+      "context": "Kodo-kai is the second-largest Yamaguchi affiliate after Yamaken-gumi.",
+      "time_period": null
+    },
+    {
+      "source": "Kodo-kai",
+      "target": "Seibu Rengo",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Seibu Rengo is a known branch organization of Kodo-kai.",
+      "time_period": null
+    },
+    {
+      "source": "Kodo-kai",
+      "target": "Komatsu-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Komatsu-gumi is a known branch organization of Kodo-kai.",
+      "time_period": "1987-present"
+    },
+    {
+      "source": "Kodo-kai",
+      "target": "Koike-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Koike-gumi is a known branch organization of Kodo-kai.",
+      "time_period": null
+    },
+    {
+      "source": "Kodo-kai",
+      "target": "Fukushima Rengo",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Fukushima Rengo is a known branch organization of Kodo-kai.",
+      "time_period": null
+    },
+    {
+      "source": "Kodo-kai",
+      "target": "Jido-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Jido-kai is a known branch organization of Kodo-kai.",
+      "time_period": null
+    },
+    {
+      "source": "Kodo-kai",
+      "target": "Omi-ikka",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Omi-ikka is a known branch organization of Kodo-kai.",
+      "time_period": "2003-present"
+    },
+    {
+      "source": "Tsukasa-kogyo",
+      "target": "Yamaguchi-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Shinobu Tsukasa, founder of Tsukasa-kogyo, became a formal member of Fourth Yamaguchi-gumi.",
+      "time_period": "1984-1989"
+    },
+    {
+      "source": "Hirota-gumi",
+      "target": "Yamaguchi-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Shinobu Tsukasa became head of Hirota-gumi and later supreme boss of Sixth Yamaguchi-gumi.",
+      "time_period": null
+    },
+    {
+      "source": "Takayama-gumi",
+      "target": "Yamaguchi-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kiyoshi Takayama, founder of Takayama-gumi, became number-two boss of Sixth Yamaguchi-gumi.",
+      "time_period": "2005-present"
+    },
+    {
+      "source": "Ryoshin-kai",
+      "target": "Takayama-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kiyoshi Takayama was former chief director of Ryoshin-kai before founding Takayama-gumi.",
+      "time_period": null
+    },
+    {
+      "source": "Omi-ikka",
+      "target": "Aizukotetsu-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Omi-ikka was founded by the eldest son of Tokutaro Takayama, fourth president of Aizukotetsu-kai.",
+      "time_period": "2003-present"
+    }
+  ],
+  "source_file": "Kodo-kai"
+}

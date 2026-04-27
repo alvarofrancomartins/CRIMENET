@@ -26,15 +26,15 @@
       "aliases": [],
       "type": "gang",
       "context": "Rival gang in Montreal that was wiped out by the Dubois Brothers.",
-      "time_period": "1970s"
+      "time_period": null
     },
     {
       "standard_name": "Motorcycle gang",
       "original_text_name": "motorcycle gang",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Unnamed motorcycle gang outmuscled by the Dubois Brothers for drug market control.",
-      "time_period": "1970s"
+      "context": "Unnamed motorcycle gang out-muscled by the Dubois Brothers for drug market control.",
+      "time_period": null
     },
     {
       "standard_name": "McSween Gang",
@@ -43,7 +43,7 @@
         "McSweens"
       ],
       "type": "gang",
-      "context": "Irish-Canadian gang specializing in truck hijackings and theft, allied with Dubois Brothers before war.",
+      "context": "Irish-Canadian gang specializing in truck hijackings and theft, operated in Montreal.",
       "time_period": "1957-1970s"
     },
     {
@@ -53,8 +53,8 @@
         "Devil's Disciples"
       ],
       "type": "motorcycle_club",
-      "context": "French biker gang controlling drug trade in Saint-Louis Square, Montreal.",
-      "time_period": "1970s"
+      "context": "French biker gang controlling drug trade in Saint-Louis Square, Montreal, in early 1970s.",
+      "time_period": "1972-1976"
     },
     {
       "standard_name": "Popeyes Motorcycle Club",
@@ -64,7 +64,7 @@
       ],
       "type": "motorcycle_club",
       "context": "Biker gang hired by Dubois Brothers to fight Devil's Disciples, later managed drug sales.",
-      "time_period": "1970s"
+      "time_period": "1974-1976"
     }
   ],
   "edges": [
@@ -82,22 +82,22 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "The Dubois Brothers wiped out the rival Irish gang to expand territory.",
-      "time_period": "1970s"
+      "time_period": null
     },
     {
       "source": "Dubois Brothers",
       "target": "Motorcycle gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Dubois Brothers outmuscled a motorcycle gang to take over the lucrative drug market.",
-      "time_period": "1970s"
+      "context": "The Dubois Brothers out-muscled a motorcycle gang to take over the lucrative drug market.",
+      "time_period": null
     },
     {
       "source": "Dubois Brothers",
       "target": "McSween Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "McSweens joined as associates in 1957, providing stolen goods in exchange for weapons and support.",
+      "context": "McSweens joined as associates in 1957, selling stolen goods to Dubois in exchange for weapons and supplies.",
       "time_period": "1957-1973"
     },
     {
@@ -105,7 +105,7 @@
       "target": "McSween Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "War broke out in 1973 over territory; Dubois Brothers killed McSween members and took over their territory.",
+      "context": "War broke out in 1973 over territory; Dubois killed several McSween members and took over their territory.",
       "time_period": "1973-1975"
     },
     {
@@ -113,7 +113,7 @@
       "target": "Devil's Disciples Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Dubois Brothers hired Popeyes to fight Devil's Disciples for control of Saint-Louis Square drug market.",
+      "context": "Dubois hired Popeyes to fight Devil's Disciples over drug turf; fifteen Disciples killed and they were driven out.",
       "time_period": "1974-1976"
     },
     {
@@ -121,7 +121,7 @@
       "target": "Popeyes Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Dubois Brothers hired Popeyes as muscle to fight Devil's Disciples; Popeyes later managed drug sales for Dubois.",
+      "context": "Dubois hired Popeyes as muscle to fight Devil's Disciples; Popeyes later managed drug sales for Dubois.",
       "time_period": "1974-1976"
     }
   ],

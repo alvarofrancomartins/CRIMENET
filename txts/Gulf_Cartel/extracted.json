@@ -49,6 +49,7 @@
       "standard_name": "Tijuana Cartel",
       "original_text_name": "Tijuana Cartel",
       "aliases": [
+        "Arellano Félix Cartel",
         "Arellano Félix Organization"
       ],
       "type": "cartel",
@@ -76,7 +77,7 @@
       "original_text_name": "La Familia Michoacana",
       "aliases": [],
       "type": "cartel",
-      "context": "Drug cartel based in Michoacán, Mexico; known for religious ideology.",
+      "context": "Drug cartel based in Michoacán, Mexico. Allied with Gulf Cartel and Sinaloa Cartel against Los Zetas.",
       "time_period": "2000s-2010s"
     },
     {
@@ -84,10 +85,10 @@
       "original_text_name": "Juárez Cartel",
       "aliases": [
         "Juárez Cartel",
-        "Vicente Carrillo Fuentes Organization"
+        "Vicente Carrillo Fuentes Cartel"
       ],
       "type": "cartel",
-      "context": "Drug cartel based in Ciudad Juárez, Chihuahua; led by the Carrillo Fuentes family.",
+      "context": "Drug cartel based in Ciudad Juárez, Chihuahua. Allied with Los Zetas against Gulf Cartel.",
       "time_period": "1980s-present"
     },
     {
@@ -95,7 +96,7 @@
       "original_text_name": "Beltrán-Leyva Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Drug cartel that split from the Sinaloa Cartel; led by the Beltrán Leyva brothers.",
+      "context": "Drug cartel that split from Sinaloa Cartel. Allied with Los Zetas against Gulf Cartel.",
       "time_period": "2000s-2010s"
     },
     {
@@ -106,7 +107,7 @@
         "The Scorpions"
       ],
       "type": "faction",
-      "context": "Armed wing of the Gulf Cartel, created to protect leader Antonio Cárdenas Guillén.",
+      "context": "Armed wing of the Gulf Cartel, created to protect leader Antonio Cárdenas Guillén and later became the cartel's enforcer group.",
       "time_period": "2008-2010"
     },
     {
@@ -114,7 +115,7 @@
       "original_text_name": "Metros",
       "aliases": [],
       "type": "faction",
-      "context": "Faction of the Gulf Cartel based in Matamoros; led by Jorge Eduardo Costilla Sánchez.",
+      "context": "Faction of the Gulf Cartel based in Matamoros, Tamaulipas. Led by Jorge Eduardo Costilla Sánchez.",
       "time_period": "1990s-present"
     },
     {
@@ -124,7 +125,7 @@
         "Los Rojos"
       ],
       "type": "faction",
-      "context": "Faction of the Gulf Cartel based in Reynosa; led by Mario Cárdenas Guillén.",
+      "context": "Faction of the Gulf Cartel based in Reynosa, Tamaulipas. Led by Mario Cárdenas Guillén.",
       "time_period": "1990s-present"
     },
     {
@@ -132,7 +133,7 @@
       "original_text_name": "Lobos",
       "aliases": [],
       "type": "faction",
-      "context": "Faction of the Gulf Cartel based in Laredo.",
+      "context": "Faction of the Gulf Cartel based in Laredo, Tamaulipas.",
       "time_period": "1990s-present"
     },
     {
@@ -164,7 +165,7 @@
       "original_text_name": "La Familia Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Drug cartel based in Michoacán, Mexico. Now considered extinct.",
+      "context": "Drug cartel based in Michoacán, Mexico. Known for its religious ideology. Now extinct.",
       "time_period": "2000s-2010s"
     },
     {
@@ -219,7 +220,7 @@
     },
     {
       "standard_name": "Puro Tango Blast",
-      "original_text_name": "Puro Tango Blast (Vallucos)",
+      "original_text_name": "Puro Tango Blast",
       "aliases": [
         "Vallucos"
       ],
@@ -340,7 +341,7 @@
       "target": "Los Chachos",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Los Zetas were tasked with eradicating Los Chachos, who disputed drug corridors with the Gulf Cartel.",
+      "context": "Los Zetas (as part of Gulf Cartel) eradicated Los Chachos, who disputed drug corridors with the Gulf Cartel.",
       "time_period": "2003"
     },
     {
@@ -356,7 +357,7 @@
       "target": "Tijuana Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Chachos switched allegiance to the Tijuana Cartel, betraying the Gulf Cartel.",
+      "context": "Los Chachos switched alliance to the Tijuana Cartel, betraying the Gulf Cartel.",
       "time_period": "2003"
     },
     {
@@ -364,15 +365,23 @@
       "target": "Sinaloa Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Gulf Cartel and Los Zetas fought the Sinaloa Cartel and Los Negros in Nuevo Laredo starting in 2004.",
-      "time_period": "2004-present"
+      "context": "Sinaloa Cartel established Los Negros to fight the Gulf Cartel and Los Zetas, leading to conflict in Nuevo Laredo.",
+      "time_period": "2000s"
     },
     {
       "source": "Sinaloa Cartel",
       "target": "Los Negros",
       "relationship": "alliance",
       "detail": null,
-      "context": "Sinaloa Cartel established Los Negros as its armed enforcer group to counter Los Zetas.",
+      "context": "Los Negros were established as an enforcer group by the Sinaloa Cartel.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Los Zetas",
+      "target": "Los Negros",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Zetas and Los Negros were rival enforcer groups for the Gulf and Sinaloa cartels respectively.",
       "time_period": "2000s"
     },
     {
@@ -388,15 +397,15 @@
       "target": "Sinaloa Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Gulf Cartel joined forces with the Sinaloa Cartel to fight Los Zetas.",
-      "time_period": "2010-2011"
+      "context": "Gulf Cartel joined forces with former rival Sinaloa Cartel to fight Los Zetas.",
+      "time_period": "2010-present"
     },
     {
       "source": "Gulf Cartel",
       "target": "La Familia Michoacana",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Gulf Cartel allied with La Familia Michoacana against Los Zetas.",
+      "context": "Gulf Cartel allied with La Familia Michoacana against Los Zetas.",
       "time_period": "2010-2011"
     },
     {
@@ -404,31 +413,31 @@
       "target": "Juárez Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Zetas allied with the Juárez Cartel during the conflict with the Gulf Cartel.",
-      "time_period": "2010-2011"
+      "context": "Los Zetas allied with the Juárez Cartel against the Gulf Cartel and its allies.",
+      "time_period": "2010-present"
     },
     {
       "source": "Los Zetas",
       "target": "Beltrán-Leyva Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Zetas allied with the Beltrán-Leyva Cartel, which led to conflict with the Gulf Cartel.",
-      "time_period": "2010-2011"
+      "context": "Los Zetas allied with the Beltrán-Leyva Cartel against the Gulf Cartel.",
+      "time_period": "2010-present"
     },
     {
       "source": "Los Zetas",
       "target": "Tijuana Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Zetas allied with the Tijuana Cartel during the war with the Gulf Cartel.",
-      "time_period": "2010-2011"
+      "context": "Los Zetas allied with the Tijuana Cartel against the Gulf Cartel.",
+      "time_period": "2010-present"
     },
     {
       "source": "Gulf Cartel",
       "target": "Los Escorpiones",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Escorpiones served as the armed wing of the Gulf Cartel after the split with Los Zetas.",
+      "context": "Los Escorpiones were the armed wing of the Gulf Cartel, created to protect its leaders.",
       "time_period": "2008-2010"
     },
     {
@@ -460,7 +469,7 @@
       "target": "Rojos",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Infighting between Metros and Rojos began in 2010 over territorial disputes.",
+      "context": "Infighting between Metros and Rojos factions began in 2010 over territorial control.",
       "time_period": "2010-present"
     },
     {
@@ -500,7 +509,7 @@
       "target": "'Ndrangheta",
       "relationship": "alliance",
       "detail": null,
-      "context": "Ties with 'Ndrangheta; used BlackBerry to communicate for drug trafficking in Europe.",
+      "context": "Ties with 'Ndrangheta for drug trafficking in Europe; used BlackBerry for communication.",
       "time_period": "2000s-present"
     },
     {
@@ -524,7 +533,7 @@
       "target": "Gulf Cartel",
       "relationship": "other",
       "detail": "fragmentation",
-      "context": "Los Pelones emerged as an independent cartel from Gulf Cartel fragmentation.",
+      "context": "Los Pelones emerged as independent cartel during fragmentation of Gulf Cartel.",
       "time_period": "2020"
     },
     {
@@ -540,7 +549,7 @@
       "target": "Juárez Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Sinaloa and Juarez cartels allied to take over territories of Gulf and Tijuana cartels.",
+      "context": "Sinaloa and Juarez Cartels allied to take over smuggling routes of Gulf and Tijuana Cartels.",
       "time_period": "2003-2007"
     },
     {
@@ -548,48 +557,8 @@
       "target": "Juárez Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The alliance ended due to an unpaid debt in 2007, leading to war between them.",
+      "context": "The alliance ended due to an unpaid debt in 2007, and they are now at war.",
       "time_period": "2007-present"
-    },
-    {
-      "source": "Juárez Cartel",
-      "target": "Tijuana Cartel",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Since February 2010, Juarez and Tijuana cartels aligned with Los Zetas and Beltrán-Leyva Cartel.",
-      "time_period": "2010-present"
-    },
-    {
-      "source": "Juárez Cartel",
-      "target": "Los Zetas",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Juarez Cartel aligned with Los Zetas as part of a faction since February 2010.",
-      "time_period": "2010-present"
-    },
-    {
-      "source": "Juárez Cartel",
-      "target": "Beltrán-Leyva Cartel",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Juarez Cartel aligned with Beltrán-Leyva Cartel as part of a faction since February 2010.",
-      "time_period": "2010-present"
-    },
-    {
-      "source": "Tijuana Cartel",
-      "target": "Los Zetas",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Tijuana Cartel aligned with Los Zetas as part of a faction since February 2010.",
-      "time_period": "2010-present"
-    },
-    {
-      "source": "Tijuana Cartel",
-      "target": "Beltrán-Leyva Cartel",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Tijuana Cartel aligned with Beltrán-Leyva Cartel as part of a faction since February 2010.",
-      "time_period": "2010-present"
     },
     {
       "source": "Gulf Cartel",
@@ -597,7 +566,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Since February 2010, Gulf Cartel aligned with La Familia Cartel as part of a faction.",
-      "time_period": "2010-present"
+      "time_period": "2010-2010s"
     },
     {
       "source": "Gulf Cartel",
@@ -608,68 +577,92 @@
       "time_period": "2010-present"
     },
     {
-      "source": "Sinaloa Cartel",
-      "target": "La Familia Cartel",
+      "source": "Juárez Cartel",
+      "target": "Tijuana Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Since February 2010, Sinaloa Cartel aligned with La Familia Cartel as part of a faction.",
+      "context": "Since February 2010, Juarez and Tijuana Cartels aligned as part of a faction against the other cartels.",
       "time_period": "2010-present"
     },
     {
-      "source": "Sinaloa Cartel",
-      "target": "Knights Templar Cartel",
+      "source": "Juárez Cartel",
+      "target": "Los Zetas",
       "relationship": "alliance",
       "detail": null,
-      "context": "Since February 2010, Sinaloa Cartel aligned with Knights Templar Cartel as part of a faction.",
+      "context": "Since February 2010, Juarez Cartel aligned with Los Zetas as part of a faction.",
       "time_period": "2010-present"
     },
     {
-      "source": "La Familia Cartel",
-      "target": "Knights Templar Cartel",
+      "source": "Juárez Cartel",
+      "target": "Beltrán-Leyva Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Since February 2010, La Familia Cartel aligned with Knights Templar Cartel as part of a faction.",
+      "context": "Since February 2010, Juarez Cartel aligned with Beltrán-Leyva Cartel as part of a faction.",
       "time_period": "2010-present"
     },
     {
-      "source": "Gulf Cartel",
-      "target": "Rojos",
+      "source": "Tijuana Cartel",
+      "target": "Los Zetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Since February 2010, Tijuana Cartel aligned with Los Zetas as part of a faction.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Tijuana Cartel",
+      "target": "Beltrán-Leyva Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Since February 2010, Tijuana Cartel aligned with Beltrán-Leyva Cartel as part of a faction.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Rojos",
+      "target": "Gulf Cartel",
       "relationship": "other",
-      "detail": "sub-group",
+      "detail": "internal faction",
       "context": "Rojos is a faction within the Gulf Cartel.",
       "time_period": null
     },
     {
-      "source": "Gulf Cartel",
-      "target": "Metros",
+      "source": "Metros",
+      "target": "Gulf Cartel",
       "relationship": "other",
-      "detail": "sub-group",
+      "detail": "internal faction",
       "context": "Metros is a faction within the Gulf Cartel.",
       "time_period": null
     },
     {
       "source": "Gulf Cartel",
-      "target": "Los Flacos",
+      "target": "Los Zetas",
       "relationship": "other",
-      "detail": "sub-group",
+      "detail": "former alliance turned rivalry",
+      "context": "Los Zetas were originally the armed wing of the Gulf Cartel until a rupture in 2007, after which they became rivals.",
+      "time_period": "1990s-2007 (alliance), 2007-present (rivalry)"
+    },
+    {
+      "source": "Gulf Cartel",
+      "target": "Los Flacos",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Los Flacos is a cell within the Gulf Cartel dedicated to human smuggling.",
-      "time_period": "2000s-present"
+      "time_period": null
     },
     {
       "source": "Gulf Cartel",
       "target": "La Maña",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "La Maña is an alleged sub-group of Los Zetas and Gulf Cartel.",
-      "time_period": "2000s"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Maña is an alleged sub-group of Los Zetas and the Gulf Cartel, controlling extortion in Matamoros.",
+      "time_period": "2007"
     },
     {
       "source": "Los Zetas",
       "target": "La Maña",
-      "relationship": "other",
-      "detail": "sub-group",
+      "relationship": "alliance",
+      "detail": null,
       "context": "La Maña is an alleged sub-group of Los Zetas.",
-      "time_period": "2000s"
+      "time_period": "2007"
     },
     {
       "source": "Gulf Cartel",
@@ -677,7 +670,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Gulf Cartel employs Texas Syndicate for drug distribution in Texas.",
-      "time_period": "2000s-present"
+      "time_period": null
     },
     {
       "source": "Gulf Cartel",
@@ -685,7 +678,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Gulf Cartel employs Latin Kings for drug distribution in Texas.",
-      "time_period": "2000s-present"
+      "time_period": null
     },
     {
       "source": "Gulf Cartel",
@@ -693,7 +686,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Gulf Cartel employs Mexican Mafia for drug distribution in Texas.",
-      "time_period": "2000s-present"
+      "time_period": null
     },
     {
       "source": "Gulf Cartel",
@@ -701,7 +694,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Gulf Cartel employs Puro Tango Blast for drug distribution in Texas.",
-      "time_period": "2000s-present"
+      "time_period": null
     },
     {
       "source": "Gulf Cartel",
@@ -709,7 +702,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Gulf Cartel employs Hermandad de Pistoleros Latinos for drug distribution in Texas.",
-      "time_period": "2000s-present"
+      "time_period": null
     },
     {
       "source": "Gulf Cartel",
@@ -717,7 +710,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Gulf Cartel employs Tri-City Bombers for drug distribution in Texas.",
-      "time_period": "2000s-present"
+      "time_period": null
     },
     {
       "source": "Gulf Cartel",
@@ -725,14 +718,14 @@
       "relationship": "other",
       "detail": "splinter faction",
       "context": "Scorpions Group is a splinter faction from the Gulf Cartel.",
-      "time_period": "2020s-present"
+      "time_period": "2023"
     },
     {
       "source": "Gulf Cartel",
       "target": "Medellín Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Gulf Cartel was allied with Medellín Cartel (now defunct).",
+      "context": "Gulf Cartel was allied with the Medellín Cartel (now defunct).",
       "time_period": "1980s-1990s"
     },
     {
@@ -740,71 +733,71 @@
       "target": "Los Mexicles",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Mexicles are allies of Gulf Cartel.",
-      "time_period": "2000s-present"
+      "context": "Los Mexicles are allies of the Gulf Cartel.",
+      "time_period": null
     },
     {
       "source": "Gulf Cartel",
       "target": "Camorra",
       "relationship": "alliance",
       "detail": null,
-      "context": "Camorra is an ally of Gulf Cartel.",
-      "time_period": "2000s-present"
+      "context": "Camorra is an ally of the Gulf Cartel.",
+      "time_period": null
     },
     {
       "source": "Gulf Cartel",
       "target": "Serbian mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Serbian mafia is an ally of Gulf Cartel.",
-      "time_period": "2000s-present"
+      "context": "Serbian mafia is an ally of the Gulf Cartel.",
+      "time_period": null
     },
     {
       "source": "Gulf Cartel",
       "target": "Jalisco New Generation Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Jalisco New Generation Cartel is an ally of Gulf Cartel.",
-      "time_period": "2010s-present"
+      "context": "Jalisco New Generation Cartel is an ally of the Gulf Cartel.",
+      "time_period": null
     },
     {
       "source": "Gulf Cartel",
       "target": "Juárez Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Juárez Cartel is a rival of Gulf Cartel.",
-      "time_period": "1990s-present"
+      "context": "Juárez Cartel is a rival of the Gulf Cartel.",
+      "time_period": null
     },
     {
       "source": "Gulf Cartel",
       "target": "Guadalajara Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Guadalajara Cartel was a rival of Gulf Cartel (defunct).",
-      "time_period": "1980s-1990s"
+      "context": "Guadalajara Cartel was a rival of the Gulf Cartel (defunct).",
+      "time_period": "1970s-1990s"
     },
     {
       "source": "Gulf Cartel",
       "target": "La Familia Michoacana",
       "relationship": "rivalry",
       "detail": null,
-      "context": "La Familia Michoacana is a rival of Gulf Cartel.",
-      "time_period": "2000s-present"
+      "context": "La Familia Michoacana is a rival of the Gulf Cartel.",
+      "time_period": null
     },
     {
       "source": "Gulf Cartel",
       "target": "Beltrán-Leyva Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Beltrán-Leyva Cartel is a rival of Gulf Cartel.",
-      "time_period": "2000s-present"
+      "context": "Beltrán-Leyva Cartel is a rival of the Gulf Cartel.",
+      "time_period": null
     },
     {
       "source": "Gulf Cartel",
       "target": "Los Negros",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Los Negros were rivals of Gulf Cartel (disbanded).",
+      "context": "Los Negros were rivals of the Gulf Cartel (disbanded).",
       "time_period": "2000s-2010s"
     },
     {
@@ -812,8 +805,8 @@
       "target": "Cártel del Noreste",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Cártel del Noreste is a rival of Gulf Cartel.",
-      "time_period": "2010s-present"
+      "context": "Cártel del Noreste is a rival of the Gulf Cartel.",
+      "time_period": null
     }
   ],
   "source_file": "Gulf_Cartel"

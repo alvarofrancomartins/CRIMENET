@@ -17,32 +17,35 @@
         "AUC"
       ],
       "type": "militia",
-      "context": "Right-wing paramilitary umbrella group that demobilized between 2004 and 2006.",
+      "context": "Right-wing paramilitary umbrella group that demobilized between 2004-2006, from which Black Eagles emerged.",
       "time_period": "1997-2006"
     },
     {
       "standard_name": "Usuga Clan",
       "original_text_name": "Usuga Clan",
-      "aliases": [],
+      "aliases": [
+        "Clan del Golfo",
+        "Gulf Clan"
+      ],
       "type": "cartel",
-      "context": "Drug cartel closely linked with the Black Eagles.",
-      "time_period": null
+      "context": "Colombian drug cartel closely linked with Black Eagles.",
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Los Rastrojos",
       "original_text_name": "Los Rastrojos",
       "aliases": [],
       "type": "cartel",
-      "context": "Drug trafficking group operating in Cauca and Valle del Cauca with about 1,200 members.",
-      "time_period": null
+      "context": "Colombian drug cartel operating in Cauca and Valle del Cauca, with about 1,200 members.",
+      "time_period": "2000s-2010s"
     },
     {
       "standard_name": "Mano Negra",
       "original_text_name": "Mano Negra",
       "aliases": [],
-      "type": "gang",
-      "context": "Criminal group operating in Putumayo.",
-      "time_period": null
+      "type": "militia",
+      "context": "Colombian paramilitary group operating in Putumayo, number of members unknown.",
+      "time_period": "2000s-2010s"
     }
   ],
   "edges": [
@@ -60,7 +63,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Black Eagles were closely linked with the Usuga Clan drug cartel.",
-      "time_period": null
+      "time_period": "2006-2011"
     },
     {
       "source": "Black Eagles",
@@ -68,7 +71,7 @@
       "relationship": "other",
       "detail": "associated group",
       "context": "Los Rastrojos is listed as a group under the Black Eagles umbrella.",
-      "time_period": null
+      "time_period": "2006-2011"
     },
     {
       "source": "Black Eagles",
@@ -76,7 +79,7 @@
       "relationship": "other",
       "detail": "associated group",
       "context": "Mano Negra is listed as a group under the Black Eagles umbrella.",
-      "time_period": null
+      "time_period": "2006-2011"
     }
   ],
   "source_file": "Black_Eagles"

@@ -1,0 +1,58 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kokusui-kai",
+      "original_text_name": "Kokusui-kai",
+      "aliases": [
+        "National Society",
+        "Kokusui-kai (National Society)"
+      ],
+      "type": "mafia",
+      "context": "Tokyo-based yakuza organization founded in 1958, controls Ginza district.",
+      "time_period": "1958-present"
+    },
+    {
+      "standard_name": "Kantō Hatsukakai",
+      "original_text_name": "Kantō Hatsukakai",
+      "aliases": [],
+      "type": "other",
+      "context": "Federation of Tokyo yakuza groups opposed to the Yamaguchi-gumi.",
+      "time_period": "until 2005"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Powerful Kansai-based yakuza organization that expanded into Tokyo.",
+      "time_period": "1915-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kokusui-kai",
+      "target": "Kantō Hatsukakai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kokusui-kai was a member of the Kantō Hatsukakai federation until 2005.",
+      "time_period": "until August 2005"
+    },
+    {
+      "source": "Kantō Hatsukakai",
+      "target": "Yamaguchi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Kantō Hatsukakai was a federation of Tokyo yakuza groups opposed to the Yamaguchi-gumi.",
+      "time_period": "until 2005"
+    },
+    {
+      "source": "Kokusui-kai",
+      "target": "Yamaguchi-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kokusui-kai withdrew from Kantō Hatsukakai and became an affiliate of Yamaguchi-gumi in 2005.",
+      "time_period": "August 2005-present"
+    }
+  ],
+  "source_file": "Kokusui-kai"
+}

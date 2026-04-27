@@ -17,7 +17,7 @@
       "aliases": [],
       "type": "gang",
       "context": "Armed wing of the Juárez Cartel, composed of corrupt current and former Chihuahua police officers.",
-      "time_period": null
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Barrio Azteca",
@@ -25,7 +25,7 @@
       "aliases": [],
       "type": "gang",
       "context": "Street gang used by the Juárez Cartel to attack its enemies, operating in Mexico and US states like Texas, New Mexico, Arizona.",
-      "time_period": null
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Sinaloa Cartel",
@@ -33,7 +33,7 @@
       "aliases": [],
       "type": "cartel",
       "context": "Mexican drug cartel, rival and former partner of the Juárez Cartel, led by Joaquín 'El Chapo' Guzmán.",
-      "time_period": null
+      "time_period": "1980s-present"
     },
     {
       "standard_name": "Beltrán-Leyva Cartel",
@@ -42,32 +42,32 @@
         "Beltrán Leyva brothers"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel that was allied with the Juárez Cartel and later part of a loose faction.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Tijuana Cartel",
-      "original_text_name": "Tijuana Cartel",
-      "aliases": [],
-      "type": "cartel",
-      "context": "Mexican drug cartel, allied with Juárez Cartel in one faction, rival in another context.",
-      "time_period": null
+      "context": "Mexican drug cartel formerly allied with Juárez Cartel and later aligned with Los Zetas.",
+      "time_period": "1990s-2010s"
     },
     {
       "standard_name": "Los Zetas",
       "original_text_name": "Los Zetas",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel, allied with Juárez Cartel in one faction.",
-      "time_period": null
+      "context": "Mexican drug cartel and former paramilitary group, allied with Juárez Cartel in the 2010s.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Tijuana Cartel",
+      "original_text_name": "Tijuana Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel, rival of Juárez Cartel but later aligned with it in the 2010s.",
+      "time_period": "1980s-present"
     },
     {
       "standard_name": "Gulf Cartel",
       "original_text_name": "Gulf Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel, rival of Juárez Cartel and part of opposing faction.",
-      "time_period": null
+      "context": "Mexican drug cartel, rival of Juárez Cartel and allied with Sinaloa Cartel.",
+      "time_period": "1970s-present"
     },
     {
       "standard_name": "La Familia Michoacana",
@@ -76,8 +76,8 @@
         "La Familia Michoacana"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel, now disbanded, rival of Juárez Cartel.",
-      "time_period": null
+      "context": "Mexican drug cartel, now disbanded, formerly allied with Gulf and Sinaloa Cartels.",
+      "time_period": "2000s-2010s"
     },
     {
       "standard_name": "Jalisco New Generation Cartel",
@@ -87,7 +87,7 @@
       ],
       "type": "cartel",
       "context": "Mexican drug cartel, rival of Juárez Cartel and allied with Nuevo Cartel de Juárez.",
-      "time_period": null
+      "time_period": "2010s-present"
     },
     {
       "standard_name": "Nuevo Cartel de Juárez",
@@ -96,8 +96,8 @@
         "New Juarez Cartel"
       ],
       "type": "cartel",
-      "context": "Splinter group allied with CJNG, competing with original Juárez Cartel.",
-      "time_period": null
+      "context": "Splinter group of the Juárez Cartel, allied with CJNG, competing for control in Ciudad Juárez.",
+      "time_period": "2020-present"
     },
     {
       "standard_name": "Los Salazar",
@@ -105,7 +105,7 @@
       "aliases": [],
       "type": "faction",
       "context": "Powerful cell of the Sinaloa Cartel operating in Ciudad Juárez.",
-      "time_period": null
+      "time_period": "2010s-present"
     },
     {
       "standard_name": "Oaxaca Cartel",
@@ -113,23 +113,25 @@
       "aliases": [],
       "type": "cartel",
       "context": "Defunct Mexican drug cartel, former ally of Juárez Cartel.",
-      "time_period": null
+      "time_period": "1990s-2000s"
     },
     {
       "standard_name": "Cali Cartel",
       "original_text_name": "Cali Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel, former ally of Juárez Cartel (defunct).",
-      "time_period": null
+      "context": "Colombian drug cartel, former ally of Juárez Cartel.",
+      "time_period": "1970s-1990s"
     },
     {
       "standard_name": "MS-13",
       "original_text_name": "MS-13",
-      "aliases": [],
+      "aliases": [
+        "Mara Salvatrucha"
+      ],
       "type": "gang",
       "context": "Transnational street gang, rival of Juárez Cartel.",
-      "time_period": null
+      "time_period": "1980s-present"
     },
     {
       "standard_name": "Gente Nueva",
@@ -137,7 +139,7 @@
       "aliases": [],
       "type": "faction",
       "context": "Armed wing of the Sinaloa Cartel, rival of Juárez Cartel.",
-      "time_period": null
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Knights Templar Cartel",
@@ -145,7 +147,7 @@
       "aliases": [],
       "type": "cartel",
       "context": "Mexican drug cartel, rival of Juárez Cartel.",
-      "time_period": null
+      "time_period": "2010s-present"
     }
   ],
   "edges": [
@@ -155,7 +157,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "La Línea is the armed wing and leading faction of the Juárez Cartel.",
-      "time_period": null
+      "time_period": "2000s-present"
     },
     {
       "source": "Juárez Cartel",
@@ -163,14 +165,14 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Juárez Cartel uses Barrio Azteca gang to attack its enemies.",
-      "time_period": null
+      "time_period": "1990s-present"
     },
     {
       "source": "Juárez Cartel",
       "target": "Sinaloa Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The cartels have been locked in a vicious battle for control of Juárez since 2007.",
+      "context": "The two cartels have been locked in a vicious battle for control of Juárez since 2007.",
       "time_period": "2007-present"
     },
     {
@@ -178,23 +180,23 @@
       "target": "Beltrán-Leyva Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Beltrán-Leyva Cartel was an ally of Juárez Cartel, part of the same faction.",
-      "time_period": null
-    },
-    {
-      "source": "Juárez Cartel",
-      "target": "Tijuana Cartel",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Juárez Cartel and Tijuana Cartel were aligned in one faction since March 2010.",
-      "time_period": "2010-present"
+      "context": "Juárez Cartel formed an alliance with Beltrán-Leyva brothers in Monterrey.",
+      "time_period": "1990s-2000s"
     },
     {
       "source": "Juárez Cartel",
       "target": "Los Zetas",
       "relationship": "alliance",
       "detail": null,
-      "context": "Juárez Cartel and Los Zetas were aligned in one faction since March 2010.",
+      "context": "Since March 2010, Juárez Cartel aligned with Los Zetas as part of a loose faction.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Juárez Cartel",
+      "target": "Tijuana Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Since March 2010, Juárez Cartel aligned with Tijuana Cartel as part of a loose faction.",
       "time_period": "2010-present"
     },
     {
@@ -202,7 +204,7 @@
       "target": "Gulf Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Gulf Cartel is part of the opposing faction to Juárez Cartel.",
+      "context": "Juárez Cartel is listed as a rival of Gulf Cartel.",
       "time_period": null
     },
     {
@@ -210,7 +212,7 @@
       "target": "La Familia Michoacana",
       "relationship": "rivalry",
       "detail": null,
-      "context": "La Familia Michoacana is a rival cartel to Juárez Cartel.",
+      "context": "Juárez Cartel is listed as a rival of La Familia Michoacana.",
       "time_period": null
     },
     {
@@ -218,47 +220,39 @@
       "target": "Jalisco New Generation Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "CJNG is a rival cartel that made presence in Ciudad Juárez.",
+      "context": "Juárez Cartel is listed as a rival of Jalisco New Generation Cartel.",
       "time_period": null
     },
     {
-      "source": "Nuevo Cartel de Juárez",
-      "target": "Jalisco New Generation Cartel",
+      "source": "Juárez Cartel",
+      "target": "Nuevo Cartel de Juárez",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Nuevo Cartel de Juárez, allied with CJNG, began to wrestle control away from the original Juárez Cartel.",
+      "time_period": "2020-present"
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "Los Salazar",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Salazar is a powerful cell of the Sinaloa Cartel.",
+      "time_period": "2010s-present"
+    },
+    {
+      "source": "Jalisco New Generation Cartel",
+      "target": "Nuevo Cartel de Juárez",
       "relationship": "alliance",
       "detail": null,
       "context": "Nuevo Cartel de Juárez is allied with CJNG.",
       "time_period": "2020-present"
     },
     {
-      "source": "Nuevo Cartel de Juárez",
-      "target": "Juárez Cartel",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Nuevo Cartel de Juárez began to wrestle control away from the original Juárez Cartel.",
-      "time_period": "2020-present"
-    },
-    {
-      "source": "Los Salazar",
-      "target": "Sinaloa Cartel",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Los Salazar is a powerful cell of the Sinaloa Cartel.",
-      "time_period": null
-    },
-    {
-      "source": "Los Salazar",
-      "target": "Juárez Cartel",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Los Salazar competes with Juárez Cartel's La Línea in Ciudad Juárez.",
-      "time_period": null
-    },
-    {
       "source": "Juárez Cartel",
       "target": "Oaxaca Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Oaxaca Cartel is a defunct ally of Juárez Cartel.",
+      "context": "Oaxaca Cartel is listed as a former ally of Juárez Cartel.",
       "time_period": null
     },
     {
@@ -266,7 +260,7 @@
       "target": "Cali Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Cali Cartel is a defunct ally of Juárez Cartel.",
+      "context": "Cali Cartel is listed as a former ally of Juárez Cartel.",
       "time_period": null
     },
     {
@@ -282,7 +276,7 @@
       "target": "Gente Nueva",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Gente Nueva is a rival faction of the Sinaloa Cartel.",
+      "context": "Gente Nueva is listed as a rival of Juárez Cartel.",
       "time_period": null
     },
     {
@@ -290,7 +284,7 @@
       "target": "Knights Templar Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Knights Templar Cartel is a rival of Juárez Cartel.",
+      "context": "Knights Templar Cartel is listed as a rival of Juárez Cartel.",
       "time_period": null
     }
   ],

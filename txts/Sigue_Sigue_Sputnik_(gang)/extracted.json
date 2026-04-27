@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sigue Sigue Sputnik",
+      "original_text_name": "Sigue Sigue Sputnik",
+      "aliases": [
+        "Sputniks"
+      ],
+      "type": "gang",
+      "context": "Filipino street gang based in Tondo, Manila, involved in drug and arms trafficking, murder.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Sigue Sigue Commandos",
+      "original_text_name": "Sigue Sigue Commandos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Sigue Sigue Sputnik, also originating in Tondo, Manila.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "Oxo group",
+      "original_text_name": "Oxo group",
+      "aliases": [],
+      "type": "gang",
+      "context": "Visayan gang considered by Sputniks to have invaded Tagalog territory.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bahala Na Gang",
+      "original_text_name": "Bahala Na Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Sigue Sigue Sputnik, featured in a 1995 film about gang war.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Abu Sayyaf",
+      "original_text_name": "Abu Sayyaf",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Islamist militant group in the Philippines, allied with Sigue Sigue Commandos in prison riot.",
+      "time_period": "1990s-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Sigue Sigue Sputnik",
+      "target": "Sigue Sigue Commandos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sigue Sigue Commandos are the most ardent rival of Sigue Sigue Sputnik.",
+      "time_period": "1960s-present"
+    },
+    {
+      "source": "Sigue Sigue Sputnik",
+      "target": "Oxo group",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sputniks felt the Oxo group had invaded Tagalog territory, leading to conflict.",
+      "time_period": null
+    },
+    {
+      "source": "Sigue Sigue Sputnik",
+      "target": "Bahala Na Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Bahala Na Gang is listed as a rival in the infobox and featured in a film about gang war.",
+      "time_period": null
+    },
+    {
+      "source": "Sigue Sigue Commandos",
+      "target": "Abu Sayyaf",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sigue Sigue Commandos and Abu Sayyaf convicts formed an alliance against Sputniks during the 2020 prison riot.",
+      "time_period": "2020"
+    }
+  ],
+  "source_file": "Sigue_Sigue_Sputnik_(gang)"
+}

@@ -93,14 +93,12 @@
       "time_period": "20th century"
     },
     {
-      "standard_name": "Cosa Nostra",
-      "original_text_name": "Cosa Nostra",
-      "aliases": [
-        "Sicilian Mafia"
-      ],
+      "standard_name": "Ciaculli family",
+      "original_text_name": "Ciaculli family",
+      "aliases": [],
       "type": "mafia",
-      "context": "The overarching Sicilian Mafia organization of which the Greco clan was a part.",
-      "time_period": "19th century-present"
+      "context": "A Mafia family based in Ciaculli, a faction within the Greco clan, led by Leandro Greco and later Giuseppe Greco.",
+      "time_period": "Late 19th century-present"
     }
   ],
   "edges": [
@@ -162,19 +160,19 @@
     },
     {
       "source": "Greco Mafia clan",
-      "target": "Cosa Nostra",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Greco clan is a constituent family within the Sicilian Cosa Nostra.",
-      "time_period": "Late 19th century-present"
-    },
-    {
-      "source": "Greco Mafia clan",
       "target": "Acquasanta Mafia clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rivalry over control of the Palermo wholesale market in the mid 1950s.",
-      "time_period": "mid 1950s"
+      "context": "Rivalry over the Palermo wholesale market in the mid-1950s.",
+      "time_period": "1950s"
+    },
+    {
+      "source": "Ciaculli family",
+      "target": "Greco Mafia clan",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Ciaculli family is a faction within the Greco clan.",
+      "time_period": null
     }
   ],
   "source_file": "Greco_Mafia_clan"

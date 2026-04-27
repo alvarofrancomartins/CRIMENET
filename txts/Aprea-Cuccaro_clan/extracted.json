@@ -13,24 +13,24 @@
       "original_text_name": "Sarno clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan from Ponticelli, former employer of Giovanni Aprea.",
-      "time_period": null
+      "context": "Camorra clan from Ponticelli, Naples, rival of Aprea-Cuccaro.",
+      "time_period": "1990s-2000s"
     },
     {
       "standard_name": "Secondigliano Alliance",
       "original_text_name": "Secondigliano Alliance",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra alliance, allied with Aprea-Cuccaro since 1990s.",
-      "time_period": null
+      "context": "Camorra alliance in Naples, allied with Aprea-Cuccaro since 1990s.",
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Mazzarella clan",
       "original_text_name": "Mazzarella clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan, rival of Aprea-Cuccaro.",
-      "time_period": null
+      "context": "Camorra clan in Naples, rival of Aprea-Cuccaro.",
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "De Luca Bossa clan",
@@ -38,23 +38,23 @@
       "aliases": [],
       "type": "clan",
       "context": "Camorra clan from Ponticelli, allied with Aprea-Cuccaro.",
-      "time_period": null
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Formicola clan",
       "original_text_name": "Formicola clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan, rival of Aprea-Cuccaro in a bloody feud.",
-      "time_period": null
+      "context": "Camorra clan in eastern Naples, rival of Aprea-Cuccaro.",
+      "time_period": "1990s-2000s"
     },
     {
       "standard_name": "Celeste-Guarino clan",
       "original_text_name": "Celeste-Guarino clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan, rival of Aprea-Cuccaro in a feud in Barra.",
-      "time_period": null
+      "context": "Camorra clan in Barra, rival of Aprea-Cuccaro in 2005-2006.",
+      "time_period": "2005-2006"
     },
     {
       "standard_name": "Rinaldi clan",
@@ -62,90 +62,113 @@
       "aliases": [],
       "type": "clan",
       "context": "Camorra clan from San Giovanni a Teduccio, allied with Aprea-Cuccaro.",
-      "time_period": null
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Andolfi faction",
       "original_text_name": "Andolfi faction",
       "aliases": [],
       "type": "faction",
-      "context": "Faction linked to Cuccaros, regent Ciro Imperatrice.",
-      "time_period": null
+      "context": "Faction within Aprea-Cuccaro clan, linked to Cuccaros.",
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "D'Atri faction",
       "original_text_name": "D'Atri faction",
       "aliases": [],
       "type": "faction",
-      "context": "Small criminal group in Somma Vesuviana, supported by Aprea-Cuccaro and Rinaldi.",
-      "time_period": null
+      "context": "Small criminal group in Somma Vesuviana, supported by Aprea-Cuccaro.",
+      "time_period": "2010s-present"
+    },
+    {
+      "standard_name": "Lago clan",
+      "original_text_name": "Lago clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan, defunct rival of Aprea-Cuccaro.",
+      "time_period": "1990s-2000s"
     }
   ],
   "edges": [
     {
       "source": "Aprea-Cuccaro clan",
       "target": "Sarno clan",
-      "relationship": "other",
-      "detail": "former employer",
-      "context": "Giovanni Aprea worked for Ciro Sarno of the Sarno clan before forming his own clan.",
-      "time_period": "before 1990s"
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Aprea-Cuccaro resisted pressure from Sarno clan and fought against them.",
+      "time_period": "1990s"
     },
     {
       "source": "Aprea-Cuccaro clan",
       "target": "Secondigliano Alliance",
       "relationship": "alliance",
-      "context": "Allied since 1990s to resist Mazzarella and Sarno clans.",
+      "detail": null,
+      "context": "Aprea-Cuccaro entered an agreement with Secondigliano Alliance to resist rivals.",
       "time_period": "1990s-present"
     },
     {
       "source": "Aprea-Cuccaro clan",
       "target": "Mazzarella clan",
       "relationship": "rivalry",
-      "context": "Rivalry; Aprea-Cuccaro allied with others to undermine Mazzarella.",
-      "time_period": null
+      "detail": null,
+      "context": "Aprea-Cuccaro allied with others to undermine Mazzarella clan.",
+      "time_period": "1990s-present"
     },
     {
       "source": "Aprea-Cuccaro clan",
       "target": "De Luca Bossa clan",
       "relationship": "alliance",
-      "context": "Allied against Sarno clan and later in criminal alliance.",
+      "detail": null,
+      "context": "Aprea-Cuccaro supported De Luca Bossa against Sarno and later allied.",
       "time_period": "1990s-present"
     },
     {
       "source": "Aprea-Cuccaro clan",
       "target": "Formicola clan",
       "relationship": "rivalry",
-      "context": "Bloody feud; members killed on both sides.",
+      "detail": null,
+      "context": "Bloody feud between the two clans in eastern Naples.",
       "time_period": "1990s"
     },
     {
       "source": "Aprea-Cuccaro clan",
       "target": "Celeste-Guarino clan",
       "relationship": "rivalry",
-      "context": "Violent feud in Barra in 2005-2006; Aprea-Cuccaro victorious.",
+      "detail": null,
+      "context": "Violent feud in Barra in 2005-2006, Aprea-Cuccaro emerged victorious.",
       "time_period": "2005-2006"
     },
     {
       "source": "Aprea-Cuccaro clan",
       "target": "Rinaldi clan",
       "relationship": "alliance",
-      "context": "Allied in criminal alliance to undermine Mazzarella and expand territory.",
-      "time_period": "2020-present"
+      "detail": null,
+      "context": "Allied to undermine Mazzarella clan and expand territory.",
+      "time_period": "2000s-present"
     },
     {
       "source": "Aprea-Cuccaro clan",
       "target": "Andolfi faction",
       "relationship": "other",
-      "detail": "linked faction",
-      "context": "Andolfi faction is particularly linked to the Cuccaros within the clan.",
-      "time_period": null
+      "detail": "contains",
+      "context": "Andolfi faction is a subgroup within the Aprea-Cuccaro clan.",
+      "time_period": "2000s-present"
     },
     {
       "source": "Aprea-Cuccaro clan",
       "target": "D'Atri faction",
       "relationship": "alliance",
-      "context": "Aprea-Cuccaro and Rinaldi support D'Atri faction to control illicit affairs in Somma Vesuviana.",
-      "time_period": "2020-present"
+      "detail": null,
+      "context": "Aprea-Cuccaro supports D'Atri faction to control illicit affairs in Somma Vesuviana.",
+      "time_period": "2010s-present"
+    },
+    {
+      "source": "Aprea-Cuccaro clan",
+      "target": "Lago clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Lago clan is listed as a defunct rival of Aprea-Cuccaro.",
+      "time_period": "1990s-2000s"
     }
   ],
   "source_file": "Aprea-Cuccaro_clan"

@@ -1,0 +1,178 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bellocco 'ndrina",
+      "original_text_name": "Bellocco 'ndrina",
+      "aliases": [
+        "Bellocco clan",
+        "Bellocco-Pesce clan"
+      ],
+      "type": "clan",
+      "context": "A powerful 'Ndrangheta clan based in Rosarno, Calabria, involved in drug trafficking, arms trafficking, extortion, and control of commercial activities.",
+      "time_period": "1960s-present"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "A criminal and mafia-type organization in Calabria, Italy, of which the Bellocco 'ndrina is a clan.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Mancuso 'ndrina",
+      "original_text_name": "Mancusos",
+      "aliases": [
+        "Mancuso clan"
+      ],
+      "type": "clan",
+      "context": "An 'Ndrangheta clan involved in drug supply through the Port of Gioia Tauro.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Pesce 'ndrina",
+      "original_text_name": "Pesce clan",
+      "aliases": [
+        "Pesce-Bellocco clan"
+      ],
+      "type": "clan",
+      "context": "An 'Ndrangheta clan allied with the Bellocco, controlling port activities and drug trafficking.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Piromalli-Molè 'ndrina",
+      "original_text_name": "Piromalli-Molè 'ndrina",
+      "aliases": [
+        "Piromalli 'ndrina"
+      ],
+      "type": "clan",
+      "context": "An 'Ndrangheta clan that collaborated with Pesce and Bellocco in controlling port contracts and activities.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Sacra Corona Unita",
+      "original_text_name": "Sacra Corona Unita",
+      "aliases": [
+        "SCU"
+      ],
+      "type": "mafia",
+      "context": "A mafia-type organization in Apulia, set up with the involvement of Umberto Bellocco to counter the Camorra.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "type": "mafia",
+      "context": "A mafia-type organization from Campania, Italy, which the SCU was created to counter, but later allied with Bellocco.",
+      "time_period": "18th century-present"
+    },
+    {
+      "standard_name": "D'Alessandro clan",
+      "original_text_name": "Camorra D'Alessandro clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "A Camorra clan that, with support from Bellocco and Pesce, supplied drugs to Castellammare di Stabia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Capriati clan",
+      "original_text_name": "Capriati clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "An ally of the Bellocco 'ndrina listed in the infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Parisi-Palermiti clan",
+      "original_text_name": "Parisi-Palermiti clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "An ally of the Bellocco 'ndrina listed in the infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bellocco 'ndrina",
+      "target": "'Ndrangheta",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Bellocco 'ndrina is a clan within the 'Ndrangheta organization.",
+      "time_period": "1960s-present"
+    },
+    {
+      "source": "Bellocco 'ndrina",
+      "target": "Mancuso 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Bellocco and Mancuso clans are both involved in drug supply through the Port of Gioia Tauro.",
+      "time_period": null
+    },
+    {
+      "source": "Bellocco 'ndrina",
+      "target": "Pesce 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Bellocco and Pesce clans jointly controlled port activities and drug trafficking, often referred to as the Pesce-Bellocco clan.",
+      "time_period": null
+    },
+    {
+      "source": "Bellocco 'ndrina",
+      "target": "Piromalli-Molè 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Bellocco and Piromalli-Molè clans collaborated in controlling public contracts for the container terminal at the Port of Gioia Tauro.",
+      "time_period": null
+    },
+    {
+      "source": "Bellocco 'ndrina",
+      "target": "Sacra Corona Unita",
+      "relationship": "other",
+      "detail": "founded",
+      "context": "Umberto Bellocco was involved in setting up the Sacra Corona Unita, importing 'Ndrangheta codes and structure.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Sacra Corona Unita",
+      "target": "Camorra",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Sacra Corona Unita was created to counter the growing influence of the Camorra in Apulia.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Bellocco 'ndrina",
+      "target": "Camorra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Bellocco clan is listed as an ally of the Camorra in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Bellocco 'ndrina",
+      "target": "D'Alessandro clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Bellocco and Pesce clans supported the Camorra D'Alessandro clan in a cocaine trafficking scheme.",
+      "time_period": "2020"
+    },
+    {
+      "source": "Bellocco 'ndrina",
+      "target": "Capriati clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Capriati clan is listed as an ally of the Bellocco 'ndrina in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Bellocco 'ndrina",
+      "target": "Parisi-Palermiti clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Parisi-Palermiti clan is listed as an ally of the Bellocco 'ndrina in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Bellocco_'ndrina"
+}

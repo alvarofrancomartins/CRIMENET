@@ -94,20 +94,20 @@
       "time_period": "1960s"
     },
     {
-      "standard_name": "Charlestown Gang",
-      "original_text_name": "Charlestown gang",
-      "aliases": [],
-      "type": "gang",
-      "context": "Boston gang from Charlestown, associated with John Hurley.",
-      "time_period": "1960s-1980s"
-    },
-    {
       "standard_name": "New York Mafia",
       "original_text_name": "New York Mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Mafia families operating in New York, involved in potential interference with World Jai Alai operations.",
-      "time_period": "1900s-present"
+      "context": "Mafia families operating in New York, involved in potential interference with Winter Hill Gang's Connecticut operations.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Charlestown Gang",
+      "original_text_name": "Charlestown gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Boston gang from Charlestown, associated with John T. Hurley.",
+      "time_period": null
     },
     {
       "standard_name": "Campbell brothers",
@@ -242,10 +242,38 @@
     {
       "source": "Winter Hill Gang",
       "target": "New York Mafia",
-      "relationship": "other",
-      "detail": "protected against",
-      "context": "Winter Hill Gang was hired to protect World Jai Alai operations from New York Mafia interference.",
+      "relationship": "rivalry",
+      "context": "Winter Hill Gang was hired to protect Connecticut operations from interference by the New York Mafia.",
       "time_period": "1981"
+    },
+    {
+      "source": "Killeen Gang",
+      "target": "Mullen Gang",
+      "relationship": "rivalry",
+      "context": "Killeen Gang boss Donald Killeen was gunned down by the rival Mullen Gang in 1972.",
+      "time_period": "1972"
+    },
+    {
+      "source": "Mullen Gang",
+      "target": "Winter Hill Gang",
+      "relationship": "other",
+      "detail": "merged into",
+      "context": "Mullen Gang merged with Killeens under Winter Hill Gang supervision.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "East Boston Gang",
+      "target": "Winter Hill Gang",
+      "relationship": "alliance",
+      "context": "Nick Femia, an enforcer for East Boston Gang, briefly served as bodyguard for Winter Hill Gang leaders.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Charlestown Gang",
+      "target": "Winter Hill Gang",
+      "relationship": "alliance",
+      "context": "John T. Hurley was a minor associate of both Charlestown and Winter Hill gangs.",
+      "time_period": "1960s-1980s"
     },
     {
       "source": "Winter Hill Gang",

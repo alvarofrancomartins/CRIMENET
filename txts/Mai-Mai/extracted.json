@@ -97,18 +97,18 @@
     },
     {
       "source": "Mudundu 40/Front de Résistance et de Défense du Kivu",
-      "target": "Congolese Rally for Democracy–Goma",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Mudundu 40/FRDKI cooperated with RCD-Goma.",
+      "target": "Mai-Mai",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "FRDKI is a smaller Mai-Mai group under the umbrella.",
       "time_period": null
     },
     {
       "source": "Mouvement de Lutte contre l'Agression au Zaïre/Forces Unies de Résistance Nationale contre l'Agression de la République Démocratique du Congo",
-      "target": "Congolese Rally for Democracy–Goma",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "MLAZ/FURNAC cooperated with RCD-Goma.",
+      "target": "Mai-Mai",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "MLAZ/FURNAC is a smaller Mai-Mai group under the umbrella.",
       "time_period": null
     },
     {
@@ -116,7 +116,7 @@
       "target": "Mai-Mai",
       "relationship": "other",
       "detail": "sub-group",
-      "context": "Nduma Defense of Congo is a Mai-Mai group also known as Mai-Mai Sheka.",
+      "context": "NDC is a Mai-Mai group under the umbrella.",
       "time_period": "2009-present"
     },
     {
@@ -124,23 +124,47 @@
       "target": "Mai-Mai",
       "relationship": "other",
       "detail": "sub-group",
-      "context": "Mai-Mai Kata Katanga is a Mai-Mai group formed by former leader Gédéon Kyungu Mutanga.",
+      "context": "Mai-Mai Kata Katanga is a specific group under the Mai-Mai umbrella.",
       "time_period": "2011-present"
+    },
+    {
+      "source": "Mai-Mai Gedeon",
+      "target": "Mai-Mai",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Mai-Mai Gedeon is a specific group under the Mai-Mai umbrella.",
+      "time_period": null
     },
     {
       "source": "Mai-Mai Gedeon",
       "target": "Mai-Mai Kata Katanga",
       "relationship": "alliance",
       "detail": null,
-      "context": "Mai-Mai Gedeon is loosely tied to Mai-Mai Kata Katanga, both commanded by Gedeon Kyungu Mutanga.",
+      "context": "Mai-Mai Gedeon is loosely tied to Mai-Mai Kata Katanga.",
       "time_period": null
     },
     {
       "source": "Co-ordination for a Referendum on Self-determination for Katanga",
-      "target": "Mai-Mai Kata Katanga",
+      "target": "Mai-Mai",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Corak Kata Katanga is composed mainly of former Katanga Tigers, a separatist group.",
+      "time_period": null
+    },
+    {
+      "source": "Mudundu 40/Front de Résistance et de Défense du Kivu",
+      "target": "Congolese Rally for Democracy–Goma",
       "relationship": "alliance",
       "detail": null,
-      "context": "Corak Kata Katanga is composed mainly of former Katanga Tigers and may coordinate with Mai-Mai Kata Katanga.",
+      "context": "FRDKI was reported to cooperate with RCD-Goma.",
+      "time_period": null
+    },
+    {
+      "source": "Mouvement de Lutte contre l'Agression au Zaïre/Forces Unies de Résistance Nationale contre l'Agression de la République Démocratique du Congo",
+      "target": "Congolese Rally for Democracy–Goma",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MLAZ/FURNAC was reported to cooperate with RCD-Goma.",
       "time_period": null
     }
   ],

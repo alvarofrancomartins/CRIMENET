@@ -68,7 +68,7 @@
         "Juárez Cartel"
       ],
       "type": "cartel",
-      "context": "Cartel based in Chihuahua, led by Amado Carrillo Fuentes; remnants were incorporated into Sinaloa after his death.",
+      "context": "Cartel based in Chihuahua, led by Amado Carrillo Fuentes, later remnants incorporated into Sinaloa.",
       "time_period": "1980s-present"
     },
     {
@@ -107,7 +107,7 @@
     },
     {
       "standard_name": "Colima Cartel",
-      "original_text_name": "Colima cartels",
+      "original_text_name": "Colima",
       "aliases": [],
       "type": "cartel",
       "context": "Cartel that became a branch of the Sinaloa Cartel by 2006.",
@@ -236,23 +236,15 @@
       "original_text_name": "La Linea",
       "aliases": [],
       "type": "gang",
-      "context": "Mexican gang based in Ciudad Juárez, allied with CJNG against Sinaloa Cartel.",
+      "context": "Armed wing of the Juarez Cartel, battled Sinaloa Cartel in Ciudad Juárez.",
       "time_period": "2000s-present"
-    },
-    {
-      "standard_name": "Los Chapitos",
-      "original_text_name": "Los Chapitos",
-      "aliases": [],
-      "type": "faction",
-      "context": "Faction of Sinaloa Cartel led by sons of Joaquín 'El Chapo' Guzmán.",
-      "time_period": "2010s-present"
     },
     {
       "standard_name": "Grupo Flechas",
       "original_text_name": "Grupo Flechas",
       "aliases": [],
       "type": "faction",
-      "context": "Sub-group allied with Sinaloa Cartel.",
+      "context": "Sub-group or ally of the Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -260,7 +252,7 @@
       "original_text_name": "Los Cabrera",
       "aliases": [],
       "type": "faction",
-      "context": "Armed wing of Sinaloa Cartel.",
+      "context": "Armed wing of the Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -268,22 +260,30 @@
       "original_text_name": "Los Rusos",
       "aliases": [],
       "type": "faction",
-      "context": "Zambada faction within Sinaloa Cartel.",
+      "context": "Zambada faction within the Sinaloa Cartel.",
       "time_period": null
+    },
+    {
+      "standard_name": "Los Chapitos",
+      "original_text_name": "Los Chapitos",
+      "aliases": [],
+      "type": "faction",
+      "context": "Guzmán faction within the Sinaloa Cartel, involved in internal dispute after Zambada's fall.",
+      "time_period": "2010s-present"
     },
     {
       "standard_name": "Los Mexicles",
       "original_text_name": "Los Mexicles",
       "aliases": [],
       "type": "gang",
-      "context": "Gang allied with Sinaloa Cartel.",
+      "context": "Gang allied with the Sinaloa Cartel.",
       "time_period": null
     },
     {
       "standard_name": "Los Salazares",
       "original_text_name": "Los Salazares",
       "aliases": [],
-      "type": "gang",
+      "type": "faction",
       "context": "Trafficking cell in Sonora allied with Sinaloa Cartel.",
       "time_period": null
     },
@@ -292,7 +292,7 @@
       "original_text_name": "Gente Nueva",
       "aliases": [],
       "type": "faction",
-      "context": "Armed wing of Sinaloa Cartel.",
+      "context": "Armed wing of the Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -308,7 +308,7 @@
       "original_text_name": "La Barredora",
       "aliases": [],
       "type": "gang",
-      "context": "Gang allied with Sinaloa Cartel.",
+      "context": "Group allied with the Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -316,11 +316,11 @@
       "original_text_name": "Crips",
       "aliases": [],
       "type": "gang",
-      "context": "U.S. street gang allied with Sinaloa Cartel.",
-      "time_period": "1969-present"
+      "context": "U.S. street gang with international alliance with Sinaloa Cartel.",
+      "time_period": "1970s-present"
     },
     {
-      "standard_name": "Cartel del Noreste",
+      "standard_name": "Cártel del Noreste",
       "original_text_name": "Cártel del Noreste",
       "aliases": [],
       "type": "cartel",
@@ -356,7 +356,7 @@
       "original_text_name": "Los Dámasos",
       "aliases": [],
       "type": "faction",
-      "context": "Armed wing of Sinaloa Cartel.",
+      "context": "Armed wing of the Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -464,7 +464,7 @@
       "original_text_name": "Independent Soldiers",
       "aliases": [],
       "type": "gang",
-      "context": "Canadian gang allied with Sinaloa Cartel.",
+      "context": "Canadian street gang allied with Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -472,7 +472,7 @@
       "original_text_name": "Irish mob",
       "aliases": [],
       "type": "mafia",
-      "context": "Irish-American organized crime group allied with Sinaloa Cartel.",
+      "context": "Irish organized crime group allied with Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -552,6 +552,14 @@
       "type": "cartel",
       "context": "Colombian paramilitary drug cartel partnered with Sinaloa Cartel.",
       "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Beltrán Leyva Organization",
+      "original_text_name": "Beltrán Leyva",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Splinter group from Sinaloa Cartel, led by Arturo Beltrán Leyva.",
+      "time_period": "2000s-2010s"
     },
     {
       "standard_name": "Cali Cartel",
@@ -636,7 +644,7 @@
       "target": "Guadalajara Cartel",
       "relationship": "other",
       "detail": "splintered from",
-      "context": "After Gallardo's arrest in 1989, the Guadalajara Cartel splintered, and the Sinaloa Cartel emerged as one of the resulting organizations.",
+      "context": "After Gallardo's arrest in 1989, the Guadalajara Cartel splintered, and the Sinaloa Cartel emerged as one of the successor organizations.",
       "time_period": "1989"
     },
     {
@@ -650,29 +658,29 @@
       "source": "Sinaloa Cartel",
       "target": "Gulf Cartel",
       "relationship": "rivalry",
-      "context": "The text mentions violent conflicts with the Gulf Cartel as a rival group.",
-      "time_period": "1990s-2000s"
+      "context": "The Gulf Cartel was a rival that allied with the Tijuana Cartel against Sinaloa.",
+      "time_period": "1990s-present"
     },
     {
       "source": "Sinaloa Cartel",
       "target": "Jalisco New Generation Cartel",
       "relationship": "rivalry",
-      "context": "The text states the Sinaloa Cartel was involved in violent conflicts with CJNG.",
-      "time_period": "2000s-present"
+      "context": "Violent conflict with the CJNG, which emerged as a rival later.",
+      "time_period": "2010s-present"
     },
     {
       "source": "Sinaloa Cartel",
       "target": "Juárez Cartel",
       "relationship": "alliance",
-      "context": "Zambada helped expand the Juárez Cartel and later incorporated its remnants into Sinaloa after Carrillo's death.",
-      "time_period": "1990s-1997"
+      "context": "Strategic alliance after Amado Carrillo Fuentes' death; remnants of Juárez Cartel were incorporated into Sinaloa.",
+      "time_period": "1997-2000s"
     },
     {
       "source": "Sinaloa Cartel",
       "target": "Beltrán-Leyva Organization",
       "relationship": "rivalry",
-      "context": "The Beltrán-Leyva brothers broke away from the Sinaloa Cartel in 2008, leading to conflict.",
-      "time_period": "2008-present"
+      "context": "Former allies who broke away in 2008 and became rivals, leading to violent conflict.",
+      "time_period": "2008-2014"
     },
     {
       "source": "Sinaloa Cartel",
@@ -706,7 +714,7 @@
       "source": "Tijuana Cartel",
       "target": "Logan Heights Gang",
       "relationship": "alliance",
-      "context": "The Tijuana Cartel used Logan Heights Gang members as hired gunmen for attacks.",
+      "context": "The Tijuana Cartel hired Logan Heights Gang members as gunmen for attacks.",
       "time_period": "1990s"
     },
     {
@@ -736,13 +744,6 @@
       "relationship": "rivalry",
       "context": "Conflict over control of the Chicago drug market.",
       "time_period": "2000s-present"
-    },
-    {
-      "source": "Gulf Cartel",
-      "target": "Tijuana Cartel",
-      "relationship": "alliance",
-      "context": "The text mentions a partnership between the Gulf Cartel and Tijuana Cartel against Sinaloa.",
-      "time_period": "1990s"
     },
     {
       "source": "Sinaloa Cartel",
@@ -837,7 +838,7 @@
       "target": "Gulf Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Historically allies in late 2000s-early 2010s, but alliance fizzled and became rivalry by 2021.",
+      "context": "Historically allies in late 2000s-early 2010s, but alliance fizzled by 2021.",
       "time_period": "late 2000s-early 2010s"
     },
     {
@@ -854,30 +855,22 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Sinaloa Cartel battled La Linea in Ciudad Juárez.",
-      "time_period": null
+      "time_period": "2000s-2010s"
     },
     {
-      "source": "La Linea",
-      "target": "Jalisco New Generation Cartel",
+      "source": "Jalisco New Generation Cartel",
+      "target": "La Linea",
       "relationship": "alliance",
       "detail": null,
-      "context": "La Linea teamed with CJNG against Sinaloa Cartel.",
-      "time_period": null
-    },
-    {
-      "source": "Sinaloa Cartel",
-      "target": "Los Chapitos",
-      "relationship": "other",
-      "detail": "internal faction",
-      "context": "Los Chapitos are a faction within Sinaloa Cartel led by Guzmán's sons.",
-      "time_period": "2010s-present"
+      "context": "CJNG teamed with La Linea against Sinaloa Cartel.",
+      "time_period": "2010s"
     },
     {
       "source": "Sinaloa Cartel",
       "target": "Los Ántrax",
       "relationship": "other",
       "detail": "sub-group",
-      "context": "Los Ántrax is an enforcer unit for Sinaloa Cartel.",
+      "context": "Los Ántrax is an enforcer unit for the Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -885,15 +878,15 @@
       "target": "Grupo Flechas",
       "relationship": "other",
       "detail": "sub-group",
-      "context": "Grupo Flechas is a sub-group allied with Sinaloa Cartel.",
+      "context": "Grupo Flechas is a sub-group or ally of the Sinaloa Cartel.",
       "time_period": null
     },
     {
       "source": "Sinaloa Cartel",
       "target": "Los Cabrera",
       "relationship": "other",
-      "detail": "armed wing",
-      "context": "Los Cabrera is an armed wing of Sinaloa Cartel.",
+      "detail": "sub-group",
+      "context": "Los Cabrera is an armed wing of the Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -901,15 +894,31 @@
       "target": "Los Rusos",
       "relationship": "other",
       "detail": "faction",
-      "context": "Los Rusos is a Zambada faction within Sinaloa Cartel.",
+      "context": "Los Rusos is a Zambada faction within the Sinaloa Cartel.",
       "time_period": null
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "Los Chapitos",
+      "relationship": "other",
+      "detail": "faction",
+      "context": "Los Chapitos is a Guzmán faction within the Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Los Chapitos",
+      "target": "Sinaloa Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Internal dispute after fall of Ismael Zambada, allegedly caused by Los Chapitos.",
+      "time_period": "2024-present"
     },
     {
       "source": "Sinaloa Cartel",
       "target": "Los Mexicles",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Mexicles are allied with Sinaloa Cartel.",
+      "context": "Los Mexicles is a gang allied with the Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -917,15 +926,15 @@
       "target": "Los Salazares",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Salazares are a trafficking cell in Sonora allied with Sinaloa Cartel.",
+      "context": "Los Salazares is a trafficking cell in Sonora allied with Sinaloa Cartel.",
       "time_period": null
     },
     {
       "source": "Sinaloa Cartel",
       "target": "Gente Nueva",
       "relationship": "other",
-      "detail": "armed wing",
-      "context": "Gente Nueva is an armed wing of Sinaloa Cartel.",
+      "detail": "sub-group",
+      "context": "Gente Nueva is an armed wing of the Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -941,7 +950,7 @@
       "target": "La Barredora",
       "relationship": "alliance",
       "detail": null,
-      "context": "La Barredora is allied with Sinaloa Cartel.",
+      "context": "La Barredora is a group allied with Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -949,15 +958,15 @@
       "target": "Crips",
       "relationship": "alliance",
       "detail": null,
-      "context": "Crips are international allies of Sinaloa Cartel.",
+      "context": "Crips have an international alliance with Sinaloa Cartel.",
       "time_period": null
     },
     {
       "source": "Sinaloa Cartel",
-      "target": "Cartel del Noreste",
+      "target": "Cártel del Noreste",
       "relationship": "alliance",
       "detail": null,
-      "context": "Cartel del Noreste is allied with Sinaloa Cartel in Zacatecas.",
+      "context": "Cártel del Noreste is allied with Sinaloa Cartel in Zacatecas.",
       "time_period": null
     },
     {
@@ -988,8 +997,8 @@
       "source": "Sinaloa Cartel",
       "target": "Los Dámasos",
       "relationship": "other",
-      "detail": "armed wing",
-      "context": "Los Dámasos is an armed wing of Sinaloa Cartel.",
+      "detail": "sub-group",
+      "context": "Los Dámasos is an armed wing of the Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -1005,7 +1014,7 @@
       "target": "Los Rastrojos",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Rastrojos are international allies of Sinaloa Cartel.",
+      "context": "Los Rastrojos is a Colombian cartel allied with Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -1013,7 +1022,7 @@
       "target": "Paraguaná Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Paraguaná Cartel is allied with Sinaloa Cartel.",
+      "context": "Paraguaná Cartel is a Venezuelan cartel allied with Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -1021,7 +1030,7 @@
       "target": "Cachiros",
       "relationship": "alliance",
       "detail": null,
-      "context": "Cachiros are allied with Sinaloa Cartel.",
+      "context": "Cachiros is a Honduran cartel allied with Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -1029,7 +1038,7 @@
       "target": "Choneros",
       "relationship": "alliance",
       "detail": null,
-      "context": "Choneros are allied with Sinaloa Cartel.",
+      "context": "Choneros is an Ecuadorian gang allied with Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -1037,7 +1046,7 @@
       "target": "National Liberation Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "National Liberation Army is allied with Sinaloa Cartel.",
+      "context": "National Liberation Army (ELN) is a Colombian guerrilla group allied with Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -1045,7 +1054,7 @@
       "target": "Herrera Organization",
       "relationship": "alliance",
       "detail": null,
-      "context": "Herrera Organization is allied with Sinaloa Cartel.",
+      "context": "Herrera Organization is a Mexican trafficking group allied with Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -1061,7 +1070,7 @@
       "target": "Mexican Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Mexican Mafia is allied with Sinaloa Cartel.",
+      "context": "Mexican Mafia is a U.S. prison gang allied with Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -1093,7 +1102,7 @@
       "target": "Independent Soldiers",
       "relationship": "alliance",
       "detail": null,
-      "context": "Independent Soldiers are allied with Sinaloa Cartel.",
+      "context": "Independent Soldiers is a Canadian gang allied with Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -1157,7 +1166,7 @@
       "target": "Sun Yee On",
       "relationship": "alliance",
       "detail": null,
-      "context": "Sinaloa Cartel formed alliances with Sun Yee On for precursor chemicals and money laundering.",
+      "context": "Sun Yee On triad provides precursor chemicals and money laundering for Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -1165,7 +1174,7 @@
       "target": "14K Triad",
       "relationship": "alliance",
       "detail": null,
-      "context": "Sinaloa Cartel formed alliances with 14K Triad for precursor chemicals and money laundering.",
+      "context": "14K Triad provides precursor chemicals and money laundering for Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -1175,6 +1184,14 @@
       "detail": null,
       "context": "Sinaloa Cartel partnered with Clan del Golfo in Colombia.",
       "time_period": null
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "Beltrán Leyva Organization",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Beltrán Leyva Organization was a splinter group that became a rival.",
+      "time_period": "2000s-2010s"
     },
     {
       "source": "Herrera Organization",

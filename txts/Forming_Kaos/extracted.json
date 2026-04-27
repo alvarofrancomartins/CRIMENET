@@ -31,7 +31,7 @@
         "La Eme"
       ],
       "type": "gang",
-      "context": "Prison gang and organized crime syndicate operating in the southwestern United States.",
+      "context": "Prison gang and organized crime syndicate operating in the United States, particularly in California.",
       "time_period": "1950s-present"
     },
     {
@@ -41,7 +41,7 @@
         "East Side Forming Kaos"
       ],
       "type": "gang",
-      "context": "Former chapter of Forming Kaos on the east side of Costa Mesa, now inactive.",
+      "context": "Former chapter of Forming Kaos on the east side of Costa Mesa, later absorbed by the West Side group.",
       "time_period": "mid-1990s-1999"
     },
     {
@@ -51,22 +51,22 @@
         "West Side FK"
       ],
       "type": "gang",
-      "context": "Dominant chapter of Forming Kaos on the west side of Costa Mesa, absorbed East Side FK.",
+      "context": "Dominant chapter of Forming Kaos on the west side of Costa Mesa, which absorbed the East Side chapter.",
       "time_period": "1990s-present"
     },
     {
       "standard_name": "4MK",
       "original_text_name": "4MK",
       "aliases": [],
-      "type": "faction",
-      "context": "Early clique of Forming Kaos, acronym for 'Forming Kaos', active only before FK became a street gang.",
+      "type": "gang",
+      "context": "Early clique of Forming Kaos, active during the group's pre-gang phase.",
       "time_period": "early 1990s-mid 1990s"
     },
     {
       "standard_name": "Los Originales",
       "original_text_name": "Los Originales",
       "aliases": [],
-      "type": "faction",
+      "type": "gang",
       "context": "Clique of Forming Kaos comprising founding members.",
       "time_period": null
     },
@@ -74,7 +74,7 @@
       "standard_name": "Devil's Click",
       "original_text_name": "Devil's Click",
       "aliases": [],
-      "type": "faction",
+      "type": "gang",
       "context": "Clique of Forming Kaos.",
       "time_period": null
     },
@@ -82,7 +82,7 @@
       "standard_name": "Los Desmadrosos",
       "original_text_name": "Los Desmadrosos",
       "aliases": [],
-      "type": "faction",
+      "type": "gang",
       "context": "Clique of Forming Kaos.",
       "time_period": null
     }
@@ -109,7 +109,7 @@
       "target": "East Side Forming Kaos",
       "relationship": "other",
       "detail": "absorbed",
-      "context": "West Side FK forcibly absorbed East Side FK between 1999 and 2000, consolidating power.",
+      "context": "West Side Forming Kaos forcibly absorbed East Side FK between 1999 and 2000.",
       "time_period": "1999-2000"
     },
     {
@@ -124,7 +124,7 @@
       "source": "Los Originales",
       "target": "Forming Kaos",
       "relationship": "other",
-      "detail": "sub-group",
+      "detail": "clique",
       "context": "Los Originales is a clique of Forming Kaos comprising founding members.",
       "time_period": null
     },
@@ -132,7 +132,7 @@
       "source": "Devil's Click",
       "target": "Forming Kaos",
       "relationship": "other",
-      "detail": "sub-group",
+      "detail": "clique",
       "context": "Devil's Click is a clique of Forming Kaos.",
       "time_period": null
     },
@@ -140,7 +140,7 @@
       "source": "Los Desmadrosos",
       "target": "Forming Kaos",
       "relationship": "other",
-      "detail": "sub-group",
+      "detail": "clique",
       "context": "Los Desmadrosos is a clique of Forming Kaos.",
       "time_period": null
     }

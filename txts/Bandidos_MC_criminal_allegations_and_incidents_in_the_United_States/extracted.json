@@ -121,7 +121,7 @@
         "Bandidos MC"
       ],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle gang involved in drug trafficking, weapons trafficking, murder, and other crimes. Active primarily in the Northwestern, Southeastern, Southwestern and West Central U.S.",
+      "context": "Outlaw motorcycle gang involved in drug trafficking, weapons trafficking, murder, and other crimes. Active primarily in the US.",
       "time_period": "1966-present"
     },
     {
@@ -131,7 +131,7 @@
         "Ghost Riders"
       ],
       "type": "motorcycle_club",
-      "context": "Initially formed as a Bandidos support club, later drifted beyond Bandidos' control and allied with Banshees MC.",
+      "context": "Initially a Bandidos support club, later drifted and allied with Banshees. Involved in shootings with Bandidos.",
       "time_period": "1970s-present"
     },
     {
@@ -141,7 +141,7 @@
         "Banshees Motorcycle Club"
       ],
       "type": "motorcycle_club",
-      "context": "Rival motorcycle club involved in conflict with Bandidos. Allied with Ghost Riders.",
+      "context": "Rival motorcycle club that allied with Ghost Riders. Involved in conflict with Bandidos in the 1980s.",
       "time_period": "1970s-present"
     },
     {
@@ -151,7 +151,7 @@
         "Cossacks Motorcycle Club"
       ],
       "type": "motorcycle_club",
-      "context": "Rival motorcycle club involved in violent conflicts with Bandidos, including the 2015 Twin Peaks shootout.",
+      "context": "Rival motorcycle club involved in violent conflicts with Bandidos, including the 2015 Waco shootout.",
       "time_period": "1990s-present"
     },
     {
@@ -161,7 +161,7 @@
         "Los Traviesos"
       ],
       "type": "motorcycle_club",
-      "context": "Motorcycle club whose members were attacked by Bandidos in El Paso in 2016.",
+      "context": "Motorcycle club attacked by Bandidos in El Paso in 2016.",
       "time_period": "unknown"
     },
     {
@@ -171,40 +171,8 @@
         "Kinfolk Motorcycle Club"
       ],
       "type": "motorcycle_club",
-      "context": "Established in 2016 by former Bandidos members critical of the club's leadership. Involved in violent conflict with Bandidos.",
+      "context": "Founded by former Bandidos members critical of leadership. Involved in violent conflict with Bandidos.",
       "time_period": "2016-present"
-    },
-    {
-      "standard_name": "Organized Chaos MC",
-      "original_text_name": "Organized Chaos MC",
-      "aliases": [],
-      "type": "motorcycle_club",
-      "context": "Bandidos support club involved in a shooting with Kinfolk in 2017.",
-      "time_period": "unknown"
-    },
-    {
-      "standard_name": "Brass Knuckles MC",
-      "original_text_name": "Brass Knuckles MC",
-      "aliases": [],
-      "type": "motorcycle_club",
-      "context": "Bandidos support club whose sergeant-at-arms was charged in connection with an attack on Los Traviesos.",
-      "time_period": "unknown"
-    },
-    {
-      "standard_name": "Wino's Crew",
-      "original_text_name": "Wino's Crew",
-      "aliases": [],
-      "type": "motorcycle_club",
-      "context": "Rival club ambushed by Bandidos at a bar in Fort Worth in 2014.",
-      "time_period": "unknown"
-    },
-    {
-      "standard_name": "Homietos",
-      "original_text_name": "Homietos",
-      "aliases": [],
-      "type": "gang",
-      "context": "Rival gang involved in a deadly conflict with Bandidos in Oklahoma City in 2023.",
-      "time_period": "unknown"
     },
     {
       "standard_name": "Mongols MC",
@@ -217,24 +185,36 @@
       "time_period": "1969-present"
     },
     {
-      "standard_name": "Hells Angels MC",
-      "original_text_name": "Hells Angels",
-      "aliases": [
-        "Hells Angels Motorcycle Club"
-      ],
+      "standard_name": "Organized Chaos MC",
+      "original_text_name": "Organized Chaos MC",
+      "aliases": [],
       "type": "motorcycle_club",
-      "context": "Rival motorcycle club; members stabbed Bandidos members in 2007.",
-      "time_period": "1948-present"
+      "context": "Bandidos support club. Vice-president was shot in a conflict with Kinfolk.",
+      "time_period": "unknown"
     },
     {
-      "standard_name": "Outlaws MC",
-      "original_text_name": "Outlaws",
-      "aliases": [
-        "Outlaws Motorcycle Club"
-      ],
+      "standard_name": "Brass Knuckles MC",
+      "original_text_name": "Brass Knuckles MC",
+      "aliases": [],
       "type": "motorcycle_club",
-      "context": "Associated with Bandidos in criminal ventures.",
-      "time_period": "1935-present"
+      "context": "Bandidos support club. Sergeant-at-arms was charged in connection with an attack on Los Traviesos.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Wino's Crew",
+      "original_text_name": "Wino's Crew",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Rival club ambushed by Bandidos in Fort Worth in 2014.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Homietos",
+      "original_text_name": "Homietos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang involved in deadly conflict with Bandidos in Oklahoma City in 2023.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "Aryan Brotherhood",
@@ -346,100 +326,89 @@
       "source": "Bandidos MC",
       "target": "Ghost Riders MC",
       "relationship": "other",
-      "detail": "former support club",
-      "context": "Ghost Riders were initially formed as a Bandidos support club before drifting beyond Bandidos' control.",
+      "detail": "former support club turned rival",
+      "context": "Ghost Riders were initially a Bandidos support club but later drifted and formed an alliance with Banshees, leading to conflict.",
       "time_period": "1970s"
-    },
-    {
-      "source": "Ghost Riders MC",
-      "target": "Banshees MC",
-      "relationship": "alliance",
-      "context": "Ghost Riders formed an alliance with Banshees MC after leaving Bandidos.",
-      "time_period": "late 1970s"
     },
     {
       "source": "Bandidos MC",
       "target": "Banshees MC",
       "relationship": "rivalry",
-      "context": "Bandidos ordered Banshees to remove their colors, leading to a fatal confrontation and retaliatory bombings.",
+      "detail": null,
+      "context": "Bandidos ordered Banshees to remove colors, leading to a fatal confrontation and retaliatory bombings.",
       "time_period": "1983"
     },
     {
       "source": "Bandidos MC",
       "target": "Cossacks MC",
       "relationship": "rivalry",
-      "context": "Ongoing violent conflict including stabbings, ambushes, and the 2015 Twin Peaks shootout.",
+      "detail": null,
+      "context": "Ongoing violent conflict including stabbings, ambushes, and the 2015 Waco shootout.",
       "time_period": "2013-present"
     },
     {
       "source": "Bandidos MC",
       "target": "Los Traviesos MC",
       "relationship": "rivalry",
-      "context": "Bandidos members attacked Los Traviesos members, attempting to steal their colors.",
+      "detail": null,
+      "context": "Bandidos attacked Los Traviesos members to steal their colors in 2016.",
       "time_period": "2016"
     },
     {
       "source": "Bandidos MC",
       "target": "Kinfolk MC",
       "relationship": "rivalry",
-      "context": "Kinfolk formed by former Bandidos members; violent conflict including murders and shootings.",
+      "detail": null,
+      "context": "Kinfolk founded by former Bandidos members; violent conflict including murder of Bandidos president.",
       "time_period": "2016-present"
+    },
+    {
+      "source": "Bandidos MC",
+      "target": "Mongols MC",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Shootout between Bandidos and Mongols in Midland in 2020 left one dead.",
+      "time_period": "2020"
     },
     {
       "source": "Bandidos MC",
       "target": "Organized Chaos MC",
       "relationship": "alliance",
-      "context": "Organized Chaos MC is a Bandidos support club.",
+      "detail": null,
+      "context": "Organized Chaos is a Bandidos support club.",
       "time_period": "unknown"
     },
     {
       "source": "Bandidos MC",
       "target": "Brass Knuckles MC",
       "relationship": "alliance",
-      "context": "Brass Knuckles MC is a Bandidos support club.",
+      "detail": null,
+      "context": "Brass Knuckles is a Bandidos support club.",
       "time_period": "unknown"
     },
     {
       "source": "Bandidos MC",
       "target": "Wino's Crew",
       "relationship": "rivalry",
-      "context": "Bandidos ambushed Wino's Crew members at a bar in Fort Worth.",
+      "detail": null,
+      "context": "Bandidos ambushed Wino's Crew members at a bar in Fort Worth in 2014.",
       "time_period": "2014"
     },
     {
       "source": "Bandidos MC",
       "target": "Homietos",
       "relationship": "rivalry",
-      "context": "Deadly conflict between Bandidos and Homietos in Oklahoma City led to retaliatory shootings.",
+      "detail": null,
+      "context": "Deadly conflict in Oklahoma City in 2023 led to retaliatory shootings.",
       "time_period": "2023"
     },
     {
-      "source": "Bandidos MC",
-      "target": "Mongols MC",
-      "relationship": "rivalry",
-      "context": "Shootout between Bandidos and Mongols left one dead and three wounded.",
-      "time_period": "2020"
-    },
-    {
-      "source": "Bandidos MC",
-      "target": "Hells Angels MC",
-      "relationship": "rivalry",
-      "context": "Hells Angels members stabbed Bandidos members in 2007.",
-      "time_period": "2007"
-    },
-    {
-      "source": "Bandidos MC",
-      "target": "Outlaws MC",
+      "source": "Ghost Riders MC",
+      "target": "Banshees MC",
       "relationship": "alliance",
-      "context": "Bandidos have associated with Outlaws in criminal ventures.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "Bandidos MC",
-      "target": "Los Zetas",
-      "relationship": "alliance",
-      "context": "Bandidos are supplied with drugs by Los Zetas.",
-      "time_period": "unknown"
+      "detail": null,
+      "context": "Ghost Riders formed an alliance with Banshees after drifting from Bandidos.",
+      "time_period": "1970s"
     },
     {
       "source": "Bandidos Motorcycle Club",

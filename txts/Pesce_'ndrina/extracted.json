@@ -1,0 +1,106 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Pesce 'ndrina",
+      "original_text_name": "Pesce 'ndrina",
+      "aliases": [
+        "Pesce clan",
+        "Pesce-Bellocco clan"
+      ],
+      "type": "clan",
+      "context": "A powerful 'Ndrangheta clan based in Rosarno, Calabria, involved in drug trafficking, extortion, and control of commercial businesses.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "A criminal and mafia-type organization in Calabria, Italy, of which the Pesce 'ndrina is a clan.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Bellocco 'ndrina",
+      "original_text_name": "Bellocco clan",
+      "aliases": [
+        "Bellocco"
+      ],
+      "type": "clan",
+      "context": "An 'Ndrangheta clan allied with the Pesce clan, jointly controlling port activities in Gioia Tauro.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Piromalli-Molè 'ndrina",
+      "original_text_name": "Piromalli-Molè 'ndrina",
+      "aliases": [
+        "Piromalli"
+      ],
+      "type": "clan",
+      "context": "An 'Ndrangheta clan that collaborated with Pesce and Bellocco clans in controlling public contracts and port activities.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mancuso 'ndrina",
+      "original_text_name": "Mancuso 'ndrine",
+      "aliases": [
+        "Mancuso"
+      ],
+      "type": "clan",
+      "context": "An 'Ndrangheta clan listed as an ally of the Pesce clan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Pelle 'ndrina",
+      "original_text_name": "Pelle",
+      "aliases": [
+        "Giuseppe Pelle's clan"
+      ],
+      "type": "clan",
+      "context": "An 'Ndrangheta clan from San Luca that aspired to have Giuseppe Pelle as capo crimine, leading to conflict with Pesce.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Pesce 'ndrina",
+      "target": "'Ndrangheta",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Pesce 'ndrina is a clan within the 'Ndrangheta organization.",
+      "time_period": "1950s-present"
+    },
+    {
+      "source": "Pesce 'ndrina",
+      "target": "Bellocco 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Pesce and Bellocco clans jointly controlled port activities and were arrested together in 2006 for drug trafficking.",
+      "time_period": null
+    },
+    {
+      "source": "Pesce 'ndrina",
+      "target": "Piromalli-Molè 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Pesce clan collaborated with the Piromalli-Molè 'ndrina to control public contracts for the container terminal in Gioia Tauro.",
+      "time_period": null
+    },
+    {
+      "source": "Pesce 'ndrina",
+      "target": "Mancuso 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Mancuso 'ndrina is listed as an ally of the Pesce clan in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Pesce 'ndrina",
+      "target": "Pelle 'ndrina",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Vincenzo Pesce opposed Giuseppe Pelle's nomination as capo crimine, threatening to split the 'Ndrangheta and triggering a potential conflict.",
+      "time_period": "2009"
+    }
+  ],
+  "source_file": "Pesce_'ndrina"
+}

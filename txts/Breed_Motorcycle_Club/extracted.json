@@ -38,9 +38,7 @@
     {
       "standard_name": "Pagans",
       "original_text_name": "Pagans",
-      "aliases": [
-        "Pagans Motorcycle Club"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
       "context": "Rival motorcycle club to the Breed, involved in methamphetamine distribution and violent incidents.",
       "time_period": "1959-present"
@@ -54,14 +52,34 @@
       "time_period": "1967-present"
     },
     {
-      "standard_name": "Outlaws",
+      "standard_name": "Pagans Motorcycle Club",
+      "original_text_name": "Pagans",
+      "aliases": [
+        "Pagans Motorcycle Club"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club; rival of Breed, involved in killings and assaults.",
+      "time_period": "1959-present"
+    },
+    {
+      "standard_name": "Warlocks Motorcycle Club",
+      "original_text_name": "Warlocks",
+      "aliases": [
+        "Warlocks Motorcycle Club"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club; rival of Breed, kidnapped a Breed chapter president in 1988.",
+      "time_period": "1967-present"
+    },
+    {
+      "standard_name": "Outlaws Motorcycle Club",
       "original_text_name": "Outlaws",
       "aliases": [
         "Outlaws Motorcycle Club"
       ],
       "type": "motorcycle_club",
       "context": "Outlaw motorcycle club; some Breed members patched over to Outlaws after 2006.",
-      "time_period": "founded 1935"
+      "time_period": "1935-present"
     }
   ],
   "edges": [
@@ -110,7 +128,7 @@
       "target": "Aces and Eights Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Breed patched over Aces and Eights in 1983, absorbing them.",
+      "context": "Breed patched over Aces and Eights in 1983, absorbing the club.",
       "time_period": "1983"
     },
     {
@@ -118,12 +136,28 @@
       "target": "Branded Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Breed patched over Branded in 1983, absorbing them.",
+      "context": "Breed patched over Branded in 1983, absorbing the club.",
       "time_period": "1983"
     },
     {
       "source": "Breed Motorcycle Club",
-      "target": "Outlaws",
+      "target": "Pagans Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rivalry involving killings, assaults, and territory disputes in Pennsylvania.",
+      "time_period": "1970s-1989"
+    },
+    {
+      "source": "Breed Motorcycle Club",
+      "target": "Warlocks Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Warlocks kidnapped a Breed chapter president in 1988 in retaliation for assaults.",
+      "time_period": "1988"
+    },
+    {
+      "source": "Breed Motorcycle Club",
+      "target": "Outlaws Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
       "context": "After Breed disbanded, several members patched over to Outlaws and established a chapter.",

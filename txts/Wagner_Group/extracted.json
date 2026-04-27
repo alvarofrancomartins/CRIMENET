@@ -90,8 +90,8 @@
         "Arkan's Tigers"
       ],
       "type": "militia",
-      "context": "Serbian paramilitary unit active during the Bosnian War.",
-      "time_period": "1990s"
+      "context": "Serbian paramilitary group active during the Bosnian War.",
+      "time_period": "1990-1995"
     },
     {
       "standard_name": "Special Operations Unit",
@@ -111,7 +111,7 @@
         "ISIS"
       ],
       "type": "terrorist_organization",
-      "context": "Jihadist militant group active in Syria and Iraq.",
+      "context": "Jihadist group that controlled territory in Syria and Iraq.",
       "time_period": "2014-present"
     },
     {
@@ -121,8 +121,8 @@
         "Main Intelligence Directorate"
       ],
       "type": "other",
-      "context": "Russian military intelligence agency, provides command and passports to Wagner.",
-      "time_period": "2014-present"
+      "context": "Russian military intelligence agency that issued passports to Wagner employees.",
+      "time_period": null
     },
     {
       "standard_name": "FSB",
@@ -131,8 +131,8 @@
         "Federal Security Service"
       ],
       "type": "other",
-      "context": "Russian security service, filed charges against Prigozhin during rebellion.",
-      "time_period": "2023"
+      "context": "Russian security service that filed charges against Prigozhin during the rebellion.",
+      "time_period": null
     },
     {
       "standard_name": "Luhansk People's Republic",
@@ -187,7 +187,7 @@
         "GNA"
       ],
       "type": "other",
-      "context": "Former UN-recognized government of Libya, rival to LNA.",
+      "context": "Former UN-recognized government of Libya, opposed by LNA and Wagner.",
       "time_period": "2016-2021"
     },
     {
@@ -257,7 +257,7 @@
       "original_text_name": "Black Russians",
       "aliases": [],
       "type": "other",
-      "context": "Alleged Russian mercenary group in Central African Republic; allied with Wagner.",
+      "context": "Alleged Russian mercenary group in Africa; listed as an ally of Wagner Group.",
       "time_period": null
     },
     {
@@ -265,14 +265,14 @@
       "original_text_name": "Azande Ani Kpi Gbe",
       "aliases": [],
       "type": "other",
-      "context": "Militia in Central African Republic; allied with Wagner.",
+      "context": "Militia in Central African Republic; listed as an ally of Wagner Group.",
       "time_period": null
     },
     {
       "standard_name": "FADM",
       "original_text_name": "FADM",
       "aliases": [
-        "Mozambican Armed Defense Forces"
+        "Mozambican Armed Forces"
       ],
       "type": "other",
       "context": "Military of Mozambique; Wagner Group operated in Cabo Delgado.",
@@ -293,7 +293,7 @@
       "original_text_name": "Serbian paramilitaries in Kosovo",
       "aliases": [],
       "type": "militia",
-      "context": "Serbian paramilitary groups in Kosovo; listed as allies of Wagner.",
+      "context": "Serbian paramilitary groups in Kosovo; listed as allies of Wagner Group.",
       "time_period": null
     },
     {
@@ -301,7 +301,7 @@
       "original_text_name": "Armed Forces of Ukraine",
       "aliases": [],
       "type": "other",
-      "context": "Military of Ukraine; Wagner Group fought against them.",
+      "context": "Military of Ukraine; Wagner Group fought against them in the war in Donbas and the Russian invasion.",
       "time_period": null
     },
     {
@@ -309,7 +309,7 @@
       "original_text_name": "Tahrir al-Sham",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Islamist militant group in Syria; opponent of Wagner Group.",
+      "context": "Islamist militant group in Syria; listed as an opponent of Wagner Group.",
       "time_period": null
     },
     {
@@ -317,7 +317,7 @@
       "original_text_name": "Syrian National Army",
       "aliases": [],
       "type": "militia",
-      "context": "Turkish-backed Syrian opposition group; opponent of Wagner.",
+      "context": "Turkish-backed Syrian opposition group; listed as an opponent of Wagner Group.",
       "time_period": null
     },
     {
@@ -325,7 +325,7 @@
       "original_text_name": "Free Syrian Army",
       "aliases": [],
       "type": "militia",
-      "context": "Syrian rebel group; opponent of Wagner.",
+      "context": "Syrian rebel group; listed as an opponent of Wagner Group.",
       "time_period": null
     },
     {
@@ -333,7 +333,7 @@
       "original_text_name": "Syrian Democratic Forces",
       "aliases": [],
       "type": "militia",
-      "context": "Kurdish-led alliance in Syria; opponent of Wagner.",
+      "context": "Kurdish-led alliance in Syria; listed as an opponent of Wagner Group.",
       "time_period": null
     },
     {
@@ -341,7 +341,7 @@
       "original_text_name": "Al-Nusra Front",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Syrian branch of Al-Qaeda; opponent of Wagner (2014-2017).",
+      "context": "Syrian branch of Al-Qaeda; listed as an opponent of Wagner Group.",
       "time_period": "2014-2017"
     },
     {
@@ -349,15 +349,15 @@
       "original_text_name": "Coalition of Patriots for Change",
       "aliases": [],
       "type": "militia",
-      "context": "Rebel coalition in Central African Republic; opponent of Wagner.",
+      "context": "Rebel coalition in Central African Republic; listed as an opponent of Wagner Group.",
       "time_period": null
     },
     {
       "standard_name": "Libyan Army",
       "original_text_name": "Libyan Army",
       "aliases": [],
-      "type": "other",
-      "context": "Libyan military faction opposed to LNA; opponent of Wagner.",
+      "type": "militia",
+      "context": "Faction opposing the Libyan National Army; listed as an opponent of Wagner Group.",
       "time_period": null
     },
     {
@@ -365,7 +365,7 @@
       "original_text_name": "Ansar al-Sunna",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Islamist group in Mozambique; Wagner fought them in Cabo Delgado.",
+      "context": "Islamist militant group in Mozambique; Wagner Group fought against them.",
       "time_period": null
     },
     {
@@ -373,7 +373,7 @@
       "original_text_name": "Nusrat al-Islam",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Islamist group in Mali; opponent of Wagner.",
+      "context": "Islamist group in Mali; listed as an opponent of Wagner Group.",
       "time_period": null
     },
     {
@@ -381,7 +381,7 @@
       "original_text_name": "CSP-PSD",
       "aliases": [],
       "type": "militia",
-      "context": "Coalition of rebel groups in Mali; opponent of Wagner.",
+      "context": "Coalition of rebel groups in Mali; listed as an opponent of Wagner Group.",
       "time_period": null
     },
     {
@@ -389,7 +389,7 @@
       "original_text_name": "Russian Imperial Movement",
       "aliases": [],
       "type": "other",
-      "context": "Far-right ultranationalist group; some Wagner founders belong to it.",
+      "context": "Far-right ultranationalist group; some founding members of Wagner belong to it.",
       "time_period": null
     },
     {
@@ -397,7 +397,7 @@
       "original_text_name": "Akhmat",
       "aliases": [],
       "type": "militia",
-      "context": "Chechen military unit; former Wagner fighters have joined them.",
+      "context": "Chechen military unit; former Wagner fighters have joined Akhmat units.",
       "time_period": null
     },
     {
@@ -407,7 +407,7 @@
         "National Guard of Russia"
       ],
       "type": "other",
-      "context": "Russian internal security force; Wagner Group became part of it since 2023.",
+      "context": "Russian internal security force; Wagner Group has been integrated into it since 2023.",
       "time_period": "2023-present"
     }
   ],
@@ -473,16 +473,16 @@
       "target": "Serb Volunteer Guard",
       "relationship": "other",
       "detail": "personnel connection",
-      "context": "Wagner's Serb unit was commanded by a former member of the Serb Volunteer Guard.",
-      "time_period": "2016"
+      "context": "A Wagner commander was a former member of the Serb Volunteer Guard.",
+      "time_period": null
     },
     {
       "source": "Wagner Group",
       "target": "Special Operations Unit",
       "relationship": "other",
       "detail": "personnel connection",
-      "context": "Wagner's Serb unit commander also served in the Special Operations Unit.",
-      "time_period": "2016"
+      "context": "A Wagner commander was a former member of the Special Operations Unit.",
+      "time_period": null
     },
     {
       "source": "Wagner Group",
@@ -497,15 +497,15 @@
       "target": "GRU",
       "relationship": "alliance",
       "detail": null,
-      "context": "GRU provides command and bulk passports to Wagner personnel.",
-      "time_period": "2014-present"
+      "context": "GRU issued passports to Wagner employees and held military command over Wagner.",
+      "time_period": "2018"
     },
     {
       "source": "Wagner Group",
       "target": "FSB",
       "relationship": "rivalry",
       "detail": null,
-      "context": "FSB filed criminal charges against Wagner leader Prigozhin during the 2023 rebellion.",
+      "context": "FSB filed criminal charges against Wagner's leader during the 2023 rebellion.",
       "time_period": "2023"
     },
     {
@@ -513,7 +513,7 @@
       "target": "Luhansk People's Republic",
       "relationship": "alliance",
       "detail": null,
-      "context": "Wagner supported LPR forces in Donbas and intervened in LPR internal power struggles.",
+      "context": "Wagner supported the LPR in the Donbas conflict and intervened in its internal power struggle.",
       "time_period": "2014-2015, 2017"
     },
     {
@@ -521,7 +521,7 @@
       "target": "Internet Research Agency",
       "relationship": "other",
       "detail": "part of same empire",
-      "context": "Both were part of Yevgeny Prigozhin's business empire.",
+      "context": "Both were arms of Yevgeny Prigozhin's business empire.",
       "time_period": "2010s-2023"
     },
     {
@@ -553,8 +553,8 @@
       "target": "Government of National Accord",
       "relationship": "rivalry",
       "detail": null,
-      "context": "LNA fought against GNA during the Libyan civil war.",
-      "time_period": "2014-2020"
+      "context": "LNA launched offensive against GNA-held Tripoli in 2019.",
+      "time_period": "2019-2020"
     },
     {
       "source": "Wagner Group",
@@ -593,7 +593,7 @@
       "target": "Syrian Arab Armed Forces",
       "relationship": "alliance",
       "detail": null,
-      "context": "Wagner Group supported Syrian government forces in the civil war.",
+      "context": "Wagner Group supported the Syrian government forces in the civil war.",
       "time_period": null
     },
     {
@@ -601,7 +601,7 @@
       "target": "Islamic Revolutionary Guard Corps",
       "relationship": "alliance",
       "detail": null,
-      "context": "IRGC listed as an ally of Wagner Group.",
+      "context": "IRGC is listed as an ally of Wagner Group.",
       "time_period": null
     },
     {
@@ -617,7 +617,7 @@
       "target": "Black Russians",
       "relationship": "alliance",
       "detail": null,
-      "context": "Black Russians are allied with Wagner Group in Central African Republic.",
+      "context": "Black Russians are listed as an ally of Wagner Group.",
       "time_period": null
     },
     {
@@ -625,7 +625,7 @@
       "target": "Azande Ani Kpi Gbe",
       "relationship": "alliance",
       "detail": null,
-      "context": "Azande Ani Kpi Gbe militia is allied with Wagner Group.",
+      "context": "Azande Ani Kpi Gbe is listed as an ally of Wagner Group.",
       "time_period": null
     },
     {
@@ -633,7 +633,7 @@
       "target": "FADM",
       "relationship": "alliance",
       "detail": null,
-      "context": "Wagner Group operated in Cabo Delgado alongside Mozambican forces.",
+      "context": "Wagner Group operated in Cabo Delgado, Mozambique, alongside FADM.",
       "time_period": null
     },
     {
@@ -649,7 +649,7 @@
       "target": "Serbian paramilitaries in Kosovo",
       "relationship": "alliance",
       "detail": null,
-      "context": "Serbian paramilitaries in Kosovo are listed as allies of Wagner.",
+      "context": "Serbian paramilitaries in Kosovo are listed as allies of Wagner Group.",
       "time_period": null
     },
     {
@@ -657,7 +657,7 @@
       "target": "Armed Forces of Ukraine",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Wagner Group fought against the Ukrainian military in the Donbas and full-scale invasion.",
+      "context": "Wagner Group fought against the Armed Forces of Ukraine in Donbas and the Russian invasion.",
       "time_period": "2014-present"
     },
     {
@@ -665,7 +665,7 @@
       "target": "Tahrir al-Sham",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Wagner Group opposed Tahrir al-Sham in Syria.",
+      "context": "Tahrir al-Sham is listed as an opponent of Wagner Group.",
       "time_period": null
     },
     {
@@ -673,7 +673,7 @@
       "target": "Syrian National Army",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Wagner Group fought against the Syrian National Army.",
+      "context": "Syrian National Army is listed as an opponent of Wagner Group.",
       "time_period": null
     },
     {
@@ -681,7 +681,7 @@
       "target": "Free Syrian Army",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Wagner Group opposed the Free Syrian Army.",
+      "context": "Free Syrian Army is listed as an opponent of Wagner Group.",
       "time_period": null
     },
     {
@@ -689,7 +689,7 @@
       "target": "Syrian Democratic Forces",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Wagner Group fought against the Syrian Democratic Forces.",
+      "context": "Syrian Democratic Forces is listed as an opponent of Wagner Group.",
       "time_period": null
     },
     {
@@ -697,7 +697,7 @@
       "target": "Al-Nusra Front",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Wagner Group opposed Al-Nusra Front in Syria.",
+      "context": "Al-Nusra Front is listed as an opponent of Wagner Group.",
       "time_period": "2014-2017"
     },
     {
@@ -705,7 +705,7 @@
       "target": "Coalition of Patriots for Change",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Wagner Group fought against the CPC in Central African Republic.",
+      "context": "Coalition of Patriots for Change is listed as an opponent of Wagner Group.",
       "time_period": null
     },
     {
@@ -713,7 +713,7 @@
       "target": "Libyan Army",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Wagner Group opposed the Libyan Army faction.",
+      "context": "Libyan Army is listed as an opponent of Wagner Group.",
       "time_period": null
     },
     {
@@ -721,7 +721,7 @@
       "target": "Ansar al-Sunna",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Wagner Group fought Ansar al-Sunna in Mozambique.",
+      "context": "Wagner Group fought against Ansar al-Sunna in Mozambique.",
       "time_period": null
     },
     {
@@ -729,7 +729,7 @@
       "target": "Nusrat al-Islam",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Wagner Group opposed Nusrat al-Islam in Mali.",
+      "context": "Nusrat al-Islam is listed as an opponent of Wagner Group.",
       "time_period": null
     },
     {
@@ -737,7 +737,7 @@
       "target": "CSP-PSD",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Wagner Group fought against the CSP-PSD coalition in Mali.",
+      "context": "CSP-PSD is listed as an opponent of Wagner Group.",
       "time_period": null
     },
     {
@@ -750,11 +750,11 @@
     },
     {
       "source": "Wagner Group",
-      "target": "National Guard of Russia",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Wagner Group became a unit of Rosgvardia (National Guard) since 2023.",
-      "time_period": "2023-present"
+      "target": "Rusich",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Rusich is a neo-Nazi sub-group of Wagner Group.",
+      "time_period": null
     },
     {
       "source": "Wagner Group",
@@ -763,6 +763,14 @@
       "detail": null,
       "context": "Former Wagner fighters have joined Chechen Akhmat units.",
       "time_period": null
+    },
+    {
+      "source": "Wagner Group",
+      "target": "National Guard of Russia",
+      "relationship": "other",
+      "detail": "integration",
+      "context": "Wagner Group has been integrated into the National Guard of Russia since 2023.",
+      "time_period": "2023-present"
     }
   ],
   "source_file": "Wagner_Group"

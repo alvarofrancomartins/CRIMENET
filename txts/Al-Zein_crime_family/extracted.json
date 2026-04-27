@@ -29,19 +29,11 @@
       "time_period": null
     },
     {
-      "standard_name": "Fakhro clan",
-      "original_text_name": "Fakhro clan",
-      "aliases": [],
-      "type": "clan",
-      "context": "Family-based criminal network in Malmö, Sweden, with family ties to El-Zein.",
-      "time_period": null
-    },
-    {
       "standard_name": "Outlaws Motorcycle Club",
       "original_text_name": "Outlaws",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Motorcycle gang involved with some Al-Zein family members in Sweden.",
+      "context": "Motorcycle gang in Sweden, some Al-Zein members involved with them.",
       "time_period": null
     },
     {
@@ -49,7 +41,7 @@
       "original_text_name": "La Familia",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Motorcycle gang involved with some Al-Zein family members in Sweden.",
+      "context": "Motorcycle gang in Sweden, some Al-Zein members involved with them.",
       "time_period": null
     },
     {
@@ -57,7 +49,15 @@
       "original_text_name": "Satudarah",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Motorcycle gang involved with some Al-Zein family members in Sweden.",
+      "context": "Motorcycle gang in Sweden, some Al-Zein members involved with them.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Fakhro clan",
+      "original_text_name": "Fakhro clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Family-based criminal network in Malmö, Sweden, with family ties to El-Zein.",
       "time_period": null
     },
     {
@@ -75,7 +75,7 @@
       "target": "Miri clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Al-Zein and Miri formed a Family Union in 2011 to promote education and cooperation.",
+      "context": "Family Union formed in 2011 to promote education and cooperation.",
       "time_period": "2011-present"
     },
     {
@@ -83,8 +83,32 @@
       "target": "Remmo clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Remmo clan members are included in the Family Union alongside Al-Zein.",
+      "context": "Remmo clan members included in the Family Union.",
       "time_period": "2011-present"
+    },
+    {
+      "source": "Al-Zein crime family",
+      "target": "Outlaws Motorcycle Club",
+      "relationship": "other",
+      "detail": "membership overlap",
+      "context": "Some Al-Zein members are involved with Outlaws in Sweden.",
+      "time_period": null
+    },
+    {
+      "source": "Al-Zein crime family",
+      "target": "La Familia",
+      "relationship": "other",
+      "detail": "membership overlap",
+      "context": "Some Al-Zein members are involved with La Familia in Sweden.",
+      "time_period": null
+    },
+    {
+      "source": "Al-Zein crime family",
+      "target": "Satudarah",
+      "relationship": "other",
+      "detail": "membership overlap",
+      "context": "Some Al-Zein members are involved with Satudarah in Sweden.",
+      "time_period": null
     },
     {
       "source": "Al-Zein crime family",
@@ -96,34 +120,10 @@
     },
     {
       "source": "Al-Zein crime family",
-      "target": "Outlaws Motorcycle Club",
-      "relationship": "other",
-      "detail": "membership overlap",
-      "context": "Some Al-Zein family members are or were involved with Outlaws.",
-      "time_period": null
-    },
-    {
-      "source": "Al-Zein crime family",
-      "target": "La Familia",
-      "relationship": "other",
-      "detail": "membership overlap",
-      "context": "Some Al-Zein family members are or were involved with La Familia.",
-      "time_period": null
-    },
-    {
-      "source": "Al-Zein crime family",
-      "target": "Satudarah",
-      "relationship": "other",
-      "detail": "membership overlap",
-      "context": "Some Al-Zein family members are or were involved with Satudarah.",
-      "time_period": null
-    },
-    {
-      "source": "Al-Zein crime family",
       "target": "Mocro Maffia",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Al-Zein is listed as a rival of Mocro Maffia.",
+      "context": "Listed as rivals in the infobox.",
       "time_period": null
     }
   ],

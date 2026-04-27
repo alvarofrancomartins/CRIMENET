@@ -1,0 +1,176 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Piromalli 'ndrina",
+      "original_text_name": "Piromalli 'ndrina",
+      "aliases": [
+        "Piromalli clan",
+        "Piromalli-Molè clan",
+        "Piromalli family"
+      ],
+      "type": "clan",
+      "context": "Powerful 'Ndrangheta clan based in Gioia Tauro, Calabria, involved in drug trafficking, public works, and port control.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Molè 'ndrina",
+      "original_text_name": "Molè family",
+      "aliases": [
+        "Molè clan",
+        "Molè family"
+      ],
+      "type": "clan",
+      "context": "Allied clan of the Piromalli, often referred to as the military arm, based in Gioia Tauro.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "Ventre-Carlino clan",
+      "original_text_name": "Ventre-Carlino clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Rival clan involved in a bloody feud with the Piromalli-Molè clan in the 1950s.",
+      "time_period": "1950s"
+    },
+    {
+      "standard_name": "Nirta 'ndrina",
+      "original_text_name": "Nirta family",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan from San Luca, rotated the position of capo crimine with the Piromalli family since the mid-1970s.",
+      "time_period": "mid-1970s-present"
+    },
+    {
+      "standard_name": "De Stefano 'ndrina",
+      "original_text_name": "De Stefano clan",
+      "aliases": [
+        "De Stefano brothers"
+      ],
+      "type": "clan",
+      "context": "Powerful 'Ndrangheta clan from Reggio Calabria, rival of Piromalli during the First 'Ndrangheta War.",
+      "time_period": "1970s-1977"
+    },
+    {
+      "standard_name": "Pesce 'ndrina",
+      "original_text_name": "Pesce clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan involved in cocaine trafficking through Gioia Tauro port, allied with Piromalli.",
+      "time_period": "unknown-present"
+    },
+    {
+      "standard_name": "Mancuso 'ndrina",
+      "original_text_name": "Mancuso clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Powerful 'Ndrangheta clan involved in agro-industry in the Gioia Tauro plain.",
+      "time_period": "unknown-present"
+    },
+    {
+      "standard_name": "Morabito 'ndrina",
+      "original_text_name": "Morabito 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan that previously controlled the Milan fruit and vegetable market, later taken over by Piromalli.",
+      "time_period": "unknown-present"
+    },
+    {
+      "standard_name": "Antonio Macrì 'ndrina",
+      "original_text_name": "Antonio Macrì",
+      "aliases": [],
+      "type": "clan",
+      "context": "Powerful 'Ndrangheta boss from Siderno, part of a triumvirate with Piromalli and Tripodo until the First 'Ndrangheta War.",
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "Domenico Tripodo 'ndrina",
+      "original_text_name": "Domenico Mico Tripodo",
+      "aliases": [],
+      "type": "clan",
+      "context": "Boss of Reggio Calabria, part of a triumvirate with Piromalli and Macrì until the First 'Ndrangheta War.",
+      "time_period": "1960s-1970s"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Piromalli 'ndrina",
+      "target": "Molè 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied through family ties, often referred to as Piromalli-Molè clan; Molè served as military arm.",
+      "time_period": "1950s-present"
+    },
+    {
+      "source": "Piromalli 'ndrina",
+      "target": "Ventre-Carlino clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Bloody feud in the 1950s, resulting in the killing of Antonino Piromalli in 1956.",
+      "time_period": "1950s"
+    },
+    {
+      "source": "Piromalli 'ndrina",
+      "target": "Nirta 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Rotated the position of capo crimine among themselves since the mid-1970s.",
+      "time_period": "mid-1970s-present"
+    },
+    {
+      "source": "Piromalli 'ndrina",
+      "target": "De Stefano 'ndrina",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Conflict over business interests contributed to the First 'Ndrangheta War (1974-1977); Piromalli killed Giorgio De Stefano.",
+      "time_period": "1974-1977"
+    },
+    {
+      "source": "Piromalli 'ndrina",
+      "target": "Pesce 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both control the Gioia Tauro port area and cooperate in cocaine trafficking, with Pesce transporting cocaine in exchange for a percentage.",
+      "time_period": "unknown-present"
+    },
+    {
+      "source": "Piromalli 'ndrina",
+      "target": "Mancuso 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both heavily involved in Calabria's agro-industry, exploiting EU subsidies and controlling land.",
+      "time_period": "1980s-present"
+    },
+    {
+      "source": "Piromalli 'ndrina",
+      "target": "Morabito 'ndrina",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Piromalli took over control of the Milan fruit and vegetable market from the Morabito 'ndrina.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Piromalli 'ndrina",
+      "target": "Antonio Macrì 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Part of a triumvirate with Domenico Tripodo from the 1960s until the First 'Ndrangheta War.",
+      "time_period": "1960s-1974"
+    },
+    {
+      "source": "Piromalli 'ndrina",
+      "target": "Domenico Tripodo 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Part of a triumvirate with Antonio Macrì from the 1960s until the First 'Ndrangheta War.",
+      "time_period": "1960s-1974"
+    },
+    {
+      "source": "Antonio Macrì 'ndrina",
+      "target": "Domenico Tripodo 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both were part of the triumvirate with Piromalli until the First 'Ndrangheta War.",
+      "time_period": "1960s-1974"
+    }
+  ],
+  "source_file": "Piromalli_'ndrina"
+}

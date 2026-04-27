@@ -94,7 +94,7 @@
         "Clanul Duduienilor"
       ],
       "type": "clan",
-      "context": "One of the largest in Sectors 2 and 6, involved in prostitution, usury, blackmail; formerly led by Ion Duduianu (Segher).",
+      "context": "One of the largest in Sectors 2 and 6, loosely structured, involved in prostitution, usury, blackmail. Formerly led by Ion Duduianu (Segher).",
       "time_period": null
     },
     {
@@ -122,7 +122,7 @@
       "original_text_name": "Domnu clan",
       "aliases": [],
       "type": "clan",
-      "context": "Led by Vasile Domnu (Liderică), controlled prostitution in Bucharest's Gara de Nord area; involved in feud with Sadoveanu clan.",
+      "context": "Led by Vasile Domnu (Liderică), controlled prostitution in Bucharest's Gara de Nord area, involved in violent conflicts.",
       "time_period": null
     },
     {
@@ -130,7 +130,23 @@
       "original_text_name": "Sadoveanu clan",
       "aliases": [],
       "type": "clan",
-      "context": "Mentioned as rival of Domnu clan in a feud.",
+      "context": "Mentioned as a rival of the Domnu clan in a feud.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cocalar clan",
+      "original_text_name": "Cocalar clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Active in Sector 3, with branches to other sectors and counties.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ursari clan",
+      "original_text_name": "Ursari clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Active in Sector 3, with branches to other sectors and counties.",
       "time_period": null
     }
   ],
@@ -153,26 +169,26 @@
     },
     {
       "source": "Vancică clan",
-      "target": "Sportivilor clan",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Vancică clan formed an alliance with Sportivilor clan to challenge the Cămătari clan.",
-      "time_period": "since 2005"
-    },
-    {
-      "source": "Vancică clan",
       "target": "Cămătarilor clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Vancică clan expanded into Cămătari territories after their imprisonment, leading to rivalry.",
-      "time_period": "since 2005"
+      "context": "Vancică expanded into Cămătari territories after their leaders were imprisoned.",
+      "time_period": "2005-present"
+    },
+    {
+      "source": "Vancică clan",
+      "target": "Sportivilor clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Vancică formed an alliance with Sportivilor to challenge the Cămătari clan.",
+      "time_period": null
     },
     {
       "source": "Domnu clan",
       "target": "Sadoveanu clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Domnu clan was involved in a violent feud with Sadoveanu clan.",
+      "context": "Domnu clan was involved in a violent feud with the Sadoveanu clan.",
       "time_period": null
     }
   ],

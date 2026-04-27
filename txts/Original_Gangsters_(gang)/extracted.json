@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Original Gangsters",
+      "original_text_name": "Original Gangsters",
+      "aliases": [
+        "OGs"
+      ],
+      "type": "gang",
+      "context": "Swedish criminal gang based in Gothenburg, involved in drug dealing, prostitution, extortion, illegal gambling.",
+      "time_period": "1993-present"
+    },
+    {
+      "standard_name": "Naserligan",
+      "original_text_name": "Naserligan",
+      "aliases": [],
+      "type": "gang",
+      "context": "Albanian criminal gang in Gothenburg, rival of Original Gangsters.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "X-Team",
+      "original_text_name": "X-Team",
+      "aliases": [],
+      "type": "gang",
+      "context": "Supporter club of Bandidos in Sweden, involved in conflict with Original Gangsters.",
+      "time_period": "2002-2005"
+    },
+    {
+      "standard_name": "Bandidos",
+      "original_text_name": "Bandidos",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club, X-Team was a supporter club that later became a regular Bandidos club.",
+      "time_period": "founded 1966"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Original Gangsters",
+      "target": "Naserligan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Violent conflict over profitable activities in Gothenburg, including shootings in 2000-2001, later truce.",
+      "time_period": "2000-2001"
+    },
+    {
+      "source": "Original Gangsters",
+      "target": "X-Team",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Conflict initiated by a night club quarrel in 2002, leading to murder and series of violent events, truce in 2005.",
+      "time_period": "2002-2005"
+    },
+    {
+      "source": "X-Team",
+      "target": "Bandidos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "X-Team was a supporter club of Bandidos, later upgraded to a regular Bandidos club in 2005.",
+      "time_period": "until 2005"
+    }
+  ],
+  "source_file": "Original_Gangsters_(gang)"
+}

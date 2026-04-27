@@ -64,7 +64,7 @@
       "original_text_name": "Zeev Rosenstein syndicates",
       "aliases": [],
       "type": "mafia",
-      "context": "Formerly top crime figure in Tel-Aviv, involved in drug trafficking.",
+      "context": "Formerly top crime figure in Tel-Aviv, involved in drug trafficking and other operations.",
       "time_period": "until 2006"
     },
     {
@@ -72,7 +72,7 @@
       "original_text_name": "Abdel-Kader family",
       "aliases": [],
       "type": "clan",
-      "context": "Arab crime family from Tayibe, involved in extortion, drug and weapon trafficking.",
+      "context": "Arab crime family based in Tayibe, involved in extortion, drug and weapon trafficking.",
       "time_period": null
     },
     {
@@ -80,7 +80,7 @@
       "original_text_name": "Jarushi family",
       "aliases": [],
       "type": "clan",
-      "context": "One of the most powerful Arab crime families in Israel, from Ramla.",
+      "context": "One of the most powerful Arab crime families in Israel, based in Ramla.",
       "time_period": null
     },
     {
@@ -114,7 +114,7 @@
         "Russian organised crime"
       ],
       "type": "mafia",
-      "context": "Russian organized crime groups operating in Israel, involved in money laundering.",
+      "context": "Russian organized crime groups in Israel, involved in money laundering and other crimes.",
       "time_period": "1989-present"
     },
     {
@@ -122,7 +122,7 @@
       "original_text_name": "Melikhov clan",
       "aliases": [],
       "type": "clan",
-      "context": "Georgian-Jewish crime family operating in Antwerp.",
+      "context": "Georgian-Jewish crime family operating in Antwerp and Vienna.",
       "time_period": null
     },
     {
@@ -138,8 +138,8 @@
       "original_text_name": "Gambino crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "American Mafia family, underboss Sammy Gravano had ties to Israeli ecstasy traffickers.",
-      "time_period": "1910s-present"
+      "context": "American Mafia family, underboss Sammy Gravano had drug ring supplied by Israeli mobster.",
+      "time_period": null
     },
     {
       "standard_name": "Medellin Cartel",
@@ -161,11 +161,11 @@
   "edges": [
     {
       "source": "Abergil crime family",
-      "target": "Abutbul crime family",
+      "target": "Zeev Rosenstein syndicate",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are major crime groups in Israel, likely cooperate.",
-      "time_period": null
+      "context": "Both involved in ecstasy trafficking in the United States.",
+      "time_period": "2000s"
     },
     {
       "source": "Jarushi family",
@@ -176,28 +176,28 @@
       "time_period": "until 1990s"
     },
     {
-      "source": "Russian mafia",
+      "source": "Ludwig Fainberg",
       "target": "Medellin Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Ludwig Fainberg had connections with both groups.",
+      "context": "Fainberg had connections with the Medellin Cartel.",
       "time_period": null
     },
     {
-      "source": "Zeev Rosenstein syndicate",
+      "source": "Ludwig Fainberg",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Fainberg had connections with the Russian mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Ilan Zarger",
       "target": "Gambino crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Zeev Rosenstein was involved in ecstasy trafficking with Gambino underboss Sammy Gravano.",
+      "context": "Zarger was main drug supplier for Gambino underboss Sammy Gravano.",
       "time_period": "1999-2000"
-    },
-    {
-      "source": "Abergil crime family",
-      "target": "Zeev Rosenstein syndicate",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both involved in ecstasy trafficking in the US.",
-      "time_period": null
     }
   ],
   "source_file": "Israeli_mafia"

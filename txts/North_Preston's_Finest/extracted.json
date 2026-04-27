@@ -18,7 +18,7 @@
       "aliases": [],
       "type": "gang",
       "context": "A Haitian Canadian gang that took over sex trafficking in Toronto after NPF moved west.",
-      "time_period": null
+      "time_period": "2000s"
     },
     {
       "standard_name": "Crips",
@@ -26,24 +26,24 @@
       "aliases": [],
       "type": "gang",
       "context": "A Haitian Canadian gang that took over sex trafficking in Toronto after NPF moved west.",
-      "time_period": null
+      "time_period": "2000s"
     }
   ],
   "edges": [
     {
       "source": "North Preston's Finest",
       "target": "Bloods",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "NPF's move away from Toronto led to Haitian Canadian gangs (Bloods and Crips) taking control of sex trafficking, implying competition.",
+      "relationship": "other",
+      "detail": "successor in territory",
+      "context": "After NPF moved west, the Bloods took control of sex trafficking in Toronto.",
       "time_period": "late 2000s"
     },
     {
       "source": "North Preston's Finest",
       "target": "Crips",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "NPF's move away from Toronto led to Haitian Canadian gangs (Bloods and Crips) taking control of sex trafficking, implying competition.",
+      "relationship": "other",
+      "detail": "successor in territory",
+      "context": "After NPF moved west, the Crips took control of sex trafficking in Toronto.",
       "time_period": "late 2000s"
     }
   ],

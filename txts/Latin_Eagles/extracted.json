@@ -113,54 +113,40 @@
       "time_period": "1970s-present"
     },
     {
-      "standard_name": "People Nation",
-      "original_text_name": "People Nation",
-      "aliases": [
-        "People"
-      ],
-      "type": "other",
-      "context": "Chicago-based prison gang alliance, rivals of Folk Nation.",
-      "time_period": "1978-present"
+      "standard_name": "Campbell Boys",
+      "original_text_name": "Campbell Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Chicago street gang, attended party with Latin Eagles.",
+      "time_period": "1980s"
     },
     {
       "standard_name": "Stoned Freaks",
       "original_text_name": "Stoned Freaks",
       "aliases": [],
       "type": "gang",
-      "context": "Chicago street gang, fought against Latin Eagles and allies in the 1980s.",
+      "context": "Chicago street gang, fought against Latin Eagles and allies at Kelvyn Park.",
       "time_period": "1980s"
     },
     {
-      "standard_name": "Campbell Boys",
-      "original_text_name": "Campbell Boys",
-      "aliases": [],
+      "standard_name": "People Nation",
+      "original_text_name": "People Nation",
+      "aliases": [
+        "People"
+      ],
+      "type": "other",
+      "context": "Chicago-based prison gang alliance, rivals of Folk Nation and Latin Eagles.",
+      "time_period": "1978-present"
+    },
+    {
+      "standard_name": "Spanish Gangster Disciples",
+      "original_text_name": "Spanish Gangster Disciples",
+      "aliases": [
+        "SGD's"
+      ],
       "type": "gang",
-      "context": "Chicago street gang, attended party with Latin Eagles in 1989.",
-      "time_period": "1980s"
-    },
-    {
-      "standard_name": "Almighty Folks Familia",
-      "original_text_name": "Almighty Folks Familia",
-      "aliases": [],
-      "type": "other",
-      "context": "Alliance of Latin Eagles, Imperial Gangsters, and Simon City Royals formed in mid-1990s.",
-      "time_period": "mid-1990s"
-    },
-    {
-      "standard_name": "Insane Familia",
-      "original_text_name": "Insane Familia",
-      "aliases": [],
-      "type": "other",
-      "context": "Alliance led by Spanish Cobras, enemies of Almighty Folks Familia.",
-      "time_period": "late 1990s"
-    },
-    {
-      "standard_name": "Maniac Familia",
-      "original_text_name": "Maniac Familia",
-      "aliases": [],
-      "type": "other",
-      "context": "Alliance led by Maniac Latin Disciples, enemies of Almighty Folks Familia.",
-      "time_period": "late 1990s"
+      "context": "Chicago street gang, rivals of Latin Eagles.",
+      "time_period": "1990s-present"
     }
   ],
   "edges": [
@@ -168,30 +154,30 @@
       "source": "Almighty Latin Eagles Nation",
       "target": "Young Lords",
       "relationship": "other",
-      "detail": "splinter faction",
-      "context": "Young Lords formed by former Latin Eagles members in 1968.",
+      "detail": "founded by",
+      "context": "Young Lords was formed by former Latin Eagles members in 1968.",
       "time_period": "1968"
     },
     {
       "source": "Almighty Latin Eagles Nation",
       "target": "Latin Kings",
       "relationship": "rivalry",
-      "context": "Fought over Northside Chicago turf in the 1960s and later.",
+      "context": "Latin Eagles and Latin Kings fought for control of Lakeview High School and Northside turf.",
       "time_period": "1960s-present"
     },
     {
       "source": "Almighty Latin Eagles Nation",
       "target": "Harrison Gents",
       "relationship": "rivalry",
-      "context": "Fought for control of Lakeview High School; a Latin Eagle killed a Gent leader in 1966.",
+      "context": "Latin Eagles fought Harrison Gents for turf; a Latin Eagle murdered a Gent leader in 1966.",
       "time_period": "1966-1968"
     },
     {
       "source": "Almighty Latin Eagles Nation",
       "target": "PR Stones",
       "relationship": "rivalry",
-      "context": "Disputes over Northside turf made them mortal enemies.",
-      "time_period": "1960s-present"
+      "context": "Latin Eagles were mortal enemies with PR Stones over Northside turf.",
+      "time_period": "1970s-present"
     },
     {
       "source": "Almighty Latin Eagles Nation",
@@ -204,78 +190,72 @@
       "source": "Almighty Latin Eagles Nation",
       "target": "Black Gangster Disciples",
       "relationship": "rivalry",
-      "context": "War started in summer 1995 as SGD's moved into Latin Eagles territory.",
+      "context": "Latin Eagles went to war with Gangster Disciples in 1995.",
       "time_period": "1995-present"
     },
     {
       "source": "Almighty Latin Eagles Nation",
       "target": "Simon City Royals",
       "relationship": "alliance",
-      "context": "Allied in Folk Nation and later in Almighty Folks Familia.",
+      "context": "Latin Eagles allied with Simon City Royals in Folk Nation and Almighty Folks Familia.",
       "time_period": "1978-present"
     },
     {
       "source": "Almighty Latin Eagles Nation",
       "target": "Ashland Vikings",
       "relationship": "alliance",
-      "context": "Both part of Folk Nation alliance.",
+      "context": "Ashland Vikings were part of the Folk Nation alliance with Latin Eagles.",
       "time_period": "1978-present"
     },
     {
       "source": "Almighty Latin Eagles Nation",
       "target": "Latin Disciples",
       "relationship": "alliance",
-      "context": "Both part of ULO and Folk Nation; later became rivals.",
+      "context": "Latin Eagles and Latin Disciples were ULO brothers and Folk Nation allies.",
       "time_period": "1978-1990s"
     },
     {
       "source": "Almighty Latin Eagles Nation",
       "target": "Spanish Cobras",
       "relationship": "rivalry",
-      "context": "Conflict began in 1989 after a party dispute; later war.",
+      "context": "Spanish Cobras and Latin Eagles went to war after a party dispute in 1989.",
       "time_period": "1989-present"
     },
     {
       "source": "Almighty Latin Eagles Nation",
       "target": "Imperial Gangsters",
       "relationship": "alliance",
-      "context": "Allied in Almighty Folks Familia.",
-      "time_period": "mid-1990s"
+      "context": "Latin Eagles formed the Almighty Folks Familia with Imperial Gangsters.",
+      "time_period": "1990s"
     },
     {
       "source": "Almighty Latin Eagles Nation",
-      "target": "People Nation",
-      "relationship": "rivalry",
-      "context": "Latin Eagles are Folk Nation, enemies of People Nation.",
-      "time_period": "1978-present"
+      "target": "Campbell Boys",
+      "relationship": "other",
+      "detail": "attended party",
+      "context": "Campbell Boys were invited to a party hosted by Latin Eagles in 1989.",
+      "time_period": "1989"
     },
     {
       "source": "Almighty Latin Eagles Nation",
       "target": "Stoned Freaks",
       "relationship": "rivalry",
-      "context": "Latin Eagles and allies fought Stoned Freaks for Kelvyn Park.",
+      "context": "Latin Eagles and allies fought Stoned Freaks for control of Kelvyn Park.",
       "time_period": "1980s"
     },
     {
       "source": "Almighty Latin Eagles Nation",
-      "target": "Almighty Folks Familia",
-      "relationship": "alliance",
-      "context": "Latin Eagles were a founding member of this alliance.",
-      "time_period": "mid-1990s"
+      "target": "People Nation",
+      "relationship": "rivalry",
+      "context": "Latin Eagles became enemies of all People gangs when they joined Folk Nation.",
+      "time_period": "1978-present"
     },
     {
-      "source": "Almighty Folks Familia",
-      "target": "Insane Familia",
+      "source": "Almighty Latin Eagles Nation",
+      "target": "Spanish Gangster Disciples",
       "relationship": "rivalry",
-      "context": "Permanent bloody war between the two alliances.",
-      "time_period": "late 1990s"
-    },
-    {
-      "source": "Almighty Folks Familia",
-      "target": "Maniac Familia",
-      "relationship": "rivalry",
-      "context": "Permanent bloody war between the two alliances.",
-      "time_period": "late 1990s"
+      "context": "Latin Eagles went to war with Spanish Gangster Disciples.",
+      "time_period": "1990s-present"
     }
   ],
   "source_file": "Latin_Eagles"

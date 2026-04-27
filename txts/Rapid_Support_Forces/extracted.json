@@ -97,14 +97,14 @@
       "aliases": [],
       "type": "militia",
       "context": "Non-state ally of RSF.",
-      "time_period": null
+      "time_period": "unknown"
     },
     {
       "standard_name": "SPLM-N (al-Hilu)",
       "original_text_name": "SPLM-N (al-Hilu)",
       "aliases": [],
       "type": "militia",
-      "context": "Sudanese rebel group; allied with RSF since 2025.",
+      "context": "Sudanese rebel group, allied with RSF since 2025.",
       "time_period": "2025-present"
     },
     {
@@ -112,55 +112,55 @@
       "original_text_name": "Houthi movement",
       "aliases": [],
       "type": "militia",
-      "context": "Yemeni rebel group; opponent of RSF.",
-      "time_period": null
+      "context": "Yemeni rebel group, opponent of RSF.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "Popular Resistance of Sudan",
       "original_text_name": "Popular Resistance of Sudan",
       "aliases": [],
       "type": "militia",
-      "context": "Sudanese pro-government militia; opponent of RSF.",
-      "time_period": null
+      "context": "Sudanese pro-government militia, opponent of RSF.",
+      "time_period": "2023-present"
     },
     {
       "standard_name": "Al-Bara Battalion",
       "original_text_name": "Al-Bara Battalion",
       "aliases": [],
       "type": "militia",
-      "context": "Sudanese militia; opponent of RSF.",
-      "time_period": null
+      "context": "Sudanese militia, opponent of RSF.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "AWB",
       "original_text_name": "AWB",
       "aliases": [],
       "type": "militia",
-      "context": "Sudanese militia; opponent of RSF.",
-      "time_period": null
+      "context": "Sudanese militia, opponent of RSF.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "SLM (al-Nur)",
       "original_text_name": "SLM (al-Nur)",
       "aliases": [],
       "type": "militia",
-      "context": "Sudanese rebel group; opponent of RSF.",
-      "time_period": null
+      "context": "Sudanese rebel group, opponent of RSF.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "SPLM-N (Agar)",
       "original_text_name": "SPLM-N (Agar)",
       "aliases": [],
       "type": "militia",
-      "context": "Sudanese rebel group; opponent of RSF.",
-      "time_period": null
+      "context": "Sudanese rebel group, opponent of RSF.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "SLM (Tambour)",
       "original_text_name": "SLM (Tambour)",
       "aliases": [],
       "type": "militia",
-      "context": "Sudanese rebel group; opponent of RSF from 2023.",
+      "context": "Sudanese rebel group, opponent of RSF since 2023.",
       "time_period": "2023-present"
     },
     {
@@ -168,7 +168,7 @@
       "original_text_name": "Joint Darfur Force",
       "aliases": [],
       "type": "militia",
-      "context": "Coalition of Darfuri armed groups; opponent of RSF from 2023.",
+      "context": "Coalition of Darfuri armed groups, opponent of RSF since 2023.",
       "time_period": "2023-present"
     },
     {
@@ -178,16 +178,16 @@
         "Justice and Equality Movement"
       ],
       "type": "militia",
-      "context": "Sudanese rebel group; opponent of RSF.",
-      "time_period": null
+      "context": "Sudanese rebel group, opponent of RSF.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "SLM (Minnawi)",
       "original_text_name": "SLM (Minnawi)",
       "aliases": [],
       "type": "militia",
-      "context": "Sudanese rebel group; opponent of RSF.",
-      "time_period": null
+      "context": "Sudanese rebel group, opponent of RSF.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "Global Security Services Group",
@@ -197,7 +197,7 @@
       ],
       "type": "other",
       "context": "Abu Dhabi-based firm that recruited mercenaries for RSF.",
-      "time_period": null
+      "time_period": "2024"
     },
     {
       "standard_name": "International Services Agency",
@@ -207,7 +207,7 @@
       ],
       "type": "other",
       "context": "Colombia-registered recruitment firm that hired mercenaries for RSF.",
-      "time_period": null
+      "time_period": "2024"
     }
   ],
   "edges": [
@@ -238,7 +238,7 @@
       "target": "Al Junaid",
       "relationship": "other",
       "detail": "financial link",
-      "context": "Al Junaid is closely linked to RSF financially, funding RSF operations through gold mining.",
+      "context": "Al Junaid is closely linked to RSF financially, funding operations through gold mining.",
       "time_period": "2017-present"
     },
     {
@@ -286,7 +286,7 @@
       "target": "SPLM-N (al-Hilu)",
       "relationship": "alliance",
       "detail": null,
-      "context": "SPLM-N (al-Hilu) allied with RSF since 2025.",
+      "context": "RSF allied with SPLM-N (al-Hilu) since 2025.",
       "time_period": "2025-present"
     },
     {
@@ -303,7 +303,7 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Popular Resistance of Sudan is an opponent of RSF.",
-      "time_period": null
+      "time_period": "2023-present"
     },
     {
       "source": "Rapid Support Forces",
@@ -342,7 +342,7 @@
       "target": "SLM (Tambour)",
       "relationship": "rivalry",
       "detail": null,
-      "context": "SLM (Tambour) opposed RSF from 2023.",
+      "context": "SLM (Tambour) has been an opponent of RSF since 2023.",
       "time_period": "2023-present"
     },
     {
@@ -350,7 +350,7 @@
       "target": "Joint Darfur Force",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Joint Darfur Force opposed RSF from 2023.",
+      "context": "Joint Darfur Force has been an opponent of RSF since 2023.",
       "time_period": "2023-present"
     },
     {
@@ -375,7 +375,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "GSSG recruited mercenaries for RSF.",
-      "time_period": null
+      "time_period": "2024"
     },
     {
       "source": "International Services Agency",
@@ -383,7 +383,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "A4SI recruited mercenaries for GSSG to support RSF.",
-      "time_period": null
+      "time_period": "2024"
     }
   ],
   "source_file": "Rapid_Support_Forces"

@@ -48,8 +48,8 @@
         "Loners"
       ],
       "type": "motorcycle_club",
-      "context": "Motorcycle club from Saskatchewan; merged with Rebels in the 1980s and later formed from Rebels Ontario chapter.",
-      "time_period": "1970s-1980s"
+      "context": "Motorcycle club that merged with Rebels in the 1980s; also formed from a Rebels chapter in Ontario in 1979.",
+      "time_period": "1979-1980s"
     },
     {
       "standard_name": "Hells Angels",
@@ -58,14 +58,14 @@
         "Angels"
       ],
       "type": "motorcycle_club",
-      "context": "International outlaw motorcycle club; patched over Grim Reapers in 1997 and Rebels chapters in 1998.",
+      "context": "International outlaw motorcycle club that patched over Grim Reapers in 1997 and Rebels chapters in 1998.",
       "time_period": "1948-present"
     },
     {
       "standard_name": "Apollos Motorcycle Club",
       "original_text_name": "Apollos",
       "aliases": [
-        "Apollos"
+        "Apollos of Regina"
       ],
       "type": "motorcycle_club",
       "context": "Hells Angels support club in Regina, Saskatchewan.",
@@ -74,32 +74,26 @@
     {
       "standard_name": "Bandidos Motorcycle Club",
       "original_text_name": "Bandidos",
-      "aliases": [
-        "Bandidos"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
-      "context": "International outlaw motorcycle club; contacted by Rebels for patch-over in 2001.",
+      "context": "International outlaw motorcycle club; Rebels Edmonton chapter attempted to patch over to Bandidos in 2001.",
       "time_period": "1966-present"
     },
     {
       "standard_name": "Satan's Choice Motorcycle Club",
       "original_text_name": "Satan's Choice",
-      "aliases": [
-        "Satan's Choice"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club; listed as ally of Rebels.",
+      "context": "Outlaw motorcycle club listed as an ally of Rebels.",
       "time_period": "1960s-2000s"
     },
     {
       "standard_name": "Lobos Motorcycle Club",
       "original_text_name": "Lobos",
-      "aliases": [
-        "Lobos"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club; listed as ally of Rebels.",
-      "time_period": "unknown"
+      "context": "Outlaw motorcycle club listed as an ally of Rebels.",
+      "time_period": null
     },
     {
       "standard_name": "Warlocks Motorcycle Club (Florida)",
@@ -108,8 +102,8 @@
         "Warlocks"
       ],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club based in Florida; listed as rival of Rebels.",
-      "time_period": "1967-present"
+      "context": "Outlaw motorcycle club based in Florida, listed as a rival of Rebels.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -118,7 +112,7 @@
       "target": "Grim Reapers Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Violent exchanges and territorial battles in Alberta during the 1970s.",
+      "context": "Violent exchanges throughout the 1970s; main rivals in Alberta.",
       "time_period": "1970s"
     },
     {
@@ -126,8 +120,8 @@
       "target": "Loners Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Rebels merged with Loners in the 1980s; Rebels Ontario chapter became part of Loners in 1979.",
-      "time_period": "1979-1980s"
+      "context": "Rebels merged with Loners in the 1980s.",
+      "time_period": "1980s"
     },
     {
       "source": "Grim Reapers Motorcycle Club",
@@ -142,7 +136,7 @@
       "target": "Hells Angels",
       "relationship": "alliance",
       "detail": null,
-      "context": "Rebels Saskatoon chapter patched over to Hells Angels in 1998; many former Rebels members joined Hells Angels.",
+      "context": "Rebels Saskatoon chapter patched over to Hells Angels in 1998; many former members joined Angels.",
       "time_period": "1998"
     },
     {
@@ -150,16 +144,8 @@
       "target": "Bandidos Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Rebels Edmonton chapter contacted Bandidos in 2001 with aim of patching over.",
+      "context": "Rebels Edmonton chapter attempted to patch over to Bandidos in 2001.",
       "time_period": "2001"
-    },
-    {
-      "source": "Rebels Motorcycle Club",
-      "target": "Kings Crew Motorcycle Club",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Kings Crew was tolerated by Rebels and listed as an ally.",
-      "time_period": "1970s-1990s"
     },
     {
       "source": "Rebels Motorcycle Club",
@@ -167,6 +153,14 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Rebels Motorcycle Club",
+      "target": "Kings Crew Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox; tolerated use of 'Calgary' rocker.",
       "time_period": null
     },
     {

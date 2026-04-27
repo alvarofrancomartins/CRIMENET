@@ -103,8 +103,8 @@
       "original_text_name": "New Mexican Mafia",
       "aliases": [],
       "type": "gang",
-      "context": "Arizona prison gang formed in 1974, split from Original Mexican Mafia in 1978.",
-      "time_period": "1974-present"
+      "context": "Arizona prison gang that split from the Original Mexican Mafia in 1978.",
+      "time_period": "1978-present"
     },
     {
       "standard_name": "Original Mexican Mafia",
@@ -114,7 +114,7 @@
         "EME"
       ],
       "type": "gang",
-      "context": "Arizona prison gang, kept original philosophy after split in 1978.",
+      "context": "Arizona prison gang, one faction after the 1978 split.",
       "time_period": "1978-present"
     },
     {
@@ -122,7 +122,7 @@
       "original_text_name": "Aryan Brotherhood",
       "aliases": [],
       "type": "gang",
-      "context": "White prison gang, loose ally of Mexican Mafia due to common rivals.",
+      "context": "White prison gang, loose ally of Mexican Mafia, carries out contract killings for them.",
       "time_period": null
     },
     {
@@ -132,7 +132,7 @@
         "Black Guerrilla Family"
       ],
       "type": "gang",
-      "context": "African-American prison gang, rival of Mexican Mafia and ally of Nuestra Familia.",
+      "context": "African-American prison gang, rival of Mexican Mafia, allied with Nuestra Familia.",
       "time_period": null
     },
     {
@@ -156,15 +156,15 @@
       "original_text_name": "Italian-American Los Angeles crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian-American mafia family, collaborated with Mexican Mafia in skimming from a drug treatment program.",
-      "time_period": null
+      "context": "Collaborated with Mexican Mafia in skimming money from a drug treatment program.",
+      "time_period": "1970s"
     },
     {
       "standard_name": "Sureños",
       "original_text_name": "Sureños",
       "aliases": [],
       "type": "gang",
-      "context": "Vassal gangs controlled by Mexican Mafia, mostly Hispanic street gangs in Southern California.",
+      "context": "Vassal gangs controlled by the Mexican Mafia, mostly Hispanic street gangs in Southern California.",
       "time_period": null
     },
     {
@@ -180,7 +180,7 @@
       "original_text_name": "D.C. Blacks",
       "aliases": [],
       "type": "gang",
-      "context": "African-American gang, enemy of Mexican Mafia and Aryan Brotherhood.",
+      "context": "African-American prison gang, enemy of Mexican Mafia.",
       "time_period": null
     },
     {
@@ -325,8 +325,8 @@
       "source": "Mexican Mafia",
       "target": "White Fence",
       "relationship": "other",
-      "detail": "member affiliation",
-      "context": "Early members Gregory Huerta Valenzuela and Augustin Acosta were members of White Fence.",
+      "detail": "pre-existing gang",
+      "context": "White Fence existed before Mexican Mafia and some members joined.",
       "time_period": "1950s"
     },
     {
@@ -334,7 +334,7 @@
       "target": "The Avenues",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Avenues carried out murders on orders of the Mexican Mafia.",
+      "context": "The Avenues carried out murders on orders of Mexican Mafia.",
       "time_period": null
     },
     {
@@ -342,7 +342,7 @@
       "target": "Nuestra Familia",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Nuestra Familia was founded as a rival to the Mexican Mafia; they are primary rivals.",
+      "context": "Nuestra Familia was founded as a rival to Mexican Mafia; they are primary rivals.",
       "time_period": "mid-1960s-present"
     },
     {
@@ -350,23 +350,23 @@
       "target": "New Mexican Mafia",
       "relationship": "rivalry",
       "detail": null,
-      "context": "New Mexican Mafia split from Original Mexican Mafia and both claim the title, leading to assaults and murders.",
+      "context": "New Mexican Mafia split from Original Mexican Mafia and is a rival.",
       "time_period": "1978-present"
     },
     {
       "source": "Mexican Mafia",
       "target": "Original Mexican Mafia",
       "relationship": "other",
-      "detail": "split",
-      "context": "Original Mexican Mafia is the faction that kept the original philosophy after the split.",
-      "time_period": "1978"
+      "detail": "split faction",
+      "context": "Original Mexican Mafia is one faction after the 1978 split.",
+      "time_period": "1978-present"
     },
     {
       "source": "Mexican Mafia",
       "target": "Aryan Brotherhood",
       "relationship": "alliance",
       "detail": null,
-      "context": "Loose alliance due to common rivals; Mexican Mafia arranged contract killings by Aryan Brotherhood.",
+      "context": "Mexican Mafia holds a loose alliance with Aryan Brotherhood; AB carries out contract killings for them.",
       "time_period": null
     },
     {
@@ -382,7 +382,7 @@
       "target": "Bloods",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Bloods are new enemies of the Mexican Mafia.",
+      "context": "Bloods are new enemies of Mexican Mafia.",
       "time_period": null
     },
     {
@@ -390,7 +390,7 @@
       "target": "Crips",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Crips are new enemies of the Mexican Mafia.",
+      "context": "Crips are new enemies of Mexican Mafia.",
       "time_period": null
     },
     {
@@ -398,7 +398,7 @@
       "target": "Los Angeles crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Collaborated in skimming money from a drug treatment program.",
+      "context": "Mexican Mafia collaborated with LA crime family in skimming money from a drug treatment program.",
       "time_period": "1970s"
     },
     {
@@ -406,7 +406,7 @@
       "target": "Sureños",
       "relationship": "alliance",
       "detail": null,
-      "context": "Sureños are vassal gangs controlled by the Mexican Mafia.",
+      "context": "Mexican Mafia controls Sureños as vassal gangs.",
       "time_period": null
     },
     {
@@ -414,7 +414,7 @@
       "target": "Norteños",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Norteños are rivals of the Mexican Mafia.",
+      "context": "Norteños are rivals of Mexican Mafia.",
       "time_period": null
     },
     {
@@ -422,7 +422,7 @@
       "target": "D.C. Blacks",
       "relationship": "rivalry",
       "detail": null,
-      "context": "D.C. Blacks are enemies of the Mexican Mafia.",
+      "context": "D.C. Blacks are enemies of Mexican Mafia.",
       "time_period": null
     },
     {
@@ -430,7 +430,7 @@
       "target": "Black Guerrilla Family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Black Guerrilla Family holds a loose alliance with Nuestra Familia.",
+      "context": "Nuestra Familia holds a loose alliance with Black Guerrilla Family.",
       "time_period": null
     },
     {
@@ -438,7 +438,7 @@
       "target": "Norteños",
       "relationship": "alliance",
       "detail": null,
-      "context": "Norteños are allied with Nuestra Familia.",
+      "context": "Nuestra Familia is allied with Norteños.",
       "time_period": null
     },
     {
@@ -446,7 +446,15 @@
       "target": "Black Guerrilla Family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Aryan Brotherhood and Black Guerrilla Family are mutual enemies.",
+      "context": "Aryan Brotherhood is a mutual enemy of Black Guerrilla Family with Mexican Mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Aryan Brotherhood",
+      "target": "Norteños",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Aryan Brotherhood is a mutual enemy of Norteños with Mexican Mafia.",
       "time_period": null
     },
     {
@@ -454,16 +462,8 @@
       "target": "D.C. Blacks",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Aryan Brotherhood and D.C. Blacks are mutual enemies.",
+      "context": "Aryan Brotherhood is a mutual enemy of D.C. Blacks with Mexican Mafia.",
       "time_period": null
-    },
-    {
-      "source": "New Mexican Mafia",
-      "target": "Original Mexican Mafia",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Both groups claim the title 'Mexican Mafia' and have engaged in assaults and murders.",
-      "time_period": "1978-present"
     },
     {
       "source": "Mexican Mafia",

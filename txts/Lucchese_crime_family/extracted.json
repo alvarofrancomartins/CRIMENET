@@ -175,7 +175,7 @@
       "original_text_name": "South Brooklyn Boys",
       "aliases": [],
       "type": "gang",
-      "context": "Criminal gang based in Brooklyn.",
+      "context": "Street gang from South Brooklyn, New York.",
       "time_period": null
     },
     {
@@ -249,7 +249,7 @@
       "target": "Bonanno crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Lucchese and Gambino used the Commission to strip Joseph Bonanno of his role as boss, starting a war within the Bonanno family.",
+      "context": "Lucchese and Gambino used the Commission to strip Joseph Bonanno of his role as boss after uncovering a plot to assassinate them.",
       "time_period": "1960s"
     },
     {
@@ -265,8 +265,8 @@
       "target": "Morello crime family",
       "relationship": "other",
       "detail": "splintered from",
-      "context": "The Lucchese family originated from the Morello crime family when Gaetano Reina split off in the 1910s.",
-      "time_period": "1910s"
+      "context": "The Lucchese family originated from the Morello crime family, with Gaetano Reina splitting off to form his own family.",
+      "time_period": "1910s-1920s"
     },
     {
       "source": "Lucchese crime family",
@@ -279,26 +279,50 @@
     {
       "source": "Gallo crew",
       "target": "Colombo crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Gallo brothers rebelled against Colombo boss Joe Profaci, starting a war within the family.",
+      "time_period": "1960-1963"
+    },
+    {
+      "source": "Gambino crime family",
+      "target": "Genovese crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gambino and Lucchese conspired to remove Genovese from power, leading to his arrest.",
+      "time_period": "1959"
+    },
+    {
+      "source": "Gambino crime family",
+      "target": "Colombo crime family",
       "relationship": "other",
-      "detail": "faction within",
-      "context": "The Gallo brothers were a faction within the Colombo family that rebelled against boss Joe Profaci.",
+      "detail": "supported rebellion",
+      "context": "Gambino and Lucchese backed the Gallo brothers' rebellion against Colombo boss Joe Profaci.",
       "time_period": "1960"
     },
     {
-      "source": "Lucchese crime family",
-      "target": "Gallo crew",
-      "relationship": "alliance",
+      "source": "Gambino crime family",
+      "target": "Bonanno crime family",
+      "relationship": "rivalry",
       "detail": null,
-      "context": "Lucchese and Gambino backed the Gallo brothers in their rebellion against Profaci.",
-      "time_period": "1960"
+      "context": "Gambino and Lucchese used the Commission to strip Joseph Bonanno of his role as boss.",
+      "time_period": "1960s"
     },
     {
       "source": "Lucchese crime family",
       "target": "Gambino crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Lucchese leaders Amuso and Casso were strong rivals of Gambino boss John Gotti.",
-      "time_period": "1986-1990s"
+      "context": "After Paul Castellano's murder, Lucchese and Genovese families plotted to kill John Gotti, leading to conflict with Gambino family.",
+      "time_period": "1985-1986"
+    },
+    {
+      "source": "Genovese crime family",
+      "target": "Gambino crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Genovese and Lucchese families teamed up to plot John Gotti's murder after Castellano's murder.",
+      "time_period": "1985-1986"
     },
     {
       "source": "Lucchese crime family",
@@ -318,18 +342,10 @@
     },
     {
       "source": "Lucchese crime family",
-      "target": "Gambino crime family",
-      "relationship": "other",
-      "detail": "murder contract",
-      "context": "Casso used corrupt detectives to murder Gambino members to pressure the family.",
-      "time_period": "1986-1990"
-    },
-    {
-      "source": "Lucchese crime family",
       "target": "East Harlem Purple Gang",
       "relationship": "other",
       "detail": "hitman relationship",
-      "context": "Lucchese members murdered former East Harlem Purple Gang leader Michael Meldish.",
+      "context": "Lucchese soldier Christopher Londonio was involved in the murder of former Purple Gang leader Michael Meldish.",
       "time_period": "2013"
     },
     {
@@ -425,7 +441,7 @@
       "target": "Nine Trey Gangsters",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied with the Lucchese family.",
+      "context": "Allied gang.",
       "time_period": null
     },
     {
@@ -433,7 +449,7 @@
       "target": "Purple Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied with the Lucchese family.",
+      "context": "Allied gang.",
       "time_period": null
     },
     {
@@ -441,7 +457,7 @@
       "target": "South Brooklyn Boys",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied with the Lucchese family.",
+      "context": "Allied gang.",
       "time_period": null
     },
     {
@@ -449,7 +465,7 @@
       "target": "Tanglewood Boys",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied with the Lucchese family.",
+      "context": "Allied gang.",
       "time_period": null
     },
     {
@@ -457,7 +473,7 @@
       "target": "Velentzas Organization",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied with the Lucchese family.",
+      "context": "Allied organized crime group.",
       "time_period": null
     },
     {
@@ -465,7 +481,7 @@
       "target": "Rudaj Organization",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rival organization in New York City.",
+      "context": "Rival organized crime group.",
       "time_period": null
     },
     {
@@ -473,7 +489,7 @@
       "target": "French Connection Crew",
       "relationship": "alliance",
       "detail": null,
-      "context": "Closely aligned with the Lucchese family.",
+      "context": "Closely aligned organization responsible for heroin theft.",
       "time_period": "1967-1973"
     },
     {

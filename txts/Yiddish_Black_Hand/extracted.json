@@ -9,8 +9,25 @@
       "type": "gang",
       "context": "Extortion ring operating on New York's Lower East Side, targeting Jewish immigrants.",
       "time_period": "1906-1913"
+    },
+    {
+      "standard_name": "Black Hand",
+      "original_text_name": "Black Hand",
+      "aliases": [],
+      "type": "other",
+      "context": "Italian immigrant criminal gangs using extortion methods in New York City.",
+      "time_period": "early 20th century"
     }
   ],
-  "edges": [],
+  "edges": [
+    {
+      "source": "Yiddish Black Hand",
+      "target": "Black Hand",
+      "relationship": "other",
+      "detail": "imitation",
+      "context": "The Yiddish Black Hand adopted the extortion method used by Italian Black Hand gangs.",
+      "time_period": "1906-1913"
+    }
+  ],
   "source_file": "Yiddish_Black_Hand"
 }

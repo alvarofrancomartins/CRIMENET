@@ -24,7 +24,7 @@
       "original_text_name": "Bloods",
       "aliases": [],
       "type": "gang",
-      "context": "Street gang involved in a scuffle with DDP at Pelham Prep High School.",
+      "context": "Nationwide street gang, rival of DDP.",
       "time_period": null
     },
     {
@@ -32,7 +32,7 @@
       "original_text_name": "Trinitarios",
       "aliases": [],
       "type": "gang",
-      "context": "Dominican gang, rival of DDP, involved in murder of Marviel Martinez.",
+      "context": "Dominican street gang, rival of DDP.",
       "time_period": null
     },
     {
@@ -40,7 +40,7 @@
       "original_text_name": "Latin Kings",
       "aliases": [],
       "type": "gang",
-      "context": "Puerto Rican-based gang, at peace with DDP, rival of Trinitarios.",
+      "context": "Puerto Rican-based gang, at peace with DDP.",
       "time_period": null
     },
     {
@@ -48,15 +48,7 @@
       "original_text_name": "Bones",
       "aliases": [],
       "type": "faction",
-      "context": "Offshoot of DDP, member involved in murder of Marviel Martinez.",
-      "time_period": null
-    },
-    {
-      "standard_name": "United Blood Nation",
-      "original_text_name": "United Blood Nation",
-      "aliases": [],
-      "type": "gang",
-      "context": "Gang sets affiliated with United Blood Nation are rivals of DDP.",
+      "context": "Offshoot of DDP involved in a murder.",
       "time_period": null
     }
   ],
@@ -74,8 +66,8 @@
       "target": "Bloods",
       "relationship": "rivalry",
       "detail": null,
-      "context": "A scuffle between DDP and Bloods at Pelham Prep High School resulted in stabbings.",
-      "time_period": null
+      "context": "DDP and Bloods had a scuffle at Pelham Prep High School resulting in stabbings.",
+      "time_period": "2005"
     },
     {
       "source": "Dominicans Don't Play",
@@ -99,22 +91,6 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Bones is an offshoot of DDP.",
-      "time_period": null
-    },
-    {
-      "source": "Dominicans Don't Play",
-      "target": "United Blood Nation",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "DDP has an ongoing feud with sets affiliated with the United Blood Nation.",
-      "time_period": null
-    },
-    {
-      "source": "Trinitarios",
-      "target": "Latin Kings",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Latin Kings have had previous problems with Trinitarios.",
       "time_period": null
     }
   ],

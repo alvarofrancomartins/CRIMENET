@@ -4,6 +4,7 @@
       "standard_name": "LockBit",
       "original_text_name": "LockBit",
       "aliases": [
+        ".abcd",
         "LockBit 2.0",
         "LockBit 3.0",
         "LockBit 4.0",
@@ -36,7 +37,7 @@
       "original_text_name": "Akira",
       "aliases": [],
       "type": "other",
-      "context": "Rival ransomware group that may have benefited from LockBit's disruption.",
+      "context": "Ransomware group that may have benefited from LockBit's disruption.",
       "time_period": null
     },
     {
@@ -44,7 +45,7 @@
       "original_text_name": "RansomHub",
       "aliases": [],
       "type": "other",
-      "context": "Rival ransomware group that may have benefited from LockBit's disruption.",
+      "context": "Ransomware group that may have benefited from LockBit's disruption.",
       "time_period": null
     }
   ],
@@ -61,25 +62,25 @@
       "source": "Mora_001",
       "target": "LockBit",
       "relationship": "other",
-      "detail": "used variant of",
+      "detail": "used variant",
       "context": "Mora_001 used a variant of LockBit 3.0 (LockBit Black) to create SuperBlack ransomware.",
-      "time_period": null
+      "time_period": "2025"
     },
     {
-      "source": "LockBit",
-      "target": "Akira",
+      "source": "Akira",
+      "target": "LockBit",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Disruption of LockBit may have boosted rival operations like Akira.",
-      "time_period": null
+      "context": "Akira may have benefited from LockBit's disruption, suggesting competition.",
+      "time_period": "2024"
     },
     {
-      "source": "LockBit",
-      "target": "RansomHub",
+      "source": "RansomHub",
+      "target": "LockBit",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Disruption of LockBit may have boosted rival operations like RansomHub.",
-      "time_period": null
+      "context": "RansomHub may have benefited from LockBit's disruption, suggesting competition.",
+      "time_period": "2024"
     }
   ],
   "source_file": "LockBit"

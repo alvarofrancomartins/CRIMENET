@@ -21,7 +21,9 @@
     {
       "standard_name": "Contini clan",
       "original_text_name": "Contini clan",
-      "aliases": [],
+      "aliases": [
+        "Continis"
+      ],
       "type": "clan",
       "context": "Founding clan of the Secondigliano Alliance, based in Naples.",
       "time_period": "1990s-present"
@@ -55,7 +57,7 @@
       "original_text_name": "Di Lauro clan",
       "aliases": [],
       "type": "clan",
-      "context": "Allied clan of the Secondigliano Alliance, mentioned as an ally in the infobox.",
+      "context": "Allied clan of the Secondigliano Alliance.",
       "time_period": "1990s-present"
     },
     {
@@ -63,7 +65,7 @@
       "original_text_name": "Rinaldi clan",
       "aliases": [],
       "type": "clan",
-      "context": "Allied clan of the Secondigliano Alliance, mentioned as an ally in the infobox.",
+      "context": "Allied clan of the Secondigliano Alliance.",
       "time_period": "1990s-present"
     },
     {
@@ -71,7 +73,7 @@
       "original_text_name": "De Luca Bossa clan",
       "aliases": [],
       "type": "clan",
-      "context": "Allied clan of the Secondigliano Alliance, mentioned as an ally in the infobox.",
+      "context": "Allied clan of the Secondigliano Alliance.",
       "time_period": "1990s-present"
     },
     {
@@ -79,14 +81,14 @@
       "original_text_name": "Aprea-Cuccaro clan",
       "aliases": [],
       "type": "clan",
-      "context": "Allied clan of the Secondigliano Alliance, mentioned as an ally in the infobox.",
+      "context": "Allied clan of the Secondigliano Alliance.",
       "time_period": "1990s-present"
     },
     {
       "standard_name": "Commisso 'ndrina",
       "original_text_name": "Commisso 'ndrina",
       "aliases": [],
-      "type": "mafia",
+      "type": "clan",
       "context": "'Ndrangheta clan allied with the Secondigliano Alliance in drug trafficking.",
       "time_period": "1990s-present"
     },
@@ -95,7 +97,7 @@
       "original_text_name": "Sautto-Ciccarelli clan",
       "aliases": [],
       "type": "clan",
-      "context": "Clan that coordinated with Licciardi and Abbinante clans in a 2019 murder.",
+      "context": "Clan involved in the 2019 murder of Domenico Gargiulo alongside Licciardi and Abbinante clans.",
       "time_period": "2000s-present"
     },
     {
@@ -103,7 +105,15 @@
       "original_text_name": "Abbinante clan",
       "aliases": [],
       "type": "clan",
-      "context": "Clan that coordinated with Licciardi and Sautto-Ciccarelli clans in a 2019 murder.",
+      "context": "Clan involved in the 2019 murder of Domenico Gargiulo alongside Licciardi and Sautto-Ciccarelli clans.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Bosti clan",
+      "original_text_name": "Bosti clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Clan within the Secondigliano Alliance, led by Patrizio Bosti.",
       "time_period": "2000s-present"
     }
   ],
@@ -174,34 +184,34 @@
     },
     {
       "source": "Secondigliano Alliance",
-      "target": "Lo Russo clan",
+      "target": "Bosti clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Lo Russo clan was an important ally until a dispute in 1999 led to a split.",
-      "time_period": "1990s-1999"
-    },
-    {
-      "source": "Secondigliano Alliance",
-      "target": "Lo Russo clan",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "After splitting, Lo Russo clan engaged in a violent gang war with the Alliance, claiming 120 lives.",
-      "time_period": "1999-2000s"
+      "context": "Bosti clan is part of the Secondigliano Alliance.",
+      "time_period": "2000s-present"
     },
     {
       "source": "Secondigliano Alliance",
       "target": "Mazzarella clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Long-standing rival; considered one of the two most powerful Camorra organizations alongside the Alliance.",
+      "context": "Long-standing rival of the Secondigliano Alliance.",
       "time_period": "1990s-present"
+    },
+    {
+      "source": "Secondigliano Alliance",
+      "target": "Lo Russo clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Lo Russo clan split from the Alliance and engaged in a violent gang war.",
+      "time_period": "1999-2000s"
     },
     {
       "source": "Licciardi clan",
       "target": "Sautto-Ciccarelli clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Coordinated with Sautto-Ciccarelli and Abbinante clans in the 2019 murder of Domenico Gargiulo.",
+      "context": "Coordinated with Sautto-Ciccarelli clan in the 2019 murder of Domenico Gargiulo.",
       "time_period": "2019"
     },
     {
@@ -209,7 +219,15 @@
       "target": "Abbinante clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Coordinated with Abbinante and Sautto-Ciccarelli clans in the 2019 murder of Domenico Gargiulo.",
+      "context": "Coordinated with Abbinante clan in the 2019 murder of Domenico Gargiulo.",
+      "time_period": "2019"
+    },
+    {
+      "source": "Sautto-Ciccarelli clan",
+      "target": "Abbinante clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both clans coordinated with Licciardi clan in the 2019 murder.",
       "time_period": "2019"
     }
   ],

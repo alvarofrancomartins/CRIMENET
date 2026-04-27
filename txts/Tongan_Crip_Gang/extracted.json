@@ -7,7 +7,7 @@
         "TCG"
       ],
       "type": "gang",
-      "context": "Tongan American street gang, a set of the Crips, active in California, Utah, Alaska, Washington, and New Zealand.",
+      "context": "Tongan American street gang active in California, Utah, Alaska, Washington, and New Zealand.",
       "time_period": "1970s-present"
     },
     {
@@ -15,36 +15,33 @@
       "original_text_name": "Crips",
       "aliases": [],
       "type": "gang",
-      "context": "Large alliance of street gangs based in Los Angeles, California.",
+      "context": "Large African American street gang alliance with many subsets.",
       "time_period": "1969-present"
-    },
-    {
-      "standard_name": "18th Street Gang",
-      "original_text_name": "18 Street Gang",
-      "aliases": [
-        "18th Street Gang",
-        "Mara 18"
-      ],
-      "type": "gang",
-      "context": "Multi-ethnic street gang based in Los Angeles, with international presence.",
-      "time_period": "1960s-present"
     },
     {
       "standard_name": "MS-13",
       "original_text_name": "MS-13",
       "aliases": [
-        "Mara Salvatrucha"
+        "Mara Salvatrucha Gang"
       ],
       "type": "gang",
-      "context": "Transnational criminal gang originating in Los Angeles, active in the US and Central America.",
+      "context": "Transnational gang involved in violent crimes, targeted by TCG.",
       "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "18th Street Gang",
+      "original_text_name": "18 Street Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Multi-ethnic street gang, allied with TCG in a plot against MS-13.",
+      "time_period": "1960s-present"
     },
     {
       "standard_name": "Sons of Samoa",
       "original_text_name": "Sons of Samoa",
       "aliases": [],
       "type": "gang",
-      "context": "Samoan American street gang, allied with Tongan Crip Gang.",
+      "context": "Allied with Tongan Crip Gang.",
       "time_period": null
     },
     {
@@ -52,7 +49,7 @@
       "original_text_name": "Tongan Foe Lyfe Ganster Crip",
       "aliases": [],
       "type": "gang",
-      "context": "Tongan American Crip set, allied with Tongan Crip Gang.",
+      "context": "Allied with Tongan Crip Gang.",
       "time_period": null
     },
     {
@@ -60,7 +57,7 @@
       "original_text_name": "Raymond Avenue Crips",
       "aliases": [],
       "type": "gang",
-      "context": "Crip set based in Los Angeles, allied with Tongan Crip Gang.",
+      "context": "Allied with Tongan Crip Gang.",
       "time_period": null
     },
     {
@@ -68,7 +65,7 @@
       "original_text_name": "Kearns Town Bloods",
       "aliases": [],
       "type": "gang",
-      "context": "Bloods set based in Kearns, Utah, rival of Tongan Crip Gang.",
+      "context": "Rival of Tongan Crip Gang.",
       "time_period": null
     },
     {
@@ -76,7 +73,7 @@
       "original_text_name": "Baby Regulators",
       "aliases": [],
       "type": "gang",
-      "context": "Gang, rival of Tongan Crip Gang.",
+      "context": "Rival of Tongan Crip Gang.",
       "time_period": null
     },
     {
@@ -84,7 +81,7 @@
       "original_text_name": "Lennox 13",
       "aliases": [],
       "type": "gang",
-      "context": "Sureño gang based in Lennox, California, rival of Tongan Crip Gang.",
+      "context": "Rival of Tongan Crip Gang.",
       "time_period": null
     },
     {
@@ -92,7 +89,7 @@
       "original_text_name": "Park Village Compton Crips",
       "aliases": [],
       "type": "gang",
-      "context": "Crip set based in Compton, California, rival of Tongan Crip Gang.",
+      "context": "Rival of Tongan Crip Gang.",
       "time_period": null
     },
     {
@@ -100,7 +97,7 @@
       "original_text_name": "Carver Park Crips",
       "aliases": [],
       "type": "gang",
-      "context": "Crip set based in Los Angeles, rival of Tongan Crip Gang.",
+      "context": "Rival of Tongan Crip Gang.",
       "time_period": null
     }
   ],
@@ -110,31 +107,23 @@
       "target": "Crips",
       "relationship": "alliance",
       "detail": null,
-      "context": "Tongan Crip Gang is a subgroup or set of the Crips gang alliance.",
+      "context": "TCG is a subset or set of the larger Crips gang alliance.",
       "time_period": "1970s-present"
+    },
+    {
+      "source": "Tongan Crip Gang",
+      "target": "MS-13",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "TCG commits crimes against MS-13 members and plotted to murder 33 MS-13 members.",
+      "time_period": null
     },
     {
       "source": "Tongan Crip Gang",
       "target": "18th Street Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Members of both gangs were indicted for conspiracy to murder MS-13 members in 2007.",
-      "time_period": "2007"
-    },
-    {
-      "source": "Tongan Crip Gang",
-      "target": "MS-13",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Tongan Crip Gang commits crimes against MS-13 and plotted to murder 33 MS-13 members.",
-      "time_period": "2007"
-    },
-    {
-      "source": "18th Street Gang",
-      "target": "MS-13",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "18th Street Gang and Tongan Crip Gang conspired to murder MS-13 members.",
+      "context": "TCG and 18th Street Gang were indicted for conspiracy to murder MS-13 members.",
       "time_period": "2007"
     },
     {
@@ -142,7 +131,7 @@
       "target": "Sons of Samoa",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as allies in the infobox.",
+      "context": "Listed as an ally in the infobox.",
       "time_period": null
     },
     {
@@ -150,7 +139,7 @@
       "target": "Tongan Foe Lyfe Ganster Crip",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as allies in the infobox.",
+      "context": "Listed as an ally in the infobox.",
       "time_period": null
     },
     {
@@ -158,7 +147,7 @@
       "target": "Raymond Avenue Crips",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as allies in the infobox.",
+      "context": "Listed as an ally in the infobox.",
       "time_period": null
     },
     {
@@ -166,7 +155,7 @@
       "target": "Kearns Town Bloods",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rivals in the infobox.",
+      "context": "Listed as a rival in the infobox.",
       "time_period": null
     },
     {
@@ -174,7 +163,7 @@
       "target": "Baby Regulators",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rivals in the infobox.",
+      "context": "Listed as a rival in the infobox.",
       "time_period": null
     },
     {
@@ -182,7 +171,7 @@
       "target": "Lennox 13",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rivals in the infobox.",
+      "context": "Listed as a rival in the infobox.",
       "time_period": null
     },
     {
@@ -190,7 +179,7 @@
       "target": "Park Village Compton Crips",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rivals in the infobox.",
+      "context": "Listed as a rival in the infobox.",
       "time_period": null
     },
     {
@@ -198,7 +187,7 @@
       "target": "Carver Park Crips",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rivals in the infobox.",
+      "context": "Listed as a rival in the infobox.",
       "time_period": null
     }
   ],

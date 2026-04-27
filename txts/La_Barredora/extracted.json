@@ -17,7 +17,7 @@
         "Beltrán Leyva cartel"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel that operated in Acapulco and fragmented after leader Arturo Beltrán Leyva was killed.",
+      "context": "Mexican drug cartel that operated in Acapulco and split after leader Arturo Beltrán Leyva was killed.",
       "time_period": "2000s-2010s"
     },
     {
@@ -33,7 +33,7 @@
       "original_text_name": "Sinaloa Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel with links to La Barredora.",
+      "context": "Major Mexican drug cartel with links to La Barredora.",
       "time_period": "1980s-present"
     },
     {
@@ -42,7 +42,7 @@
       "aliases": [],
       "type": "faction",
       "context": "Faction of Los Zetas in Central Mexico, allied with La Barredora.",
-      "time_period": "unknown"
+      "time_period": null
     }
   ],
   "edges": [
@@ -59,7 +59,7 @@
       "target": "Beltrán-Leyva Cartel",
       "relationship": "other",
       "detail": "split-off",
-      "context": "The Independent Cartel of Acapulco broke off from the Beltrán-Leyva Cartel.",
+      "context": "Independent Cartel of Acapulco broke off from the Beltrán-Leyva Cartel after internal conflict.",
       "time_period": "2010"
     },
     {
@@ -76,7 +76,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "La Barredora has links with the Sinaloa Cartel.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "source": "La Barredora",
@@ -84,7 +84,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "La Barredora is allied with Los Talibanes, a faction of Los Zetas.",
-      "time_period": "unknown"
+      "time_period": null
     }
   ],
   "source_file": "La_Barredora"

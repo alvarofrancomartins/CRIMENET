@@ -29,14 +29,14 @@
       ],
       "type": "mafia",
       "context": "A Mafia district in Sicily that oversees several families, including the Castellammare del Golfo family.",
-      "time_period": null
+      "time_period": "unknown"
     },
     {
       "standard_name": "Bonanno crime family",
       "original_text_name": "Bonannos",
       "aliases": [
         "Bonanno family",
-        "Bonanno crime family"
+        "Bonannos"
       ],
       "type": "mafia",
       "context": "A New York-based Mafia family with connections to the Sicilian Mafia.",
@@ -46,18 +46,18 @@
   "edges": [
     {
       "source": "Castellammare del Golfo Mafia family",
-      "target": "Sicilian Mafia",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Castellammare del Golfo Mafia family is a constituent family of the Sicilian Mafia.",
+      "target": "Mandamento of Alcamo",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Castellammare family belongs to the mandamento of Alcamo.",
       "time_period": null
     },
     {
       "source": "Castellammare del Golfo Mafia family",
-      "target": "Mandamento of Alcamo",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Castellammare del Golfo Mafia family belongs to the mandamento of Alcamo.",
+      "target": "Sicilian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Castellammare family is a part of the Sicilian Mafia.",
       "time_period": null
     },
     {

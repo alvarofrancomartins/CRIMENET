@@ -48,7 +48,7 @@
       "original_text_name": "Wagner Group",
       "aliases": [],
       "type": "militia",
-      "context": "Russian paramilitary group; an Evil Corp member participated in a hackathon organized by them.",
+      "context": "Russian paramilitary group; an Evil Corp member placed third in a hackathon organized by them.",
       "time_period": null
     }
   ],
@@ -81,7 +81,7 @@
       "source": "Evil Corp",
       "target": "UNC2165",
       "relationship": "other",
-      "detail": "linked by Mandiant",
+      "detail": "linked to",
       "context": "Mandiant linked Evil Corp to threat actor UNC2165 in 2022.",
       "time_period": "2022"
     },
@@ -89,7 +89,7 @@
       "source": "Evil Corp",
       "target": "Wagner Group",
       "relationship": "other",
-      "detail": "participated in hackathon",
+      "detail": "participated in event",
       "context": "Evil Corp member Igor Turashev placed third in a hackathon organized by Wagner Group in 2022.",
       "time_period": "2022"
     }

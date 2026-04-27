@@ -24,7 +24,7 @@
       "original_text_name": "La Barredora",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang formed from a split of the Independent Cartel of Acapulco; affiliated with Sinaloa Cartel.",
+      "context": "Rival gang formed from a splinter of the Independent Cartel of Acapulco; affiliated with Sinaloa Cartel.",
       "time_period": "2010-present"
     },
     {
@@ -33,7 +33,7 @@
       "aliases": [],
       "type": "cartel",
       "context": "Major Mexican drug cartel; La Barredora is affiliated with it.",
-      "time_period": "1980s-present"
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Milenio Cartel",
@@ -41,7 +41,7 @@
       "aliases": [],
       "type": "cartel",
       "context": "Mexican drug cartel listed as an ally of the Independent Cartel of Acapulco.",
-      "time_period": "1990s-2010s"
+      "time_period": "2000s-2010s"
     }
   ],
   "edges": [
@@ -49,7 +49,7 @@
       "source": "Independent Cartel of Acapulco",
       "target": "Beltrán-Leyva Cartel",
       "relationship": "other",
-      "detail": "split-off",
+      "detail": "split from",
       "context": "The Independent Cartel of Acapulco formed as a split-off group of the Beltrán-Leyva Cartel.",
       "time_period": "2010"
     },
@@ -57,8 +57,8 @@
       "source": "Independent Cartel of Acapulco",
       "target": "La Barredora",
       "relationship": "rivalry",
-      "context": "La Barredora formed as a rival splinter group of the Independent Cartel of Acapulco.",
-      "time_period": "2010-present"
+      "context": "La Barredora formed as a splinter group and became a rival for control of Acapulco.",
+      "time_period": "2010-2014"
     },
     {
       "source": "La Barredora",
@@ -69,16 +69,16 @@
     },
     {
       "source": "Independent Cartel of Acapulco",
-      "target": "Sinaloa Cartel",
-      "relationship": "rivalry",
-      "context": "The Independent Cartel of Acapulco and Sinaloa Cartel are rivals.",
+      "target": "Milenio Cartel",
+      "relationship": "alliance",
+      "context": "The Milenio Cartel is listed as an ally of the Independent Cartel of Acapulco.",
       "time_period": "2010-2014"
     },
     {
       "source": "Independent Cartel of Acapulco",
-      "target": "Milenio Cartel",
-      "relationship": "alliance",
-      "context": "The Milenio Cartel is listed as an ally of the Independent Cartel of Acapulco.",
+      "target": "Sinaloa Cartel",
+      "relationship": "rivalry",
+      "context": "The Sinaloa Cartel is listed as a rival of the Independent Cartel of Acapulco.",
       "time_period": "2010-2014"
     }
   ],

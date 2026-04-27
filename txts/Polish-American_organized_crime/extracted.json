@@ -53,6 +53,14 @@
       "type": "gang",
       "context": "Polish criminal organization based in Greenpoint, Brooklyn, involved in gunrunning, armed robbery, and drug trafficking.",
       "time_period": "2000s"
+    },
+    {
+      "standard_name": "Korney Gang",
+      "original_text_name": "Korney Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Polish-American gang led by John 'Korney' Kwiatkowski in Buffalo, New York, involved in murders and robberies.",
+      "time_period": "Prohibition era"
     }
   ],
   "edges": [
@@ -65,11 +73,11 @@
       "time_period": "1920s-1930s"
     },
     {
-      "source": "Polish Mob",
-      "target": "North Side Gang",
-      "relationship": "other",
-      "detail": "overlap",
-      "context": "The North Side Gang had a large Polish presence, including Hymie Weiss of Polish heritage.",
+      "source": "North Side Gang",
+      "target": "Chicago Outfit",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The North Side Gang fought against Al Capone's Chicago Outfit during Prohibition.",
       "time_period": "1920s-1930s"
     },
     {

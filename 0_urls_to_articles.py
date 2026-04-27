@@ -8,6 +8,9 @@ articles.csv with title, folder_name, and versioned URL.
 Every row written to articles.csv is guaranteed to have an oldid. Titles
 that fail after retries are listed at the end of the run, never saved.
 
+Duplicate URLs in page_hyperlinks.csv are deduplicated by title — a title
+that resolves the same way twice will only be written once.
+
 Usage:
     python 0_urls_to_articles.py --input page_hyperlinks.csv --output articles.csv
 """
@@ -64,10 +67,7 @@ def is_rate_limit_error(exc: Exception) -> bool:
 
 
 def _fetch_oldid_once(lang: str, title: str) -> tuple:
-    """Single fetch attempt. Returns (oldid_or_None, reason).
-
-    reason is a short string explaining what happened, useful for diagnostics.
-    """
+    """Single fetch attempt. Returns (oldid_or_None, reason)."""
     api_url = f"https://{lang}.wikipedia.org/w/api.php"
     params = {
         "action": "query",
@@ -123,17 +123,12 @@ def _fetch_oldid_once(lang: str, title: str) -> tuple:
 
 
 def fetch_oldid(lang: str, title: str) -> Optional[int]:
-    """Fetch the current oldid for a title. Retries on transient empty responses.
-
-    Returns the oldid on success, None after all retries are exhausted.
-    Logs the reason for each failure.
-    """
+    """Fetch the current oldid for a title. Retries on transient empty responses."""
     for attempt in range(1, NO_OLDID_RETRIES + 1):
         oldid, reason = _fetch_oldid_once(lang, title)
         if oldid is not None:
             return oldid
 
-        # Don't retry if the page is genuinely missing or the API rejected the request
         if reason in ("page not found",) or reason.startswith("API error:"):
             log.warning(f"  ✗ {reason} (no retry)")
             return None
@@ -159,10 +154,7 @@ def slugify(title: str) -> str:
     - Collapses runs of underscores and trims leading/trailing underscores.
     """
     s = title.replace(" ", "_")
-    # Replace characters that are invalid in paths on Linux/macOS/Windows.
-    # Covers: / \ : * ? " < > | and ASCII control characters.
     s = re.sub(r'[\\/:*?"<>|\x00-\x1f]', "_", s)
-    # Collapse runs of underscores so "a__b" doesn't appear from double-replacement
     s = re.sub(r"_+", "_", s).strip("_")
     return s
 
@@ -200,6 +192,31 @@ def main():
 
     log.info(f"Loaded {len(urls)} URLs from {args.input}")
 
+    # Pre-deduplicate URLs within the input file. Two different URLs can
+    # resolve to the same Wikipedia page (e.g. http vs https, /wiki/ vs
+    # /w/index.php?title=), so we also deduplicate by parsed (lang, title)
+    # to catch those.
+    seen_urls = set()
+    seen_lang_title = set()
+    deduped_urls = []
+    for url in urls:
+        if url in seen_urls:
+            continue
+        lang, title = parse_url(url)
+        key = (lang, title.strip().lower()) if title else None
+        if key and key in seen_lang_title:
+            log.info(f"Skipping duplicate (same lang+title as earlier URL): {url}")
+            continue
+        seen_urls.add(url)
+        if key:
+            seen_lang_title.add(key)
+        deduped_urls.append(url)
+
+    if len(deduped_urls) < len(urls):
+        log.info(f"After URL dedup: {len(deduped_urls)} unique URLs "
+                 f"({len(urls) - len(deduped_urls)} duplicates removed)")
+    urls = deduped_urls
+
     # Resume: keep rows from previous runs ONLY if they have a valid oldid URL.
     # Bare /wiki/ rows from older script versions get re-fetched.
     out_path = Path(args.output)
@@ -210,13 +227,24 @@ def main():
         with open(out_path, "r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
             for row in reader:
-                if "oldid=" in row.get("url", ""):
-                    out_rows.append(row)
-                    done_titles.add(row["title"])
-                else:
+                title_lower = row["title"].strip().lower()
+                # Drop bare-URL rows (will be re-fetched).
+                if "oldid=" not in row.get("url", ""):
                     dropped += 1
-        log.info(f"Resuming: {len(done_titles)} valid rows kept, "
-                 f"{dropped} bare-URL rows will be re-fetched")
+                    continue
+                # Drop rows whose title we've already seen — collapses any
+                # duplicates that snuck in from an earlier buggy run.
+                if title_lower in done_titles:
+                    dropped += 1
+                    continue
+                out_rows.append(row)
+                done_titles.add(title_lower)
+        log.info(f"Resuming: {len(done_titles)} valid unique rows kept, "
+                 f"{dropped} bare-URL or duplicate rows will be re-fetched")
+        # Re-write the deduplicated CSV immediately so the on-disk state
+        # matches what the script considers "done".
+        if dropped:
+            write_csv(out_path, out_rows)
 
     failed = []   # titles that didn't resolve to an oldid this run
 
@@ -227,8 +255,9 @@ def main():
             failed.append(("?", url, "could not parse URL"))
             continue
 
-        if title in done_titles:
-            log.info(f"[{idx}/{len(urls)}] {title} — exists, skip")
+        title_lower = title.strip().lower()
+        if title_lower in done_titles:
+            log.info(f"[{idx}/{len(urls)}] {title} — already in articles.csv, skip")
             continue
 
         log.info(f"[{idx}/{len(urls)}] {lang}:{title}")
@@ -239,10 +268,8 @@ def main():
             time.sleep(DELAY)
             continue
 
-        # Properly encode the title for URL query strings.
-        # quote() escapes anything that's not URL-safe (apostrophes, slashes,
-        # accented characters, etc.). We pre-replace spaces with underscores
-        # to match Wikipedia's title convention.
+        # Properly encode the title for URL query strings (handles apostrophes,
+        # slashes, accented characters, etc.).
         encoded_title = quote(title.replace(" ", "_"), safe="")
         versioned = (
             f"https://{lang}.wikipedia.org/w/index.php"
@@ -254,6 +281,10 @@ def main():
             "folder_name": slugify(title),
             "url": versioned,
         })
+        # IMPORTANT: track the title as done immediately so duplicates in the
+        # same run don't get fetched twice.
+        done_titles.add(title_lower)
+
         write_csv(out_path, out_rows)
         time.sleep(DELAY)
 

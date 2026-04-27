@@ -73,11 +73,11 @@
       "time_period": "1990s"
     },
     {
-      "standard_name": "Carrozza faction",
+      "standard_name": "Renegade faction",
       "original_text_name": "renegade faction",
       "aliases": [],
       "type": "faction",
-      "context": "Renegade faction led by Robert Carrozza that challenged Salemme loyalists in the 1990s.",
+      "context": "Faction led by Robert Carrozza that challenged Salemme loyalists for control of the family in the 1990s.",
       "time_period": "1990s"
     },
     {
@@ -155,7 +155,7 @@
       "time_period": null
     },
     {
-      "standard_name": "Hells Angels MC",
+      "standard_name": "Hells Angels",
       "original_text_name": "Hells Angels MC",
       "aliases": [],
       "type": "motorcycle_club",
@@ -193,7 +193,7 @@
       "target": "Genovese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Patriarca formed strong relationships with the Genovese family, dividing territory at the Connecticut River.",
+      "context": "Patriarca formed strong relationships with the Genovese family; Connecticut River divided their territories.",
       "time_period": "1950s-1984"
     },
     {
@@ -217,15 +217,15 @@
       "target": "Gustin Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "In 1931, Joseph Lombardo arranged the murder of Gustin Gang boss Frank Wallace.",
+      "context": "Buccola battled the Gustin Gang for territory; Lombardo arranged the murder of boss Frank Wallace in 1931.",
       "time_period": "1931"
     },
     {
       "source": "Salemme faction",
-      "target": "Carrozza faction",
+      "target": "Renegade faction",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Internal warfare in the 1990s as the Carrozza faction challenged Salemme loyalists for control.",
+      "context": "Internal warfare in the 1990s as the renegade faction challenged Salemme loyalists for control.",
       "time_period": "1990s"
     },
     {
@@ -257,22 +257,14 @@
       "target": "Chicago Outfit",
       "relationship": "alliance",
       "detail": null,
-      "context": "DiNunzio brothers worked as bookmakers and debt collectors for the Chicago Outfit.",
+      "context": "DiNunzio brothers worked as bookmakers and debt collectors for the Chicago Outfit while in Las Vegas.",
       "time_period": "1983-1992"
-    },
-    {
-      "source": "Patriarca crime family",
-      "target": "Gustin Gang",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Patriarca soldier Joseph Lombardo was charged with murdering Gustin Gang leaders in 1931.",
-      "time_period": "1931"
     },
     {
       "source": "Patriarca crime family",
       "target": "Colombo crime family",
       "relationship": "other",
-      "detail": "affiliation",
+      "detail": "former affiliation",
       "context": "Gaetano Milano was an associate of the Connecticut faction of the Colombo family before joining Patriarca.",
       "time_period": null
     },
@@ -280,22 +272,21 @@
       "source": "Patriarca crime family",
       "target": "Genovese crime family",
       "relationship": "other",
-      "detail": "liaison",
-      "context": "Milano served as liaison to the Springfield faction of the Genovese family and later joined them to murder Grasso.",
+      "detail": "liaison and defection",
+      "context": "Milano served as liaison to Genovese Springfield crew and later joined them to murder Patriarca captain William Grasso.",
       "time_period": null
     },
     {
       "source": "Patriarca crime family",
       "target": "Winter Hill Gang",
       "relationship": "rivalry",
-      "context": "Winter Hill Gang was involved in a bloody feud with the Boston branch of the Patriarca family.",
+      "context": "Feud between Patriarca family and Winter Hill Gang; Frank Salemme was a Winter Hill member before becoming Patriarca boss.",
       "time_period": null
     },
     {
       "source": "Patriarca crime family",
       "target": "Angiulo Brothers",
-      "relationship": "other",
-      "detail": "sub-group",
+      "relationship": "alliance",
       "context": "Angiulo Brothers were a faction within the Patriarca family controlling Boston operations.",
       "time_period": null
     },
@@ -303,7 +294,7 @@
       "source": "Patriarca crime family",
       "target": "Gambino crime family",
       "relationship": "other",
-      "detail": "association",
+      "detail": "association via member",
       "context": "Associate Salvatore Cesario had links to Gambino capo Joseph Paterno.",
       "time_period": null
     },
@@ -337,7 +328,7 @@
     },
     {
       "source": "Patriarca crime family",
-      "target": "Hells Angels MC",
+      "target": "Hells Angels",
       "relationship": "alliance",
       "context": "Listed as ally in infobox.",
       "time_period": null
@@ -345,6 +336,13 @@
     {
       "source": "Patriarca crime family",
       "target": "Charlestown Gang",
+      "relationship": "rivalry",
+      "context": "Listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Patriarca crime family",
+      "target": "Gustin Gang",
       "relationship": "rivalry",
       "context": "Listed as rival in infobox.",
       "time_period": null

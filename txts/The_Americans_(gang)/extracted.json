@@ -153,7 +153,7 @@
       "original_text_name": "The Fancy Boys",
       "aliases": [],
       "type": "gang",
-      "context": "Gang affiliated with The British, rival of The Americans. Founder Lonte was formerly a member.",
+      "context": "Gang affiliated with The British, rival of The Americans.",
       "time_period": null
     },
     {
@@ -193,7 +193,7 @@
       "original_text_name": "PAGAD",
       "aliases": [],
       "type": "militia",
-      "context": "Allegedly assassinated founder Lonte in 1998.",
+      "context": "Vigilante group allegedly involved in assassination of The Americans founder Jackie Lonte.",
       "time_period": null
     },
     {
@@ -265,56 +265,56 @@
     {
       "source": "The Americans",
       "target": "Ugly Americans",
-      "relationship": "alliance",
-      "detail": null,
+      "relationship": "other",
+      "detail": "sub-group",
       "context": "Ugly Americans is a smaller unit within The Americans gang.",
       "time_period": null
     },
     {
       "source": "The Americans",
       "target": "Young Americans",
-      "relationship": "alliance",
-      "detail": null,
+      "relationship": "other",
+      "detail": "sub-group",
       "context": "Young Americans is a smaller unit within The Americans gang.",
       "time_period": null
     },
     {
       "source": "The Americans",
       "target": "Spoilt Brats",
-      "relationship": "alliance",
-      "detail": null,
+      "relationship": "other",
+      "detail": "sub-group",
       "context": "Spoilt Brats is a smaller unit within The Americans gang.",
       "time_period": null
     },
     {
       "source": "The Americans",
       "target": "Dollar Boys",
-      "relationship": "alliance",
-      "detail": null,
+      "relationship": "other",
+      "detail": "sub-group",
       "context": "Dollar Boys is a smaller unit within The Americans gang.",
       "time_period": null
     },
     {
       "source": "The Americans",
       "target": "Dollar Kids",
-      "relationship": "alliance",
-      "detail": null,
+      "relationship": "other",
+      "detail": "sub-group",
       "context": "Dollar Kids is a smaller unit within The Americans gang.",
       "time_period": null
     },
     {
       "source": "The Americans",
       "target": "Young Dixie Boys",
-      "relationship": "alliance",
-      "detail": null,
+      "relationship": "other",
+      "detail": "sub-group",
       "context": "Young Dixie Boys is a smaller unit within The Americans gang.",
       "time_period": null
     },
     {
       "source": "The Americans",
       "target": "Sexy Boys",
-      "relationship": "alliance",
-      "detail": null,
+      "relationship": "other",
+      "detail": "sub-group",
       "context": "Sexy Boys is a smaller unit within The Americans gang.",
       "time_period": null
     },
@@ -416,22 +416,6 @@
     },
     {
       "source": "The Americans",
-      "target": "The Fancy Boys",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "The Fancy Boys is a rival gang affiliated with The British.",
-      "time_period": null
-    },
-    {
-      "source": "The Americans",
-      "target": "PAGAD",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "PAGAD allegedly assassinated The Americans' founder Lonte in 1998.",
-      "time_period": "1998"
-    },
-    {
-      "source": "The Americans",
       "target": "The YN's",
       "relationship": "alliance",
       "detail": null,
@@ -461,6 +445,14 @@
       "detail": null,
       "context": "Triads are listed as allies of The Americans in the infobox.",
       "time_period": null
+    },
+    {
+      "source": "PAGAD",
+      "target": "The Americans",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "PAGAD allegedly assassinated The Americans founder Jackie Lonte.",
+      "time_period": "1998"
     }
   ],
   "source_file": "The_Americans_(gang)"

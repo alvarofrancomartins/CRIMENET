@@ -213,9 +213,9 @@
     },
     {
       "standard_name": "ATİB",
-      "original_text_name": "ATİB – Union of Turkish-Islamic Cultural Associations in Europe e.V.",
+      "original_text_name": "ATİB",
       "aliases": [
-        "ATİB",
+        "Union of Turkish-Islamic Cultural Associations in Europe",
         "Avrupa Türk-İslam Birliği"
       ],
       "type": "other",
@@ -250,7 +250,7 @@
         "Turks Islamitische Federatie"
       ],
       "type": "other",
-      "context": "Turkish diaspora organization in Netherlands, linked to Grey Wolves.",
+      "context": "Turkish Islamic organization in Netherlands, linked to Grey Wolves.",
       "time_period": "unknown"
     },
     {
@@ -282,9 +282,9 @@
     {
       "source": "Grey Wolves",
       "target": "Nationalist Movement Party",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Grey Wolves is the youth wing and paramilitary wing of the MHP.",
+      "relationship": "other",
+      "detail": "youth wing",
+      "context": "Grey Wolves is the youth wing and paramilitary wing of the Nationalist Movement Party.",
       "time_period": "late 1960s-present"
     },
     {
@@ -292,7 +292,7 @@
       "target": "Counter-Guerrilla",
       "relationship": "alliance",
       "detail": null,
-      "context": "Grey Wolves had close dealings with Counter-Guerrilla, which supplied weapons.",
+      "context": "Grey Wolves had close dealings with Counter-Guerrilla, which supplied weapons to them.",
       "time_period": "1970s-1990s"
     },
     {
@@ -300,7 +300,7 @@
       "target": "Turkish Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Grey Wolves suspected of close dealings with Turkish mafia.",
+      "context": "Grey Wolves suspected of having close dealings with the Turkish mafia.",
       "time_period": null
     },
     {
@@ -308,8 +308,16 @@
       "target": "Armenian Secret Army for the Liberation of Armenia",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Grey Wolves members were used by Turkish intelligence to target ASALA members.",
+      "context": "Grey Wolves members were armed by Turkish intelligence to target ASALA members.",
       "time_period": "1980s"
+    },
+    {
+      "source": "Grey Wolves",
+      "target": "Nationalist Movement Party",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Grey Wolves is the youth wing of the Nationalist Movement Party (MHP).",
+      "time_period": "late 1960s-present"
     },
     {
       "source": "Grey Wolves",
@@ -409,11 +417,11 @@
     },
     {
       "source": "Grey Wolves",
-      "target": "Nationalist Movement Party",
+      "target": "Counter-Guerrilla",
       "relationship": "other",
-      "detail": "youth wing",
-      "context": "Grey Wolves is the youth wing of the Nationalist Movement Party (MHP).",
-      "time_period": "late 1960s-present"
+      "detail": "suspected dealings",
+      "context": "Grey Wolves suspected of close dealings with Counter-Guerrilla, the Turkish branch of NATO Operation Gladio.",
+      "time_period": "past"
     },
     {
       "source": "Grey Wolves",
@@ -436,7 +444,7 @@
       "target": "FETÖ",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Grey Wolves and Turkish government accuse FETÖ of being a terrorist group; Grey Wolves are opposed to FETÖ.",
+      "context": "Turkey accuses FETÖ of being a terrorist group, and Grey Wolves are opposed to it.",
       "time_period": "unknown"
     },
     {

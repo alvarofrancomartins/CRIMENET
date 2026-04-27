@@ -7,7 +7,7 @@
         "Cuban mafia"
       ],
       "type": "mafia",
-      "context": "Cuban-American organized crime group involved in gambling, drug trafficking, murder, and racketeering.",
+      "context": "Cuban-American organized crime group involved in gambling, drug trafficking, and murder.",
       "time_period": "1960s-2000s"
     },
     {
@@ -17,8 +17,8 @@
         "Italian mafia families"
       ],
       "type": "mafia",
-      "context": "Italian-American organized crime families in New York City area.",
-      "time_period": "20th century"
+      "context": "Italian organized crime groups in New York City area.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -27,8 +27,8 @@
       "target": "Italian Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Corporation had good working relationships with the Italian Mafia in New York City.",
-      "time_period": "1970s-1980s"
+      "context": "The Corporation had good working relationships with the Italian Mafia in New York.",
+      "time_period": null
     },
     {
       "source": "The Corporation",
@@ -36,7 +36,7 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "The Corporation had violent turf wars with various Italian mafia families.",
-      "time_period": "1970s-1980s"
+      "time_period": null
     }
   ],
   "source_file": "José_Miguel_Battle_Sr."

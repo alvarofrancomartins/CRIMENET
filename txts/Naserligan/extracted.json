@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Naserligan",
+      "original_text_name": "Naserligan",
+      "aliases": [
+        "Naser Gang"
+      ],
+      "type": "gang",
+      "context": "Criminal organization active in Gothenburg, Sweden, involved in drug trafficking, gambling, and protection racketing.",
+      "time_period": "2000-present"
+    },
+    {
+      "standard_name": "Original Gangsters",
+      "original_text_name": "Original Gangsters",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang in Gothenburg involved in conflict with Naserligan over illegal gambling market.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Naserligan",
+      "target": "Original Gangsters",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Violent conflict in 2001 over control of illegal gambling market in Gothenburg, escalating to gunfights.",
+      "time_period": "2001"
+    }
+  ],
+  "source_file": "Naserligan"
+}

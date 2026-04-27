@@ -113,7 +113,7 @@
       "original_text_name": "Rebels",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Australian outlaw motorcycle club, first conflict with Hells Angels over colors.",
+      "context": "Australian outlaw motorcycle club, had conflict with Hells Angels over colors.",
       "time_period": null
     },
     {
@@ -129,7 +129,7 @@
       "original_text_name": "Blonks",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Darwin-based bikie gang patched over by Hells Angels in 1993.",
+      "context": "Darwin-based bikie gang that was patched over by Hells Angels in 1993.",
       "time_period": "before 1993"
     },
     {
@@ -139,6 +139,34 @@
       "type": "motorcycle_club",
       "context": "International outlaw motorcycle club; Finks patched over to Mongols.",
       "time_period": null
+    },
+    {
+      "standard_name": "Hells Angels Nomads",
+      "original_text_name": "Hells Angels Nomads",
+      "aliases": [],
+      "type": "faction",
+      "context": "Nomad chapter of Hells Angels in Australia, involved in conflicts.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hells Angels Darkside",
+      "original_text_name": "Hells Angels' Darkside chapter",
+      "aliases": [
+        "Darkside chapter"
+      ],
+      "type": "faction",
+      "context": "Chapter of Hells Angels in Seaford, Melbourne, involved in drug trafficking and shootings.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hells Angels East County",
+      "original_text_name": "Hells Angels' East County chapter",
+      "aliases": [
+        "East County chapter"
+      ],
+      "type": "faction",
+      "context": "Chapter of Hells Angels in Campbellfield, Melbourne.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -147,7 +175,7 @@
       "target": "Coffin Cheaters",
       "relationship": "alliance",
       "detail": null,
-      "context": "Hells Angels aligned with Coffin Cheaters in Australia.",
+      "context": "Hells Angels aligned with Coffin Cheaters.",
       "time_period": null
     },
     {
@@ -155,7 +183,7 @@
       "target": "Immortals",
       "relationship": "alliance",
       "detail": null,
-      "context": "Hells Angels aligned with Immortals in Australia.",
+      "context": "Hells Angels aligned with Immortals.",
       "time_period": null
     },
     {
@@ -163,7 +191,7 @@
       "target": "Red Devils",
       "relationship": "alliance",
       "detail": null,
-      "context": "Red Devils are a support club aligned with Hells Angels.",
+      "context": "Hells Angels aligned with Red Devils.",
       "time_period": null
     },
     {
@@ -171,7 +199,7 @@
       "target": "Satans Soldiers",
       "relationship": "alliance",
       "detail": null,
-      "context": "Hells Angels aligned with Satans Soldiers in Australia.",
+      "context": "Hells Angels aligned with Satans Soldiers.",
       "time_period": null
     },
     {
@@ -179,7 +207,7 @@
       "target": "Vikings",
       "relationship": "alliance",
       "detail": null,
-      "context": "Hells Angels aligned with Vikings in Australia.",
+      "context": "Hells Angels aligned with Vikings.",
       "time_period": null
     },
     {
@@ -243,7 +271,7 @@
       "target": "Rebels",
       "relationship": "rivalry",
       "detail": null,
-      "context": "First conflict with Rebels over colors; Rebels beat Hells Angels president.",
+      "context": "Conflict over colors; Rebels beat Hells Angels chapter president.",
       "time_period": null
     },
     {
@@ -251,7 +279,7 @@
       "target": "Blonks",
       "relationship": "other",
       "detail": "patched over",
-      "context": "Hells Angels established NT chapter by patching over Blonks in 1993.",
+      "context": "Hells Angels established NT chapter by patching over Blonks.",
       "time_period": "1993"
     },
     {
@@ -267,8 +295,32 @@
       "target": "Diablos",
       "relationship": "alliance",
       "detail": null,
-      "context": "Bandidos members were ambushed outside Diablos clubhouse.",
+      "context": "Bandidos members ambushed outside Diablos' clubhouse.",
       "time_period": "2013"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Hells Angels Nomads",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Nomads is a chapter of Hells Angels.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Hells Angels Darkside",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Darkside is a chapter of Hells Angels.",
+      "time_period": null
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Hells Angels East County",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "East County is a chapter of Hells Angels.",
+      "time_period": null
     }
   ],
   "source_file": "Hells_Angels_MC_criminal_allegations_and_incidents_in_Australia"

@@ -136,20 +136,20 @@
       "time_period": "2014-present"
     },
     {
-      "standard_name": "Al-Islah",
-      "original_text_name": "Al-Islah",
-      "aliases": [],
-      "type": "other",
-      "context": "Yemeni Sunni Islamist party, opponent of Houthis.",
-      "time_period": "1990-present"
-    },
-    {
       "standard_name": "Southern Transitional Council",
       "original_text_name": "Southern Transitional Council",
       "aliases": [],
       "type": "other",
       "context": "Secessionist group in southern Yemen, opponent of Houthis until 2026.",
       "time_period": "2017-present"
+    },
+    {
+      "standard_name": "Al-Islah",
+      "original_text_name": "Al-Islah",
+      "aliases": [],
+      "type": "other",
+      "context": "Yemeni Islamist political party, opponent of Houthis.",
+      "time_period": "1990-present"
     }
   ],
   "edges": [
@@ -230,7 +230,7 @@
       "target": "Houthis",
       "relationship": "other",
       "detail": "ceasefire and cooperation",
-      "context": "Since 2022, AQAP and Houthis have a ceasefire and cooperate in attacks and security.",
+      "context": "Since 2022, AQAP and Houthis have a ceasefire and cooperate in attacks and safe havens.",
       "time_period": "2022-present"
     },
     {
@@ -246,7 +246,7 @@
       "target": "Hamas",
       "relationship": "alliance",
       "detail": null,
-      "context": "Houthis and Hamas have been allies since 2021.",
+      "context": "Houthis have been allied with Hamas since 2021.",
       "time_period": "2021-present"
     },
     {
@@ -275,7 +275,7 @@
     },
     {
       "source": "Houthis",
-      "target": "Al-Shabaab",
+      "target": "al-Shabaab",
       "relationship": "alliance",
       "detail": null,
       "context": "Alleged alliance between Houthis and al-Shabaab.",
@@ -291,27 +291,19 @@
     },
     {
       "source": "Houthis",
-      "target": "Muslim Brotherhood",
+      "target": "Southern Transitional Council",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Houthis are opponents of the Muslim Brotherhood.",
-      "time_period": null
+      "context": "Houthis opposed the Southern Transitional Council until 2026.",
+      "time_period": "2017-2026"
     },
     {
       "source": "Houthis",
       "target": "Al-Islah",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Houthis oppose the Yemeni party Al-Islah.",
+      "context": "Houthis oppose the Al-Islah party.",
       "time_period": null
-    },
-    {
-      "source": "Houthis",
-      "target": "Southern Transitional Council",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Houthis opposed the Southern Transitional Council until 2026.",
-      "time_period": "2017-2026"
     }
   ],
   "source_file": "Houthis"

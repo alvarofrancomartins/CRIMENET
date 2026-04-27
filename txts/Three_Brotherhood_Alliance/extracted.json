@@ -8,7 +8,7 @@
         "3BA"
       ],
       "type": "other",
-      "context": "Coalition of three ethnic armed groups in Myanmar formed in June 2019.",
+      "context": "Alliance of three ethnic armed groups in Myanmar, formed in June 2019.",
       "time_period": "2019-present"
     },
     {
@@ -28,7 +28,7 @@
         "MNDAA"
       ],
       "type": "militia",
-      "context": "Kokang ethnic armed group in northern Myanmar.",
+      "context": "Ethnic armed group representing Kokang people in northern Myanmar.",
       "time_period": "1989-present"
     },
     {
@@ -38,8 +38,18 @@
         "TNLA"
       ],
       "type": "militia",
-      "context": "Ta'ang ethnic armed group in northern Shan State, Myanmar.",
+      "context": "Ethnic armed group operating in northern Shan State, Myanmar.",
       "time_period": "2009-present"
+    },
+    {
+      "standard_name": "Arakan Rohingya Salvation Army",
+      "original_text_name": "Arakan Rohingya Salvation Army",
+      "aliases": [
+        "ARSA"
+      ],
+      "type": "militia",
+      "context": "Rohingya militant group in Rakhine State, Myanmar.",
+      "time_period": "2013-present"
     },
     {
       "standard_name": "Kachin Independence Army",
@@ -48,7 +58,7 @@
         "KIA"
       ],
       "type": "militia",
-      "context": "Kachin ethnic armed group in Kachin State, Myanmar.",
+      "context": "Ethnic armed group in Kachin State, Myanmar.",
       "time_period": "1961-present"
     },
     {
@@ -58,7 +68,7 @@
         "UWSA"
       ],
       "type": "militia",
-      "context": "Wa ethnic armed group in Shan State, Myanmar.",
+      "context": "Ethnic armed group in Wa State, Myanmar.",
       "time_period": "1989-present"
     },
     {
@@ -76,7 +86,7 @@
       "original_text_name": "Northern Alliance",
       "aliases": [],
       "type": "other",
-      "context": "Coalition of four rebel groups including MNDAA, AA, TNLA, and KIA founded in 2016.",
+      "context": "Coalition of four rebel groups including MNDAA, AA, TNLA, and KIA, founded in 2016.",
       "time_period": "2016-present"
     },
     {
@@ -96,7 +106,7 @@
         "SSA-N"
       ],
       "type": "militia",
-      "context": "Shan ethnic armed group in northern Shan State, Myanmar.",
+      "context": "Shan ethnic armed group in northern Shan State.",
       "time_period": "1971-present"
     },
     {
@@ -106,18 +116,8 @@
         "FPNCC"
       ],
       "type": "other",
-      "context": "Coalition of ethnic armed organizations formed in April 2017.",
+      "context": "Political coalition of ethnic armed organizations in Myanmar.",
       "time_period": "2017-present"
-    },
-    {
-      "standard_name": "Arakan Rohingya Salvation Army",
-      "original_text_name": "Arakan Rohingya Salvation Army",
-      "aliases": [
-        "ARSA"
-      ],
-      "type": "militia",
-      "context": "Rohingya insurgent group in Rakhine State, Myanmar.",
-      "time_period": "2013-present"
     },
     {
       "standard_name": "Karenni Nationalities Defence Force",
@@ -156,7 +156,7 @@
         "NUG"
       ],
       "type": "other",
-      "context": "Civilian government in exile formed after the 2021 coup.",
+      "context": "Civilian government in exile formed after the 2021 Myanmar coup.",
       "time_period": "2021-present"
     },
     {
@@ -166,7 +166,7 @@
         "BPLA"
       ],
       "type": "militia",
-      "context": "Bamar armed group in Myanmar.",
+      "context": "Bamar ethnic armed group in Myanmar.",
       "time_period": "2021-present"
     },
     {
@@ -176,16 +176,8 @@
         "ALA"
       ],
       "type": "militia",
-      "context": "Rakhine armed group in Rakhine State, Myanmar.",
+      "context": "Rakhine ethnic armed group in Myanmar.",
       "time_period": "1968-present"
-    },
-    {
-      "standard_name": "Mandalay-PDF",
-      "original_text_name": "Mandalay-PDF",
-      "aliases": [],
-      "type": "militia",
-      "context": "People's Defence Force in Mandalay Region, Myanmar.",
-      "time_period": "2021-present"
     }
   ],
   "edges": [
@@ -194,7 +186,7 @@
       "target": "Arakan Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Three Brotherhood Alliance is an alliance of AA, MNDAA, and TNLA formed in June 2019.",
+      "context": "The Three Brotherhood Alliance is an alliance between AA, MNDAA, and TNLA.",
       "time_period": "2019-present"
     },
     {
@@ -202,7 +194,7 @@
       "target": "Myanmar National Democratic Alliance Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Three Brotherhood Alliance is an alliance of AA, MNDAA, and TNLA formed in June 2019.",
+      "context": "The Three Brotherhood Alliance is an alliance between AA, MNDAA, and TNLA.",
       "time_period": "2019-present"
     },
     {
@@ -210,7 +202,7 @@
       "target": "Ta'ang National Liberation Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Three Brotherhood Alliance is an alliance of AA, MNDAA, and TNLA formed in June 2019.",
+      "context": "The Three Brotherhood Alliance is an alliance between AA, MNDAA, and TNLA.",
       "time_period": "2019-present"
     },
     {
@@ -218,7 +210,7 @@
       "target": "Kachin Independence Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "AA fought alongside KIA against the Tatmadaw in the early 2010s.",
+      "context": "AA fought alongside KIA against Tatmadaw in early 2010s.",
       "time_period": "early 2010s"
     },
     {
@@ -242,7 +234,15 @@
       "target": "Restoration Council of Shan State",
       "relationship": "rivalry",
       "detail": null,
-      "context": "TNLA clashed regularly with RCSS over control of northern Shan state before the coup.",
+      "context": "TNLA clashed regularly with RCSS over control of northern Shan state.",
+      "time_period": "prior to 2021"
+    },
+    {
+      "source": "Myanmar National Democratic Alliance Army",
+      "target": "Ta'ang National Liberation Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MNDAA participated in sporadic clashes alongside TNLA against Tatmadaw.",
       "time_period": "prior to 2021"
     },
     {
@@ -250,7 +250,7 @@
       "target": "Myanmar National Democratic Alliance Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "Northern Alliance is a coalition of MNDAA, AA, TNLA, and KIA founded in 2016.",
+      "context": "Northern Alliance includes MNDAA, AA, TNLA, and KIA.",
       "time_period": "2016-present"
     },
     {
@@ -258,7 +258,7 @@
       "target": "Arakan Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "Northern Alliance is a coalition of MNDAA, AA, TNLA, and KIA founded in 2016.",
+      "context": "Northern Alliance includes MNDAA, AA, TNLA, and KIA.",
       "time_period": "2016-present"
     },
     {
@@ -266,7 +266,7 @@
       "target": "Ta'ang National Liberation Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "Northern Alliance is a coalition of MNDAA, AA, TNLA, and KIA founded in 2016.",
+      "context": "Northern Alliance includes MNDAA, AA, TNLA, and KIA.",
       "time_period": "2016-present"
     },
     {
@@ -274,7 +274,7 @@
       "target": "Kachin Independence Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "Northern Alliance is a coalition of MNDAA, AA, TNLA, and KIA founded in 2016.",
+      "context": "Northern Alliance includes MNDAA, AA, TNLA, and KIA.",
       "time_period": "2016-present"
     },
     {
@@ -282,7 +282,7 @@
       "target": "United Wa State Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "FPNCC includes UWSA, NDAA, SSA-N, and the Northern Alliance members.",
+      "context": "FPNCC formed by Northern Alliance plus UWSA, NDAA, and SSA-N.",
       "time_period": "2017-present"
     },
     {
@@ -290,7 +290,7 @@
       "target": "National Democratic Alliance Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "FPNCC includes UWSA, NDAA, SSA-N, and the Northern Alliance members.",
+      "context": "FPNCC formed by Northern Alliance plus UWSA, NDAA, and SSA-N.",
       "time_period": "2017-present"
     },
     {
@@ -298,7 +298,7 @@
       "target": "Shan State Army – North",
       "relationship": "alliance",
       "detail": null,
-      "context": "FPNCC includes UWSA, NDAA, SSA-N, and the Northern Alliance members.",
+      "context": "FPNCC formed by Northern Alliance plus UWSA, NDAA, and SSA-N.",
       "time_period": "2017-present"
     },
     {
@@ -306,23 +306,15 @@
       "target": "Karenni Nationalities Defence Force",
       "relationship": "alliance",
       "detail": null,
-      "context": "3BA began increasingly supporting KNDF in 2023.",
+      "context": "3BA began supporting KNDF in 2023.",
       "time_period": "2023"
-    },
-    {
-      "source": "Three Brotherhood Alliance",
-      "target": "Mandalay-PDF",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "MNDAA and TNLA covertly aided local PDF groups in Mandalay after the coup.",
-      "time_period": "2021"
     },
     {
       "source": "Three Brotherhood Alliance",
       "target": "Karenni National People's Liberation Front",
       "relationship": "alliance",
       "detail": null,
-      "context": "Operation 1027 received praise and support from KNPLF.",
+      "context": "Operation 1027 received support from KNPLF.",
       "time_period": "2023"
     },
     {
@@ -330,7 +322,7 @@
       "target": "People's Liberation Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "Operation 1027 received praise and support from PLA.",
+      "context": "Operation 1027 received support from PLA.",
       "time_period": "2023"
     },
     {
@@ -338,7 +330,7 @@
       "target": "National Unity Government",
       "relationship": "alliance",
       "detail": null,
-      "context": "NUG is listed as an ally of the Three Brotherhood Alliance.",
+      "context": "NUG is listed as an ally of 3BA.",
       "time_period": "2021-present"
     },
     {
@@ -346,7 +338,7 @@
       "target": "Bamar People's Liberation Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "BPLA is listed as an ally of the Three Brotherhood Alliance.",
+      "context": "BPLA is listed as an ally of 3BA.",
       "time_period": "2021-present"
     },
     {
@@ -354,7 +346,7 @@
       "target": "Arakan Liberation Army",
       "relationship": "rivalry",
       "detail": null,
-      "context": "ALA is listed as a non-state opponent of the Three Brotherhood Alliance.",
+      "context": "ALA is listed as a non-state opponent of 3BA.",
       "time_period": "unknown"
     },
     {
@@ -362,7 +354,7 @@
       "target": "Arakan Rohingya Salvation Army",
       "relationship": "rivalry",
       "detail": null,
-      "context": "ARSA is listed as a non-state opponent of the Three Brotherhood Alliance.",
+      "context": "ARSA is listed as a non-state opponent of 3BA.",
       "time_period": "unknown"
     },
     {
@@ -370,7 +362,7 @@
       "target": "Restoration Council of Shan State",
       "relationship": "rivalry",
       "detail": null,
-      "context": "RCSS is listed as a non-state opponent of the Three Brotherhood Alliance.",
+      "context": "RCSS is listed as a non-state opponent of 3BA.",
       "time_period": "unknown"
     },
     {
@@ -378,15 +370,7 @@
       "target": "Ta'ang National Liberation Army",
       "relationship": "rivalry",
       "detail": null,
-      "context": "In March 2026, the alliance between MNDAA and TNLA broke down and MNDAA attacked TNLA-controlled Kutkai.",
-      "time_period": "2026"
-    },
-    {
-      "source": "Myanmar National Democratic Alliance Army",
-      "target": "Ta'ang National Liberation Army",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "After the attack, MNDAA and TNLA pledged to continue their friendship and cooperate with AA.",
+      "context": "In March 2026, MNDAA attacked TNLA-controlled Kutkai, breaking the alliance.",
       "time_period": "2026"
     }
   ],

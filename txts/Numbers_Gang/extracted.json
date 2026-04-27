@@ -29,7 +29,7 @@
         "27 gang"
       ],
       "type": "faction",
-      "context": "Faction of Numbers Gang that enforces rules and acts as judiciary/military enforcement.",
+      "context": "Faction of Numbers Gang acting as judiciary and military enforcement, interpreting the 'Uniform'.",
       "time_period": "late 1800s-present"
     },
     {
@@ -39,7 +39,7 @@
         "28 gang"
       ],
       "type": "faction",
-      "context": "Faction of Numbers Gang responsible for fighting and protecting prisoners' rights.",
+      "context": "Faction of Numbers Gang responsible for fighting and protection, with gold and silver lines.",
       "time_period": "late 1800s-present"
     },
     {
@@ -57,7 +57,7 @@
       "target": "26s",
       "relationship": "other",
       "detail": "sub-group",
-      "context": "The Numbers Gang is divided into three factions: 26s, 27s, and 28s.",
+      "context": "The 26s are a faction within the Numbers Gang.",
       "time_period": "late 1800s-present"
     },
     {
@@ -65,7 +65,7 @@
       "target": "27s",
       "relationship": "other",
       "detail": "sub-group",
-      "context": "The Numbers Gang is divided into three factions: 26s, 27s, and 28s.",
+      "context": "The 27s are a faction within the Numbers Gang.",
       "time_period": "late 1800s-present"
     },
     {
@@ -73,31 +73,31 @@
       "target": "28s",
       "relationship": "other",
       "detail": "sub-group",
-      "context": "The Numbers Gang is divided into three factions: 26s, 27s, and 28s.",
+      "context": "The 28s are a faction within the Numbers Gang.",
+      "time_period": "late 1800s-present"
+    },
+    {
+      "source": "26s",
+      "target": "28s",
+      "relationship": "other",
+      "detail": "indirect communication",
+      "context": "The 26s and 28s do not speak directly; they communicate through the 27s.",
       "time_period": "late 1800s-present"
     },
     {
       "source": "27s",
       "target": "26s",
       "relationship": "other",
-      "detail": "mediator",
-      "context": "The 27s mediate conflicts between the 26s and 28s and serve as a communication channel.",
+      "detail": "mediation",
+      "context": "The 27s mediate conflicts between the 26s and 28s.",
       "time_period": "late 1800s-present"
     },
     {
       "source": "27s",
       "target": "28s",
       "relationship": "other",
-      "detail": "mediator",
-      "context": "The 27s mediate conflicts between the 26s and 28s and serve as a communication channel.",
-      "time_period": "late 1800s-present"
-    },
-    {
-      "source": "28s",
-      "target": "26s",
-      "relationship": "other",
-      "detail": "no direct communication",
-      "context": "The 28s are not allowed to speak directly to the 26s; they communicate through the 27s.",
+      "detail": "mediation",
+      "context": "The 27s mediate conflicts between the 26s and 28s.",
       "time_period": "late 1800s-present"
     },
     {
@@ -105,16 +105,56 @@
       "target": "27s",
       "relationship": "other",
       "detail": "predecessor",
-      "context": "The 27s descended from the Ninevites, an outlaw group led by Nongoloza Mathebula.",
+      "context": "The 27s descended from the Ninevites.",
       "time_period": "late 1800s"
+    },
+    {
+      "source": "26s",
+      "target": "Numbers Gang",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The 26s are a faction within the Numbers Gang.",
+      "time_period": "1880s-present"
+    },
+    {
+      "source": "27s",
+      "target": "Numbers Gang",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The 27s are a faction within the Numbers Gang.",
+      "time_period": "1880s-present"
+    },
+    {
+      "source": "28s",
+      "target": "Numbers Gang",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The 28s are a faction within the Numbers Gang.",
+      "time_period": "1880s-present"
     },
     {
       "source": "26s",
       "target": "28s",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The 26s and 28s have waged wars for control of prisons, such as in Belville and Brandvlei.",
+      "context": "The 26s and 28s have fought wars for control of prisons, e.g., Belville prison (1967-1969) and Brandvlei prison (1974-1976).",
       "time_period": "1967-1976"
+    },
+    {
+      "source": "26s",
+      "target": "27s",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The 26s and 27s are distinct factions that may compete for power within the Numbers Gang.",
+      "time_period": null
+    },
+    {
+      "source": "27s",
+      "target": "28s",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The 27s and 28s are distinct factions that may compete for power within the Numbers Gang.",
+      "time_period": null
     }
   ],
   "source_file": "Numbers_Gang"

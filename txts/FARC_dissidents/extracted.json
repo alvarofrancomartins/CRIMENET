@@ -67,7 +67,7 @@
         "Estado Mayor Central FARC-EP"
       ],
       "type": "faction",
-      "context": "A major faction of FARC dissidents, led by former FARC commanders.",
+      "context": "A major faction of FARC dissidents, led by former mid-level commanders.",
       "time_period": "2016-present"
     },
     {
@@ -133,8 +133,8 @@
       "original_text_name": "La Empresa",
       "aliases": [],
       "type": "cartel",
-      "context": "A Colombian drug trafficking organization.",
-      "time_period": null
+      "context": "A Colombian drug trafficking organization, also known as Oficina de Envigado.",
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Primeiro Comando da Capital",
@@ -153,18 +153,17 @@
         "CV"
       ],
       "type": "gang",
-      "context": "Brazilian drug trafficking organization.",
-      "time_period": "1970s-present"
+      "context": "Brazilian drug trafficking organization and prison gang.",
+      "time_period": "1979-present"
     },
     {
-      "standard_name": "Jalisco New Generation Cartel",
+      "standard_name": "CJNG",
       "original_text_name": "CJNG",
       "aliases": [
-        "CJNG",
-        "Cartel Jalisco Nueva Generación"
+        "Cártel Jalisco Nueva Generación"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel.",
+      "context": "Mexican drug cartel, one of the most powerful.",
       "time_period": "2009-present"
     },
     {
@@ -172,16 +171,18 @@
       "original_text_name": "Los Lobos",
       "aliases": [],
       "type": "gang",
-      "context": "Ecuadorian criminal gang.",
-      "time_period": null
+      "context": "Ecuadorian criminal gang, involved in drug trafficking and violence.",
+      "time_period": "2010s-present"
     },
     {
       "standard_name": "MPCP",
       "original_text_name": "MPCP",
-      "aliases": [],
+      "aliases": [
+        "Movimiento por la Paz y la Concordia en el Perú"
+      ],
       "type": "faction",
-      "context": "Peruvian guerrilla group, also known as Militarized Communist Party of Peru.",
-      "time_period": null
+      "context": "Peruvian guerrilla group, also known as the Militarized Communist Party of Peru.",
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Venezuela Cartel of the Suns",
@@ -191,14 +192,14 @@
       ],
       "type": "cartel",
       "context": "Venezuelan drug trafficking network involving military officials.",
-      "time_period": null
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Tren de Aragua",
       "original_text_name": "Tren de Aragua",
       "aliases": [],
       "type": "gang",
-      "context": "Venezuelan criminal gang.",
+      "context": "Venezuelan criminal gang, involved in human trafficking and drug smuggling.",
       "time_period": "2005-present"
     }
   ],
@@ -215,7 +216,7 @@
       "source": "Carlos Patiño Front",
       "target": "FARC dissidents",
       "relationship": "other",
-      "detail": "sub-faction",
+      "detail": "sub-group",
       "context": "The Carlos Patiño Front is a faction within the FARC dissidents.",
       "time_period": "2016-present"
     },
@@ -223,7 +224,7 @@
       "source": "FARC-EP Central General Staff",
       "target": "FARC dissidents",
       "relationship": "other",
-      "detail": "sub-faction",
+      "detail": "sub-group",
       "context": "The Central General Staff is a major faction of FARC dissidents.",
       "time_period": "2016-present"
     },
@@ -231,7 +232,7 @@
       "source": "FARC-EP Second Marquetalia",
       "target": "FARC dissidents",
       "relationship": "other",
-      "detail": "sub-faction",
+      "detail": "sub-group",
       "context": "Second Marquetalia is a dissident faction within FARC dissidents.",
       "time_period": "2019-present"
     },
@@ -239,7 +240,7 @@
       "source": "FARC-EP Border Commandos",
       "target": "FARC dissidents",
       "relationship": "other",
-      "detail": "sub-faction",
+      "detail": "sub-group",
       "context": "Border Commandos is a faction of FARC dissidents.",
       "time_period": "2016-present"
     },
@@ -247,7 +248,7 @@
       "source": "FARC-EP Miller Perdomo Territorial Militia Front",
       "target": "FARC dissidents",
       "relationship": "other",
-      "detail": "sub-faction",
+      "detail": "sub-group",
       "context": "Miller Perdomo Front is a faction of FARC dissidents.",
       "time_period": "2016-present"
     },
@@ -255,7 +256,7 @@
       "source": "FARC-EP United Guerrillas of the Pacific",
       "target": "FARC dissidents",
       "relationship": "other",
-      "detail": "sub-faction",
+      "detail": "sub-group",
       "context": "United Guerrillas of the Pacific is a faction of FARC dissidents.",
       "time_period": "2016-present"
     },
@@ -263,7 +264,7 @@
       "source": "FARC-EP People of Order",
       "target": "FARC dissidents",
       "relationship": "other",
-      "detail": "sub-faction",
+      "detail": "sub-group",
       "context": "People of Order is a faction of FARC dissidents.",
       "time_period": "2016-present"
     },
@@ -271,7 +272,7 @@
       "source": "FARC-EP Loreto Front",
       "target": "FARC dissidents",
       "relationship": "other",
-      "detail": "sub-faction",
+      "detail": "sub-group",
       "context": "Loreto Front is a faction of FARC dissidents.",
       "time_period": "2016-present"
     },
@@ -279,7 +280,7 @@
       "source": "FARC-EP Bolivarian Militias",
       "target": "FARC dissidents",
       "relationship": "other",
-      "detail": "sub-faction",
+      "detail": "sub-group",
       "context": "Bolivarian Militias is a faction of FARC dissidents.",
       "time_period": "2016-present"
     },
@@ -287,89 +288,79 @@
       "source": "FARC dissidents",
       "target": "Clan del Golfo",
       "relationship": "rivalry",
-      "detail": null,
       "context": "FARC dissidents and Clan del Golfo are in direct armed conflict in northern Antioquia, known as Operation Mil.",
       "time_period": "2020-present"
     },
     {
       "source": "FARC dissidents",
       "target": "National Liberation Army",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "FARC dissidents have varying alliances with ELN; some factions are allies, others opponents.",
-      "time_period": null
+      "relationship": "other",
+      "detail": "variable",
+      "context": "FARC dissidents have varying relationships with ELN, sometimes allies, sometimes opponents.",
+      "time_period": "2016-present"
     },
     {
       "source": "FARC dissidents",
       "target": "Popular Liberation Army",
       "relationship": "alliance",
-      "detail": null,
-      "context": "EPL is listed as an ally of FARC dissidents in the infobox.",
-      "time_period": null
+      "context": "FARC dissidents are listed as allies of EPL in the infobox.",
+      "time_period": "2016-present"
     },
     {
       "source": "FARC dissidents",
       "target": "La Empresa",
       "relationship": "alliance",
-      "detail": null,
-      "context": "La Empresa is listed as an ally of FARC dissidents.",
-      "time_period": null
+      "context": "La Empresa is listed as an ally of FARC dissidents in the infobox.",
+      "time_period": "2016-present"
     },
     {
       "source": "FARC dissidents",
       "target": "Primeiro Comando da Capital",
       "relationship": "alliance",
-      "detail": null,
-      "context": "PCC is listed as an ally of FARC dissidents.",
-      "time_period": null
+      "context": "PCC is listed as an ally of FARC dissidents in the infobox.",
+      "time_period": "2016-present"
     },
     {
       "source": "FARC dissidents",
       "target": "Comando Vermelho",
       "relationship": "alliance",
-      "detail": null,
-      "context": "Comando Vermelho is listed as an ally of FARC dissidents.",
-      "time_period": null
+      "context": "Comando Vermelho is listed as an ally of FARC dissidents in the infobox.",
+      "time_period": "2016-present"
     },
     {
       "source": "FARC dissidents",
-      "target": "Jalisco New Generation Cartel",
+      "target": "CJNG",
       "relationship": "alliance",
-      "detail": null,
-      "context": "CJNG is listed as an ally of FARC dissidents.",
-      "time_period": null
+      "context": "CJNG is listed as an ally of FARC dissidents in the infobox.",
+      "time_period": "2016-present"
     },
     {
       "source": "FARC dissidents",
       "target": "Los Lobos",
       "relationship": "alliance",
-      "detail": null,
-      "context": "Los Lobos is listed as an ally of FARC dissidents.",
-      "time_period": null
+      "context": "Los Lobos is listed as an ally of FARC dissidents in the infobox.",
+      "time_period": "2016-present"
     },
     {
       "source": "FARC dissidents",
       "target": "MPCP",
       "relationship": "rivalry",
-      "detail": null,
-      "context": "MPCP is listed as an opponent of FARC dissidents.",
-      "time_period": null
+      "context": "MPCP is listed as an opponent of FARC dissidents in the infobox.",
+      "time_period": "2016-present"
     },
     {
       "source": "FARC dissidents",
       "target": "Venezuela Cartel of the Suns",
       "relationship": "rivalry",
-      "detail": null,
-      "context": "Cartel of the Suns is listed as an opponent of FARC dissidents.",
-      "time_period": null
+      "context": "Cartel of the Suns is listed as an opponent of FARC dissidents in the infobox.",
+      "time_period": "2016-present"
     },
     {
       "source": "FARC dissidents",
       "target": "Tren de Aragua",
       "relationship": "rivalry",
-      "detail": null,
-      "context": "Tren de Aragua is listed as an opponent of FARC dissidents.",
-      "time_period": null
+      "context": "Tren de Aragua is listed as an opponent of FARC dissidents in the infobox.",
+      "time_period": "2016-present"
     }
   ],
   "source_file": "FARC_dissidents"

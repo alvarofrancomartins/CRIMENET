@@ -105,15 +105,15 @@
       "original_text_name": "Tajammu al-Arabi",
       "aliases": [],
       "type": "militia",
-      "context": "Racist and pan-Arabist organization supported by Gaddafi in Darfur, Sudan.",
-      "time_period": "1980s"
+      "context": "Racist and pan-Arabist organization in Darfur supported by Gaddafi, shared members with Islamic Legion.",
+      "time_period": "1980s-1990s"
     },
     {
       "standard_name": "Janjaweed",
       "original_text_name": "Janjaweed",
       "aliases": [],
       "type": "militia",
-      "context": "Militia accused of genocide in Darfur; some leaders were former Islamic Legionnaires.",
+      "context": "Group accused of genocide in Darfur, emerged in 1988 with some leaders being former Islamic Legionnaires.",
       "time_period": "1988-present"
     },
     {
@@ -123,7 +123,7 @@
         "Pan-African Legion"
       ],
       "type": "militia",
-      "context": "Militia recruited from dissidents across Africa, trained by Palestinian and Syrian instructors.",
+      "context": "Militia recruited from dissidents across Africa, trained by Palestinian and Syrian instructors, fought in Chad.",
       "time_period": "1980-1987"
     },
     {
@@ -200,7 +200,7 @@
       ],
       "type": "terrorist_organization",
       "context": "Islamist separatist group in the Philippines, backed by Libya.",
-      "time_period": "1977-present"
+      "time_period": "1984-present"
     },
     {
       "standard_name": "New People's Army",
@@ -219,7 +219,7 @@
         "CPP"
       ],
       "type": "other",
-      "context": "Communist political party, linked to New People's Army, met with Libyan agents.",
+      "context": "Communist political party in the Philippines, linked to New People's Army and Libyan support.",
       "time_period": "1968-present"
     },
     {
@@ -228,7 +228,7 @@
       "aliases": [],
       "type": "other",
       "context": "Nicaraguan revolutionary group, trained and armed by Libya.",
-      "time_period": "1970s-1990s"
+      "time_period": "1961-1990"
     },
     {
       "standard_name": "Red Army Faction",
@@ -254,9 +254,11 @@
     {
       "standard_name": "Workers Revolutionary Party",
       "original_text_name": "Workers Revolutionary Party",
-      "aliases": [],
+      "aliases": [
+        "WRP"
+      ],
       "type": "other",
-      "context": "British Trotskyist political party, considered Gaddafi's subsidiary in Britain.",
+      "context": "British Trotskyist political party, considered Gaddafi's political subsidiary in Britain.",
       "time_period": "1970s-1990s"
     },
     {
@@ -286,7 +288,7 @@
         "KNK"
       ],
       "type": "other",
-      "context": "Kurdish political organization, president praised Gaddafi's support.",
+      "context": "Kurdish political organization, whose president praised Gaddafi's support.",
       "time_period": "1999-present"
     },
     {
@@ -295,7 +297,7 @@
       "aliases": [],
       "type": "militia",
       "context": "Special forces unit loyal to Gaddafi, named after his son.",
-      "time_period": "1990s-2011"
+      "time_period": "2000s-2011"
     },
     {
       "standard_name": "Amazonian Guard",
@@ -367,16 +369,16 @@
       "source": "Revolutionary Guard Corps",
       "target": "Revolutionary Committees",
       "relationship": "other",
-      "detail": "developed from",
+      "detail": "paramilitary wing",
       "context": "The Revolutionary Guard developed from the Revolutionary Committees as a paramilitary wing.",
-      "time_period": "early 1980s"
+      "time_period": "1980s-2011"
     },
     {
       "source": "Islamic Legion",
       "target": "Tajammu al-Arabi",
       "relationship": "alliance",
       "detail": null,
-      "context": "The two organizations shared members and support, with ambiguous distinction.",
+      "context": "The two organizations shared members and support, with distinction often ambiguous.",
       "time_period": "1980s"
     },
     {
@@ -384,16 +386,16 @@
       "target": "Janjaweed",
       "relationship": "other",
       "detail": "predecessor",
-      "context": "Some Janjaweed leaders were former Islamic Legionnaires.",
-      "time_period": "1988"
+      "context": "Some Janjaweed leaders are former Islamic Legionnaires.",
+      "time_period": "1988-2000s"
     },
     {
       "source": "Islamic Pan-African Legion",
       "target": "Islamic Legion",
       "relationship": "other",
-      "detail": "successor",
-      "context": "The Islamic Pan-African Legion was introduced around 1980, similar to the Islamic Legion.",
-      "time_period": "1980"
+      "detail": "successor or variant",
+      "context": "The Islamic Pan-African Legion was introduced around 1980, similar in purpose to the Islamic Legion.",
+      "time_period": "1980-1987"
     },
     {
       "source": "Al-Rukn",
@@ -416,7 +418,7 @@
       "target": "Japanese Red Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "Gaddafi praised the Lod Airport massacre executed by the Japanese Red Army.",
+      "context": "Gaddafi praised the Lod Airport massacre executed by the Japanese Red Army and demanded similar attacks.",
       "time_period": "1972"
     },
     {
@@ -424,7 +426,7 @@
       "target": "Black September Organization",
       "relationship": "alliance",
       "detail": null,
-      "context": "Gaddafi was a major financier of Black September which perpetrated the Munich massacre.",
+      "context": "Gaddafi was a major financier of the Black September Movement which perpetrated the Munich massacre.",
       "time_period": "1972"
     },
     {
@@ -432,7 +434,7 @@
       "target": "Moro Islamic Liberation Front",
       "relationship": "alliance",
       "detail": null,
-      "context": "Libya backed the MILF in its separatist struggle in the Philippines.",
+      "context": "Libya backed the Moro Islamic Liberation Front in the Philippines.",
       "time_period": "1970s-2000s"
     },
     {
@@ -440,7 +442,7 @@
       "target": "New People's Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "Libya supported the NPA and met with the Communist Party of the Philippines.",
+      "context": "Libya supported the New People's Army and met with the Communist Party of the Philippines.",
       "time_period": "1970s-2000s"
     },
     {
@@ -448,7 +450,7 @@
       "target": "Sandinistas",
       "relationship": "alliance",
       "detail": null,
-      "context": "Libya spent millions training and arming Sandinistas in Nicaragua.",
+      "context": "Gaddafi spent hundreds of millions training and arming Sandinistas in Nicaragua.",
       "time_period": "1980s"
     },
     {
@@ -456,7 +458,7 @@
       "target": "Red Army Faction",
       "relationship": "alliance",
       "detail": null,
-      "context": "Gaddafi indicated support for the Red Army Faction after the Rome and Vienna attacks.",
+      "context": "Gaddafi indicated he would continue to support the Red Army Faction.",
       "time_period": "1985"
     },
     {
@@ -464,7 +466,7 @@
       "target": "Red Brigades",
       "relationship": "alliance",
       "detail": null,
-      "context": "Gaddafi indicated support for the Red Brigades after the Rome and Vienna attacks.",
+      "context": "Gaddafi indicated he would continue to support the Red Brigades.",
       "time_period": "1985"
     },
     {
@@ -480,7 +482,7 @@
       "target": "Free Aceh Movement",
       "relationship": "alliance",
       "detail": null,
-      "context": "Libya backed the Free Aceh Movement in Indonesia.",
+      "context": "The Free Aceh Movement was a Libyan-backed militant group in Indonesia.",
       "time_period": "1970s-2000s"
     },
     {
@@ -500,26 +502,26 @@
       "time_period": "until 2011"
     },
     {
-      "source": "Revolutionary Guard Corps",
-      "target": "Libyan Arab Republic",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Revolutionary Guard Corps was a loyal elite force used by Gaddafi to maintain power.",
+      "source": "Libyan Arab Republic",
+      "target": "Revolutionary Guard Corps",
+      "relationship": "other",
+      "detail": "subsidiary",
+      "context": "The Revolutionary Guard Corps was a loyal elite force under Gaddafi.",
       "time_period": "1970s-2011"
     },
     {
-      "source": "Khamis Brigade",
-      "target": "Libyan Arab Republic",
-      "relationship": "alliance",
-      "detail": null,
+      "source": "Libyan Arab Republic",
+      "target": "Khamis Brigade",
+      "relationship": "other",
+      "detail": "subsidiary",
       "context": "The Khamis Brigade was a special forces unit loyal to Gaddafi.",
-      "time_period": "1990s-2011"
+      "time_period": "2000s-2011"
     },
     {
-      "source": "Amazonian Guard",
-      "target": "Libyan Arab Republic",
-      "relationship": "alliance",
-      "detail": null,
+      "source": "Libyan Arab Republic",
+      "target": "Amazonian Guard",
+      "relationship": "other",
+      "detail": "subsidiary",
       "context": "The Amazonian Guard was Gaddafi's personal female bodyguard unit.",
       "time_period": "1980s-2011"
     }

@@ -204,7 +204,7 @@
       "original_text_name": "Negotiating faction",
       "aliases": [],
       "type": "faction",
-      "context": "Splinter faction of Shining Path that favored negotiation.",
+      "context": "Faction that succeeded Shining Path, favoring negotiation.",
       "time_period": null
     },
     {
@@ -212,7 +212,7 @@
       "original_text_name": "Combatant faction",
       "aliases": [],
       "type": "faction",
-      "context": "Splinter faction of Shining Path that continued armed struggle.",
+      "context": "Faction that succeeded Shining Path, favoring continued combat.",
       "time_period": null
     },
     {
@@ -246,14 +246,14 @@
       "target": "Shining Path",
       "relationship": "other",
       "detail": "successor faction",
-      "context": "MPCP is the main successor faction of Shining Path, founded in 1999 after Sendero Rojo collapsed.",
+      "context": "MPCP is the main successor faction of Shining Path, founded in 1999 after Sendero Rojo's collapse.",
       "time_period": "1999-present"
     },
     {
       "source": "Communist Party of Peru – Red Mantaro Base Committee",
       "target": "Shining Path",
       "relationship": "other",
-      "detail": "successor faction",
+      "detail": "splinter faction",
       "context": "PCP-CBMR is a Shining Path faction operating in Mantaro Valley since 2001.",
       "time_period": "2001-present"
     },
@@ -261,7 +261,7 @@
       "source": "Communist Party of Peru – Huallaga Regional Committee",
       "target": "Shining Path",
       "relationship": "other",
-      "detail": "successor faction",
+      "detail": "splinter faction",
       "context": "PCP-CRH was a Shining Path faction active in Huallaga region from 2004 to 2012.",
       "time_period": "2004-2012"
     },
@@ -270,7 +270,7 @@
       "target": "Shining Path",
       "relationship": "other",
       "detail": "successor faction",
-      "context": "Sendero Rojo was the armed successor faction of Shining Path after Guzmán's capture, active 1992-1999.",
+      "context": "Sendero Rojo was the armed successor faction of Shining Path after Guzmán's capture, active until 1999.",
       "time_period": "1992-1999"
     },
     {
@@ -421,14 +421,14 @@
       "target": "Peruvian Communist Party – Red Flag",
       "relationship": "other",
       "detail": "split from",
-      "context": "Shining Path split from the Peruvian Communist Party – Red Flag.",
+      "context": "Shining Path split from the Peruvian Communist Party – Red Flag in 1969.",
       "time_period": "1969"
     },
     {
       "source": "Shining Path",
       "target": "People's Liberation Army",
-      "relationship": "other",
-      "detail": "has armed wing",
+      "relationship": "alliance",
+      "detail": null,
       "context": "People's Liberation Army is the armed wing of Shining Path.",
       "time_period": null
     },
@@ -437,7 +437,7 @@
       "target": "Negotiating faction",
       "relationship": "other",
       "detail": "succeeded by",
-      "context": "Negotiating faction is a splinter group that succeeded Shining Path.",
+      "context": "The Negotiating faction succeeded Shining Path after its decline.",
       "time_period": null
     },
     {
@@ -445,7 +445,7 @@
       "target": "Combatant faction",
       "relationship": "other",
       "detail": "succeeded by",
-      "context": "Combatant faction is a splinter group that succeeded Shining Path.",
+      "context": "The Combatant faction succeeded Shining Path after its decline.",
       "time_period": null
     },
     {
@@ -461,8 +461,8 @@
       "target": "Revolutionary Internationalist Movement",
       "relationship": "alliance",
       "detail": null,
-      "context": "Shining Path was affiliated with the Revolutionary Internationalist Movement.",
-      "time_period": "defunct"
+      "context": "Shining Path was affiliated with the now-defunct Revolutionary Internationalist Movement.",
+      "time_period": null
     }
   ],
   "source_file": "Shining_Path"

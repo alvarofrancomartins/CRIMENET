@@ -51,7 +51,7 @@
         "SLA"
       ],
       "type": "militia",
-      "context": "Lebanese Christian militia allied with Israel, fought Hezbollah.",
+      "context": "Lebanese Christian militia allied with Israel during the Lebanese Civil War.",
       "time_period": "1976-2000"
     },
     {
@@ -61,7 +61,7 @@
         "Amal"
       ],
       "type": "other",
-      "context": "Lebanese Shia political group, rival to Hezbollah in the 1980s.",
+      "context": "Lebanese Shia political group and former militia, rival to Hezbollah.",
       "time_period": "1974-present"
     },
     {
@@ -72,7 +72,7 @@
         "Islamic Jihad"
       ],
       "type": "other",
-      "context": "Nom de guerre used by Hezbollah for attacks; considered synonymous by US, Israel, Canada.",
+      "context": "Nom de guerre used by Hezbollah for attacks; considered synonymous with Hezbollah by US, Israel, Canada.",
       "time_period": "1980s-1990s"
     },
     {
@@ -96,7 +96,7 @@
       "original_text_name": "Lebanese Brigades to Fight the Israeli Occupation",
       "aliases": [],
       "type": "faction",
-      "context": "Multi-confessional group formed by Hezbollah in 1997 to revive secular resistance.",
+      "context": "Multi-confessional group formed by Hezbollah in 1997 to revive resistance against Israel.",
       "time_period": "1997-2000"
     },
     {
@@ -146,7 +146,7 @@
         "Al-Manar TV"
       ],
       "type": "other",
-      "context": "Hezbollah's satellite television station, designated as terrorist entity by US.",
+      "context": "Hezbollah's satellite television station, designated terrorist entity by US.",
       "time_period": "1991-present"
     },
     {
@@ -164,7 +164,7 @@
         "The Islamic Resistance"
       ],
       "type": "faction",
-      "context": "Component of Hezbollah's Jihad Council, the armed resistance wing.",
+      "context": "Component of Hezbollah's Jihad Council, responsible for military operations.",
       "time_period": "1980s-present"
     },
     {
@@ -207,15 +207,15 @@
       "original_text_name": "Radwan Force",
       "aliases": [],
       "type": "faction",
-      "context": "Elite unit within Hezbollah, trained for invading Israel.",
-      "time_period": null
+      "context": "Elite Hezbollah unit specializing in cross-border operations.",
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Quds Force",
       "original_text_name": "Quds Force",
       "aliases": [],
       "type": "other",
-      "context": "Iranian special forces unit that initially managed Hezbollah's counterintelligence.",
+      "context": "Iranian IRGC unit that initially managed Hezbollah's counterintelligence.",
       "time_period": "1980s-present"
     },
     {
@@ -309,7 +309,7 @@
         "Ansar Allah"
       ],
       "type": "militia",
-      "context": "Yemeni rebel group that received support from Hezbollah and IRGC commanders in 2024.",
+      "context": "Yemeni rebel group that Hezbollah and IRGC commanders helped oversee attacks on Red Sea shipping in 2024.",
       "time_period": "2004-present"
     },
     {
@@ -408,48 +408,45 @@
       "source": "Hezbollah",
       "target": "Islamic Revolutionary Guard Corps",
       "relationship": "alliance",
-      "detail": null,
-      "context": "IRGC trained and organized Hezbollah, providing 1,500 instructors.",
+      "context": "IRGC trained and organized Hezbollah with 1,500 instructors.",
       "time_period": "1982-present"
     },
     {
       "source": "Hezbollah",
       "target": "South Lebanon Army",
       "relationship": "rivalry",
-      "detail": null,
-      "context": "Hezbollah fought against the SLA during the Israeli occupation of southern Lebanon.",
-      "time_period": "1980s-2000"
+      "context": "Hezbollah fought against the SLA during the 1980s and 1990s.",
+      "time_period": "1982-2000"
     },
     {
       "source": "Hezbollah",
       "target": "Amal Movement",
       "relationship": "rivalry",
-      "detail": null,
-      "context": "Hezbollah emerged as a rival to Amal in the 1980s, opposing them during the War of the Camps.",
+      "context": "Hezbollah emerged as a rival to Amal and opposed it during the War of the Camps.",
       "time_period": "1985-1988"
     },
     {
       "source": "Hezbollah",
       "target": "Islamic Jihad Organization",
       "relationship": "other",
-      "detail": "nom de guerre",
-      "context": "Islamic Jihad Organization is considered a nom de guerre used by Hezbollah.",
+      "detail": "synonymous alias",
+      "context": "Islamic Jihad Organization is considered synonymous with Hezbollah by US, Israel, and Canada.",
       "time_period": "1980s-1990s"
     },
     {
       "source": "Hezbollah",
       "target": "Organisation of the Oppressed on Earth",
       "relationship": "other",
-      "detail": "alias",
-      "context": "Organisation of the Oppressed on Earth is an alias used by Hezbollah.",
+      "detail": "synonymous alias",
+      "context": "Organisation of the Oppressed on Earth is considered synonymous with Hezbollah.",
       "time_period": "1980s-1990s"
     },
     {
       "source": "Hezbollah",
       "target": "Revolutionary Justice Organisation",
       "relationship": "other",
-      "detail": "alias",
-      "context": "Revolutionary Justice Organisation is an alias used by Hezbollah.",
+      "detail": "synonymous alias",
+      "context": "Revolutionary Justice Organisation is considered synonymous with Hezbollah.",
       "time_period": "1980s-1990s"
     },
     {
@@ -457,14 +454,13 @@
       "target": "Lebanese Brigades to Fight the Israeli Occupation",
       "relationship": "other",
       "detail": "formed by",
-      "context": "Hezbollah formed the Lebanese Brigades to Fight the Israeli Occupation in 1997.",
+      "context": "Hezbollah formed the Lebanese Brigades in 1997 to revive resistance.",
       "time_period": "1997-2000"
     },
     {
       "source": "Hezbollah",
       "target": "Axis of Resistance",
       "relationship": "alliance",
-      "detail": null,
       "context": "Hezbollah is a leading member of the Axis of Resistance alliance.",
       "time_period": "2000s-present"
     },
@@ -489,7 +485,7 @@
       "target": "March 14 Alliance",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Hezbollah staunchly opposed the March 14 Alliance.",
+      "context": "Hezbollah staunchly opposed the March 14 Alliance and its government.",
       "time_period": "2005-present"
     },
     {
@@ -513,8 +509,8 @@
       "target": "Amal Movement",
       "relationship": "alliance",
       "detail": null,
-      "context": "Hezbollah and Amal Bloc control together six portfolios in the 2025 government.",
-      "time_period": "2005-present"
+      "context": "Hezbollah and Amal Movement together control six portfolios in the 2025 government.",
+      "time_period": "2000s-present"
     },
     {
       "source": "Hezbollah",
@@ -536,7 +532,7 @@
       "source": "Hezbollah",
       "target": "Jihad Council",
       "relationship": "other",
-      "detail": "has branch",
+      "detail": "has_branch",
       "context": "Jihad Council is Hezbollah's military branch.",
       "time_period": "1980s-present"
     },
@@ -552,7 +548,7 @@
       "source": "Hezbollah",
       "target": "Organisation of the Oppressed",
       "relationship": "other",
-      "detail": "possible front",
+      "detail": "possible_front",
       "context": "Hezbollah is the possible sponsor of this group.",
       "time_period": null
     },
@@ -560,7 +556,7 @@
       "source": "Hezbollah",
       "target": "Revolutionary Justice Organisation",
       "relationship": "other",
-      "detail": "possible front",
+      "detail": "possible_front",
       "context": "Hezbollah is the possible sponsor of this group.",
       "time_period": null
     },
@@ -568,7 +564,7 @@
       "source": "Hezbollah",
       "target": "Organisation of Right Against Wrong",
       "relationship": "other",
-      "detail": "possible front",
+      "detail": "possible_front",
       "context": "Hezbollah is the possible sponsor of this group.",
       "time_period": null
     },
@@ -576,7 +572,7 @@
       "source": "Hezbollah",
       "target": "Followers of the Prophet Muhammad",
       "relationship": "other",
-      "detail": "possible front",
+      "detail": "possible_front",
       "context": "Hezbollah is the possible sponsor of this group.",
       "time_period": null
     },
@@ -584,7 +580,7 @@
       "source": "Hezbollah",
       "target": "Lebanese Resistance Brigades",
       "relationship": "other",
-      "detail": "formed by",
+      "detail": "formed",
       "context": "Hezbollah formed the Lebanese Resistance Brigades in 1997.",
       "time_period": "1997-2000, 2009-present"
     },
@@ -593,16 +589,24 @@
       "target": "Radwan Force",
       "relationship": "other",
       "detail": "includes",
-      "context": "Radwan Force is an elite unit within Hezbollah.",
-      "time_period": null
+      "context": "Radwan Force is an elite unit within Hezbollah's military.",
+      "time_period": "2000s-present"
     },
     {
-      "source": "Hezbollah",
-      "target": "Quds Force",
+      "source": "Islamic Revolutionary Guard Corps",
+      "target": "Hezbollah",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "IRGC instructors helped unify Shia factions under Hezbollah.",
+      "time_period": "1982-present"
+    },
+    {
+      "source": "Quds Force",
+      "target": "Hezbollah",
       "relationship": "alliance",
       "detail": null,
       "context": "Quds Force initially managed Hezbollah's counterintelligence.",
-      "time_period": "1980s-present"
+      "time_period": "1980s-1990s"
     },
     {
       "source": "Hezbollah",
@@ -647,7 +651,7 @@
       "target": "Free Syrian Army",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Hezbollah fought against the Free Syrian Army in Syria, with clashes and attacks reported.",
+      "context": "Hezbollah fought against the Free Syrian Army in Syria, with clashes and attacks on both sides.",
       "time_period": "2012-2018"
     },
     {
@@ -679,7 +683,7 @@
       "target": "Houthis",
       "relationship": "alliance",
       "detail": null,
-      "context": "Hezbollah commanders were involved in overseeing and directing Houthi attacks on Red Sea shipping in 2024.",
+      "context": "Hezbollah commanders oversaw and directed Houthi attacks on Red Sea shipping in 2024.",
       "time_period": "2024"
     },
     {
@@ -697,6 +701,14 @@
       "detail": null,
       "context": "Al-Nusra Front claimed responsibility for an attack that killed Hezbollah fighters in Quneitra.",
       "time_period": "2015"
+    },
+    {
+      "source": "Hezbollah",
+      "target": "Quds Force",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hezbollah and Quds Force operate closely; an Iranian general was killed alongside Hezbollah members in Quneitra.",
+      "time_period": "1980s-present"
     },
     {
       "source": "Hezbollah",

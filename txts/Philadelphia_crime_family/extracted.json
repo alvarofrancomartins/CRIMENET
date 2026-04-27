@@ -15,7 +15,7 @@
       ],
       "type": "mafia",
       "context": "Italian American Mafia crime family based in Philadelphia, operating in Greater Philadelphia and South Jersey.",
-      "time_period": "1910s-present"
+      "time_period": "early 1900s-present"
     },
     {
       "standard_name": "Genovese crime family",
@@ -30,7 +30,7 @@
       "original_text_name": "Chicago Outfit",
       "aliases": [],
       "type": "mafia",
-      "context": "Chicago-based Mafia organization with connections to the Philadelphia family under boss Joseph Dovi.",
+      "context": "Chicago-based Mafia organization with connections to the Philadelphia family under boss Dovi.",
       "time_period": "1910s-present"
     },
     {
@@ -38,7 +38,15 @@
       "original_text_name": "Gambino crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "New York Mafia family allied with Angelo Bruno; allowed to sell heroin on Philadelphia turf.",
+      "context": "New York Mafia family allied with Bruno; allowed to sell heroin on Philadelphia turf.",
+      "time_period": "1910s-present"
+    },
+    {
+      "standard_name": "Patriarca crime family",
+      "original_text_name": "Patriarca crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New England Mafia family described as similarly dysfunctional to the Philadelphia family.",
       "time_period": "1910s-present"
     },
     {
@@ -46,16 +54,8 @@
       "original_text_name": "Black Mafia",
       "aliases": [],
       "type": "gang",
-      "context": "African-American organized crime group formed to take over illegal activities in Black neighborhoods of Philadelphia.",
-      "time_period": "1970-1975"
-    },
-    {
-      "standard_name": "Patriarca crime family",
-      "original_text_name": "Patriarca crime family",
-      "aliases": [],
-      "type": "mafia",
-      "context": "New England Mafia family described as one of the two most dysfunctional in the US alongside Philadelphia.",
-      "time_period": "1910s-present"
+      "context": "African-American organized crime group that took control of illegal activities in Black neighborhoods of Philadelphia.",
+      "time_period": "1970s-mid 1970s"
     },
     {
       "standard_name": "Greek Mob",
@@ -110,7 +110,7 @@
       ],
       "type": "faction",
       "context": "Faction of the Philadelphia crime family loyal to boss John Stanfa during the early 1990s.",
-      "time_period": "early 1990s"
+      "time_period": "1990s"
     },
     {
       "standard_name": "Merlino faction",
@@ -119,8 +119,8 @@
         "Young Turks"
       ],
       "type": "faction",
-      "context": "Faction of the Philadelphia crime family led by Joey Merlino during the Third Philadelphia Mafia War.",
-      "time_period": "early 1990s"
+      "context": "Faction of the Philadelphia crime family led by Joey Merlino, feuded with Stanfa faction.",
+      "time_period": "1990s"
     },
     {
       "standard_name": "Young Turks",
@@ -183,7 +183,7 @@
       "original_text_name": "Philadelphia Greek Mob",
       "aliases": [],
       "type": "gang",
-      "context": "Greek-American criminal group in Philadelphia allied with the crime family.",
+      "context": "Greek-American criminal group allied with the Philadelphia crime family.",
       "time_period": null
     },
     {
@@ -211,7 +211,17 @@
       "original_text_name": "National Crime Syndicate",
       "aliases": [],
       "type": "other",
-      "context": "Umbrella organization of American organized crime; Meyer Lansky was a leader.",
+      "context": "Umbrella organization of American Mafia and other criminal groups; Meyer Lansky was a leader.",
+      "time_period": null
+    },
+    {
+      "standard_name": "DiMeo crime family",
+      "original_text_name": "DiMeo/Soprano crime family",
+      "aliases": [
+        "Soprano crime family"
+      ],
+      "type": "mafia",
+      "context": "Fictional New Jersey Mafia family from The Sopranos; enemy of Philadelphia family in video game.",
       "time_period": null
     }
   ],
@@ -221,32 +231,24 @@
       "target": "Genovese crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Genovese family sought to control Philadelphia family and instigated Bruno's murder over territory claims.",
+      "context": "Genovese family sought control of Philadelphia family and had territory claims leading to Bruno's murder.",
       "time_period": "1980"
-    },
-    {
-      "source": "Philadelphia crime family",
-      "target": "Gambino crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Angelo Bruno was a close ally of Carlo Gambino; Gambino family allowed to sell heroin on Philadelphia turf.",
-      "time_period": "1959-1976"
     },
     {
       "source": "Philadelphia crime family",
       "target": "Chicago Outfit",
       "relationship": "alliance",
       "detail": null,
-      "context": "Joseph Dovi had good connections with the Chicago Outfit.",
-      "time_period": "1936-1946"
+      "context": "Under boss Dovi, Philadelphia family had good connections with Chicago Outfit.",
+      "time_period": "1930s-1940s"
     },
     {
       "source": "Philadelphia crime family",
-      "target": "Black Mafia",
-      "relationship": "rivalry",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Black Mafia extorted Philadelphia family operatives; Bruno ceded some rackets but required street tax.",
-      "time_period": "1970-1975"
+      "context": "Bruno was a close ally of Carlo Gambino; allowed Gambino family to sell heroin on Philadelphia turf.",
+      "time_period": "1959-1976"
     },
     {
       "source": "Philadelphia crime family",
@@ -255,6 +257,14 @@
       "detail": "comparison",
       "context": "Both described as the two most dysfunctional Mafia families in the US.",
       "time_period": null
+    },
+    {
+      "source": "Philadelphia crime family",
+      "target": "Black Mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Black Mafia extorted Philadelphia family operatives; Bruno eventually ceded some rackets but required street tax.",
+      "time_period": "1970s"
     },
     {
       "source": "Philadelphia crime family",
@@ -309,7 +319,7 @@
       "target": "Patriarca crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "George Borgesi formed an alliance with Patriarca underboss Matthew Guglielmetti.",
+      "context": "George Borgesi formed an alliance with Patriarca underboss Matthew Guglielmetti after his release from prison.",
       "time_period": "2014-present"
     },
     {
@@ -318,23 +328,23 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "The two factions feuded during the Third Philadelphia Mafia War in the early 1990s.",
-      "time_period": "early 1990s"
+      "time_period": "1990-1994"
     },
     {
       "source": "Stanfa faction",
       "target": "Philadelphia crime family",
       "relationship": "other",
       "detail": "sub-faction",
-      "context": "The Stanfa faction was a faction within the Philadelphia crime family loyal to boss John Stanfa.",
-      "time_period": "early 1990s"
+      "context": "Stanfa faction was a faction within the Philadelphia crime family.",
+      "time_period": "1990s"
     },
     {
       "source": "Merlino faction",
       "target": "Philadelphia crime family",
       "relationship": "other",
       "detail": "sub-faction",
-      "context": "The Merlino faction was a faction within the Philadelphia crime family led by Joey Merlino.",
-      "time_period": "early 1990s"
+      "context": "Merlino faction was a faction within the Philadelphia crime family.",
+      "time_period": "1990s"
     },
     {
       "source": "Young Turks",
@@ -363,17 +373,17 @@
     {
       "source": "Philadelphia crime family",
       "target": "Lucchese crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Jackie DiNorscio defected to Lucchese family due to internal feud in Philadelphia.",
-      "time_period": "2000s"
+      "relationship": "other",
+      "detail": "defection",
+      "context": "Jackie DiNorscio defected from Philadelphia to Lucchese due to internal feud.",
+      "time_period": "2006"
     },
     {
       "source": "Philadelphia crime family",
       "target": "Bufalino crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "Listed as ally in infobox.",
       "time_period": null
     },
     {
@@ -381,7 +391,7 @@
       "target": "DeCavalcante crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "Listed as ally in infobox.",
       "time_period": null
     },
     {
@@ -389,7 +399,7 @@
       "target": "Detroit Partnership",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "Listed as ally in infobox.",
       "time_period": null
     },
     {
@@ -397,7 +407,7 @@
       "target": "Pittsburgh crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "Listed as ally in infobox.",
       "time_period": null
     },
     {
@@ -405,7 +415,7 @@
       "target": "10th & Oregon Crew",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "Listed as ally in infobox.",
       "time_period": null
     },
     {
@@ -413,7 +423,7 @@
       "target": "K&A Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "Listed as ally in infobox.",
       "time_period": null
     },
     {
@@ -421,7 +431,7 @@
       "target": "Philadelphia Greek Mob",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "Listed as ally in infobox.",
       "time_period": null
     },
     {
@@ -429,7 +439,7 @@
       "target": "Warlocks Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "Listed as ally in infobox.",
       "time_period": null
     },
     {
@@ -437,16 +447,24 @@
       "target": "Hells Angels Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as a rival in the infobox.",
+      "context": "Listed as rival in infobox.",
       "time_period": null
     },
     {
-      "source": "National Crime Syndicate",
-      "target": "Philadelphia crime family",
+      "source": "Philadelphia crime family",
+      "target": "National Crime Syndicate",
       "relationship": "other",
-      "detail": "negotiation",
-      "context": "Meyer Lansky of the National Crime Syndicate sent Philadelphia members to negotiate with the Kray twins.",
+      "detail": "affiliation",
+      "context": "Meyer Lansky, a leader of the National Crime Syndicate, negotiated with Kray twins on behalf of Philadelphia family.",
       "time_period": "1960s"
+    },
+    {
+      "source": "Philadelphia crime family",
+      "target": "DiMeo crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "In video game The Sopranos: Road to Respect, the Philadelphia family (Buscetta) is enemy of the DiMeo/Soprano family.",
+      "time_period": "2006"
     }
   ],
   "source_file": "Philadelphia_crime_family"

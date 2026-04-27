@@ -28,7 +28,7 @@
       "original_text_name": "Five Families of New York City",
       "aliases": [],
       "type": "mafia",
-      "context": "The five major Mafia families in New York City, mentioned as a contrast to the Outfit's unified structure.",
+      "context": "The five major Mafia families in New York City, contrasted with the unified Chicago Outfit.",
       "time_period": "1930s-present"
     },
     {
@@ -36,7 +36,7 @@
       "original_text_name": "Black Hand organizations",
       "aliases": [],
       "type": "other",
-      "context": "Italian extortion gangs in Little Italy, Chicago, active in early 20th century.",
+      "context": "Early Italian extortion gangs in Chicago's Little Italy, active before the Outfit's rise.",
       "time_period": "late 19th-early 20th century"
     },
     {
@@ -46,8 +46,8 @@
         "North Siders"
       ],
       "type": "gang",
-      "context": "Mixed-ethnicity street gang based in Chicago's North Side, rivals of the Outfit during Prohibition.",
-      "time_period": "1920s-1930s"
+      "context": "Rival gang led by Dean O'Banion, Hymie Weiss, Vincent Drucci, and Bugs Moran; fought the Outfit during Prohibition.",
+      "time_period": "1910s-1930s"
     },
     {
       "standard_name": "Genna brothers",
@@ -56,7 +56,7 @@
         "Terrible Genna brothers"
       ],
       "type": "gang",
-      "context": "Sicilian gang allied with Torrio, known for ruthlessness, operated in Chicago.",
+      "context": "Sicilian gang allied with Torrio, known for ruthlessness; encroached on North Side territory.",
       "time_period": "1920s"
     },
     {
@@ -66,14 +66,6 @@
       "type": "gang",
       "context": "Violent youth gang in Chicago; many members later joined the Outfit.",
       "time_period": "1920s-1940s"
-    },
-    {
-      "standard_name": "National Crime Syndicate",
-      "original_text_name": "National Crime Syndicate",
-      "aliases": [],
-      "type": "other",
-      "context": "Umbrella organization of American crime families; dealt with Paul Ricca as Outfit leader.",
-      "time_period": "1930s-1960s"
     },
     {
       "standard_name": "Outlaws Motorcycle Club",
@@ -313,7 +305,7 @@
       "original_text_name": "Aryan Brotherhood",
       "aliases": [],
       "type": "gang",
-      "context": "White supremacist prison gang in the United States.",
+      "context": "Prison gang and organized crime syndicate in the United States.",
       "time_period": null
     },
     {
@@ -327,7 +319,9 @@
     {
       "standard_name": "Outlaws MC",
       "original_text_name": "Outlaws MC",
-      "aliases": [],
+      "aliases": [
+        "Outlaws Motorcycle Club"
+      ],
       "type": "motorcycle_club",
       "context": "Outlaw motorcycle club based in the United States.",
       "time_period": null
@@ -337,17 +331,33 @@
     {
       "source": "Chicago Outfit",
       "target": "American Mafia",
-      "relationship": "alliance",
-      "detail": null,
+      "relationship": "other",
+      "detail": "part of",
       "context": "The Outfit was consolidated into the larger American Mafia under Capone's leadership.",
       "time_period": "1920s-present"
+    },
+    {
+      "source": "Chicago Outfit",
+      "target": "Five Families",
+      "relationship": "other",
+      "detail": "contrasted with",
+      "context": "Unlike the Five Families, the Outfit has been a unified faction since its conception.",
+      "time_period": null
+    },
+    {
+      "source": "Chicago Outfit",
+      "target": "Black Hand",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Colosimo's organization encroached on Black Hand criminal activity.",
+      "time_period": "early 1900s-1910s"
     },
     {
       "source": "Chicago Outfit",
       "target": "North Side Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Bloody gang wars during Prohibition for control of illegal alcohol distribution.",
+      "context": "Bloody gang wars during Prohibition, including the Saint Valentine's Day Massacre.",
       "time_period": "1920s-1930s"
     },
     {
@@ -355,32 +365,16 @@
       "target": "Genna brothers",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Genna brothers were allied with Torrio's Outfit against the North Side Gang.",
+      "context": "The Genna brothers were allied with Torrio and put pressure on the North Side Gang.",
       "time_period": "1920s"
     },
     {
       "source": "Chicago Outfit",
       "target": "Forty-Two Gang",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Outfit recruited members from the Forty-Two Gang, including future leaders Giancana and DeStefano.",
-      "time_period": "1940s"
-    },
-    {
-      "source": "Chicago Outfit",
-      "target": "National Crime Syndicate",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Outfit leaders like Paul Ricca were key figures in the National Crime Syndicate.",
-      "time_period": "1930s-1960s"
-    },
-    {
-      "source": "Chicago Outfit",
-      "target": "Five Families",
       "relationship": "other",
-      "detail": "contrast",
-      "context": "The text contrasts the Outfit's unified structure with the Five Families' factional nature.",
-      "time_period": null
+      "detail": "recruited from",
+      "context": "The Outfit began bringing in members of the Forty-Two Gang, including future leaders like Giancana.",
+      "time_period": "1940s"
     },
     {
       "source": "Chicago Outfit",
@@ -402,23 +396,23 @@
       "source": "Chicago Outfit",
       "target": "12th Street Players",
       "relationship": "other",
-      "detail": "recruitment",
-      "context": "Paul Carparelli, former 12th Street Players member, became a Chicago Outfit soldier.",
+      "detail": "member recruitment",
+      "context": "Paul Carparelli, former member of 12th Street Players, became a Chicago Outfit soldier.",
       "time_period": null
     },
     {
       "source": "Chicago Outfit",
       "target": "C-Notes",
       "relationship": "other",
-      "detail": "recruitment",
-      "context": "Robert Panozzo, former C-Notes member, became a Chicago Outfit soldier.",
+      "detail": "member recruitment",
+      "context": "Robert Panozzo, former member of C-Notes, became a Chicago Outfit soldier.",
       "time_period": null
     },
     {
       "source": "Chicago Outfit",
       "target": "P-K street crew",
       "relationship": "other",
-      "detail": "affiliation",
+      "detail": "member affiliation",
       "context": "P-K street crew leader Robert Panozzo Sr. is a Chicago Outfit soldier.",
       "time_period": null
     },
@@ -426,29 +420,39 @@
       "source": "Chicago Outfit",
       "target": "Genovese family",
       "relationship": "other",
-      "detail": "hostile relations",
-      "context": "Louis Eboli, son of Genovese acting boss, was prevented by Outfit boss Accardo from avenging his father's murder.",
-      "time_period": "1972"
+      "detail": "family connection",
+      "context": "Louis Eboli, son of Genovese acting boss Thomas Eboli, was a soldier in the Outfit.",
+      "time_period": "1961-1987"
     },
     {
       "source": "Chicago Outfit",
       "target": "Balistrieri family",
       "relationship": "other",
       "detail": "takeover",
-      "context": "Outfit expanded into Milwaukee as Balistrieri family declined in the 1990s.",
+      "context": "The Outfit expanded into Milwaukee as the Balistrieri family declined.",
       "time_period": "1990s"
     },
     {
       "source": "Chicago Outfit",
       "target": "Hole in the Wall gang",
       "relationship": "alliance",
+      "detail": null,
       "context": "Frank Cullotta was an associate of the Outfit and member of the Hole in the Wall gang.",
+      "time_period": null
+    },
+    {
+      "source": "Chicago Outfit",
+      "target": "Grand Avenue Crew",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Grand Avenue Crew is a faction within the Chicago Outfit.",
       "time_period": null
     },
     {
       "source": "Grand Avenue Crew",
       "target": "P-K street crew",
       "relationship": "alliance",
+      "detail": null,
       "context": "Jeff Hollingshead was an associate of the Grand Avenue Crew and a member of the P-K street crew.",
       "time_period": null
     },
@@ -456,49 +460,56 @@
       "source": "Chicago Outfit",
       "target": "26th Street crew",
       "relationship": "alliance",
-      "context": "The 26th Street crew is a faction of the Chicago Outfit.",
+      "detail": null,
+      "context": "The 26th Street crew is a faction within the Chicago Outfit.",
       "time_period": null
     },
     {
       "source": "Chicago Outfit",
       "target": "Chicago Heights crew",
       "relationship": "alliance",
-      "context": "The Chicago Heights crew was a faction of the Outfit, later amalgamated by the 26th Street crew.",
+      "detail": null,
+      "context": "The Chicago Heights crew was a faction later amalgamated by the 26th Street crew.",
       "time_period": null
     },
     {
       "source": "Chicago Outfit",
       "target": "Cicero crew",
       "relationship": "alliance",
-      "context": "The Cicero crew is a faction of the Chicago Outfit.",
+      "detail": null,
+      "context": "The Cicero crew is a faction within the Chicago Outfit.",
       "time_period": null
     },
     {
       "source": "Chicago Outfit",
       "target": "Elmwood Park crew",
       "relationship": "alliance",
-      "context": "The Elmwood Park crew is a faction of the Chicago Outfit.",
+      "detail": null,
+      "context": "The Elmwood Park crew is a faction within the Chicago Outfit.",
       "time_period": null
     },
     {
       "source": "Chicago Outfit",
       "target": "Melrose Park crew",
       "relationship": "alliance",
-      "context": "The Melrose Park crew was a faction of the Chicago Outfit, now defunct.",
+      "detail": null,
+      "context": "The Melrose Park crew was a faction within the Chicago Outfit, now defunct.",
       "time_period": null
     },
     {
       "source": "Chicago Outfit",
       "target": "North Side crew",
       "relationship": "alliance",
-      "context": "The North Side crew was a faction of the Chicago Outfit, now defunct.",
+      "detail": null,
+      "context": "The North Side crew was a faction within the Chicago Outfit, now defunct.",
       "time_period": null
     },
     {
       "source": "Chicago Outfit",
       "target": "Taylor Street Crew",
       "relationship": "alliance",
-      "context": "The Taylor Street Crew was a faction of the Chicago Outfit, now defunct.",
+      "detail": null,
+      "context": "The Taylor Street Crew was a faction within the Chicago Outfit, now defunct.",
       "time_period": null
     },
     {
@@ -640,6 +651,14 @@
     {
       "source": "Chicago Outfit",
       "target": "Dixie Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally of the Chicago Outfit.",
+      "time_period": null
+    },
+    {
+      "source": "Chicago Outfit",
+      "target": "Forty-Two Gang",
       "relationship": "alliance",
       "detail": null,
       "context": "Listed as an ally of the Chicago Outfit.",

@@ -1,0 +1,269 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Slovak mafia",
+      "original_text_name": "Slovak mafia",
+      "aliases": [
+        "Slovenská mafia"
+      ],
+      "type": "mafia",
+      "context": "Umbrella term for various organized crime groups in Slovakia, active in security, construction, and nightlife.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Russian mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Powerful organized crime group from Russia, limits Slovak mafia activities.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ukrainian mafia",
+      "original_text_name": "Ukrainian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Organized crime group from Ukraine, limits Slovak mafia activities.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Chechen mafia",
+      "original_text_name": "Chechen mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Organized crime group from Chechnya, limits Slovak mafia activities.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Balkan organized crime groups",
+      "original_text_name": "Balkan groups",
+      "aliases": [
+        "Balkan organized crime groups"
+      ],
+      "type": "other",
+      "context": "Various criminal groups from the Balkans controlling much of the heroin trade.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Černákovci",
+      "original_text_name": "Černákovci",
+      "aliases": [],
+      "type": "clan",
+      "context": "Family founded in early 1990s in Banská Bystrica by Mikuláš Černák, considered 'boss of all bosses' after 1997 war.",
+      "time_period": "early 1990s-present"
+    },
+    {
+      "standard_name": "Takáčovci",
+      "original_text_name": "Takáčovci",
+      "aliases": [],
+      "type": "clan",
+      "context": "Family founded in early 1990s in Bratislava by Ján Takáč, known as 'the group that outlived them all'.",
+      "time_period": "early 1990s-present"
+    },
+    {
+      "standard_name": "Sýkorovci",
+      "original_text_name": "Sýkorovci",
+      "aliases": [
+        "Borbélyovci"
+      ],
+      "type": "clan",
+      "context": "Family founded in early 1990s in Bratislava by Miroslav Sýkora, oldest mafia group in Slovakia.",
+      "time_period": "early 1990s-present"
+    },
+    {
+      "standard_name": "Holubovci",
+      "original_text_name": "Holubovci",
+      "aliases": [],
+      "type": "clan",
+      "context": "Family founded in early 1990s in eastern Slovakia by Róbert Holub, based in Košice.",
+      "time_period": "early 1990s-present"
+    },
+    {
+      "standard_name": "Pápayovci",
+      "original_text_name": "Pápayovci",
+      "aliases": [],
+      "type": "clan",
+      "context": "Family founded in 1997 in Dunajská Streda by Tibor Pápay, involved in violent and economic crimes.",
+      "time_period": "1997-1999"
+    },
+    {
+      "standard_name": "Sátorovci",
+      "original_text_name": "Sátorovci",
+      "aliases": [],
+      "type": "clan",
+      "context": "Family founded in late 1990s in Dunajská Streda by Ľudovít Sátor, enemies of Pápay gang, considered most brutal.",
+      "time_period": "late 1990s-2010"
+    },
+    {
+      "standard_name": "Jakšíkovci",
+      "original_text_name": "Jakšíkovci",
+      "aliases": [],
+      "type": "clan",
+      "context": "Family founded by brothers Ivan and Libor Jakšík, worked with police and owned bars.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Piťovci",
+      "original_text_name": "Piťovci",
+      "aliases": [],
+      "type": "clan",
+      "context": "Family founded in early 2000s in Lamač, Bratislava by Juraj Ondrejčák a.k.a. Piťo, used Mercedes G vehicles.",
+      "time_period": "early 2000s-present"
+    },
+    {
+      "standard_name": "Mafiánske dvojičky",
+      "original_text_name": "Mafiánske dvojičky",
+      "aliases": [],
+      "type": "clan",
+      "context": "Family founded in early 2010s in Považská Bystrica by twin brothers Dávid and Dominik Krátki, drug trafficking group.",
+      "time_period": "early 2010s-2020s"
+    },
+    {
+      "standard_name": "Albanian mafia",
+      "original_text_name": "Albanian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Rival of Slovak mafia according to infobox.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Russian mafia",
+      "target": "Slovak mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Russian mafia limits activities of Slovak mafia in Slovakia.",
+      "time_period": null
+    },
+    {
+      "source": "Ukrainian mafia",
+      "target": "Slovak mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ukrainian mafia limits activities of Slovak mafia in Slovakia.",
+      "time_period": null
+    },
+    {
+      "source": "Chechen mafia",
+      "target": "Slovak mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Chechen mafia limits activities of Slovak mafia in Slovakia.",
+      "time_period": null
+    },
+    {
+      "source": "Balkan organized crime groups",
+      "target": "Slovak mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Balkan groups control heroin trade and limit Slovak mafia activities.",
+      "time_period": null
+    },
+    {
+      "source": "Černákovci",
+      "target": "Slovak mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Černákovci is a group within the Slovak mafia.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Takáčovci",
+      "target": "Slovak mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Takáčovci is a group within the Slovak mafia.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Sýkorovci",
+      "target": "Slovak mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sýkorovci is a group within the Slovak mafia.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Holubovci",
+      "target": "Slovak mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Holubovci is a group within the Slovak mafia.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Pápayovci",
+      "target": "Slovak mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pápayovci is a group within the Slovak mafia.",
+      "time_period": "1997-1999"
+    },
+    {
+      "source": "Sátorovci",
+      "target": "Slovak mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sátorovci is a group within the Slovak mafia.",
+      "time_period": "late 1990s-2010"
+    },
+    {
+      "source": "Jakšíkovci",
+      "target": "Slovak mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Jakšíkovci is a group within the Slovak mafia.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Piťovci",
+      "target": "Slovak mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Piťovci is a group within the Slovak mafia.",
+      "time_period": "early 2000s-present"
+    },
+    {
+      "source": "Mafiánske dvojičky",
+      "target": "Slovak mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mafiánske dvojičky is a group within the Slovak mafia.",
+      "time_period": "early 2010s-2020s"
+    },
+    {
+      "source": "Pápayovci",
+      "target": "Sýkorovci",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pápay and his group began to cooperate with Miroslav Sýkor and his group in 1995.",
+      "time_period": "1995-1999"
+    },
+    {
+      "source": "Pápayovci",
+      "target": "Černákovci",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pápay cooperated with Mikuláš Černák and his group, including a vacation together.",
+      "time_period": "1995-1999"
+    },
+    {
+      "source": "Sátorovci",
+      "target": "Pápayovci",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sátorovci were enemies of the Pápay gang and eliminated them in 1999.",
+      "time_period": "late 1990s-1999"
+    },
+    {
+      "source": "Albanian mafia",
+      "target": "Slovak mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Albanian mafia is listed as a rival in the infobox.",
+      "time_period": null
+    }
+  ],
+  "source_file": "Slovak_mafia"
+}

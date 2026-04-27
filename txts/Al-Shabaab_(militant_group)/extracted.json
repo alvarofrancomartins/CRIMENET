@@ -85,47 +85,27 @@
       "time_period": "2015-present"
     },
     {
-      "standard_name": "AQIM",
-      "original_text_name": "AQIM",
-      "aliases": [
-        "Al-Qaeda in the Islamic Maghreb"
-      ],
-      "type": "terrorist_organization",
-      "context": "Al-Qaeda affiliate in the Maghreb, has ties with Al-Shabaab.",
-      "time_period": "2007-present"
-    },
-    {
-      "standard_name": "AQAP",
-      "original_text_name": "AQAP",
-      "aliases": [
-        "Al-Qaeda in the Arabian Peninsula"
-      ],
-      "type": "terrorist_organization",
-      "context": "Al-Qaeda affiliate in Yemen, has ties with Al-Shabaab.",
-      "time_period": "2009-present"
-    },
-    {
       "standard_name": "Hizbul Islam",
       "original_text_name": "Hizbul Islam",
       "aliases": [],
-      "type": "terrorist_organization",
-      "context": "Somali militant group that merged with and later split from Al-Shabaab.",
-      "time_period": "2009-2014"
+      "type": "militia",
+      "context": "Smaller Somali militant group that merged with Al-Shabaab and later split.",
+      "time_period": "2000s-2012"
     },
     {
-      "standard_name": "Al-Hijra",
+      "standard_name": "al-Hijra",
       "original_text_name": "al-Hijra",
       "aliases": [],
-      "type": "terrorist_organization",
-      "context": "Al-Shabaab's official Kenyan wing from 2012.",
+      "type": "militia",
+      "context": "Al-Shabaab's official Kenyan wing from 2012, used for minor attacks in Kenya.",
       "time_period": "2012-2013"
     },
     {
       "standard_name": "Jaysh Ayman",
       "original_text_name": "Jaysh Ayman",
       "aliases": [],
-      "type": "terrorist_organization",
-      "context": "Al-Shabaab unit established in 2013 based in Boni Forest, Kenya.",
+      "type": "militia",
+      "context": "Al-Shabaab unit established in 2013 based in Boni Forest, Kenya, comprising Somali and Kenyan fighters.",
       "time_period": "2013-present"
     },
     {
@@ -225,50 +205,18 @@
     },
     {
       "source": "Al-Shabaab",
-      "target": "AQIM",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Al-Shabaab has forged ties with AQIM.",
-      "time_period": null
-    },
-    {
-      "source": "Al-Shabaab",
-      "target": "AQAP",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Al-Shabaab has forged ties with AQAP.",
-      "time_period": null
-    },
-    {
-      "source": "Al-Shabaab",
-      "target": "Islamic Courts Union",
+      "target": "Hizbul Islam",
       "relationship": "other",
-      "detail": "formed from",
-      "context": "Al-Shabaab formed as a youth militia within the Islamic Courts Union's military wing.",
-      "time_period": "mid-2000s"
-    },
-    {
-      "source": "Al-Shabaab",
-      "target": "Hizbul Islam",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Hizbul Islam suffered military defeats against Al-Shabaab before merging.",
-      "time_period": "2010"
-    },
-    {
-      "source": "Al-Shabaab",
-      "target": "Hizbul Islam",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Hizbul Islam was officially absorbed by Al-Shabaab in December 2010.",
+      "detail": "merger and split",
+      "context": "Hizbul Islam merged with Al-Shabaab in December 2010 after military defeats, then split in September 2012.",
       "time_period": "2010-2012"
     },
     {
       "source": "Al-Shabaab",
-      "target": "Al-Hijra",
+      "target": "al-Hijra",
       "relationship": "alliance",
       "detail": null,
-      "context": "Al-Hijra served as Al-Shabaab's official Kenyan wing from 2012.",
+      "context": "al-Hijra was Al-Shabaab's official Kenyan wing from 2012.",
       "time_period": "2012-2013"
     },
     {
@@ -276,7 +224,7 @@
       "target": "Jaysh Ayman",
       "relationship": "alliance",
       "detail": null,
-      "context": "Jaysh Ayman is a unit established by Al-Shabaab in 2013.",
+      "context": "Jaysh Ayman is an Al-Shabaab unit established in 2013, based in Boni Forest, Kenya.",
       "time_period": "2013-present"
     },
     {

@@ -19,7 +19,6 @@ if an alliance and a rivalry exist between the same pair, they compete and
 the latest one wins.
 
 Usage:
-    python 5_dedup_edges_with_llm.py
     python 5_dedup_edges_with_llm.py --input crimenet.json
     python 5_dedup_edges_with_llm.py --input crimenet.json --dry-run
 """
@@ -29,6 +28,7 @@ import re
 import argparse
 import logging
 import time
+from datetime import datetime
 from pathlib import Path
 from collections import defaultdict
 
@@ -46,6 +46,8 @@ MODEL = "deepseek-chat"
 RETRIES = 3
 DELAY = 0.3
 
+CURRENT_YEAR = datetime.now().year
+
 
 def load_key(path="deepseek_api_key.txt"):
     return Path(path).read_text("utf-8").strip()
@@ -53,12 +55,10 @@ def load_key(path="deepseek_api_key.txt"):
 
 # ── Date parsing ──────────────────────────────────────────────────────────
 
-# Matches a 4-digit year between 1700 and 2099. Captures every year in the
-# string and we use the maximum as the "end date" of the time period.
+# Matches a 4-digit year between 1700 and 2099.
 YEAR_RE = re.compile(r"\b(1[7-9]\d{2}|20\d{2})\b")
 
-# Words that signal "still active" / "ongoing" — we treat these as the
-# current year so a "since 2010" edge beats a "1980-1995" edge.
+# Words that signal "still active" / "ongoing" — treated as the current year.
 PRESENT_TOKENS = {
     "present", "today", "current", "currently", "now", "ongoing",
     "active", "still active",
@@ -69,7 +69,7 @@ def parse_end_year(time_period):
     """Extract the latest end year from a time_period string.
 
     Returns an int (year) or None if nothing parseable.
-    A "present" token is treated as 9999 so it always beats any explicit year.
+    A "present" token is treated as the current year.
     """
     if not time_period:
         return None
@@ -77,10 +77,8 @@ def parse_end_year(time_period):
     if not s or s in {"null", "none", "unknown", "n/a"}:
         return None
 
-    # If the string mentions present/ongoing, treat as currently-active.
-    for tok in PRESENT_TOKENS:
-        if tok in s:
-            return 9999
+    if any(tok in s for tok in PRESENT_TOKENS):
+        return CURRENT_YEAR
 
     years = YEAR_RE.findall(s)
     if not years:
@@ -108,7 +106,7 @@ def ask_llm_to_pick(api_key, source, target, candidates):
     for i, c in enumerate(candidates):
         tp = c.get("time_period") or "unknown"
         rel = c.get("type", "")
-        desc = " ".join(c.get("descriptions", []))[:300]   # truncate long descriptions
+        desc = " ".join(c.get("descriptions", []))[:300]
         lines.append(f"[{i}] type={rel} | time_period={tp}")
         lines.append(f"    description: {desc}")
         lines.append("")
@@ -183,7 +181,6 @@ def pair_key(source, target):
 def dedup_edges(relations, api_key, dry_run=False):
     """Deduplicate edges in `relations`. Returns the deduplicated list."""
 
-    # Group edges by unordered pair
     groups = defaultdict(list)
     for edge in relations:
         groups[pair_key(edge["source"], edge["target"])].append(edge)
@@ -212,18 +209,16 @@ def dedup_edges(relations, api_key, dry_run=False):
 
         source, target = pair
 
-        # Try programmatic resolution first
         with_dates = [(i, parse_end_year(e.get("time_period"))) for i, e in enumerate(edges)]
         all_have_dates = all(yr is not None for _, yr in with_dates)
 
         if all_have_dates:
-            # All edges have parseable dates → pick the latest end year
             chosen_idx = max(with_dates, key=lambda x: x[1])[0]
+            chosen_year = with_dates[chosen_idx][1]
             n_resolved_by_date += 1
             log.info(f"  📅 {source} ↔ {target}: {len(edges)} edges, "
-                     f"chose by date (year {with_dates[chosen_idx][1]})")
+                     f"chose by date (year {chosen_year})")
         else:
-            # At least one edge is undated → ask the LLM
             log.info(f"  🤖 {source} ↔ {target}: {len(edges)} edges, asking LLM...")
             for i, e in enumerate(edges):
                 log.info(f"     [{i}] {e['type']} | {e.get('time_period') or 'unknown'}")
@@ -232,7 +227,6 @@ def dedup_edges(relations, api_key, dry_run=False):
             log.info(f"     ✓ chose [{chosen_idx}] ({edges[chosen_idx]['type']}, "
                      f"{edges[chosen_idx].get('time_period') or 'unknown'}) — {reason}")
 
-        # Merge dropped into survivor
         survivor = edges[chosen_idx]
         for i, dropped in enumerate(edges):
             if i == chosen_idx:
@@ -278,7 +272,6 @@ def main():
         log.info("Dry run — not writing output file.")
         return
 
-    # Backup before overwriting
     backup_path = in_path.with_suffix(in_path.suffix + ".bak")
     backup_path.write_text(in_path.read_text("utf-8"), encoding="utf-8")
     log.info(f"Backed up original to {backup_path}")

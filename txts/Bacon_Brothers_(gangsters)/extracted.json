@@ -4,6 +4,7 @@
       "standard_name": "United Nations gang",
       "original_text_name": "United Nations gang",
       "aliases": [
+        "UN",
         "UN gang"
       ],
       "type": "gang",
@@ -66,34 +67,8 @@
         "Wolfpack"
       ],
       "type": "other",
-      "context": "Multi-ethnic criminal alliance formed in 2010, including Hells Angels, Independent Soldiers, and other groups.",
+      "context": "Multi-ethnic criminal alliance formed in 2010, including Hells Angels, Independent Soldiers, and others.",
       "time_period": "2010-2012"
-    },
-    {
-      "standard_name": "United Nations",
-      "original_text_name": "United Nations",
-      "aliases": [
-        "UN"
-      ],
-      "type": "gang",
-      "context": "Street gang based in Vancouver, involved in drug trafficking and organized crime.",
-      "time_period": "1990s-present"
-    },
-    {
-      "standard_name": "Alkhalil family",
-      "original_text_name": "Alkhalil family",
-      "aliases": [],
-      "type": "clan",
-      "context": "Criminal family from Montreal and Ottawa, involved in drug trafficking.",
-      "time_period": null
-    },
-    {
-      "standard_name": "West End Gang",
-      "original_text_name": "West End Gang",
-      "aliases": [],
-      "type": "gang",
-      "context": "Montreal-based organized crime group involved in drug trafficking and other crimes.",
-      "time_period": "1960s-present"
     },
     {
       "standard_name": "Dhak-Duhre group",
@@ -102,16 +77,16 @@
         "Dhak-Duhre gang"
       ],
       "type": "gang",
-      "context": "Criminal group from British Columbia, allied with United Nations gang.",
+      "context": "Criminal group based in British Columbia, involved in drug trafficking and violence.",
       "time_period": "2000s-2012"
     },
     {
-      "standard_name": "Odd Squad",
-      "original_text_name": "Odd Squad",
+      "standard_name": "West End Gang",
+      "original_text_name": "West End Gang",
       "aliases": [],
-      "type": "other",
-      "context": "Youth engagement unit of the RCMP, not a criminal organization.",
-      "time_period": null
+      "type": "gang",
+      "context": "Montreal-based organized crime group involved in drug trafficking.",
+      "time_period": "1970s-present"
     },
     {
       "standard_name": "Bacon Brothers",
@@ -216,38 +191,6 @@
       "time_period": "2008-2009"
     },
     {
-      "source": "Wolfpack Alliance",
-      "target": "Hells Angels",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Wolfpack Alliance included Hells Angels member Larry Amero as senior partner.",
-      "time_period": "2010-2011"
-    },
-    {
-      "source": "Wolfpack Alliance",
-      "target": "Independent Soldiers",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Independent Soldiers members James Riach and Randy Naicker were part of Wolfpack Alliance.",
-      "time_period": "2010-2012"
-    },
-    {
-      "source": "Wolfpack Alliance",
-      "target": "Alkhalil family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Alkhalil family was a member of the Wolfpack Alliance.",
-      "time_period": "2010-2011"
-    },
-    {
-      "source": "Wolfpack Alliance",
-      "target": "West End Gang",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Shane Maloney of the West End Gang was part of Wolfpack Alliance.",
-      "time_period": "2010-2011"
-    },
-    {
       "source": "Independent Soldiers",
       "target": "Hells Angels",
       "relationship": "alliance",
@@ -256,19 +199,35 @@
       "time_period": "2000s-present"
     },
     {
-      "source": "Independent Soldiers",
-      "target": "Red Scorpions",
+      "source": "Wolfpack Alliance",
+      "target": "Hells Angels",
       "relationship": "alliance",
       "detail": null,
-      "context": "Independent Soldiers lured Bacon Brothers away from UN to Red Scorpions.",
-      "time_period": "2006"
+      "context": "Hells Angels member Larry Amero was a senior partner in the Wolfpack Alliance.",
+      "time_period": "2010-2012"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Independent Soldiers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Independent Soldiers members James Riach and Randy Naicker were part of the Wolfpack Alliance.",
+      "time_period": "2010-2012"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "West End Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Shane Maloney of the West End Gang was a member of the Wolfpack Alliance.",
+      "time_period": "2010-2012"
     },
     {
       "source": "Dhak-Duhre group",
-      "target": "United Nations",
+      "target": "United Nations gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Dhak-Duhre group was allied with the United Nations gang.",
+      "context": "The Dhak-Duhre group was allied with the United Nations gang.",
       "time_period": "2000s-2010"
     },
     {
@@ -276,8 +235,8 @@
       "target": "Dhak-Duhre group",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Wolfpack Alliance was responsible for murder of Gurmit Dhak of Dhak-Duhre group.",
-      "time_period": "2010-2011"
+      "context": "Wolfpack Alliance was responsible for the murder of Gurmit Dhak of the Dhak-Duhre group, leading to a violent feud.",
+      "time_period": "2010-2012"
     },
     {
       "source": "Bacon Brothers",

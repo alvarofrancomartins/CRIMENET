@@ -42,7 +42,7 @@
       "original_text_name": "Brims",
       "aliases": [],
       "type": "gang",
-      "context": "A street gang that allied with Piru Street Boys to form the Bloods.",
+      "context": "One of the smaller street gangs that allied with Piru Street Boys to form the Bloods.",
       "time_period": "1972-present"
     },
     {
@@ -50,7 +50,7 @@
       "original_text_name": "Bishops",
       "aliases": [],
       "type": "gang",
-      "context": "A street gang that allied with Piru Street Boys to form the Bloods.",
+      "context": "One of the smaller street gangs that allied with Piru Street Boys to form the Bloods.",
       "time_period": "1972-present"
     },
     {
@@ -58,7 +58,7 @@
       "original_text_name": "Denver Lanes",
       "aliases": [],
       "type": "gang",
-      "context": "A street gang that allied with Piru Street Boys to form the Bloods.",
+      "context": "One of the smaller street gangs that allied with Piru Street Boys to form the Bloods.",
       "time_period": "1972-present"
     },
     {
@@ -66,7 +66,7 @@
       "original_text_name": "Lueders Park Piru",
       "aliases": [],
       "type": "gang",
-      "context": "A Piru set that was once part of the same gang as Mob Piru, later became rivals.",
+      "context": "A Piru set that was originally one gang with Mob Piru before splitting, later became rivals.",
       "time_period": "unknown-present"
     },
     {
@@ -82,7 +82,7 @@
       "original_text_name": "Bad Boy Records",
       "aliases": [],
       "type": "other",
-      "context": "A record label whose affiliate killed Jake Robles, a Mob Piru member and Suge Knight's bodyguard.",
+      "context": "A record label whose affiliate was involved in the shooting of Jake Robles.",
       "time_period": "1993-present"
     },
     {
@@ -121,50 +121,50 @@
   "edges": [
     {
       "source": "Mob Piru",
+      "target": "Piru Street Boys",
+      "relationship": "other",
+      "detail": "descendant",
+      "context": "Mob Piru is a set that evolved from the Piru Street Boys alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Mob Piru",
       "target": "Bloods",
       "relationship": "alliance",
       "detail": null,
-      "context": "Mob Piru is a set of the Piru gang alliance, which is part of the larger Bloods alliance.",
+      "context": "Mob Piru is a set within the Bloods alliance.",
       "time_period": "1970s-present"
     },
     {
       "source": "Piru Street Boys",
       "target": "Crips",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Piru Street Boys were initially associated with the Crips according to some sources.",
+      "relationship": "other",
+      "detail": "former association",
+      "context": "Piru Street Boys were initially associated with Crips but later had a falling out.",
       "time_period": "1969-1972"
-    },
-    {
-      "source": "Piru Street Boys",
-      "target": "Crips",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Piru Street Boys later had a falling out with the Crips or were victimized by them.",
-      "time_period": "1972-present"
     },
     {
       "source": "Piru Street Boys",
       "target": "Bloods",
       "relationship": "alliance",
       "detail": null,
-      "context": "Piru Street Boys formed an alliance with Brims, Bishops, and Denver Lanes to create the Bloods.",
+      "context": "Piru Street Boys formed the Bloods alliance with Brims, Bishops, and Denver Lanes.",
       "time_period": "1972-present"
     },
     {
       "source": "Mob Piru",
       "target": "Lueders Park Piru",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Mob Piru and Lueders Park Piru were previously one gang and were allies.",
-      "time_period": "until 2009"
+      "relationship": "other",
+      "detail": "former unity",
+      "context": "Mob Piru and Lueders Park Piru were previously one gang until they split.",
+      "time_period": "before split"
     },
     {
       "source": "Mob Piru",
       "target": "Lueders Park Piru",
       "relationship": "rivalry",
       "detail": null,
-      "context": "A rivalry developed after a Lueders Park Piru member was murdered in April 2009, leading to shootings between 2009 and 2013.",
+      "context": "A rivalry developed after a Lueders Park Piru member was murdered in 2009, leading to shootings.",
       "time_period": "2009-2013"
     },
     {
@@ -172,16 +172,8 @@
       "target": "Death Row Records",
       "relationship": "alliance",
       "detail": null,
-      "context": "Suge Knight hired many Mob Piru members in Death Row Records, and the label was closely affiliated with the gang.",
+      "context": "Death Row Records, co-founded by Suge Knight, employed many Mob Piru members.",
       "time_period": "1990s"
-    },
-    {
-      "source": "Mob Piru",
-      "target": "Bad Boy Records",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "A Bad Boy Records affiliate killed Jake Robles, a Mob Piru member and Suge Knight's bodyguard.",
-      "time_period": "1995"
     },
     {
       "source": "Mob Piru",

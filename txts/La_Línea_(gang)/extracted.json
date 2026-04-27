@@ -71,7 +71,7 @@
       "original_text_name": "Los Zetas",
       "aliases": [],
       "type": "cartel",
-      "context": "Former enforcers turned cartel, allied with La Línea in 2011.",
+      "context": "Former enforcers turned cartel, allied with La Línea and Beltrán-Leyva Cartel.",
       "time_period": "1999-present"
     },
     {
@@ -79,7 +79,7 @@
       "original_text_name": "Beltrán-Leyva Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Former Sinaloa allies turned rivals, possibly trained La Línea.",
+      "context": "Former Sinaloa allies turned rivals, allied with Los Zetas and possibly trained La Línea.",
       "time_period": "2000-2010"
     },
     {
@@ -87,7 +87,7 @@
       "original_text_name": "Gulf Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Former employers of Los Zetas, allied with Sinaloa Cartel.",
+      "context": "Former employers of Los Zetas, allied with Sinaloa Cartel in the New Federation.",
       "time_period": "1930s-present"
     },
     {
@@ -95,7 +95,7 @@
       "original_text_name": "La Familia Michoacana",
       "aliases": [],
       "type": "cartel",
-      "context": "Extinct cartel that allied with Sinaloa and Gulf Cartels.",
+      "context": "Extinct cartel that splintered into Knights Templar, allied with Sinaloa in the New Federation.",
       "time_period": "2006-2011"
     },
     {
@@ -185,7 +185,7 @@
       "target": "Jalisco New Generation Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "La Línea formed an alliance with CJNG in 2021 to fight Sinaloa Cartel.",
+      "context": "As of 2021, La Línea formed an alliance with CJNG to fight the Sinaloa Cartel.",
       "time_period": "2021-present"
     },
     {
@@ -217,7 +217,7 @@
       "target": "Los Zetas",
       "relationship": "alliance",
       "detail": null,
-      "context": "La Línea announced an alliance with Los Zetas in June 2011.",
+      "context": "La Línea announced an alliance with Los Zetas in June 2011 to threaten Sinaloa.",
       "time_period": "2011"
     },
     {
@@ -226,7 +226,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Beltrán-Leyva Cartel possibly trained La Línea soldiers.",
-      "time_period": "2008-2010"
+      "time_period": "2000s"
     },
     {
       "source": "La Línea",
@@ -265,16 +265,16 @@
       "target": "Gulf Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Sinaloa Cartel formed an alliance with Gulf Cartel.",
-      "time_period": "2011"
+      "context": "Sinaloa formed an alliance with Gulf Cartel as part of the New Federation.",
+      "time_period": "2010-2011"
     },
     {
       "source": "Sinaloa Cartel",
       "target": "La Familia Michoacana",
       "relationship": "alliance",
       "detail": null,
-      "context": "Sinaloa Cartel allied with La Familia Michoacana in the 'New Federation'.",
-      "time_period": "2011"
+      "context": "Sinaloa allied with La Familia Michoacana in the New Federation.",
+      "time_period": "2010-2011"
     },
     {
       "source": "Los Zetas",
@@ -282,14 +282,14 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Los Zetas had an alliance with Beltrán-Leyva Cartel.",
-      "time_period": "2011"
+      "time_period": "2000s"
     },
     {
       "source": "Beltrán-Leyva Cartel",
       "target": "South Pacific Cartel",
       "relationship": "other",
       "detail": "splintered into",
-      "context": "Beltrán-Leyva Cartel broke into South Pacific Cartel after arrests.",
+      "context": "After arrests, Beltrán-Leyva Cartel broke into South Pacific Cartel and others.",
       "time_period": "2010s"
     },
     {
@@ -297,7 +297,7 @@
       "target": "La Mano Con Ojos",
       "relationship": "other",
       "detail": "splintered into",
-      "context": "Beltrán-Leyva Cartel broke into La Mano Con Ojos after arrests.",
+      "context": "After arrests, Beltrán-Leyva Cartel broke into La Mano Con Ojos and others.",
       "time_period": "2010s"
     },
     {
@@ -305,8 +305,16 @@
       "target": "Knights Templar Cartel",
       "relationship": "other",
       "detail": "splintered into",
-      "context": "La Familia Michoacana splintered into Knights Templar Cartel.",
+      "context": "La Familia Michoacana splintered into the Knights Templar Cartel.",
       "time_period": "2011"
+    },
+    {
+      "source": "La Línea",
+      "target": "La Empresa",
+      "relationship": "other",
+      "detail": "possibly related",
+      "context": "La Empresa may be a successor or related group to La Línea.",
+      "time_period": "2020"
     }
   ],
   "source_file": "La_Línea_(gang)"

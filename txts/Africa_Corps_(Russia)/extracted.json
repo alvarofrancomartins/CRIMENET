@@ -19,8 +19,8 @@
         "PMC Wagner"
       ],
       "type": "militia",
-      "context": "Russian private military company that operated in Africa and Ukraine; largely replaced by Africa Corps.",
-      "time_period": "2014-2025"
+      "context": "Russian private military company that operated in Africa and Ukraine.",
+      "time_period": "2014-2024"
     },
     {
       "standard_name": "Bears Brigade",
@@ -35,7 +35,7 @@
       "original_text_name": "Redut",
       "aliases": [],
       "type": "militia",
-      "context": "Russian private military company; its leader involved in Africa Corps creation.",
+      "context": "Russian private military company involved in Africa operations.",
       "time_period": null
     },
     {
@@ -45,7 +45,7 @@
         "JNIM"
       ],
       "type": "terrorist_organization",
-      "context": "Islamist militant group in the Sahel; abducted Russian geologists in Niger.",
+      "context": "Islamist militant group operating in the Sahel region.",
       "time_period": "2017-present"
     },
     {
@@ -53,7 +53,7 @@
       "original_text_name": "Azawad Liberation Front",
       "aliases": [],
       "type": "militia",
-      "context": "Tuareg separatist group in Mali; shot down Africa Corps helicopter.",
+      "context": "Tuareg separatist group in Mali.",
       "time_period": null
     }
   ],
@@ -62,14 +62,15 @@
       "source": "Africa Corps",
       "target": "Wagner Group",
       "relationship": "other",
-      "detail": "successor",
-      "context": "Africa Corps subsumed and rebranded Wagner Group's operations in Africa after Wagner's leadership died.",
-      "time_period": "2023-2025"
+      "detail": "subsumed and rebranded",
+      "context": "Africa Corps took over Wagner's operations in Africa, subsuming and rebranding its structures.",
+      "time_period": "2023-2024"
     },
     {
       "source": "Africa Corps",
       "target": "Bears Brigade",
       "relationship": "alliance",
+      "detail": null,
       "context": "Africa Corps cooperates with Bears Brigade in Africa.",
       "time_period": null
     },
@@ -77,20 +78,23 @@
       "source": "Africa Corps",
       "target": "Redut",
       "relationship": "alliance",
-      "context": "Redut's leader was involved in creating Africa Corps; both are government-controlled.",
+      "detail": null,
+      "context": "Redut's leader is involved in Africa Corps creation and MoD operations.",
       "time_period": null
     },
     {
       "source": "Africa Corps",
       "target": "Jama'at Nusrat al-Islam wal-Muslimin",
       "relationship": "rivalry",
+      "detail": null,
       "context": "Africa Corps rescued hostages abducted by JNIM in Niger.",
-      "time_period": "2024-2026"
+      "time_period": null
     },
     {
       "source": "Africa Corps",
       "target": "Azawad Liberation Front",
       "relationship": "rivalry",
+      "detail": null,
       "context": "Azawad Liberation Front shot down an Africa Corps helicopter in Mali.",
       "time_period": "2026"
     }

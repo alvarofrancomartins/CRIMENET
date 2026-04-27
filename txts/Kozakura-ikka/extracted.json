@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kozakura-ikka",
+      "original_text_name": "Kozakura-ikka",
+      "aliases": [
+        "Kozakura-gumi"
+      ],
+      "type": "mafia",
+      "context": "Yakuza group based in Kagoshima, Kyushu, Japan, with about 40 members. Engages in protection racketeering, drug trafficking, and unlawful business involvement.",
+      "time_period": "1948-present"
+    },
+    {
+      "standard_name": "Hiraoka-gumi",
+      "original_text_name": "Hiraoka-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Sub-group of Kozakura-ikka; its first kumicho became the fourth president of Kozakura-ikka.",
+      "time_period": "before 1988-present"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hiraoka-gumi",
+      "target": "Kozakura-ikka",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "Hiraoka-gumi is a sub-group within Kozakura-ikka; its leader became the fourth president of the parent organization.",
+      "time_period": "before 1988-present"
+    }
+  ],
+  "source_file": "Kozakura-ikka"
+}

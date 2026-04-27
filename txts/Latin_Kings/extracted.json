@@ -30,8 +30,8 @@
       "standard_name": "Bloodline",
       "original_text_name": "Bloodline",
       "aliases": [
-        "Bloodline faction",
         "Bloodline Latin Kings",
+        "Bloodline faction",
         "New York State Bloodline"
       ],
       "type": "faction",
@@ -71,35 +71,11 @@
       "time_period": null
     },
     {
-      "standard_name": "Pagan's",
-      "original_text_name": "Pagan's",
-      "aliases": [],
-      "type": "motorcycle_club",
-      "context": "Outlaw motorcycle gang that receives narcotics from the Latin Kings.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Diablos",
-      "original_text_name": "Diablos",
-      "aliases": [],
-      "type": "motorcycle_club",
-      "context": "Motorcycle gang that receives narcotics from the Latin Kings.",
-      "time_period": null
-    },
-    {
-      "standard_name": "American Mafia",
-      "original_text_name": "American Mafia crime families",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Italian-American organized crime families that collaborated with Latin Kings on contract killings.",
-      "time_period": null
-    },
-    {
       "standard_name": "Vice Lords",
       "original_text_name": "Vice Lords",
       "aliases": [],
       "type": "gang",
-      "context": "Fellow gang in the People Nation alliance, affiliated with Latin Kings.",
+      "context": "Street gang affiliated with the People Nation alliance.",
       "time_period": null
     },
     {
@@ -107,7 +83,7 @@
       "original_text_name": "Gangster Disciples",
       "aliases": [],
       "type": "gang",
-      "context": "Primary rival gang of the Latin Kings, part of the Folk Nation alliance.",
+      "context": "Rival gang to the Latin Kings, part of the Folk Nation alliance.",
       "time_period": null
     },
     {
@@ -115,16 +91,42 @@
       "original_text_name": "Ñetas",
       "aliases": [],
       "type": "gang",
-      "context": "Main rivals of the Latin Kings in Spain.",
+      "context": "Main rival of the Latin Kings in Spain.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Pagans",
+      "original_text_name": "Pagans",
+      "aliases": [
+        "Pagan's"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle gang that receives narcotics from Latin Kings.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Diablos",
+      "original_text_name": "Diablos",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Motorcycle gang that receives narcotics from Latin Kings.",
+      "time_period": null
+    },
+    {
+      "standard_name": "American Mafia",
+      "original_text_name": "American Mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian-American organized crime families that collaborate with Latin Kings on contract killings.",
       "time_period": null
     },
     {
       "standard_name": "Black Mob",
       "original_text_name": "Black Mob",
       "aliases": [],
-      "type": "gang",
-      "context": "Largest Latin Kings tribe in the New York area, involved in drug trafficking.",
-      "time_period": "2002-present"
+      "type": "faction",
+      "context": "Largest Latin Kings tribe in the New York area.",
+      "time_period": null
     },
     {
       "standard_name": "Bloodline Latin Kings",
@@ -323,31 +325,31 @@
       "target": "Latin Queens",
       "relationship": "alliance",
       "detail": null,
-      "context": "Latin Queens are the female auxiliary of the Latin Kings, part of the same organization.",
+      "context": "Latin Queens are the female auxiliary of the Latin Kings.",
       "time_period": null
     },
     {
       "source": "Latin Kings",
-      "target": "Pagan's",
+      "target": "King Motherland Chicago",
       "relationship": "alliance",
       "detail": null,
-      "context": "Latin Kings supply narcotics to the Pagan's motorcycle gang.",
+      "context": "King Motherland Chicago is an umbrella faction of the Latin Kings.",
       "time_period": null
     },
     {
       "source": "Latin Kings",
-      "target": "Diablos",
+      "target": "Bloodline",
       "relationship": "alliance",
       "detail": null,
-      "context": "Latin Kings supply narcotics to the Diablos motorcycle gang.",
+      "context": "Bloodline is an umbrella faction of the Latin Kings.",
       "time_period": null
     },
     {
-      "source": "Latin Kings",
-      "target": "American Mafia",
+      "source": "Vice Lords",
+      "target": "People Nation",
       "relationship": "alliance",
       "detail": null,
-      "context": "Latin Kings collaborated with American Mafia crime families on contract killings.",
+      "context": "Vice Lords are also part of the People Nation alliance.",
       "time_period": null
     },
     {
@@ -355,7 +357,7 @@
       "target": "Vice Lords",
       "relationship": "alliance",
       "detail": null,
-      "context": "Latin Kings are affiliated with Vice Lords under the People Nation umbrella.",
+      "context": "Both are affiliated under the People Nation alliance.",
       "time_period": null
     },
     {
@@ -375,19 +377,43 @@
       "time_period": null
     },
     {
-      "source": "Black Mob",
-      "target": "Latin Kings",
+      "source": "Latin Kings",
+      "target": "Pagans",
       "relationship": "alliance",
       "detail": null,
-      "context": "Black Mob is the largest Latin Kings tribe in the New York area.",
-      "time_period": "2002-present"
+      "context": "Latin Kings supply narcotics to the Pagans motorcycle gang.",
+      "time_period": null
+    },
+    {
+      "source": "Latin Kings",
+      "target": "Diablos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Latin Kings supply narcotics to the Diablos motorcycle gang.",
+      "time_period": null
+    },
+    {
+      "source": "Latin Kings",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Latin Kings collaborate with American Mafia crime families on contract killings.",
+      "time_period": null
+    },
+    {
+      "source": "Latin Kings",
+      "target": "Black Mob",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Black Mob is the largest Latin Kings tribe in New York.",
+      "time_period": null
     },
     {
       "source": "Latin Kings",
       "target": "King Motherland Chicago",
       "relationship": "other",
       "detail": "sub-faction",
-      "context": "KMC is one of two umbrella factions of the Latin Kings.",
+      "context": "King Motherland Chicago is an umbrella faction of the Latin Kings.",
       "time_period": "1954-present"
     },
     {
@@ -395,7 +421,7 @@
       "target": "Bloodline Latin Kings",
       "relationship": "other",
       "detail": "sub-faction",
-      "context": "Bloodline is one of two umbrella factions of the Latin Kings.",
+      "context": "Bloodline is an umbrella faction of the Latin Kings.",
       "time_period": "unknown"
     },
     {
@@ -403,47 +429,7 @@
       "target": "Bloods",
       "relationship": "alliance",
       "detail": null,
-      "context": "Bloods are listed as allies in the infobox.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "Latin Kings",
-      "target": "Black P. Stones",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Black P. Stones is listed as an ally in the infobox.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "Latin Kings",
-      "target": "Diablos MC",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Diablos MC is listed as an ally in the infobox.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "Latin Kings",
-      "target": "Four Corner Hustlers",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Four Corner Hustlers is listed as an ally in the infobox.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "Latin Kings",
-      "target": "Pagans MC",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Pagans MC is listed as an ally in the infobox.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "Latin Kings",
-      "target": "Sinaloa Cartel",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Sinaloa Cartel is listed as an ally in the infobox.",
+      "context": "Bloods are listed as allies of Latin Kings in the infobox.",
       "time_period": "unknown"
     },
     {
@@ -451,7 +437,47 @@
       "target": "Crips",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Crips are listed as rivals in the infobox.",
+      "context": "Crips are listed as rivals of Latin Kings in the infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Latin Kings",
+      "target": "Black P. Stones",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Black P. Stones is listed as an ally of Latin Kings in the infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Latin Kings",
+      "target": "Diablos MC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Diablos MC is listed as an ally of Latin Kings in the infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Latin Kings",
+      "target": "Four Corner Hustlers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Four Corner Hustlers is listed as an ally of Latin Kings in the infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Latin Kings",
+      "target": "Pagans MC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pagans MC is listed as an ally of Latin Kings in the infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Latin Kings",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sinaloa Cartel is listed as an ally of Latin Kings in the infobox.",
       "time_period": "unknown"
     },
     {
@@ -459,7 +485,7 @@
       "target": "Dominicans Don't Play",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Dominicans Don't Play is listed as a rival in the infobox.",
+      "context": "Dominicans Don't Play is listed as a rival of Latin Kings in the infobox.",
       "time_period": "unknown"
     },
     {
@@ -467,7 +493,7 @@
       "target": "Latin Eagles",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Latin Eagles is listed as a rival in the infobox.",
+      "context": "Latin Eagles is listed as a rival of Latin Kings in the infobox.",
       "time_period": "unknown"
     },
     {
@@ -475,7 +501,7 @@
       "target": "Maniac Latin Disciples",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Maniac Latin Disciples is listed as a rival in the infobox.",
+      "context": "Maniac Latin Disciples is listed as a rival of Latin Kings in the infobox.",
       "time_period": "unknown"
     },
     {
@@ -483,7 +509,7 @@
       "target": "MS-13",
       "relationship": "rivalry",
       "detail": null,
-      "context": "MS-13 is listed as a rival in the infobox.",
+      "context": "MS-13 is listed as a rival of Latin Kings in the infobox.",
       "time_period": "unknown"
     },
     {
@@ -491,7 +517,7 @@
       "target": "La Raza Nation",
       "relationship": "rivalry",
       "detail": null,
-      "context": "La Raza Nation is listed as a rival in the infobox.",
+      "context": "La Raza Nation is listed as a rival of Latin Kings in the infobox.",
       "time_period": "unknown"
     },
     {
@@ -499,7 +525,7 @@
       "target": "Simon City Royals",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Simon City Royals is listed as a rival in the infobox.",
+      "context": "Simon City Royals is listed as a rival of Latin Kings in the infobox.",
       "time_period": "unknown"
     },
     {
@@ -507,7 +533,7 @@
       "target": "Los Solidos",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Los Solidos is listed as a rival in the infobox.",
+      "context": "Los Solidos is listed as a rival of Latin Kings in the infobox.",
       "time_period": "unknown"
     },
     {
@@ -515,7 +541,7 @@
       "target": "Spanish Cobras",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Spanish Cobras is listed as a rival in the infobox.",
+      "context": "Spanish Cobras is listed as a rival of Latin Kings in the infobox.",
       "time_period": "unknown"
     },
     {
@@ -523,7 +549,7 @@
       "target": "Tiny Rascal Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Tiny Rascal Gang is listed as a rival in the infobox.",
+      "context": "Tiny Rascal Gang is listed as a rival of Latin Kings in the infobox.",
       "time_period": "unknown"
     },
     {
@@ -531,7 +557,7 @@
       "target": "United Blood Nation",
       "relationship": "rivalry",
       "detail": null,
-      "context": "United Blood Nation is listed as a rival in the infobox.",
+      "context": "United Blood Nation is listed as a rival of Latin Kings in the infobox.",
       "time_period": "unknown"
     }
   ],

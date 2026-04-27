@@ -68,10 +68,12 @@
     {
       "standard_name": "Outlaws Motorcycle Club",
       "original_text_name": "Outlaws",
-      "aliases": [],
+      "aliases": [
+        "Outlaws"
+      ],
       "type": "motorcycle_club",
-      "context": "Hamilton chapter killed five Wild Ones members in 1978-1979.",
-      "time_period": null
+      "context": "Hamilton chapter killed five Wild Ones members, leading to the Wild Ones disbanding.",
+      "time_period": "1978-1979"
     },
     {
       "standard_name": "Siderno Group",
@@ -99,7 +101,7 @@
         "Buffalo family"
       ],
       "type": "mafia",
-      "context": "Buffalo-based Mafia family, also known as the Magaddino family. Papalia family was its Canadian branch.",
+      "context": "Buffalo-based Mafia family, also known as the Magaddino family. Papalia and Barillaro were made men in this family.",
       "time_period": "1920s-present"
     },
     {
@@ -107,15 +109,15 @@
       "original_text_name": "Satan's Choice Hamilton chapter",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club, Hamilton chapter. President Ion Croitoru was a target of the Musitanos.",
-      "time_period": "1960s-present"
+      "context": "Outlaw motorcycle club; its Hamilton chapter president Ion Croitoru was targeted for murder by the Musitanos.",
+      "time_period": "1960s-2000s"
     },
     {
       "standard_name": "Cuntrera-Caruana Mafia clan",
       "original_text_name": "Cuntrera-Caruana Mafia clan",
       "aliases": [],
       "type": "mafia",
-      "context": "Mafia clan with roots in Montreal and Toronto, allied with Musitanos.",
+      "context": "Mafia clan with roots in Montreal and Toronto, supported by Musitanos.",
       "time_period": null
     },
     {
@@ -123,7 +125,7 @@
       "original_text_name": "Independent Soldiers",
       "aliases": [],
       "type": "gang",
-      "context": "Canadian street gang, allied with Musitanos.",
+      "context": "Canadian street gang, ally of Musitano.",
       "time_period": null
     },
     {
@@ -131,7 +133,7 @@
       "original_text_name": "West End Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Montreal-based organized crime group, allied with Musitanos.",
+      "context": "Montreal-based organized crime group, ally of Musitano.",
       "time_period": null
     },
     {
@@ -139,7 +141,7 @@
       "original_text_name": "Hells Angels",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club, allied with Musitanos.",
+      "context": "Outlaw motorcycle club, ally of Musitano.",
       "time_period": null
     }
   ],
@@ -149,14 +151,14 @@
       "target": "Luppino crime family",
       "relationship": "other",
       "detail": "coexistence",
-      "context": "Both were among three centralized organized crime organizations in Hamilton.",
-      "time_period": null
+      "context": "Both are two of three centralized organized crime organizations in Hamilton.",
+      "time_period": "1940s-present"
     },
     {
       "source": "Musitano crime family",
       "target": "Papalia crime family",
       "relationship": "rivalry",
-      "context": "Musitanos ordered the killing of Johnny Papalia in 1997, decapitating the Papalia family.",
+      "context": "Musitanos ordered the killing of Johnny Papalia and his lieutenant in 1997.",
       "time_period": "1997"
     },
     {
@@ -164,7 +166,7 @@
       "target": "Buffalo crime family",
       "relationship": "other",
       "detail": "no alliance",
-      "context": "Musitanos did not form a strong alliance with the Buffalo crime family, unlike other Hamilton families.",
+      "context": "Musitanos did not form a strong alliance with the Buffalo crime family.",
       "time_period": null
     },
     {
@@ -185,21 +187,21 @@
       "source": "Musitano crime family",
       "target": "Wild Ones",
       "relationship": "alliance",
-      "context": "Musitano family employed the Wild Ones biker gang as subcontractors to build and plant bombs.",
+      "context": "Musitano family employed the Wild Ones biker gang to build and plant bombs.",
       "time_period": "1978-1979"
     },
     {
       "source": "Wild Ones",
       "target": "Outlaws Motorcycle Club",
       "relationship": "rivalry",
-      "context": "Five Wild Ones members were killed by the Hamilton chapter of the Outlaws in 1978-1979.",
+      "context": "Five Wild Ones members were killed by the Hamilton chapter of the Outlaws.",
       "time_period": "1978-1979"
     },
     {
       "source": "Musitano crime family",
       "target": "Siderno Group",
       "relationship": "rivalry",
-      "context": "Musitano family murdered Siderno Group member Domenic Racco over a cocaine trade dispute.",
+      "context": "Musitano family murdered Siderno Group member Domenic Racco over a drug trade dispute.",
       "time_period": "1983"
     },
     {
@@ -207,7 +209,7 @@
       "target": "Rizzuto crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Musitanos allied with Rizzuto family to eliminate Papalia family and gain protection from Buffalo family.",
+      "context": "Rizzuto formed an alliance with the Musitano brothers to eliminate the Papalia family and expand into Ontario.",
       "time_period": "1997"
     },
     {
@@ -215,7 +217,7 @@
       "target": "Magaddino crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Papalia family was the Canadian branch of the Magaddino (Buffalo) family; Papalia and Barillaro were made men in Buffalo.",
+      "context": "Papalia and Barillaro were made men in the Magaddino (Buffalo) family, which was the parent organization.",
       "time_period": "1940s-1997"
     },
     {
@@ -223,7 +225,7 @@
       "target": "Magaddino crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Musitanos resented being subordinate to the Buffalo family and wanted to break away, leading to conflict.",
+      "context": "Musitanos were a satellite crew of the Buffalo family and resented paying tribute; they sought independence.",
       "time_period": "1990s"
     },
     {
@@ -231,15 +233,15 @@
       "target": "Luppino crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Pat Musitano planned to murder Luppino family leaders to become godfather of Hamilton.",
-      "time_period": "1997"
+      "context": "Pat Musitano planned to murder Luppino family members to become godfather of Hamilton; the Luppinos were enemies.",
+      "time_period": "1990s"
     },
     {
       "source": "Musitano crime family",
       "target": "Satan's Choice Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Musitanos ordered hit on Satan's Choice Hamilton chapter president Ion Croitoru.",
+      "context": "Musitanos ordered Kenneth Murdock to kill Satan's Choice Hamilton chapter president Ion Croitoru.",
       "time_period": "1997"
     },
     {
@@ -247,7 +249,7 @@
       "target": "Outlaws Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Musitanos ordered hit on Outlaws' Hamilton chapter president Mario Parente.",
+      "context": "Musitanos ordered Kenneth Murdock to kill Outlaws' Hamilton chapter president Mario Parente.",
       "time_period": "1997"
     },
     {
@@ -263,7 +265,7 @@
       "target": "Independent Soldiers",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Independent Soldiers are listed as allies of the Musitanos.",
+      "context": "Independent Soldiers are listed as allies of Musitano in the infobox.",
       "time_period": null
     },
     {
@@ -271,7 +273,7 @@
       "target": "West End Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "The West End Gang is listed as an ally of the Musitanos.",
+      "context": "West End Gang is listed as an ally of Musitano in the infobox.",
       "time_period": null
     },
     {
@@ -279,7 +281,7 @@
       "target": "Hells Angels",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Hells Angels are listed as allies of the Musitanos.",
+      "context": "Hells Angels are listed as allies of Musitano in the infobox.",
       "time_period": null
     }
   ],

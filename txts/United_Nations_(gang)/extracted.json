@@ -6,7 +6,7 @@
       "aliases": [
         "UN",
         "UN gang",
-        "United Nations (gang)"
+        "United Nations"
       ],
       "type": "gang",
       "context": "Criminal gang based in Vancouver, British Columbia, involved in drug trafficking and violence.",
@@ -81,66 +81,66 @@
       "original_text_name": "Brothers Keepers",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to the United Nations, listed as a rival in the infobox.",
-      "time_period": "2000s-present"
-    },
-    {
-      "standard_name": "Dhak group",
-      "original_text_name": "Dhak group",
-      "aliases": [],
-      "type": "gang",
-      "context": "Allied gang of the United Nations in British Columbia.",
-      "time_period": "2000s-present"
-    },
-    {
-      "standard_name": "Duhre group",
-      "original_text_name": "Duhre group",
-      "aliases": [],
-      "type": "gang",
-      "context": "Allied gang of the United Nations in British Columbia.",
-      "time_period": "2000s-present"
-    },
-    {
-      "standard_name": "Crazy Dragon Killaz",
-      "original_text_name": "Crazy Dragon Killaz",
-      "aliases": [],
-      "type": "gang",
-      "context": "Allied gang of the United Nations in Alberta.",
-      "time_period": "2000s-present"
-    },
-    {
-      "standard_name": "Kang crime family",
-      "original_text_name": "Kang crime family",
-      "aliases": [
-        "BIBO gang"
-      ],
-      "type": "clan",
-      "context": "Allied crime family of the United Nations.",
-      "time_period": "2000s-present"
-    },
-    {
-      "standard_name": "Big circle gang",
-      "original_text_name": "Big circle gang",
-      "aliases": [],
-      "type": "gang",
-      "context": "Allied gang of the United Nations in British Columbia.",
-      "time_period": "2000s-present"
-    },
-    {
-      "standard_name": "Mo dumplings gang",
-      "original_text_name": "Mo dumplings gang",
-      "aliases": [],
-      "type": "gang",
-      "context": "Allied gang of the United Nations in British Columbia.",
-      "time_period": "2000s-present"
+      "context": "Rival gang to the United Nations.",
+      "time_period": "2010s-present"
     },
     {
       "standard_name": "Triads of Vancouver",
       "original_text_name": "Triads of Vancouver",
       "aliases": [],
       "type": "triad",
-      "context": "Chinese triads allied with the United Nations in Vancouver.",
-      "time_period": "2000s-present"
+      "context": "Chinese organized crime groups in Vancouver, allied with the United Nations.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Dhak group",
+      "original_text_name": "Dhak group of British Columbia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group in British Columbia allied with the United Nations.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Duhre group",
+      "original_text_name": "Duhre group of British Columbia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group in British Columbia allied with the United Nations.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Crazy Dragon Killaz",
+      "original_text_name": "Crazy Dragon Killaz of Alberta",
+      "aliases": [],
+      "type": "gang",
+      "context": "Alberta-based gang allied with the United Nations.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Kang crime family",
+      "original_text_name": "Kang crime family (BIBO gang)",
+      "aliases": [
+        "BIBO gang"
+      ],
+      "type": "clan",
+      "context": "Crime family allied with the United Nations.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Big circle gang",
+      "original_text_name": "Big circle gang of British Columbia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group in British Columbia allied with the United Nations.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Mo dumplings gang",
+      "original_text_name": "Mo dumplings gang of British Columbia",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group in British Columbia allied with the United Nations.",
+      "time_period": "unknown"
     }
   ],
   "edges": [
@@ -181,7 +181,7 @@
       "target": "Independent Soldiers",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The UN gang fought turf wars against the Independent Soldiers gang.",
+      "context": "The UN gang fought turf wars against the Independent Soldiers.",
       "time_period": "2000s"
     },
     {
@@ -189,23 +189,23 @@
       "target": "Hells Angels",
       "relationship": "alliance",
       "detail": null,
-      "context": "Initially rivals, they reached a modus vivendi in 2005 and later worked together, with UN members becoming Hells Angels.",
+      "context": "After initial rivalry, the two groups reached a modus vivendi in 2005 and later worked together, with UN members becoming Hells Angels.",
       "time_period": "2005-present"
     },
     {
       "source": "Hells Angels",
       "target": "United Nations",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Hells Angels sold guns to the UN gang through their proxy Independent Soldiers.",
+      "relationship": "other",
+      "detail": "arms supplier",
+      "context": "The Hells Angels sold guns to the UN gang through their proxy, the Independent Soldiers.",
       "time_period": "2008-2009"
     },
     {
       "source": "Hells Angels",
       "target": "Red Scorpions",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Hells Angels sold guns to the Red Scorpions through their proxy Independent Soldiers.",
+      "relationship": "other",
+      "detail": "arms supplier",
+      "context": "The Hells Angels sold guns to the Red Scorpions through their proxy, the Independent Soldiers.",
       "time_period": "2008-2009"
     },
     {
@@ -213,7 +213,7 @@
       "target": "Hells Angels",
       "relationship": "alliance",
       "detail": null,
-      "context": "Independent Soldiers acted as a proxy for the Hells Angels.",
+      "context": "The Independent Soldiers acted as a proxy for the Hells Angels.",
       "time_period": "2000s-2010s"
     },
     {
@@ -238,23 +238,31 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Brothers Keepers are listed as rivals of the United Nations.",
-      "time_period": "2000s-present"
+      "time_period": "unknown"
+    },
+    {
+      "source": "United Nations",
+      "target": "Triads of Vancouver",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Triads of Vancouver are listed as allies of the United Nations.",
+      "time_period": "unknown"
     },
     {
       "source": "United Nations",
       "target": "Dhak group",
       "relationship": "alliance",
       "detail": null,
-      "context": "Dhak group is listed as an ally of the United Nations.",
-      "time_period": "2000s-present"
+      "context": "The Dhak group is listed as an ally of the United Nations.",
+      "time_period": "unknown"
     },
     {
       "source": "United Nations",
       "target": "Duhre group",
       "relationship": "alliance",
       "detail": null,
-      "context": "Duhre group is listed as an ally of the United Nations.",
-      "time_period": "2000s-present"
+      "context": "The Duhre group is listed as an ally of the United Nations.",
+      "time_period": "unknown"
     },
     {
       "source": "United Nations",
@@ -262,39 +270,31 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Crazy Dragon Killaz is listed as an ally of the United Nations.",
-      "time_period": "2000s-present"
+      "time_period": "unknown"
     },
     {
       "source": "United Nations",
       "target": "Kang crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Kang crime family (BIBO gang) is listed as an ally of the United Nations.",
-      "time_period": "2000s-present"
+      "context": "The Kang crime family is listed as an ally of the United Nations.",
+      "time_period": "unknown"
     },
     {
       "source": "United Nations",
       "target": "Big circle gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Big circle gang is listed as an ally of the United Nations.",
-      "time_period": "2000s-present"
+      "context": "The Big circle gang is listed as an ally of the United Nations.",
+      "time_period": "unknown"
     },
     {
       "source": "United Nations",
       "target": "Mo dumplings gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Mo dumplings gang is listed as an ally of the United Nations.",
-      "time_period": "2000s-present"
-    },
-    {
-      "source": "United Nations",
-      "target": "Triads of Vancouver",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Triads of Vancouver are listed as allies of the United Nations.",
-      "time_period": "2000s-present"
+      "context": "The Mo dumplings gang is listed as an ally of the United Nations.",
+      "time_period": "unknown"
     }
   ],
   "source_file": "United_Nations_(gang)"

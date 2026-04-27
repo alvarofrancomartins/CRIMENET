@@ -41,7 +41,7 @@
     },
     {
       "standard_name": "Clan Mazzarella",
-      "original_text_name": "Mazzarella",
+      "original_text_name": "clan Mazzarella",
       "aliases": [
         "Mazzarella clan"
       ],
@@ -51,7 +51,7 @@
     },
     {
       "standard_name": "Clan Misso",
-      "original_text_name": "Misso",
+      "original_text_name": "famiglie Misso",
       "aliases": [
         "Misso clan"
       ],
@@ -63,7 +63,7 @@
       "standard_name": "Misso-Mazzarella-Sarno",
       "original_text_name": "Misso-Mazzarella-Sarno",
       "aliases": [],
-      "type": "faction",
+      "type": "clan",
       "context": "Criminal cartel formed by the Misso, Mazzarella, and Sarno clans, dominant in Naples.",
       "time_period": "1990s-2000s"
     },
@@ -114,7 +114,7 @@
         "Ricci clan"
       ],
       "type": "clan",
-      "context": "Camorra clan operating in Quartieri Spagnoli, Torretta, Rua Catalana, Mercato, and Fuorigrotta, allied with Sarno.",
+      "context": "Camorra clan operating in Quartieri Spagnoli and other areas of Naples, allied with Sarno.",
       "time_period": "2000s"
     },
     {
@@ -132,7 +132,7 @@
       "original_text_name": "Arlistico-Terracciano-Orefice",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan linked to Sarno, with regent Luisa Terracciano.",
+      "context": "Camorra clan linked to Sarno, involved in drug trafficking and extortion.",
       "time_period": "2000s"
     }
   ],
@@ -167,7 +167,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Sarno allied with Mazzarella and Misso to form the Misso-Mazzarella-Sarno cartel.",
-      "time_period": "1990s-2000s"
+      "time_period": "1990s-2008"
     },
     {
       "source": "Clan Sarno",
@@ -186,27 +186,11 @@
       "time_period": "1990s-2000s"
     },
     {
-      "source": "Clan Mazzarella",
-      "target": "Misso-Mazzarella-Sarno",
-      "relationship": "other",
-      "detail": "member",
-      "context": "Clan Mazzarella was a member of the Misso-Mazzarella-Sarno cartel.",
-      "time_period": "1990s-2000s"
-    },
-    {
-      "source": "Clan Misso",
-      "target": "Misso-Mazzarella-Sarno",
-      "relationship": "other",
-      "detail": "member",
-      "context": "Clan Misso was a member of the Misso-Mazzarella-Sarno cartel.",
-      "time_period": "1990s-2000s"
-    },
-    {
       "source": "Clan Sarno",
       "target": "Clan De Luca Bossa",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Clan Sarno fought a war with the De Luca Bossa clan, including a bombing attack.",
+      "context": "Clan Sarno fought a war with the De Luca Bossa clan, including a car bomb attack.",
       "time_period": "1990s-2000s"
     },
     {
@@ -214,7 +198,7 @@
       "target": "Clan Veneruso",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Clan Sarno went to war with the Veneruso family for drug trafficking dominance.",
+      "context": "Sarno fought with Veneruso for drug trafficking dominance in Vesuvian towns.",
       "time_period": "2000s"
     },
     {
@@ -222,7 +206,7 @@
       "target": "Clan Anastasio",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Clan Sarno went to war with the Anastasio family for drug trafficking dominance.",
+      "context": "Sarno fought with Anastasio for drug trafficking dominance in Vesuvian towns.",
       "time_period": "2000s"
     },
     {
@@ -230,7 +214,7 @@
       "target": "Clan Panico",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Clan Sarno went to war with the Panico family for drug trafficking dominance.",
+      "context": "Sarno fought with Panico for drug trafficking dominance in Vesuvian towns.",
       "time_period": "2000s"
     },
     {
@@ -238,7 +222,7 @@
       "target": "Clan Ricci",
       "relationship": "alliance",
       "detail": null,
-      "context": "Clan Sarno allied with the Ricci clan to control various Naples neighborhoods.",
+      "context": "Sarno allied with the Ricci clan in various Naples neighborhoods.",
       "time_period": "2000s"
     },
     {
@@ -246,15 +230,15 @@
       "target": "Clan Amato-Pagano",
       "relationship": "alliance",
       "detail": null,
-      "context": "Clan Sarno formed a strategic alliance with the Amato-Pagano clan.",
+      "context": "Sarno formed a strategic alliance with the Amato-Pagano clan.",
       "time_period": "2000s"
     },
     {
       "source": "Clan Sarno",
       "target": "Clan Arlistico-Terracciano-Orefice",
       "relationship": "other",
-      "detail": "linked",
-      "context": "The Arlistico-Terracciano-Orefice clan was linked to Sarno, with its regent arrested in a Sarno clan operation.",
+      "detail": "affiliate",
+      "context": "The Arlistico-Terracciano-Orefice clan was considered part of the Sarno clan network.",
       "time_period": "2000s"
     },
     {
@@ -262,7 +246,7 @@
       "target": "Clan Mazzarella",
       "relationship": "rivalry",
       "detail": null,
-      "context": "In 2008, the Sarno clan broke ties with the Mazzarella clan and went to war for territorial control.",
+      "context": "Sarno broke ties with Mazzarella and went to war for territorial control in 2008.",
       "time_period": "2008-2009"
     }
   ],

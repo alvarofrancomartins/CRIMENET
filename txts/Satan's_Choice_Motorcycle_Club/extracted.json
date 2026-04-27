@@ -94,7 +94,7 @@
       "original_text_name": "Vagabonds",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Motorcycle club that attended Satan's Choice national convention in 1967.",
+      "context": "Attended Satan's Choice national convention in 1967.",
       "time_period": "1960s"
     },
     {
@@ -112,8 +112,8 @@
         "Black Diamond Riders"
       ],
       "type": "motorcycle_club",
-      "context": "Rival biker gang in Toronto, engaged in conflict with Satan's Choice.",
-      "time_period": "1950s-1970s"
+      "context": "Rival biker gang in Toronto that fought Satan's Choice in the 1950s-60s.",
+      "time_period": "1950s-1960s"
     },
     {
       "standard_name": "Vagabonds Motorcycle Club",
@@ -122,27 +122,27 @@
         "Vagabonds"
       ],
       "type": "motorcycle_club",
-      "context": "Rival biker gang in Toronto, involved in gang war with Satan's Choice.",
-      "time_period": "1970s"
+      "context": "Rival biker gang in Toronto that Satan's Choice fought in the late 1960s.",
+      "time_period": "1960s"
     },
     {
       "standard_name": "Hells Angels Motorcycle Club",
       "original_text_name": "Hells Angels",
       "aliases": [
         "Angels",
+        "HA",
         "Hells Angels",
         "Hells Angels MC"
       ],
       "type": "motorcycle_club",
-      "context": "Largest outlaw motorcycle club in the world, approached Satan's Choice for patch-over.",
+      "context": "Largest outlaw motorcycle club in the world; approached Satan's Choice for patch-over in 1973.",
       "time_period": "1948-present"
     },
     {
       "standard_name": "Popeyes Motorcycle Club",
       "original_text_name": "Popeyes",
       "aliases": [
-        "Popeyes",
-        "Popeyes MC"
+        "Popeyes"
       ],
       "type": "motorcycle_club",
       "context": "Canadian outlaw motorcycle club, backed by Hells Angels, involved in biker war with Satan's Choice.",
@@ -191,11 +191,9 @@
     {
       "standard_name": "Chosen Few Motorcycle Club",
       "original_text_name": "Chosen Few",
-      "aliases": [
-        "Chosen Few MC"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
-      "context": "Alberta-based biker gang, involved in an incident with former Outlaw McEwen.",
+      "context": "Biker gang in Alberta that briefly included former Outlaw leader Garnet McEwen.",
       "time_period": "1970s-1980s"
     },
     {
@@ -279,7 +277,7 @@
       "original_text_name": "Last Chance",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Ontario outlaw motorcycle club with 20 members in 1 chapter in 1995.",
+      "context": "Small Ontario outlaw motorcycle club with 20 members in 1 chapter in 1995.",
       "time_period": "1990s"
     },
     {
@@ -290,7 +288,15 @@
       ],
       "type": "motorcycle_club",
       "context": "Canadian outlaw motorcycle club, rival of Satan's Choice in the 1970s.",
-      "time_period": "unknown"
+      "time_period": "1960s-1970s"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Italian organized crime group, employed former Satan's Choice member Cecil Kirby.",
+      "time_period": "19th century-present"
     },
     {
       "standard_name": "Devil's Disciples Motorcycle Club",
@@ -299,14 +305,6 @@
       "type": "motorcycle_club",
       "context": "Ally of Satan's Choice according to infobox.",
       "time_period": "unknown"
-    },
-    {
-      "standard_name": "'Ndrangheta",
-      "original_text_name": "'Ndrangheta",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Italian organized crime group; former Satan's Choice member Kirby worked for them after leaving the club.",
-      "time_period": "19th century-present"
     }
   ],
   "edges": [
@@ -403,7 +401,7 @@
       "target": "Wild Ones",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Satan's Choice intimidated Wild Ones during a field day in Hamilton in 1969.",
+      "context": "Satan's Choice intimidated Wild Ones in a 1969 field day demonstration.",
       "time_period": "1969"
     },
     {
@@ -411,7 +409,7 @@
       "target": "Hells Angels",
       "relationship": "other",
       "detail": "recruitment attempt",
-      "context": "Hells Angels asked Satan's Choice to join in 1968, but were refused.",
+      "context": "Hells Angels sought to recruit Satan's Choice in 1968, but were refused.",
       "time_period": "1968"
     },
     {
@@ -427,31 +425,39 @@
       "target": "Black Diamond Riders Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Satan's Choice engaged in a gang war with Black Diamond Riders in Toronto.",
-      "time_period": "1970s"
+      "context": "Black Diamond Riders attacked Satan's Choice in the 1950s-60s, leading to a biker war.",
+      "time_period": "1956-1962"
     },
     {
       "source": "Satan's Choice Motorcycle Club",
       "target": "Vagabonds Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Satan's Choice engaged in a gang war with Vagabonds MC in Toronto.",
-      "time_period": "1970s"
+      "context": "Satan's Choice Toronto chapter sparked a gang war with Vagabonds in the late 1960s.",
+      "time_period": "late 1960s"
     },
     {
       "source": "Satan's Choice Motorcycle Club",
       "target": "Hells Angels Motorcycle Club",
       "relationship": "other",
       "detail": "patch-over offer",
-      "context": "Hells Angels approached Satan's Choice to patch over, but Guindon rejected the offer.",
+      "context": "Hells Angels approached Satan's Choice in 1973 to patch over, but Guindon rejected.",
       "time_period": "1973"
+    },
+    {
+      "source": "Satan's Choice Motorcycle Club",
+      "target": "Outlaws Motorcycle Club",
+      "relationship": "other",
+      "detail": "patch-over",
+      "context": "Some Satan's Choice chapters patched over to the Outlaws in 1977.",
+      "time_period": "1977"
     },
     {
       "source": "Satan's Choice Motorcycle Club",
       "target": "Outlaws Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Formal alliance in 1975 for drug distribution and mutual support against Hells Angels.",
+      "context": "Formal alliance in 1975; Outlaws distributed PCP and methamphetamine manufactured by Satan's Choice.",
       "time_period": "1975-1977"
     },
     {
@@ -467,7 +473,7 @@
       "target": "Hells Angels Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Biker war over territory in Florida, with Outlaws and Hells Angels in conflict since 1969.",
+      "context": "Biker war over Florida expansion; Outlaws and Hells Angels engaged in violent conflict.",
       "time_period": "1969-1970s"
     },
     {
@@ -475,7 +481,7 @@
       "target": "Popeyes Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Open conflict from 1974 to 1976, with casualties on both sides.",
+      "context": "Open conflict from 1974 to 1976; Popeyes targeted Satan's Choice allies and engaged in biker war.",
       "time_period": "1974-1976"
     },
     {
@@ -507,7 +513,7 @@
       "target": "West End Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "West End Gang sided with Satan's Choice during the biker war.",
+      "context": "West End Gang sided with Satan's Choice during the biker war against Popeyes.",
       "time_period": "1970s"
     },
     {
@@ -515,7 +521,7 @@
       "target": "Dubois Brothers",
       "relationship": "alliance",
       "detail": null,
-      "context": "Dubois Brothers backed the Popeyes, providing muscle.",
+      "context": "Dubois Brothers backed the Popeyes, who acted as their muscle.",
       "time_period": "1970s"
     },
     {
@@ -523,7 +529,7 @@
       "target": "Bandidos Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Outlaws member assaulted a woman for being girlfriend of a Bandidos member.",
+      "context": "Outlaws member tortured a woman for being girlfriend of a Bandidos member.",
       "time_period": "1970s"
     },
     {
@@ -531,7 +537,7 @@
       "target": "Outlaws Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Satan's Choice lost several chapters to Outlaws in 1977, leading to a lasting grudge and conflict.",
+      "context": "After the 1977 split, Satan's Choice and Outlaws were hostile; Guindon placed a bounty on McEwen.",
       "time_period": "1977-1984"
     },
     {
@@ -539,8 +545,16 @@
       "target": "Hells Angels Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Satan's Choice leaned toward pro-Angel neutrality in the Angels-Outlaws war, and eventually patched over to Hells Angels in 2000.",
-      "time_period": "1977-2000"
+      "context": "Guindon leaned pro-Angel neutrality during the Angels-Outlaws war; Satan's Choice considered patching over to Hells Angels.",
+      "time_period": "1977-1984"
+    },
+    {
+      "source": "Golden Hawk Riders",
+      "target": "Outlaws Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Golden Hawk Riders were considering patching over to join the Outlaws, which led to conflict with Satan's Choice.",
+      "time_period": "1978"
     },
     {
       "source": "Satan's Choice Motorcycle Club",
@@ -551,27 +565,19 @@
       "time_period": "1978"
     },
     {
-      "source": "Golden Hawk Riders",
+      "source": "Chosen Few Motorcycle Club",
       "target": "Outlaws Motorcycle Club",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Golden Hawk Riders were considering patching over to join the Outlaws.",
-      "time_period": "1978"
-    },
-    {
-      "source": "Outlaws Motorcycle Club",
-      "target": "Chosen Few Motorcycle Club",
       "relationship": "other",
-      "detail": "membership",
-      "context": "Former Outlaw national president McEwen joined the Chosen Few after being expelled from Outlaws.",
-      "time_period": "1980"
+      "detail": "member joined",
+      "context": "Garnet McEwen, former Outlaw national president, joined the Chosen Few after being expelled from Outlaws.",
+      "time_period": "1977-1980"
     },
     {
       "source": "Satan's Choice Motorcycle Club",
       "target": "Lobos Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Satan's Choice allied with Lobos in 1981 to improve bargaining power against Outlaws.",
+      "context": "Satan's Choice allied with Lobos and Chosen Few in 1981 to improve bargaining power against Outlaws.",
       "time_period": "1981"
     },
     {
@@ -579,7 +585,7 @@
       "target": "Chosen Few Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Satan's Choice allied with Chosen Few in 1981 against Outlaws.",
+      "context": "Satan's Choice allied with Chosen Few and Lobos in 1981 against Outlaws.",
       "time_period": "1981"
     },
     {
@@ -603,7 +609,7 @@
       "target": "Vagabonds Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Satan's Choice and Vagabonds worked together to manufacture and distribute methamphetamine in 1989.",
+      "context": "Satan's Choice, Vagabonds, and Lobos worked together to manufacture and distribute methamphetamine in 1989.",
       "time_period": "1989"
     },
     {
@@ -611,7 +617,7 @@
       "target": "Grim Reapers Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Satan's Choice formed alliances with Grim Reapers in 1989.",
+      "context": "Satan's Choice formed alliances with Grim Reapers and los Bravos in summer 1989.",
       "time_period": "1989"
     },
     {
@@ -619,7 +625,7 @@
       "target": "Los Bravos",
       "relationship": "alliance",
       "detail": null,
-      "context": "Satan's Choice formed alliances with los Bravos in 1989.",
+      "context": "Satan's Choice formed alliances with los Bravos and Grim Reapers in summer 1989.",
       "time_period": "1989"
     },
     {
@@ -627,7 +633,7 @@
       "target": "Loners Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Loners member Frank Passarelli murdered Satan's Choice member Brian Beaucage in 1991.",
+      "context": "Loners member Frank Passarelli killed Satan's Choice member Brian Beaucage in 1991.",
       "time_period": "1991"
     },
     {
@@ -664,10 +670,26 @@
     },
     {
       "source": "Satan's Choice Motorcycle Club",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Satan's Choice patched over to Hells Angels in 2000, merging into the Angels.",
+      "time_period": "2000"
+    },
+    {
+      "source": "Satan's Choice Motorcycle Club",
+      "target": "Hells Angels",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Satan's Choice and Hells Angels were rivals from 1974 to 1995.",
+      "time_period": "1974-1995"
+    },
+    {
+      "source": "Satan's Choice Motorcycle Club",
       "target": "Popeye Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Satan's Choice engaged in a conflict with Popeyes from 1974 to 1976.",
+      "context": "Satan's Choice engaged in a conflict with the Popeyes from 1974 to 1976.",
       "time_period": "1974-1976"
     },
     {
@@ -680,19 +702,19 @@
     },
     {
       "source": "Satan's Choice Motorcycle Club",
+      "target": "'Ndrangheta",
+      "relationship": "other",
+      "detail": "employment",
+      "context": "Former Satan's Choice member Cecil Kirby went to work for the 'Ndrangheta after leaving the club.",
+      "time_period": "1976"
+    },
+    {
+      "source": "Satan's Choice Motorcycle Club",
       "target": "Devil's Disciples Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
       "context": "Devil's Disciples are listed as allies of Satan's Choice in the infobox.",
       "time_period": null
-    },
-    {
-      "source": "Satan's Choice Motorcycle Club",
-      "target": "'Ndrangheta",
-      "relationship": "other",
-      "detail": "member affiliation",
-      "context": "Former Satan's Choice member Cecil Kirby left the club in 1976 to work for the 'Ndrangheta.",
-      "time_period": "1976"
     }
   ],
   "source_file": "Satan's_Choice_Motorcycle_Club"

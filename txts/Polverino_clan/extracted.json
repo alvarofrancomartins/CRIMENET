@@ -15,8 +15,8 @@
       "original_text_name": "Nuvoletta clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan that preceded the Polverino clan; the Polverinos started as a ramification of them.",
-      "time_period": "until 1990s"
+      "context": "Camorra clan that preceded the Polverino clan; Polverino started as a ramification of it.",
+      "time_period": "1970s-2000s"
     },
     {
       "standard_name": "Simioli family",
@@ -49,8 +49,8 @@
         "Cosa Nostra"
       ],
       "type": "mafia",
-      "context": "Sicilian mafia; supplied hashish by the Polverino clan and has good relationship with them.",
-      "time_period": "1992-2009"
+      "context": "Sicilian mafia; supplied hashish by the Polverino clan and has good relations with them.",
+      "time_period": "1992-present"
     },
     {
       "standard_name": "Sacra Corona Unita",
@@ -61,20 +61,12 @@
       "time_period": "1992-2009"
     },
     {
-      "standard_name": "Cosa Nostra",
-      "original_text_name": "Cosa Nostra",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Sicilian mafia families from Palermo; have good relationship with the Polverino clan.",
-      "time_period": "unknown"
-    },
-    {
       "standard_name": "Orlando clan",
       "original_text_name": "Orlando clan",
       "aliases": [],
       "type": "clan",
       "context": "Camorra clan allied with the Polverino clan.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "standard_name": "Mallardo clan",
@@ -82,7 +74,7 @@
       "aliases": [],
       "type": "clan",
       "context": "Camorra clan allied with the Polverino clan.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "standard_name": "Lubrano-Ligato clan",
@@ -90,7 +82,7 @@
       "aliases": [],
       "type": "clan",
       "context": "Camorra clan allied with the Polverino clan.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "standard_name": "Licciardi clan",
@@ -98,7 +90,7 @@
       "aliases": [],
       "type": "clan",
       "context": "Camorra clan allied with the Polverino clan.",
-      "time_period": "unknown"
+      "time_period": null
     }
   ],
   "edges": [
@@ -108,14 +100,14 @@
       "relationship": "other",
       "detail": "successor",
       "context": "Polverino clan is considered the successor of the Nuvoletta clan and started as a ramification.",
-      "time_period": "1990s"
+      "time_period": "1990s-present"
     },
     {
       "source": "Polverino clan",
       "target": "Simioli family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Simioli family joined the Polverino clan as emerging members.",
+      "context": "Simioli family joined the Polverino clan; Giuseppe Simioli became leader after Polverino's arrest.",
       "time_period": "1990s-present"
     },
     {
@@ -123,7 +115,7 @@
       "target": "Ruggiero family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Ruggiero family joined the Polverino clan as emerging members.",
+      "context": "Ruggiero family joined the Polverino clan.",
       "time_period": "1990s-present"
     },
     {
@@ -139,8 +131,8 @@
       "target": "Sicilian Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Polverino clan supplied hashish to the Sicilian Mafia.",
-      "time_period": "1992-2009"
+      "context": "Polverino clan supplied hashish to Sicilian Mafia and has good relations with Cosa Nostra families from Palermo.",
+      "time_period": "1992-present"
     },
     {
       "source": "Polverino clan",
@@ -152,19 +144,11 @@
     },
     {
       "source": "Polverino clan",
-      "target": "Cosa Nostra",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Polverino clan has a good relationship with Cosa Nostra families from Palermo.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "Polverino clan",
       "target": "Orlando clan",
       "relationship": "alliance",
       "detail": null,
       "context": "Orlando clan is listed as an ally of the Polverino clan.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "source": "Polverino clan",
@@ -172,7 +156,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Mallardo clan is listed as an ally of the Polverino clan.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "source": "Polverino clan",
@@ -180,7 +164,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Lubrano-Ligato clan is listed as an ally of the Polverino clan.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "source": "Polverino clan",
@@ -188,7 +172,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Licciardi clan is listed as an ally of the Polverino clan.",
-      "time_period": "unknown"
+      "time_period": null
     }
   ],
   "source_file": "Polverino_clan"

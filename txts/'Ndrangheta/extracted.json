@@ -41,7 +41,7 @@
         "Cosa Nostra"
       ],
       "type": "mafia",
-      "context": "Traditional mafia from Sicily, Italy, involved in drug trafficking and other organized crime activities.",
+      "context": "Traditional mafia from Sicily, Italy, involved in drug trafficking and organized crime.",
       "time_period": "19th century-present"
     },
     {
@@ -49,7 +49,7 @@
       "original_text_name": "Camorra",
       "aliases": [],
       "type": "clan",
-      "context": "Neapolitan mafia-type organization, involved in various criminal activities in and around Naples.",
+      "context": "Neapolitan mafia-type organization, involved in various criminal activities.",
       "time_period": "19th century-present"
     },
     {
@@ -57,7 +57,7 @@
       "original_text_name": "Piromalli 'ndrina",
       "aliases": [],
       "type": "faction",
-      "context": "A clan associated with the 'Ndrangheta, involved in olive oil fraud and other crimes.",
+      "context": "Clan associated with the 'Ndrangheta, involved in olive oil fraud.",
       "time_period": null
     },
     {
@@ -97,15 +97,23 @@
       "original_text_name": "Commisso 'ndrina",
       "aliases": [],
       "type": "faction",
-      "context": "'Ndrangheta clan based in Siderno, Calabria.",
+      "context": "'Ndrangheta clan from Siderno, Calabria.",
       "time_period": null
+    },
+    {
+      "standard_name": "Siderno Group",
+      "original_text_name": "Siderno Group",
+      "aliases": [],
+      "type": "faction",
+      "context": "Group of 'Ndrangheta members operating in Ontario, Canada, originating from Siderno.",
+      "time_period": "several decades ago"
     },
     {
       "standard_name": "Gambino family",
       "original_text_name": "Gambino family",
       "aliases": [],
       "type": "mafia",
-      "context": "American Mafia family based in New York, involved in various criminal activities.",
+      "context": "American Mafia crime family based in New York.",
       "time_period": "20th century-present"
     },
     {
@@ -115,14 +123,6 @@
       "type": "mafia",
       "context": "Organized crime groups from Albania, involved in weapons and narcotics trafficking.",
       "time_period": null
-    },
-    {
-      "standard_name": "Siderno Group",
-      "original_text_name": "Siderno Group",
-      "aliases": [],
-      "type": "faction",
-      "context": "Group of 'Ndrangheta members operating in Ontario, Canada, mostly from Siderno.",
-      "time_period": "several decades ago"
     },
     {
       "standard_name": "Sergi clan",
@@ -319,14 +319,22 @@
       "time_period": "1991-present"
     },
     {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexican drug cartel and mercenary army, works with 'Ndrangheta.",
+      "time_period": "1990s-present"
+    },
+    {
       "standard_name": "AUC",
       "original_text_name": "AUC",
       "aliases": [
-        "Autodefensas Unidas de Colombia"
+        "United Self-Defense Forces of Colombia"
       ],
       "type": "militia",
-      "context": "Colombian paramilitary group associated with 'Ndrangheta clans.",
-      "time_period": "1990s-2000s"
+      "context": "Colombian paramilitary group, closely associated with 'Ndrangheta clans.",
+      "time_period": "1997-2006"
     },
     {
       "standard_name": "Mancuso 'ndrina",
@@ -337,19 +345,11 @@
       "time_period": null
     },
     {
-      "standard_name": "Los Zetas",
-      "original_text_name": "Los Zetas",
-      "aliases": [],
-      "type": "cartel",
-      "context": "Mexican drug cartel and mercenary army, works with 'Ndrangheta.",
-      "time_period": "2000s-present"
-    },
-    {
       "standard_name": "Bonanno family",
       "original_text_name": "Bonanno family",
       "aliases": [],
       "type": "mafia",
-      "context": "American Mafia family, allied with 'Ndrangheta in North America.",
+      "context": "American Mafia family, allied with 'Ndrangheta and Violi family.",
       "time_period": "1930s-present"
     },
     {
@@ -361,51 +361,11 @@
       "time_period": null
     },
     {
-      "standard_name": "Rizzuto crime family",
-      "original_text_name": "Rizzuto crime family",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Canadian Mafia family, feuded with 'Ndrangheta families in TV series.",
-      "time_period": "1970s-present"
-    },
-    {
-      "standard_name": "Cosoleto crime family",
-      "original_text_name": "Cosoleto crime family",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Fictional 'Ndrangheta family in TV series Bad Blood.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Langana crime family",
-      "original_text_name": "Langana crime family",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Fictional 'Ndrangheta family in TV series Bad Blood.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Giorgi clan",
-      "original_text_name": "Giorgi clan",
-      "aliases": [],
-      "type": "clan",
-      "context": "'Ndrangheta clan from San Luca, active in Netherlands and Belgium.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Nirta clan",
-      "original_text_name": "Nirta clan",
-      "aliases": [],
-      "type": "clan",
-      "context": "'Ndrangheta clan from San Luca, active in Netherlands and Belgium.",
-      "time_period": null
-    },
-    {
       "standard_name": "Aracri clan",
       "original_text_name": "Aracri clan",
       "aliases": [],
       "type": "clan",
-      "context": "'Ndrangheta clan active in London in money laundering and drug trafficking.",
+      "context": "'Ndrangheta clan active in London in money laundering, catering, and drug trafficking.",
       "time_period": null
     },
     {
@@ -413,16 +373,56 @@
       "original_text_name": "Fazzari clan",
       "aliases": [],
       "type": "clan",
-      "context": "'Ndrangheta clan active in London in money laundering and drug trafficking.",
+      "context": "'Ndrangheta clan active in London in money laundering, catering, and drug trafficking.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Giorgi clan",
+      "original_text_name": "Giorgi clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan from San Luca with base in Netherlands and Belgium.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nirta clan",
+      "original_text_name": "Nirta clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan from San Luca with base in Netherlands and Belgium.",
       "time_period": null
     },
     {
       "standard_name": "Suraci family",
       "original_text_name": "Suraci family",
       "aliases": [],
-      "type": "mafia",
+      "type": "clan",
       "context": "'Ndrangheta family from Reggio Calabria with operations in the U.S.",
       "time_period": "1962-present"
+    },
+    {
+      "standard_name": "Rizzuto crime family",
+      "original_text_name": "Rizzuto crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Canadian Mafia family, involved in feud with 'Ndrangheta families in TV series.",
+      "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Cosoleto crime family",
+      "original_text_name": "Cosoleto crime family",
+      "aliases": [],
+      "type": "clan",
+      "context": "Fictional 'Ndrangheta family in TV series Bad Blood.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Langana crime family",
+      "original_text_name": "Langana crime family",
+      "aliases": [],
+      "type": "clan",
+      "context": "Fictional 'Ndrangheta family in TV series Bad Blood.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -447,7 +447,7 @@
       "target": "Sicilian Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Joint ventures in cocaine trafficking operations.",
+      "context": "They engage in joint ventures in cocaine trafficking operations.",
       "time_period": null
     },
     {
@@ -455,71 +455,39 @@
       "target": "Camorra",
       "relationship": "alliance",
       "detail": null,
-      "context": "Contacts established through cigarette smuggling.",
+      "context": "Cigarette smuggling facilitated contacts between them.",
       "time_period": "1960s"
-    },
-    {
-      "source": "'Ndrangheta",
-      "target": "Piromalli 'ndrina",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Piromalli 'ndrina is a clan associated with the 'Ndrangheta.",
-      "time_period": null
-    },
-    {
-      "source": "'Ndrangheta",
-      "target": "Condello-Imerti-Serraino-Rosmini clans",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "These clans are factions within the 'Ndrangheta.",
-      "time_period": "1985-1991"
-    },
-    {
-      "source": "'Ndrangheta",
-      "target": "De Stefano-Tegano-Libri-Latella clans",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "These clans are factions within the 'Ndrangheta.",
-      "time_period": "1985-1991"
     },
     {
       "source": "Condello-Imerti-Serraino-Rosmini clans",
       "target": "De Stefano-Tegano-Libri-Latella clans",
       "relationship": "rivalry",
       "detail": null,
-      "context": "These two alliances fought the Second 'Ndrangheta war (1985-1991), resulting in over 600 fatalities.",
+      "context": "They fought the Second 'Ndrangheta war from 1985 to 1991.",
       "time_period": "1985-1991"
     },
     {
-      "source": "'Ndrangheta",
-      "target": "Farao clan",
+      "source": "Sicilian Mafia",
+      "target": "Condello-Imerti-Serraino-Rosmini clans",
       "relationship": "other",
-      "detail": "sub-group",
-      "context": "Farao clan is a clan within the 'Ndrangheta.",
-      "time_period": null
+      "detail": "mediation",
+      "context": "Sicilian Mafia mediated the end of the Second 'Ndrangheta war.",
+      "time_period": "1991"
     },
     {
-      "source": "'Ndrangheta",
-      "target": "Marincola clan",
+      "source": "Sicilian Mafia",
+      "target": "De Stefano-Tegano-Libri-Latella clans",
       "relationship": "other",
-      "detail": "sub-group",
-      "context": "Marincola clan is a clan within the 'Ndrangheta.",
-      "time_period": null
-    },
-    {
-      "source": "'Ndrangheta",
-      "target": "Commisso 'ndrina",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Commisso 'ndrina is a clan within the 'Ndrangheta.",
-      "time_period": null
+      "detail": "mediation",
+      "context": "Sicilian Mafia mediated the end of the Second 'Ndrangheta war.",
+      "time_period": "1991"
     },
     {
       "source": "'Ndrangheta",
       "target": "Gambino family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Alleged links suggest the 'Ndrangheta uses New York as a training ground for new recruits with the Gambino family.",
+      "context": "Alleged links suggest 'Ndrangheta uses New York as a training ground for recruits.",
       "time_period": "2023"
     },
     {
@@ -527,16 +495,8 @@
       "target": "Albanian mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "The 'Ndrangheta acts in close co-operation with Albanian mafia families in moving weapons and narcotics across Europe.",
+      "context": "They act in close co-operation in moving weapons and narcotics across Europe.",
       "time_period": null
-    },
-    {
-      "source": "'Ndrangheta",
-      "target": "Siderno Group",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Siderno Group is a branch of the 'Ndrangheta operating in Ontario, Canada.",
-      "time_period": "several decades ago"
     },
     {
       "source": "'Ndrangheta",
@@ -708,27 +668,11 @@
     },
     {
       "source": "'Ndrangheta",
-      "target": "Pelle-Romeo",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Pelle-Romeo is a clan within the 'Ndrangheta.",
-      "time_period": null
-    },
-    {
-      "source": "'Ndrangheta",
-      "target": "Strangio-Nirta",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Strangio-Nirta is a clan within the 'Ndrangheta.",
-      "time_period": null
-    },
-    {
-      "source": "Pelle-Romeo",
-      "target": "Strangio-Nirta",
-      "relationship": "rivalry",
+      "target": "Los Zetas",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Feud between the two clans since 1991, resulting in multiple deaths.",
-      "time_period": "1991-present"
+      "context": "'Ndrangheta works in conjunction with Los Zetas in the drug trade.",
+      "time_period": null
     },
     {
       "source": "'Ndrangheta",
@@ -747,75 +691,83 @@
       "time_period": null
     },
     {
-      "source": "'Ndrangheta",
-      "target": "Los Zetas",
-      "relationship": "alliance",
+      "source": "Pelle-Romeo",
+      "target": "Strangio-Nirta",
+      "relationship": "rivalry",
       "detail": null,
-      "context": "'Ndrangheta works in conjunction with Los Zetas in the drug trade.",
-      "time_period": null
+      "context": "War between the two clans started in 1991 in San Luca, resulting in several deaths.",
+      "time_period": "1991-present"
+    },
+    {
+      "source": "'Ndrangheta",
+      "target": "Gambino family",
+      "relationship": "other",
+      "detail": "targeted together",
+      "context": "Joint operation New Bridge targeted both Gambino family and Ursino 'ndrina.",
+      "time_period": "2014"
     },
     {
       "source": "'Ndrangheta",
       "target": "Bonanno family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Bonanno associates allied with 'Ndrangheta Violi family in North America.",
+      "context": "New alliance between Bonanno associates and Violi family suggests growing prominence of 'Ndrangheta.",
       "time_period": "2018"
     },
     {
-      "source": "'Ndrangheta",
-      "target": "Ursino 'ndrina",
+      "source": "Ursino 'ndrina",
+      "target": "'Ndrangheta",
       "relationship": "other",
       "detail": "sub-group",
-      "context": "Ursino 'ndrina is a clan within the 'Ndrangheta.",
+      "context": "Ursino 'ndrina is a clan of the 'Ndrangheta.",
       "time_period": null
     },
     {
-      "source": "Bonanno family",
-      "target": "Violi family",
+      "source": "Violi family",
+      "target": "Bonanno family",
       "relationship": "alliance",
       "detail": null,
-      "context": "New alliance between Bonanno associates and Violi family.",
+      "context": "Alliance between Bonanno associates and Violi family.",
       "time_period": "2018"
     },
     {
-      "source": "'Ndrangheta",
-      "target": "Giorgi clan",
+      "source": "Aracri clan",
+      "target": "'Ndrangheta",
       "relationship": "other",
       "detail": "sub-group",
-      "context": "Giorgi clan is a clan within the 'Ndrangheta.",
+      "context": "Aracri clan is a clan of the 'Ndrangheta active in London.",
       "time_period": null
     },
     {
-      "source": "'Ndrangheta",
-      "target": "Nirta clan",
+      "source": "Fazzari clan",
+      "target": "'Ndrangheta",
       "relationship": "other",
       "detail": "sub-group",
-      "context": "Nirta clan is a clan within the 'Ndrangheta.",
+      "context": "Fazzari clan is a clan of the 'Ndrangheta active in London.",
       "time_period": null
     },
     {
-      "source": "'Ndrangheta",
-      "target": "Aracri clan",
+      "source": "Giorgi clan",
+      "target": "'Ndrangheta",
       "relationship": "other",
       "detail": "sub-group",
-      "context": "Aracri clan is a clan within the 'Ndrangheta.",
+      "context": "Giorgi clan is a clan of the 'Ndrangheta with base in Netherlands.",
       "time_period": null
     },
     {
-      "source": "'Ndrangheta",
-      "target": "Fazzari clan",
+      "source": "Nirta clan",
+      "target": "'Ndrangheta",
       "relationship": "other",
       "detail": "sub-group",
-      "context": "Fazzari clan is a clan within the 'Ndrangheta.",
+      "context": "Nirta clan is a clan of the 'Ndrangheta with base in Netherlands.",
       "time_period": null
     },
     {
-      "source": "'Ndrangheta",
-      "target": "Suraci family",
+      "source": "Suraci family",
+      "target": "'Ndrangheta",
       "relationship": "other",
       "detail": "sub-group",
-      "context": "Suraci family is a 'Ndrangheta family with U.S. operations.",
+      "context": "Suraci family is a 'Ndrangheta family with operations in the U.S.",
       "time_period": null
     }
   ],

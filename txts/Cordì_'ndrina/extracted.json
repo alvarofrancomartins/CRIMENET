@@ -1,0 +1,179 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cordì 'ndrina",
+      "original_text_name": "Cordì 'ndrina",
+      "aliases": [
+        "Cordì clan"
+      ],
+      "type": "clan",
+      "context": "A clan of the 'Ndrangheta based in Locri, Calabria, involved in racketeering, drug trafficking, and other crimes.",
+      "time_period": "1950s-present"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Criminal and mafia-type organization in Calabria, Italy.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Cataldo 'ndrina",
+      "original_text_name": "Cataldo 'ndrina",
+      "aliases": [
+        "Cataldo clan"
+      ],
+      "type": "clan",
+      "context": "A clan of the 'Ndrangheta, rival of the Cordì clan, based in Locri.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Tagliavia family",
+      "original_text_name": "Tagliavia family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Sicilian mafia family from Palermo involved in cigarette smuggling.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Spadaro family",
+      "original_text_name": "Spadaro family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Sicilian mafia family from Palermo involved in cigarette smuggling.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Commisso 'ndrina",
+      "original_text_name": "Commisso 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "Allied 'ndrina of the Cordì clan.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Aquino 'ndrina",
+      "original_text_name": "Aquino 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "Allied 'ndrina of the Cordì clan.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Ursino 'ndrina",
+      "original_text_name": "Ursino 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "Allied 'ndrina of the Cordì clan.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Mazzaferro 'ndrina",
+      "original_text_name": "Mazzaferro 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "Rival 'ndrina of the Cordì clan.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Costa 'ndrina",
+      "original_text_name": "Costa 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "Rival 'ndrina of the Cordì clan.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Ierinò 'ndrina",
+      "original_text_name": "Ierinò 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "Rival 'ndrina of the Cordì clan.",
+      "time_period": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cordì 'ndrina",
+      "target": "'Ndrangheta",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Cordì 'ndrina is a clan of the 'Ndrangheta.",
+      "time_period": "1950s-present"
+    },
+    {
+      "source": "Cataldo 'ndrina",
+      "target": "'Ndrangheta",
+      "relationship": "other",
+      "detail": "sub-group",
+      "context": "The Cataldo 'ndrina is a clan of the 'Ndrangheta.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Cordì 'ndrina",
+      "target": "Cataldo 'ndrina",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Long blood feud from 1967 to 2010, with periods of truce and resumed hostilities.",
+      "time_period": "1967-2010"
+    },
+    {
+      "source": "Tagliavia family",
+      "target": "Spadaro family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both Sicilian mafia families from Palermo involved in cigarette smuggling together.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Cordì 'ndrina",
+      "target": "Commisso 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied 'ndrina according to infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Cordì 'ndrina",
+      "target": "Aquino 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied 'ndrina according to infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Cordì 'ndrina",
+      "target": "Ursino 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied 'ndrina according to infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Cordì 'ndrina",
+      "target": "Mazzaferro 'ndrina",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rival 'ndrina according to infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Cordì 'ndrina",
+      "target": "Costa 'ndrina",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rival 'ndrina according to infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Cordì 'ndrina",
+      "target": "Ierinò 'ndrina",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rival 'ndrina according to infobox.",
+      "time_period": "unknown"
+    }
+  ],
+  "source_file": "Cordì_'ndrina"
+}

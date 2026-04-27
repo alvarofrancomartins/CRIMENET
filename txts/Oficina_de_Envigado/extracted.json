@@ -24,7 +24,7 @@
       "original_text_name": "Los Pepes",
       "aliases": [],
       "type": "militia",
-      "context": "Vigilante group formed to oppose Pablo Escobar; allied with Diego Murillo against Medellín Cartel.",
+      "context": "Vigilante group formed to oppose Pablo Escobar; allied with Diego Murillo against Escobar.",
       "time_period": "1992-1993"
     },
     {
@@ -42,7 +42,7 @@
       "original_text_name": "La Terraza",
       "aliases": [],
       "type": "gang",
-      "context": "Gang of hit men under control of Oficina de Envigado; led by Mauricio Zapata Orozco.",
+      "context": "Gang of hit men under control of Oficina de Envigado; serves as a subgroup.",
       "time_period": "Unknown-present"
     },
     {
@@ -52,7 +52,7 @@
         "Clan del Golfo"
       ],
       "type": "clan",
-      "context": "Criminal group; rival of Oficina de Envigado, involved in conflict with its factions.",
+      "context": "Colombian criminal group; rival of Oficina de Envigado.",
       "time_period": "2000s-present"
     },
     {
@@ -60,7 +60,7 @@
       "original_text_name": "Los Rastrojos",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel; allied with Oficina de Envigado.",
+      "context": "Colombian drug cartel; ally of Oficina de Envigado.",
       "time_period": "2000s-present"
     },
     {
@@ -68,37 +68,33 @@
       "original_text_name": "Los Zetas",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel; allied with Oficina de Envigado.",
-      "time_period": "2000s-present"
+      "context": "Mexican drug cartel; ally of Oficina de Envigado.",
+      "time_period": "1999-present"
     },
     {
       "standard_name": "Sinaloa Cartel",
       "original_text_name": "Sinaloa Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel; allied with Oficina de Envigado.",
-      "time_period": "Unknown-present"
-    },
-    {
-      "standard_name": "Moroccan mafia",
-      "original_text_name": "Moroccan mafia",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Criminal organization; allied with Oficina de Envigado.",
-      "time_period": "Unknown-present"
+      "context": "Mexican drug cartel; ally of Oficina de Envigado.",
+      "time_period": "1980s-present"
     },
     {
       "standard_name": "Cosa Nostra",
       "original_text_name": "Cosa Nostra",
-      "aliases": [],
+      "aliases": [
+        "Sicilian Mafia"
+      ],
       "type": "mafia",
-      "context": "Sicilian mafia; allied with Oficina de Envigado.",
-      "time_period": "Unknown-present"
+      "context": "Sicilian mafia; ally of Oficina de Envigado.",
+      "time_period": "1800s-present"
     },
     {
       "standard_name": "Clan del Golfo",
       "original_text_name": "Clan del Golfo",
-      "aliases": [],
+      "aliases": [
+        "Usuga Clan"
+      ],
       "type": "clan",
       "context": "Colombian criminal group; rival of Oficina de Envigado.",
       "time_period": "2000s-present"
@@ -132,57 +128,50 @@
       "target": "La Terraza",
       "relationship": "other",
       "detail": "subgroup control",
-      "context": "La Terraza is a gang of hit men under La Oficina's control.",
-      "time_period": "Unknown-present"
+      "context": "La Terraza is a gang under La Oficina's control.",
+      "time_period": null
     },
     {
       "source": "Oficina de Envigado",
       "target": "Usuga Clan",
       "relationship": "rivalry",
       "context": "Oficina de Envigado had conflict with the Usuga Clan.",
-      "time_period": "2000s-2012"
+      "time_period": "2000s-2010s"
     },
     {
       "source": "Oficina de Envigado",
       "target": "Los Rastrojos",
       "relationship": "alliance",
       "context": "Oficina de Envigado has alliances with Los Rastrojos.",
-      "time_period": "Unknown-present"
+      "time_period": null
     },
     {
       "source": "Oficina de Envigado",
       "target": "Los Zetas",
       "relationship": "alliance",
       "context": "Oficina de Envigado has alliances with Los Zetas in Mexico.",
-      "time_period": "Unknown-present"
+      "time_period": null
     },
     {
       "source": "Oficina de Envigado",
       "target": "Sinaloa Cartel",
       "relationship": "alliance",
       "context": "Oficina de Envigado is allied with Sinaloa Cartel.",
-      "time_period": "Unknown-present"
-    },
-    {
-      "source": "Oficina de Envigado",
-      "target": "Moroccan mafia",
-      "relationship": "alliance",
-      "context": "Oficina de Envigado is allied with Moroccan mafia.",
-      "time_period": "Unknown-present"
+      "time_period": null
     },
     {
       "source": "Oficina de Envigado",
       "target": "Cosa Nostra",
       "relationship": "alliance",
       "context": "Oficina de Envigado is allied with Cosa Nostra.",
-      "time_period": "Unknown-present"
+      "time_period": null
     },
     {
       "source": "Oficina de Envigado",
       "target": "Clan del Golfo",
       "relationship": "rivalry",
-      "context": "Oficina de Envigado lists Clan del Golfo as a rival.",
-      "time_period": "Unknown-present"
+      "context": "Oficina de Envigado has rivalry with Clan del Golfo.",
+      "time_period": null
     }
   ],
   "source_file": "Oficina_de_Envigado"

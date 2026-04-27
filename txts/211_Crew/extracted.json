@@ -33,21 +33,19 @@
       "time_period": "unknown"
     },
     {
+      "standard_name": "Aryan Brotherhood",
+      "original_text_name": "Texas Aryan Brotherhood",
+      "aliases": [],
+      "type": "gang",
+      "context": "Texas-based white supremacist prison gang; a member sent a threatening letter linked to assassinations.",
+      "time_period": "unknown"
+    },
+    {
       "standard_name": "Bloods",
       "original_text_name": "Bloods",
       "aliases": [],
       "type": "gang",
-      "context": "Street gang; Benjamin Davis was a former member before forming 211 Crew.",
-      "time_period": "unknown"
-    },
-    {
-      "standard_name": "Aryan Brotherhood",
-      "original_text_name": "Texas Aryan Brotherhood",
-      "aliases": [
-        "Aryan Brotherhood"
-      ],
-      "type": "gang",
-      "context": "Texas-based white supremacist prison gang; a member sent a threatening letter linked to assassinations.",
+      "context": "Nationwide street gang; founding member Benjamin Davis was a former member.",
       "time_period": "unknown"
     }
   ],
@@ -73,15 +71,15 @@
       "target": "Bloods",
       "relationship": "other",
       "detail": "former membership",
-      "context": "Founder Benjamin Davis was a former member of the Bloods before forming 211 Crew.",
+      "context": "Founding member Benjamin Davis was a former member of the Bloods.",
       "time_period": "before 1995"
     },
     {
-      "source": "211 Crew",
-      "target": "Aryan Brotherhood",
+      "source": "Aryan Brotherhood",
+      "target": "211 Crew",
       "relationship": "other",
       "detail": "suspected link",
-      "context": "A Texas Aryan Brotherhood member sent a threatening letter, leading to suspicion of links to assassinations.",
+      "context": "A threatening letter from a Texas Aryan Brotherhood member suggested a link to assassinations, but not confirmed.",
       "time_period": "2013"
     }
   ],

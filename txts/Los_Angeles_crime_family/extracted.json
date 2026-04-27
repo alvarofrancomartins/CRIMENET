@@ -20,7 +20,7 @@
       "original_text_name": "American Mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Umbrella term for Italian American Mafia families in the United States.",
+      "context": "Umbrella term for Italian American Mafia families across the United States.",
       "time_period": "late 19th century-present"
     },
     {
@@ -37,8 +37,8 @@
       "aliases": [
         "Matranga gang"
       ],
-      "type": "gang",
-      "context": "Early Italian street gang in Los Angeles, involved in extortion and violence, led by Rosario Matranga.",
+      "type": "mafia",
+      "context": "Early Italian American organized crime group in Los Angeles, involved in extortion and violence.",
       "time_period": "1905-1930"
     },
     {
@@ -54,7 +54,7 @@
       "original_text_name": "Morello crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "New York City Mafia family, first boss was Giuseppe Morello.",
+      "context": "New York City Mafia family, first of its kind, led by Giuseppe Morello.",
       "time_period": "1890s-1930s"
     },
     {
@@ -66,14 +66,6 @@
       "type": "other",
       "context": "Coordinating body of American Mafia families, also known as The Commission.",
       "time_period": "1931-present"
-    },
-    {
-      "standard_name": "Cohen crime family",
-      "original_text_name": "Cohen's own crime family",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Criminal organization led by Mickey Cohen in Los Angeles after Bugsy Siegel's death.",
-      "time_period": "1947-1960s"
     },
     {
       "standard_name": "Bonanno crime family",
@@ -88,7 +80,7 @@
       "original_text_name": "Buffalo crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "New York-based Mafia family that partnered with Los Angeles in Las Vegas operations.",
+      "context": "Mafia family based in Buffalo, New York; allied with Los Angeles in Las Vegas operations and involved in murder of Herbert Blitzstein.",
       "time_period": "1910s-present"
     },
     {
@@ -104,7 +96,7 @@
       "original_text_name": "Colombo family",
       "aliases": [],
       "type": "mafia",
-      "context": "New York Mafia family; capo Dominic Montemarano partnered with Tommaso Gambino.",
+      "context": "New York Mafia family; capo Dominic Montemarano partnered with Tommaso Gambino in a payphone company.",
       "time_period": "1920s-present"
     },
     {
@@ -202,6 +194,14 @@
       "type": "gang",
       "context": "Prison gang based in California, listed as an ally.",
       "time_period": null
+    },
+    {
+      "standard_name": "Cohen crime family",
+      "original_text_name": "Cohen crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Los Angeles-based Jewish organized crime group, listed as a rival.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -222,36 +222,20 @@
       "time_period": "1956-present"
     },
     {
-      "source": "Los Angeles crime family",
-      "target": "National Mafia Syndicate",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Jack Dragna had a seat on The Commission, the National Mafia Syndicate's governing body.",
-      "time_period": "1930s-1956"
-    },
-    {
       "source": "Matranga family",
       "target": "Los Angeles crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Matranga family feuded with Joseph Ardizzone's faction, which later became the Los Angeles crime family.",
-      "time_period": "1906-1930"
+      "context": "The Matranga family was a predecessor and rival to the Ardizzone/Dragna faction that became the Los Angeles crime family.",
+      "time_period": "1905-1930"
     },
     {
       "source": "City Hall Gang",
       "target": "Los Angeles crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Albert Marco of the City Hall Gang seized control of Los Angeles in the 1920s, competing with the Mafia.",
+      "context": "The City Hall Gang controlled bootlegging and vice in Los Angeles in the 1920s, competing with the emerging Mafia.",
       "time_period": "1920s"
-    },
-    {
-      "source": "Los Angeles crime family",
-      "target": "Cohen crime family",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "After Bugsy Siegel's death, Mickey Cohen's organization rivaled the Los Angeles crime family, leading to violent conflict.",
-      "time_period": "1947-1950s"
     },
     {
       "source": "Morello crime family",
@@ -263,10 +247,18 @@
     },
     {
       "source": "Los Angeles crime family",
+      "target": "National Mafia Syndicate",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Jack Dragna made peace with the National Mafia Syndicate and secured a seat on The Commission.",
+      "time_period": "1931-1956"
+    },
+    {
+      "source": "Los Angeles crime family",
       "target": "Chicago Outfit",
       "relationship": "alliance",
       "detail": null,
-      "context": "Chicago Outfit represented Los Angeles on The Commission after Jack Dragna's death; members transferred between families.",
+      "context": "Chicago Outfit represented Los Angeles on The Commission after Jack Dragna's death; members like Roselli and Fratianno transferred between families.",
       "time_period": "1956-present"
     },
     {
@@ -274,7 +266,7 @@
       "target": "Bonanno crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Bonanno boss Joseph Bonanno plotted to kill Los Angeles boss Frank DeSimone.",
+      "context": "Bonanno boss Joseph Bonanno plotted to kill Los Angeles boss Frank DeSimone for failing to exploit criminal opportunities.",
       "time_period": "1960s"
     },
     {
@@ -282,7 +274,7 @@
       "target": "Buffalo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Angeles and Buffalo families partnered in Las Vegas, including takeover of Herbert Blitzstein's operations.",
+      "context": "Both families moved into Las Vegas together and were involved in the murder of Chicago Outfit associate Herbert Blitzstein.",
       "time_period": "1990s"
     },
     {
@@ -298,7 +290,7 @@
       "target": "Colombo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Tommaso Gambino partnered with Colombo capo Dominic Montemarano in a payphone company.",
+      "context": "Colombo capo Dominic Montemarano partnered with Tommaso Gambino in a payphone company.",
       "time_period": "2000s-2010s"
     },
     {
@@ -395,6 +387,14 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Los Angeles crime family",
+      "target": "Cohen crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
       "time_period": null
     }
   ],

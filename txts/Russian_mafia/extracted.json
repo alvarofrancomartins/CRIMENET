@@ -55,7 +55,7 @@
         "Izmaylovo gang"
       ],
       "type": "gang",
-      "context": "A Russian gang from the Izmaylovo District.",
+      "context": "A Russian criminal group from the Izmaylovo District.",
       "time_period": null
     },
     {
@@ -105,8 +105,8 @@
       "original_text_name": "Camorra",
       "aliases": [],
       "type": "clan",
-      "context": "Italian mafia-type organization based in Campania, involved in drug trafficking and counterfeiting.",
-      "time_period": "19th century-present"
+      "context": "Italian mafia-type organization based in Campania, involved in counterfeiting and drug trafficking.",
+      "time_period": "18th century-present"
     },
     {
       "standard_name": "Giuliano Clan",
@@ -235,7 +235,7 @@
       "original_text_name": "Brothers' Circle",
       "aliases": [],
       "type": "other",
-      "context": "Multi-ethnic transnational group composed of leaders of Eurasian criminal groups, designated a threat by the US.",
+      "context": "Multi-ethnic transnational group composed of leaders from several Eurasian criminal groups.",
       "time_period": "2011–present"
     },
     {
@@ -243,8 +243,8 @@
       "original_text_name": "Semion Mogilevich organization",
       "aliases": [],
       "type": "mafia",
-      "context": "Criminal group based in Budapest, Hungary, headed by Semion Mogilevich, with about 250 members.",
-      "time_period": "1990s–present"
+      "context": "Criminal group based in Budapest, Hungary, headed by Semion Mogilevich.",
+      "time_period": "1996–present"
     },
     {
       "standard_name": "Vyacheslav Ivankov Organization",
@@ -285,7 +285,7 @@
       "target": "Russian mafia",
       "relationship": "other",
       "detail": "sub-group",
-      "context": "Solntsevskaya Bratva is a group within the Russian mafia network.",
+      "context": "Solntsevskaya Bratva is a regional group within the Russian mafia.",
       "time_period": null
     },
     {
@@ -293,7 +293,7 @@
       "target": "Russian mafia",
       "relationship": "other",
       "detail": "sub-group",
-      "context": "Tambovskaya Bratva is a group within the Russian mafia network.",
+      "context": "Tambovskaya Bratva is a regional group within the Russian mafia.",
       "time_period": null
     },
     {
@@ -301,7 +301,7 @@
       "target": "Russian mafia",
       "relationship": "other",
       "detail": "sub-group",
-      "context": "Izmaylovskaya gang is a group within the Russian mafia network.",
+      "context": "Izmaylovskaya gang is a regional group within the Russian mafia.",
       "time_period": null
     },
     {
@@ -309,15 +309,15 @@
       "target": "American Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Vyacheslav Ivankov made ties with the American Mafia after arriving in the US.",
-      "time_period": "1992-1995"
+      "context": "Vyacheslav Ivankov made ties with the American Mafia in the 1990s.",
+      "time_period": "1990s"
     },
     {
       "source": "Russian Mafia",
       "target": "Colombian Drug Cartels",
       "relationship": "alliance",
       "detail": null,
-      "context": "Ivankov made ties with Colombian drug cartels, and Ludwig Fainberg acted as intermediary with Colombian dealers.",
+      "context": "Ivankov made ties with Colombian drug cartels; Ludwig Fainberg acted as intermediary with Colombian cocaine dealers.",
       "time_period": "1990s"
     },
     {
@@ -325,24 +325,80 @@
       "target": "Camorra",
       "relationship": "alliance",
       "detail": null,
-      "context": "Semion Mogilevich had alliances with the Camorra, and they cooperated in a counterfeiting scheme.",
-      "time_period": "1993-1995"
+      "context": "Semion Mogilevich had alliances with the Camorra; they cooperated in a counterfeiting scheme.",
+      "time_period": "1990s"
     },
     {
       "source": "Camorra",
       "target": "Giuliano Clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Salvatore DeFalco, a member of the Giuliano clan, was involved in meetings with Mogilevich.",
-      "time_period": "1993"
+      "context": "Salvatore DeFalco was a lower-echelon member of the Giuliano clan, part of the Camorra.",
+      "time_period": "1990s"
     },
     {
       "source": "Monya's Brigada",
       "target": "Russian Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Monya's Brigada was a Russian gang operating within the broader Russian mafia sphere.",
+      "context": "Monya's Brigada was a Russian gang operating as part of the broader Russian mafia.",
       "time_period": "1990s"
+    },
+    {
+      "source": "Solntsevskaya Bratva",
+      "target": "Russian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Solntsevskaya Bratva is a prominent group within the Russian mafia.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Tambovskaya",
+      "target": "Russian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Tambovskaya is a Russian mafia group controlling Saint Petersburg's energy market.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Uralmash Gang",
+      "target": "Russian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Uralmash gang is a Russian criminal group within the Russian mafia.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Orekhovskaya Gang",
+      "target": "Russian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Orekhovskaya gang is a Russian criminal group within the Russian mafia.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Shulaya Clan",
+      "target": "Russian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Shulaya clan is a Russian mafia clan based in New York.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Izmailovskaya Clan",
+      "target": "Russian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Izmailovskaya clan is a Russian mafia clan involved in money laundering in Spain.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Malyshev Organization",
+      "target": "Russian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Malyshev organization is a Russian mafia group involved in money laundering in Spain.",
+      "time_period": "1990s-present"
     },
     {
       "source": "Monya's Brigada",
@@ -355,18 +411,10 @@
     {
       "source": "Solntsevskaya Bratva",
       "target": "Russian Mafia",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Ivankov maintained ties with Solntsevskaya Bratva members, and they attended a summit together.",
-      "time_period": "1990s"
-    },
-    {
-      "source": "Solntsevskaya Bratva",
-      "target": "Russian Mafia",
       "relationship": "rivalry",
       "detail": null,
       "context": "There was a dispute between Mogilevich and Solntsevskaya leader Sergei Mikhailov over $5 million.",
-      "time_period": "1995"
+      "time_period": "1990s"
     },
     {
       "source": "Orekhovskaya Gang",
@@ -374,46 +422,22 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Ivankov had an altercation with Orekhovskaya leader Sergei Timofeyev, ending with Timofeyev murdered.",
-      "time_period": "1994"
-    },
-    {
-      "source": "Shulaya Clan",
-      "target": "Russian Mafia",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Shulaya clan is connected to the Russian mafia and based in New York.",
-      "time_period": "2000s-present"
-    },
-    {
-      "source": "Solntsevskaya Bratva",
-      "target": "Izmailovskaya Clan",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Members of both clans were arrested together in Spain for money laundering.",
-      "time_period": "2017"
-    },
-    {
-      "source": "Tambovskaya",
-      "target": "Malyshev Organization",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both organizations were involved in money laundering in Spain.",
-      "time_period": "2018"
+      "time_period": "1990s"
     },
     {
       "source": "Solntsevskaya Bratva",
       "target": "Semion Mogilevich organization",
       "relationship": "alliance",
       "detail": null,
-      "context": "Their businesses are often connected.",
+      "context": "Their business is often connected.",
       "time_period": null
     },
     {
-      "source": "Semion Mogilevich organization",
-      "target": "Vyacheslav Ivankov Organization",
+      "source": "Vyacheslav Ivankov Organization",
+      "target": "Semion Mogilevich organization",
       "relationship": "alliance",
       "detail": null,
-      "context": "Their businesses are often connected.",
+      "context": "Their business is often connected.",
       "time_period": null
     },
     {
@@ -437,7 +461,7 @@
       "target": "Yakuza",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Tambov gang is closely aligned with Japanese yakuza from Kobe and Osaka.",
+      "context": "The Tambov gang is very closely aligned with Japanese yakuza from Kobe and Osaka.",
       "time_period": null
     },
     {
@@ -445,7 +469,7 @@
       "target": "Usvyatsov-Putyrsky gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Komarovskaya receives strong support from the Usvyatsov-Putyrsky gang for cocaine supply and counterfeit dollar trade.",
+      "context": "Komarovskaya OPG receives strong support from the Usvyatsov-Putyrsky gang.",
       "time_period": null
     },
     {
@@ -471,6 +495,86 @@
       "detail": null,
       "context": "Slonovskaya had long-term bloody wars with Kochetkovskie and other gangs.",
       "time_period": "1990s"
+    },
+    {
+      "source": "Tambovskaya Bratva",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Tambovskaya is a component group of the Russian mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Izmaylovskaya gang",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Izmaylovskaya is a component group of the Russian mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Lyuberetskaya Bratva",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Lyuberetskaya is a component group of the Russian mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Podolskaya gang",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Podolskaya is a component group of the Russian mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Dolgoprudnenskaya gang",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dolgoprudnenskaya is a component group of the Russian mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Chechen mafia",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Chechen mafia operates alongside Russian mafia groups.",
+      "time_period": null
+    },
+    {
+      "source": "Georgian mafia",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Georgian mafia operates alongside Russian mafia groups.",
+      "time_period": null
+    },
+    {
+      "source": "Mkhedrioni",
+      "target": "Georgian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mkhedrioni was a paramilitary group involved in organized crime in Georgia.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Brothers' Circle",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Brothers' Circle is composed of leaders from Eurasian criminal groups including Russian mafia.",
+      "time_period": null
+    },
+    {
+      "source": "Semion Mogilevich organization",
+      "target": "Russian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Semion Mogilevich organization is part of the Russian mafia.",
+      "time_period": null
     }
   ],
   "source_file": "Russian_mafia"

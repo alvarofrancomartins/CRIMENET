@@ -1,37 +1,35 @@
 {
   "nodes": [
     {
-      "standard_name": "Sabini Gang",
+      "standard_name": "Sabinis",
       "original_text_name": "Sabinis",
       "aliases": [
-        "Sabini Gang",
-        "Sabini's organization",
         "Italian Clerkenwell-based organisation"
       ],
       "type": "gang",
-      "context": "London-based racecourse gang led by Charles Sabini, involved in protection rackets, extortion, theft, and nightclubs.",
-      "time_period": "early 20th century-1940s"
+      "context": "Racecourse protection rackets, extortion, theft, nightclubs. Based in London, active early 20th century.",
+      "time_period": "early 1900s-1940s"
     },
     {
       "standard_name": "Birmingham Boys",
-      "original_text_name": "Billy Kimber's Birmingham Boys",
+      "original_text_name": "Birmingham Boys",
       "aliases": [
-        "Birmingham Boys"
+        "Billy Kimber's Birmingham Boys"
       ],
       "type": "gang",
-      "context": "Rival racecourse gang from Birmingham led by Billy Kimber, competed with Sabini for control of racecourse protection.",
-      "time_period": "early 20th century"
+      "context": "Rival racecourse gang from Birmingham, competed with Sabinis for protection rackets.",
+      "time_period": "early 1900s-1920s"
     },
     {
-      "standard_name": "Cortesi Brothers",
+      "standard_name": "Cortesi brothers",
       "original_text_name": "Cortesi brothers",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang from Saffron Hill that challenged Sabini's operations.",
+      "context": "Rival gang from Saffron Hill, challenged Sabini's power.",
       "time_period": "1920s-1930s"
     },
     {
-      "standard_name": "Hoxton Mob",
+      "standard_name": "Hoxton mob",
       "original_text_name": "Hoxton mob",
       "aliases": [],
       "type": "gang",
@@ -39,35 +37,35 @@
       "time_period": "1920s-1930s"
     },
     {
-      "standard_name": "White Family",
+      "standard_name": "White family",
       "original_text_name": "White family",
       "aliases": [
-        "Alf White's organization"
+        "Alf White"
       ],
       "type": "gang",
-      "context": "Gang led by Alf White that took over Sabini's empire after WWII.",
+      "context": "Took over Sabini's empire after WWII.",
       "time_period": "1940s"
     },
     {
-      "standard_name": "Jack Spot Organization",
+      "standard_name": "Jack Spot",
       "original_text_name": "Jack Spot",
       "aliases": [],
       "type": "gang",
-      "context": "Organization led by Jack Spot that took over Sabini's empire after the White family.",
+      "context": "Post-war gangster who took over Sabini's empire.",
       "time_period": "1940s-1950s"
     },
     {
-      "standard_name": "Billy Hill Organization",
+      "standard_name": "Billy Hill",
       "original_text_name": "Billy Hill",
       "aliases": [],
       "type": "gang",
-      "context": "Organization led by Billy Hill that took over Sabini's empire after Jack Spot.",
+      "context": "Post-war gangster who took over Sabini's empire.",
       "time_period": "1940s-1950s"
     }
   ],
   "edges": [
     {
-      "source": "Sabini Gang",
+      "source": "Sabinis",
       "target": "Birmingham Boys",
       "relationship": "rivalry",
       "detail": null,
@@ -75,43 +73,43 @@
       "time_period": "1920s"
     },
     {
-      "source": "Sabini Gang",
-      "target": "Cortesi Brothers",
+      "source": "Sabinis",
+      "target": "Cortesi brothers",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Cortesi brothers challenged Sabini's operations but were fended off.",
+      "context": "Sabini fended off challenges from the Cortesi brothers.",
       "time_period": "1920s-1930s"
     },
     {
-      "source": "Sabini Gang",
-      "target": "Hoxton Mob",
+      "source": "Sabinis",
+      "target": "Hoxton mob",
       "relationship": "rivalry",
       "detail": null,
       "context": "Hoxton mob routinely harassed Sabini's businesses.",
       "time_period": "1920s-1930s"
     },
     {
-      "source": "Sabini Gang",
-      "target": "White Family",
+      "source": "White family",
+      "target": "Sabinis",
       "relationship": "other",
       "detail": "successor",
-      "context": "White family took over Sabini's empire after his internment and decline.",
+      "context": "White family took over Sabini's empire after WWII.",
       "time_period": "1940s"
     },
     {
-      "source": "White Family",
-      "target": "Jack Spot Organization",
+      "source": "Jack Spot",
+      "target": "Sabinis",
       "relationship": "other",
       "detail": "successor",
-      "context": "Jack Spot's organization took over after the White family.",
-      "time_period": "1940s"
+      "context": "Jack Spot took over Sabini's empire after WWII.",
+      "time_period": "1940s-1950s"
     },
     {
-      "source": "Jack Spot Organization",
-      "target": "Billy Hill Organization",
+      "source": "Billy Hill",
+      "target": "Sabinis",
       "relationship": "other",
       "detail": "successor",
-      "context": "Billy Hill's organization took over after Jack Spot.",
+      "context": "Billy Hill took over Sabini's empire after WWII.",
       "time_period": "1940s-1950s"
     }
   ],

@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Pruszków mafia",
+      "original_text_name": "Pruszków mafia",
+      "aliases": [
+        "mafia pruszkowska",
+        "gang pruszkowski"
+      ],
+      "type": "mafia",
+      "context": "Polish criminal organization active in Warsaw area, involved in car theft, drug trafficking, kidnapping, extortion, murder.",
+      "time_period": "1989-2000"
+    },
+    {
+      "standard_name": "Wołomin mafia",
+      "original_text_name": "Wołomin mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Splinter group from Pruszków mafia formed in 1992, rival organization.",
+      "time_period": "1992-present"
+    },
+    {
+      "standard_name": "Ożarów Mazowiecki group",
+      "original_text_name": "gang based in Ożarów Mazowiecki",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal group that joined the Pruszków mafia in the first half of the 1990s.",
+      "time_period": "1990s"
+    },
+    {
+      "standard_name": "Mokotów group",
+      "original_text_name": "Mokotów group",
+      "aliases": [],
+      "type": "gang",
+      "context": "Splinter group from Pruszków mafia formed in 2000, acted independently until 2014.",
+      "time_period": "2000-2014"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Wołomin mafia",
+      "target": "Pruszków mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Wołomin mafia splintered from Pruszków mafia in 1992 and became an opposing organization.",
+      "time_period": "1992-2000"
+    },
+    {
+      "source": "Ożarów Mazowiecki group",
+      "target": "Pruszków mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Ożarów Mazowiecki group joined the Pruszków mafia in the first half of the 1990s.",
+      "time_period": "1990-1995"
+    },
+    {
+      "source": "Mokotów group",
+      "target": "Pruszków mafia",
+      "relationship": "other",
+      "detail": "splinter",
+      "context": "Mokotów group splintered from Pruszków mafia in 2000 and acted independently.",
+      "time_period": "2000-2014"
+    }
+  ],
+  "source_file": "Pruszków_mafia"
+}

@@ -17,7 +17,7 @@
         "the Arm"
       ],
       "type": "mafia",
-      "context": "Italian American Mafia crime family based in Buffalo, New York, operating in Western New York, Erie, Pennsylvania, and Hamilton, Ontario.",
+      "context": "Italian American Mafia family based in Buffalo, New York, operating in Western New York, Erie, Pennsylvania, and Hamilton, Ontario.",
       "time_period": "early 1900s-present"
     },
     {
@@ -41,7 +41,7 @@
       "original_text_name": "Castellammarese clan",
       "aliases": [],
       "type": "faction",
-      "context": "Group of mobsters originating from Castellammare del Golfo, Sicily, active in Brooklyn and Buffalo.",
+      "context": "Group of mobsters from Castellammare del Golfo, Sicily, active in Brooklyn and Buffalo.",
       "time_period": "early 1900s"
     },
     {
@@ -65,7 +65,7 @@
       "original_text_name": "Chicago Outfit",
       "aliases": [],
       "type": "mafia",
-      "context": "Mafia organization based in Chicago, associate Herbert Blitzstein controlled Las Vegas rackets.",
+      "context": "Chicago-based Mafia organization; associate Herbert Blitzstein controlled Las Vegas rackets.",
       "time_period": null
     },
     {
@@ -73,7 +73,7 @@
       "original_text_name": "Musitano crew",
       "aliases": [],
       "type": "faction",
-      "context": "Canadian Mafia crew led by Pasquale and Angelo Musitano, formerly a satellite of the Buffalo family.",
+      "context": "Canadian Mafia crew that rebelled against Buffalo family, murdering Johnny Papalia and Carmen Barillaro.",
       "time_period": "1990s"
     },
     {
@@ -81,7 +81,7 @@
       "original_text_name": "Luppino crew",
       "aliases": [],
       "type": "faction",
-      "context": "Canadian Mafia crew led by Natale and Vincenzo Luppino, sons of Giacomo Luppino.",
+      "context": "Hamilton-based crew led by Giacomo Luppino, targeted by Musitano crew.",
       "time_period": null
     },
     {
@@ -89,7 +89,7 @@
       "original_text_name": "Rizzuto family",
       "aliases": [],
       "type": "mafia",
-      "context": "Quebec Mafia family led by Vito Rizzuto, involved in Ontario discussions with Musitano crew.",
+      "context": "Quebec Mafia family led by Vito Rizzuto, involved with Musitano crew.",
       "time_period": null
     },
     {
@@ -99,16 +99,8 @@
         "Hells Angels"
       ],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club with Niagara chapter, allied with Buffalo family and Gerald Ward.",
-      "time_period": "1998-present"
-    },
-    {
-      "standard_name": "Gerald Ward's gang",
-      "original_text_name": "Gerald Ward's gang",
-      "aliases": [],
-      "type": "gang",
-      "context": "Criminal group in Niagara Peninsula led by Gerald Ward, later joined Hells Angels.",
-      "time_period": "1998-2000"
+      "context": "Outlaw motorcycle club; allied with Buffalo family in Ontario and Niagara region.",
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Luppino crime family",
@@ -146,20 +138,12 @@
     {
       "standard_name": "Gambino crime family",
       "original_text_name": "Gambino crime family",
-      "aliases": [],
-      "type": "mafia",
-      "context": "New York City Mafia family, one of the Five Families, involved in Canadian drug trafficking.",
-      "time_period": "1910s-present"
-    },
-    {
-      "standard_name": "Rizzuto crime family",
-      "original_text_name": "Rizzuto crime family",
       "aliases": [
-        "Rizutto crime family"
+        "Gambino family"
       ],
       "type": "mafia",
-      "context": "Montreal-based Mafia family, involved in conflict with Calabrian families backed by New York.",
-      "time_period": "1970s-present"
+      "context": "New York City Mafia family, one of the Five Families, involved in Canadian drug trafficking.",
+      "time_period": "1930s-present"
     },
     {
       "standard_name": "Musitano crime family",
@@ -169,8 +153,19 @@
         "Musitano family"
       ],
       "type": "mafia",
-      "context": "Hamilton-based Mafia family, involved in mob war with other Ontario families.",
+      "context": "Hamilton-based Mafia family involved in a mob war with other Ontario families.",
       "time_period": "unknown"
+    },
+    {
+      "standard_name": "Rizzuto crime family",
+      "original_text_name": "Rizzuto crime family",
+      "aliases": [
+        "Rizutto crime family",
+        "Rizzutos"
+      ],
+      "type": "mafia",
+      "context": "Montreal-based Mafia family, historically powerful, involved in conflict with Calabrian families.",
+      "time_period": "1970s-2010s"
     },
     {
       "standard_name": "Violi crime family",
@@ -179,7 +174,7 @@
         "Violi brothers"
       ],
       "type": "mafia",
-      "context": "Calabrian Mafia family in Canada, part of the Luppino-Violi group.",
+      "context": "Calabrian Mafia family in Canada, allied with Buffalo and New York families.",
       "time_period": "unknown"
     },
     {
@@ -226,23 +221,31 @@
       ],
       "type": "mafia",
       "context": "Sicilian Mafia families involved in international drug-trafficking with American Mafia families.",
-      "time_period": "unknown-present"
+      "time_period": "1980s"
     },
     {
-      "standard_name": "Philadelphia crime family",
-      "original_text_name": "Philadelphia",
+      "standard_name": "Inzerillo crime family",
+      "original_text_name": "Inzerillo",
       "aliases": [],
       "type": "mafia",
-      "context": "American Mafia family based in Philadelphia, involved in international drug-trafficking.",
-      "time_period": "1910s-present"
+      "context": "Sicilian Mafia family involved in drug-trafficking with American families.",
+      "time_period": "1980s"
     },
     {
-      "standard_name": "San Francisco crime family",
-      "original_text_name": "San Francisco",
+      "standard_name": "Spatola crime family",
+      "original_text_name": "Spatola",
       "aliases": [],
       "type": "mafia",
-      "context": "American Mafia family based in San Francisco, involved in international drug-trafficking.",
-      "time_period": "unknown-present"
+      "context": "Sicilian Mafia family involved in drug-trafficking.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Bordonaro crime family",
+      "original_text_name": "Bordonaro families",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Hamilton-based Mafia family, close to Paul Volpe.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "Siderno Group",
@@ -250,7 +253,7 @@
       "aliases": [],
       "type": "mafia",
       "context": "Calabrian Mafia group based in Siderno, Italy, with connections in Canada.",
-      "time_period": "unknown-present"
+      "time_period": "unknown"
     },
     {
       "standard_name": "Falzone crew",
@@ -341,7 +344,7 @@
       "target": "Luppino family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Buffalo family holds strong connections with the Hamilton-based Luppino family.",
+      "context": "Buffalo family holds strong connections with the Hamilton-based Luppino family.",
       "time_period": null
     },
     {
@@ -349,16 +352,8 @@
       "target": "Papalia family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Buffalo family holds strong connections with the Hamilton-based Papalia family.",
+      "context": "Buffalo family holds strong connections with the Hamilton-based Papalia family.",
       "time_period": null
-    },
-    {
-      "source": "Castellammarese clan",
-      "target": "Buffalo crime family",
-      "relationship": "other",
-      "detail": "predecessor",
-      "context": "Stefano Magaddino, a member of the Castellammarese clan, became boss of the Buffalo crime family in 1922.",
-      "time_period": "1922"
     },
     {
       "source": "Castellammarese clan",
@@ -373,7 +368,7 @@
       "target": "Bonanno family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Stefano Magaddino and Joseph Bonanno were allies on The Commission; they divided Canadian territories.",
+      "context": "Stefano Magaddino's strongest ally on the Commission was his nephew Joseph Bonanno.",
       "time_period": "1931-1960s"
     },
     {
@@ -381,7 +376,7 @@
       "target": "Los Angeles crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The families joined forces to take over a loan sharking and auto insurance fraud racket in Las Vegas.",
+      "context": "Buffalo family joined forces with L.A. family to take over loan sharking and insurance fraud in Las Vegas.",
       "time_period": "1996-1997"
     },
     {
@@ -389,15 +384,23 @@
       "target": "Chicago Outfit",
       "relationship": "rivalry",
       "detail": null,
-      "context": "L.A. family targeted Chicago Outfit associate Herbert Blitzstein's Las Vegas rackets, leading to his murder.",
+      "context": "L.A. family planned to take over rackets controlled by Chicago Outfit associate Herbert Blitzstein.",
       "time_period": "1996-1997"
     },
     {
-      "source": "Buffalo crime family",
-      "target": "Musitano crew",
+      "source": "Musitano crew",
+      "target": "Buffalo crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Musitano crew resented paying tribute to Buffalo and murdered Buffalo's Canadian faction boss Johnny Papalia.",
+      "context": "Musitano brothers were fed up with being a satellite of the Buffalo family and paying tribute, leading to murders of Papalia and Barillaro.",
+      "time_period": "1997"
+    },
+    {
+      "source": "Musitano crew",
+      "target": "Luppino crew",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Musitano crew planned to murder members of the Luppino crew.",
       "time_period": "1997"
     },
     {
@@ -413,31 +416,15 @@
       "target": "Hells Angels",
       "relationship": "alliance",
       "detail": null,
-      "context": "The new Buffalo boss had a strong relationship with outlaw bikers, unlike his predecessor.",
-      "time_period": "1999"
-    },
-    {
-      "source": "Gerald Ward's gang",
-      "target": "Buffalo crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Gerald Ward purchased cocaine from the Magaddino family before joining Hells Angels.",
-      "time_period": "1998-2000"
-    },
-    {
-      "source": "Gerald Ward's gang",
-      "target": "Hells Angels",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Ward and his gang joined the Hells Angels in 2000.",
-      "time_period": "2000"
+      "context": "Buffalo family's new boss had a strong relationship with outlaw bikers, unlike predecessor Johnny Papalia.",
+      "time_period": "late 1990s"
     },
     {
       "source": "Buffalo crime family",
       "target": "Luppino crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Buffalo family holds strong connections with the Hamilton-based Luppino family.",
+      "context": "Buffalo family has strong connections with the Hamilton-based Luppino family.",
       "time_period": "unknown"
     },
     {
@@ -445,7 +432,7 @@
       "target": "Papalia crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Buffalo family holds strong connections with the Hamilton-based Papalia family.",
+      "context": "Buffalo family holds strong connections with the Papalia family; Johnny Papalia was a Buffalo captain.",
       "time_period": "unknown"
     },
     {
@@ -453,8 +440,8 @@
       "target": "Bonanno crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Buffalo boss Stefano Magaddino was cousin to Bonanno boss Joseph Bonanno; families collaborated in drug trafficking.",
-      "time_period": "1930s-present"
+      "context": "Buffalo boss Stefano Magaddino was cousin to Bonanno boss Joseph Bonanno; they established a drug trafficking triangle.",
+      "time_period": "1930s-2010s"
     },
     {
       "source": "Buffalo crime family",
@@ -469,32 +456,56 @@
       "target": "Musitano crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Buffalo family allegedly approved killings in the mob war against Musitano faction.",
+      "context": "Buffalo family allegedly approved killings in the mob war against the Musitano family.",
       "time_period": "2017-2020"
     },
     {
-      "source": "Rizzuto crime family",
-      "target": "Violi crime family",
+      "source": "Buffalo crime family",
+      "target": "Rizzuto crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Violi family members were murdered by Rizzuto family in the 1970s, leading to long-standing conflict.",
-      "time_period": "1970s-2010"
+      "context": "Buffalo-backed Calabrian families (Violi) fought the Rizzuto family for control in Montreal.",
+      "time_period": "1970s-2010s"
     },
     {
       "source": "Buffalo crime family",
       "target": "Los Angeles crime family",
       "relationship": "other",
       "detail": "dispute",
-      "context": "Buffalo family was upset that New York mobsters arranged for Iavarone's induction into LA family, bypassing Buffalo's authority.",
+      "context": "Buffalo family was upset when New York mobsters arranged for Iavarone to be inducted into the LA family, bypassing Buffalo's authority.",
       "time_period": "2017-2018"
     },
     {
-      "source": "Bonanno crime family",
-      "target": "Los Angeles crime family",
+      "source": "Buffalo crime family",
+      "target": "Violi crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "New York mobsters (including Bonanno) arranged with LA family boss Tommy Gambino to induct Iavarone.",
+      "context": "Domenico Violi became underboss of Buffalo; the Violi family collaborates with Buffalo and New York families.",
+      "time_period": "2017-present"
+    },
+    {
+      "source": "Bonanno crime family",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both families were involved in the drug trafficking network uncovered by Project Otremens.",
       "time_period": "2017"
+    },
+    {
+      "source": "Musitano crime family",
+      "target": "Rizzuto crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Musitano family was historically allied with the Rizzuto family, but later conflict emerged.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Violi crime family",
+      "target": "Rizzuto crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Violi family sought revenge for the murders of Paolo Violi and others by the Rizzuto family in the 1970s.",
+      "time_period": "1970s-2010s"
     },
     {
       "source": "Buffalo crime family",
@@ -541,31 +552,23 @@
       "target": "Sicilian Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Buffalo family linked to Sicilian Mafia families in international drug-trafficking investigation.",
+      "context": "Buffalo family linked with Sicilian Mafia families in international drug-trafficking.",
       "time_period": "1980s"
     },
     {
       "source": "Buffalo crime family",
-      "target": "Philadelphia crime family",
+      "target": "Inzerillo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Buffalo family involved with Philadelphia family in international drug-trafficking.",
+      "context": "Buffalo family linked with Inzerillo family in drug-trafficking.",
       "time_period": "1980s"
     },
     {
       "source": "Buffalo crime family",
-      "target": "Chicago Outfit",
+      "target": "Spatola crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Buffalo family involved with Chicago Outfit in international drug-trafficking.",
-      "time_period": "1980s"
-    },
-    {
-      "source": "Buffalo crime family",
-      "target": "San Francisco crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Buffalo family involved with San Francisco family in international drug-trafficking.",
+      "context": "Buffalo family linked with Spatola family in drug-trafficking.",
       "time_period": "1980s"
     },
     {
@@ -573,24 +576,24 @@
       "target": "Musitano crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Musitano family hired hitman to murder Johnny Papalia and Carmen Barillaro.",
+      "context": "Musitano family hired hitman to kill Johnny Papalia and Carmen Barillaro.",
       "time_period": "1997"
     },
     {
-      "source": "Papalia crime family",
-      "target": "Rizzuto crime family",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Papalia, Barillaro, and Mora borrowed $7.2 million from Vito Rizzuto and refused to repay.",
-      "time_period": "early 1990s"
-    },
-    {
-      "source": "Siderno Group",
-      "target": "Buffalo crime family",
+      "source": "Buffalo crime family",
+      "target": "Bordonaro crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Enio Mora worked with Siderno Group leader Rocco Zito before joining Papalia crew.",
-      "time_period": "1968-1970s"
+      "context": "Paul Volpe maintained close relationship with Bordonaro families in Hamilton.",
+      "time_period": "1960s-1983"
+    },
+    {
+      "source": "Buffalo crime family",
+      "target": "Siderno Group",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Enio Mora worked with Siderno Group leader Rocco Zito.",
+      "time_period": "1968"
     },
     {
       "source": "Buffalo crime family",
@@ -622,6 +625,14 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Allied crime family.",
+      "time_period": null
+    },
+    {
+      "source": "Buffalo crime family",
+      "target": "Chicago Outfit",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied crime organization.",
       "time_period": null
     },
     {
@@ -662,14 +673,6 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Allied street gang.",
-      "time_period": null
-    },
-    {
-      "source": "Buffalo crime family",
-      "target": "Rizzuto crime family",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Rival Mafia family.",
       "time_period": null
     },
     {

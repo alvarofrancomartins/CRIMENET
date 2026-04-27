@@ -200,7 +200,7 @@
         "United Self-Defense Forces of Colombia"
       ],
       "type": "militia",
-      "context": "Right-wing paramilitary group that grew out of private armies of cocaine cartels; demobilized in 2006.",
+      "context": "Right-wing paramilitary group that grew out of private armies of cocaine cartels; demobilized in 2000s.",
       "time_period": "1997-2006"
     },
     {
@@ -208,7 +208,7 @@
       "original_text_name": "Sinaloa Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexico-based drug cartel that held major influence over cocaine trafficking from Colombia.",
+      "context": "Mexico-based drug cartel; held major influence over cocaine trafficking from Colombia.",
       "time_period": "1980s-present"
     }
   ],
@@ -242,14 +242,14 @@
       "target": "North Coast Cartel",
       "relationship": "other",
       "detail": "self-reference",
-      "context": "The North Coast Cartel is the subject of the text.",
+      "context": "The text describes the North Coast Cartel's internal operations and leadership.",
       "time_period": null
     },
     {
       "source": "Medellín Cartel",
       "target": "Office of Envigado",
       "relationship": "alliance",
-      "context": "Office of Envigado was the enforcement wing of the Medellín Cartel.",
+      "context": "Office of Envigado was the former enforcement wing for the Medellín Cartel.",
       "time_period": "1990s"
     },
     {
@@ -280,21 +280,21 @@
       "target": "Medellín Cartel",
       "relationship": "alliance",
       "context": "AUC grew out of private armies of cocaine cartels, including Medellín.",
-      "time_period": "1990s-2006"
+      "time_period": "1990s-2000s"
     },
     {
       "source": "AUC",
       "target": "Cali Cartel",
       "relationship": "alliance",
       "context": "AUC grew out of private armies of cocaine cartels, including Cali.",
-      "time_period": "1990s-2006"
+      "time_period": "1990s-2000s"
     },
     {
       "source": "Black Eagles",
       "target": "AUC",
       "relationship": "other",
       "detail": "successor",
-      "context": "Black Eagles is a successor paramilitary group that emerged after AUC demobilization.",
+      "context": "Black Eagles are a successor paramilitary group that emerged after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
@@ -302,7 +302,7 @@
       "target": "AUC",
       "relationship": "other",
       "detail": "successor",
-      "context": "Los Rastrojos is a successor criminal organization after AUC demobilization.",
+      "context": "Los Rastrojos are a successor criminal organization after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
@@ -310,7 +310,7 @@
       "target": "AUC",
       "relationship": "other",
       "detail": "successor",
-      "context": "Los Urabeños is a successor criminal organization after AUC demobilization.",
+      "context": "Los Urabeños are a successor criminal organization after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
@@ -318,7 +318,7 @@
       "target": "AUC",
       "relationship": "other",
       "detail": "successor",
-      "context": "Los Paisas is a successor criminal organization after AUC demobilization.",
+      "context": "Los Paisas are a successor criminal organization after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
@@ -326,7 +326,7 @@
       "target": "AUC",
       "relationship": "other",
       "detail": "successor",
-      "context": "Los Machos is a successor criminal organization after AUC demobilization.",
+      "context": "Los Machos are a successor criminal organization after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
@@ -334,7 +334,7 @@
       "target": "AUC",
       "relationship": "other",
       "detail": "successor",
-      "context": "Los Gaitanistas is a successor criminal organization after AUC demobilization.",
+      "context": "Los Gaitanistas are a successor criminal organization after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
@@ -386,116 +386,108 @@
       "time_period": "2006-present"
     },
     {
-      "source": "Office of Envigado",
-      "target": "AUC",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "Office of Envigado is a successor criminal organization after AUC demobilization.",
-      "time_period": "2006-present"
-    },
-    {
       "source": "Sinaloa Cartel",
       "target": "North Coast Cartel",
       "relationship": "alliance",
-      "context": "Sinaloa Cartel held major influence over cocaine trafficking from Colombia, likely cooperating with North Coast Cartel.",
-      "time_period": "2000s-present"
+      "context": "Sinaloa Cartel held major influence over trafficking of cocaine originating from Colombia, likely cooperating with North Coast Cartel.",
+      "time_period": "2000s-2010s"
     },
     {
       "source": "FARC",
       "target": "AUC",
       "relationship": "rivalry",
       "context": "FARC and AUC are opposing forces in the Colombian conflict; AUC targeted leftist sympathizers.",
-      "time_period": "1990s-2006"
+      "time_period": "1990s-2000s"
     },
     {
       "source": "FARC",
       "target": "Black Eagles",
       "relationship": "rivalry",
-      "context": "Successor paramilitary groups like Black Eagles are in opposition to FARC guerrillas.",
+      "context": "Successor groups like Black Eagles are in collusion with and opposition to FARC guerrillas.",
       "time_period": "2006-present"
     },
     {
       "source": "FARC",
       "target": "Los Rastrojos",
       "relationship": "rivalry",
-      "context": "Successor criminal groups like Los Rastrojos are in opposition to FARC guerrillas.",
+      "context": "Successor groups like Los Rastrojos are in collusion with and opposition to FARC guerrillas.",
       "time_period": "2006-present"
     },
     {
       "source": "FARC",
       "target": "Los Urabeños",
       "relationship": "rivalry",
-      "context": "Successor criminal groups like Los Urabeños are in opposition to FARC guerrillas.",
+      "context": "Successor groups like Los Urabeños are in collusion with and opposition to FARC guerrillas.",
       "time_period": "2006-present"
     },
     {
       "source": "FARC",
       "target": "Los Paisas",
       "relationship": "rivalry",
-      "context": "Successor criminal groups like Los Paisas are in opposition to FARC guerrillas.",
+      "context": "Successor groups like Los Paisas are in collusion with and opposition to FARC guerrillas.",
       "time_period": "2006-present"
     },
     {
       "source": "FARC",
       "target": "Los Machos",
       "relationship": "rivalry",
-      "context": "Successor criminal groups like Los Machos are in opposition to FARC guerrillas.",
+      "context": "Successor groups like Los Machos are in collusion with and opposition to FARC guerrillas.",
       "time_period": "2006-present"
     },
     {
       "source": "FARC",
       "target": "Los Gaitanistas",
       "relationship": "rivalry",
-      "context": "Successor criminal groups like Los Gaitanistas are in opposition to FARC guerrillas.",
+      "context": "Successor groups like Los Gaitanistas are in collusion with and opposition to FARC guerrillas.",
       "time_period": "2006-present"
     },
     {
       "source": "FARC",
       "target": "Renacer",
       "relationship": "rivalry",
-      "context": "Successor criminal groups like Renacer are in opposition to FARC guerrillas.",
+      "context": "Successor groups like Renacer are in collusion with and opposition to FARC guerrillas.",
       "time_period": "2006-present"
     },
     {
       "source": "FARC",
       "target": "Nueva Generación",
       "relationship": "rivalry",
-      "context": "Successor criminal groups like Nueva Generación are in opposition to FARC guerrillas.",
+      "context": "Successor groups like Nueva Generación are in collusion with and opposition to FARC guerrillas.",
       "time_period": "2006-present"
     },
     {
       "source": "FARC",
       "target": "ERPAC",
       "relationship": "rivalry",
-      "context": "Successor paramilitary groups like ERPAC are in opposition to FARC guerrillas.",
+      "context": "Successor groups like ERPAC are in collusion with and opposition to FARC guerrillas.",
       "time_period": "2006-2010"
     },
     {
       "source": "FARC",
       "target": "Bloque Meta",
       "relationship": "rivalry",
-      "context": "Successor paramilitary groups like Bloque Meta are in opposition to FARC guerrillas.",
+      "context": "Successor groups like Bloque Meta are in collusion with and opposition to FARC guerrillas.",
       "time_period": "2006-present"
     },
     {
       "source": "FARC",
       "target": "Libertadores del Vichada",
       "relationship": "rivalry",
-      "context": "Successor paramilitary groups like Libertadores del Vichada are in opposition to FARC guerrillas.",
+      "context": "Successor groups like Libertadores del Vichada are in collusion with and opposition to FARC guerrillas.",
       "time_period": "2006-present"
     },
     {
       "source": "FARC",
       "target": "Ejército Popular de Liberación",
       "relationship": "rivalry",
-      "context": "Successor criminal groups like Ejército Popular de Liberación are in opposition to FARC guerrillas.",
+      "context": "Successor groups like Ejército Popular de Liberación are in collusion with and opposition to FARC guerrillas.",
       "time_period": "2006-present"
     },
     {
       "source": "FARC",
       "target": "Office of Envigado",
       "relationship": "rivalry",
-      "context": "Successor criminal groups like Office of Envigado are in opposition to FARC guerrillas.",
+      "context": "Successor groups like Office of Envigado are in collusion with and opposition to FARC guerrillas.",
       "time_period": "2006-present"
     }
   ],

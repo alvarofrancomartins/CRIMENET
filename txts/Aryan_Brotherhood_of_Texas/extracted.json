@@ -7,7 +7,7 @@
         "ABT"
       ],
       "type": "gang",
-      "context": "White supremacist prison and street gang operating primarily in Texas and federal prisons, involved in drug trafficking, murder, and other violent crimes.",
+      "context": "White supremacist prison and street gang operating primarily in Texas and federal prisons.",
       "time_period": "1981-present"
     },
     {
@@ -17,7 +17,7 @@
         "AB"
       ],
       "type": "gang",
-      "context": "Notorious prison gang and crime syndicate founded in California in the 1960s, with branches in federal and state prisons.",
+      "context": "Prison gang and crime syndicate founded in California in the 1960s.",
       "time_period": "1960s-present"
     },
     {
@@ -27,7 +27,7 @@
         "AC"
       ],
       "type": "gang",
-      "context": "White supremacist prison gang formed in the 1980s by former members of the Aryan Brotherhood of Texas, rival to ABT.",
+      "context": "Rival white supremacist prison gang formed from members who left the ABT merger.",
       "time_period": "1980s-present"
     },
     {
@@ -35,7 +35,7 @@
       "original_text_name": "Mandingo Warriors",
       "aliases": [],
       "type": "gang",
-      "context": "Black prison gang that fought a war with the Aryan Brotherhood of Texas and was nearly exterminated.",
+      "context": "Black prison gang that fought the ABT and was nearly exterminated.",
       "time_period": "1980s"
     },
     {
@@ -43,7 +43,7 @@
       "original_text_name": "Mexican Mafia",
       "aliases": [],
       "type": "gang",
-      "context": "Prison gang that obtained a peace treaty with the Aryan Brotherhood of Texas in the early 1990s.",
+      "context": "Prison gang that made a peace treaty with the ABT in the early 1990s.",
       "time_period": "1950s-present"
     },
     {
@@ -53,7 +53,7 @@
         "TM"
       ],
       "type": "gang",
-      "context": "Prison gang that was 'parked' (no longer allowed to recruit) after wars with the Aryan Brotherhood of Texas in 1995/1996.",
+      "context": "Prison gang that was 'parked' after wars with ABT in 1995/1996.",
       "time_period": "1990s"
     },
     {
@@ -61,32 +61,32 @@
       "original_text_name": "Peckerwoods",
       "aliases": [],
       "type": "gang",
-      "context": "White supremacist gang targeted in a 2018 federal crackdown alongside other groups.",
-      "time_period": "unknown"
+      "context": "White supremacist gang targeted in 2018 federal crackdown.",
+      "time_period": null
     },
     {
       "standard_name": "Soldiers of Aryan Culture",
       "original_text_name": "Soldiers of Aryan Culture",
       "aliases": [],
       "type": "gang",
-      "context": "White supremacist gang targeted in a 2018 federal crackdown.",
-      "time_period": "unknown"
+      "context": "White supremacist gang targeted in 2018 federal crackdown.",
+      "time_period": null
     },
     {
       "standard_name": "Dirty White Boys",
       "original_text_name": "Dirty White Boys",
       "aliases": [],
       "type": "gang",
-      "context": "White supremacist gang targeted in a 2018 federal crackdown.",
-      "time_period": "unknown"
+      "context": "White supremacist gang targeted in 2018 federal crackdown.",
+      "time_period": null
     },
     {
       "standard_name": "Gulf Cartel",
       "original_text_name": "Gulf Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel listed as an ally of the Aryan Brotherhood of Texas in the infobox.",
-      "time_period": "1930s-present"
+      "context": "Mexican drug cartel listed as an ally of the ABT in the infobox.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -95,21 +95,23 @@
       "target": "Aryan Brotherhood",
       "relationship": "other",
       "detail": "no affiliation",
-      "context": "Despite similar names, the Aryan Brotherhood of Texas is not affiliated with the Aryan Brotherhood; the AB denied their request to start a chapter.",
+      "context": "Despite similar names, the ABT is not affiliated with the Aryan Brotherhood.",
       "time_period": null
     },
     {
       "source": "Aryan Brotherhood of Texas",
       "target": "Aryan Circle",
       "relationship": "rivalry",
-      "context": "The ABT and AC have been in multiple wars: 1986-1994, 1998-2009, and ongoing since 2015.",
+      "detail": null,
+      "context": "The ABT and AC have been in multiple wars, including 1986-1994, 1998-2009, and ongoing since 2015.",
       "time_period": "1986-present"
     },
     {
       "source": "Aryan Brotherhood of Texas",
       "target": "Mandingo Warriors",
       "relationship": "rivalry",
-      "context": "ABT fought a war with the Mandingo Warriors, nearly exterminating them within the prison system.",
+      "detail": null,
+      "context": "ABT's first war was with the Mandingo Warriors, whom they nearly exterminated.",
       "time_period": "1980s"
     },
     {
@@ -117,21 +119,23 @@
       "target": "Mexican Mafia",
       "relationship": "other",
       "detail": "peace treaty",
-      "context": "The ABT and Mexican Mafia came away with a peace treaty in the early 1990s.",
+      "context": "The ABT and Mexican Mafia made a peace treaty in the early 1990s.",
       "time_period": "early 1990s"
     },
     {
       "source": "Aryan Brotherhood of Texas",
       "target": "Texas Mafia",
       "relationship": "rivalry",
-      "context": "ABT fought wars with Texas Mafia in 1995/1996, resulting in TM being 'parked' (no longer allowed to recruit).",
+      "detail": null,
+      "context": "The ABT fought wars with Texas Mafia in 1995/1996, resulting in TM being 'parked'.",
       "time_period": "1995-1996"
     },
     {
       "source": "Aryan Brotherhood of Texas",
       "target": "Gulf Cartel",
       "relationship": "alliance",
-      "context": "The Gulf Cartel is listed as an ally of the Aryan Brotherhood of Texas in the infobox.",
+      "detail": null,
+      "context": "The Gulf Cartel is listed as an ally of the ABT in the infobox.",
       "time_period": null
     }
   ],

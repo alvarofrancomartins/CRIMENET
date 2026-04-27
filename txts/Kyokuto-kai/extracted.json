@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kyokuto-kai",
+      "original_text_name": "Kyokuto-kai",
+      "aliases": [
+        "Kyokutō-kai",
+        "極東会"
+      ],
+      "type": "mafia",
+      "context": "Yakuza group based in Tokyo, Japan, designated under the Organized Crime Countermeasures Law.",
+      "time_period": "1993-present"
+    },
+    {
+      "standard_name": "Matsuba-kai",
+      "original_text_name": "Matsuba-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Rival yakuza group involved in a feud with the Kyokuto-kai in the early 2000s.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kyokuto-kai",
+      "target": "Matsuba-kai",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Feud in early 2000s involving shootings.",
+      "time_period": "early 2000s"
+    }
+  ],
+  "source_file": "Kyokuto-kai"
+}

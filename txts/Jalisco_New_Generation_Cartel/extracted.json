@@ -148,7 +148,7 @@
       "aliases": [],
       "type": "cartel",
       "context": "Cartel allied with Los Zetas against Sinaloa Cartel.",
-      "time_period": "2000s-2010s"
+      "time_period": "1990s-2010s"
     },
     {
       "standard_name": "Cartel del Abuelo",
@@ -171,7 +171,7 @@
       "original_text_name": "La Linea",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug trafficking group based in Ciudad Juárez, rival of CJNG.",
+      "context": "Mexican drug trafficking group in Ciudad Juárez, rival of CJNG.",
       "time_period": "2000s-present"
     },
     {
@@ -213,7 +213,7 @@
       "original_text_name": "Los Cuinis",
       "aliases": [],
       "type": "faction",
-      "context": "Financial wing of CJNG, led by Abigael González Valencia.",
+      "context": "Fraction of CJNG led by Abigael González Valencia.",
       "time_period": "2000s-present"
     },
     {
@@ -541,32 +541,32 @@
       "time_period": "2012-2015"
     },
     {
-      "source": "Los Zetas",
-      "target": "Milenio Cartel",
+      "source": "Sinaloa Cartel",
+      "target": "Los Zetas",
+      "relationship": "rivalry",
+      "context": "Sinaloa Cartel fights Los Zetas for control of Nuevo Laredo.",
+      "time_period": "2005-present"
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "Cártel del Golfo",
       "relationship": "alliance",
-      "context": "Los Zetas and Milenio Cartel jointly committed the 2011 Guadalajara massacre.",
-      "time_period": "2011"
+      "context": "Sinaloa Cartel allied with Gulf Cartel against Los Zetas.",
+      "time_period": "2010-2012"
     },
     {
       "source": "Los Zetas",
       "target": "Beltrán Leyva Cartel",
       "relationship": "alliance",
       "context": "Los Zetas and Beltrán Leyva Cartel were allied against Sinaloa Cartel.",
-      "time_period": "2012"
+      "time_period": "2008-2012"
     },
     {
-      "source": "Sinaloa Cartel",
-      "target": "Cártel del Golfo",
+      "source": "Los Zetas",
+      "target": "Milenio Cartel",
       "relationship": "alliance",
-      "context": "Sinaloa Cartel and Gulf Cartel allied against Los Zetas in Nuevo Laredo.",
-      "time_period": "2012"
-    },
-    {
-      "source": "Sinaloa Cartel",
-      "target": "Los Zetas",
-      "relationship": "rivalry",
-      "context": "Sinaloa Cartel fights Los Zetas for control of Nuevo Laredo.",
-      "time_period": "2005-present"
+      "context": "Los Zetas and Milenio Cartel were responsible for the 2011 Guadalajara massacre.",
+      "time_period": "2011"
     },
     {
       "source": "Nueva Plaza Cartel",
@@ -629,15 +629,15 @@
       "target": "New Juárez Cartel",
       "relationship": "other",
       "detail": "affiliate",
-      "context": "New Juárez Cartel is a CJNG affiliate in Ciudad Juárez.",
+      "context": "New Juárez Cartel is a CJNG presence in Ciudad Juárez.",
       "time_period": "unknown"
     },
     {
       "source": "Jalisco New Generation Cartel",
       "target": "Los Cuinis",
       "relationship": "other",
-      "detail": "sub-group",
-      "context": "Los Cuinis is the financial fraction of CJNG.",
+      "detail": "faction of",
+      "context": "Los Cuinis is a fraction of CJNG led by Abigael González Valencia.",
       "time_period": "2000s-present"
     },
     {

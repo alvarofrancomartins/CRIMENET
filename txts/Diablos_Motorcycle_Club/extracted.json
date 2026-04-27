@@ -9,8 +9,16 @@
         "DMC"
       ],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club founded in 1961 in San Bernardino, California, with chapters across the US, especially New England.",
+      "context": "Outlaw motorcycle club founded in San Bernardino, California in 1961, with chapters across the US, primarily in New England.",
       "time_period": "1961-present"
+    },
+    {
+      "standard_name": "James Gang MC",
+      "original_text_name": "James Gang MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Rival motorcycle club based in Wallingford, Connecticut.",
+      "time_period": null
     },
     {
       "standard_name": "Outlaws Motorcycle Club",
@@ -19,36 +27,26 @@
         "Outlaws MC"
       ],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club, part of the 'Big Four', involved in a brawl with Diablos in 2019.",
-      "time_period": null
-    },
-    {
-      "standard_name": "James Gang Motorcycle Club",
-      "original_text_name": "James Gang MC",
-      "aliases": [
-        "James Gang"
-      ],
-      "type": "motorcycle_club",
-      "context": "Rival motorcycle club; member Mike D'Amato was murdered by a Diablos member in 1992.",
+      "context": "Major outlaw motorcycle club, part of the 'Big Four', involved in a brawl with Diablos in 2019.",
       "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Diablos Motorcycle Club",
-      "target": "Outlaws Motorcycle Club",
+      "target": "James Gang MC",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Diablos and Outlaws were involved in a mass brawl in Plainville, Connecticut in May 2019, leaving two Outlaws injured.",
-      "time_period": "2019"
+      "context": "Diablos member Raymond Stone confessed to involvement in the 1992 murder of James Gang MC member Mike D'Amato.",
+      "time_period": "1992"
     },
     {
       "source": "Diablos Motorcycle Club",
-      "target": "James Gang Motorcycle Club",
+      "target": "Outlaws Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Diablos member Raymond Stone confessed to the 1992 murder of James Gang member Mike D'Amato.",
-      "time_period": "1992"
+      "context": "Diablos and Outlaws members were involved in a mass brawl at a bar in Plainville, Connecticut in May 2019.",
+      "time_period": "May 2019"
     }
   ],
   "source_file": "Diablos_Motorcycle_Club"

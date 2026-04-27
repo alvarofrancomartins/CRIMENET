@@ -117,7 +117,7 @@
       "aliases": [],
       "type": "mafia",
       "context": "One of the Five Families of New York City, with a faction in Rochester, New York.",
-      "time_period": "1890s–present"
+      "time_period": null
     },
     {
       "standard_name": "Detroit Partnership",
@@ -125,7 +125,7 @@
       "aliases": [],
       "type": "mafia",
       "context": "Italian American Mafia organization based in Detroit, Michigan.",
-      "time_period": "1900s–present"
+      "time_period": null
     },
     {
       "standard_name": "DeCavalcante crime family",
@@ -133,23 +133,23 @@
       "aliases": [],
       "type": "mafia",
       "context": "Italian American Mafia family based in New Jersey.",
-      "time_period": "1910s–present"
+      "time_period": null
     },
     {
       "standard_name": "Hells Angels MC",
       "original_text_name": "Hells Angels MC",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club with international presence.",
-      "time_period": "1948–present"
+      "context": "Outlaw motorcycle club, listed as an ally of the Cleveland crime family.",
+      "time_period": null
     },
     {
-      "standard_name": "Los Angeles crime family",
-      "original_text_name": "Los Angeles crime family",
+      "standard_name": "Celtic Club",
+      "original_text_name": "Celtic Club",
       "aliases": [],
-      "type": "mafia",
-      "context": "Italian American Mafia family based in Los Angeles, California.",
-      "time_period": "1900s–present"
+      "type": "gang",
+      "context": "Irish gang in Cleveland, rival of the Cleveland crime family.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -237,7 +237,15 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Mob war over Youngstown territory from 1978 to 1981, resulting in twelve murders.",
-      "time_period": "1978–1981"
+      "time_period": "1978-1981"
+    },
+    {
+      "source": "Cleveland crime family",
+      "target": "Bonanno crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Associate Anthony Delmonti worked with the Bonanno family's Rochester faction.",
+      "time_period": "1990s"
     },
     {
       "source": "Cleveland crime family",
@@ -265,19 +273,11 @@
     },
     {
       "source": "Cleveland crime family",
-      "target": "Los Angeles crime family",
-      "relationship": "alliance",
+      "target": "Celtic Club",
+      "relationship": "rivalry",
       "detail": null,
-      "context": "Ray Ferritto worked for both families; listed as ally in infobox.",
+      "context": "Listed as a rival in the infobox.",
       "time_period": null
-    },
-    {
-      "source": "Cleveland crime family",
-      "target": "Bonanno crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Associate Anthony Delmonti was also an associate of the Bonanno family's Rochester faction.",
-      "time_period": "1990s"
     }
   ],
   "source_file": "Cleveland_crime_family"

@@ -34,7 +34,7 @@
       "original_text_name": "Syndicate Motorcycle Club",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Listed as an ally of White Boy Posse in the infobox.",
+      "context": "Ally of White Boy Posse according to infobox.",
       "time_period": null
     },
     {
@@ -44,15 +44,15 @@
         "Bandidos"
       ],
       "type": "motorcycle_club",
-      "context": "Listed as a rival of White Boy Posse in the infobox.",
-      "time_period": "1966-present"
+      "context": "Rival of White Boy Posse according to infobox.",
+      "time_period": null
     },
     {
       "standard_name": "Manitoba Warriors",
       "original_text_name": "Manitoba Warriors",
       "aliases": [],
       "type": "gang",
-      "context": "Listed as a rival of White Boy Posse in the infobox.",
+      "context": "Rival of White Boy Posse according to infobox.",
       "time_period": null
     },
     {
@@ -60,7 +60,7 @@
       "original_text_name": "Indian Posse",
       "aliases": [],
       "type": "gang",
-      "context": "Listed as a rival of White Boy Posse in the infobox.",
+      "context": "Rival of White Boy Posse according to infobox.",
       "time_period": null
     }
   ],
@@ -70,16 +70,8 @@
       "target": "Hells Angels Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Founder Sean Jackson was a close associate of Hells Angels; listed as ally in infobox.",
+      "context": "Founder Sean Jackson was a close associate of Hells Angels; infobox lists Hells Angels as ally.",
       "time_period": "2003-present"
-    },
-    {
-      "source": "White Boy Posse",
-      "target": "Syndicate Motorcycle Club",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Listed as an ally in the infobox.",
-      "time_period": null
     },
     {
       "source": "White Boy Posse",
@@ -91,10 +83,18 @@
     },
     {
       "source": "White Boy Posse",
+      "target": "Syndicate Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Infobox lists Syndicate Motorcycle Club as an ally.",
+      "time_period": null
+    },
+    {
+      "source": "White Boy Posse",
       "target": "Bandidos Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as a rival in the infobox.",
+      "context": "Infobox lists Bandidos as a rival.",
       "time_period": null
     },
     {
@@ -102,7 +102,7 @@
       "target": "Manitoba Warriors",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as a rival in the infobox.",
+      "context": "Infobox lists Manitoba Warriors as a rival.",
       "time_period": null
     },
     {
@@ -110,7 +110,7 @@
       "target": "Indian Posse",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as a rival in the infobox.",
+      "context": "Infobox lists Indian Posse as a rival.",
       "time_period": null
     }
   ],
