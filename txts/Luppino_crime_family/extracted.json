@@ -8,14 +8,14 @@
         "Luppino-Violi crime family"
       ],
       "type": "mafia",
-      "context": "'Ndrangheta family based in Hamilton, Ontario, founded in the 1950s.",
+      "context": "'Ndrangheta family based in Hamilton, Ontario, founded in the 1950s by Giacomo Luppino.",
       "time_period": "1950s-present"
     },
     {
       "standard_name": "Musitano crime family",
       "original_text_name": "Musitano crime family",
       "aliases": [
-        "Musitano family"
+        "Musitanos"
       ],
       "type": "mafia",
       "context": "One of three Mafia organizations in Hamilton, Ontario.",
@@ -55,7 +55,7 @@
         "Rizzuto family"
       ],
       "type": "mafia",
-      "context": "Sicilian Mafia family in Montreal, involved in conflict with Luppino and Violi families.",
+      "context": "Sicilian Mafia family in Montreal; killed Paolo Violi in 1978.",
       "time_period": null
     },
     {
@@ -63,7 +63,7 @@
       "original_text_name": "Bonanno crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "New York Mafia family with Canadian connections, allied with Violi family.",
+      "context": "New York Mafia family; had an undercover agent inducted as a made member in Canada.",
       "time_period": null
     },
     {
@@ -71,7 +71,7 @@
       "original_text_name": "Cuntrera-Caruana Mafia clan",
       "aliases": [],
       "type": "clan",
-      "context": "Mafia clan with roots in Montreal and Toronto, supported by Musitano family.",
+      "context": "Mafia clan with roots in Montreal and Toronto, supported by the Musitanos.",
       "time_period": null
     },
     {
@@ -79,7 +79,7 @@
       "original_text_name": "Siderno Group",
       "aliases": [],
       "type": "mafia",
-      "context": "'Ndrangheta group from Siderno, Italy, with Canadian connections.",
+      "context": "'Ndrangheta group from Siderno, Italy; member Michele Racco met with Luppino.",
       "time_period": null
     },
     {
@@ -95,7 +95,7 @@
       "original_text_name": "Russian mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Organized crime groups from Russia, listed as allies of the Luppino family.",
+      "context": "Russian organized crime group listed as an ally of the Luppino family.",
       "time_period": null
     },
     {
@@ -103,7 +103,7 @@
       "original_text_name": "Serbian mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Organized crime groups from Serbia, listed as allies of the Luppino family.",
+      "context": "Serbian organized crime group listed as an ally of the Luppino family.",
       "time_period": null
     },
     {
@@ -121,7 +121,7 @@
         "14K"
       ],
       "type": "triad",
-      "context": "A Chinese triad group listed as a rival of the Luppino family.",
+      "context": "Chinese triad listed as a rival of the Luppino family.",
       "time_period": null
     },
     {
@@ -139,23 +139,23 @@
       "target": "Musitano crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Both are Hamilton Mafia families; involved in a 'mafia war' as of 2019.",
-      "time_period": "2010s-present"
+      "context": "Both are Mafia families in Hamilton; involved in a mafia war.",
+      "time_period": null
     },
     {
       "source": "Luppino crime family",
       "target": "Papalia crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Historical rivalry; Giacomo Luppino sent Paolo Violi to Montreal to avoid clashes with Papalia.",
-      "time_period": "1960s"
+      "context": "Both are Mafia families in Hamilton; Luppino avoided clashes with Papalia.",
+      "time_period": null
     },
     {
       "source": "Luppino crime family",
       "target": "Buffalo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Luppino family is a Canadian crew of the Buffalo family; strong connections and control.",
+      "context": "Luppino family has strong connections with Buffalo; later fell under its control as a Canadian crew.",
       "time_period": "1950s-present"
     },
     {
@@ -163,7 +163,7 @@
       "target": "Cotroni crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Paolo Violi, married into Luppino family, developed connections with Cotroni family in Montreal.",
+      "context": "Paolo Violi developed connections with Cotroni while maintaining ties with Luppino.",
       "time_period": "1960s-1970s"
     },
     {
@@ -171,7 +171,7 @@
       "target": "Rizzuto crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Luppino and Violi families supported anti-Rizzuto faction after Paolo Violi's murder by Rizzuto family.",
+      "context": "Luppino and Violi families supported anti-Rizzuto faction after Paolo Violi's murder.",
       "time_period": "2010s"
     },
     {
@@ -179,7 +179,7 @@
       "target": "Bonanno crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Bonanno associates allied with Violi family (part of Luppino-Violi family) as per criminologist Anna Sergi.",
+      "context": "New alliance between Bonanno associates and Violi family (part of Luppino).",
       "time_period": "2010s"
     },
     {
@@ -193,25 +193,17 @@
     {
       "source": "Luppino crime family",
       "target": "Siderno Group",
-      "relationship": "other",
-      "detail": "meeting",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Giacomo Luppino met with Siderno Group member Michele Racco.",
       "time_period": "1960s"
-    },
-    {
-      "source": "Luppino crime family",
-      "target": "Papalia crime family",
-      "relationship": "other",
-      "detail": "coexistence",
-      "context": "The Luppino and Papalia families are two of three centralized Mafia organizations in Hamilton.",
-      "time_period": null
     },
     {
       "source": "Luppino crime family",
       "target": "'Ndrangheta",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Luppino family is an 'Ndrangheta-based organization and is listed as an ally.",
+      "context": "The Luppino family is an 'Ndrangheta-based organization and listed as an ally.",
       "time_period": null
     },
     {
@@ -219,7 +211,7 @@
       "target": "Russian mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Russian mafia is listed as an ally of the Luppino family.",
+      "context": "Listed as an ally in the infobox.",
       "time_period": null
     },
     {
@@ -227,7 +219,7 @@
       "target": "Serbian mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Serbian mafia is listed as an ally of the Luppino family.",
+      "context": "Listed as an ally in the infobox.",
       "time_period": null
     },
     {
@@ -235,7 +227,7 @@
       "target": "Independent Soldiers",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Independent Soldiers are listed as rivals of the Luppino family.",
+      "context": "Listed as a rival in the infobox.",
       "time_period": null
     },
     {
@@ -243,7 +235,7 @@
       "target": "14K",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The 14K triad is listed as a rival of the Luppino family.",
+      "context": "Listed as a rival in the infobox.",
       "time_period": null
     },
     {
@@ -251,7 +243,7 @@
       "target": "Hells Angels",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Hells Angels are listed as rivals of the Luppino family.",
+      "context": "Listed as a rival in the infobox.",
       "time_period": null
     }
   ],

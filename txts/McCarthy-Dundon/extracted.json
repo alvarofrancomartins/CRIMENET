@@ -28,7 +28,7 @@
         "Keane-Collopy Gang"
       ],
       "type": "gang",
-      "context": "Criminal gang from St. Mary's Park, involved in the Limerick feud.",
+      "context": "Criminal gang from St. Mary's Park, rival in the Limerick feud.",
       "time_period": "2000s-present"
     },
     {
@@ -36,8 +36,8 @@
       "original_text_name": "Hutch Organised Crime Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Allied with the McCarthy-Dundon Gang.",
-      "time_period": null
+      "context": "Allied criminal gang involved in the Limerick feud.",
+      "time_period": "2000s-present"
     }
   ],
   "edges": [
@@ -51,19 +51,19 @@
     },
     {
       "source": "McCarthy-Dundon Gang",
+      "target": "Hutch Organised Crime Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allies in the Limerick feud.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "McCarthy-Dundon Gang",
       "target": "Keane-Collopy Gang",
       "relationship": "rivalry",
       "detail": null,
       "context": "Rivals in the Limerick feud.",
       "time_period": "2000s-present"
-    },
-    {
-      "source": "McCarthy-Dundon Gang",
-      "target": "Hutch Organised Crime Gang",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Allies according to infobox.",
-      "time_period": null
     }
   ],
   "source_file": "McCarthy-Dundon"

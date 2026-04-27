@@ -1,19 +1,59 @@
 {
   "nodes": [
     {
-      "standard_name": "Macedonian criminal groups",
-      "original_text_name": "Macedonian criminal groups",
+      "standard_name": "Gang from Grcec",
+      "original_text_name": "Gang from Grcec (банда од Грчец)",
       "aliases": [],
-      "type": "other",
-      "context": "General term for organized crime groups operating in North Macedonia.",
-      "time_period": "1990s-present"
+      "type": "gang",
+      "context": "Specializes in transporting cocaine from South America to Europe and North Macedonia, involved in murders and revenge killings.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Duqandzik gang",
+      "original_text_name": "Duqandzik gang (Дуќанџик банда)",
+      "aliases": [],
+      "type": "gang",
+      "context": "Supplied most of Skopje with cocaine and other drugs, involved in usury and racketeering.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Belanoca gang",
+      "original_text_name": "Belanoca gang (Беланоца банда)",
+      "aliases": [],
+      "type": "gang",
+      "context": "Largest loan shark group in Skopje, with racketeering and drug influences.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Frankfurt mafia",
+      "original_text_name": "Frankfurt mafia (Франкфуртска мафија)",
+      "aliases": [],
+      "type": "gang",
+      "context": "Crime group from Veles involved in the heroin trade in Frankfurt, Germany, and Vienna, Austria.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gang from Kondovo",
+      "original_text_name": "Gang from Kondovo (банда од Кондово)",
+      "aliases": [],
+      "type": "gang",
+      "context": "Involved in racketeering and usury, recognized as a politically protected group.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Baron criminal group",
+      "original_text_name": "Baron criminal group (Барон криминална група)",
+      "aliases": [],
+      "type": "gang",
+      "context": "Newest crime group in Skopje, allegedly composed of members of extremist movements.",
+      "time_period": null
     },
     {
       "standard_name": "Serbian mafia",
       "original_text_name": "Serbian mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Criminal organizations from Serbia, collaborating with Macedonian groups.",
+      "context": "Main collaborator of Macedonian criminal groups, involved in transnational crime.",
       "time_period": null
     },
     {
@@ -21,7 +61,7 @@
       "original_text_name": "Bulgarian mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Criminal organizations from Bulgaria, collaborating with Macedonian groups.",
+      "context": "Main collaborator of Macedonian criminal groups, involved in transnational crime.",
       "time_period": null
     },
     {
@@ -29,122 +69,142 @@
       "original_text_name": "Albanian mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Criminal organizations from Albania, collaborating with Macedonian groups.",
+      "context": "Main collaborator of Macedonian criminal groups, involved in transnational crime.",
       "time_period": null
     },
     {
-      "standard_name": "Italian crime groups",
+      "standard_name": "Italian mafia",
       "original_text_name": "Italian crime groups",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian organized crime groups cooperating with Macedonian criminals.",
+      "context": "Cooperates with Macedonian criminal organizations, expanding their reach.",
       "time_period": null
     },
     {
-      "standard_name": "Russian crime groups",
+      "standard_name": "Russian mafia",
       "original_text_name": "Russian crime groups",
       "aliases": [],
       "type": "mafia",
-      "context": "Russian organized crime groups cooperating with Macedonian criminals.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Gang from Grcec",
-      "original_text_name": "Gang from Grcec",
-      "aliases": [
-        "банда од Грчец"
-      ],
-      "type": "gang",
-      "context": "Criminal group specializing in cocaine trafficking from South America to Europe and North Macedonia, involved in murders.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Duqandzik gang",
-      "original_text_name": "Duqandzik gang",
-      "aliases": [
-        "Дуќанџик банда"
-      ],
-      "type": "gang",
-      "context": "Criminal group that supplied Skopje with cocaine and other drugs, involved in usury and racketeering.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Belanoca gang",
-      "original_text_name": "Belanoca gang",
-      "aliases": [
-        "Беланоца банда"
-      ],
-      "type": "gang",
-      "context": "Largest loan shark group in Skopje, involved in racketeering and drug influences.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Frankfurt mafia",
-      "original_text_name": "Frankfurt mafia",
-      "aliases": [
-        "Франкфуртска мафија"
-      ],
-      "type": "mafia",
-      "context": "Crime group from Veles involved in heroin trade in Frankfurt and Vienna.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Gang from Kondovo",
-      "original_text_name": "Gang from Kondovo",
-      "aliases": [
-        "банда од Кондово"
-      ],
-      "type": "gang",
-      "context": "Criminal group involved in racketeering and usury, politically protected.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Baron criminal group",
-      "original_text_name": "Baron criminal group",
-      "aliases": [
-        "Барон криминална група"
-      ],
-      "type": "gang",
-      "context": "Newest crime group in Skopje, allegedly composed of extremist movement members.",
+      "context": "Cooperates with Macedonian criminal organizations, expanding their reach.",
       "time_period": null
     }
   ],
   "edges": [
     {
-      "source": "Macedonian criminal groups",
+      "source": "Gang from Grcec",
+      "target": "Duqandzik gang",
+      "relationship": "other",
+      "detail": "co-located",
+      "context": "Both operate in Skopje underworld.",
+      "time_period": null
+    },
+    {
+      "source": "Gang from Grcec",
+      "target": "Belanoca gang",
+      "relationship": "other",
+      "detail": "co-located",
+      "context": "Both operate in Skopje underworld.",
+      "time_period": null
+    },
+    {
+      "source": "Gang from Grcec",
+      "target": "Gang from Kondovo",
+      "relationship": "other",
+      "detail": "co-located",
+      "context": "Both operate in Skopje underworld.",
+      "time_period": null
+    },
+    {
+      "source": "Gang from Grcec",
+      "target": "Baron criminal group",
+      "relationship": "other",
+      "detail": "co-located",
+      "context": "Both operate in Skopje underworld.",
+      "time_period": null
+    },
+    {
+      "source": "Duqandzik gang",
+      "target": "Belanoca gang",
+      "relationship": "other",
+      "detail": "co-located",
+      "context": "Both operate in Skopje underworld.",
+      "time_period": null
+    },
+    {
+      "source": "Duqandzik gang",
+      "target": "Gang from Kondovo",
+      "relationship": "other",
+      "detail": "co-located",
+      "context": "Both operate in Skopje underworld.",
+      "time_period": null
+    },
+    {
+      "source": "Duqandzik gang",
+      "target": "Baron criminal group",
+      "relationship": "other",
+      "detail": "co-located",
+      "context": "Both operate in Skopje underworld.",
+      "time_period": null
+    },
+    {
+      "source": "Belanoca gang",
+      "target": "Gang from Kondovo",
+      "relationship": "other",
+      "detail": "co-located",
+      "context": "Both operate in Skopje underworld.",
+      "time_period": null
+    },
+    {
+      "source": "Belanoca gang",
+      "target": "Baron criminal group",
+      "relationship": "other",
+      "detail": "co-located",
+      "context": "Both operate in Skopje underworld.",
+      "time_period": null
+    },
+    {
+      "source": "Gang from Kondovo",
+      "target": "Baron criminal group",
+      "relationship": "other",
+      "detail": "co-located",
+      "context": "Both operate in Skopje underworld.",
+      "time_period": null
+    },
+    {
+      "source": "Frankfurt mafia",
       "target": "Serbian mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Macedonian groups collaborate with Serbian mafia as main collaborators.",
+      "context": "Macedonian groups collaborate with Serbian mafia.",
       "time_period": null
     },
     {
-      "source": "Macedonian criminal groups",
+      "source": "Frankfurt mafia",
       "target": "Bulgarian mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Macedonian groups collaborate with Bulgarian mafia as main collaborators.",
+      "context": "Macedonian groups collaborate with Bulgarian mafia.",
       "time_period": null
     },
     {
-      "source": "Macedonian criminal groups",
+      "source": "Frankfurt mafia",
       "target": "Albanian mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Macedonian groups collaborate with Albanian mafia as main collaborators.",
+      "context": "Macedonian groups collaborate with Albanian mafia.",
       "time_period": null
     },
     {
-      "source": "Macedonian criminal groups",
-      "target": "Italian crime groups",
+      "source": "Frankfurt mafia",
+      "target": "Italian mafia",
       "relationship": "alliance",
       "detail": null,
       "context": "Macedonian groups cooperate with Italian crime groups.",
       "time_period": null
     },
     {
-      "source": "Macedonian criminal groups",
-      "target": "Russian crime groups",
+      "source": "Frankfurt mafia",
+      "target": "Russian mafia",
       "relationship": "alliance",
       "detail": null,
       "context": "Macedonian groups cooperate with Russian crime groups.",

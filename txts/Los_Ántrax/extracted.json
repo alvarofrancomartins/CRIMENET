@@ -33,7 +33,7 @@
       "original_text_name": "Los Zetas",
       "aliases": [],
       "type": "cartel",
-      "context": "Drug cartel and paramilitary group, rivals of Sinaloa Cartel and allies of Beltrán Leyva Cartel.",
+      "context": "Drug cartel and paramilitary group, allied with Beltrán Leyva Cartel against Sinaloa Cartel.",
       "time_period": "1990s-present"
     },
     {
@@ -57,7 +57,7 @@
       "original_text_name": "Los Chapitos",
       "aliases": [],
       "type": "faction",
-      "context": "Faction of the Sinaloa Cartel led by the sons of Joaquín El Chapo Guzmán, allied with Los Ántrax.",
+      "context": "Faction of the Sinaloa Cartel led by the sons of Joaquín El Chapo Guzmán.",
       "time_period": "2010s-present"
     }
   ],
@@ -67,24 +67,24 @@
       "target": "Sinaloa Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Ántrax is the enforcer unit and hit squad for the Sinaloa Cartel.",
+      "context": "Los Ántrax is an enforcer unit and hit squad for the Sinaloa Cartel.",
       "time_period": "2000s-present"
     },
     {
       "source": "Los Ántrax",
-      "target": "Beltrán Leyva Cartel",
-      "relationship": "rivalry",
+      "target": "Gente Nueva",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Los Ántrax and Sinaloa Cartel clashed with Beltrán Leyva Cartel in the Tubutama shooting.",
-      "time_period": "2010"
+      "context": "Los Ántrax and Gente Nueva are both allies of the Sinaloa Cartel.",
+      "time_period": null
     },
     {
       "source": "Los Ántrax",
-      "target": "Los Zetas",
-      "relationship": "rivalry",
+      "target": "Los Chapitos",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Los Ántrax fought against Los Zetas, who supported the Beltrán Leyva Cartel in the Tubutama shooting.",
-      "time_period": "2010"
+      "context": "Los Ántrax and Los Chapitos are both allies of the Sinaloa Cartel.",
+      "time_period": null
     },
     {
       "source": "Los Ántrax",
@@ -95,36 +95,44 @@
       "time_period": "2011"
     },
     {
+      "source": "Los Ántrax",
+      "target": "Los Zetas",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Ántrax and Los Zetas fought on opposite sides in the Tubutama shooting.",
+      "time_period": "2010"
+    },
+    {
+      "source": "Los Ántrax",
+      "target": "Beltrán Leyva Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Ántrax and Beltrán Leyva Cartel are rivals, as the latter disputes drug corridors with the Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
       "source": "Los Mazatlecos",
       "target": "Beltrán Leyva Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Mazatlecos are part of the Beltrán Leyva Cartel.",
-      "time_period": "2000s-present"
+      "context": "Los Mazatlecos are reportedly part of the Beltrán Leyva Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Beltrán Leyva Cartel",
+      "target": "Los Zetas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Beltrán Leyva Cartel had the support of Los Zetas in the Tubutama shooting.",
+      "time_period": "2010"
     },
     {
       "source": "Sinaloa Cartel",
       "target": "Beltrán Leyva Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The cartels dispute drug trafficking corridors in western Mexico.",
-      "time_period": "2000s-present"
-    },
-    {
-      "source": "Los Ántrax",
-      "target": "Gente Nueva",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both are allied with the Sinaloa Cartel.",
-      "time_period": "2000s-present"
-    },
-    {
-      "source": "Los Ántrax",
-      "target": "Los Chapitos",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both are allied with the Sinaloa Cartel.",
-      "time_period": "2010s-present"
+      "context": "Sinaloa Cartel and Beltrán Leyva Cartel dispute drug trafficking corridors in western Mexico.",
+      "time_period": null
     }
   ],
   "source_file": "Los_Ántrax"

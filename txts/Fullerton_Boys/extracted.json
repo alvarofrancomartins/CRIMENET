@@ -7,11 +7,11 @@
         "Fullerton Boyz"
       ],
       "type": "gang",
-      "context": "A group of mostly Korean-American gang members in Fullerton, California, formed in 1996.",
+      "context": "A gang composed mostly of Korean-American delinquents in Fullerton, California, formed in 1996.",
       "time_period": "1996-present"
     },
     {
-      "standard_name": "LVM",
+      "standard_name": "LVM gang",
       "original_text_name": "LVM gang",
       "aliases": [],
       "type": "gang",
@@ -19,7 +19,7 @@
       "time_period": null
     },
     {
-      "standard_name": "SZA",
+      "standard_name": "SZA gang",
       "original_text_name": "SZA gang (Sarzana) gang",
       "aliases": [
         "Sarzana"
@@ -39,27 +39,27 @@
   ],
   "edges": [
     {
-      "source": "LVM",
-      "target": "Fullerton Boys",
-      "relationship": "other",
-      "detail": "membership",
-      "context": "Members of LVM gang were part of the Fullerton Boys.",
+      "source": "Fullerton Boys",
+      "target": "LVM gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Members of LVM gang were part of Fullerton Boys.",
       "time_period": null
     },
     {
-      "source": "SZA",
-      "target": "Fullerton Boys",
-      "relationship": "other",
-      "detail": "membership",
-      "context": "Members of SZA gang were part of the Fullerton Boys.",
+      "source": "Fullerton Boys",
+      "target": "SZA gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Members of SZA gang were part of Fullerton Boys.",
       "time_period": null
     },
     {
-      "source": "Wah Ching",
-      "target": "Fullerton Boys",
-      "relationship": "other",
-      "detail": "membership",
-      "context": "Members of Wah Ching gang were part of the Fullerton Boys.",
+      "source": "Fullerton Boys",
+      "target": "Wah Ching",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Members of Wah Ching gang were part of Fullerton Boys.",
       "time_period": null
     }
   ],

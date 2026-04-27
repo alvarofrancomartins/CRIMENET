@@ -6,10 +6,11 @@
       "aliases": [
         "UN",
         "UN gang",
-        "United Nations"
+        "United Nations",
+        "United Nations gang"
       ],
       "type": "gang",
-      "context": "Criminal gang based in Vancouver, British Columbia, involved in drug trafficking and violence.",
+      "context": "Criminal gang based in Vancouver, British Columbia, involved in drug trafficking and other crimes.",
       "time_period": "1997-present"
     },
     {
@@ -17,8 +18,8 @@
       "original_text_name": "Hells Angels",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Dominant organized crime group in British Columbia, involved in drug trafficking and violence.",
-      "time_period": "1948-present"
+      "context": "Dominant organized crime group in British Columbia, only accepts white members.",
+      "time_period": "founded 1948"
     },
     {
       "standard_name": "Red Scorpions",
@@ -27,7 +28,7 @@
         "Red Scorpions"
       ],
       "type": "gang",
-      "context": "Criminal gang based in Abbotsford, British Columbia, involved in drug trafficking and violence.",
+      "context": "Criminal gang involved in a brawl and subsequent killings with the United Nations gang.",
       "time_period": "2000s"
     },
     {
@@ -35,8 +36,16 @@
       "original_text_name": "Sinaloa Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel controlling much of Sinaloa state, involved in cocaine production and trafficking.",
+      "context": "Mexican drug cartel controlling much of Sinaloa state, involved in drug trafficking.",
       "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Independent Soldiers",
+      "original_text_name": "Independent Soldiers",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal gang involved in turf wars with the United Nations gang.",
+      "time_period": null
     },
     {
       "standard_name": "Fresh Off the Boat Killers",
@@ -47,16 +56,16 @@
         "FOB Killers"
       ],
       "type": "gang",
-      "context": "Calgary-based gang composed of Chinese-Canadians, Korean-Canadians, and Vietnamese-Canadians.",
-      "time_period": "2000s-present"
+      "context": "Calgary gang made up of Chinese-Canadians, Korean-Canadians and Vietnamese-Canadians, allied with United Nations.",
+      "time_period": null
     },
     {
-      "standard_name": "Independent Soldiers",
-      "original_text_name": "Independent Soldiers",
+      "standard_name": "Fresh Off the Boat",
+      "original_text_name": "Fresh Off the Boat",
       "aliases": [],
       "type": "gang",
-      "context": "Criminal gang that fought turf wars with the United Nations gang.",
-      "time_period": "2000s-present"
+      "context": "Rival gang to the Fresh Off the Boat Killers.",
+      "time_period": null
     },
     {
       "standard_name": "Wolfpack Alliance",
@@ -65,7 +74,7 @@
         "Wolfpack"
       ],
       "type": "gang",
-      "context": "Criminal alliance led by Larry Amero and Rabih Alkhalil, involved in a violent feud with the United Nations.",
+      "context": "Criminal group led by Larry Amero and Rabih Alkhalil, involved in a violent feud with the United Nations.",
       "time_period": "2010s"
     },
     {
@@ -83,64 +92,6 @@
       "type": "gang",
       "context": "Rival gang to the United Nations.",
       "time_period": "2010s-present"
-    },
-    {
-      "standard_name": "Triads of Vancouver",
-      "original_text_name": "Triads of Vancouver",
-      "aliases": [],
-      "type": "triad",
-      "context": "Chinese organized crime groups in Vancouver, allied with the United Nations.",
-      "time_period": "unknown"
-    },
-    {
-      "standard_name": "Dhak group",
-      "original_text_name": "Dhak group of British Columbia",
-      "aliases": [],
-      "type": "gang",
-      "context": "Criminal group in British Columbia allied with the United Nations.",
-      "time_period": "unknown"
-    },
-    {
-      "standard_name": "Duhre group",
-      "original_text_name": "Duhre group of British Columbia",
-      "aliases": [],
-      "type": "gang",
-      "context": "Criminal group in British Columbia allied with the United Nations.",
-      "time_period": "unknown"
-    },
-    {
-      "standard_name": "Crazy Dragon Killaz",
-      "original_text_name": "Crazy Dragon Killaz of Alberta",
-      "aliases": [],
-      "type": "gang",
-      "context": "Alberta-based gang allied with the United Nations.",
-      "time_period": "unknown"
-    },
-    {
-      "standard_name": "Kang crime family",
-      "original_text_name": "Kang crime family (BIBO gang)",
-      "aliases": [
-        "BIBO gang"
-      ],
-      "type": "clan",
-      "context": "Crime family allied with the United Nations.",
-      "time_period": "unknown"
-    },
-    {
-      "standard_name": "Big circle gang",
-      "original_text_name": "Big circle gang of British Columbia",
-      "aliases": [],
-      "type": "gang",
-      "context": "Criminal group in British Columbia allied with the United Nations.",
-      "time_period": "unknown"
-    },
-    {
-      "standard_name": "Mo dumplings gang",
-      "original_text_name": "Mo dumplings gang of British Columbia",
-      "aliases": [],
-      "type": "gang",
-      "context": "Criminal group in British Columbia allied with the United Nations.",
-      "time_period": "unknown"
     }
   ],
   "edges": [
@@ -149,15 +100,15 @@
       "target": "Hells Angels",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The UN gang fought the Hells Angels at the Animals nightclub in 2000, establishing a violent rivalry.",
-      "time_period": "2000-present"
+      "context": "The UN gang fought the Hells Angels at the Animals nightclub in 2000, establishing a rivalry.",
+      "time_period": "2000"
     },
     {
       "source": "United Nations",
       "target": "Red Scorpions",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The UN gang and Red Scorpions engaged in a bloody brawl in 2002, leading to retaliatory killings.",
+      "context": "The UN gang and Red Scorpions engaged in a brawl in 2002, leading to retaliatory killings.",
       "time_period": "2002-2003"
     },
     {
@@ -165,24 +116,32 @@
       "target": "Sinaloa Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "The UN gang exchanged B.C. Bud marijuana for cocaine from the Sinaloa Cartel, facilitated by liaison Ahmed Kaawach.",
-      "time_period": "2000s-2008"
-    },
-    {
-      "source": "United Nations",
-      "target": "Fresh Off the Boat Killers",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The UN gang adopted the FOB Killers, providing cocaine supply lines and oversight in exchange for loyalty.",
-      "time_period": "2006-present"
+      "context": "United Nations exchanged B.C. Bud for cocaine with the Sinaloa Cartel via liaison Ahmed Kaawach.",
+      "time_period": "2000s"
     },
     {
       "source": "United Nations",
       "target": "Independent Soldiers",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The UN gang fought turf wars against the Independent Soldiers.",
-      "time_period": "2000s"
+      "context": "United Nations fought a turf war against the Independent Soldiers.",
+      "time_period": null
+    },
+    {
+      "source": "United Nations",
+      "target": "Fresh Off the Boat Killers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "United Nations leader Roueche forged a close alliance with the Fresh Off the Boat Killers, providing cocaine and oversight.",
+      "time_period": "2006-present"
+    },
+    {
+      "source": "Fresh Off the Boat Killers",
+      "target": "Fresh Off the Boat",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Fresh Off the Boat Killers are rivals of the Fresh Off the Boat gang.",
+      "time_period": null
     },
     {
       "source": "United Nations",
@@ -195,17 +154,17 @@
     {
       "source": "Hells Angels",
       "target": "United Nations",
-      "relationship": "other",
-      "detail": "arms supplier",
-      "context": "The Hells Angels sold guns to the UN gang through their proxy, the Independent Soldiers.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hells Angels sold guns to the UN gang through their proxy, the Independent Soldiers.",
       "time_period": "2008-2009"
     },
     {
       "source": "Hells Angels",
       "target": "Red Scorpions",
-      "relationship": "other",
-      "detail": "arms supplier",
-      "context": "The Hells Angels sold guns to the Red Scorpions through their proxy, the Independent Soldiers.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hells Angels sold guns to the Red Scorpions through their proxy, the Independent Soldiers.",
       "time_period": "2008-2009"
     },
     {
@@ -213,88 +172,48 @@
       "target": "Hells Angels",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Independent Soldiers acted as a proxy for the Hells Angels.",
-      "time_period": "2000s-2010s"
+      "context": "Independent Soldiers acted as a proxy for the Hells Angels in the gang conflict.",
+      "time_period": "2008-2009"
     },
     {
-      "source": "United Nations",
-      "target": "Wolfpack Alliance",
-      "relationship": "rivalry",
+      "source": "Fresh Off the Boat Killers",
+      "target": "United Nations",
+      "relationship": "alliance",
       "detail": null,
-      "context": "The UN gang was involved in a violent feud with the Wolfpack Alliance, resulting in murders on both sides.",
-      "time_period": "2011-2012"
+      "context": "Fresh Off the Boat Killers were imported from Calgary to assist the UN gang in killing the Bacon brothers.",
+      "time_period": "2007-2008"
     },
     {
       "source": "Wolfpack Alliance",
-      "target": "Alkhalil family",
+      "target": "United Nations",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Violent feud involving murders of UN members in Mexico and Canada.",
+      "time_period": "2011-2012"
+    },
+    {
+      "source": "Alkhalil family",
+      "target": "Wolfpack Alliance",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Wolfpack Alliance was led by Rabih Alkhalil of the Alkhalil family.",
+      "context": "Rabih Alkhalil of the Alkhalil family co-led the Wolfpack Alliance.",
       "time_period": "2010s"
     },
     {
-      "source": "United Nations",
-      "target": "Brothers Keepers",
+      "source": "Sinaloa Cartel",
+      "target": "United Nations",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sinaloa Cartel supplied the United Nations gang with drugs.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "source": "Brothers Keepers",
+      "target": "United Nations",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Brothers Keepers are listed as rivals of the United Nations.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "United Nations",
-      "target": "Triads of Vancouver",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Triads of Vancouver are listed as allies of the United Nations.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "United Nations",
-      "target": "Dhak group",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Dhak group is listed as an ally of the United Nations.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "United Nations",
-      "target": "Duhre group",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Duhre group is listed as an ally of the United Nations.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "United Nations",
-      "target": "Crazy Dragon Killaz",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Crazy Dragon Killaz is listed as an ally of the United Nations.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "United Nations",
-      "target": "Kang crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Kang crime family is listed as an ally of the United Nations.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "United Nations",
-      "target": "Big circle gang",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Big circle gang is listed as an ally of the United Nations.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "United Nations",
-      "target": "Mo dumplings gang",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Mo dumplings gang is listed as an ally of the United Nations.",
-      "time_period": "unknown"
+      "context": "Listed as a rival of the United Nations in the infobox.",
+      "time_period": null
     }
   ],
   "source_file": "United_Nations_(gang)"

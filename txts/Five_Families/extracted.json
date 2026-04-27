@@ -2,10 +2,10 @@
   "nodes": [
     {
       "standard_name": "Bonanno crime family",
-      "original_text_name": "Bonanno crime family",
+      "original_text_name": "Bonanno family",
       "aliases": [
         "Maranzano family",
-        "Bonanno family"
+        "Bonanno crime family"
       ],
       "type": "mafia",
       "context": "One of the Five Families of New York City, operates mainly in Brooklyn, Queens, Staten Island, and Long Island.",
@@ -13,10 +13,10 @@
     },
     {
       "standard_name": "Colombo crime family",
-      "original_text_name": "Colombo crime family",
+      "original_text_name": "Colombo family",
       "aliases": [
         "Profaci family",
-        "Colombo family"
+        "Colombo crime family"
       ],
       "type": "mafia",
       "context": "One of the Five Families of New York City, operates mainly in Brooklyn, Queens, and Long Island.",
@@ -24,10 +24,10 @@
     },
     {
       "standard_name": "Gambino crime family",
-      "original_text_name": "Gambino crime family",
+      "original_text_name": "Gambino family",
       "aliases": [
         "Mangano family",
-        "Gambino family"
+        "Gambino crime family"
       ],
       "type": "mafia",
       "context": "One of the Five Families of New York City, operates mainly in Brooklyn, Queens, Manhattan, Staten Island, and Long Island.",
@@ -35,10 +35,12 @@
     },
     {
       "standard_name": "Genovese crime family",
-      "original_text_name": "Genovese crime family",
+      "original_text_name": "Genovese family",
       "aliases": [
+        "Genovese crime family",
+        "Luciano crime family",
         "Luciano family",
-        "Genovese family"
+        "Morello crime family"
       ],
       "type": "mafia",
       "context": "One of the Five Families of New York City, operates mainly in Manhattan, the Bronx, Brooklyn, and New Jersey.",
@@ -46,10 +48,12 @@
     },
     {
       "standard_name": "Lucchese crime family",
-      "original_text_name": "Lucchese crime family",
+      "original_text_name": "Lucchese family",
       "aliases": [
+        "Gagliano crime family",
         "Gagliano family",
-        "Lucchese family"
+        "Lucchese crime family",
+        "Reina crime family"
       ],
       "type": "mafia",
       "context": "One of the Five Families of New York City, operates mainly in The Bronx, Manhattan, Brooklyn, and New Jersey.",
@@ -60,7 +64,7 @@
       "original_text_name": "Chicago Outfit",
       "aliases": [],
       "type": "mafia",
-      "context": "Chicago-based Mafia family, part of the Commission alongside the Five Families.",
+      "context": "Mafia family based in Chicago, member of the Commission.",
       "time_period": "1910s-present"
     },
     {
@@ -71,17 +75,15 @@
         "Magaddino family"
       ],
       "type": "mafia",
-      "context": "Mafia family based in Buffalo, New York, part of the Commission.",
+      "context": "Mafia family based in Buffalo, New York, member of the Commission.",
       "time_period": "1910s-present"
     },
     {
       "standard_name": "Masseria faction",
       "original_text_name": "Masseria's faction",
-      "aliases": [
-        "Masseria gang"
-      ],
+      "aliases": [],
       "type": "faction",
-      "context": "Faction led by Giuseppe Masseria in the 1920s, opposed Maranzano in the Castellammarese War.",
+      "context": "Faction led by Giuseppe Masseria during the Castellammarese War, included Luciano, Anastasia, Genovese, etc.",
       "time_period": "1920s-1931"
     },
     {
@@ -91,8 +93,16 @@
         "Maranzano faction"
       ],
       "type": "faction",
-      "context": "Faction led by Salvatore Maranzano, fought Masseria in the Castellammarese War.",
+      "context": "Faction led by Salvatore Maranzano during the Castellammarese War, included Bonanno, Magaddino, Profaci, Aiello.",
       "time_period": "1920s-1931"
+    },
+    {
+      "standard_name": "Rizzuto crime family",
+      "original_text_name": "Rizzuto crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family based in Quebec, Canada, with ties to the Bonanno family.",
+      "time_period": "1970s-present"
     },
     {
       "standard_name": "Bath Avenue Crew",
@@ -115,7 +125,7 @@
       "original_text_name": "Staten Island Boys",
       "aliases": [],
       "type": "gang",
-      "context": "Crew operating in Staten Island, associated with the Gambino family.",
+      "context": "Crew operating mainly in Staten Island, associated with the Gambino family.",
       "time_period": null
     },
     {
@@ -155,7 +165,7 @@
       "original_text_name": "Greenwich Village Crew",
       "aliases": [],
       "type": "gang",
-      "context": "Crew operating in Greenwich Village, Manhattan, associated with the Genovese family.",
+      "context": "Crew operating in Greenwich Village, Lower Manhattan, associated with the Genovese family.",
       "time_period": null
     },
     {
@@ -163,7 +173,7 @@
       "original_text_name": "Genovese crime family New Jersey faction",
       "aliases": [],
       "type": "faction",
-      "context": "New Jersey-based faction of the Genovese family.",
+      "context": "New Jersey faction of the Genovese family.",
       "time_period": null
     },
     {
@@ -179,7 +189,7 @@
       "original_text_name": "Lucchese crime family New Jersey faction",
       "aliases": [],
       "type": "faction",
-      "context": "New Jersey-based faction of the Lucchese family.",
+      "context": "New Jersey faction of the Lucchese family.",
       "time_period": null
     },
     {
@@ -189,34 +199,6 @@
       "type": "gang",
       "context": "Recruitment gang operating in Westchester County, The Bronx, and Manhattan.",
       "time_period": null
-    },
-    {
-      "standard_name": "Rizzuto crime family",
-      "original_text_name": "Rizzuto crime family",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Mafia family based in Quebec, Canada, with ties to the Bonanno family.",
-      "time_period": "1970s-present"
-    },
-    {
-      "standard_name": "Genovese family",
-      "original_text_name": "Genovese family",
-      "aliases": [
-        "Luciano family"
-      ],
-      "type": "mafia",
-      "context": "One of the Five Families of New York City, involved in organized crime.",
-      "time_period": "1931-present"
-    },
-    {
-      "standard_name": "Lucchese family",
-      "original_text_name": "Lucchese family",
-      "aliases": [
-        "Gagliano family"
-      ],
-      "type": "mafia",
-      "context": "One of the Five Families of New York City, involved in organized crime.",
-      "time_period": "1922-present"
     }
   ],
   "edges": [
@@ -253,30 +235,6 @@
       "time_period": "1931-present"
     },
     {
-      "source": "Bonanno crime family",
-      "target": "Chicago Outfit",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both are part of the Commission.",
-      "time_period": "1931-present"
-    },
-    {
-      "source": "Bonanno crime family",
-      "target": "Buffalo crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both are part of the Commission.",
-      "time_period": "1931-present"
-    },
-    {
-      "source": "Bonanno crime family",
-      "target": "Rizzuto crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Bonanno family has ties to the Rizzuto family in Quebec.",
-      "time_period": null
-    },
-    {
       "source": "Colombo crime family",
       "target": "Gambino crime family",
       "relationship": "alliance",
@@ -301,22 +259,6 @@
       "time_period": "1931-present"
     },
     {
-      "source": "Colombo crime family",
-      "target": "Chicago Outfit",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both are part of the Commission.",
-      "time_period": "1931-present"
-    },
-    {
-      "source": "Colombo crime family",
-      "target": "Buffalo crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both are part of the Commission.",
-      "time_period": "1931-present"
-    },
-    {
       "source": "Gambino crime family",
       "target": "Genovese crime family",
       "relationship": "alliance",
@@ -333,22 +275,6 @@
       "time_period": "1931-present"
     },
     {
-      "source": "Gambino crime family",
-      "target": "Chicago Outfit",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both are part of the Commission.",
-      "time_period": "1931-present"
-    },
-    {
-      "source": "Gambino crime family",
-      "target": "Buffalo crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both are part of the Commission.",
-      "time_period": "1931-present"
-    },
-    {
       "source": "Genovese crime family",
       "target": "Lucchese crime family",
       "relationship": "alliance",
@@ -357,43 +283,83 @@
       "time_period": "1931-present"
     },
     {
-      "source": "Genovese crime family",
-      "target": "Chicago Outfit",
+      "source": "Chicago Outfit",
+      "target": "Bonanno crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the Commission.",
-      "time_period": "1931-present"
-    },
-    {
-      "source": "Genovese crime family",
-      "target": "Buffalo crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both are part of the Commission.",
-      "time_period": "1931-present"
-    },
-    {
-      "source": "Lucchese crime family",
-      "target": "Chicago Outfit",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both are part of the Commission.",
-      "time_period": "1931-present"
-    },
-    {
-      "source": "Lucchese crime family",
-      "target": "Buffalo crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both are part of the Commission.",
+      "context": "Both were members of the Commission.",
       "time_period": "1931-present"
     },
     {
       "source": "Chicago Outfit",
-      "target": "Buffalo crime family",
+      "target": "Colombo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the Commission.",
+      "context": "Both were members of the Commission.",
+      "time_period": "1931-present"
+    },
+    {
+      "source": "Chicago Outfit",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both were members of the Commission.",
+      "time_period": "1931-present"
+    },
+    {
+      "source": "Chicago Outfit",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both were members of the Commission.",
+      "time_period": "1931-present"
+    },
+    {
+      "source": "Chicago Outfit",
+      "target": "Lucchese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both were members of the Commission.",
+      "time_period": "1931-present"
+    },
+    {
+      "source": "Buffalo crime family",
+      "target": "Bonanno crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both were members of the Commission.",
+      "time_period": "1931-present"
+    },
+    {
+      "source": "Buffalo crime family",
+      "target": "Colombo crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both were members of the Commission.",
+      "time_period": "1931-present"
+    },
+    {
+      "source": "Buffalo crime family",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both were members of the Commission.",
+      "time_period": "1931-present"
+    },
+    {
+      "source": "Buffalo crime family",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both were members of the Commission.",
+      "time_period": "1931-present"
+    },
+    {
+      "source": "Buffalo crime family",
+      "target": "Lucchese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both were members of the Commission.",
       "time_period": "1931-present"
     },
     {
@@ -405,11 +371,19 @@
       "time_period": "1928-1931"
     },
     {
+      "source": "Bonanno crime family",
+      "target": "Rizzuto crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Bonanno family has ties to the Rizzuto crime family in Quebec.",
+      "time_period": null
+    },
+    {
       "source": "Bath Avenue Crew",
       "target": "Bonanno crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Bath Avenue Crew operated in Bonanno territory and was associated with the family.",
+      "context": "The Bath Avenue Crew operated in Bonanno territory and is associated with the family.",
       "time_period": null
     },
     {
@@ -417,7 +391,7 @@
       "target": "Gambino crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Ozone Park Boys operated in Gambino territory and were associated with the family.",
+      "context": "The Ozone Park Boys operate in Queens and Long Island, areas controlled by the Gambino family.",
       "time_period": null
     },
     {
@@ -425,7 +399,7 @@
       "target": "Gambino crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Staten Island Boys operated in Gambino territory and were associated with the family.",
+      "context": "The Staten Island Boys operate mainly in Staten Island, under the Gambino family.",
       "time_period": null
     },
     {
@@ -457,7 +431,7 @@
       "target": "Genovese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The 116th Street Crew operated in Genovese territory and was associated with the family.",
+      "context": "The 116th Street Crew operates in Upper Manhattan and The Bronx, areas controlled by the Genovese family.",
       "time_period": null
     },
     {
@@ -465,7 +439,7 @@
       "target": "Genovese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Greenwich Village Crew operated in Genovese territory and was associated with the family.",
+      "context": "The Greenwich Village Crew operates in Lower Manhattan, area controlled by the Genovese family.",
       "time_period": null
     },
     {
@@ -473,7 +447,7 @@
       "target": "Genovese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The New Jersey faction is a part of the Genovese family.",
+      "context": "The New Jersey faction is a sub-group of the Genovese family.",
       "time_period": null
     },
     {
@@ -481,7 +455,7 @@
       "target": "Lucchese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Cutaia Crew operated in Lucchese territory and was associated with the family.",
+      "context": "The Cutaia Crew operates in Brooklyn, Queens, and Long Island, areas controlled by the Lucchese family.",
       "time_period": null
     },
     {
@@ -489,7 +463,7 @@
       "target": "Lucchese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The New Jersey faction is a part of the Lucchese family.",
+      "context": "The New Jersey faction is a sub-group of the Lucchese family.",
       "time_period": null
     },
     {

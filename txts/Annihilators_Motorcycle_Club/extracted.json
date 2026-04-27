@@ -7,7 +7,7 @@
         "Annihilators"
       ],
       "type": "motorcycle_club",
-      "context": "Canadian outlaw biker club active 1988-1999, involved in drug trafficking, extortion, murder.",
+      "context": "Canadian outlaw biker club active 1988-1999 in Southwestern Ontario, involved in drug trafficking, extortion, murder.",
       "time_period": "1988-1999"
     },
     {
@@ -27,7 +27,7 @@
         "Outlaws MC"
       ],
       "type": "motorcycle_club",
-      "context": "Dominant biker club in Ontario from 1977 to 2000, had puppet clubs.",
+      "context": "Powerful biker club in Ontario, dominant from 1977 to 2000.",
       "time_period": "1977-2000"
     },
     {
@@ -37,15 +37,13 @@
         "Holocaust club"
       ],
       "type": "motorcycle_club",
-      "context": "Puppet club of Outlaws, renamed from Queensmen, based in Chatham.",
+      "context": "Puppet club of the Outlaws, based in Chatham, renamed Annihilators in 1988.",
       "time_period": "1982-1988"
     },
     {
       "standard_name": "Satan's Choice Motorcycle Club",
       "original_text_name": "Satan's Choice",
-      "aliases": [
-        "Satan's Choice MC"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
       "context": "Enemies of the Outlaws, based in Ontario.",
       "time_period": null
@@ -57,60 +55,66 @@
         "Loners"
       ],
       "type": "motorcycle_club",
-      "context": "Based in Woodbridge, merged with Annihilators in 1999 to counter Hells Angels.",
+      "context": "Based in Woodbridge, merged with Annihilators in 1999.",
       "time_period": null
     },
     {
       "standard_name": "Hells Angels Motorcycle Club",
       "original_text_name": "Hells Angels",
-      "aliases": [
-        "Hells Angels MC"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
-      "context": "Rival of Outlaws and Annihilators, expanding into Ontario.",
+      "context": "Rival of the Annihilators and Outlaws, expanding into Ontario.",
       "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Annihilators Motorcycle Club",
-      "target": "Outlaws Motorcycle Club",
+      "target": "Holocaust Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Annihilators were a support club for Outlaws until late 1990s.",
-      "time_period": "1988-late 1990s"
+      "context": "The Annihilators were the renamed Holocaust club, same organization.",
+      "time_period": "1988"
     },
     {
       "source": "Holocaust Motorcycle Club",
-      "target": "Outlaws Motorcycle Club",
+      "target": "Queensmen Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Holocaust was a puppet club of Outlaws, with Kellestine as president.",
-      "time_period": "1982-1988"
-    },
-    {
-      "source": "Queensmen Motorcycle Club",
-      "target": "Holocaust Motorcycle Club",
-      "relationship": "other",
-      "detail": "predecessor-successor",
-      "context": "Queensmen were renamed to Holocaust in 1982.",
+      "context": "The Holocaust club was formed from the Queensmen after relocation.",
       "time_period": "1982"
     },
     {
       "source": "Holocaust Motorcycle Club",
-      "target": "Annihilators Motorcycle Club",
-      "relationship": "other",
-      "detail": "predecessor-successor",
-      "context": "Holocaust was renamed to Annihilators in 1988.",
-      "time_period": "1988"
+      "target": "Outlaws Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Holocaust was a puppet club of the Outlaws.",
+      "time_period": "1982-1990s"
+    },
+    {
+      "source": "Annihilators Motorcycle Club",
+      "target": "Outlaws Motorcycle Club",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Annihilators were a support club for the Outlaws until late 1990s.",
+      "time_period": "1988-1990s"
     },
     {
       "source": "Annihilators Motorcycle Club",
       "target": "Loners Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Annihilators merged into Loners in 1999.",
+      "context": "The Annihilators merged into the Loners in 1999.",
       "time_period": "1999"
+    },
+    {
+      "source": "Annihilators Motorcycle Club",
+      "target": "Hells Angels Motorcycle Club",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Annihilators merged with Loners to counter Hells Angels threat.",
+      "time_period": null
     },
     {
       "source": "Outlaws Motorcycle Club",
@@ -118,14 +122,6 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Satan's Choice were enemies of the Outlaws.",
-      "time_period": null
-    },
-    {
-      "source": "Annihilators Motorcycle Club",
-      "target": "Hells Angels Motorcycle Club",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Hells Angels were rivals of Annihilators per infobox.",
       "time_period": null
     }
   ],

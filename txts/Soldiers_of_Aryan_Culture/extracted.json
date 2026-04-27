@@ -9,7 +9,7 @@
         "Soldiers of an Aryan Culture"
       ],
       "type": "gang",
-      "context": "White supremacist prison gang in the United States, involved in drug trafficking, extortion, violence, and murder.",
+      "context": "White supremacist prison gang in the United States, founded in Utah in 1997.",
       "time_period": "1997-present"
     },
     {
@@ -17,7 +17,7 @@
       "original_text_name": "Aryan Brotherhood",
       "aliases": [],
       "type": "gang",
-      "context": "White supremacist prison gang; an affiliate introduced SAC founder to white supremacist literature.",
+      "context": "White supremacist prison gang in the United States.",
       "time_period": "1960s-present"
     },
     {
@@ -25,7 +25,7 @@
       "original_text_name": "Silent Aryan Warriors",
       "aliases": [],
       "type": "gang",
-      "context": "White supremacist prison gang; allied with SAC in the 2002 Winter Olympics bomb plot and drug trafficking.",
+      "context": "White supremacist prison gang in the United States.",
       "time_period": null
     },
     {
@@ -33,7 +33,7 @@
       "original_text_name": "Nazi Lowriders",
       "aliases": [],
       "type": "gang",
-      "context": "White supremacist prison gang; mentioned as distinct from SAC in ideology.",
+      "context": "White supremacist prison gang in the United States.",
       "time_period": null
     },
     {
@@ -41,7 +41,7 @@
       "original_text_name": "Noble Elect Thugs",
       "aliases": [],
       "type": "gang",
-      "context": "Criminal group charged alongside SAC and Silent Aryan Warriors in a 2020 drug and firearms distribution case.",
+      "context": "Criminal group involved in drug and firearms distribution in Utah.",
       "time_period": null
     },
     {
@@ -49,7 +49,7 @@
       "original_text_name": "Krieger Verwandt",
       "aliases": [],
       "type": "gang",
-      "context": "Listed as an ally of SAC in the infobox.",
+      "context": "White supremacist prison gang allied with Soldiers of Aryan Culture.",
       "time_period": null
     },
     {
@@ -57,7 +57,7 @@
       "original_text_name": "Norteños",
       "aliases": [],
       "type": "gang",
-      "context": "Hispanic street gang; listed as a rival of SAC in the infobox.",
+      "context": "Hispanic street gang in the United States, rival of Soldiers of Aryan Culture.",
       "time_period": null
     },
     {
@@ -65,7 +65,7 @@
       "original_text_name": "Big Circle Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Chinese organized crime group; listed as a rival of SAC in the infobox.",
+      "context": "Chinese organized crime group, rival of Soldiers of Aryan Culture.",
       "time_period": null
     }
   ],
@@ -74,8 +74,8 @@
       "source": "Soldiers of Aryan Culture",
       "target": "Aryan Brotherhood",
       "relationship": "other",
-      "detail": "influence",
-      "context": "An Aryan Brotherhood affiliate introduced SAC founder to white supremacist literature, influencing SAC's formation.",
+      "detail": "affiliate influence",
+      "context": "An Aryan Brotherhood affiliate introduced SAC founder to white supremacist literature.",
       "time_period": "mid-to-late 1990s"
     },
     {
@@ -83,23 +83,15 @@
       "target": "Silent Aryan Warriors",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied in the 2002 Winter Olympics bomb plot and later charged together in a drug and firearms distribution case.",
-      "time_period": "2002-2020"
-    },
-    {
-      "source": "Soldiers of Aryan Culture",
-      "target": "Noble Elect Thugs",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Charged together with Silent Aryan Warriors in a 2020 drug and firearms distribution case.",
-      "time_period": "2020"
+      "context": "SAC and Silent Aryan Warriors allegedly planned to attack Jewish athletes at the 2002 Winter Olympics.",
+      "time_period": "2002"
     },
     {
       "source": "Soldiers of Aryan Culture",
       "target": "Krieger Verwandt",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "Krieger Verwandt is listed as an ally of SAC in the infobox.",
       "time_period": null
     },
     {
@@ -107,7 +99,7 @@
       "target": "Norteños",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as a rival in the infobox.",
+      "context": "Norteños are listed as rivals of SAC in the infobox.",
       "time_period": null
     },
     {
@@ -115,8 +107,24 @@
       "target": "Big Circle Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as a rival in the infobox.",
+      "context": "Big Circle Gang is listed as a rival of SAC in the infobox.",
       "time_period": null
+    },
+    {
+      "source": "Soldiers of Aryan Culture",
+      "target": "Noble Elect Thugs",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "SAC, Silent Aryan Warriors, and Noble Elect Thugs were charged together in a drug and firearms distribution case in 2020.",
+      "time_period": "2020"
+    },
+    {
+      "source": "Silent Aryan Warriors",
+      "target": "Noble Elect Thugs",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Silent Aryan Warriors and Noble Elect Thugs were charged together with SAC in a drug and firearms distribution case in 2020.",
+      "time_period": "2020"
     }
   ],
   "source_file": "Soldiers_of_Aryan_Culture"

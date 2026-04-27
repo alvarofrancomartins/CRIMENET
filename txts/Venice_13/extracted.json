@@ -9,8 +9,8 @@
         "VX3"
       ],
       "type": "gang",
-      "context": "Mexican American street gang based in Oakwood, Venice, Los Angeles. Active in drug trafficking and violent turf wars.",
-      "time_period": "1920s-present"
+      "context": "Mexican American street gang based in Oakwood, Venice, Los Angeles. Active since 1920s-1930s.",
+      "time_period": "1920s-1930s–present"
     },
     {
       "standard_name": "Venice Shoreline Crips",
@@ -20,26 +20,24 @@
         "Shoreline Crips"
       ],
       "type": "gang",
-      "context": "African American street gang based in Oakwood, Venice. Rivals of Venice 13.",
-      "time_period": "mid-1970s-present"
+      "context": "African-American street gang founded in mid-1970s in Venice, Los Angeles.",
+      "time_period": "mid-1970s–present"
     },
     {
       "standard_name": "Sureños",
       "original_text_name": "Sureños",
       "aliases": [],
       "type": "gang",
-      "context": "Alliance of Mexican American street gangs in Southern California, affiliated with the Mexican Mafia.",
-      "time_period": "1970s-present"
+      "context": "A loose confederation of Mexican American street gangs in Southern California, affiliated with the Mexican Mafia.",
+      "time_period": null
     },
     {
       "standard_name": "Mexican Mafia",
       "original_text_name": "Mexican Mafia",
-      "aliases": [
-        "La Eme"
-      ],
+      "aliases": [],
       "type": "gang",
-      "context": "Prison gang that controls many Sureño gangs and drug trade in California prisons and streets.",
-      "time_period": "1950s-present"
+      "context": "Prison gang and organized crime syndicate in the California prison system.",
+      "time_period": null
     },
     {
       "standard_name": "Culver City Boys 13",
@@ -49,156 +47,162 @@
         "Culver City gang"
       ],
       "type": "gang",
-      "context": "Mexican American street gang based in Culver City, California. Longtime rival of Venice 13.",
-      "time_period": "unknown-present"
+      "context": "Mexican American street gang based in Culver City, California, rival of Venice 13.",
+      "time_period": null
     },
     {
       "standard_name": "Santa Monica 13",
       "original_text_name": "Santa Monica 13",
       "aliases": [],
       "type": "gang",
-      "context": "Mexican American street gang based in Santa Monica. Former rival of Venice 13, later allied.",
-      "time_period": "unknown-present"
+      "context": "Mexican American street gang based in Santa Monica, California.",
+      "time_period": null
     },
     {
       "standard_name": "Santa Monica 17th St",
       "original_text_name": "Santa Monica 17th St",
       "aliases": [],
       "type": "gang",
-      "context": "Street gang based in Santa Monica. Former rival of Venice 13, later allied.",
-      "time_period": "unknown-present"
+      "context": "Street gang based in Santa Monica, California.",
+      "time_period": null
     },
     {
       "standard_name": "18th Street Gang",
       "original_text_name": "18th Street gang",
-      "aliases": [
-        "18th Street"
-      ],
+      "aliases": [],
       "type": "gang",
-      "context": "Large multi-ethnic street gang based in Los Angeles. Rival of Venice 13.",
-      "time_period": "1960s-present"
+      "context": "Multi-ethnic street gang based in Los Angeles, with a presence in Inglewood.",
+      "time_period": null
     },
     {
       "standard_name": "Grave Yard Gangsta Crips",
       "original_text_name": "Grave Yard Gangsta Crips",
       "aliases": [],
       "type": "gang",
-      "context": "Crips set based in Santa Monica. Rival of Venice 13.",
-      "time_period": "unknown-present"
+      "context": "Crips set based in Santa Monica, California.",
+      "time_period": null
     },
     {
       "standard_name": "Lennox 13",
       "original_text_name": "Lennox13",
       "aliases": [],
       "type": "gang",
-      "context": "Mexican American street gang based in Lennox, California. Ally of Venice 13.",
-      "time_period": "unknown-present"
+      "context": "Mexican American street gang based in Lennox, California.",
+      "time_period": null
     },
     {
       "standard_name": "PlayBoys Gangster Crips",
       "original_text_name": "PlayBoys Gangster Crips",
       "aliases": [],
       "type": "gang",
-      "context": "Crips set allied with Venice 13.",
-      "time_period": "unknown-present"
+      "context": "Crips set, ally of Venice 13.",
+      "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Venice 13",
-      "target": "Venice Shoreline Crips",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Intense gang war in the 1990s, with a cease-fire in 1994 after 55 deaths.",
-      "time_period": "1970s-1994"
-    },
-    {
-      "source": "Venice 13",
       "target": "Sureños",
       "relationship": "alliance",
       "detail": null,
-      "context": "Venice 13 is affiliated with the Sureños alliance.",
-      "time_period": "unknown-present"
+      "context": "Venice 13 is affiliated with the Sureños.",
+      "time_period": null
     },
     {
       "source": "Venice 13",
       "target": "Mexican Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Venice 13 is affiliated with the Mexican Mafia, which orders drug trade control.",
-      "time_period": "1960s-present"
+      "context": "Venice 13 is affiliated with the Mexican Mafia.",
+      "time_period": null
     },
     {
       "source": "Venice 13",
       "target": "Culver City Boys 13",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Longstanding violent rivalry spanning over 50 years, with multiple shootings.",
-      "time_period": "1960s-present"
+      "context": "Venice 13 has a long-standing rivalry with Culver City Boys 13, spanning over 50 years.",
+      "time_period": "1960s–present"
+    },
+    {
+      "source": "Venice 13",
+      "target": "Venice Shoreline Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Venice 13 fought an intense war with Venice Shoreline Crips in the 1990s, later settled a cease fire in 1994.",
+      "time_period": "1990s–1994"
+    },
+    {
+      "source": "Venice 13",
+      "target": "Venice Shoreline Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Venice 13 and Venice Shoreline Crips formed a peace treaty in 1994.",
+      "time_period": "1994–present"
     },
     {
       "source": "Venice 13",
       "target": "Santa Monica 13",
-      "relationship": "other",
-      "detail": "truce then alliance",
-      "context": "Former rivals who settled a truce and formed an alliance.",
-      "time_period": "unknown-present"
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Venice 13 had a rivalry with Santa Monica 13, but later settled a truce and formed an alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Venice 13",
+      "target": "Santa Monica 13",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Venice 13 and Santa Monica 13 settled a truce and formed an alliance.",
+      "time_period": null
     },
     {
       "source": "Venice 13",
       "target": "Santa Monica 17th St",
-      "relationship": "other",
-      "detail": "truce then alliance",
-      "context": "Former rivals who settled a truce and formed an alliance.",
-      "time_period": "unknown-present"
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Venice 13 had a rivalry with Santa Monica 17th St, but later settled a truce and formed an alliance.",
+      "time_period": null
+    },
+    {
+      "source": "Venice 13",
+      "target": "Santa Monica 17th St",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Venice 13 and Santa Monica 17th St settled a truce and formed an alliance.",
+      "time_period": null
     },
     {
       "source": "Venice 13",
       "target": "18th Street Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rivalry, particularly with the 106th St set in Inglewood.",
-      "time_period": "unknown-present"
+      "context": "Venice 13 has a rivalry with 18th Street gang, particularly the 106th St set in Inglewood.",
+      "time_period": null
     },
     {
       "source": "Venice 13",
       "target": "Grave Yard Gangsta Crips",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rivalry with this Santa Monica Crips set.",
-      "time_period": "unknown-present"
+      "context": "Venice 13 has a rivalry with Grave Yard Gangsta Crips in Santa Monica.",
+      "time_period": null
     },
     {
       "source": "Venice 13",
       "target": "Lennox 13",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
-      "time_period": "unknown-present"
+      "context": "Lennox 13 is listed as an ally of Venice 13 in the infobox.",
+      "time_period": null
     },
     {
       "source": "Venice 13",
       "target": "PlayBoys Gangster Crips",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
-      "time_period": "unknown-present"
-    },
-    {
-      "source": "Venice 13",
-      "target": "Venice Shoreline Crips",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Listed as an ally in the infobox, despite historical rivalry; peace treaty formed.",
-      "time_period": "1994-present"
-    },
-    {
-      "source": "Culver City Boys 13",
-      "target": "Venice Shoreline Crips",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Culver City gang and Venice 13 set aside their rivalry to unite against Shoreline Crips.",
-      "time_period": "1990s"
+      "context": "PlayBoys Gangster Crips is listed as an ally of Venice 13 in the infobox.",
+      "time_period": null
     }
   ],
   "source_file": "Venice_13"

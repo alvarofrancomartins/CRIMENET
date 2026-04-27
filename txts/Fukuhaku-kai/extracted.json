@@ -3,7 +3,9 @@
     {
       "standard_name": "Fukuhaku-kai",
       "original_text_name": "Fukuhaku-kai",
-      "aliases": [],
+      "aliases": [
+        "福博会"
+      ],
       "type": "mafia",
       "context": "Yakuza group based in Fukuoka, Japan, with about 60 members.",
       "time_period": "1985-present"
@@ -45,7 +47,7 @@
       "original_text_name": "Yamaguchi-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Major yakuza syndicate based in Kobe, Japan, with conflicts with Fukuhaku-kai.",
+      "context": "Major yakuza syndicate based in Kobe, Japan, with affiliates in Kyushu.",
       "time_period": null
     },
     {
@@ -58,30 +60,6 @@
     }
   ],
   "edges": [
-    {
-      "source": "Fukuhaku-kai",
-      "target": "Kudo-kai",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Conflict over concessions in Nakasu red-light district.",
-      "time_period": null
-    },
-    {
-      "source": "Fukuhaku-kai",
-      "target": "Dojin-kai",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Conflict over attempts to enter Nakasu territory.",
-      "time_period": null
-    },
-    {
-      "source": "Fukuhaku-kai",
-      "target": "Yamaguchi-gumi",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Conflict involving firearms in 2004, and with four Yamaguchi affiliates over Nakasu.",
-      "time_period": "2004"
-    },
     {
       "source": "Kudo-kai",
       "target": "Yonsha-kai",
@@ -112,6 +90,30 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Yonsha-kai is an anti-Yamaguchi-gumi federation.",
+      "time_period": null
+    },
+    {
+      "source": "Fukuhaku-kai",
+      "target": "Yamaguchi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Fukuhaku-kai had a conflict with Yamaguchi-gumi involving firearms in 2004.",
+      "time_period": "2004"
+    },
+    {
+      "source": "Fukuhaku-kai",
+      "target": "Dojin-kai",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Fukuhaku-kai conflicted with Dojin-kai over territory in Nakasu.",
+      "time_period": null
+    },
+    {
+      "source": "Fukuhaku-kai",
+      "target": "Kudo-kai",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Fukuhaku-kai conflicted with Kudo-kai over territory in Nakasu.",
       "time_period": null
     }
   ],

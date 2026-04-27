@@ -4,16 +4,19 @@
       "standard_name": "LockBit",
       "original_text_name": "LockBit",
       "aliases": [
-        ".abcd",
         "LockBit 2.0",
         "LockBit 3.0",
         "LockBit 4.0",
         "LockBit Black",
+        "LockBit gang",
+        "LockBit hacker group",
+        "LockBit ransomware gang",
+        "LockBit ransomware group",
         "LockBit-NG-Dev",
         "Lockbit"
       ],
       "type": "other",
-      "context": "Ransomware-as-a-service group that develops ransomware and recruits affiliates to conduct attacks.",
+      "context": "Cybercriminal group offering ransomware-as-a-service (RaaS). Operates globally, targeting various sectors.",
       "time_period": "2019-present"
     },
     {
@@ -37,7 +40,7 @@
       "original_text_name": "Akira",
       "aliases": [],
       "type": "other",
-      "context": "Ransomware group that may have benefited from LockBit's disruption.",
+      "context": "Rival ransomware group that may have benefited from LockBit's disruption.",
       "time_period": null
     },
     {
@@ -45,7 +48,7 @@
       "original_text_name": "RansomHub",
       "aliases": [],
       "type": "other",
-      "context": "Ransomware group that may have benefited from LockBit's disruption.",
+      "context": "Rival ransomware group that may have benefited from LockBit's disruption.",
       "time_period": null
     }
   ],
@@ -55,32 +58,32 @@
       "target": "Maze",
       "relationship": "alliance",
       "detail": null,
-      "context": "LockBit cooperates with Maze as part of partnerships with other criminal groups.",
+      "context": "LockBit cooperates with Maze, as stated in the text.",
       "time_period": null
     },
     {
       "source": "Mora_001",
       "target": "LockBit",
-      "relationship": "other",
-      "detail": "used variant",
-      "context": "Mora_001 used a variant of LockBit 3.0 (LockBit Black) to create SuperBlack ransomware.",
-      "time_period": "2025"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mora_001 used a variant of LockBit 3.0 (LockBit Black) to create SuperBlack, suggesting operational link.",
+      "time_period": null
     },
     {
-      "source": "Akira",
-      "target": "LockBit",
+      "source": "LockBit",
+      "target": "Akira",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Akira may have benefited from LockBit's disruption, suggesting competition.",
-      "time_period": "2024"
+      "context": "Akira is a rival ransomware group that may have benefited from LockBit's disruption.",
+      "time_period": null
     },
     {
-      "source": "RansomHub",
-      "target": "LockBit",
+      "source": "LockBit",
+      "target": "RansomHub",
       "relationship": "rivalry",
       "detail": null,
-      "context": "RansomHub may have benefited from LockBit's disruption, suggesting competition.",
-      "time_period": "2024"
+      "context": "RansomHub is a rival ransomware group that may have benefited from LockBit's disruption.",
+      "time_period": null
     }
   ],
   "source_file": "LockBit"

@@ -15,7 +15,7 @@
       "original_text_name": "Krays",
       "aliases": [
         "Kray twins",
-        "Kray gang"
+        "Kray Firm"
       ],
       "type": "gang",
       "context": "Notorious East London gang led by the Kray twins, involved in organized crime and turf wars.",
@@ -34,7 +34,7 @@
       "original_text_name": "Quality Street Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Manchester-based criminal group, alleged member Dougie Flood owned Mr Smith's Club.",
+      "context": "Manchester-based criminal group; Dougie Flood was an alleged member.",
       "time_period": "1960s"
     },
     {
@@ -52,31 +52,39 @@
       "target": "Kray Firm",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Turf war and feud in the mid-to-late 1960s, culminating in shootings and killings.",
+      "context": "The Richardson Gang and the Kray twins were engaged in a turf war in the mid-to-late 1960s.",
       "time_period": "1965-1966"
     },
     {
-      "source": "Richardson Gang",
-      "target": "Watney Streeters",
-      "relationship": "other",
-      "detail": "member transfer",
-      "context": "George Cornell left the Watney Streeters and joined the Richardson Gang.",
-      "time_period": "1964"
-    },
-    {
-      "source": "Richardson Gang",
-      "target": "Quality Street Gang",
+      "source": "Watney Streeters",
+      "target": "Richardson Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Eddie Richardson and Frankie Fraser were asked to protect Mr Smith's Club, owned by Quality Street Gang member Dougie Flood.",
+      "context": "George Cornell, originally a member of the Watney Streeters, later allied himself with the Richardsons.",
+      "time_period": "1964-1966"
+    },
+    {
+      "source": "Watney Streeters",
+      "target": "Kray Firm",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "George Cornell was originally involved with the Krays before switching sides.",
+      "time_period": "early 1960s"
+    },
+    {
+      "source": "Quality Street Gang",
+      "target": "Richardson Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dougie Flood, an alleged member of the Quality Street Gang, asked Eddie Richardson and Frankie Fraser to protect Mr Smith's Club.",
       "time_period": "1966"
     },
     {
-      "source": "Richardson Gang",
-      "target": "Hayward Gang",
+      "source": "Hayward Gang",
+      "target": "Richardson Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Brawl at Mr Smith's Club between the Richardson Gang and the Hayward Gang led to shootings and arrests.",
+      "context": "Members of the Hayward Gang were involved in a brawl with the Richardson Gang at Mr Smith's Club.",
       "time_period": "1966"
     }
   ],

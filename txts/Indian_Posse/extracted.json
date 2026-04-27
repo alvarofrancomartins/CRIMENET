@@ -13,11 +13,9 @@
     {
       "standard_name": "Hells Angels",
       "original_text_name": "Hells Angels",
-      "aliases": [
-        "Hells Angels"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle gang; Indian Posse supports and facilitates criminal activities for them.",
+      "context": "Outlaw motorcycle gang. The Indian Posse supports and facilitates criminal activities for them.",
       "time_period": null
     },
     {
@@ -26,14 +24,14 @@
       "aliases": [],
       "type": "gang",
       "context": "Rival gang that fired a shotgun at an Indian Posse house in 1994, leading to retaliation.",
-      "time_period": null
+      "time_period": "1990s"
     },
     {
       "standard_name": "Manitoba Warriors",
       "original_text_name": "Manitoba Warriors",
       "aliases": [],
       "type": "gang",
-      "context": "Indigenous prison gang founded in 1993, later active on streets, rival of Indian Posse.",
+      "context": "Indigenous prison gang founded in 1993, active in Manitoba and Saskatchewan, rival of Indian Posse.",
       "time_period": "1993-present"
     },
     {
@@ -41,7 +39,15 @@
       "original_text_name": "Redd Alert",
       "aliases": [],
       "type": "gang",
-      "context": "Indigenous gang founded in Alberta prisons by First Nations prisoners who did not want to join Indian Posse or Manitoba Warriors.",
+      "context": "Indigenous prison gang founded in Alberta by First Nations prisoners who did not want to join Indian Posse or Manitoba Warriors.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Alberta Warriors",
+      "original_text_name": "Alberta Warriors",
+      "aliases": [],
+      "type": "gang",
+      "context": "Spin-off group of Manitoba Warriors, active in Alberta, more organized and tied to Hells Angels.",
       "time_period": "1990s-present"
     },
     {
@@ -81,7 +87,7 @@
       "original_text_name": "Cash Money Brothers",
       "aliases": [],
       "type": "gang",
-      "context": "Splinter gang from Indian Posse founded by Clarence 'Shrimpy' Williams after internal dispute.",
+      "context": "Splinter gang from Indian Posse founded by Clarence 'Shrimpy' Williams after a profit dispute.",
       "time_period": "2003-present"
     },
     {
@@ -89,7 +95,7 @@
       "original_text_name": "MOB Squad",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to Indian Posse, involved in drug trade conflicts.",
+      "context": "Rival gang to Indian Posse, involved in drug trade in Manitoba.",
       "time_period": "2000s-present"
     },
     {
@@ -98,7 +104,7 @@
       "aliases": [],
       "type": "gang",
       "context": "First Nations gang in Winnipeg, rival of Indian Posse.",
-      "time_period": "1990s-present"
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Mad Cowz",
@@ -113,16 +119,8 @@
       "original_text_name": "Terror Squad",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to Indian Posse in Saskatoon, involved in shooting incident.",
+      "context": "Rival gang to Indian Posse in Saskatoon, involved in a shooting in 2019.",
       "time_period": "2000s-present"
-    },
-    {
-      "standard_name": "Alberta Warriors",
-      "original_text_name": "Alberta Warriors",
-      "aliases": [],
-      "type": "gang",
-      "context": "Spin-off group of Manitoba Warriors, active in Alberta prisons and streets.",
-      "time_period": "1990s-present"
     }
   ],
   "edges": [
@@ -131,7 +129,7 @@
       "target": "Hells Angels",
       "relationship": "alliance",
       "detail": null,
-      "context": "Indian Posse supports and facilitates criminal activities for Hells Angels.",
+      "context": "Indian Posse supports and facilitates criminal activities for the Hells Angels.",
       "time_period": null
     },
     {
@@ -147,15 +145,15 @@
       "target": "Manitoba Warriors",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rivalry since at least 1996, with prison riots and ongoing conflict.",
-      "time_period": "1996-present"
+      "context": "Rival gangs involved in violent feud, including a major prison riot in 1996.",
+      "time_period": "1990s-present"
     },
     {
       "source": "Indian Posse",
       "target": "Hells Angels",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Indian Posse rejected Hells Angels' offer to be subordinates, leading to rivalry.",
+      "context": "Indian Posse rejected Hells Angels' offer to become exclusive wholesalers, leading to rivalry.",
       "time_period": "2000s-present"
     },
     {
@@ -164,6 +162,14 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Manitoba Warriors purchase drugs from Hells Angels.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Alberta Warriors",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Alberta Warriors have stronger ties to Hells Angels.",
       "time_period": "1990s-present"
     },
     {
@@ -179,7 +185,7 @@
       "target": "West End Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Danny Wolfe befriended West End Gang boss Gerry Matticks in prison, leading to profitable drug import alliance.",
+      "context": "Danny Wolfe befriended West End Gang boss Gerry Matticks in prison, leading to profitable drug alliance.",
       "time_period": "2003-2004"
     },
     {
@@ -191,27 +197,43 @@
       "time_period": "2002"
     },
     {
+      "source": "Zig Zag Crew",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zig Zag Crew is a puppet gang for Hells Angels.",
+      "time_period": "1990s-present"
+    },
+    {
       "source": "Indian Posse",
       "target": "White Boy Posse",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Violent rivalry; White Boy Posse is a puppet gang for Hells Angels in Alberta.",
+      "context": "Indian Posse has a violent rivalry with White Boy Posse, a Hells Angels puppet gang in Alberta.",
       "time_period": "2000s-present"
     },
     {
-      "source": "Indian Posse",
-      "target": "Indian Posse Girls",
-      "relationship": "other",
-      "detail": "subsidiary",
-      "context": "Indian Posse Girls is a female auxiliary of Indian Posse, controlling prostitution.",
+      "source": "White Boy Posse",
+      "target": "Hells Angels",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "White Boy Posse serves as a puppet gang for Hells Angels in Alberta.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Indian Posse Girls",
+      "target": "Indian Posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Indian Posse Girls is a female auxiliary of Indian Posse.",
       "time_period": "2000s-present"
     },
     {
-      "source": "Indian Posse",
-      "target": "Cash Money Brothers",
+      "source": "Cash Money Brothers",
+      "target": "Indian Posse",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Cash Money Brothers splintered from Indian Posse after internal dispute over profits.",
+      "context": "Cash Money Brothers splintered from Indian Posse after a profit dispute.",
       "time_period": "2003-present"
     },
     {
@@ -219,24 +241,24 @@
       "target": "MOB Squad",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Indian Posse member killed a MOB Squad member for trying to recruit their drug dealers.",
-      "time_period": "2012"
+      "context": "Indian Posse member killed a MOB Squad member in 2012.",
+      "time_period": "2000s-present"
     },
     {
       "source": "Indian Posse",
       "target": "Native Syndicate",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rival First Nations gangs in Winnipeg, blamed for high murder rate.",
-      "time_period": "2010s-present"
+      "context": "Rival First Nations gangs in Winnipeg.",
+      "time_period": "2000s-present"
     },
     {
       "source": "Indian Posse",
       "target": "Mad Cowz",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rival gangs in Winnipeg, involved in gang violence.",
-      "time_period": "2010s-present"
+      "context": "Rival gangs in Winnipeg involved in gang violence.",
+      "time_period": "2000s-present"
     },
     {
       "source": "Indian Posse",
@@ -247,19 +269,11 @@
       "time_period": "2019"
     },
     {
-      "source": "Manitoba Warriors",
-      "target": "Alberta Warriors",
-      "relationship": "other",
-      "detail": "spin-off",
-      "context": "Alberta Warriors are a spin-off group of Manitoba Warriors.",
-      "time_period": "1990s-present"
-    },
-    {
       "source": "Indian Posse",
       "target": "Redd Alert",
       "relationship": "other",
       "detail": "mixed",
-      "context": "Some factions of Redd Alert are allies in BC and Northern Territories, but overall Redd Alert is a rival.",
+      "context": "Some factions of Redd Alert are allies, but overall Redd Alert is listed as a rival.",
       "time_period": null
     }
   ],

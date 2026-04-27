@@ -10,15 +10,15 @@
         "Hamzy Family"
       ],
       "type": "gang",
-      "context": "Middle Eastern criminal organisation based in South-Western Sydney, Australia, involved in drug trafficking and violence.",
+      "context": "Middle Eastern criminal gang based in Sydney, Australia, involved in drug trafficking and violence.",
       "time_period": "2007-present"
     },
     {
       "standard_name": "Alameddine crime network",
       "original_text_name": "Alameddine crime network",
       "aliases": [],
-      "type": "gang",
-      "context": "Sydney-based crime network, rival of Brothers for Life in the 2020-2022 conflict.",
+      "type": "other",
+      "context": "Sydney-based crime network, rival of Brothers for Life in 2020-2022 conflict.",
       "time_period": null
     },
     {
@@ -46,35 +46,35 @@
         "The Last Hour"
       ],
       "type": "gang",
-      "context": "Assyrian street-gang absorbed by B4L after MBM was dismantled.",
+      "context": "Assyrian street gang absorbed by B4L after MBM dismantled.",
       "time_period": null
     },
     {
-      "standard_name": "Brothers for Life Bankstown Chapter",
+      "standard_name": "Brothers for Life Bankstown chapter",
       "original_text_name": "Bankstown chapter",
       "aliases": [
         "Bankstown faction"
       ],
       "type": "faction",
-      "context": "Faction of Brothers for Life based in Bankstown, Sydney, led by Mohammed Hamzy.",
-      "time_period": "2007-present"
+      "context": "Faction of B4L, primarily Lebanese Australian, involved in internal war with Blacktown chapter.",
+      "time_period": "2013"
     },
     {
-      "standard_name": "Brothers for Life Blacktown Chapter",
+      "standard_name": "Brothers for Life Blacktown chapter",
       "original_text_name": "Blacktown chapter",
       "aliases": [
         "Blacktown faction"
       ],
       "type": "faction",
-      "context": "Faction of Brothers for Life based in Blacktown, Sydney, led by Farhad Quami.",
-      "time_period": "2007-present"
+      "context": "Faction of B4L, primarily Afghan Australian, led by Farhad Quami, rival of Bankstown chapter.",
+      "time_period": "2013"
     },
     {
       "standard_name": "Brothers for Life Lebanese Chapter",
       "original_text_name": "Lebanese chapter",
       "aliases": [],
-      "type": "faction",
-      "context": "Faction of Brothers for Life aligned with the Blacktown chapter, involved in the Chokolatte Cafe shooting.",
+      "type": "gang",
+      "context": "A chapter of Brothers for Life aligned with Lebanese members, involved in the 2013 Chokolatte Cafe shooting.",
       "time_period": "2013"
     },
     {
@@ -82,8 +82,8 @@
       "original_text_name": "Nomads",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club; member Sina Merzaei was shot in 2013.",
-      "time_period": null
+      "context": "An outlaw motorcycle club; member Sina Merzaei was shot in 2013.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "Bandidos Motorcycle Club",
@@ -92,75 +92,31 @@
         "Bandidos"
       ],
       "type": "motorcycle_club",
-      "context": "International outlaw motorcycle club; Brisbane leader Brett Pechey was seen with B4L-branded items in 2015.",
-      "time_period": null
+      "context": "International outlaw motorcycle club; leader Brett Pechey was seen with B4L-branded items in 2015.",
+      "time_period": "1966-present"
     },
     {
-      "standard_name": "MBM gang",
-      "original_text_name": "MBM gang",
+      "standard_name": "MBM",
+      "original_text_name": "MBM",
       "aliases": [],
       "type": "gang",
-      "context": "Sydney gang that was absorbed by Brothers for Life; previously aligned with Bandidos.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Brothers for Life Bankstown faction",
-      "original_text_name": "B4L Bankstown faction",
-      "aliases": [],
-      "type": "faction",
-      "context": "Lebanese-Australian faction of Brothers for Life, active in Bankstown, Sydney.",
-      "time_period": "2008-2013"
-    },
-    {
-      "standard_name": "Brothers for Life Blacktown faction",
-      "original_text_name": "B4L Blacktown faction",
-      "aliases": [],
-      "type": "faction",
-      "context": "Afghan-Australian faction of Brothers for Life, active in Blacktown, Sydney.",
-      "time_period": "2012-2014"
-    },
-    {
-      "standard_name": "Brothers for Life Illawarra faction",
-      "original_text_name": "B4L Illawarra faction",
-      "aliases": [],
-      "type": "faction",
-      "context": "Indigenous Australian faction of Brothers for Life, based in Illawarra region, NSW.",
-      "time_period": "2017-2018"
-    },
-    {
-      "standard_name": "Brothers for Life Melbourne faction",
-      "original_text_name": "B4L Melbourne faction",
-      "aliases": [],
-      "type": "faction",
-      "context": "Melbourne-based faction of Brothers for Life, led by Sam Abdulrahim.",
-      "time_period": "2024-present"
-    },
-    {
-      "standard_name": "Brothers for Life Queensland faction",
-      "original_text_name": "B4L Queensland faction",
-      "aliases": [],
-      "type": "faction",
-      "context": "Unconfirmed Queensland-based faction of Brothers for Life.",
-      "time_period": "2015"
+      "context": "Sydney-based gang that was absorbed by Brothers for Life; previously aligned with Bandidos.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "Finks Motorcycle Club",
       "original_text_name": "Finks Motorcycle Club",
-      "aliases": [
-        "Finks"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club with an Illawarra chapter, rival of B4L Illawarra faction.",
+      "context": "Outlaw motorcycle club with an Illawarra chapter led by Troy Forniciari.",
       "time_period": null
     },
     {
       "standard_name": "Mongols Motorcycle Club",
       "original_text_name": "Mongols Motorcycle Club",
-      "aliases": [
-        "Mongols"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club; former member Sam Abdulrahim joined B4L Melbourne faction.",
+      "context": "Outlaw motorcycle club; former member Sam Abdulrahim joined B4L.",
       "time_period": null
     }
   ],
@@ -191,122 +147,74 @@
     },
     {
       "source": "Brothers for Life",
-      "target": "Muslim Brotherhood Movement",
-      "relationship": "other",
-      "detail": "absorption",
-      "context": "B4L absorbed remnants of MBM after it was dismantled in 2011.",
-      "time_period": "2011"
-    },
-    {
-      "source": "Brothers for Life",
       "target": "DLASTHR",
-      "relationship": "other",
-      "detail": "absorption",
-      "context": "B4L absorbed DLASTHR after MBM was dismantled.",
-      "time_period": "2011"
-    },
-    {
-      "source": "Brothers for Life Bankstown Chapter",
-      "target": "Brothers for Life Blacktown Chapter",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Internal gang war between Bankstown and Blacktown chapters from 2013 to 2014, involving multiple shootings and murders.",
-      "time_period": "2013-2014"
-    },
-    {
-      "source": "Brothers for Life Blacktown Chapter",
-      "target": "Brothers for Life Lebanese Chapter",
       "relationship": "alliance",
       "detail": null,
-      "context": "Lebanese chapter aligned with Blacktown chapter; members were shot at Chokolatte Cafe in 2013.",
+      "context": "B4L absorbed remnants of DLASTHR after MBM dismantled.",
+      "time_period": "2011"
+    },
+    {
+      "source": "Brothers for Life Bankstown chapter",
+      "target": "Brothers for Life Blacktown chapter",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Internal dispute between Bankstown and Blacktown chapters led to a violent gang war in 2013.",
       "time_period": "2013"
     },
     {
-      "source": "Brothers for Life",
-      "target": "Bandidos Motorcycle Club",
-      "relationship": "other",
-      "detail": "possible alliance",
-      "context": "Bandidos leader Brett Pechey was seen with B4L-branded items, and Bandidos had previously aligned with MBM gang which was absorbed by B4L.",
-      "time_period": "2015"
+      "source": "Brothers for Life Bankstown Chapter",
+      "target": "Brothers for Life",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Bankstown chapter is a sub-group of Brothers for Life.",
+      "time_period": "2007-present"
     },
     {
-      "source": "MBM gang",
+      "source": "Brothers for Life Blacktown Chapter",
+      "target": "Brothers for Life",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Blacktown chapter is a sub-group of Brothers for Life.",
+      "time_period": "2007-present"
+    },
+    {
+      "source": "Brothers for Life Lebanese Chapter",
+      "target": "Brothers for Life",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Lebanese chapter is a sub-group of Brothers for Life.",
+      "time_period": "2013"
+    },
+    {
+      "source": "MBM",
+      "target": "Brothers for Life",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MBM was absorbed by Brothers for Life.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "MBM",
       "target": "Bandidos Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "MBM gang was previously aligned with Bandidos before being absorbed by B4L.",
-      "time_period": null
+      "context": "MBM was previously aligned with the Bandidos.",
+      "time_period": "unknown"
     },
     {
       "source": "Brothers for Life",
-      "target": "MBM gang",
-      "relationship": "other",
-      "detail": "absorbed",
-      "context": "MBM gang was absorbed by Brothers for Life.",
-      "time_period": null
-    },
-    {
-      "source": "Brothers for Life Bankstown faction",
-      "target": "Brothers for Life",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Bankstown faction is a sub-group of Brothers for Life.",
-      "time_period": "2008-2013"
-    },
-    {
-      "source": "Brothers for Life Blacktown faction",
-      "target": "Brothers for Life",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Blacktown faction is a sub-group of Brothers for Life.",
-      "time_period": "2012-2014"
-    },
-    {
-      "source": "Brothers for Life Illawarra faction",
-      "target": "Brothers for Life",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Illawarra faction is a sub-group of Brothers for Life.",
-      "time_period": "2017-2018"
-    },
-    {
-      "source": "Brothers for Life Melbourne faction",
-      "target": "Brothers for Life",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Melbourne faction is a sub-group of Brothers for Life.",
-      "time_period": "2024-present"
-    },
-    {
-      "source": "Brothers for Life Queensland faction",
-      "target": "Brothers for Life",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Queensland faction is a sub-group of Brothers for Life.",
-      "time_period": "2015"
-    },
-    {
-      "source": "Brothers for Life Illawarra faction",
       "target": "Finks Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "B4L Illawarra faction plotted to kill Finks Illawarra leader Troy Forniciari.",
+      "context": "B4L Illawarra faction plotted to assassinate Finks Illawarra leader Troy Forniciari.",
       "time_period": "2017-2018"
     },
     {
-      "source": "Brothers for Life Melbourne faction",
-      "target": "Alameddine crime network",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Tensions between Melbourne B4L and Alameddine network ongoing as of 2024.",
-      "time_period": "2024-present"
-    },
-    {
-      "source": "Brothers for Life Melbourne faction",
+      "source": "Brothers for Life",
       "target": "Mongols Motorcycle Club",
       "relationship": "other",
-      "detail": "former member",
-      "context": "B4L Melbourne leader Sam Abdulrahim was a former Mongols bikie.",
+      "detail": "former member joined",
+      "context": "Former Mongols member Sam Abdulrahim became leader of B4L Melbourne faction.",
       "time_period": "2024"
     }
   ],

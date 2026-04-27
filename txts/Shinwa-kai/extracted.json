@@ -70,18 +70,10 @@
   "edges": [
     {
       "source": "Shinwa-kai",
-      "target": "Yamaguchi-gumi",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Shinwa-kai is part of an anti-Yamaguchi federation, indicating rivalry.",
-      "time_period": "1996-present"
-    },
-    {
-      "source": "Shinwa-kai",
       "target": "Gosha-kai",
       "relationship": "alliance",
       "detail": null,
-      "context": "Shinwa-kai has been a member of the Gosha-kai since 1996.",
+      "context": "Shinwa-kai has been a member of Gosha-kai since 1996.",
       "time_period": "1996-present"
     },
     {
@@ -89,7 +81,7 @@
       "target": "Gosha-kai",
       "relationship": "alliance",
       "detail": null,
-      "context": "Kyosei-kai is a member of the Gosha-kai.",
+      "context": "Kyosei-kai is a member of Gosha-kai.",
       "time_period": null
     },
     {
@@ -97,7 +89,7 @@
       "target": "Gosha-kai",
       "relationship": "alliance",
       "detail": null,
-      "context": "Kyodo-kai is a member of the Gosha-kai.",
+      "context": "Kyodo-kai is a member of Gosha-kai.",
       "time_period": null
     },
     {
@@ -105,7 +97,7 @@
       "target": "Gosha-kai",
       "relationship": "alliance",
       "detail": null,
-      "context": "Goda-ikka is a member of the Gosha-kai.",
+      "context": "Goda-ikka is a member of Gosha-kai.",
       "time_period": null
     },
     {
@@ -113,7 +105,15 @@
       "target": "Gosha-kai",
       "relationship": "alliance",
       "detail": null,
-      "context": "Asano-gumi is a member of the Gosha-kai.",
+      "context": "Asano-gumi is a member of Gosha-kai.",
+      "time_period": null
+    },
+    {
+      "source": "Gosha-kai",
+      "target": "Yamaguchi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gosha-kai is an anti-Yamaguchi federation.",
       "time_period": null
     }
   ],

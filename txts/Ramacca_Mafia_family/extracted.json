@@ -20,7 +20,7 @@
       "standard_name": "Corleonesi",
       "original_text_name": "Corleonesi",
       "aliases": [],
-      "type": "clan",
+      "type": "mafia",
       "context": "Powerful Mafia clan from Corleone, Sicily, led by Luciano Leggio, Toto Riina, and Bernardo Provenzano.",
       "time_period": "1950s-2000s"
     },
@@ -44,7 +44,7 @@
       "standard_name": "Santapaola-Ercolano network",
       "original_text_name": "Santapaola-Ercolano network",
       "aliases": [],
-      "type": "faction",
+      "type": "mafia",
       "context": "Mafia network within the Catania Mafia family, influential in Ramacca.",
       "time_period": "unknown"
     }
@@ -63,7 +63,7 @@
       "target": "Corleonesi",
       "relationship": "alliance",
       "detail": null,
-      "context": "Ramacca head Calogero Conti maintained ties with Corleonesi leaders and facilitated Leggio's refuge.",
+      "context": "Ramacca head Calogero Conti maintained ties with Corleonesi leaders Leggio, Riina, and Provenzano.",
       "time_period": "1950s-2000s"
     },
     {
@@ -71,7 +71,7 @@
       "target": "Caltagirone Mafia family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Conti was godfather to Francesco La Rocca, head of Caltagirone family.",
+      "context": "Ramacca head Conti was godfather to Francesco La Rocca, later head of Caltagirone family.",
       "time_period": "unknown"
     },
     {
@@ -80,23 +80,15 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Catania family member Vincenzo Aiello assumed control of Calatino area, designating Pasquale Oliva in Ramacca.",
-      "time_period": "early 2000s"
+      "time_period": "early 2000s-present"
     },
     {
-      "source": "Santapaola-Ercolano network",
-      "target": "Catania Mafia family",
+      "source": "Ramacca Mafia family",
+      "target": "Santapaola-Ercolano network",
       "relationship": "alliance",
       "detail": null,
-      "context": "Santapaola-Ercolano is a network within the Catania Mafia family.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "Santapaola-Ercolano network",
-      "target": "Ramacca Mafia family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The network remained influential in Ramacca according to 2025 ROS operation.",
-      "time_period": "unknown"
+      "context": "2025 ROS operation revealed continued influence of Santapaola-Ercolano network in Ramacca.",
+      "time_period": "2025"
     }
   ],
   "source_file": "Ramacca_Mafia_family"

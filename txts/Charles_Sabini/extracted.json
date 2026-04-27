@@ -12,12 +12,12 @@
     },
     {
       "standard_name": "Birmingham Boys",
-      "original_text_name": "Birmingham Boys",
+      "original_text_name": "Billy Kimber's Birmingham Boys",
       "aliases": [
-        "Billy Kimber's Birmingham Boys"
+        "Birmingham Boys"
       ],
       "type": "gang",
-      "context": "Rival racecourse gang from Birmingham, competed with Sabinis for protection rackets.",
+      "context": "Rival racecourse gang from Birmingham, challenged Sabini's protection rackets.",
       "time_period": "early 1900s-1920s"
     },
     {
@@ -25,7 +25,7 @@
       "original_text_name": "Cortesi brothers",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang from Saffron Hill, challenged Sabini's power.",
+      "context": "Rival gang from Saffron Hill, challenged Sabini's businesses.",
       "time_period": "1920s-1930s"
     },
     {
@@ -39,11 +39,9 @@
     {
       "standard_name": "White family",
       "original_text_name": "White family",
-      "aliases": [
-        "Alf White"
-      ],
+      "aliases": [],
       "type": "gang",
-      "context": "Took over Sabini's empire after WWII.",
+      "context": "Led by Alf White, took over Sabini's empire after WWII.",
       "time_period": "1940s"
     },
     {
@@ -51,7 +49,7 @@
       "original_text_name": "Jack Spot",
       "aliases": [],
       "type": "gang",
-      "context": "Post-war gangster who took over Sabini's empire.",
+      "context": "Took over Sabini's empire after the White family.",
       "time_period": "1940s-1950s"
     },
     {
@@ -59,7 +57,7 @@
       "original_text_name": "Billy Hill",
       "aliases": [],
       "type": "gang",
-      "context": "Post-war gangster who took over Sabini's empire.",
+      "context": "Took over Sabini's empire after Jack Spot.",
       "time_period": "1940s-1950s"
     }
   ],
@@ -69,7 +67,7 @@
       "target": "Birmingham Boys",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Violent conflict over racecourse protection rackets; Birmingham Boys forced to vacate after Epsom Road Battle.",
+      "context": "Violent conflict over racecourse protection rackets; Birmingham Boys forced out after Epsom Road Battle.",
       "time_period": "1920s"
     },
     {
@@ -77,7 +75,7 @@
       "target": "Cortesi brothers",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Sabini fended off challenges from the Cortesi brothers.",
+      "context": "Cortesi brothers challenged Sabini's businesses but were fended off.",
       "time_period": "1920s-1930s"
     },
     {
@@ -91,26 +89,26 @@
     {
       "source": "White family",
       "target": "Sabinis",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "White family took over Sabini's empire after WWII.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "White family took over Sabini's empire after his internment.",
       "time_period": "1940s"
     },
     {
       "source": "Jack Spot",
-      "target": "Sabinis",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "Jack Spot took over Sabini's empire after WWII.",
-      "time_period": "1940s-1950s"
+      "target": "White family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Jack Spot took over Sabini's empire after the White family.",
+      "time_period": "1940s"
     },
     {
       "source": "Billy Hill",
-      "target": "Sabinis",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "Billy Hill took over Sabini's empire after WWII.",
-      "time_period": "1940s-1950s"
+      "target": "Jack Spot",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Billy Hill took over Sabini's empire after Jack Spot.",
+      "time_period": "1940s"
     }
   ],
   "source_file": "Charles_Sabini"

@@ -9,7 +9,7 @@
         "Joe Fong Boys"
       ],
       "type": "gang",
-      "context": "Chinese American youth gang active in San Francisco's Chinatown, involved in drug trafficking, extortion, murder.",
+      "context": "Chinese American youth gang active in San Francisco's Chinatown from 1969 to 1977.",
       "time_period": "1969-1977"
     },
     {
@@ -17,18 +17,16 @@
       "original_text_name": "Wah Ching",
       "aliases": [],
       "type": "gang",
-      "context": "Youth gang formed in 1964 to protect new Chinese immigrants; later absorbed into Hop Sing Tong.",
+      "context": "Youth gang formed in 1964 in San Francisco's Chinatown to protect new immigrants.",
       "time_period": "1964-1977"
     },
     {
       "standard_name": "Hop Sing Tong",
       "original_text_name": "Hop Sing Tong",
-      "aliases": [
-        "Hop Sing"
-      ],
+      "aliases": [],
       "type": "other",
-      "context": "Traditional Chinatown organization that absorbed the Wah Ching as its youth wing.",
-      "time_period": "pre-1968-present"
+      "context": "Traditional Chinese tong that absorbed the Wah Ching around 1968.",
+      "time_period": "1960s-1970s"
     },
     {
       "standard_name": "Yau Lai",
@@ -38,7 +36,7 @@
         "Yau Lay"
       ],
       "type": "gang",
-      "context": "Splinter group from Wah Ching formed in 1969 by members unhappy with merger into Hop Sing Tong.",
+      "context": "Splinter group from Wah Ching formed in 1969, meaning 'good fortune'.",
       "time_period": "1969-1971"
     },
     {
@@ -46,8 +44,8 @@
       "original_text_name": "Suey Sing Tong",
       "aliases": [],
       "type": "other",
-      "context": "Traditional Chinatown organization rival to Hop Sing Tong; involved in conflict with Wah Ching.",
-      "time_period": "pre-1970-present"
+      "context": "Traditional Chinese tong rival to Hop Sing Tong, involved in conflict with Wah Ching.",
+      "time_period": "1960s-1970s"
     }
   ],
   "edges": [
@@ -56,8 +54,8 @@
       "target": "Wah Ching",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Joe Boys and Wah Ching were engaged in a violent war from 1973, culminating in the Golden Dragon Massacre.",
-      "time_period": "1973-1977"
+      "context": "The Joe Boys and Wah Ching were engaged in a violent war from 1969 to 1977, culminating in the Golden Dragon Massacre.",
+      "time_period": "1969-1977"
     },
     {
       "source": "Joe Boys",
@@ -78,34 +76,26 @@
     {
       "source": "Wah Ching",
       "target": "Hop Sing Tong",
-      "relationship": "other",
-      "detail": "absorbed into",
+      "relationship": "alliance",
+      "detail": null,
       "context": "The Wah Ching were absorbed into the Hop Sing Tong around 1968.",
       "time_period": "1968"
     },
     {
       "source": "Yau Lai",
       "target": "Wah Ching",
-      "relationship": "other",
-      "detail": "splintered from",
-      "context": "The Yau Lai split from the Wah Ching in 1969 due to dissatisfaction with the merger into Hop Sing Tong.",
-      "time_period": "1969"
-    },
-    {
-      "source": "Joe Boys",
-      "target": "Yau Lai",
-      "relationship": "other",
-      "detail": "splintered from",
-      "context": "Joe Fong's group splintered from the Yau Lai in early 1971 and later re-formed as the Joe Boys.",
-      "time_period": "1971"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Yau Lai split from the Wah Ching in 1969, but later re-absorbed Joe Fong's splinter group.",
+      "time_period": "1969-1971"
     },
     {
       "source": "Wah Ching",
       "target": "Suey Sing Tong",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Suey Sing Tong fought with the Wah Ching, leading to the killing of Joe Fong's brother and subsequent retaliation.",
-      "time_period": "1970"
+      "context": "The Suey Sing Tong extended their fight to the Wah Ching, leading to violence and a peace settlement in 1970.",
+      "time_period": "1969-1970"
     }
   ],
   "source_file": "Chung_Ching_Yee"

@@ -3,41 +3,33 @@
     {
       "standard_name": "Rosenzweig Gang",
       "original_text_name": "Rosenzweig's organization",
-      "aliases": [
-        "Rosenzweig Gang"
-      ],
+      "aliases": [],
       "type": "gang",
-      "context": "New York City labor slugging gang, controlled strikebreaking on Lower East Side.",
+      "context": "Criminal gang controlling labor slugging and strikebreaking in New York's Lower East Side in the early 1900s.",
       "time_period": "1907-1915"
     },
     {
       "standard_name": "Fein Gang",
       "original_text_name": "Benny Fein",
-      "aliases": [
-        "Dopey Benny Fein's gang"
-      ],
+      "aliases": [],
       "type": "gang",
-      "context": "New York City labor slugging gang, allied with Rosenzweig during Labor Slugger Wars.",
-      "time_period": "1910s"
+      "context": "Labor slugging gang allied with Rosenzweig during the Labor Slugger Wars.",
+      "time_period": "1914-1917"
     },
     {
       "standard_name": "Paul Gang",
       "original_text_name": "Philip \"Pinchey\" Paul",
-      "aliases": [
-        "Pinchey Paul's gang"
-      ],
+      "aliases": [],
       "type": "gang",
       "context": "Rival labor slugging gang that warred with Rosenzweig in 1913-1914.",
-      "time_period": "1910s"
+      "time_period": "1913-1914"
     },
     {
       "standard_name": "Gordon Gang",
       "original_text_name": "Waxey Gordon",
-      "aliases": [
-        "Waxey Gordon's gang"
-      ],
+      "aliases": [],
       "type": "gang",
-      "context": "Former lieutenant of Rosenzweig who warned him not to reform his gang.",
+      "context": "Gang led by ex-lieutenant of Rosenzweig, who warned Rosenzweig against reforming his gang.",
       "time_period": "1920s"
     }
   ],
@@ -55,16 +47,16 @@
       "target": "Paul Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Philip Paul started a war with Rosenzweig in 1913, ending with Paul's death in 1914.",
+      "context": "Philip Paul began a war with Rosenzweig in 1913, ending with Paul's death in 1914.",
       "time_period": "1913-1914"
     },
     {
-      "source": "Rosenzweig Gang",
-      "target": "Gordon Gang",
+      "source": "Gordon Gang",
+      "target": "Rosenzweig Gang",
       "relationship": "other",
-      "detail": "former lieutenant",
-      "context": "Waxey Gordon was a former lieutenant of Rosenzweig who warned him against reforming his gang.",
-      "time_period": "1925"
+      "detail": "successor",
+      "context": "Waxey Gordon was an ex-lieutenant of Rosenzweig and later led his own gang.",
+      "time_period": "1920s"
     }
   ],
   "source_file": "Joseph_Rosenzweig"

@@ -6,8 +6,8 @@
       "aliases": [
         "The Sweeper Truck"
       ],
-      "type": "gang",
-      "context": "Criminal gang based in Tabasco, Mexico, involved in drug trafficking, extortion, and murder.",
+      "type": "cartel",
+      "context": "Criminal gang based in Tabasco, Mexico, involved in drug trafficking, money laundering, extortion, murder, kidnapping, arms trafficking, and illegal fuel extraction.",
       "time_period": "2008-present"
     },
     {
@@ -17,8 +17,8 @@
         "Beltrán Leyva cartel"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel that operated in Acapulco and split after leader Arturo Beltrán Leyva was killed.",
-      "time_period": "2000s-2010s"
+      "context": "Mexican drug cartel that operated in Acapulco; split after leader Arturo Beltrán Leyva was killed in 2009.",
+      "time_period": "1990s-2010s"
     },
     {
       "standard_name": "Independent Cartel of Acapulco",
@@ -33,7 +33,7 @@
       "original_text_name": "Sinaloa Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Major Mexican drug cartel with links to La Barredora.",
+      "context": "Mexican drug cartel; La Barredora has links with them.",
       "time_period": "1980s-present"
     },
     {
@@ -41,7 +41,7 @@
       "original_text_name": "Los Talibanes",
       "aliases": [],
       "type": "faction",
-      "context": "Faction of Los Zetas in Central Mexico, allied with La Barredora.",
+      "context": "Faction of Los Zetas in Central Mexico; allied with La Barredora.",
       "time_period": null
     }
   ],
@@ -49,18 +49,10 @@
     {
       "source": "La Barredora",
       "target": "Beltrán-Leyva Cartel",
-      "relationship": "other",
-      "detail": "split-off",
-      "context": "La Barredora formed as a split-off group of the Beltrán-Leyva Cartel.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Barredora split off from the Beltrán-Leyva Cartel.",
       "time_period": "2008"
-    },
-    {
-      "source": "Independent Cartel of Acapulco",
-      "target": "Beltrán-Leyva Cartel",
-      "relationship": "other",
-      "detail": "split-off",
-      "context": "Independent Cartel of Acapulco broke off from the Beltrán-Leyva Cartel after internal conflict.",
-      "time_period": "2010"
     },
     {
       "source": "La Barredora",
@@ -83,8 +75,16 @@
       "target": "Los Talibanes",
       "relationship": "alliance",
       "detail": null,
-      "context": "La Barredora is allied with Los Talibanes, a faction of Los Zetas.",
+      "context": "Los Talibanes are allies of La Barredora.",
       "time_period": null
+    },
+    {
+      "source": "Independent Cartel of Acapulco",
+      "target": "Beltrán-Leyva Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Independent Cartel of Acapulco is an offshoot of the Beltrán-Leyva Cartel.",
+      "time_period": "2010"
     }
   ],
   "source_file": "La_Barredora"

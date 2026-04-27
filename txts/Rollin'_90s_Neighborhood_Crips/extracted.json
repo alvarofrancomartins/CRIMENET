@@ -17,7 +17,7 @@
       "original_text_name": "Crips",
       "aliases": [],
       "type": "gang",
-      "context": "A larger gang alliance based in Los Angeles, of which Rollin' 90s is a set.",
+      "context": "A larger gang alliance of which the Rollin' 90s are a set.",
       "time_period": "1969-present"
     },
     {
@@ -28,7 +28,7 @@
         "Rollin's 60 Crips"
       ],
       "type": "gang",
-      "context": "A Crips set that the Rollin' 90s branched from or allied with.",
+      "context": "A set of the Crips, from which the Rollin' 90s may have branched off, and with which they are allied.",
       "time_period": "1970s-present"
     },
     {
@@ -36,7 +36,7 @@
       "original_text_name": "Rollin' 40s Crips",
       "aliases": [],
       "type": "gang",
-      "context": "Another Crips set that joined the alliance with Rollin' 60s and Rollin' 90s.",
+      "context": "Another set of the Crips that joined the alliance with Rollin' 60s and Rollin' 90s.",
       "time_period": "1970s-present"
     },
     {
@@ -54,7 +54,7 @@
       "original_text_name": "East Nashville Crips",
       "aliases": [],
       "type": "gang",
-      "context": "A Nashville set of the Rollin' 90s Crips, involved in drug trafficking and murder.",
+      "context": "A Nashville set of the Rollin' 90s Crips, founded by Jamal Shakir.",
       "time_period": "mid-1990s-present"
     },
     {
@@ -62,8 +62,8 @@
       "original_text_name": "Crenshaw Mafia Gangster Bloods",
       "aliases": [],
       "type": "gang",
-      "context": "A Bloods set listed as a rival in the infobox.",
-      "time_period": null
+      "context": "A rival Bloods set to the Rollin' 90s.",
+      "time_period": "1970s-present"
     }
   ],
   "edges": [
@@ -72,7 +72,7 @@
       "target": "Crips",
       "relationship": "alliance",
       "detail": null,
-      "context": "Rollin' 90s is a set of the larger Crips gang alliance.",
+      "context": "The Rollin' 90s are a set of the larger Crips gang alliance.",
       "time_period": "1970s-present"
     },
     {
@@ -80,15 +80,15 @@
       "target": "Rollin' 60s Neighborhood Crips",
       "relationship": "alliance",
       "detail": null,
-      "context": "They formed an alliance in 1983 and are allies.",
+      "context": "The Rollin' 90s may have branched off from the Rollin' 60s, and they are allies.",
       "time_period": "1983-present"
     },
     {
-      "source": "Rollin' 90s Neighborhood Crips",
-      "target": "Rollin' 40s Neighborhood Crips",
+      "source": "Rollin' 40s Neighborhood Crips",
+      "target": "Rollin' 60s Neighborhood Crips",
       "relationship": "alliance",
       "detail": null,
-      "context": "Rollin' 40s joined the alliance with Rollin' 60s and Rollin' 90s.",
+      "context": "The Rollin' 40s joined the alliance with the Rollin' 60s and Rollin' 90s.",
       "time_period": "1983-present"
     },
     {
@@ -96,7 +96,15 @@
       "target": "Eight Tray Gangster Crips",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rollin' 90s sided with Rollin' 60s in their rivalry with Eight Tray.",
+      "context": "The Rollin' 90s are allies of the Rollin' 60s, who have a rivalry with the Eight Tray Gangster Crips.",
+      "time_period": "1979-present"
+    },
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Eight Tray Gangster Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "A rivalry developed in 1979 after a fight over a girl.",
       "time_period": "1979-present"
     },
     {
@@ -104,7 +112,7 @@
       "target": "East Nashville Crips",
       "relationship": "alliance",
       "detail": null,
-      "context": "East Nashville Crips is a set of Rollin' 90s Crips in Nashville.",
+      "context": "The East Nashville Crips are a set of the Rollin' 90s Crips.",
       "time_period": "mid-1990s-present"
     },
     {
@@ -112,7 +120,7 @@
       "target": "Crenshaw Mafia Gangster Bloods",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as a rival in the infobox.",
+      "context": "The Crenshaw Mafia Gangster Bloods are listed as rivals in the infobox.",
       "time_period": null
     }
   ],

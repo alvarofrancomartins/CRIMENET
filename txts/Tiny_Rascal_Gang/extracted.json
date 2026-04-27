@@ -16,7 +16,7 @@
       "original_text_name": "Mexican Mafia",
       "aliases": [],
       "type": "gang",
-      "context": "Prison gang that ordered hit lists and directed Sureños against TRG.",
+      "context": "Prison gang that ordered a 'green light' hit on TRG and directed Sureños to war with them.",
       "time_period": null
     },
     {
@@ -24,7 +24,7 @@
       "original_text_name": "Sureños",
       "aliases": [],
       "type": "gang",
-      "context": "Southern California gang alliance that was at war with TRG.",
+      "context": "Southern California gang alliance that was at war with TRG during the 1990s.",
       "time_period": null
     },
     {
@@ -32,7 +32,7 @@
       "original_text_name": "West Side Longo",
       "aliases": [],
       "type": "gang",
-      "context": "Hispanic gang in Long Beach, ordered by Mexican Mafia to support East Side Longo against TRG.",
+      "context": "Hispanic gang in Long Beach ordered by Mexican Mafia to ally with East Side Longo against TRG.",
       "time_period": null
     },
     {
@@ -40,7 +40,7 @@
       "original_text_name": "East Side Longo",
       "aliases": [],
       "type": "gang",
-      "context": "Hispanic gang in Long Beach, rival of TRG.",
+      "context": "Hispanic gang in Long Beach that had rivalry with West Side Longo but allied against TRG.",
       "time_period": null
     },
     {
@@ -50,7 +50,7 @@
         "ABZ"
       ],
       "type": "gang",
-      "context": "Splinter group from TRG, later allied with other gangs.",
+      "context": "Splinter group from TRG, later joined with other gangs; has prominent rivalry with TRG.",
       "time_period": null
     },
     {
@@ -58,7 +58,7 @@
       "original_text_name": "14K",
       "aliases": [],
       "type": "triad",
-      "context": "Chinese triad allied with TRG in California.",
+      "context": "Chinese triad organization allied with TRG in California.",
       "time_period": null
     },
     {
@@ -66,7 +66,7 @@
       "original_text_name": "Wah Ching",
       "aliases": [],
       "type": "gang",
-      "context": "Chinese gang allied with TRG in California.",
+      "context": "Chinese-American gang allied with TRG in California.",
       "time_period": null
     },
     {
@@ -74,7 +74,7 @@
       "original_text_name": "Wo Hop To",
       "aliases": [],
       "type": "triad",
-      "context": "Chinese triad allied with TRG in California.",
+      "context": "Chinese triad organization allied with TRG in California.",
       "time_period": null
     },
     {
@@ -90,7 +90,7 @@
       "original_text_name": "Red Scorpions",
       "aliases": [],
       "type": "gang",
-      "context": "Asian gang in South Philadelphia, rival of TRG.",
+      "context": "Gang in South Philadelphia with rivalry against TRG.",
       "time_period": null
     },
     {
@@ -98,7 +98,7 @@
       "original_text_name": "Bloods",
       "aliases": [],
       "type": "gang",
-      "context": "Nationwide street gang, rival of TRG.",
+      "context": "Nationwide street gang listed as rival of TRG.",
       "time_period": null
     },
     {
@@ -106,7 +106,7 @@
       "original_text_name": "Crips",
       "aliases": [],
       "type": "gang",
-      "context": "Nationwide street gang, rival of TRG.",
+      "context": "Nationwide street gang listed as rival of TRG.",
       "time_period": null
     },
     {
@@ -114,7 +114,7 @@
       "original_text_name": "Latin Kings",
       "aliases": [],
       "type": "gang",
-      "context": "Hispanic street gang, rival of TRG.",
+      "context": "Hispanic gang listed as rival of TRG.",
       "time_period": null
     },
     {
@@ -122,49 +122,49 @@
       "original_text_name": "Trinitarios",
       "aliases": [],
       "type": "gang",
-      "context": "Dominican street gang, rival of TRG.",
+      "context": "Dominican gang listed as rival of TRG.",
       "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Mexican Mafia",
+      "target": "Tiny Rascal Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Mexican Mafia ordered a 'green light' hit on TRG, leading to war with Sureños.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Mexican Mafia",
       "target": "Sureños",
       "relationship": "alliance",
       "detail": null,
-      "context": "Mexican Mafia ordered Sureños to target TRG.",
-      "time_period": "1990s"
+      "context": "Mexican Mafia controls Sureños and ordered them to war with TRG.",
+      "time_period": null
     },
     {
       "source": "Mexican Mafia",
       "target": "West Side Longo",
       "relationship": "alliance",
       "detail": null,
-      "context": "Mexican Mafia ordered West Side Longo to support East Side Longo against TRG.",
-      "time_period": "1990s"
+      "context": "Mexican Mafia ordered West Side Longo to ally with East Side Longo against TRG.",
+      "time_period": null
     },
     {
       "source": "West Side Longo",
       "target": "East Side Longo",
       "relationship": "alliance",
       "detail": null,
-      "context": "West Side Longo put aside rivalry to support East Side Longo against TRG.",
-      "time_period": "1990s"
+      "context": "Mexican Mafia ordered them to put aside rivalry and support each other against TRG.",
+      "time_period": null
     },
     {
-      "source": "Sureños",
-      "target": "Tiny Rascal Gang",
+      "source": "Tiny Rascal Gang",
+      "target": "East Side Longo",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Sureños were at war with TRG during the 1990s.",
-      "time_period": "1990s"
-    },
-    {
-      "source": "East Side Longo",
-      "target": "Tiny Rascal Gang",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "East Side Longo had a violent rivalry with TRG in early 1990s.",
+      "context": "TRG had a violent rivalry with East Side Longos during the early 1990s.",
       "time_period": "early 1990s"
     },
     {
@@ -172,7 +172,15 @@
       "target": "Asian Boyz",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Asian Boyz split from TRG and have a prominent rivalry with interstate murders.",
+      "context": "Asian Boyz splintered from TRG and have a prominent rivalry with interstate murders.",
+      "time_period": null
+    },
+    {
+      "source": "Asian Boyz",
+      "target": "Tiny Rascal Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Older subgroups of TRG maintain a working relationship with similar groups of Asian Boyz.",
       "time_period": null
     },
     {
@@ -212,7 +220,7 @@
       "target": "Red Scorpions",
       "relationship": "rivalry",
       "detail": null,
-      "context": "TRG has a South Philadelphia rivalry with Red Scorpions.",
+      "context": "TRG has a South Philadelphia rivalry with Red Scorpions, with sporadic shooting.",
       "time_period": null
     },
     {

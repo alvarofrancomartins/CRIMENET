@@ -36,14 +36,6 @@
       "time_period": "1964-present"
     },
     {
-      "standard_name": "ACCU",
-      "original_text_name": "ACCU",
-      "aliases": [],
-      "type": "militia",
-      "context": "Orchestrated the merger that formed the AUC in 1997.",
-      "time_period": "1990s-2000s"
-    },
-    {
       "standard_name": "Black Eagles",
       "original_text_name": "Black Eagles",
       "aliases": [],
@@ -54,12 +46,18 @@
     {
       "standard_name": "'Ndrangheta",
       "original_text_name": "'Ndrangheta",
-      "aliases": [
-        "Calabrian 'Ndrangheta"
-      ],
+      "aliases": [],
       "type": "mafia",
-      "context": "Italian mafia group from Calabria, linked to AUC via cocaine trafficking.",
-      "time_period": "1800s-present"
+      "context": "Calabrian mafia with close links to AUC concerning cocaine trafficking.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "ACCU",
+      "original_text_name": "ACCU",
+      "aliases": [],
+      "type": "militia",
+      "context": "Orchestrated the merger that formed the AUC in 1997.",
+      "time_period": "1990s-2006"
     },
     {
       "standard_name": "Bloque Metro",
@@ -68,18 +66,8 @@
         "Metro Bloc"
       ],
       "type": "faction",
-      "context": "Independent faction within AUC, operated in Antioquia until exterminated by rival AUC commanders.",
+      "context": "Independent faction of AUC, operated in Antioquia until exterminated by rival AUC commanders.",
       "time_period": "2000-2004"
-    },
-    {
-      "standard_name": "BACRIM",
-      "original_text_name": "BACRIM",
-      "aliases": [
-        "bandas criminales emergentes"
-      ],
-      "type": "other",
-      "context": "Neo-paramilitary successor organizations to AUC after demobilization.",
-      "time_period": "2006-present"
     },
     {
       "standard_name": "Bloque Bananero",
@@ -97,7 +85,17 @@
       "aliases": [],
       "type": "faction",
       "context": "Major AUC bloc with 1425 members, demobilized in late 2004.",
-      "time_period": "1990s-2004"
+      "time_period": "1997-2004"
+    },
+    {
+      "standard_name": "BACRIM",
+      "original_text_name": "BACRIM",
+      "aliases": [
+        "bandas criminales emergentes"
+      ],
+      "type": "other",
+      "context": "Neo-paramilitary successor organizations to AUC.",
+      "time_period": "2006-present"
     }
   ],
   "edges": [
@@ -106,7 +104,7 @@
       "target": "Revolutionary Armed Forces of Colombia",
       "relationship": "rivalry",
       "detail": null,
-      "context": "AUC was formed to fight leftist insurgents like FARC and conducted retaliations against them.",
+      "context": "AUC's main enemies were the leftist insurgency groups FARC and ELN.",
       "time_period": "1997-2006"
     },
     {
@@ -114,23 +112,15 @@
       "target": "National Liberation Army",
       "relationship": "rivalry",
       "detail": null,
-      "context": "AUC targeted ELN as a main enemy, conducting attacks and massacres.",
+      "context": "AUC's main enemies were the leftist insurgency groups FARC and ELN.",
       "time_period": "1997-2006"
-    },
-    {
-      "source": "ACCU",
-      "target": "United Self-Defense Forces of Colombia",
-      "relationship": "other",
-      "detail": "orchestrated merger",
-      "context": "ACCU orchestrated the merger of local militias to form the AUC in 1997.",
-      "time_period": "1997"
     },
     {
       "source": "United Self-Defense Forces of Colombia",
       "target": "Black Eagles",
-      "relationship": "other",
-      "detail": "successor group",
-      "context": "Black Eagles are local successors that continued after AUC demobilization.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Black Eagles are local successors of the AUC.",
       "time_period": "2006-present"
     },
     {
@@ -138,40 +128,48 @@
       "target": "'Ndrangheta",
       "relationship": "alliance",
       "detail": null,
-      "context": "AUC maintained close links with 'Ndrangheta concerning cocaine trafficking.",
-      "time_period": "1990s-2000s"
+      "context": "AUC maintained close links with the Calabrian 'Ndrangheta concerning cocaine trafficking.",
+      "time_period": "1997-2006"
+    },
+    {
+      "source": "United Self-Defense Forces of Colombia",
+      "target": "ACCU",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "AUC was formed through a merger orchestrated by the ACCU.",
+      "time_period": "1997"
     },
     {
       "source": "Bloque Metro",
       "target": "United Self-Defense Forces of Colombia",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Bloque Metro was an independent faction that was exterminated by rival AUC commanders.",
+      "context": "Bloque Metro was exterminated by rival paramilitary commanders from the AUC mainstream.",
       "time_period": "2004"
     },
     {
-      "source": "United Self-Defense Forces of Colombia",
-      "target": "BACRIM",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "BACRIM emerged as successor organizations after AUC demobilized.",
+      "source": "Bloque Bananero",
+      "target": "United Self-Defense Forces of Colombia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bloque Bananero was a faction of AUC.",
+      "time_period": "1997-2004"
+    },
+    {
+      "source": "Catatumbo Bloc",
+      "target": "United Self-Defense Forces of Colombia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Catatumbo Bloc was a faction of AUC.",
+      "time_period": "1997-2004"
+    },
+    {
+      "source": "BACRIM",
+      "target": "United Self-Defense Forces of Colombia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "BACRIM are successor organizations to AUC.",
       "time_period": "2006-present"
-    },
-    {
-      "source": "United Self-Defense Forces of Colombia",
-      "target": "Bloque Bananero",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Bloque Bananero was a faction within AUC operating in Uraba.",
-      "time_period": "1990s-2004"
-    },
-    {
-      "source": "United Self-Defense Forces of Colombia",
-      "target": "Catatumbo Bloc",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Catatumbo Bloc was a major faction within AUC.",
-      "time_period": "1990s-2004"
     }
   ],
   "source_file": "United_Self-Defense_Forces_of_Colombia"

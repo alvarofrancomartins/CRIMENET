@@ -4,12 +4,10 @@
       "standard_name": "Goda-ikka",
       "original_text_name": "Goda-ikka",
       "aliases": [
-        "Goda-gumi",
-        "Gōda-ikka",
-        "Gōda-gumi"
+        "Goda-gumi"
       ],
       "type": "mafia",
-      "context": "Yakuza group based in Yamaguchi, Japan; largest in the prefecture with about 30 members.",
+      "context": "Yakuza group based in Yamaguchi, Japan; largest in Yamaguchi Prefecture with about 30 members.",
       "time_period": "1948-present"
     },
     {
@@ -17,7 +15,7 @@
       "original_text_name": "Kagotora-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Old yakuza clan that founder Koichi Goda was a member of before forming Goda-gumi.",
+      "context": "Old yakuza clan; founder Koichi Goda was a member before forming Goda-gumi.",
       "time_period": "pre-1948"
     },
     {
@@ -25,15 +23,15 @@
       "original_text_name": "Yamaguchi-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Another yakuza group in Yamaguchi Prefecture, smaller than Goda-ikka.",
-      "time_period": "1915-present"
+      "context": "Yakuza group in Yamaguchi Prefecture; second largest after Goda-ikka.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "Gosha-kai",
       "original_text_name": "Gosha-kai",
       "aliases": [],
       "type": "other",
-      "context": "Anti-Yamaguchi federation of yakuza groups including Goda-ikka and others.",
+      "context": "Anti-Yamaguchi federation of yakuza groups based in Chugoku and Shikoku regions.",
       "time_period": "since 1996"
     },
     {
@@ -41,40 +39,40 @@
       "original_text_name": "Kyosei-kai",
       "aliases": [],
       "type": "mafia",
-      "context": "Chugoku-based yakuza group, member of Gosha-kai.",
-      "time_period": null
+      "context": "Chugoku-based yakuza group; member of Gosha-kai.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "Kyodo-kai",
       "original_text_name": "Kyodo-kai",
       "aliases": [],
       "type": "mafia",
-      "context": "Chugoku-based yakuza group, member of Gosha-kai.",
-      "time_period": null
+      "context": "Chugoku-based yakuza group; member of Gosha-kai.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "Asano-gumi",
       "original_text_name": "Asano-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Chugoku-based yakuza group, member of Gosha-kai.",
-      "time_period": null
+      "context": "Chugoku-based yakuza group; member of Gosha-kai.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "Shinwa-kai",
       "original_text_name": "Shinwa-kai",
       "aliases": [],
       "type": "mafia",
-      "context": "Shikoku-based yakuza group, member of Gosha-kai.",
-      "time_period": null
+      "context": "Shikoku-based yakuza group; member of Gosha-kai.",
+      "time_period": "unknown"
     }
   ],
   "edges": [
     {
       "source": "Goda-ikka",
       "target": "Kagotora-gumi",
-      "relationship": "other",
-      "detail": "former member",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Founder Koichi Goda was a member of Kagotora-gumi before forming Goda-gumi.",
       "time_period": "pre-1948"
     },
@@ -82,13 +80,15 @@
       "source": "Goda-ikka",
       "target": "Yamaguchi-gumi",
       "relationship": "rivalry",
-      "context": "Goda-ikka is the largest yakuza group in Yamaguchi Prefecture, followed by Yamaguchi-gumi, implying rivalry.",
-      "time_period": null
+      "detail": null,
+      "context": "Goda-ikka is the largest yakuza group in Yamaguchi Prefecture, followed by Yamaguchi-gumi; Goda-ikka is part of an anti-Yamaguchi federation.",
+      "time_period": "since 1996"
     },
     {
       "source": "Goda-ikka",
       "target": "Gosha-kai",
       "relationship": "alliance",
+      "detail": null,
       "context": "Goda-ikka has been a member of the anti-Yamaguchi federation Gosha-kai since 1996.",
       "time_period": "since 1996"
     },
@@ -96,6 +96,7 @@
       "source": "Kyosei-kai",
       "target": "Gosha-kai",
       "relationship": "alliance",
+      "detail": null,
       "context": "Kyosei-kai is a member of the Gosha-kai federation.",
       "time_period": "since 1996"
     },
@@ -103,6 +104,7 @@
       "source": "Kyodo-kai",
       "target": "Gosha-kai",
       "relationship": "alliance",
+      "detail": null,
       "context": "Kyodo-kai is a member of the Gosha-kai federation.",
       "time_period": "since 1996"
     },
@@ -110,6 +112,7 @@
       "source": "Asano-gumi",
       "target": "Gosha-kai",
       "relationship": "alliance",
+      "detail": null,
       "context": "Asano-gumi is a member of the Gosha-kai federation.",
       "time_period": "since 1996"
     },
@@ -117,6 +120,7 @@
       "source": "Shinwa-kai",
       "target": "Gosha-kai",
       "relationship": "alliance",
+      "detail": null,
       "context": "Shinwa-kai is a member of the Gosha-kai federation.",
       "time_period": "since 1996"
     }

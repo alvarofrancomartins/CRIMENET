@@ -18,8 +18,8 @@
         "Gambinos"
       ],
       "type": "mafia",
-      "context": "New York Mafia family; had soldier Phil Loscalzo and later Arnold Squitieri as leaders.",
-      "time_period": "1930s-present"
+      "context": "Italian-American Mafia family based in New York City, involved in various rackets.",
+      "time_period": "1910s-present"
     },
     {
       "standard_name": "Lucchese crime family",
@@ -28,16 +28,16 @@
         "Lucchese family"
       ],
       "type": "mafia",
-      "context": "New York Mafia family; had gambling operations in Astoria, Queens taken over by Rudaj Organization.",
+      "context": "Italian-American Mafia family based in New York City, involved in racketeering and gambling.",
       "time_period": "1920s-present"
     },
     {
       "standard_name": "Velentzas crime family",
-      "original_text_name": "Velentzas crime family",
+      "original_text_name": "Velentzas family",
       "aliases": [],
       "type": "mafia",
-      "context": "Greek-American crime family; rival of Rudaj Organization.",
-      "time_period": "unknown"
+      "context": "Greek-American organized crime family based in New York City, involved in gambling and other rackets.",
+      "time_period": "20th century-present"
     }
   ],
   "edges": [
@@ -46,15 +46,15 @@
       "target": "Gambino crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rudaj Organization had conflict with Gambino family over territory and operations; a meeting at a gas station nearly turned violent.",
-      "time_period": "2001-2004"
+      "context": "Rudaj Organization had a tense meeting with Gambino leader Arnold Squitieri over territorial expansion.",
+      "time_period": "2001"
     },
     {
       "source": "Rudaj Organization",
       "target": "Lucchese crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rudaj Organization attacked Greek associates of Lucchese family and took over their gambling operations in Astoria, Queens.",
+      "context": "Rudaj Organization attacked Greek associates of the Lucchese family to take over gambling operations in Astoria, Queens.",
       "time_period": "2001"
     },
     {
@@ -62,7 +62,7 @@
       "target": "Velentzas crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rudaj Organization had trouble with Velentzas family, as noted in the infobox.",
+      "context": "Rudaj Organization is listed as a rival of the Velentzas family in the infobox.",
       "time_period": null
     }
   ],

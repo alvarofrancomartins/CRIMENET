@@ -23,7 +23,7 @@
       "original_text_name": "Barbaro 'ndrina",
       "aliases": [],
       "type": "clan",
-      "context": "Allied 'ndrina of the 'Ndrangheta.",
+      "context": "Allied clan of the 'Ndrangheta, related by marriage to the Pelle 'ndrina.",
       "time_period": null
     },
     {
@@ -31,7 +31,7 @@
       "original_text_name": "Nirta-Strangio 'ndrina",
       "aliases": [],
       "type": "clan",
-      "context": "Rival 'ndrina of the 'Ndrangheta.",
+      "context": "Rival clan of the 'Ndrangheta, opposed to the Pelle 'ndrina.",
       "time_period": null
     },
     {
@@ -59,6 +59,14 @@
       "time_period": null
     },
     {
+      "standard_name": "Nizza faction",
+      "original_text_name": "Nizza faction",
+      "aliases": [],
+      "type": "faction",
+      "context": "Faction of the Catania Mafia family involved in drug trafficking with Pelle 'ndrina.",
+      "time_period": null
+    },
+    {
       "standard_name": "Cappello clan",
       "original_text_name": "Cappello clan",
       "aliases": [],
@@ -79,7 +87,7 @@
       "original_text_name": "Colombian drug cartels",
       "aliases": [],
       "type": "cartel",
-      "context": "International cocaine suppliers to Pelle 'ndrina.",
+      "context": "International cocaine suppliers to the Pelle 'ndrina.",
       "time_period": null
     }
   ],
@@ -87,8 +95,8 @@
     {
       "source": "Pelle 'ndrina",
       "target": "'Ndrangheta",
-      "relationship": "other",
-      "detail": "sub-group",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Pelle 'ndrina is a clan of the 'Ndrangheta.",
       "time_period": "1970s-present"
     },
@@ -97,7 +105,7 @@
       "target": "Barbaro 'ndrina",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied 'ndrina, with marriage ties between Giuseppe Pelle and Francesco Barbaro's daughter.",
+      "context": "Allied clans; Giuseppe Pelle married the daughter of Francesco Barbaro.",
       "time_period": null
     },
     {
@@ -105,7 +113,7 @@
       "target": "Nirta-Strangio 'ndrina",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rival 'ndrina, as indicated in the infobox.",
+      "context": "Rival clans; Francesco Pelle murdered Maria Strangio, wife of Giovanni Luca Nirta.",
       "time_period": null
     },
     {
@@ -113,7 +121,7 @@
       "target": "Nirta clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Giuseppe Vottari of Pelle 'ndrina allied with Nirta clan since early 1970s.",
+      "context": "Giuseppe Vottari allied with the Nirta clan since the early 1970s.",
       "time_period": "1970s-present"
     },
     {
@@ -129,7 +137,15 @@
       "target": "Catania Mafia family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Pelle 'ndrina has drug trafficking network with Catania Mafia family, especially Nizza faction.",
+      "context": "Pelle 'ndrina has a drug trafficking network with the Catania Mafia family.",
+      "time_period": null
+    },
+    {
+      "source": "Pelle 'ndrina",
+      "target": "Nizza faction",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pelle 'ndrina works with the Nizza faction of the Catania Mafia family.",
       "time_period": null
     },
     {
@@ -137,7 +153,7 @@
       "target": "Cappello clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Pelle 'ndrina supplies cocaine to Cappello clan in Catania.",
+      "context": "Pelle 'ndrina supplies cocaine to the Cappello clan in Catania.",
       "time_period": null
     },
     {
@@ -145,7 +161,7 @@
       "target": "Cursoti clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Pelle 'ndrina supplies cocaine to Cursoti clan in Catania.",
+      "context": "Pelle 'ndrina supplies cocaine to the Cursoti clan in Catania.",
       "time_period": null
     },
     {

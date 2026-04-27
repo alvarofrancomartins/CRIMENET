@@ -5,7 +5,7 @@
       "original_text_name": "Di Lauro clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan operating in Naples and surrounding areas, involved in drug trafficking, extortion, and money laundering.",
+      "context": "Italian Camorra clan operating in Naples and surrounding areas, involved in drug trafficking, extortion, smuggling, and money laundering.",
       "time_period": "1982-present"
     },
     {
@@ -20,7 +20,7 @@
       "standard_name": "Secondigliano Alliance",
       "original_text_name": "Secondigliano Alliance",
       "aliases": [],
-      "type": "alliance",
+      "type": "other",
       "context": "Alliance of Camorra clans including Di Lauro, Contini, Licciardi, Mallardo, etc.",
       "time_period": null
     },
@@ -29,7 +29,7 @@
       "original_text_name": "Scissionisti di Secondigliano",
       "aliases": [],
       "type": "faction",
-      "context": "Rival faction formed by former Di Lauro allies, involved in the Scampia feud.",
+      "context": "Rival faction that split from Di Lauro clan, involved in the Scampia feud.",
       "time_period": "2004-present"
     },
     {
@@ -45,7 +45,7 @@
       "original_text_name": "Contini clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan allied with Di Lauro through the Secondigliano Alliance.",
+      "context": "Camorra clan allied with Di Lauro via Secondigliano Alliance.",
       "time_period": null
     },
     {
@@ -53,7 +53,7 @@
       "original_text_name": "Licciardi clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan allied with Di Lauro through the Secondigliano Alliance.",
+      "context": "Camorra clan allied with Di Lauro via Secondigliano Alliance.",
       "time_period": null
     },
     {
@@ -61,7 +61,7 @@
       "original_text_name": "Mallardo clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan allied with Di Lauro through the Secondigliano Alliance.",
+      "context": "Camorra clan allied with Di Lauro via Secondigliano Alliance.",
       "time_period": null
     },
     {
@@ -100,18 +100,18 @@
   "edges": [
     {
       "source": "Di Lauro clan",
-      "target": "Abbinante clan",
+      "target": "Secondigliano Alliance",
       "relationship": "alliance",
       "detail": null,
-      "context": "Abbinante clan boss was aligned with Di Lauro.",
+      "context": "Di Lauro clan is a member of the Secondigliano Alliance.",
       "time_period": null
     },
     {
       "source": "Di Lauro clan",
-      "target": "Secondigliano Alliance",
-      "relationship": "alliance",
+      "target": "Abbinante clan",
+      "relationship": "rivalry",
       "detail": null,
-      "context": "Di Lauro clan strengthened connections with other clans in the Secondigliano Alliance.",
+      "context": "Abbinante clan was initially aligned but later became rivals.",
       "time_period": null
     },
     {
@@ -119,7 +119,7 @@
       "target": "Scissionisti di Secondigliano",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Former allies formed the Scissionisti and started a bloody power struggle in 2004.",
+      "context": "Scissionisti are a splinter faction that fought a bloody power struggle with Di Lauro.",
       "time_period": "2004-present"
     },
     {
@@ -135,7 +135,7 @@
       "target": "Contini clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Contini clan is an ally through the Secondigliano Alliance.",
+      "context": "Contini clan is an ally via Secondigliano Alliance and drug trafficking.",
       "time_period": null
     },
     {
@@ -143,7 +143,7 @@
       "target": "Licciardi clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Licciardi clan is an ally through the Secondigliano Alliance.",
+      "context": "Licciardi clan is an ally via Secondigliano Alliance.",
       "time_period": null
     },
     {
@@ -151,7 +151,7 @@
       "target": "Mallardo clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Mallardo clan is an ally through the Secondigliano Alliance.",
+      "context": "Mallardo clan is an ally via Secondigliano Alliance.",
       "time_period": null
     },
     {
@@ -159,7 +159,7 @@
       "target": "D'Alessandro clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "D'Alessandro clan is listed as an ally.",
+      "context": "D'Alessandro clan is an ally of Di Lauro.",
       "time_period": null
     },
     {
@@ -167,7 +167,7 @@
       "target": "Giuliano clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Giuliano clan is listed as a defunct ally.",
+      "context": "Giuliano clan was a former ally (defunct).",
       "time_period": null
     },
     {
@@ -175,7 +175,7 @@
       "target": "Ruocco clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Ruocco clan is listed as a rival.",
+      "context": "Ruocco clan is a rival of Di Lauro.",
       "time_period": null
     },
     {
@@ -183,7 +183,7 @@
       "target": "Sacco-Bocchetti clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Sacco-Bocchetti clan is listed as a rival.",
+      "context": "Sacco-Bocchetti clan is a rival of Di Lauro.",
       "time_period": null
     }
   ],

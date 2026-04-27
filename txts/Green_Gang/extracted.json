@@ -13,22 +13,72 @@
       "time_period": "early 1900s-1950s"
     },
     {
+      "standard_name": "Luojiao",
+      "original_text_name": "Luojiao",
+      "aliases": [],
+      "type": "other",
+      "context": "Buddhist sect founded by Luo Qing in mid-Ming dynasty, precursor to the Green Gang.",
+      "time_period": "mid-Ming dynasty-1768"
+    },
+    {
+      "standard_name": "Anqing Daoyou",
+      "original_text_name": "Anqing Daoyou",
+      "aliases": [
+        "Friends of the Way of Tranquility and Purity"
+      ],
+      "type": "other",
+      "context": "Direct precursor to the Green Gang in the early 20th century, organized by boatmen and salt smugglers in northern Jiangsu.",
+      "time_period": "1870s-early 1900s"
+    },
+    {
       "standard_name": "Kuomintang",
       "original_text_name": "Kuomintang",
       "aliases": [],
       "type": "other",
-      "context": "Chinese nationalist political party led by Chiang Kai-shek, allied with Green Gang.",
-      "time_period": "1910s-1949"
+      "context": "Nationalist political party led by Chiang Kai-shek, allied with the Green Gang.",
+      "time_period": "1919-present"
+    },
+    {
+      "standard_name": "Chaozhou Syndicates",
+      "original_text_name": "small syndicates of ethnic Chaozhou",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ethnic Chaozhou syndicates that took over the heroin market in Hong Kong after the Green Gang's decline.",
+      "time_period": "1950s-1960s"
     }
   ],
   "edges": [
     {
       "source": "Green Gang",
+      "target": "Luojiao",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Green Gang has its roots in the Luojiao Buddhist sect.",
+      "time_period": "mid-Ming dynasty-1768"
+    },
+    {
+      "source": "Green Gang",
+      "target": "Anqing Daoyou",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Anqing Daoyou was the direct precursor to the Green Gang.",
+      "time_period": "1870s-early 1900s"
+    },
+    {
+      "source": "Green Gang",
       "target": "Kuomintang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Green Gang supported Kuomintang financially and broke up strikes; Kuomintang granted rank to leader.",
+      "context": "The Green Gang was hired by Chiang Kai-shek's Kuomintang to break up strikes and shared drug profits.",
       "time_period": "1920s-1949"
+    },
+    {
+      "source": "Green Gang",
+      "target": "Chaozhou Syndicates",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Green Gang suffered in struggles against local Chaozhou syndicates over control of the drug market in Hong Kong.",
+      "time_period": "1950s"
     }
   ],
   "source_file": "Green_Gang"

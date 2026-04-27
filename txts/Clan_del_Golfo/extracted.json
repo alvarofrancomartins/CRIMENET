@@ -7,6 +7,7 @@
         "AGC",
         "Autodefensas Gaitanistas de Colombia",
         "Clan Úsuga",
+        "Don Mario's Black Eagles",
         "EGC",
         "Ejército Gaitanista de Colombia",
         "Gaitanist Army of Colombia",
@@ -15,7 +16,7 @@
         "Los Urabeños"
       ],
       "type": "cartel",
-      "context": "Colombian neo-paramilitary group and drug cartel, largest cocaine distributor in Colombia, involved in drug trafficking, illegal mining, racketeering.",
+      "context": "Colombian neo-paramilitary group and drug cartel, currently the largest in Colombia, involved in drug trafficking, illegal mining, and racketeering.",
       "time_period": "2006-present"
     },
     {
@@ -26,7 +27,7 @@
         "Autodefensas Unidas de Colombia"
       ],
       "type": "militia",
-      "context": "Right-wing paramilitary umbrella group that demobilized in 2006; precursor to many successor groups including AGC.",
+      "context": "Right-wing paramilitary umbrella group that demobilized in the 2000s; predecessor to many successor groups including Clan del Golfo.",
       "time_period": "1997-2006"
     },
     {
@@ -36,18 +37,17 @@
         "Rastrojos"
       ],
       "type": "cartel",
-      "context": "Colombian drug cartel, rival of AGC over control of drug trade in Medellín.",
+      "context": "Colombian drug cartel; rival of Clan del Golfo for control of drug trade in Medellín.",
       "time_period": "2000s-2010s"
     },
     {
       "standard_name": "National Liberation Army",
-      "original_text_name": "National Liberation Army (ELN)",
+      "original_text_name": "National Liberation Army",
       "aliases": [
-        "ELN",
-        "Ejército de Liberación Nacional"
+        "ELN"
       ],
       "type": "terrorist_organization",
-      "context": "Colombian left-wing guerrilla group, rival of AGC.",
+      "context": "Colombian left-wing guerrilla group; rival of Clan del Golfo.",
       "time_period": "1964-present"
     },
     {
@@ -55,7 +55,7 @@
       "original_text_name": "'Ndrangheta",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian mafia group, partner of AGC in cocaine trafficking to Europe.",
+      "context": "Italian mafia organization; partner of Clan del Golfo in cocaine trafficking.",
       "time_period": "1800s-present"
     },
     {
@@ -63,7 +63,7 @@
       "original_text_name": "Albanian mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Albanian organized crime groups, partner of AGC in cocaine trafficking to Europe.",
+      "context": "Albanian organized crime groups; partner of Clan del Golfo in cocaine trafficking.",
       "time_period": "1990s-present"
     },
     {
@@ -74,7 +74,7 @@
         "FARC-EP dissidents"
       ],
       "type": "faction",
-      "context": "Splinter groups from the Revolutionary Armed Forces of Colombia, in conflict with AGC.",
+      "context": "Splinter groups from the Revolutionary Armed Forces of Colombia (FARC) that reject the peace deal; in conflict with Clan del Golfo.",
       "time_period": "2016-present"
     },
     {
@@ -82,7 +82,7 @@
       "original_text_name": "Bloque Centauros",
       "aliases": [],
       "type": "faction",
-      "context": "Paramilitary bloc within AUC, involved in drug trafficking and extortion in Eastern Plains.",
+      "context": "Paramilitary bloc within the AUC, originally sold to Miguel Arroyave; precursor to Clan del Golfo through Daniel Rendón.",
       "time_period": "2001-2006"
     },
     {
@@ -93,7 +93,7 @@
         "ACC"
       ],
       "type": "militia",
-      "context": "Vigilante group in Casanare, rival of Bloque Centauros.",
+      "context": "Vigilante group in Casanare; rival of Bloque Centauros.",
       "time_period": "1990s-2000s"
     },
     {
@@ -101,8 +101,8 @@
       "original_text_name": "Bloque Elmer Cardenas",
       "aliases": [],
       "type": "faction",
-      "context": "Paramilitary bloc in Urabá region, led by Freddy Rendón.",
-      "time_period": "2000s-2006"
+      "context": "Paramilitary bloc in Urabá headed by Freddy Rendón; brother of Daniel Rendón.",
+      "time_period": "2000-2006"
     },
     {
       "standard_name": "Oficina de Envigado",
@@ -110,17 +110,24 @@
       "aliases": [
         "Oficina de Envigado"
       ],
-      "type": "cartel",
-      "context": "Medellín-based drug trafficking organization, rival of AGC.",
+      "type": "other",
+      "context": "Criminal organization based in Envigado, Colombia; involved in drug trafficking and contract killings.",
       "time_period": "1990s-present"
     },
     {
       "standard_name": "Paisas",
       "original_text_name": "Paisas",
       "aliases": [],
-      "type": "faction",
-      "context": "Rural armed wing of Oficina de Envigado, clashed with AGC.",
-      "time_period": "2000s-2010s"
+      "type": "gang",
+      "context": "Rural armed wing of the Oficina de Envigado; clashed with Clan del Golfo.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Los Paisas",
+      "original_text_name": "Paisas",
+      "type": "cartel",
+      "context": "Colombian drug cartel, rival of Clan del Golfo, experienced infighting.",
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Revolutionary Armed Forces of Colombia",
@@ -129,16 +136,8 @@
         "FARC"
       ],
       "type": "terrorist_organization",
-      "context": "Colombian leftist guerrilla group, former supplier of coca base to Clan del Golfo.",
+      "context": "Colombian leftist guerrilla group, Clan del Golfo buys coca base from them but limited collaboration.",
       "time_period": "1964-2017"
-    },
-    {
-      "standard_name": "Los Paisas",
-      "original_text_name": "Paisas",
-      "aliases": [],
-      "type": "cartel",
-      "context": "Colombian drug cartel, rival of Clan del Golfo, experienced infighting.",
-      "time_period": "2000s-present"
     },
     {
       "standard_name": "The Office of Envigado",
@@ -147,8 +146,8 @@
         "La Oficina"
       ],
       "type": "other",
-      "context": "Colombian criminal organization involved in drug trafficking and contract killings, based in Envigado.",
-      "time_period": null
+      "context": "Criminal organization based in Envigado, Colombia, involved in drug trafficking and contract killings.",
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Sinaloa Cartel",
@@ -156,7 +155,7 @@
       "aliases": [],
       "type": "cartel",
       "context": "Mexican drug cartel, ally of Clan del Golfo.",
-      "time_period": null
+      "time_period": "1980s-present"
     },
     {
       "standard_name": "Jalisco New Generation Cartel",
@@ -167,7 +166,7 @@
       ],
       "type": "cartel",
       "context": "Mexican drug cartel, ally of Clan del Golfo.",
-      "time_period": null
+      "time_period": "2009-present"
     },
     {
       "standard_name": "Brothers Keepers",
@@ -185,7 +184,7 @@
       ],
       "type": "mafia",
       "context": "Italian mafia organization, ally of Clan del Golfo.",
-      "time_period": null
+      "time_period": "19th century-present"
     },
     {
       "standard_name": "Los Choneros",
@@ -193,14 +192,14 @@
       "aliases": [],
       "type": "cartel",
       "context": "Ecuadorian drug cartel, ally of Clan del Golfo.",
-      "time_period": null
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Los Contrabandistas",
       "original_text_name": "Los Contrabandistas",
       "aliases": [],
-      "type": "other",
-      "context": "Criminal group involved in smuggling, ally of Clan del Golfo.",
+      "type": "gang",
+      "context": "Criminal group, ally of Clan del Golfo.",
       "time_period": null
     },
     {
@@ -209,14 +208,14 @@
       "aliases": [],
       "type": "cartel",
       "context": "Honduran drug cartel, ally of Clan del Golfo.",
-      "time_period": null
+      "time_period": "2000s-2010s"
     },
     {
       "standard_name": "La Empresa",
       "original_text_name": "La Empresa",
       "aliases": [],
       "type": "other",
-      "context": "Colombian criminal organization, opponent of Clan del Golfo.",
+      "context": "Criminal organization, opponent of Clan del Golfo.",
       "time_period": null
     },
     {
@@ -224,7 +223,7 @@
       "original_text_name": "Alianza Fronteriza",
       "aliases": [],
       "type": "other",
-      "context": "Criminal group, opponent of Clan del Golfo.",
+      "context": "Criminal organization, opponent of Clan del Golfo.",
       "time_period": null
     }
   ],
@@ -232,51 +231,56 @@
     {
       "source": "Clan del Golfo",
       "target": "United Self-Defense Forces of Colombia",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "AGC emerged after the demobilization of AUC, recruiting former AUC members.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Clan del Golfo emerged after the demobilization of the AUC, recruiting former AUC members.",
       "time_period": "2006-present"
     },
     {
       "source": "Clan del Golfo",
       "target": "Los Rastrojos",
       "relationship": "rivalry",
-      "context": "AGC declared war on Los Rastrojos in late 2011 over control of drug trade in Medellín.",
-      "time_period": "2011-2010s"
+      "detail": null,
+      "context": "In late 2011, the AGC declared war on Los Rastrojos over control of the drug trade in Medellín.",
+      "time_period": "2011"
     },
     {
       "source": "Clan del Golfo",
       "target": "National Liberation Army",
       "relationship": "rivalry",
-      "context": "ELN is listed as a rival of AGC.",
+      "detail": null,
+      "context": "The ELN is listed as a rival of the AGC.",
       "time_period": null
     },
     {
       "source": "Clan del Golfo",
       "target": "'Ndrangheta",
       "relationship": "alliance",
-      "context": "AGC formed direct partnerships with 'Ndrangheta for cocaine trafficking to Europe.",
+      "detail": null,
+      "context": "Clan del Golfo formed direct partnerships with 'Ndrangheta for cocaine trafficking.",
       "time_period": null
     },
     {
       "source": "Clan del Golfo",
       "target": "Albanian mafia",
       "relationship": "alliance",
-      "context": "AGC formed direct partnerships with Albanian mafia for cocaine trafficking to Europe.",
+      "detail": null,
+      "context": "Clan del Golfo formed direct partnerships with Albanian mafia for cocaine trafficking.",
       "time_period": null
     },
     {
       "source": "Clan del Golfo",
       "target": "FARC dissidents",
       "relationship": "rivalry",
-      "context": "AGC has been in direct conflict with FARC dissidents.",
-      "time_period": "2020s"
+      "detail": null,
+      "context": "Clan del Golfo has been in direct conflict with FARC dissidents.",
+      "time_period": null
     },
     {
       "source": "Bloque Centauros",
       "target": "United Self-Defense Forces of Colombia",
-      "relationship": "other",
-      "detail": "sub-group",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Bloque Centauros was a faction within the AUC.",
       "time_period": "2001-2006"
     },
@@ -284,69 +288,80 @@
       "source": "Bloque Centauros",
       "target": "Peasant Self-Defense Forces of Casanare",
       "relationship": "rivalry",
-      "context": "Centauros clashed with ACC, leading to thousands of deaths.",
+      "detail": null,
+      "context": "The Centauros clashed with the ACC, leading to thousands of deaths.",
       "time_period": "2004"
     },
     {
+      "source": "Bloque Centauros",
+      "target": "Clan del Golfo",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Daniel Rendón, former financier of Bloque Centauros, later founded the group that became Clan del Golfo.",
+      "time_period": "2006"
+    },
+    {
       "source": "Bloque Elmer Cardenas",
-      "target": "United Self-Defense Forces of Colombia",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Bloque Elmer Cardenas was a paramilitary bloc within AUC.",
-      "time_period": "2000s-2006"
+      "target": "Clan del Golfo",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "After Freddy Rendón demobilized, his brother Daniel recruited fighters from Bloque Elmer Cardenas into what became Clan del Golfo.",
+      "time_period": "2006"
     },
     {
-      "source": "Clan del Golfo",
+      "source": "Oficina de Envigado",
+      "target": "Clan del Golfo",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Clan del Golfo clashed with the Paisas, the armed wing of Oficina de Envigado, in Medellín.",
+      "time_period": "2007-2009"
+    },
+    {
+      "source": "Paisas",
       "target": "Oficina de Envigado",
-      "relationship": "rivalry",
-      "context": "AGC clashed with Oficina de Envigado and its armed wing Paisas in Medellín.",
-      "time_period": "2007-2009"
-    },
-    {
-      "source": "Clan del Golfo",
-      "target": "Paisas",
-      "relationship": "rivalry",
-      "context": "AGC clashed with Paisas, the rural armed wing of Oficina de Envigado.",
-      "time_period": "2007-2009"
-    },
-    {
-      "source": "Clan del Golfo",
-      "target": "Revolutionary Armed Forces of Colombia",
-      "relationship": "other",
-      "detail": "coca base supplier",
-      "context": "Clan del Golfo buys coca base from the FARC but does not collaborate further.",
-      "time_period": null
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Paisas were the rural armed wing of the Oficina de Envigado.",
+      "time_period": "2000s"
     },
     {
       "source": "Clan del Golfo",
       "target": "Los Paisas",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Clan del Golfo is compared to rival DTOs like the Paisas.",
+      "context": "Clan del Golfo is compared to Los Paisas as a rival DTO.",
       "time_period": null
     },
     {
       "source": "Clan del Golfo",
-      "target": "United Self-Defense Forces of Colombia",
+      "target": "Oficina de Envigado",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Clan del Golfo is compared to Oficina as a rival DTO.",
+      "time_period": null
+    },
+    {
+      "source": "Clan del Golfo",
+      "target": "Revolutionary Armed Forces of Colombia",
       "relationship": "other",
-      "detail": "successor organization",
-      "context": "Clan del Golfo emerged after the demobilization of the AUC.",
-      "time_period": "2006-present"
+      "detail": "limited cooperation",
+      "context": "Clan del Golfo buys coca base from FARC but does not collaborate much further.",
+      "time_period": null
     },
     {
       "source": "Clan del Golfo",
       "target": "The Office of Envigado",
       "relationship": "rivalry",
       "detail": null,
-      "context": "In 2012, the Gulf Clan got into conflict with The Office of Envigado over the drug trade in Medellín.",
-      "time_period": "2012-present"
+      "context": "Clan del Golfo got into conflict with The Office of Envigado in 2012 over drug trade in Medellín.",
+      "time_period": "2012"
     },
     {
       "source": "Clan del Golfo",
       "target": "Sinaloa Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Sinaloa Cartel is listed as an ally of the Clan del Golfo.",
+      "context": "Sinaloa Cartel is listed as an ally of Clan del Golfo.",
       "time_period": null
     },
     {
@@ -354,7 +369,7 @@
       "target": "Jalisco New Generation Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "CJNG is listed as an ally of the Clan del Golfo.",
+      "context": "CJNG is listed as an ally of Clan del Golfo.",
       "time_period": null
     },
     {
@@ -362,7 +377,7 @@
       "target": "Brothers Keepers",
       "relationship": "alliance",
       "detail": null,
-      "context": "Brothers Keepers is listed as an ally of the Clan del Golfo.",
+      "context": "Brothers Keepers is listed as an ally of Clan del Golfo.",
       "time_period": null
     },
     {
@@ -370,7 +385,7 @@
       "target": "Sicilian Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Sicilian Mafia is listed as an ally of the Clan del Golfo.",
+      "context": "Sicilian Mafia is listed as an ally of Clan del Golfo.",
       "time_period": null
     },
     {
@@ -378,7 +393,7 @@
       "target": "Los Choneros",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Choneros is listed as an ally of the Clan del Golfo.",
+      "context": "Los Choneros is listed as an ally of Clan del Golfo.",
       "time_period": null
     },
     {
@@ -386,7 +401,7 @@
       "target": "Los Contrabandistas",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Contrabandistas is listed as an ally of the Clan del Golfo.",
+      "context": "Los Contrabandistas is listed as an ally of Clan del Golfo.",
       "time_period": null
     },
     {
@@ -394,7 +409,7 @@
       "target": "Los Cachiros",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Cachiros is listed as an ally of the Clan del Golfo.",
+      "context": "Los Cachiros is listed as an ally of Clan del Golfo.",
       "time_period": null
     },
     {
@@ -402,7 +417,7 @@
       "target": "La Empresa",
       "relationship": "rivalry",
       "detail": null,
-      "context": "La Empresa is listed as an opponent of the Clan del Golfo.",
+      "context": "La Empresa is listed as an opponent of Clan del Golfo.",
       "time_period": null
     },
     {
@@ -410,7 +425,7 @@
       "target": "Alianza Fronteriza",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Alianza Fronteriza is listed as an opponent of the Clan del Golfo.",
+      "context": "Alianza Fronteriza is listed as an opponent of Clan del Golfo.",
       "time_period": null
     }
   ],

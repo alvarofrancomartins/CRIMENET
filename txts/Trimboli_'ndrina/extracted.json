@@ -4,7 +4,7 @@
       "standard_name": "Trimboli 'ndrina",
       "original_text_name": "Trimboli 'ndrina",
       "aliases": [
-        "Trimboli clan"
+        "Trimboli 'ndrine"
       ],
       "type": "clan",
       "context": "A clan of the 'Ndrangheta based in Platì, Calabria, with strong presence in Volpiano, Piedmont, and Australia. Involved in drug trafficking, extortion, money laundering, and murder.",
@@ -21,71 +21,57 @@
     {
       "standard_name": "Marando 'ndrina",
       "original_text_name": "Marando 'ndrina",
-      "aliases": [
-        "Marando clan"
-      ],
+      "aliases": [],
       "type": "clan",
       "context": "Allied with Trimboli 'ndrina in Northern Italy, particularly in Volpiano.",
-      "time_period": "1970s-present"
+      "time_period": null
     },
     {
       "standard_name": "Agresta 'ndrina",
       "original_text_name": "Agresta 'ndrina",
-      "aliases": [
-        "Agresta clan"
-      ],
+      "aliases": [],
       "type": "clan",
       "context": "Allied with Trimboli 'ndrina in Northern Italy, particularly in Volpiano.",
-      "time_period": "1970s-present"
+      "time_period": null
     },
     {
       "standard_name": "Barbaro 'ndrina",
       "original_text_name": "Barbaro 'ndrina",
-      "aliases": [
-        "Barbaro clan"
-      ],
+      "aliases": [],
       "type": "clan",
-      "context": "Powerful 'ndrina from which the Trimboli 'ndrina emerged as a branch.",
-      "time_period": "20th century-present"
+      "context": "Powerful 'ndrina from which the Trimboli 'ndrina emerged as a branch. Also allied with Trimboli.",
+      "time_period": null
     },
     {
       "standard_name": "Papalia 'ndrina",
       "original_text_name": "Papalia 'ndrina",
-      "aliases": [
-        "Papalia clan"
-      ],
+      "aliases": [],
       "type": "clan",
       "context": "Originated from the Barbaro 'ndrina, allied with Trimboli through intermarriage.",
-      "time_period": "20th century-present"
+      "time_period": null
     },
     {
       "standard_name": "Sergi 'ndrina",
       "original_text_name": "Sergi 'ndrina",
-      "aliases": [
-        "Sergi clan"
-      ],
+      "aliases": [],
       "type": "clan",
       "context": "Originated from the Barbaro 'ndrina, allied with Trimboli through intermarriage.",
-      "time_period": "20th century-present"
+      "time_period": null
     },
     {
       "standard_name": "Perre 'ndrina",
       "original_text_name": "Perre 'ndrina",
-      "aliases": [
-        "Perre clan"
-      ],
+      "aliases": [],
       "type": "clan",
       "context": "Originated from the Barbaro 'ndrina, allied with Trimboli through intermarriage.",
-      "time_period": "20th century-present"
+      "time_period": null
     },
     {
       "standard_name": "Molluso 'ndrina",
       "original_text_name": "Molluso 'ndrina",
-      "aliases": [
-        "Molluso clan"
-      ],
+      "aliases": [],
       "type": "clan",
-      "context": "Listed as an ally of Trimboli 'ndrina in the infobox.",
+      "context": "Allied with Trimboli 'ndrina according to the infobox.",
       "time_period": null
     },
     {
@@ -93,7 +79,7 @@
       "original_text_name": "South American drug cartels",
       "aliases": [],
       "type": "cartel",
-      "context": "Listed as allies of Trimboli 'ndrina in the infobox, likely involved in drug trafficking partnerships.",
+      "context": "Allied with Trimboli 'ndrina for drug trafficking.",
       "time_period": null
     }
   ],
@@ -101,9 +87,9 @@
     {
       "source": "Trimboli 'ndrina",
       "target": "'Ndrangheta",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Trimboli 'ndrina is a clan (sub-group) of the 'Ndrangheta.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Trimboli 'ndrina is a clan of the 'Ndrangheta.",
       "time_period": "1970s-present"
     },
     {
@@ -125,41 +111,65 @@
     {
       "source": "Trimboli 'ndrina",
       "target": "Barbaro 'ndrina",
-      "relationship": "other",
-      "detail": "branch of",
-      "context": "The Trimboli 'ndrina emerged as a branch of the Barbaro 'ndrina.",
-      "time_period": "1970s"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Trimboli 'ndrina emerged as a branch of the Barbaro 'ndrina and remains allied.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Papalia 'ndrina",
+      "target": "Barbaro 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Papalia 'ndrina originated from the Barbaro 'ndrina.",
+      "time_period": null
+    },
+    {
+      "source": "Sergi 'ndrina",
+      "target": "Barbaro 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sergi 'ndrina originated from the Barbaro 'ndrina.",
+      "time_period": null
+    },
+    {
+      "source": "Perre 'ndrina",
+      "target": "Barbaro 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Perre 'ndrina originated from the Barbaro 'ndrina.",
+      "time_period": null
     },
     {
       "source": "Trimboli 'ndrina",
       "target": "Papalia 'ndrina",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both originated from Barbaro 'ndrina and intermarry to strengthen alliances.",
-      "time_period": "since 1970s"
+      "context": "Allied through intermarriage and common origin from Barbaro 'ndrina.",
+      "time_period": null
     },
     {
       "source": "Trimboli 'ndrina",
       "target": "Sergi 'ndrina",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both originated from Barbaro 'ndrina and intermarry to strengthen alliances.",
-      "time_period": "since 1970s"
+      "context": "Allied through intermarriage and common origin from Barbaro 'ndrina.",
+      "time_period": null
     },
     {
       "source": "Trimboli 'ndrina",
       "target": "Perre 'ndrina",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both originated from Barbaro 'ndrina and intermarry to strengthen alliances.",
-      "time_period": "since 1970s"
+      "context": "Allied through intermarriage and common origin from Barbaro 'ndrina.",
+      "time_period": null
     },
     {
       "source": "Trimboli 'ndrina",
       "target": "Molluso 'ndrina",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "Allied according to the infobox.",
       "time_period": null
     },
     {
@@ -167,7 +177,7 @@
       "target": "South American drug cartels",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as allies in the infobox, likely for drug trafficking.",
+      "context": "Allied for drug trafficking.",
       "time_period": null
     }
   ],

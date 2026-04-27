@@ -2,22 +2,24 @@
   "nodes": [
     {
       "standard_name": "Brazilian Integralist Action",
-      "original_text_name": "Ação Integralista Brasileira",
+      "original_text_name": "Brazilian Integralist Action",
       "aliases": [
-        "AIB",
-        "Brazilian Integralist Action"
+        "Ação Integralista Brasileira",
+        "AIB"
       ],
       "type": "other",
-      "context": "Political movement with paramilitary characteristics, active in Brazil from 1932 to 1938.",
+      "context": "Political party and paramilitary organization in Brazil, founded in 1932 by Plínio Salgado.",
       "time_period": "1932-1938"
     },
     {
-      "standard_name": "Popular Nationalist Insurgency Command of the Large Brazilian Integralist Family",
-      "original_text_name": "Popular Nationalist Insurgency Command of the Large Brazilian Integralist Family",
-      "aliases": [],
+      "standard_name": "Party of Popular Representation",
+      "original_text_name": "Party of Popular Representation",
+      "aliases": [
+        "PRP"
+      ],
       "type": "other",
-      "context": "Group claiming responsibility for a firebombing in Rio de Janeiro in 2019.",
-      "time_period": "2019"
+      "context": "Political party founded in 1945 by Plínio Salgado after the AIB dissolved.",
+      "time_period": "1945-?"
     },
     {
       "standard_name": "Frente Integralista Brasileira",
@@ -40,6 +42,14 @@
       "time_period": "21st century"
     },
     {
+      "standard_name": "Popular Nationalist Insurgency Command of the Large Brazilian Integralist Family",
+      "original_text_name": "Popular Nationalist Insurgency Command of the Large Brazilian Integralist Family",
+      "aliases": [],
+      "type": "other",
+      "context": "Group that claimed responsibility for a firebombing in Rio de Janeiro in 2019.",
+      "time_period": "2019"
+    },
+    {
       "standard_name": "300 do Brasil",
       "original_text_name": "300 do Brasil",
       "aliases": [],
@@ -50,36 +60,36 @@
   ],
   "edges": [
     {
-      "source": "Popular Nationalist Insurgency Command of the Large Brazilian Integralist Family",
+      "source": "Party of Popular Representation",
       "target": "Brazilian Integralist Action",
-      "relationship": "other",
-      "detail": "ideological successor",
-      "context": "The group claims inspiration from integralist ideology originally promoted by AIB.",
-      "time_period": "2019"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "PRP was founded by Plínio Salgado after AIB dissolved, maintaining its ideology.",
+      "time_period": "1945"
     },
     {
       "source": "Frente Integralista Brasileira",
       "target": "Brazilian Integralist Action",
-      "relationship": "other",
-      "detail": "ideological successor",
-      "context": "FIB is a modern remnant group that upholds the strict integralist ideology of AIB.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "FIB is a remnant group that upholds the strict integralist ideology of AIB.",
       "time_period": "21st century"
     },
     {
       "source": "Movimento Integralista e Linearista Brasileiro",
       "target": "Brazilian Integralist Action",
-      "relationship": "other",
-      "detail": "ideological successor",
-      "context": "MIL-B is a modern remnant group that upholds the strict integralist ideology of AIB.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MIL-B is a remnant group that upholds the strict integralist ideology of AIB.",
       "time_period": "21st century"
     },
     {
-      "source": "300 do Brasil",
-      "target": "Frente Integralista Brasileira",
-      "relationship": "other",
-      "detail": "shared membership",
-      "context": "Sara Winter, a member of 300 do Brasil, also sympathized with integralist ideas and worked in the Bolsonaro government alongside FIB members.",
-      "time_period": "2019-2022"
+      "source": "Popular Nationalist Insurgency Command of the Large Brazilian Integralist Family",
+      "target": "Brazilian Integralist Action",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The group claims to be part of the integralist family, referencing AIB's ideology.",
+      "time_period": "2019"
     }
   ],
   "source_file": "Brazilian_integralism"

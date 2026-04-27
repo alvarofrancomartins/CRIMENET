@@ -4,11 +4,10 @@
       "standard_name": "Somali pirates",
       "original_text_name": "Somali pirates",
       "aliases": [
-        "Somali pirate groups",
-        "pirates"
+        "people's coastguard"
       ],
-      "type": "gang",
-      "context": "Armed groups formed by local fishermen to deter foreign fishing vessels, later hijacking commercial ships for ransom.",
+      "type": "other",
+      "context": "Armed groups formed by local fishermen to deter foreign fishing vessels, later engaged in hijacking commercial ships for ransom.",
       "time_period": "2000-present"
     },
     {
@@ -18,8 +17,8 @@
         "ICU"
       ],
       "type": "other",
-      "context": "Ruled southern Somalia for six months in 2006, conducted anti-piracy operations that temporarily eliminated piracy.",
-      "time_period": "2006"
+      "context": "Islamist organization that ruled southern Somalia in 2006; conducted anti-piracy operations during its rule.",
+      "time_period": "2006-2007"
     },
     {
       "standard_name": "Transitional Federal Government",
@@ -28,18 +27,8 @@
         "TFG"
       ],
       "type": "other",
-      "context": "Somali interim government; some elements were involved in piracy business during early period.",
+      "context": "Somalia's interim government from 2004 to 2012; some elements were involved in piracy.",
       "time_period": "2004-2012"
-    },
-    {
-      "standard_name": "Puntland Maritime Police Force",
-      "original_text_name": "Puntland maritime police force",
-      "aliases": [
-        "PMPF"
-      ],
-      "type": "other",
-      "context": "Maritime police force of the autonomous Puntland region that combats piracy.",
-      "time_period": "2000s-present"
     },
     {
       "standard_name": "Islamic State – Somalia Province",
@@ -64,15 +53,17 @@
       "original_text_name": "al-Shabaab",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Islamist militant group in Somalia, rival of ISS, cooperates with pirates and Houthis.",
+      "context": "Islamist militant group based in Somalia, active in piracy and extortion.",
       "time_period": "2006-present"
     },
     {
       "standard_name": "Houthis",
       "original_text_name": "Houthis",
-      "aliases": [],
+      "aliases": [
+        "Ansar Allah"
+      ],
       "type": "militia",
-      "context": "Yemeni militant group, allied with al-Shabaab, diverts naval attention from piracy.",
+      "context": "Yemeni rebel group, involved in arms trade with al-Shabaab.",
       "time_period": "2004-present"
     },
     {
@@ -80,7 +71,7 @@
       "original_text_name": "al-Qaeda",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Global terrorist network, alleged to receive funding from Somali piracy.",
+      "context": "Global jihadist network, alleged to receive funding from Somali piracy.",
       "time_period": "1988-present"
     },
     {
@@ -88,7 +79,7 @@
       "original_text_name": "Italian mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian organized crime groups involved in illegal waste dumping off the Somali coast.",
+      "context": "Italian mafia front companies contracted with Somali warlords to dump toxic waste in Somali waters.",
       "time_period": "1990s-present"
     },
     {
@@ -96,8 +87,8 @@
       "original_text_name": "Hizbul Islam",
       "aliases": [],
       "type": "militia",
-      "context": "Islamist insurgent group that briefly controlled Harardhere and vowed to eradicate piracy.",
-      "time_period": "2009-2010"
+      "context": "Islamist militia that briefly controlled Harardhere and vowed to eradicate piracy by imposing sharia law.",
+      "time_period": "2000s-2010s"
     }
   ],
   "edges": [
@@ -106,24 +97,16 @@
       "target": "Islamic Courts Union",
       "relationship": "rivalry",
       "detail": null,
-      "context": "ICU's anti-piracy operations completely ceased pirate activity during its rule.",
-      "time_period": "2006"
+      "context": "Piracy ceased during ICU rule due to their anti-piracy operations.",
+      "time_period": "2006-2007"
     },
     {
       "source": "Somali pirates",
       "target": "Transitional Federal Government",
       "relationship": "other",
       "detail": "collaboration",
-      "context": "Elements within TFG were involved in the lucrative piracy business, sharing profits with pirates.",
+      "context": "Elements within TFG were reportedly involved in the piracy business.",
       "time_period": "2007-2009"
-    },
-    {
-      "source": "Somali pirates",
-      "target": "Puntland Maritime Police Force",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "PMPF made progress in combating piracy through interventions.",
-      "time_period": "2000s-present"
     },
     {
       "source": "Islamic State – Somalia Province",
@@ -136,8 +119,8 @@
     {
       "source": "Hobyo-Haradhere Piracy Network",
       "target": "Al-Shabaab",
-      "relationship": "other",
-      "detail": "supplies weapons",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Pirates supply al-Shabaab with weapons and materials.",
       "time_period": "2017"
     },
@@ -146,7 +129,7 @@
       "target": "Houthis",
       "relationship": "alliance",
       "detail": null,
-      "context": "Growing relationship; al-Shabaab pledges to escalate piracy in exchange for weapons and training from Houthis.",
+      "context": "Growing relationship with arms sales and meetings in 2025.",
       "time_period": "2025"
     },
     {

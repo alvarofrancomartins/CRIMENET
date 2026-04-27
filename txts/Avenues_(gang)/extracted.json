@@ -16,7 +16,7 @@
       "original_text_name": "Mexican Mafia",
       "aliases": [],
       "type": "gang",
-      "context": "Prison gang that controls many Mexican-American street gangs in California prisons.",
+      "context": "Prison gang that controls Mexican gangs in Los Angeles when members are incarcerated.",
       "time_period": "1950s-present"
     },
     {
@@ -24,7 +24,7 @@
       "original_text_name": "Highland Park 13",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to the Avenues, located in Highland Park, Los Angeles.",
+      "context": "Rival gang to the Avenues in Los Angeles.",
       "time_period": null
     },
     {
@@ -32,7 +32,7 @@
       "original_text_name": "Cypress Park Boys",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to the Avenues, located in Cypress Park, Los Angeles.",
+      "context": "Rival gang to the Avenues in Los Angeles.",
       "time_period": null
     },
     {
@@ -40,7 +40,7 @@
       "original_text_name": "Toonerville",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to the Avenues, located in Los Angeles.",
+      "context": "Rival gang to the Avenues in Los Angeles.",
       "time_period": null
     },
     {
@@ -48,7 +48,7 @@
       "original_text_name": "Frog Town Rifa",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to the Avenues, located in Los Angeles.",
+      "context": "Rival gang to the Avenues in Los Angeles.",
       "time_period": null
     },
     {
@@ -56,7 +56,7 @@
       "original_text_name": "Thee Rascals",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to the Avenues, located in Los Angeles.",
+      "context": "Rival gang to the Avenues in Los Angeles.",
       "time_period": null
     },
     {
@@ -64,7 +64,7 @@
       "original_text_name": "Medellin cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel that collapsed in the 1990s, affecting cocaine supply.",
+      "context": "Colombian drug cartel whose fall affected cocaine availability.",
       "time_period": "1970s-1990s"
     },
     {
@@ -80,7 +80,7 @@
       "original_text_name": "Sureños",
       "aliases": [],
       "type": "gang",
-      "context": "Alliance of Mexican-American street gangs in Southern California, allied with the Avenues.",
+      "context": "Alliance of Mexican American street gangs in Southern California, allied with the Avenues.",
       "time_period": "1970s-present"
     },
     {
@@ -88,15 +88,15 @@
       "original_text_name": "18th Street gang",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to the Avenues, one of the largest street gangs in Los Angeles.",
-      "time_period": "1960s-present"
+      "context": "Rival gang to the Avenues.",
+      "time_period": null
     },
     {
       "standard_name": "Satanas",
       "original_text_name": "Satanas",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to the Avenues, mentioned in the infobox.",
+      "context": "Rival gang to the Avenues.",
       "time_period": null
     }
   ],
@@ -106,8 +106,8 @@
       "target": "Mexican Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Avenues are under the direct control of the Mexican Mafia when in prison.",
-      "time_period": "1970s-present"
+      "context": "The Avenues are under the direct control of the Mexican Mafia when incarcerated.",
+      "time_period": null
     },
     {
       "source": "Avenues",
@@ -123,7 +123,7 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "The Avenues have ongoing gang wars with Cypress Park Boys.",
-      "time_period": "1970s-present"
+      "time_period": null
     },
     {
       "source": "Avenues",
@@ -131,7 +131,7 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "The Avenues clashed with Toonerville to assert dominance.",
-      "time_period": "1970s-present"
+      "time_period": "1970s"
     },
     {
       "source": "Avenues",
@@ -139,7 +139,7 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "The Avenues clashed with Frog Town Rifa to assert dominance.",
-      "time_period": "1970s-present"
+      "time_period": "1970s"
     },
     {
       "source": "Avenues",
@@ -147,7 +147,7 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "The Avenues clashed with Thee Rascals to assert dominance.",
-      "time_period": "1970s-present"
+      "time_period": "1970s"
     },
     {
       "source": "Avenues",
@@ -155,22 +155,22 @@
       "relationship": "alliance",
       "detail": null,
       "context": "The Avenues are well connected with the Sinaloa cartel for drug supply.",
-      "time_period": "1990s-present"
+      "time_period": null
     },
     {
       "source": "Avenues",
       "target": "Sureños",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Avenues are a Sureño set, allied with the Sureños alliance.",
-      "time_period": "1970s-present"
+      "context": "The Avenues are a Sureño set and allied with the Sureños.",
+      "time_period": null
     },
     {
       "source": "Avenues",
       "target": "18th Street Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The 18th Street gang is listed as a rival in the infobox.",
+      "context": "The 18th Street gang is listed as a rival of the Avenues.",
       "time_period": null
     },
     {
@@ -178,7 +178,7 @@
       "target": "Satanas",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Satanas is listed as a rival in the infobox.",
+      "context": "Satanas is listed as a rival of the Avenues.",
       "time_period": null
     }
   ],

@@ -80,7 +80,12 @@ CANONICAL NODE TYPES (use exactly one, lowercase, with underscores where shown):
   terrorist_organization  — designated terrorist groups (Al-Qaeda, IRA, ETA, Hezbollah)
   other                   — only when genuinely none of the above fits
 
-CRITICAL: Map yakuza groups to "mafia". Map secret societies, cybercriminal groups, and hacker groups to "other". Map street crews and small criminal cells to "gang". Don't invent new types like "crime_syndicate" or "organized_crime_group" — pick the closest canonical type, or use "other".
+CRITICAL NODE TYPE RULES:
+  - Map yakuza groups to "mafia".
+  - Map secret societies, cybercriminal groups, and hacker groups to "other".
+  - Map street crews and small criminal cells to "gang".
+  - Don't invent new types like "crime_syndicate", "organized_crime_group", or "criminal_organization" — pick the closest canonical type, or use "other".
+  - NEVER use a relationship word as a node type. "alliance", "coalition", "federation", "rivalry", "war", "conflict" are NOT node types. If a group has "Alliance" in its name (e.g., "Wolfpack Alliance"), classify it by what it actually is (gang, motorcycle_club, etc.) — not by the word "alliance".
 
 ══ EDGES ══
 
@@ -96,20 +101,43 @@ Edge format:
   "time_period": "When this relationship held, e.g. '2006-2012', 'since 1990s'. null if unknown."
 }
 
-RELATIONSHIP CLASSIFICATION (this is the most important rule):
+RELATIONSHIP CLASSIFICATION — READ CAREFULLY:
 
-  alliance — Any cooperation, partnership, mutual support, working together, 
-             hierarchy (sub-groups, factions, support clubs), business collaboration,
-             joint operation, formal pact, ceasefire that becomes cooperation, 
-             family/personal/blood ties between groups, drug-trafficking partnerships,
-             smuggling cooperation, friendship.
+  alliance — Any cooperation, partnership, mutual support, working together,
+             hierarchy (sub-groups, sub-units, factions, chapters, support clubs,
+             puppet clubs, branches, divisions), business collaboration, joint
+             operation, formal pact, ceasefire that becomes cooperation, family/
+             personal/blood ties between groups, drug-trafficking partnerships,
+             smuggling cooperation, friendship, splinter groups (when the parent-
+             splinter relationship is non-hostile), successor/predecessor groups,
+             founded-by-members-of relationships, mergers.
+
+             ALL of the following are alliance:
+               • A is a sub-group of B
+               • A is a chapter of B
+               • A is a faction of B
+               • A is a puppet/support club of B
+               • A is the armed wing of B
+               • A is a splinter of B (and they are not hostile)
+               • A is the successor of B
+               • A is the predecessor of B
+               • A merged into B
+               • A was founded by members of B
+               • A and B are sister organizations
 
   rivalry  — Any conflict, hostility, fighting, war, feud, competition with
              violence, targeting, retaliation, killings, contract hits, alliance
              that turned into conflict, financial dispute that became hostile,
-             being conquered or vanquished by the other group.
+             being conquered or vanquished by the other group, hostile splinter
+             (when A broke off from B and they fight).
 
-  other    — Use ONLY for relationships that are completely unrelated to cooperation (alliance) or conflict (rivalry).
+  other    — VERY RARE. Use only when the relationship is genuinely neither
+             cooperation nor conflict — for example, distant historical
+             references with no ongoing connection. If you find yourself wanting
+             to write "sub-group", "successor", "predecessor", "faction",
+             "splinter", or "merger" as the detail, the relationship is
+             alliance, NOT other. Do not use "other" for any structural
+             relationship between organizations.
 
 ══ RULES ══
 

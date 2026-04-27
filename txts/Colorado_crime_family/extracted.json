@@ -11,15 +11,23 @@
         "Mountain Mafia"
       ],
       "type": "mafia",
-      "context": "Italian-American Mafia crime family based in Pueblo and Denver, Colorado, involved in bootlegging, extortion, loan sharking, drugs, bookmaking.",
+      "context": "Italian-American Mafia crime family based in Pueblo and Denver, Colorado, active from 1920s to 2000s.",
       "time_period": "c. 1920s–2000s"
+    },
+    {
+      "standard_name": "Carlino brothers",
+      "original_text_name": "Carlino brothers",
+      "aliases": [],
+      "type": "faction",
+      "context": "Bootlegging organization headed by Pete and Sam Carlino, operating in southern Colorado from 1922 to 1931.",
+      "time_period": "1922–1931"
     },
     {
       "standard_name": "St. Louis crime family",
       "original_text_name": "St. Louis crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Mafia family based in St. Louis, partnered with Colorado family in skimming profits from Riviera hotel and casino in Las Vegas.",
+      "context": "Mafia family based in St. Louis, Missouri, which held ultimate control over the Colorado family in the 1970s.",
       "time_period": null
     },
     {
@@ -27,7 +35,7 @@
       "original_text_name": "Bonanno crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Allied with Colorado crime family.",
+      "context": "One of the Five Families of New York City, allied with the Colorado crime family.",
       "time_period": null
     },
     {
@@ -35,7 +43,7 @@
       "original_text_name": "Chicago Outfit",
       "aliases": [],
       "type": "mafia",
-      "context": "Allied with Colorado crime family.",
+      "context": "Mafia organization based in Chicago, allied with the Colorado crime family.",
       "time_period": null
     },
     {
@@ -43,7 +51,7 @@
       "original_text_name": "Kansas City crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Allied with Colorado crime family.",
+      "context": "Mafia family based in Kansas City, allied with the Colorado crime family.",
       "time_period": null
     },
     {
@@ -51,7 +59,7 @@
       "original_text_name": "Los Angeles crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Allied with Colorado crime family.",
+      "context": "Mafia family based in Los Angeles, allied with the Colorado crime family.",
       "time_period": null
     },
     {
@@ -59,25 +67,33 @@
       "original_text_name": "New Orleans crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Allied with Colorado crime family.",
+      "context": "Mafia family based in New Orleans, allied with the Colorado crime family.",
       "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Colorado crime family",
+      "target": "Carlino brothers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Colorado crime family originated from the Carlino brothers' bootlegging organization.",
+      "time_period": "1920s–1931"
+    },
+    {
+      "source": "Colorado crime family",
       "target": "St. Louis crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Partnered in skimming profits from Riviera hotel and casino in Las Vegas, with St. Louis boss holding ultimate control.",
-      "time_period": "1973 or earlier"
+      "context": "The Colorado family partnered with the St. Louis crime family in skimming profits from the Riviera hotel and casino in Las Vegas.",
+      "time_period": "1973–1975"
     },
     {
       "source": "Colorado crime family",
       "target": "Bonanno crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "The Colorado crime family was allied with the Bonanno crime family.",
       "time_period": null
     },
     {
@@ -85,7 +101,7 @@
       "target": "Chicago Outfit",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "The Colorado crime family was allied with the Chicago Outfit.",
       "time_period": null
     },
     {
@@ -93,7 +109,7 @@
       "target": "Kansas City crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "The Colorado crime family was allied with the Kansas City crime family.",
       "time_period": null
     },
     {
@@ -101,7 +117,7 @@
       "target": "Los Angeles crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "The Colorado crime family was allied with the Los Angeles crime family.",
       "time_period": null
     },
     {
@@ -109,7 +125,7 @@
       "target": "New Orleans crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "The Colorado crime family was allied with the New Orleans crime family.",
       "time_period": null
     }
   ],

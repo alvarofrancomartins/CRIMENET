@@ -1,46 +1,50 @@
 {
   "nodes": [
     {
-      "standard_name": "The Commission",
-      "original_text_name": "the Commission",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Governing body of the American Mafia that ordered Dutch Schultz's murder.",
-      "time_period": "1930s"
-    },
-    {
       "standard_name": "American Mafia",
       "original_text_name": "American Mafia",
       "aliases": [
-        "Mafia's Five Families",
-        "New York City's Five Families"
+        "Mafia",
+        "the Commission"
       ],
       "type": "mafia",
-      "context": "Italian crime syndicates in New York that became the Five Families.",
-      "time_period": "1920s-1930s"
+      "context": "Governing body of organized crime in New York City, consisting of Five Families.",
+      "time_period": "1930s-present"
     },
     {
       "standard_name": "Noe-Schultz gang",
       "original_text_name": "Noe-Schultz gang",
-      "aliases": [],
+      "aliases": [
+        "Schultz gang"
+      ],
       "type": "gang",
-      "context": "Bootlegging gang led by Joey Noe and Dutch Schultz in the Bronx.",
-      "time_period": "mid-1920s-1935"
+      "context": "Bootlegging and racketeering gang led by Dutch Schultz and Joey Noe in the Bronx.",
+      "time_period": "1920s-1935"
     },
     {
       "standard_name": "Irish Mob",
       "original_text_name": "Irish mob",
       "aliases": [],
       "type": "gang",
-      "context": "New York Irish mob led by Jack 'Legs' Diamond, rival of Schultz.",
-      "time_period": "1920s-1931"
+      "context": "Irish-American organized crime group in New York, led by Jack 'Legs' Diamond.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "standard_name": "Jewish Mob",
+      "original_text_name": "Jewish mob",
+      "aliases": [],
+      "type": "gang",
+      "context": "Jewish-American organized crime network, including figures like Arnold Rothstein.",
+      "time_period": "1920s-1930s"
     },
     {
       "standard_name": "Coll crew",
       "original_text_name": "Coll's own crew",
-      "aliases": [],
-      "type": "faction",
-      "context": "Splinter group formed by Vincent Coll after leaving Schultz's gang.",
+      "aliases": [
+        "Mad Dog Coll gang"
+      ],
+      "type": "gang",
+      "context": "Splinter group formed by Vincent Coll after leaving Schultz's gang, aiming to take over Schultz's territory.",
       "time_period": "1930-1932"
     },
     {
@@ -48,16 +52,16 @@
       "original_text_name": "National Crime Syndicate",
       "aliases": [],
       "type": "other",
-      "context": "Confederation of mobsters that included Luciano and Schultz.",
-      "time_period": "1930s"
+      "context": "Confederation of mobsters across the United States, coordinating organized crime activities.",
+      "time_period": "1930s-present"
     },
     {
       "standard_name": "Murder, Inc.",
       "original_text_name": "Murder, Inc.",
       "aliases": [],
-      "type": "other",
-      "context": "Jewish gangster group that carried out contract killings for the Mafia.",
-      "time_period": "1930s"
+      "type": "gang",
+      "context": "Enforcement arm of the National Crime Syndicate, responsible for contract killings.",
+      "time_period": "1930s-1940s"
     },
     {
       "standard_name": "Schultz Gang",
@@ -66,33 +70,43 @@
         "Noe-Schultz Gang"
       ],
       "type": "gang",
-      "context": "Criminal organization led by Dutch Schultz, involved in bootlegging and numbers rackets in New York City.",
+      "context": "Dutch Schultz's criminal organization involved in bootlegging and numbers rackets in New York City.",
       "time_period": "1918-1935"
+    },
+    {
+      "standard_name": "Five Families",
+      "original_text_name": "New York City's Five Families",
+      "aliases": [
+        "The Commission"
+      ],
+      "type": "mafia",
+      "context": "The governing body of the American Mafia in New York City, which ordered Schultz's murder.",
+      "time_period": "1931-present"
     },
     {
       "standard_name": "Hell's Kitchen Irish Mob",
       "original_text_name": "Hell's Kitchen Irish mob",
       "aliases": [],
       "type": "gang",
-      "context": "Irish-American organized crime group based in the Hell's Kitchen neighborhood of New York City.",
-      "time_period": "1900s-present"
+      "context": "An Irish-American criminal organization based in Hell's Kitchen, Manhattan.",
+      "time_period": "late 1800s-present"
     }
   ],
   "edges": [
     {
-      "source": "The Commission",
+      "source": "Noe-Schultz gang",
       "target": "American Mafia",
-      "relationship": "other",
-      "detail": "governing body",
-      "context": "The Commission was the governing body of the American Mafia.",
-      "time_period": "1930s"
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Schultz's gang rivaled the Italian crime syndicates that became the Mafia's Five Families.",
+      "time_period": "1920s-1935"
     },
     {
       "source": "Noe-Schultz gang",
       "target": "Irish Mob",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Noe-Schultz gang fought a bootleg war with the Irish mob led by Jack Diamond.",
+      "context": "Bootleg war between Schultz's gang and Jack Diamond's Irish mob over territory in Manhattan.",
       "time_period": "1928-1931"
     },
     {
@@ -100,55 +114,63 @@
       "target": "Coll crew",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Vincent Coll formed his own crew to murder Schultz and take over his territory.",
+      "context": "Vincent Coll formed his own crew to murder Schultz and take over his territory, leading to a gang war.",
       "time_period": "1930-1932"
     },
     {
       "source": "Noe-Schultz gang",
-      "target": "The Commission",
-      "relationship": "other",
-      "detail": "subordinate",
-      "context": "Schultz asked the Commission for permission to kill Dewey and later was ordered killed by them.",
-      "time_period": "1935"
-    },
-    {
-      "source": "The Commission",
-      "target": "Murder, Inc.",
+      "target": "National Crime Syndicate",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Commission ordered Louis Buchalter of Murder, Inc. to eliminate Schultz.",
-      "time_period": "1935"
-    },
-    {
-      "source": "Murder, Inc.",
-      "target": "Schultz Gang",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Murder, Inc. hitmen killed Dutch Schultz and members of his gang on orders of the Commission.",
-      "time_period": "1935"
-    },
-    {
-      "source": "The Commission",
-      "target": "Schultz Gang",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "The Commission ordered the murder of Dutch Schultz after he disobeyed their orders not to kill Thomas Dewey.",
-      "time_period": "1935"
-    },
-    {
-      "source": "Murder, Inc.",
-      "target": "The Commission",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Murder, Inc. acted as the enforcement arm for the Commission and the National Crime Syndicate.",
+      "context": "Schultz was a member of the National Crime Syndicate, a confederation of mobsters.",
       "time_period": "1930s"
+    },
+    {
+      "source": "Murder, Inc.",
+      "target": "National Crime Syndicate",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Murder, Inc. was the enforcement arm of the National Crime Syndicate.",
+      "time_period": "1930s-1940s"
+    },
+    {
+      "source": "American Mafia",
+      "target": "National Crime Syndicate",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Commission (American Mafia) was part of the National Crime Syndicate.",
+      "time_period": "1930s"
+    },
+    {
+      "source": "Murder, Inc.",
+      "target": "Five Families",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Murder, Inc. acted as the enforcement arm for the Five Families.",
+      "time_period": "1920s-1940s"
+    },
+    {
+      "source": "Schultz Gang",
+      "target": "Five Families",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Five Families ordered Schultz's murder after he disobeyed their orders.",
+      "time_period": "1935"
+    },
+    {
+      "source": "Murder, Inc.",
+      "target": "Schultz Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Murder, Inc. hitmen killed Schultz and his associates on orders of the Five Families.",
+      "time_period": "1935"
     },
     {
       "source": "Hell's Kitchen Irish Mob",
       "target": "Schultz Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "John M. Dunn, an associate of Schultz, later became a powerful member of the Hell's Kitchen Irish mob.",
+      "context": "John M. Dunn, an Irish mobster associated with Schultz, survived the purge and later became a powerful member of the Hell's Kitchen Irish mob.",
       "time_period": "1930s"
     }
   ],

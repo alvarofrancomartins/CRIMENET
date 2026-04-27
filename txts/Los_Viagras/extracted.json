@@ -7,7 +7,7 @@
         "Los Sierra"
       ],
       "type": "faction",
-      "context": "Armed wing of the LNFM Cartel in Michoacán, Mexico, involved in drug trafficking, murder, and extortion.",
+      "context": "Armed wing of the LNFM Cartel in Michoacán, Mexico, involved in drug trafficking and violence.",
       "time_period": "2014-present"
     },
     {
@@ -17,36 +17,35 @@
         "La Nueva Familia Michoacana"
       ],
       "type": "cartel",
-      "context": "Drug cartel operating in Michoacán, Mexico, of which Los Viagras is an armed wing.",
+      "context": "Drug cartel operating in Michoacán, Mexico.",
       "time_period": null
     },
     {
-      "standard_name": "Jalisco New Generation Cartel",
-      "original_text_name": "Jalisco New Generation Cartel",
-      "aliases": [
-        "CJNG",
-        "New Generation"
-      ],
-      "type": "cartel",
-      "context": "Drug cartel based in Jalisco, Mexico, rival of Los Viagras in Tierra Caliente.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Knights Templar Cartel",
+      "standard_name": "Los Caballeros Templarios",
       "original_text_name": "Los Caballeros Templarios",
       "aliases": [
         "Knights Templar Cartel"
       ],
       "type": "cartel",
-      "context": "Former cartel in Michoacán, targeted by Los Viagras in 2015.",
-      "time_period": null
+      "context": "Former drug cartel in Michoacán, targeted by self-defense groups.",
+      "time_period": "2006-2017"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "New Generation"
+      ],
+      "type": "cartel",
+      "context": "Powerful drug cartel from Jalisco, Mexico, in conflict with Los Viagras.",
+      "time_period": "2009-present"
     },
     {
       "standard_name": "Cartel del Abuelo",
       "original_text_name": "Cartel del Abuelo",
       "aliases": [],
       "type": "cartel",
-      "context": "Allied with Los Viagras against Jalisco New Generation Cartel in Tierra Caliente.",
+      "context": "Drug cartel allied with Los Viagras against Jalisco New Generation Cartel.",
       "time_period": null
     },
     {
@@ -54,7 +53,7 @@
       "original_text_name": "Los Blancos De La Troya",
       "aliases": [],
       "type": "gang",
-      "context": "Ally of Los Viagras listed in infobox.",
+      "context": "Criminal group allied with Los Viagras.",
       "time_period": null
     },
     {
@@ -62,7 +61,7 @@
       "original_text_name": "Guardia Michoacana",
       "aliases": [],
       "type": "militia",
-      "context": "Ally of Los Viagras listed in infobox.",
+      "context": "Self-defense group or militia allied with Los Viagras.",
       "time_period": null
     },
     {
@@ -70,23 +69,23 @@
       "original_text_name": "Cártel Independiente de Acapulco",
       "aliases": [],
       "type": "cartel",
-      "context": "Defunct ally of Los Viagras listed in infobox.",
-      "time_period": null
+      "context": "Defunct drug cartel formerly allied with Los Viagras.",
+      "time_period": "2010-2017"
     },
     {
       "standard_name": "Beltrán-Leyva Cartel",
       "original_text_name": "Beltrán-Leyva Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Defunct ally of Los Viagras listed in infobox.",
-      "time_period": null
+      "context": "Defunct drug cartel formerly allied with Los Viagras.",
+      "time_period": "2008-2014"
     },
     {
       "standard_name": "La Barredora",
       "original_text_name": "La Barredora",
       "aliases": [],
       "type": "gang",
-      "context": "Rival of Los Viagras listed in infobox.",
+      "context": "Rival criminal group to Los Viagras.",
       "time_period": null
     }
   ],
@@ -96,24 +95,24 @@
       "target": "La Nueva Familia Michoacana",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Viagras is an armed wing of the LNFM Cartel.",
+      "context": "Los Viagras is the armed wing of the LNFM Cartel.",
       "time_period": "2014-present"
+    },
+    {
+      "source": "Los Viagras",
+      "target": "Los Caballeros Templarios",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Viagras assisted in capturing the leader of the Knights Templar Cartel.",
+      "time_period": "2014-2015"
     },
     {
       "source": "Los Viagras",
       "target": "Jalisco New Generation Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Turf dispute over Tierra Caliente region since 2017.",
+      "context": "Turf dispute over Tierra Caliente region since 2017, with violent clashes.",
       "time_period": "2017-present"
-    },
-    {
-      "source": "Los Viagras",
-      "target": "Knights Templar Cartel",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Los Viagras assisted in capturing Knights Templar leader in 2015.",
-      "time_period": "2014-2015"
     },
     {
       "source": "Los Viagras",
@@ -128,7 +127,7 @@
       "target": "Los Blancos De La Troya",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as ally in infobox.",
+      "context": "Listed as an ally in the infobox.",
       "time_period": null
     },
     {
@@ -136,7 +135,7 @@
       "target": "Guardia Michoacana",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as ally in infobox.",
+      "context": "Listed as an ally in the infobox.",
       "time_period": null
     },
     {
@@ -144,23 +143,23 @@
       "target": "Cártel Independiente de Acapulco",
       "relationship": "alliance",
       "detail": null,
-      "context": "Defunct ally listed in infobox.",
-      "time_period": null
+      "context": "Former ally, now defunct.",
+      "time_period": "until 2017"
     },
     {
       "source": "Los Viagras",
       "target": "Beltrán-Leyva Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Defunct ally listed in infobox.",
-      "time_period": null
+      "context": "Former ally, now defunct.",
+      "time_period": "until 2014"
     },
     {
       "source": "Los Viagras",
       "target": "La Barredora",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rival in infobox.",
+      "context": "Listed as a rival in the infobox.",
       "time_period": null
     }
   ],

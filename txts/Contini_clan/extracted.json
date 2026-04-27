@@ -5,14 +5,14 @@
       "original_text_name": "Contini clan",
       "aliases": [],
       "type": "clan",
-      "context": "Powerful Neapolitan Camorra clan operating in Naples and internationally, involved in drug trafficking, extortion, and money laundering.",
+      "context": "Powerful Neapolitan Camorra clan operating in Naples, active in drug trafficking, extortion, and money laundering.",
       "time_period": "1980s-present"
     },
     {
       "standard_name": "Secondigliano Alliance",
       "original_text_name": "Secondigliano Alliance",
       "aliases": [],
-      "type": "faction",
+      "type": "clan",
       "context": "Powerful Camorra alliance founded by Contini, Mallardo, and Licciardi clans.",
       "time_period": "mid-1980s-present"
     },
@@ -20,7 +20,7 @@
       "standard_name": "Nuova Famiglia",
       "original_text_name": "Nuova Famiglia",
       "aliases": [],
-      "type": "faction",
+      "type": "clan",
       "context": "Camorra confederation against the Nuova Camorra Organizzata.",
       "time_period": "1980s"
     },
@@ -28,7 +28,7 @@
       "standard_name": "Nuova Camorra Organizzata",
       "original_text_name": "Nuova Camorra Organizzata",
       "aliases": [],
-      "type": "faction",
+      "type": "clan",
       "context": "Camorra organization led by Raffaele Cutolo, rival of Nuova Famiglia.",
       "time_period": "1970s-1980s"
     },
@@ -68,8 +68,8 @@
       "standard_name": "Commisso 'ndrina",
       "original_text_name": "Commisso 'ndrina",
       "aliases": [],
-      "type": "clan",
-      "context": "Powerful 'Ndrangheta clan from Siderno, cooperating with Contini clan in drug trafficking.",
+      "type": "mafia",
+      "context": "'Ndrangheta clan cooperating with Contini clan in drug trafficking.",
       "time_period": null
     },
     {
@@ -77,7 +77,7 @@
       "original_text_name": "Cesarano clan",
       "aliases": [],
       "type": "clan",
-      "context": "Historical Camorra clan from Castellammare di Stabia, allied with Contini clan.",
+      "context": "Historical Camorra clan from Castellammare di Stabia allied with Contini clan.",
       "time_period": null
     },
     {
@@ -121,7 +121,7 @@
       "time_period": "defunct"
     },
     {
-      "standard_name": "Caldarelli Clan",
+      "standard_name": "Caldarelli clan",
       "original_text_name": "Caldarelli Clan",
       "aliases": [],
       "type": "clan",
@@ -133,24 +133,24 @@
     {
       "source": "Contini clan",
       "target": "Secondigliano Alliance",
-      "relationship": "other",
-      "detail": "founding member",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Contini clan is one of the founding clans of the Secondigliano Alliance.",
       "time_period": "mid-1980s-present"
     },
     {
       "source": "Mallardo clan",
       "target": "Secondigliano Alliance",
-      "relationship": "other",
-      "detail": "founding member",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Mallardo clan co-founded the Secondigliano Alliance with Contini and Licciardi.",
       "time_period": "mid-1980s-present"
     },
     {
       "source": "Licciardi clan",
       "target": "Secondigliano Alliance",
-      "relationship": "other",
-      "detail": "founding member",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Licciardi clan co-founded the Secondigliano Alliance with Contini and Mallardo.",
       "time_period": "mid-1980s-present"
     },
@@ -167,7 +167,7 @@
       "target": "Nuova Camorra Organizzata",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Nuova Famiglia was formed to oppose the Nuova Camorra Organizzata led by Raffaele Cutolo.",
+      "context": "Nuova Famiglia was formed to oppose the Nuova Camorra Organizzata.",
       "time_period": "1980s"
     },
     {
@@ -183,7 +183,7 @@
       "target": "Ukrainian mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Contini clan cooperates with Ukrainian mafia in cigarette smuggling from Ukraine into Italy.",
+      "context": "Contini clan cooperates with Ukrainian mafia in cigarette smuggling.",
       "time_period": null
     },
     {
@@ -199,7 +199,7 @@
       "target": "Cesarano clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Contini clan has an alliance with the historical Cesarano clan from Castellammare di Stabia.",
+      "context": "Contini clan has an alliance with the historical Cesarano clan.",
       "time_period": null
     },
     {
@@ -255,15 +255,15 @@
       "target": "Giuliano clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Giuliano clan is listed as a rival of Contini clan, now defunct.",
+      "context": "Giuliano clan is listed as a rival of Contini clan (defunct).",
       "time_period": null
     },
     {
       "source": "Contini clan",
-      "target": "Caldarelli Clan",
+      "target": "Caldarelli clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Caldarelli Clan is listed as a rival of Contini clan.",
+      "context": "Caldarelli clan is listed as a rival of Contini clan.",
       "time_period": null
     }
   ],

@@ -7,7 +7,7 @@
         "Papalia family"
       ],
       "type": "mafia",
-      "context": "A 'Ndrangheta-based organized crime family based in Hamilton, Ontario, Canada, involved in racketeering, drug trafficking, and other crimes.",
+      "context": "A 'Ndrangheta organized crime family based in Hamilton, Ontario, Canada, involved in racketeering, loan sharking, gambling, drug trafficking, and extortion.",
       "time_period": "1940s-present"
     },
     {
@@ -18,7 +18,7 @@
       ],
       "type": "mafia",
       "context": "A Mafia family in Hamilton, Ontario, rivals of the Papalia family, ordered the murder of Johnny Papalia.",
-      "time_period": "1940s-present"
+      "time_period": null
     },
     {
       "standard_name": "Luppino crime family",
@@ -26,7 +26,7 @@
       "aliases": [],
       "type": "mafia",
       "context": "One of three centralized Mafia organizations in Hamilton, Ontario.",
-      "time_period": "1940s-present"
+      "time_period": null
     },
     {
       "standard_name": "Buffalo crime family",
@@ -34,31 +34,31 @@
       "aliases": [],
       "type": "mafia",
       "context": "American Mafia family based in Buffalo, New York, allied with the Papalia family.",
-      "time_period": "1900s-present"
+      "time_period": null
     },
     {
       "standard_name": "Rizzuto crime family",
       "original_text_name": "Rizzuto crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Montreal-based Mafia family; Papalia lieutenant borrowed money from them.",
-      "time_period": "1970s-present"
+      "context": "Montreal-based Mafia family that lent money to Papalia lieutenant Enio Mora.",
+      "time_period": null
     },
     {
       "standard_name": "Hells Angels",
       "original_text_name": "Hells Angels",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club; a former Papalia associate joined them after Johnny's death.",
-      "time_period": "1948-present"
+      "context": "Outlaw motorcycle club; former Papalia associate Gerald Ward joined them after Johnny's death.",
+      "time_period": null
     },
     {
       "standard_name": "Italiano clan",
       "original_text_name": "Italiano clan",
       "aliases": [],
       "type": "clan",
-      "context": "Mafia family related to the Papalias by marriage, involved in bootlegging and drug trafficking.",
-      "time_period": "1920s-1930s"
+      "context": "Mafia family from which Maria Rosa Italiano came; participated in Rocco Perri's gang.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -67,16 +67,8 @@
       "target": "Musitano crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Musitanos ordered the murder of Johnny Papalia and his lieutenant, leading to a decline of the Papalia family.",
+      "context": "The Musitanos ordered the murder of Johnny Papalia and his lieutenant Carmen Barillaro.",
       "time_period": "1997"
-    },
-    {
-      "source": "Papalia crime family",
-      "target": "Luppino crime family",
-      "relationship": "other",
-      "detail": "coexistence",
-      "context": "Both are centralized Mafia organizations in Hamilton, but no direct conflict or alliance is mentioned.",
-      "time_period": null
     },
     {
       "source": "Papalia crime family",
@@ -90,16 +82,16 @@
       "source": "Papalia crime family",
       "target": "Rizzuto crime family",
       "relationship": "other",
-      "detail": "debt dispute",
-      "context": "Papalia lieutenant borrowed $7.2 million from the Rizzuto family and failed to repay, leading to a murder.",
-      "time_period": "1996"
+      "detail": "debtor-creditor",
+      "context": "Papalia lieutenant Enio Mora borrowed $7.2 million from Vito Rizzuto; the debt was not repaid.",
+      "time_period": "1990s"
     },
     {
       "source": "Papalia crime family",
       "target": "Hells Angels",
       "relationship": "other",
-      "detail": "defection",
-      "context": "After Johnny's death, associate Gerald Ward left the Papalias to join the Hells Angels.",
+      "detail": "former associate joined",
+      "context": "After Johnny's death, associate Gerald Ward left the Papalias and joined the Hells Angels.",
       "time_period": "1997"
     },
     {
@@ -107,7 +99,7 @@
       "target": "Italiano clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Italiano clan was related by marriage and participated in the same criminal activities.",
+      "context": "Antonio Papalia married Maria Rosa Italiano, linking the families; the Italiano clan participated in Rocco Perri's gang.",
       "time_period": "1920s-1930s"
     }
   ],

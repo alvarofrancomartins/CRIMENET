@@ -35,7 +35,7 @@
         "Warren's gang"
       ],
       "type": "cartel",
-      "context": "Major drug trafficking organization led by Curtis Warren, linked to Cali Cartel.",
+      "context": "Major drug trafficking organization led by Curtis Warren, active in UK and Europe.",
       "time_period": "1990s-2000s"
     },
     {
@@ -43,15 +43,15 @@
       "original_text_name": "Cali cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian cocaine cartel that supplied drugs to Liverpool gangs.",
+      "context": "Colombian drug cartel that supplied cocaine to Liverpool gangs.",
       "time_period": "1980s-1990s"
     },
     {
       "standard_name": "Liverpool Mafia",
       "original_text_name": "Liverpool Mafia",
       "aliases": [],
-      "type": "other",
-      "context": "First drug cartel in the UK, developed in early 1980s.",
+      "type": "cartel",
+      "context": "First major drug cartel in the UK, developed in early 1980s.",
       "time_period": "1980s"
     },
     {
@@ -61,7 +61,7 @@
         "Whitney gang"
       ],
       "type": "gang",
-      "context": "Family gang from Anfield, Liverpool, involved in drug smuggling.",
+      "context": "Family-run criminal network from Anfield, Liverpool, involved in drug smuggling.",
       "time_period": "2000s-2011"
     },
     {
@@ -71,7 +71,7 @@
         "Fitzgibbon brothers"
       ],
       "type": "gang",
-      "context": "Family-run international drug empire from Liverpool, jailed in 2013.",
+      "context": "Family-run international drug empire based in Liverpool, led by Ian and Jason Fitzgibbon.",
       "time_period": "2000s-2013"
     },
     {
@@ -81,16 +81,18 @@
         "Clarke brothers"
       ],
       "type": "gang",
-      "context": "Liverpool drugs gang involved in cocaine and cannabis trafficking to Northern Ireland.",
+      "context": "Liverpool drugs gang led by Peter and Stephen Clarke, shipping drugs to Northern Ireland.",
       "time_period": "2000s-2013"
     },
     {
       "standard_name": "Transit Mob",
       "original_text_name": "Transit Mob",
-      "aliases": [],
+      "aliases": [
+        "John Haase's Transit Mob"
+      ],
       "type": "gang",
-      "context": "Firm led by John Haase and Paul Bennett, involved in bank robbery and drug smuggling.",
-      "time_period": "1990s"
+      "context": "Criminal firm led by John Haase and Paul Bennett, involved in bank robbery and drug smuggling.",
+      "time_period": "1990s-2000s"
     },
     {
       "standard_name": "Speke Firm",
@@ -99,7 +101,7 @@
         "Speke firm"
       ],
       "type": "gang",
-      "context": "Drug gang from Speke, Liverpool, targeted by Huyton Firm in 2010.",
+      "context": "Drug gang from Speke, Liverpool, targeted by Huyton Firm in Amsterdam assassination plot.",
       "time_period": "2000s-2010s"
     },
     {
@@ -133,15 +135,15 @@
       "target": "Cali Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Liverpool Mafia developed distribution networks with cocaine producers in South America, including Cali cartel.",
+      "context": "Liverpool Mafia developed distribution networks with Cali Cartel in the 1980s.",
       "time_period": "1980s"
     },
     {
       "source": "The Huyton Firm",
       "target": "Curtis Warren Cartel",
-      "relationship": "other",
-      "detail": "power vacuum",
-      "context": "Huyton Firm filled power vacuum after Curtis Warren and his gang were jailed.",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Huyton Firm filled power vacuum after Curtis Warren was jailed, indicating rivalry.",
       "time_period": "2000s"
     },
     {
@@ -149,7 +151,7 @@
       "target": "Speke Firm",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Huyton Firm dispatched armed gang to Amsterdam to assassinate a member of Speke-based drug gang.",
+      "context": "Huyton Firm dispatched hit team to Amsterdam to assassinate a Speke Firm member.",
       "time_period": "2010"
     },
     {
@@ -157,7 +159,7 @@
       "target": "Kirk Bradley's Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Huyton Firm paid Kirk Bradley's gang to attack people associated with a trial in 2009.",
+      "context": "Huyton Firm paid Kirk Bradley's gang to attack people associated with a trial.",
       "time_period": "2009"
     }
   ],

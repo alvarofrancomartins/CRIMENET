@@ -8,15 +8,15 @@
         "Reina crime family"
       ],
       "type": "mafia",
-      "context": "One of the Five Families of New York City, active in racketeering, unions, and narcotics.",
-      "time_period": "1920s-1967"
+      "context": "One of the Five Families of New York City, active from 1931 onward.",
+      "time_period": "1931-1967"
     },
     {
       "standard_name": "107th Street gang",
       "original_text_name": "107th Street gang",
       "aliases": [],
       "type": "gang",
-      "context": "Street gang in East Harlem involved in theft and burglary, operated under protection of Gaetano Reina.",
+      "context": "Street gang in East Harlem, operated under protection of Gaetano Reina.",
       "time_period": "1910s-1920s"
     },
     {
@@ -26,8 +26,8 @@
         "Anastasia crime family"
       ],
       "type": "mafia",
-      "context": "One of the Five Families, led by Carlo Gambino, allied with Lucchese.",
-      "time_period": "1930s-1967"
+      "context": "One of the Five Families of New York City, led by Carlo Gambino.",
+      "time_period": "1931-present"
     },
     {
       "standard_name": "Genovese crime family",
@@ -36,56 +36,48 @@
         "Luciano crime family"
       ],
       "type": "mafia",
-      "context": "One of the Five Families, led by Vito Genovese after Luciano's deportation.",
-      "time_period": "1930s-1967"
+      "context": "One of the Five Families of New York City, led by Vito Genovese.",
+      "time_period": "1931-present"
     },
     {
       "standard_name": "Bonanno crime family",
       "original_text_name": "Bonanno crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families, led by Joseph Bonanno, involved in plot against Commission.",
-      "time_period": "1930s-1967"
+      "context": "One of the Five Families of New York City, led by Joseph Bonanno.",
+      "time_period": "1931-present"
     },
     {
       "standard_name": "Profaci crime family",
-      "original_text_name": "Profaci family",
-      "aliases": [
-        "Colombo crime family"
-      ],
+      "original_text_name": "Profaci crime family",
+      "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families, later known as Colombo crime family.",
-      "time_period": "1930s-1967"
-    },
-    {
-      "standard_name": "Mangano crime family",
-      "original_text_name": "Mangano family",
-      "aliases": [
-        "Gambino crime family"
-      ],
-      "type": "mafia",
-      "context": "Predecessor to the Gambino crime family, led by Vincent Mangano.",
-      "time_period": "1930s-1951"
+      "context": "One of the Five Families of New York City, led by Joseph Profaci.",
+      "time_period": "1931-present"
     },
     {
       "standard_name": "Magaddino crime family",
-      "original_text_name": "Magaddino family",
-      "aliases": [
-        "Buffalo crime family"
-      ],
+      "original_text_name": "Magaddino crime family",
+      "aliases": [],
       "type": "mafia",
-      "context": "Buffalo-based Mafia family led by Stefano Magaddino.",
-      "time_period": "1930s-1967"
+      "context": "Buffalo crime family led by Stefano Magaddino.",
+      "time_period": "1931-present"
+    },
+    {
+      "standard_name": "Mangano crime family",
+      "original_text_name": "Mangano crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York City, led by Vincent Mangano.",
+      "time_period": "1931-1951"
     },
     {
       "standard_name": "Tampa crime family",
       "original_text_name": "Tampa crime family",
-      "aliases": [
-        "Trafficante crime family"
-      ],
+      "aliases": [],
       "type": "mafia",
-      "context": "Florida-based Mafia family led by Santo Trafficante Jr., involved in narcotics with Lucchese.",
-      "time_period": "1930s-1967"
+      "context": "Mafia family based in Tampa, Florida, led by Santo Trafficante Sr. and Jr.",
+      "time_period": "1930s-present"
     },
     {
       "standard_name": "Murder, Inc.",
@@ -94,79 +86,98 @@
       "type": "other",
       "context": "Enforcement arm of the National Crime Syndicate, active in the 1930s-1940s.",
       "time_period": "1930s-1940s"
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
+      "aliases": [
+        "Mafia"
+      ],
+      "type": "mafia",
+      "context": "Italian-American Mafia, originating from Sicily.",
+      "time_period": "19th century-present"
     }
   ],
   "edges": [
     {
       "source": "Lucchese crime family",
-      "target": "107th Street gang",
-      "relationship": "other",
-      "detail": "protection",
-      "context": "The 107th Street gang operated under the protection of Gaetano Reina, whose family later became the Lucchese family.",
+      "target": "Cosa Nostra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Lucchese family is a constituent family of the Cosa Nostra in the United States.",
+      "time_period": "1931-1967"
+    },
+    {
+      "source": "107th Street gang",
+      "target": "Lucchese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The 107th Street gang operated under the protection of the Reina family, predecessor of the Lucchese family.",
       "time_period": "1910s-1920s"
     },
     {
       "source": "Lucchese crime family",
       "target": "Gambino crime family",
       "relationship": "alliance",
-      "context": "Alliance cemented by marriage of Lucchese's daughter to Carlo Gambino's son; they controlled the Commission and JFK Airport.",
+      "detail": null,
+      "context": "Lucchese and Gambino formed a strong alliance, cemented by the marriage of their children.",
       "time_period": "1950s-1967"
     },
     {
       "source": "Lucchese crime family",
       "target": "Genovese crime family",
       "relationship": "alliance",
-      "context": "Lucchese allied with Genovese and Gambino to gain control of the Commission in 1957.",
-      "time_period": "1957"
+      "detail": null,
+      "context": "Lucchese allied with Genovese and Gambino to gain control of the Commission in the 1950s.",
+      "time_period": "1951-1957"
     },
     {
       "source": "Lucchese crime family",
       "target": "Tampa crime family",
       "relationship": "alliance",
-      "context": "Lucchese controlled a narcotics network with Santo Trafficante Jr. and had longtime alliance with his father.",
-      "time_period": "1940s-1967"
+      "detail": null,
+      "context": "Lucchese controlled a narcotics network with Santo Trafficante Jr. of the Tampa family.",
+      "time_period": "1950s-1960s"
     },
     {
       "source": "Lucchese crime family",
-      "target": "Bonanno crime family",
-      "relationship": "rivalry",
-      "context": "Bonanno plotted to murder Lucchese and other Commission bosses in 1963.",
-      "time_period": "1963"
-    },
-    {
-      "source": "Lucchese crime family",
-      "target": "Profaci crime family",
-      "relationship": "rivalry",
-      "context": "Profaci family was part of an alliance opposing Gagliano on the Commission.",
-      "time_period": "1940s-1950s"
-    },
-    {
-      "source": "Lucchese crime family",
-      "target": "Mangano crime family",
-      "relationship": "rivalry",
-      "context": "Mangano family was part of an alliance opposing Gagliano on the Commission.",
-      "time_period": "1940s-1950s"
-    },
-    {
-      "source": "Lucchese crime family",
-      "target": "Magaddino crime family",
-      "relationship": "rivalry",
-      "context": "Magaddino was a target of Bonanno's plot alongside Lucchese.",
-      "time_period": "1963"
-    },
-    {
-      "source": "Gambino crime family",
-      "target": "Genovese crime family",
+      "target": "Murder, Inc.",
       "relationship": "alliance",
-      "context": "Gambino and Lucchese allied to set up Genovese's arrest and imprisonment.",
-      "time_period": "1957-1959"
+      "detail": null,
+      "context": "The Gagliano family worked with Frankie Carbo, a former Murder, Inc. hitman, to fix boxing matches.",
+      "time_period": "1930s-1940s"
     },
     {
       "source": "Bonanno crime family",
-      "target": "Profaci crime family",
-      "relationship": "alliance",
-      "context": "Bonanno and Magliocco (Profaci) plotted together to murder Commission bosses.",
+      "target": "Lucchese crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Joseph Bonanno plotted to murder Lucchese and other Commission bosses in 1963.",
       "time_period": "1963"
+    },
+    {
+      "source": "Profaci crime family",
+      "target": "Lucchese crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Profaci family was part of an alliance opposing Gagliano on the Commission.",
+      "time_period": "1940s-1950s"
+    },
+    {
+      "source": "Magaddino crime family",
+      "target": "Lucchese crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Magaddino family was part of an alliance opposing Gagliano on the Commission.",
+      "time_period": "1940s-1950s"
+    },
+    {
+      "source": "Mangano crime family",
+      "target": "Lucchese crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Mangano family was part of an alliance opposing Gagliano on the Commission.",
+      "time_period": "1940s-1950s"
     }
   ],
   "source_file": "Tommy_Lucchese"

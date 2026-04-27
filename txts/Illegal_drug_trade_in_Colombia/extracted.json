@@ -15,7 +15,7 @@
         "Cali's Gentlemen"
       ],
       "type": "cartel",
-      "context": "Drug trafficking cartel based in Cali, founded by the Rodríguez Orejuela brothers, active 1977-1995.",
+      "context": "Drug trafficking cartel based in Cali, founded by the Rodríguez Orejuela brothers, active from 1977 to 1995.",
       "time_period": "1977-1995"
     },
     {
@@ -25,7 +25,7 @@
         "North Valley Cartel"
       ],
       "type": "cartel",
-      "context": "Drug cartel operating in northern Valle del Cauca, prominent after Cali and Medellín fragmented, active 1990-2012.",
+      "context": "Drug cartel operating in northern Valle del Cauca, prominent after the fragmentation of Cali and Medellín cartels, active from 1990 to 2012.",
       "time_period": "1990-2012"
     },
     {
@@ -43,29 +43,19 @@
         "bandas criminales"
       ],
       "type": "other",
-      "context": "Colombian criminal bands that emerged after the fall of major cartels.",
+      "context": "Colombian criminal bands that emerged after the fragmentation of major cartels.",
       "time_period": "2000s-present"
     },
     {
       "standard_name": "FARC",
-      "original_text_name": "FARC guerrillas",
+      "original_text_name": "FARC",
       "aliases": [
         "Fuerzas Armadas Revolucionarias de Colombia",
         "Revolutionary Armed Forces of Colombia"
       ],
       "type": "militia",
-      "context": "Leftist guerrilla group that controlled coca-growing regions and turned to drug trade for revenue.",
-      "time_period": "1964-present"
-    },
-    {
-      "standard_name": "Los Pepes",
-      "original_text_name": "Los Pepes",
-      "aliases": [
-        "Perseguidos por Pablo Escobar"
-      ],
-      "type": "faction",
-      "context": "Vigilante group formed by Cali Cartel and others to hunt Pablo Escobar.",
-      "time_period": "1992-1993"
+      "context": "Leftist guerrilla group that controlled coca-growing regions and turned to drug trafficking for revenue.",
+      "time_period": "1964-2017"
     },
     {
       "standard_name": "United Self-Defense Forces of Colombia",
@@ -74,8 +64,18 @@
         "AUC"
       ],
       "type": "militia",
-      "context": "Right-wing paramilitary organization classified as terrorist, employed by Norte del Valle Cartel.",
+      "context": "Right-wing paramilitary organization classified as a terrorist group, employed by the Norte del Valle Cartel.",
       "time_period": "1997-2006"
+    },
+    {
+      "standard_name": "Los Pepes",
+      "original_text_name": "Los Pepes",
+      "aliases": [
+        "Perseguidos por Pablo Escobar"
+      ],
+      "type": "militia",
+      "context": "Vigilante group formed to hunt Pablo Escobar, worked with the Cali Cartel and government forces.",
+      "time_period": "1992-1993"
     },
     {
       "standard_name": "Black Eagles",
@@ -148,7 +148,7 @@
         "Popular Revolutionary Antiterrorist Army of Colombia"
       ],
       "type": "militia",
-      "context": "Paramilitary group and drug trafficking organization; leader Pedro Guerrero died in 2010.",
+      "context": "Paramilitary group and drug trafficking organization; leader Pedro Guerrero killed in 2010.",
       "time_period": "2006-2010"
     },
     {
@@ -170,18 +170,28 @@
     {
       "standard_name": "Ejército Popular de Liberación",
       "original_text_name": "Ejército Popular de Liberación",
-      "aliases": [],
+      "aliases": [
+        "EPL"
+      ],
       "type": "cartel",
       "context": "Former guerrilla movement, considered a drug cartel as of 2013.",
-      "time_period": "2006-present"
+      "time_period": "1960s-present"
     },
     {
       "standard_name": "Office of Envigado",
       "original_text_name": "Office of Envigado",
       "aliases": [],
       "type": "cartel",
-      "context": "Former enforcement wing for the Medellín Cartel; inherited turf and business connections.",
+      "context": "Former enforcement wing for the Medellín Cartel that inherited their turf and business connections.",
       "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Mexico-based drug trafficking cartel with major influence over cocaine trafficking from Colombia.",
+      "time_period": "1980s-present"
     },
     {
       "standard_name": "ELN",
@@ -200,16 +210,8 @@
         "United Self-Defense Forces of Colombia"
       ],
       "type": "militia",
-      "context": "Right-wing paramilitary group that grew out of private armies of cocaine cartels; demobilized in 2000s.",
+      "context": "Right-wing paramilitary group that grew out of private armies of cocaine cartels; demobilized in 2006.",
       "time_period": "1997-2006"
-    },
-    {
-      "standard_name": "Sinaloa Cartel",
-      "original_text_name": "Sinaloa Cartel",
-      "aliases": [],
-      "type": "cartel",
-      "context": "Mexico-based drug cartel; held major influence over cocaine trafficking from Colombia.",
-      "time_period": "1980s-present"
     }
   ],
   "edges": [
@@ -218,15 +220,15 @@
       "target": "Cali Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Cali Cartel helped form Los Pepes to hunt Pablo Escobar, indicating rivalry.",
-      "time_period": "1992-1993"
+      "context": "The Cali Cartel helped in the manhunt that led to Pablo Escobar's death, indicating rivalry.",
+      "time_period": "1980s-1993"
     },
     {
       "source": "Cali Cartel",
       "target": "Los Pepes",
       "relationship": "alliance",
       "detail": null,
-      "context": "Cali Cartel helped form Los Pepes to target Medellín Cartel.",
+      "context": "The Cali Cartel helped form Los Pepes to target Pablo Escobar.",
       "time_period": "1992-1993"
     },
     {
@@ -234,21 +236,22 @@
       "target": "United Self-Defense Forces of Colombia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Norte del Valle Cartel employed AUC to protect drug routes and labs.",
+      "context": "The Norte del Valle Cartel employed the AUC to protect its drug routes and laboratories.",
       "time_period": "1990s-2000s"
     },
     {
-      "source": "North Coast Cartel",
-      "target": "North Coast Cartel",
-      "relationship": "other",
-      "detail": "self-reference",
-      "context": "The text describes the North Coast Cartel's internal operations and leadership.",
-      "time_period": null
+      "source": "Medellín Cartel",
+      "target": "FARC",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Conflicts emerged between the Medellín Cartel and guerrillas, leading the cartel to promote paramilitary groups.",
+      "time_period": "1980s-1993"
     },
     {
-      "source": "Medellín Cartel",
-      "target": "Office of Envigado",
+      "source": "Office of Envigado",
+      "target": "Medellín Cartel",
       "relationship": "alliance",
+      "detail": null,
       "context": "Office of Envigado was the former enforcement wing for the Medellín Cartel.",
       "time_period": "1990s"
     },
@@ -257,7 +260,7 @@
       "target": "Medellín Cartel",
       "relationship": "other",
       "detail": "successor",
-      "context": "Norte del Valle Cartel inherited drug routes after the fall of Medellín and Cali cartels.",
+      "context": "Norte del Valle Cartel inherited drug routes after the fall of Medellín Cartel.",
       "time_period": "1990s"
     },
     {
@@ -265,230 +268,160 @@
       "target": "Cali Cartel",
       "relationship": "other",
       "detail": "successor",
-      "context": "Norte del Valle Cartel inherited drug routes after the fall of Medellín and Cali cartels.",
+      "context": "Norte del Valle Cartel inherited drug routes after the fall of Cali Cartel.",
       "time_period": "1990s"
-    },
-    {
-      "source": "FARC",
-      "target": "ELN",
-      "relationship": "alliance",
-      "context": "Both are leftist guerrilla groups that controlled coca-growing regions and taxed coca-paste sales.",
-      "time_period": "1990s-present"
     },
     {
       "source": "AUC",
       "target": "Medellín Cartel",
       "relationship": "alliance",
+      "detail": null,
       "context": "AUC grew out of private armies of cocaine cartels, including Medellín.",
-      "time_period": "1990s-2000s"
+      "time_period": "1990s-2006"
     },
     {
       "source": "AUC",
       "target": "Cali Cartel",
       "relationship": "alliance",
+      "detail": null,
       "context": "AUC grew out of private armies of cocaine cartels, including Cali.",
-      "time_period": "1990s-2000s"
+      "time_period": "1990s-2006"
     },
     {
       "source": "Black Eagles",
       "target": "AUC",
-      "relationship": "other",
-      "detail": "successor",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Black Eagles are a successor paramilitary group that emerged after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
       "source": "Los Rastrojos",
       "target": "AUC",
-      "relationship": "other",
-      "detail": "successor",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Los Rastrojos are a successor criminal organization after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
       "source": "Los Urabeños",
       "target": "AUC",
-      "relationship": "other",
-      "detail": "successor",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Los Urabeños are a successor criminal organization after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
       "source": "Los Paisas",
       "target": "AUC",
-      "relationship": "other",
-      "detail": "successor",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Los Paisas are a successor criminal organization after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
       "source": "Los Machos",
       "target": "AUC",
-      "relationship": "other",
-      "detail": "successor",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Los Machos are a successor criminal organization after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
       "source": "Los Gaitanistas",
       "target": "AUC",
-      "relationship": "other",
-      "detail": "successor",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Los Gaitanistas are a successor criminal organization after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
       "source": "Renacer",
       "target": "AUC",
-      "relationship": "other",
-      "detail": "successor",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Renacer is a successor criminal organization after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
       "source": "Nueva Generación",
       "target": "AUC",
-      "relationship": "other",
-      "detail": "successor",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Nueva Generación is a successor criminal organization after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
       "source": "ERPAC",
       "target": "AUC",
-      "relationship": "other",
-      "detail": "successor",
+      "relationship": "alliance",
+      "detail": null,
       "context": "ERPAC is a successor paramilitary group after AUC demobilization.",
       "time_period": "2006-2010"
     },
     {
       "source": "Bloque Meta",
       "target": "AUC",
-      "relationship": "other",
-      "detail": "successor",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Bloque Meta is a successor paramilitary group after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
       "source": "Libertadores del Vichada",
       "target": "AUC",
-      "relationship": "other",
-      "detail": "successor",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Libertadores del Vichada is a successor paramilitary group after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
       "source": "Ejército Popular de Liberación",
       "target": "AUC",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "Ejército Popular de Liberación is a successor criminal organization after AUC demobilization.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "EPL is a successor criminal organization after AUC demobilization.",
+      "time_period": "2006-present"
+    },
+    {
+      "source": "Office of Envigado",
+      "target": "AUC",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Office of Envigado is a successor criminal organization after AUC demobilization.",
       "time_period": "2006-present"
     },
     {
       "source": "Sinaloa Cartel",
       "target": "North Coast Cartel",
       "relationship": "alliance",
-      "context": "Sinaloa Cartel held major influence over trafficking of cocaine originating from Colombia, likely cooperating with North Coast Cartel.",
-      "time_period": "2000s-2010s"
+      "detail": null,
+      "context": "Sinaloa Cartel held major influence over trafficking of cocaine originating in Colombia, likely cooperating with North Coast Cartel.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "FARC",
+      "target": "ELN",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both are leftist guerrilla groups that controlled coca-growing regions and taxed coca-paste sales.",
+      "time_period": "1964-present"
     },
     {
       "source": "FARC",
       "target": "AUC",
       "relationship": "rivalry",
+      "detail": null,
       "context": "FARC and AUC are opposing forces in the Colombian conflict; AUC targeted leftist sympathizers.",
-      "time_period": "1990s-2000s"
+      "time_period": "1997-2006"
     },
     {
-      "source": "FARC",
-      "target": "Black Eagles",
+      "source": "ELN",
+      "target": "AUC",
       "relationship": "rivalry",
-      "context": "Successor groups like Black Eagles are in collusion with and opposition to FARC guerrillas.",
-      "time_period": "2006-present"
-    },
-    {
-      "source": "FARC",
-      "target": "Los Rastrojos",
-      "relationship": "rivalry",
-      "context": "Successor groups like Los Rastrojos are in collusion with and opposition to FARC guerrillas.",
-      "time_period": "2006-present"
-    },
-    {
-      "source": "FARC",
-      "target": "Los Urabeños",
-      "relationship": "rivalry",
-      "context": "Successor groups like Los Urabeños are in collusion with and opposition to FARC guerrillas.",
-      "time_period": "2006-present"
-    },
-    {
-      "source": "FARC",
-      "target": "Los Paisas",
-      "relationship": "rivalry",
-      "context": "Successor groups like Los Paisas are in collusion with and opposition to FARC guerrillas.",
-      "time_period": "2006-present"
-    },
-    {
-      "source": "FARC",
-      "target": "Los Machos",
-      "relationship": "rivalry",
-      "context": "Successor groups like Los Machos are in collusion with and opposition to FARC guerrillas.",
-      "time_period": "2006-present"
-    },
-    {
-      "source": "FARC",
-      "target": "Los Gaitanistas",
-      "relationship": "rivalry",
-      "context": "Successor groups like Los Gaitanistas are in collusion with and opposition to FARC guerrillas.",
-      "time_period": "2006-present"
-    },
-    {
-      "source": "FARC",
-      "target": "Renacer",
-      "relationship": "rivalry",
-      "context": "Successor groups like Renacer are in collusion with and opposition to FARC guerrillas.",
-      "time_period": "2006-present"
-    },
-    {
-      "source": "FARC",
-      "target": "Nueva Generación",
-      "relationship": "rivalry",
-      "context": "Successor groups like Nueva Generación are in collusion with and opposition to FARC guerrillas.",
-      "time_period": "2006-present"
-    },
-    {
-      "source": "FARC",
-      "target": "ERPAC",
-      "relationship": "rivalry",
-      "context": "Successor groups like ERPAC are in collusion with and opposition to FARC guerrillas.",
-      "time_period": "2006-2010"
-    },
-    {
-      "source": "FARC",
-      "target": "Bloque Meta",
-      "relationship": "rivalry",
-      "context": "Successor groups like Bloque Meta are in collusion with and opposition to FARC guerrillas.",
-      "time_period": "2006-present"
-    },
-    {
-      "source": "FARC",
-      "target": "Libertadores del Vichada",
-      "relationship": "rivalry",
-      "context": "Successor groups like Libertadores del Vichada are in collusion with and opposition to FARC guerrillas.",
-      "time_period": "2006-present"
-    },
-    {
-      "source": "FARC",
-      "target": "Ejército Popular de Liberación",
-      "relationship": "rivalry",
-      "context": "Successor groups like Ejército Popular de Liberación are in collusion with and opposition to FARC guerrillas.",
-      "time_period": "2006-present"
-    },
-    {
-      "source": "FARC",
-      "target": "Office of Envigado",
-      "relationship": "rivalry",
-      "context": "Successor groups like Office of Envigado are in collusion with and opposition to FARC guerrillas.",
-      "time_period": "2006-present"
+      "detail": null,
+      "context": "ELN and AUC are opposing forces in the Colombian conflict.",
+      "time_period": "1997-2006"
     }
   ],
   "source_file": "Illegal_drug_trade_in_Colombia"

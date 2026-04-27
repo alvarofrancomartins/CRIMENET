@@ -8,23 +8,15 @@
         "HSN"
       ],
       "type": "other",
-      "context": "Neo-Nazi group focused on white power music and recruitment, active in US and internationally.",
+      "context": "Neo-Nazi group focused on white power music and recruitment, with chapters worldwide.",
       "time_period": "1988-present"
-    },
-    {
-      "standard_name": "9% Productions",
-      "original_text_name": "9% Productions",
-      "aliases": [],
-      "type": "other",
-      "context": "Record label affiliated with Hammerskins, producing white power rock music.",
-      "time_period": null
     },
     {
       "standard_name": "Confederate Hammerskins",
       "original_text_name": "Confederate Hammerskins",
       "aliases": [],
       "type": "other",
-      "context": "Predecessor group to Hammerskins, based in Dallas, Texas.",
+      "context": "Predecessor group to the Hammerskins, based in Dallas, Texas.",
       "time_period": "late 1980s"
     },
     {
@@ -32,23 +24,15 @@
       "original_text_name": "Outlaw Hammerskins",
       "aliases": [],
       "type": "other",
-      "context": "Defunct faction of Hammerskins that attended NordicFest and planned security for a KKK festival.",
+      "context": "Defunct faction of the Hammerskins that attended NordicFest and planned security for a KKK event.",
       "time_period": "early 2000s"
-    },
-    {
-      "standard_name": "National Knights of the Ku Klux Klan",
-      "original_text_name": "National Knights of the Ku Klux Klan",
-      "aliases": [],
-      "type": "other",
-      "context": "White supremacist group that hosted a white pride festival with planned security by Outlaw Hammerskins.",
-      "time_period": null
     },
     {
       "standard_name": "Southern Cross Hammerskins",
       "original_text_name": "Southern Cross Hammerskins",
       "aliases": [],
       "type": "other",
-      "context": "Australian chapter of Hammerskins, founded 1993, active in multiple cities.",
+      "context": "Australian chapter of the Hammerskins, founded in 1993, active in multiple cities.",
       "time_period": "1993-present"
     },
     {
@@ -56,63 +40,49 @@
       "original_text_name": "Crew 38",
       "aliases": [],
       "type": "other",
-      "context": "Support group for Hammerskins, used as online forum name and for Australian supporters.",
+      "context": "Support group for Hammerskins, used as a moniker for supporters in Australia and Finland.",
       "time_period": "2009-present"
     },
     {
-      "standard_name": "Blood & Honour Australia",
-      "original_text_name": "Blood & Honour Australia",
-      "aliases": [],
-      "type": "other",
-      "context": "Neo-Nazi group that co-hosted the Ian Stuart Donaldson Memorial Concert with Southern Cross Hammerskins.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Crew 38 Finland",
-      "original_text_name": "Crew 38 Finland",
-      "aliases": [],
-      "type": "other",
-      "context": "Finnish branch of Hammerskins, active in Helsinki and Jyväskylä.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Blood & Honour Finland",
+      "standard_name": "Blood & Honour",
       "original_text_name": "Blood & Honour",
       "aliases": [],
       "type": "other",
-      "context": "Finnish neo-Nazi group that organizes White Boy Summer Fest with Hammerskins and Veren Laki.",
-      "time_period": null
+      "context": "Neo-Nazi music network and group, allied with Hammerskins in Australia and Finland.",
+      "time_period": "1980s-present"
     },
     {
       "standard_name": "Veren Laki",
       "original_text_name": "Veren Laki",
       "aliases": [],
       "type": "other",
-      "context": "Neo-Nazi combat sports collective connected to Nordic Resistance Movement, co-organizes White Boy Summer Fest.",
-      "time_period": null
+      "context": "Neo-Nazi combat sports collective connected to the Nordic Resistance Movement, allied with Hammerskins in Finland.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "Nordic Resistance Movement",
       "original_text_name": "Nordic Resistance Movement",
       "aliases": [],
       "type": "other",
-      "context": "Neo-Nazi group connected to Veren Laki.",
-      "time_period": null
+      "context": "Neo-Nazi organization, connected to Veren Laki.",
+      "time_period": "1997-present"
     },
     {
       "standard_name": "Atomwaffen Division",
       "original_text_name": "Atomwaffen",
-      "aliases": [],
+      "aliases": [
+        "Atomwaffen Division"
+      ],
       "type": "other",
-      "context": "Neo-Nazi terrorist group whose Finnish members frequented Crew 38 headquarters.",
-      "time_period": null
+      "context": "Neo-Nazi terrorist group, whose Finnish members frequented Crew 38 headquarters.",
+      "time_period": "2013-present"
     },
     {
       "standard_name": "Lealtà e Azione",
       "original_text_name": "Lealtà e Azione",
       "aliases": [],
       "type": "other",
-      "context": "Italian chapter of Hammerskins, founded in Milan, with branches in several cities.",
+      "context": "Italian chapter of the Hammerskins, with branches in multiple cities.",
       "time_period": "2010-present"
     },
     {
@@ -121,72 +91,104 @@
       "aliases": [],
       "type": "other",
       "context": "Antiabortion branch of Lealtà e Azione.",
-      "time_period": null
+      "time_period": "unknown"
     },
     {
       "standard_name": "Rise Above Movement",
       "original_text_name": "Rise Above Movement",
       "aliases": [],
       "type": "other",
-      "context": "Affiliated group listed in infobox.",
-      "time_period": null
+      "context": "American far-right group, affiliated with Hammerskins per infobox.",
+      "time_period": "2016-present"
     },
     {
       "standard_name": "Blue-and-Black Movement",
       "original_text_name": "Blue-and-Black Movement",
       "aliases": [],
       "type": "other",
-      "context": "Affiliated group listed in infobox.",
-      "time_period": null
+      "context": "Far-right group, affiliated with Hammerskins per infobox.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "National Knights of the Ku Klux Klan",
+      "original_text_name": "National Knights of the Ku Klux Klan",
+      "aliases": [],
+      "type": "other",
+      "context": "KKK group that hosted a white pride festival where Outlaw Hammerskins planned to provide security.",
+      "time_period": "unknown"
     }
   ],
   "edges": [
     {
       "source": "Hammerskins",
-      "target": "9% Productions",
+      "target": "Confederate Hammerskins",
       "relationship": "alliance",
       "detail": null,
-      "context": "Hammerskins were affiliated with the record label 9% Productions.",
-      "time_period": null
-    },
-    {
-      "source": "Hammerskins",
-      "target": "Confederate Hammerskins",
-      "relationship": "other",
-      "detail": "predecessor",
-      "context": "Hammerskins emerged from the Confederate Hammerskins in the late 1980s.",
+      "context": "Hammerskins emerged from the Confederate Hammerskins.",
       "time_period": "late 1980s"
     },
     {
       "source": "Outlaw Hammerskins",
-      "target": "National Knights of the Ku Klux Klan",
+      "target": "Hammerskins",
       "relationship": "alliance",
       "detail": null,
-      "context": "Outlaw Hammerskins planned to provide security for a white pride festival hosted by the National Knights of the Ku Klux Klan.",
-      "time_period": "2002"
+      "context": "Outlaw Hammerskins were a faction of the Hammerskins.",
+      "time_period": "early 2000s"
     },
     {
       "source": "Southern Cross Hammerskins",
-      "target": "Blood & Honour Australia",
+      "target": "Hammerskins",
       "relationship": "alliance",
       "detail": null,
-      "context": "Southern Cross Hammerskins and Blood & Honour Australia co-hosted the annual Ian Stuart Donaldson Memorial Concert in 2019.",
+      "context": "Southern Cross Hammerskins is the Australian chapter of the Hammerskins.",
+      "time_period": "1993-present"
+    },
+    {
+      "source": "Crew 38",
+      "target": "Hammerskins",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Crew 38 is a support group for Hammerskins.",
+      "time_period": "2009-present"
+    },
+    {
+      "source": "Lealtà e Azione",
+      "target": "Hammerskins",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Lealtà e Azione is the Italian chapter of the Hammerskins.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Bran.co",
+      "target": "Lealtà e Azione",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bran.co is the antiabortion branch of Lealtà e Azione.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Southern Cross Hammerskins",
+      "target": "Blood & Honour",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Southern Cross Hammerskins and Blood & Honour Australia co-hosted the Ian Stuart Donaldson Memorial Concert.",
       "time_period": "2019"
     },
     {
-      "source": "Crew 38 Finland",
-      "target": "Blood & Honour Finland",
+      "source": "Crew 38",
+      "target": "Blood & Honour",
       "relationship": "alliance",
       "detail": null,
-      "context": "Crew 38 Finland and Blood & Honour Finland co-organize White Boy Summer Fest.",
+      "context": "Finnish Blood & Honour organized White Boy Summer Fest together with Hammerskins (Crew 38) and Veren Laki.",
       "time_period": "since 2022"
     },
     {
-      "source": "Crew 38 Finland",
+      "source": "Crew 38",
       "target": "Veren Laki",
       "relationship": "alliance",
       "detail": null,
-      "context": "Crew 38 Finland, Blood & Honour Finland, and Veren Laki co-organize White Boy Summer Fest.",
+      "context": "Crew 38, Blood & Honour, and Veren Laki co-organized White Boy Summer Fest.",
       "time_period": "since 2022"
     },
     {
@@ -195,23 +197,15 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Veren Laki is a neo-Nazi combat sports collective connected to the Nordic Resistance Movement.",
-      "time_period": null
+      "time_period": "unknown"
     },
     {
-      "source": "Crew 38 Finland",
-      "target": "Atomwaffen Division",
+      "source": "Atomwaffen Division",
+      "target": "Crew 38",
       "relationship": "alliance",
       "detail": null,
-      "context": "Finnish Atomwaffen members frequented the Crew 38 headquarters, and a Canadian Atomwaffen member visited and trained with Hammerskins in Finland.",
-      "time_period": null
-    },
-    {
-      "source": "Lealtà e Azione",
-      "target": "Bran.co",
-      "relationship": "other",
-      "detail": "subsidiary",
-      "context": "Bran.co is the antiabortion branch of Lealtà e Azione.",
-      "time_period": null
+      "context": "Finnish Atomwaffen members frequented Crew 38 headquarters; a Canadian Atomwaffen member trained with Hammerskins in Finland.",
+      "time_period": "unknown"
     },
     {
       "source": "Hammerskins",
@@ -219,7 +213,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Infobox lists Rise Above Movement as an affiliation.",
-      "time_period": null
+      "time_period": "unknown"
     },
     {
       "source": "Hammerskins",
@@ -227,7 +221,15 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Infobox lists Blue-and-Black Movement as an affiliation.",
-      "time_period": null
+      "time_period": "unknown"
+    },
+    {
+      "source": "Outlaw Hammerskins",
+      "target": "National Knights of the Ku Klux Klan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Outlaw Hammerskins planned to provide security for a white pride festival hosted by the National Knights of the Ku Klux Klan.",
+      "time_period": "2002"
     }
   ],
   "source_file": "Hammerskins"

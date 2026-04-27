@@ -66,7 +66,7 @@
       "standard_name": "COR",
       "original_text_name": "COR",
       "aliases": [],
-      "type": "other",
+      "type": "militia",
       "context": "Puerto Rican militant group classified by FBI as requiring full investigation.",
       "time_period": null
     },
@@ -74,7 +74,7 @@
       "standard_name": "MLN",
       "original_text_name": "MLN",
       "aliases": [],
-      "type": "other",
+      "type": "militia",
       "context": "Puerto Rican militant group classified by FBI as requiring full investigation.",
       "time_period": null
     }
@@ -82,27 +82,11 @@
   "edges": [
     {
       "source": "Boricua Popular Army",
-      "target": "Volunteers",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "EPB revealed it was working in conjunction with the Volunteers in September 1979.",
-      "time_period": "1979"
-    },
-    {
-      "source": "Boricua Popular Army",
-      "target": "FARP",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "EPB revealed it was working in conjunction with FARP in September 1979.",
-      "time_period": "1979"
-    },
-    {
-      "source": "Boricua Popular Army",
-      "target": "FALN",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "EPB revealed it was working in conjunction with FALN in September 1979.",
-      "time_period": "1979"
+      "target": "Macheteros de Puerto Rico",
+      "relationship": "other",
+      "detail": "namesake",
+      "context": "EPB symbolically adopted the name Machetero from the historical Macheteros de Puerto Rico.",
+      "time_period": null
     },
     {
       "source": "Macheteros de Puerto Rico",
@@ -122,35 +106,27 @@
     },
     {
       "source": "Boricua Popular Army",
+      "target": "Volunteers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "EPB revealed it was working in conjunction with the Volunteers in 1979.",
+      "time_period": "1979-1986"
+    },
+    {
+      "source": "Boricua Popular Army",
       "target": "FARP",
-      "relationship": "other",
-      "detail": "co-classified",
-      "context": "Both groups were classified by the FBI as requiring full investigation under the Levi guidelines.",
-      "time_period": "1980s"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "EPB revealed it was working in conjunction with FARP in 1979.",
+      "time_period": "1979-1986"
     },
     {
       "source": "Boricua Popular Army",
       "target": "FALN",
-      "relationship": "other",
-      "detail": "co-classified",
-      "context": "Both groups were classified by the FBI as requiring full investigation under the Levi guidelines.",
-      "time_period": "1980s"
-    },
-    {
-      "source": "Boricua Popular Army",
-      "target": "COR",
-      "relationship": "other",
-      "detail": "co-classified",
-      "context": "Both groups were classified by the FBI as requiring full investigation under the Levi guidelines.",
-      "time_period": "1980s"
-    },
-    {
-      "source": "Boricua Popular Army",
-      "target": "MLN",
-      "relationship": "other",
-      "detail": "co-classified",
-      "context": "Both groups were classified by the FBI as requiring full investigation under the Levi guidelines.",
-      "time_period": "1980s"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "EPB revealed it was working in conjunction with FALN in 1979.",
+      "time_period": "1979"
     }
   ],
   "source_file": "Boricua_Popular_Army"

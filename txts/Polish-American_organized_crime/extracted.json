@@ -8,7 +8,7 @@
         "Polish-American organized crime"
       ],
       "type": "other",
-      "context": "Polish-American organized crime group active in the US since the 1920s, involved in drug trafficking, racketeering, and other crimes.",
+      "context": "Polish-American organized crime group active in many urban Polish American communities.",
       "time_period": "1920s-present"
     },
     {
@@ -16,7 +16,7 @@
       "original_text_name": "Chicago Outfit",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian-American crime syndicate based in Chicago, led by Al Capone during Prohibition.",
+      "context": "Italian-American crime syndicate based in Chicago.",
       "time_period": "1910s-present"
     },
     {
@@ -24,7 +24,7 @@
       "original_text_name": "North Side Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Mostly Irish-American gang with Polish presence, operated in Chicago during Prohibition.",
+      "context": "Mostly Irish-American gang with Polish presence, active in Chicago during Prohibition.",
       "time_period": "1920s-1930s"
     },
     {
@@ -35,7 +35,7 @@
         "Philadelphia Polish Mob"
       ],
       "type": "gang",
-      "context": "Polish-American gang operating in Philadelphia, involved in drug trafficking, bookmaking, and loansharking.",
+      "context": "Polish-American organized crime group operating from Port Richmond area in Philadelphia.",
       "time_period": "1990s-present"
     },
     {
@@ -43,24 +43,32 @@
       "original_text_name": "K&A Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Irish-American gang controlling Northeast Philadelphia.",
-      "time_period": "unknown"
+      "context": "Irish-American gang controlling most of Northeast Philadelphia.",
+      "time_period": "1960s-present"
     },
     {
       "standard_name": "Greenpoint Crew",
       "original_text_name": "Greenpoint Crew",
       "aliases": [],
       "type": "gang",
-      "context": "Polish criminal organization based in Greenpoint, Brooklyn, involved in gunrunning, armed robbery, and drug trafficking.",
+      "context": "Polish criminal organization based in Greenpoint, Brooklyn, involved in various crimes.",
       "time_period": "2000s"
     },
     {
-      "standard_name": "Korney Gang",
-      "original_text_name": "Korney Gang",
+      "standard_name": "Irish Mob",
+      "original_text_name": "Irish Mob",
       "aliases": [],
-      "type": "gang",
-      "context": "Polish-American gang led by John 'Korney' Kwiatkowski in Buffalo, New York, involved in murders and robberies.",
-      "time_period": "Prohibition era"
+      "type": "other",
+      "context": "Irish-American organized crime groups.",
+      "time_period": "19th century-present"
+    },
+    {
+      "standard_name": "Russian Mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Russian organized crime groups operating in the US and abroad.",
+      "time_period": "1970s-present"
     }
   ],
   "edges": [
@@ -69,24 +77,32 @@
       "target": "Chicago Outfit",
       "relationship": "alliance",
       "detail": null,
-      "context": "During Prohibition, Polish-American gangsters Joseph Saltis and Jake Guzik allied with Al Capone's Chicago Outfit.",
+      "context": "Polish Mob allied with Chicago Outfit during Prohibition.",
       "time_period": "1920s-1930s"
     },
     {
-      "source": "North Side Gang",
-      "target": "Chicago Outfit",
+      "source": "Polish Mob",
+      "target": "Irish Mob",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The North Side Gang fought against Al Capone's Chicago Outfit during Prohibition.",
-      "time_period": "1920s-1930s"
+      "context": "Polish Mob rivals with Irish Mob.",
+      "time_period": null
+    },
+    {
+      "source": "Polish Mob",
+      "target": "Russian Mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Polish Mob rivals with Russian Mafia.",
+      "time_period": null
     },
     {
       "source": "Kielbasa Posse",
       "target": "K&A Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Kielbasa Posse does not have a good relationship with the K&A Gang, which controls most of Northeast Philly.",
-      "time_period": "unknown"
+      "context": "Kielbasa Posse does not have a good relationship with K&A Gang.",
+      "time_period": null
     }
   ],
   "source_file": "Polish-American_organized_crime"

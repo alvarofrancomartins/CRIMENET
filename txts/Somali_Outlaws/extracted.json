@@ -3,7 +3,9 @@
     {
       "standard_name": "Somali Outlaws",
       "original_text_name": "Somali Outlaws",
-      "aliases": [],
+      "aliases": [
+        "Outlaws"
+      ],
       "type": "gang",
       "context": "Somali American street gang based in Minneapolis–Saint Paul, involved in drugs and human trafficking.",
       "time_period": "2000s-present"
@@ -13,7 +15,7 @@
       "original_text_name": "Hot Boyz",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang of Somali Outlaws in Minneapolis–Saint Paul area.",
+      "context": "Rival gang of the Somali Outlaws in Minneapolis–Saint Paul.",
       "time_period": null
     },
     {
@@ -21,7 +23,7 @@
       "original_text_name": "Madhiban With Attitude",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang of Somali Outlaws in Minneapolis–Saint Paul area.",
+      "context": "Rival gang of the Somali Outlaws in Minneapolis–Saint Paul.",
       "time_period": null
     },
     {
@@ -29,7 +31,7 @@
       "original_text_name": "1627 Boys",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang of Somali Outlaws, named after a high-rise apartment building in Cedar-Riverside.",
+      "context": "Rival gang of the Somali Outlaws, named after a high-rise apartment building in Cedar-Riverside.",
       "time_period": null
     },
     {
@@ -37,17 +39,25 @@
       "original_text_name": "East African Posse",
       "aliases": [],
       "type": "gang",
-      "context": "Ally of Somali Outlaws.",
+      "context": "Ally of the Somali Outlaws.",
       "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Somali Outlaws",
+      "target": "East African Posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Somali Outlaws are allied with the East African Posse.",
+      "time_period": null
+    },
+    {
+      "source": "Somali Outlaws",
       "target": "Hot Boyz",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Main rivals; shootings on one gang's turf lead to retaliatory shootings.",
+      "context": "The Somali Outlaws' main rivals include Hot Boyz.",
       "time_period": null
     },
     {
@@ -55,7 +65,7 @@
       "target": "Madhiban With Attitude",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Main rivals; shootings on one gang's turf lead to retaliatory shootings.",
+      "context": "The Somali Outlaws' main rivals include Madhiban With Attitude.",
       "time_period": null
     },
     {
@@ -63,15 +73,7 @@
       "target": "1627 Boys",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Main rivals; shootings on one gang's turf lead to retaliatory shootings.",
-      "time_period": null
-    },
-    {
-      "source": "Somali Outlaws",
-      "target": "East African Posse",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Allies according to infobox.",
+      "context": "The Somali Outlaws' main rivals include 1627 Boys.",
       "time_period": null
     }
   ],

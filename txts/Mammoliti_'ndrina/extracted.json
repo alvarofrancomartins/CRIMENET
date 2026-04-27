@@ -8,7 +8,7 @@
         "Mammoliti-Rugolo clan"
       ],
       "type": "clan",
-      "context": "Powerful 'Ndrangheta clan based in Castellace and Oppido Mamertina, Calabria. Involved in racketeering, kidnapping, extortion, and land acquisition.",
+      "context": "Powerful clan of the 'Ndrangheta based in Castellace and Oppido Mamertina, Calabria. Involved in racketeering, kidnapping, extortion, and land acquisition.",
       "time_period": "1930s-present"
     },
     {
@@ -16,7 +16,7 @@
       "original_text_name": "'Ndrangheta",
       "aliases": [],
       "type": "mafia",
-      "context": "Criminal and mafia-type organisation in Calabria, southern Italy.",
+      "context": "Criminal and mafia-type organization in Calabria, southern Italy.",
       "time_period": "19th century-present"
     },
     {
@@ -24,8 +24,8 @@
       "original_text_name": "Rugolo clan",
       "aliases": [],
       "type": "clan",
-      "context": "'Ndrangheta clan closely linked to the Mammoliti clan through intermarriage.",
-      "time_period": "unknown"
+      "context": "Clan closely linked to the Mammoliti clan through intermarriage, often referred to together as Mammoliti-Rugolo clan.",
+      "time_period": null
     },
     {
       "standard_name": "Barbaro 'ndrina",
@@ -34,8 +34,8 @@
         "Barbaro clan"
       ],
       "type": "clan",
-      "context": "'Ndrangheta clan involved in a bloody feud with the Mammoliti clan in the 1950s.",
-      "time_period": "unknown"
+      "context": "Clan involved in a bloody feud with the Mammoliti clan in the 1950s in Castellace. Eventually moved to Platì.",
+      "time_period": "1950s-1978"
     },
     {
       "standard_name": "Piromalli 'ndrina",
@@ -44,8 +44,8 @@
         "Piromalli clan"
       ],
       "type": "clan",
-      "context": "Powerful 'Ndrangheta family closely linked to the Mammoliti-Rugolo clan.",
-      "time_period": "unknown"
+      "context": "Powerful 'Ndrangheta family closely linked to the Mammoliti-Rugolo clan. Involved in land expropriations and the Getty kidnapping.",
+      "time_period": null
     },
     {
       "standard_name": "Mazzafero 'ndrina",
@@ -53,16 +53,16 @@
       "aliases": [],
       "type": "clan",
       "context": "'Ndrangheta clan closely linked to the Mammoliti-Rugolo clan.",
-      "time_period": "unknown"
+      "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Mammoliti 'ndrina",
       "target": "'Ndrangheta",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Mammoliti 'ndrina is a clan of the 'Ndrangheta.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mammoliti 'ndrina is a clan of the 'Ndrangheta.",
       "time_period": "1930s-present"
     },
     {
@@ -70,24 +70,24 @@
       "target": "Rugolo clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Closely linked through intermarriage, often referred to as the Mammoliti-Rugolo clan.",
-      "time_period": "unknown"
+      "context": "Closely linked through intermarriage, often referred to as Mammoliti-Rugolo clan.",
+      "time_period": null
     },
     {
       "source": "Mammoliti 'ndrina",
       "target": "Barbaro 'ndrina",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Bloody feud in the 1950s; Mammoliti clan prevailed and Barbaro clan moved to Platì.",
-      "time_period": "1950s-1978"
+      "context": "Bloody feud in the 1950s; Mammoliti clan prevailed and Barbaro moved to Platì.",
+      "time_period": "1954-1978"
     },
     {
       "source": "Mammoliti 'ndrina",
       "target": "Piromalli 'ndrina",
       "relationship": "alliance",
       "detail": null,
-      "context": "Closely linked; involved together in kidnappings and land acquisition.",
-      "time_period": "unknown"
+      "context": "Closely linked; collaborated in land expropriations and the Getty kidnapping.",
+      "time_period": null
     },
     {
       "source": "Mammoliti 'ndrina",
@@ -95,7 +95,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Closely linked to the Mammoliti-Rugolo clan.",
-      "time_period": "unknown"
+      "time_period": null
     }
   ],
   "source_file": "Mammoliti_'ndrina"

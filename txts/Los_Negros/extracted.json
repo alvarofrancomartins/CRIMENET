@@ -7,7 +7,7 @@
         "The Black Ones"
       ],
       "type": "other",
-      "context": "Armed wing of Sinaloa Cartel and later Beltrán-Leyva Cartel, then independent paramilitary unit.",
+      "context": "Armed wing of Sinaloa Cartel and later Beltrán-Leyva Cartel; became independent in 2010.",
       "time_period": "2003-2010"
     },
     {
@@ -15,7 +15,7 @@
       "original_text_name": "Sinaloa Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Major drug trafficking cartel in Mexico, originally had Los Negros as armed wing.",
+      "context": "Major drug trafficking cartel in Mexico; Los Negros was its armed wing.",
       "time_period": "1980s-present"
     },
     {
@@ -23,29 +23,31 @@
       "original_text_name": "Beltrán-Leyva Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Sinaloa splinter cartel, later employed Los Negros as armed wing.",
-      "time_period": "2000s-2010s"
+      "context": "Splinter group from Sinaloa Cartel; Los Negros became its armed wing after switching alliances.",
+      "time_period": "2008-2014"
     },
     {
       "standard_name": "Los Zetas",
       "original_text_name": "Los Zetas",
       "aliases": [],
       "type": "cartel",
-      "context": "Rival cartel to Los Negros, fought for control of Nuevo Laredo corridor.",
-      "time_period": "1990s-present"
+      "context": "Originally armed wing of Gulf Cartel, later independent; rival of Los Negros.",
+      "time_period": "1999-present"
     },
     {
       "standard_name": "Gulf Cartel",
       "original_text_name": "Gulf Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Rival cartel to Los Negros, fought for control of Nuevo Laredo.",
-      "time_period": "1970s-present"
+      "context": "Drug cartel based in Tamaulipas; rival of Los Negros.",
+      "time_period": "1930s-present"
     },
     {
       "standard_name": "Mexican Mafia",
       "original_text_name": "Mexican Mafia",
-      "aliases": [],
+      "aliases": [
+        "La Eme"
+      ],
       "type": "gang",
       "context": "Prison gang employed by Los Negros to carry out murders.",
       "time_period": "1950s-present"
@@ -61,28 +63,30 @@
       "time_period": "1980s-present"
     },
     {
-      "standard_name": "Los Chachos",
-      "original_text_name": "Los Chachos",
-      "aliases": [],
-      "type": "gang",
-      "context": "Gang from Nuevo Laredo whose remnants formed Los Negros.",
-      "time_period": "unknown"
-    },
-    {
       "standard_name": "Israeli Mafia",
       "original_text_name": "Israeli Mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Allied with Los Negros, led by Benjamin Yeshurun Sutchi.",
-      "time_period": "unknown"
+      "context": "Criminal organization led by Benjamin Yeshurun Sutchi; allied with Los Negros.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Los Chachos",
+      "original_text_name": "Los Chachos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Gang from Nuevo Laredo; remnants formed Los Negros.",
+      "time_period": null
     },
     {
       "standard_name": "La Familia Cartel",
       "original_text_name": "La Familia Cartel",
-      "aliases": [],
+      "aliases": [
+        "La Familia Michoacana"
+      ],
       "type": "cartel",
-      "context": "Rival cartel to Los Negros.",
-      "time_period": "2000s-2010s"
+      "context": "Drug cartel based in Michoacán; listed as rival of Los Negros.",
+      "time_period": "2006-2011"
     }
   ],
   "edges": [
@@ -99,7 +103,7 @@
       "target": "Beltrán-Leyva Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "After switching alliances, Los Negros became the armed wing of the Beltrán-Leyva Cartel.",
+      "context": "Los Negros became the armed wing of the Beltrán-Leyva Cartel after switching alliances.",
       "time_period": "2008-2010"
     },
     {
@@ -107,7 +111,7 @@
       "target": "Beltrán-Leyva Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "In 2010 Los Negros went independent and contested control of the Beltrán-Leyva Cartel.",
+      "context": "After going independent in 2010, Los Negros contested control of the Beltrán-Leyva Cartel.",
       "time_period": "2010"
     },
     {
@@ -115,7 +119,7 @@
       "target": "Los Zetas",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Los Negros fought Los Zetas for control of the Nuevo Laredo drug corridor.",
+      "context": "Los Negros was formed to counter Los Zetas and fought them in Nuevo Laredo.",
       "time_period": "2003-2010"
     },
     {
@@ -123,7 +127,7 @@
       "target": "Gulf Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Los Negros battled the Gulf Cartel for control of Nuevo Laredo.",
+      "context": "Los Negros fought the Gulf Cartel for control of the Nuevo Laredo corridor.",
       "time_period": "2003-2010"
     },
     {
@@ -132,7 +136,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Los Negros employed the Mexican Mafia to carry out murders.",
-      "time_period": "2003-2010"
+      "time_period": null
     },
     {
       "source": "Los Negros",
@@ -140,31 +144,31 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Los Negros employed MS-13 to carry out murders and other illegal activities.",
-      "time_period": "2003-2010"
-    },
-    {
-      "source": "Los Negros",
-      "target": "Los Chachos",
-      "relationship": "other",
-      "detail": "formed from remnants",
-      "context": "Los Negros was formed from the remnants of the Los Chachos gang.",
-      "time_period": "2003"
+      "time_period": null
     },
     {
       "source": "Los Negros",
       "target": "Israeli Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Negros was allied with the Israeli Mafia, led by Benjamin Yeshurun Sutchi.",
-      "time_period": "unknown"
+      "context": "Los Negros was allied with the Israeli Mafia, whose leader was a friend of Valdez.",
+      "time_period": null
+    },
+    {
+      "source": "Los Negros",
+      "target": "Los Chachos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Negros was formed from the remnants of the Los Chachos gang.",
+      "time_period": "2003"
     },
     {
       "source": "Los Negros",
       "target": "La Familia Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Los Negros had La Familia Cartel as a rival.",
-      "time_period": "unknown"
+      "context": "La Familia Cartel is listed as a rival of Los Negros.",
+      "time_period": null
     }
   ],
   "source_file": "Los_Negros"

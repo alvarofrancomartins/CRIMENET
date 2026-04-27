@@ -5,7 +5,7 @@
       "original_text_name": "X-Team",
       "aliases": [],
       "type": "gang",
-      "context": "Support gang for Bandidos Motorcycle Club, involved in drug trafficking, extortion, robbery, assault, murder. Operates in multiple countries.",
+      "context": "Support gang for Bandidos Motorcycle Club, involved in drug trafficking, extortion, and violence across Scandinavia and Europe.",
       "time_period": "1997-present"
     },
     {
@@ -15,7 +15,7 @@
         "Bandidos"
       ],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club with which X-Team is associated. Uses X-Team as a youth branch for criminal activities.",
+      "context": "Outlaw motorcycle club with chapters worldwide; X-Team acts as its youth/support wing.",
       "time_period": "1966-present"
     },
     {
@@ -23,16 +23,8 @@
       "original_text_name": "Red & White Crew",
       "aliases": [],
       "type": "gang",
-      "context": "Support gang for Hells Angels, equivalent to X-Team. Involved in conflicts with X-Team in Denmark and Sweden.",
-      "time_period": "unknown"
-    },
-    {
-      "standard_name": "Hells Angels",
-      "original_text_name": "Hells Angels",
-      "aliases": [],
-      "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club, rival of Bandidos. Red & White Crew is their support gang.",
-      "time_period": "1948-present"
+      "context": "Support gang for Hells Angels, equivalent to X-Team; involved in conflicts with X-Team.",
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Original Gangsters",
@@ -41,18 +33,19 @@
         "OGs"
       ],
       "type": "gang",
-      "context": "Swedish gang involved in conflict with X-Team in Gothenburg.",
-      "time_period": "unknown"
+      "context": "Swedish criminal gang involved in conflict with X-Team in Gothenburg.",
+      "time_period": "2000s-present"
     },
     {
-      "standard_name": "Södertälje mafia",
+      "standard_name": "Södertäljenätverket",
       "original_text_name": "Södertälje mafia",
       "aliases": [
+        "Södertälje mafia",
         "Södertäljenätverket"
       ],
-      "type": "mafia",
-      "context": "Swedish criminal network in Södertälje, involved in turf war with X-Team.",
-      "time_period": "unknown"
+      "type": "gang",
+      "context": "Criminal network in Södertälje, Sweden; engaged in turf war with X-Team.",
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Gremium Motorcycle Club",
@@ -61,8 +54,8 @@
         "Gremium MC"
       ],
       "type": "motorcycle_club",
-      "context": "Motorcycle club in Germany, rival of X-Team.",
-      "time_period": "unknown"
+      "context": "German motorcycle club; rival of Bandidos and X-Team.",
+      "time_period": "1970s-present"
     },
     {
       "standard_name": "Mexican Team Work",
@@ -70,7 +63,7 @@
       "aliases": [],
       "type": "gang",
       "context": "Youth branch of Bandidos formed after X-Team disbanded in Denmark.",
-      "time_period": "unknown"
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Gårdstensalliansen",
@@ -79,8 +72,16 @@
         "Gårdstens Alliance"
       ],
       "type": "gang",
-      "context": "Swedish gang in Gothenburg, rival of X-Team over drug trade.",
-      "time_period": "unknown"
+      "context": "Swedish gang in Gothenburg; fought X-Team for drug trade control.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club; parent organization of Red & White Crew.",
+      "time_period": "1948-present"
     },
     {
       "standard_name": "Bronx '95",
@@ -88,7 +89,7 @@
       "aliases": [],
       "type": "gang",
       "context": "Support club intended as precursor to Bandidos chapter in Trondheim, Norway.",
-      "time_period": "1995"
+      "time_period": "1995-1995"
     }
   ],
   "edges": [
@@ -97,72 +98,64 @@
       "target": "Bandidos Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "X-Team is a support gang for Bandidos, carrying out crimes on their behalf.",
+      "context": "X-Team is a support/satellite gang for Bandidos, carrying out crimes on their behalf.",
       "time_period": "1997-present"
-    },
-    {
-      "source": "X-Team",
-      "target": "Red & White Crew",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Gang war in Næstved, Denmark (2002) and Gothenburg, Sweden (2006-2009).",
-      "time_period": "2002-2009"
     },
     {
       "source": "Red & White Crew",
       "target": "Hells Angels",
       "relationship": "alliance",
       "detail": null,
-      "context": "Red & White Crew is the Hells Angels' equivalent of X-Team.",
-      "time_period": "unknown"
+      "context": "Red & White Crew is the Hells Angels' equivalent of X-Team, acting as a support gang.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "X-Team",
+      "target": "Red & White Crew",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gang war in Næstved (2002) and Gothenburg (2006-2009) involving shootings and arson.",
+      "time_period": "2002-2009"
     },
     {
       "source": "X-Team",
       "target": "Original Gangsters",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Conflict initiated by nightclub altercation in Gothenburg, 2002.",
+      "context": "Conflict triggered by nightclub altercation in 2002, leading to murders and bombings.",
       "time_period": "2002-2007"
     },
     {
       "source": "X-Team",
-      "target": "Södertälje mafia",
+      "target": "Södertäljenätverket",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Turf war over control of Södertälje's criminal market, 2009-2010.",
-      "time_period": "2009-2010"
+      "context": "Turf war over Södertälje's criminal market, resulting in multiple murders and shootings.",
+      "time_period": "2009-2012"
     },
     {
       "source": "X-Team",
       "target": "Gremium Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "X-Team member forced a Gremium member off the road in Germany, 2012.",
+      "context": "X-Team member forced a Gremium MC member off the road in 2012.",
       "time_period": "2012"
     },
     {
       "source": "X-Team",
       "target": "Mexican Team Work",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "Bandidos formed Mexican Team Work after X-Team disbanded in Denmark.",
-      "time_period": "after 2002"
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Mexican Team Work is a later Bandidos youth branch; X-Team was disbanded in Denmark.",
+      "time_period": "2000s"
     },
     {
       "source": "X-Team",
       "target": "Gårdstensalliansen",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Struggle for drug trade control in Gothenburg, 2008.",
-      "time_period": "2008"
-    },
-    {
-      "source": "Bandidos Motorcycle Club",
-      "target": "Hells Angels",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Rival motorcycle clubs; X-Team and Red & White Crew are their respective support gangs.",
-      "time_period": "unknown"
+      "context": "Struggle for drug trade control in Gothenburg; X-Team forced out after a member was killed.",
+      "time_period": "2008-2009"
     },
     {
       "source": "Bronx '95",
@@ -170,6 +163,14 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Bronx '95 was intended as a precursor to a Bandidos chapter in Trondheim.",
+      "time_period": "1995"
+    },
+    {
+      "source": "Bronx '95",
+      "target": "Hells Angels",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Two Bronx '95 members were shot and wounded by Hells Angels in 1995.",
       "time_period": "1995"
     }
   ],

@@ -2,19 +2,27 @@
   "nodes": [
     {
       "standard_name": "Clan Sacco-Bocchetti",
-      "original_text_name": "clan Sacco-Bocchetti",
+      "original_text_name": "Clan Sacco-Bocchetti",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan operating in the northeast suburbs of Naples, specifically San Pietro a Patierno and Secondigliano.",
-      "time_period": null
+      "context": "Camorra clan operating in the northeastern suburbs of Naples, specifically San Pietro a Patierno and Secondigliano.",
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Alleanza di Secondigliano",
       "original_text_name": "Alleanza di Secondigliano",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra alliance founded by Gaetano Bocchetti, active in Secondigliano.",
-      "time_period": null
+      "context": "Camorra alliance founded by Gaetano Bocchetti, operating in Secondigliano.",
+      "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Clan Manzo",
+      "original_text_name": "clan Manzo",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan whose accountant Gaetano Manzo worked for the Sacco-Bocchetti clan.",
+      "time_period": "2000s-present"
     }
   ],
   "edges": [
@@ -23,8 +31,16 @@
       "target": "Alleanza di Secondigliano",
       "relationship": "alliance",
       "detail": null,
-      "context": "Gaetano Bocchetti, co-founder of the clan, was also the founder of the Alleanza di Secondigliano, indicating close ties.",
-      "time_period": null
+      "context": "Gaetano Bocchetti, co-founder of the Sacco-Bocchetti clan, was the founder of the Alleanza di Secondigliano.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Clan Manzo",
+      "target": "Clan Sacco-Bocchetti",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Gaetano Manzo, accountant of the Manzo clan, managed finances and drug supply for the Sacco-Bocchetti clan.",
+      "time_period": "2000s-2017"
     }
   ],
   "source_file": "Clan_Sacco-Bocchetti"

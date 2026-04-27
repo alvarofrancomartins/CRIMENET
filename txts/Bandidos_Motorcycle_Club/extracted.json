@@ -17,40 +17,40 @@
       "original_text_name": "Hells Angels",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Major outlaw motorcycle club, rival of Bandidos, involved in organized crime.",
-      "time_period": "1948-present"
+      "context": "Major outlaw motorcycle club, rival of Bandidos in Nordic countries and Canada.",
+      "time_period": null
     },
     {
       "standard_name": "Outlaws Motorcycle Club",
       "original_text_name": "Outlaws",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "One of the 'big four' motorcycle gangs, rival of Bandidos.",
-      "time_period": "1935-present"
+      "context": "One of the 'big four' motorcycle gangs in the US.",
+      "time_period": null
     },
     {
       "standard_name": "Pagans Motorcycle Club",
       "original_text_name": "Pagans",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "One of the 'big four' motorcycle gangs, rival of Bandidos.",
-      "time_period": "1959-present"
+      "context": "One of the 'big four' motorcycle gangs in the US.",
+      "time_period": null
     },
     {
       "standard_name": "Rock Machine Motorcycle Club",
       "original_text_name": "Rock Machine Motorcycle Club",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Montreal-based motorcycle club that merged with Bandidos in 2000.",
-      "time_period": "1980s-2000"
+      "context": "Montreal-based club that merged with Bandidos in 2000.",
+      "time_period": null
     },
     {
       "standard_name": "Comanchero Motorcycle Club",
       "original_text_name": "Comanchero Motorcycle Club",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Australian motorcycle club; former members founded Bandidos' first Australian chapter.",
-      "time_period": "1968-present"
+      "context": "Australian club; former members founded the first Bandidos chapter in Australia.",
+      "time_period": null
     },
     {
       "standard_name": "Diablos Motorcycle Club",
@@ -58,31 +58,31 @@
       "aliases": [],
       "type": "motorcycle_club",
       "context": "Motorcycle club in Pattaya, Thailand; merged with Bandidos in 2001.",
-      "time_period": "unknown-present"
+      "time_period": null
     },
     {
       "standard_name": "Finks Motorcycle Club",
       "original_text_name": "Finks",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Australian motorcycle club, part of the 'big six'.",
-      "time_period": "1969-present"
+      "context": "One of the 'big six' motorcycle gangs in Australia.",
+      "time_period": null
     },
     {
       "standard_name": "Mongols Motorcycle Club",
       "original_text_name": "Mongols",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club, part of the 'big six' in Australia.",
-      "time_period": "1969-present"
+      "context": "One of the 'big six' motorcycle gangs in Australia.",
+      "time_period": null
     },
     {
       "standard_name": "Rebels Motorcycle Club",
       "original_text_name": "Rebels",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Australian motorcycle club, part of the 'big six'.",
-      "time_period": "1969-present"
+      "context": "One of the 'big six' motorcycle gangs in Australia.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -91,7 +91,7 @@
       "target": "Hells Angels Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Violent feud in the Nordic countries during the 1990s; Bandidos ceded Quebec to Hells Angels in 2003.",
+      "context": "Violent feud in the Nordic countries in the 1990s; Bandidos ceded Quebec to Hells Angels in 2003.",
       "time_period": "1990s-2003"
     },
     {
@@ -99,15 +99,15 @@
       "target": "Rock Machine Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Merger in 2000 to expand into Canada.",
+      "context": "Merger in 2000 to establish Bandidos in Canada.",
       "time_period": "2000"
     },
     {
       "source": "Bandidos Motorcycle Club",
       "target": "Comanchero Motorcycle Club",
-      "relationship": "other",
-      "detail": "former members founded chapter",
-      "context": "First Australian chapter founded by former Comanchero members in 1983.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "First Australian chapter founded by former Comanchero members.",
       "time_period": "1983"
     },
     {
@@ -115,7 +115,7 @@
       "target": "Diablos Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Merger in 2001 to establish presence in Thailand.",
+      "context": "Merger in 2001 to establish Bandidos in Thailand.",
       "time_period": "2001"
     }
   ],

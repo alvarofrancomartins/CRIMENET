@@ -4,8 +4,8 @@
       "standard_name": "Iron Guard",
       "original_text_name": "Iron Guard",
       "aliases": [],
-      "type": "other",
-      "context": "Fascist political movement in Romania that officially installed death squads in 1936 to kill political enemies.",
+      "type": "militia",
+      "context": "Fascist group in Romania that officially installed death squads in 1936 to kill political enemies.",
       "time_period": "1930s"
     },
     {
@@ -14,8 +14,8 @@
       "aliases": [
         "Death Squad"
       ],
-      "type": "other",
-      "context": "Brazilian death squad that emerged in the 1960s, targeting political opponents.",
+      "type": "militia",
+      "context": "Brazilian death squad that emerged in the 1960s.",
       "time_period": "1960s"
     },
     {
@@ -24,23 +24,23 @@
       "aliases": [
         "Triple A"
       ],
-      "type": "other",
-      "context": "Far-right death squad active during Argentina's Dirty War, targeting leftists.",
+      "type": "militia",
+      "context": "Far-right death squad active during Argentina's Dirty War.",
       "time_period": "1970s"
     },
     {
       "standard_name": "Battalion 316",
       "original_text_name": "Battalion 316",
       "aliases": [],
-      "type": "other",
-      "context": "Honduran army unit death squad active in the 1980s, assassinating hundreds.",
+      "type": "militia",
+      "context": "Honduran army death squad active through the 1980s, trained by CIA.",
       "time_period": "1980s"
     },
     {
       "standard_name": "Iron Guard of Egypt",
       "original_text_name": "Iron Guard of Egypt",
       "aliases": [],
-      "type": "other",
+      "type": "militia",
       "context": "Pro-palace secret organization in the Kingdom of Egypt that assassinated enemies of King Farouk.",
       "time_period": "1930s-1950s"
     },
@@ -49,8 +49,38 @@
       "original_text_name": "Al-Shabaab",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Islamist militant group based in Somalia, with associates in Kenya targeted by death squads.",
+      "context": "Islamist militant group based in Somalia, with associates in Kenya.",
       "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "African National Congress",
+      "original_text_name": "African National Congress",
+      "aliases": [
+        "ANC"
+      ],
+      "type": "other",
+      "context": "South African political party that had an armed wing, Umkhonto we Sizwe, during apartheid.",
+      "time_period": "1912-present"
+    },
+    {
+      "standard_name": "South African Communist Party",
+      "original_text_name": "South African Communist Party",
+      "aliases": [
+        "SACP"
+      ],
+      "type": "other",
+      "context": "Political party allied with ANC during anti-apartheid struggle.",
+      "time_period": "1921-present"
+    },
+    {
+      "standard_name": "Pan Africanist Congress",
+      "original_text_name": "Pan-Africanist Congress",
+      "aliases": [
+        "PAC"
+      ],
+      "type": "other",
+      "context": "South African political movement that campaigned against apartheid.",
+      "time_period": "1959-present"
     },
     {
       "standard_name": "Umkhonto we Sizwe",
@@ -58,9 +88,9 @@
       "aliases": [
         "MK"
       ],
-      "type": "other",
-      "context": "Armed wing of the African National Congress, engaged in bombings and targeted killings during apartheid.",
-      "time_period": "1960s-1990s"
+      "type": "militia",
+      "context": "Armed wing of the African National Congress during apartheid.",
+      "time_period": "1961-1993"
     },
     {
       "standard_name": "Civil Cooperation Bureau",
@@ -68,7 +98,7 @@
       "aliases": [
         "CCB"
       ],
-      "type": "other",
+      "type": "militia",
       "context": "Death squad used by the apartheid South African government.",
       "time_period": "1980s-1990s"
     },
@@ -78,16 +108,16 @@
       "aliases": [
         "Vlakplaas"
       ],
-      "type": "other",
-      "context": "South African Police counter-insurgency unit commanded by Eugene de Kock, involved in torture and killings.",
+      "type": "militia",
+      "context": "South African Police counter-insurgency unit commanded by Eugene de Kock, based at Vlakplaas.",
       "time_period": "1980s-1990s"
     },
     {
       "standard_name": "La 42",
       "original_text_name": "la 42",
       "aliases": [],
-      "type": "other",
-      "context": "Death squad under Rafael Trujillo in the Dominican Republic, led by Miguel Angel Paulino.",
+      "type": "militia",
+      "context": "Death squad employed by Rafael Trujillo in the Dominican Republic, led by Miguel Angel Paulino.",
       "time_period": "1930s-1961"
     },
     {
@@ -96,23 +126,23 @@
       "aliases": [
         "La Banda Colorá"
       ],
-      "type": "other",
-      "context": "Death squad under Joaquín Balaguer in the Dominican Republic, continued practices of la 42.",
+      "type": "militia",
+      "context": "Death squad active during Joaquín Balaguer's regime in the Dominican Republic.",
       "time_period": "1960s-1990s"
     },
     {
       "standard_name": "Tonton Macoute",
       "original_text_name": "Tonton Macoute",
       "aliases": [],
-      "type": "other",
-      "context": "Paramilitary force created by Haitian dictator François Duvalier, murdered tens of thousands.",
+      "type": "militia",
+      "context": "Paramilitary force created in 1959 by Haitian dictator François Duvalier, murdered thousands.",
       "time_period": "1959-1986"
     },
     {
       "standard_name": "Red Shirts",
       "original_text_name": "Red Shirts",
       "aliases": [],
-      "type": "other",
+      "type": "militia",
       "context": "Paramilitary force used by Mexican President Plutarco Elías Calles against Catholics during the Cristero War.",
       "time_period": "1920s-1930s"
     },
@@ -120,8 +150,8 @@
       "standard_name": "Cristeros",
       "original_text_name": "Cristeros",
       "aliases": [],
-      "type": "other",
-      "context": "Peasant army that revolted against the Mexican state during the Cristero War, committed atrocities.",
+      "type": "militia",
+      "context": "Armed peasant revolt against the Mexican state during the Cristero War.",
       "time_period": "1927-1929"
     },
     {
@@ -130,8 +160,8 @@
       "aliases": [
         "The Hawks"
       ],
-      "type": "other",
-      "context": "Mexican paramilitary group used to attack political dissidents after the Tlatelolco massacre.",
+      "type": "militia",
+      "context": "Paramilitary group used by Mexican government to attack political dissidents after the 1968 Tlatelolco massacre.",
       "time_period": "1960s-1970s"
     },
     {
@@ -140,7 +170,7 @@
       "aliases": [
         "White Brigade"
       ],
-      "type": "other",
+      "type": "militia",
       "context": "Mexican paramilitary group used to hunt and exterminate political dissidents.",
       "time_period": "1970s-1980s"
     },
@@ -151,15 +181,15 @@
         "DFS"
       ],
       "type": "other",
-      "context": "Mexican intelligence agency that acted as a death squad for drug cartels, killing DEA agents and journalists.",
-      "time_period": "1970s-1980s"
+      "context": "Mexican intelligence agency that acted as a death squad, involved in drug cartel collusion and killings.",
+      "time_period": "1947-1985"
     },
     {
       "standard_name": "Juárez Cartel",
       "original_text_name": "Juárez Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel led by Amado Carrillo Fuentes, known for air smuggling.",
+      "context": "Mexican drug cartel led by Amado Carrillo Fuentes, known as 'Lord of the Skies'.",
       "time_period": "1980s-2000s"
     },
     {
@@ -168,14 +198,14 @@
       "aliases": [],
       "type": "cartel",
       "context": "Mexican drug cartel that formed Los Zetas as its death squad.",
-      "time_period": "1980s-present"
+      "time_period": "1970s-present"
     },
     {
       "standard_name": "Los Zetas",
       "original_text_name": "Los Zetas",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel originally formed as the death squad of the Gulf Cartel, later became independent.",
+      "context": "Originally the death squad of the Gulf Cartel, later became an independent cartel.",
       "time_period": "1990s-present"
     },
     {
@@ -184,8 +214,8 @@
       "aliases": [
         "EZLN"
       ],
-      "type": "other",
-      "context": "Mexican insurgent group targeted by PRI death squads in the Chiapas conflict.",
+      "type": "militia",
+      "context": "Mexican revolutionary group involved in the Chiapas conflict.",
       "time_period": "1994-present"
     },
     {
@@ -193,7 +223,7 @@
       "original_text_name": "Guerreros Unidos",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel involved in the 2014 disappearance of 43 students, colluding with police.",
+      "context": "Mexican drug cartel involved in the 2014 disappearance of 43 students.",
       "time_period": "2000s-present"
     },
     {
@@ -208,7 +238,7 @@
       "standard_name": "Gente Nueva",
       "original_text_name": "Gente Nueva",
       "aliases": [],
-      "type": "faction",
+      "type": "gang",
       "context": "Enforcer death squad for the Sinaloa Cartel.",
       "time_period": "2000s-present"
     },
@@ -216,7 +246,7 @@
       "standard_name": "Los Ántrax",
       "original_text_name": "Los Ántrax",
       "aliases": [],
-      "type": "faction",
+      "type": "gang",
       "context": "Enforcer death squad for the Sinaloa Cartel.",
       "time_period": "2000s-present"
     },
@@ -228,7 +258,7 @@
         "Los Matazetas"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel that operated as death squad Los Matazetas to eliminate Los Zetas.",
+      "context": "Mexican drug cartel that operated under the name Los Matazetas, targeting Los Zetas.",
       "time_period": "2009-present"
     },
     {
@@ -245,8 +275,8 @@
       "standard_name": "The Executioners",
       "original_text_name": "The Executioners",
       "aliases": [],
-      "type": "other",
-      "context": "Alleged secret death squad within Los Angeles County Sheriff's Department's Compton station.",
+      "type": "gang",
+      "context": "Secret death squad within Los Angeles County Sheriff's Department's Compton station, alleged to carry out extrajudicial killings.",
       "time_period": "2020"
     },
     {
@@ -266,7 +296,7 @@
       "time_period": "1980s"
     },
     {
-      "standard_name": "Battalion 3–16",
+      "standard_name": "Battalion 3-16",
       "original_text_name": "Battalion 3–16",
       "aliases": [
         "Battalion 316"
@@ -291,7 +321,7 @@
       "aliases": [],
       "type": "militia",
       "context": "Chilean Army murder gang that executed at least 75 people in 1973.",
-      "time_period": "September-October 1973"
+      "time_period": "1973"
     },
     {
       "standard_name": "AUC",
@@ -317,7 +347,7 @@
       "aliases": [],
       "type": "terrorist_organization",
       "context": "Peruvian Maoist guerrilla group targeted by government death squads.",
-      "time_period": "1980s-1990s"
+      "time_period": "1980s-present"
     },
     {
       "standard_name": "Túpac Amaru Revolutionary Movement",
@@ -336,8 +366,8 @@
         "FAES"
       ],
       "type": "other",
-      "context": "Venezuelan government death squad accused of extrajudicial executions.",
-      "time_period": "2010s-present"
+      "context": "Venezuelan government unit accused of extrajudicial executions.",
+      "time_period": "2010s"
     },
     {
       "standard_name": "Taliban",
@@ -352,7 +382,7 @@
       "original_text_name": "Al Qaeda",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Global terrorist group, targets of CIA-backed Afghan forces.",
+      "context": "Global jihadist group, targeted by CIA-backed Afghan forces.",
       "time_period": "1988-present"
     },
     {
@@ -362,24 +392,14 @@
         "Islamic State"
       ],
       "type": "terrorist_organization",
-      "context": "Terrorist group targeted by CIA-backed Afghan death squads.",
-      "time_period": "2014-present"
-    },
-    {
-      "standard_name": "Rapid Action Battalion",
-      "original_text_name": "Rapid Action Battalion",
-      "aliases": [
-        "RAB"
-      ],
-      "type": "other",
-      "context": "Bangladeshi police unit accused of extrajudicial killings and torture.",
-      "time_period": "2004-present"
+      "context": "Jihadist group, targeted by CIA-backed Afghan forces.",
+      "time_period": "2013-present"
     },
     {
       "standard_name": "Khmer Rouge",
       "original_text_name": "Khmer Rouge",
       "aliases": [],
-      "type": "terrorist_organization",
+      "type": "other",
       "context": "Cambodian communist regime that used death squads to purge opponents.",
       "time_period": "1975-1979"
     },
@@ -390,7 +410,7 @@
         "ULFA"
       ],
       "type": "terrorist_organization",
-      "context": "Assamese insurgent group targeted by government death squads.",
+      "context": "Assamese insurgent group whose relatives were killed by death squads.",
       "time_period": "1979-present"
     },
     {
@@ -400,7 +420,7 @@
         "Surrendered ULFA"
       ],
       "type": "other",
-      "context": "Former ULFA militants used by Assam government in death squads.",
+      "context": "Former ULFA militants who joined government death squads in Assam.",
       "time_period": "1998-2001"
     },
     {
@@ -410,16 +430,16 @@
         "PKI"
       ],
       "type": "other",
-      "context": "Indonesian leftist party massacred by military and paramilitary death squads.",
-      "time_period": "1965-1966"
+      "context": "Indonesian communist party targeted by death squads in 1965-66.",
+      "time_period": "1914-1966"
     },
     {
       "standard_name": "Hezbollah",
       "original_text_name": "Hezbollah",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Lebanese militant group that used death squads like Unit 121.",
-      "time_period": "1985-present"
+      "context": "Lebanese militant group that used death squads during civil war.",
+      "time_period": "1982-present"
     },
     {
       "standard_name": "Unit 121",
@@ -469,7 +489,7 @@
       "aliases": [],
       "type": "militia",
       "context": "Syrian army division with affiliated militias.",
-      "time_period": "2010s"
+      "time_period": "2000s"
     },
     {
       "standard_name": "Tiger Forces",
@@ -485,7 +505,7 @@
       "aliases": [],
       "type": "other",
       "context": "Syrian intelligence agency with affiliated militias.",
-      "time_period": "2010s"
+      "time_period": "1960s-present"
     },
     {
       "standard_name": "Nawaphon",
@@ -516,8 +536,8 @@
       "original_text_name": "Grey Wolves",
       "aliases": [],
       "type": "other",
-      "context": "Turkish ultranationalist organization that acted as a death squad in the 1970s-80s.",
-      "time_period": "1960s-1980s"
+      "context": "Turkish ultranationalist organization that acted as a death squad in the 1970s.",
+      "time_period": "1960s-present"
     },
     {
       "standard_name": "Special Organization",
@@ -525,15 +545,7 @@
       "aliases": [],
       "type": "other",
       "context": "Ottoman death squad during the Armenian genocide.",
-      "time_period": "1915-1917"
-    },
-    {
-      "standard_name": "White Guard",
-      "original_text_name": "White Guard",
-      "aliases": [],
-      "type": "militia",
-      "context": "Finnish anti-communist militia that executed leftists during the 1918 civil war.",
-      "time_period": "1918"
+      "time_period": "1915-1918"
     },
     {
       "standard_name": "Ustaše",
@@ -542,7 +554,7 @@
         "Ustaša – Croatian Revolutionary Movement"
       ],
       "type": "other",
-      "context": "Croatian fascist organization that murdered Serbs, Jews, Roma, and dissidents during WWII.",
+      "context": "Croatian fascist organization that murdered hundreds of thousands during WWII.",
       "time_period": "1929-1945"
     },
     {
@@ -550,34 +562,24 @@
       "original_text_name": "Freikorps",
       "aliases": [],
       "type": "militia",
-      "context": "German right-wing militias that suppressed communist uprisings after WWI.",
-      "time_period": "1918-1920s"
+      "context": "German paramilitary militias used to suppress communist uprisings after WWI.",
+      "time_period": "1918-1920"
     },
     {
       "standard_name": "Organisation Consul",
       "original_text_name": "Organisation Consul",
       "aliases": [],
       "type": "other",
-      "context": "German ultranationalist group that assassinated politicians in the Weimar Republic.",
-      "time_period": "1920s"
+      "context": "Ultranationalist German group that assassinated politicians after WWI.",
+      "time_period": "1920-1922"
     },
     {
       "standard_name": "Rotfrontkämpferbund",
       "original_text_name": "Rotfrontkämpferbund",
       "aliases": [],
       "type": "other",
-      "context": "Communist Party of Germany's assassination squad during the Weimar era.",
+      "context": "Communist Party of Germany's assassination squad during the Weimar Republic.",
       "time_period": "1920s-1930s"
-    },
-    {
-      "standard_name": "Sturmabteilung",
-      "original_text_name": "Sturmabteilung",
-      "aliases": [
-        "SA"
-      ],
-      "type": "militia",
-      "context": "Nazi paramilitary group purged in the Night of the Long Knives.",
-      "time_period": "1920s-1934"
     },
     {
       "standard_name": "Einsatzgruppen",
@@ -585,25 +587,26 @@
       "aliases": [],
       "type": "other",
       "context": "Nazi mobile death squads that murdered millions during the Holocaust.",
-      "time_period": "1941-1944"
+      "time_period": "1941-1945"
     },
     {
       "standard_name": "Stasi",
       "original_text_name": "Stasi",
       "aliases": [],
       "type": "other",
-      "context": "East German secret police that used death squads and trained foreign terrorists.",
-      "time_period": "1950-1989"
+      "context": "East German secret police that carried out assassinations and trained foreign terrorists.",
+      "time_period": "1950-1990"
     },
     {
       "standard_name": "Rote Armee Fraktion",
       "original_text_name": "Rote Armee Fraktion",
       "aliases": [
-        "RAF"
+        "RAF",
+        "Red Army Faction"
       ],
       "type": "terrorist_organization",
-      "context": "West German left-wing militant group trained by the Stasi.",
-      "time_period": "1970s-1990s"
+      "context": "West German left-wing militant group that carried out bombings and assassinations.",
+      "time_period": "1970-1998"
     },
     {
       "standard_name": "Manuel Rodríguez Patriotic Front",
@@ -611,7 +614,7 @@
       "aliases": [],
       "type": "terrorist_organization",
       "context": "Chilean left-wing guerrilla group trained by the Stasi.",
-      "time_period": "1980s"
+      "time_period": "1983-1999"
     },
     {
       "standard_name": "Popular Front for the Liberation of Palestine",
@@ -620,7 +623,7 @@
         "PFLP"
       ],
       "type": "terrorist_organization",
-      "context": "Palestinian militant group trained by the Stasi.",
+      "context": "Palestinian Marxist-Leninist group trained by the Stasi.",
       "time_period": "1967-present"
     },
     {
@@ -631,25 +634,25 @@
       ],
       "type": "terrorist_organization",
       "context": "Palestinian militant group trained by the Stasi.",
-      "time_period": "1974-2000s"
+      "time_period": "1974-2002"
     },
     {
       "standard_name": "Black September",
       "original_text_name": "Black September",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Palestinian militant group responsible for the 1972 Munich massacre; trained by Stasi.",
+      "context": "Palestinian militant group responsible for the 1972 Munich massacre, trained by the Stasi.",
       "time_period": "1970-1973"
     },
     {
       "standard_name": "SWAPO",
       "original_text_name": "SWAPO",
       "aliases": [
-        "South West Africa People's Organisation"
+        "South West Africa People's Organization"
       ],
       "type": "other",
       "context": "Namibian liberation movement advised by the Stasi.",
-      "time_period": "1960s-1990"
+      "time_period": "1960-1990"
     },
     {
       "standard_name": "MPLA",
@@ -659,7 +662,7 @@
       ],
       "type": "other",
       "context": "Angolan Marxist group advised by the Stasi.",
-      "time_period": "1960s-present"
+      "time_period": "1956-present"
     },
     {
       "standard_name": "FRELIMO",
@@ -668,7 +671,7 @@
         "Liberation Front of Mozambique"
       ],
       "type": "other",
-      "context": "Mozambican liberation movement advised by the Stasi.",
+      "context": "Mozambican independence movement advised by the Stasi.",
       "time_period": "1962-present"
     },
     {
@@ -678,8 +681,8 @@
         "Zimbabwe African National Liberation Army"
       ],
       "type": "other",
-      "context": "Robert Mugabe's guerrilla group advised by the Stasi.",
-      "time_period": "1960s-1980"
+      "context": "Robert Mugabe's guerrilla army advised by the Stasi.",
+      "time_period": "1965-1980"
     },
     {
       "standard_name": "Arrow Cross Party",
@@ -687,7 +690,7 @@
       "aliases": [],
       "type": "other",
       "context": "Hungarian fascist party that ran death squads during WWII.",
-      "time_period": "1944-1945"
+      "time_period": "1935-1945"
     },
     {
       "standard_name": "Black and Tans",
@@ -704,26 +707,25 @@
         "Auxies"
       ],
       "type": "militia",
-      "context": "British officer-level paramilitary force in the Irish War of Independence.",
+      "context": "British paramilitary force in the Irish War of Independence.",
       "time_period": "1920-1921"
     },
     {
       "standard_name": "Irish Republican Army",
       "original_text_name": "IRA",
       "aliases": [
-        "Irish Republican Army",
         "Anti-Treaty IRA"
       ],
       "type": "other",
-      "context": "Irish republican paramilitary group fighting for independence from Britain and later against the Anglo-Irish Treaty.",
+      "context": "Irish republican paramilitary group active in the Irish War of Independence and Civil War.",
       "time_period": "1919-1923"
     },
     {
       "standard_name": "Twelve Apostles",
       "original_text_name": "Twelve Apostles",
       "aliases": [],
-      "type": "faction",
-      "context": "An IRA assassination unit formed by Michael Collins to target British intelligence officers.",
+      "type": "other",
+      "context": "An IRA assassination unit targeting British intelligence officers.",
       "time_period": "1920-1921"
     },
     {
@@ -731,7 +733,7 @@
       "original_text_name": "Cairo Gang",
       "aliases": [],
       "type": "other",
-      "context": "A British intelligence group operating in Dublin during the Irish War of Independence.",
+      "context": "British intelligence group operating in Dublin during the Irish War of Independence.",
       "time_period": "1920-1921"
     },
     {
@@ -742,7 +744,7 @@
         "Murder Gang"
       ],
       "type": "other",
-      "context": "Irish state counter-terrorism police formed during the Civil War, known for extrajudicial killings.",
+      "context": "Irish state counter-terrorism police during the Civil War, despised by the IRA.",
       "time_period": "1922-1923"
     },
     {
@@ -751,8 +753,8 @@
       "aliases": [
         "Tsar's Dogs"
       ],
-      "type": "militia",
-      "context": "Russian death squad under Ivan the Terrible, tasked with eliminating enemies of the Tsar.",
+      "type": "other",
+      "context": "Russian death squad under Ivan the Terrible, known for torture and executions.",
       "time_period": "1565-1572"
     },
     {
@@ -760,7 +762,7 @@
       "original_text_name": "Black Hundreds",
       "aliases": [],
       "type": "militia",
-      "context": "Ultra-nationalist paramilitary group in Tsarist Russia, allied with the Imperial Army during the 1905 Revolution.",
+      "context": "Ultra-nationalist paramilitary group allied with Tsar Nicholas II during the 1905 revolution.",
       "time_period": "1905-1917"
     },
     {
@@ -768,23 +770,23 @@
       "original_text_name": "People's Will",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Russian revolutionary group that carried out targeted assassinations, including Tsar Alexander II.",
+      "context": "Russian revolutionary group that carried out targeted killings, including Tsar Alexander II.",
       "time_period": "1878-1884"
     },
     {
       "standard_name": "Bolshevik Battle Squad",
       "original_text_name": "Bolshevik Battle Squad",
       "aliases": [],
-      "type": "faction",
-      "context": "Armed wing of the Bolsheviks involved in assassinations before the October Revolution.",
+      "type": "other",
+      "context": "Marxist death squad involved in individual terror before the October Revolution.",
       "time_period": "1900s-1917"
     },
     {
       "standard_name": "Combat Brigade of the Socialist Revolutionary Party",
       "original_text_name": "Combat Brigade of the Socialist Revolutionary Party",
       "aliases": [],
-      "type": "faction",
-      "context": "Assassination unit of the Socialist Revolutionary Party in Russia.",
+      "type": "terrorist_organization",
+      "context": "Socialist Revolutionary death squad that assassinated Grand Duke Sergei Alexandrovich.",
       "time_period": "1900s-1917"
     },
     {
@@ -792,7 +794,7 @@
       "original_text_name": "NKVD",
       "aliases": [],
       "type": "other",
-      "context": "Soviet secret police that carried out assassinations and abductions of anti-Stalinists abroad.",
+      "context": "Soviet secret police that carried out assassinations abroad, including Leon Trotsky.",
       "time_period": "1934-1946"
     },
     {
@@ -800,7 +802,7 @@
       "original_text_name": "KGB",
       "aliases": [],
       "type": "other",
-      "context": "Soviet security agency that continued assassinations of anti-communists in the post-Stalin era.",
+      "context": "Soviet secret police that assassinated Ukrainian nationalists in West Germany.",
       "time_period": "1954-1991"
     },
     {
@@ -810,23 +812,23 @@
         "OUN"
       ],
       "type": "other",
-      "context": "Ukrainian nationalist organization targeted by the NKVD.",
+      "context": "Ukrainian nationalist organization whose founder was assassinated by the NKVD.",
       "time_period": "1929-1950s"
     },
     {
-      "standard_name": "ETA",
-      "original_text_name": "ETA",
+      "standard_name": "OGPU",
+      "original_text_name": "OGPU",
       "aliases": [],
-      "type": "terrorist_organization",
-      "context": "Basque separatist group targeted by Spanish death squads.",
-      "time_period": "1959-2018"
+      "type": "other",
+      "context": "Soviet secret police that staffed Republican death squads during the Spanish Civil War.",
+      "time_period": "1923-1934"
     },
     {
       "standard_name": "Batallón Vasco Español",
       "original_text_name": "Batallón Vasco Español",
       "aliases": [],
-      "type": "militia",
-      "context": "Spanish death squad targeting ETA members.",
+      "type": "other",
+      "context": "Spanish death squad targeting ETA members, active from 1975.",
       "time_period": "1975-1987"
     },
     {
@@ -835,8 +837,8 @@
       "aliases": [
         "Alianza Apostólica Anticomunista"
       ],
-      "type": "militia",
-      "context": "Spanish far-right death squad active against ETA.",
+      "type": "other",
+      "context": "Spanish far-right death squad active in the 1970s and 1980s.",
       "time_period": "1975-1987"
     },
     {
@@ -845,9 +847,19 @@
       "aliases": [
         "GAL"
       ],
-      "type": "militia",
-      "context": "Spanish state-sponsored death squad fighting ETA.",
+      "type": "other",
+      "context": "Spanish state-sponsored death squad fighting ETA, active from 1983 to 1987.",
       "time_period": "1983-1987"
+    },
+    {
+      "standard_name": "ETA",
+      "original_text_name": "ETA",
+      "aliases": [
+        "Euskadi Ta Askatasuna"
+      ],
+      "type": "terrorist_organization",
+      "context": "Basque separatist group targeted by Spanish death squads.",
+      "time_period": "1959-2018"
     },
     {
       "standard_name": "Provisional Irish Republican Army",
@@ -857,7 +869,7 @@
         "Irish Republican Army"
       ],
       "type": "other",
-      "context": "Irish republican paramilitary organization operating death squads during the Troubles in Northern Ireland.",
+      "context": "Irish republican paramilitary organization operating death squads in Northern Ireland during the Troubles.",
       "time_period": "1960s-1990s"
     },
     {
@@ -867,8 +879,16 @@
         "MRF"
       ],
       "type": "other",
-      "context": "Disbanded British Intelligence Corps unit that operated undercover in Northern Ireland during the Troubles, described as a legalised death squad.",
+      "context": "British Intelligence Corps unit operating undercover in Northern Ireland, described as a legalised death squad.",
       "time_period": "1960s-1990s"
+    },
+    {
+      "standard_name": "Scorpions",
+      "original_text_name": "Scorpions",
+      "aliases": [],
+      "type": "militia",
+      "context": "Serbian paramilitary unit that participated in the Srebrenica massacre.",
+      "time_period": "1990s"
     },
     {
       "standard_name": "Army of Republika Srpska",
@@ -877,38 +897,38 @@
         "VRS"
       ],
       "type": "militia",
-      "context": "Bosnian Serb military force involved in the Srebrenica massacre during the Bosnian War.",
+      "context": "Bosnian Serb military force that carried out the Srebrenica massacre.",
       "time_period": "1992-1995"
-    },
-    {
-      "standard_name": "Scorpions",
-      "original_text_name": "Scorpions",
-      "aliases": [],
-      "type": "militia",
-      "context": "Serbian paramilitary unit that participated in the Srebrenica massacre.",
-      "time_period": "1991-1995"
     }
   ],
   "edges": [
     {
-      "source": "Gulf Cartel",
-      "target": "Los Zetas",
+      "source": "Umkhonto we Sizwe",
+      "target": "African National Congress",
       "relationship": "alliance",
       "detail": null,
-      "context": "Gulf Cartel formed Los Zetas as its death squad to suppress rival cartels.",
+      "context": "Umkhonto we Sizwe was the armed wing of the African National Congress.",
+      "time_period": "1961-1993"
+    },
+    {
+      "source": "Los Zetas",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Zetas were originally formed as the death squad of the Gulf Cartel.",
       "time_period": "1990s-2000s"
     },
     {
-      "source": "Sinaloa Cartel",
-      "target": "Gente Nueva",
+      "source": "Gente Nueva",
+      "target": "Sinaloa Cartel",
       "relationship": "alliance",
       "detail": null,
       "context": "Gente Nueva is an enforcer death squad for the Sinaloa Cartel.",
       "time_period": "2000s-present"
     },
     {
-      "source": "Sinaloa Cartel",
-      "target": "Los Ántrax",
+      "source": "Los Ántrax",
+      "target": "Sinaloa Cartel",
       "relationship": "alliance",
       "detail": null,
       "context": "Los Ántrax is an enforcer death squad for the Sinaloa Cartel.",
@@ -919,111 +939,79 @@
       "target": "Los Zetas",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Jalisco New Generation Cartel, as Los Matazetas, massacred members of Los Zetas to remove them.",
+      "context": "Jalisco New Generation Cartel (as Los Matazetas) carried out massacres to remove Los Zetas.",
       "time_period": "2009-2012"
     },
     {
-      "source": "Dirección Federal de Seguridad",
-      "target": "Juárez Cartel",
+      "source": "Scuderie Detetive Le Cocq",
+      "target": "Esquadrão da Morte",
       "relationship": "alliance",
       "detail": null,
-      "context": "DFS acted as a death squad for drug cartels, including the Juárez Cartel.",
+      "context": "Scuderie Detetive Le Cocq was modeled after the original Esquadrão da Morte.",
       "time_period": "1970s-1980s"
-    },
-    {
-      "source": "Guerreros Unidos",
-      "target": "Sinaloa Cartel",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Gente Nueva, a Sinaloa Cartel enforcer, was accused of collaborating with Guerreros Unidos.",
-      "time_period": "2010s"
-    },
-    {
-      "source": "Esquadrão da Morte",
-      "target": "Scuderie Detetive Le Cocq",
-      "relationship": "other",
-      "detail": "modeled after",
-      "context": "Scuderie Detetive Le Cocq was modeled after the 1960s Esquadrão da Morte.",
-      "time_period": "1970s-1980s"
-    },
-    {
-      "source": "Los Pepes",
-      "target": "AUC",
-      "relationship": "other",
-      "detail": "predecessor",
-      "context": "Los Pepes was a death squad that preceded the AUC; the Castaño brothers led both.",
-      "time_period": "1990s-1997"
     },
     {
       "source": "Shabiha",
       "target": "National Defense Forces",
-      "relationship": "other",
-      "detail": "absorbed into",
-      "context": "Shabiha paramilitaries were absorbed into the National Defense Forces in 2012.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Shabiha paramilitary groups became absorbed into the NDF in 2012.",
       "time_period": "2012"
     },
     {
       "source": "Shabiha",
       "target": "Military Security Shield Forces",
-      "relationship": "other",
-      "detail": "absorbed into",
-      "context": "Shabiha groups became part of state-backed militias like Military Security Shield Forces.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Shabiha became absorbed into state-backed groups like Military Security Shield Forces.",
       "time_period": "2012"
     },
     {
       "source": "Shabiha",
       "target": "Local Defense Forces",
-      "relationship": "other",
-      "detail": "absorbed into",
-      "context": "Shabiha were integrated into Local Defense Forces.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Shabiha became absorbed into state-backed groups like Local Defense Forces.",
       "time_period": "2012"
     },
     {
       "source": "Shabiha",
       "target": "Fourth Armored Division",
-      "relationship": "other",
-      "detail": "absorbed into",
-      "context": "Shabiha became part of Fourth Armored Division militias.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Shabiha became absorbed into Fourth Armored Division militias.",
       "time_period": "2012"
     },
     {
       "source": "Shabiha",
       "target": "Tiger Forces",
-      "relationship": "other",
-      "detail": "absorbed into",
-      "context": "Shabiha were absorbed into Tiger Forces.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Shabiha became absorbed into Tiger Forces.",
       "time_period": "2012"
     },
     {
       "source": "Shabiha",
       "target": "Air Force Intelligence Branch",
-      "relationship": "other",
-      "detail": "absorbed into",
-      "context": "Shabiha became part of Air Force Intelligence Branch militias.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Shabiha became absorbed into Air Force Intelligence Branch militias.",
       "time_period": "2012"
     },
     {
       "source": "Hezbollah",
       "target": "Unit 121",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Unit 121 is an elite death squad within Hezbollah.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Unit 121 is an elite death squad wing of Hezbollah.",
       "time_period": "2000s"
-    },
-    {
-      "source": "United Liberation Front of Asom",
-      "target": "SULFA",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "SULFA consists of former ULFA militants who surrendered and were used by the government.",
-      "time_period": "1998-2001"
     },
     {
       "source": "Stasi",
       "target": "Rote Armee Fraktion",
       "relationship": "alliance",
       "detail": null,
-      "context": "Stasi trained and supported RAF members.",
+      "context": "Stasi trained and financed RAF members.",
       "time_period": "1970s-1980s"
     },
     {
@@ -1031,7 +1019,7 @@
       "target": "Manuel Rodríguez Patriotic Front",
       "relationship": "alliance",
       "detail": null,
-      "context": "Stasi trained Chilean guerrilla group.",
+      "context": "Stasi trained members of the Manuel Rodríguez Patriotic Front.",
       "time_period": "1980s"
     },
     {
@@ -1039,7 +1027,7 @@
       "target": "Umkhonto we Sizwe",
       "relationship": "alliance",
       "detail": null,
-      "context": "Stasi trained South African militant group.",
+      "context": "Stasi trained Umkhonto we Sizwe members.",
       "time_period": "1980s"
     },
     {
@@ -1047,23 +1035,23 @@
       "target": "Popular Front for the Liberation of Palestine",
       "relationship": "alliance",
       "detail": null,
-      "context": "Stasi trained Palestinian militants.",
-      "time_period": "1970s-1980s"
+      "context": "Stasi trained PFLP members.",
+      "time_period": "1980s"
     },
     {
       "source": "Stasi",
       "target": "Abu Nidal Organization",
       "relationship": "alliance",
       "detail": null,
-      "context": "Stasi trained Abu Nidal group.",
-      "time_period": "1970s-1980s"
+      "context": "Stasi trained Abu Nidal members.",
+      "time_period": "1980s"
     },
     {
       "source": "Stasi",
       "target": "Black September",
       "relationship": "alliance",
       "detail": null,
-      "context": "Stasi provided bodyguards for Black September leader.",
+      "context": "Stasi provided bodyguards for Black September leader Abu Daoud.",
       "time_period": "1970s"
     },
     {
@@ -1071,7 +1059,7 @@
       "target": "SWAPO",
       "relationship": "alliance",
       "detail": null,
-      "context": "Stasi advised SWAPO as military advisers.",
+      "context": "Stasi provided military advisers to SWAPO.",
       "time_period": "1970s-1980s"
     },
     {
@@ -1079,7 +1067,7 @@
       "target": "MPLA",
       "relationship": "alliance",
       "detail": null,
-      "context": "Stasi advised MPLA as military advisers.",
+      "context": "Stasi provided military advisers to MPLA.",
       "time_period": "1970s-1980s"
     },
     {
@@ -1087,7 +1075,7 @@
       "target": "FRELIMO",
       "relationship": "alliance",
       "detail": null,
-      "context": "Stasi advised FRELIMO as military advisers.",
+      "context": "Stasi provided military advisers to FRELIMO.",
       "time_period": "1970s-1980s"
     },
     {
@@ -1095,14 +1083,14 @@
       "target": "ZANLA",
       "relationship": "alliance",
       "detail": null,
-      "context": "Stasi advised ZANLA as military advisers.",
+      "context": "Stasi provided military advisers to ZANLA.",
       "time_period": "1970s-1980s"
     },
     {
-      "source": "Irish Republican Army",
-      "target": "Twelve Apostles",
-      "relationship": "other",
-      "detail": "sub-group",
+      "source": "Twelve Apostles",
+      "target": "Irish Republican Army",
+      "relationship": "alliance",
+      "detail": null,
       "context": "The Twelve Apostles were an assassination unit within the IRA.",
       "time_period": "1920-1921"
     },
@@ -1111,39 +1099,55 @@
       "target": "Cairo Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The IRA targeted and killed members of the Cairo Gang on Bloody Sunday.",
+      "context": "IRA members assassinated members of the Cairo Gang on Bloody Sunday.",
       "time_period": "1920"
     },
     {
-      "source": "Irish Republican Army",
-      "target": "Criminal Investigation Department",
+      "source": "Criminal Investigation Department",
+      "target": "Irish Republican Army",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Anti-Treaty IRA referred to the CID as 'The Murder Gang' and fought them during the Civil War.",
+      "context": "The CID was formed to combat the Anti-Treaty IRA and killed many of its members.",
       "time_period": "1922-1923"
     },
     {
       "source": "Black Hundreds",
-      "target": "Imperial Russian Army",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Tsar Nicholas II ordered the Imperial Russian Army to ally with the Black Hundreds during the 1905 Revolution.",
-      "time_period": "1905"
+      "target": "Oprichniki",
+      "relationship": "other",
+      "detail": "historical predecessor",
+      "context": "The Black Hundreds were a later paramilitary group, not directly related to the Oprichniki.",
+      "time_period": null
     },
     {
       "source": "NKVD",
       "target": "Organization of Ukrainian Nationalists",
       "relationship": "rivalry",
       "detail": null,
-      "context": "NKVD officer Pavel Sudoplatov assassinated OUN founder Yevhen Konovalets in 1938.",
+      "context": "NKVD officer Pavel Sudoplatov assassinated OUN founder Yevhen Konovalets.",
       "time_period": "1938"
+    },
+    {
+      "source": "KGB",
+      "target": "Organization of Ukrainian Nationalists",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "KGB assassinated Ukrainian nationalists Lev Rebet and Stepan Bandera in Munich.",
+      "time_period": "1957-1959"
+    },
+    {
+      "source": "OGPU",
+      "target": "Batallón Vasco Español",
+      "relationship": "other",
+      "detail": "historical predecessor",
+      "context": "OGPU was a Soviet predecessor; no direct link to Spanish death squads.",
+      "time_period": null
     },
     {
       "source": "Batallón Vasco Español",
       "target": "ETA",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Batallón Vasco Español was a death squad that targeted ETA members.",
+      "context": "Batallón Vasco Español was a death squad targeting ETA members.",
       "time_period": "1975-1987"
     },
     {
@@ -1159,24 +1163,16 @@
       "target": "ETA",
       "relationship": "rivalry",
       "detail": null,
-      "context": "GAL was a state-sponsored death squad that illegally targeted ETA members.",
+      "context": "GAL was a state-sponsored death squad that targeted ETA members.",
       "time_period": "1983-1987"
     },
     {
-      "source": "Provisional Irish Republican Army",
-      "target": "Military Reaction Force",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "The MRF targeted IRA members for assassination, and the IRA's Internal Security Unit targeted informers and British forces.",
-      "time_period": "1960s-1990s"
-    },
-    {
-      "source": "Army of Republika Srpska",
-      "target": "Scorpions",
+      "source": "Scorpions",
+      "target": "Army of Republika Srpska",
       "relationship": "alliance",
       "detail": null,
       "context": "The Scorpions paramilitary unit participated alongside the VRS in the Srebrenica massacre.",
-      "time_period": "July 1995"
+      "time_period": "1995"
     }
   ],
   "source_file": "Death_squad"

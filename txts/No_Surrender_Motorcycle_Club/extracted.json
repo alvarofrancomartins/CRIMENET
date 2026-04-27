@@ -7,7 +7,7 @@
         "No Surrender MC"
       ],
       "type": "motorcycle_club",
-      "context": "International one-percenter outlaw motorcycle club established in the Netherlands in 2013.",
+      "context": "International one-percenter outlaw motorcycle club founded in the Netherlands in 2013.",
       "time_period": "2013-present"
     },
     {
@@ -15,18 +15,36 @@
       "original_text_name": "Satudarah",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club; former club of No Surrender founder Klaas Otto.",
-      "time_period": null
+      "context": "Biker gang from which No Surrender founder Klaas Otto was a former member.",
+      "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Islamic State",
+      "original_text_name": "Islamic State",
+      "aliases": [
+        "ISIS"
+      ],
+      "type": "terrorist_organization",
+      "context": "Jihadist group that No Surrender members reportedly fought against in Iraq.",
+      "time_period": "2014-present"
     }
   ],
   "edges": [
     {
       "source": "No Surrender Motorcycle Club",
       "target": "Satudarah",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "No Surrender was founded by a former member of Satudarah.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "No Surrender was founded by a former Satudarah member, indicating a predecessor relationship.",
       "time_period": "2013"
+    },
+    {
+      "source": "No Surrender Motorcycle Club",
+      "target": "Islamic State",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "No Surrender members fought against the Islamic State in Iraq.",
+      "time_period": "2014"
     }
   ],
   "source_file": "No_Surrender_Motorcycle_Club"

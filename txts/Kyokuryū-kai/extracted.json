@@ -6,10 +6,10 @@
       "aliases": [
         "Kyokuryū-kai",
         "Okinawa-rengo Kyokuryu-kai",
-        "Okinawa-Union Kyokuryu-Group"
+        "Okinawa-rengō Kyokuryū-kai"
       ],
       "type": "mafia",
-      "context": "Yakuza group based in Okinawa, Japan, involved in smuggling and conflict with Yamaguchi-gumi.",
+      "context": "Yakuza group based in Okinawa, Japan, involved in mugging US servicemen and smuggling.",
       "time_period": "1970-present"
     },
     {
@@ -17,7 +17,7 @@
       "original_text_name": "Okinawa Kyokuryu-kai",
       "aliases": [],
       "type": "mafia",
-      "context": "Splinter group of Kyokuryu-kai formed in 1990 after internal war.",
+      "context": "Splinter group of Kyokuryu-kai, also a designated yakuza group in Okinawa.",
       "time_period": "1990-present"
     },
     {
@@ -41,7 +41,7 @@
       "original_text_name": "Yamaguchi-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Largest yakuza syndicate in Japan, fought Kyokuryu-kai in the 4th Okinawa War.",
+      "context": "Largest yakuza syndicate in Japan, attempted to expand into Okinawa.",
       "time_period": "1915-present"
     },
     {
@@ -49,32 +49,32 @@
       "original_text_name": "Dojin-kai",
       "aliases": [],
       "type": "mafia",
-      "context": "Yakuza group that also had conflict with Yamaguchi-gumi, mentioned for comparison.",
+      "context": "Yakuza group that also had conflict with Yamaguchi-gumi.",
       "time_period": "unknown"
     }
   ],
   "edges": [
     {
-      "source": "Naha Clan",
-      "target": "Koza Clan",
-      "relationship": "rivalry",
+      "source": "Kyokuryu-kai",
+      "target": "Okinawa Kyokuryu-kai",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Originally opposed each other before merging into Kyokuryu-kai.",
-      "time_period": "before 1970"
+      "context": "Okinawa Kyokuryu-kai is a splinter group of Kyokuryu-kai, formed after internal war.",
+      "time_period": "1990-present"
     },
     {
       "source": "Naha Clan",
       "target": "Kyokuryu-kai",
-      "relationship": "other",
-      "detail": "merged into",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Naha Clan merged with Koza Clan to form Kyokuryu-kai in 1970.",
       "time_period": "1970"
     },
     {
       "source": "Koza Clan",
       "target": "Kyokuryu-kai",
-      "relationship": "other",
-      "detail": "merged into",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Koza Clan merged with Naha Clan to form Kyokuryu-kai in 1970.",
       "time_period": "1970"
     },
@@ -87,20 +87,12 @@
       "time_period": "1973-1981"
     },
     {
-      "source": "Kyokuryu-kai",
-      "target": "Okinawa Kyokuryu-kai",
+      "source": "Dojin-kai",
+      "target": "Yamaguchi-gumi",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Internal war in 1990 led to splinter; conflict lasted for years, reconciliation pondered since 1998.",
-      "time_period": "1990-1998"
-    },
-    {
-      "source": "Kyokuryu-kai",
-      "target": "Okinawa Kyokuryu-kai",
-      "relationship": "other",
-      "detail": "splintered from",
-      "context": "Okinawa Kyokuryu-kai was founded as a splinter group after internal war in 1990.",
-      "time_period": "1990"
+      "context": "Dojin-kai also had conflict with Yamaguchi-gumi in the late 20th century.",
+      "time_period": "late 20th century"
     }
   ],
   "source_file": "Kyokuryū-kai"

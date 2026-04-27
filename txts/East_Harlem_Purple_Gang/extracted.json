@@ -5,10 +5,11 @@
       "original_text_name": "East Harlem Purple Gang",
       "aliases": [
         "Purple Gang",
+        "Sixth Family",
         "Pleasant Avenue bunch"
       ],
       "type": "gang",
-      "context": "Italian-American gang in New York City, dominated heroin distribution in East Harlem and the Bronx in the 1970s-1980s.",
+      "context": "Italian-American gang in New York City involved in heroin trafficking, murder, and contract killing during the 1970s-1980s.",
       "time_period": "c. 1970s-1980s"
     },
     {
@@ -16,39 +17,39 @@
       "original_text_name": "Lucchese crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families of New York, involved in various rackets.",
-      "time_period": "1920s-present"
+      "context": "One of the Five Families of New York; the Purple Gang was originally affiliated with them.",
+      "time_period": "1900s-present"
     },
     {
       "standard_name": "Bonanno crime family",
       "original_text_name": "Bonanno crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families of New York, rival of the Purple Gang.",
-      "time_period": "1930s-present"
+      "context": "One of the Five Families; the Purple Gang worked with them and later had rivalry with Carmine Galante's faction.",
+      "time_period": "1900s-present"
     },
     {
       "standard_name": "Genovese crime family",
       "original_text_name": "Genovese crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families of New York, had close ties with the Purple Gang.",
-      "time_period": "1890s-present"
+      "context": "One of the Five Families; the Purple Gang developed closest ties with them and remnants joined their 116th Street Crew.",
+      "time_period": "1900s-present"
     },
     {
       "standard_name": "116th Street Crew",
       "original_text_name": "116th Street Crew",
       "aliases": [],
       "type": "faction",
-      "context": "Crew of the Genovese crime family that absorbed remnants of the Purple Gang.",
+      "context": "Crew of the Genovese crime family that absorbed the remnants of the Purple Gang.",
       "time_period": "1970s-present"
     },
     {
-      "standard_name": "Purple Gang",
+      "standard_name": "Purple Gang (Detroit)",
       "original_text_name": "Purple Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Prohibition-era Detroit gang that inspired the East Harlem Purple Gang's name.",
+      "context": "Prohibition-era gang in Detroit that the East Harlem Purple Gang named themselves after.",
       "time_period": "1920s-1930s"
     },
     {
@@ -56,7 +57,7 @@
       "original_text_name": "The Council",
       "aliases": [],
       "type": "other",
-      "context": "Allied organized crime group mentioned in the infobox.",
+      "context": "Allied organized crime group mentioned in the infobox as an ally of the Purple Gang.",
       "time_period": null
     },
     {
@@ -64,7 +65,15 @@
       "original_text_name": "The Corporation",
       "aliases": [],
       "type": "other",
-      "context": "Allied organized crime group mentioned in the infobox.",
+      "context": "Allied organized crime group mentioned in the infobox as an ally of the Purple Gang.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cuban mafia",
+      "original_text_name": "Cuban mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Cuban organized crime group in Florida suspected of ties with the Purple Gang.",
       "time_period": null
     }
   ],
@@ -74,7 +83,7 @@
       "target": "Lucchese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Originally affiliated and worked with the Lucchese family.",
+      "context": "The Purple Gang was originally affiliated with and worked with the Lucchese crime family.",
       "time_period": "1970s"
     },
     {
@@ -82,7 +91,7 @@
       "target": "Bonanno crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Later worked with the Bonanno family, but also had rivalry.",
+      "context": "The Purple Gang worked with the Bonanno crime family, but later had rivalry with Carmine Galante's faction.",
       "time_period": "1970s"
     },
     {
@@ -90,39 +99,31 @@
       "target": "Genovese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Developed closest ties with the Genovese family; remnants joined their 116th Street Crew.",
+      "context": "The Purple Gang developed its closest ties with the Genovese family and remnants joined their 116th Street Crew.",
       "time_period": "1970s-1980s"
     },
     {
       "source": "East Harlem Purple Gang",
       "target": "116th Street Crew",
-      "relationship": "other",
-      "detail": "absorbed into",
-      "context": "The Purple Gang disintegrated and was absorbed into the 116th Street Crew.",
-      "time_period": "late 1970s-early 1980s"
-    },
-    {
-      "source": "East Harlem Purple Gang",
-      "target": "Purple Gang",
-      "relationship": "other",
-      "detail": "named after",
-      "context": "The East Harlem gang named itself after the Prohibition-era Detroit Purple Gang.",
-      "time_period": "c. 1970s"
-    },
-    {
-      "source": "East Harlem Purple Gang",
-      "target": "Bonanno crime family",
-      "relationship": "rivalry",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Law enforcement feared a mob war between the Purple Gang and the Bonanno family.",
-      "time_period": "late 1970s"
+      "context": "The Purple Gang was absorbed into the Genovese family's 116th Street Crew.",
+      "time_period": "late 1970s-1980s"
+    },
+    {
+      "source": "East Harlem Purple Gang",
+      "target": "Purple Gang (Detroit)",
+      "relationship": "other",
+      "detail": "namesake",
+      "context": "The East Harlem Purple Gang named themselves after the Prohibition-era Detroit Purple Gang.",
+      "time_period": "1970s"
     },
     {
       "source": "East Harlem Purple Gang",
       "target": "The Council",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "The Council is listed as an ally in the infobox.",
       "time_period": null
     },
     {
@@ -130,8 +131,24 @@
       "target": "The Corporation",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "The Corporation is listed as an ally in the infobox.",
       "time_period": null
+    },
+    {
+      "source": "East Harlem Purple Gang",
+      "target": "Cuban mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Purple Gang was suspected of having ties to the Cuban mafia in Florida.",
+      "time_period": "late 1970s"
+    },
+    {
+      "source": "East Harlem Purple Gang",
+      "target": "Bonanno crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Law enforcement feared a mob war between the Purple Gang and Carmine Galante's Bonanno family.",
+      "time_period": "late 1970s"
     }
   ],
   "source_file": "East_Harlem_Purple_Gang"

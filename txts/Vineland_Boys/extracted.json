@@ -15,23 +15,21 @@
       "original_text_name": "18th Street gang",
       "aliases": [],
       "type": "gang",
-      "context": "Large Hispanic street gang based in Los Angeles.",
+      "context": "Large Hispanic street gang in Los Angeles.",
       "time_period": null
     },
     {
       "standard_name": "Mexican Mafia",
       "original_text_name": "Mexican Mafia",
       "aliases": [],
-      "type": "gang",
-      "context": "Prison gang and organized crime group controlling Sureño gangs.",
+      "type": "mafia",
+      "context": "Prison gang and crime syndicate controlling Sureño gangs.",
       "time_period": null
     },
     {
       "standard_name": "Sureños",
       "original_text_name": "Sureño gang coalition",
-      "aliases": [
-        "Sureño"
-      ],
+      "aliases": [],
       "type": "gang",
       "context": "Coalition of Hispanic gangs allied with the Mexican Mafia.",
       "time_period": null
@@ -45,11 +43,9 @@
       "time_period": null
     },
     {
-      "standard_name": "Abergil Crime Family",
+      "standard_name": "Abergil crime family",
       "original_text_name": "Abergil crime family",
-      "aliases": [
-        "Abergils"
-      ],
+      "aliases": [],
       "type": "mafia",
       "context": "Israeli mafia family involved in drug trafficking.",
       "time_period": null
@@ -67,17 +63,17 @@
     {
       "source": "Vineland Boys",
       "target": "18th Street Gang",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Vineland Boys were founded by former members of 18th Street and clashed with them.",
-      "time_period": "1988-1998"
+      "relationship": "other",
+      "detail": "splinter",
+      "context": "Vineland Boys was founded by former members of 18th Street.",
+      "time_period": "1988"
     },
     {
       "source": "Vineland Boys",
       "target": "Mexican Mafia",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Vineland Boys clashed with Mexican Mafia until founder was murdered in 1998.",
+      "context": "Vineland Boys clashed with Mexican Mafia until founder was killed in 1998.",
       "time_period": "1988-1998"
     },
     {
@@ -98,10 +94,10 @@
     },
     {
       "source": "Vineland Boys",
-      "target": "Abergil Crime Family",
+      "target": "Abergil crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Vineland Boys teamed up with Abergils in 2000 for protection and ecstasy trafficking.",
+      "context": "Vineland Boys teamed up with Abergil crime family for ecstasy trafficking protection.",
       "time_period": "2000-present"
     },
     {
@@ -109,7 +105,7 @@
       "target": "Sinaloa Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Vineland Boys had ties to Sinaloa Cartel revealed in 2003.",
+      "context": "Vineland Boys had ties to Sinaloa Cartel, revealed in 2003 investigation.",
       "time_period": null
     }
   ],

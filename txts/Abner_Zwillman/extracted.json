@@ -1,19 +1,27 @@
 {
   "nodes": [
     {
+      "standard_name": "Zwillman Organization",
+      "original_text_name": "Zwillman's criminal organization",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Jewish-American mob based in North Jersey, involved in bootlegging, gambling, prostitution, labor racketeering.",
+      "time_period": "1920s-1950s"
+    },
+    {
       "standard_name": "National Crime Syndicate",
       "original_text_name": "National Crime Syndicate",
       "aliases": [],
       "type": "other",
       "context": "Umbrella organization of American organized crime groups.",
-      "time_period": "1920s-1950s"
+      "time_period": "1929-1960s"
     },
     {
       "standard_name": "New Jersey Minutemen",
       "original_text_name": "New Jersey Minutemen",
       "aliases": [],
       "type": "militia",
-      "context": "Militant anti-fascist group operating in Newark, New Jersey.",
+      "context": "Militant anti-fascist group operating in Newark, New Jersey from 1933 to 1941.",
       "time_period": "1933-1941"
     },
     {
@@ -21,34 +29,52 @@
       "original_text_name": "German American Bund",
       "aliases": [],
       "type": "other",
-      "context": "Pro-Nazi organization in the United States.",
-      "time_period": "1930s-1940s"
+      "context": "Pro-Nazi organization in the United States before World War II.",
+      "time_period": "1930s-1941"
     },
     {
       "standard_name": "Christian Front",
       "original_text_name": "Christian Front",
       "aliases": [],
       "type": "other",
-      "context": "Pro-fascist group in the United States.",
-      "time_period": "1930s-1940s"
+      "context": "American far-right group active in the late 1930s and early 1940s.",
+      "time_period": "1938-1944"
     },
     {
       "standard_name": "Luciano Family",
       "original_text_name": "Luciano Family",
+      "aliases": [
+        "Genovese family"
+      ],
+      "type": "mafia",
+      "context": "New York Mafia family, originally led by Lucky Luciano, later by Vito Genovese.",
+      "time_period": "1931-present"
+    },
+    {
+      "standard_name": "Schultz Organization",
+      "original_text_name": "Dutch Schultz's criminal operations",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian-American Mafia family, also known as Genovese family.",
-      "time_period": "1930s-present"
+      "context": "Criminal enterprise of Dutch Schultz, active in New York and New Jersey.",
+      "time_period": "1920s-1935"
+    },
+    {
+      "standard_name": "Moretti Organization",
+      "original_text_name": "Willie Moretti",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New Jersey-based Mafia crew led by Willie Moretti, associated with the Luciano family.",
+      "time_period": "1920s-1951"
     }
   ],
   "edges": [
     {
-      "source": "National Crime Syndicate",
-      "target": "Luciano Family",
+      "source": "Zwillman Organization",
+      "target": "National Crime Syndicate",
       "relationship": "alliance",
       "detail": null,
-      "context": "The National Crime Syndicate included the Luciano Family as a member.",
-      "time_period": "1920s-1950s"
+      "context": "Zwillman's organization was a part of the National Crime Syndicate.",
+      "time_period": "1930s-1950s"
     },
     {
       "source": "New Jersey Minutemen",
@@ -65,6 +91,30 @@
       "detail": null,
       "context": "The Minutemen were antagonists of the Christian Front.",
       "time_period": "1933-1941"
+    },
+    {
+      "source": "Zwillman Organization",
+      "target": "Luciano Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zwillman was an associate of the Luciano Family and longtime friend of Lucky Luciano.",
+      "time_period": "1920s-1959"
+    },
+    {
+      "source": "Zwillman Organization",
+      "target": "Schultz Organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zwillman took over Schultz's New Jersey operations after Schultz's murder.",
+      "time_period": "1935"
+    },
+    {
+      "source": "Zwillman Organization",
+      "target": "Moretti Organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zwillman and Willie Moretti dominated gambling operations in New Jersey together.",
+      "time_period": "1940s"
     }
   ],
   "source_file": "Abner_Zwillman"

@@ -10,7 +10,7 @@
         "North Valley Cartel"
       ],
       "type": "cartel",
-      "context": "Colombian drug cartel operating in northern Valle del Cauca, prominent in the 1990s-2000s.",
+      "context": "Colombian drug cartel operating in Valle del Cauca, prominent in 1990s-2000s.",
       "time_period": "1990s-2008"
     },
     {
@@ -18,7 +18,7 @@
       "original_text_name": "Cali Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel that fragmented, leading to the formation of the Norte del Valle Cartel.",
+      "context": "Colombian drug cartel that fragmented in the 1990s, leading to Norte del Valle's rise.",
       "time_period": "1970s-1990s"
     },
     {
@@ -26,7 +26,7 @@
       "original_text_name": "Medellín Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel that fragmented, allowing Norte del Valle to rise.",
+      "context": "Colombian drug cartel that fragmented in the 1990s, leading to Norte del Valle's rise.",
       "time_period": "1970s-1990s"
     },
     {
@@ -36,7 +36,7 @@
         "AUC"
       ],
       "type": "militia",
-      "context": "Right-wing paramilitary group that protected Norte del Valle cartel's operations.",
+      "context": "Right-wing paramilitary group classified as terrorist, employed by Norte del Valle for protection.",
       "time_period": "1990s-2000s"
     },
     {
@@ -53,9 +53,17 @@
       "aliases": [
         "FARC"
       ],
-      "type": "militia",
-      "context": "Left-wing guerrilla group mentioned as active in Colombia alongside cartels.",
+      "type": "terrorist_organization",
+      "context": "Marxist guerrilla group in Colombia, mentioned as a powerful entity alongside cartels.",
       "time_period": "1964-2017"
+    },
+    {
+      "standard_name": "Montoya Clan",
+      "original_text_name": "Montoya Clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Family-based faction within Norte del Valle Cartel led by Diego Montoya.",
+      "time_period": "1990s-2007"
     },
     {
       "standard_name": "Los Machos",
@@ -64,7 +72,7 @@
         "Diego Montoya Organization"
       ],
       "type": "faction",
-      "context": "Paramilitary security force and hit squad for Diego Montoya, part of Norte del Valle Cartel.",
+      "context": "Paramilitary security force of Diego Montoya, later a drug trafficking organization.",
       "time_period": "2000s-2008"
     },
     {
@@ -74,7 +82,7 @@
         "Wilber Varela Organization"
       ],
       "type": "faction",
-      "context": "Drug trafficking paramilitary group formed by Wilber Varela after split with Montoya.",
+      "context": "Colombian drug trafficking paramilitary group formed by Wilber Varela after split with Montoya.",
       "time_period": "2004-present"
     },
     {
@@ -93,23 +101,23 @@
       ],
       "type": "militia",
       "context": "Colombian paramilitary group, involved in drug trafficking.",
-      "time_period": "1997-2006"
+      "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Norte del Valle Cartel",
       "target": "Cali Cartel",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "Norte del Valle formed after Cali Cartel dissolved, with former members joining.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Norte del Valle formed by former Cali Cartel members after Cali Cartel dissolved.",
       "time_period": "1990s"
     },
     {
       "source": "Norte del Valle Cartel",
       "target": "Medellín Cartel",
       "relationship": "other",
-      "detail": "successor",
+      "detail": "successor context",
       "context": "Norte del Valle rose after Medellín Cartel fragmented.",
       "time_period": "1990s"
     },
@@ -119,7 +127,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Norte del Valle employed AUC to protect drug routes and labs.",
-      "time_period": "1990s-2004"
+      "time_period": "1990-2004"
     },
     {
       "source": "Norte del Valle Cartel",
@@ -134,23 +142,31 @@
       "target": "FARC",
       "relationship": "other",
       "detail": "comparison",
-      "context": "Norte del Valle was considered more powerful than FARC.",
+      "context": "Norte del Valle was considered as powerful as FARC.",
       "time_period": null
     },
     {
-      "source": "Norte del Valle Cartel",
-      "target": "Los Machos",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Los Machos was Montoya's security force within the Norte del Valle Cartel.",
+      "source": "Montoya Clan",
+      "target": "Norte del Valle Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Montoya Clan was a family faction within the Norte del Valle Cartel.",
+      "time_period": "1990s-2007"
+    },
+    {
+      "source": "Los Machos",
+      "target": "Norte del Valle Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Machos started as Montoya's security force within the Norte del Valle Cartel.",
       "time_period": "2000s-2008"
     },
     {
-      "source": "Norte del Valle Cartel",
-      "target": "Los Rastrojos",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Los Rastrojos formed from a faction of the Norte del Valle Cartel under Wilber Varela.",
+      "source": "Los Rastrojos",
+      "target": "Norte del Valle Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Rastrojos was formed by Norte del Valle capo Wilber Varela.",
       "time_period": "2004-2008"
     },
     {

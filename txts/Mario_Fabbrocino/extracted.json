@@ -15,7 +15,7 @@
       "original_text_name": "Fabbrocino clan",
       "aliases": [],
       "type": "clan",
-      "context": "A Camorra clan led by Mario Fabbrocino, operating in the Vesuvius area around Nola, Ottaviano, etc.",
+      "context": "A Camorra clan led by Mario Fabbrocino, based in the Vesuvius area around Nola, Ottaviano, etc.",
       "time_period": "1970s-2019"
     },
     {
@@ -33,7 +33,7 @@
         "NCO"
       ],
       "type": "faction",
-      "context": "A powerful Camorra organization led by Raffaele Cutolo, rival to the Nuova Famiglia.",
+      "context": "A powerful Camorra organization led by Raffaele Cutolo, rival of the Nuova Famiglia.",
       "time_period": "1970s-1990s"
     }
   ],
@@ -41,17 +41,17 @@
     {
       "source": "Fabbrocino clan",
       "target": "Camorra",
-      "relationship": "other",
-      "detail": "sub-group",
+      "relationship": "alliance",
+      "detail": null,
       "context": "The Fabbrocino clan is a constituent clan of the Camorra.",
-      "time_period": null
+      "time_period": "1970s-2019"
     },
     {
       "source": "Fabbrocino clan",
       "target": "Nuova Famiglia",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Fabbrocino clan was a leading member of the Nuova Famiglia coalition.",
+      "context": "Mario Fabbrocino was one of the leaders of the Nuova Famiglia, a coalition of Camorra clans.",
       "time_period": "1980s-1990s"
     },
     {
@@ -59,7 +59,7 @@
       "target": "Nuova Camorra Organizzata",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Nuova Famiglia was created to oppose the rising power of the Nuova Camorra Organizzata.",
+      "context": "The Nuova Famiglia was created to oppose the rising power of Raffaele Cutolo's Nuova Camorra Organizzata.",
       "time_period": "1980s-1990s"
     },
     {
@@ -67,7 +67,7 @@
       "target": "Nuova Camorra Organizzata",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Fabbrocino clan was in a violent feud with the Nuova Camorra Organizzata, including murders of family members.",
+      "context": "The Fabbrocino clan was in a feud with the Nuova Camorra Organizzata, leading to murders on both sides.",
       "time_period": "1980s-1990s"
     }
   ],

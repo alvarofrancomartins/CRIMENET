@@ -7,7 +7,7 @@
         "TCP",
         "Pure Third Command"
       ],
-      "type": "gang",
+      "type": "faction",
       "context": "Brazilian criminal organization in Rio de Janeiro, involved in drug trafficking.",
       "time_period": "2002-present"
     },
@@ -17,24 +17,24 @@
       "aliases": [
         "TC"
       ],
-      "type": "gang",
-      "context": "Parent group of TCP, weakened after TCP split off.",
+      "type": "faction",
+      "context": "Parent criminal organization from which TCP split in 2002.",
       "time_period": "before 2002"
     },
     {
       "standard_name": "Amigos dos Amigos",
       "original_text_name": "Amigos dos Amigos",
       "aliases": [],
-      "type": "gang",
-      "context": "Gang that TC had affiliations with, causing disputes leading to TCP split.",
+      "type": "faction",
+      "context": "Gang whose affiliations with TC caused the split that formed TCP.",
       "time_period": null
     },
     {
       "standard_name": "Comando Vermelho",
       "original_text_name": "Comando Vermelho",
       "aliases": [],
-      "type": "gang",
-      "context": "Rival gang operating in regions outside Rio de Janeiro.",
+      "type": "faction",
+      "context": "Rival criminal faction operating against TCP in regions outside Rio de Janeiro.",
       "time_period": null
     },
     {
@@ -42,15 +42,15 @@
       "original_text_name": "Bonde do Maluco",
       "aliases": [],
       "type": "gang",
-      "context": "Ally of TCP.",
+      "context": "Ally of TCP according to infobox.",
       "time_period": null
     },
     {
       "standard_name": "Primeiro Comando de Vitória",
       "original_text_name": "Primeiro Comando de Vitória",
       "aliases": [],
-      "type": "gang",
-      "context": "Rival of TCP.",
+      "type": "faction",
+      "context": "Rival of TCP according to infobox.",
       "time_period": null
     }
   ],
@@ -58,22 +58,24 @@
     {
       "source": "Terceiro Comando Puro",
       "target": "Terceiro Comando",
-      "relationship": "other",
-      "detail": "split from",
-      "context": "TCP split from TC in 2002 due to disputes about TC's affiliations with Amigos dos Amigos.",
-      "time_period": "2002"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "TCP split from TC in 2002 and later absorbed its members.",
+      "time_period": "2002-present"
     },
     {
       "source": "Terceiro Comando Puro",
       "target": "Amigos dos Amigos",
       "relationship": "rivalry",
-      "context": "TCP split from TC due to disputes about TC's affiliations with Amigos dos Amigos, implying rivalry.",
-      "time_period": null
+      "detail": null,
+      "context": "Disputes about TC's affiliations with Amigos dos Amigos caused the split that formed TCP.",
+      "time_period": "2002-present"
     },
     {
       "source": "Terceiro Comando Puro",
       "target": "Comando Vermelho",
       "relationship": "rivalry",
+      "detail": null,
       "context": "TCP operates against Comando Vermelho in regions outside Rio de Janeiro.",
       "time_period": null
     },
@@ -81,14 +83,16 @@
       "source": "Terceiro Comando Puro",
       "target": "Bonde do Maluco",
       "relationship": "alliance",
-      "context": "Bonde do Maluco is listed as an ally of TCP.",
+      "detail": null,
+      "context": "Bonde do Maluco is listed as an ally of TCP in the infobox.",
       "time_period": null
     },
     {
       "source": "Terceiro Comando Puro",
       "target": "Primeiro Comando de Vitória",
       "relationship": "rivalry",
-      "context": "Primeiro Comando de Vitória is listed as a rival of TCP.",
+      "detail": null,
+      "context": "Primeiro Comando de Vitória is listed as a rival of TCP in the infobox.",
       "time_period": null
     }
   ],

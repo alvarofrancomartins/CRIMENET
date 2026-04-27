@@ -8,35 +8,35 @@
         "Georgian organized crime"
       ],
       "type": "mafia",
-      "context": "Organized crime network active in Europe, controlling many Russian-speaking mafia groups.",
+      "context": "Organized crime network active in Europe, post-Soviet states, and Israel; controls many thieves-in-law.",
       "time_period": "Soviet era-present"
     },
     {
       "standard_name": "Kutaisi Clan",
-      "original_text_name": "Kutaisi clan",
+      "original_text_name": "Kutaisi Clan",
       "aliases": [
         "Kutaisi crime clan"
       ],
       "type": "clan",
-      "context": "Major Georgian criminal clan from Kutaisi, western Georgia, led by Tariel Oniani.",
-      "time_period": "1970s-present"
+      "context": "Major Georgian criminal clan from Kutaisi, led by Tariel Oniani; active in Russia and Europe.",
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Tbilisi Clan",
-      "original_text_name": "Tbilisi clan",
+      "original_text_name": "Tbilisi Clan",
       "aliases": [
         "Tbilisi crime clan"
       ],
       "type": "clan",
-      "context": "Major Georgian criminal clan from Tbilisi, led by Aslan Usoyan and Otari Kvantrishvili.",
-      "time_period": "1970s-present"
+      "context": "Major Georgian criminal clan from Tbilisi, led by Aslan Usoyan; active in Russia and Europe.",
+      "time_period": "1990s-2013"
     },
     {
       "standard_name": "Mkhedrioni",
       "original_text_name": "Mkhedrioni",
       "aliases": [],
       "type": "militia",
-      "context": "Georgian nationalist militia led by former thief-in-law Jaba Ioseliani, engaged in protection rackets and smuggling.",
+      "context": "Georgian nationalist militia formed by former thief-in-law Jaba Ioseliani; engaged in protection rackets and smuggling.",
       "time_period": "1990-1995"
     },
     {
@@ -44,7 +44,7 @@
       "original_text_name": "National Guard of Georgia",
       "aliases": [],
       "type": "militia",
-      "context": "Georgian nationalist militia led by ex-convict Tengiz Kitovani, involved in racketeering and smuggling.",
+      "context": "Georgian nationalist militia led by ex-convict Tengiz Kitovani; engaged in protection rackets and smuggling.",
       "time_period": "1990-1995"
     },
     {
@@ -58,20 +58,20 @@
   ],
   "edges": [
     {
-      "source": "Georgian mafia",
-      "target": "Kutaisi Clan",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Kutaisi Clan is a major criminal clan within the Georgian mafia.",
-      "time_period": "1970s-present"
+      "source": "Kutaisi Clan",
+      "target": "Georgian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Kutaisi Clan is a major component of the Georgian mafia.",
+      "time_period": "1990s-present"
     },
     {
-      "source": "Georgian mafia",
-      "target": "Tbilisi Clan",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Tbilisi Clan is a major criminal clan within the Georgian mafia.",
-      "time_period": "1970s-present"
+      "source": "Tbilisi Clan",
+      "target": "Georgian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Tbilisi Clan is a major component of the Georgian mafia.",
+      "time_period": "1990s-2013"
     },
     {
       "source": "Kutaisi Clan",
@@ -83,10 +83,18 @@
     },
     {
       "source": "Mkhedrioni",
-      "target": "National Guard of Georgia",
+      "target": "Georgian mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both militias operated alongside each other during the Georgian conflicts and coup.",
+      "context": "Mkhedrioni was led by former thief-in-law Jaba Ioseliani, a member of the Georgian mafia.",
+      "time_period": "1990-1995"
+    },
+    {
+      "source": "National Guard of Georgia",
+      "target": "Georgian mafia",
+      "relationship": "other",
+      "detail": "loose association",
+      "context": "The National Guard was led by ex-convict Tengiz Kitovani, but not directly part of the Georgian mafia.",
       "time_period": "1990-1995"
     }
   ],

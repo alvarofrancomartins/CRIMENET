@@ -9,13 +9,11 @@
       "time_period": "1980-present"
     },
     {
-      "standard_name": "Piru gang alliance",
+      "standard_name": "Piru",
       "original_text_name": "Piru gang alliance",
-      "aliases": [
-        "Piru"
-      ],
+      "aliases": [],
       "type": "gang",
-      "context": "An alliance of Bloods sets, including Cedar Block Piru.",
+      "context": "A gang alliance that is part of the larger Bloods alliance.",
       "time_period": null
     },
     {
@@ -23,7 +21,7 @@
       "original_text_name": "Bloods",
       "aliases": [],
       "type": "gang",
-      "context": "A larger gang alliance that includes the Piru gang alliance.",
+      "context": "A large street gang alliance primarily African-American.",
       "time_period": null
     },
     {
@@ -31,7 +29,7 @@
       "original_text_name": "Santana Blocc Compton Crips",
       "aliases": [],
       "type": "gang",
-      "context": "A Crips set in Compton, mentioned as parents' affiliation.",
+      "context": "A Crips set in Compton.",
       "time_period": null
     },
     {
@@ -39,7 +37,7 @@
       "original_text_name": "Hoover Street Crips",
       "aliases": [],
       "type": "gang",
-      "context": "A Crips set, mentioned as possible mother's affiliation.",
+      "context": "A Crips set in Los Angeles.",
       "time_period": null
     },
     {
@@ -47,7 +45,7 @@
       "original_text_name": "Nutty Blocc Compton Crips",
       "aliases": [],
       "type": "gang",
-      "context": "A Crips set, mentioned as father's and half-brothers' affiliation.",
+      "context": "A Crips set in Compton.",
       "time_period": null
     },
     {
@@ -55,7 +53,7 @@
       "original_text_name": "Fruit Town Piru",
       "aliases": [],
       "type": "gang",
-      "context": "An allied Piru set.",
+      "context": "A Piru set allied with Cedar Block Piru.",
       "time_period": null
     },
     {
@@ -63,7 +61,7 @@
       "original_text_name": "West Side Piru",
       "aliases": [],
       "type": "gang",
-      "context": "An allied Piru set.",
+      "context": "A Piru set allied with Cedar Block Piru.",
       "time_period": null
     },
     {
@@ -71,7 +69,7 @@
       "original_text_name": "Tree Top Piru",
       "aliases": [],
       "type": "gang",
-      "context": "An allied Piru set.",
+      "context": "A Piru set allied with Cedar Block Piru.",
       "time_period": null
     },
     {
@@ -79,7 +77,7 @@
       "original_text_name": "Campanella Park Piru",
       "aliases": [],
       "type": "gang",
-      "context": "An allied Piru set.",
+      "context": "A Piru set allied with Cedar Block Piru.",
       "time_period": null
     },
     {
@@ -87,7 +85,7 @@
       "original_text_name": "Mob Piru",
       "aliases": [],
       "type": "gang",
-      "context": "A rival Piru set.",
+      "context": "A Piru set rival to Cedar Block Piru.",
       "time_period": null
     },
     {
@@ -95,25 +93,25 @@
       "original_text_name": "Palmer Blocc Compton Crips",
       "aliases": [],
       "type": "gang",
-      "context": "A rival Crips set.",
+      "context": "A Crips set rival to Cedar Block Piru.",
       "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Cedar Block Piru",
-      "target": "Piru gang alliance",
+      "target": "Piru",
       "relationship": "alliance",
       "detail": null,
       "context": "Cedar Block Piru is a set of the Piru gang alliance.",
       "time_period": null
     },
     {
-      "source": "Piru gang alliance",
+      "source": "Piru",
       "target": "Bloods",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Piru gang alliance is part of the larger Bloods gang alliance.",
+      "context": "Piru is part of the larger Bloods gang alliance.",
       "time_period": null
     },
     {

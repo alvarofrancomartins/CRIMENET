@@ -17,33 +17,35 @@
         "Straight Satans Motorcycle Club"
       ],
       "type": "motorcycle_club",
-      "context": "Motorcycle club whose treasurer Danny DeCarlo was involved with the Manson Family; members acted as security for the Family.",
+      "context": "Motorcycle club whose treasurer Danny DeCarlo was involved with the Manson Family; members acted as security for the Family at Spahn Ranch.",
       "time_period": "1960s"
     },
     {
       "standard_name": "Black Panthers",
       "original_text_name": "Black Panthers",
-      "aliases": [],
+      "aliases": [
+        "Black Panther"
+      ],
       "type": "militia",
-      "context": "Militant political organization; Manson feared retaliation from them after shooting Bernard Crowe, whom he mistakenly believed was a member.",
-      "time_period": "1960s-1970s"
+      "context": "Militant Black nationalist organization; Manson feared retaliation from them after shooting Bernard Crowe, mistakenly believing Crowe was a member.",
+      "time_period": "1966-1982"
     },
     {
       "standard_name": "Aryan Brotherhood",
       "original_text_name": "Aryan Brotherhood",
       "aliases": [],
       "type": "gang",
-      "context": "White supremacist prison gang; Manson found temporary acceptance from them at San Quentin.",
-      "time_period": "1960s-present"
+      "context": "Prison gang that temporarily accepted Manson after his return to prison.",
+      "time_period": "1970s"
     }
   ],
   "edges": [
     {
-      "source": "Manson Family",
-      "target": "Straight Satans",
+      "source": "Straight Satans",
+      "target": "Manson Family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Manson brought in Straight Satans members as security at Spahn Ranch and had dealings with them.",
+      "context": "Straight Satans members provided security for the Manson Family at Spahn Ranch; treasurer Danny DeCarlo had access to Family women.",
       "time_period": "1969"
     },
     {
@@ -51,7 +53,7 @@
       "target": "Black Panthers",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Manson feared retaliation from the Black Panthers after shooting Bernard Crowe, whom he believed was a Panther.",
+      "context": "Manson feared retaliation from the Black Panthers after shooting Bernard Crowe, mistakenly believing Crowe was a Panther.",
       "time_period": "1969"
     },
     {
@@ -59,7 +61,7 @@
       "target": "Aryan Brotherhood",
       "relationship": "alliance",
       "detail": null,
-      "context": "Manson found temporary acceptance from the Aryan Brotherhood at San Quentin.",
+      "context": "Manson found temporary acceptance from the Aryan Brotherhood in prison.",
       "time_period": "1970s"
     }
   ],

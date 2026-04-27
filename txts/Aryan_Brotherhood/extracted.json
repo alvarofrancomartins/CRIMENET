@@ -8,7 +8,7 @@
         "The Brand"
       ],
       "type": "gang",
-      "context": "Neo-Nazi prison gang and organized crime syndicate in the US, involved in drug trafficking, extortion, murder-for-hire.",
+      "context": "Neo-Nazi prison gang and organized crime syndicate based in the United States, involved in drug trafficking, extortion, murder-for-hire.",
       "time_period": "1964-present"
     },
     {
@@ -52,16 +52,8 @@
       "original_text_name": "Gambino crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "American Mafia family; allied with Aryan Brotherhood in 1990s via John Gotti.",
+      "context": "American Mafia family; allied with Aryan Brotherhood in 1990s.",
       "time_period": "1910s-present"
-    },
-    {
-      "standard_name": "Black Muslims",
-      "original_text_name": "Black Muslims",
-      "aliases": [],
-      "type": "other",
-      "context": "Religious group involved in Lucasville Prison Riot alongside Aryan Brotherhood.",
-      "time_period": "1993"
     },
     {
       "standard_name": "Order of the Blood",
@@ -76,7 +68,7 @@
       "original_text_name": "Aryan Cowboy Brotherhood",
       "aliases": [],
       "type": "gang",
-      "context": "Associated with Aryan Brotherhood; member suspected in 2020 Minneapolis unrest.",
+      "context": "Associated with Aryan Brotherhood; suspect in 2020 Minneapolis protests.",
       "time_period": "2020"
     },
     {
@@ -84,7 +76,7 @@
       "original_text_name": "Aryan Brotherhood of Texas",
       "aliases": [],
       "type": "gang",
-      "context": "White supremacist prison gang in Texas, related to Aryan Brotherhood.",
+      "context": "White supremacist prison gang in Texas, similar to Aryan Brotherhood.",
       "time_period": "1980s-present"
     },
     {
@@ -92,7 +84,7 @@
       "original_text_name": "Aryan Circle",
       "aliases": [],
       "type": "gang",
-      "context": "White supremacist prison gang, related to Aryan Brotherhood.",
+      "context": "White supremacist prison gang, considered a radicalization threat.",
       "time_period": "1980s-present"
     },
     {
@@ -100,7 +92,7 @@
       "original_text_name": "Nazi Lowriders",
       "aliases": [],
       "type": "gang",
-      "context": "Peckerwood gang affiliated with Aryan Brotherhood.",
+      "context": "Smaller peckerwood gang affiliated with Aryan Brotherhood.",
       "time_period": "1990s-present"
     },
     {
@@ -110,7 +102,7 @@
         "PEN1"
       ],
       "type": "gang",
-      "context": "Peckerwood gang affiliated with Aryan Brotherhood.",
+      "context": "Smaller peckerwood gang affiliated with Aryan Brotherhood.",
       "time_period": "1990s-present"
     },
     {
@@ -118,7 +110,7 @@
       "original_text_name": "Aryan Nations",
       "aliases": [],
       "type": "other",
-      "context": "White supremacist organization affiliated with Aryan Brotherhood.",
+      "context": "National hate-based organization affiliated with Aryan Brotherhood.",
       "time_period": "1970s-present"
     },
     {
@@ -128,7 +120,7 @@
         "La Eme"
       ],
       "type": "gang",
-      "context": "Hispanic prison gang allied with Aryan Brotherhood against Black Guerrilla Family.",
+      "context": "Hispanic prison gang; allied with Aryan Brotherhood against Black Guerrilla Family.",
       "time_period": "1950s-present"
     },
     {
@@ -153,7 +145,7 @@
       "aliases": [],
       "type": "gang",
       "context": "Rival gang of Aryan Brotherhood.",
-      "time_period": "1960s-present"
+      "time_period": "1969-present"
     },
     {
       "standard_name": "D.C. Blacks",
@@ -176,7 +168,7 @@
       "original_text_name": "Dirty White Boys",
       "aliases": [],
       "type": "gang",
-      "context": "White supremacist prison gang allied with Aryan Brotherhood.",
+      "context": "White supremacist prison gang, allied with Aryan Brotherhood.",
       "time_period": null
     },
     {
@@ -184,7 +176,7 @@
       "original_text_name": "Sureños",
       "aliases": [],
       "type": "gang",
-      "context": "Mexican-American street gang allied with Aryan Brotherhood.",
+      "context": "Mexican-American street gang, allied with Aryan Brotherhood.",
       "time_period": null
     },
     {
@@ -192,7 +184,7 @@
       "original_text_name": "Vagos MC",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club allied with Aryan Brotherhood.",
+      "context": "Outlaw motorcycle club, allied with Aryan Brotherhood.",
       "time_period": null
     },
     {
@@ -200,7 +192,7 @@
       "original_text_name": "Dead Man Incorporated",
       "aliases": [],
       "type": "gang",
-      "context": "Prison gang rival of Aryan Brotherhood.",
+      "context": "Prison gang, rival of Aryan Brotherhood.",
       "time_period": null
     },
     {
@@ -208,8 +200,16 @@
       "original_text_name": "Nuestra Familia",
       "aliases": [],
       "type": "gang",
-      "context": "Mexican-American prison gang rival of Aryan Brotherhood.",
+      "context": "Mexican-American prison gang, rival of Aryan Brotherhood.",
       "time_period": null
+    },
+    {
+      "standard_name": "Wonderland Gang",
+      "original_text_name": "Wonderland Gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Drug-dealing group involved in the Wonderland murders; David Clay Lind was an affiliate.",
+      "time_period": "1970s-1980s"
     }
   ],
   "edges": [
@@ -225,6 +225,7 @@
       "source": "Aryan Brotherhood",
       "target": "Black Guerrilla Family",
       "relationship": "rivalry",
+      "detail": null,
       "context": "Aryan Brotherhood formed to strike against Black Guerrilla Family; engaged in race war in 1975.",
       "time_period": "1960s-present"
     },
@@ -232,6 +233,7 @@
       "source": "Aryan Brotherhood",
       "target": "Manson Family",
       "relationship": "alliance",
+      "detail": null,
       "context": "Brief connection in early 1970s; Manson Family attempted to join forces but relationship ended due to Tate murder.",
       "time_period": "early 1970s"
     },
@@ -239,6 +241,7 @@
       "source": "Aryan Brotherhood",
       "target": "La Nuestra Familia",
       "relationship": "rivalry",
+      "detail": null,
       "context": "Engaged in race war in 1975 with La Nuestra Familia.",
       "time_period": "1975"
     },
@@ -246,158 +249,146 @@
       "source": "Aryan Brotherhood",
       "target": "Gambino crime family",
       "relationship": "alliance",
+      "detail": null,
       "context": "John Gotti contacted Aryan Brotherhood for protection and formed business partnership in 1992.",
       "time_period": "1992-2002"
     },
     {
       "source": "Aryan Brotherhood",
-      "target": "Black Muslims",
-      "relationship": "alliance",
-      "context": "Joined with Black Muslims in Lucasville Prison Riot in 1993.",
-      "time_period": "1993"
-    },
-    {
-      "source": "Aryan Brotherhood",
       "target": "Order of the Blood",
-      "relationship": "other",
-      "detail": "controls",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Order of the Blood is a criminal organization controlled by the Aryan Brotherhood.",
       "time_period": "2000s"
     },
     {
       "source": "Aryan Brotherhood",
       "target": "Aryan Cowboy Brotherhood",
-      "relationship": "other",
-      "detail": "associated with",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Aryan Cowboy Brotherhood is associated with the Aryan Brotherhood.",
       "time_period": "2020"
     },
     {
       "source": "Aryan Brotherhood",
-      "target": "Aryan Brotherhood of Texas",
-      "relationship": "other",
-      "detail": "related",
-      "context": "Aryan Brotherhood of Texas is a related white supremacist prison gang.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "Aryan Brotherhood",
-      "target": "Aryan Circle",
-      "relationship": "other",
-      "detail": "related",
-      "context": "Aryan Circle is a related white supremacist prison gang.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "Aryan Brotherhood",
       "target": "Nazi Lowriders",
       "relationship": "alliance",
-      "context": "Nazi Lowriders are affiliated peckerwood gangs.",
+      "detail": null,
+      "context": "Aryan Brotherhood is affiliated with Nazi Lowriders as part of a network of peckerwood gangs.",
       "time_period": "unknown"
     },
     {
       "source": "Aryan Brotherhood",
       "target": "Public Enemy No. 1",
       "relationship": "alliance",
-      "context": "Public Enemy No. 1 is an affiliated peckerwood gang.",
+      "detail": null,
+      "context": "Aryan Brotherhood is affiliated with Public Enemy No. 1 as part of a network of peckerwood gangs.",
       "time_period": "unknown"
     },
     {
       "source": "Aryan Brotherhood",
       "target": "Aryan Nations",
       "relationship": "alliance",
-      "context": "Aryan Nations is a national hate-based organization affiliated with Aryan Brotherhood.",
+      "detail": null,
+      "context": "Aryan Brotherhood is affiliated with Aryan Nations, a national hate-based organization.",
       "time_period": "unknown"
     },
     {
       "source": "Aryan Brotherhood",
       "target": "Mexican Mafia",
       "relationship": "alliance",
-      "context": "Allied against common enemy Black Guerrilla Family.",
+      "detail": null,
+      "context": "Aryan Brotherhood has an alliance with Mexican Mafia as mutual enemies of Black Guerrilla Family.",
       "time_period": "unknown"
     },
     {
       "source": "Aryan Brotherhood",
       "target": "Black P. Stones",
       "relationship": "rivalry",
-      "context": "Black P. Stones is a rival gang.",
+      "detail": null,
+      "context": "Black P. Stones is listed as a rival gang of Aryan Brotherhood.",
       "time_period": "unknown"
     },
     {
       "source": "Aryan Brotherhood",
       "target": "Bloods",
       "relationship": "rivalry",
-      "context": "Bloods is a rival gang.",
+      "detail": null,
+      "context": "Bloods is listed as a rival gang of Aryan Brotherhood.",
       "time_period": "unknown"
     },
     {
       "source": "Aryan Brotherhood",
       "target": "Crips",
       "relationship": "rivalry",
-      "context": "Crips is a rival gang.",
+      "detail": null,
+      "context": "Crips is listed as a rival gang of Aryan Brotherhood.",
       "time_period": "unknown"
     },
     {
       "source": "Aryan Brotherhood",
       "target": "D.C. Blacks",
       "relationship": "rivalry",
-      "context": "D.C. Blacks is a rival gang.",
+      "detail": null,
+      "context": "D.C. Blacks is listed as a rival gang of Aryan Brotherhood.",
       "time_period": "unknown"
     },
     {
       "source": "Aryan Brotherhood",
       "target": "Hells Angels",
       "relationship": "other",
-      "detail": "mixed",
-      "context": "Associated in criminal ventures but also involved in power struggle leading to killing of Hells Angels VP in 1989.",
-      "time_period": "1980s-1990s"
+      "detail": "associated and rival",
+      "context": "Aryan Brotherhood associated in criminal ventures with Hells Angels but also involved in power struggle leading to killing of Hells Angels vice-president.",
+      "time_period": "1980s"
     },
     {
       "source": "Aryan Brotherhood",
       "target": "Dirty White Boys",
       "relationship": "alliance",
-      "detail": null,
-      "context": "Dirty White Boys are listed as allies of Aryan Brotherhood.",
+      "context": "Listed as allies in the infobox.",
       "time_period": null
     },
     {
       "source": "Aryan Brotherhood",
       "target": "Hells Angels",
       "relationship": "alliance",
-      "detail": null,
-      "context": "Hells Angels are listed as allies of Aryan Brotherhood.",
+      "context": "Listed as allies in the infobox.",
       "time_period": null
     },
     {
       "source": "Aryan Brotherhood",
       "target": "Sureños",
       "relationship": "alliance",
-      "detail": null,
-      "context": "Sureños are listed as allies of Aryan Brotherhood.",
+      "context": "Listed as allies in the infobox.",
       "time_period": null
     },
     {
       "source": "Aryan Brotherhood",
       "target": "Vagos MC",
       "relationship": "alliance",
-      "detail": null,
-      "context": "Vagos MC is listed as an ally of Aryan Brotherhood.",
+      "context": "Listed as allies in the infobox.",
       "time_period": null
     },
     {
       "source": "Aryan Brotherhood",
       "target": "Dead Man Incorporated",
       "relationship": "rivalry",
-      "detail": null,
-      "context": "Dead Man Incorporated is listed as a rival of Aryan Brotherhood.",
+      "context": "Listed as rivals in the infobox.",
       "time_period": null
     },
     {
       "source": "Aryan Brotherhood",
       "target": "Nuestra Familia",
       "relationship": "rivalry",
-      "detail": null,
-      "context": "Nuestra Familia is listed as a rival of Aryan Brotherhood.",
+      "context": "Listed as rivals in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Wonderland Gang",
+      "target": "Aryan Brotherhood",
+      "relationship": "other",
+      "detail": "affiliate",
+      "context": "David Clay Lind was an affiliate of the Wonderland Gang and a member of Aryan Brotherhood.",
       "time_period": null
     }
   ],

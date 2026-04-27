@@ -5,9 +5,7 @@
       "original_text_name": "Houthis",
       "aliases": [
         "Ansar Allah",
-        "Houthi militias",
-        "Houthi movement",
-        "Houthi rebels"
+        "Houthi movement"
       ],
       "type": "other",
       "context": "Zaydi revivalist political and military organization in Yemen, involved in civil war and designated as terrorist by some countries.",
@@ -18,7 +16,7 @@
       "original_text_name": "Hezbollah",
       "aliases": [],
       "type": "other",
-      "context": "Lebanese Shia political and military organization that influenced Houthi ideology and slogans.",
+      "context": "Lebanese Shia political and military organization that influenced Houthi ideology.",
       "time_period": "1980s-present"
     },
     {
@@ -36,7 +34,7 @@
         "ISIS"
       ],
       "type": "terrorist_organization",
-      "context": "Sunni jihadist group that claimed responsibility for suicide attacks on Houthi mosques in 2015.",
+      "context": "Sunni jihadist group that claimed responsibility for mosque attacks on Houthi worshippers.",
       "time_period": "2013-present"
     },
     {
@@ -46,7 +44,7 @@
         "BY"
       ],
       "type": "other",
-      "context": "Precursor organization to the Houthis, founded in 1992 to promote Zaydi revival.",
+      "context": "Predecessor organization to the Houthis, founded in 1992 in Saada Governorate.",
       "time_period": "1992-2004"
     },
     {
@@ -54,35 +52,34 @@
       "original_text_name": "Muslim Brotherhood",
       "aliases": [],
       "type": "other",
-      "context": "Sunni Islamist movement, influenced Houthi ideology.",
+      "context": "Sunni Islamist movement that influenced Houthi ideology.",
       "time_period": "1928-present"
     },
     {
-      "standard_name": "Quds Force",
-      "original_text_name": "Iran's Quds Force",
+      "standard_name": "Islamic Revolutionary Guard Corps",
+      "original_text_name": "Islamic Revolutionary Guard Corps",
       "aliases": [
-        "Islamic Revolutionary Guard Corps Quds Force"
+        "IRGC",
+        "Iran's Quds Force"
       ],
       "type": "other",
-      "context": "Elite unit of Iran's Islamic Revolutionary Guard Corps, smuggles weapons to Houthis.",
-      "time_period": "1990-present"
+      "context": "Iranian military force that smuggles weapons and provides support to Houthis.",
+      "time_period": "1979-present"
     },
     {
-      "standard_name": "Islamic Revolutionary Guard Corps",
-      "original_text_name": "Islamic Revolutionary Guard Corps (IRGC)",
-      "aliases": [
-        "IRGC"
-      ],
-      "type": "militia",
-      "context": "Iranian military organization that provides weapons, training, and financial support to the Houthis.",
-      "time_period": "1979-present"
+      "standard_name": "Quds Force",
+      "original_text_name": "Quds Force",
+      "aliases": [],
+      "type": "faction",
+      "context": "Elite unit of Iran's IRGC responsible for extraterritorial operations, involved in supporting the Houthis.",
+      "time_period": "1990-present"
     },
     {
       "standard_name": "Al-Shabaab",
       "original_text_name": "Al-Shabaab",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Somali jihadist group with transactional relationship with Houthis, providing weapons and training.",
+      "context": "Somali jihadist group with transactional relationship with Houthis, receiving weapons and training.",
       "time_period": "2000s-present"
     },
     {
@@ -92,7 +89,7 @@
         "AQAP"
       ],
       "type": "terrorist_organization",
-      "context": "Yemeni jihadist group that had ceasefire with Houthis since 2022, cooperating in attacks and safe havens.",
+      "context": "Yemen-based jihadist group that has a ceasefire with Houthis since 2022, cooperating against Yemeni government.",
       "time_period": "2009-present"
     },
     {
@@ -102,6 +99,22 @@
       "type": "faction",
       "context": "Houthi female police wing involved in torture of female detainees.",
       "time_period": "unknown"
+    },
+    {
+      "standard_name": "Harakat Hezbollah al-Nujaba",
+      "original_text_name": "Harakat Hezbollah al-Nujaba",
+      "aliases": [],
+      "type": "other",
+      "context": "Iraqi Shia paramilitary group, allied with Houthis.",
+      "time_period": "2013-present"
+    },
+    {
+      "standard_name": "Liwa Fatemiyoun",
+      "original_text_name": "Liwa Fatemiyoun",
+      "aliases": [],
+      "type": "other",
+      "context": "Afghan Shia militia fighting in Syria, allied with Houthis.",
+      "time_period": "2014-present"
     },
     {
       "standard_name": "Hamas",
@@ -120,20 +133,12 @@
       "time_period": "1982-present"
     },
     {
-      "standard_name": "Harakat Hezbollah al-Nujaba",
-      "original_text_name": "Harakat Hezbollah al-Nujaba",
+      "standard_name": "Al-Islah",
+      "original_text_name": "Al-Islah",
       "aliases": [],
       "type": "other",
-      "context": "Iraqi Shia paramilitary group, allied with Houthis.",
-      "time_period": "2013-present"
-    },
-    {
-      "standard_name": "Liwa Fatemiyoun",
-      "original_text_name": "Liwa Fatemiyoun",
-      "aliases": [],
-      "type": "other",
-      "context": "Afghan Shia militia, allied with Houthis.",
-      "time_period": "2014-present"
+      "context": "Yemeni Sunni Islamist political party, opponent of Houthis.",
+      "time_period": "1990-present"
     },
     {
       "standard_name": "Southern Transitional Council",
@@ -142,14 +147,6 @@
       "type": "other",
       "context": "Secessionist group in southern Yemen, opponent of Houthis until 2026.",
       "time_period": "2017-present"
-    },
-    {
-      "standard_name": "Al-Islah",
-      "original_text_name": "Al-Islah",
-      "aliases": [],
-      "type": "other",
-      "context": "Yemeni Islamist political party, opponent of Houthis.",
-      "time_period": "1990-present"
     }
   ],
   "edges": [
@@ -158,7 +155,7 @@
       "target": "Hezbollah",
       "relationship": "alliance",
       "detail": null,
-      "context": "Houthis were influenced by Hezbollah and adopted their slogan against US and Israel in 2003.",
+      "context": "Houthis were influenced by Hezbollah and adopted their slogan in 2003.",
       "time_period": "2003-present"
     },
     {
@@ -166,7 +163,7 @@
       "target": "Al-Qaeda",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Al-Qaeda challenged Houthi control in Yemen, leading to conflict.",
+      "context": "Houthi control in Yemen was strongly challenged by Al-Qaeda.",
       "time_period": "2014-present"
     },
     {
@@ -180,57 +177,57 @@
     {
       "source": "Believing Youth",
       "target": "Houthis",
-      "relationship": "other",
-      "detail": "precursor",
-      "context": "Believing Youth was the precursor organization that evolved into the Houthi movement.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Believing Youth was the predecessor organization that evolved into the Houthis.",
       "time_period": "1992-2004"
     },
     {
       "source": "Houthis",
       "target": "Muslim Brotherhood",
-      "relationship": "other",
-      "detail": "ideological influence",
-      "context": "Houthi ideology reflects influences from the Muslim Brotherhood.",
-      "time_period": null
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Houthi ideology was influenced by revolutionary Sunni Islamist movements including the Muslim Brotherhood.",
+      "time_period": "2000s-present"
     },
     {
       "source": "Hezbollah",
       "target": "Houthis",
       "relationship": "alliance",
       "detail": null,
-      "context": "Hezbollah's Unit 3800 provides training and strategic assistance to the Houthis since 2003.",
+      "context": "Hezbollah's Unit 3800 provides training and strategic assistance to Houthis since 2003.",
       "time_period": "2003-present"
-    },
-    {
-      "source": "Quds Force",
-      "target": "Houthis",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Iran's Quds Force smuggles weapons to the Houthis since 2009, including missile components by 2015.",
-      "time_period": "2009-present"
     },
     {
       "source": "Islamic Revolutionary Guard Corps",
       "target": "Houthis",
       "relationship": "alliance",
       "detail": null,
-      "context": "IRGC provides weapons, training, and financial support to the Houthis.",
-      "time_period": "2013-present"
+      "context": "Iran's Quds Force smuggles weapons and provides support to Houthis since 2009.",
+      "time_period": "2009-present"
+    },
+    {
+      "source": "Quds Force",
+      "target": "Houthis",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Quds Force head Qasem Soleimani met with IRGC to accelerate support for Houthis.",
+      "time_period": "2017"
     },
     {
       "source": "Al-Shabaab",
       "target": "Houthis",
       "relationship": "alliance",
       "detail": null,
-      "context": "Transactional relationship: Al-Shabaab receives weapons and training, Houthis benefit from smuggling cooperation.",
+      "context": "Transactional relationship: Houthis provide weapons and training to Al-Shabaab; both assist in smuggling.",
       "time_period": "2024-2025"
     },
     {
       "source": "Al-Qaeda in the Arabian Peninsula",
       "target": "Houthis",
-      "relationship": "other",
-      "detail": "ceasefire and cooperation",
-      "context": "Since 2022, AQAP and Houthis have a ceasefire and cooperate in attacks and safe havens.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ceasefire since 2022; cooperate in attacks against Yemeni government and provide safe havens.",
       "time_period": "2022-present"
     },
     {
@@ -238,8 +235,24 @@
       "target": "Houthis",
       "relationship": "alliance",
       "detail": null,
-      "context": "Zaynabiyat is the female police wing of the Houthis, carrying out torture of detainees.",
+      "context": "Zaynabiyat is the female police wing of the Houthis.",
       "time_period": "unknown"
+    },
+    {
+      "source": "Houthis",
+      "target": "Harakat Hezbollah al-Nujaba",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Houthis are allied with this Iraqi Shia paramilitary group.",
+      "time_period": null
+    },
+    {
+      "source": "Houthis",
+      "target": "Liwa Fatemiyoun",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Houthis are allied with this Afghan Shia militia.",
+      "time_period": null
     },
     {
       "source": "Houthis",
@@ -254,31 +267,23 @@
       "target": "General People's Congress",
       "relationship": "alliance",
       "detail": null,
-      "context": "Pro-Saleh faction allied with Houthis 2014-2017; pro-Houthi faction since 2017.",
+      "context": "Houthis allied with pro-Saleh faction of GPC (2014-2017) and pro-Houthi faction since 2017.",
       "time_period": "2014-present"
     },
     {
       "source": "Houthis",
-      "target": "Harakat Hezbollah al-Nujaba",
+      "target": "Believing Youth",
       "relationship": "alliance",
       "detail": null,
-      "context": "Iraqi Shia group allied with Houthis.",
-      "time_period": null
-    },
-    {
-      "source": "Houthis",
-      "target": "Liwa Fatemiyoun",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Afghan Shia militia allied with Houthis.",
-      "time_period": null
+      "context": "Houthis were preceded by Believing Youth, which evolved into the Houthi movement.",
+      "time_period": "1994"
     },
     {
       "source": "Houthis",
       "target": "al-Shabaab",
       "relationship": "alliance",
       "detail": null,
-      "context": "Alleged alliance between Houthis and al-Shabaab.",
+      "context": "Houthis are alleged to be allied with al-Shabaab.",
       "time_period": null
     },
     {
@@ -286,7 +291,15 @@
       "target": "Islamic State",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Houthis oppose the Islamic State.",
+      "context": "Houthis are opponents of the Islamic State.",
+      "time_period": null
+    },
+    {
+      "source": "Houthis",
+      "target": "Al-Islah",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Houthis oppose the Yemeni Sunni Islamist party Al-Islah.",
       "time_period": null
     },
     {
@@ -296,14 +309,6 @@
       "detail": null,
       "context": "Houthis opposed the Southern Transitional Council until 2026.",
       "time_period": "2017-2026"
-    },
-    {
-      "source": "Houthis",
-      "target": "Al-Islah",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Houthis oppose the Al-Islah party.",
-      "time_period": null
     }
   ],
   "source_file": "Houthis"

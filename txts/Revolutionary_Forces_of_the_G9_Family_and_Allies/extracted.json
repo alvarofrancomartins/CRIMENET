@@ -16,31 +16,31 @@
       "original_text_name": "Delmas 95",
       "aliases": [],
       "type": "gang",
-      "context": "Founding armed group of the G9 Family, led by Jimmy Chérizier.",
-      "time_period": "2020-present"
+      "context": "Armed group founded by Jimmy Chérizier, founding member of G9 Family.",
+      "time_period": "before June 2020-present"
     },
     {
       "standard_name": "G-Pèp",
       "original_text_name": "G-Pèp",
       "aliases": [],
       "type": "gang",
-      "context": "Haitian armed group supportive of the Haitian Government, rival of G9.",
-      "time_period": "2020-present"
+      "context": "Armed group supportive of the Haitian Government, rival of G9 Family.",
+      "time_period": null
     },
     {
       "standard_name": "Viv Ansanm",
       "original_text_name": "Viv Ansanm",
       "aliases": [],
       "type": "gang",
-      "context": "Coalition formed by G9 and G-Pèp in February 2024.",
-      "time_period": "2024-present"
+      "context": "Coalition formed by G9 Family and G-Pèp in February 2024.",
+      "time_period": "February 2024-present"
     },
     {
       "standard_name": "Zoe Pound",
       "original_text_name": "Zoe Pound",
       "aliases": [],
       "type": "gang",
-      "context": "Ally of G9, likely a Haitian gang.",
+      "context": "Haitian gang, ally of G9 Family.",
       "time_period": null
     },
     {
@@ -48,7 +48,7 @@
       "original_text_name": "Zoe Nation",
       "aliases": [],
       "type": "gang",
-      "context": "Ally of G9, likely a Haitian gang.",
+      "context": "Haitian gang, ally of G9 Family.",
       "time_period": null
     },
     {
@@ -56,7 +56,7 @@
       "original_text_name": "Zoe Mafia Family",
       "aliases": [],
       "type": "gang",
-      "context": "Ally of G9, likely a Haitian gang.",
+      "context": "Haitian gang, ally of G9 Family.",
       "time_period": null
     },
     {
@@ -64,7 +64,7 @@
       "original_text_name": "Haitian Tèt Kale Party",
       "aliases": [],
       "type": "other",
-      "context": "Political party, formerly allied with G9 until 2021.",
+      "context": "Political party, formerly allied with G9 Family until 2021.",
       "time_period": "until 2021"
     },
     {
@@ -72,14 +72,14 @@
       "original_text_name": "400 Mawozo",
       "aliases": [],
       "type": "gang",
-      "context": "Haitian gang, rival of G9.",
+      "context": "Haitian gang, rival of G9 Family.",
       "time_period": null
     }
   ],
   "edges": [
     {
-      "source": "Revolutionary Forces of the G9 Family and Allies",
-      "target": "Delmas 95",
+      "source": "Delmas 95",
+      "target": "Revolutionary Forces of the G9 Family and Allies",
       "relationship": "alliance",
       "detail": null,
       "context": "Delmas 95 is a founding member of the G9 Family.",
@@ -99,7 +99,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "G9 and G-Pèp formed coalition Viv Ansanm in February 2024.",
-      "time_period": "2024-present"
+      "time_period": "February 2024-present"
     },
     {
       "source": "Revolutionary Forces of the G9 Family and Allies",
@@ -107,7 +107,15 @@
       "relationship": "alliance",
       "detail": null,
       "context": "G9 is a member of the Viv Ansanm coalition.",
-      "time_period": "2024-present"
+      "time_period": "February 2024-present"
+    },
+    {
+      "source": "G-Pèp",
+      "target": "Viv Ansanm",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "G-Pèp is a member of the Viv Ansanm coalition.",
+      "time_period": "February 2024-present"
     },
     {
       "source": "Revolutionary Forces of the G9 Family and Allies",
@@ -138,7 +146,7 @@
       "target": "Haitian Tèt Kale Party",
       "relationship": "alliance",
       "detail": null,
-      "context": "G9 was formerly allied with the Haitian Tèt Kale Party until 2021.",
+      "context": "G9 was formerly allied with Haitian Tèt Kale Party until 2021.",
       "time_period": "until 2021"
     },
     {

@@ -8,7 +8,7 @@
         "松葉会"
       ],
       "type": "mafia",
-      "context": "Yakuza group based in Tokyo, Japan, involved in smuggling and violent feuds.",
+      "context": "Yakuza group based in Tokyo, Japan, with about 280 members as of 2024.",
       "time_period": "1953-present"
     },
     {
@@ -58,7 +58,7 @@
         "関根組"
       ],
       "type": "gang",
-      "context": "Precursor yakuza gang to Matsuba-kai, founded in 1936 in Tokyo.",
+      "context": "Precursor yakuza gang to the Matsuba-kai, founded in 1936 in Sumida, Tokyo.",
       "time_period": "1936-1947"
     },
     {
@@ -120,19 +120,19 @@
       "time_period": null
     },
     {
-      "source": "Sekine-gumi",
-      "target": "Matsuba-kai",
-      "relationship": "other",
-      "detail": "precursor",
-      "context": "Sekine-gumi was the precursor to Matsuba-kai; remnants formed Matsuba-kai after disbandment.",
+      "source": "Matsuba-kai",
+      "target": "Sekine-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Matsuba-kai was formed from remnants of Sekine-gumi after its disbandment.",
       "time_period": "1953"
     },
     {
-      "source": "Fujita-gumi",
-      "target": "Matsuba-kai",
-      "relationship": "other",
-      "detail": "merged remnants",
-      "context": "Remnants of Fujita-gumi merged with Sekine-gumi remnants to found Matsuba-kai.",
+      "source": "Matsuba-kai",
+      "target": "Fujita-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Matsuba-kai was formed from remnants of Fujita-gumi merging with Sekine-gumi remnants.",
       "time_period": "1953"
     },
     {

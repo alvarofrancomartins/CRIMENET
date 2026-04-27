@@ -9,7 +9,7 @@
         "福建幫"
       ],
       "type": "other",
-      "context": "Crime syndicates composed of Fujianese people, active globally in human trafficking, narcotics, and racketeering.",
+      "context": "Crime syndicates composed of Fujianese people, active globally in Chinese communities.",
       "time_period": "1900s-present"
     },
     {
@@ -29,7 +29,7 @@
       "original_text_name": "Yakuza",
       "aliases": [],
       "type": "mafia",
-      "context": "Japanese organized crime syndicate involved in various illegal activities.",
+      "context": "Japanese organized crime syndicate.",
       "time_period": null
     },
     {
@@ -37,15 +37,15 @@
       "original_text_name": "American Mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian-American organized crime syndicate operating in the United States.",
+      "context": "Italian-American organized crime syndicate.",
       "time_period": null
     },
     {
       "standard_name": "Triad",
-      "original_text_name": "Triad",
+      "original_text_name": "Triads",
       "aliases": [],
       "type": "triad",
-      "context": "Chinese underground societies involved in organized crime.",
+      "context": "Chinese organized crime groups operating in mainland China and Hong Kong.",
       "time_period": null
     },
     {
@@ -55,7 +55,7 @@
         "守護香港大聯盟"
       ],
       "type": "other",
-      "context": "Pro-Beijing group that organized assemblies supporting police during Hong Kong protests.",
+      "context": "Pro-Beijing group that organized assemblies and advocated attacks on protestors.",
       "time_period": "2019"
     },
     {
@@ -63,7 +63,7 @@
       "original_text_name": "Big Circle Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Chinese criminal organization active in Hong Kong and internationally.",
+      "context": "Chinese organized crime group, ally of Fujianese organized crime.",
       "time_period": null
     },
     {
@@ -71,7 +71,7 @@
       "original_text_name": "Yamaguchi-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Largest yakuza syndicate in Japan.",
+      "context": "Largest Yakuza syndicate in Japan.",
       "time_period": null
     },
     {
@@ -79,7 +79,15 @@
       "original_text_name": "Hong Kong Federation of Trade Unions",
       "aliases": [],
       "type": "other",
-      "context": "Pro-Beijing labour union in Hong Kong.",
+      "context": "Pro-Beijing labour union, ally of Fujianese organized crime.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Chinese Communist Party",
+      "original_text_name": "Chinese Communist Party",
+      "aliases": [],
+      "type": "other",
+      "context": "Ruling political party of China, listed as ally of Fujianese organized crime.",
       "time_period": null
     }
   ],
@@ -110,18 +118,10 @@
     },
     {
       "source": "Fujianese organized crime",
-      "target": "Grand Alliance for Safeguarding Hong Kong",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Fujian gang members participated in Grand Alliance gatherings supporting authorities.",
-      "time_period": "2019"
-    },
-    {
-      "source": "Fujianese organized crime",
       "target": "Triad",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as allies in infobox.",
+      "context": "Listed as allies in the infobox.",
       "time_period": null
     },
     {
@@ -129,7 +129,7 @@
       "target": "Big Circle Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as allies in infobox.",
+      "context": "Listed as allies in the infobox.",
       "time_period": null
     },
     {
@@ -137,7 +137,7 @@
       "target": "Yakuza",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as allies in infobox.",
+      "context": "Listed as allies in the infobox.",
       "time_period": null
     },
     {
@@ -145,7 +145,7 @@
       "target": "Yamaguchi-gumi",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as allies in infobox.",
+      "context": "Listed as allies in the infobox.",
       "time_period": null
     },
     {
@@ -153,7 +153,15 @@
       "target": "American Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as allies in infobox.",
+      "context": "Listed as allies in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Fujianese organized crime",
+      "target": "Chinese Communist Party",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox.",
       "time_period": null
     },
     {
@@ -161,8 +169,16 @@
       "target": "Hong Kong Federation of Trade Unions",
       "relationship": "alliance",
       "detail": null,
-      "context": "Fujian gangs have iron-vote support for the pro-Beijing union.",
+      "context": "Listed as allies in the infobox.",
       "time_period": null
+    },
+    {
+      "source": "Fujianese organized crime",
+      "target": "Grand Alliance for Safeguarding Hong Kong",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as allies in the infobox; Fujian gang members participated in Grand Alliance events.",
+      "time_period": "2019"
     }
   ],
   "source_file": "Fujianese_organized_crime"

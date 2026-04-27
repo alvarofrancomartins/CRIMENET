@@ -14,9 +14,7 @@
     {
       "standard_name": "Sabini Gang",
       "original_text_name": "Sabini Gang",
-      "aliases": [
-        "Sabini"
-      ],
+      "aliases": [],
       "type": "gang",
       "context": "Italian gang based in London, provided protection for Jewish bookmakers and rivaled the Birmingham Boys.",
       "time_period": "1910s-1930s"
@@ -36,6 +34,14 @@
       "type": "gang",
       "context": "Smaller London gang allied with the Birmingham Boys.",
       "time_period": null
+    },
+    {
+      "standard_name": "CWS",
+      "original_text_name": "CWS",
+      "aliases": [],
+      "type": "other",
+      "context": "Allied organization mentioned in infobox; likely a cooperative society involved in criminal activities.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -52,7 +58,7 @@
       "target": "Hoxton Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Birmingham Boys formed an alliance with the Hoxton Gang to control racecourses.",
+      "context": "Birmingham Boys formed an alliance with the Hoxton Gang to control racecourses.",
       "time_period": null
     },
     {
@@ -60,7 +66,15 @@
       "target": "Elephant and Castle Mob",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Birmingham Boys formed an alliance with the Elephant and Castle Mob to control racecourses.",
+      "context": "Birmingham Boys formed an alliance with the Elephant and Castle Mob.",
+      "time_period": null
+    },
+    {
+      "source": "Birmingham Boys",
+      "target": "CWS",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "CWS listed as an ally in the infobox.",
       "time_period": null
     }
   ],

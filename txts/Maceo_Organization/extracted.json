@@ -7,7 +7,7 @@
         "Maceo Syndicate"
       ],
       "type": "other",
-      "context": "Criminal organization that ran Galveston, Texas, involved in gambling, prostitution, bootlegging, and racketeering.",
+      "context": "Criminal organization that ran Galveston, Texas, involved in gambling, prostitution, bootlegging, racketeering.",
       "time_period": "c. 1920s-1980s"
     },
     {
@@ -15,7 +15,7 @@
       "original_text_name": "Beach Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Controlled the Beach area of Galveston during the 1910s-1920s, under Ollie Quinn and Dutch Voight.",
+      "context": "Early Galveston gang controlled by Ollie Quinn and Dutch Voight, precursor to Maceo Organization.",
       "time_period": "1910s-1920s"
     },
     {
@@ -23,17 +23,17 @@
       "original_text_name": "Downtown Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang controlled by Johnny Jack Nounes and George Musey in Galveston.",
+      "context": "Rival gang to Beach Gang, led by Johnny Jack Nounes and George Musey.",
       "time_period": "1910s-1930s"
     },
     {
-      "standard_name": "Fertitta Organization",
+      "standard_name": "Fertitta Group",
       "original_text_name": "Fertitta Group",
       "aliases": [
-        "Fertitta Group"
+        "Fertitta Organization"
       ],
       "type": "other",
-      "context": "Succeeded the Maceo Organization after the brothers' deaths, moved operations to Las Vegas.",
+      "context": "Successor to Maceo Organization, moved operations to Las Vegas, managed casinos.",
       "time_period": "c. 1954-1980s"
     }
   ],
@@ -41,26 +41,26 @@
     {
       "source": "Maceo Organization",
       "target": "Beach Gang",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "The Maceo brothers took control of the Beach Gang and transitioned it into their own organization.",
-      "time_period": "late 1920s"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Maceo Organization evolved from Beach Gang; Maceo brothers were mentored by Beach Gang leaders.",
+      "time_period": "c. 1920s-1930s"
     },
     {
       "source": "Maceo Organization",
       "target": "Downtown Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Maceo Organization ran the Downtown Gang away from operating in the city by the 1930s.",
-      "time_period": "1930s"
+      "context": "Maceo Organization ran the Downtown Gang out of Galveston, gaining control.",
+      "time_period": "c. 1920s-1930s"
     },
     {
-      "source": "Maceo Organization",
-      "target": "Fertitta Organization",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "After Sam and Rose Maceo's deaths, the Fertitta Group succeeded the Maceo Organization.",
-      "time_period": "c. 1954"
+      "source": "Fertitta Group",
+      "target": "Maceo Organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Fertitta Group succeeded Maceo Organization after the Maceo brothers' deaths.",
+      "time_period": "c. 1954-1980s"
     }
   ],
   "source_file": "Maceo_Organization"

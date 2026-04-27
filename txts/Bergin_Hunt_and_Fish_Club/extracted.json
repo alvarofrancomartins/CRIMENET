@@ -5,10 +5,19 @@
       "original_text_name": "Gambino crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "American Mafia family operating in New York City, involved in various rackets.",
+      "context": "American Mafia family operating in New York City.",
       "time_period": "1910s-present"
     }
   ],
-  "edges": [],
+  "edges": [
+    {
+      "source": "Bergin Hunt and Fish Club",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Bergin Hunt and Fish Club was a hangout for the Gambino crime family.",
+      "time_period": null
+    }
+  ],
   "source_file": "Bergin_Hunt_and_Fish_Club"
 }

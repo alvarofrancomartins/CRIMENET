@@ -11,7 +11,7 @@
         "WMC"
       ],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club based in Philadelphia, involved in drug trafficking, murder, and other crimes.",
+      "context": "Outlaw motorcycle club based in Philadelphia, involved in drug trafficking, violent crime, and murder.",
       "time_period": "1967-present"
     },
     {
@@ -35,8 +35,8 @@
       "original_text_name": "Breed",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Rival motorcycle gang that had conflicts with the Warlocks.",
-      "time_period": "unknown"
+      "context": "Rival motorcycle gang to the Warlocks, involved in a kidnapping incident.",
+      "time_period": null
     },
     {
       "standard_name": "Florida Warlocks",
@@ -44,7 +44,7 @@
       "aliases": [],
       "type": "motorcycle_club",
       "context": "Rival motorcycle club to the Pennsylvania Warlocks.",
-      "time_period": "unknown"
+      "time_period": null
     }
   ],
   "edges": [
@@ -54,31 +54,31 @@
       "relationship": "alliance",
       "detail": null,
       "context": "The Warlocks are allied with the Pagans and have associated in criminal activities.",
-      "time_period": "1970s-present"
+      "time_period": null
     },
     {
       "source": "Warlocks Motorcycle Club (Pennsylvania)",
       "target": "Philadelphia crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Warlocks have criminal associations with the Philadelphia crime family, including labor union strong-arm tactics.",
-      "time_period": "unknown"
+      "context": "The Warlocks have criminal associations with the Philadelphia crime family involving strong-arm tactics for labor unions.",
+      "time_period": null
     },
     {
       "source": "Warlocks Motorcycle Club (Pennsylvania)",
       "target": "Breed Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Breed is a rival gang; a Warlocks member kidnapped the Breed chapter president in retaliation for an attack.",
-      "time_period": "1980s"
+      "context": "Rival gangs include the Breed; a Warlock kidnapping of a Breed president occurred in 1988.",
+      "time_period": null
     },
     {
       "source": "Warlocks Motorcycle Club (Pennsylvania)",
       "target": "Florida Warlocks",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Florida Warlocks are listed as a rival gang.",
-      "time_period": "unknown"
+      "context": "Rival gangs include the Florida Warlocks.",
+      "time_period": null
     }
   ],
   "source_file": "Warlocks_Motorcycle_Club_(Pennsylvania)"

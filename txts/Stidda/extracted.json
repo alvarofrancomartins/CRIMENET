@@ -5,7 +5,7 @@
       "original_text_name": "Stidda",
       "aliases": [],
       "type": "mafia",
-      "context": "Sicilian Mafia-type organization active in southern Sicily, involved in racketeering, fraud, gambling, extortion, murder.",
+      "context": "Sicilian Mafia-type criminal organization active in central-southern Sicily, rival to Cosa Nostra.",
       "time_period": "1980s-present"
     },
     {
@@ -15,7 +15,7 @@
         "Sicilian Mafia"
       ],
       "type": "mafia",
-      "context": "Traditional Sicilian Mafia, rival to Stidda, operating throughout Sicily.",
+      "context": "Traditional Sicilian Mafia, rival to Stidda.",
       "time_period": "19th century-present"
     },
     {
@@ -23,7 +23,7 @@
       "original_text_name": "'Ndrangheta",
       "aliases": [],
       "type": "mafia",
-      "context": "Calabrian Mafia, allied with Stidda according to infobox.",
+      "context": "Calabrian Mafia, allied with Stidda.",
       "time_period": "19th century-present"
     },
     {
@@ -31,7 +31,7 @@
       "original_text_name": "Camorra",
       "aliases": [],
       "type": "clan",
-      "context": "Neapolitan crime organization, allied with Stidda according to infobox.",
+      "context": "Neapolitan crime organization, allied with Stidda.",
       "time_period": "18th century-present"
     }
   ],
@@ -49,7 +49,7 @@
       "target": "'Ndrangheta",
       "relationship": "alliance",
       "detail": null,
-      "context": "Infobox lists 'Ndrangheta as an ally of Stidda.",
+      "context": "Stidda is allied with 'Ndrangheta according to the infobox.",
       "time_period": null
     },
     {
@@ -57,7 +57,15 @@
       "target": "Camorra",
       "relationship": "alliance",
       "detail": null,
-      "context": "Infobox lists Camorra as an ally of Stidda.",
+      "context": "Stidda is allied with Camorra according to the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Stidda",
+      "target": "Cosa Nostra",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Stidda sometimes allies with local chapters of Cosa Nostra despite overall rivalry.",
       "time_period": null
     }
   ],

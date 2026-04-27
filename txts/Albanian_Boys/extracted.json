@@ -8,24 +8,26 @@
         "Albanian Boys Inc."
       ],
       "type": "gang",
-      "context": "A gang of Albanians operating in central Bronx, involved in extortion, intimidation, and debt collection.",
+      "context": "Albanian American street gang operating in the Bronx and Staten Island, involved in gang violence, robbery, extortion.",
       "time_period": "1991-1990s"
     },
     {
       "standard_name": "Rudaj Organization",
       "original_text_name": "Rudaj Organization",
       "aliases": [],
-      "type": "other",
-      "context": "A local organized crime group that the Albanian Boys worked for as subcontractors.",
-      "time_period": null
+      "type": "mafia",
+      "context": "Albanian organized crime group based in New York, involved in extortion, gambling, and loan sharking.",
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "MS-13",
       "original_text_name": "MS-13",
-      "aliases": [],
+      "aliases": [
+        "Mara Salvatrucha"
+      ],
       "type": "gang",
-      "context": "A rival gang to the Albanian Boys.",
-      "time_period": null
+      "context": "Transnational street gang originating in Los Angeles, active in the US and Central America, involved in drug trafficking, murder, extortion.",
+      "time_period": "1980s-present"
     }
   ],
   "edges": [
@@ -34,15 +36,15 @@
       "target": "Rudaj Organization",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Albanian Boys worked as subcontractors for the Rudaj Organization, engaging in extortion and debt collection.",
-      "time_period": null
+      "context": "Albanian Boys worked as subcontractors for the Rudaj Organization, engaging in extortion, intimidation, and debt collection.",
+      "time_period": "1990s"
     },
     {
       "source": "Albanian Boys",
       "target": "MS-13",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Albanian Boys and MS-13 were rivals.",
+      "context": "Albanian Boys and MS-13 were rivals, as indicated in the infobox.",
       "time_period": null
     }
   ],

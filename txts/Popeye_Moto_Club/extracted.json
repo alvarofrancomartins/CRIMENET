@@ -4,13 +4,11 @@
       "standard_name": "Popeye Moto Club",
       "original_text_name": "Popeye Moto Club",
       "aliases": [
-        "Popeye MC",
-        "Popeyes",
         "Popeye(s) MC",
         "The Popeyes"
       ],
       "type": "motorcycle_club",
-      "context": "French-Canadian outlaw motorcycle club based in Quebec, involved in drug trafficking, murder, and other crimes. Active 1965-1977.",
+      "context": "French-Canadian outlaw motorcycle club based in Quebec, active 1965-1977, involved in drug trafficking, murder, and other crimes.",
       "time_period": "1965-1977"
     },
     {
@@ -20,8 +18,8 @@
         "Satan's Choice MC"
       ],
       "type": "motorcycle_club",
-      "context": "Canadian outlaw motorcycle club, rival of the Popeyes and allied with the Outlaws.",
-      "time_period": null
+      "context": "Canadian outlaw motorcycle club, rival of the Popeyes, backed by the Outlaws MC.",
+      "time_period": "1960s-2000s"
     },
     {
       "standard_name": "Hells Angels Motorcycle Club",
@@ -30,8 +28,8 @@
         "Hells Angels"
       ],
       "type": "motorcycle_club",
-      "context": "International outlaw motorcycle club that absorbed the Popeyes in 1977 to form the first Canadian chapter.",
-      "time_period": null
+      "context": "International outlaw motorcycle club, allied with the Popeyes and later absorbed them in 1977.",
+      "time_period": "1948-present"
     },
     {
       "standard_name": "Devil's Disciples Motorcycle Club",
@@ -40,16 +38,16 @@
         "Devil's Disciples"
       ],
       "type": "motorcycle_club",
-      "context": "Canadian outlaw biker gang, rival of the Popeyes in a turf war from 1968-1970.",
-      "time_period": "1968-1976"
+      "context": "Canadian outlaw motorcycle club, rival of the Popeyes, involved in a turf war from 1968-1970.",
+      "time_period": "1960s-1976"
     },
     {
       "standard_name": "Dubois Brothers",
       "original_text_name": "Dubois Brothers",
       "aliases": [],
-      "type": "other",
-      "context": "Prominent crime family in Montreal for whom the Popeyes worked as muscle in the early 1970s.",
-      "time_period": "early 1970s"
+      "type": "mafia",
+      "context": "Montreal crime family that employed the Popeyes as muscle in the early 1970s.",
+      "time_period": "1960s-1980s"
     },
     {
       "standard_name": "Montreal Mafia",
@@ -58,8 +56,8 @@
         "Rizzuto crime family"
       ],
       "type": "mafia",
-      "context": "Italian organized crime group in Montreal; the Popeyes became involved with them.",
-      "time_period": null
+      "context": "Italian organized crime group in Montreal, allied with the Popeyes.",
+      "time_period": "1950s-present"
     },
     {
       "standard_name": "Outlaws Motorcycle Club",
@@ -68,40 +66,40 @@
         "Outlaws"
       ],
       "type": "motorcycle_club",
-      "context": "International outlaw motorcycle club, rival of the Hells Angels, backed Satan's Choice against the Popeyes.",
-      "time_period": null
+      "context": "International outlaw motorcycle club, rival of the Hells Angels, backed Satan's Choice.",
+      "time_period": "1935-present"
     },
     {
       "standard_name": "Mongols MC (Quebec)",
       "original_text_name": "Mongols MC",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Quebec-based motorcycle club, unrelated to the U.S. club, absorbed by the Popeyes in 1974.",
-      "time_period": "until 1974"
+      "context": "Quebec-based motorcycle club, unrelated to the U.S. Mongols, absorbed by the Popeyes in 1974.",
+      "time_period": "1974"
     },
     {
       "standard_name": "Zombi MC",
       "original_text_name": "Zombi MC",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Local motorcycle club affected by the Popeyes' policy on red-and-white color schemes.",
-      "time_period": null
+      "context": "Quebec motorcycle club affected by Popeyes' policy on red-and-white color schemes.",
+      "time_period": "1960s-1970s"
     },
     {
       "standard_name": "Black Angels MC",
       "original_text_name": "Black Angels MC",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Local motorcycle club affected by the Popeyes' policy on red-and-white color schemes.",
-      "time_period": null
+      "context": "Quebec motorcycle club affected by Popeyes' policy on red-and-white color schemes.",
+      "time_period": "1960s-1970s"
     },
     {
       "standard_name": "Escape Hell MC",
       "original_text_name": "Escape Hell MC",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Local motorcycle club affected by the Popeyes' policy on red-and-white color schemes.",
-      "time_period": null
+      "context": "Quebec motorcycle club affected by Popeyes' policy on red-and-white color schemes.",
+      "time_period": "1960s-1970s"
     },
     {
       "standard_name": "Grim Reapers Motorcycle Club",
@@ -109,7 +107,7 @@
       "aliases": [],
       "type": "motorcycle_club",
       "context": "Allied with the Popeyes according to the infobox.",
-      "time_period": null
+      "time_period": "1960s-1970s"
     },
     {
       "standard_name": "Gitans MC",
@@ -117,7 +115,7 @@
       "aliases": [],
       "type": "motorcycle_club",
       "context": "Allied with the Popeyes according to the infobox.",
-      "time_period": null
+      "time_period": "1960s-1970s"
     },
     {
       "standard_name": "13th Tribe MC",
@@ -125,7 +123,7 @@
       "aliases": [],
       "type": "motorcycle_club",
       "context": "Allied with the Popeyes according to the infobox.",
-      "time_period": null
+      "time_period": "1960s-1970s"
     },
     {
       "standard_name": "Sundowners MC",
@@ -133,7 +131,7 @@
       "aliases": [],
       "type": "motorcycle_club",
       "context": "Allied with the Popeyes according to the infobox.",
-      "time_period": null
+      "time_period": "1960s-1970s"
     }
   ],
   "edges": [
@@ -150,15 +148,15 @@
       "target": "Hells Angels Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Longtime allies; the Popeyes were patched over by the Hells Angels in 1977.",
-      "time_period": "until 1977"
+      "context": "Longtime allies; the Popeyes were patched over by the Hells Angels in 1977 to form the first Canadian Hells Angels charter.",
+      "time_period": "1977"
     },
     {
       "source": "Popeye Moto Club",
       "target": "Devil's Disciples Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Turf war from 1968 to 1970 involving violent confrontations and killings.",
+      "context": "Turf war from 1968 to 1970 over drug trade, involving violent confrontations and a murder.",
       "time_period": "1968-1970"
     },
     {
@@ -175,15 +173,15 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Popeyes became involved with the Montreal Mafia.",
-      "time_period": null
+      "time_period": "1970s"
     },
     {
       "source": "Satan's Choice Motorcycle Club",
       "target": "Outlaws Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Satan's Choice was backed by the Outlaws, a rival of the Hells Angels.",
-      "time_period": null
+      "context": "Satan's Choice was backed by the Outlaws MC.",
+      "time_period": "1970s"
     },
     {
       "source": "Popeye Moto Club",
@@ -198,24 +196,24 @@
       "target": "Zombi MC",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Popeyes enforced a policy against red-and-white logos, tearing patches from Zombi MC members.",
-      "time_period": null
+      "context": "Popeyes enforced a policy against red-and-white color schemes, targeting clubs like Zombi MC.",
+      "time_period": "1960s-1970s"
     },
     {
       "source": "Popeye Moto Club",
       "target": "Black Angels MC",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Popeyes enforced a policy against red-and-white logos, tearing patches from Black Angels MC members.",
-      "time_period": null
+      "context": "Popeyes enforced a policy against red-and-white color schemes, targeting clubs like Black Angels MC.",
+      "time_period": "1960s-1970s"
     },
     {
       "source": "Popeye Moto Club",
       "target": "Escape Hell MC",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Popeyes enforced a policy against red-and-white logos, tearing patches from Escape Hell MC members.",
-      "time_period": null
+      "context": "Popeyes enforced a policy against red-and-white color schemes, targeting clubs like Escape Hell MC.",
+      "time_period": "1960s-1970s"
     },
     {
       "source": "Popeye Moto Club",

@@ -14,7 +14,10 @@
     {
       "standard_name": "Medellín Cartel",
       "original_text_name": "Medellín Cartel",
-      "aliases": [],
+      "aliases": [
+        "Medellin Cartel",
+        "Medellín associates"
+      ],
       "type": "cartel",
       "context": "Drug cartel led by Pablo Escobar, rival of Cali Cartel.",
       "time_period": "1970s-1993"
@@ -25,7 +28,7 @@
       "aliases": [],
       "type": "gang",
       "context": "Kidnapping ring that preceded the Cali Cartel, led by Luis Fernando Tamayo García.",
-      "time_period": "1970s-1980s"
+      "time_period": "before 1980s"
     },
     {
       "standard_name": "Camorra",
@@ -33,12 +36,13 @@
       "aliases": [],
       "type": "clan",
       "context": "Italian criminal organization that partnered with Cali Cartel for European cocaine distribution.",
-      "time_period": "1980s-present"
+      "time_period": "unknown"
     },
     {
-      "standard_name": "M-19",
+      "standard_name": "Movimiento 19 de Abril",
       "original_text_name": "Movimiento 19 de Abril",
       "aliases": [
+        "M-19",
         "19th of April Movement"
       ],
       "type": "militia",
@@ -49,6 +53,7 @@
       "standard_name": "Muerte a Secuestradores",
       "original_text_name": "Muerte a Secuestradores",
       "aliases": [
+        "Death to Kidnappers",
         "MAS"
       ],
       "type": "militia",
@@ -56,13 +61,14 @@
       "time_period": "1981-1990s"
     },
     {
-      "standard_name": "FARC",
+      "standard_name": "Fuerzas Armadas Revolucionarias de Colombia",
       "original_text_name": "Fuerzas Armadas Revolucionarias de Colombia",
       "aliases": [
+        "FARC",
         "Revolutionary Armed Forces of Colombia"
       ],
       "type": "militia",
-      "context": "Colombian guerrilla group that kidnapped daughter of Cali Cartel leader.",
+      "context": "Colombian guerrilla group that kidnapped a Cali Cartel leader's daughter.",
       "time_period": "1964-2017"
     },
     {
@@ -72,7 +78,7 @@
         "Perseguidos por Pablo Escobar"
       ],
       "type": "militia",
-      "context": "Vigilante group formed to target Pablo Escobar, believed to include Cali Cartel members.",
+      "context": "Group formed to hunt Pablo Escobar, allegedly founded by Cali Cartel member Hélmer Herrera.",
       "time_period": "1992-1993"
     },
     {
@@ -80,23 +86,23 @@
       "original_text_name": "Guadalajara Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel, ally of Cali Cartel.",
+      "context": "Mexican drug cartel; ally of Cali Cartel.",
       "time_period": "1970s-1989"
     },
     {
       "standard_name": "The Extraditables",
       "original_text_name": "The Extraditables",
       "aliases": [],
-      "type": "faction",
-      "context": "Group of traffickers opposing extradition to US, allied with Cali Cartel.",
-      "time_period": "1980s-1990s"
+      "type": "other",
+      "context": "Group of drug traffickers opposed to extradition; ally of Cali Cartel.",
+      "time_period": "1980s"
     },
     {
       "standard_name": "Juarez Cartel",
       "original_text_name": "Juarez Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel, ally of Cali Cartel.",
+      "context": "Mexican drug cartel; ally of Cali Cartel.",
       "time_period": "1980s-present"
     },
     {
@@ -104,15 +110,15 @@
       "original_text_name": "Gulf Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel, ally of Cali Cartel.",
-      "time_period": "1930s-present"
+      "context": "Mexican drug cartel; ally of Cali Cartel.",
+      "time_period": "1970s-present"
     },
     {
       "standard_name": "Norte del Valle Cartel",
       "original_text_name": "Norte del Valle Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel, initially ally then rival of Cali Cartel.",
+      "context": "Colombian drug cartel; initially ally then rival of Cali Cartel.",
       "time_period": "1990s-2000s"
     }
   ],
@@ -128,82 +134,66 @@
     {
       "source": "Cali Cartel",
       "target": "Las Chemas",
-      "relationship": "other",
-      "detail": "predecessor",
-      "context": "Las Chemas was the kidnapping ring that evolved into the Cali Cartel.",
-      "time_period": "1970s-1980s"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cali Cartel evolved from the kidnapping ring Las Chemas, using ransom money to fund drug trafficking.",
+      "time_period": "before 1980s"
     },
     {
       "source": "Cali Cartel",
       "target": "Camorra",
       "relationship": "alliance",
       "detail": null,
-      "context": "Cali Cartel established a strategic alliance with Camorra for European cocaine distribution.",
+      "context": "Cali Cartel established a strategic alliance with Camorra for cocaine distribution in Europe.",
       "time_period": "mid-1980s-1990s"
     },
     {
       "source": "Cali Cartel",
-      "target": "M-19",
+      "target": "Movimiento 19 de Abril",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Cali Cartel retaliated against M-19 for kidnapping a cartel leader's daughter.",
-      "time_period": "1992"
-    },
-    {
-      "source": "Cali Cartel",
-      "target": "Muerte a Secuestradores",
-      "relationship": "other",
-      "detail": "co-founder",
-      "context": "Cali Cartel co-founded MAS with Medellín Cartel to combat kidnappings by guerrillas.",
+      "context": "Cali Cartel joined Medellín Cartel to form MAS in response to M-19's kidnapping of a cartel family member.",
       "time_period": "1981"
     },
     {
       "source": "Medellín Cartel",
-      "target": "Muerte a Secuestradores",
-      "relationship": "other",
-      "detail": "co-founder",
-      "context": "Medellín Cartel co-founded MAS with Cali Cartel.",
+      "target": "Movimiento 19 de Abril",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Medellín Cartel co-founded MAS to retaliate against M-19 for kidnapping Marta Nieves Ochoa.",
       "time_period": "1981"
     },
     {
       "source": "Cali Cartel",
-      "target": "FARC",
+      "target": "Muerte a Secuestradores",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cali Cartel was a founding member of MAS, contributing funds and manpower.",
+      "time_period": "1981-1990s"
+    },
+    {
+      "source": "Medellín Cartel",
+      "target": "Muerte a Secuestradores",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Medellín Cartel co-founded MAS to combat kidnappings by guerrillas.",
+      "time_period": "1981-1990s"
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "Fuerzas Armadas Revolucionarias de Colombia",
       "relationship": "rivalry",
       "detail": null,
-      "context": "FARC kidnapped daughter of Cali Cartel leader, prompting retaliation.",
+      "context": "FARC kidnapped Christina Santa Cruz, daughter of Cali Cartel leader, prompting retaliation.",
       "time_period": "1992"
     },
     {
       "source": "Cali Cartel",
       "target": "Los Pepes",
-      "relationship": "other",
-      "detail": "alleged involvement",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Cali Cartel member Hélmer Herrera is believed to have been a founding member of Los Pepes.",
       "time_period": "1992-1993"
-    },
-    {
-      "source": "Cali Cartel",
-      "target": "Los Pepes",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Cali Cartel founded Los Pepes to target Medellín Cartel and provided information to Search Bloc.",
-      "time_period": "1992-1993"
-    },
-    {
-      "source": "Cali Cartel",
-      "target": "Muerte a Secuestradores",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Cali Cartel co-founded MAS with Medellín Cartel to combat kidnappings and stabilize cocaine market.",
-      "time_period": "1981-1987"
-    },
-    {
-      "source": "Medellín Cartel",
-      "target": "Muerte a Secuestradores",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Medellín Cartel co-founded MAS with Cali Cartel.",
-      "time_period": "1981-1987"
     },
     {
       "source": "Cali Cartel",
@@ -242,16 +232,16 @@
       "target": "Norte del Valle Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Initially allies, later became rivals.",
-      "time_period": null
+      "context": "Initially allies; later became rivals.",
+      "time_period": "1990s"
     },
     {
       "source": "Cali Cartel",
       "target": "Norte del Valle Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rival in infobox.",
-      "time_period": null
+      "context": "Later became rivals after initial alliance.",
+      "time_period": "1990s-2000s"
     }
   ],
   "source_file": "Cali_Cartel"

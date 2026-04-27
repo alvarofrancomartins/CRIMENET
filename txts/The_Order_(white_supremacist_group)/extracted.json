@@ -9,14 +9,14 @@
       ],
       "type": "other",
       "context": "Neo-Nazi paramilitary group active in the US in 1983-1984, engaged in robberies and murder.",
-      "time_period": "September 1983-December 1984"
+      "time_period": "September 1983 - December 1984"
     },
     {
       "standard_name": "Sons of Liberty",
       "original_text_name": "Sons of Liberty",
       "aliases": [],
       "type": "militia",
-      "context": "Anti-communist militia formed by Robert Jay Mathews, mostly Mormon survivalists.",
+      "context": "Anti-communist militia formed by Robert Jay Mathews before The Order, mostly Mormon survivalists.",
       "time_period": "before 1983"
     },
     {
@@ -40,8 +40,8 @@
       "original_text_name": "Aryan Nations",
       "aliases": [],
       "type": "other",
-      "context": "White supremacist organization affiliated with The Order and The Order II.",
-      "time_period": "1970s-present"
+      "context": "White supremacist organization affiliated with The Order; members David and Deborah Dorr were former members.",
+      "time_period": "1970s-2000s"
     },
     {
       "standard_name": "The Order II",
@@ -58,17 +58,17 @@
     {
       "source": "The Order",
       "target": "Sons of Liberty",
-      "relationship": "other",
-      "detail": "predecessor",
-      "context": "Robert Jay Mathews founded Sons of Liberty before founding The Order.",
-      "time_period": "before 1983"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Order was founded by Robert Jay Mathews, who previously formed the Sons of Liberty.",
+      "time_period": "1983"
     },
     {
       "source": "The Order",
       "target": "National Alliance",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Order distributed robbery proceeds to National Alliance leader William Pierce.",
+      "context": "The Order distributed robbery proceeds to William Pierce, leader of the National Alliance.",
       "time_period": "1984"
     },
     {
@@ -76,7 +76,7 @@
       "target": "White Patriot Party",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Order distributed robbery proceeds to White Patriot Party leader Frazier Glenn Miller, Jr.",
+      "context": "The Order distributed robbery proceeds to Frazier Glenn Miller, Jr., leader of the White Patriot Party.",
       "time_period": "1984"
     },
     {
@@ -84,15 +84,15 @@
       "target": "Aryan Nations",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Order had affiliations with Aryan Nations, as noted in the infobox.",
+      "context": "The Order had affiliations with Aryan Nations; members David and Deborah Dorr were former Aryan Nations members.",
       "time_period": "1983-1984"
     },
     {
       "source": "The Order II",
       "target": "The Order",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "The Order II grew out of the original Order after its collapse.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Order II was an attempt to perpetuate the activities of the original Order, growing out of it.",
       "time_period": "1986"
     },
     {

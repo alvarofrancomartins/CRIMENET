@@ -13,35 +13,43 @@
       "time_period": "1980-1989"
     },
     {
+      "standard_name": "Avilés criminal organization",
+      "original_text_name": "Avilés criminal organization",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Predecessor organization to the Guadalajara Cartel, led by a trafficker named Avilés.",
+      "time_period": "1970s"
+    },
+    {
       "standard_name": "Tijuana Cartel",
       "original_text_name": "Tijuana Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Splinter from Guadalajara Cartel, controlled Tijuana route under Arellano Félix brothers.",
-      "time_period": "1980s-present"
+      "context": "Splinter cartel from Guadalajara, controlled Tijuana route under Arellano Félix brothers.",
+      "time_period": "1989-present"
     },
     {
       "standard_name": "Juárez Cartel",
       "original_text_name": "Juárez Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Splinter from Guadalajara Cartel, controlled Ciudad Juárez route under Carrillo Fuentes family.",
-      "time_period": "1980s-present"
+      "context": "Splinter cartel from Guadalajara, controlled Ciudad Juárez route under Carrillo Fuentes family.",
+      "time_period": "1989-present"
     },
     {
       "standard_name": "Sinaloa Cartel",
       "original_text_name": "Sinaloa Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Splinter from Guadalajara Cartel, took over Pacific coast operations under Guzmán and Zambada.",
-      "time_period": "1980s-present"
+      "context": "Splinter cartel from Guadalajara, controlled Pacific coast operations under Guzmán and Zambada.",
+      "time_period": "1989-present"
     },
     {
       "standard_name": "Gulf Cartel",
       "original_text_name": "Gulf Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Controlled Matamoros corridor, originally left undisturbed by Félix Gallardo.",
+      "context": "Cartel controlling Matamoros corridor, originally left undisturbed by Guadalajara Cartel.",
       "time_period": "1980s-present"
     },
     {
@@ -49,82 +57,74 @@
       "original_text_name": "Sonora Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Splinter from Guadalajara Cartel, run by Miguel Caro Quintero.",
-      "time_period": "1980s-present"
+      "context": "Splinter cartel from Guadalajara, controlled Sonora corridor under Miguel Caro Quintero.",
+      "time_period": "1989-present"
     },
     {
       "standard_name": "Medellín Cartel",
       "original_text_name": "Medellín Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel, ally of Guadalajara Cartel.",
-      "time_period": "1970s-1990s"
+      "context": "Colombian drug cartel that partnered with Guadalajara Cartel for cocaine trafficking.",
+      "time_period": "1970s-1993"
     },
     {
       "standard_name": "Cali Cartel",
       "original_text_name": "Cali Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel, ally of Guadalajara Cartel via Juan Matta-Ballesteros.",
-      "time_period": "1970s-1990s"
+      "context": "Colombian drug cartel that partnered with Guadalajara Cartel via Juan Matta-Ballesteros.",
+      "time_period": "1970s-1995"
     },
     {
       "standard_name": "Norte del Valle Cartel",
       "original_text_name": "Norte del Valle Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel, ally of Guadalajara Cartel.",
-      "time_period": "1980s-2000s"
-    },
-    {
-      "standard_name": "Avilés criminal organization",
-      "original_text_name": "Avilés criminal organization",
-      "aliases": [],
-      "type": "cartel",
-      "context": "Predecessor organization, controlled trafficking routes before Avilés was killed.",
-      "time_period": "1970s"
+      "context": "Colombian drug cartel allied with Guadalajara Cartel.",
+      "time_period": "1990s-2000s"
     }
   ],
   "edges": [
     {
       "source": "Guadalajara Cartel",
-      "target": "Tijuana Cartel",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "Tijuana Cartel originated as a branch of Guadalajara Cartel after Félix Gallardo divided territories.",
-      "time_period": "1987-1989"
-    },
-    {
-      "source": "Guadalajara Cartel",
-      "target": "Juárez Cartel",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "Juárez Cartel originated as a branch of Guadalajara Cartel after Félix Gallardo divided territories.",
-      "time_period": "1987-1989"
-    },
-    {
-      "source": "Guadalajara Cartel",
-      "target": "Sinaloa Cartel",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "Sinaloa Cartel originated as a branch of Guadalajara Cartel after Félix Gallardo divided territories.",
-      "time_period": "1987-1989"
-    },
-    {
-      "source": "Guadalajara Cartel",
-      "target": "Sonora Cartel",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "Sonora Cartel originated as a branch of Guadalajara Cartel after Félix Gallardo divided territories.",
-      "time_period": "1987-1989"
-    },
-    {
-      "source": "Guadalajara Cartel",
-      "target": "Gulf Cartel",
-      "relationship": "rivalry",
+      "target": "Avilés criminal organization",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Gulf Cartel is listed as a rival in the infobox.",
-      "time_period": "1980s"
+      "context": "Guadalajara Cartel founders took control after Avilés was killed.",
+      "time_period": "late 1970s"
+    },
+    {
+      "source": "Tijuana Cartel",
+      "target": "Guadalajara Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Tijuana Cartel was a splinter branch of Guadalajara Cartel.",
+      "time_period": "1989"
+    },
+    {
+      "source": "Juárez Cartel",
+      "target": "Guadalajara Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Juárez Cartel was a splinter branch of Guadalajara Cartel.",
+      "time_period": "1989"
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "Guadalajara Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sinaloa Cartel was a splinter branch of Guadalajara Cartel.",
+      "time_period": "1989"
+    },
+    {
+      "source": "Sonora Cartel",
+      "target": "Guadalajara Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sonora Cartel was a splinter branch of Guadalajara Cartel.",
+      "time_period": "1989"
     },
     {
       "source": "Guadalajara Cartel",
@@ -139,7 +139,7 @@
       "target": "Cali Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Juan Matta-Ballesteros was the primary connection to Cali Cartel.",
+      "context": "Guadalajara Cartel had primary connection to Cali Cartel via Juan Matta-Ballesteros.",
       "time_period": "1980s"
     },
     {
@@ -147,16 +147,16 @@
       "target": "Norte del Valle Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as ally in infobox.",
+      "context": "Guadalajara Cartel was allied with Norte del Valle Cartel.",
       "time_period": "1980s"
     },
     {
       "source": "Guadalajara Cartel",
-      "target": "Avilés criminal organization",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "Guadalajara Cartel took over trafficking routes after Avilés was killed.",
-      "time_period": "late 1970s"
+      "target": "Gulf Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Gulf Cartel is listed as a rival of Guadalajara Cartel.",
+      "time_period": "1980s"
     }
   ],
   "source_file": "Guadalajara_Cartel"

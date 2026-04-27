@@ -7,19 +7,17 @@
         "Russian organized crime"
       ],
       "type": "mafia",
-      "context": "General term for Russian organized crime groups, including Ivankov's network.",
-      "time_period": "1990s-present"
+      "context": "General term for Russian organized crime groups; Ivankov was a prominent boss.",
+      "time_period": "1990s-2000s"
     },
     {
       "standard_name": "Ivankov Gang",
       "original_text_name": "Ivankov's gang",
       "aliases": [
-        "Yaponchik's gang",
-        "Mazutka gang",
-        "Mazutkinskaya OPG"
+        "Yaponchik's gang"
       ],
       "type": "gang",
-      "context": "Russian criminal group led by Vyacheslav Ivankov, active in Russia and the US.",
+      "context": "Ivankov's criminal group operating in Moscow and later in Brighton Beach, Brooklyn.",
       "time_period": "1970s-2009"
     },
     {
@@ -27,23 +25,23 @@
       "original_text_name": "Cosa Nostra",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian-American Mafia, mentioned for comparison to Ivankov's leadership style.",
-      "time_period": "20th century-present"
+      "context": "Italian-American Mafia; mentioned for contrast with Ivankov's methods.",
+      "time_period": null
     },
     {
       "standard_name": "Dagestani Bratva",
       "original_text_name": "Dagestani Bratva",
       "aliases": [],
-      "type": "clan",
-      "context": "Criminal group from Dagestan, sent a tribute to Ivankov's funeral.",
+      "type": "mafia",
+      "context": "Criminal group from Dagestan; sent a tribute to Ivankov's funeral.",
       "time_period": null
     },
     {
       "standard_name": "Kazakh Bratva",
       "original_text_name": "Kazakh Bratva",
       "aliases": [],
-      "type": "clan",
-      "context": "Criminal group from Kazakhstan, sent a tribute to Ivankov's funeral.",
+      "type": "mafia",
+      "context": "Criminal group from Kazakhstan; sent a tribute to Ivankov's funeral.",
       "time_period": null
     },
     {
@@ -54,7 +52,7 @@
         "Grandpa Hassan"
       ],
       "type": "clan",
-      "context": "Criminal group led by Aslan Usoyan, involved in gang war with Tariel Oniani.",
+      "context": "Crime group led by Aslan Usoyan; Ivankov sided with them in a gang war.",
       "time_period": "1990s-2013"
     },
     {
@@ -62,33 +60,43 @@
       "original_text_name": "Tariel Oniani",
       "aliases": [],
       "type": "clan",
-      "context": "Georgian crime boss, rival of Aslan Usoyan.",
-      "time_period": "1990s-present"
+      "context": "Georgian crime group led by Tariel Oniani; rival of Usoyan.",
+      "time_period": "1990s-2010s"
     },
     {
       "standard_name": "Brothers' Circle",
       "original_text_name": "Brothers' Circle",
       "aliases": [],
       "type": "other",
-      "context": "International criminal network, Lasha Shushanashvili is a member.",
-      "time_period": "2000s-present"
+      "context": "International criminal network; Lasha Shushanashvili is a member.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Mazutka Gang",
+      "original_text_name": "Mazutka gang",
+      "aliases": [
+        "Mazutkinskaya OPG"
+      ],
+      "type": "gang",
+      "context": "Russian gang headed by Alexei Petrov; operated in Israel, Germany, Austria.",
+      "time_period": "1990s-2019"
     },
     {
       "standard_name": "Solntsevskaya Bratva",
-      "original_text_name": "Solntsevskaya",
+      "original_text_name": "Mikhas's Solntsevskaya",
       "aliases": [
-        "Solntsevskaya Bratva"
+        "Solntsevskaya"
       ],
       "type": "mafia",
-      "context": "Russian mafia group led by Mikhas, gained Ivankov's assets after his death.",
+      "context": "Powerful Russian mafia group; gained Ivankov's assets after his death.",
       "time_period": "1980s-present"
     },
     {
-      "standard_name": "Semion Mogilevich Crime Network",
+      "standard_name": "Mogilevich Crime Network",
       "original_text_name": "Semion Mogilevich crime network",
       "aliases": [],
       "type": "mafia",
-      "context": "Russian organized crime group led by Semion Mogilevich, gained Ivankov's assets.",
+      "context": "Criminal network led by Semion Mogilevich; gained Ivankov's assets after his death.",
       "time_period": "1990s-present"
     }
   ],
@@ -96,41 +104,17 @@
     {
       "source": "Ivankov Gang",
       "target": "Russian Mafia",
-      "relationship": "other",
-      "detail": "part of",
-      "context": "Ivankov's gang is a component of the broader Russian mafia.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ivankov was a Russian mafia boss; his gang was part of the broader Russian mafia.",
       "time_period": "1970s-2009"
-    },
-    {
-      "source": "Ivankov Gang",
-      "target": "Cosa Nostra",
-      "relationship": "other",
-      "detail": "comparison",
-      "context": "Ivankov's leadership style contrasted with Cosa Nostra's hierarchical structure.",
-      "time_period": null
-    },
-    {
-      "source": "Ivankov Gang",
-      "target": "Dagestani Bratva",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Dagestani Bratva sent a tribute to Ivankov's funeral, indicating respect or alliance.",
-      "time_period": "2009"
-    },
-    {
-      "source": "Ivankov Gang",
-      "target": "Kazakh Bratva",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Kazakh Bratva sent a tribute to Ivankov's funeral, indicating respect or alliance.",
-      "time_period": "2009"
     },
     {
       "source": "Ivankov Gang",
       "target": "Usoyan Clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Ivankov took Usoyan's side in the gang war against Oniani.",
+      "context": "Ivankov sided with Usoyan in a gang war against Oniani.",
       "time_period": "2009"
     },
     {
@@ -138,16 +122,24 @@
       "target": "Oniani Clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Ongoing gang war between Usoyan and Oniani, leading to Ivankov's assassination.",
-      "time_period": "2000s-2013"
+      "context": "Ongoing gang war between Usoyan and Oniani; Ivankov's murder was part of it.",
+      "time_period": "2000s-2010s"
     },
     {
-      "source": "Brothers' Circle",
-      "target": "Usoyan Clan",
+      "source": "Ivankov Gang",
+      "target": "Mazutka Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Lasha Shushanashvili, a member of Brothers' Circle, is close to Aslan Usoyan.",
-      "time_period": "2000s-2012"
+      "context": "Alexei Petrov, successor to Ivankov, headed the Mazutka gang.",
+      "time_period": "1992-2009"
+    },
+    {
+      "source": "Mazutka Gang",
+      "target": "Ivankov Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Petrov headed Ivankov's affairs in Moscow and Europe after Ivankov left for the US.",
+      "time_period": "1992-2009"
     },
     {
       "source": "Solntsevskaya Bratva",
@@ -158,7 +150,7 @@
       "time_period": "2009"
     },
     {
-      "source": "Semion Mogilevich Crime Network",
+      "source": "Mogilevich Crime Network",
       "target": "Ivankov Gang",
       "relationship": "rivalry",
       "detail": null,
@@ -166,12 +158,20 @@
       "time_period": "2009"
     },
     {
-      "source": "Semion Mogilevich Crime Network",
+      "source": "Mogilevich Crime Network",
       "target": "Ivankov Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Semion Mogilevich was very close to the elder Ivankov, per his son's representation.",
+      "context": "Ivankov's son represented his father's interests at meetings with Mogilevich, indicating closeness.",
       "time_period": "1990s-2009"
+    },
+    {
+      "source": "Brothers' Circle",
+      "target": "Usoyan Clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Lasha Shushanashvili, a member of Brothers' Circle, is close to Usoyan.",
+      "time_period": null
     }
   ],
   "source_file": "Vyacheslav_Ivankov"

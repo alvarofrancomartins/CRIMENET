@@ -7,7 +7,7 @@
         "Mayi-Mayi"
       ],
       "type": "militia",
-      "context": "Umbrella term for community-based militia groups in DRC, active in eastern provinces.",
+      "context": "Umbrella term for community-based militia groups in DRC, formed to defend local communities against other armed groups.",
       "time_period": "1990s-present"
     },
     {
@@ -15,7 +15,7 @@
       "original_text_name": "Mai-Mai Yakutumba",
       "aliases": [],
       "type": "militia",
-      "context": "Powerful Mai-Mai group in Kivus, organized in 2007 by General Yakutumba.",
+      "context": "Mai-Mai group organized in 2007 by General Yakutumba, active in Kivu provinces, received aid from DRC government.",
       "time_period": "2007-present"
     },
     {
@@ -25,8 +25,8 @@
         "FRDKI"
       ],
       "type": "militia",
-      "context": "Smaller Mai-Mai group cooperating with Rwandan military and RCD-Goma.",
-      "time_period": null
+      "context": "Smaller Mai-Mai group that cooperated with Rwandan military and RCD-Goma.",
+      "time_period": "2000s"
     },
     {
       "standard_name": "Mouvement de Lutte contre l'Agression au Zaïre/Forces Unies de Résistance Nationale contre l'Agression de la République Démocratique du Congo",
@@ -35,8 +35,8 @@
         "MLAZ/FURNAC"
       ],
       "type": "militia",
-      "context": "Smaller Mai-Mai group cooperating with Rwandan military and RCD-Goma.",
-      "time_period": null
+      "context": "Smaller Mai-Mai group that cooperated with Rwandan military and RCD-Goma.",
+      "time_period": "2000s"
     },
     {
       "standard_name": "Nduma Defense of Congo",
@@ -46,7 +46,7 @@
         "NDC"
       ],
       "type": "militia",
-      "context": "Mai-Mai group formed in 2009 by Ntabo Ntaberi Sheka, active in North Kivu.",
+      "context": "Mai-Mai group formed in 2009 by Ntabo Ntaberi Sheka, active in Walikale Territory, North Kivu.",
       "time_period": "2009-present"
     },
     {
@@ -54,7 +54,7 @@
       "original_text_name": "Mai-Mai Kata Katanga",
       "aliases": [],
       "type": "militia",
-      "context": "Separatist Mai-Mai group formed by Gédéon Kyungu Mutanga after his escape in 2011.",
+      "context": "Mai-Mai group formed by Gédéon Kyungu Mutanga after his escape in 2011, advocating secession of Katanga.",
       "time_period": "2011-present"
     },
     {
@@ -62,8 +62,8 @@
       "original_text_name": "Mai-Mai Gedeon",
       "aliases": [],
       "type": "militia",
-      "context": "Mai-Mai group commanded by Gedeon Kyungu Mutanga, loosely tied to Mai-Mai Kata Katanga.",
-      "time_period": null
+      "context": "Mai-Mai group commanded by Gédéon Kyungu Mutanga, loosely tied to Mai-Mai Kata Katanga.",
+      "time_period": "2011-present"
     },
     {
       "standard_name": "Co-ordination for a Referendum on Self-determination for Katanga",
@@ -72,8 +72,8 @@
         "Co-ordination for a Referendum on Self-determination for Katanga"
       ],
       "type": "militia",
-      "context": "Group composed mainly of former Katanga Tigers, separatist group active in 1960s.",
-      "time_period": null
+      "context": "Separatist group composed mainly of former Katanga Tigers, active in Katanga.",
+      "time_period": "2010s"
     },
     {
       "standard_name": "Congolese Rally for Democracy–Goma",
@@ -82,90 +82,98 @@
         "RCD-Goma"
       ],
       "type": "militia",
-      "context": "Rwanda-allied rebel faction controlling Kivus during Second Congo War.",
+      "context": "Rwanda-allied rebel faction that controlled Kivus during Second Congo War.",
       "time_period": "1998-2003"
+    },
+    {
+      "standard_name": "Katanga Tigers",
+      "original_text_name": "Katanga Tigers",
+      "aliases": [],
+      "type": "militia",
+      "context": "Separatist group active in the 1960s in Katanga.",
+      "time_period": "1960s"
     }
   ],
   "edges": [
     {
       "source": "Mai-Mai Yakutumba",
       "target": "Mai-Mai",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Mai-Mai Yakutumba is a specific group under the Mai-Mai umbrella.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mai-Mai Yakutumba is a specific group under the broader Mai-Mai umbrella.",
       "time_period": "2007-present"
     },
     {
       "source": "Mudundu 40/Front de Résistance et de Défense du Kivu",
       "target": "Mai-Mai",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "FRDKI is a smaller Mai-Mai group under the umbrella.",
-      "time_period": null
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mudundu 40/FRDKI is a smaller Mai-Mai group under the broader Mai-Mai umbrella.",
+      "time_period": "2000s"
     },
     {
       "source": "Mouvement de Lutte contre l'Agression au Zaïre/Forces Unies de Résistance Nationale contre l'Agression de la République Démocratique du Congo",
       "target": "Mai-Mai",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "MLAZ/FURNAC is a smaller Mai-Mai group under the umbrella.",
-      "time_period": null
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MLAZ/FURNAC is a smaller Mai-Mai group under the broader Mai-Mai umbrella.",
+      "time_period": "2000s"
     },
     {
       "source": "Nduma Defense of Congo",
       "target": "Mai-Mai",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "NDC is a Mai-Mai group under the umbrella.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nduma Defense of Congo (Mai-Mai Sheka) is a specific group under the broader Mai-Mai umbrella.",
       "time_period": "2009-present"
     },
     {
       "source": "Mai-Mai Kata Katanga",
       "target": "Mai-Mai",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Mai-Mai Kata Katanga is a specific group under the Mai-Mai umbrella.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mai-Mai Kata Katanga is a specific group under the broader Mai-Mai umbrella.",
       "time_period": "2011-present"
     },
     {
       "source": "Mai-Mai Gedeon",
       "target": "Mai-Mai",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Mai-Mai Gedeon is a specific group under the Mai-Mai umbrella.",
-      "time_period": null
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mai-Mai Gedeon is a specific group under the broader Mai-Mai umbrella.",
+      "time_period": "2011-present"
     },
     {
       "source": "Mai-Mai Gedeon",
       "target": "Mai-Mai Kata Katanga",
       "relationship": "alliance",
       "detail": null,
-      "context": "Mai-Mai Gedeon is loosely tied to Mai-Mai Kata Katanga.",
-      "time_period": null
+      "context": "Mai-Mai Gedeon is loosely tied to Mai-Mai Kata Katanga, both commanded by Gédéon Kyungu Mutanga.",
+      "time_period": "2011-present"
     },
     {
       "source": "Co-ordination for a Referendum on Self-determination for Katanga",
-      "target": "Mai-Mai",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Corak Kata Katanga is composed mainly of former Katanga Tigers, a separatist group.",
-      "time_period": null
+      "target": "Katanga Tigers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Corak Kata Katanga is composed mainly of former Katanga Tigers.",
+      "time_period": "2010s"
     },
     {
       "source": "Mudundu 40/Front de Résistance et de Défense du Kivu",
       "target": "Congolese Rally for Democracy–Goma",
       "relationship": "alliance",
       "detail": null,
-      "context": "FRDKI was reported to cooperate with RCD-Goma.",
-      "time_period": null
+      "context": "Mudundu 40/FRDKI cooperated with RCD-Goma.",
+      "time_period": "2000s"
     },
     {
       "source": "Mouvement de Lutte contre l'Agression au Zaïre/Forces Unies de Résistance Nationale contre l'Agression de la République Démocratique du Congo",
       "target": "Congolese Rally for Democracy–Goma",
       "relationship": "alliance",
       "detail": null,
-      "context": "MLAZ/FURNAC was reported to cooperate with RCD-Goma.",
-      "time_period": null
+      "context": "MLAZ/FURNAC cooperated with RCD-Goma.",
+      "time_period": "2000s"
     }
   ],
   "source_file": "Mai-Mai"

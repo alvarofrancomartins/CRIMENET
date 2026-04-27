@@ -2,12 +2,12 @@
   "nodes": [
     {
       "standard_name": "Folk Nation",
-      "original_text_name": "Folks Nation",
+      "original_text_name": "Folk Nation",
       "aliases": [
-        "Folk Nation"
+        "Folks Nation"
       ],
       "type": "gang",
-      "context": "Alliance of street gangs originating in Chicago, established in 1978.",
+      "context": "An alliance of street gangs originating in Chicago, established in 1978.",
       "time_period": "1978-present"
     },
     {
@@ -15,15 +15,15 @@
       "original_text_name": "Gangster Disciple Nation",
       "aliases": [],
       "type": "gang",
-      "context": "Chicago street gang; chairman Larry Hoover founded Folk Nation.",
-      "time_period": "1978-present"
+      "context": "A Chicago street gang whose chairman Larry Hoover founded the Folk Nation.",
+      "time_period": null
     },
     {
       "standard_name": "Almighty Latin Eagle Nation",
       "original_text_name": "Almighty Latin Eagle Nation",
       "aliases": [],
       "type": "gang",
-      "context": "Affiliated gang of Folk Nation.",
+      "context": "A Folk Nation affiliated gang.",
       "time_period": null
     },
     {
@@ -31,7 +31,7 @@
       "original_text_name": "Almighty Simon City Royal Nation",
       "aliases": [],
       "type": "gang",
-      "context": "Affiliated gang of Folk Nation.",
+      "context": "A Folk Nation affiliated gang.",
       "time_period": null
     },
     {
@@ -39,7 +39,7 @@
       "original_text_name": "Black Disciples",
       "aliases": [],
       "type": "gang",
-      "context": "Affiliated gang of Folk Nation.",
+      "context": "A Folk Nation affiliated gang.",
       "time_period": null
     },
     {
@@ -47,7 +47,7 @@
       "original_text_name": "Spanish Gangster Disciples",
       "aliases": [],
       "type": "gang",
-      "context": "Affiliated gang of Folk Nation.",
+      "context": "A Folk Nation affiliated gang.",
       "time_period": null
     },
     {
@@ -55,7 +55,7 @@
       "original_text_name": "La Raza Nation",
       "aliases": [],
       "type": "gang",
-      "context": "Affiliated gang of Folk Nation.",
+      "context": "A Folk Nation affiliated gang.",
       "time_period": null
     },
     {
@@ -63,7 +63,7 @@
       "original_text_name": "Maniac Latin Disciple Nation",
       "aliases": [],
       "type": "gang",
-      "context": "Affiliated gang of Folk Nation.",
+      "context": "A Folk Nation affiliated gang.",
       "time_period": null
     },
     {
@@ -71,7 +71,7 @@
       "original_text_name": "North Side Insane Popes",
       "aliases": [],
       "type": "gang",
-      "context": "Affiliated gang of Folk Nation.",
+      "context": "A Folk Nation affiliated gang.",
       "time_period": null
     },
     {
@@ -79,7 +79,7 @@
       "original_text_name": "Spanish Cobras",
       "aliases": [],
       "type": "gang",
-      "context": "Affiliated gang of Folk Nation.",
+      "context": "A Folk Nation affiliated gang.",
       "time_period": null
     },
     {
@@ -87,7 +87,15 @@
       "original_text_name": "Tiny Rascal Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Affiliated gang of Folk Nation in Michigan.",
+      "context": "A Folk Nation affiliated gang in Michigan.",
+      "time_period": null
+    },
+    {
+      "standard_name": "IGD 63 Insane Gangster Disciples",
+      "original_text_name": "IGD 63 insane gangster disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "A Folk Nation affiliated gang.",
       "time_period": null
     },
     {
@@ -95,7 +103,15 @@
       "original_text_name": "People Nation",
       "aliases": [],
       "type": "gang",
-      "context": "Rival alliance of street gangs to Folk Nation.",
+      "context": "A rival alliance of street gangs to the Folk Nation.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Allies of Folk Nation mentioned in the infobox.",
       "time_period": null
     }
   ],
@@ -182,10 +198,26 @@
     },
     {
       "source": "Folk Nation",
+      "target": "IGD 63 Insane Gangster Disciples",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "IGD 63 Insane Gangster Disciples is an affiliated gang of Folk Nation.",
+      "time_period": null
+    },
+    {
+      "source": "Folk Nation",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Folk Nation has various Crips factions as allies.",
+      "time_period": null
+    },
+    {
+      "source": "Folk Nation",
       "target": "People Nation",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Folk Nation gangs disrespect People Nation symbols.",
+      "context": "Folk Nation and People Nation are rival alliances.",
       "time_period": null
     }
   ],

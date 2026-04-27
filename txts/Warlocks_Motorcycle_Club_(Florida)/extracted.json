@@ -18,16 +18,16 @@
       "original_text_name": "Hells Angels",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Major outlaw motorcycle club; the Warlocks were in talks to merge interests with them in Florida in 1991.",
-      "time_period": "1948-present"
+      "context": "Major outlaw motorcycle club; the Warlocks were in talks to merge interests with them in 1991.",
+      "time_period": null
     },
     {
       "standard_name": "Boozefighters",
       "original_text_name": "Boozefighters",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club; the Warlocks were in talks with them about patching over in 1991.",
-      "time_period": "1946-present"
+      "context": "Motorcycle club; the Warlocks were in talks with them about patching over in 1991.",
+      "time_period": null
     },
     {
       "standard_name": "Outlaws Motorcycle Club",
@@ -36,8 +36,8 @@
         "Outlaws MC"
       ],
       "type": "motorcycle_club",
-      "context": "Major outlaw motorcycle club; the Warlocks have a rivalry with them.",
-      "time_period": "1935-present"
+      "context": "Outlaw motorcycle club; the Warlocks have a rivalry with them.",
+      "time_period": null
     },
     {
       "standard_name": "Pagans Motorcycle Club",
@@ -47,23 +47,23 @@
       ],
       "type": "motorcycle_club",
       "context": "Outlaw motorcycle club; the Warlocks have a rivalry with them.",
-      "time_period": "1959-present"
+      "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Warlocks Motorcycle Club",
       "target": "Hells Angels",
-      "relationship": "other",
-      "detail": "merger talks",
-      "context": "In 1991, the Warlocks were in talks to merge interests with the Hells Angels in Florida.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "In 1991, the Warlocks were in talks to merge interests with the Hells Angels.",
       "time_period": "1991"
     },
     {
       "source": "Warlocks Motorcycle Club",
       "target": "Boozefighters",
-      "relationship": "other",
-      "detail": "patch-over talks",
+      "relationship": "alliance",
+      "detail": null,
       "context": "In 1991, the Warlocks were in talks with the Boozefighters about patching over into the Warlocks.",
       "time_period": "1991"
     },

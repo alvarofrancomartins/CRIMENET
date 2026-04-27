@@ -24,7 +24,7 @@
       "original_text_name": "Gangster Disciples",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to Black Disciples, also based in Chicago, led by Larry Hoover.",
+      "context": "Rival gang led by Larry Hoover, later merged with Black Disciples to form Black Gangster Disciples Nation.",
       "time_period": "1960s-present"
     },
     {
@@ -32,15 +32,15 @@
       "original_text_name": "Black Gangster Disciples Nation",
       "aliases": [],
       "type": "gang",
-      "context": "Merged gang formed in 1969 from Black Disciples and Gangster Disciples.",
+      "context": "Unified gang formed by merger of Black Disciples and Gangster Disciples in 1969.",
       "time_period": "1969-1974"
     },
     {
       "standard_name": "Black Gangsters Disciples",
       "original_text_name": "Black Gangsters Disciples",
       "aliases": [],
-      "type": "faction",
-      "context": "Faction that split from Black Gangster Disciples Nation after Barksdale's death.",
+      "type": "gang",
+      "context": "Rival faction formed after split of Black Gangster Disciples Nation.",
       "time_period": "1974-present"
     },
     {
@@ -48,84 +48,105 @@
       "original_text_name": "Vice Lords",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to Black Disciples, based in Chicago.",
-      "time_period": "1950s-present"
+      "context": "Rival gang to Black Disciples.",
+      "time_period": null
     },
     {
       "standard_name": "Black P. Stones",
       "original_text_name": "Black P. Stones",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to Black Disciples, based in Chicago.",
-      "time_period": "1960s-present"
+      "context": "Rival gang to Black Disciples.",
+      "time_period": null
     },
     {
       "standard_name": "Mickey Cobras",
       "original_text_name": "Mickey Cobras",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to Black Disciples, based in Chicago.",
-      "time_period": "1960s-present"
+      "context": "Rival gang to Black Disciples.",
+      "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Devil's Disciples",
       "target": "Black Disciples",
-      "relationship": "other",
-      "detail": "predecessor",
-      "context": "Devil's Disciples evolved into Black Disciples Nation in 1966.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Devil's Disciples evolved into Black Disciples under David Barksdale's leadership.",
       "time_period": "1966"
     },
     {
       "source": "Black Disciples",
       "target": "Gangster Disciples",
       "relationship": "alliance",
+      "detail": null,
       "context": "Merged in 1969 to form Black Gangster Disciples Nation.",
-      "time_period": "1969-1974"
+      "time_period": "1969"
     },
     {
       "source": "Black Disciples",
-      "target": "Gangster Disciples",
-      "relationship": "rivalry",
-      "context": "After Barksdale's death, the groups split and became rivals, with violent conflicts.",
+      "target": "Black Gangster Disciples Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Black Disciples merged with Gangster Disciples to form this unified gang.",
+      "time_period": "1969-1974"
+    },
+    {
+      "source": "Gangster Disciples",
+      "target": "Black Gangster Disciples Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Gangster Disciples merged with Black Disciples to form this unified gang.",
+      "time_period": "1969-1974"
+    },
+    {
+      "source": "Black Gangster Disciples Nation",
+      "target": "Black Disciples",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "After split, Black Disciples re-emerged as a faction.",
       "time_period": "1974-present"
     },
     {
       "source": "Black Gangster Disciples Nation",
       "target": "Black Gangsters Disciples",
-      "relationship": "other",
-      "detail": "split_into",
-      "context": "After Barksdale's death, ideological differences led to the creation of Black Gangsters Disciples as a rival faction.",
-      "time_period": "1974"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "After split, Black Gangsters Disciples formed as a rival faction.",
+      "time_period": "1974-present"
     },
     {
-      "source": "Black Gangster Disciples Nation",
-      "target": "Black Disciples",
-      "relationship": "other",
-      "detail": "split_into",
-      "context": "After Barksdale's death, the original Black Disciples re-emerged as a separate faction.",
-      "time_period": "1974"
+      "source": "Black Disciples",
+      "target": "Gangster Disciples",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rivalry intensified after Mickey Bull's murder in 1991 and subsequent killings.",
+      "time_period": "1991-1994"
     },
     {
       "source": "Black Disciples",
       "target": "Vice Lords",
       "relationship": "rivalry",
-      "context": "Listed as a rival in the infobox.",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
       "time_period": null
     },
     {
       "source": "Black Disciples",
       "target": "Black P. Stones",
       "relationship": "rivalry",
-      "context": "Listed as a rival in the infobox.",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
       "time_period": null
     },
     {
       "source": "Black Disciples",
       "target": "Mickey Cobras",
       "relationship": "rivalry",
-      "context": "Listed as a rival in the infobox.",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
       "time_period": null
     }
   ],

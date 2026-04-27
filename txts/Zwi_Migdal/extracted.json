@@ -8,41 +8,41 @@
         "Cwi Migdał"
       ],
       "type": "other",
-      "context": "A Jewish criminal organization founded in Poland in the 1860s, involved in sex trafficking of women from Central Europe to Argentina and other countries.",
-      "time_period": "1860s-1939"
+      "context": "Jewish criminal organization trafficking women from Europe to Argentina for prostitution, active 1867-1939.",
+      "time_period": "1867-1939"
     },
     {
       "standard_name": "Ashkenazum",
       "original_text_name": "Ashkenazum",
       "aliases": [],
       "type": "other",
-      "context": "A splinter group of Zwi Migdal led by Simon Rubinstein, established its own society and cemetery.",
-      "time_period": "after 1920s"
+      "context": "Splinter group from Zwi Migdal led by Simon Rubinstein, established its own society and cemetery.",
+      "time_period": null
     },
     {
       "standard_name": "Jewish Mob",
       "original_text_name": "Jewish Mob",
       "aliases": [],
       "type": "other",
-      "context": "A term referring to Jewish organized crime groups, mentioned as an ally of Zwi Migdal.",
+      "context": "General term for Jewish organized crime groups, listed as ally of Zwi Migdal in infobox.",
       "time_period": null
     }
   ],
   "edges": [
     {
-      "source": "Zwi Migdal",
-      "target": "Ashkenazum",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "Ashkenazum was a splinter group that split from Zwi Migdal.",
+      "source": "Ashkenazum",
+      "target": "Zwi Migdal",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ashkenazum was a splinter group from Zwi Migdal, but they were not hostile; both were officially recognized and had their own cemeteries.",
       "time_period": null
     },
     {
-      "source": "Zwi Migdal",
-      "target": "Jewish Mob",
+      "source": "Jewish Mob",
+      "target": "Zwi Migdal",
       "relationship": "alliance",
       "detail": null,
-      "context": "Zwi Migdal had allies in the Jewish Mob.",
+      "context": "Infobx lists Jewish Mob as an ally of Zwi Migdal.",
       "time_period": null
     }
   ],

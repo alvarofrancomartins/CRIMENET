@@ -16,7 +16,7 @@
       "original_text_name": "Medellín Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Major drug cartel led by Pablo Escobar; founded Oficina de Envigado as its enforcement wing.",
+      "context": "Major drug cartel led by Pablo Escobar; active in Colombia until early 1990s.",
       "time_period": "1970s-1993"
     },
     {
@@ -24,17 +24,18 @@
       "original_text_name": "Los Pepes",
       "aliases": [],
       "type": "militia",
-      "context": "Vigilante group formed to oppose Pablo Escobar; allied with Diego Murillo against Escobar.",
+      "context": "Vigilante group formed to oppose Pablo Escobar; allied with Oficina de Envigado founder.",
       "time_period": "1992-1993"
     },
     {
       "standard_name": "United Self-Defense Forces of Colombia",
-      "original_text_name": "Autodefensas Unidas de Colombia",
+      "original_text_name": "United Self-Defense Forces of Colombia",
       "aliases": [
-        "AUC"
+        "AUC",
+        "Autodefensas Unidas de Colombia"
       ],
       "type": "militia",
-      "context": "Right-wing paramilitary group; affiliated with Oficina de Envigado for drug trafficking operations.",
+      "context": "Right-wing paramilitary group; Oficina de Envigado affiliated with them.",
       "time_period": "1997-2006"
     },
     {
@@ -42,8 +43,8 @@
       "original_text_name": "La Terraza",
       "aliases": [],
       "type": "gang",
-      "context": "Gang of hit men under control of Oficina de Envigado; serves as a subgroup.",
-      "time_period": "Unknown-present"
+      "context": "Gang of hitmen under control of Oficina de Envigado.",
+      "time_period": null
     },
     {
       "standard_name": "Usuga Clan",
@@ -52,42 +53,48 @@
         "Clan del Golfo"
       ],
       "type": "clan",
-      "context": "Colombian criminal group; rival of Oficina de Envigado.",
-      "time_period": "2000s-present"
+      "context": "Criminal group; rival of Oficina de Envigado.",
+      "time_period": null
     },
     {
       "standard_name": "Los Rastrojos",
       "original_text_name": "Los Rastrojos",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel; ally of Oficina de Envigado.",
-      "time_period": "2000s-present"
+      "context": "Colombian drug cartel; allied with Oficina de Envigado.",
+      "time_period": null
     },
     {
       "standard_name": "Los Zetas",
       "original_text_name": "Los Zetas",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel; ally of Oficina de Envigado.",
-      "time_period": "1999-present"
+      "context": "Mexican drug cartel; allied with Oficina de Envigado.",
+      "time_period": null
     },
     {
       "standard_name": "Sinaloa Cartel",
       "original_text_name": "Sinaloa Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel; ally of Oficina de Envigado.",
-      "time_period": "1980s-present"
+      "context": "Mexican drug cartel; allied with Oficina de Envigado.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Moroccan mafia",
+      "original_text_name": "Moroccan mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Criminal organization from Morocco; allied with Oficina de Envigado.",
+      "time_period": null
     },
     {
       "standard_name": "Cosa Nostra",
       "original_text_name": "Cosa Nostra",
-      "aliases": [
-        "Sicilian Mafia"
-      ],
+      "aliases": [],
       "type": "mafia",
-      "context": "Sicilian mafia; ally of Oficina de Envigado.",
-      "time_period": "1800s-present"
+      "context": "Sicilian mafia; allied with Oficina de Envigado.",
+      "time_period": null
     },
     {
       "standard_name": "Clan del Golfo",
@@ -97,51 +104,55 @@
       ],
       "type": "clan",
       "context": "Colombian criminal group; rival of Oficina de Envigado.",
-      "time_period": "2000s-present"
+      "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Oficina de Envigado",
       "target": "Medellín Cartel",
-      "relationship": "other",
-      "detail": "enforcement wing",
-      "context": "Oficina de Envigado was founded as an enforcement wing and debt collection service of the Medellín Cartel.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Oficina de Envigado was founded as an enforcement wing of the Medellín Cartel.",
       "time_period": "Early 1990s-1993"
     },
     {
       "source": "Oficina de Envigado",
       "target": "Los Pepes",
       "relationship": "alliance",
-      "context": "Diego Murillo joined forces with Los Pepes to oust Pablo Escobar.",
+      "detail": null,
+      "context": "Founder Diego Murillo joined forces with Los Pepes to oust Pablo Escobar.",
       "time_period": "1992-1993"
     },
     {
       "source": "Oficina de Envigado",
       "target": "United Self-Defense Forces of Colombia",
       "relationship": "alliance",
-      "context": "Murillo affiliated Oficina with AUC, organizing drug trafficking operations on their behalf.",
+      "detail": null,
+      "context": "Murillo affiliated Oficina with AUC, organizing drug trafficking on their behalf.",
       "time_period": "1990s-2005"
     },
     {
       "source": "Oficina de Envigado",
       "target": "La Terraza",
-      "relationship": "other",
-      "detail": "subgroup control",
-      "context": "La Terraza is a gang under La Oficina's control.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Terraza is a gang under Oficina de Envigado's control.",
       "time_period": null
     },
     {
       "source": "Oficina de Envigado",
       "target": "Usuga Clan",
       "relationship": "rivalry",
+      "detail": null,
       "context": "Oficina de Envigado had conflict with the Usuga Clan.",
-      "time_period": "2000s-2010s"
+      "time_period": null
     },
     {
       "source": "Oficina de Envigado",
       "target": "Los Rastrojos",
       "relationship": "alliance",
+      "detail": null,
       "context": "Oficina de Envigado has alliances with Los Rastrojos.",
       "time_period": null
     },
@@ -149,20 +160,31 @@
       "source": "Oficina de Envigado",
       "target": "Los Zetas",
       "relationship": "alliance",
-      "context": "Oficina de Envigado has alliances with Los Zetas in Mexico.",
+      "detail": null,
+      "context": "Oficina de Envigado has alliances with Los Zetas.",
       "time_period": null
     },
     {
       "source": "Oficina de Envigado",
       "target": "Sinaloa Cartel",
       "relationship": "alliance",
-      "context": "Oficina de Envigado is allied with Sinaloa Cartel.",
+      "detail": null,
+      "context": "Oficina de Envigado is allied with the Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Oficina de Envigado",
+      "target": "Moroccan mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Oficina de Envigado is allied with the Moroccan mafia.",
       "time_period": null
     },
     {
       "source": "Oficina de Envigado",
       "target": "Cosa Nostra",
       "relationship": "alliance",
+      "detail": null,
       "context": "Oficina de Envigado is allied with Cosa Nostra.",
       "time_period": null
     },
@@ -170,8 +192,17 @@
       "source": "Oficina de Envigado",
       "target": "Clan del Golfo",
       "relationship": "rivalry",
-      "context": "Oficina de Envigado has rivalry with Clan del Golfo.",
+      "detail": null,
+      "context": "Oficina de Envigado has Clan del Golfo as a rival.",
       "time_period": null
+    },
+    {
+      "source": "Oficina de Envigado",
+      "target": "Medellín Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Oficina de Envigado became rival of Medellín Cartel after founder fell out with Escobar.",
+      "time_period": "1992-1993"
     }
   ],
   "source_file": "Oficina_de_Envigado"

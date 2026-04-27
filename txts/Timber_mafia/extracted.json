@@ -1,33 +1,5 @@
 {
-  "nodes": [
-    {
-      "standard_name": "Timber Mafia",
-      "original_text_name": "timber mafia",
-      "aliases": [
-        "forest mafia"
-      ],
-      "type": "other",
-      "context": "Organized crime groups involved in illegal logging and timber trafficking, operating in multiple countries.",
-      "time_period": null
-    },
-    {
-      "standard_name": "HS Timber",
-      "original_text_name": "HS Timber",
-      "aliases": [],
-      "type": "other",
-      "context": "Foreign timber company implicated in illegal timber trade in Romania.",
-      "time_period": null
-    }
-  ],
-  "edges": [
-    {
-      "source": "Timber Mafia",
-      "target": "HS Timber",
-      "relationship": "other",
-      "detail": "business involvement",
-      "context": "HS Timber has been implicated in the illegal timber trade with the timber mafia in Romania.",
-      "time_period": null
-    }
-  ],
+  "nodes": [],
+  "edges": [],
   "source_file": "Timber_mafia"
 }

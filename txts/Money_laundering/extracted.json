@@ -5,32 +5,16 @@
       "original_text_name": "Mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian organized crime group involved in money laundering and other illicit activities.",
+      "context": "General reference to organized crime groups involved in money laundering.",
       "time_period": null
     },
     {
-      "standard_name": "Chinese organized criminal groups",
+      "standard_name": "Chinese organized crime groups",
       "original_text_name": "Chinese organized criminal groups",
       "aliases": [],
       "type": "other",
       "context": "Principal money launderers for drug cartels in Mexico, Italy, and elsewhere.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Mexican drug cartels",
-      "original_text_name": "drug cartels in Mexico",
-      "aliases": [],
-      "type": "cartel",
-      "context": "Drug trafficking organizations that use Chinese money laundering networks.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Italian organized crime",
-      "original_text_name": "Italy",
-      "aliases": [],
-      "type": "other",
-      "context": "Italian criminal groups that use Chinese money laundering networks.",
-      "time_period": null
+      "time_period": "2021-2024"
     },
     {
       "standard_name": "Huione Group",
@@ -40,14 +24,14 @@
       ],
       "type": "other",
       "context": "Cambodia-based operation identified as a leading actor in cyber-enabled fraud and money laundering.",
-      "time_period": null
+      "time_period": "2025"
     },
     {
       "standard_name": "Lazarus Group",
       "original_text_name": "Lazarus Group",
       "aliases": [],
       "type": "other",
-      "context": "North Korean cybercriminal group, associated with DPRK, involved in hacking and theft.",
+      "context": "North Korean state-sponsored hacking group involved in cryptocurrency theft and money laundering.",
       "time_period": "2009-present"
     },
     {
@@ -59,70 +43,38 @@
       "time_period": null
     },
     {
-      "standard_name": "Al-Qaeda",
-      "original_text_name": "al-Qaeda",
-      "aliases": [],
-      "type": "terrorist_organization",
-      "context": "Terrorist group that received financial support from Dubai Islamic Bank for 9/11 attacks.",
-      "time_period": "1988-present"
-    },
-    {
       "standard_name": "Cali Cartel",
       "original_text_name": "Cali Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel involved in money laundering through Jose Franklin Jurado-Rodriguez.",
+      "context": "Colombian drug cartel involved in large-scale drug trafficking and money laundering.",
       "time_period": "1970s-1990s"
+    },
+    {
+      "standard_name": "Al-Qaeda",
+      "original_text_name": "al-Qaeda",
+      "aliases": [],
+      "type": "terrorist_organization",
+      "context": "Global terrorist group responsible for the 9/11 attacks, involved in money laundering.",
+      "time_period": "1988-present"
     }
   ],
   "edges": [
     {
-      "source": "Chinese organized criminal groups",
-      "target": "Mexican drug cartels",
+      "source": "Chinese organized crime groups",
+      "target": "Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Chinese organized criminal groups launder money for Mexican drug cartels.",
-      "time_period": null
-    },
-    {
-      "source": "Chinese organized criminal groups",
-      "target": "Italian organized crime",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Chinese organized criminal groups launder money for Italian organized crime.",
-      "time_period": null
+      "context": "Chinese groups launder money for the Mafia.",
+      "time_period": "2021-2024"
     },
     {
       "source": "Lazarus Group",
       "target": "Tornado Cash",
-      "relationship": "other",
-      "detail": "used mixer",
-      "context": "Lazarus Group used Tornado Cash to launder stolen funds.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Lazarus Group used Tornado Cash to launder stolen cryptocurrency funds.",
       "time_period": "2022"
-    },
-    {
-      "source": "Chee Kung Tong",
-      "target": "Leland Yee",
-      "relationship": "other",
-      "detail": "associated with",
-      "context": "Chee Kung Tong members and Senator Leland Yee engaged in reverse money laundering.",
-      "time_period": "2014"
-    },
-    {
-      "source": "Al-Qaeda",
-      "target": "Dubai Islamic Bank",
-      "relationship": "other",
-      "detail": "received support from",
-      "context": "Dubai Islamic Bank provided financial services to al-Qaeda operatives planning 9/11.",
-      "time_period": "2001"
-    },
-    {
-      "source": "Cali Cartel",
-      "target": "Jose Santacruz Londono",
-      "relationship": "other",
-      "detail": "kingpin of",
-      "context": "Jose Santacruz Londono was a kingpin of the Cali Cartel, and Jurado-Rodriguez laundered money for him.",
-      "time_period": "1990s"
     }
   ],
   "source_file": "Money_laundering"

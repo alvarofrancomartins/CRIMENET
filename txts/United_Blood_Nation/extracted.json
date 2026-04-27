@@ -34,17 +34,15 @@
         "NTG"
       ],
       "type": "faction",
-      "context": "Faction of the United Blood Nation involved in drug smuggling and alliance with Lucchese crime family.",
+      "context": "Faction of the United Blood Nation, involved in drug trafficking and alliance with Lucchese crime family.",
       "time_period": "1990s-present"
     },
     {
       "standard_name": "Lucchese crime family",
       "original_text_name": "Lucchese crime family",
-      "aliases": [
-        "Lucchese family"
-      ],
+      "aliases": [],
       "type": "mafia",
-      "context": "New York-based Mafia family; allied with Nine Trey Gangsters for smuggling operations.",
+      "context": "American Mafia family; allied with Nine Trey Gangsters to smuggle drugs and phones into prison.",
       "time_period": "1920s-present"
     },
     {
@@ -85,19 +83,19 @@
     },
     {
       "source": "Nine Trey Gangsters",
-      "target": "Lucchese crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "NTG allied with Lucchese crime family to smuggle drugs and cell phones into prison.",
-      "time_period": "2010"
-    },
-    {
-      "source": "Nine Trey Gangsters",
       "target": "United Blood Nation",
       "relationship": "alliance",
       "detail": null,
       "context": "Nine Trey Gangsters is a faction of the United Blood Nation.",
-      "time_period": "1993-present"
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Nine Trey Gangsters",
+      "target": "Lucchese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "NTG allied with Lucchese crime family to smuggle drugs and phones into prison.",
+      "time_period": "2000s-2010"
     },
     {
       "source": "Imperial Gangsta Bloods",

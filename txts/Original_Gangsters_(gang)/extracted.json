@@ -7,7 +7,7 @@
         "OGs"
       ],
       "type": "gang",
-      "context": "Swedish criminal gang based in Gothenburg, involved in drug dealing, prostitution, extortion, illegal gambling.",
+      "context": "Criminal gang based in Gothenburg, Sweden, involved in drug dealing, prostitution, extortion, illegal gambling.",
       "time_period": "1993-present"
     },
     {
@@ -15,7 +15,7 @@
       "original_text_name": "Naserligan",
       "aliases": [],
       "type": "gang",
-      "context": "Albanian criminal gang in Gothenburg, rival of Original Gangsters.",
+      "context": "Albanian criminal gang in Gothenburg, involved in illegal gambling and other profitable activities.",
       "time_period": "2000s"
     },
     {
@@ -31,8 +31,8 @@
       "original_text_name": "Bandidos",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club, X-Team was a supporter club that later became a regular Bandidos club.",
-      "time_period": "founded 1966"
+      "context": "Outlaw motorcycle club with chapters in Sweden, X-Team was a supporter club upgraded to a regular Bandidos club.",
+      "time_period": "2005-present"
     }
   ],
   "edges": [
@@ -41,7 +41,7 @@
       "target": "Naserligan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Violent conflict over profitable activities in Gothenburg, including shootings in 2000-2001, later truce.",
+      "context": "Violent conflict over profitable activities in Gothenburg, including shootings in 2000-2001, ended with a truce.",
       "time_period": "2000-2001"
     },
     {
@@ -49,7 +49,7 @@
       "target": "X-Team",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Conflict initiated by a night club quarrel in 2002, leading to murder and series of violent events, truce in 2005.",
+      "context": "Conflict initiated by a night club quarrel in 2002, leading to a murder and series of violent events, truce in 2005.",
       "time_period": "2002-2005"
     },
     {
@@ -57,8 +57,8 @@
       "target": "Bandidos",
       "relationship": "alliance",
       "detail": null,
-      "context": "X-Team was a supporter club of Bandidos, later upgraded to a regular Bandidos club in 2005.",
-      "time_period": "until 2005"
+      "context": "X-Team was a supporter club of Bandidos, upgraded to a regular Bandidos club in 2005.",
+      "time_period": "2005"
     }
   ],
   "source_file": "Original_Gangsters_(gang)"

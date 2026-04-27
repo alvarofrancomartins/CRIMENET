@@ -10,7 +10,7 @@
         "Islamic State – East Asia Province"
       ],
       "type": "terrorist_organization",
-      "context": "Jihadist militant and pirate group based in the Philippines, involved in bombings, kidnappings, and drug trafficking.",
+      "context": "Jihadist militant and pirate group based in Jolo and Basilan, Philippines, involved in bombings, kidnappings, and drug trafficking.",
       "time_period": "1991-2024"
     },
     {
@@ -29,20 +29,22 @@
       "standard_name": "Moro National Liberation Front",
       "original_text_name": "Moro National Liberation Front",
       "aliases": [
-        "MNLF"
+        "MNLF",
+        "Moro National Liberation Front"
       ],
       "type": "other",
-      "context": "Muslim rebel group in the Philippines; some members joined Abu Sayyaf but officially deny links.",
+      "context": "Muslim rebel group in the Philippines; some members joined Abu Sayyaf but MNLF officially denies links.",
       "time_period": "1970s-present"
     },
     {
       "standard_name": "Moro Islamic Liberation Front",
       "original_text_name": "Moro Islamic Liberation Front",
       "aliases": [
-        "MILF"
+        "MILF",
+        "Moro Islamic Liberation Front"
       ],
       "type": "other",
-      "context": "Muslim rebel group in the Philippines; some members joined Abu Sayyaf but officially deny links.",
+      "context": "Muslim rebel group in the Philippines; some members joined Abu Sayyaf but MILF officially denies links.",
       "time_period": "1980s-present"
     },
     {
@@ -52,7 +54,7 @@
         "JI"
       ],
       "type": "terrorist_organization",
-      "context": "Indonesian terrorist group that trained Abu Sayyaf members and had intermittent ties.",
+      "context": "Indonesian terrorist group with intermittent ties to Abu Sayyaf, providing training.",
       "time_period": "1990s-present"
     },
     {
@@ -61,7 +63,7 @@
       "aliases": [],
       "type": "terrorist_organization",
       "context": "Global terrorist network that provided initial funding and training to Abu Sayyaf.",
-      "time_period": "1990s-2010s"
+      "time_period": "1980s-present"
     },
     {
       "standard_name": "Maute Group",
@@ -78,18 +80,27 @@
       "original_text_name": "Abdussalam kidnap-for-ransom group",
       "aliases": [],
       "type": "gang",
-      "context": "Kidnap-for-ransom group operating in Zamboanga City, Philippines.",
+      "context": "Kidnap-for-ransom group operating in Zamboanga City, Philippines, involved in the kidnapping of Fr. Giancarlo Bossi.",
       "time_period": "2000s-2020"
+    },
+    {
+      "standard_name": "Albader Parad's group",
+      "original_text_name": "Albader Parad's group",
+      "aliases": [],
+      "type": "faction",
+      "context": "Faction of Abu Sayyaf led by Albader Parad, responsible for the 2009 Red Cross kidnapping.",
+      "time_period": "2000s-2010"
     },
     {
       "standard_name": "Barahama Ali Group",
       "original_text_name": "Barahama Alih criminal gang",
       "aliases": [
-        "Barahama Alih Group"
+        "Barahama Alih Group",
+        "Barahama Ali kidnap gang"
       ],
       "type": "gang",
       "context": "Kidnap-for-ransom group operating in Zamboanga Sibugay, Philippines, linked to multiple abductions.",
-      "time_period": "2000s-2010s"
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Muloc Group",
@@ -105,21 +116,21 @@
       "aliases": [],
       "type": "triad",
       "context": "Chinese triad gang that coordinated with Abu Sayyaf in the 2000 Sipadan kidnappings and provided military support.",
-      "time_period": "2000-present"
+      "time_period": "20th century-present"
     },
     {
       "standard_name": "Muktadil Brothers",
       "original_text_name": "Muktadil brothers",
       "aliases": [],
       "type": "gang",
-      "context": "Filipino kidnap group that sold hostages to Abu Sayyaf, active in Sabah and Sulu.",
+      "context": "Filipino kidnap gang that sold hostages to Abu Sayyaf, active in Sabah and Sulu.",
       "time_period": "2010s"
     },
     {
       "standard_name": "Daulat Ul-Islamiya",
       "original_text_name": "Daulat Ul-Islamiya",
       "aliases": [],
-      "type": "faction",
+      "type": "terrorist_organization",
       "context": "Group allied to Abu Sayyaf, claimed responsibility for the 2016 Davao City bombing.",
       "time_period": "2016"
     },
@@ -152,25 +163,25 @@
     {
       "source": "Abu Sayyaf",
       "target": "Moro National Liberation Front",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "Abu Sayyaf was founded by former MNLF members who wanted to resume armed struggle.",
-      "time_period": "1991-1990s"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Abu Sayyaf's founder recruited members from MNLF, though MNLF officially denies links.",
+      "time_period": "1991-1998"
     },
     {
       "source": "Abu Sayyaf",
       "target": "Moro Islamic Liberation Front",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "Abu Sayyaf recruited from MILF, but both groups officially deny links.",
-      "time_period": "1991-1990s"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Abu Sayyaf's founder recruited members from MILF, though MILF officially denies links.",
+      "time_period": "1991-1998"
     },
     {
       "source": "Abu Sayyaf",
       "target": "Jemaah Islamiyah",
       "relationship": "alliance",
       "detail": null,
-      "context": "Jemaah Islamiyah trained Abu Sayyaf members and had intermittent ties.",
+      "context": "Jemaah Islamiyah trained Abu Sayyaf cadres in bomb assembling and detonations.",
       "time_period": "2000s"
     },
     {
@@ -178,7 +189,7 @@
       "target": "Al-Qaeda",
       "relationship": "alliance",
       "detail": null,
-      "context": "Al-Qaeda provided initial funding and training to Abu Sayyaf.",
+      "context": "Al-Qaeda provided initial funding and training to Abu Sayyaf through Mohammed Jamal Khalifa and Ramzi Yousef.",
       "time_period": "1990s-2000s"
     },
     {
@@ -191,15 +202,15 @@
     },
     {
       "source": "Abu Sayyaf",
-      "target": "Moro Islamic Liberation Front",
-      "relationship": "other",
-      "detail": "distinct groups",
-      "context": "Abu Sayyaf is not recognized by the Organization of Islamic Cooperation, unlike MILF and MNLF.",
-      "time_period": null
+      "target": "Albader Parad's group",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Albader Parad's group is a faction of Abu Sayyaf.",
+      "time_period": "2000s-2010"
     },
     {
-      "source": "Abu Sayyaf",
-      "target": "Abdussalam kidnap-for-ransom group",
+      "source": "Abdussalam kidnap-for-ransom group",
+      "target": "Abu Sayyaf",
       "relationship": "alliance",
       "detail": null,
       "context": "Samad Awang of the Abdussalam group was involved in kidnappings alongside Abu Sayyaf.",
@@ -265,8 +276,8 @@
       "source": "Maute Group",
       "target": "Abu Sayyaf",
       "relationship": "other",
-      "detail": "separate groups",
-      "context": "Maute is another IS-linked group in the Philippines, distinct from Abu Sayyaf.",
+      "detail": "separate IS-linked groups",
+      "context": "Maute Group is another IS-linked group in the Philippines, distinct from Abu Sayyaf.",
       "time_period": "2016"
     },
     {
@@ -299,7 +310,7 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Jemaah Islamiyah is listed as an opponent of Abu Sayyaf until 2024.",
-      "time_period": "until 2024"
+      "time_period": null
     }
   ],
   "source_file": "Abu_Sayyaf"

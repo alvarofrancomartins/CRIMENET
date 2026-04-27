@@ -12,46 +12,68 @@
       "time_period": "1971-present"
     },
     {
-      "standard_name": "Yamaguchi-gumi",
-      "original_text_name": "Yamaguchi-gumi",
+      "standard_name": "Sadaoka-gumi",
+      "original_text_name": "Sadaoka-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Largest yakuza syndicate in Japan; rival of Dojin-kai and involved in conflicts in northern Kyushu.",
-      "time_period": "1915-present"
-    },
-    {
-      "standard_name": "Sumiyoshi-kai",
-      "original_text_name": "Sumiyoshi Union",
-      "aliases": [
-        "Sumiyoshi-kai"
-      ],
-      "type": "mafia",
-      "context": "Kanto-based large yakuza syndicate; had a brief conflict with Dojin-kai in 1983.",
-      "time_period": "1950s-present"
-    },
-    {
-      "standard_name": "Kudo-kai",
-      "original_text_name": "Kudo-kai",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Northern Kyushu-based yakuza syndicate; member of Yonsha-kai with Dojin-kai.",
-      "time_period": "1960s-present"
+      "context": "Yakuza group based in Tagawa, known as Japan's Methlord in Showa era; crushed by Taishu-kai.",
+      "time_period": "Showa era (1926-1989)"
     },
     {
       "standard_name": "Taishu-kai",
       "original_text_name": "Taishu-kai",
       "aliases": [],
       "type": "mafia",
-      "context": "Northern Kyushu-based yakuza syndicate; member of Yonsha-kai and crushed Sadaoka-gumi.",
-      "time_period": "1960s-present"
+      "context": "Yakuza syndicate based in northern Kyushu; crushed Sadaoka-gumi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Hamada-kai",
+      "original_text_name": "Hamada-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza group based in Okawa; disbanded.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Yamano-kai",
+      "original_text_name": "Yamano-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza group based in Kumamoto; disbanded.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Largest yakuza syndicate in Japan; rival of Dojin-kai.",
+      "time_period": "1915-present"
+    },
+    {
+      "standard_name": "Sumiyoshi Union",
+      "original_text_name": "Sumiyoshi Union",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Kanto-based large yakuza syndicate; had conflict with Dojin-kai in 1983.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kudo-kai",
+      "original_text_name": "Kudo-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Northern Kyushu yakuza syndicate; member of Yonsha-kai with Dojin-kai.",
+      "time_period": null
     },
     {
       "standard_name": "Kumamoto-kai",
       "original_text_name": "Kumamoto-kai",
       "aliases": [],
       "type": "mafia",
-      "context": "Northern Kyushu-based yakuza syndicate; member of Yonsha-kai.",
-      "time_period": "unknown"
+      "context": "Northern Kyushu yakuza syndicate; member of Yonsha-kai.",
+      "time_period": null
     },
     {
       "standard_name": "Kyushu Seido-kai",
@@ -59,123 +81,51 @@
       "aliases": [
         "Seido-kai"
       ],
-      "type": "faction",
-      "context": "Splinter group of Dojin-kai formed in 2006; aligned with Yamaguchi-gumi and engaged in violent conflict with Dojin-kai.",
+      "type": "mafia",
+      "context": "Splinter group of Dojin-kai formed in 2006; aligned with Yamaguchi-gumi.",
       "time_period": "2006-present"
-    },
-    {
-      "standard_name": "Sadaoka-gumi",
-      "original_text_name": "Sadaoka-gumi",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Tagawa-based yakuza group known as Japan's Methlord; crushed by Taishu-kai.",
-      "time_period": "Showa era (1926-1989)"
-    },
-    {
-      "standard_name": "Hamada-kai",
-      "original_text_name": "Hamada-kai",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Okawa-based yakuza group that disbanded.",
-      "time_period": "unknown"
-    },
-    {
-      "standard_name": "Yamano-kai",
-      "original_text_name": "Yamano-kai",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Kumamoto-based yakuza group that disbanded.",
-      "time_period": "unknown"
     },
     {
       "standard_name": "Sinaloa Cartel",
       "original_text_name": "Sinaloa cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel; listed as an ally of Dojin-kai in the infobox.",
-      "time_period": "1980s-present"
+      "context": "Mexican drug cartel; ally of Dojin-kai per infobox.",
+      "time_period": null
     },
     {
       "standard_name": "Namikawa-kai",
       "original_text_name": "Namikawa-kai",
       "aliases": [],
       "type": "mafia",
-      "context": "Listed as a rival of Dojin-kai in the infobox.",
-      "time_period": "unknown"
+      "context": "Yakuza group; rival of Dojin-kai per infobox.",
+      "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Dojin-kai",
-      "target": "Yamaguchi-gumi",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Dojin-kai fought the Yama-Michi War (1986-1987) to expel Yamaguchi-gumi from northern Kyushu.",
-      "time_period": "1986-1987"
+      "target": "Sadaoka-gumi",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "Dojin-kai formed after disbanding of Sadaoka-gumi.",
+      "time_period": null
     },
     {
       "source": "Dojin-kai",
-      "target": "Sumiyoshi-kai",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Brief conflict in 1983 where Dojin-kai planned to kill Sumiyoshi Union senior bosses until a peaceful resolution.",
-      "time_period": "1983"
+      "target": "Hamada-kai",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "Dojin-kai formed after disbanding of Hamada-kai.",
+      "time_period": null
     },
     {
       "source": "Dojin-kai",
-      "target": "Kyushu Seido-kai",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Violent war from 2006 onward after Seido-kai splintered from Dojin-kai and aligned with Yamaguchi-gumi.",
-      "time_period": "2006-present"
-    },
-    {
-      "source": "Kyushu Seido-kai",
-      "target": "Yamaguchi-gumi",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Seido-kai allegedly aligned with Yamaguchi-gumi, the rival of Dojin-kai.",
-      "time_period": "2006-present"
-    },
-    {
-      "source": "Dojin-kai",
-      "target": "Kudo-kai",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both are members of the Yonsha-kai fraternal federation, though Kudo-kai avoided deep involvement with Dojin-kai.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "Dojin-kai",
-      "target": "Taishu-kai",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both are members of the Yonsha-kai fraternal federation.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "Dojin-kai",
-      "target": "Kumamoto-kai",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both are members of the Yonsha-kai fraternal federation.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "Dojin-kai",
-      "target": "Sinaloa Cartel",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Listed as an ally in the infobox.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "Dojin-kai",
-      "target": "Namikawa-kai",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Listed as a rival in the infobox.",
-      "time_period": "unknown"
+      "target": "Yamano-kai",
+      "relationship": "other",
+      "detail": "predecessor",
+      "context": "Dojin-kai formed after disbanding of Yamano-kai.",
+      "time_period": null
     },
     {
       "source": "Taishu-kai",
@@ -183,7 +133,79 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Taishu-kai crushed Sadaoka-gumi.",
-      "time_period": "Showa era"
+      "time_period": null
+    },
+    {
+      "source": "Dojin-kai",
+      "target": "Yamaguchi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Dojin-kai fought Yamaguchi-gumi in the Yama-Michi War (1986-1987).",
+      "time_period": "1986-1987"
+    },
+    {
+      "source": "Dojin-kai",
+      "target": "Sumiyoshi Union",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Dojin-kai had a conflict with Sumiyoshi Union in 1983.",
+      "time_period": "1983"
+    },
+    {
+      "source": "Dojin-kai",
+      "target": "Kudo-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both are members of the Yonsha-kai fraternal federation.",
+      "time_period": null
+    },
+    {
+      "source": "Dojin-kai",
+      "target": "Taishu-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both are members of the Yonsha-kai fraternal federation.",
+      "time_period": null
+    },
+    {
+      "source": "Dojin-kai",
+      "target": "Kumamoto-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both are members of the Yonsha-kai fraternal federation.",
+      "time_period": null
+    },
+    {
+      "source": "Dojin-kai",
+      "target": "Kyushu Seido-kai",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "War broke out in 2006 after Seido-kai splintered from Dojin-kai.",
+      "time_period": "2006-present"
+    },
+    {
+      "source": "Kyushu Seido-kai",
+      "target": "Yamaguchi-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Seido-kai allegedly aligned with Yamaguchi-gumi against Dojin-kai.",
+      "time_period": "2006-present"
+    },
+    {
+      "source": "Dojin-kai",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Infobox lists Sinaloa cartel as an ally.",
+      "time_period": null
+    },
+    {
+      "source": "Dojin-kai",
+      "target": "Namikawa-kai",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Infobox lists Namikawa-kai as a rival.",
+      "time_period": null
     }
   ],
   "source_file": "Dojin-kai"

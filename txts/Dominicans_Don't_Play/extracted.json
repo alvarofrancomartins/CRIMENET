@@ -12,27 +12,29 @@
       "time_period": "1991-present"
     },
     {
-      "standard_name": "Colombian crime cartel",
-      "original_text_name": "Colombian crime cartel",
+      "standard_name": "Bones",
+      "original_text_name": "Bones",
       "aliases": [],
-      "type": "cartel",
-      "context": "Colombian drug cartel associated with DDP for cocaine trafficking.",
-      "time_period": null
+      "type": "gang",
+      "context": "Offshoot of DDP, involved in a murder in 2005.",
+      "time_period": "2000s"
     },
     {
       "standard_name": "Bloods",
       "original_text_name": "Bloods",
       "aliases": [],
       "type": "gang",
-      "context": "Nationwide street gang, rival of DDP.",
+      "context": "Rival gang involved in a scuffle with DDP at Pelham Prep High School in 2005.",
       "time_period": null
     },
     {
       "standard_name": "Trinitarios",
       "original_text_name": "Trinitarios",
-      "aliases": [],
+      "aliases": [
+        "Trinitario"
+      ],
       "type": "gang",
-      "context": "Dominican street gang, rival of DDP.",
+      "context": "Dominican gang, rival of DDP since early 2000s.",
       "time_period": null
     },
     {
@@ -44,21 +46,29 @@
       "time_period": null
     },
     {
-      "standard_name": "Bones",
-      "original_text_name": "Bones",
+      "standard_name": "United Blood Nation",
+      "original_text_name": "United Blood Nation",
       "aliases": [],
-      "type": "faction",
-      "context": "Offshoot of DDP involved in a murder.",
+      "type": "gang",
+      "context": "Rival gang of DDP, mentioned in ongoing feud.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Colombian crime cartel",
+      "original_text_name": "Colombian crime cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Associated with DDP for cocaine trafficking.",
       "time_period": null
     }
   ],
   "edges": [
     {
-      "source": "Dominicans Don't Play",
-      "target": "Colombian crime cartel",
+      "source": "Bones",
+      "target": "Dominicans Don't Play",
       "relationship": "alliance",
       "detail": null,
-      "context": "DDP holds a large share of the cocaine market due to association with the Colombian crime cartel.",
+      "context": "Bones is an offshoot of DDP.",
       "time_period": null
     },
     {
@@ -66,15 +76,15 @@
       "target": "Bloods",
       "relationship": "rivalry",
       "detail": null,
-      "context": "DDP and Bloods had a scuffle at Pelham Prep High School resulting in stabbings.",
-      "time_period": "2005"
+      "context": "DDP and Bloods had a violent altercation at Pelham Prep High School in 2005.",
+      "time_period": null
     },
     {
       "source": "Dominicans Don't Play",
       "target": "Trinitarios",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Trinitarios are DDP's biggest rival gang since the early 2000s; they were once united in the 1990s.",
+      "context": "Trinitarios are DDP's biggest rival gang since early 2000s.",
       "time_period": "early 2000s-present"
     },
     {
@@ -82,15 +92,23 @@
       "target": "Latin Kings",
       "relationship": "alliance",
       "detail": null,
-      "context": "DDP is at peace with the Latin Kings, who have had problems with Trinitarios.",
+      "context": "DDP is at peace with Latin Kings.",
       "time_period": null
     },
     {
-      "source": "Bones",
-      "target": "Dominicans Don't Play",
+      "source": "Dominicans Don't Play",
+      "target": "United Blood Nation",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "DDP has an ongoing feud with United Blood Nation sets.",
+      "time_period": null
+    },
+    {
+      "source": "Dominicans Don't Play",
+      "target": "Colombian crime cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Bones is an offshoot of DDP.",
+      "context": "DDP has an association with a Colombian crime cartel for cocaine trafficking.",
       "time_period": null
     }
   ],

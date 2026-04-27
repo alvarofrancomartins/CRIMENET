@@ -43,40 +43,30 @@
       "type": "gang",
       "context": "West Ham United hooligan firm, rivals of Zulu Warriors.",
       "time_period": null
-    },
-    {
-      "standard_name": "Green Street Elite",
-      "original_text_name": "Green Street Elite",
-      "aliases": [
-        "GSE"
-      ],
-      "type": "gang",
-      "context": "Fictional name for the Inter City Firm in the film Green Street.",
-      "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Zulu Warriors",
       "target": "Apex",
-      "relationship": "other",
-      "detail": "amalgamation",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Zulu Warriors formed in 1982 from an amalgamation of other firms including Apex.",
       "time_period": "1982"
     },
     {
-      "source": "Zulu Warriors",
-      "target": "Brew Crew",
-      "relationship": "other",
-      "detail": "offshoot",
+      "source": "Brew Crew",
+      "target": "Zulu Warriors",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Brew Crew is an offshoot gang created from the Zulu Warriors.",
       "time_period": null
     },
     {
-      "source": "Zulu Warriors",
-      "target": "Junior Business Boys",
-      "relationship": "other",
-      "detail": "offshoot",
+      "source": "Junior Business Boys",
+      "target": "Zulu Warriors",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Junior Business Boys is an offshoot gang created from the Zulu Warriors.",
       "time_period": null
     },

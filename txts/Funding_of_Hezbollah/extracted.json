@@ -8,7 +8,7 @@
         "Party of God"
       ],
       "type": "terrorist_organization",
-      "context": "Lebanese Shia Islamist militant group and political party, involved in various criminal activities for funding.",
+      "context": "Lebanese Shia Islamist political party and militant group, designated as a terrorist organization by many countries. Engages in various criminal activities to fund its operations.",
       "time_period": "1980s-present"
     },
     {
@@ -18,7 +18,7 @@
         "Norte del Valle Cartel"
       ],
       "type": "cartel",
-      "context": "Colombian drug cartel that allied with Hezbollah for cocaine smuggling and money laundering.",
+      "context": "Colombian drug cartel that allied with Hezbollah-linked smugglers to traffic cocaine and launder money.",
       "time_period": "1990s-2010s"
     },
     {
@@ -28,7 +28,7 @@
         "Revolutionary Armed Forces of Colombia"
       ],
       "type": "militia",
-      "context": "Colombian leftist guerrilla group involved in drug trafficking and alliance with Hezbollah.",
+      "context": "Colombian leftist guerrilla group involved in drug trafficking and alliance with Hezbollah-linked cells.",
       "time_period": "1964-2017"
     },
     {
@@ -36,8 +36,29 @@
       "original_text_name": "Kinahan cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Irish drug trafficking organization that coordinated a cocaine shipment with Hezbollah from Venezuela.",
+      "context": "Irish organized crime group involved in drug trafficking, coordinated with Hezbollah in a cocaine shipment from Venezuela.",
       "time_period": "2000s-present"
+    },
+    {
+      "standard_name": "Iran",
+      "original_text_name": "Iran",
+      "aliases": [
+        "Islamic Republic of Iran"
+      ],
+      "type": "other",
+      "context": "State sponsor of Hezbollah, providing financial, military, and training support.",
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Ba'athist Syria",
+      "original_text_name": "Ba'athist Syria",
+      "aliases": [
+        "Syria",
+        "Assad regime"
+      ],
+      "type": "other",
+      "context": "State accused of funneling weapons to Hezbollah from its border with Lebanon.",
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Al-Qard Al-Hassan Association",
@@ -45,23 +66,23 @@
       "aliases": [],
       "type": "other",
       "context": "Charity used to collect money for Hezbollah in Nigeria, pretending to help the Lebanese community.",
-      "time_period": null
+      "time_period": "unknown"
     },
     {
       "standard_name": "Whish Money",
       "original_text_name": "Whish Money",
       "aliases": [],
       "type": "other",
-      "context": "Digital payment service used by groups tied to Hezbollah to raise money, exploiting weak anti-money laundering rules.",
-      "time_period": null
+      "context": "Digital payment service used by groups tied to Hezbollah to raise money.",
+      "time_period": "2020s"
     },
     {
       "standard_name": "OMT",
       "original_text_name": "OMT",
       "aliases": [],
       "type": "other",
-      "context": "Digital payment service used by groups tied to Hezbollah to raise money, exploiting weak anti-money laundering rules.",
-      "time_period": null
+      "context": "Digital payment service used by groups tied to Hezbollah to raise money.",
+      "time_period": "2020s"
     }
   ],
   "edges": [
@@ -70,48 +91,64 @@
       "target": "North Valley Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Hezbollah received 12% of profits from cocaine smuggling and money laundering operations with the North Valley Cartel.",
-      "time_period": "2000s-2008"
+      "context": "Hezbollah received 12% of revenues from a cocaine smuggling and money laundering ring involving the North Valley Cartel.",
+      "time_period": "2008"
     },
     {
       "source": "Hezbollah",
       "target": "FARC",
       "relationship": "alliance",
       "detail": null,
-      "context": "Hezbollah allied with FARC and North Valley Cartel in a drug smuggling and money laundering cell dismantled in 2008.",
-      "time_period": "2000s-2008"
+      "context": "Hezbollah was part of a cell formed from an alliance among the North Valley Cartel, FARC, and Lebanese smugglers.",
+      "time_period": "2008"
     },
     {
       "source": "Hezbollah",
       "target": "Kinahan Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Hezbollah coordinated a cocaine shipment from Venezuela with the Kinahan Cartel, seized in Ireland in 2023.",
+      "context": "Hezbollah organized a cocaine shipment from Venezuela in coordination with the Kinahan cartel, seized in Ireland in 2023.",
       "time_period": "2023"
     },
     {
-      "source": "Hezbollah",
-      "target": "Al-Qard Al-Hassan Association",
-      "relationship": "other",
-      "detail": "funding conduit",
-      "context": "Al-Qard Al-Hassan Association collects money for Hezbollah under the guise of charity.",
-      "time_period": null
+      "source": "Iran",
+      "target": "Hezbollah",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Iran provides financial, military, and training support to Hezbollah.",
+      "time_period": "1980s-present"
     },
     {
-      "source": "Hezbollah",
-      "target": "Whish Money",
-      "relationship": "other",
-      "detail": "funding conduit",
-      "context": "Groups tied to Hezbollah use Whish Money to raise donations, bypassing sanctions.",
-      "time_period": null
+      "source": "Ba'athist Syria",
+      "target": "Hezbollah",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Syria is accused of funneling weapons to Hezbollah from its border with Lebanon.",
+      "time_period": "1990s-present"
     },
     {
-      "source": "Hezbollah",
-      "target": "OMT",
-      "relationship": "other",
-      "detail": "funding conduit",
-      "context": "Groups tied to Hezbollah use OMT to raise donations, bypassing sanctions.",
-      "time_period": null
+      "source": "Al-Qard Al-Hassan Association",
+      "target": "Hezbollah",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Charity used to collect money for Hezbollah in Nigeria.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Whish Money",
+      "target": "Hezbollah",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Digital payment service used by groups tied to Hezbollah to raise money.",
+      "time_period": "2020s"
+    },
+    {
+      "source": "OMT",
+      "target": "Hezbollah",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Digital payment service used by groups tied to Hezbollah to raise money.",
+      "time_period": "2020s"
     }
   ],
   "source_file": "Funding_of_Hezbollah"

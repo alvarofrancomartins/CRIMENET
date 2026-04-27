@@ -1,14 +1,14 @@
 {
   "nodes": [
     {
-      "standard_name": "Corleonesi Mafia clan",
-      "original_text_name": "Corleonesi Mafia clan",
+      "standard_name": "Corleonesi",
+      "original_text_name": "Corleonesi",
       "aliases": [
-        "Corleonesi",
+        "Corleonesi Mafia clan",
         "Corleonesi clan"
       ],
       "type": "faction",
-      "context": "A faction within the Corleone Mafia family of the Sicilian Mafia, formed in the 1970s. It dominated the Mafia in the 1980s and 1990s.",
+      "context": "Alliance of Mafia families within the Sicilian Mafia, formed in the 1970s, dominated in 1980s-1990s.",
       "time_period": "1970s-2006"
     },
     {
@@ -18,86 +18,310 @@
         "Corleone cosca"
       ],
       "type": "mafia",
-      "context": "The Mafia family based in Corleone, Sicily. The Corleonesi clan was a faction within this family.",
+      "context": "Mafia family from Corleone, Sicily; core of the Corleonesi alliance.",
       "time_period": "1970s-2006"
     },
     {
-      "standard_name": "Sicilian Mafia",
-      "original_text_name": "Sicilian Mafia",
-      "aliases": [
-        "Cosa Nostra"
-      ],
+      "standard_name": "San Giuseppe Jato Mafia family",
+      "original_text_name": "San Giuseppe Jato Mafia family",
+      "aliases": [],
       "type": "mafia",
-      "context": "The overarching Mafia organization in Sicily. The Corleonesi clan was a faction within it.",
-      "time_period": "19th century-present"
+      "context": "Mafia family from San Giuseppe Jato; Giovanni Brusca was a member.",
+      "time_period": null
     },
     {
-      "standard_name": "Palermitans",
-      "original_text_name": "Palermitans",
+      "standard_name": "Santapaola Mafia family",
+      "original_text_name": "Santapaola Mafia family",
       "aliases": [],
-      "type": "faction",
-      "context": "A faction of Palermo Mafia families opposed to the Corleonesi during the Second Mafia War.",
-      "time_period": "1980s"
+      "type": "mafia",
+      "context": "Mafia family from Catania; Nitto Santapaola was a leader.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Greco Mafia clan",
+      "original_text_name": "Greco Mafia clan",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia clan; Michele Greco was a member.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Porta Nuova Mafia family",
+      "original_text_name": "Porta Nuova",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family from Palermo; Giuseppe Calò and Salvatore Cancemi were members.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bontade Mafia family",
+      "original_text_name": "Bontade Mafia family",
+      "aliases": [
+        "Bontate"
+      ],
+      "type": "mafia",
+      "context": "Powerful Palermo Mafia family; Stefano Bontade was boss.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Inzerillo Mafia clan",
+      "original_text_name": "Inzerillo Mafia clan",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Powerful Palermo Mafia family; Salvatore Inzerillo was boss.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Badalamenti Mafia family",
+      "original_text_name": "Badalamenti",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Powerful Palermo Mafia family; Gaetano Badalamenti was boss.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cuntrera-Caruana Mafia clan",
+      "original_text_name": "Cuntrera-Caruana Mafia clan",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia clan allied with Corleonesi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nuvoletta clan",
+      "original_text_name": "Nuvoletta clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Naples area; allied with Corleonesi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Banda della Magliana",
+      "original_text_name": "Banda della Magliana",
+      "aliases": [],
+      "type": "gang",
+      "context": "Roman criminal organization; allied with Corleonesi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Madonia Mafia family",
+      "original_text_name": "Madonia Mafia family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family from Sicily; allied with Corleonesi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Russo clan",
+      "original_text_name": "Russo clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan; allied with Corleonesi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Motisi Mafia family",
+      "original_text_name": "Motisi Mafia family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family from Sicily; allied with Corleonesi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "La Rocca Mafia clan",
+      "original_text_name": "La Rocca Mafia clan",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia clan from Sicily; allied with Corleonesi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Ramacca Mafia family",
+      "original_text_name": "Ramacca Mafia family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family from Sicily; allied with Corleonesi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Calderone Mafia family",
+      "original_text_name": "Calderone Mafia family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Mafia family from Catania; rival of Corleonesi.",
+      "time_period": null
     },
     {
       "standard_name": "Gambino crime family",
       "original_text_name": "Gambino crime family",
-      "aliases": [
-        "Gambinos"
-      ],
-      "type": "mafia",
-      "context": "An American Mafia family. Reportedly sent an explosives expert to help the Corleonesi with the Capaci bombing.",
-      "time_period": "1910s-present"
-    },
-    {
-      "standard_name": "American Cosa Nostra",
-      "original_text_name": "American Cosa Nostra",
       "aliases": [],
       "type": "mafia",
-      "context": "The American branch of the Mafia. Affiliated with rivals of the Corleonesi but later cooperated.",
-      "time_period": "20th century-present"
+      "context": "American Mafia family; John Gotti was boss; cooperated with Corleonesi.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
+      "aliases": [
+        "Sicilian Mafia"
+      ],
+      "type": "mafia",
+      "context": "The overarching Sicilian Mafia organization; Corleonesi was a faction within it.",
+      "time_period": null
     }
   ],
   "edges": [
     {
-      "source": "Corleonesi Mafia clan",
+      "source": "Corleonesi",
       "target": "Corleone Mafia family",
-      "relationship": "other",
-      "detail": "faction of",
-      "context": "The Corleonesi clan was a faction within the Corleone Mafia family.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Corleonesi was an alliance led by the Corleone Mafia family.",
       "time_period": "1970s-2006"
     },
     {
-      "source": "Corleonesi Mafia clan",
-      "target": "Sicilian Mafia",
-      "relationship": "other",
-      "detail": "faction of",
-      "context": "The Corleonesi clan was a faction within the Sicilian Mafia.",
-      "time_period": "1970s-2006"
+      "source": "Corleonesi",
+      "target": "San Giuseppe Jato Mafia family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Giovanni Brusca from San Giuseppe Jato was a Corleonesi affiliate.",
+      "time_period": "1980s-1990s"
     },
     {
-      "source": "Corleonesi Mafia clan",
-      "target": "Palermitans",
+      "source": "Corleonesi",
+      "target": "Santapaola Mafia family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nitto Santapaola from Catania was a Corleonesi affiliate.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Corleonesi",
+      "target": "Greco Mafia clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Michele Greco was a Corleonesi affiliate.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Corleonesi",
+      "target": "Porta Nuova Mafia family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Giuseppe Calò and Salvatore Cancemi from Porta Nuova were Corleonesi affiliates.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Corleonesi",
+      "target": "Bontade Mafia family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Corleonesi opposed the Palermitans during the Second Mafia War in the early 1980s.",
+      "context": "Corleonesi opposed the Bontade family during the Second Mafia War.",
       "time_period": "1981-1983"
     },
     {
-      "source": "Gambino crime family",
-      "target": "Corleonesi Mafia clan",
+      "source": "Corleonesi",
+      "target": "Inzerillo Mafia clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Corleonesi opposed the Inzerillo clan during the Second Mafia War.",
+      "time_period": "1981-1983"
+    },
+    {
+      "source": "Corleonesi",
+      "target": "Badalamenti Mafia family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Corleonesi opposed Gaetano Badalamenti's family during the Second Mafia War.",
+      "time_period": "1981-1983"
+    },
+    {
+      "source": "Corleonesi",
+      "target": "Cuntrera-Caruana Mafia clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Gambino crime family sent an explosives expert to help the Corleonesi plan the Capaci bombing.",
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Corleonesi",
+      "target": "Nuvoletta clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Corleonesi",
+      "target": "Banda della Magliana",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Corleonesi",
+      "target": "Madonia Mafia family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Corleonesi",
+      "target": "Russo clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Corleonesi",
+      "target": "Motisi Mafia family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Corleonesi",
+      "target": "La Rocca Mafia clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Corleonesi",
+      "target": "Ramacca Mafia family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Corleonesi",
+      "target": "Calderone Mafia family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Corleonesi",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Gambino family sent an explosives expert to help Corleonesi plan the Capaci bombing.",
       "time_period": "1992"
     },
     {
-      "source": "American Cosa Nostra",
-      "target": "Corleonesi Mafia clan",
+      "source": "Corleonesi",
+      "target": "Cosa Nostra",
       "relationship": "alliance",
       "detail": null,
-      "context": "The American Cosa Nostra, through the Gambinos, cooperated with the Corleonesi despite earlier affiliations with rivals.",
-      "time_period": "1992"
+      "context": "Corleonesi was a faction within Cosa Nostra.",
+      "time_period": "1970s-2006"
     }
   ],
   "source_file": "Corleonesi_Mafia_clan"

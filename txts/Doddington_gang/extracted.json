@@ -19,7 +19,7 @@
         "Pepperhill Crew"
       ],
       "type": "gang",
-      "context": "Predecessor to Doddington Gang, emerged in 1980s around Pepperhill pub in Moss Side.",
+      "context": "Predecessor of Doddington Gang, emerged in 1980s around Pepperhill pub in Moss Side.",
       "time_period": "1980s-1990s"
     },
     {
@@ -27,7 +27,7 @@
       "original_text_name": "Cheetham Hill Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Larger, established gang that levied 'tax' on Moss Side drug dealers.",
+      "context": "Larger and more established gang that levied tax on Moss Side dealers.",
       "time_period": "1980s-1990s"
     },
     {
@@ -45,7 +45,7 @@
       "original_text_name": "Pit Bull Crew",
       "aliases": [],
       "type": "gang",
-      "context": "Offshoot of Doddington formed by Thomas Pitt, aligned with Gooch gang.",
+      "context": "Formed by Thomas Pitt after his brother's death; aligned with Gooch gang.",
       "time_period": "1990s-2000s"
     },
     {
@@ -53,7 +53,7 @@
       "original_text_name": "Longsight Crew",
       "aliases": [],
       "type": "gang",
-      "context": "Younger Doddington members from Longsight and Ardwick areas.",
+      "context": "Splinter group of Doddington from Longsight and Ardwick areas.",
       "time_period": "1990s-2000s"
     },
     {
@@ -62,23 +62,23 @@
       "aliases": [],
       "type": "gang",
       "context": "Junior faction spawned from Doddington.",
-      "time_period": "2000s"
+      "time_period": "1990s-2000s"
     },
     {
       "standard_name": "Haydock Close Crew",
       "original_text_name": "Haydock Close Crew",
       "aliases": [],
       "type": "gang",
-      "context": "Junior faction spawned from Doddington.",
-      "time_period": "2000s"
+      "context": "Splinter group from Doddington.",
+      "time_period": "1990s-2000s"
     },
     {
       "standard_name": "Portuguese Mafia",
       "original_text_name": "Portuguese Mafia",
       "aliases": [],
       "type": "gang",
-      "context": "Junior faction spawned from Doddington.",
-      "time_period": "2000s"
+      "context": "Splinter group from Doddington.",
+      "time_period": "1990s-2000s"
     },
     {
       "standard_name": "Rusholme Crips",
@@ -86,7 +86,7 @@
       "aliases": [],
       "type": "gang",
       "context": "Splinter group allied with Gooch.",
-      "time_period": "2000s"
+      "time_period": "1990s-2000s"
     },
     {
       "standard_name": "Fallowfield Mandem",
@@ -96,7 +96,7 @@
       ],
       "type": "gang",
       "context": "Splinter group allied with Gooch.",
-      "time_period": "2000s"
+      "time_period": "1990s-2000s"
     },
     {
       "standard_name": "Old Trafford Cripz",
@@ -106,7 +106,7 @@
       ],
       "type": "gang",
       "context": "Splinter group allied with Gooch.",
-      "time_period": "2000s"
+      "time_period": "1990s-2000s"
     },
     {
       "standard_name": "Longsight Street Soldiers",
@@ -114,22 +114,14 @@
       "aliases": [],
       "type": "gang",
       "context": "Splinter group allied with Gooch.",
-      "time_period": "2000s"
-    },
-    {
-      "standard_name": "Younger Gooch Close",
-      "original_text_name": "Younger Gooch Close",
-      "aliases": [],
-      "type": "gang",
-      "context": "Junior faction of Gooch Close Gang.",
-      "time_period": "2000s"
+      "time_period": "1990s-2000s"
     },
     {
       "standard_name": "Active Only",
       "original_text_name": "Active Only",
       "aliases": [],
       "type": "gang",
-      "context": "Ally of Doddington mentioned in infobox.",
+      "context": "Ally of Doddington per infobox.",
       "time_period": null
     },
     {
@@ -137,7 +129,15 @@
       "original_text_name": "Top Crash Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Ally of Doddington mentioned in infobox.",
+      "context": "Ally of Doddington per infobox.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Younger Gooch Close",
+      "original_text_name": "Younger Gooch Close",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival of Doddington per infobox.",
       "time_period": null
     },
     {
@@ -145,135 +145,178 @@
       "original_text_name": "Rusholme Crew Gangsters",
       "aliases": [],
       "type": "gang",
-      "context": "Rival of Doddington mentioned in infobox.",
+      "context": "Rival of Doddington per infobox.",
       "time_period": null
     }
   ],
   "edges": [
     {
-      "source": "Pepperhill Mob",
-      "target": "Doddington Original Gangsters",
-      "relationship": "other",
-      "detail": "predecessor-successor",
-      "context": "Pepperhill Mob evolved into Doddington Original Gangsters after moving to Dodington Close.",
-      "time_period": "late 1980s"
+      "source": "Doddington Original Gangsters",
+      "target": "Pepperhill Mob",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Doddington originated from Pepperhill Mob, which migrated and renamed.",
+      "time_period": "1980s-1990s"
+    },
+    {
+      "source": "Doddington Original Gangsters",
+      "target": "Cheetham Hill Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rivals during late 1980s and early 1990s, leading to violent conflict.",
+      "time_period": "1980s-1990s"
     },
     {
       "source": "Pepperhill Mob",
       "target": "Cheetham Hill Gang",
       "relationship": "rivalry",
-      "context": "Cheetham Hill Gang levied 'tax' on Pepperhill Mob, leading to violent conflict including murders.",
-      "time_period": "late 1980s-early 1990s"
+      "detail": null,
+      "context": "Pepperhill fought Cheetham Hill over drug territory and taxation.",
+      "time_period": "1980s-1990s"
     },
     {
       "source": "Doddington Original Gangsters",
       "target": "Gooch Close Gang",
       "relationship": "rivalry",
-      "context": "Fierce rivalry over drug trade in Moss Side, leading to two decades of gang violence.",
-      "time_period": "early 1990s-2010s"
+      "detail": null,
+      "context": "Fierce rivalry over drug trade in Moss Side, lasting over 20 years.",
+      "time_period": "1990s-2000s"
     },
     {
       "source": "Gooch Close Gang",
       "target": "Cheetham Hill Gang",
       "relationship": "alliance",
-      "context": "Gooch aligned with Cheetham Hill Gang against Doddington.",
+      "detail": null,
+      "context": "Gooch aligned with Cheetham Hill against Doddington.",
       "time_period": "1990s"
     },
     {
       "source": "Pit Bull Crew",
       "target": "Gooch Close Gang",
       "relationship": "alliance",
-      "context": "Pit Bull Crew aligned with Gooch gang, operating under their umbrella.",
+      "detail": null,
+      "context": "Pit Bull Crew aligned with Gooch gang.",
       "time_period": "1990s-2000s"
     },
     {
       "source": "Pit Bull Crew",
       "target": "Doddington Original Gangsters",
       "relationship": "rivalry",
-      "context": "Pit Bull Crew was an offshoot that turned against Doddington, deepening internal divisions.",
+      "detail": null,
+      "context": "Pit Bull Crew was a rival offshoot of Doddington, fought turf war.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "Longsight Crew",
+      "target": "Doddington Original Gangsters",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Longsight Crew was a splinter group from Doddington.",
       "time_period": "1990s-2000s"
     },
     {
       "source": "Longsight Crew",
       "target": "Pit Bull Crew",
       "relationship": "rivalry",
+      "detail": null,
       "context": "Longsight Crew attempted to sell in Pit Bull Crew territory, causing turf war.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "Moss Side Bloods",
+      "target": "Doddington Original Gangsters",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Moss Side Bloods was a junior faction spawned from Doddington.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "Haydock Close Crew",
+      "target": "Doddington Original Gangsters",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Haydock Close Crew was a splinter group from Doddington.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "Portuguese Mafia",
+      "target": "Doddington Original Gangsters",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Portuguese Mafia was a splinter group from Doddington.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "Rusholme Crips",
+      "target": "Gooch Close Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Rusholme Crips allied with Gooch.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "Fallowfield Mandem",
+      "target": "Gooch Close Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Fallowfield Mandem allied with Gooch.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "Old Trafford Cripz",
+      "target": "Gooch Close Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Old Trafford Cripz allied with Gooch.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "source": "Longsight Street Soldiers",
+      "target": "Gooch Close Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Longsight Street Soldiers allied with Gooch.",
       "time_period": "1990s-2000s"
     },
     {
       "source": "Longsight Crew",
       "target": "Gooch Close Gang",
       "relationship": "rivalry",
-      "context": "Members of Gooch and Longsight Crew fought each other in 2004.",
+      "detail": null,
+      "context": "Members of Gooch and Longsight Crew fought in 2004.",
       "time_period": "2004"
     },
     {
-      "source": "Doddington Original Gangsters",
-      "target": "Moss Side Bloods",
-      "relationship": "other",
-      "detail": "spawned faction",
-      "context": "Doddington gave rise to Moss Side Bloods as a junior faction.",
-      "time_period": "2000s"
-    },
-    {
-      "source": "Doddington Original Gangsters",
-      "target": "Longsight Crew",
-      "relationship": "other",
-      "detail": "spawned faction",
-      "context": "Doddington gave rise to Longsight Crew as a junior faction.",
-      "time_period": "1990s"
-    },
-    {
-      "source": "Doddington Original Gangsters",
-      "target": "Haydock Close Crew",
-      "relationship": "other",
-      "detail": "spawned faction",
-      "context": "Doddington gave rise to Haydock Close Crew as a junior faction.",
-      "time_period": "2000s"
-    },
-    {
-      "source": "Doddington Original Gangsters",
-      "target": "Portuguese Mafia",
-      "relationship": "other",
-      "detail": "spawned faction",
-      "context": "Doddington gave rise to Portuguese Mafia as a junior faction.",
-      "time_period": "2000s"
-    },
-    {
-      "source": "Gooch Close Gang",
-      "target": "Rusholme Crips",
+      "source": "Active Only",
+      "target": "Doddington Original Gangsters",
       "relationship": "alliance",
-      "context": "Gooch formed alliances with Rusholme Crips.",
-      "time_period": "2000s"
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
     },
     {
-      "source": "Gooch Close Gang",
-      "target": "Fallowfield Mandem",
+      "source": "Top Crash Gang",
+      "target": "Doddington Original Gangsters",
       "relationship": "alliance",
-      "context": "Gooch formed alliances with Fallowfield Mandem.",
-      "time_period": "2000s"
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
     },
     {
-      "source": "Gooch Close Gang",
-      "target": "Old Trafford Cripz",
-      "relationship": "alliance",
-      "context": "Gooch formed alliances with Old Trafford Cripz.",
-      "time_period": "2000s"
+      "source": "Younger Gooch Close",
+      "target": "Doddington Original Gangsters",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
     },
     {
-      "source": "Gooch Close Gang",
-      "target": "Longsight Street Soldiers",
-      "relationship": "alliance",
-      "context": "Gooch formed alliances with Longsight Street Soldiers.",
-      "time_period": "2000s"
-    },
-    {
-      "source": "Gooch Close Gang",
-      "target": "Younger Gooch Close",
-      "relationship": "other",
-      "detail": "spawned faction",
-      "context": "Younger Gooch Close is a junior faction of Gooch Close Gang.",
-      "time_period": "2000s"
+      "source": "Rusholme Crew Gangsters",
+      "target": "Doddington Original Gangsters",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as rival in infobox.",
+      "time_period": null
     }
   ],
   "source_file": "Doddington_gang"

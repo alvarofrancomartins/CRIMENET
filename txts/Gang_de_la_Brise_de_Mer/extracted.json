@@ -14,7 +14,7 @@
       "standard_name": "Armata Corsa",
       "original_text_name": "Armata Corsa",
       "aliases": [],
-      "type": "other",
+      "type": "faction",
       "context": "Corsican separatist armed group, suspected to have been targeted by the Brise de Mer in 2001 murders.",
       "time_period": null
     },
@@ -26,7 +26,7 @@
       ],
       "type": "gang",
       "context": "Corsican gang based in Ajaccio, dominant in the 2020s, rival of the Brise de Mer coalition.",
-      "time_period": "2000s-present"
+      "time_period": null
     },
     {
       "standard_name": "Venzolasca Gang",
@@ -36,15 +36,15 @@
         "Shepherd Robbers of Venzolasca"
       ],
       "type": "gang",
-      "context": "Corsican criminal group known as the 'Shepherd Robbers of Venzolasca', allied with Richard Casanova's faction.",
+      "context": "Corsican criminal group, also known as the Federici clan, involved in the conflict.",
       "time_period": null
     },
     {
-      "standard_name": "Hornec Family",
+      "standard_name": "Hornec family",
       "original_text_name": "Hornec family",
       "aliases": [],
       "type": "gang",
-      "context": "Criminal family allied with the Brise de Mer, based in mainland France.",
+      "context": "Criminal family allied with the Brise de Mer.",
       "time_period": null
     },
     {
@@ -85,22 +85,22 @@
       "standard_name": "FLNC",
       "original_text_name": "FLNC",
       "aliases": [
-        "Front de Libération Nationale de la Corse"
+        "National Front for the Liberation of Corsica"
       ],
-      "type": "other",
+      "type": "militia",
       "context": "Corsican nationalist militant group, allied with the Brise de Mer.",
       "time_period": null
     },
     {
-      "standard_name": "Mattéi-Rogliano Family",
+      "standard_name": "Mattéi-Rogliano family",
       "original_text_name": "Mattéi-Rogliano family",
       "aliases": [],
       "type": "clan",
-      "context": "Corsican clan that split from the Brise de Mer after a 2000 prison-yard incident, later supported Richard Casanova's faction.",
+      "context": "Corsican clan that split from the Brise de Mer after a prison-yard incident in 2000, later supported Richard Casanova's faction.",
       "time_period": null
     },
     {
-      "standard_name": "Alain Orsoni Group",
+      "standard_name": "Alain Orsoni group",
       "original_text_name": "group from southern Corsica led by Alain Orsoni",
       "aliases": [],
       "type": "gang",
@@ -135,7 +135,7 @@
     },
     {
       "source": "Gang de la Brise de Mer",
-      "target": "Hornec Family",
+      "target": "Hornec family",
       "relationship": "alliance",
       "detail": null,
       "context": "The Hornec family is listed as an ally of the Brise de Mer.",
@@ -182,28 +182,20 @@
       "time_period": null
     },
     {
-      "source": "Mattéi-Rogliano Family",
+      "source": "Mattéi-Rogliano family",
       "target": "Gang de la Brise de Mer",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Mattéi-Rogliano family split from the Brise de Mer after a 2000 prison-yard incident.",
-      "time_period": "2000"
+      "context": "The Mattéi-Rogliano family split from the Brise de Mer after a prison-yard incident in 2000 and later supported a rival faction.",
+      "time_period": "2000s"
     },
     {
-      "source": "Mattéi-Rogliano Family",
-      "target": "Venzolasca Gang",
-      "relationship": "alliance",
+      "source": "Alain Orsoni group",
+      "target": "Gang de la Brise de Mer",
+      "relationship": "rivalry",
       "detail": null,
-      "context": "The Mattéi-Rogliano family supported Richard Casanova's faction, which included the Venzolasca Gang.",
-      "time_period": "early 2000s"
-    },
-    {
-      "source": "Alain Orsoni Group",
-      "target": "Venzolasca Gang",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Alain Orsoni's group was brought into Richard Casanova's faction alongside the Venzolasca Gang.",
-      "time_period": "early 2000s"
+      "context": "The Alain Orsoni group allied with Richard Casanova's faction, which was in conflict with the Brise de Mer.",
+      "time_period": "2000s"
     }
   ],
   "source_file": "Gang_de_la_Brise_de_Mer"

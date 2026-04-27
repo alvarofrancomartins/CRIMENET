@@ -47,7 +47,7 @@
       "original_text_name": "Los Zetas",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel and paramilitary group, original target of Cárteles Unidos.",
+      "context": "Mexican drug cartel, original target of Cárteles Unidos.",
       "time_period": null
     },
     {
@@ -81,7 +81,7 @@
       "original_text_name": "Milenio Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel loyal to Sinaloa Cartel, originally composed La Resistencia.",
+      "context": "Mexican drug cartel, originally loyal to Sinaloa Cartel and part of La Resistencia.",
       "time_period": null
     },
     {
@@ -97,7 +97,7 @@
       "original_text_name": "Los Blancos de Troya",
       "aliases": [],
       "type": "gang",
-      "context": "Local self-defense group or gang allied with Cárteles Unidos.",
+      "context": "Ally of Cárteles Unidos.",
       "time_period": null
     },
     {
@@ -105,7 +105,7 @@
       "original_text_name": "Los Correa",
       "aliases": [],
       "type": "gang",
-      "context": "Local group allied with Cárteles Unidos.",
+      "context": "Ally of Cárteles Unidos.",
       "time_period": null
     }
   ],
@@ -164,7 +164,7 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Infighting between La Familia Michoacana and La Nueva Familia Michoacana Organization is ongoing.",
-      "time_period": "2023"
+      "time_period": "present"
     },
     {
       "source": "La Nueva Familia Michoacana Organization",
@@ -180,7 +180,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "La Familia Michoacana has a truce with the Jalisco New Generation Cartel.",
-      "time_period": "2023"
+      "time_period": "present"
     },
     {
       "source": "Knights Templar Cartel",
@@ -188,7 +188,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Knights Templar Cartel are now allied with the Jalisco New Generation Cartel.",
-      "time_period": "2023"
+      "time_period": "present"
     },
     {
       "source": "Knights Templar Cartel",
@@ -196,7 +196,7 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Knights Templar Cartel are fighting La Nueva Familia Michoacana Organization.",
-      "time_period": "2023"
+      "time_period": "present"
     },
     {
       "source": "Milenio Cartel",
@@ -239,11 +239,19 @@
       "time_period": "2010"
     },
     {
-      "source": "Cárteles Unidos",
+      "source": "La Resistencia",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "La Resistencia made an alliance with Los Viagras and others to expel CJNG.",
+      "time_period": "2015-present"
+    },
+    {
+      "source": "La Resistencia",
       "target": "Los Viagras",
       "relationship": "alliance",
       "detail": null,
-      "context": "Cárteles Unidos made an alliance with Los Viagras in 2015 to expel CJNG.",
+      "context": "La Resistencia allied with Los Viagras in 2015 to fight CJNG.",
       "time_period": "2015-present"
     },
     {

@@ -8,7 +8,7 @@
         "i Capitoni"
       ],
       "type": "clan",
-      "context": "Neapolitan Camorra clan operating in northern Naples, involved in drug trafficking, extortion, and prostitution.",
+      "context": "Neapolitan Camorra clan operating in northern Naples, involved in drug trafficking, extortion, prostitution.",
       "time_period": "1970s-2016"
     },
     {
@@ -17,9 +17,65 @@
       "aliases": [
         "NF"
       ],
-      "type": "faction",
+      "type": "other",
       "context": "Federation of anti-Cutolo Camorra clans formed to contrast the Nuova Camorra Organizzata.",
       "time_period": "late 1970s-1983"
+    },
+    {
+      "standard_name": "Gionta clan",
+      "original_text_name": "Gionta clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Torre Annunziata, member of Nuova Famiglia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Nuvoletta clan",
+      "original_text_name": "Nuvoletta clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Marano, member of Nuova Famiglia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Bardellino clan",
+      "original_text_name": "Antonio Bardellino",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from San Cipriano d'Aversa and Casal di Principe, member of Nuova Famiglia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Alfieri clan",
+      "original_text_name": "Alfieri clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan led by Carmine Alfieri, member of Nuova Famiglia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Galasso clan",
+      "original_text_name": "Galasso clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Poggiomarino led by Pasquale Galasso, member of Nuova Famiglia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Giuliano clan",
+      "original_text_name": "Giuliano clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Forcella, Naples, led by Luigi Giuliano, member of Nuova Famiglia.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Vollaro clan",
+      "original_text_name": "Vollaro clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Portici led by Luigi Vollaro, member of Nuova Famiglia.",
+      "time_period": null
     },
     {
       "standard_name": "Nuova Camorra Organizzata",
@@ -27,33 +83,52 @@
       "aliases": [
         "NCO"
       ],
-      "type": "faction",
-      "context": "Camorra organization led by Raffaele Cutolo, opposed by the Nuova Famiglia.",
+      "type": "other",
+      "context": "Camorra organization led by Raffaele Cutolo, opposed by Nuova Famiglia.",
       "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "Casalesi clan",
+      "original_text_name": "Casalesi",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan that fought a war with Nuvoletta clan after NF dissolved.",
+      "time_period": null
     },
     {
       "standard_name": "Secondigliano Alliance",
       "original_text_name": "Secondigliano Alliance",
       "aliases": [],
-      "type": "faction",
+      "type": "other",
       "context": "Coalition of Camorra clans controlling drug trafficking and extortion in Naples suburbs.",
-      "time_period": "1980s-present"
+      "time_period": "1980s-2000s"
     },
     {
       "standard_name": "Di Lauro clan",
       "original_text_name": "Di Lauro clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan involved in the Scampia feud, with secessionists breaking away.",
-      "time_period": "unknown"
+      "context": "Camorra clan involved in Scampia feud; had secessionists break away.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Scissionisti di Secondigliano",
+      "original_text_name": "Scissionisti di Secondigliano",
+      "aliases": [
+        "secessionists",
+        "scissionisti"
+      ],
+      "type": "faction",
+      "context": "Breakaway fraction from Di Lauro clan in northern Naples suburbs.",
+      "time_period": null
     },
     {
       "standard_name": "Stabile clan",
       "original_text_name": "Stabile",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan in conflict with the Lo Russo clan in Rione Sanità.",
-      "time_period": "unknown"
+      "context": "Camorra clan in conflict with Lo Russo clan in Rione Sanità.",
+      "time_period": null
     },
     {
       "standard_name": "Misso clan",
@@ -61,7 +136,7 @@
       "aliases": [],
       "type": "clan",
       "context": "Camorra clan from which Salvatore Torino created a division.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "standard_name": "Nappello faction",
@@ -83,51 +158,41 @@
       "standard_name": "Lo Russo heirs",
       "original_text_name": "Lo Russo heirs",
       "aliases": [],
-      "type": "faction",
-      "context": "New group involved in succession clash after the disintegration of the Lo Russo clan.",
+      "type": "other",
+      "context": "New group involved in succession clash after Lo Russo clan disintegration.",
       "time_period": "2020"
-    },
-    {
-      "standard_name": "Scissionisti di Secondigliano",
-      "original_text_name": "Scissionisti di Secondigliano",
-      "aliases": [
-        "secessionists"
-      ],
-      "type": "faction",
-      "context": "Breakaway fraction from the Di Lauro clan in northern Naples.",
-      "time_period": "2000s"
     },
     {
       "standard_name": "Vastarella clan",
       "original_text_name": "Vastarella clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan allied with the Lo Russo clan.",
-      "time_period": "unknown"
+      "context": "Ally of Lo Russo clan according to infobox.",
+      "time_period": null
     },
     {
       "standard_name": "Piccirillo clan",
       "original_text_name": "Piccirillo clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan allied with the Lo Russo clan.",
-      "time_period": "unknown"
+      "context": "Ally of Lo Russo clan according to infobox.",
+      "time_period": null
     },
     {
       "standard_name": "Licciardi clan",
       "original_text_name": "Licciardi clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan rival to the Lo Russo clan.",
-      "time_period": "unknown"
+      "context": "Rival of Lo Russo clan according to infobox.",
+      "time_period": null
     },
     {
       "standard_name": "Esposito-Genidoni clan",
       "original_text_name": "Esposito-Genidoni clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan rival to the Lo Russo clan.",
-      "time_period": "unknown"
+      "context": "Rival of Lo Russo clan according to infobox.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -136,7 +201,7 @@
       "target": "Nuova Famiglia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Lo Russo clan merged into the Nuova Famiglia after its formation.",
+      "context": "Lo Russo clan merged into Nuova Famiglia after its formation.",
       "time_period": "late 1970s-1983"
     },
     {
@@ -144,7 +209,7 @@
       "target": "Nuova Camorra Organizzata",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Nuova Famiglia was formed to contrast the growing power of the NCO.",
+      "context": "Nuova Famiglia formed to contrast the growing power of NCO.",
       "time_period": "late 1970s-1980s"
     },
     {
@@ -152,16 +217,16 @@
       "target": "Secondigliano Alliance",
       "relationship": "alliance",
       "detail": null,
-      "context": "After the NF alliance ended, Lo Russo clan joined the Secondigliano Alliance.",
-      "time_period": "1983-?"
+      "context": "After NF dissolved, Lo Russo clan joined the Secondigliano Alliance.",
+      "time_period": "1983-2000s"
     },
     {
       "source": "Lo Russo clan",
       "target": "Di Lauro clan",
       "relationship": "other",
       "detail": "intermediary",
-      "context": "Lo Russo clan acted as intermediary between Di Lauro clan and secessionists during Scampia feud.",
-      "time_period": "2000s"
+      "context": "Lo Russo clan acted as intermediary between Di Lauro clan and secessionists.",
+      "time_period": "Scampia feud"
     },
     {
       "source": "Lo Russo clan",
@@ -169,46 +234,54 @@
       "relationship": "other",
       "detail": "intermediary",
       "context": "Lo Russo clan acted as intermediary between Di Lauro clan and secessionists.",
-      "time_period": "2000s"
+      "time_period": "Scampia feud"
+    },
+    {
+      "source": "Scissionisti di Secondigliano",
+      "target": "Di Lauro clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Secessionists broke away from Di Lauro clan and fought for control.",
+      "time_period": "Scampia feud"
     },
     {
       "source": "Lo Russo clan",
       "target": "Stabile clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Lo Russo clan had a leading role in a conflict with the Stabile clan.",
-      "time_period": "unknown"
+      "context": "Lo Russo clan had a leading role in a conflict with the Stabile.",
+      "time_period": null
     },
     {
       "source": "Lo Russo clan",
       "target": "Misso clan",
       "relationship": "other",
       "detail": "internal division",
-      "context": "Salvatore Torino created a division within the Misso clan, related to Lo Russo clan's conflict with Stabile.",
-      "time_period": "unknown"
+      "context": "Salvatore Torino created a division within Misso clan, related to Lo Russo.",
+      "time_period": null
     },
     {
       "source": "Lo Russo clan",
       "target": "Nappello faction",
-      "relationship": "other",
-      "detail": "successor group",
-      "context": "After the clan's decline, it fragmented into small groups including the Nappello faction.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nappello faction formed from former Lo Russo clan members after decline.",
       "time_period": "2016-2019"
     },
     {
       "source": "Lo Russo clan",
       "target": "Perfetto faction",
-      "relationship": "other",
-      "detail": "successor group",
-      "context": "After the clan's decline, it fragmented into small groups including the Perfetto faction.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Perfetto faction formed from former Lo Russo clan members after decline.",
       "time_period": "2016-2019"
     },
     {
       "source": "Lo Russo clan",
       "target": "Lo Russo heirs",
-      "relationship": "other",
-      "detail": "successor group",
-      "context": "The 'Lo Russo heirs' are a new group involved in the succession clash after the clan's disintegration.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Lo Russo heirs are a successor group involved in succession clash.",
       "time_period": "2020"
     },
     {
@@ -216,32 +289,40 @@
       "target": "Vastarella clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Vastarella clan is listed as an ally of the Lo Russo clan.",
-      "time_period": "unknown"
+      "context": "Vastarella clan listed as ally in infobox.",
+      "time_period": null
     },
     {
       "source": "Lo Russo clan",
       "target": "Piccirillo clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Piccirillo clan is listed as an ally of the Lo Russo clan.",
-      "time_period": "unknown"
+      "context": "Piccirillo clan listed as ally in infobox.",
+      "time_period": null
     },
     {
       "source": "Lo Russo clan",
       "target": "Licciardi clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Licciardi clan is listed as a rival of the Lo Russo clan.",
-      "time_period": "unknown"
+      "context": "Licciardi clan listed as rival in infobox.",
+      "time_period": null
     },
     {
       "source": "Lo Russo clan",
       "target": "Esposito-Genidoni clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Esposito-Genidoni clan is listed as a rival of the Lo Russo clan.",
-      "time_period": "unknown"
+      "context": "Esposito-Genidoni clan listed as rival in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Nuvoletta clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "War broke out between Casalesi and Nuvoletta clans after NF dissolved.",
+      "time_period": "1983"
     }
   ],
   "source_file": "Lo_Russo_clan"

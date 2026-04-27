@@ -32,12 +32,14 @@
       "time_period": "1958-1963"
     },
     {
-      "standard_name": "New Mafia",
-      "original_text_name": "New Mafia",
-      "aliases": [],
-      "type": "faction",
-      "context": "A faction of upstart Mafia bosses in the 1950s-60s, including the La Barbera brothers.",
-      "time_period": "1950s-1960s"
+      "standard_name": "Greco clan",
+      "original_text_name": "Greco cousins",
+      "aliases": [
+        "Grecos"
+      ],
+      "type": "mafia",
+      "context": "A powerful Mafia clan from Ciaculli, led by Salvatore Greco.",
+      "time_period": "1950s-1970s"
     },
     {
       "standard_name": "Gambino crime family",
@@ -48,14 +50,12 @@
       "time_period": "1910s-present"
     },
     {
-      "standard_name": "Greco clan",
-      "original_text_name": "Greco cousins",
-      "aliases": [
-        "Grecos"
-      ],
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno",
+      "aliases": [],
       "type": "mafia",
-      "context": "A Mafia clan from Ciaculli, led by Salvatore Greco, rivals of the La Barberas.",
-      "time_period": "1950s-1970s"
+      "context": "An American Mafia family, one of the Five Families in New York.",
+      "time_period": "1890s-present"
     }
   ],
   "edges": [
@@ -64,24 +64,24 @@
       "target": "Sicilian Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Palermo Centro family is a constituent part of the Sicilian Mafia.",
+      "context": "The Palermo Centro family is a constituent family of the Sicilian Mafia.",
       "time_period": "1950s-1975"
     },
     {
       "source": "Palermo Centro Mafia family",
       "target": "Sicilian Mafia Commission",
-      "relationship": "other",
-      "detail": "subordinate",
-      "context": "The family was initially represented on the Commission but later refused its authority.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Salvatore La Barbera was a member of the Commission, representing Palermo Centro.",
       "time_period": "1958-1963"
     },
     {
-      "source": "New Mafia",
-      "target": "Sicilian Mafia",
-      "relationship": "other",
-      "detail": "faction",
-      "context": "The New Mafia was a faction within the Sicilian Mafia.",
-      "time_period": "1950s-1960s"
+      "source": "Palermo Centro Mafia family",
+      "target": "Greco clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The La Barbera brothers and the Greco clan were protagonists in the First Mafia War.",
+      "time_period": "1962-1963"
     },
     {
       "source": "Palermo Centro Mafia family",
@@ -90,14 +90,6 @@
       "detail": null,
       "context": "Carlo Gambino threatened to kill Angelo La Barbera if he smuggled heroin into the US.",
       "time_period": "1960"
-    },
-    {
-      "source": "Palermo Centro Mafia family",
-      "target": "Greco clan",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "The La Barberas and Grecos were protagonists in the First Mafia War.",
-      "time_period": "1962-1963"
     }
   ],
   "source_file": "Angelo_La_Barbera"

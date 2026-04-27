@@ -8,7 +8,7 @@
         "Third Command"
       ],
       "type": "gang",
-      "context": "Brazilian criminal organization engaged in drug trafficking in Rio de Janeiro, founded early 1980s.",
+      "context": "Brazilian criminal organization engaged in drug trafficking in Rio de Janeiro, founded in early 1980s.",
       "time_period": "early 1980s-2006"
     },
     {
@@ -16,7 +16,7 @@
       "original_text_name": "Comando Vermelho",
       "aliases": [],
       "type": "gang",
-      "context": "Rival criminal organization in Rio de Janeiro, engaged in drug trafficking.",
+      "context": "Rival gang of Terceiro Comando, also involved in drug trafficking in Rio de Janeiro.",
       "time_period": null
     }
   ],
@@ -26,8 +26,16 @@
       "target": "Comando Vermelho",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Terceiro Comando fought conflicts with Comando Vermelho in 2001 and 2004.",
+      "context": "Terceiro Comando fought several small-scale conflicts with Comando Vermelho in 2001 and 2004.",
       "time_period": "2001-2004"
+    },
+    {
+      "source": "Terceiro Comando",
+      "target": "Comando Vermelho",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Terceiro Comando is a break-away faction of Comando Vermelho.",
+      "time_period": "early 1980s"
     }
   ],
   "source_file": "Terceiro_Comando"

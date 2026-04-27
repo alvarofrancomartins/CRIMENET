@@ -27,7 +27,7 @@
         "NICKEL GLADSTONE",
         "Stardust Chollima"
       ],
-      "type": "faction",
+      "type": "other",
       "context": "Sub-group within Lazarus Group specializing in financial cyberattacks, identified by Kaspersky Lab.",
       "time_period": "2017"
     },
@@ -44,7 +44,7 @@
       "original_text_name": "NewRomanic Cyber Army Team",
       "aliases": [],
       "type": "other",
-      "context": "Group that claimed credit for the 2013 DarkSeoul attack, later attributed to Lazarus Group.",
+      "context": "Group that took credit for the 2013 DarkSeoul attack, later attributed to Lazarus Group.",
       "time_period": "2013"
     },
     {
@@ -66,7 +66,7 @@
       "original_text_name": "Reconnaissance General Bureau",
       "aliases": [],
       "type": "other",
-      "context": "North Korean military intelligence agency; indicted members participated in Lazarus campaigns.",
+      "context": "North Korean military intelligence agency whose members were indicted for Lazarus hacking campaigns.",
       "time_period": "unknown-present"
     },
     {
@@ -82,8 +82,8 @@
     {
       "source": "Bluenoroff",
       "target": "Lazarus Group",
-      "relationship": "other",
-      "detail": "sub-group",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Bluenoroff is a sub-group within Lazarus Group specializing in financial cyberattacks.",
       "time_period": "2017"
     },
@@ -91,45 +91,29 @@
       "source": "Shadow Brokers",
       "target": "Lazarus Group",
       "relationship": "other",
-      "detail": "indirect link via WannaCry",
-      "context": "Shadow Brokers leaked the EternalBlue exploit used in the WannaCry attack, which was attributed to Lazarus Group.",
+      "detail": "indirect link via exploit",
+      "context": "Shadow Brokers leaked the EternalBlue exploit later used by Lazarus Group in the WannaCry attack.",
       "time_period": "2017"
     },
     {
-      "source": "NewRomanic Cyber Army Team",
+      "source": "AndAriel",
       "target": "Lazarus Group",
-      "relationship": "other",
-      "detail": "claimed credit for same attack",
-      "context": "NewRomanic Cyber Army Team claimed credit for the 2013 DarkSeoul attack, later attributed to Lazarus Group.",
-      "time_period": "2013"
-    },
-    {
-      "source": "Lazarus Group",
-      "target": "BlueNorOff",
-      "relationship": "other",
-      "detail": "subgroup",
-      "context": "BlueNorOff is a financially motivated subgroup of Lazarus Group.",
-      "time_period": "2014-present"
-    },
-    {
-      "source": "Lazarus Group",
-      "target": "AndAriel",
-      "relationship": "other",
-      "detail": "subgroup",
+      "relationship": "alliance",
+      "detail": null,
       "context": "AndAriel is a subgroup of Lazarus Group targeting South Korea.",
       "time_period": "unknown-present"
     },
     {
-      "source": "Lazarus Group",
-      "target": "Reconnaissance General Bureau",
-      "relationship": "other",
-      "detail": "affiliated",
-      "context": "Indicted members of Reconnaissance General Bureau participated in Lazarus hacking campaigns.",
+      "source": "Reconnaissance General Bureau",
+      "target": "Lazarus Group",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Members of Reconnaissance General Bureau were indicted for participating in Lazarus hacking campaigns.",
       "time_period": "unknown-present"
     },
     {
-      "source": "Lazarus Group",
-      "target": "Huione Pay",
+      "source": "Huione Pay",
+      "target": "Lazarus Group",
       "relationship": "other",
       "detail": "financial transaction",
       "context": "Huione Pay received cryptocurrency from Lazarus Group between June 2023 and February 2024.",

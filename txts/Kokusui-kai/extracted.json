@@ -8,7 +8,7 @@
         "Kokusui-kai (National Society)"
       ],
       "type": "mafia",
-      "context": "Tokyo-based yakuza organization founded in 1958, controls Ginza district.",
+      "context": "Tokyo-based yakuza organization with about 1000 members, controls Ginza district.",
       "time_period": "1958-present"
     },
     {
@@ -38,20 +38,20 @@
       "time_period": "until August 2005"
     },
     {
-      "source": "Kantō Hatsukakai",
-      "target": "Yamaguchi-gumi",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "The Kantō Hatsukakai was a federation of Tokyo yakuza groups opposed to the Yamaguchi-gumi.",
-      "time_period": "until 2005"
-    },
-    {
       "source": "Kokusui-kai",
       "target": "Yamaguchi-gumi",
       "relationship": "alliance",
       "detail": null,
       "context": "Kokusui-kai withdrew from Kantō Hatsukakai and became an affiliate of Yamaguchi-gumi in 2005.",
       "time_period": "August 2005-present"
+    },
+    {
+      "source": "Kantō Hatsukakai",
+      "target": "Yamaguchi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kantō Hatsukakai was a federation of Tokyo yakuza groups opposed to the Yamaguchi-gumi.",
+      "time_period": "until 2005"
     }
   ],
   "source_file": "Kokusui-kai"

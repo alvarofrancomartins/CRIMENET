@@ -7,7 +7,7 @@
         "Rojos"
       ],
       "type": "faction",
-      "context": "Armed wing and faction of the Gulf Cartel, based in Reynosa, Tamaulipas. Involved in murder and kidnapping.",
+      "context": "Armed wing and faction of the Gulf Cartel, based in Reynosa, Tamaulipas.",
       "time_period": "1990s-present"
     },
     {
@@ -17,17 +17,17 @@
         "Gulf cartel"
       ],
       "type": "cartel",
-      "context": "Mexican drug trafficking organization, parent group of Los Rojos and other factions.",
+      "context": "Mexican drug trafficking organization, parent of Los Rojos and Los Metros.",
       "time_period": "1970s-present"
     },
     {
       "standard_name": "Los Metros",
-      "original_text_name": "Metros",
+      "original_text_name": "Los Metros",
       "aliases": [
-        "Los Metros"
+        "Metros"
       ],
       "type": "faction",
-      "context": "Faction of the Gulf Cartel based in Matamoros, Tamaulipas. Rival of Los Rojos.",
+      "context": "Faction of the Gulf Cartel, headquartered in Matamoros, Tamaulipas.",
       "time_period": "1990s-present"
     },
     {
@@ -35,7 +35,7 @@
       "original_text_name": "Los Zetas",
       "aliases": [],
       "type": "cartel",
-      "context": "Former armed wing of the Gulf Cartel that split and became a rival cartel.",
+      "context": "Former armed wing of Gulf Cartel, later became rival cartel.",
       "time_period": "1990s-present"
     },
     {
@@ -77,7 +77,7 @@
       "original_text_name": "Sureños",
       "aliases": [],
       "type": "gang",
-      "context": "Street gang allied with Los Rojos.",
+      "context": "Prison gang allied with Los Rojos.",
       "time_period": null
     },
     {
@@ -113,7 +113,7 @@
       "original_text_name": "Los Negros",
       "aliases": [],
       "type": "faction",
-      "context": "Faction or group, rival of Los Rojos.",
+      "context": "Faction of the Gulf Cartel, rival of Los Rojos.",
       "time_period": null
     },
     {
@@ -131,7 +131,15 @@
       "target": "Gulf Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Rojos is a faction of the Gulf Cartel, providing security as its armed wing.",
+      "context": "Los Rojos is a faction and armed wing of the Gulf Cartel.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Los Metros",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Metros is a faction of the Gulf Cartel.",
       "time_period": "1990s-present"
     },
     {
@@ -139,15 +147,23 @@
       "target": "Los Metros",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Infighting between the two factions over leadership and territory, leading to violent confrontations.",
-      "time_period": "2010-2012"
+      "context": "Infighting between the two factions of Gulf Cartel since 2010, escalated after killing of Flores Borrego.",
+      "time_period": "2010-present"
+    },
+    {
+      "source": "Los Zetas",
+      "target": "Gulf Cartel",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Zetas split from Gulf Cartel in 2010 and became bitter enemies.",
+      "time_period": "2010-present"
     },
     {
       "source": "Los Rojos",
       "target": "Los Zetas",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Los Rojos are rivals of Los Zetas, the bitter enemy of the Gulf Cartel.",
+      "context": "Los Rojos are rivals of Los Zetas, some members defected to Los Zetas.",
       "time_period": "2010-present"
     },
     {
@@ -163,7 +179,7 @@
       "target": "Beltrán-Leyva Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rival cartel in southern Mexico.",
+      "context": "Rival cartel in Morelos and Guerrero.",
       "time_period": null
     },
     {
@@ -171,7 +187,7 @@
       "target": "Guerreros Unidos",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rival cartel in southern Mexico.",
+      "context": "Rival cartel in Morelos and Guerrero.",
       "time_period": null
     },
     {
@@ -179,7 +195,7 @@
       "target": "Los Mexicles",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied group according to infobox.",
+      "context": "Allied prison gang.",
       "time_period": null
     },
     {
@@ -187,7 +203,7 @@
       "target": "Sureños",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied group according to infobox.",
+      "context": "Allied prison gang.",
       "time_period": null
     },
     {
@@ -195,7 +211,7 @@
       "target": "Mexican Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied group according to infobox.",
+      "context": "Allied prison gang.",
       "time_period": null
     },
     {
@@ -203,7 +219,7 @@
       "target": "Sinaloa Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied cartel according to infobox.",
+      "context": "Allied drug cartel.",
       "time_period": null
     },
     {
@@ -211,7 +227,7 @@
       "target": "MS-13",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rival gang according to infobox.",
+      "context": "Rival gang.",
       "time_period": null
     },
     {
@@ -219,7 +235,7 @@
       "target": "Los Negros",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rival group according to infobox.",
+      "context": "Rival faction of Gulf Cartel.",
       "time_period": null
     },
     {
@@ -227,7 +243,7 @@
       "target": "Los Ardillos",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rival cartel according to infobox.",
+      "context": "Rival cartel.",
       "time_period": null
     }
   ],

@@ -39,39 +39,31 @@
       "type": "mafia",
       "context": "An Albanian mafia gang in Martigny, Switzerland, rivaling Cape Verdean gangs over drug trafficking.",
       "time_period": null
-    },
-    {
-      "standard_name": "American Mafia",
-      "original_text_name": "American Mafia crews",
-      "aliases": [],
-      "type": "mafia",
-      "context": "American Mafia crews in New England that employ Cape Verdean gangs for strong-arm jobs.",
-      "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Cape Verdean Outlaws",
       "target": "Hendry Street Gang",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Cape Verdean street gangs in New England often rival each other, leading to murder and violent clashes over turf.",
+      "relationship": "other",
+      "detail": "cooperation and rivalry",
+      "context": "Cape Verdean street gangs in New England sometimes cooperate but also rival each other, leading to violent clashes.",
       "time_period": null
     },
     {
       "source": "Cape Verdean Outlaws",
       "target": "Woodward Avenue Gang",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Cape Verdean street gangs in New England often rival each other, leading to murder and violent clashes over turf.",
+      "relationship": "other",
+      "detail": "cooperation and rivalry",
+      "context": "Cape Verdean street gangs in New England sometimes cooperate but also rival each other, leading to violent clashes.",
       "time_period": null
     },
     {
       "source": "Hendry Street Gang",
       "target": "Woodward Avenue Gang",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Cape Verdean street gangs in New England often rival each other, leading to murder and violent clashes over turf.",
+      "relationship": "other",
+      "detail": "cooperation and rivalry",
+      "context": "Cape Verdean street gangs in New England sometimes cooperate but also rival each other, leading to violent clashes.",
       "time_period": null
     },
     {
@@ -79,55 +71,31 @@
       "target": "Cape Verdean Outlaws",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Faial family brokers many deals between Cape Verdean gangs, suggesting cooperation.",
-      "time_period": "mid-2000s-present"
+      "context": "The Faial family brokers many deals between gangs, including the Cape Verdean Outlaws.",
+      "time_period": null
     },
     {
       "source": "Faial family",
       "target": "Hendry Street Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Faial family brokers many deals between Cape Verdean gangs, suggesting cooperation.",
-      "time_period": "mid-2000s-present"
+      "context": "The Faial family brokers many deals between gangs, including the Hendry Street Gang.",
+      "time_period": null
     },
     {
       "source": "Faial family",
       "target": "Woodward Avenue Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Faial family brokers many deals between Cape Verdean gangs, suggesting cooperation.",
-      "time_period": "mid-2000s-present"
+      "context": "The Faial family brokers many deals between gangs, including the Woodward Avenue Gang.",
+      "time_period": null
     },
     {
       "source": "Albanian mafia",
       "target": "Cape Verdean Outlaws",
       "relationship": "rivalry",
       "detail": null,
-      "context": "In Martigny, Switzerland, Albanian mafia and Cape Verdean gangs rival over drug trafficking, leading to shootings.",
-      "time_period": null
-    },
-    {
-      "source": "American Mafia",
-      "target": "Cape Verdean Outlaws",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Cape Verdean gangs in New England sometimes do strong-arm jobs for locally active American Mafia crews.",
-      "time_period": null
-    },
-    {
-      "source": "American Mafia",
-      "target": "Hendry Street Gang",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Cape Verdean gangs in New England sometimes do strong-arm jobs for locally active American Mafia crews.",
-      "time_period": null
-    },
-    {
-      "source": "American Mafia",
-      "target": "Woodward Avenue Gang",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Cape Verdean gangs in New England sometimes do strong-arm jobs for locally active American Mafia crews.",
+      "context": "In Martigny, Switzerland, the Albanian mafia gang and Cape Verdean gangs have traditionally rivaled over drug trafficking, leading to shootings and murders.",
       "time_period": null
     }
   ],

@@ -2,10 +2,10 @@
   "nodes": [
     {
       "standard_name": "Rollin' 60s Neighborhood Crips",
-      "original_text_name": "Rollin' 60s Neighborhood Crips",
+      "original_text_name": "Rollin 60s Neighborhood Crips",
       "aliases": [
-        "Rollin 60s Neighborhood Crips",
-        "Rollin' 60s"
+        "Rollin' 60s",
+        "Rollin 60s Neighborhood Crips"
       ],
       "type": "gang",
       "context": "A set of the Crips street gang alliance based in Los Angeles, involved in racketeering, murder, drug trafficking, etc.",
@@ -20,21 +20,13 @@
       "time_period": "1969-present"
     },
     {
-      "standard_name": "Westside Crips",
-      "original_text_name": "Westside Crips",
-      "aliases": [],
-      "type": "gang",
-      "context": "Original gang from which Rollin' 60s formed in 1976.",
-      "time_period": "1970s-present"
-    },
-    {
       "standard_name": "Rollin' 40s Neighborhood Crips",
       "original_text_name": "Rollin 40's",
       "aliases": [
-        "Rollin 40's NHC"
+        "Rollin 40's NHCs"
       ],
       "type": "gang",
-      "context": "Allied Crip set with Rollin' 60s.",
+      "context": "Allied set of the Crips, allied with Rollin' 60s.",
       "time_period": null
     },
     {
@@ -44,7 +36,7 @@
         "Rollin 90's"
       ],
       "type": "gang",
-      "context": "Allied Crip set with Rollin' 60s.",
+      "context": "Allied set of the Crips, allied with Rollin' 60s.",
       "time_period": null
     },
     {
@@ -56,7 +48,7 @@
       "time_period": "1972-present"
     },
     {
-      "standard_name": "Hoover Factions",
+      "standard_name": "Hoover factions",
       "original_text_name": "Hoover factions",
       "aliases": [],
       "type": "gang",
@@ -67,7 +59,7 @@
       "standard_name": "Eight Trey Gangster Crips",
       "original_text_name": "Eight Trey Gangster Crip (83GC)",
       "aliases": [
-        "83 Gangster Crips"
+        "83GC"
       ],
       "type": "gang",
       "context": "Rival Crip set to Rollin' 60s.",
@@ -85,18 +77,10 @@
     },
     {
       "source": "Rollin' 60s Neighborhood Crips",
-      "target": "Westside Crips",
-      "relationship": "other",
-      "detail": "descended from",
-      "context": "Rollin' 60s originally formed from the Westside Crips.",
-      "time_period": "1976"
-    },
-    {
-      "source": "Rollin' 60s Neighborhood Crips",
       "target": "Rollin' 40s Neighborhood Crips",
       "relationship": "alliance",
       "detail": null,
-      "context": "Rollin' 60s is allied with Rollin' 40s Neighborhood Crips.",
+      "context": "Allied sets within the Crips.",
       "time_period": null
     },
     {
@@ -104,7 +88,7 @@
       "target": "Rollin' 90s Neighborhood Crips",
       "relationship": "alliance",
       "detail": null,
-      "context": "Rollin' 60s is allied with Rollin' 90s Neighborhood Crips.",
+      "context": "Allied sets within the Crips.",
       "time_period": null
     },
     {
@@ -112,15 +96,15 @@
       "target": "Bloods",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rollin' 60s are rivals of the Bloods.",
+      "context": "Bloods are rivals of the Crips and Rollin' 60s.",
       "time_period": null
     },
     {
       "source": "Rollin' 60s Neighborhood Crips",
-      "target": "Hoover Factions",
+      "target": "Hoover factions",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rollin' 60s are rivals of Hoover factions.",
+      "context": "Hoover factions are listed as rivals.",
       "time_period": null
     },
     {
@@ -128,7 +112,7 @@
       "target": "Eight Trey Gangster Crips",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rollin' 60s are rivals of Eight Trey Gangster Crips.",
+      "context": "Eight Trey Gangster Crip is listed as a rival.",
       "time_period": null
     }
   ],

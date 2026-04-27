@@ -8,7 +8,7 @@
         "Arif gang"
       ],
       "type": "gang",
-      "context": "Turkish Cypriot criminal organization in south-east London involved in armed robbery, drug trafficking, and racketeering since the late 1960s.",
+      "context": "Turkish Cypriot criminal organisation in south-east London involved in armed robbery, drug trafficking, and racketeering since the late 1960s.",
       "time_period": "1960s-present"
     },
     {
@@ -24,40 +24,40 @@
       "original_text_name": "Clerkenwell crime syndicate",
       "aliases": [],
       "type": "gang",
-      "context": "Criminal organization that competed for control of the London underworld after the Krays.",
-      "time_period": "unknown"
+      "context": "Criminal organisation that competed for control of the London underworld after the Krays.",
+      "time_period": null
     },
     {
       "standard_name": "Brindle family",
       "original_text_name": "Brindle family",
       "aliases": [],
       "type": "gang",
-      "context": "Criminal family involved in a gangland war with the Arifs during the 1990s.",
-      "time_period": "unknown"
+      "context": "Criminal family involved in the London underworld, engaged in a gangland war with the Arifs in the 1990s.",
+      "time_period": null
     },
     {
       "standard_name": "Adams family",
       "original_text_name": "Adams family",
       "aliases": [],
       "type": "gang",
-      "context": "London-based crime family allied with the Arifs.",
-      "time_period": "unknown"
+      "context": "London-based criminal family allied with the Arifs.",
+      "time_period": null
     },
     {
       "standard_name": "Turkish mafia",
       "original_text_name": "Turkish mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Turkish organized crime groups allied with the Arifs, involved in drug trafficking.",
-      "time_period": "unknown"
+      "context": "Turkish organized crime groups allied with the Arifs.",
+      "time_period": null
     },
     {
       "standard_name": "Baybaşin family",
       "original_text_name": "Baybaşin family",
       "aliases": [],
       "type": "gang",
-      "context": "Turkish Cypriot crime family rival to the Arifs.",
-      "time_period": "unknown"
+      "context": "Turkish Cypriot criminal family based in London, rivals of the Arifs.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -66,47 +66,42 @@
       "target": "Kray brothers",
       "relationship": "other",
       "detail": "successor",
-      "context": "Arifs took control of London underworld after the Kray brothers' downfall.",
+      "context": "The Arifs rose to power after the downfall of the Kray brothers.",
       "time_period": "late 1960s"
     },
     {
       "source": "Arifs",
       "target": "Clerkenwell crime syndicate",
       "relationship": "rivalry",
-      "detail": null,
-      "context": "Arifs competed with Clerkenwell crime syndicate for control of London underworld.",
+      "context": "The Arifs competed with the Clerkenwell crime syndicate for control of the London underworld.",
       "time_period": "1990s"
     },
     {
       "source": "Arifs",
       "target": "Brindle family",
       "relationship": "rivalry",
-      "detail": null,
-      "context": "Arifs engaged in a highly publicised gangland war with the Brindle family during the 1990s.",
+      "context": "The Arifs were engaged in a highly publicised gangland war with the Brindle family during the 1990s.",
       "time_period": "1990s"
     },
     {
       "source": "Arifs",
       "target": "Adams family",
       "relationship": "alliance",
-      "detail": null,
-      "context": "Arifs are allied with the Adams family.",
+      "context": "The Arifs are allied with the Adams family.",
       "time_period": null
     },
     {
       "source": "Arifs",
       "target": "Turkish mafia",
       "relationship": "alliance",
-      "detail": null,
-      "context": "Arifs maintain ties with Turkish mafia for drug shipments.",
+      "context": "The Arifs are allied with the Turkish mafia.",
       "time_period": null
     },
     {
       "source": "Arifs",
       "target": "Baybaşin family",
       "relationship": "rivalry",
-      "detail": null,
-      "context": "Arifs have a rivalry with the Baybaşin family.",
+      "context": "The Arifs have a rivalry with the Baybaşin family.",
       "time_period": null
     }
   ],

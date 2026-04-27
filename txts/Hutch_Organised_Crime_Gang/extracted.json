@@ -8,7 +8,7 @@
         "HOCG"
       ],
       "type": "gang",
-      "context": "Irish criminal organization involved in drug trafficking, armed robberies, and murder.",
+      "context": "Irish criminal organization involved in drug trafficking, armed robberies, and murders, operating in Ireland, Spain, and the UK.",
       "time_period": "1980s-present"
     },
     {
@@ -18,15 +18,15 @@
         "Kinahans"
       ],
       "type": "gang",
-      "context": "Irish criminal organization, rival of the Hutch gang.",
-      "time_period": null
+      "context": "Rival Irish criminal organization involved in drug trafficking and violence, based in Ireland and Spain.",
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Keane-Collopy Gang",
       "original_text_name": "Keane-Collopy Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Irish criminal gang allied with the Hutch gang.",
+      "context": "Irish criminal gang allied with the Hutch Organised Crime Gang.",
       "time_period": null
     },
     {
@@ -34,7 +34,7 @@
       "original_text_name": "McCarthy-Dundon Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Irish criminal gang allied with the Hutch gang.",
+      "context": "Irish criminal gang allied with the Hutch Organised Crime Gang.",
       "time_period": null
     },
     {
@@ -43,17 +43,17 @@
       "aliases": [
         "Real IRA"
       ],
-      "type": "militia",
-      "context": "Irish republican paramilitary group allied with the Hutch gang.",
-      "time_period": null
+      "type": "terrorist_organization",
+      "context": "Irish republican paramilitary group allied with the Hutch Organised Crime Gang.",
+      "time_period": "1997-present"
     },
     {
-      "standard_name": "New Irish Republican Army",
+      "standard_name": "New IRA",
       "original_text_name": "New IRA",
       "aliases": [],
-      "type": "militia",
-      "context": "Irish republican paramilitary group allied with the Hutch gang.",
-      "time_period": null
+      "type": "terrorist_organization",
+      "context": "Irish republican paramilitary group allied with the Hutch Organised Crime Gang.",
+      "time_period": "2012-present"
     },
     {
       "standard_name": "Provisional Irish Republican Army",
@@ -61,9 +61,9 @@
       "aliases": [
         "IRA"
       ],
-      "type": "militia",
+      "type": "terrorist_organization",
       "context": "Irish republican paramilitary group; former member David Douglas was killed in the feud.",
-      "time_period": null
+      "time_period": "1969-2005"
     }
   ],
   "edges": [
@@ -72,7 +72,7 @@
       "target": "Kinahan Organised Crime Group",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The murder of Gary Hutch in 2015 sparked a feud between the Hutch gang and the Kinahans.",
+      "context": "The Hutch gang has been in a violent feud with the Kinahan group since 2015.",
       "time_period": "2015-present"
     },
     {
@@ -101,7 +101,7 @@
     },
     {
       "source": "Hutch Organised Crime Gang",
-      "target": "New Irish Republican Army",
+      "target": "New IRA",
       "relationship": "alliance",
       "detail": null,
       "context": "The New IRA is listed as an ally of the Hutch gang.",

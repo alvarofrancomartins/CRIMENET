@@ -48,7 +48,7 @@
       "original_text_name": "Abu Sayyaf",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Islamic militant group in the Philippines, received arms smuggling from 14K.",
+      "context": "Islamic militant group in the Philippines, received arms from 14K.",
       "time_period": null
     },
     {
@@ -56,7 +56,7 @@
       "original_text_name": "Wo Shing Wo",
       "aliases": [],
       "type": "triad",
-      "context": "Rival triad to 14K in Ireland and UK, involved in turf wars and cigarette smuggling.",
+      "context": "Rival triad to 14K in Ireland, UK, and Australia.",
       "time_period": null
     },
     {
@@ -72,7 +72,7 @@
       "original_text_name": "Sam Gor",
       "aliases": [],
       "type": "other",
-      "context": "Syndicate composed of 14K and other triads, with Canadian roots and Big Circle Boys leadership.",
+      "context": "Syndicate composed of 14K and other triads, with Canadian roots.",
       "time_period": null
     },
     {
@@ -80,7 +80,7 @@
       "original_text_name": "Big Circle Boys",
       "aliases": [],
       "type": "gang",
-      "context": "Chinese criminal group, part of Sam Gor syndicate with 14K.",
+      "context": "Chinese criminal group, part of Sam Gor syndicate.",
       "time_period": null
     },
     {
@@ -128,7 +128,7 @@
       "original_text_name": "Flying Dragons",
       "aliases": [],
       "type": "gang",
-      "context": "Youth gang associated with Hip Sing Tong, connected to 14K.",
+      "context": "Youth gang of Hip Sing Tong, associated with 14K member Frank Ma.",
       "time_period": null
     },
     {
@@ -176,7 +176,7 @@
       "original_text_name": "Ah Kong",
       "aliases": [],
       "type": "triad",
-      "context": "Triad group rival of 14K.",
+      "context": "Triad group rival to 14K.",
       "time_period": null
     },
     {
@@ -184,7 +184,7 @@
       "original_text_name": "Big Circle Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Chinese criminal group rival of 14K.",
+      "context": "Chinese criminal group rival to 14K.",
       "time_period": null
     },
     {
@@ -192,7 +192,7 @@
       "original_text_name": "Wo On Lok",
       "aliases": [],
       "type": "triad",
-      "context": "Triad group rival of 14K.",
+      "context": "Triad group rival to 14K.",
       "time_period": null
     }
   ],
@@ -214,6 +214,22 @@
       "time_period": "1997"
     },
     {
+      "source": "14K-Hau",
+      "target": "14K",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "14K-Hau is a subgroup of 14K operating in South Africa.",
+      "time_period": null
+    },
+    {
+      "source": "14K-Ngai",
+      "target": "14K",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "14K-Ngai is a subgroup of 14K operating in South Africa.",
+      "time_period": null
+    },
+    {
       "source": "14K",
       "target": "Abu Sayyaf",
       "relationship": "alliance",
@@ -226,28 +242,20 @@
       "target": "Wo Shing Wo",
       "relationship": "rivalry",
       "detail": null,
-      "context": "14K battled Wo Shing Wo for control of rackets in Glasgow and had turf wars in London.",
-      "time_period": null
-    },
-    {
-      "source": "14K",
-      "target": "Wo Shing Wo",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "14K and Wo Shing Wo cooperated in cigarette smuggling in Scotland.",
+      "context": "14K and Wo Shing Wo are rivals in Ireland, UK, and Australia, with turf wars and machete attacks.",
       "time_period": null
     },
     {
       "source": "14K",
       "target": "Ghost Shadows",
-      "relationship": "other",
-      "detail": "absorbed remnants",
-      "context": "14K absorbed the remnants of the defunct Ghost Shadows in Canada.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "14K absorbed remnants of the defunct Ghost Shadows in Canada.",
       "time_period": null
     },
     {
-      "source": "14K",
-      "target": "Sam Gor",
+      "source": "Sam Gor",
+      "target": "14K",
       "relationship": "alliance",
       "detail": null,
       "context": "Sam Gor syndicate is composed of 14K and other triads.",
@@ -258,7 +266,7 @@
       "target": "Big Circle Boys",
       "relationship": "alliance",
       "detail": null,
-      "context": "Sam Gor has Canadian roots and leadership from the Big Circle Boys.",
+      "context": "Sam Gor includes Big Circle Boys and has Canadian roots.",
       "time_period": null
     },
     {
@@ -274,7 +282,7 @@
       "target": "Ping On",
       "relationship": "alliance",
       "detail": null,
-      "context": "14K had connections to the leadership of Ping On in Boston.",
+      "context": "14K has connections to the leadership of Ping On in Boston.",
       "time_period": null
     },
     {
@@ -282,7 +290,7 @@
       "target": "Wah Ching",
       "relationship": "alliance",
       "detail": null,
-      "context": "14K had connections to Wah Ching in San Francisco.",
+      "context": "14K has connections to Wah Ching in San Francisco.",
       "time_period": null
     },
     {
@@ -314,7 +322,7 @@
       "target": "Lo San",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Lo San was a rival of 14K in Australia.",
+      "context": "Lo San is a rival of 14K in Australia.",
       "time_period": null
     },
     {
@@ -354,7 +362,7 @@
       "target": "Ah Kong",
       "relationship": "rivalry",
       "detail": null,
-      "context": "14K has a rivalry with Ah Kong.",
+      "context": "14K is a rival of Ah Kong.",
       "time_period": null
     },
     {
@@ -362,7 +370,7 @@
       "target": "Big Circle Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "14K has a rivalry with Big Circle Gang.",
+      "context": "14K is a rival of Big Circle Gang.",
       "time_period": null
     },
     {
@@ -370,7 +378,7 @@
       "target": "Wo On Lok",
       "relationship": "rivalry",
       "detail": null,
-      "context": "14K has a rivalry with Wo On Lok.",
+      "context": "14K is a rival of Wo On Lok.",
       "time_period": null
     }
   ],

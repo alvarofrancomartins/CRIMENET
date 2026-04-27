@@ -15,7 +15,7 @@
       "original_text_name": "Murder, Inc.",
       "aliases": [],
       "type": "gang",
-      "context": "Enforcement outfit for the National Crime Syndicate, handling murders for the syndicate.",
+      "context": "Enforcement outfit for the National Crime Syndicate, headed by Lepke Buchalter and Albert Anastasia.",
       "time_period": "1930s-1940s"
     },
     {
@@ -23,15 +23,25 @@
       "original_text_name": "Broadway Mob",
       "aliases": [],
       "type": "gang",
-      "context": "Criminal organization led by Joe Adonis, active in New York during the 1920s.",
-      "time_period": "1920s"
+      "context": "Criminal organization led by Joe Adonis, active in New York City.",
+      "time_period": "1920s-1930s"
     },
     {
       "standard_name": "National Crime Syndicate",
       "original_text_name": "National Crime Syndicate",
       "aliases": [],
       "type": "other",
-      "context": "Umbrella organization of American crime families formed in the early 1930s.",
+      "context": "Umbrella organization of American crime families formed in the early 1930s by Lansky and Luciano.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "American Mafia",
+      "original_text_name": "American Mafia",
+      "aliases": [
+        "Cosa Nostra"
+      ],
+      "type": "mafia",
+      "context": "Italian-American organized crime network reorganized after the Castellammarese War.",
       "time_period": "1930s-present"
     }
   ],
@@ -39,25 +49,34 @@
     {
       "source": "Bugs and Meyer Mob",
       "target": "Murder, Inc.",
-      "relationship": "other",
-      "detail": "predecessor",
-      "context": "The Bugs and Meyer Mob acted as a predecessor to Murder, Inc., with several members serving as advisers or hitmen.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bugs and Meyer Mob members served as advisers or hitmen for Murder, Inc.",
       "time_period": "1930s"
     },
     {
       "source": "Bugs and Meyer Mob",
       "target": "Broadway Mob",
       "relationship": "alliance",
-      "context": "The Bugs and Meyer Mob frequently worked with Joe Adonis's Broadway Mob throughout the 1920s.",
+      "detail": null,
+      "context": "Bugs and Meyer Mob frequently worked with Joe Adonis's Broadway Mob throughout the 1920s.",
       "time_period": "1920s"
     },
     {
       "source": "Bugs and Meyer Mob",
       "target": "National Crime Syndicate",
-      "relationship": "other",
-      "detail": "member",
-      "context": "Lansky and Siegel pushed for the formation of Murder, Inc. within the National Crime Syndicate.",
-      "time_period": "1930s"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Lansky and Siegel helped form the National Crime Syndicate and pushed for the creation of Murder, Inc.",
+      "time_period": "early 1930s"
+    },
+    {
+      "source": "Bugs and Meyer Mob",
+      "target": "American Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bugs and Meyer Mob helped Luciano eliminate the 'Mustache Petes' and organize the modern American Mafia.",
+      "time_period": "1930-1931"
     }
   ],
   "source_file": "Bugs_and_Meyer_Mob"

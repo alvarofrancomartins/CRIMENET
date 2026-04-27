@@ -9,15 +9,23 @@
         "Death patrol"
       ],
       "type": "motorcycle_club",
-      "context": "International outlaw motorcycle club and principal support club for Hells Angels, involved in violent crimes and drug trafficking.",
+      "context": "International outlaw motorcycle club and principal support club of the Hells Angels, involved in violent crimes and drug trafficking.",
       "time_period": "2001-present"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Major outlaw motorcycle club; the Red Devils MC is their support club, performing violent tasks and protecting their interests.",
+      "time_period": "1948-present"
     },
     {
       "standard_name": "Original Red Devils Motorcycle Club",
       "original_text_name": "Original Red Devils Motorcycle Club",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Now-defunct Canadian motorcycle club founded in late 1940s, patched over to Bacchus in 2015.",
+      "context": "Now-defunct Canadian motorcycle club founded in the late 1940s; patched over to Bacchus in 2015.",
       "time_period": "late 1940s-2015"
     },
     {
@@ -29,22 +37,14 @@
       "time_period": null
     },
     {
-      "standard_name": "Hells Angels",
-      "original_text_name": "Hells Angels",
-      "aliases": [],
-      "type": "motorcycle_club",
-      "context": "Major outlaw motorcycle club; Red Devils MC is its principal support club, performing violent tasks and protecting its interests.",
-      "time_period": null
-    },
-    {
       "standard_name": "Bandidos Motorcycle Club",
       "original_text_name": "Bandidos Motorcycle Club",
       "aliases": [
         "Bandidos"
       ],
       "type": "motorcycle_club",
-      "context": "Rival outlaw motorcycle club involved in disputes with Hells Angels and Red Devils.",
-      "time_period": null
+      "context": "Rival outlaw motorcycle club; involved in a dispute with Hells Angels that led to a shooting attack on a Red Devils member.",
+      "time_period": "1966-present"
     },
     {
       "standard_name": "Outlaws Motorcycle Club",
@@ -53,8 +53,8 @@
         "Outlaws"
       ],
       "type": "motorcycle_club",
-      "context": "Rival outlaw motorcycle club; a Red Devils member assaulted one of its members in 2020.",
-      "time_period": null
+      "context": "Rival outlaw motorcycle club; a Red Devils member assaulted an Outlaws member in 2020.",
+      "time_period": "1935-present"
     },
     {
       "standard_name": "Infamous Ryders",
@@ -79,14 +79,14 @@
       "target": "Hells Angels",
       "relationship": "alliance",
       "detail": null,
-      "context": "Red Devils MC is the principal support club for Hells Angels, performing violent tasks and protecting their networks.",
+      "context": "The Red Devils MC is the principal support club of the Hells Angels, acting as their shock troops and protecting their interests.",
       "time_period": "2001-present"
     },
     {
       "source": "Original Red Devils Motorcycle Club",
       "target": "Bacchus",
-      "relationship": "other",
-      "detail": "patched over",
+      "relationship": "alliance",
+      "detail": null,
       "context": "The Original Red Devils MC patched over to Bacchus in 2015.",
       "time_period": "2015"
     },
@@ -127,7 +127,7 @@
       "target": "Bandidos Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Ongoing dispute between Hells Angels and Bandidos, as speculated in the 2013 shooting.",
+      "context": "Ongoing dispute between Hells Angels and Bandidos, as speculated in the 2013 shooting attack on a Red Devils member.",
       "time_period": null
     }
   ],

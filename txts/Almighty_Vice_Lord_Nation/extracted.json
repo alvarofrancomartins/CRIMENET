@@ -7,8 +7,7 @@
         "Vice Lords",
         "AVLN",
         "Conservative Vice Lords",
-        "CVL, Inc.",
-        "Vice Lord Nation"
+        "CVL"
       ],
       "type": "gang",
       "context": "Second-largest street and prison gang in Chicago, involved in drug sales, robbery, extortion, fraud, money laundering, murder, racketeering.",
@@ -19,7 +18,7 @@
       "original_text_name": "People Nation",
       "aliases": [],
       "type": "other",
-      "context": "Multi-gang alliance founded by the Almighty Vice Lord Nation and other Chicago gangs.",
+      "context": "Multi-gang alliance founded by the Almighty Vice Lord Nation.",
       "time_period": null
     },
     {
@@ -27,7 +26,7 @@
       "original_text_name": "Black P. Stones",
       "aliases": [],
       "type": "gang",
-      "context": "Allied gang with the Vice Lords, part of People Nation.",
+      "context": "Allied with the Almighty Vice Lord Nation.",
       "time_period": null
     },
     {
@@ -35,7 +34,7 @@
       "original_text_name": "Bloods",
       "aliases": [],
       "type": "gang",
-      "context": "Allied gang with the Vice Lords.",
+      "context": "Allied with the Almighty Vice Lord Nation.",
       "time_period": null
     },
     {
@@ -43,7 +42,7 @@
       "original_text_name": "Latin Kings",
       "aliases": [],
       "type": "gang",
-      "context": "Allied gang with the Vice Lords, part of People Nation.",
+      "context": "Allied with the Almighty Vice Lord Nation.",
       "time_period": null
     },
     {
@@ -51,7 +50,7 @@
       "original_text_name": "Mickey Cobras",
       "aliases": [],
       "type": "gang",
-      "context": "Allied gang with the Vice Lords.",
+      "context": "Allied with the Almighty Vice Lord Nation.",
       "time_period": null
     },
     {
@@ -59,7 +58,7 @@
       "original_text_name": "Folk Nation",
       "aliases": [],
       "type": "other",
-      "context": "Rival multi-gang alliance to the Vice Lords and People Nation.",
+      "context": "Rival multi-gang alliance to the People Nation.",
       "time_period": null
     },
     {
@@ -67,7 +66,7 @@
       "original_text_name": "Gangster Disciples",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to the Vice Lords, part of Folk Nation.",
+      "context": "Rival gang to the Almighty Vice Lord Nation.",
       "time_period": null
     },
     {
@@ -75,7 +74,7 @@
       "original_text_name": "Simon City Royals",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to the Vice Lords.",
+      "context": "Rival gang to the Almighty Vice Lord Nation.",
       "time_period": null
     },
     {
@@ -83,80 +82,16 @@
       "original_text_name": "Crips",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to the Vice Lords.",
+      "context": "Rival gang to the Almighty Vice Lord Nation.",
       "time_period": null
-    },
-    {
-      "standard_name": "Cherokees",
-      "original_text_name": "Cherokees",
-      "aliases": [],
-      "type": "gang",
-      "context": "Smaller neighborhood gang consolidated into the Vice Lord Nation.",
-      "time_period": "1960s-1970s"
-    },
-    {
-      "standard_name": "Morphines",
-      "original_text_name": "Morphines",
-      "aliases": [],
-      "type": "gang",
-      "context": "Smaller neighborhood gang consolidated into the Vice Lord Nation.",
-      "time_period": "1960s-1970s"
-    },
-    {
-      "standard_name": "Commanches",
-      "original_text_name": "Commanches",
-      "aliases": [],
-      "type": "gang",
-      "context": "Smaller neighborhood gang consolidated into the Vice Lord Nation.",
-      "time_period": "1960s-1970s"
-    },
-    {
-      "standard_name": "Continental Pimps",
-      "original_text_name": "Continental Pimps",
-      "aliases": [],
-      "type": "gang",
-      "context": "Smaller neighborhood gang consolidated into the Vice Lord Nation.",
-      "time_period": "1960s-1970s"
-    },
-    {
-      "standard_name": "Imperial Chaplains",
-      "original_text_name": "Imperial Chaplains",
-      "aliases": [],
-      "type": "gang",
-      "context": "Smaller neighborhood gang consolidated into the Vice Lord Nation.",
-      "time_period": "1960s-1970s"
-    },
-    {
-      "standard_name": "Clovers",
-      "original_text_name": "Clovers",
-      "aliases": [],
-      "type": "gang",
-      "context": "Smaller neighborhood gang consolidated into the Vice Lord Nation.",
-      "time_period": "1960s-1970s"
-    },
-    {
-      "standard_name": "Cobras",
-      "original_text_name": "Cobras",
-      "aliases": [],
-      "type": "gang",
-      "context": "Smaller neighborhood gang consolidated into the Vice Lord Nation.",
-      "time_period": "1960s-1970s"
-    },
-    {
-      "standard_name": "Braves",
-      "original_text_name": "Braves",
-      "aliases": [],
-      "type": "gang",
-      "context": "Smaller neighborhood gang consolidated into the Vice Lord Nation.",
-      "time_period": "1960s-1970s"
     },
     {
       "standard_name": "Unknown Vice Lords",
       "original_text_name": "Unknown Vice Lords",
       "aliases": [],
       "type": "faction",
-      "context": "Faction of the Vice Lord Nation based along 16th Street in Lawndale, led by Willie Lloyd.",
-      "time_period": "1960s-1970s"
+      "context": "A faction of the Vice Lord Nation based in Lawndale, led by Willie Lloyd.",
+      "time_period": "1960s-1990s"
     }
   ],
   "edges": [
@@ -165,8 +100,8 @@
       "target": "People Nation",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Vice Lords are a founding member of the People Nation multi-gang alliance.",
-      "time_period": "1970s-present"
+      "context": "Almighty Vice Lord Nation is a founding member of the People Nation alliance.",
+      "time_period": null
     },
     {
       "source": "Almighty Vice Lord Nation",
@@ -205,7 +140,7 @@
       "target": "Folk Nation",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Folk Nation is a rival alliance to the Vice Lords and People Nation.",
+      "context": "Folk Nation is a rival alliance to the People Nation, which the Vice Lords belong to.",
       "time_period": null
     },
     {
@@ -233,76 +168,12 @@
       "time_period": null
     },
     {
-      "source": "Almighty Vice Lord Nation",
-      "target": "Cherokees",
-      "relationship": "other",
-      "detail": "consolidation",
-      "context": "The Vice Lords consolidated the Cherokees into their nation.",
-      "time_period": "1960s-1970s"
-    },
-    {
-      "source": "Almighty Vice Lord Nation",
-      "target": "Morphines",
-      "relationship": "other",
-      "detail": "consolidation",
-      "context": "The Vice Lords consolidated the Morphines into their nation.",
-      "time_period": "1960s-1970s"
-    },
-    {
-      "source": "Almighty Vice Lord Nation",
-      "target": "Commanches",
-      "relationship": "other",
-      "detail": "consolidation",
-      "context": "The Vice Lords consolidated the Commanches into their nation.",
-      "time_period": "1960s-1970s"
-    },
-    {
-      "source": "Almighty Vice Lord Nation",
-      "target": "Continental Pimps",
-      "relationship": "other",
-      "detail": "consolidation",
-      "context": "The Vice Lords consolidated the Continental Pimps into their nation.",
-      "time_period": "1960s-1970s"
-    },
-    {
-      "source": "Almighty Vice Lord Nation",
-      "target": "Imperial Chaplains",
-      "relationship": "other",
-      "detail": "consolidation",
-      "context": "The Vice Lords consolidated the Imperial Chaplains into their nation.",
-      "time_period": "1960s-1970s"
-    },
-    {
-      "source": "Almighty Vice Lord Nation",
-      "target": "Clovers",
-      "relationship": "other",
-      "detail": "consolidation",
-      "context": "The Vice Lords consolidated the Clovers into their nation.",
-      "time_period": "1960s-1970s"
-    },
-    {
-      "source": "Almighty Vice Lord Nation",
-      "target": "Cobras",
-      "relationship": "other",
-      "detail": "consolidation",
-      "context": "The Vice Lords consolidated the Cobras into their nation.",
-      "time_period": "1960s-1970s"
-    },
-    {
-      "source": "Almighty Vice Lord Nation",
-      "target": "Braves",
-      "relationship": "other",
-      "detail": "consolidation",
-      "context": "The Vice Lords consolidated the Braves into their nation.",
-      "time_period": "1960s-1970s"
-    },
-    {
       "source": "Unknown Vice Lords",
       "target": "Almighty Vice Lord Nation",
-      "relationship": "other",
-      "detail": "faction",
-      "context": "The Unknown Vice Lords were a faction of the Vice Lord Nation led by Willie Lloyd.",
-      "time_period": "1960s-1970s"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Unknown Vice Lords is a faction of the Vice Lord Nation.",
+      "time_period": null
     }
   ],
   "source_file": "Almighty_Vice_Lord_Nation"

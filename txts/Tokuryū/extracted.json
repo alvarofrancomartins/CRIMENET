@@ -1,5 +1,33 @@
 {
-  "nodes": [],
-  "edges": [],
+  "nodes": [
+    {
+      "standard_name": "Yakuza",
+      "original_text_name": "yakuza",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Traditional hierarchical Japanese crime syndicates disrupted by crackdowns.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Tokuryū",
+      "original_text_name": "Tokuryū",
+      "aliases": [
+        "tokuryū"
+      ],
+      "type": "other",
+      "context": "Loosely organized, anonymous criminal groups emerging as alternative to yakuza.",
+      "time_period": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "Tokuryū",
+      "target": "Yakuza",
+      "relationship": "other",
+      "detail": "alternative to",
+      "context": "Tokuryū groups have emerged as an alternative to traditional yakuza organizations.",
+      "time_period": null
+    }
+  ],
   "source_file": "Tokuryū"
 }

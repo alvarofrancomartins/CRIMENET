@@ -8,7 +8,7 @@
         "Old School Zetas"
       ],
       "type": "cartel",
-      "context": "Splinter group of Los Zetas, founded in 2014, involved in drug trafficking, extortion, kidnapping, murder, oil theft. Operates in multiple Mexican states.",
+      "context": "Mexican criminal organization splintered from Los Zetas, involved in drug trafficking, extortion, kidnapping, murder, oil theft.",
       "time_period": "2014-present"
     },
     {
@@ -16,7 +16,7 @@
       "original_text_name": "Los Zetas",
       "aliases": [],
       "type": "cartel",
-      "context": "Original criminal organization from which Zetas Vieja Escuela splintered. Originated from Mexican Army special forces.",
+      "context": "Mexican drug cartel originating from special forces of the Mexican Army, active since 1997.",
       "time_period": "1997-present"
     },
     {
@@ -26,7 +26,7 @@
         "CJNG"
       ],
       "type": "cartel",
-      "context": "Rival cartel that executed a ZVE member in March 2019 and was targeted by ZVE in retaliation.",
+      "context": "Mexican drug cartel, rival of Zetas Vieja Escuela.",
       "time_period": "2009-present"
     },
     {
@@ -34,7 +34,7 @@
       "original_text_name": "Gulf Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Ally of Zetas Vieja Escuela according to infobox.",
+      "context": "Mexican drug cartel, ally of Zetas Vieja Escuela.",
       "time_period": "1930s-present"
     },
     {
@@ -42,7 +42,7 @@
       "original_text_name": "Cártel del Noreste",
       "aliases": [],
       "type": "cartel",
-      "context": "Rival of Zetas Vieja Escuela according to infobox.",
+      "context": "Mexican drug cartel, rival of Zetas Vieja Escuela.",
       "time_period": "2014-present"
     }
   ],
@@ -50,30 +50,33 @@
     {
       "source": "Zetas Vieja Escuela",
       "target": "Los Zetas",
-      "relationship": "other",
-      "detail": "splintered from",
-      "context": "Zetas Vieja Escuela splintered from Los Zetas in 2014.",
-      "time_period": "2014"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Zetas Vieja Escuela is a splinter group of Los Zetas, founded by dissidents.",
+      "time_period": "2014-present"
     },
     {
       "source": "Zetas Vieja Escuela",
       "target": "Jalisco New Generation Cartel",
       "relationship": "rivalry",
-      "context": "CJNG executed a ZVE member in March 2019; ZVE retaliated by killing three alleged CJNG members in April 2019.",
-      "time_period": "2019"
+      "detail": null,
+      "context": "Members of CJNG executed a ZVE member in 2019, and ZVE retaliated by killing alleged CJNG members.",
+      "time_period": "2019-present"
     },
     {
       "source": "Zetas Vieja Escuela",
       "target": "Gulf Cartel",
       "relationship": "alliance",
-      "context": "Infobox lists Gulf Cartel as an ally.",
+      "detail": null,
+      "context": "The infobox lists Gulf Cartel as an ally of Zetas Vieja Escuela.",
       "time_period": null
     },
     {
       "source": "Zetas Vieja Escuela",
       "target": "Cártel del Noreste",
       "relationship": "rivalry",
-      "context": "Infobox lists Cártel del Noreste as a rival.",
+      "detail": null,
+      "context": "The infobox lists Cártel del Noreste as a rival of Zetas Vieja Escuela.",
       "time_period": null
     }
   ],

@@ -7,7 +7,7 @@
         "Sicilian Mafia"
       ],
       "type": "mafia",
-      "context": "Italian mafia originating from Sicily, involved in drug trafficking and political corruption.",
+      "context": "Italian mafia originating in Sicily, involved in drug trafficking and political corruption.",
       "time_period": "19th century-present"
     },
     {
@@ -15,7 +15,7 @@
       "original_text_name": "Camorra",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian mafia originating from Campania, involved in waste management and political bribery.",
+      "context": "Italian mafia originating in Campania, involved in waste management and political bribery.",
       "time_period": "19th century-present"
     },
     {
@@ -23,7 +23,7 @@
       "original_text_name": "'Ndrangheta",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian mafia originating from Calabria, involved in drug trafficking and infiltration of legitimate economy.",
+      "context": "Italian mafia originating in Calabria, involved in drug trafficking and infiltration of legitimate economy.",
       "time_period": "19th century-present"
     },
     {
@@ -31,17 +31,17 @@
       "original_text_name": "Yakuza",
       "aliases": [],
       "type": "mafia",
-      "context": "Japanese organized crime groups with close ties to government.",
-      "time_period": "historical-present"
+      "context": "Japanese organized crime groups with historical ties to government.",
+      "time_period": "17th century-present"
     },
     {
       "standard_name": "Camorra Casalesi clan",
       "original_text_name": "Camorra Casalesi clan",
       "aliases": [
-        "Casalesi"
+        "Casalesi clan"
       ],
       "type": "clan",
-      "context": "Clan within the Camorra, gained control of local economy through political manipulation and intimidation.",
+      "context": "Powerful Camorra clan from Casal di Principe, involved in toxic waste dumping and political corruption.",
       "time_period": "1980s-present"
     },
     {
@@ -49,7 +49,7 @@
       "original_text_name": "Cuntrera-Caruana Mafia clan",
       "aliases": [],
       "type": "clan",
-      "context": "Sicilian Mafia clan that invested heavily in Aruba's hotels and casinos.",
+      "context": "Sicilian mafia clan with investments in Aruba, alleged to control hotels and casinos.",
       "time_period": "1990s"
     },
     {
@@ -58,7 +58,7 @@
       "aliases": [],
       "type": "gang",
       "context": "Indonesian gang allegedly protected by the government for political and economic interests.",
-      "time_period": "present"
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Pancasila Youth",
@@ -66,7 +66,7 @@
       "aliases": [],
       "type": "gang",
       "context": "Indonesian gang allegedly protected by the government for political and economic interests.",
-      "time_period": "present"
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Syndicate",
@@ -75,7 +75,7 @@
         "Niqabeh"
       ],
       "type": "other",
-      "context": "Network of captagon manufacturing centers in Syria, tied to the Assad regime.",
+      "context": "Network of captagon manufacturing centers and factories in Syria, controlled by the Assad regime.",
       "time_period": "2010s-2024"
     }
   ],
@@ -83,42 +83,18 @@
     {
       "source": "Camorra Casalesi clan",
       "target": "Camorra",
-      "relationship": "other",
-      "detail": "sub-group",
+      "relationship": "alliance",
+      "detail": null,
       "context": "The Casalesi clan is a sub-group of the Camorra.",
       "time_period": "1980s-present"
     },
     {
-      "source": "Cosa Nostra",
-      "target": "Camorra",
-      "relationship": "other",
-      "detail": "separate organizations",
-      "context": "Both are distinct Italian mafia organizations operating in different regions.",
-      "time_period": null
-    },
-    {
-      "source": "Cosa Nostra",
-      "target": "'Ndrangheta",
-      "relationship": "other",
-      "detail": "separate organizations",
-      "context": "Both are distinct Italian mafia organizations operating in different regions.",
-      "time_period": null
-    },
-    {
-      "source": "Camorra",
-      "target": "'Ndrangheta",
-      "relationship": "other",
-      "detail": "separate organizations",
-      "context": "Both are distinct Italian mafia organizations operating in different regions.",
-      "time_period": null
-    },
-    {
-      "source": "GRIB Jaya",
-      "target": "Pancasila Youth",
-      "relationship": "rivalry",
+      "source": "Cuntrera-Caruana Mafia clan",
+      "target": "Cosa Nostra",
+      "relationship": "alliance",
       "detail": null,
-      "context": "The two gangs are rivalling, with accusations of government protection for both.",
-      "time_period": "present"
+      "context": "The Cuntrera-Caruana clan is a sub-group of Cosa Nostra.",
+      "time_period": "1990s"
     }
   ],
   "source_file": "Mafia_state"

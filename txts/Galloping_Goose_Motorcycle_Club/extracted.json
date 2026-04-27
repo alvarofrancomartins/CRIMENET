@@ -9,15 +9,25 @@
         "GG Bunch"
       ],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club founded in 1942 in Los Angeles, active in Midwestern USA.",
+      "context": "Outlaw motorcycle club founded in 1942 in Los Angeles, with chapters across the US.",
       "time_period": "1942-present"
+    },
+    {
+      "standard_name": "Boozefighters Motorcycle Club",
+      "original_text_name": "Boozefighters MC",
+      "aliases": [
+        "Boozefighters"
+      ],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club involved in the 1947 Hollister Rally.",
+      "time_period": "1940s-present"
     },
     {
       "standard_name": "El Forastero Motorcycle Club",
       "original_text_name": "El Forastero Motorcycle Club",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Motorcycle club with a close relationship to Galloping Goose MC.",
+      "context": "Motorcycle club with a close relationship to Galloping Goose.",
       "time_period": null
     },
     {
@@ -25,7 +35,7 @@
       "original_text_name": "Pharaohs motorcycle club",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Motorcycle club whose territory was formerly controlled by Galloping Goose MC during the 1980s-1990s.",
+      "context": "Motorcycle club whose territory was expanded into by Galloping Goose during the 1980s-1990s.",
       "time_period": null
     },
     {
@@ -33,7 +43,7 @@
       "original_text_name": "Vieux-Doo Dawgs M.C.",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Support club for Galloping Goose MC, established in Louisiana in 1998.",
+      "context": "Support club for Galloping Goose, established in Louisiana in 1998.",
       "time_period": "1998-present"
     },
     {
@@ -41,16 +51,8 @@
       "original_text_name": "Midwest Drifters",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Motorcycle club taken over by Galloping Goose MC's support club Vieux-Doo Dawgs M.C.",
+      "context": "Motorcycle club taken over by Galloping Goose and used to run errands and provide cash.",
       "time_period": null
-    },
-    {
-      "standard_name": "Boozefighters MC",
-      "original_text_name": "Boozefighters MC",
-      "aliases": [],
-      "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club that emerged alongside Galloping Goose MC after the 1947 Hollister Rally.",
-      "time_period": "1940s-present"
     }
   ],
   "edges": [
@@ -67,23 +69,23 @@
       "target": "Pharaohs Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Galloping Goose expanded into territory formerly controlled by the Pharaohs during the 1980s-1990s.",
+      "context": "Galloping Goose expanded into territory formerly controlled by the Pharaohs during the 1980s and 1990s.",
       "time_period": "1980s-1990s"
     },
     {
-      "source": "Galloping Goose Motorcycle Club",
-      "target": "Vieux-Doo Dawgs M.C.",
+      "source": "Vieux-Doo Dawgs M.C.",
+      "target": "Galloping Goose Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Vieux-Doo Dawgs M.C. is a support club for Galloping Goose MC, established in 1998.",
+      "context": "Vieux-Doo Dawgs M.C. is a support club for Galloping Goose.",
       "time_period": "1998-present"
     },
     {
-      "source": "Vieux-Doo Dawgs M.C.",
+      "source": "Galloping Goose Motorcycle Club",
       "target": "Midwest Drifters",
-      "relationship": "other",
-      "detail": "takeover",
-      "context": "Vieux-Doo Dawgs M.C. took over the Midwest Drifters and uses them to run errands and provide cash.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Galloping Goose took over the Midwest Drifters and uses them to run errands and provide cash.",
       "time_period": null
     }
   ],

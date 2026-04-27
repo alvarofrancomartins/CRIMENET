@@ -9,7 +9,7 @@
         "Tampa crime family"
       ],
       "type": "mafia",
-      "context": "Italian American Mafia crime family based in Tampa, Florida, involved in gambling, narcotics, racketeering.",
+      "context": "Italian American Mafia crime family based in Tampa, Florida, involved in gambling, narcotics, and racketeering.",
       "time_period": "1920s-present"
     },
     {
@@ -17,23 +17,23 @@
       "original_text_name": "Charlie Wall's organized crime syndicate",
       "aliases": [],
       "type": "other",
-      "context": "Syndicate controlled by Charlie Wall in Tampa, involved in illegal gambling and corruption.",
+      "context": "Organized crime syndicate in Tampa controlled by Charlie Wall, involved in illegal gambling and corruption.",
       "time_period": "1920s-1955"
     },
     {
       "standard_name": "Ignacio Antinori organization",
-      "original_text_name": "Ignacio Antinori's Italian Mafia organization",
+      "original_text_name": "Ignacio Antinori's organization",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian Mafia group led by Ignacio Antinori, involved in drug trafficking and gambling in Tampa.",
+      "context": "Italian Mafia organization led by Ignacio Antinori, involved in drug trafficking and Bolita games in Florida.",
       "time_period": "1920s-1940"
     },
     {
       "standard_name": "Santo Trafficante Sr. gang",
-      "original_text_name": "independent Italian gang led by Santo Trafficante Sr.",
+      "original_text_name": "Santo Trafficante Sr.'s independent Italian gang",
       "aliases": [],
       "type": "gang",
-      "context": "Smaller Italian gang operating Bolita games in Tampa, later merged with Antinori.",
+      "context": "Smaller independent Italian gang led by Santo Trafficante Sr., operating Bolita games in Tampa.",
       "time_period": "1920s-1940"
     },
     {
@@ -41,7 +41,7 @@
       "original_text_name": "Lucchese crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "New York City Mafia family; boss Tommy Lucchese had narcotics network with Trafficante Jr.",
+      "context": "New York City Mafia family; boss Tommy Lucchese had narcotic trafficking network with Trafficante Jr.",
       "time_period": "1920s-present"
     },
     {
@@ -49,16 +49,24 @@
       "original_text_name": "Pittsburgh crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Mafia family based in Pittsburgh; boss John LaRocca co-controlled Sans Souci casino with Trafficante.",
-      "time_period": "1910s-present"
+      "context": "Mafia family based in Pittsburgh; boss John LaRocca jointly controlled Sans Souci casino with Trafficante.",
+      "time_period": "1900s-2000s"
     },
     {
       "standard_name": "New Orleans crime family",
       "original_text_name": "New Orleans crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Mafia family in Louisiana; LoScalzo sought closer ties with them.",
-      "time_period": "1860s-present"
+      "context": "Mafia family based in New Orleans; LoScalzo sought to increase ties with them.",
+      "time_period": "1800s-present"
+    },
+    {
+      "standard_name": "Sicilian Mafia",
+      "original_text_name": "Sicilian Mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Sicilian organized crime; LoScalzo maintained ties with them.",
+      "time_period": "1800s-present"
     },
     {
       "standard_name": "Genovese crime family",
@@ -73,7 +81,7 @@
       "original_text_name": "Trafficante family's Miami faction",
       "aliases": [],
       "type": "faction",
-      "context": "Faction of Trafficante family led by Steven Raffa, involved in money laundering in South Florida.",
+      "context": "Faction of the Trafficante family based in Miami, led by Steven Raffa, involved in money laundering.",
       "time_period": "1980s-2000"
     },
     {
@@ -81,7 +89,7 @@
       "original_text_name": "Bonanno crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families of New York City, involved in organized crime.",
+      "context": "One of the Five Families of New York City, allied with Trafficante.",
       "time_period": null
     },
     {
@@ -89,7 +97,7 @@
       "original_text_name": "Chicago Outfit",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian American crime syndicate based in Chicago, Illinois.",
+      "context": "Chicago-based Italian American Mafia organization, allied with Trafficante.",
       "time_period": null
     },
     {
@@ -97,7 +105,7 @@
       "original_text_name": "Dallas crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian American Mafia family based in Dallas, Texas.",
+      "context": "Italian American Mafia family based in Dallas, Texas, allied with Trafficante.",
       "time_period": null
     },
     {
@@ -105,26 +113,42 @@
       "original_text_name": "Gambino crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families of New York City, involved in organized crime.",
+      "context": "One of the Five Families of New York City, allied with Trafficante.",
       "time_period": null
+    },
+    {
+      "standard_name": "Santo Trafficante Sr. organization",
+      "original_text_name": "Santo Trafficante Sr.'s independent Italian gang",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Early Tampa Italian gang that merged with Antinori to form the Trafficante family.",
+      "time_period": "1920s-1930s"
     }
   ],
   "edges": [
-    {
-      "source": "Charlie Wall organization",
-      "target": "Ignacio Antinori organization",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Wall and Antinori were rivals in a decade-long war known as 'Era of Blood'.",
-      "time_period": "1930s-1940"
-    },
     {
       "source": "Santo Trafficante Sr. gang",
       "target": "Ignacio Antinori organization",
       "relationship": "alliance",
       "detail": null,
-      "context": "Antinori invited Trafficante Sr. into his organization to expand Bolita games across Florida.",
+      "context": "Antinori invited Trafficante into his organization; they expanded Bolita games together.",
       "time_period": "late 1920s-1940"
+    },
+    {
+      "source": "Charlie Wall organization",
+      "target": "Ignacio Antinori organization",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Wall and Antinori were in a bloody decade-long war known as 'Era of Blood'.",
+      "time_period": "1930s-1940"
+    },
+    {
+      "source": "Santo Trafficante Sr. gang",
+      "target": "Trafficante crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Santo Trafficante Sr.'s gang evolved into the Trafficante crime family; he became boss.",
+      "time_period": "1940-1954"
     },
     {
       "source": "Trafficante crime family",
@@ -132,14 +156,14 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Trafficante Jr. maintained a narcotic trafficking network with Tommy Lucchese.",
-      "time_period": "1950s-1960s"
+      "time_period": "1950s"
     },
     {
       "source": "Trafficante crime family",
       "target": "Pittsburgh crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Trafficante Jr. and John LaRocca jointly controlled the Sans Souci casino in Havana.",
+      "context": "Trafficante Jr. entered an agreement with John LaRocca to jointly control the Sans Souci casino.",
       "time_period": "1950s"
     },
     {
@@ -147,31 +171,39 @@
       "target": "New Orleans crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "LoScalzo sought to increase ties with New Orleans family, using Joseph Campisi as intermediary.",
+      "context": "LoScalzo sought to increase ties with the New Orleans family, using Joseph Campisi as intermediary.",
       "time_period": "1987-2025"
+    },
+    {
+      "source": "Trafficante crime family",
+      "target": "Sicilian Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "LoScalzo maintained ties to the Sicilian Mafia.",
+      "time_period": "1987-2025"
+    },
+    {
+      "source": "Trafficante family Miami faction",
+      "target": "Trafficante crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Miami faction is a sub-group of the Trafficante crime family, led by Steven Raffa.",
+      "time_period": "mid 1980s-2000"
     },
     {
       "source": "Trafficante family Miami faction",
       "target": "Genovese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Raffa worked with Genovese member John Mamone on a money laundering operation.",
+      "context": "Raffa worked with Genovese family member John Mamone on a money laundering operation.",
       "time_period": "1990s"
-    },
-    {
-      "source": "Trafficante family Miami faction",
-      "target": "Trafficante crime family",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Miami faction is a part of the Trafficante crime family, led by Steven Raffa.",
-      "time_period": "1980s-2000"
     },
     {
       "source": "Trafficante crime family",
       "target": "Bonanno crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "Allied crime families.",
       "time_period": null
     },
     {
@@ -179,7 +211,7 @@
       "target": "Chicago Outfit",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "Allied crime families.",
       "time_period": null
     },
     {
@@ -187,7 +219,7 @@
       "target": "Dallas crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "Allied crime families.",
       "time_period": null
     },
     {
@@ -195,7 +227,7 @@
       "target": "Gambino crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "Allied crime families.",
       "time_period": null
     },
     {
@@ -203,8 +235,32 @@
       "target": "Genovese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "Allied crime families.",
       "time_period": null
+    },
+    {
+      "source": "Ignacio Antinori organization",
+      "target": "Santo Trafficante Sr. organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Antinori invited Trafficante Sr. into his organization; they expanded Bolita games together.",
+      "time_period": "1930s"
+    },
+    {
+      "source": "Santo Trafficante Sr. organization",
+      "target": "Trafficante crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Predecessor organization that merged with Antinori to form the Trafficante crime family.",
+      "time_period": "c. 1920s-1930s"
+    },
+    {
+      "source": "Ignacio Antinori organization",
+      "target": "Trafficante crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Antinori's organization merged with Trafficante Sr.'s to form the Trafficante crime family.",
+      "time_period": "c. 1930s"
     }
   ],
   "source_file": "Trafficante_crime_family"

@@ -23,8 +23,8 @@
       "standard_name": "Siderno Group",
       "original_text_name": "Siderno Group",
       "aliases": [],
-      "type": "faction",
-      "context": "Branch of the 'Ndrangheta in the Greater Toronto Area, Canada, of which the Commisso 'ndrina is part.",
+      "type": "clan",
+      "context": "Branch of the Commisso 'ndrina operating in the Greater Toronto Area, Canada.",
       "time_period": "1960s-present"
     },
     {
@@ -34,8 +34,8 @@
         "Costa clan"
       ],
       "type": "clan",
-      "context": "Rival 'Ndrangheta clan in Siderno that feuded with the Commisso 'ndrina in the 1980s-1990s.",
-      "time_period": "unknown-present"
+      "context": "Rival 'Ndrangheta clan in Siderno that feuded with the Commisso clan in the 1980s-1990s.",
+      "time_period": "1980s-1990s"
     },
     {
       "standard_name": "Secondigliano Alliance",
@@ -46,86 +46,76 @@
       "time_period": "1990s-present"
     },
     {
-      "standard_name": "Camorra",
-      "original_text_name": "Camorra",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Mafia-type organization in Campania, Italy. The Secondigliano Alliance is a Camorra group.",
-      "time_period": "18th century-present"
-    },
-    {
-      "standard_name": "Buffalo crime family",
-      "original_text_name": "Buffalo crime family",
-      "aliases": [],
-      "type": "mafia",
-      "context": "American Mafia family operating in Toronto and Hamilton, hired the Commisso brothers for a contract killing in the 1980s.",
-      "time_period": "1910s-present"
-    },
-    {
-      "standard_name": "Satan's Choice Motorcycle Club",
-      "original_text_name": "Satan's Choice MC",
-      "aliases": [
-        "Satan's Choice"
-      ],
-      "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club whose hitman Cecil Kirby worked for Cosimo Commisso in Canada from 1976-1981.",
-      "time_period": "1960s-2000s"
-    },
-    {
-      "standard_name": "Piromalli 'ndrina",
-      "original_text_name": "Piromalli 'ndrina",
-      "aliases": [],
-      "type": "clan",
-      "context": "Allied 'Ndrangheta clan mentioned in the infobox as an ally of the Commisso 'ndrina.",
-      "time_period": "unknown-present"
-    },
-    {
-      "standard_name": "Pesce 'ndrina",
-      "original_text_name": "Pesce 'ndrina",
-      "aliases": [],
-      "type": "clan",
-      "context": "Allied 'Ndrangheta clan mentioned in the infobox as an ally of the Commisso 'ndrina.",
-      "time_period": "unknown-present"
-    },
-    {
       "standard_name": "Contini clan",
       "original_text_name": "Contini clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan allied with the Commisso 'ndrina, part of the Secondigliano Alliance.",
-      "time_period": "unknown-present"
+      "context": "Camorra clan allied with the Commisso 'ndrina.",
+      "time_period": null
     },
     {
       "standard_name": "Licciardi clan",
       "original_text_name": "Licciardi clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan allied with the Commisso 'ndrina, part of the Secondigliano Alliance.",
-      "time_period": "unknown-present"
+      "context": "Camorra clan allied with the Commisso 'ndrina.",
+      "time_period": null
     },
     {
       "standard_name": "Mallardo clan",
       "original_text_name": "Mallardo clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan allied with the Commisso 'ndrina, part of the Secondigliano Alliance.",
-      "time_period": "unknown-present"
+      "context": "Camorra clan allied with the Commisso 'ndrina.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Piromalli 'ndrina",
+      "original_text_name": "Piromalli 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan allied with the Commisso 'ndrina.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Pesce 'ndrina",
+      "original_text_name": "Pesce 'ndrina",
+      "aliases": [],
+      "type": "clan",
+      "context": "'Ndrangheta clan allied with the Commisso 'ndrina.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Buffalo crime family",
+      "original_text_name": "Buffalo crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "American Mafia family that operated in Toronto and Hamilton, hired hitman Cecil Kirby to kill Paul Volpe in arrangement with Commisso brothers.",
+      "time_period": "1980s"
+    },
+    {
+      "standard_name": "Satan's Choice Motorcycle Club",
+      "original_text_name": "Satan's Choice MC",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "Outlaw motorcycle club whose hitman Cecil Kirby worked for Cosimo Commisso in Canada from 1976-1981.",
+      "time_period": "1970s-1980s"
     },
     {
       "standard_name": "Independent Soldiers",
       "original_text_name": "Independent Soldiers",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang mentioned in the infobox as a rival of the Commisso 'ndrina.",
-      "time_period": "unknown-present"
+      "context": "Rival gang to the Commisso 'ndrina in Canada.",
+      "time_period": null
     },
     {
       "standard_name": "Rizzuto crime family",
       "original_text_name": "Rizzuto crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Montreal Mafia family mentioned in the infobox as a rival of the Commisso 'ndrina.",
-      "time_period": "1950s-present"
+      "context": "Montreal Mafia family rival to the Commisso 'ndrina.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -134,15 +124,15 @@
       "target": "'Ndrangheta",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Commisso 'ndrina is a clan within the 'Ndrangheta organization.",
+      "context": "Commisso 'ndrina is a clan within the 'Ndrangheta organization.",
       "time_period": "1930s-present"
     },
     {
-      "source": "Commisso 'ndrina",
-      "target": "Siderno Group",
+      "source": "Siderno Group",
+      "target": "Commisso 'ndrina",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Commisso 'ndrina's Canadian branch is part of the Siderno Group.",
+      "context": "Siderno Group is the Canadian branch of the Commisso 'ndrina.",
       "time_period": "1960s-present"
     },
     {
@@ -150,7 +140,7 @@
       "target": "Costa 'ndrina",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Commisso and Costa clans feuded over control of Siderno in the 1980s-1990s, resulting in many deaths.",
+      "context": "Feud over control of Siderno in the 1980s-1990s, resulting in many deaths.",
       "time_period": "1987-1991"
     },
     {
@@ -158,55 +148,15 @@
       "target": "Secondigliano Alliance",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Commisso 'ndrina is allied with the Secondigliano Alliance in cocaine and marijuana trafficking.",
+      "context": "Allied in trafficking cocaine and marijuana from South America via the Netherlands.",
       "time_period": "1990s-present"
-    },
-    {
-      "source": "Secondigliano Alliance",
-      "target": "Camorra",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Secondigliano Alliance is a Camorra group.",
-      "time_period": "unknown-present"
-    },
-    {
-      "source": "Commisso 'ndrina",
-      "target": "Buffalo crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Buffalo crime family hired the Commisso brothers for a contract killing in the 1980s.",
-      "time_period": "1980s"
-    },
-    {
-      "source": "Commisso 'ndrina",
-      "target": "Satan's Choice Motorcycle Club",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Satan's Choice hitman Cecil Kirby worked for Cosimo Commisso from 1976-1981.",
-      "time_period": "1976-1981"
-    },
-    {
-      "source": "Commisso 'ndrina",
-      "target": "Piromalli 'ndrina",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Piromalli 'ndrina is listed as an ally in the infobox.",
-      "time_period": null
-    },
-    {
-      "source": "Commisso 'ndrina",
-      "target": "Pesce 'ndrina",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Pesce 'ndrina is listed as an ally in the infobox.",
-      "time_period": null
     },
     {
       "source": "Commisso 'ndrina",
       "target": "Contini clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Contini clan is part of the Secondigliano Alliance, allied with the Commisso 'ndrina.",
+      "context": "Allied Camorra clan.",
       "time_period": null
     },
     {
@@ -214,7 +164,7 @@
       "target": "Licciardi clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Licciardi clan is part of the Secondigliano Alliance, allied with the Commisso 'ndrina.",
+      "context": "Allied Camorra clan.",
       "time_period": null
     },
     {
@@ -222,15 +172,47 @@
       "target": "Mallardo clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Mallardo clan is part of the Secondigliano Alliance, allied with the Commisso 'ndrina.",
+      "context": "Allied Camorra clan.",
       "time_period": null
+    },
+    {
+      "source": "Commisso 'ndrina",
+      "target": "Piromalli 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied 'Ndrangheta clan.",
+      "time_period": null
+    },
+    {
+      "source": "Commisso 'ndrina",
+      "target": "Pesce 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Allied 'Ndrangheta clan.",
+      "time_period": null
+    },
+    {
+      "source": "Commisso 'ndrina",
+      "target": "Buffalo crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Collaborated on contract killing plot against Paul Volpe.",
+      "time_period": "1981"
+    },
+    {
+      "source": "Satan's Choice Motorcycle Club",
+      "target": "Commisso 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Satan's Choice hitman Cecil Kirby worked for Cosimo Commisso.",
+      "time_period": "1976-1981"
     },
     {
       "source": "Commisso 'ndrina",
       "target": "Independent Soldiers",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Independent Soldiers are listed as a rival in the infobox.",
+      "context": "Rival gang in Canada.",
       "time_period": null
     },
     {
@@ -238,7 +220,7 @@
       "target": "Rizzuto crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Rizzuto crime family is listed as a rival in the infobox.",
+      "context": "Rival Mafia family in Montreal.",
       "time_period": null
     }
   ],

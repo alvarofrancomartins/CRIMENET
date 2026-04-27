@@ -5,10 +5,11 @@
       "original_text_name": "Bellocco 'ndrina",
       "aliases": [
         "Bellocco clan",
-        "Bellocco-Pesce clan"
+        "Bellocco-Pesce clan",
+        "Pesce-Bellocco clan"
       ],
       "type": "clan",
-      "context": "A powerful 'Ndrangheta clan based in Rosarno, Calabria, involved in drug trafficking, arms trafficking, extortion, and control of commercial activities.",
+      "context": "A powerful 'Ndrangheta clan based in Rosarno, Calabria, involved in drug and arms trafficking, extortion, and control of commercial activities.",
       "time_period": "1960s-present"
     },
     {
@@ -31,12 +32,12 @@
     },
     {
       "standard_name": "Pesce 'ndrina",
-      "original_text_name": "Pesce clan",
+      "original_text_name": "Pesce",
       "aliases": [
-        "Pesce-Bellocco clan"
+        "Pesce clan"
       ],
       "type": "clan",
-      "context": "An 'Ndrangheta clan allied with the Bellocco, controlling port activities and drug trafficking.",
+      "context": "An 'Ndrangheta clan allied with the Bellocco, involved in drug trafficking and port control.",
       "time_period": null
     },
     {
@@ -46,7 +47,7 @@
         "Piromalli 'ndrina"
       ],
       "type": "clan",
-      "context": "An 'Ndrangheta clan that collaborated with Pesce and Bellocco in controlling port contracts and activities.",
+      "context": "An 'Ndrangheta clan that collaborated with Bellocco and Pesce in controlling port contracts and activities.",
       "time_period": null
     },
     {
@@ -56,7 +57,7 @@
         "SCU"
       ],
       "type": "mafia",
-      "context": "A mafia-type organization in Apulia, set up with the involvement of Umberto Bellocco to counter the Camorra.",
+      "context": "A mafia-type organization in Apulia, set up with involvement from Umberto Bellocco to counter Camorra influence.",
       "time_period": "1980s-present"
     },
     {
@@ -64,15 +65,15 @@
       "original_text_name": "Camorra",
       "aliases": [],
       "type": "mafia",
-      "context": "A mafia-type organization from Campania, Italy, which the SCU was created to counter, but later allied with Bellocco.",
+      "context": "A mafia-type organization from Campania, Italy, which the SCU was formed to counter, but later allied with Bellocco.",
       "time_period": "18th century-present"
     },
     {
       "standard_name": "D'Alessandro clan",
-      "original_text_name": "Camorra D'Alessandro clan",
+      "original_text_name": "D'Alessandro clan",
       "aliases": [],
       "type": "clan",
-      "context": "A Camorra clan that, with support from Bellocco and Pesce, supplied drugs to Castellammare di Stabia.",
+      "context": "A Camorra clan that used support from Bellocco and Pesce to supply drugs in Castellammare di Stabia.",
       "time_period": null
     },
     {
@@ -80,7 +81,7 @@
       "original_text_name": "Capriati clan",
       "aliases": [],
       "type": "clan",
-      "context": "An ally of the Bellocco 'ndrina listed in the infobox.",
+      "context": "An allied clan mentioned in the infobox as an ally of Bellocco.",
       "time_period": null
     },
     {
@@ -88,7 +89,7 @@
       "original_text_name": "Parisi-Palermiti clan",
       "aliases": [],
       "type": "clan",
-      "context": "An ally of the Bellocco 'ndrina listed in the infobox.",
+      "context": "An allied clan mentioned in the infobox as an ally of Bellocco.",
       "time_period": null
     }
   ],
@@ -96,9 +97,9 @@
     {
       "source": "Bellocco 'ndrina",
       "target": "'Ndrangheta",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Bellocco 'ndrina is a clan within the 'Ndrangheta organization.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Bellocco 'ndrina is a clan of the 'Ndrangheta.",
       "time_period": "1960s-present"
     },
     {
@@ -106,7 +107,7 @@
       "target": "Mancuso 'ndrina",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Bellocco and Mancuso clans are both involved in drug supply through the Port of Gioia Tauro.",
+      "context": "The Mancusos are mentioned as a source for drug supply through the Port of Gioia Tauro, alongside Bellocco.",
       "time_period": null
     },
     {
@@ -114,7 +115,7 @@
       "target": "Pesce 'ndrina",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Bellocco and Pesce clans jointly controlled port activities and drug trafficking, often referred to as the Pesce-Bellocco clan.",
+      "context": "The Bellocco and Pesce clans are frequently mentioned together as allies, controlling port activities and drug trafficking.",
       "time_period": null
     },
     {
@@ -128,8 +129,8 @@
     {
       "source": "Bellocco 'ndrina",
       "target": "Sacra Corona Unita",
-      "relationship": "other",
-      "detail": "founded",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Umberto Bellocco was involved in setting up the Sacra Corona Unita, importing 'Ndrangheta codes and structure.",
       "time_period": "1980s"
     },
@@ -138,7 +139,7 @@
       "target": "Camorra",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Sacra Corona Unita was created to counter the growing influence of the Camorra in Apulia.",
+      "context": "The Sacra Corona Unita was formed to counter the growing influence of the Camorra in Apulia.",
       "time_period": "1980s"
     },
     {
@@ -154,7 +155,7 @@
       "target": "D'Alessandro clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Bellocco and Pesce clans supported the Camorra D'Alessandro clan in a cocaine trafficking scheme.",
+      "context": "The Bellocco and Pesce 'ndrine supported the Camorra D'Alessandro clan in supplying drugs to Castellammare di Stabia.",
       "time_period": "2020"
     },
     {
@@ -162,7 +163,7 @@
       "target": "Capriati clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Capriati clan is listed as an ally of the Bellocco 'ndrina in the infobox.",
+      "context": "The Capriati clan is listed as an ally in the infobox.",
       "time_period": null
     },
     {
@@ -170,7 +171,7 @@
       "target": "Parisi-Palermiti clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Parisi-Palermiti clan is listed as an ally of the Bellocco 'ndrina in the infobox.",
+      "context": "The Parisi-Palermiti clan is listed as an ally in the infobox.",
       "time_period": null
     }
   ],

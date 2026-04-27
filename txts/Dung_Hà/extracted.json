@@ -7,7 +7,7 @@
         "Năm Cam"
       ],
       "type": "gang",
-      "context": "Saigon-based criminal organization led by Năm Cam, involved in casinos and other illicit activities.",
+      "context": "Vietnamese gang led by Năm Cam, operating in Saigon (Ho Chi Minh City) in the 1990s.",
       "time_period": "1990s-2000"
     },
     {
@@ -17,8 +17,8 @@
         "Dung Hà"
       ],
       "type": "gang",
-      "context": "Haiphong-based criminal organization led by Dung Hà, involved in pickpocketing, robberies, and casinos.",
-      "time_period": "1980s-2000"
+      "context": "Vietnamese gang led by Dung Hà, operating in Haiphong and later Saigon in the 1990s.",
+      "time_period": "1990s-2000"
     },
     {
       "standard_name": "Hùng 'the warbler' Gang",
@@ -27,7 +27,7 @@
         "Hùng Warbler"
       ],
       "type": "gang",
-      "context": "Gang operating around Tam Bạc bus station in Haiphong, led by Hùng 'the warbler'.",
+      "context": "Gang led by Hùng 'the warbler' near Tam Bạc bus station in Haiphong.",
       "time_period": "1980s-1990s"
     },
     {
@@ -35,7 +35,7 @@
       "original_text_name": "Hùng Cốm",
       "aliases": [],
       "type": "gang",
-      "context": "Haiphong-based gang led by Hùng Cốm, involved in casinos and crime sprees.",
+      "context": "Gang led by Hùng Cốm, active in Haiphong area between 1985 and 1990.",
       "time_period": "1985-1990"
     },
     {
@@ -43,7 +43,7 @@
       "original_text_name": "Hải Bánh",
       "aliases": [],
       "type": "gang",
-      "context": "Northern mobster who migrated to Saigon and joined Năm Cam's gang, later became wealthy.",
+      "context": "Gang led by Hải Bánh, a mobster from the north who joined Năm Cam in Saigon.",
       "time_period": "1990s-2000"
     },
     {
@@ -51,25 +51,17 @@
       "original_text_name": "Son Bach Tang's Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Gang opposed to Dung Hà, mentioned as an opponent.",
+      "context": "Gang led by Son Bach Tang, listed as an opponent of Dung Hà.",
       "time_period": "1990s"
     }
   ],
   "edges": [
     {
       "source": "Dung Hà's Gang",
-      "target": "Năm Cam's Gang",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Dung Hà disrupted Năm Cam's casino and dance floor businesses, leading to a feud and her assassination.",
-      "time_period": "late 1990s-2000"
-    },
-    {
-      "source": "Dung Hà's Gang",
       "target": "Hùng 'the warbler' Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Dung Hà was romantically involved with Hùng 'the warbler' and worked with him.",
+      "context": "Dung Hà was romantically involved with Hùng 'the warbler' and they operated together.",
       "time_period": "1980s"
     },
     {
@@ -77,24 +69,32 @@
       "target": "Hùng Cốm's Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Dung Hà partnered with Hùng Cốm to open casinos and commit crimes.",
+      "context": "Dung Hà partnered with Hùng Cốm, opening casinos and committing crimes together.",
       "time_period": "1985-1990"
+    },
+    {
+      "source": "Dung Hà's Gang",
+      "target": "Năm Cam's Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Dung Hà disrupted Năm Cam's businesses, leading to a feud and her assassination ordered by Năm Cam.",
+      "time_period": "late 1990s-2000"
     },
     {
       "source": "Hải Bánh's Gang",
       "target": "Năm Cam's Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Hải Bánh joined forces with Năm Cam and carried out orders to assassinate Dung Hà.",
+      "context": "Hải Bánh joined forces with Năm Cam and became wealthy, later carrying out orders to find Dung Hà.",
       "time_period": "1990s-2000"
     },
     {
       "source": "Dung Hà's Gang",
-      "target": "Son Bach Tang's Gang",
+      "target": "Hải Bánh's Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Son Bach Tang's Gang is listed as an opponent of Dung Hà.",
-      "time_period": "1990s"
+      "context": "Dung Hà disrupted Hải Bánh's dance floor, leading to Hải Bánh being ordered to find her.",
+      "time_period": "2000"
     }
   ],
   "source_file": "Dung_Hà"

@@ -16,7 +16,7 @@
       "original_text_name": "Kibei Boys",
       "aliases": [],
       "type": "faction",
-      "context": "Faction of the Tokyo Boyz consisting of Japanese-Americans from Japan.",
+      "context": "Sub-group of Tokyo Boyz consisting of Japanese-Americans from Japan.",
       "time_period": "1942-1996"
     },
     {
@@ -24,7 +24,7 @@
       "original_text_name": "Issei Boys",
       "aliases": [],
       "type": "faction",
-      "context": "Faction of the Tokyo Boyz consisting of first-generation Japanese-Americans.",
+      "context": "Sub-group of Tokyo Boyz consisting of first generation Japanese-Americans.",
       "time_period": "1942-1996"
     },
     {
@@ -32,7 +32,7 @@
       "original_text_name": "Nisei Boys",
       "aliases": [],
       "type": "faction",
-      "context": "Faction of the Tokyo Boyz consisting of second-generation Japanese-Americans.",
+      "context": "Sub-group of Tokyo Boyz consisting of second generation Japanese-Americans.",
       "time_period": "1942-1996"
     },
     {
@@ -40,33 +40,33 @@
       "original_text_name": "Jackson-Side Wah Ching",
       "aliases": [],
       "type": "gang",
-      "context": "Allied gang of the Tokyo Boyz, likely a Chinese American street gang.",
+      "context": "Allied gang mentioned in the infobox as allies of Tokyo Boyz.",
       "time_period": null
     }
   ],
   "edges": [
     {
-      "source": "Tokyo Boyz",
-      "target": "Kibei Boys",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Kibei Boys are a faction/rank within the Tokyo Boyz.",
+      "source": "Kibei Boys",
+      "target": "Tokyo Boyz",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kibei Boys are a sub-group/rank within Tokyo Boyz.",
       "time_period": "1942-1996"
     },
     {
-      "source": "Tokyo Boyz",
-      "target": "Issei Boys",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Issei Boys are a faction/rank within the Tokyo Boyz.",
+      "source": "Issei Boys",
+      "target": "Tokyo Boyz",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Issei Boys are a sub-group/rank within Tokyo Boyz.",
       "time_period": "1942-1996"
     },
     {
-      "source": "Tokyo Boyz",
-      "target": "Nisei Boys",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Nisei Boys are a faction/rank within the Tokyo Boyz.",
+      "source": "Nisei Boys",
+      "target": "Tokyo Boyz",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nisei Boys are a sub-group/rank within Tokyo Boyz.",
       "time_period": "1942-1996"
     },
     {
@@ -74,7 +74,7 @@
       "target": "Jackson-Side Wah Ching",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Tokyo Boyz are allied with Jackson-Side Wah Ching.",
+      "context": "Jackson-Side Wah Ching is listed as an ally of Tokyo Boyz in the infobox.",
       "time_period": null
     }
   ],

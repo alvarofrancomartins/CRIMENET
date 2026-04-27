@@ -4,7 +4,6 @@
       "standard_name": "DeCavalcante crime family",
       "original_text_name": "DeCavalcante crime family",
       "aliases": [
-        "DeCavalcante family",
         "Elizabeth family",
         "North Jersey Mafia",
         "North Jersey crime family",
@@ -35,9 +34,7 @@
     {
       "standard_name": "Gambino crime family",
       "original_text_name": "Gambino family",
-      "aliases": [
-        "Gambino crime family"
-      ],
+      "aliases": [],
       "type": "mafia",
       "context": "One of the Five Families of New York, with strong ties to DeCavalcante.",
       "time_period": "1931-present"
@@ -47,7 +44,7 @@
       "original_text_name": "Philadelphia crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Mafia family based in Philadelphia, with ties to DeCavalcante.",
+      "context": "Mafia family operating in Philadelphia and South Jersey.",
       "time_period": "1910s-present"
     },
     {
@@ -55,8 +52,8 @@
       "original_text_name": "Patriarca crime family of New England",
       "aliases": [],
       "type": "mafia",
-      "context": "Mafia family based in New England, with ties to DeCavalcante.",
-      "time_period": "1910s-present"
+      "context": "Mafia family operating in New England.",
+      "time_period": "1916-present"
     },
     {
       "standard_name": "Sicilian Mafia faction (Newark)",
@@ -65,8 +62,8 @@
         "Sicilians"
       ],
       "type": "faction",
-      "context": "Sicilian faction in Newark, headed by Stefano Badami.",
-      "time_period": "1920s-1931"
+      "context": "Sicilian faction of Italian criminals in Newark, headed by Stefano Badami.",
+      "time_period": "1920s-1930s"
     },
     {
       "standard_name": "Neapolitan faction (Newark)",
@@ -75,23 +72,23 @@
         "Neapolitans"
       ],
       "type": "faction",
-      "context": "Neapolitan faction in Newark, led by Ruggiero Boiardo.",
-      "time_period": "1920s-1931"
-    },
-    {
-      "standard_name": "First Ward gang",
-      "original_text_name": "First Ward gang",
-      "aliases": [],
-      "type": "gang",
-      "context": "Boiardo's gang based in Newark's First Ward.",
+      "context": "Neapolitan faction of Italian criminals in Newark, led by Ruggiero Boiardo.",
       "time_period": "1920s-1930s"
     },
     {
-      "standard_name": "Third Ward gang",
+      "standard_name": "Boiardo's First Ward gang",
+      "original_text_name": "First Ward gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Bootlegging gang led by Ruggiero Boiardo in Newark's First Ward.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "standard_name": "Zwillman's Third Ward gang",
       "original_text_name": "Third Ward gang",
       "aliases": [],
       "type": "gang",
-      "context": "Zwillman's gang based in Newark's Third Ward.",
+      "context": "Bootlegging gang led by Abner Zwillman in Newark's Third Ward.",
       "time_period": "1920s-1930s"
     },
     {
@@ -99,7 +96,7 @@
       "original_text_name": "Castellammarese Mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Sicilian Mafia faction led by Salvatore Maranzano.",
+      "context": "Sicilian Mafia faction led by Salvatore Maranzano during the Castellammarese War.",
       "time_period": "1930-1931"
     },
     {
@@ -107,7 +104,15 @@
       "original_text_name": "Masseria's organization",
       "aliases": [],
       "type": "mafia",
-      "context": "New York Mafia family led by Joe Masseria.",
+      "context": "New York Mafia family led by Joe Masseria until his murder in 1931.",
+      "time_period": "1920s-1931"
+    },
+    {
+      "standard_name": "Badami's Newark family",
+      "original_text_name": "Badami's Newark family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Early Newark Mafia family led by Stefano Badami, later disbanded.",
       "time_period": "1920s-1931"
     },
     {
@@ -115,15 +120,23 @@
       "original_text_name": "Gagliano family",
       "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families, later known as the Lucchese family.",
+      "context": "One of the Five Families of New York, later known as the Lucchese family.",
       "time_period": "1931-present"
+    },
+    {
+      "standard_name": "D'Amico's Newark family",
+      "original_text_name": "D'Amico's family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Short-lived Newark Mafia family led by Gaspare D'Amico after Badami fled.",
+      "time_period": "1931-1937"
     },
     {
       "standard_name": "Profaci crime family",
       "original_text_name": "Profaci family",
       "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families, later known as the Colombo family.",
+      "context": "One of the Five Families of New York, later known as the Colombo family.",
       "time_period": "1931-present"
     },
     {
@@ -133,7 +146,7 @@
         "Genovese crime family"
       ],
       "type": "mafia",
-      "context": "One of the Five Families, led by Lucky Luciano and later Vito Genovese.",
+      "context": "One of the Five Families of New York, with a strong New Jersey faction.",
       "time_period": "1931-present"
     },
     {
@@ -141,15 +154,13 @@
       "original_text_name": "Mangano family",
       "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families, later known as the Gambino family.",
+      "context": "One of the Five Families of New York, later known as the Gambino family.",
       "time_period": "1931-present"
     },
     {
       "standard_name": "Bonanno crime family",
       "original_text_name": "Bonanno family",
-      "aliases": [
-        "Bonanno crime family"
-      ],
+      "aliases": [],
       "type": "mafia",
       "context": "One of the Five Families of New York.",
       "time_period": "1931-present"
@@ -157,38 +168,66 @@
     {
       "standard_name": "Colombo crime family",
       "original_text_name": "Colombo family",
-      "aliases": [
-        "Colombo crime family"
-      ],
+      "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families, formerly Profaci family.",
+      "context": "One of the Five Families of New York, formerly Profaci family.",
       "time_period": "1931-present"
+    },
+    {
+      "standard_name": "Newark family",
+      "original_text_name": "Newark family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Predecessor to the DeCavalcante family, active in Newark in early 20th century.",
+      "time_period": "1920s-1937"
     },
     {
       "standard_name": "Genovese crime family",
       "original_text_name": "Genovese family",
-      "aliases": [
-        "Genovese crime family"
-      ],
-      "type": "mafia",
-      "context": "One of the Five Families of New York; DeCavalcante family was previously affiliated with them.",
-      "time_period": "1890s–present"
-    },
-    {
-      "standard_name": "Lucchese crime family",
-      "original_text_name": "Lucchese crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families of New York; listed as an ally in the infobox.",
-      "time_period": "1920s–present"
+      "context": "One of the Five Families of New York; DeCavalcante family was previously affiliated with them.",
+      "time_period": "c. 1900s–present"
     },
     {
       "standard_name": "Cleveland crime family",
       "original_text_name": "Cleveland crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian American Mafia family based in Cleveland; listed as an ally in the infobox.",
-      "time_period": "1910s–present"
+      "context": "Italian American Mafia family based in Cleveland; listed as ally in infobox.",
+      "time_period": "c. 1900s–present"
+    },
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York; listed as ally in infobox.",
+      "time_period": "c. 1900s–present"
+    },
+    {
+      "standard_name": "Stefano Badami's Newark family",
+      "original_text_name": "Newark family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Early Sicilian Mafia family in Newark led by Stefano Badami; broke apart after 1931.",
+      "time_period": "c. 1920s–1931"
+    },
+    {
+      "standard_name": "Tom Gagliano's family",
+      "original_text_name": "Tom Gagliano's family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "One of the Five Families of New York; members of Badami's family joined its Jersey crew.",
+      "time_period": "c. 1900s–present"
+    },
+    {
+      "standard_name": "Gaspare D'Amico's Newark family",
+      "original_text_name": "Newark family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Short-lived Newark Mafia family under Gaspare D'Amico; ended in 1937 when he fled.",
+      "time_period": "c. 1931–1937"
     }
   ],
   "edges": [
@@ -213,7 +252,7 @@
       "target": "Gambino crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "DeCavalcante has especially strong relations with the Gambino family.",
+      "context": "DeCavalcante has especially strong ties with the Gambino family.",
       "time_period": "1964-present"
     },
     {
@@ -221,7 +260,7 @@
       "target": "Philadelphia crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "DeCavalcante maintains relations with the Philadelphia crime family.",
+      "context": "DeCavalcante maintains strong relations with the Philadelphia family.",
       "time_period": "1964-present"
     },
     {
@@ -229,39 +268,15 @@
       "target": "Patriarca crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "DeCavalcante maintains relations with the Patriarca crime family.",
+      "context": "DeCavalcante maintains strong relations with the Patriarca family.",
       "time_period": "1964-present"
-    },
-    {
-      "source": "Sicilian Mafia faction (Newark)",
-      "target": "Neapolitan faction (Newark)",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "The Sicilian and Neapolitan factions were divided and rival.",
-      "time_period": "1920s-1931"
-    },
-    {
-      "source": "First Ward gang",
-      "target": "Third Ward gang",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Boiardo's First Ward gang waged war against Zwillman's Third Ward gang during the Newark bootleg wars.",
-      "time_period": "1930"
-    },
-    {
-      "source": "Castellammarese Mafia",
-      "target": "Masseria crime family",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "The Castellammarese War was a conflict between Maranzano and Masseria.",
-      "time_period": "1930-1931"
     },
     {
       "source": "Sicilian Mafia faction (Newark)",
       "target": "Castellammarese Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Sicilian boss Badami joined Maranzano's alliance.",
+      "context": "Sicilian boss Badami joined Maranzano's alliance during the Castellammarese War.",
       "time_period": "1930-1931"
     },
     {
@@ -269,48 +284,48 @@
       "target": "Masseria crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Neapolitan boss Boiardo sided with Masseria.",
+      "context": "Neapolitan boss Boiardo sided with Masseria during the Castellammarese War.",
       "time_period": "1930-1931"
     },
     {
-      "source": "Gagliano crime family",
-      "target": "DeCavalcante crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Many members of the disbanded Newark family joined the Gagliano family's Jersey crew.",
-      "time_period": "1931-1937"
-    },
-    {
-      "source": "Profaci crime family",
-      "target": "DeCavalcante crime family",
+      "source": "Boiardo's First Ward gang",
+      "target": "Zwillman's Third Ward gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Profaci family boss Joseph Profaci backed an assassination attempt on Newark boss D'Amico.",
+      "context": "They fought the Newark bootleg wars in 1930 over territory.",
+      "time_period": "1930"
+    },
+    {
+      "source": "Badami's Newark family",
+      "target": "Gagliano crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "After Badami fled, many members joined the Gagliano family's Jersey crew.",
+      "time_period": "1931"
+    },
+    {
+      "source": "D'Amico's Newark family",
+      "target": "Profaci crime family",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Profaci boss Joseph Profaci backed Lombardino's assassination attempt on D'Amico.",
       "time_period": "1937"
     },
     {
-      "source": "Luciano-Genovese crime family",
-      "target": "DeCavalcante crime family",
+      "source": "DeCavalcante crime family",
+      "target": "Colombo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Luciano-Genovese family's New Jersey faction grew in power after the Newark family disbanded.",
-      "time_period": "1937-present"
-    },
-    {
-      "source": "Gambino crime family",
-      "target": "DeCavalcante crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Gambino boss John Gotti influenced DeCavalcante boss Riggi in the mid-1980s.",
-      "time_period": "1980s"
-    },
-    {
-      "source": "Colombo crime family",
-      "target": "DeCavalcante crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "DeCavalcante and Colombo families attended a conclave in 1981 to divide territory in Miami.",
+      "context": "In 1981, bosses of both families attended a conclave to divide Miami territory.",
       "time_period": "1981"
+    },
+    {
+      "source": "DeCavalcante crime family",
+      "target": "Newark family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The DeCavalcante family evolved from the earlier Newark family.",
+      "time_period": "1920s-1937"
     },
     {
       "source": "DeCavalcante crime family",
@@ -325,15 +340,15 @@
       "target": "Bonanno crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Vincent Rotondo maintained close associations with Bonanno family; listed as ally in infobox.",
-      "time_period": null
+      "context": "DeCavalcante capo Vincent Rotondo maintained close associations with Bonanno family.",
+      "time_period": "c. 1900s–present"
     },
     {
       "source": "DeCavalcante crime family",
-      "target": "Colombo crime family",
+      "target": "Cleveland crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Vincent Rotondo had ties to Colombo family; listed as ally in infobox.",
+      "context": "Cleveland crime family listed as ally in infobox.",
       "time_period": null
     },
     {
@@ -341,24 +356,32 @@
       "target": "Lucchese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "Lucchese crime family listed as ally in infobox.",
       "time_period": null
     },
     {
-      "source": "DeCavalcante crime family",
-      "target": "Cleveland crime family",
+      "source": "Stefano Badami's Newark family",
+      "target": "Tom Gagliano's family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
-      "time_period": null
+      "context": "After Badami's family broke apart, many members joined the Jersey crew of Tom Gagliano's family.",
+      "time_period": "1931"
     },
     {
-      "source": "Gambino crime family",
-      "target": "DeCavalcante crime family",
-      "relationship": "rivalry",
+      "source": "Stefano Badami's Newark family",
+      "target": "Gaspare D'Amico's Newark family",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Gambino boss John Gotti allegedly ordered Vincent Rotondo's murder due to his growing power.",
-      "time_period": "1988"
+      "context": "Remaining members of Badami's family united under Gaspare D'Amico after Badami went into hiding.",
+      "time_period": "1931"
+    },
+    {
+      "source": "Gaspare D'Amico's Newark family",
+      "target": "Five Families",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "After D'Amico fled in 1937, remaining members joined the five families of New York.",
+      "time_period": "1937"
     }
   ],
   "source_file": "DeCavalcante_crime_family"

@@ -7,9 +7,9 @@
         "Dixie Mob",
         "Southern Mafia"
       ],
-      "type": "other",
-      "context": "Loosely connected criminal organization based in Biloxi, Mississippi, operating in the Southern US since the 1960s.",
-      "time_period": "c. 1960s-present"
+      "type": "mafia",
+      "context": "Loosely connected criminal organization based in Biloxi, Mississippi, operating in the Southern US from the 1960s to present, involved in various crimes including drug trafficking, murder, and corruption.",
+      "time_period": "c. 1960s–present"
     },
     {
       "standard_name": "Chicago Outfit",
@@ -18,24 +18,24 @@
         "Chicago Outfit"
       ],
       "type": "mafia",
-      "context": "Italian-American crime syndicate based in Chicago, Illinois.",
-      "time_period": "1910s-present"
+      "context": "Italian-American organized crime syndicate based in Chicago, Illinois, involved in various illegal activities.",
+      "time_period": "1910s–present"
     },
     {
       "standard_name": "New Orleans crime family",
       "original_text_name": "New Orleans crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian-American Mafia family based in New Orleans, Louisiana.",
-      "time_period": "1860s-present"
+      "context": "Italian-American Mafia family based in New Orleans, Louisiana, involved in organized crime.",
+      "time_period": "1860s–present"
     },
     {
       "standard_name": "State Line Mob",
       "original_text_name": "State Line Mob",
       "aliases": [],
-      "type": "other",
-      "context": "Criminal organization operating in the Texarkana area, led by Carl Douglas White.",
-      "time_period": "unknown"
+      "type": "mafia",
+      "context": "Criminal organization operating in the Texarkana area, led by Carl Douglas White, involved in bootlegging and other crimes.",
+      "time_period": "1960s–1990s"
     }
   ],
   "edges": [
@@ -44,16 +44,16 @@
       "target": "Chicago Outfit",
       "relationship": "alliance",
       "detail": null,
-      "context": "Dixie Mafia member Kirksey Nix was employed by Darrel Ward, an associate of Chicago Mob boss Sam Giancana.",
-      "time_period": "1960s-1970s"
+      "context": "The Dixie Mafia was allied with the Chicago Outfit, as noted in the infobox.",
+      "time_period": null
     },
     {
       "source": "Dixie Mafia",
       "target": "New Orleans crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Dixie Mafia is listed as an ally of the New Orleans crime family in the infobox.",
-      "time_period": "unknown"
+      "context": "The Dixie Mafia was allied with the New Orleans crime family, as noted in the infobox.",
+      "time_period": null
     },
     {
       "source": "Dixie Mafia",
@@ -61,7 +61,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "The Dixie Mafia was strongly connected to the State Line Mob and its leader Carl Douglas White.",
-      "time_period": "unknown"
+      "time_period": null
     }
   ],
   "source_file": "Dixie_Mafia"

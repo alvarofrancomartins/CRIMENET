@@ -8,7 +8,7 @@
         "San Jose Mafia"
       ],
       "type": "mafia",
-      "context": "Italian American Mafia crime family based in San Jose, California, active from 1940s to 2000s.",
+      "context": "Italian American Mafia crime family based in San Jose, California, active from c. 1940s to 2000s.",
       "time_period": "c. 1940s–2000s"
     },
     {
@@ -16,7 +16,7 @@
       "original_text_name": "Bonanno crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "New York-based Mafia family that also controlled organized crime in San Jose.",
+      "context": "New York-based Mafia family that also controlled organized crime in San Jose alongside the San Jose family.",
       "time_period": null
     },
     {
@@ -26,7 +26,7 @@
         "La Cosa Nostra"
       ],
       "type": "mafia",
-      "context": "Nationwide criminal organization encompassing various crime families including San Jose.",
+      "context": "Nationwide criminal organization of Italian American Mafia families.",
       "time_period": null
     },
     {
@@ -34,7 +34,7 @@
       "original_text_name": "San Francisco crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Mafia family based in San Francisco, allied with San Jose family.",
+      "context": "Mafia family based in San Francisco, allied with the San Jose family.",
       "time_period": null
     },
     {
@@ -42,7 +42,7 @@
       "original_text_name": "Los Angeles crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Mafia family based in Los Angeles, allied with San Jose family.",
+      "context": "Mafia family based in Los Angeles, allied with the San Jose family.",
       "time_period": null
     },
     {
@@ -58,7 +58,7 @@
       "original_text_name": "Chicago Outfit",
       "aliases": [],
       "type": "mafia",
-      "context": "Chicago-based Mafia organization, listed as an ally of the San Jose family.",
+      "context": "Mafia organization based in Chicago, listed as an ally of the San Jose family.",
       "time_period": null
     },
     {
@@ -81,18 +81,18 @@
   "edges": [
     {
       "source": "San Jose crime family",
-      "target": "Bonanno crime family",
+      "target": "American Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both families controlled organized crime in San Jose; Cerrito met with Bonanno underboss in 1964.",
+      "context": "The San Jose family is a component family within the American Mafia.",
       "time_period": null
     },
     {
       "source": "San Jose crime family",
-      "target": "American Mafia",
-      "relationship": "other",
-      "detail": "part of",
-      "context": "San Jose family was one of the families within the American Mafia.",
+      "target": "Bonanno crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both families controlled organized crime in San Jose; they were allies.",
       "time_period": null
     },
     {
@@ -100,7 +100,7 @@
       "target": "San Francisco crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Boss Angelo Marino was close with San Francisco boss James Lanza.",
+      "context": "Allied families; boss Angelo Marino had close connections with San Francisco boss James Lanza.",
       "time_period": null
     },
     {
@@ -108,15 +108,7 @@
       "target": "Los Angeles crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Boss Angelo Marino was close with Los Angeles consigliere Frank Bompensiero.",
-      "time_period": null
-    },
-    {
-      "source": "San Jose crime family",
-      "target": "Pittsburgh crime family",
-      "relationship": "other",
-      "detail": "membership origin",
-      "context": "Several San Jose members (e.g., Angelo Marino's father, Dominic Anzalone, Vito Adragna) were originally from the Pittsburgh family.",
+      "context": "Allied families; Marino was close with Los Angeles consigliere Frank Bompensiero.",
       "time_period": null
     },
     {
@@ -141,6 +133,14 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Listed as an ally in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Pittsburgh crime family",
+      "target": "San Jose crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Several San Jose members (e.g., Angelo Marino's father, Dominic Anzalone, Vito Adragna) were originally from the Pittsburgh family.",
       "time_period": null
     }
   ],

@@ -10,7 +10,7 @@
         "Mob Piru Bloods"
       ],
       "type": "gang",
-      "context": "A set of the Piru gang alliance and part of the Bloods alliance, involved in drug trafficking, arms dealing, and robbery in East Compton.",
+      "context": "A set of the Piru gang alliance and part of the Bloods alliance, active in East Compton, involved in drug trafficking, arms dealing, and robbery.",
       "time_period": "1970s-present"
     },
     {
@@ -18,7 +18,7 @@
       "original_text_name": "Piru Street Boys",
       "aliases": [],
       "type": "gang",
-      "context": "Founding gang of the Bloods alliance, initially associated with Crips but later opposed them.",
+      "context": "Founded in 1969 by Sylvester Scott and Vincent Owens, initially associated with Crips but later formed the Bloods alliance.",
       "time_period": "1969-1972"
     },
     {
@@ -26,7 +26,7 @@
       "original_text_name": "Bloods",
       "aliases": [],
       "type": "gang",
-      "context": "An alliance of street gangs formed in 1972, including Piru Street Boys, Brims, Bishops, and Denver Lanes.",
+      "context": "An alliance of street gangs formed in 1972, including Piru Street Boys, Brims, Bishops, and Denver Lanes, opposing the Crips.",
       "time_period": "1972-present"
     },
     {
@@ -42,7 +42,7 @@
       "original_text_name": "Brims",
       "aliases": [],
       "type": "gang",
-      "context": "One of the smaller street gangs that allied with Piru Street Boys to form the Bloods.",
+      "context": "A street gang that allied with Piru Street Boys to form the Bloods.",
       "time_period": "1972-present"
     },
     {
@@ -50,7 +50,7 @@
       "original_text_name": "Bishops",
       "aliases": [],
       "type": "gang",
-      "context": "One of the smaller street gangs that allied with Piru Street Boys to form the Bloods.",
+      "context": "A street gang that allied with Piru Street Boys to form the Bloods.",
       "time_period": "1972-present"
     },
     {
@@ -58,7 +58,7 @@
       "original_text_name": "Denver Lanes",
       "aliases": [],
       "type": "gang",
-      "context": "One of the smaller street gangs that allied with Piru Street Boys to form the Bloods.",
+      "context": "A street gang that allied with Piru Street Boys to form the Bloods.",
       "time_period": "1972-present"
     },
     {
@@ -66,15 +66,15 @@
       "original_text_name": "Lueders Park Piru",
       "aliases": [],
       "type": "gang",
-      "context": "A Piru set that was originally one gang with Mob Piru before splitting, later became rivals.",
-      "time_period": "unknown-present"
+      "context": "A Piru set that was previously one gang with Mob Piru, later split and became rivals.",
+      "time_period": "1970s-present"
     },
     {
       "standard_name": "Death Row Records",
       "original_text_name": "Death Row Records",
       "aliases": [],
       "type": "other",
-      "context": "A record label co-founded by Suge Knight, affiliated with Mob Piru and employed many members.",
+      "context": "A record label co-founded by Suge Knight, affiliated with Mob Piru and employed many of its members.",
       "time_period": "1992-present"
     },
     {
@@ -91,7 +91,7 @@
       "aliases": [],
       "type": "gang",
       "context": "An ally of Mob Piru according to the infobox.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "standard_name": "South Side Compton Crips",
@@ -99,7 +99,7 @@
       "aliases": [],
       "type": "gang",
       "context": "A rival of Mob Piru according to the infobox.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "standard_name": "Santana Blocc Compton Crips",
@@ -107,7 +107,7 @@
       "aliases": [],
       "type": "gang",
       "context": "A rival of Mob Piru according to the infobox.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "standard_name": "Cross Atlantic Piru",
@@ -115,31 +115,31 @@
       "aliases": [],
       "type": "gang",
       "context": "A rival of Mob Piru according to the infobox.",
-      "time_period": "unknown"
+      "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Mob Piru",
       "target": "Piru Street Boys",
-      "relationship": "other",
-      "detail": "descendant",
-      "context": "Mob Piru is a set that evolved from the Piru Street Boys alliance.",
-      "time_period": null
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mob Piru is a set of the Piru gang alliance, which originated from Piru Street Boys.",
+      "time_period": "1970s-present"
     },
     {
       "source": "Mob Piru",
       "target": "Bloods",
       "relationship": "alliance",
       "detail": null,
-      "context": "Mob Piru is a set within the Bloods alliance.",
+      "context": "Mob Piru is part of the larger Bloods alliance.",
       "time_period": "1970s-present"
     },
     {
       "source": "Piru Street Boys",
       "target": "Crips",
       "relationship": "other",
-      "detail": "former association",
+      "detail": "initial association then falling out",
       "context": "Piru Street Boys were initially associated with Crips but later had a falling out.",
       "time_period": "1969-1972"
     },
@@ -149,22 +149,22 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Piru Street Boys formed the Bloods alliance with Brims, Bishops, and Denver Lanes.",
-      "time_period": "1972-present"
+      "time_period": "1972"
     },
     {
       "source": "Mob Piru",
       "target": "Lueders Park Piru",
-      "relationship": "other",
-      "detail": "former unity",
-      "context": "Mob Piru and Lueders Park Piru were previously one gang until they split.",
-      "time_period": "before split"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mob Piru and Lueders Park Piru were previously one gang, and initially allies.",
+      "time_period": "before 2009"
     },
     {
       "source": "Mob Piru",
       "target": "Lueders Park Piru",
       "relationship": "rivalry",
       "detail": null,
-      "context": "A rivalry developed after a Lueders Park Piru member was murdered in 2009, leading to shootings.",
+      "context": "A rivalry developed after a Lueders Park Piru member was murdered in April 2009, leading to shootings between 2009 and 2013.",
       "time_period": "2009-2013"
     },
     {
@@ -172,7 +172,7 @@
       "target": "Death Row Records",
       "relationship": "alliance",
       "detail": null,
-      "context": "Death Row Records, co-founded by Suge Knight, employed many Mob Piru members.",
+      "context": "Mob Piru members were hired by Death Row Records and Suge Knight was an affiliate.",
       "time_period": "1990s"
     },
     {

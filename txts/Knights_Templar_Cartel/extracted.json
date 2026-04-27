@@ -6,10 +6,10 @@
       "aliases": [
         "Los Caballeros Templarios",
         "Caballeros Templarios",
-        "Templars"
+        "Knights Templar"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel based in Michoacán, involved in drug trafficking, extortion, and murder.",
+      "context": "Mexican drug cartel based in Michoacán, involved in drug trafficking, extortion, and other crimes.",
       "time_period": "2010-2017"
     },
     {
@@ -19,15 +19,26 @@
         "Familia Michoacana"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel that splintered, with remnants forming the Knights Templar.",
-      "time_period": "2000s-2010s"
+      "context": "Mexican drug cartel that was the predecessor of the Knights Templar Cartel.",
+      "time_period": "2006-2011"
+    },
+    {
+      "standard_name": "Cárteles Unidos",
+      "original_text_name": "Cárteles Unidos",
+      "aliases": [
+        "La Resistencia",
+        "United Cartels"
+      ],
+      "type": "gang",
+      "context": "Short-lived joint enforcer gang formed by Sinaloa, Gulf, La Familia Michoacana, and Knights Templar to fight Los Zetas.",
+      "time_period": "2010-2011"
     },
     {
       "standard_name": "Sinaloa Cartel",
       "original_text_name": "Sinaloa Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Major Mexican drug cartel, allied with Knights Templar in Cárteles Unidos.",
+      "context": "Mexican drug cartel, ally of Knights Templar and member of Cárteles Unidos.",
       "time_period": "1990s-present"
     },
     {
@@ -35,18 +46,8 @@
       "original_text_name": "Gulf Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel, allied with Knights Templar in Cárteles Unidos.",
+      "context": "Mexican drug cartel, ally of Knights Templar and member of Cárteles Unidos.",
       "time_period": "1930s-present"
-    },
-    {
-      "standard_name": "Cárteles Unidos",
-      "original_text_name": "Cárteles Unidos",
-      "aliases": [
-        "La Resistencia"
-      ],
-      "type": "other",
-      "context": "Short-lived joint enforcer gang formed by Sinaloa, Gulf, La Familia, and Knights Templar.",
-      "time_period": "2010-2011"
     },
     {
       "standard_name": "Los Zetas",
@@ -55,7 +56,7 @@
         "Los Zetas"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel, rival of Cárteles Unidos and Knights Templar.",
+      "context": "Mexican drug cartel, rival of Knights Templar and target of Cárteles Unidos.",
       "time_period": "1999-present"
     },
     {
@@ -65,7 +66,7 @@
         "CJNG"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel, rival and later potential ally of Knights Templar.",
+      "context": "Mexican drug cartel, rival of Knights Templar and later active in Michoacán.",
       "time_period": "2009-present"
     },
     {
@@ -73,7 +74,7 @@
       "original_text_name": "La Nueva Familia Michoacana Organization",
       "aliases": [],
       "type": "cartel",
-      "context": "Splinter group that killed Knights Templar leaders.",
+      "context": "Splinter group that killed Knights Templar leaders and fought for control in Michoacán.",
       "time_period": "2010s-present"
     },
     {
@@ -81,7 +82,7 @@
       "original_text_name": "Cartel del Abuelo",
       "aliases": [],
       "type": "cartel",
-      "context": "Active cartel in Michoacán after Knights Templar collapse.",
+      "context": "Active cartel in Michoacán after the fall of Knights Templar.",
       "time_period": "2010s-present"
     },
     {
@@ -89,7 +90,7 @@
       "original_text_name": "Los Viagras",
       "aliases": [],
       "type": "cartel",
-      "context": "Active cartel in Michoacán after Knights Templar collapse.",
+      "context": "Active cartel in Michoacán after the fall of Knights Templar.",
       "time_period": "2010s-present"
     },
     {
@@ -97,7 +98,7 @@
       "original_text_name": "Beltrán-Leyva Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel, listed as ally of Knights Templar.",
+      "context": "Mexican drug cartel listed as an ally of Knights Templar in the infobox.",
       "time_period": "2008-2014"
     },
     {
@@ -105,8 +106,8 @@
       "original_text_name": "Juarez Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel, listed as rival of Knights Templar.",
-      "time_period": "1980s-present"
+      "context": "Mexican drug cartel listed as a rival of Knights Templar in the infobox.",
+      "time_period": "1970s-present"
     },
     {
       "standard_name": "MS-13",
@@ -115,70 +116,56 @@
         "Mara Salvatrucha"
       ],
       "type": "gang",
-      "context": "International street gang, listed as rival of Knights Templar.",
+      "context": "Transnational gang listed as a rival of Knights Templar in the infobox.",
       "time_period": "1980s-present"
     },
     {
       "standard_name": "Gente Nueva",
       "original_text_name": "Gente Nueva",
       "aliases": [],
-      "type": "cartel",
-      "context": "Sinaloa Cartel enforcer group, listed as rival of Knights Templar.",
-      "time_period": "2000s-2010s"
+      "type": "gang",
+      "context": "Armed wing of the Sinaloa Cartel, listed as a rival of Knights Templar in the infobox.",
+      "time_period": "2000s-present"
     }
   ],
   "edges": [
     {
       "source": "Knights Templar Cartel",
       "target": "La Familia Michoacana",
-      "relationship": "other",
-      "detail": "splintered from",
-      "context": "Knights Templar formed from remnants of La Familia Michoacana after a split.",
-      "time_period": "2010"
-    },
-    {
-      "source": "Knights Templar Cartel",
-      "target": "Sinaloa Cartel",
       "relationship": "alliance",
-      "context": "Allied in Cárteles Unidos to fight Los Zetas.",
-      "time_period": "2010-2011"
-    },
-    {
-      "source": "Knights Templar Cartel",
-      "target": "Gulf Cartel",
-      "relationship": "alliance",
-      "context": "Allied in Cárteles Unidos to fight Los Zetas.",
+      "detail": null,
+      "context": "Knights Templar formed from remnants of La Familia Michoacana and took over its operations.",
       "time_period": "2010-2011"
     },
     {
       "source": "Knights Templar Cartel",
       "target": "Cárteles Unidos",
-      "relationship": "other",
-      "detail": "member of",
-      "context": "Knights Templar was a member of the Cárteles Unidos alliance.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Knights Templar was a member of the short-lived joint enforcer gang Cárteles Unidos.",
       "time_period": "2010-2011"
     },
     {
       "source": "Sinaloa Cartel",
       "target": "Cárteles Unidos",
-      "relationship": "other",
-      "detail": "member of",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Sinaloa Cartel was a member of Cárteles Unidos.",
       "time_period": "2010-2011"
     },
     {
       "source": "Gulf Cartel",
       "target": "Cárteles Unidos",
-      "relationship": "other",
-      "detail": "member of",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Gulf Cartel was a member of Cárteles Unidos.",
       "time_period": "2010-2011"
     },
     {
       "source": "La Familia Michoacana",
       "target": "Cárteles Unidos",
-      "relationship": "other",
-      "detail": "member of",
+      "relationship": "alliance",
+      "detail": null,
       "context": "La Familia Michoacana was a member of Cárteles Unidos.",
       "time_period": "2010-2011"
     },
@@ -186,64 +173,89 @@
       "source": "Cárteles Unidos",
       "target": "Los Zetas",
       "relationship": "rivalry",
-      "context": "Cárteles Unidos was formed to fight Los Zetas.",
-      "time_period": "2010-2011"
-    },
-    {
-      "source": "Knights Templar Cartel",
-      "target": "Los Zetas",
-      "relationship": "rivalry",
-      "context": "Knights Templar fought Los Zetas as part of Cárteles Unidos.",
+      "detail": null,
+      "context": "Cárteles Unidos was formed to kill and expel Los Zetas from Michoacán and Jalisco.",
       "time_period": "2010-2011"
     },
     {
       "source": "Knights Templar Cartel",
       "target": "Jalisco New Generation Cartel",
       "relationship": "rivalry",
-      "context": "Knights Templar feuded with CJNG over control of Jalisco and Michoacán.",
-      "time_period": "2010-2015"
+      "detail": null,
+      "context": "Knights Templar feuded with Jalisco New Generation Cartel over control of Jalisco and Michoacán.",
+      "time_period": "2010-2017"
     },
     {
       "source": "Knights Templar Cartel",
       "target": "La Nueva Familia Michoacana Organization",
       "relationship": "rivalry",
-      "context": "La Nueva Familia Michoacana killed Knights Templar leaders.",
+      "detail": null,
+      "context": "La Nueva Familia Michoacana killed Knights Templar leaders, contributing to the cartel's end.",
       "time_period": "2017"
+    },
+    {
+      "source": "Knights Templar Cartel",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sinaloa Cartel is listed as an ally of Knights Templar in the infobox.",
+      "time_period": "2010-2017"
+    },
+    {
+      "source": "Knights Templar Cartel",
+      "target": "Gulf Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Gulf Cartel is listed as an ally of Knights Templar in the infobox.",
+      "time_period": "2010-2017"
     },
     {
       "source": "Knights Templar Cartel",
       "target": "Beltrán-Leyva Cartel",
       "relationship": "alliance",
-      "context": "Listed as ally in infobox.",
-      "time_period": null
+      "detail": null,
+      "context": "Beltrán-Leyva Cartel is listed as an ally of Knights Templar in the infobox.",
+      "time_period": "2010-2017"
     },
     {
       "source": "Knights Templar Cartel",
       "target": "Juarez Cartel",
       "relationship": "rivalry",
-      "context": "Listed as rival in infobox.",
-      "time_period": null
+      "detail": null,
+      "context": "Juarez Cartel is listed as a rival of Knights Templar in the infobox.",
+      "time_period": "2010-2017"
     },
     {
       "source": "Knights Templar Cartel",
       "target": "MS-13",
       "relationship": "rivalry",
-      "context": "Listed as rival in infobox.",
-      "time_period": null
+      "detail": null,
+      "context": "MS-13 is listed as a rival of Knights Templar in the infobox.",
+      "time_period": "2010-2017"
+    },
+    {
+      "source": "Knights Templar Cartel",
+      "target": "Los Zetas",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Zetas is listed as a rival of Knights Templar in the infobox.",
+      "time_period": "2010-2017"
     },
     {
       "source": "Knights Templar Cartel",
       "target": "Gente Nueva",
       "relationship": "rivalry",
-      "context": "Listed as rival in infobox.",
-      "time_period": null
+      "detail": null,
+      "context": "Gente Nueva is listed as a rival of Knights Templar in the infobox.",
+      "time_period": "2010-2017"
     },
     {
       "source": "Knights Templar Cartel",
       "target": "La Familia Michoacana",
       "relationship": "rivalry",
-      "context": "After split, Knights Templar fought La Familia Michoacana for control of Michoacán.",
-      "time_period": "2010-2011"
+      "detail": null,
+      "context": "After the split, La Familia Michoacana and Knights Templar fought for control of Michoacán.",
+      "time_period": "2011-2017"
     }
   ],
   "source_file": "Knights_Templar_Cartel"

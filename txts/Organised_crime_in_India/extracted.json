@@ -11,7 +11,9 @@
     {
       "standard_name": "Chotta Rajan Gang",
       "original_text_name": "Chotta Rajan",
-      "aliases": [],
+      "aliases": [
+        "Chhota Rajan"
+      ],
       "type": "other",
       "context": "Major crime syndicate based in Mumbai, led by Chotta Rajan, involved in extortion, murder, smuggling, drug trafficking.",
       "time_period": "1980s-present"
@@ -29,7 +31,7 @@
       "original_text_name": "Haji Mastan",
       "aliases": [],
       "type": "other",
-      "context": "Bombay-based Tamil mobster involved in smuggling gold, silver, electronic goods, and Bollywood film production.",
+      "context": "Bombay-based smuggling gang led by Haji Mastan, involved in gold, silver, and electronic goods smuggling, and Bollywood financing.",
       "time_period": "1940s-1980s"
     },
     {
@@ -40,7 +42,7 @@
         "Vardhabhai"
       ],
       "type": "other",
-      "context": "Bombay-based Tamil mobster involved in illicit liquor, dock cargo theft, contract killings, narcotics.",
+      "context": "Bombay-based Tamil mobster gang involved in dock cargo theft, contract killings, and narcotics trade.",
       "time_period": "1960s-1980"
     },
     {
@@ -51,7 +53,7 @@
         "Pathan mafia"
       ],
       "type": "other",
-      "context": "Crime syndicate of ethnic Pashtuns involved in hashish trafficking, protection rackets, extortion, gambling, gold smuggling, contract killings.",
+      "context": "Crime syndicate of ethnic Pashtuns operating in Bombay docks, involved in hashish trafficking, extortion, gold smuggling, contract killings.",
       "time_period": "1940-1985"
     },
     {
@@ -61,7 +63,7 @@
         "Kachcha Baniyan Gangs"
       ],
       "type": "gang",
-      "context": "Criminal groups operating in parts of India, known for wearing only underwear during robberies.",
+      "context": "Criminal groups in India that rob houses while wearing only underwear, covering themselves in oil or mud.",
       "time_period": null
     },
     {
@@ -72,39 +74,39 @@
         "Kale Kachche Gangs"
       ],
       "type": "gang",
-      "context": "Organized criminal gangs in Punjab, India, robbers and dacoits who wear police uniform or black underpants.",
+      "context": "Organized criminal gangs in Punjab, India, who wear police uniform or black underpants to evade detection during robberies.",
       "time_period": null
     },
     {
       "standard_name": "Indian mafia",
       "original_text_name": "Indian mafia",
       "aliases": [],
-      "type": "other",
-      "context": "Umbrella term for organized crime groups in India, involved in various criminal activities.",
+      "type": "mafia",
+      "context": "General term for organized crime groups in India, involved in various criminal activities across multiple countries.",
       "time_period": "1940s-present"
     },
     {
       "standard_name": "Afghan mafia",
       "original_text_name": "Afghan mafia",
       "aliases": [],
-      "type": "other",
-      "context": "Organized crime groups from Afghanistan, involved in drug trafficking and smuggling.",
+      "type": "mafia",
+      "context": "Criminal groups from Afghanistan involved in drug trafficking and smuggling.",
       "time_period": null
     },
     {
       "standard_name": "Canadian mafia",
       "original_text_name": "Canadian mafia",
       "aliases": [],
-      "type": "other",
-      "context": "Organized crime groups in Canada, involved in various criminal activities.",
+      "type": "mafia",
+      "context": "Organized crime groups in Canada, including Italian Mafia families and other syndicates.",
       "time_period": null
     },
     {
       "standard_name": "Pakistani mafia",
       "original_text_name": "Pakistani mafia",
       "aliases": [],
-      "type": "other",
-      "context": "Organized crime groups from Pakistan, involved in drug trafficking and smuggling.",
+      "type": "mafia",
+      "context": "Criminal organizations based in Pakistan, involved in drug trafficking and smuggling.",
       "time_period": null
     }
   ],
@@ -112,17 +114,17 @@
     {
       "source": "Chotta Rajan Gang",
       "target": "D-Company",
-      "relationship": "other",
-      "detail": "former lieutenant",
-      "context": "Chotta Rajan was a former key aide and lieutenant of Dawood Ibrahim, leader of D-Company.",
-      "time_period": "before 1988"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Chotta Rajan was a former key aide and lieutenant of Dawood Ibrahim, operating under D-Company before fleeing India.",
+      "time_period": "1980s-1988"
     },
     {
       "source": "Haji Mastan Gang",
       "target": "Karim Lala Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Haji Mastan worked in association with Karim Lala.",
+      "context": "Haji Mastan worked in association with Karim Lala in smuggling operations.",
       "time_period": "1940s-1960s"
     },
     {
@@ -130,7 +132,7 @@
       "target": "Haji Mastan Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Varadarajan Mudaliar operated in tandem with Haji Mastan, venturing into stealing dock cargo.",
+      "context": "Varadarajan Mudaliar operated in tandem with Haji Mastan in stealing dock cargo.",
       "time_period": "1960s-1970s"
     },
     {

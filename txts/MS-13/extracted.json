@@ -31,7 +31,7 @@
         "Sinaloa Cartel"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel that recruited MS-13 members to battle Los Zetas.",
+      "context": "Mexican drug cartel that recruited MS-13 members to fight Los Zetas.",
       "time_period": null
     },
     {
@@ -41,7 +41,7 @@
         "Los Zetas"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel, rival of Sinaloa Cartel, fought by MS-13 members recruited by Sinaloa.",
+      "context": "Mexican drug cartel, rival of Sinaloa Cartel, fought by MS-13 members.",
       "time_period": null
     },
     {
@@ -80,7 +80,7 @@
       "original_text_name": "Florencia 13",
       "aliases": [],
       "type": "gang",
-      "context": "Sureño gang expanding alongside MS-13 and 18th Street.",
+      "context": "Sureño gang mentioned as expanding alongside MS-13 and 18th Street.",
       "time_period": null
     },
     {
@@ -134,15 +134,17 @@
       "original_text_name": "Norteños",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to MS-13, associated with red clothing.",
+      "context": "Rival gang to MS-13, often mistaken due to red clothing.",
       "time_period": null
     },
     {
       "standard_name": "Tiny Rascal Gang",
       "original_text_name": "Tiny Rascal Gang",
-      "aliases": [],
+      "aliases": [
+        "TRG"
+      ],
       "type": "gang",
-      "context": "Rival gang to MS-13.",
+      "context": "Asian-American street gang rival of MS-13.",
       "time_period": null
     }
   ],
@@ -156,19 +158,19 @@
       "time_period": null
     },
     {
-      "source": "Sinaloa Cartel",
-      "target": "MS-13",
+      "source": "MS-13",
+      "target": "Sinaloa Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Sinaloa Cartel recruited MS-13 members to battle Los Zetas.",
+      "context": "MS-13 members were recruited by the Sinaloa Cartel to battle Los Zetas.",
       "time_period": null
     },
     {
-      "source": "Sinaloa Cartel",
+      "source": "MS-13",
       "target": "Los Zetas",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Sinaloa Cartel battled Los Zetas in the Mexican drug war.",
+      "context": "MS-13 members fought against Los Zetas as part of Sinaloa Cartel's forces.",
       "time_period": null
     },
     {
@@ -184,7 +186,7 @@
       "target": "18th Street Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Longtime rivalry; initially friendly but fell apart after a fight over a girl in 1989, leading to cycle of vengeance.",
+      "context": "Longtime rivalry; initially friendly but fell apart after a 1989 fight over a girl, leading to cycle of vengeance.",
       "time_period": "1989-present"
     },
     {
@@ -192,23 +194,23 @@
       "target": "18th Street Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Initially friendly as they were among the only gangs allowing Salvadorans to join.",
-      "time_period": "1980s-1989"
-    },
-    {
-      "source": "Mara Salvatrucha",
-      "target": "Florencia 13",
-      "relationship": "other",
-      "detail": "co-expansion",
-      "context": "Both are Sureño gangs expanding faster than other national-level gangs.",
-      "time_period": null
+      "context": "Brief truce in early 2010s under President Funes, reducing homicides but allowing gangs to strengthen.",
+      "time_period": "2012-2014"
     },
     {
       "source": "Mara Salvatrucha",
       "target": "Sureños",
       "relationship": "alliance",
       "detail": null,
-      "context": "MS-13 is affiliated with the Sureño coalition of gangs.",
+      "context": "MS-13 is affiliated with the Sureño coalition.",
+      "time_period": null
+    },
+    {
+      "source": "Sureños",
+      "target": "Mexican Mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sureños pay tribute to the Mexican Mafia.",
       "time_period": null
     },
     {
@@ -224,7 +226,7 @@
       "target": "Los Zetas",
       "relationship": "alliance",
       "detail": null,
-      "context": "MS-13 leaders brokered deals with the Zetas to obtain narcotics and firearms.",
+      "context": "MS-13 leaders brokered deals with the Zetas for narcotics and firearms.",
       "time_period": null
     },
     {
@@ -232,7 +234,7 @@
       "target": "Gulf Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "MS-13 leaders brokered deals with the Gulf cartel to obtain narcotics and firearms.",
+      "context": "MS-13 leaders brokered deals with the Gulf Cartel for narcotics and firearms.",
       "time_period": null
     },
     {
@@ -240,7 +242,7 @@
       "target": "Jalisco New Generation Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "MS-13 leaders brokered deals with the Jalisco New Generation cartel to obtain narcotics and firearms.",
+      "context": "MS-13 leaders brokered deals with the Jalisco New Generation Cartel for narcotics and firearms.",
       "time_period": null
     },
     {
@@ -248,7 +250,7 @@
       "target": "Sinaloa Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "MS-13 leaders brokered deals with the Sinaloa cartel to obtain narcotics and firearms.",
+      "context": "MS-13 leaders brokered deals with the Sinaloa Cartel for narcotics and firearms.",
       "time_period": null
     },
     {
@@ -256,7 +258,7 @@
       "target": "Bloods",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Bloods are listed as a rival gang to MS-13.",
+      "context": "MS-13 considers the Bloods a rival gang.",
       "time_period": null
     },
     {
@@ -264,7 +266,7 @@
       "target": "Latin Kings",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Latin Kings are listed as a rival gang to MS-13.",
+      "context": "MS-13 considers the Latin Kings a rival gang.",
       "time_period": null
     },
     {

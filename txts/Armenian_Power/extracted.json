@@ -31,14 +31,14 @@
       ],
       "type": "gang",
       "context": "Southern California street gangs allied with the Mexican Mafia, historically in conflict with Armenian Power.",
-      "time_period": "1960s-present"
+      "time_period": "1970s-present"
     },
     {
       "standard_name": "White Fence",
       "original_text_name": "White Fence",
       "aliases": [],
       "type": "gang",
-      "context": "Sureño gang from East Los Angeles; member Jose Argueta killed Armenian Power founder.",
+      "context": "Sureño gang in Los Angeles; member Jose Argueta killed Armenian Power founder Armen Petrosyan.",
       "time_period": "1940s-present"
     },
     {
@@ -56,7 +56,7 @@
         "Russian mafia"
       ],
       "type": "mafia",
-      "context": "Russian criminal groups with ties to Armenian Power.",
+      "context": "Russian criminal groups with ties to Armenian Power according to a 1996 report.",
       "time_period": "1980s-present"
     },
     {
@@ -64,7 +64,7 @@
       "original_text_name": "Italian-American Mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Allied with Armenian Power according to infobox.",
+      "context": "Allied with Armenian Power according to the infobox.",
       "time_period": "1900s-present"
     },
     {
@@ -72,15 +72,15 @@
       "original_text_name": "Lebanese mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Allied with Armenian Power according to infobox.",
-      "time_period": "unknown"
+      "context": "Allied with Armenian Power according to the infobox.",
+      "time_period": null
     },
     {
       "standard_name": "Cachiros",
       "original_text_name": "Cachiros",
       "aliases": [],
       "type": "cartel",
-      "context": "Honduran drug trafficking organization; allied with Armenian Power according to infobox.",
+      "context": "Honduran drug trafficking organization allied with Armenian Power according to the infobox.",
       "time_period": "2000s-present"
     },
     {
@@ -88,16 +88,16 @@
       "original_text_name": "Vineland Boys",
       "aliases": [],
       "type": "gang",
-      "context": "Los Angeles street gang; allied with Armenian Power according to infobox.",
-      "time_period": "1970s-present"
+      "context": "Los Angeles street gang allied with Armenian Power according to the infobox.",
+      "time_period": null
     },
     {
       "standard_name": "Toonerville Rifa 13",
       "original_text_name": "Toonerville Rifa 13",
       "aliases": [],
       "type": "gang",
-      "context": "Sureño gang; rival of Armenian Power according to infobox.",
-      "time_period": "1960s-present"
+      "context": "Los Angeles street gang that is a rival of Armenian Power according to the infobox.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -112,18 +112,18 @@
     {
       "source": "Armenian Power",
       "target": "Sureños",
-      "relationship": "rivalry",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Armenian Power had a history of conflict with Sureño gangs, including driveby murders and a killing of a founder by a Sureño member.",
-      "time_period": "1990s-2000s"
+      "context": "After a history of conflict, Armenian Power now works with Sureños under Mexican Mafia's control.",
+      "time_period": "2010s-present"
     },
     {
       "source": "Armenian Power",
       "target": "Sureños",
-      "relationship": "alliance",
+      "relationship": "rivalry",
       "detail": null,
-      "context": "After the conflict ended, Sureños now work together with Armenian Power and Mexican Mafia to control and extort protection money.",
-      "time_period": "2010s-present"
+      "context": "Armenian Power had a history of conflict with Sureño gangs, including the murder of founder Armen Petrosyan by a White Fence member.",
+      "time_period": "1990s-2000s"
     },
     {
       "source": "Armenian Power",
@@ -138,7 +138,7 @@
       "target": "Armenian Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Armenian Power is closely connected to and considered part of the larger Armenian mafia.",
+      "context": "Armenian Power is considered part of the larger Armenian mafia.",
       "time_period": "1990s-present"
     },
     {
@@ -146,7 +146,7 @@
       "target": "Russian Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Armenian Power has strong ties to Russian organized crime and deals directly with high-level Russian crime figures.",
+      "context": "Armenian Power has strong ties to Russian organized crime according to a 1996 report.",
       "time_period": "1990s-present"
     },
     {

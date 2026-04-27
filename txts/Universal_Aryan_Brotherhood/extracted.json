@@ -4,8 +4,8 @@
       "standard_name": "Universal Aryan Brotherhood",
       "original_text_name": "Universal Aryan Brotherhood",
       "aliases": [
-        "Universal Family",
-        "UAB"
+        "UAB",
+        "Universal Family"
       ],
       "type": "gang",
       "context": "Neo-Nazi white supremacist prison gang based in Oklahoma, active in federal and state prisons across the US.",
@@ -16,7 +16,7 @@
       "original_text_name": "Aryan Brotherhood",
       "aliases": [],
       "type": "gang",
-      "context": "Original Aryan Brotherhood prison gang, which the UAB modeled itself after but has no connection to.",
+      "context": "Original Aryan Brotherhood prison gang, but no connection to UAB.",
       "time_period": null
     },
     {
@@ -32,7 +32,7 @@
       "original_text_name": "Aryan Brotherhood of Texas",
       "aliases": [],
       "type": "gang",
-      "context": "White supremacist prison gang operating in Texas, similar to UAB.",
+      "context": "White supremacist prison gang operating in Texas.",
       "time_period": null
     },
     {
@@ -40,7 +40,7 @@
       "original_text_name": "Soldiers of Aryan Culture",
       "aliases": [],
       "type": "gang",
-      "context": "White supremacist prison gang, operates both inside and outside prison walls.",
+      "context": "White supremacist prison gang operating in the US.",
       "time_period": null
     },
     {
@@ -70,69 +70,37 @@
       "time_period": null
     },
     {
-      "standard_name": "Aryan Circle",
-      "original_text_name": "Aryan Circle",
-      "aliases": [],
-      "type": "gang",
-      "context": "White supremacist prison gang, rival of UAB.",
-      "time_period": null
-    },
-    {
       "standard_name": "Aryan Brotherhood of Mississippi",
       "original_text_name": "Aryan Brotherhood of Mississippi",
       "aliases": [],
       "type": "gang",
       "context": "White supremacist prison gang, ally of UAB.",
       "time_period": null
+    },
+    {
+      "standard_name": "Aryan Circle",
+      "original_text_name": "Aryan Circle",
+      "aliases": [],
+      "type": "gang",
+      "context": "White supremacist prison gang, rival of UAB.",
+      "time_period": null
     }
   ],
   "edges": [
     {
-      "source": "Universal Aryan Brotherhood",
-      "target": "Aryan Brotherhood",
-      "relationship": "other",
-      "detail": "no connection",
-      "context": "UAB modeled itself after Aryan Brotherhood but has no connection to it.",
-      "time_period": null
-    },
-    {
-      "source": "Universal Aryan Brotherhood",
-      "target": "United Aryan Brotherhood",
-      "relationship": "other",
-      "detail": "unrelated",
-      "context": "UAB is unrelated to the United Aryan Brotherhood.",
-      "time_period": null
-    },
-    {
-      "source": "Universal Aryan Brotherhood",
-      "target": "UAB 21 WoodGrain",
-      "relationship": "other",
-      "detail": "subset",
+      "source": "UAB 21 WoodGrain",
+      "target": "Universal Aryan Brotherhood",
+      "relationship": "alliance",
+      "detail": null,
       "context": "UAB 21 WoodGrain is a subset of the Universal Aryan Brotherhood.",
       "time_period": null
     },
     {
-      "source": "Universal Aryan Brotherhood",
-      "target": "UAB Universal Family",
-      "relationship": "other",
-      "detail": "subset",
+      "source": "UAB Universal Family",
+      "target": "Universal Aryan Brotherhood",
+      "relationship": "alliance",
+      "detail": null,
       "context": "UAB Universal Family is a subset of the Universal Aryan Brotherhood.",
-      "time_period": null
-    },
-    {
-      "source": "Universal Aryan Brotherhood",
-      "target": "Irish Mob",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "UAB killed 6 members of the Irish Mob in an ongoing war between both gangs.",
-      "time_period": "around September 2015"
-    },
-    {
-      "source": "Universal Aryan Brotherhood",
-      "target": "Aryan Circle",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Aryan Circle is listed as a rival of UAB.",
       "time_period": null
     },
     {
@@ -140,7 +108,23 @@
       "target": "Aryan Brotherhood of Mississippi",
       "relationship": "alliance",
       "detail": null,
-      "context": "Aryan Brotherhood of Mississippi is listed as an ally of UAB.",
+      "context": "UAB is allied with the Aryan Brotherhood of Mississippi.",
+      "time_period": null
+    },
+    {
+      "source": "Universal Aryan Brotherhood",
+      "target": "Irish Mob",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "UAB is at war with the Irish Mob, resulting in multiple killings.",
+      "time_period": null
+    },
+    {
+      "source": "Universal Aryan Brotherhood",
+      "target": "Aryan Circle",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "UAB is a rival of the Aryan Circle.",
       "time_period": null
     }
   ],

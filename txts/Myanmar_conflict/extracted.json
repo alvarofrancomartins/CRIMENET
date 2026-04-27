@@ -1,24 +1,14 @@
 {
   "nodes": [
     {
-      "standard_name": "Tatmadaw",
-      "original_text_name": "Tatmadaw",
-      "aliases": [
-        "Myanmar Armed Forces"
-      ],
-      "type": "militia",
-      "context": "Myanmar's national military, engaged in conflict with various ethnic armed organizations.",
-      "time_period": "1948-present"
-    },
-    {
       "standard_name": "Communist Party of Burma",
       "original_text_name": "Communist Party of Burma",
       "aliases": [
         "CPB"
       ],
       "type": "other",
-      "context": "Major rebel force post-independence, fought for communist revolution.",
-      "time_period": "1948-1980s, rearmed 2021"
+      "context": "Major rebel force in Myanmar's civil war, fought for communist revolution.",
+      "time_period": "1948-present"
     },
     {
       "standard_name": "Karen National Union",
@@ -37,7 +27,7 @@
         "KIA"
       ],
       "type": "other",
-      "context": "Ethnic armed group formed in response to Ne Win's refusal of federalism.",
+      "context": "Ethnic insurgent group fighting for Kachin self-determination.",
       "time_period": "1960s-present"
     },
     {
@@ -58,7 +48,7 @@
         "Myanmar National Democratic Alliance Army"
       ],
       "type": "other",
-      "context": "Ethnic armed group in Kokang region, lost control after 2009 attack.",
+      "context": "Ethnic armed group in Kokang region, fought Tatmadaw.",
       "time_period": "1989-present"
     },
     {
@@ -68,7 +58,7 @@
         "DKBA"
       ],
       "type": "other",
-      "context": "Armed group clashed with Tatmadaw in 2010.",
+      "context": "Buddhist Karen splinter group, clashed with Tatmadaw in 2010.",
       "time_period": "1994-present"
     },
     {
@@ -78,7 +68,7 @@
         "ARSA"
       ],
       "type": "other",
-      "context": "Rohingya insurgent group that attacked border posts in 2016.",
+      "context": "Rohingya insurgent group active in Rakhine State.",
       "time_period": "2016-present"
     },
     {
@@ -88,7 +78,7 @@
         "AA"
       ],
       "type": "other",
-      "context": "Ethnic armed group in Rakhine State, part of Northern Alliance.",
+      "context": "Ethnic armed group fighting for Arakanese interests.",
       "time_period": "2009-present"
     },
     {
@@ -99,7 +89,7 @@
         "Ta'ang National Liberation Army"
       ],
       "type": "other",
-      "context": "Ethnic armed group in Shan State, part of Northern Alliance.",
+      "context": "Ethnic armed group representing the Ta'ang (Palaung) people.",
       "time_period": "1992-present"
     },
     {
@@ -117,7 +107,7 @@
         "ABSDF"
       ],
       "type": "other",
-      "context": "Student-led insurgent group, signatory of Nationwide Ceasefire Agreement.",
+      "context": "Student-led insurgent group formed after 1988 uprising.",
       "time_period": "1988-present"
     },
     {
@@ -125,7 +115,7 @@
       "original_text_name": "Chinland Defence Force",
       "aliases": [],
       "type": "other",
-      "context": "Armed resistance group formed in Chin State after 2021 coup.",
+      "context": "Local defense force formed in Chin State after 2021 coup.",
       "time_period": "2021-present"
     },
     {
@@ -145,7 +135,7 @@
         "KPDF"
       ],
       "type": "other",
-      "context": "Armed group in Kayah State, clashed with Tatmadaw.",
+      "context": "Local defense force in Kayah State formed after 2021 coup.",
       "time_period": "2021-present"
     },
     {
@@ -153,7 +143,7 @@
       "original_text_name": "People's Liberation Army",
       "aliases": [],
       "type": "other",
-      "context": "New armed wing of the Communist Party of Burma, announced in 2021.",
+      "context": "New armed wing of the Communist Party of Burma, formed in 2021.",
       "time_period": "2021-present"
     },
     {
@@ -200,7 +190,7 @@
       "aliases": [],
       "type": "militia",
       "context": "Separatist group operating from Myanmar bases against Indian government.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "standard_name": "United Liberation Front of Assam",
@@ -210,7 +200,7 @@
       ],
       "type": "militia",
       "context": "Separatist group operating from Myanmar bases against Indian government.",
-      "time_period": "1979-present"
+      "time_period": null
     },
     {
       "standard_name": "National Socialist Council of Nagaland",
@@ -219,8 +209,8 @@
         "NSCN"
       ],
       "type": "militia",
-      "context": "Separatist group operating from Myanmar bases; headquarters in Taga attacked in 2019.",
-      "time_period": "1980-present"
+      "context": "Separatist group operating from Myanmar bases; headquarters attacked in 2019.",
+      "time_period": null
     },
     {
       "standard_name": "Kachin Independence Organisation",
@@ -228,8 +218,8 @@
       "aliases": [
         "KIO"
       ],
-      "type": "other",
-      "context": "Political organization leading Kachin insurgency; oversees KIA.",
+      "type": "militia",
+      "context": "Political organization overseeing KIA.",
       "time_period": "1962-present"
     },
     {
@@ -238,8 +228,8 @@
       "aliases": [
         "KNPP"
       ],
-      "type": "other",
-      "context": "Pro-independence group in Kayah State, founded in 1957.",
+      "type": "militia",
+      "context": "Pro-independence group founded in 1957.",
       "time_period": "1957-present"
     },
     {
@@ -258,7 +248,7 @@
       ],
       "type": "militia",
       "context": "Leftist rival to KNPP, signed ceasefire in 1990s.",
-      "time_period": "?-present"
+      "time_period": null
     },
     {
       "standard_name": "Karenni National People's Liberation Front",
@@ -268,7 +258,7 @@
       ],
       "type": "militia",
       "context": "Leftist rival to KNPP, signed ceasefire in 1990s.",
-      "time_period": "?-present"
+      "time_period": null
     },
     {
       "standard_name": "New Mon State Party",
@@ -276,8 +266,8 @@
       "aliases": [
         "NMSP"
       ],
-      "type": "other",
-      "context": "Political party seeking Mon self-determination since 1962.",
+      "type": "militia",
+      "context": "Mon political organization formed in 1962.",
       "time_period": "1962-present"
     },
     {
@@ -287,8 +277,24 @@
         "MNLA"
       ],
       "type": "militia",
-      "context": "Armed wing of NMSP, fighting since 1949; signed ceasefire in 2015.",
+      "context": "Armed wing of NMSP, fighting since 1949.",
       "time_period": "1949-present"
+    },
+    {
+      "standard_name": "Red Flag Communist Party",
+      "original_text_name": "Red Flag Communist Party",
+      "aliases": [],
+      "type": "militia",
+      "context": "Communist group defeated by Tatmadaw in 1978.",
+      "time_period": "?-1978"
+    },
+    {
+      "standard_name": "Communist Party of Arakan",
+      "original_text_name": "Communist Party of Arakan",
+      "aliases": [],
+      "type": "militia",
+      "context": "Successor to Red Flag Communist Party, active until 1990s.",
+      "time_period": "1978-1990s"
     },
     {
       "standard_name": "Arakan Liberation Army",
@@ -298,7 +304,45 @@
       ],
       "type": "militia",
       "context": "Ethnic Rakhine insurgent group.",
-      "time_period": "?-present"
+      "time_period": null
+    },
+    {
+      "standard_name": "Noom Suk Harn",
+      "original_text_name": "Noom Suk Harn",
+      "aliases": [
+        "Noom Seik Harn"
+      ],
+      "type": "militia",
+      "context": "Shan armed resistance formed in 1958.",
+      "time_period": "1958-1960"
+    },
+    {
+      "standard_name": "Shan State Independence Army",
+      "original_text_name": "Shan State Independence Army (SSIA)",
+      "aliases": [
+        "SSIA"
+      ],
+      "type": "militia",
+      "context": "Splinter from Noom Suk Harn formed by intellectuals in 1960.",
+      "time_period": "1960-1964"
+    },
+    {
+      "standard_name": "Shan National United Front",
+      "original_text_name": "Shan National United Front (SNUF)",
+      "aliases": [
+        "SNUF"
+      ],
+      "type": "militia",
+      "context": "Operated in southern Shan State.",
+      "time_period": "?-1964"
+    },
+    {
+      "standard_name": "Kokang Force",
+      "original_text_name": "Kokang Force",
+      "aliases": [],
+      "type": "militia",
+      "context": "Local army of Kokang Chinese.",
+      "time_period": "?-1964"
     },
     {
       "standard_name": "Shan State Army",
@@ -307,8 +351,18 @@
         "SSA"
       ],
       "type": "militia",
-      "context": "Formed in 1964 from merger of SSIA, SNUF, and Kokang Force; collapsed in 1976.",
+      "context": "Merger of SSIA, SNUF, and Kokang Force in 1964.",
       "time_period": "1964-1976"
+    },
+    {
+      "standard_name": "Shan State Progress Party",
+      "original_text_name": "Shan State Progress Party (SSPP)",
+      "aliases": [
+        "SSPP"
+      ],
+      "type": "militia",
+      "context": "Political wing formed in 1971, later formed SSA-N.",
+      "time_period": "1971-present"
     },
     {
       "standard_name": "Shan State Army – North",
@@ -318,7 +372,7 @@
         "Shan State Army – North"
       ],
       "type": "militia",
-      "context": "Pro-communist faction formed after SSA collapse; signed ceasefire in 1989.",
+      "context": "Pro-communist faction formed by SSPP after SSA collapse.",
       "time_period": "1976-present"
     },
     {
@@ -329,18 +383,8 @@
         "National Democratic Alliance Army"
       ],
       "type": "militia",
-      "context": "Splinter group from CPB, controls Mong La area (Special Region 4).",
+      "context": "Splinter from CPB led by Sai Leun, controls Special Region 4.",
       "time_period": "1989-present"
-    },
-    {
-      "standard_name": "Ka Kwe Ye",
-      "original_text_name": "KKY",
-      "aliases": [
-        "Ka Kwe Ye"
-      ],
-      "type": "militia",
-      "context": "Pro-government militia allowed to traffic opium in exchange for fighting insurgents.",
-      "time_period": "1960s"
     },
     {
       "standard_name": "Mong Tai Army",
@@ -348,8 +392,8 @@
       "aliases": [
         "MTA"
       ],
-      "type": "faction",
-      "context": "Shan insurgent army formed by Khun Sa in 1985, dominant in the 1990s.",
+      "type": "other",
+      "context": "Shan insurgent army formed by Khun Sa in 1985, dominant Shan fighting force in the 1990s.",
       "time_period": "1985-1996"
     },
     {
@@ -358,9 +402,9 @@
       "aliases": [
         "SSNA"
       ],
-      "type": "faction",
-      "context": "Rival Shan group formed by MTA defectors in 1991.",
-      "time_period": "1991-1996"
+      "type": "other",
+      "context": "Rival Shan organization formed by Shan nationalists who disagreed with Khun Sa's leadership of the MTA.",
+      "time_period": "1990s"
     },
     {
       "standard_name": "Shan United Revolutionary Army",
@@ -368,8 +412,8 @@
       "aliases": [
         "SURA"
       ],
-      "type": "faction",
-      "context": "Predecessor to SSA-S, led by Yawd Serk.",
+      "type": "other",
+      "context": "Shan insurgent group led by Yawd Serk, predecessor to the Shan State Army – South.",
       "time_period": "until 1996"
     },
     {
@@ -378,15 +422,15 @@
       "aliases": [
         "SSA-S"
       ],
-      "type": "faction",
-      "context": "Major Shan insurgent group formed in 1996, political wing Restoration Council of Shan State.",
+      "type": "other",
+      "context": "Large Shan insurgent group established in 1996 by Yawd Serk, political wing is Restoration Council of Shan State.",
       "time_period": "1996-present"
     },
     {
       "standard_name": "Lahu Democratic Union",
       "original_text_name": "Lahu Democratic Union",
       "aliases": [],
-      "type": "faction",
+      "type": "other",
       "context": "Ethnic armed group in Shan State.",
       "time_period": null
     },
@@ -394,7 +438,7 @@
       "standard_name": "Wa National Army",
       "original_text_name": "Wa National Army",
       "aliases": [],
-      "type": "faction",
+      "type": "other",
       "context": "Ethnic armed group in Shan State.",
       "time_period": null
     },
@@ -402,7 +446,7 @@
       "standard_name": "Pa-O National Liberation Army",
       "original_text_name": "Pa-O National Liberation Army",
       "aliases": [],
-      "type": "faction",
+      "type": "other",
       "context": "Ethnic armed group in Shan State.",
       "time_period": null
     },
@@ -412,8 +456,8 @@
       "aliases": [
         "MNDAA"
       ],
-      "type": "faction",
-      "context": "Kokang insurgent group active in northern Shan State, formed after CPB split.",
+      "type": "other",
+      "context": "Kokang insurgent group active in northern Shan State, signed ceasefire in 1989, resumed fighting after 2021 coup.",
       "time_period": "1989-present"
     },
     {
@@ -422,9 +466,27 @@
       "aliases": [
         "UWSA"
       ],
-      "type": "faction",
-      "context": "Wa insurgent group governing Wa State, formed after CPB split.",
+      "type": "other",
+      "context": "Wa insurgent group formed after split from CPB in 1989, governs Wa State, accused of Chinese support.",
       "time_period": "1989-present"
+    },
+    {
+      "standard_name": "United Wa State Party",
+      "original_text_name": "United Wa State Party",
+      "aliases": [],
+      "type": "other",
+      "context": "Political wing of the United Wa State Army.",
+      "time_period": "1989-present"
+    },
+    {
+      "standard_name": "Tatmadaw",
+      "original_text_name": "Tatmadaw",
+      "aliases": [
+        "Myanmar Armed Forces"
+      ],
+      "type": "militia",
+      "context": "Myanmar's armed forces, accused of human rights abuses and ethnic cleansing.",
+      "time_period": "1948-present"
     },
     {
       "standard_name": "Shan State Army-South",
@@ -433,7 +495,7 @@
         "Shan State Army-South"
       ],
       "type": "militia",
-      "context": "Insurgent group accused of press-ganging minors.",
+      "context": "Shan insurgent group, accused of press-ganging minors.",
       "time_period": "1996-present"
     },
     {
@@ -447,226 +509,122 @@
   ],
   "edges": [
     {
-      "source": "Tatmadaw",
+      "source": "Karen National Liberation Army",
       "target": "Karen National Union",
-      "relationship": "rivalry",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Tatmadaw launched offensives against KNU and its armed wing KNLA.",
-      "time_period": "1948-present"
+      "context": "KNLA is the armed wing of the KNU.",
+      "time_period": "1960s-present"
     },
     {
-      "source": "Tatmadaw",
+      "source": "People's Liberation Army",
       "target": "Communist Party of Burma",
-      "relationship": "rivalry",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Tatmadaw fought CPB insurgency since independence.",
-      "time_period": "1948-1980s"
+      "context": "PLA is the new armed wing of the CPB, formed in 2021.",
+      "time_period": "2021-present"
     },
     {
-      "source": "Tatmadaw",
-      "target": "Myanmar National Democratic Alliance Army",
-      "relationship": "rivalry",
+      "source": "Northern Alliance",
+      "target": "Arakan Army",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Tatmadaw attacked MNDAA in Kokang in 2009 and 2015.",
-      "time_period": "2009-present"
-    },
-    {
-      "source": "Tatmadaw",
-      "target": "Democratic Karen Buddhist Army",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Tatmadaw clashed with DKBA-5 in 2010.",
-      "time_period": "2010"
-    },
-    {
-      "source": "Tatmadaw",
-      "target": "Arakan Rohingya Salvation Army",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Tatmadaw launched clearance operations after ARSA attacks.",
+      "context": "AA is a member of the Northern Alliance coalition.",
       "time_period": "2016-present"
     },
     {
-      "source": "Tatmadaw",
-      "target": "Northern Alliance",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Tatmadaw fought Northern Alliance in Shan State from 2016.",
-      "time_period": "2016-present"
-    },
-    {
-      "source": "Tatmadaw",
+      "source": "Northern Alliance",
       "target": "Kachin Independence Army",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "KIA resumed attacks after 2021 coup.",
-      "time_period": "1960s-present"
-    },
-    {
-      "source": "Tatmadaw",
-      "target": "Karen National Liberation Army",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Tatmadaw launched offensive against KNLA in 2006.",
-      "time_period": "2006"
-    },
-    {
-      "source": "Tatmadaw",
-      "target": "People's Defence Force",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "PDF clashed with Tatmadaw in Muse in May 2021.",
-      "time_period": "2021-present"
-    },
-    {
-      "source": "Tatmadaw",
-      "target": "Chinland Defence Force",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Chinland Defence Force resisted Tatmadaw in Chin State.",
-      "time_period": "2021-present"
-    },
-    {
-      "source": "Tatmadaw",
-      "target": "Karenni People's Defence Force",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "KPDF clashed with Tatmadaw near Loikaw.",
-      "time_period": "2021-present"
-    },
-    {
-      "source": "Karen National Union",
-      "target": "Karen National Liberation Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "KNLA is the armed wing of KNU.",
-      "time_period": "1960s-present"
-    },
-    {
-      "source": "Communist Party of Burma",
-      "target": "People's Liberation Army",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "People's Liberation Army is the new armed wing of CPB.",
-      "time_period": "2021-present"
-    },
-    {
-      "source": "Arakan Army",
-      "target": "Northern Alliance",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "AA is a member of the Northern Alliance.",
+      "context": "KIA is a member of the Northern Alliance coalition.",
       "time_period": "2016-present"
     },
     {
-      "source": "Kachin Independence Army",
-      "target": "Northern Alliance",
+      "source": "Northern Alliance",
+      "target": "Myanmar National Democratic Alliance Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "KIA is a member of the Northern Alliance.",
+      "context": "MNDAA is a member of the Northern Alliance coalition.",
       "time_period": "2016-present"
     },
     {
-      "source": "Myanmar National Democratic Alliance Army",
-      "target": "Northern Alliance",
+      "source": "Northern Alliance",
+      "target": "Ta'ang National Liberation Army",
       "relationship": "alliance",
       "detail": null,
-      "context": "MNDAA is a member of the Northern Alliance.",
+      "context": "TNLA is a member of the Northern Alliance coalition.",
       "time_period": "2016-present"
-    },
-    {
-      "source": "Ta'ang National Liberation Army",
-      "target": "Northern Alliance",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "TNLA is a member of the Northern Alliance.",
-      "time_period": "2016-present"
-    },
-    {
-      "source": "Karen National Union",
-      "target": "All Burma Student Democratic Front",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both signed Nationwide Ceasefire Agreement and joined National Unity Government.",
-      "time_period": "2021"
-    },
-    {
-      "source": "Karen National Union",
-      "target": "National Unity Government",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "KNU joined the National Unity Government in 2021.",
-      "time_period": "2021-present"
-    },
-    {
-      "source": "All Burma Student Democratic Front",
-      "target": "National Unity Government",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "ABSDF joined the National Unity Government in 2021.",
-      "time_period": "2021-present"
-    },
-    {
-      "source": "National Unity Government",
-      "target": "People's Defence Force",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "PDF is the armed wing of the National Unity Government.",
-      "time_period": "2021-present"
     },
     {
       "source": "Chin Liberation Army",
-      "target": "Mizo National Front",
-      "relationship": "other",
-      "detail": "shared ethnicity",
-      "context": "Both represent Zo people (Chin, Mizo, Kuki) with common culture.",
+      "target": "Chin National Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both are Chin insurgent groups.",
+      "time_period": null
+    },
+    {
+      "source": "National Socialist Council of Nagaland",
+      "target": "United Liberation Front of Assam",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both operate from Myanmar bases against Indian government.",
+      "time_period": null
+    },
+    {
+      "source": "National Socialist Council of Nagaland",
+      "target": "Zomi Revolutionary Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both operate from Myanmar bases against Indian government.",
+      "time_period": null
+    },
+    {
+      "source": "United Liberation Front of Assam",
+      "target": "Zomi Revolutionary Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both operate from Myanmar bases against Indian government.",
       "time_period": null
     },
     {
       "source": "Kachin Independence Army",
       "target": "Kachin Independence Organisation",
-      "relationship": "other",
-      "detail": "armed wing",
+      "relationship": "alliance",
+      "detail": null,
       "context": "KIA is the armed wing of KIO.",
       "time_period": "1962-present"
     },
     {
       "source": "Karenni Army",
       "target": "Karenni National Progressive Party",
-      "relationship": "other",
-      "detail": "armed wing",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Karenni Army is the armed wing of KNPP.",
       "time_period": "1957-present"
     },
     {
-      "source": "Karenni Army",
-      "target": "Kayan New Land Party",
+      "source": "Kayan New Land Party",
+      "target": "Karenni National Progressive Party",
       "relationship": "rivalry",
       "detail": null,
-      "context": "KNLP is a rival to KNPP and its armed wing Karenni Army.",
-      "time_period": "1990s"
+      "context": "KNLP is a leftist rival to KNPP.",
+      "time_period": null
     },
     {
-      "source": "Karenni Army",
-      "target": "Karenni National People's Liberation Front",
+      "source": "Karenni National People's Liberation Front",
+      "target": "Karenni National Progressive Party",
       "relationship": "rivalry",
       "detail": null,
-      "context": "KNPLF is a rival to KNPP and its armed wing Karenni Army.",
-      "time_period": "1990s"
-    },
-    {
-      "source": "Karen National Liberation Army",
-      "target": "Karen National Union",
-      "relationship": "other",
-      "detail": "armed wing",
-      "context": "KNLA is the armed wing of KNU.",
-      "time_period": "1949-present"
+      "context": "KNPLF is a leftist rival to KNPP.",
+      "time_period": null
     },
     {
       "source": "Mon National Liberation Army",
       "target": "New Mon State Party",
-      "relationship": "other",
-      "detail": "armed wing",
+      "relationship": "alliance",
+      "detail": null,
       "context": "MNLA is the armed wing of NMSP.",
       "time_period": "1962-present"
     },
@@ -675,8 +633,56 @@
       "target": "Karen National Liberation Army",
       "relationship": "rivalry",
       "detail": null,
-      "context": "MNLA has had minor skirmishes with KNLA.",
+      "context": "They have had minor skirmishes.",
       "time_period": null
+    },
+    {
+      "source": "Red Flag Communist Party",
+      "target": "Communist Party of Arakan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Communist Party of Arakan is the successor of Red Flag Communist Party.",
+      "time_period": "1978-1990s"
+    },
+    {
+      "source": "Noom Suk Harn",
+      "target": "Shan State Independence Army",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "SSIA split from Noom Suk Harn due to internal differences.",
+      "time_period": "1960"
+    },
+    {
+      "source": "Shan State Independence Army",
+      "target": "Shan National United Front",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "They merged with Kokang Force to form SSA in 1964.",
+      "time_period": "1964"
+    },
+    {
+      "source": "Shan State Independence Army",
+      "target": "Kokang Force",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "They merged with SNUF to form SSA in 1964.",
+      "time_period": "1964"
+    },
+    {
+      "source": "Shan National United Front",
+      "target": "Kokang Force",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "They merged with SSIA to form SSA in 1964.",
+      "time_period": "1964"
+    },
+    {
+      "source": "Shan State Army",
+      "target": "Shan State Progress Party",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "SSPP replaced the Shan State War Council as political wing of SSA.",
+      "time_period": "1971"
     },
     {
       "source": "Shan State Army",
@@ -684,89 +690,86 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "SSA came into conflict with CPB in northern Shan State.",
-      "time_period": "1960s-1976"
+      "time_period": "1960s"
     },
     {
-      "source": "Shan State Army – North",
-      "target": "Communist Party of Burma",
+      "source": "Shan State Progress Party",
+      "target": "Shan State Army – North",
       "relationship": "alliance",
       "detail": null,
-      "context": "SSA-N was pro-communist and formed after CPB collapse.",
-      "time_period": "1976-1989"
+      "context": "SSPP formed SSA-N after SSA collapsed.",
+      "time_period": "1976"
     },
     {
       "source": "National Democratic Alliance Army",
       "target": "Communist Party of Burma",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "NDAA broke away from CPB in 1989.",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "NDAA splintered from CPB after its collapse.",
       "time_period": "1989"
-    },
-    {
-      "source": "Ka Kwe Ye",
-      "target": "Mong Tai Army",
-      "relationship": "other",
-      "detail": "predecessor-successor",
-      "context": "Khun Sa was a KKY militia leader before forming the MTA.",
-      "time_period": "1960s-1985"
     },
     {
       "source": "Mong Tai Army",
       "target": "Shan State National Army",
       "relationship": "rivalry",
-      "context": "SSNA formed as a rival faction after disagreements with Khun Sa's leadership.",
-      "time_period": "1991-1996"
+      "detail": null,
+      "context": "SSNA formed as a rival Shan organization due to disagreement with Khun Sa's leadership of MTA.",
+      "time_period": "1990s"
     },
     {
       "source": "Shan United Revolutionary Army",
       "target": "Shan State Army – South",
-      "relationship": "other",
-      "detail": "predecessor-successor",
-      "context": "SSA-S was established by SURA commander Yawd Serk after MTA disbanded.",
-      "time_period": "1996"
-    },
-    {
-      "source": "National Democratic Alliance Army",
-      "target": "Shan State Army – North",
       "relationship": "alliance",
-      "context": "Both groups were targeted by Tatmadaw's Operation Perseverance in 2011.",
-      "time_period": "2011"
+      "detail": null,
+      "context": "SSA-S was established by Yawd Serk, who led SURA, and recruited its members.",
+      "time_period": "1996"
     },
     {
       "source": "Myanmar Nationalities Democratic Alliance Army",
       "target": "Ta'ang National Liberation Army",
       "relationship": "alliance",
-      "context": "MNDAA and TNLA carried out joint attacks against Tatmadaw after 2021 coup.",
-      "time_period": "2021-present"
+      "detail": null,
+      "context": "MNDAA and TNLA carried out several joint attacks against the Tatmadaw in Shan State.",
+      "time_period": "after 2021"
     },
     {
-      "source": "United Wa State Army",
+      "source": "Communist Party of Burma",
+      "target": "United Wa State Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "UWSA formed after splitting from CPB in 1989, following internal mutiny.",
+      "time_period": "1989"
+    },
+    {
+      "source": "Communist Party of Burma",
       "target": "Myanmar Nationalities Democratic Alliance Army",
       "relationship": "alliance",
-      "context": "Both groups are China-friendly and allegedly supported by China.",
-      "time_period": "1990s-present"
+      "detail": null,
+      "context": "MNDAA was formed after CPB's armed wing disbanded in 1989, taking control of Kokang area.",
+      "time_period": "1989"
     },
     {
-      "source": "United Wa State Army",
-      "target": "Northern Alliance",
-      "relationship": "alliance",
-      "context": "UWSA is allegedly linked to the Northern Alliance, a coalition of insurgent groups.",
-      "time_period": "2010s-present"
+      "source": "Tatmadaw",
+      "target": "Karen National Union",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Tatmadaw and KNU have been in armed conflict since Myanmar's independence.",
+      "time_period": "1948-present"
     },
     {
-      "source": "Arakan Rohingya Salvation Army",
-      "target": "United Wa State Army",
-      "relationship": "other",
-      "detail": "no direct relation",
-      "context": "No direct relationship mentioned; both are insurgent groups in Myanmar.",
-      "time_period": null
+      "source": "Tatmadaw",
+      "target": "Myanmar National Democratic Alliance Army",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Tatmadaw fights MNDAA in northern Shan State.",
+      "time_period": "1989-present"
     },
     {
       "source": "Tatmadaw",
       "target": "Shan State Army-South",
       "relationship": "rivalry",
       "detail": null,
-      "context": "SSA-S is an insurgent group fighting the Tatmadaw.",
+      "context": "Tatmadaw and SSA-S are in conflict in Shan State.",
       "time_period": "1996-present"
     },
     {
@@ -774,7 +777,7 @@
       "target": "Ta'ang National Liberation Army",
       "relationship": "rivalry",
       "detail": null,
-      "context": "TNLA is an insurgent group fighting the Tatmadaw.",
+      "context": "Tatmadaw and TNLA are in conflict in northern Shan State.",
       "time_period": "1992-present"
     },
     {
@@ -782,7 +785,7 @@
       "target": "God's Army",
       "relationship": "rivalry",
       "detail": null,
-      "context": "God's Army was a rebel faction that fought against the Tatmadaw.",
+      "context": "Tatmadaw fought God's Army, a rebel faction.",
       "time_period": "1997-2006"
     }
   ],

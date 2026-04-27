@@ -9,7 +9,7 @@
         "Profaci crime family"
       ],
       "type": "mafia",
-      "context": "New York Mafia family, originally Profaci family, renamed after Joseph Colombo.",
+      "context": "New York Mafia family, originally the Profaci family, renamed after Joseph Colombo.",
       "time_period": "1928-present"
     },
     {
@@ -20,8 +20,8 @@
         "Profaci family"
       ],
       "type": "mafia",
-      "context": "Original name of the Colombo family under Joe Profaci.",
-      "time_period": "1928-1963"
+      "context": "Predecessor of the Colombo crime family, led by Joe Profaci.",
+      "time_period": "1928-1962"
     },
     {
       "standard_name": "Gallo crew",
@@ -37,9 +37,7 @@
     {
       "standard_name": "Gambino crime family",
       "original_text_name": "Gambino crime family",
-      "aliases": [
-        "Gambino family"
-      ],
+      "aliases": [],
       "type": "mafia",
       "context": "New York Mafia family, boss Albert Anastasia was murdered in 1957.",
       "time_period": "1910s-present"
@@ -52,7 +50,7 @@
       ],
       "type": "mafia",
       "context": "New England Mafia family, boss Raymond L.S. Patriarca mediated peace.",
-      "time_period": "1916-present"
+      "time_period": "1910s-present"
     },
     {
       "standard_name": "Genovese crime family",
@@ -62,27 +60,23 @@
         "Genoveses"
       ],
       "type": "mafia",
-      "context": "New York Mafia family involved in organized crime.",
+      "context": "New York Mafia family; controlled territory where Umbertos Clam House was located.",
       "time_period": "1890s-present"
     },
     {
       "standard_name": "Lucchese crime family",
       "original_text_name": "Lucchese crime family",
-      "aliases": [
-        "Lucchese family"
-      ],
+      "aliases": [],
       "type": "mafia",
-      "context": "New York Mafia family involved in organized crime.",
+      "context": "New York Mafia family; Vic Amuso transferred to this family.",
       "time_period": "1920s-present"
     },
     {
       "standard_name": "Los Angeles crime family",
       "original_text_name": "Los Angeles crime family",
-      "aliases": [
-        "LA crime family"
-      ],
+      "aliases": [],
       "type": "mafia",
-      "context": "California Mafia family involved in organized crime.",
+      "context": "California Mafia family; Michael Rizzitello transferred to this family.",
       "time_period": "1900s-present"
     }
   ],
@@ -90,63 +84,56 @@
     {
       "source": "Gallo crew",
       "target": "Profaci crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Gallo crew was originally part of the Profaci family, with Joe Gallo as a captain.",
+      "time_period": "1950s-1961"
+    },
+    {
+      "source": "Gallo crew",
+      "target": "Profaci crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Gallo crew kidnapped Profaci's men, leading to the First Colombo War.",
+      "context": "Gallo crew kidnapped Profaci's men, starting the First Colombo War.",
       "time_period": "1961-1963"
     },
     {
       "source": "Gallo crew",
-      "target": "Gambino crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Profaci allegedly asked Gallo crew to murder Gambino boss Albert Anastasia.",
-      "time_period": "1957"
-    },
-    {
-      "source": "Profaci crime family",
-      "target": "Gambino crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Profaci assisted Gambino in murdering Anastasia.",
-      "time_period": "1957"
-    },
-    {
-      "source": "Colombo crime family",
-      "target": "Gallo crew",
+      "target": "Colombo crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Colombo family blamed Gallo for boss Colombo's shooting, leading to Second Colombo War.",
+      "context": "After Gallo's release, conflict resumed leading to the Second Colombo War.",
       "time_period": "1971-1972"
     },
     {
-      "source": "Patriarca crime family",
-      "target": "Profaci crime family",
-      "relationship": "other",
-      "detail": "mediation",
-      "context": "Patriarca boss negotiated peace between Profaci family and Gallo crew.",
+      "source": "Profaci crime family",
+      "target": "Colombo crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Profaci family was renamed Colombo family after Joseph Colombo became boss.",
       "time_period": "1963"
     },
     {
-      "source": "Gallo crew",
-      "target": "Colombo crime family",
-      "relationship": "other",
-      "detail": "faction of",
-      "context": "The Gallo crew was a faction within the Colombo crime family.",
-      "time_period": "1960s-1975"
+      "source": "Gambino crime family",
+      "target": "Profaci crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Profaci allegedly helped Gambino by ordering Anastasia's murder.",
+      "time_period": "1957"
     },
     {
-      "source": "Colombo crime family",
-      "target": "Profaci crime family",
-      "relationship": "other",
-      "detail": "successor to",
-      "context": "The Colombo family was originally the Profaci family, renamed after Joe Colombo.",
-      "time_period": "1963-present"
+      "source": "Patriarca crime family",
+      "target": "Colombo crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Patriarca boss negotiated a peace agreement between Colombo factions.",
+      "time_period": "1963"
     },
     {
       "source": "Gallo crew",
       "target": "Genovese crime family",
       "relationship": "alliance",
+      "detail": null,
       "context": "After the Colombo war, Albert Gallo and his crew joined the Genovese family.",
       "time_period": "1975"
     },
@@ -154,40 +141,49 @@
       "source": "Colombo crime family",
       "target": "Genovese crime family",
       "relationship": "rivalry",
-      "context": "The Colombo and Genovese families were feuding after the Gallo murder.",
+      "detail": null,
+      "context": "Tensions arose after Gallo's murder at a Genovese-owned restaurant.",
+      "time_period": "1972"
+    },
+    {
+      "source": "Colombo crime family",
+      "target": "Patriarca crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Patriarca members allegedly participated in Gallo's murder alongside Colombo associates.",
       "time_period": "1972"
     },
     {
       "source": "Gallo crew",
       "target": "Gambino crime family",
-      "relationship": "other",
-      "detail": "member transferred to",
-      "context": "Bobby Boriello transferred from the Gallo crew to the Gambino family.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bobby Boriello transferred to the Gambino family in 1972.",
       "time_period": "1972"
     },
     {
       "source": "Gallo crew",
-      "target": "Patriarca crime family",
-      "relationship": "other",
-      "detail": "member transferred to",
-      "context": "Nicholas Bianco transferred from the Gallo crew to the Patriarca family.",
-      "time_period": "1963"
-    },
-    {
-      "source": "Gallo crew",
       "target": "Lucchese crime family",
-      "relationship": "other",
-      "detail": "member transferred to",
-      "context": "Vic Amuso transferred from the Gallo crew to the Lucchese family.",
-      "time_period": null
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Vic Amuso transferred to the Lucchese family.",
+      "time_period": "unknown"
     },
     {
       "source": "Gallo crew",
       "target": "Los Angeles crime family",
-      "relationship": "other",
-      "detail": "member transferred to",
-      "context": "Michael Rizzitello transferred from the Gallo crew to the LA family.",
-      "time_period": null
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Michael Rizzitello transferred to the Los Angeles family.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Gallo crew",
+      "target": "Patriarca crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nicholas Bianco transferred to the Patriarca family in 1963.",
+      "time_period": "1963"
     }
   ],
   "source_file": "Joe_Gallo"

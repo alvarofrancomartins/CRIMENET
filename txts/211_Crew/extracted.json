@@ -11,7 +11,7 @@
         "2-11 Irish Crew"
       ],
       "type": "gang",
-      "context": "White supremacist prison gang active in and out of prison, formed in 1995 at Denver County Jail, Colorado.",
+      "context": "White supremacist prison gang active in Colorado, formed in 1995 at Denver County Jail.",
       "time_period": "1995-present"
     },
     {
@@ -24,20 +24,12 @@
     },
     {
       "standard_name": "American Nazi Party",
-      "original_text_name": "ANP",
+      "original_text_name": "ANP (American Nazi Party)",
       "aliases": [
-        "American Nazi Party"
+        "ANP"
       ],
-      "type": "other",
-      "context": "Colorado prison gang, no relation to the group founded by Rockwell, merged with 211 Crew and Aryan Syndicate.",
-      "time_period": "unknown"
-    },
-    {
-      "standard_name": "Aryan Brotherhood",
-      "original_text_name": "Texas Aryan Brotherhood",
-      "aliases": [],
       "type": "gang",
-      "context": "Texas-based white supremacist prison gang; a member sent a threatening letter linked to assassinations.",
+      "context": "Colorado prison gang, no relation to the group founded by Rockwell, merged with 211 Crew and Aryan Syndicate.",
       "time_period": "unknown"
     },
     {
@@ -46,6 +38,16 @@
       "aliases": [],
       "type": "gang",
       "context": "Nationwide street gang; founding member Benjamin Davis was a former member.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Aryan Brotherhood",
+      "original_text_name": "Texas Aryan Brotherhood",
+      "aliases": [
+        "Aryan Brotherhood"
+      ],
+      "type": "gang",
+      "context": "Prison gang; a Texas member sent a threatening letter linking 211 Crew to assassinations.",
       "time_period": "unknown"
     }
   ],
@@ -75,11 +77,11 @@
       "time_period": "before 1995"
     },
     {
-      "source": "Aryan Brotherhood",
-      "target": "211 Crew",
+      "source": "211 Crew",
+      "target": "Aryan Brotherhood",
       "relationship": "other",
       "detail": "suspected link",
-      "context": "A threatening letter from a Texas Aryan Brotherhood member suggested a link to assassinations, but not confirmed.",
+      "context": "A Texas Aryan Brotherhood member sent a threatening letter linking 211 Crew to assassinations.",
       "time_period": "2013"
     }
   ],

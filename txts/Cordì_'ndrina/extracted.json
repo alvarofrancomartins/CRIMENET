@@ -15,7 +15,7 @@
       "original_text_name": "'Ndrangheta",
       "aliases": [],
       "type": "mafia",
-      "context": "Criminal and mafia-type organization in Calabria, Italy.",
+      "context": "A criminal and mafia-type organisation in Calabria, Italy.",
       "time_period": "19th century-present"
     },
     {
@@ -25,7 +25,7 @@
         "Cataldo clan"
       ],
       "type": "clan",
-      "context": "A clan of the 'Ndrangheta, rival of the Cordì clan, based in Locri.",
+      "context": "A clan of the 'Ndrangheta, rival and later ally of the Cordì clan, based in Locri.",
       "time_period": "unknown"
     },
     {
@@ -34,7 +34,7 @@
       "aliases": [],
       "type": "mafia",
       "context": "Sicilian mafia family from Palermo involved in cigarette smuggling.",
-      "time_period": "unknown"
+      "time_period": "1960s"
     },
     {
       "standard_name": "Spadaro family",
@@ -42,14 +42,14 @@
       "aliases": [],
       "type": "mafia",
       "context": "Sicilian mafia family from Palermo involved in cigarette smuggling.",
-      "time_period": "unknown"
+      "time_period": "1960s"
     },
     {
       "standard_name": "Commisso 'ndrina",
       "original_text_name": "Commisso 'ndrina",
       "aliases": [],
       "type": "clan",
-      "context": "Allied 'ndrina of the Cordì clan.",
+      "context": "An 'Ndrangheta clan allied with the Cordì clan.",
       "time_period": "unknown"
     },
     {
@@ -57,7 +57,7 @@
       "original_text_name": "Aquino 'ndrina",
       "aliases": [],
       "type": "clan",
-      "context": "Allied 'ndrina of the Cordì clan.",
+      "context": "An 'Ndrangheta clan allied with the Cordì clan.",
       "time_period": "unknown"
     },
     {
@@ -65,7 +65,7 @@
       "original_text_name": "Ursino 'ndrina",
       "aliases": [],
       "type": "clan",
-      "context": "Allied 'ndrina of the Cordì clan.",
+      "context": "An 'Ndrangheta clan allied with the Cordì clan.",
       "time_period": "unknown"
     },
     {
@@ -73,7 +73,7 @@
       "original_text_name": "Mazzaferro 'ndrina",
       "aliases": [],
       "type": "clan",
-      "context": "Rival 'ndrina of the Cordì clan.",
+      "context": "An 'Ndrangheta clan rival to the Cordì clan.",
       "time_period": "unknown"
     },
     {
@@ -81,7 +81,7 @@
       "original_text_name": "Costa 'ndrina",
       "aliases": [],
       "type": "clan",
-      "context": "Rival 'ndrina of the Cordì clan.",
+      "context": "An 'Ndrangheta clan rival to the Cordì clan.",
       "time_period": "unknown"
     },
     {
@@ -89,7 +89,7 @@
       "original_text_name": "Ierinò 'ndrina",
       "aliases": [],
       "type": "clan",
-      "context": "Rival 'ndrina of the Cordì clan.",
+      "context": "An 'Ndrangheta clan rival to the Cordì clan.",
       "time_period": "unknown"
     }
   ],
@@ -97,16 +97,16 @@
     {
       "source": "Cordì 'ndrina",
       "target": "'Ndrangheta",
-      "relationship": "other",
-      "detail": "sub-group",
+      "relationship": "alliance",
+      "detail": null,
       "context": "The Cordì 'ndrina is a clan of the 'Ndrangheta.",
       "time_period": "1950s-present"
     },
     {
       "source": "Cataldo 'ndrina",
       "target": "'Ndrangheta",
-      "relationship": "other",
-      "detail": "sub-group",
+      "relationship": "alliance",
+      "detail": null,
       "context": "The Cataldo 'ndrina is a clan of the 'Ndrangheta.",
       "time_period": "unknown"
     },
@@ -115,23 +115,31 @@
       "target": "Cataldo 'ndrina",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Long blood feud from 1967 to 2010, with periods of truce and resumed hostilities.",
+      "context": "Long blood feud from 1967 until a truce in 1975, resumed in 1993, and ended with a peace in 2010.",
       "time_period": "1967-2010"
+    },
+    {
+      "source": "Cordì 'ndrina",
+      "target": "Cataldo 'ndrina",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Signed a peace in 2010 and formed a strong alliance for joint crime management.",
+      "time_period": "2010-present"
     },
     {
       "source": "Tagliavia family",
       "target": "Spadaro family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both Sicilian mafia families from Palermo involved in cigarette smuggling together.",
-      "time_period": "unknown"
+      "context": "Both Sicilian mafia families involved in cigarette smuggling to Antonio Macrì.",
+      "time_period": "1960s"
     },
     {
       "source": "Cordì 'ndrina",
       "target": "Commisso 'ndrina",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied 'ndrina according to infobox.",
+      "context": "Allied clans according to the infobox.",
       "time_period": "unknown"
     },
     {
@@ -139,7 +147,7 @@
       "target": "Aquino 'ndrina",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied 'ndrina according to infobox.",
+      "context": "Allied clans according to the infobox.",
       "time_period": "unknown"
     },
     {
@@ -147,7 +155,7 @@
       "target": "Ursino 'ndrina",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied 'ndrina according to infobox.",
+      "context": "Allied clans according to the infobox.",
       "time_period": "unknown"
     },
     {
@@ -155,7 +163,7 @@
       "target": "Mazzaferro 'ndrina",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rival 'ndrina according to infobox.",
+      "context": "Rival clans according to the infobox.",
       "time_period": "unknown"
     },
     {
@@ -163,7 +171,7 @@
       "target": "Costa 'ndrina",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rival 'ndrina according to infobox.",
+      "context": "Rival clans according to the infobox.",
       "time_period": "unknown"
     },
     {
@@ -171,7 +179,7 @@
       "target": "Ierinò 'ndrina",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rival 'ndrina according to infobox.",
+      "context": "Rival clans according to the infobox.",
       "time_period": "unknown"
     }
   ],

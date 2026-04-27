@@ -9,11 +9,19 @@
       "time_period": "1970s-present"
     },
     {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "A large alliance of street gangs based in Los Angeles.",
+      "time_period": "1969-present"
+    },
+    {
       "standard_name": "Bounty Hunter Bloods",
       "original_text_name": "Bounty Hunter Bloods",
       "aliases": [],
       "type": "gang",
-      "context": "A Bloods set in Watts, Los Angeles, rival of the Grape Street Watts Crips.",
+      "context": "A set of the Bloods gang, rivals of the Grape Street Watts Crips in Watts.",
       "time_period": null
     },
     {
@@ -21,17 +29,25 @@
       "original_text_name": "East Coast Crips",
       "aliases": [],
       "type": "gang",
-      "context": "A Crips set involved in a conflict with Grape Street Watts Crips after a murder in 2008.",
+      "context": "A set of the Crips gang involved in a war with Grape Street Watts Crips after a murder.",
       "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Grape Street Watts Crips",
+      "target": "Crips",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Grape Street Watts Crips is a set of the Crips gang.",
+      "time_period": "1970s-present"
+    },
+    {
+      "source": "Grape Street Watts Crips",
       "target": "Bounty Hunter Bloods",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Described as the most violent and long lasting feud between two gangs in the Watts area.",
+      "context": "Described as the most violent and long lasting feud between two gangs in Watts.",
       "time_period": null
     },
     {
@@ -39,7 +55,7 @@
       "target": "East Coast Crips",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The murder of Grape Street member Brandon Bullard by East Coast Crips sparked a war resulting in casualties.",
+      "context": "War sparked by the murder of a Grape Street member by East Coast Crips in 2008.",
       "time_period": "2008"
     }
   ],

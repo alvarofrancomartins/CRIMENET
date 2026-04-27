@@ -5,7 +5,6 @@
       "original_text_name": "March 23 Movement",
       "aliases": [
         "ARC",
-        "Armée Révolutionnaire du Congo",
         "Armée révolutionnaire du Congo",
         "Congolese Revolutionary Army",
         "M23",
@@ -23,7 +22,7 @@
         "AFC"
       ],
       "type": "other",
-      "context": "Coalition of rebel groups in eastern DRC, of which M23 is the principal member.",
+      "context": "Coalition of rebel groups in eastern DRC; M23 is its principal member.",
       "time_period": null
     },
     {
@@ -35,19 +34,19 @@
         "Congrès national pour la défense du peuple"
       ],
       "type": "militia",
-      "context": "Rwandan-backed rebel group largely composed of Rwandan-Congolese fighters; precursor to M23.",
+      "context": "Rwandan-backed rebel group largely composed of Rwandan-Congolese fighters; predecessor of M23.",
       "time_period": "2006-2009"
     },
     {
-      "standard_name": "Armed Forces of the Democratic Republic of the Congo",
-      "original_text_name": "Armed Forces of the Democratic Republic of the Congo",
+      "standard_name": "Democratic Forces for the Liberation of Rwanda",
+      "original_text_name": "Democratic Forces for the Liberation of Rwanda",
       "aliases": [
-        "FARDC",
-        "Forces armées de la République démocratique du Congo"
+        "Democratic Forces for the Liberation of Rwanda",
+        "FDLR"
       ],
-      "type": "other",
-      "context": "National army of DRC; integrated former CNDP fighters under a 2009 peace agreement.",
-      "time_period": "2003-present"
+      "type": "militia",
+      "context": "Rwandan Hutu rebel group operating in eastern DRC; opposed by M23 and CNDP.",
+      "time_period": "2000-present"
     },
     {
       "standard_name": "Rassemblement Congolais pour la Démocratie–Goma",
@@ -56,7 +55,7 @@
         "RCD-Goma"
       ],
       "type": "militia",
-      "context": "Former rebel group in DRC; many of its combatants later joined Nkunda's faction.",
+      "context": "Former rebel group in DRC; many of its combatants later joined the CNDP.",
       "time_period": "1998-2003"
     },
     {
@@ -70,24 +69,13 @@
       "time_period": "2000-2007"
     },
     {
-      "standard_name": "Democratic Forces for the Liberation of Rwanda",
-      "original_text_name": "Democratic Forces for the Liberation of Rwanda",
-      "aliases": [
-        "Democratic Forces for the Liberation of Rwanda",
-        "FDLR"
-      ],
-      "type": "militia",
-      "context": "Rwandan Hutu rebel group operating in eastern DRC; opposed by CNDP and M23.",
-      "time_period": "2000-present"
-    },
-    {
       "standard_name": "Patriotes Résistants Congolais",
       "original_text_name": "Patriotes Résistants Congolais",
       "aliases": [
         "PARECO"
       ],
       "type": "militia",
-      "context": "Armed group historically opposed to CNDP; later sought alliances with Ntaganda.",
+      "context": "Armed group historically opposed to CNDP; later sought alliances with CNDP elements.",
       "time_period": "2007-2009"
     },
     {
@@ -109,14 +97,14 @@
       "time_period": "1990s-present"
     },
     {
-      "standard_name": "Rwandan Patriotic Front",
-      "original_text_name": "Rwandan Patriotic Front",
+      "standard_name": "Armed Forces of the Democratic Republic of the Congo",
+      "original_text_name": "Armed Forces of the Democratic Republic of the Congo",
       "aliases": [
-        "RPF"
+        "FARDC"
       ],
       "type": "other",
-      "context": "Ruling political party of Rwanda; historically linked to CNDP and M23 through support.",
-      "time_period": "1987-present"
+      "context": "National military of the DRC; fought against M23 and other rebel groups.",
+      "time_period": "2003-present"
     },
     {
       "standard_name": "Mai-Mai PARECO",
@@ -125,17 +113,28 @@
         "PARECO"
       ],
       "type": "militia",
-      "context": "Mai-Mai militia group in eastern DRC, allied with M23 via defectors.",
-      "time_period": "2007-2013"
+      "context": "Mai-Mai militia group in eastern DRC; some members defected from FARDC to join it.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "standard_name": "RCD-K/ML",
+      "original_text_name": "RCD-K/ML",
+      "aliases": [
+        "Rassemblement Congolais pour la Démocratie-Kisangani/Mouvement de Libération"
+      ],
+      "type": "militia",
+      "context": "Former rebel group in eastern DRC; some of its ex-members defected to M23-affiliated forces.",
+      "time_period": "1999-2003"
     },
     {
       "standard_name": "Union for the Rehabilitation of Democracy in Congo",
       "original_text_name": "Union for the Rehabilitation of Democracy in Congo",
       "aliases": [
-        "URDC"
+        "URDC",
+        "Union pour la Réhabilitation de la Démocratie au Congo"
       ],
       "type": "militia",
-      "context": "Rebel faction allied with M23, established in Beni Territory in 2012.",
+      "context": "Faction allied with M23, established in Beni Territory in 2012.",
       "time_period": "2012"
     },
     {
@@ -143,7 +142,7 @@
       "original_text_name": "Raïa Mutomboki",
       "aliases": [],
       "type": "militia",
-      "context": "Mai-Mai militia group in eastern DRC, briefly allied with government against M23.",
+      "context": "Mai-Mai militia group in eastern DRC; some leaders surrendered to government troops.",
       "time_period": "2005-present"
     },
     {
@@ -151,16 +150,16 @@
       "original_text_name": "Nyatura",
       "aliases": [],
       "type": "militia",
-      "context": "Mai-Mai militia group in eastern DRC, briefly allied with government against M23.",
-      "time_period": "2010-present"
+      "context": "Mai-Mai militia group in eastern DRC; some leaders surrendered to government troops.",
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Mai-Mai Cheka",
       "original_text_name": "Mai-Mai Cheka",
       "aliases": [],
       "type": "militia",
-      "context": "Militia allied with M23, launched assaults in Kalembe village.",
-      "time_period": "2012-2013"
+      "context": "Militia allied with M23, operating in Masisi Territory, DRC.",
+      "time_period": null
     },
     {
       "standard_name": "Rally for Congolese Democracy–Goma",
@@ -169,14 +168,14 @@
         "RCD-Goma"
       ],
       "type": "militia",
-      "context": "Former rebel group, precursor to CNDP, affiliated with Nyatura commander.",
+      "context": "Former rebel group; some of its members later joined CNDP and M23.",
       "time_period": "1998-2003"
     },
     {
       "standard_name": "M27",
       "original_text_name": "M27",
       "aliases": [],
-      "type": "faction",
+      "type": "militia",
       "context": "Splinter rebel group composed of CNDP and M23 defectors, led by Bertrand Bisimwa.",
       "time_period": "2015-2021"
     },
@@ -184,56 +183,56 @@
       "standard_name": "Revolutionary Army of Congo",
       "original_text_name": "Revolutionary Army of Congo",
       "aliases": [],
-      "type": "faction",
-      "context": "Rebel group led by Bertrand Bisimwa, joined M23's rearmament efforts in late 2021.",
+      "type": "militia",
+      "context": "Rebel group that joined M23's rearmament efforts in late 2021.",
       "time_period": "2021"
     },
     {
       "standard_name": "Alliance des Patriotes pour un Congo Libre et Souverain",
-      "original_text_name": "Alliance des Patriotes pour un Congo Libre et Souverain",
+      "original_text_name": "Alliance des Patriotes pour un Congo Libre et Souverain (APCLS)",
       "aliases": [
         "APCLS"
       ],
       "type": "militia",
       "context": "Armed faction that signed a peace agreement in Pinga in 2022.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "standard_name": "Coalition des Mouvements pour le Changement/Forces de Défense du Peuple",
-      "original_text_name": "Coalition des Mouvements pour le Changement/Forces de Défense du Peuple",
+      "original_text_name": "Coalition des Mouvements pour le Changement/Forces de Défense du Peuple (CMC/FDP)",
       "aliases": [
         "CMC/FDP"
       ],
       "type": "militia",
       "context": "Armed faction that signed a peace agreement in Pinga in 2022.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "standard_name": "Nduma Défense du Congo-Rénové",
-      "original_text_name": "Nduma Défense du Congo-Rénové",
+      "original_text_name": "Nduma Défense du Congo-Rénové (NDC-R)",
       "aliases": [
         "NDC-R"
       ],
       "type": "militia",
       "context": "Armed faction that signed a peace agreement in Pinga in 2022.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "standard_name": "Alliance Nationale des Congolais pour la Défense des Droits de l'Homme",
-      "original_text_name": "Alliance Nationale des Congolais pour la Défense des Droits de l'Homme",
+      "original_text_name": "Alliance Nationale des Congolais pour la Défense des Droits de l'Homme (ANCDH)",
       "aliases": [
         "ANCDH"
       ],
       "type": "militia",
       "context": "Armed faction that signed a peace agreement in Pinga in 2022.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "standard_name": "Wazalendo",
       "original_text_name": "wazalendo",
       "aliases": [],
       "type": "militia",
-      "context": "Local militias in DRC formed as reservists under FARDC, fighting against M23.",
+      "context": "Local militias formed under the banner of 'patriots' in Swahili, allied with FARDC against M23.",
       "time_period": "2023-present"
     },
     {
@@ -243,25 +242,7 @@
         "Rwandan Defence Force"
       ],
       "type": "other",
-      "context": "National military of Rwanda, accused of supporting M23 in DRC.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Southern African Development Community Mission in the DRC",
-      "original_text_name": "SAMIDRC",
-      "aliases": [
-        "SADC Mission"
-      ],
-      "type": "other",
-      "context": "Military force deployed by SADC to support DRC against M23.",
-      "time_period": "2024-present"
-    },
-    {
-      "standard_name": "Nduma Defense of Congo-Renovated",
-      "original_text_name": "Nduma Defense of Congo-Renovated",
-      "aliases": [],
-      "type": "militia",
-      "context": "Local militia in DRC that fought against M23 in Kalembe.",
+      "context": "National military of Rwanda, accused of supporting M23 with troops and equipment.",
       "time_period": null
     },
     {
@@ -272,17 +253,18 @@
         "Zaïre"
       ],
       "type": "militia",
-      "context": "Ituri-based self-defense group that rebranded from Zaïre, allied with AFC-M23.",
+      "context": "Self-defense group in Ituri Province, allied with AFC-M23, involved in gold mining and recruitment.",
       "time_period": "2024-present"
     },
     {
       "standard_name": "Coopérative pour le Développement du Congo/Union des Révolutionnaires pour la Défense du Peuple Congolais",
       "original_text_name": "Coopérative pour le Développement du Congo/Union des Révolutionnaires pour la Défense du Peuple Congolais",
       "aliases": [
-        "CODECO/URDPC"
+        "CODECO/URDPC",
+        "CODECO"
       ],
       "type": "militia",
-      "context": "Rival armed group in Ituri, targeted by ADCVI.",
+      "context": "Armed group in Ituri, rival of ADCVI, involved in gold mining and conflict.",
       "time_period": null
     },
     {
@@ -296,11 +278,19 @@
       "time_period": null
     },
     {
+      "standard_name": "Nduma Defense of Congo-Renovated",
+      "original_text_name": "Nduma Defense of Congo-Renovated",
+      "aliases": [],
+      "type": "militia",
+      "context": "Armed group that repelled M23 from Kalembe alongside Wazalendo.",
+      "time_period": null
+    },
+    {
       "standard_name": "MAPI",
       "original_text_name": "MAPI",
       "aliases": [],
       "type": "militia",
-      "context": "Armed group in Ituri, agreed to cooperate with ADCVI and AFC-M23.",
+      "context": "Armed group in Irumu Territory, Ituri; leaders opted for independence but cooperated with ADCVI and AFC-M23.",
       "time_period": null
     },
     {
@@ -308,7 +298,7 @@
       "original_text_name": "Wagner Group",
       "aliases": [],
       "type": "militia",
-      "context": "Russian private military company allegedly opposing M23 in DRC.",
+      "context": "Russian private military company allegedly opposing M23.",
       "time_period": "2014-present"
     }
   ],
@@ -318,48 +308,16 @@
       "target": "Congo River Alliance",
       "relationship": "alliance",
       "detail": null,
-      "context": "M23 is the principal member of the Congo River Alliance, a coalition of rebel groups.",
-      "time_period": "2012-present"
+      "context": "M23 is the principal member of the Congo River Alliance.",
+      "time_period": null
     },
     {
       "source": "March 23 Movement",
       "target": "National Congress for the Defence of the People",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "M23 was established in 2012 by former members of the CNDP, succeeding it as a rebel group.",
-      "time_period": "2012"
-    },
-    {
-      "source": "National Congress for the Defence of the People",
-      "target": "Armed Forces of the Democratic Republic of the Congo",
-      "relationship": "other",
-      "detail": "integrated into",
-      "context": "CNDP forces were integrated into FARDC under a 2009 peace agreement.",
-      "time_period": "2009"
-    },
-    {
-      "source": "National Congress for the Defence of the People",
-      "target": "Rassemblement Congolais pour la Démocratie–Goma",
-      "relationship": "other",
-      "detail": "derived from",
-      "context": "CNDP leader Laurent Nkunda previously served as a brigade commander for RCD-Goma.",
-      "time_period": "2002-2006"
-    },
-    {
-      "source": "National Congress for the Defence of the People",
-      "target": "Union des Patriotes Congolais",
-      "relationship": "other",
-      "detail": "absorbed leadership",
-      "context": "Bosco Ntaganda, former UPC chief of staff, became Chief of Staff of CNDP.",
-      "time_period": "2006"
-    },
-    {
-      "source": "National Congress for the Defence of the People",
-      "target": "Democratic Forces for the Liberation of Rwanda",
-      "relationship": "rivalry",
+      "relationship": "alliance",
       "detail": null,
-      "context": "CNDP activities were justified by the need to neutralize the FDLR.",
-      "time_period": "2004-2009"
+      "context": "M23 was established by former members of the CNDP.",
+      "time_period": "2012"
     },
     {
       "source": "March 23 Movement",
@@ -370,70 +328,99 @@
       "time_period": "2012-present"
     },
     {
-      "source": "March 23 Movement",
-      "target": "Mai-Mai",
+      "source": "National Congress for the Defence of the People",
+      "target": "Democratic Forces for the Liberation of Rwanda",
       "relationship": "rivalry",
       "detail": null,
-      "context": "M23 opposes Mai-Mai militias, which are supported by the Congolese government.",
-      "time_period": "2012-present"
+      "context": "CNDP activities were justified by the need to neutralize the FDLR.",
+      "time_period": "2004-2009"
+    },
+    {
+      "source": "National Congress for the Defence of the People",
+      "target": "Rassemblement Congolais pour la Démocratie–Goma",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Many ex-RCD-Goma combatants defected to Nkunda's emerging CNDP faction.",
+      "time_period": "2005-2006"
+    },
+    {
+      "source": "National Congress for the Defence of the People",
+      "target": "Union des Patriotes Congolais",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bosco Ntaganda, former chief of staff of UPC, became Chief of Staff of CNDP.",
+      "time_period": "2006"
     },
     {
       "source": "National Congress for the Defence of the People",
       "target": "Patriotes Résistants Congolais",
-      "relationship": "other",
-      "detail": "sought alliance",
-      "context": "Ntaganda sought alliances with ex-PARECO combatants to broaden his power base.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "CNDP sought alliances with ex-PARECO combatants in late 2010.",
       "time_period": "2010"
     },
     {
-      "source": "National Congress for the Defence of the People",
-      "target": "Forces Républicaines Fédéralistes",
-      "relationship": "other",
-      "detail": "shared interests",
-      "context": "CNDP, PARECO, and FRF feared marginalization and sought to entrench influence.",
-      "time_period": "2011"
+      "source": "March 23 Movement",
+      "target": "Mai-Mai",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "M23 opposes Mai-Mai militias supported by the Congolese government.",
+      "time_period": "2012-present"
     },
     {
       "source": "March 23 Movement",
       "target": "Armed Forces of the Democratic Republic of the Congo",
       "relationship": "rivalry",
-      "context": "M23 fought against FARDC in North Kivu and captured Goma in 2012.",
-      "time_period": "2012"
-    },
-    {
-      "source": "March 23 Movement",
-      "target": "Mai-Mai PARECO",
-      "relationship": "alliance",
-      "context": "FARDC defectors joined Mai-Mai PARECO under La Fontaine, which was allied with M23.",
+      "detail": null,
+      "context": "M23 fought against FARDC during its rebellion.",
       "time_period": "2012"
     },
     {
       "source": "March 23 Movement",
       "target": "Union for the Rehabilitation of Democracy in Congo",
       "relationship": "alliance",
-      "context": "URDC, led by Tahanga Nyolo, was allied with M23 and joined them in Goma.",
+      "detail": null,
+      "context": "URDC was allied with M23 and joined M23 in occupying Goma.",
       "time_period": "2012"
     },
     {
-      "source": "Armed Forces of the Democratic Republic of the Congo",
+      "source": "March 23 Movement",
+      "target": "RCD-K/ML",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ex-RCD-K/ML members defected to M23-affiliated forces.",
+      "time_period": "2012"
+    },
+    {
+      "source": "March 23 Movement",
+      "target": "Mai-Mai PARECO",
+      "relationship": "other",
+      "detail": "defector joined",
+      "context": "Colonel Albert Kahasha defected from FARDC to join Mai-Mai PARECO, which was allied with M23.",
+      "time_period": "2012"
+    },
+    {
+      "source": "March 23 Movement",
       "target": "Raïa Mutomboki",
-      "relationship": "alliance",
-      "context": "FARDC cooperated with Mai-Mai groups including Raïa Mutomboki to fight M23.",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "M23 fought against Raïa Mutomboki; some Raïa Mutomboki leaders surrendered to government troops.",
       "time_period": "2012"
     },
     {
-      "source": "Armed Forces of the Democratic Republic of the Congo",
+      "source": "March 23 Movement",
       "target": "Nyatura",
-      "relationship": "alliance",
-      "context": "FARDC cooperated with Mai-Mai groups including Nyatura to fight M23.",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "M23 fought against Nyatura; some Nyatura leaders surrendered to government troops.",
       "time_period": "2012"
     },
     {
-      "source": "Armed Forces of the Democratic Republic of the Congo",
+      "source": "March 23 Movement",
       "target": "Democratic Forces for the Liberation of Rwanda",
       "relationship": "other",
-      "detail": "arms sales",
-      "context": "FARDC General Amisi was investigated for selling arms to FDLR and other groups.",
+      "detail": "arms sales implicated",
+      "context": "FDLR was implicated in arms sales to rebel groups including M23.",
       "time_period": "2012"
     },
     {
@@ -441,54 +428,54 @@
       "target": "Nyatura",
       "relationship": "alliance",
       "detail": null,
-      "context": "M23 relied on Nyatura as allied militia for coordinated attacks in Masisi.",
-      "time_period": "2012-2013"
+      "context": "M23 relied on Nyatura as an allied militia for coordinated attacks.",
+      "time_period": "2012"
     },
     {
       "source": "March 23 Movement",
       "target": "Mai-Mai Cheka",
       "relationship": "alliance",
       "detail": null,
-      "context": "Mai-Mai Cheka launched assaults to secure areas for M23.",
-      "time_period": "2012-2013"
+      "context": "M23 relied on Mai-Mai Cheka as an allied militia for coordinated attacks.",
+      "time_period": "2012"
     },
     {
       "source": "March 23 Movement",
       "target": "Raïa Mutomboki",
       "relationship": "alliance",
       "detail": null,
-      "context": "Raïa Mutomboki aligned with M23 and perpetrated violence.",
-      "time_period": "2012-2013"
+      "context": "M23 relied on Raïa Mutomboki as an allied militia for coordinated attacks.",
+      "time_period": "2012"
     },
     {
       "source": "Nyatura",
       "target": "Rally for Congolese Democracy–Goma",
-      "relationship": "other",
-      "detail": "affiliated",
-      "context": "Nyatura commander Munyamariba was former militia leader affiliated with RCD-Goma.",
-      "time_period": "pre-2012"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nyatura commander Munyamariba was a former militia leader affiliated with RCD-Goma.",
+      "time_period": null
     },
     {
       "source": "Nyatura",
       "target": "National Congress for the Defence of the People",
-      "relationship": "other",
-      "detail": "affiliated",
-      "context": "Nyatura commander Munyamariba was former militia leader affiliated with CNDP.",
-      "time_period": "pre-2012"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Nyatura commander Munyamariba was a former militia leader affiliated with CNDP.",
+      "time_period": null
     },
     {
       "source": "M27",
       "target": "National Congress for the Defence of the People",
-      "relationship": "other",
-      "detail": "splinter",
+      "relationship": "alliance",
+      "detail": null,
       "context": "M27 is composed of members of CNDP and M23 defectors.",
       "time_period": "2015"
     },
     {
       "source": "M27",
       "target": "March 23 Movement",
-      "relationship": "other",
-      "detail": "splinter",
+      "relationship": "alliance",
+      "detail": null,
       "context": "M27 is composed of M23 defectors.",
       "time_period": "2015"
     },
@@ -505,7 +492,7 @@
       "target": "Coalition des Mouvements pour le Changement/Forces de Défense du Peuple",
       "relationship": "alliance",
       "detail": null,
-      "context": "These factions signed an agreement in Pinga to halt hostilities among themselves.",
+      "context": "They signed an agreement pledging to halt hostilities among themselves.",
       "time_period": "2022"
     },
     {
@@ -513,7 +500,7 @@
       "target": "Nduma Défense du Congo-Rénové",
       "relationship": "alliance",
       "detail": null,
-      "context": "These factions signed an agreement in Pinga to halt hostilities among themselves.",
+      "context": "They signed an agreement pledging to halt hostilities among themselves.",
       "time_period": "2022"
     },
     {
@@ -521,7 +508,7 @@
       "target": "Alliance Nationale des Congolais pour la Défense des Droits de l'Homme",
       "relationship": "alliance",
       "detail": null,
-      "context": "These factions signed an agreement in Pinga to halt hostilities among themselves.",
+      "context": "They signed an agreement pledging to halt hostilities among themselves.",
       "time_period": "2022"
     },
     {
@@ -529,7 +516,7 @@
       "target": "Nduma Défense du Congo-Rénové",
       "relationship": "alliance",
       "detail": null,
-      "context": "These factions signed an agreement in Pinga to halt hostilities among themselves.",
+      "context": "They signed an agreement pledging to halt hostilities among themselves.",
       "time_period": "2022"
     },
     {
@@ -537,7 +524,7 @@
       "target": "Alliance Nationale des Congolais pour la Défense des Droits de l'Homme",
       "relationship": "alliance",
       "detail": null,
-      "context": "These factions signed an agreement in Pinga to halt hostilities among themselves.",
+      "context": "They signed an agreement pledging to halt hostilities among themselves.",
       "time_period": "2022"
     },
     {
@@ -545,15 +532,39 @@
       "target": "Alliance Nationale des Congolais pour la Défense des Droits de l'Homme",
       "relationship": "alliance",
       "detail": null,
-      "context": "These factions signed an agreement in Pinga to halt hostilities among themselves.",
+      "context": "They signed an agreement pledging to halt hostilities among themselves.",
       "time_period": "2022"
     },
     {
       "source": "Democratic Forces for the Liberation of Rwanda",
       "target": "Alliance des Patriotes pour un Congo Libre et Souverain",
-      "relationship": "other",
-      "detail": "present at meeting",
-      "context": "FDLR representatives attended the Pinga agreement meeting.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "FDLR representatives attended the Pinga meeting where the agreement was signed.",
+      "time_period": "2022"
+    },
+    {
+      "source": "Democratic Forces for the Liberation of Rwanda",
+      "target": "Coalition des Mouvements pour le Changement/Forces de Défense du Peuple",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "FDLR representatives attended the Pinga meeting.",
+      "time_period": "2022"
+    },
+    {
+      "source": "Democratic Forces for the Liberation of Rwanda",
+      "target": "Nduma Défense du Congo-Rénové",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "FDLR representatives attended the Pinga meeting.",
+      "time_period": "2022"
+    },
+    {
+      "source": "Democratic Forces for the Liberation of Rwanda",
+      "target": "Alliance Nationale des Congolais pour la Défense des Droits de l'Homme",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "FDLR representatives attended the Pinga meeting.",
       "time_period": "2022"
     },
     {
@@ -561,39 +572,31 @@
       "target": "Rwandan Defence Force",
       "relationship": "alliance",
       "detail": null,
-      "context": "RDF supports M23 militarily in eastern DRC.",
+      "context": "RDF supports M23 with troops, equipment, and missile strikes.",
       "time_period": "2012-present"
     },
     {
-      "source": "March 23 Movement",
-      "target": "Wazalendo",
+      "source": "Wazalendo",
+      "target": "March 23 Movement",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Wazalendo militias fight against M23 as part of FARDC.",
+      "context": "Wazalendo militias fight against M23 alongside FARDC.",
       "time_period": "2023-present"
     },
     {
-      "source": "March 23 Movement",
-      "target": "Southern African Development Community Mission in the DRC",
+      "source": "Democratic Forces for the Liberation of Rwanda",
+      "target": "March 23 Movement",
       "relationship": "rivalry",
       "detail": null,
-      "context": "SAMIDRC is deployed to support DRC against M23.",
-      "time_period": "2024-present"
-    },
-    {
-      "source": "March 23 Movement",
-      "target": "Nduma Defense of Congo-Renovated",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "M23 briefly occupied Kalembe but was repelled by Nduma Defense of Congo-Renovated.",
-      "time_period": "2024"
+      "context": "FDLR fights alongside Wazalendo against M23.",
+      "time_period": null
     },
     {
       "source": "Auto-Défense des Communautés Victimes de l'Ituri",
       "target": "March 23 Movement",
       "relationship": "alliance",
       "detail": null,
-      "context": "ADCVI reinforced its alliance with AFC-M23 for operations in Ituri.",
+      "context": "ADCVI reinforced its alliance with AFC-M23 for operations against FARDC.",
       "time_period": "2024-present"
     },
     {
@@ -607,9 +610,9 @@
     {
       "source": "Auto-Défense des Communautés Victimes de l'Ituri",
       "target": "Union des Patriotes Congolais",
-      "relationship": "other",
-      "detail": "recruitment source",
-      "context": "ADCVI recruited former leaders and combatants from UPC.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "ADCVI utilized former leaders and combatants from UPC for recruitment.",
       "time_period": "2024"
     },
     {
@@ -625,15 +628,7 @@
       "target": "March 23 Movement",
       "relationship": "alliance",
       "detail": null,
-      "context": "CODECO-URDPC considered aligning with AFC-M23.",
-      "time_period": "2024"
-    },
-    {
-      "source": "MAPI",
-      "target": "Auto-Défense des Communautés Victimes de l'Ituri",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "MAPI agreed to cooperate with ADCVI and AFC-M23.",
+      "context": "CODECO-URDPC expressed interest in aligning with AFC-M23.",
       "time_period": "2024"
     },
     {
@@ -641,7 +636,15 @@
       "target": "March 23 Movement",
       "relationship": "alliance",
       "detail": null,
-      "context": "MAPI agreed to cooperate with AFC-M23.",
+      "context": "MAPI agreed to cooperate with ADCVI and AFC-M23.",
+      "time_period": "2024"
+    },
+    {
+      "source": "Nduma Defense of Congo-Renovated",
+      "target": "March 23 Movement",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Nduma Defense of Congo-Renovated repelled M23 from Kalembe.",
       "time_period": "2024"
     },
     {
@@ -650,6 +653,14 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Wagner Group is allegedly an opponent of M23.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "March 23 Movement",
+      "target": "Wazalendo",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Wazalendo is an opponent of M23.",
       "time_period": "unknown"
     }
   ],

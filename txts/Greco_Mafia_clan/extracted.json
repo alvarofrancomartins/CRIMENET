@@ -2,25 +2,25 @@
   "nodes": [
     {
       "standard_name": "Greco Mafia clan",
-      "original_text_name": "Greco Mafia clan",
+      "original_text_name": "Greco Mafia family",
       "aliases": [
-        "Greco Mafia family",
+        "Greco Mafia clan",
         "Greco clan",
-        "Greco family",
-        "Grecos"
+        "Greco family"
       ],
       "type": "mafia",
-      "context": "Historically one of the most influential Mafia clans in Sicily, ruling in Ciaculli and Croceverde Giardini.",
+      "context": "Historically one of the most influential Mafia clans in Sicily, ruling in Ciaculli and Croceverde Giardini, involved in citrus, cigarette smuggling, and heroin trafficking.",
       "time_period": "late 19th century-present"
     },
     {
       "standard_name": "Sicilian Cosa Nostra",
       "original_text_name": "Sicilian Cosa Nostra",
       "aliases": [
-        "Cosa Nostra"
+        "Cosa Nostra",
+        "Sicilian Mafia"
       ],
       "type": "mafia",
-      "context": "The overarching Sicilian Mafia organization; the Greco family were important figures within it.",
+      "context": "The overarching Sicilian Mafia organization; the Greco family were important members.",
       "time_period": "19th century-present"
     },
     {
@@ -30,8 +30,8 @@
         "Ciaculli faction"
       ],
       "type": "faction",
-      "context": "One of the two factions of the Greco clan, based in Ciaculli.",
-      "time_period": "late 19th century-present"
+      "context": "One of the two factions of the Greco clan, based in Ciaculli, involved in the Greco War feud.",
+      "time_period": "early 20th century-present"
     },
     {
       "standard_name": "Croceverde Giardini cosca",
@@ -41,73 +41,93 @@
         "Croceverde Giardini faction"
       ],
       "type": "faction",
-      "context": "The other faction of the Greco clan, based in Croceverde Giardini.",
-      "time_period": "late 19th century-present"
+      "context": "The other faction of the Greco clan, based in Croceverde Giardini, involved in the Greco War feud.",
+      "time_period": "early 20th century-present"
     },
     {
-      "standard_name": "Mafia family of Villabate",
+      "standard_name": "Villabate Mafia family",
       "original_text_name": "Mafia family of Villabate",
       "aliases": [
-        "Cottone family"
+        "Cottone clan"
       ],
       "type": "mafia",
-      "context": "Mafia family from Villabate, led by Antonio Cottone, who mediated the Greco feud.",
-      "time_period": "20th century"
+      "context": "Mafia family from Villabate, led by Antonio Cottone, mediated peace between Greco factions.",
+      "time_period": "early 20th century-present"
     },
     {
       "standard_name": "Acquasanta Mafia clan",
       "original_text_name": "Acquasanta Mafia clan",
-      "aliases": [
-        "Acquasanta clan"
-      ],
+      "aliases": [],
       "type": "mafia",
-      "context": "Mafia clan that tried to muscle in on protection rackets in Palermo's wholesale market.",
-      "time_period": "1950s"
+      "context": "Mafia clan from Acquasanta area of Palermo, involved in conflict over wholesale market rackets.",
+      "time_period": "mid 20th century"
     },
     {
-      "standard_name": "La Barbera brothers",
-      "original_text_name": "La Barbera brothers",
+      "standard_name": "La Barbera clan",
+      "original_text_name": "La Barberas",
       "aliases": [
         "Salvatore and Angelo La Barbera"
       ],
-      "type": "faction",
-      "context": "Rival mafiosi in the First Mafia War, representing a new Mafia.",
-      "time_period": "1960s"
+      "type": "mafia",
+      "context": "Rival Mafia clan in the First Mafia War, opposed the Grecos.",
+      "time_period": "mid 20th century"
     },
     {
       "standard_name": "Corleonesi",
       "original_text_name": "Corleonesi",
       "aliases": [],
-      "type": "faction",
-      "context": "Mafia faction from Corleone led by Totò Riina, which fought the Second Mafia War.",
+      "type": "mafia",
+      "context": "Mafia faction from Corleone, led by Totò Riina, fought in the Second Mafia War.",
       "time_period": "1970s-1990s"
     },
     {
-      "standard_name": "American Cosa Nostra",
-      "original_text_name": "American Cosa Nostra",
-      "aliases": [
-        "American Mafia"
-      ],
+      "standard_name": "Bontade-Inzerillo faction",
+      "original_text_name": "faction led by Stefano Bontade and Salvatore Inzerillo",
+      "aliases": [],
+      "type": "faction",
+      "context": "Rival faction to the Corleonesi in the Second Mafia War.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "La Barbera brothers",
+      "original_text_name": "La Barbera brothers",
+      "aliases": [],
       "type": "mafia",
-      "context": "The American Mafia; had connections with the Sicilian Mafia, including Joe Profaci and Joe Bonanno.",
-      "time_period": "20th century"
+      "context": "A Mafia faction involved in the First Mafia War in the early 1960s, rivals of the Grecos.",
+      "time_period": "early 1960s"
     },
     {
       "standard_name": "Ciaculli family",
       "original_text_name": "Ciaculli family",
       "aliases": [],
       "type": "mafia",
-      "context": "A Mafia family based in Ciaculli, a faction within the Greco clan, led by Leandro Greco and later Giuseppe Greco.",
-      "time_period": "Late 19th century-present"
+      "context": "A Mafia family based in Ciaculli, a branch of the Greco clan; Leandro Greco was capomandamento.",
+      "time_period": "20th century-present"
     }
   ],
   "edges": [
     {
       "source": "Ciaculli clan",
+      "target": "Greco Mafia clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Ciaculli clan is a faction of the Greco Mafia clan.",
+      "time_period": "late 19th century-present"
+    },
+    {
+      "source": "Croceverde Giardini cosca",
+      "target": "Greco Mafia clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Croceverde Giardini cosca is a faction of the Greco Mafia clan.",
+      "time_period": "late 19th century-present"
+    },
+    {
+      "source": "Ciaculli clan",
       "target": "Croceverde Giardini cosca",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The two factions of the Greco clan engaged in a bloody interfamily feud from 1939 to 1947.",
+      "context": "The two factions fought a bloody feud known as the Greco War from 1939 to 1947.",
       "time_period": "1939-1947"
     },
     {
@@ -115,31 +135,31 @@
       "target": "Sicilian Cosa Nostra",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Greco family were important figures in the Sicilian Cosa Nostra and participated in its Commission.",
+      "context": "The Greco family were important members of the Sicilian Cosa Nostra.",
       "time_period": "late 19th century-present"
     },
     {
-      "source": "Mafia family of Villabate",
+      "source": "Villabate Mafia family",
       "target": "Greco Mafia clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Antonio Cottone of Villabate mediated peace between the Greco factions.",
-      "time_period": "1940s"
+      "context": "Antonio Cottone of Villabate mediated peace between Greco factions; later Nino Cottone was killed in conflict with Acquasanta.",
+      "time_period": "1940s-1950s"
     },
     {
       "source": "Acquasanta Mafia clan",
       "target": "Greco Mafia clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Acquasanta clan fought the Grecos over protection rackets at Palermo's wholesale market in the 1950s.",
+      "context": "Conflict over protection rackets at Palermo wholesale market; several bosses killed.",
       "time_period": "1955-1956"
     },
     {
       "source": "Greco Mafia clan",
-      "target": "La Barbera brothers",
+      "target": "La Barbera clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Grecos and La Barberas were protagonists in the First Mafia War in the early 1960s.",
+      "context": "First Mafia War between Grecos and La Barberas over heroin trade and power.",
       "time_period": "1962-1963"
     },
     {
@@ -151,27 +171,35 @@
       "time_period": "1978-1985"
     },
     {
-      "source": "Sicilian Cosa Nostra",
-      "target": "American Cosa Nostra",
-      "relationship": "alliance",
+      "source": "Corleonesi",
+      "target": "Bontade-Inzerillo faction",
+      "relationship": "rivalry",
       "detail": null,
-      "context": "Sicilian and American Mafia cooperated in heroin trafficking and held meetings like the Grand Hotel des Palmes meeting in 1957.",
-      "time_period": "1950s-1960s"
+      "context": "Second Mafia War between Corleonesi and the Bontade-Inzerillo faction.",
+      "time_period": "1981-1983"
     },
     {
       "source": "Greco Mafia clan",
       "target": "Acquasanta Mafia clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rivalry over the Palermo wholesale market in the mid-1950s.",
-      "time_period": "1950s"
+      "context": "Rivals in the Palermo wholesale market war in the mid-1950s.",
+      "time_period": "mid-1950s"
+    },
+    {
+      "source": "Greco Mafia clan",
+      "target": "La Barbera brothers",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rivals in the First Mafia War in the early 1960s.",
+      "time_period": "early 1960s"
     },
     {
       "source": "Ciaculli family",
       "target": "Greco Mafia clan",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Ciaculli family is a faction within the Greco clan.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Ciaculli family is a branch of the Greco clan.",
       "time_period": null
     }
   ],

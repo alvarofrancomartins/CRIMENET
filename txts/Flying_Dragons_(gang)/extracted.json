@@ -7,7 +7,7 @@
         "FDS"
       ],
       "type": "gang",
-      "context": "Chinese American street gang in New York City's Chinatown, involved in drug trafficking, extortion, murder.",
+      "context": "Chinese American street gang in New York City's Chinatown, active 1967-1994, involved in drug trafficking, extortion, murder.",
       "time_period": "1967-1994"
     },
     {
@@ -23,23 +23,23 @@
       "original_text_name": "Ghost Shadows",
       "aliases": [],
       "type": "gang",
-      "context": "Rival Chinese American street gang in New York City's Chinatown.",
-      "time_period": null
+      "context": "Rival Chinese American street gang in New York City's Chinatown during the 1980s.",
+      "time_period": "1980s"
     },
     {
       "standard_name": "Italian-American Mafia",
       "original_text_name": "Italian-American Mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian-American organized crime groups that lost heroin trade to Flying Dragons after Pizza Connection prosecutions.",
+      "context": "Italian-American organized crime groups that lost heroin trade after Pizza Connection prosecutions.",
       "time_period": null
     },
     {
       "standard_name": "Vietnamese Flying Dragons",
       "original_text_name": "Vietnamese Flying Dragons",
       "aliases": [],
-      "type": "faction",
-      "context": "Former branch of Flying Dragons consisting of Vietnamese members, viewed as lower status.",
+      "type": "gang",
+      "context": "Former branch of the Flying Dragons consisting of primarily Vietnamese members.",
       "time_period": "1980s"
     },
     {
@@ -47,7 +47,7 @@
       "original_text_name": "Born to Kill",
       "aliases": [],
       "type": "gang",
-      "context": "Vietnamese gang formed by former Flying Dragons member David Thai, rival to Flying Dragons and Ghost Shadows.",
+      "context": "Vietnamese gang formed by former Vietnamese Flying Dragons member David Thai, rival to Flying Dragons and Ghost Shadows.",
       "time_period": "late 1980s-1990s"
     }
   ],
@@ -72,8 +72,8 @@
       "source": "Flying Dragons",
       "target": "Italian-American Mafia",
       "relationship": "other",
-      "detail": "took over heroin trade",
-      "context": "Flying Dragons moved into heroin trafficking after the Italian-American Mafia lost the trade due to Pizza Connection prosecutions.",
+      "detail": "successor in heroin trade",
+      "context": "Flying Dragons moved into heroin trafficking after Italian-American Mafia lost the trade due to Pizza Connection prosecutions.",
       "time_period": "mid-1980s"
     },
     {
@@ -89,8 +89,8 @@
       "target": "Flying Dragons",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Born to Kill, formed by ex-Flying Dragons member David Thai, competed with Flying Dragons for control of Chinatown.",
-      "time_period": "late 1980s-1990s"
+      "context": "Born to Kill, formed by ex-Vietnamese Flying Dragons member David Thai, competed with Flying Dragons for control of Chinatown.",
+      "time_period": "late 1980s"
     },
     {
       "source": "Born to Kill",
@@ -98,7 +98,7 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Born to Kill competed with Ghost Shadows for control of Chinatown.",
-      "time_period": "late 1980s-1990s"
+      "time_period": "late 1980s"
     }
   ],
   "source_file": "Flying_Dragons_(gang)"

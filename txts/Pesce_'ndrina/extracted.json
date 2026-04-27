@@ -48,25 +48,15 @@
       "type": "clan",
       "context": "An 'Ndrangheta clan listed as an ally of the Pesce clan.",
       "time_period": null
-    },
-    {
-      "standard_name": "Pelle 'ndrina",
-      "original_text_name": "Pelle",
-      "aliases": [
-        "Giuseppe Pelle's clan"
-      ],
-      "type": "clan",
-      "context": "An 'Ndrangheta clan from San Luca that aspired to have Giuseppe Pelle as capo crimine, leading to conflict with Pesce.",
-      "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Pesce 'ndrina",
       "target": "'Ndrangheta",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Pesce 'ndrina is a clan within the 'Ndrangheta organization.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Pesce 'ndrina is a clan (sub-group) of the 'Ndrangheta.",
       "time_period": "1950s-present"
     },
     {
@@ -74,7 +64,7 @@
       "target": "Bellocco 'ndrina",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Pesce and Bellocco clans jointly controlled port activities and were arrested together in 2006 for drug trafficking.",
+      "context": "The Pesce and Bellocco clans jointly controlled port activities and were involved in drug trafficking together.",
       "time_period": null
     },
     {
@@ -82,7 +72,7 @@
       "target": "Piromalli-Molè 'ndrina",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Pesce clan collaborated with the Piromalli-Molè 'ndrina to control public contracts for the container terminal in Gioia Tauro.",
+      "context": "The Pesce clan collaborated with the Piromalli-Molè 'ndrina in controlling public contracts for the container terminal.",
       "time_period": null
     },
     {
@@ -90,16 +80,8 @@
       "target": "Mancuso 'ndrina",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Mancuso 'ndrina is listed as an ally of the Pesce clan in the infobox.",
+      "context": "The Mancuso 'ndrina is listed as an ally of the Pesce clan.",
       "time_period": null
-    },
-    {
-      "source": "Pesce 'ndrina",
-      "target": "Pelle 'ndrina",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Vincenzo Pesce opposed Giuseppe Pelle's nomination as capo crimine, threatening to split the 'Ndrangheta and triggering a potential conflict.",
-      "time_period": "2009"
     }
   ],
   "source_file": "Pesce_'ndrina"

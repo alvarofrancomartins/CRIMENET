@@ -5,16 +5,16 @@
       "original_text_name": "Garduña",
       "aliases": [],
       "type": "other",
-      "context": "Mythical secret criminal society said to have been founded in Spain in the late Middle Ages, involved in robbery, kidnapping, arson, and murder-for-hire.",
-      "time_period": "1417-1850 (mythical)"
+      "context": "Mythical secret criminal society said to have been founded in Spain in the early 15th century, involved in robbery, kidnapping, arson, and murder-for-hire.",
+      "time_period": "1417-19th century (mythical)"
     },
     {
       "standard_name": "Camorra",
       "original_text_name": "Camorra",
       "aliases": [],
       "type": "clan",
-      "context": "Neapolitan crime syndicate active to this day in southern Italy.",
-      "time_period": "present"
+      "context": "Neapolitan crime syndicate active in southern Italy.",
+      "time_period": "19th century-present"
     },
     {
       "standard_name": "Sicilian Mafia",
@@ -23,18 +23,16 @@
         "Cosa Nostra"
       ],
       "type": "mafia",
-      "context": "Sicilian criminal organization, one of the most powerful mafias in Italy.",
-      "time_period": "present"
+      "context": "Sicilian criminal organization, also known as Cosa Nostra.",
+      "time_period": "19th century-present"
     },
     {
       "standard_name": "'Ndrangheta",
       "original_text_name": "'Ndrangheta",
-      "aliases": [
-        "Calabrian 'Ndrangheta"
-      ],
+      "aliases": [],
       "type": "mafia",
-      "context": "Calabrian mafia, active in Italy and worldwide.",
-      "time_period": "present"
+      "context": "Calabrian mafia organization active in southern Italy.",
+      "time_period": "19th century-present"
     },
     {
       "standard_name": "Chinese Triads",
@@ -42,41 +40,33 @@
       "aliases": [],
       "type": "triad",
       "context": "Chinese secret societies involved in organized crime.",
-      "time_period": "present"
+      "time_period": "historical-present"
     }
   ],
   "edges": [
     {
       "source": "Garduña",
       "target": "Camorra",
-      "relationship": "other",
-      "detail": "mythical precursor",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Myth claims Garduña was a precursor to the Camorra, transplanted when Spain controlled Naples.",
-      "time_period": null
+      "time_period": "mythical"
     },
     {
       "source": "Garduña",
       "target": "Sicilian Mafia",
-      "relationship": "other",
-      "detail": "mythical founder",
-      "context": "Myth says Osso from Garduña founded the Sicilian Mafia.",
-      "time_period": null
-    },
-    {
-      "source": "Garduña",
-      "target": "Camorra",
-      "relationship": "other",
-      "detail": "mythical founder",
-      "context": "Myth says Mastrosso from Garduña founded the Camorra.",
-      "time_period": null
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Myth claims Osso, a Garduña brother, founded the Sicilian Mafia.",
+      "time_period": "mythical"
     },
     {
       "source": "Garduña",
       "target": "'Ndrangheta",
-      "relationship": "other",
-      "detail": "mythical founder",
-      "context": "Myth says Carcagnosso from Garduña founded the 'Ndrangheta.",
-      "time_period": null
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Myth claims Carcagnosso, a Garduña brother, founded the 'Ndrangheta.",
+      "time_period": "mythical"
     }
   ],
   "source_file": "Garduña"

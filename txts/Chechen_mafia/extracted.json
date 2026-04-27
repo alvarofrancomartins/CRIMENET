@@ -8,23 +8,15 @@
         "community"
       ],
       "type": "mafia",
-      "context": "Ethnic organized crime group operating in former Soviet Union, involved in money laundering, racketeering, arms trafficking, etc.",
+      "context": "One of the largest ethnic organized crime groups in the former Soviet Union, active in Moscow and Europe.",
       "time_period": "1974-present"
-    },
-    {
-      "standard_name": "Russian mafia",
-      "original_text_name": "Russian mafia",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Established organized crime groups in Russia, including Solntsevskaya bratva and Orekhovskaya gang.",
-      "time_period": null
     },
     {
       "standard_name": "Solntsevskaya bratva",
       "original_text_name": "Solntsevskaya bratva",
       "aliases": [],
       "type": "mafia",
-      "context": "Slavic gang in Moscow, rival to Chechen mafia.",
+      "context": "A Russian mafia group that conflicted with the Chechen mafia in Moscow.",
       "time_period": null
     },
     {
@@ -32,15 +24,15 @@
       "original_text_name": "Orekhovskaya gang",
       "aliases": [],
       "type": "gang",
-      "context": "Slavic gang in Moscow, rival to Chechen mafia.",
+      "context": "A Slavic gang that conflicted with the Chechen mafia in Moscow.",
       "time_period": null
     },
     {
       "standard_name": "Special Purpose Islamic Regiment",
       "original_text_name": "Special Purpose Islamic Regiment",
       "aliases": [],
-      "type": "terrorist_organization",
-      "context": "Insurgent group in Chechnya involved in kidnapping and criminal activities.",
+      "type": "militia",
+      "context": "An insurgent group in Chechnya involved in kidnapping and criminality.",
       "time_period": null
     },
     {
@@ -48,7 +40,15 @@
       "original_text_name": "Kadyrovtsy",
       "aliases": [],
       "type": "militia",
-      "context": "Pro-government forces under Ramzan Kadyrov, accused of murders and embezzlement.",
+      "context": "Pro-government forces in Chechnya under Ramzan Kadyrov, accused of murders and embezzlement.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Russian mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Established Russian organized crime groups, rivals of the Chechen mafia.",
       "time_period": null
     },
     {
@@ -56,7 +56,7 @@
       "original_text_name": "Lebanese mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Rival to Chechen mafia.",
+      "context": "Rival of the Chechen mafia.",
       "time_period": null
     },
     {
@@ -64,7 +64,7 @@
       "original_text_name": "Ukrainian mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Rival to Chechen mafia.",
+      "context": "Rival of the Chechen mafia.",
       "time_period": null
     },
     {
@@ -72,25 +72,17 @@
       "original_text_name": "Serbian mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Rival to Chechen mafia.",
+      "context": "Rival of the Chechen mafia.",
       "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Chechen mafia",
-      "target": "Russian mafia",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Chechen mafia became dominant in Moscow, leading to conflict with Slavic gangs including Russian mafia groups.",
-      "time_period": null
-    },
-    {
-      "source": "Chechen mafia",
       "target": "Solntsevskaya bratva",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Solntsevskaya bratva was concerned about Chechen mafia's links to separatism and their dominance.",
+      "context": "The Chechen mafia came into conflict with Slavic gangs including the Solntsevskaya bratva in Moscow.",
       "time_period": null
     },
     {
@@ -98,23 +90,15 @@
       "target": "Orekhovskaya gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Orekhovskaya gang was concerned about Chechen mafia's links to separatism and their dominance.",
+      "context": "The Chechen mafia came into conflict with Slavic gangs including the Orekhovskaya gang in Moscow.",
       "time_period": null
     },
     {
       "source": "Chechen mafia",
-      "target": "Special Purpose Islamic Regiment",
-      "relationship": "other",
-      "detail": "criminal cooperation",
-      "context": "Both groups involved in criminal activities in war-torn Chechnya, but not explicitly allied.",
-      "time_period": null
-    },
-    {
-      "source": "Chechen mafia",
-      "target": "Kadyrovtsy",
-      "relationship": "other",
-      "detail": "government connection",
-      "context": "Under Kadyrov, Chechnya's criminalization continued with government officials accused of embezzlement and Kadyrovtsy involved in murders.",
+      "target": "Russian mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Chechen mafia is listed as a rival of the Russian mafia.",
       "time_period": null
     },
     {
@@ -122,7 +106,7 @@
       "target": "Lebanese mafia",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rival in infobox.",
+      "context": "The Chechen mafia is listed as a rival of the Lebanese mafia.",
       "time_period": null
     },
     {
@@ -130,7 +114,7 @@
       "target": "Ukrainian mafia",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rival in infobox.",
+      "context": "The Chechen mafia is listed as a rival of the Ukrainian mafia.",
       "time_period": null
     },
     {
@@ -138,7 +122,7 @@
       "target": "Serbian mafia",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rival in infobox.",
+      "context": "The Chechen mafia is listed as a rival of the Serbian mafia.",
       "time_period": null
     }
   ],

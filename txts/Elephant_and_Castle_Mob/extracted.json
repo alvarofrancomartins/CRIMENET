@@ -9,18 +9,25 @@
       "time_period": "1920s-1930s"
     },
     {
+      "standard_name": "Sabini gang",
+      "original_text_name": "Sabini gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "London gang led by Charles 'Darby' Sabini, rival of the Elephant and Castle Mob.",
+      "time_period": "1920s-1940s"
+    },
+    {
       "standard_name": "Birmingham Boys",
       "original_text_name": "Birmingham Boys",
       "aliases": [
-        "Brummagem Boys",
-        "Birmingham gang"
+        "Brummagems"
       ],
       "type": "gang",
       "context": "Birmingham-based gang led by Billy Kimber, allied with the Elephant and Castle Mob.",
       "time_period": "1920s-1930s"
     },
     {
-      "standard_name": "Camden Town Gang",
+      "standard_name": "Camden Town gang",
       "original_text_name": "Camden Town gang",
       "aliases": [],
       "type": "gang",
@@ -36,16 +43,6 @@
       "time_period": "1920s-1930s"
     },
     {
-      "standard_name": "Sabini Gang",
-      "original_text_name": "Sabini gang",
-      "aliases": [
-        "Darby Sabini's gang"
-      ],
-      "type": "gang",
-      "context": "London gang led by Charles 'Darby' Sabini, rival of the Elephant and Castle Mob.",
-      "time_period": "1920s-1930s"
-    },
-    {
       "standard_name": "West End Boys",
       "original_text_name": "West End Boys",
       "aliases": [],
@@ -54,7 +51,7 @@
       "time_period": "1920s-1930s"
     },
     {
-      "standard_name": "King's Cross/Titanic Gang",
+      "standard_name": "King's Cross/Titanic gang",
       "original_text_name": "King's Cross/Titanic gang",
       "aliases": [],
       "type": "gang",
@@ -66,7 +63,7 @@
       "original_text_name": "Forty Elephants",
       "aliases": [],
       "type": "gang",
-      "context": "London all-female gang; Alice Diamond was a leader, associated with Bert McDonald.",
+      "context": "London all-female gang led by Alice Diamond; Bert McDonald was boyfriend of Alice Diamond.",
       "time_period": "1920s-1930s"
     },
     {
@@ -81,18 +78,26 @@
   "edges": [
     {
       "source": "Elephant and Castle Mob",
-      "target": "Birmingham Boys",
-      "relationship": "alliance",
+      "target": "Sabini gang",
+      "relationship": "rivalry",
       "detail": null,
-      "context": "Allied with the Birmingham Boys led by Billy Kimber.",
+      "context": "The Elephant and Castle Mob were rivals of the Sabini gang, battling for control of racecourse bookmaking.",
       "time_period": "1920s-1930s"
     },
     {
       "source": "Elephant and Castle Mob",
-      "target": "Camden Town Gang",
+      "target": "Birmingham Boys",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied with the Camden Town gang led by George Sage.",
+      "context": "The Elephant and Castle Mob were allied with the Birmingham Boys (Brummagems) led by Billy Kimber.",
+      "time_period": "1920s-1930s"
+    },
+    {
+      "source": "Elephant and Castle Mob",
+      "target": "Camden Town gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Elephant and Castle Mob were allied with the Camden Town gang led by George Sage.",
       "time_period": "1920s-1930s"
     },
     {
@@ -100,15 +105,7 @@
       "target": "Finsbury Boys",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied with the Finsbury Boys led by Freddie Gilbert.",
-      "time_period": "1920s-1930s"
-    },
-    {
-      "source": "Elephant and Castle Mob",
-      "target": "Sabini Gang",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Rival of the Sabini gang for control of racecourse bookmaking pitches.",
+      "context": "The Elephant and Castle Mob were allied with the Finsbury Boys led by Freddie Gilbert.",
       "time_period": "1920s-1930s"
     },
     {
@@ -116,15 +113,15 @@
       "target": "West End Boys",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Conquered the West End Boys led by the McCausland brothers.",
+      "context": "The Elephant and Castle Mob conquered the West End Boys led by the McCausland brothers.",
       "time_period": "1920s-1930s"
     },
     {
       "source": "Elephant and Castle Mob",
-      "target": "King's Cross/Titanic Gang",
+      "target": "King's Cross/Titanic gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Conquered the King's Cross/Titanic gang led by Alf White.",
+      "context": "The Elephant and Castle Mob conquered the King's Cross/Titanic gang led by Alf White.",
       "time_period": "1920s-1930s"
     },
     {
@@ -132,7 +129,7 @@
       "target": "Hoxton Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as an ally in the infobox.",
+      "context": "The Hoxton Gang is listed as an ally of the Elephant and Castle Mob in the infobox.",
       "time_period": "1920s-1930s"
     }
   ],

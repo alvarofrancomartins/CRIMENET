@@ -18,7 +18,7 @@
         "matazetas"
       ],
       "type": "cartel",
-      "context": "Splinter faction of Milenio Cartel formed in 2010, led by Nemesio Oseguera.",
+      "context": "Splinter group of Milenio Cartel formed in 2010, led by Nemesio Oseguera Cervantes.",
       "time_period": "2010-present"
     },
     {
@@ -36,7 +36,7 @@
         "Sinaloa Federation"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel that allied with Milenio Cartel and later with CJNG.",
+      "context": "Mexican drug cartel that Milenio Cartel associated with and became a branch of.",
       "time_period": "1980s-present"
     },
     {
@@ -44,8 +44,8 @@
       "original_text_name": "La Resistencia",
       "aliases": [],
       "type": "cartel",
-      "context": "Splinter faction of Milenio Cartel led by Ramiro Pozos, allied with Los Zetas.",
-      "time_period": "2010-2011"
+      "context": "Splinter faction of Milenio Cartel, headed by Ramiro Pozos El Molca.",
+      "time_period": "2009-2011"
     },
     {
       "standard_name": "Los Zetas",
@@ -62,14 +62,14 @@
       "original_text_name": "La Familia Michoacana",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel that had a working agreement with Milenio remnants.",
+      "context": "Mexican drug cartel that had a working agreement with remnants of Milenio Cartel.",
       "time_period": "2006-2011"
     },
     {
       "standard_name": "Los Cuinis",
       "original_text_name": "Los Cuinis",
       "aliases": [],
-      "type": "faction",
+      "type": "cartel",
       "context": "Wing of CJNG that includes remnants of Milenio Cartel.",
       "time_period": "2010-present"
     },
@@ -92,11 +92,11 @@
   ],
   "edges": [
     {
-      "source": "Milenio Cartel",
-      "target": "Jalisco New Generation Cartel",
-      "relationship": "other",
-      "detail": "splintered from",
-      "context": "CJNG was born from the splintering of Milenio Cartel in 2010.",
+      "source": "Jalisco New Generation Cartel",
+      "target": "Milenio Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "CJNG was born from splintering of Milenio Cartel in 2010.",
       "time_period": "2010"
     },
     {
@@ -104,7 +104,7 @@
       "target": "Medellín Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Milenio had close connections with Medellín Cartel in the 1990s.",
+      "context": "Milenio Cartel had close connections with Medellín Cartel in the 1990s.",
       "time_period": "1990s"
     },
     {
@@ -112,8 +112,8 @@
       "target": "Sinaloa Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Milenio became a branch of the Sinaloa Federation under Ignacio Coronel.",
-      "time_period": "2000s-2010"
+      "context": "Milenio Cartel became a branch of the Sinaloa Federation under Ignacio Coronel.",
+      "time_period": "2000s"
     },
     {
       "source": "La Resistencia",
@@ -121,7 +121,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "La Resistencia formed a brief alliance with Los Zetas to oppose CJNG.",
-      "time_period": "2010-2011"
+      "time_period": "2009-2010"
     },
     {
       "source": "Jalisco New Generation Cartel",
@@ -136,7 +136,7 @@
       "target": "La Familia Michoacana",
       "relationship": "alliance",
       "detail": null,
-      "context": "Remnants of Milenio reached a working agreement with La Familia Michoacana.",
+      "context": "Remnants of Milenio Cartel reached a working agreement with La Familia Michoacana.",
       "time_period": "2010-2011"
     },
     {
@@ -144,16 +144,24 @@
       "target": "Los Zetas",
       "relationship": "alliance",
       "detail": null,
-      "context": "Former Milenio members forged a loose alliance with a faction of Los Zetas.",
+      "context": "Former Milenio Cartel members forged a loose alliance with a faction of Los Zetas.",
       "time_period": "2011"
     },
     {
-      "source": "Milenio Cartel",
-      "target": "Los Cuinis",
-      "relationship": "other",
-      "detail": "became part of",
-      "context": "Remnants of Milenio Cartel are currently part of CJNG wing Los Cuinis.",
+      "source": "Los Cuinis",
+      "target": "Jalisco New Generation Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Cuinis is a wing of CJNG that includes remnants of Milenio Cartel.",
       "time_period": "2010-present"
+    },
+    {
+      "source": "Jalisco New Generation Cartel",
+      "target": "La Resistencia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "CJNG and La Resistencia were in a turf war after the fracture of Milenio Cartel.",
+      "time_period": "2009-2010"
     },
     {
       "source": "Milenio Cartel",

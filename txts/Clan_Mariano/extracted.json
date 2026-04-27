@@ -26,7 +26,7 @@
         "Faiano"
       ],
       "type": "clan",
-      "context": "Camorra clan allied with Cutoliani and Russo, later at war with Clan Mariano.",
+      "context": "Camorra clan from Naples, allied with Cutoliani and Russo, later at war with Clan Mariano.",
       "time_period": "1980s-1990s"
     },
     {
@@ -34,7 +34,7 @@
       "original_text_name": "Russo",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan allied with Cutoliani and Di Biasi, later declined.",
+      "context": "Camorra clan from Naples, allied with Cutoliani and Di Biasi.",
       "time_period": "1980s-1990s"
     },
     {
@@ -42,7 +42,7 @@
       "original_text_name": "Alleanza di Secondigliano",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra alliance that fought Clan Mariano for control of Quartieri Spagnoli in the early 1990s.",
+      "context": "Camorra alliance from Secondigliano, Naples, rival of Clan Mariano in the early 1990s.",
       "time_period": "1990s"
     },
     {
@@ -50,7 +50,7 @@
       "original_text_name": "Cardillo-Ranieri",
       "aliases": [],
       "type": "clan",
-      "context": "Splinter group from Clan Mariano, involved in internal feud and killings.",
+      "context": "Camorra clan, splinter group from Clan Mariano, involved in internal feud.",
       "time_period": "1990s"
     },
     {
@@ -58,7 +58,7 @@
       "original_text_name": "clan di Michele Zaza",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan associated with Michele Zaza, linked to Clan Mariano through Emilio Tancredi.",
+      "context": "Camorra clan led by Michele Zaza, affiliated with Emilio Tancredi and Ciro Mariano.",
       "time_period": "1980s-1990s"
     },
     {
@@ -66,7 +66,7 @@
       "original_text_name": "Esposito",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan allied with Marco Mariano after his release.",
+      "context": "Camorra clan from Naples, allied with Clan Mariano after Marco Mariano's release.",
       "time_period": "2000s"
     },
     {
@@ -74,7 +74,7 @@
       "original_text_name": "Lepre",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan from Cavone area, allied with Marco Mariano.",
+      "context": "Camorra clan from Cavone area, Naples, allied with Clan Mariano.",
       "time_period": "2000s"
     },
     {
@@ -82,7 +82,7 @@
       "original_text_name": "Elia",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan from Pallonetto di Santa Lucia, allied with Marco Mariano.",
+      "context": "Camorra clan from Pallonetto di Santa Lucia, Naples, allied with Clan Mariano.",
       "time_period": "2000s"
     },
     {
@@ -90,7 +90,7 @@
       "original_text_name": "clan di Salvatore Terracciano",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan from Quartieri Spagnoli, historically affiliated with Picuozzi.",
+      "context": "Camorra clan from Quartieri Spagnoli, led by Salvatore Terracciano, allied with Clan Mariano.",
       "time_period": "2000s"
     },
     {
@@ -98,7 +98,7 @@
       "original_text_name": "Ricci",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan led by Enrico Ricci, emerged after decline of Di Biasi and Russo, allied with Sarno.",
+      "context": "Camorra clan from Quartieri Spagnoli, led by Enrico Ricci, allied with Sarno clan.",
       "time_period": "2000s"
     },
     {
@@ -106,7 +106,7 @@
       "original_text_name": "Sarno",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan from Ponticelli, allied with Ricci.",
+      "context": "Camorra clan from Ponticelli, Naples, allied with Ricci clan.",
       "time_period": "2000s"
     }
   ],
@@ -114,50 +114,56 @@
     {
       "source": "Clan Mariano",
       "target": "Cutoliani",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "Clan Mariano rose after the decline of the Cutoliani, who previously controlled the area.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Clan Mariano were gregari (followers) of the Giuliano brothers, who were part of the Cutoliani faction.",
       "time_period": "1980s"
     },
     {
       "source": "Clan Mariano",
       "target": "Di Biasi",
       "relationship": "rivalry",
-      "context": "Clan Mariano was at war with the Di Biasi (Faiano) for control of Quartieri Spagnoli.",
+      "detail": null,
+      "context": "Clan Mariano was at war with the Faiano (Di Biasi) clan for control of Quartieri Spagnoli.",
       "time_period": "1980s-1990s"
     },
     {
       "source": "Clan Mariano",
       "target": "Alleanza di Secondigliano",
       "relationship": "rivalry",
-      "context": "Clan Mariano fought the Alleanza di Secondigliano in the early 1990s.",
+      "detail": null,
+      "context": "Clan Mariano fought the Alleanza di Secondigliano in the early 1990s for control of Quartieri Spagnoli.",
       "time_period": "1990s"
     },
     {
-      "source": "Clan Mariano",
-      "target": "Cardillo-Ranieri",
+      "source": "Cardillo-Ranieri",
+      "target": "Clan Mariano",
       "relationship": "rivalry",
-      "context": "Cardillo-Ranieri were splinter scissionists who engaged in a violent internal feud with Clan Mariano.",
-      "time_period": "1990s"
+      "detail": null,
+      "context": "Cardillo-Ranieri were scissionists (splinter) from Clan Mariano, leading to a violent internal feud.",
+      "time_period": "1991"
     },
     {
       "source": "Clan Mariano",
       "target": "Clan Zaza",
       "relationship": "alliance",
-      "context": "Emilio Tancredi, affiliated with Clan Zaza, was linked to Ciro Mariano in business dealings.",
+      "detail": null,
+      "context": "Emilio Tancredi, affiliated with Clan Zaza, was considered affiliated with Ciro Mariano.",
       "time_period": "1980s-1990s"
     },
     {
       "source": "Clan Mariano",
       "target": "Esposito",
       "relationship": "alliance",
-      "context": "After Marco Mariano's release, the surviving clan members allied with the Esposito clan.",
+      "detail": null,
+      "context": "After Marco Mariano's release, Clan Mariano allied with the Esposito clan.",
       "time_period": "2009"
     },
     {
       "source": "Clan Mariano",
       "target": "Lepre",
       "relationship": "alliance",
+      "detail": null,
       "context": "Clan Mariano allied with the Lepre clan from Cavone.",
       "time_period": "2009"
     },
@@ -165,6 +171,7 @@
       "source": "Clan Mariano",
       "target": "Elia",
       "relationship": "alliance",
+      "detail": null,
       "context": "Clan Mariano allied with the Elia clan from Pallonetto di Santa Lucia.",
       "time_period": "2009"
     },
@@ -172,13 +179,15 @@
       "source": "Clan Mariano",
       "target": "Clan Terracciano",
       "relationship": "alliance",
-      "context": "Salvatore Terracciano's clan, historically affiliated with Picuozzi, joined the alliance with Marco Mariano.",
+      "detail": null,
+      "context": "Clan Mariano allied with Salvatore Terracciano's clan, a historical affiliate.",
       "time_period": "2009"
     },
     {
       "source": "Ricci",
       "target": "Sarno",
       "relationship": "alliance",
+      "detail": null,
       "context": "The Ricci clan is allied with the Sarno clan from Ponticelli.",
       "time_period": "2000s"
     },
@@ -186,6 +195,7 @@
       "source": "Ricci",
       "target": "Clan Mariano",
       "relationship": "rivalry",
+      "detail": null,
       "context": "The Ricci-Sarno alliance opposed Marco Mariano's attempts to regain control of Quartieri Spagnoli.",
       "time_period": "2009"
     }

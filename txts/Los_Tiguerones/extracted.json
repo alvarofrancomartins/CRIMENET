@@ -4,23 +4,23 @@
       "standard_name": "Los Tiguerones",
       "original_text_name": "Los Tiguerones",
       "aliases": [],
-      "type": "other",
-      "context": "Ecuadorian crime syndicate specializing in drug trafficking, assassinations, and other crimes. Based in Esmeraldas.",
+      "type": "gang",
+      "context": "Ecuadorian crime syndicate specializing in drug trafficking, assassinations, and other crimes, based in Esmeraldas.",
       "time_period": "2020-present"
     },
     {
       "standard_name": "Los Choneros",
       "original_text_name": "Los Choneros",
       "aliases": [],
-      "type": "other",
-      "context": "Ecuadorian criminal group from which Los Tiguerones split in 2020.",
-      "time_period": "before 2020-present"
+      "type": "gang",
+      "context": "Ecuadorian criminal organization from which Los Tiguerones split in 2020.",
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Los Lobos",
       "original_text_name": "Los Lobos",
       "aliases": [],
-      "type": "other",
+      "type": "gang",
       "context": "Ecuadorian gang that split from Los Choneros in 2020 and later allied with Los Tiguerones.",
       "time_period": "2020-present"
     },
@@ -28,17 +28,9 @@
       "standard_name": "Los Chone Killers",
       "original_text_name": "Los Chone Killers",
       "aliases": [],
-      "type": "other",
+      "type": "gang",
       "context": "Ecuadorian gang that split from Los Choneros in 2020 and allied with Los Tiguerones.",
       "time_period": "2020-present"
-    },
-    {
-      "standard_name": "Los Pipos",
-      "original_text_name": "Los Pipos",
-      "aliases": [],
-      "type": "other",
-      "context": "Ecuadorian gang formerly allied to Los Choneros, joined Nueva Generación alliance.",
-      "time_period": "unknown"
     },
     {
       "standard_name": "Jalisco New Generation Cartel",
@@ -47,15 +39,23 @@
         "CJNG"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel that allied with Los Tiguerones and others to form Nueva Generación.",
+      "context": "Mexican drug cartel that formed an alliance with Los Tiguerones and other gangs called Nueva Generación.",
       "time_period": "2010s-present"
+    },
+    {
+      "standard_name": "Los Pipos",
+      "original_text_name": "Los Pipos",
+      "aliases": [],
+      "type": "gang",
+      "context": "Ecuadorian gang formerly allied to Los Choneros, joined the Nueva Generación alliance.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "Kompania Bello",
       "original_text_name": "Kompania Bello",
       "aliases": [],
-      "type": "other",
-      "context": "Ally of Los Tiguerones listed in infobox.",
+      "type": "gang",
+      "context": "Ecuadorian gang listed as an ally of Los Tiguerones in the infobox.",
       "time_period": "unknown"
     }
   ],
@@ -65,7 +65,7 @@
       "target": "Los Choneros",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Los Tiguerones split from Los Choneros in 2020 and are rivals, with clashes and massacres.",
+      "context": "Los Tiguerones split from Los Choneros in 2020 and are listed as rivals.",
       "time_period": "2020-present"
     },
     {
@@ -73,7 +73,7 @@
       "target": "Los Lobos",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both split from Los Choneros and are allies in the Nueva Generación alliance.",
+      "context": "Both groups split from Los Choneros and formed the Nueva Generación alliance with Jalisco New Generation Cartel.",
       "time_period": "2021-present"
     },
     {
@@ -81,23 +81,23 @@
       "target": "Los Chone Killers",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both split from Los Choneros and are allies, cooperating in prison riots.",
+      "context": "Both groups split from Los Choneros and are allies, participating together in prison riots.",
       "time_period": "2020-present"
-    },
-    {
-      "source": "Los Tiguerones",
-      "target": "Los Pipos",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Formerly allied to Los Choneros, they joined the Nueva Generación alliance with Los Tiguerones.",
-      "time_period": "2021-present"
     },
     {
       "source": "Los Tiguerones",
       "target": "Jalisco New Generation Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Tiguerones allied with CJNG to form the Nueva Generación alliance.",
+      "context": "Los Tiguerones joined the Nueva Generación alliance with CJNG.",
+      "time_period": "2021-present"
+    },
+    {
+      "source": "Los Tiguerones",
+      "target": "Los Pipos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both groups were formerly allied to Los Choneros and joined the Nueva Generación alliance.",
       "time_period": "2021-present"
     },
     {
@@ -106,7 +106,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Listed as an ally in the infobox.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "source": "Los Lobos",

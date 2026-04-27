@@ -16,7 +16,7 @@
       "original_text_name": "Red Scorpions",
       "aliases": [],
       "type": "gang",
-      "context": "A gang in British Columbia, involved in drug trafficking and violence, later taken over by the Bacon brothers.",
+      "context": "A gang in British Columbia that partnered with the Bacon brothers and later became a Hells Angels puppet gang.",
       "time_period": "2000s-present"
     },
     {
@@ -24,7 +24,7 @@
       "original_text_name": "Independent Soldiers",
       "aliases": [],
       "type": "gang",
-      "context": "A gang in British Columbia, involved in drug trafficking and violence.",
+      "context": "A gang involved in the Lower Mainland drug trade, members arrested with Jamie Bacon in 2006.",
       "time_period": "2000s-present"
     },
     {
@@ -32,13 +32,15 @@
       "original_text_name": "Hells Angels",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "An outlaw motorcycle club with chapters worldwide, involved in organized crime.",
+      "context": "Outlaw motorcycle club that orchestrated the Bacon brothers' takeover of the Red Scorpions to create a puppet gang.",
       "time_period": "1948-present"
     },
     {
       "standard_name": "Dhak-Duhre gang",
       "original_text_name": "Dhak-Duhre gang",
-      "aliases": [],
+      "aliases": [
+        "Dhak-Duhre group"
+      ],
       "type": "gang",
       "context": "Allied with the United Nations gang against the Red Scorpions.",
       "time_period": "2000s-present"
@@ -48,7 +50,7 @@
       "original_text_name": "Lal gang",
       "aliases": [],
       "type": "gang",
-      "context": "A short-lived gang founded by Corey Jason Lal and Edward Narong after breaking away from the Red Scorpions.",
+      "context": "A gang founded by Corey Jason Lal and Edward Narong after breaking away from the Red Scorpions; exterminated in the Surrey Six massacre.",
       "time_period": "2007"
     },
     {
@@ -56,7 +58,7 @@
       "original_text_name": "Fresh Off the Boat Killers",
       "aliases": [],
       "type": "gang",
-      "context": "A Calgary-based gang whose members were recruited to kill the Bacon brothers.",
+      "context": "A Calgary gang whose members Billy Ly and Troy Tran were recruited to kill the Bacon brothers.",
       "time_period": "2000s-present"
     },
     {
@@ -67,18 +69,24 @@
         "Wolfpack"
       ],
       "type": "other",
-      "context": "Multi-ethnic criminal alliance formed in 2010, including Hells Angels, Independent Soldiers, and others.",
+      "context": "Multi-ethnic criminal alliance formed in 2010, including Hells Angels, Independent Soldiers, Bacon Brothers, and others.",
       "time_period": "2010-2012"
     },
     {
-      "standard_name": "Dhak-Duhre group",
-      "original_text_name": "Dhak-Duhre group",
-      "aliases": [
-        "Dhak-Duhre gang"
-      ],
+      "standard_name": "Bacon Brothers",
+      "original_text_name": "Bacon Brothers",
+      "aliases": [],
       "type": "gang",
-      "context": "Criminal group based in British Columbia, involved in drug trafficking and violence.",
-      "time_period": "2000s-2012"
+      "context": "Criminal group led by the Bacon siblings, involved in drug trafficking and violence in British Columbia.",
+      "time_period": "2000s-2010s"
+    },
+    {
+      "standard_name": "Alkhalil family",
+      "original_text_name": "Alkhalil family",
+      "aliases": [],
+      "type": "clan",
+      "context": "Montreal and Ottawa-based criminal family involved in the Wolfpack Alliance.",
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "West End Gang",
@@ -86,26 +94,16 @@
       "aliases": [],
       "type": "gang",
       "context": "Montreal-based organized crime group involved in drug trafficking.",
-      "time_period": "1970s-present"
-    },
-    {
-      "standard_name": "Bacon Brothers",
-      "original_text_name": "Bacon Brothers",
-      "aliases": [
-        "Bacon brothers organization"
-      ],
-      "type": "gang",
-      "context": "A trio of gangsters from Abbotsford, British Columbia, involved in drug trafficking and homicides.",
-      "time_period": "2000s-present"
+      "time_period": "1950s-present"
     },
     {
       "standard_name": "Brothers' Keepers",
-      "original_text_name": "Brothers' Keepers",
+      "original_text_name": "Indo-Canadian Brothers' Keepers gang",
       "aliases": [
-        "Indo-Canadian Brothers' Keepers"
+        "Brothers' Keepers"
       ],
       "type": "gang",
-      "context": "An Indo-Canadian gang condemned by Jamie Bacon alongside the Wolfpack Alliance.",
+      "context": "An Indo-Canadian gang active in Canada, condemned by Jamie Bacon.",
       "time_period": null
     }
   ],
@@ -115,8 +113,8 @@
       "target": "United Nations gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Bacon brothers worked with the United Nations gang, but held them in contempt.",
-      "time_period": "2000s"
+      "context": "The Bacon brothers worked with the United Nations gang, but held contempt for its leader.",
+      "time_period": "early 2000s"
     },
     {
       "source": "Bacon Brothers",
@@ -124,14 +122,22 @@
       "relationship": "alliance",
       "detail": null,
       "context": "The Bacon brothers partnered with the Red Scorpions in 2006 and later took leadership control.",
-      "time_period": "2006-present"
+      "time_period": "2006-2007"
     },
     {
       "source": "Hells Angels",
       "target": "Red Scorpions",
-      "relationship": "other",
-      "detail": "orchestrated takeover",
-      "context": "The Hells Angels orchestrated the Bacon brothers' takeover of the Red Scorpions to make them a puppet gang.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Hells Angels orchestrated the Bacon brothers' takeover to reduce the Red Scorpions to a puppet gang.",
+      "time_period": "2006"
+    },
+    {
+      "source": "Red Scorpions",
+      "target": "Independent Soldiers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Members of both gangs were arrested together at a meeting in 2006.",
       "time_period": "2006"
     },
     {
@@ -139,8 +145,8 @@
       "target": "United Nations gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Red Scorpions partnered with the Bacon brothers to compete with the United Nations gang.",
-      "time_period": "2006"
+      "context": "The Red Scorpions and United Nations gang fought each other in the Lower Mainland gang war from 2007 to 2009.",
+      "time_period": "2007-2009"
     },
     {
       "source": "Hells Angels",
@@ -148,15 +154,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "The Independent Soldiers were a puppet gang of the Hells Angels.",
-      "time_period": "2000s-present"
-    },
-    {
-      "source": "Hells Angels",
-      "target": "Red Scorpions",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Hells Angels supplied guns to the Red Scorpions during the gang war.",
-      "time_period": "2007-2009"
+      "time_period": null
     },
     {
       "source": "Hells Angels",
@@ -179,16 +177,16 @@
       "target": "Lal gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Lal gang broke away from the Red Scorpions and was exterminated in the Surrey Six massacre ordered by Jamie Bacon.",
+      "context": "The Lal gang broke away from the Red Scorpions and was targeted; the Surrey Six massacre exterminated the Lal gang.",
       "time_period": "2007"
     },
     {
-      "source": "United Nations gang",
-      "target": "Fresh Off the Boat Killers",
-      "relationship": "alliance",
+      "source": "Fresh Off the Boat Killers",
+      "target": "Red Scorpions",
+      "relationship": "rivalry",
       "detail": null,
-      "context": "Members of the Fresh Off the Boat Killers were recruited by the United Nations gang to kill the Bacon brothers.",
-      "time_period": "2008-2009"
+      "context": "Members of the Fresh Off the Boat Killers were recruited to kill the Bacon brothers of the Red Scorpions.",
+      "time_period": "2008"
     },
     {
       "source": "Independent Soldiers",
@@ -203,7 +201,7 @@
       "target": "Hells Angels",
       "relationship": "alliance",
       "detail": null,
-      "context": "Hells Angels member Larry Amero was a senior partner in the Wolfpack Alliance.",
+      "context": "Wolfpack Alliance included Hells Angels member Larry Amero as senior partner.",
       "time_period": "2010-2012"
     },
     {
@@ -211,7 +209,23 @@
       "target": "Independent Soldiers",
       "relationship": "alliance",
       "detail": null,
-      "context": "Independent Soldiers members James Riach and Randy Naicker were part of the Wolfpack Alliance.",
+      "context": "Wolfpack Alliance included Independent Soldiers members James Riach and Randy Naicker.",
+      "time_period": "2010-2012"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Bacon Brothers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Wolfpack Alliance included Jonathan Bacon of the Bacon Brothers.",
+      "time_period": "2010-2011"
+    },
+    {
+      "source": "Wolfpack Alliance",
+      "target": "Alkhalil family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Wolfpack Alliance included the Alkhalil family.",
       "time_period": "2010-2012"
     },
     {
@@ -219,23 +233,23 @@
       "target": "West End Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Shane Maloney of the West End Gang was a member of the Wolfpack Alliance.",
+      "context": "Wolfpack Alliance included Shane Maloney of the West End Gang.",
       "time_period": "2010-2012"
     },
     {
-      "source": "Dhak-Duhre group",
+      "source": "Dhak-Duhre gang",
       "target": "United Nations gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Dhak-Duhre group was allied with the United Nations gang.",
-      "time_period": "2000s-2010"
+      "context": "Dhak-Duhre group was allied with the United Nations gang.",
+      "time_period": "2000s-2012"
     },
     {
-      "source": "Wolfpack Alliance",
-      "target": "Dhak-Duhre group",
+      "source": "Dhak-Duhre gang",
+      "target": "Wolfpack Alliance",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Wolfpack Alliance was responsible for the murder of Gurmit Dhak of the Dhak-Duhre group, leading to a violent feud.",
+      "context": "Dhak-Duhre gang blamed Wolfpack for murder of Gurmit Dhak and retaliated.",
       "time_period": "2010-2012"
     },
     {
@@ -251,7 +265,7 @@
       "target": "Wolfpack Alliance",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Jamie Bacon condemned the Wolfpack Alliance in a leaked audio tape, indicating hostility.",
+      "context": "Jamie Bacon condemned the Wolfpack Alliance in racist and homophobic language.",
       "time_period": null
     },
     {
@@ -259,7 +273,7 @@
       "target": "Brothers' Keepers",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Jamie Bacon condemned the Brothers' Keepers gang in the same audio tape, indicating hostility.",
+      "context": "Jamie Bacon condemned the Indo-Canadian Brothers' Keepers gang in racist and homophobic language.",
       "time_period": null
     }
   ],

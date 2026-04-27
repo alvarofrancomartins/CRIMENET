@@ -6,7 +6,7 @@
       "aliases": [],
       "type": "mafia",
       "context": "One of the Five Families of New York, active in organized crime.",
-      "time_period": "1890s-present"
+      "time_period": "1920s-present"
     },
     {
       "standard_name": "Greenwich Village Crew",
@@ -18,43 +18,51 @@
     },
     {
       "standard_name": "Bonanno crime family",
-      "original_text_name": "Bonanno crime family",
-      "aliases": [],
+      "original_text_name": "Bonanno",
+      "aliases": [
+        "Bonanno crime family"
+      ],
       "type": "mafia",
       "context": "One of the Five Families of New York.",
-      "time_period": "1890s-present"
+      "time_period": "1930s-present"
     },
     {
       "standard_name": "Colombo crime family",
-      "original_text_name": "Colombo crime family",
-      "aliases": [],
+      "original_text_name": "Colombo",
+      "aliases": [
+        "Colombo crime family"
+      ],
       "type": "mafia",
       "context": "One of the Five Families of New York.",
-      "time_period": "1890s-present"
+      "time_period": "1930s-present"
     },
     {
       "standard_name": "Gambino crime family",
-      "original_text_name": "Gambino crime family",
-      "aliases": [],
+      "original_text_name": "Gambino",
+      "aliases": [
+        "Gambino crime family"
+      ],
       "type": "mafia",
       "context": "One of the Five Families of New York.",
-      "time_period": "1890s-present"
+      "time_period": "1930s-present"
     },
     {
       "standard_name": "Lucchese crime family",
-      "original_text_name": "Lucchese crime family",
-      "aliases": [],
+      "original_text_name": "Lucchese",
+      "aliases": [
+        "Lucchese crime family"
+      ],
       "type": "mafia",
       "context": "One of the Five Families of New York.",
-      "time_period": "1890s-present"
+      "time_period": "1930s-present"
     }
   ],
   "edges": [
     {
       "source": "Greenwich Village Crew",
       "target": "Genovese crime family",
-      "relationship": "other",
-      "detail": "sub-group",
+      "relationship": "alliance",
+      "detail": null,
       "context": "The Greenwich Village Crew is a crew within the Genovese crime family.",
       "time_period": "1920s-present"
     },
@@ -63,7 +71,7 @@
       "target": "Bonanno crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Genovese family is allied with the Bonanno crime family.",
+      "context": "The Genovese family is allied with the Bonanno family.",
       "time_period": null
     },
     {
@@ -71,7 +79,7 @@
       "target": "Colombo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Genovese family is allied with the Colombo crime family.",
+      "context": "The Genovese family is allied with the Colombo family.",
       "time_period": null
     },
     {
@@ -79,7 +87,7 @@
       "target": "Gambino crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Genovese family is allied with the Gambino crime family.",
+      "context": "The Genovese family is allied with the Gambino family.",
       "time_period": null
     },
     {
@@ -87,7 +95,7 @@
       "target": "Lucchese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Genovese family is allied with the Lucchese crime family.",
+      "context": "The Genovese family is allied with the Lucchese family.",
       "time_period": null
     }
   ],

@@ -7,8 +7,40 @@
         "Hawaiian Syndicate"
       ],
       "type": "other",
-      "context": "Hawaiian organized crime syndicate controlling criminal activities from late 1960s to mid-1990s.",
-      "time_period": "1970s-present"
+      "context": "Organized crime syndicate based in Hawaii, controlled criminal activities from late 1960s to mid-1990s.",
+      "time_period": "1969-present"
+    },
+    {
+      "standard_name": "Chinese Triads",
+      "original_text_name": "Chinese Triads",
+      "aliases": [],
+      "type": "triad",
+      "context": "Asian criminal organizations active in Hawaii in the 1960s.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Yakuza",
+      "original_text_name": "Japanese Yakuza",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Japanese organized crime groups active in Hawaii in the 1960s.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Kkangpae",
+      "original_text_name": "Korean Kkangpae",
+      "aliases": [],
+      "type": "gang",
+      "context": "Korean criminal organizations active in Hawaii in the 1960s.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Samoan criminal organizations",
+      "original_text_name": "Samoan criminal outfits",
+      "aliases": [],
+      "type": "gang",
+      "context": "Samoan criminal groups active in Hawaii in the 1960s.",
+      "time_period": "1960s"
     },
     {
       "standard_name": "American Mafia",
@@ -18,55 +50,23 @@
       ],
       "type": "mafia",
       "context": "Mainland US mafia groups that had connections and rivalries with The Company.",
-      "time_period": null
+      "time_period": "1970s-1990s"
     },
     {
       "standard_name": "Chicago Outfit",
       "original_text_name": "Chicago mobsters",
       "aliases": [],
       "type": "mafia",
-      "context": "Chicago mafia group active in Las Vegas; two members were killed by The Company.",
-      "time_period": null
+      "context": "Chicago mafia members active in Las Vegas who were killed by The Company.",
+      "time_period": "1970s"
     },
     {
       "standard_name": "Joseph family",
       "original_text_name": "Joseph family",
       "aliases": [],
-      "type": "faction",
-      "context": "Criminal family within The Company controlling Waianae Coast until early 1990s.",
-      "time_period": "1970s-1990s"
-    },
-    {
-      "standard_name": "Triads",
-      "original_text_name": "Chinese Triads",
-      "aliases": [],
-      "type": "triad",
-      "context": "Chinese criminal organizations active in Hawaii before and after The Company.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Yakuza",
-      "original_text_name": "Japanese Yakuza",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Japanese organized crime groups active in Hawaii.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Kkangpae",
-      "original_text_name": "Korean Kkangpae",
-      "aliases": [],
-      "type": "gang",
-      "context": "Korean criminal organizations active in Hawaii.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Samoan criminal organizations",
-      "original_text_name": "Samoan criminal outfits",
-      "aliases": [],
-      "type": "gang",
-      "context": "Samoan gangs active in Hawaii, including a mob led by Alema Leota.",
-      "time_period": null
+      "type": "other",
+      "context": "Criminal family within The Company, controlled organized crime along Waianae Coast.",
+      "time_period": "1980s-1990s"
     }
   ],
   "edges": [
@@ -75,56 +75,22 @@
       "target": "American Mafia",
       "relationship": "other",
       "detail": "mixed relations",
-      "context": "The Company had connections with some American Mafia figures but also rivalries with others.",
-      "time_period": null
+      "context": "The Company made connections with American Mafia figures but also had rivalries with some.",
+      "time_period": "1970s-1990s"
     },
     {
       "source": "The Company",
       "target": "Chicago Outfit",
       "relationship": "rivalry",
-      "detail": null,
       "context": "The Company killed two Chicago mobsters sent to Hawaii and returned their bodies.",
-      "time_period": null
+      "time_period": "1970s"
     },
     {
-      "source": "The Company",
-      "target": "Joseph family",
+      "source": "Joseph family",
+      "target": "The Company",
       "relationship": "alliance",
-      "detail": null,
-      "context": "The Joseph family was a faction within The Company controlling the Waianae Coast.",
-      "time_period": "1970s-1990s"
-    },
-    {
-      "source": "The Company",
-      "target": "Triads",
-      "relationship": "other",
-      "detail": "coexistence",
-      "context": "Triads operated in Hawaii before and after The Company's reign, alongside other groups.",
-      "time_period": null
-    },
-    {
-      "source": "The Company",
-      "target": "Yakuza",
-      "relationship": "other",
-      "detail": "coexistence",
-      "context": "Yakuza operated in Hawaii before and after The Company's reign.",
-      "time_period": null
-    },
-    {
-      "source": "The Company",
-      "target": "Kkangpae",
-      "relationship": "other",
-      "detail": "coexistence",
-      "context": "Kkangpae operated in Hawaii before and after The Company's reign.",
-      "time_period": null
-    },
-    {
-      "source": "The Company",
-      "target": "Samoan criminal organizations",
-      "relationship": "other",
-      "detail": "coexistence",
-      "context": "Samoan criminal organizations operated in Hawaii before and after The Company's reign.",
-      "time_period": null
+      "context": "The Joseph family was a criminal family within The Company.",
+      "time_period": "1980s-1990s"
     }
   ],
   "source_file": "The_Company_(Hawaiian_organized_crime)"

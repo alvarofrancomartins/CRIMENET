@@ -12,6 +12,14 @@
       "time_period": "1820-1890s"
     },
     {
+      "standard_name": "Hongmen",
+      "original_text_name": "Hongmen",
+      "aliases": [],
+      "type": "other",
+      "context": "Overseas Chinese secret society network of which Ghee Hin was a part.",
+      "time_period": null
+    },
+    {
       "standard_name": "Hai San Secret Society",
       "original_text_name": "Hai San secret society",
       "aliases": [
@@ -19,17 +27,25 @@
       ],
       "type": "other",
       "context": "Hakka-dominated secret society in Malaya, rival of Ghee Hin.",
-      "time_period": "19th century"
+      "time_period": null
     }
   ],
   "edges": [
+    {
+      "source": "Ghee Hin Kongsi",
+      "target": "Hongmen",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ghee Hin was part of the Hongmen overseas network.",
+      "time_period": null
+    },
     {
       "source": "Ghee Hin Kongsi",
       "target": "Hai San Secret Society",
       "relationship": "rivalry",
       "detail": null,
       "context": "Ghee Hin often fought against the Hakka-dominated Hai San secret society.",
-      "time_period": "19th century"
+      "time_period": null
     }
   ],
   "source_file": "Ghee_Hin_Kongsi"

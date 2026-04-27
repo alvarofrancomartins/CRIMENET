@@ -17,44 +17,41 @@
         "AUC"
       ],
       "type": "militia",
-      "context": "Right-wing paramilitary umbrella group that demobilized between 2004-2006, from which Black Eagles emerged.",
+      "context": "Right-wing paramilitary umbrella group that demobilized between 2004 and 2006.",
       "time_period": "1997-2006"
     },
     {
       "standard_name": "Usuga Clan",
       "original_text_name": "Usuga Clan",
-      "aliases": [
-        "Clan del Golfo",
-        "Gulf Clan"
-      ],
+      "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel closely linked with Black Eagles.",
-      "time_period": "2000s-present"
+      "context": "Colombian drug cartel closely linked with the Black Eagles.",
+      "time_period": null
     },
     {
       "standard_name": "Los Rastrojos",
       "original_text_name": "Los Rastrojos",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel operating in Cauca and Valle del Cauca, with about 1,200 members.",
-      "time_period": "2000s-2010s"
+      "context": "Colombian drug cartel operating in Cauca and Valle del Cauca with about 1,200 members.",
+      "time_period": null
     },
     {
       "standard_name": "Mano Negra",
       "original_text_name": "Mano Negra",
       "aliases": [],
       "type": "militia",
-      "context": "Colombian paramilitary group operating in Putumayo, number of members unknown.",
-      "time_period": "2000s-2010s"
+      "context": "Colombian paramilitary group operating in Putumayo.",
+      "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Black Eagles",
       "target": "United Self-Defense Units of Colombia",
-      "relationship": "other",
-      "detail": "successor group",
-      "context": "Black Eagles formed from remnants of AUC after its demobilization.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Black Eagles formed from former AUC members after the AUC's demobilization.",
       "time_period": "2006-2011"
     },
     {
@@ -63,23 +60,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Black Eagles were closely linked with the Usuga Clan drug cartel.",
-      "time_period": "2006-2011"
-    },
-    {
-      "source": "Black Eagles",
-      "target": "Los Rastrojos",
-      "relationship": "other",
-      "detail": "associated group",
-      "context": "Los Rastrojos is listed as a group under the Black Eagles umbrella.",
-      "time_period": "2006-2011"
-    },
-    {
-      "source": "Black Eagles",
-      "target": "Mano Negra",
-      "relationship": "other",
-      "detail": "associated group",
-      "context": "Mano Negra is listed as a group under the Black Eagles umbrella.",
-      "time_period": "2006-2011"
+      "time_period": null
     }
   ],
   "source_file": "Black_Eagles"

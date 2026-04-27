@@ -12,7 +12,7 @@
         "Muddled Libra"
       ],
       "type": "other",
-      "context": "Hacking group targeting casinos, telecoms, and cloud services. Operates in US and UK.",
+      "context": "Hacking group mostly made up of teens and young adults in the US and UK, involved in ransomware and data theft.",
       "time_period": "2022-present"
     },
     {
@@ -23,15 +23,7 @@
         "Hacker Com"
       ],
       "type": "other",
-      "context": "Global hacking community; Scattered Spider is a component of it.",
-      "time_period": null
-    },
-    {
-      "standard_name": "ALPHV",
-      "original_text_name": "ALPHV",
-      "aliases": [],
-      "type": "other",
-      "context": "Ransomware-as-a-service provider that collaborated with Scattered Spider.",
+      "context": "Larger global hacking community that Scattered Spider is affiliated with.",
       "time_period": null
     },
     {
@@ -49,28 +41,30 @@
       "type": "other",
       "context": "Hacking group that merged with Scattered Spider in 2025.",
       "time_period": null
+    },
+    {
+      "standard_name": "ALPHV",
+      "original_text_name": "ALPHV",
+      "aliases": [],
+      "type": "other",
+      "context": "Ransomware-as-a-service provider that collaborated with Scattered Spider in the MGM hack.",
+      "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Scattered Spider",
       "target": "The Com",
-      "relationship": "other",
-      "detail": "affiliated with",
-      "context": "Scattered Spider is a component of the larger hacking community The Com.",
-      "time_period": null
-    },
-    {
-      "source": "Scattered Spider",
-      "target": "ALPHV",
       "relationship": "alliance",
-      "context": "Scattered Spider collaborated with ALPHV in the MGM Resorts hack.",
-      "time_period": "2023"
+      "detail": null,
+      "context": "Scattered Spider is affiliated with The Com, specifically the Hacker Com subset.",
+      "time_period": null
     },
     {
       "source": "Scattered Spider",
       "target": "Lapsus$",
       "relationship": "alliance",
+      "detail": null,
       "context": "Scattered Spider, Lapsus$, and ShinyHunters formed a collective in 2025.",
       "time_period": "2025"
     },
@@ -78,8 +72,17 @@
       "source": "Scattered Spider",
       "target": "ShinyHunters",
       "relationship": "alliance",
+      "detail": null,
       "context": "Scattered Spider merged with ShinyHunters in 2025.",
       "time_period": "2025"
+    },
+    {
+      "source": "Scattered Spider",
+      "target": "ALPHV",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Scattered Spider collaborated with ALPHV in the MGM Resorts hack.",
+      "time_period": "2023"
     }
   ],
   "source_file": "Scattered_Spider"

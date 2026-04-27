@@ -7,22 +7,24 @@
         "Camilista Union - National Liberation Army",
         "ELN",
         "ELN-UC",
+        "Ejército de Liberación Nacional",
         "National Liberation Army - Camilista Union",
         "UC-ELN"
       ],
       "type": "militia",
-      "context": "Colombian far-left guerrilla organization involved in the Colombian conflict since 1964, advocates Marxist-Leninist and liberation theology ideology.",
+      "context": "Colombian far-left guerrilla organization involved in the Colombian conflict since 1964.",
       "time_period": "1964-present"
     },
     {
       "standard_name": "Revolutionary Armed Forces of Colombia",
       "original_text_name": "FARC",
       "aliases": [
-        "FARC"
+        "FARC",
+        "FARC-EP"
       ],
       "type": "militia",
-      "context": "Colombian guerrilla group, primarily peasant-based, distinguished from ELN by social composition.",
-      "time_period": "1964-2017"
+      "context": "Colombian guerrilla group, primarily peasant-based, distinguished from ELN.",
+      "time_period": "1964-present"
     },
     {
       "standard_name": "United Self-Defense Forces of Colombia",
@@ -31,7 +33,7 @@
         "AUC"
       ],
       "type": "militia",
-      "context": "Right-wing paramilitary group that conducted anti-guerrilla operations in Bolívar Department.",
+      "context": "Right-wing paramilitary group that opposed ELN and other leftist guerrillas.",
       "time_period": "1997-2006"
     },
     {
@@ -39,18 +41,18 @@
       "original_text_name": "FARC dissidents",
       "aliases": [],
       "type": "faction",
-      "context": "Splinter groups from FARC that continued armed activities after peace deal.",
+      "context": "Splinter groups from FARC that continued armed struggle after peace deal.",
       "time_period": "2016-present"
     },
     {
       "standard_name": "Tupamaro",
-      "original_text_name": "Tupamaro",
+      "original_text_name": "Tupamaro movement",
       "aliases": [
         "Tupamaro Revolutionary Movement"
       ],
-      "type": "militia",
+      "type": "other",
       "context": "Venezuelan colectivo and political party that supports the ELN.",
-      "time_period": "1990s-present"
+      "time_period": null
     },
     {
       "standard_name": "Pablo Escobar",
@@ -66,30 +68,32 @@
       "source": "National Liberation Army",
       "target": "Revolutionary Armed Forces of Colombia",
       "relationship": "other",
-      "detail": "distinguished by social composition",
-      "context": "ELN brought together more students and young activists, while FARC were essentially peasants.",
-      "time_period": "1960s-2010s"
+      "detail": "distinct groups",
+      "context": "ELN and FARC are separate guerrilla groups with different social compositions.",
+      "time_period": "1964-present"
     },
     {
       "source": "United Self-Defense Forces of Colombia",
       "target": "National Liberation Army",
       "relationship": "rivalry",
-      "context": "AUC paramilitaries conducted anti-guerrilla operations against ELN in Bolívar Department.",
-      "time_period": "1990s-2000s"
+      "detail": null,
+      "context": "AUC paramilitaries conducted anti-guerrilla operations against ELN.",
+      "time_period": "1997-2006"
     },
     {
-      "source": "National Liberation Army",
-      "target": "FARC dissidents",
-      "relationship": "rivalry",
-      "context": "Continuous gunfights between ELN and FARC dissidents led to a massacre in Tibú in 2025.",
-      "time_period": "2025"
+      "source": "FARC dissidents",
+      "target": "National Liberation Army",
+      "relationship": "other",
+      "detail": "cooperation",
+      "context": "FARC dissidents and ELN members jointly murdered protesters in Venezuela.",
+      "time_period": "2019"
     },
     {
       "source": "National Liberation Army",
       "target": "Revolutionary Armed Forces of Colombia",
       "relationship": "alliance",
       "detail": null,
-      "context": "ELN and FARC occasionally operated together, including joint attacks on civilians in 2004.",
+      "context": "ELN and FARC occasionally operated jointly, including attacks on civilians in 2004.",
       "time_period": "until 2006"
     },
     {
@@ -97,7 +101,7 @@
       "target": "Revolutionary Armed Forces of Colombia",
       "relationship": "rivalry",
       "detail": null,
-      "context": "In mid-2006, mutual rivalries escalated into hostilities in Arauca, with FARC moving into ELN territory.",
+      "context": "In mid-2006, mutual rivalries escalated into hostilities in Arauca, with FARC accusing ELN of attacks.",
       "time_period": "2006"
     },
     {
@@ -105,7 +109,7 @@
       "target": "FARC dissidents",
       "relationship": "alliance",
       "detail": null,
-      "context": "ELN and FARC dissidents met in Venezuela in October 2018 to form a potential alliance for illicit activities.",
+      "context": "In October 2018, ELN and FARC dissidents met in Venezuela to form a potential alliance for illicit activities.",
       "time_period": "2018"
     },
     {
@@ -114,15 +118,15 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Tupamaro movement supports ELN and expressed solidarity with its dialogue with the Colombian government.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "source": "National Liberation Army",
       "target": "Pablo Escobar",
       "relationship": "alliance",
       "detail": null,
-      "context": "Escobar hired ELN to carry out bombings and assassinations against government targets.",
-      "time_period": "1980s-1993"
+      "context": "Escobar hired the ELN to carry out bombings and assassinations against government targets.",
+      "time_period": null
     }
   ],
   "source_file": "National_Liberation_Army_(Colombia)"

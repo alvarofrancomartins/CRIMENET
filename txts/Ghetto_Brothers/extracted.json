@@ -15,7 +15,7 @@
       "original_text_name": "Young Lords",
       "aliases": [],
       "type": "other",
-      "context": "A political organization involved in the Puerto Rican independence movement, similar to the Ghetto Brothers.",
+      "context": "A Puerto Rican nationalist group involved in politics, similar to the Ghetto Brothers.",
       "time_period": "1960s-1970s"
     },
     {
@@ -23,15 +23,15 @@
       "original_text_name": "Puerto Rican Socialist Party",
       "aliases": [],
       "type": "other",
-      "context": "A political party associated with the Ghetto Brothers and the Puerto Rican independence movement.",
-      "time_period": "1970s-1990s"
+      "context": "A political party associated with the Ghetto Brothers.",
+      "time_period": "1970s"
     },
     {
       "standard_name": "Ghetto Sisters",
       "original_text_name": "Ghetto Sisters",
       "aliases": [],
       "type": "other",
-      "context": "The female auxiliary of the Ghetto Brothers, treated as organization members and girlfriends.",
+      "context": "The female auxiliary of the Ghetto Brothers, treated as organization members.",
       "time_period": "late 1960s-1970s"
     },
     {
@@ -39,7 +39,7 @@
       "original_text_name": "Savage Nomads",
       "aliases": [],
       "type": "gang",
-      "context": "A gang that merged with the Ghetto Brothers in the Connecticut prison system to form Los Solidos.",
+      "context": "A gang that merged with the Ghetto Brothers to form Los Solidos in the Connecticut prison system.",
       "time_period": "1990s"
     },
     {
@@ -49,7 +49,7 @@
         "the Solid Ones"
       ],
       "type": "gang",
-      "context": "A powerful Puerto Rican gang in Connecticut formed from the merger of the Ghetto Brothers and Savage Nomads.",
+      "context": "A powerful Puerto Rican gang in Connecticut formed from the merger of Ghetto Brothers and Savage Nomads.",
       "time_period": "1990s-present"
     }
   ],
@@ -65,16 +65,16 @@
     {
       "source": "Ghetto Brothers",
       "target": "Puerto Rican Socialist Party",
-      "relationship": "other",
-      "detail": "associated with",
+      "relationship": "alliance",
+      "detail": null,
       "context": "The Ghetto Brothers were associated with the Puerto Rican Socialist Party.",
       "time_period": "1970s"
     },
     {
       "source": "Ghetto Brothers",
       "target": "Ghetto Sisters",
-      "relationship": "other",
-      "detail": "auxiliary group",
+      "relationship": "alliance",
+      "detail": null,
       "context": "The Ghetto Sisters were the female auxiliary of the Ghetto Brothers.",
       "time_period": "late 1960s-1970s"
     },
@@ -83,23 +83,23 @@
       "target": "Savage Nomads",
       "relationship": "alliance",
       "detail": null,
-      "context": "They merged in the Connecticut prison system to form Los Solidos.",
-      "time_period": "1990s"
-    },
-    {
-      "source": "Ghetto Brothers",
-      "target": "Los Solidos",
-      "relationship": "other",
-      "detail": "merged into",
-      "context": "The Ghetto Brothers merged with Savage Nomads to form Los Solidos.",
+      "context": "They merged to form Los Solidos in the Connecticut prison system.",
       "time_period": "1990s"
     },
     {
       "source": "Savage Nomads",
       "target": "Los Solidos",
-      "relationship": "other",
-      "detail": "merged into",
-      "context": "The Savage Nomads merged with Ghetto Brothers to form Los Solidos.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Savage Nomads merged with Ghetto Brothers to form Los Solidos.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Ghetto Brothers",
+      "target": "Los Solidos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ghetto Brothers merged with Savage Nomads to form Los Solidos.",
       "time_period": "1990s"
     }
   ],

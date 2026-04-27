@@ -26,7 +26,7 @@
       ],
       "type": "clan",
       "context": "Sicilian Mafia clan from Palermo, headed by Salvatore Inzerillo; allied with the Gambinos.",
-      "time_period": "1970s-1980s"
+      "time_period": "1960s-present"
     },
     {
       "standard_name": "Corleonesi",
@@ -41,7 +41,7 @@
       "original_text_name": "Spatola network",
       "aliases": [],
       "type": "other",
-      "context": "Heroin trafficking network linked to the Inzerillo-Gambino clan.",
+      "context": "Heroin trafficking network allied with the Inzerillo and Gambino families.",
       "time_period": "1970s-1980s"
     },
     {
@@ -49,8 +49,8 @@
       "original_text_name": "Cuntrera-Caruana Mafia clan",
       "aliases": [],
       "type": "clan",
-      "context": "Sicilian Mafia clan involved in heroin trafficking; received half of a 400-kg heroin shipment.",
-      "time_period": "1980s"
+      "context": "Sicilian Mafia clan involved in heroin trafficking; received half of a 400-kg shipment in 1981.",
+      "time_period": "1970s-1990s"
     }
   ],
   "edges": [
@@ -68,22 +68,30 @@
       "relationship": "alliance",
       "detail": null,
       "context": "The Inzerillo clan and the Gambino brothers formed a transatlantic Mafia clan based in Palermo and New York.",
-      "time_period": "1970s-1980s"
+      "time_period": "1970s-1990s"
     },
     {
       "source": "Inzerillo clan",
       "target": "Corleonesi",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Corleonesi nearly exterminated the Inzerillo clan during the Second Mafia War.",
+      "context": "The Corleonesi nearly exterminated the Inzerillo clan during the Second Mafia War in Sicily.",
       "time_period": "1981-1980s"
     },
     {
-      "source": "Inzerillo clan",
-      "target": "Spatola network",
+      "source": "Spatola network",
+      "target": "Inzerillo clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Inzerillo-Spatola-Gambino network smuggled heroin into the US.",
+      "context": "The Inzerillo-Gambino-Spatola network smuggled heroin into the US.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "source": "Spatola network",
+      "target": "Cherry Hill Gambinos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Inzerillo-Gambino-Spatola network smuggled heroin into the US.",
       "time_period": "1970s-1980s"
     },
     {
@@ -91,7 +99,7 @@
       "target": "Cherry Hill Gambinos",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Cuntrera-Caruana clan received half of a heroin shipment, while John Gambino took the other half.",
+      "context": "The Cuntrera-Caruana clan received half of a 400-kg heroin shipment, while John Gambino took the other half.",
       "time_period": "1981"
     }
   ],

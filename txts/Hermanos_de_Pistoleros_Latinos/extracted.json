@@ -5,11 +5,10 @@
       "original_text_name": "Hermanos Pistoleros Latinos",
       "aliases": [
         "HPL",
-        "Brotherhood of Latin Gunmen",
-        "Pistoleros Latinos"
+        "Brotherhood of Latin Gunmen"
       ],
       "type": "gang",
-      "context": "Mexican American prison gang operating in Texas prisons and streets, active in Mexico, involved in drug trafficking.",
+      "context": "Mexican American prison gang founded in Texas in early 1980s, active in Texas prisons and streets, and in Mexico, involved in drug trafficking.",
       "time_period": "1980s-present"
     },
     {
@@ -17,7 +16,7 @@
       "original_text_name": "HPL 45s",
       "aliases": [],
       "type": "faction",
-      "context": "Splinter faction of HPL from original Rio Grande Valley members during internal conflict.",
+      "context": "Splinter faction of HPL consisting of original members from the Rio Grande Valley.",
       "time_period": "1990s-1998"
     },
     {
@@ -25,11 +24,27 @@
       "original_text_name": "16/12s",
       "aliases": [],
       "type": "faction",
-      "context": "Splinter faction of HPL from San Antonio and Houston members during internal conflict.",
+      "context": "Splinter faction of HPL consisting of members from San Antonio and Houston.",
       "time_period": "1990s-1998"
     }
   ],
   "edges": [
+    {
+      "source": "HPL 45s",
+      "target": "Hermanos de Pistoleros Latinos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "HPL 45s was a splinter faction of HPL that later reunited with the other faction under the HPL name in 1998.",
+      "time_period": "1990s-1998"
+    },
+    {
+      "source": "16/12s",
+      "target": "Hermanos de Pistoleros Latinos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "16/12s was a splinter faction of HPL that later reunited with the other faction under the HPL name in 1998.",
+      "time_period": "1990s-1998"
+    },
     {
       "source": "HPL 45s",
       "target": "16/12s",
@@ -37,22 +52,6 @@
       "detail": null,
       "context": "The two factions went to war after a power struggle within HPL.",
       "time_period": "1990s-1998"
-    },
-    {
-      "source": "HPL 45s",
-      "target": "Hermanos de Pistoleros Latinos",
-      "relationship": "other",
-      "detail": "reunited into",
-      "context": "The factions reunited under the name HPL in 1998.",
-      "time_period": "1998"
-    },
-    {
-      "source": "16/12s",
-      "target": "Hermanos de Pistoleros Latinos",
-      "relationship": "other",
-      "detail": "reunited into",
-      "context": "The factions reunited under the name HPL in 1998.",
-      "time_period": "1998"
     }
   ],
   "source_file": "Hermanos_de_Pistoleros_Latinos"

@@ -10,7 +10,7 @@
         "Jackson Boys"
       ],
       "type": "gang",
-      "context": "Asian American street gang based in San Francisco's Chinatown, involved in extortion, drug trafficking, arson, and gambling.",
+      "context": "Asian American street gang based in San Francisco's Chinatown, involved in extortion, drug trafficking, arson, and other crimes.",
       "time_period": "1990-present"
     },
     {
@@ -19,14 +19,14 @@
       "aliases": [],
       "type": "triad",
       "context": "Triad that ruled San Francisco's Chinatown in the 1980s and early 1990s; predecessor to the Jackson Street Boys.",
-      "time_period": "1980s-1992"
+      "time_period": "1980s-1990s"
     },
     {
       "standard_name": "Wah Ching",
       "original_text_name": "Wah Ching",
       "aliases": [],
       "type": "gang",
-      "context": "Asian American gang that was forced out of San Francisco by the Wo Hop To; rivals of the Jackson Street Boys.",
+      "context": "Asian American gang; former members defected to Wo Hop To and later founded Jackson Street Boys.",
       "time_period": "1960s-present"
     },
     {
@@ -58,45 +58,42 @@
     {
       "source": "Jackson Street Boys",
       "target": "Wo Hop To",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "The Jackson Street Boys succeeded the Wo Hop To after law enforcement cracked down on the triad around 1992.",
-      "time_period": "1992"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Jackson Street Boys succeeded Wo Hop To after law enforcement cracked down on Wo Hop To around 1992.",
+      "time_period": "1990s"
     },
     {
       "source": "Jackson Street Boys",
       "target": "Wah Ching",
       "relationship": "rivalry",
-      "context": "The Jackson Street Boys' founders were former Wah Ching members who defected to Wo Hop To; the groups are rivals.",
+      "detail": null,
+      "context": "Jackson Street Boys founders were former Wah Ching members who defected to Wo Hop To; Wah Ching is listed as a rival.",
       "time_period": null
     },
     {
       "source": "Jackson Street Boys",
       "target": "Seven Stars",
       "relationship": "alliance",
-      "context": "Seven Stars is listed as an ally of the Jackson Street Boys.",
+      "detail": null,
+      "context": "Seven Stars is listed as an ally of Jackson Street Boys.",
       "time_period": null
     },
     {
       "source": "Jackson Street Boys",
       "target": "21 Boys",
       "relationship": "alliance",
-      "context": "21 Boys is listed as an ally of the Jackson Street Boys.",
+      "detail": null,
+      "context": "21 Boys is listed as an ally of Jackson Street Boys.",
       "time_period": null
     },
     {
       "source": "Jackson Street Boys",
       "target": "Hop Sing Boys",
       "relationship": "rivalry",
-      "context": "Hop Sing Boys is listed as a rival of the Jackson Street Boys.",
+      "detail": null,
+      "context": "Hop Sing Boys is listed as a rival of Jackson Street Boys.",
       "time_period": null
-    },
-    {
-      "source": "Wo Hop To",
-      "target": "Wah Ching",
-      "relationship": "rivalry",
-      "context": "Wo Hop To forced the Wah Ching out of San Francisco.",
-      "time_period": "1980s-1992"
     }
   ],
   "source_file": "Jackson_Street_Boys"

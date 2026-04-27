@@ -5,7 +5,7 @@
       "original_text_name": "Crazy Dragons",
       "aliases": [],
       "type": "gang",
-      "context": "Street gang active in Prairie provinces of Canada, involved in drug trafficking and violence.",
+      "context": "Street gang active in Prairie provinces of Canada, primarily dealing cocaine.",
       "time_period": "2002-present"
     },
     {
@@ -13,7 +13,7 @@
       "original_text_name": "Trang gang",
       "aliases": [],
       "type": "gang",
-      "context": "Vietnamese gang in Edmonton that folded after convictions in 2002; predecessor to Crazy Dragons.",
+      "context": "Vietnamese gang that folded after convictions in 2002; predecessor to Crazy Dragons.",
       "time_period": "before 2002"
     },
     {
@@ -21,15 +21,15 @@
       "original_text_name": "White Boy Posse",
       "aliases": [],
       "type": "gang",
-      "context": "White supremacist gang that was kidnapped and beaten by Crazy Dragons in 2004.",
+      "context": "White supremacist gang; members were kidnapped and beaten by Crazy Dragons in 2004.",
       "time_period": "2000s"
     },
     {
-      "standard_name": "Fresh Off the Boat gang",
+      "standard_name": "Fresh Off the Boat",
       "original_text_name": "Fresh Off the Boat gang",
       "aliases": [],
       "type": "gang",
-      "context": "Asian-Canadian gang in Calgary involved in gang war with Fresh Off the Boat Killers; bought guns from Crazy Dragons.",
+      "context": "Asian-Canadian gang in Calgary; bought guns from Crazy Dragons during a gang war.",
       "time_period": "2000s"
     },
     {
@@ -37,7 +37,7 @@
       "original_text_name": "Fresh Off the Boat Killers",
       "aliases": [],
       "type": "gang",
-      "context": "Asian-Canadian gang in Calgary involved in gang war with Fresh Off the Boat gang.",
+      "context": "Asian-Canadian gang in Calgary; rival of Fresh Off the Boat gang.",
       "time_period": "2000s"
     },
     {
@@ -45,17 +45,17 @@
       "original_text_name": "Hells Angels",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club; in Alberta described as less powerful than Crazy Dragons by 2012, but in BC Crazy Dragons were subordinate to them.",
-      "time_period": "1948-present"
+      "context": "Outlaw motorcycle club; Crazy Dragons subordinate to them in British Columbia.",
+      "time_period": "founded 1948"
     }
   ],
   "edges": [
     {
       "source": "Crazy Dragons",
       "target": "Trang gang",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "Crazy Dragons succeeded the Trang gang after it folded in 2002.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Crazy Dragons are the successor gang to the Trang gang.",
       "time_period": "2002"
     },
     {
@@ -68,14 +68,14 @@
     },
     {
       "source": "Crazy Dragons",
-      "target": "Fresh Off the Boat gang",
+      "target": "Fresh Off the Boat",
       "relationship": "alliance",
       "detail": null,
-      "context": "Crazy Dragons served as gunrunners selling guns to Fresh Off the Boat gang during a gang war.",
+      "context": "Crazy Dragons served as gunrunners, selling guns to Fresh Off the Boat gang.",
       "time_period": "2000s"
     },
     {
-      "source": "Fresh Off the Boat gang",
+      "source": "Fresh Off the Boat",
       "target": "Fresh Off the Boat Killers",
       "relationship": "rivalry",
       "detail": null,
@@ -85,9 +85,9 @@
     {
       "source": "Crazy Dragons",
       "target": "Hells Angels",
-      "relationship": "other",
-      "detail": "subordinate",
-      "context": "In British Columbia, Crazy Dragons were described as subordinate to Hells Angels.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Crazy Dragons are subordinate to Hells Angels in British Columbia.",
       "time_period": "2012"
     }
   ],

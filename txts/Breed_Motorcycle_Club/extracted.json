@@ -17,7 +17,7 @@
       "aliases": [],
       "type": "motorcycle_club",
       "context": "Riverside, New Jersey-based motorcycle club patched over by the Breed in 1983.",
-      "time_period": "unknown"
+      "time_period": "until 1983"
     },
     {
       "standard_name": "Branded Motorcycle Club",
@@ -25,22 +25,24 @@
       "aliases": [],
       "type": "motorcycle_club",
       "context": "Elizabeth, New Jersey-based motorcycle club patched over by the Breed in 1983.",
-      "time_period": "unknown"
+      "time_period": "until 1983"
     },
     {
       "standard_name": "Hells Angels",
       "original_text_name": "Hells Angels",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club that engaged in violent conflict with the Breed, including a 1971 brawl in Cleveland and ongoing attacks.",
+      "context": "Outlaw motorcycle club involved in violent conflict with the Breed, including a 1971 brawl in Cleveland and ongoing attacks.",
       "time_period": "1948-present"
     },
     {
       "standard_name": "Pagans",
       "original_text_name": "Pagans",
-      "aliases": [],
+      "aliases": [
+        "Pagans Motorcycle Club"
+      ],
       "type": "motorcycle_club",
-      "context": "Rival motorcycle club to the Breed, involved in methamphetamine distribution and violent incidents.",
+      "context": "Outlaw motorcycle club and rival of the Breed; both were prominent methamphetamine distributors in New Jersey.",
       "time_period": "1959-present"
     },
     {
@@ -48,54 +50,32 @@
       "original_text_name": "Warlocks",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Rival motorcycle club mentioned as being in conflict with the Breed.",
-      "time_period": "1967-present"
+      "context": "Motorcycle club involved in conflicts with the Breed.",
+      "time_period": null
     },
     {
-      "standard_name": "Pagans Motorcycle Club",
-      "original_text_name": "Pagans",
-      "aliases": [
-        "Pagans Motorcycle Club"
-      ],
-      "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club; rival of Breed, involved in killings and assaults.",
-      "time_period": "1959-present"
-    },
-    {
-      "standard_name": "Warlocks Motorcycle Club",
-      "original_text_name": "Warlocks",
-      "aliases": [
-        "Warlocks Motorcycle Club"
-      ],
-      "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club; rival of Breed, kidnapped a Breed chapter president in 1988.",
-      "time_period": "1967-present"
-    },
-    {
-      "standard_name": "Outlaws Motorcycle Club",
+      "standard_name": "Outlaws",
       "original_text_name": "Outlaws",
-      "aliases": [
-        "Outlaws Motorcycle Club"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club; some Breed members patched over to Outlaws after 2006.",
-      "time_period": "1935-present"
+      "context": "Outlaw motorcycle club that absorbed some Breed members after the club disbanded.",
+      "time_period": "unknown"
     }
   ],
   "edges": [
     {
       "source": "Breed Motorcycle Club",
       "target": "Aces and Eights Motorcycle Club",
-      "relationship": "other",
-      "detail": "patched over",
+      "relationship": "alliance",
+      "detail": null,
       "context": "The Breed patched over the Aces and Eights Motorcycle Club in 1983, absorbing them.",
       "time_period": "1983"
     },
     {
       "source": "Breed Motorcycle Club",
       "target": "Branded Motorcycle Club",
-      "relationship": "other",
-      "detail": "patched over",
+      "relationship": "alliance",
+      "detail": null,
       "context": "The Breed patched over the Branded Motorcycle Club in 1983, absorbing them.",
       "time_period": "1983"
     },
@@ -104,7 +84,7 @@
       "target": "Hells Angels",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Breed engaged in a violent confrontation with the Hells Angels in Cleveland in 1971, resulting in deaths, and were continuously attacked by them.",
+      "context": "The Breed engaged in a violent confrontation with the Hells Angels in Cleveland in 1971, resulting in deaths, and were continuously attacked by them over two decades.",
       "time_period": "1971-1990s"
     },
     {
@@ -113,54 +93,22 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "The Breed had a rivalry with the Pagans, and both were prominent methamphetamine distributors in New Jersey.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "source": "Breed Motorcycle Club",
       "target": "Warlocks",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Breed was involved in conflicts with the Warlocks, as mentioned in criminal allegations.",
-      "time_period": "unknown"
+      "context": "The Breed was involved in conflicts with the Warlocks.",
+      "time_period": null
     },
     {
       "source": "Breed Motorcycle Club",
-      "target": "Aces and Eights Motorcycle Club",
+      "target": "Outlaws",
       "relationship": "alliance",
       "detail": null,
-      "context": "Breed patched over Aces and Eights in 1983, absorbing the club.",
-      "time_period": "1983"
-    },
-    {
-      "source": "Breed Motorcycle Club",
-      "target": "Branded Motorcycle Club",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Breed patched over Branded in 1983, absorbing the club.",
-      "time_period": "1983"
-    },
-    {
-      "source": "Breed Motorcycle Club",
-      "target": "Pagans Motorcycle Club",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Rivalry involving killings, assaults, and territory disputes in Pennsylvania.",
-      "time_period": "1970s-1989"
-    },
-    {
-      "source": "Breed Motorcycle Club",
-      "target": "Warlocks Motorcycle Club",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Warlocks kidnapped a Breed chapter president in 1988 in retaliation for assaults.",
-      "time_period": "1988"
-    },
-    {
-      "source": "Breed Motorcycle Club",
-      "target": "Outlaws Motorcycle Club",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "After Breed disbanded, several members patched over to Outlaws and established a chapter.",
+      "context": "After the Breed disbanded, several members patched over to the Outlaws and established a chapter in Philadelphia.",
       "time_period": "2006"
     }
   ],

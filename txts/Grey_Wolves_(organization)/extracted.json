@@ -11,7 +11,7 @@
         "Ülkü Ocakları Eğitim ve Kültür Vakfı"
       ],
       "type": "other",
-      "context": "Turkish far-right ultranationalist organization, described as a death squad and terrorist group.",
+      "context": "Turkish far-right ultranationalist paramilitary organization and youth wing of the Nationalist Movement Party (MHP).",
       "time_period": "late 1960s-present"
     },
     {
@@ -21,7 +21,7 @@
         "MHP"
       ],
       "type": "other",
-      "context": "Turkish far-right political party; Grey Wolves is its youth wing.",
+      "context": "Turkish far-right political party; parent organization of the Grey Wolves.",
       "time_period": "1969-present"
     },
     {
@@ -33,7 +33,7 @@
       "time_period": "Cold War era"
     },
     {
-      "standard_name": "Turkish Mafia",
+      "standard_name": "Turkish mafia",
       "original_text_name": "Turkish mafia",
       "aliases": [],
       "type": "mafia",
@@ -57,8 +57,28 @@
         "PKK"
       ],
       "type": "terrorist_organization",
-      "context": "Kurdish militant group fighting for Kurdish autonomy in Turkey.",
+      "context": "Kurdish militant group fighting for Kurdish independence, involved in conflict with Turkey.",
       "time_period": "1978-present"
+    },
+    {
+      "standard_name": "Peoples' Democratic Party",
+      "original_text_name": "Peoples' Democratic Party",
+      "aliases": [
+        "HDP"
+      ],
+      "type": "other",
+      "context": "Pro-Kurdish political party in Turkey, targeted by Grey Wolves.",
+      "time_period": "2012-present"
+    },
+    {
+      "standard_name": "Democratic Regions Party",
+      "original_text_name": "Democratic Regions Party",
+      "aliases": [
+        "BDP"
+      ],
+      "type": "other",
+      "context": "Pro-Kurdish political party in Turkey, targeted by Grey Wolves.",
+      "time_period": "2008-2014"
     },
     {
       "standard_name": "Islamic State",
@@ -68,26 +88,16 @@
         "ISIS"
       ],
       "type": "terrorist_organization",
-      "context": "Jihadist militant group active in Syria and Iraq.",
+      "context": "Jihadist militant group, involved in the Siege of Kobanî.",
       "time_period": "2013-present"
-    },
-    {
-      "standard_name": "Peoples' Democratic Party",
-      "original_text_name": "Peoples' Democratic Party",
-      "aliases": [
-        "HDP"
-      ],
-      "type": "other",
-      "context": "Pro-Kurdish political party in Turkey.",
-      "time_period": "2012-present"
     },
     {
       "standard_name": "Alperen Ocakları",
       "original_text_name": "Alperen Ocakları",
       "aliases": [],
-      "type": "faction",
-      "context": "Offshoot of the Grey Wolves, affiliated with the Great Union Party (BBP).",
-      "time_period": "1993-present"
+      "type": "other",
+      "context": "Turkish ultranationalist group affiliated with the BBP, considered an offshoot of the Grey Wolves.",
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Great Union Party",
@@ -96,7 +106,7 @@
         "BBP"
       ],
       "type": "other",
-      "context": "Turkish Islamist political party that split from MHP.",
+      "context": "Turkish Islamist political party that split from MHP in 1993.",
       "time_period": "1993-present"
     },
     {
@@ -116,7 +126,7 @@
       "original_text_name": "Syrian Turkmen Assembly",
       "aliases": [],
       "type": "other",
-      "context": "Political body representing Syrian Turkmen.",
+      "context": "Political body representing Syrian Turkmen, supported by Grey Wolves.",
       "time_period": "2012-present"
     },
     {
@@ -132,7 +142,7 @@
       "original_text_name": "Turkmen Abdulhamid Han Brigade",
       "aliases": [],
       "type": "militia",
-      "context": "Syrian Turkmen rebel group with ties to the Grey Wolves.",
+      "context": "Syrian rebel group with ties to the Grey Wolves.",
       "time_period": "2011-present"
     },
     {
@@ -140,7 +150,7 @@
       "original_text_name": "Syrian Turkmen Brigades",
       "aliases": [],
       "type": "militia",
-      "context": "Coalition of Syrian Turkmen rebel groups.",
+      "context": "Coalition of Syrian Turkmen rebel groups, involved in shooting down Russian pilot.",
       "time_period": "2012-present"
     },
     {
@@ -150,26 +160,16 @@
         "Jaish al-Fatah"
       ],
       "type": "militia",
-      "context": "Coalition of Syrian rebel groups.",
-      "time_period": "2015-2017"
+      "context": "Syrian rebel coalition, allegedly conspired with Grey Wolves in assassination of Russian ambassador.",
+      "time_period": "2015-present"
     },
     {
       "standard_name": "Turkistan Islamic Party",
       "original_text_name": "Turkistan Islamic Party",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Uyghur jihadist group active in Syria.",
+      "context": "Uyghur jihadist group, allegedly conspired with Grey Wolves in assassination of Russian ambassador.",
       "time_period": "1990s-present"
-    },
-    {
-      "standard_name": "Osmanen Germania BC",
-      "original_text_name": "Osmanen Germania BC",
-      "aliases": [
-        "Osmanen Germania"
-      ],
-      "type": "motorcycle_club",
-      "context": "Banned Turkish-nationalistic outlaw motorcycle club in Germany, acted as security for Grey Wolves.",
-      "time_period": "2014-2018"
     },
     {
       "standard_name": "PKK",
@@ -188,8 +188,18 @@
         "Gülen movement"
       ],
       "type": "other",
-      "context": "Turkish Islamist movement, accused by Turkey of being a terrorist group.",
+      "context": "Turkish Islamist movement led by Fethullah Gülen, accused by Turkey of being a terrorist group.",
       "time_period": "1970s-present"
+    },
+    {
+      "standard_name": "Osmanen Germania BC",
+      "original_text_name": "Osmanen Germania BC",
+      "aliases": [
+        "Osmanen Germania"
+      ],
+      "type": "motorcycle_club",
+      "context": "Turkish-nationalistic outlaw motorcycle club in Germany, acted as security for Grey Wolves.",
+      "time_period": "2014-2018"
     },
     {
       "standard_name": "Belçika Türk Federasyonu",
@@ -198,14 +208,16 @@
         "BTF"
       ],
       "type": "other",
-      "context": "Turkish diaspora organization in Belgium, affiliated with Grey Wolves.",
-      "time_period": "unknown"
+      "context": "Turkish federation in Belgium, affiliated with Grey Wolves.",
+      "time_period": null
     },
     {
       "standard_name": "Federation of Turkish Democratic Idealist Associations in Germany",
       "original_text_name": "Federation of Turkish Democratic Idealist Associations in Germany e.V.",
       "aliases": [
-        "ADÜTDF"
+        "ADÜTDF",
+        "Türk Federasyon",
+        "Avrupa Demokratik Ülkücü Türk Dernekleri Federasyonu"
       ],
       "type": "other",
       "context": "Umbrella organization of Grey Wolves-affiliated clubs in Germany.",
@@ -213,14 +225,14 @@
     },
     {
       "standard_name": "ATİB",
-      "original_text_name": "ATİB",
+      "original_text_name": "ATİB – Union of Turkish-Islamic Cultural Associations in Europe e.V.",
       "aliases": [
-        "Union of Turkish-Islamic Cultural Associations in Europe",
-        "Avrupa Türk-İslam Birliği"
+        "Avrupa Türk-İslam Birliği",
+        "Union der Türkisch-Islamischen Kulturvereine in Europa"
       ],
       "type": "other",
       "context": "Turkish-Islamic cultural association in Europe, affiliated with Grey Wolves.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "standard_name": "Federation of the World Order in Europe",
@@ -230,7 +242,7 @@
       ],
       "type": "other",
       "context": "Grey Wolves-affiliated association in Germany.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "standard_name": "Turkish Federation Netherlands",
@@ -240,8 +252,8 @@
         "TFN"
       ],
       "type": "other",
-      "context": "Turkish diaspora organization in Netherlands, linked to Grey Wolves.",
-      "time_period": "unknown"
+      "context": "Turkish organization in the Netherlands with links to Grey Wolves.",
+      "time_period": null
     },
     {
       "standard_name": "Turkish Islamic Federation",
@@ -250,15 +262,15 @@
         "Turks Islamitische Federatie"
       ],
       "type": "other",
-      "context": "Turkish Islamic organization in Netherlands, linked to Grey Wolves.",
-      "time_period": "unknown"
+      "context": "Turkish organization in the Netherlands with links to Grey Wolves.",
+      "time_period": null
     },
     {
       "standard_name": "Alperen Hearths",
       "original_text_name": "Alperen Hearths",
       "aliases": [],
       "type": "other",
-      "context": "Turkish far-right organization, allied with Grey Wolves.",
+      "context": "Turkish far-right organization allied with the Grey Wolves.",
       "time_period": null
     },
     {
@@ -266,15 +278,15 @@
       "original_text_name": "Kurdish Hezbollah",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Kurdish Islamist group, opponent of Grey Wolves.",
-      "time_period": null
+      "context": "Kurdish Islamist militant group, opponent of the Grey Wolves.",
+      "time_period": "1980s-present"
     },
     {
       "standard_name": "Raiders Organization",
       "original_text_name": "Raiders Organization",
       "aliases": [],
       "type": "other",
-      "context": "Turkish ultranationalist group, opponent of Grey Wolves.",
+      "context": "Turkish ultranationalist group, opponent of the Grey Wolves.",
       "time_period": null
     }
   ],
@@ -282,9 +294,9 @@
     {
       "source": "Grey Wolves",
       "target": "Nationalist Movement Party",
-      "relationship": "other",
-      "detail": "youth wing",
-      "context": "Grey Wolves is the youth wing and paramilitary wing of the Nationalist Movement Party.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Grey Wolves is the youth wing and paramilitary wing of the MHP.",
       "time_period": "late 1960s-present"
     },
     {
@@ -292,15 +304,15 @@
       "target": "Counter-Guerrilla",
       "relationship": "alliance",
       "detail": null,
-      "context": "Grey Wolves had close dealings with Counter-Guerrilla, which supplied weapons to them.",
+      "context": "Grey Wolves had close dealings with Counter-Guerrilla, which supplied weapons.",
       "time_period": "1970s-1990s"
     },
     {
       "source": "Grey Wolves",
-      "target": "Turkish Mafia",
+      "target": "Turkish mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Grey Wolves suspected of having close dealings with the Turkish mafia.",
+      "context": "Grey Wolves suspected of close dealings with Turkish mafia.",
       "time_period": null
     },
     {
@@ -308,32 +320,16 @@
       "target": "Armenian Secret Army for the Liberation of Armenia",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Grey Wolves members were armed by Turkish intelligence to target ASALA members.",
+      "context": "Grey Wolves targeted ASALA members in political murders.",
       "time_period": "1980s"
-    },
-    {
-      "source": "Grey Wolves",
-      "target": "Nationalist Movement Party",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Grey Wolves is the youth wing of the Nationalist Movement Party (MHP).",
-      "time_period": "late 1960s-present"
     },
     {
       "source": "Grey Wolves",
       "target": "Kurdistan Workers' Party",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Grey Wolves have been involved in violent clashes with PKK and Kurdish groups.",
+      "context": "Grey Wolves have been involved in the Kurdish–Turkish conflict and attacked PKK targets.",
       "time_period": "1978-present"
-    },
-    {
-      "source": "Grey Wolves",
-      "target": "Islamic State",
-      "relationship": "other",
-      "detail": "perceived collaboration",
-      "context": "Grey Wolves protested against government's perceived collaboration with IS during Siege of Kobanî.",
-      "time_period": "2014"
     },
     {
       "source": "Grey Wolves",
@@ -345,11 +341,27 @@
     },
     {
       "source": "Grey Wolves",
-      "target": "Alperen Ocakları",
+      "target": "Democratic Regions Party",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Grey Wolves planned an attack on the BDP in 2011.",
+      "time_period": "2011"
+    },
+    {
+      "source": "Grey Wolves",
+      "target": "Islamic State",
+      "relationship": "other",
+      "detail": "conflict",
+      "context": "Grey Wolves clashed with Kurdish protesters during the Siege of Kobanî, opposing IS.",
+      "time_period": "2014"
+    },
+    {
+      "source": "Alperen Ocakları",
+      "target": "Grey Wolves",
       "relationship": "alliance",
       "detail": null,
-      "context": "Alperen Ocakları is an offshoot of the Grey Wolves, affiliated with BBP.",
-      "time_period": "1993-present"
+      "context": "Alperen Ocakları is considered an offshoot of the Grey Wolves.",
+      "time_period": "1990s-present"
     },
     {
       "source": "Alperen Ocakları",
@@ -357,14 +369,22 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Alperen Ocakları is affiliated with the Great Union Party (BBP).",
-      "time_period": "1993-present"
+      "time_period": "1990s-present"
     },
     {
-      "source": "Grey Wolves",
-      "target": "Azerbaijan National Democrat Party",
+      "source": "Great Union Party",
+      "target": "Nationalist Movement Party",
       "relationship": "alliance",
       "detail": null,
-      "context": "Azerbaijan National Democrat Party considered itself a branch of the Turkish Grey Wolves.",
+      "context": "The Great Union Party (BBP) split from the MHP in 1993.",
+      "time_period": "1993"
+    },
+    {
+      "source": "Azerbaijan National Democrat Party",
+      "target": "Grey Wolves",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Azerbaijani Grey Wolves considered themselves a branch of the Turkish Grey Wolves.",
       "time_period": "1992-2008"
     },
     {
@@ -372,71 +392,63 @@
       "target": "Syrian Turkmen Assembly",
       "relationship": "alliance",
       "detail": null,
-      "context": "Grey Wolves provided relief aid and fighters to the Syrian Turkmen Assembly.",
+      "context": "Grey Wolves provided humanitarian aid and fighters to the Syrian Turkmen Assembly.",
       "time_period": "2012-present"
     },
     {
-      "source": "Grey Wolves",
-      "target": "Muntasir Billah Brigade",
+      "source": "Muntasir Billah Brigade",
+      "target": "Grey Wolves",
       "relationship": "alliance",
       "detail": null,
-      "context": "Syrian rebel group Muntasir Billah Brigade has ties to the Grey Wolves.",
+      "context": "The Muntasir Billah Brigade has ties to the Grey Wolves.",
       "time_period": "2011-present"
     },
     {
-      "source": "Grey Wolves",
-      "target": "Turkmen Abdulhamid Han Brigade",
+      "source": "Turkmen Abdulhamid Han Brigade",
+      "target": "Grey Wolves",
       "relationship": "alliance",
       "detail": null,
-      "context": "Syrian rebel group Turkmen Abdulhamid Han Brigade has ties to the Grey Wolves.",
+      "context": "The Turkmen Abdulhamid Han Brigade has ties to the Grey Wolves.",
       "time_period": "2011-present"
     },
     {
-      "source": "Grey Wolves",
-      "target": "Syrian Turkmen Brigades",
+      "source": "Syrian Turkmen Brigades",
+      "target": "Grey Wolves",
       "relationship": "alliance",
       "detail": null,
-      "context": "Grey Wolves member Alparslan Çelik commanded a unit under Syrian Turkmen Brigades.",
+      "context": "Syrian Turkmen Brigades operated under command of a Grey Wolves member.",
       "time_period": "2015"
-    },
-    {
-      "source": "Army of Conquest",
-      "target": "Turkistan Islamic Party",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Army of Conquest allegedly conspired with Turkistan Islamic Party and Grey Wolves in assassination of Russian ambassador.",
-      "time_period": "2016"
     },
     {
       "source": "Army of Conquest",
       "target": "Grey Wolves",
       "relationship": "alliance",
       "detail": null,
-      "context": "Army of Conquest allegedly conspired with Grey Wolves in assassination of Russian ambassador.",
+      "context": "Army of Conquest allegedly conspired with Grey Wolves in the assassination of Russian ambassador.",
       "time_period": "2016"
     },
     {
-      "source": "Grey Wolves",
-      "target": "Counter-Guerrilla",
-      "relationship": "other",
-      "detail": "suspected dealings",
-      "context": "Grey Wolves suspected of close dealings with Counter-Guerrilla, the Turkish branch of NATO Operation Gladio.",
-      "time_period": "past"
-    },
-    {
-      "source": "Grey Wolves",
-      "target": "Osmanen Germania BC",
+      "source": "Turkistan Islamic Party",
+      "target": "Grey Wolves",
       "relationship": "alliance",
       "detail": null,
-      "context": "Osmanen Germania BC acted as security guards for the Grey Wolves from 2014-2018.",
-      "time_period": "2014-2018"
+      "context": "Turkistan Islamic Party allegedly conspired with Grey Wolves in the assassination of Russian ambassador.",
+      "time_period": "2016"
+    },
+    {
+      "source": "Counter-Guerrilla",
+      "target": "Grey Wolves",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Grey Wolves are suspected of having close dealings with Counter-Guerrilla.",
+      "time_period": "past"
     },
     {
       "source": "Grey Wolves",
       "target": "PKK",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Grey Wolves are adversaries of the PKK, involved in clashes and attacks against Kurds.",
+      "context": "Grey Wolves are hostile to PKK, attacking Kurdish rallies and involved in Kurdish–Turkish conflict.",
       "time_period": "1978-present"
     },
     {
@@ -444,8 +456,16 @@
       "target": "FETÖ",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Turkey accuses FETÖ of being a terrorist group, and Grey Wolves are opposed to it.",
-      "time_period": "unknown"
+      "context": "Turkey accuses FETÖ of being a terrorist group; Grey Wolves are opposed to FETÖ.",
+      "time_period": null
+    },
+    {
+      "source": "Osmanen Germania BC",
+      "target": "Grey Wolves",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Osmanen Germania BC acted as security guards for the Grey Wolves from 2014-2018.",
+      "time_period": "2014-2018"
     },
     {
       "source": "Belçika Türk Federasyonu",
@@ -453,14 +473,14 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Belçika Türk Federasyonu is considered affiliated with or sympathetic to the Grey Wolves.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "source": "Federation of Turkish Democratic Idealist Associations in Germany",
       "target": "Grey Wolves",
       "relationship": "alliance",
       "detail": null,
-      "context": "ADÜTDF is a Grey Wolves-affiliated umbrella organization in Germany.",
+      "context": "ADÜTDF is the most important Grey Wolves-affiliated Turkish organization in Germany.",
       "time_period": "1978-present"
     },
     {
@@ -468,8 +488,8 @@
       "target": "Grey Wolves",
       "relationship": "alliance",
       "detail": null,
-      "context": "ATİB is an organization affiliated with the Grey Wolves.",
-      "time_period": "unknown"
+      "context": "ATİB is an important organization affiliated with the Grey Wolves.",
+      "time_period": null
     },
     {
       "source": "Federation of the World Order in Europe",
@@ -477,7 +497,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "ANF is a Grey Wolves-affiliated association in Germany.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "source": "Turkish Federation Netherlands",
@@ -485,7 +505,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Turkish Federation Netherlands has links to the Grey Wolves.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "source": "Turkish Islamic Federation",
@@ -493,14 +513,14 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Turkish Islamic Federation has links to the Grey Wolves.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "source": "Grey Wolves",
       "target": "Alperen Hearths",
       "relationship": "alliance",
       "detail": null,
-      "context": "Grey Wolves are allied with Alperen Hearths.",
+      "context": "The Grey Wolves have Alperen Hearths as allies.",
       "time_period": null
     },
     {
@@ -508,7 +528,7 @@
       "target": "Islamic State",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Grey Wolves oppose Islamic State.",
+      "context": "The Grey Wolves list Islamic State as an opponent.",
       "time_period": null
     },
     {
@@ -516,7 +536,7 @@
       "target": "Kurdish Hezbollah",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Grey Wolves oppose Kurdish Hezbollah.",
+      "context": "The Grey Wolves list Kurdish Hezbollah as an opponent.",
       "time_period": null
     },
     {
@@ -524,7 +544,7 @@
       "target": "Raiders Organization",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Grey Wolves oppose Raiders Organization.",
+      "context": "The Grey Wolves list Raiders Organization as an opponent.",
       "time_period": null
     }
   ],

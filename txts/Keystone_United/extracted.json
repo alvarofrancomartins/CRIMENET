@@ -16,7 +16,7 @@
       "original_text_name": "National Alliance",
       "aliases": [],
       "type": "other",
-      "context": "White supremacist organization; had a youth group in Lancaster that included KSS members.",
+      "context": "White supremacist organization; had a youth group in Lancaster that included some KSS members.",
       "time_period": "1970s-present"
     },
     {
@@ -34,14 +34,6 @@
       "type": "gang",
       "context": "Neo-Nazi skinhead group; allowed KSS to help coordinate Hammerfest in 2003.",
       "time_period": "1980s-present"
-    },
-    {
-      "standard_name": "Atlantic City Skinhead",
-      "original_text_name": "Atlantic City Skinhead",
-      "aliases": [],
-      "type": "gang",
-      "context": "Individual skinhead from Atlantic City associated with KSS members in an assault.",
-      "time_period": null
     }
   ],
   "edges": [
@@ -50,7 +42,7 @@
       "target": "National Alliance",
       "relationship": "alliance",
       "detail": null,
-      "context": "KSS Lancaster chapter included members from a National Alliance youth group.",
+      "context": "KSS's Lancaster chapter included members from a National Alliance youth group.",
       "time_period": "early 2000s"
     },
     {
@@ -60,14 +52,6 @@
       "detail": null,
       "context": "Hammerskin Nation allowed KSS to help coordinate Hammerfest in 2003.",
       "time_period": "2003"
-    },
-    {
-      "source": "Keystone United",
-      "target": "Atlantic City Skinhead",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "KSS members and an Atlantic City Skinhead were charged together in an assault.",
-      "time_period": "2007"
     }
   ],
   "source_file": "Keystone_United"

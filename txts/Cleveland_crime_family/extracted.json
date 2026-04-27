@@ -5,6 +5,7 @@
       "original_text_name": "Cleveland crime family",
       "aliases": [
         "Cleveland Mafia",
+        "Cleveland family",
         "Scalish crime family"
       ],
       "type": "mafia",
@@ -20,21 +21,13 @@
       "time_period": "1913-1944"
     },
     {
-      "standard_name": "Collinwood Crew",
-      "original_text_name": "Collinwood Crew",
-      "aliases": [],
-      "type": "gang",
-      "context": "Italian American gang operating around St. Clair Avenue and E. 152nd Street in Collinwood, Cleveland.",
-      "time_period": "1910s-1920s"
-    },
-    {
       "standard_name": "Porrello brothers",
       "original_text_name": "Porrello brothers",
       "aliases": [
         "Porrello faction"
       ],
       "type": "faction",
-      "context": "Sicilian immigrant brothers who broke away from the Lonardos and formed their own faction, competing for control of the Cleveland underworld.",
+      "context": "Sicilian immigrant brothers who broke away from the Lonardos and formed their own faction, vying for control of the Cleveland underworld in the 1920s.",
       "time_period": "1926-1932"
     },
     {
@@ -45,7 +38,7 @@
       ],
       "type": "faction",
       "context": "Sicilian immigrant brothers who initially led the Cleveland crime family before being killed by the Porrellos.",
-      "time_period": "1910s-1927"
+      "time_period": "1920s-1927"
     },
     {
       "standard_name": "National Crime Syndicate",
@@ -53,7 +46,7 @@
       "aliases": [],
       "type": "other",
       "context": "Network of powerful criminals including Lucky Luciano and Meyer Lansky, formed in 1931.",
-      "time_period": "1931-1950s"
+      "time_period": "1931-"
     },
     {
       "standard_name": "The Commission",
@@ -61,14 +54,14 @@
       "aliases": [],
       "type": "other",
       "context": "Mafia's governing body, of which Frank Milano was a charter member.",
-      "time_period": "1931-present"
+      "time_period": "1931-"
     },
     {
       "standard_name": "Chicago Outfit",
       "original_text_name": "Chicago Outfit",
       "aliases": [],
       "type": "mafia",
-      "context": "Chicago-based Mafia family with ties to the Cleveland family under Scalish.",
+      "context": "Chicago-based Mafia family; had ties with the Cleveland family under Scalish.",
       "time_period": "1910s-present"
     },
     {
@@ -76,7 +69,7 @@
       "original_text_name": "Genovese crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "New York Mafia family with ties to the Cleveland family under Scalish.",
+      "context": "New York Mafia family; had ties with the Cleveland family under Scalish.",
       "time_period": "1890s-present"
     },
     {
@@ -84,7 +77,7 @@
       "original_text_name": "Pittsburgh crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Pittsburgh-based Mafia family that had an arrangement with the Cleveland family regarding Youngstown rackets.",
+      "context": "Pittsburgh-based Mafia family; had an arrangement with the Cleveland family regarding Youngstown rackets.",
       "time_period": "1900s-present"
     },
     {
@@ -92,7 +85,7 @@
       "original_text_name": "Kansas City crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Midwestern Mafia family that partnered with Cleveland and Milwaukee families in Las Vegas casino skimming.",
+      "context": "Kansas City-based Mafia family; partnered with Cleveland and Milwaukee families in Teamsters pension fund schemes.",
       "time_period": "1900s-present"
     },
     {
@@ -100,16 +93,34 @@
       "original_text_name": "Milwaukee crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Midwestern Mafia family that partnered with Cleveland and Kansas City families in Las Vegas casino skimming.",
+      "context": "Milwaukee-based Mafia family; partnered with Cleveland and Kansas City families in Teamsters pension fund schemes.",
       "time_period": "1910s-present"
     },
     {
       "standard_name": "Greene's gang",
       "original_text_name": "Greene's gang",
+      "aliases": [
+        "Danny Greene's gang"
+      ],
+      "type": "gang",
+      "context": "Irish gang led by Danny Greene that competed with the Cleveland family for rackets in the 1970s.",
+      "time_period": "1970s-1977"
+    },
+    {
+      "standard_name": "Collinwood Crew",
+      "original_text_name": "Collinwood Crew",
       "aliases": [],
       "type": "gang",
-      "context": "Irish gang led by Danny Greene that competed with the Cleveland family for control of rackets in the 1970s.",
-      "time_period": "1970s-1977"
+      "context": "Italian American gang operating in Collinwood, Cleveland, in the 1910s.",
+      "time_period": "1910s"
+    },
+    {
+      "standard_name": "reservoir gang",
+      "original_text_name": "reservoir gang",
+      "aliases": [],
+      "type": "gang",
+      "context": "Group of criminals engaged in armed robbery, auto theft, and burglary based at the Baldwin Water Treatment Plant reservoir.",
+      "time_period": "1910s"
     },
     {
       "standard_name": "Bonanno crime family",
@@ -140,7 +151,7 @@
       "original_text_name": "Hells Angels MC",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club, listed as an ally of the Cleveland crime family.",
+      "context": "Outlaw motorcycle club, listed as an ally of the Cleveland family.",
       "time_period": null
     },
     {
@@ -154,45 +165,58 @@
   ],
   "edges": [
     {
-      "source": "Cleveland crime family",
-      "target": "Mayfield Road Mob",
-      "relationship": "other",
-      "detail": "predecessor",
-      "context": "The Mayfield Road Mob evolved into the Cleveland crime family under Frank Milano in the 1930s.",
+      "source": "Mayfield Road Mob",
+      "target": "Cleveland crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Mayfield Road Mob evolved into the Cleveland crime family; Frank Milano and Alfred Polizzi were leaders of both.",
       "time_period": "1930-1944"
     },
     {
       "source": "Porrello brothers",
       "target": "Lonardo brothers",
       "relationship": "rivalry",
-      "context": "The Porrellos broke away from the Lonardos in 1926 and killed Joseph and John Lonardo in 1927 to take over the Cleveland family.",
+      "detail": null,
+      "context": "The Porrellos broke away from the Lonardos in 1926 and killed Joseph and John Lonardo in 1927.",
       "time_period": "1926-1927"
     },
     {
-      "source": "Cleveland crime family",
+      "source": "Porrello brothers",
+      "target": "Cleveland crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Joseph Porrello became boss of the Cleveland family after killing the Lonardos, ruling from 1927 to 1930.",
+      "time_period": "1927-1930"
+    },
+    {
+      "source": "Mayfield Road Mob",
       "target": "Porrello brothers",
       "relationship": "rivalry",
-      "context": "The Porrellos were rivals of the Mayfield Road Mob (which became the Cleveland family) and were eliminated by Frank Milano in 1932.",
+      "detail": null,
+      "context": "The Mayfield Road Mob, led by Frank Milano, fought and eventually killed the Porrello brothers, taking over the Cleveland family.",
       "time_period": "1927-1932"
     },
     {
       "source": "Cleveland crime family",
       "target": "National Crime Syndicate",
       "relationship": "alliance",
-      "context": "Frank Milano joined the National Crime Syndicate in 1931, aligning the Cleveland family with Luciano and Lansky.",
-      "time_period": "1931-1950s"
+      "detail": null,
+      "context": "Frank Milano joined the National Crime Syndicate in 1931.",
+      "time_period": "1931-"
     },
     {
       "source": "Cleveland crime family",
       "target": "The Commission",
       "relationship": "alliance",
-      "context": "Frank Milano was a charter member of The Commission, the Mafia's governing body.",
-      "time_period": "1931-1944"
+      "detail": null,
+      "context": "Frank Milano was a charter member of The Commission.",
+      "time_period": "1931-"
     },
     {
       "source": "Cleveland crime family",
       "target": "Chicago Outfit",
       "relationship": "alliance",
+      "detail": null,
       "context": "Under Scalish, the Cleveland family developed ties with the Chicago Outfit.",
       "time_period": "1944-1976"
     },
@@ -200,35 +224,40 @@
       "source": "Cleveland crime family",
       "target": "Genovese crime family",
       "relationship": "alliance",
-      "context": "Under Scalish, the Cleveland family developed ties with the Genovese crime family.",
+      "detail": null,
+      "context": "Under Scalish, the Cleveland family developed ties with the Genovese family.",
       "time_period": "1944-1976"
     },
     {
       "source": "Cleveland crime family",
       "target": "Pittsburgh crime family",
       "relationship": "alliance",
-      "context": "The Cleveland family had an arrangement with the Pittsburgh family, receiving 25% of profits from Youngstown rackets.",
-      "time_period": "1950s-1970s"
+      "detail": null,
+      "context": "The Cleveland family had an arrangement entitling them to 25% of Pittsburgh's Youngstown rackets.",
+      "time_period": "1944-1976"
     },
     {
       "source": "Cleveland crime family",
       "target": "Kansas City crime family",
       "relationship": "alliance",
-      "context": "The Cleveland, Kansas City, and Milwaukee families partnered in Las Vegas casino skimming and Teamsters pension fund loans.",
-      "time_period": "1970s"
+      "detail": null,
+      "context": "The Cleveland, Kansas City, and Milwaukee families partnered to influence the Teamsters pension fund.",
+      "time_period": "1974-"
     },
     {
       "source": "Cleveland crime family",
       "target": "Milwaukee crime family",
       "relationship": "alliance",
-      "context": "The Cleveland, Kansas City, and Milwaukee families partnered in Las Vegas casino skimming and Teamsters pension fund loans.",
-      "time_period": "1970s"
+      "detail": null,
+      "context": "The Cleveland, Kansas City, and Milwaukee families partnered to influence the Teamsters pension fund.",
+      "time_period": "1974-"
     },
     {
       "source": "Cleveland crime family",
       "target": "Greene's gang",
       "relationship": "rivalry",
-      "context": "A violent mob war erupted in the late 1970s between the Cleveland family and Danny Greene's gang, resulting in numerous bombings.",
+      "detail": null,
+      "context": "A violent mob war erupted in the late 1970s between the Cleveland family and Danny Greene's gang, resulting in numerous car bombings.",
       "time_period": "1976-1977"
     },
     {
@@ -236,7 +265,7 @@
       "target": "Pittsburgh crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Mob war over Youngstown territory from 1978 to 1981, resulting in twelve murders.",
+      "context": "Fought a mob war from 1978 to 1981 over control of Youngstown rackets.",
       "time_period": "1978-1981"
     },
     {
@@ -252,7 +281,7 @@
       "target": "Detroit Partnership",
       "relationship": "alliance",
       "detail": null,
-      "context": "Cleveland family forged ties with Detroit Partnership in the 21st century.",
+      "context": "Iacobacci forged ties with the Detroit Partnership.",
       "time_period": "2000s"
     },
     {
@@ -260,7 +289,7 @@
       "target": "DeCavalcante crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Cleveland family forged ties with DeCavalcante crime family in the 21st century.",
+      "context": "Iacobacci forged ties with the DeCavalcante crime family.",
       "time_period": "2000s"
     },
     {

@@ -9,7 +9,7 @@
         "Men of Destruction"
       ],
       "type": "gang",
-      "context": "Hmong street gang active in California, Midwest, and other Hmong communities; involved in murder, drug trafficking, and weapons trafficking.",
+      "context": "Hmong street gang active in California, Midwest, and other areas with large Hmong communities; involved in murder, drug trafficking, and weapon trafficking.",
       "time_period": "1988-present"
     },
     {
@@ -17,7 +17,7 @@
       "original_text_name": "Peace MOD",
       "aliases": [],
       "type": "gang",
-      "context": "Early Hmong gang formed in 1985 in Fresno, California, to protect Hmong community; precursor to MOD and other splinter groups.",
+      "context": "One of the first Hmong gangs in California, formed in 1985 in Fresno to protect the Hmong community; predecessor of MOD and other splinter groups.",
       "time_period": "1985-1988"
     },
     {
@@ -45,15 +45,15 @@
       "original_text_name": "White Tigers",
       "aliases": [],
       "type": "gang",
-      "context": "Early Hmong gang in Minnesota; eventually overtaken by MOD.",
-      "time_period": "1990s"
+      "context": "One of Minnesota's first Hmong gangs; eventually overtaken by MOD in the Twin Cities.",
+      "time_period": "1990s-2000s"
     },
     {
       "standard_name": "Asian Family Gangsters",
       "original_text_name": "Asian Family Gangsters",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to MOD in Sacramento, California; involved in drive-by shootings.",
+      "context": "Rival gang of MOD in Sacramento, California; involved in tensions and drive-by shootings in 1993.",
       "time_period": "1990s"
     },
     {
@@ -71,7 +71,7 @@
         "La Familia Michoacana"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel that smuggled methamphetamine to Minnesota; worked with MOD.",
+      "context": "Mexican drug cartel that smuggled methamphetamine from Mexico to Minnesota; worked with MOD in a drug ring.",
       "time_period": "2000s-2010s"
     },
     {
@@ -79,7 +79,7 @@
       "original_text_name": "Laotian Posse",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to MOD in Wisconsin.",
+      "context": "Rival gang of MOD in Wisconsin; involved in disputes in 1994.",
       "time_period": "1990s"
     },
     {
@@ -87,7 +87,7 @@
       "original_text_name": "Alliance",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to MOD in Wisconsin.",
+      "context": "Rival gang of MOD in Wisconsin; involved in disputes in 1994.",
       "time_period": "1990s"
     },
     {
@@ -95,7 +95,7 @@
       "original_text_name": "Tiny Rascal Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to MOD in Fresno, California; involved in turf war.",
+      "context": "Rival gang of MOD in Fresno, California; involved in turf war in 1994.",
       "time_period": "1990s"
     },
     {
@@ -103,7 +103,7 @@
       "original_text_name": "Ruthless Crip Gangsters",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang to MOD in Wisconsin; involved in shooting.",
+      "context": "Rival gang of MOD in Wisconsin; involved in a shooting in 2004.",
       "time_period": "2000s"
     },
     {
@@ -111,67 +111,104 @@
       "original_text_name": "Asian Crips",
       "aliases": [],
       "type": "gang",
-      "context": "Rival Hmong gang to MOD in Milwaukee; involved in turf war.",
-      "time_period": "2004-2009"
+      "context": "Rival Hmong gang involved in turf war with MOD in Milwaukee from 2004-2009.",
+      "time_period": "2000s"
+    },
+    {
+      "standard_name": "Hmong Nation Society",
+      "original_text_name": "Hmong Nation Society",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang listed in MOD's rivals.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Junior Criminal Crips",
+      "original_text_name": "Junior Criminal Crips",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang listed in MOD's rivals.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Fresno Bulldogs",
+      "original_text_name": "Fresno Bulldogs",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang listed in MOD's rivals.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Oroville Mono Boys",
+      "original_text_name": "Oroville Mono Boys",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang listed in MOD's rivals.",
+      "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Menace of Destruction",
       "target": "Peace MOD",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "MOD broke off from Peace MOD in 1988 due to a power struggle.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MOD splintered from Peace MOD in 1988.",
       "time_period": "1988"
     },
     {
       "source": "Mongolian Boys Society",
       "target": "Peace MOD",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "MBS broke off from Peace MOD in 1988.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MBS splintered from Peace MOD in 1988.",
       "time_period": "1988"
     },
     {
       "source": "Oriental Ruthless Boys",
       "target": "Peace MOD",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "ORB broke off from Peace MOD in 1988.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "ORB splintered from Peace MOD in 1988.",
       "time_period": "1988"
     },
     {
       "source": "Menace of Destruction",
       "target": "Mongolian Boys Society",
       "relationship": "rivalry",
-      "context": "Rivalries formed between the three splinter groups after Peace MOD breakup.",
+      "detail": null,
+      "context": "The breakup of Peace MOD created rivalries between MOD, MBS, and ORB.",
       "time_period": "1988-present"
     },
     {
       "source": "Menace of Destruction",
       "target": "Oriental Ruthless Boys",
       "relationship": "rivalry",
-      "context": "Rivalries formed between the three splinter groups after Peace MOD breakup; involved in a shooting in Wausau in 2002.",
+      "detail": null,
+      "context": "The breakup of Peace MOD created rivalries between MOD, MBS, and ORB; a confrontation in 2002 led to a shooting.",
       "time_period": "1988-present"
     },
     {
       "source": "Menace of Destruction",
       "target": "White Tigers",
       "relationship": "rivalry",
-      "context": "MOD overtook White Tigers in the Twin Cities, Minnesota.",
-      "time_period": "1990s"
+      "detail": null,
+      "context": "MOD overtook White Tigers in the Twin Cities.",
+      "time_period": "1990s-2000s"
     },
     {
       "source": "Menace of Destruction",
       "target": "Asian Family Gangsters",
       "relationship": "rivalry",
-      "context": "Tensions and drive-by shootings between MOD and Asian Family Gangsters in Sacramento in 1993.",
+      "detail": null,
+      "context": "Tensions in 1993 led to a drive-by shooting by MOD.",
       "time_period": "1993"
     },
     {
       "source": "Menace of Destruction",
       "target": "Tiny Little Rascals",
       "relationship": "alliance",
+      "detail": null,
       "context": "Tiny Little Rascals is a junior version of MOD; MOD retaliated after a shooting at Tiny Little Rascals.",
       "time_period": "1990s"
     },
@@ -179,43 +216,81 @@
       "source": "Menace of Destruction",
       "target": "La Familia Michoacana",
       "relationship": "alliance",
-      "context": "La Familia smuggled methamphetamine to Minnesota and worked with a local MOD member.",
+      "detail": null,
+      "context": "MOD worked with La Familia in a methamphetamine trafficking ring in Minnesota.",
       "time_period": "2012"
     },
     {
       "source": "Menace of Destruction",
       "target": "Laotian Posse",
       "relationship": "rivalry",
-      "context": "MOD involved in a dispute with Laotian Posse in Wisconsin in 1994.",
+      "detail": null,
+      "context": "MOD was involved in a dispute with Laotian Posse in Wisconsin in 1994.",
       "time_period": "1994"
     },
     {
       "source": "Menace of Destruction",
       "target": "Alliance",
       "relationship": "rivalry",
-      "context": "MOD involved in a dispute with Alliance in Wisconsin in 1994.",
+      "detail": null,
+      "context": "MOD was involved in a dispute with Alliance in Wisconsin in 1994.",
       "time_period": "1994"
     },
     {
       "source": "Menace of Destruction",
       "target": "Tiny Rascal Gang",
       "relationship": "rivalry",
-      "context": "MOD had a turf war with Tiny Rascal Gang in Fresno, California.",
+      "detail": null,
+      "context": "MOD had a turf war with Tiny Rascal Gang in Fresno in 1994.",
       "time_period": "1994"
     },
     {
       "source": "Menace of Destruction",
       "target": "Ruthless Crip Gangsters",
       "relationship": "rivalry",
-      "context": "Ruthless Crip Gangsters shot at a MOD member's home in Eau Claire in 2004.",
+      "detail": null,
+      "context": "Ruthless Crip Gangsters shot at a MOD member's home in 2004.",
       "time_period": "2004"
     },
     {
       "source": "Menace of Destruction",
       "target": "Asian Crips",
       "relationship": "rivalry",
-      "context": "MOD and Asian Crips were involved in a turf war in Milwaukee from 2004 to 2009.",
+      "detail": null,
+      "context": "MOD and Asian Crips were involved in a turf war in Milwaukee from 2004-2009.",
       "time_period": "2004-2009"
+    },
+    {
+      "source": "Menace of Destruction",
+      "target": "Hmong Nation Society",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Menace of Destruction",
+      "target": "Junior Criminal Crips",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Menace of Destruction",
+      "target": "Fresno Bulldogs",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Menace of Destruction",
+      "target": "Oroville Mono Boys",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Listed as a rival in the infobox.",
+      "time_period": null
     }
   ],
   "source_file": "Menace_of_Destruction"

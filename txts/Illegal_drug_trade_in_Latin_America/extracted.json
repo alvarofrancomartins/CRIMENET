@@ -5,17 +5,17 @@
       "original_text_name": "Juárez Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel, part of one faction in the Mexican cartel alignment.",
+      "context": "Mexican drug cartel aligned with Los Zetas and Beltrán-Leyva Cartel.",
       "time_period": "1990s-present"
     },
     {
       "standard_name": "Tijuana Cartel",
       "original_text_name": "Tijuana Cartel",
       "aliases": [
-        "Arellano Félix Organization"
+        "Arellano-Félix Cartel"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel, part of one faction in the Mexican cartel alignment.",
+      "context": "Mexican drug cartel aligned with Juárez Cartel and Los Zetas.",
       "time_period": "1980s-present"
     },
     {
@@ -23,7 +23,7 @@
       "original_text_name": "Los Zetas",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel, part of one faction in the Mexican cartel alignment.",
+      "context": "Mexican drug cartel originally formed by former military; aligned with Juárez and Beltrán-Leyva.",
       "time_period": "1999-present"
     },
     {
@@ -33,49 +33,49 @@
         "Beltran-Leyva Organization"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel, part of one faction in the Mexican cartel alignment.",
-      "time_period": "2008-present"
+      "context": "Mexican drug cartel aligned with Juárez, Tijuana, and Los Zetas.",
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "Gulf Cartel",
       "original_text_name": "Gulf Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel, part of the other faction in the Mexican cartel alignment.",
-      "time_period": "1930s-present"
+      "context": "Mexican drug cartel aligned with Sinaloa and La Familia.",
+      "time_period": "1970s-present"
     },
     {
       "standard_name": "Sinaloa Cartel",
       "original_text_name": "Sinaloa Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel, part of the other faction in the Mexican cartel alignment.",
+      "context": "Mexican drug cartel considered one of the most powerful; aligned with Gulf and La Familia.",
       "time_period": "1980s-present"
     },
     {
-      "standard_name": "La Familia Michoacana",
+      "standard_name": "La Familia Cartel",
       "original_text_name": "La Familia Cartel",
       "aliases": [
         "La Familia Michoacana"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel, part of the other faction in the Mexican cartel alignment.",
-      "time_period": "2006-2011"
+      "context": "Mexican drug cartel aligned with Gulf and Sinaloa.",
+      "time_period": "2000s-2010s"
     },
     {
       "standard_name": "Cali Cartel",
       "original_text_name": "Cali cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel that dominated in the late 1980s and early 1990s.",
-      "time_period": "1970s-1995"
+      "context": "Colombian drug cartel dominant in late 1980s and early 1990s.",
+      "time_period": "1970s-1990s"
     },
     {
       "standard_name": "Medellín Cartel",
       "original_text_name": "Medellín cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel that dominated in the late 1980s and early 1990s.",
+      "context": "Colombian drug cartel dominant in late 1980s and early 1990s.",
       "time_period": "1970s-1993"
     },
     {
@@ -83,37 +83,37 @@
       "original_text_name": "Norte del Valle cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel that filled the vacuum after Cali and Medellín.",
-      "time_period": "1990s-2008"
+      "context": "Colombian drug cartel that filled vacuum after Cali and Medellín.",
+      "time_period": "1990s-2000s"
     },
     {
       "standard_name": "United Self-Defense Forces of Colombia",
-      "original_text_name": "United Self-Defense Forces of Colombia (AUC)",
+      "original_text_name": "United Self-Defense Forces of Colombia",
       "aliases": [
         "AUC"
       ],
       "type": "militia",
-      "context": "Rightwing paramilitary group involved in drug trafficking in Colombia.",
+      "context": "Rightwing paramilitary group involved in drug trafficking; controls over 75% of Colombian cocaine trade.",
       "time_period": "1997-2006"
     },
     {
-      "standard_name": "Revolutionary Armed Forces of Colombia",
+      "standard_name": "FARC",
       "original_text_name": "FARC",
       "aliases": [
-        "FARC"
+        "Revolutionary Armed Forces of Colombia"
       ],
-      "type": "militia",
-      "context": "Leftwing insurgent group involved in drug trafficking in Colombia.",
+      "type": "terrorist_organization",
+      "context": "Leftwing insurgent group involved in drug trafficking.",
       "time_period": "1964-2017"
     },
     {
-      "standard_name": "National Liberation Army",
+      "standard_name": "ELN",
       "original_text_name": "ELN",
       "aliases": [
-        "ELN"
+        "National Liberation Army"
       ],
-      "type": "militia",
-      "context": "Leftwing insurgent group involved in drug trafficking in Colombia.",
+      "type": "terrorist_organization",
+      "context": "Leftwing insurgent group involved in drug trafficking.",
       "time_period": "1964-present"
     },
     {
@@ -123,7 +123,7 @@
         "CJNG"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel considered a major threat by the DEA.",
+      "context": "Mexican drug cartel considered a major threat by DEA.",
       "time_period": "2009-present"
     },
     {
@@ -131,7 +131,7 @@
       "original_text_name": "Guadalajara Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug-trafficking network in the early 1980s, protected by DFS.",
+      "context": "Mexican drug cartel that prospered in early 1980s with DFS protection.",
       "time_period": "1970s-1989"
     }
   ],
@@ -141,7 +141,7 @@
       "target": "Tijuana Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the same faction in the Mexican cartel alignment since February 2010.",
+      "context": "Aligned in one faction since February 2010.",
       "time_period": "2010-present"
     },
     {
@@ -149,7 +149,7 @@
       "target": "Los Zetas",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the same faction in the Mexican cartel alignment since February 2010.",
+      "context": "Aligned in one faction since February 2010.",
       "time_period": "2010-present"
     },
     {
@@ -157,7 +157,7 @@
       "target": "Beltrán-Leyva Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the same faction in the Mexican cartel alignment since February 2010.",
+      "context": "Aligned in one faction since February 2010.",
       "time_period": "2010-present"
     },
     {
@@ -165,7 +165,7 @@
       "target": "Los Zetas",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the same faction in the Mexican cartel alignment since February 2010.",
+      "context": "Aligned in same faction since February 2010.",
       "time_period": "2010-present"
     },
     {
@@ -173,7 +173,7 @@
       "target": "Beltrán-Leyva Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the same faction in the Mexican cartel alignment since February 2010.",
+      "context": "Aligned in same faction since February 2010.",
       "time_period": "2010-present"
     },
     {
@@ -181,7 +181,7 @@
       "target": "Beltrán-Leyva Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the same faction in the Mexican cartel alignment since February 2010.",
+      "context": "Aligned in same faction since February 2010.",
       "time_period": "2010-present"
     },
     {
@@ -189,56 +189,56 @@
       "target": "Sinaloa Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the other faction in the Mexican cartel alignment since February 2010.",
+      "context": "Aligned in one faction since February 2010.",
       "time_period": "2010-present"
     },
     {
       "source": "Gulf Cartel",
-      "target": "La Familia Michoacana",
+      "target": "La Familia Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the other faction in the Mexican cartel alignment since February 2010.",
-      "time_period": "2010-2011"
+      "context": "Aligned in one faction since February 2010.",
+      "time_period": "2010-present"
     },
     {
       "source": "Sinaloa Cartel",
-      "target": "La Familia Michoacana",
+      "target": "La Familia Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are part of the other faction in the Mexican cartel alignment since February 2010.",
-      "time_period": "2010-2011"
+      "context": "Aligned in one faction since February 2010.",
+      "time_period": "2010-present"
     },
     {
       "source": "United Self-Defense Forces of Colombia",
       "target": "Norte del Valle Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Rightwing paramilitaries like AUC filled the vacuum alongside the Norte del Valle cartel.",
-      "time_period": "1990s-2006"
+      "context": "Rightwing paramilitaries filled vacuum alongside Norte del Valle after Cali and Medellín.",
+      "time_period": "1990s-2000s"
     },
     {
-      "source": "Revolutionary Armed Forces of Colombia",
+      "source": "FARC",
       "target": "Norte del Valle Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Leftwing insurgent groups like FARC filled the vacuum alongside the Norte del Valle cartel.",
-      "time_period": "1990s-2008"
+      "context": "Leftwing insurgents involved in drug trafficking alongside Norte del Valle.",
+      "time_period": "1990s-2000s"
     },
     {
-      "source": "National Liberation Army",
+      "source": "ELN",
       "target": "Norte del Valle Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Leftwing insurgent groups like ELN filled the vacuum alongside the Norte del Valle cartel.",
-      "time_period": "1990s-2008"
+      "context": "Leftwing insurgents involved in drug trafficking alongside Norte del Valle.",
+      "time_period": "1990s-2000s"
     },
     {
-      "source": "Sinaloa Cartel",
-      "target": "Guadalajara Cartel",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "Sinaloa Cartel is considered a successor to the Guadalajara Cartel.",
-      "time_period": "1980s-present"
+      "source": "Guadalajara Cartel",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sinaloa Cartel evolved from Guadalajara Cartel; Guadalajara was predecessor.",
+      "time_period": "1980s"
     }
   ],
   "source_file": "Illegal_drug_trade_in_Latin_America"

@@ -13,7 +13,7 @@
         "FK"
       ],
       "type": "gang",
-      "context": "Mexican-American street gang based in Costa Mesa, California, involved in drug trafficking, extortion, and violent crime.",
+      "context": "Criminal street gang based in Costa Mesa, California, involved in drug trafficking, extortion, and violent crime.",
       "time_period": "1990s-present"
     },
     {
@@ -32,7 +32,7 @@
       ],
       "type": "gang",
       "context": "Prison gang and organized crime syndicate operating in the United States, particularly in California.",
-      "time_period": "1950s-present"
+      "time_period": null
     },
     {
       "standard_name": "East Side Forming Kaos",
@@ -42,7 +42,7 @@
       ],
       "type": "gang",
       "context": "Former chapter of Forming Kaos on the east side of Costa Mesa, later absorbed by the West Side group.",
-      "time_period": "mid-1990s-1999"
+      "time_period": "mid-1990s-2000"
     },
     {
       "standard_name": "West Side Forming Kaos",
@@ -51,7 +51,7 @@
         "West Side FK"
       ],
       "type": "gang",
-      "context": "Dominant chapter of Forming Kaos on the west side of Costa Mesa, which absorbed the East Side chapter.",
+      "context": "Original Forming Kaos group on the west side of Costa Mesa, which absorbed East Side FK and became the main gang.",
       "time_period": "1990s-present"
     },
     {
@@ -59,7 +59,7 @@
       "original_text_name": "4MK",
       "aliases": [],
       "type": "gang",
-      "context": "Early clique of Forming Kaos, active during the group's pre-gang phase.",
+      "context": "Early clique of Forming Kaos, active during the pre-gang phase, acronym for 'Forming Kaos'.",
       "time_period": "early 1990s-mid 1990s"
     },
     {
@@ -93,7 +93,7 @@
       "target": "Sureños",
       "relationship": "alliance",
       "detail": null,
-      "context": "Forming Kaos is affiliated with the Sureños, a Southern California gang alliance.",
+      "context": "Forming Kaos is affiliated with the Sureños.",
       "time_period": null
     },
     {
@@ -105,42 +105,42 @@
       "time_period": null
     },
     {
-      "source": "West Side Forming Kaos",
-      "target": "East Side Forming Kaos",
-      "relationship": "other",
-      "detail": "absorbed",
-      "context": "West Side Forming Kaos forcibly absorbed East Side FK between 1999 and 2000.",
+      "source": "East Side Forming Kaos",
+      "target": "West Side Forming Kaos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "East Side FK was forcibly absorbed by West Side FK between 1999 and 2000, consolidating into the West Side Forming Kaos Gang.",
       "time_period": "1999-2000"
     },
     {
       "source": "4MK",
       "target": "Forming Kaos",
-      "relationship": "other",
-      "detail": "predecessor clique",
+      "relationship": "alliance",
+      "detail": null,
       "context": "4MK was an early clique of Forming Kaos, active before FK evolved into a street gang.",
       "time_period": "early 1990s-mid 1990s"
     },
     {
       "source": "Los Originales",
       "target": "Forming Kaos",
-      "relationship": "other",
-      "detail": "clique",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Los Originales is a clique of Forming Kaos comprising founding members.",
       "time_period": null
     },
     {
       "source": "Devil's Click",
       "target": "Forming Kaos",
-      "relationship": "other",
-      "detail": "clique",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Devil's Click is a clique of Forming Kaos.",
       "time_period": null
     },
     {
       "source": "Los Desmadrosos",
       "target": "Forming Kaos",
-      "relationship": "other",
-      "detail": "clique",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Los Desmadrosos is a clique of Forming Kaos.",
       "time_period": null
     }

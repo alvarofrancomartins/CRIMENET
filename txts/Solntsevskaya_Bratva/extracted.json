@@ -6,10 +6,11 @@
       "aliases": [
         "Solntsevskaya Organized Crime Group",
         "Solntsevskaya Brotherhood",
-        "Solntsevskaya gang"
+        "Solntsevskaya gang",
+        "Solntsevo gang"
       ],
       "type": "mafia",
-      "context": "Russian crime syndicate based in Moscow, involved in racketeering, drug trafficking, money laundering.",
+      "context": "Russian crime syndicate based in Moscow, involved in racketeering, drug trafficking, money laundering, and other crimes.",
       "time_period": "late 1980s-present"
     },
     {
@@ -29,19 +30,19 @@
       "time_period": "1990s"
     },
     {
-      "standard_name": "Cuntrera-Caruana Mafia clan",
-      "original_text_name": "Cuntrera-Caruana Mafia clan",
-      "aliases": [],
-      "type": "clan",
-      "context": "Sicilian Mafia clan that brokered links between Solntsevskaya and Colombian cartels.",
-      "time_period": null
-    },
-    {
       "standard_name": "Doktor's Bratva",
       "original_text_name": "Doktor's Bratvavor",
       "aliases": [],
-      "type": "faction",
-      "context": "Subdivision of Solntsevskaya Bratva, independently operated, allied with main group.",
+      "type": "mafia",
+      "context": "Subdivision of Solntsevskaya Bratva, independently operated by Doktor Spatz in upstate New York.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Cuntrera-Caruana Mafia clan",
+      "original_text_name": "Cuntrera-Caruana Mafia clan",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Sicilian Mafia clan that brokered links between Solntsevskaya and Colombian drug cartels.",
       "time_period": null
     },
     {
@@ -49,15 +50,7 @@
       "original_text_name": "Colombian drug cartels",
       "aliases": [],
       "type": "cartel",
-      "context": "International cocaine trade partners with Solntsevskaya via Cuntrera-Caruana.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Mexican drug cartels",
-      "original_text_name": "Mexican drug cartels",
-      "aliases": [],
-      "type": "cartel",
-      "context": "Rival groups in Atlanta, outgunned by Solntsevskaya.",
+      "context": "Colombian cartels involved in cocaine trade with Solntsevskaya.",
       "time_period": null
     },
     {
@@ -65,7 +58,7 @@
       "original_text_name": "Bulgarian mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Ally of Solntsevskaya Bratva.",
+      "context": "Allied with Solntsevskaya Bratva.",
       "time_period": null
     },
     {
@@ -73,7 +66,7 @@
       "original_text_name": "Serbian mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Ally of Solntsevskaya Bratva.",
+      "context": "Allied with Solntsevskaya Bratva.",
       "time_period": null
     },
     {
@@ -81,7 +74,7 @@
       "original_text_name": "Chinese Triads",
       "aliases": [],
       "type": "triad",
-      "context": "Business partner of Solntsevskaya Bratva.",
+      "context": "Business partners with Solntsevskaya Bratva.",
       "time_period": null
     },
     {
@@ -89,7 +82,7 @@
       "original_text_name": "Sicilian Mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Business partner of Solntsevskaya Bratva.",
+      "context": "Business partners with Solntsevskaya Bratva.",
       "time_period": null
     },
     {
@@ -97,7 +90,7 @@
       "original_text_name": "Camorra",
       "aliases": [],
       "type": "clan",
-      "context": "Business partner of Solntsevskaya Bratva.",
+      "context": "Business partners with Solntsevskaya Bratva.",
       "time_period": null
     },
     {
@@ -105,41 +98,41 @@
       "original_text_name": "'Ndrangheta",
       "aliases": [],
       "type": "mafia",
-      "context": "Business partner of Solntsevskaya Bratva.",
+      "context": "Business partners with Solntsevskaya Bratva.",
       "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Solntsevskaya Bratva",
-      "target": "Chechen mafia",
-      "relationship": "rivalry",
+      "target": "Orekhovskaya gang",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Solntsevskaya and other Slavic mobs allied to drive Chechen mafia out in early 1990s.",
+      "context": "Allied to drive Chechen mafia out of Moscow in early 1990s.",
       "time_period": "early 1990s"
     },
     {
       "source": "Solntsevskaya Bratva",
-      "target": "Orekhovskaya gang",
+      "target": "Chechen mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Chechen mafia challenged Solntsevskaya dominance, leading to gang war.",
+      "time_period": "early 1990s"
+    },
+    {
+      "source": "Doktor's Bratva",
+      "target": "Solntsevskaya Bratva",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied with Orekhovskaya and other Slavic mobs against Chechen mafia.",
-      "time_period": "early 1990s"
+      "context": "Doktor's Bratva is a subdivision of Solntsevskaya Bratva, with an alliance after a dispute.",
+      "time_period": null
     },
     {
       "source": "Solntsevskaya Bratva",
       "target": "Cuntrera-Caruana Mafia clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Cuntrera-Caruana brokered links between Solntsevskaya and Colombian cartels.",
-      "time_period": null
-    },
-    {
-      "source": "Solntsevskaya Bratva",
-      "target": "Doktor's Bratva",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Doktor's Bratva is a subdivision of Solntsevskaya, operates independently but allied.",
+      "context": "Cuntrera-Caruana clan brokered links between Solntsevskaya and Colombian cartels.",
       "time_period": null
     },
     {
@@ -147,15 +140,7 @@
       "target": "Colombian drug cartels",
       "relationship": "alliance",
       "detail": null,
-      "context": "Solntsevskaya involved in cocaine trade with Colombian cartels via Cuntrera-Caruana.",
-      "time_period": null
-    },
-    {
-      "source": "Solntsevskaya Bratva",
-      "target": "Mexican drug cartels",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Solntsevskaya outgunned Mexican cartels in Atlanta.",
+      "context": "Solntsevskaya involved in cocaine trade with Colombian cartels.",
       "time_period": null
     },
     {
@@ -163,7 +148,7 @@
       "target": "Bulgarian mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as ally in infobox.",
+      "context": "Allied with Bulgarian mafia.",
       "time_period": null
     },
     {
@@ -171,7 +156,7 @@
       "target": "Serbian mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as ally in infobox.",
+      "context": "Allied with Serbian mafia.",
       "time_period": null
     },
     {
@@ -179,7 +164,7 @@
       "target": "Chinese Triads",
       "relationship": "alliance",
       "detail": null,
-      "context": "Business partnership listed in infobox.",
+      "context": "Business partnerships with Chinese Triads.",
       "time_period": null
     },
     {
@@ -187,7 +172,7 @@
       "target": "Sicilian Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Business partnership listed in infobox.",
+      "context": "Business partnerships with Sicilian Mafia.",
       "time_period": null
     },
     {
@@ -195,7 +180,7 @@
       "target": "Camorra",
       "relationship": "alliance",
       "detail": null,
-      "context": "Business partnership listed in infobox.",
+      "context": "Business partnerships with Camorra.",
       "time_period": null
     },
     {
@@ -203,7 +188,7 @@
       "target": "'Ndrangheta",
       "relationship": "alliance",
       "detail": null,
-      "context": "Business partnership listed in infobox.",
+      "context": "Business partnerships with 'Ndrangheta.",
       "time_period": null
     }
   ],

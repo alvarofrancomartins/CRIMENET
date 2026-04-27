@@ -5,7 +5,7 @@
       "original_text_name": "Clan Lago",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan operating in Pianura, Naples, involved in cement, construction, extortion, drugs, and murders.",
+      "context": "Camorra clan operating in Pianura, western Naples, involved in cement, construction, extortion, drugs, and murders.",
       "time_period": "1980s-2014"
     },
     {
@@ -13,7 +13,7 @@
       "original_text_name": "Clan Contino",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan that split from Clan Lago in 1991, involved in extortion and drug trafficking in Pianura.",
+      "context": "Camorra clan that split from Clan Lago in 1991, fought for control of extortion and drug trafficking in Pianura.",
       "time_period": "1991-1998"
     },
     {
@@ -21,31 +21,15 @@
       "original_text_name": "Clan Marfella",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan allied with Clan Contino, fought Clan Lago for control of drug and extortion rackets in Pianura.",
+      "context": "Camorra clan allied with Clan Contino, fought Clan Lago for control of Pianura; led by Giuseppe Marfella.",
       "time_period": "1998-1999"
-    },
-    {
-      "standard_name": "Alleanza di Secondigliano",
-      "original_text_name": "Alleanza di Secondigliano",
-      "aliases": [],
-      "type": "clan",
-      "context": "Camorra alliance that supported Clan Marfella against Clan Lago.",
-      "time_period": "1990s"
-    },
-    {
-      "standard_name": "Clan Sarno",
-      "original_text_name": "Clan Sarno",
-      "aliases": [],
-      "type": "clan",
-      "context": "Camorra clan from Ponticelli, whose scissionists supported Clan Marfella.",
-      "time_period": "1990s"
     },
     {
       "standard_name": "Nuova Famiglia",
       "original_text_name": "Nuova Famiglia",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra coalition opposed to the Nuova Camorra Organizzata, active in the 1980s.",
+      "context": "Camorra coalition opposing the Nuova Camorra Organizzata; active in the 1980s.",
       "time_period": "1980s"
     },
     {
@@ -53,8 +37,24 @@
       "original_text_name": "Casalesi",
       "aliases": [],
       "type": "clan",
-      "context": "Powerful Camorra clan from Casal di Principe, led by Antonio Bardellino.",
+      "context": "Powerful Camorra clan from Casal di Principe; led by Antonio Bardellino.",
       "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Alleanza di Secondigliano",
+      "original_text_name": "Alleanza di Secondigliano",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra alliance based in Secondigliano, Naples; supported Clan Marfella against Clan Lago.",
+      "time_period": "1990s-2000s"
+    },
+    {
+      "standard_name": "Clan Sarno",
+      "original_text_name": "Clan Sarno",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan from Ponticelli, Naples; its scissionisti (splinter faction) supported Clan Marfella.",
+      "time_period": "1990s-2000s"
     }
   ],
   "edges": [
@@ -63,7 +63,7 @@
       "target": "Clan Contino",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Clan Contino split from Clan Lago in 1991, leading to a violent war over extortion and drug turf.",
+      "context": "Violent war from 1991 for control of extortion and drug trafficking in Pianura.",
       "time_period": "1991-1998"
     },
     {
@@ -71,7 +71,7 @@
       "target": "Clan Marfella",
       "relationship": "rivalry",
       "detail": null,
-      "context": "After Clan Contino's arrest, Clan Lago fought Clan Marfella for control of Pianura, with attacks including a bazooka strike.",
+      "context": "Violent conflict after Clan Contino's arrest; included bazooka attack and multiple murders.",
       "time_period": "1998-1999"
     },
     {
@@ -80,7 +80,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Clan Marfella was allied with Clan Contino against Clan Lago.",
-      "time_period": "1998"
+      "time_period": "1998-1999"
     },
     {
       "source": "Clan Marfella",
@@ -95,24 +95,24 @@
       "target": "Clan Sarno",
       "relationship": "alliance",
       "detail": null,
-      "context": "Scissionists from Clan Sarno supported Clan Marfella against Clan Lago.",
+      "context": "Scissionisti (splinter faction) of Clan Sarno supported Clan Marfella.",
       "time_period": "1998-1999"
     },
     {
       "source": "Pietro Lago",
       "target": "Casalesi",
-      "relationship": "other",
-      "detail": "lieutenant",
-      "context": "Pietro Lago was a lieutenant of Casalesi boss Antonio Bardellino for Pianura and Soccavo.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Pietro Lago was a lieutenant of Casalesi boss Antonio Bardellino.",
       "time_period": "1980s"
     },
     {
-      "source": "Clan Lago",
+      "source": "Casalesi",
       "target": "Nuova Famiglia",
-      "relationship": "other",
-      "detail": "member",
-      "context": "Clan Lago was involved in the 1983 maxi-inquiry against Nuova Famiglia.",
-      "time_period": "1983"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Casalesi were part of the Nuova Famiglia coalition.",
+      "time_period": "1980s"
     }
   ],
   "source_file": "Clan_Lago"

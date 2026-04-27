@@ -11,36 +11,44 @@
       "time_period": "1967-1997"
     },
     {
-      "standard_name": "Hells Angels",
-      "original_text_name": "Hells Angels",
+      "standard_name": "Grim Reapers Motorcycle Club (United States)",
+      "original_text_name": "US-based motorcycle club of the same name",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "International outlaw motorcycle club that absorbed the Grim Reapers in 1997.",
-      "time_period": "founded 1948"
+      "context": "US-based club founded in 1965 in Louisville, Kentucky, apparently independent of the Canadian club.",
+      "time_period": "1965-present"
     },
     {
       "standard_name": "Rebels Motorcycle Club",
       "original_text_name": "Rebels",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Dominant outlaw motorcycle club in Alberta prior to 1997.",
-      "time_period": null
+      "context": "One of four dominant outlaw motorcycle clubs in Alberta prior to 1997.",
+      "time_period": "unknown"
     },
     {
       "standard_name": "Warlords Motorcycle Club",
       "original_text_name": "Warlords",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Dominant outlaw motorcycle club in Alberta prior to 1997.",
-      "time_period": null
+      "context": "One of four dominant outlaw motorcycle clubs in Alberta prior to 1997.",
+      "time_period": "unknown"
     },
     {
-      "standard_name": "King's Crew",
+      "standard_name": "King's Crew Motorcycle Club",
       "original_text_name": "King's Crew",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Dominant outlaw motorcycle club in Alberta prior to 1997.",
-      "time_period": null
+      "context": "One of four dominant outlaw motorcycle clubs in Alberta prior to 1997.",
+      "time_period": "unknown"
+    },
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "type": "motorcycle_club",
+      "context": "International outlaw motorcycle club; the Grim Reapers patched over to become part of Hells Angels in 1997.",
+      "time_period": "1948-present"
     },
     {
       "standard_name": "Outcasts Motorcycle Club",
@@ -48,49 +56,33 @@
       "aliases": [],
       "type": "motorcycle_club",
       "context": "Motorcycle club whose president Ronald Hartley was murdered by Grim Reapers members in 1970.",
-      "time_period": null
+      "time_period": "unknown"
     },
     {
-      "standard_name": "Rock Machine",
+      "standard_name": "Rock Machine Motorcycle Club",
       "original_text_name": "Rock Machine",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club involved in violence with Hells Angels in eastern Canada in 1990s.",
-      "time_period": "1980s-2000s"
+      "context": "Outlaw motorcycle club involved in escalating violence in eastern Canada with Hells Angels in 1990s.",
+      "time_period": "1980s-2001"
     }
   ],
   "edges": [
     {
       "source": "Grim Reapers Motorcycle Club (Canada)",
-      "target": "Hells Angels",
+      "target": "Grim Reapers Motorcycle Club (United States)",
+      "relationship": "other",
+      "detail": "independent",
+      "context": "The Canadian club was apparently independent of the US club of the same name.",
+      "time_period": null
+    },
+    {
+      "source": "Grim Reapers Motorcycle Club (Canada)",
+      "target": "Hells Angels Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
       "context": "In 1997, the Grim Reapers became part of the Hells Angels in a patch-over ceremony.",
       "time_period": "1997"
-    },
-    {
-      "source": "Grim Reapers Motorcycle Club (Canada)",
-      "target": "Rebels Motorcycle Club",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "The Rebels were one of the dominant clubs in Alberta and rivals of the Grim Reapers.",
-      "time_period": "prior to 1997"
-    },
-    {
-      "source": "Grim Reapers Motorcycle Club (Canada)",
-      "target": "Warlords Motorcycle Club",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "The Warlords were one of the dominant clubs in Alberta and rivals of the Grim Reapers.",
-      "time_period": "prior to 1997"
-    },
-    {
-      "source": "Grim Reapers Motorcycle Club (Canada)",
-      "target": "King's Crew",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "King's Crew was one of the dominant clubs in Alberta and rivals of the Grim Reapers.",
-      "time_period": "prior to 1997"
     },
     {
       "source": "Grim Reapers Motorcycle Club (Canada)",
@@ -101,11 +93,11 @@
       "time_period": "1970"
     },
     {
-      "source": "Rock Machine",
-      "target": "Hells Angels",
+      "source": "Rock Machine Motorcycle Club",
+      "target": "Hells Angels Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Violence between Rock Machine and Hells Angels in eastern Canada led to public outcry.",
+      "context": "Escalating violence between Rock Machine and Hells Angels' Quebec chapters led to Canadian anti-gang legislation.",
       "time_period": "1990s"
     }
   ],

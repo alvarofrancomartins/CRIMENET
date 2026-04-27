@@ -8,7 +8,7 @@
         "Black Seven"
       ],
       "type": "motorcycle_club",
-      "context": "German outlaw motorcycle club founded in 1972 in Mannheim, involved in organized crime including human trafficking, illegal prostitution, drug and weapons trafficking.",
+      "context": "German outlaw motorcycle club founded in 1972 in Mannheim, with chapters across Europe and Thailand.",
       "time_period": "1972-present"
     },
     {
@@ -16,7 +16,7 @@
       "original_text_name": "Bones MC",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Formerly Mannheim-based motorcycle club whose German chapters were patched over to Hells Angels in 1999.",
+      "context": "Formerly Mannheim-based motorcycle club whose German chapters patched over to Hells Angels in 1999.",
       "time_period": "before 1999"
     },
     {
@@ -26,7 +26,7 @@
         "Hells Angels"
       ],
       "type": "motorcycle_club",
-      "context": "International outlaw motorcycle club that patched over the German chapters of Bones MC in 1999.",
+      "context": "International outlaw motorcycle club that absorbed the German chapters of Bones MC in 1999.",
       "time_period": "1948-present"
     },
     {
@@ -34,8 +34,8 @@
       "original_text_name": "Bad 7 MC",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Support club for Gremium MC in Germany.",
-      "time_period": "unknown"
+      "context": "Support club for Gremium MC, described as an associate chapter.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -44,15 +44,15 @@
       "target": "Bad 7 MC",
       "relationship": "alliance",
       "detail": null,
-      "context": "Bad 7 MC is a support club for Gremium MC.",
+      "context": "Bad 7 MC is a support club and associate chapter of Gremium MC.",
       "time_period": null
     },
     {
       "source": "Bones MC",
       "target": "Hells Angels Motorcycle Club",
-      "relationship": "other",
-      "detail": "patchover",
-      "context": "German chapters of Bones MC were patched over to Hells Angels in 1999.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The German chapters of Bones MC patched over to Hells Angels in 1999.",
       "time_period": "1999"
     }
   ],

@@ -7,7 +7,7 @@
         "4CH"
       ],
       "type": "gang",
-      "context": "African American street gang founded in West Garfield Park, Chicago in the 1960s. Involved in drug trafficking, robbery, murder, and racketeering.",
+      "context": "African American street gang founded in West Garfield Park, Chicago in the 1960s. Known for violence and drug trafficking.",
       "time_period": "1960s-present"
     },
     {
@@ -22,7 +22,7 @@
       "standard_name": "People Nation",
       "original_text_name": "People Nation",
       "aliases": [],
-      "type": "gang",
+      "type": "other",
       "context": "Alliance of Chicago street gangs including Vice Lords, Four Corner Hustlers, Black P. Stones, and Latin Kings.",
       "time_period": null
     },
@@ -46,8 +46,8 @@
       "standard_name": "Folk Nation",
       "original_text_name": "Folk Nation",
       "aliases": [],
-      "type": "gang",
-      "context": "Rival alliance of Chicago street gangs opposing People Nation.",
+      "type": "other",
+      "context": "Rival alliance of Chicago street gangs, including Gangster Disciples.",
       "time_period": null
     },
     {
@@ -77,6 +77,14 @@
       "time_period": null
     },
     {
+      "source": "Vice Lords",
+      "target": "People Nation",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Vice Lords are a founding member of People Nation.",
+      "time_period": null
+    },
+    {
       "source": "Four Corner Hustlers",
       "target": "Black P. Stones",
       "relationship": "alliance",
@@ -97,7 +105,7 @@
       "target": "Folk Nation",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Folk Nation is a rival alliance opposing Four Corner Hustlers and People Nation.",
+      "context": "Four Corner Hustlers are rivals of the Folk Nation alliance.",
       "time_period": null
     },
     {
@@ -105,7 +113,7 @@
       "target": "Gangster Disciples",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Gangster Disciples are rivals of Four Corner Hustlers, part of Folk Nation.",
+      "context": "Gangster Disciples are rivals of Four Corner Hustlers as part of Folk Nation.",
       "time_period": null
     }
   ],

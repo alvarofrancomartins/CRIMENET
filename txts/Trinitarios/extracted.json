@@ -4,18 +4,29 @@
       "standard_name": "Trinitarios",
       "original_text_name": "Trinitarios",
       "aliases": [
-        "Bronx Trinitarios Gang (BTG)"
+        "Bronx Trinitarios Gang",
+        "BTG"
       ],
       "type": "gang",
-      "context": "Dominican American street gang founded in 1993 on Rikers Island, involved in drug trafficking, murder, and racketeering.",
+      "context": "Dominican American street gang founded in 1993 on Rikers Island, New York City. Engages in drug trafficking, murder, assault, and extortion.",
       "time_period": "1993-present"
+    },
+    {
+      "standard_name": "Gangster Disciples",
+      "original_text_name": "Gangster Disciples",
+      "aliases": [],
+      "type": "gang",
+      "context": "Rival gang to Trinitarios, involved in a feud resulting in multiple shootings in Massachusetts.",
+      "time_period": null
     },
     {
       "standard_name": "MS-13",
       "original_text_name": "MS-13",
-      "aliases": [],
+      "aliases": [
+        "Mara Salvatrucha"
+      ],
       "type": "gang",
-      "context": "Salvadoran street gang mentioned as a rival of Trinitarios in Spain.",
+      "context": "Rival gang; a Trinitarios member was branded for associating with MS-13.",
       "time_period": null
     },
     {
@@ -23,15 +34,7 @@
       "original_text_name": "Ñetas",
       "aliases": [],
       "type": "gang",
-      "context": "Puerto Rican street gang involved in a brawl with Trinitarios in Madrid in 2014.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Gangster Disciples",
-      "original_text_name": "Gangster Disciples",
-      "aliases": [],
-      "type": "gang",
-      "context": "Rival gang to Trinitarios in Massachusetts, involved in a feud resulting in shootings.",
+      "context": "Rival gang involved in a brawl with Trinitarios in Madrid in 2014.",
       "time_period": null
     },
     {
@@ -39,7 +42,7 @@
       "original_text_name": "Crips",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang listed in the infobox.",
+      "context": "Listed as a rival in the infobox.",
       "time_period": null
     },
     {
@@ -47,7 +50,7 @@
       "original_text_name": "Dominicans Don't Play",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang listed in the infobox.",
+      "context": "Listed as a rival in the infobox.",
       "time_period": null
     },
     {
@@ -55,17 +58,25 @@
       "original_text_name": "Tiny Rascal Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang listed in the infobox.",
+      "context": "Listed as a rival in the infobox.",
       "time_period": null
     }
   ],
   "edges": [
     {
       "source": "Trinitarios",
+      "target": "Gangster Disciples",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Ongoing feud resulting in multiple shootings and a murder in Massachusetts.",
+      "time_period": "2018-present"
+    },
+    {
+      "source": "Trinitarios",
       "target": "MS-13",
       "relationship": "rivalry",
       "detail": null,
-      "context": "A Trinitarios member was branded with an 'X' for associating with MS-13.",
+      "context": "A Trinitarios member was branded for associating with MS-13.",
       "time_period": "2012"
     },
     {
@@ -73,16 +84,8 @@
       "target": "Ñetas",
       "relationship": "rivalry",
       "detail": null,
-      "context": "A brawl occurred in Madrid involving Trinitarios and Ñetas in 2014.",
+      "context": "Brawl in Madrid in 2014 leading to arrests.",
       "time_period": "2014"
-    },
-    {
-      "source": "Trinitarios",
-      "target": "Gangster Disciples",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Ongoing feud between Trinitarios and Gangster Disciples in Massachusetts resulted in multiple shootings.",
-      "time_period": "2018"
     },
     {
       "source": "Trinitarios",

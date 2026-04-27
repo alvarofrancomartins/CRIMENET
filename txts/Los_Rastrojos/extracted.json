@@ -31,31 +31,30 @@
       "standard_name": "Los Machos",
       "original_text_name": "Machos",
       "aliases": [],
-      "type": "gang",
-      "context": "Private army of Diego Montoya, rival to Wilber Varela's faction.",
+      "type": "cartel",
+      "context": "Private army of Diego Montoya, rival to Wilber Varela within the Norte del Valle Cartel.",
       "time_period": "2000s"
     },
     {
-      "standard_name": "FARC-EP",
+      "standard_name": "FARC",
       "original_text_name": "FARC-EP",
       "aliases": [
         "Fuerzas Armadas Revolucionarias de Colombia",
-        "Revolutionary Armed Forces of Colombia",
-        "FARC"
+        "Revolutionary Armed Forces of Colombia"
       ],
       "type": "militia",
-      "context": "Colombian left-wing guerrilla group involved in drug trafficking and armed conflict.",
+      "context": "Colombian left-wing guerrilla group; had alliances and conflicts with Los Rastrojos.",
       "time_period": "1964-2017"
     },
     {
-      "standard_name": "National Liberation Army",
-      "original_text_name": "National Liberation Army (ELN)",
+      "standard_name": "ELN",
+      "original_text_name": "ELN",
       "aliases": [
         "Ejército de Liberación Nacional",
-        "ELN"
+        "National Liberation Army"
       ],
       "type": "militia",
-      "context": "Colombian left-wing guerrilla group involved in drug trafficking and armed conflict.",
+      "context": "Colombian left-wing guerrilla group; had alliances and later conflict with Los Rastrojos.",
       "time_period": "1964-present"
     },
     {
@@ -71,15 +70,15 @@
       "original_text_name": "Sinaloa Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel that partners with Los Rastrojos for drug trafficking.",
-      "time_period": "1990s-present"
+      "context": "Mexican drug cartel; ally of Los Rastrojos.",
+      "time_period": "1980s-present"
     },
     {
       "standard_name": "The Office of Envigado",
       "original_text_name": "The Office of Envigado",
       "aliases": [],
       "type": "other",
-      "context": "Colombian criminal organization involved in drug trafficking and contract killings.",
+      "context": "Colombian criminal organization involved in drug trafficking and contract killings; ally of Los Rastrojos.",
       "time_period": "1990s-present"
     },
     {
@@ -87,7 +86,7 @@
       "original_text_name": "Clan del Golfo",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel and paramilitary group, rival to Los Rastrojos.",
+      "context": "Colombian drug cartel and paramilitary group; rival of Los Rastrojos.",
       "time_period": "2000s-present"
     }
   ],
@@ -95,17 +94,17 @@
     {
       "source": "Los Rastrojos",
       "target": "Norte del Valle Cartel",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "Los Rastrojos formed from the Norte del Valle cartel and are considered its heirs.",
-      "time_period": "2004-present"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Rastrojos were formed by Norte del Valle capos and are considered heirs or a successor group.",
+      "time_period": "2004-2012"
     },
     {
       "source": "Norte del Valle Cartel",
       "target": "Cali Cartel",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "Norte del Valle cartel is considered an heir of the Cali cartel.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Norte del Valle is considered an heir of the Cali Cartel.",
       "time_period": "1990s"
     },
     {
@@ -113,12 +112,12 @@
       "target": "Los Machos",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Los Rastrojos originated as the armed wing of Wilber Varela fighting Diego Montoya's Los Machos.",
+      "context": "Los Rastrojos were formed as the armed wing of Wilber Varela to fight Diego Montoya and his private army Los Machos.",
       "time_period": "2002-2004"
     },
     {
       "source": "Los Rastrojos",
-      "target": "FARC-EP",
+      "target": "FARC",
       "relationship": "alliance",
       "detail": null,
       "context": "Los Rastrojos had agreements with FARC for access to coca base.",
@@ -126,19 +125,19 @@
     },
     {
       "source": "Los Rastrojos",
-      "target": "National Liberation Army",
+      "target": "ELN",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Rastrojos had an alliance with ELN for drug transportation.",
-      "time_period": "until 2020"
+      "context": "Los Rastrojos had an agreement with ELN for several years in Cauca and Nariño.",
+      "time_period": "2009-2020"
     },
     {
       "source": "Los Rastrojos",
-      "target": "National Liberation Army",
+      "target": "ELN",
       "relationship": "rivalry",
       "detail": null,
-      "context": "By March 2020, Los Rastrojos were in armed conflict with ELN.",
-      "time_period": "2020"
+      "context": "By March 2020, Los Rastrojos were in direct armed conflict with ELN.",
+      "time_period": "2020-present"
     },
     {
       "source": "Los Rastrojos",
@@ -146,14 +145,14 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Los Rastrojos allied with Daniel Barrera's cartel for competitive advantage.",
-      "time_period": "until 2012"
+      "time_period": "2009-2012"
     },
     {
       "source": "Los Rastrojos",
       "target": "Sinaloa Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Rastrojos partner with Sinaloa Cartel for drug trafficking to the US.",
+      "context": "Los Rastrojos have strong partnerships with Mexican cartels including Sinaloa.",
       "time_period": "2000s-present"
     },
     {
@@ -161,16 +160,16 @@
       "target": "The Office of Envigado",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Rastrojos are allied with The Office of Envigado.",
-      "time_period": "unknown"
+      "context": "The Office of Envigado is listed as an ally of Los Rastrojos.",
+      "time_period": null
     },
     {
       "source": "Los Rastrojos",
       "target": "Clan del Golfo",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Los Rastrojos are rivals with Clan del Golfo.",
-      "time_period": "unknown"
+      "context": "Clan del Golfo is listed as a rival of Los Rastrojos.",
+      "time_period": null
     }
   ],
   "source_file": "Los_Rastrojos"

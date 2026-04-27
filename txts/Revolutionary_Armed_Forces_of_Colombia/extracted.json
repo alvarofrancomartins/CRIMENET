@@ -5,7 +5,6 @@
       "original_text_name": "Revolutionary Armed Forces of Colombia – People's Army",
       "aliases": [
         "FARC",
-        "FARC Guerilla Army",
         "FARC-EP",
         "FARC–EP",
         "Fuerzas Armadas Revolucionarias de Colombia",
@@ -20,7 +19,6 @@
       "standard_name": "National Liberation Army",
       "original_text_name": "ELN",
       "aliases": [
-        "ELN",
         "Ejército de Liberación Nacional"
       ],
       "type": "militia",
@@ -31,7 +29,6 @@
       "standard_name": "19th of April Movement",
       "original_text_name": "M-19",
       "aliases": [
-        "M-19",
         "Movimiento 19 de Abril"
       ],
       "type": "militia",
@@ -45,14 +42,34 @@
         "EMC"
       ],
       "type": "faction",
-      "context": "Dissident FARC faction that rejects the 2016 peace deal, continues drug trafficking.",
-      "time_period": "2017-present"
+      "context": "Dissident FARC faction that rejects the 2016 peace deal, continues armed activity.",
+      "time_period": "2016-present"
+    },
+    {
+      "standard_name": "Colombian Communist Party",
+      "original_text_name": "Colombian Communist Party",
+      "aliases": [
+        "PCC",
+        "Partido Comunista Colombiano"
+      ],
+      "type": "other",
+      "context": "Political party that helped establish FARC and peasant self-defense groups.",
+      "time_period": "1930-present"
+    },
+    {
+      "standard_name": "Patriotic Union",
+      "original_text_name": "Union Patriótica",
+      "aliases": [
+        "UP"
+      ],
+      "type": "other",
+      "context": "Leftist political party formed by FARC and other groups, targeted by paramilitaries.",
+      "time_period": "1985-present"
     },
     {
       "standard_name": "Popular Liberation Army",
       "original_text_name": "EPL",
       "aliases": [
-        "EPL",
         "Ejército Popular de Liberación"
       ],
       "type": "militia",
@@ -60,72 +77,90 @@
       "time_period": "1967-1991"
     },
     {
+      "standard_name": "Ernesto Rojas Command",
+      "original_text_name": "ERP",
+      "aliases": [
+        "Ejército Revolucionario del Pueblo"
+      ],
+      "type": "militia",
+      "context": "Colombian guerrilla group that demobilized in the early 1990s.",
+      "time_period": "1980s-1991"
+    },
+    {
+      "standard_name": "Quintín Lame Armed Movement",
+      "original_text_name": "Quintín Lame Armed Movement",
+      "aliases": [
+        "Movimiento Armado Quintín Lame"
+      ],
+      "type": "militia",
+      "context": "Indigenous guerrilla group in Colombia that demobilized in 1991.",
+      "time_period": "1984-1991"
+    },
+    {
       "standard_name": "Simón Bolívar Guerrilla Coordinating Board",
       "original_text_name": "Simón Bolívar Guerrilla Coordinating Board",
       "aliases": [
-        "Coordinating Board"
+        "CGSB",
+        "Coordinadora Guerrillera Simón Bolívar"
       ],
       "type": "other",
-      "context": "Coordination body of Colombian guerrilla groups including FARC, ELN, EPL, etc., active in early 1990s.",
+      "context": "Coordination body of Colombian guerrilla groups including FARC, ELN, EPL, and others, active in the early 1990s.",
       "time_period": "1987-1993"
     },
     {
       "standard_name": "Irish Republican Army",
       "original_text_name": "IRA",
       "aliases": [
-        "IRA"
+        "Provisional Irish Republican Army"
       ],
       "type": "militia",
-      "context": "Irish republican paramilitary group that trained FARC members in bomb-making.",
-      "time_period": "1919-present"
+      "context": "Irish republican paramilitary group that trained FARC members in bomb-making and received drug proceeds.",
+      "time_period": "1969-2005"
     },
     {
       "standard_name": "Norte del Valle Cartel",
       "original_text_name": "Norte del Valle Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel operating in Valle del Cauca region.",
+      "context": "Colombian drug cartel that operated in the Valle del Cauca region, involved in cocaine trafficking.",
       "time_period": "1990s-2000s"
     },
     {
       "standard_name": "Cali Cartel",
       "original_text_name": "Cali Cartel",
-      "aliases": [],
+      "aliases": [
+        "Cali Cartel"
+      ],
       "type": "cartel",
-      "context": "Colombian drug cartel based in Cali, active in the 1990s.",
-      "time_period": "1970s-1990s"
+      "context": "Colombian drug cartel based in Cali, major cocaine trafficker in the 1990s.",
+      "time_period": "1970s-1995"
     },
     {
       "standard_name": "United Self-Defense Forces of Colombia",
       "original_text_name": "AUC",
-      "aliases": [],
+      "aliases": [
+        "Autodefensas Unidas de Colombia"
+      ],
       "type": "militia",
-      "context": "Right-wing paramilitary group involved in Colombian conflict.",
+      "context": "Right-wing paramilitary group involved in the Colombian conflict, demobilized in the 2000s.",
       "time_period": "1997-2006"
     },
     {
       "standard_name": "M-19",
       "original_text_name": "M19",
       "aliases": [
-        "19th of April Movement",
         "Movimiento 19 de Abril"
       ],
       "type": "militia",
-      "context": "Former guerrilla group that demobilized; mentioned in context of peace process.",
+      "context": "Former guerrilla group that demobilized and became a political party; mentioned in context of peace process.",
       "time_period": "1970-1990"
-    },
-    {
-      "standard_name": "New Illegal Armed Groups",
-      "original_text_name": "New Illegal Armed Groups",
-      "aliases": [],
-      "type": "other",
-      "context": "Post-paramilitary armed groups that emerged after paramilitary demobilization.",
-      "time_period": "2000s-present"
     },
     {
       "standard_name": "Common Alternative Revolutionary Force",
       "original_text_name": "Common Alternative Revolutionary Force",
-      "aliases": [],
+      "aliases": [
+        "FARC party"
+      ],
       "type": "other",
       "context": "Political party formed by former FARC members after peace deal.",
       "time_period": "2017-present"
@@ -134,22 +169,21 @@
       "standard_name": "FARC dissidents",
       "original_text_name": "FARC dissidents",
       "aliases": [
-        "dissident 43rd Front",
-        "dissidents of FARC's 1st Front"
+        "FARC dissident groups"
       ],
       "type": "faction",
       "context": "Splinter groups of FARC that continued armed actions after peace deal.",
-      "time_period": "2017-present"
+      "time_period": "2016-present"
     },
     {
-      "standard_name": "Fernandinho Beira-Mar's Organization",
+      "standard_name": "Fernandinho Beira-Mar",
       "original_text_name": "Fernandinho Beira-Mar",
       "aliases": [
-        "Luiz Fernando da Costa's organization"
+        "Luiz Fernando da Costa"
       ],
-      "type": "cartel",
-      "context": "Brazilian drug trafficking organization led by Fernandinho Beira-Mar.",
-      "time_period": "1990s-2000s"
+      "type": "other",
+      "context": "Brazilian drug lord who cooperated with FARC, exchanging weapons for cocaine.",
+      "time_period": "1990s-2001"
     },
     {
       "standard_name": "Clan del Golfo",
@@ -158,17 +192,17 @@
         "Gulf Clan"
       ],
       "type": "cartel",
-      "context": "Colombian drug cartel and paramilitary group, involved in conflict with state and guerrillas.",
+      "context": "Colombian drug cartel and paramilitary group.",
       "time_period": "2000s-present"
     },
     {
-      "standard_name": "Jalisco New Generation Cartel",
+      "standard_name": "Cártel de Jalisco Nueva Generación",
       "original_text_name": "CJNG",
       "aliases": [
-        "Cártel de Jalisco Nueva Generación"
+        "Jalisco New Generation Cartel"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel, allied with FARC according to infobox.",
+      "context": "Mexican drug cartel, allied with FARC.",
       "time_period": "2009-present"
     },
     {
@@ -176,7 +210,7 @@
       "original_text_name": "Sinaloa Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel, allied with FARC according to infobox.",
+      "context": "Mexican drug cartel, allied with FARC.",
       "time_period": "1980s-present"
     },
     {
@@ -186,7 +220,7 @@
         "ETA"
       ],
       "type": "terrorist_organization",
-      "context": "Basque separatist group, allied with FARC according to infobox.",
+      "context": "Basque separatist group, allied with FARC.",
       "time_period": "1959-2018"
     },
     {
@@ -194,7 +228,7 @@
       "original_text_name": "FALN",
       "aliases": [],
       "type": "militia",
-      "context": "Venezuelan guerrilla group, allied with FARC until 1969.",
+      "context": "Venezuelan leftist guerrilla group, allied with FARC until 1969.",
       "time_period": "1960s-1969"
     },
     {
@@ -214,8 +248,8 @@
         "MAS"
       ],
       "type": "militia",
-      "context": "Colombian right-wing paramilitary group, opponent of FARC.",
-      "time_period": "1980s-1990s"
+      "context": "Colombian right-wing paramilitary group, opposed FARC.",
+      "time_period": "1980s"
     }
   ],
   "edges": [
@@ -224,7 +258,7 @@
       "target": "National Liberation Army",
       "relationship": "other",
       "detail": "co-belligerents",
-      "context": "Both are left-wing guerrilla groups involved in the Colombian conflict.",
+      "context": "Both are left-wing guerrilla groups in the Colombian conflict.",
       "time_period": "1964-present"
     },
     {
@@ -232,70 +266,54 @@
       "target": "19th of April Movement",
       "relationship": "other",
       "detail": "co-belligerents",
-      "context": "Both are left-wing guerrilla groups involved in the Colombian conflict.",
+      "context": "Both are left-wing guerrilla groups in the Colombian conflict.",
       "time_period": "1970-1990"
     },
     {
       "source": "Estado Mayor Central",
       "target": "Revolutionary Armed Forces of Colombia",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "EMC is a dissident faction that split from FARC after the 2016 peace deal.",
-      "time_period": "2017-present"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "EMC is a dissident faction of FARC that continues its original doctrine.",
+      "time_period": "2016-present"
     },
     {
       "source": "Revolutionary Armed Forces of Colombia",
-      "target": "National Liberation Army",
+      "target": "Colombian Communist Party",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are left-wing guerrilla groups in Colombia, part of the Simón Bolívar Guerrilla Coordinating Board.",
-      "time_period": "1987-1993"
+      "context": "FARC was formed by PCC members and had close ties with the party.",
+      "time_period": "1964-1990s"
     },
     {
       "source": "Revolutionary Armed Forces of Colombia",
-      "target": "19th of April Movement",
+      "target": "Patriotic Union",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both were part of the Simón Bolívar Guerrilla Coordinating Board; M-19 later demobilized.",
-      "time_period": "1987-1990"
-    },
-    {
-      "source": "Revolutionary Armed Forces of Colombia",
-      "target": "Popular Liberation Army",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Both were part of the Simón Bolívar Guerrilla Coordinating Board; EPL later demobilized.",
-      "time_period": "1987-1991"
+      "context": "FARC helped form the UP political party and many FARC members were also UP members.",
+      "time_period": "1985-1990s"
     },
     {
       "source": "Revolutionary Armed Forces of Colombia",
       "target": "Simón Bolívar Guerrilla Coordinating Board",
-      "relationship": "other",
-      "detail": "member of",
+      "relationship": "alliance",
+      "detail": null,
       "context": "FARC was a member of the Simón Bolívar Guerrilla Coordinating Board.",
       "time_period": "1987-1993"
     },
     {
       "source": "National Liberation Army",
       "target": "Simón Bolívar Guerrilla Coordinating Board",
-      "relationship": "other",
-      "detail": "member of",
+      "relationship": "alliance",
+      "detail": null,
       "context": "ELN was a member of the Simón Bolívar Guerrilla Coordinating Board.",
       "time_period": "1987-1993"
     },
     {
-      "source": "19th of April Movement",
-      "target": "Simón Bolívar Guerrilla Coordinating Board",
-      "relationship": "other",
-      "detail": "member of",
-      "context": "M-19 was a member of the Simón Bolívar Guerrilla Coordinating Board.",
-      "time_period": "1987-1990"
-    },
-    {
       "source": "Popular Liberation Army",
       "target": "Simón Bolívar Guerrilla Coordinating Board",
-      "relationship": "other",
-      "detail": "member of",
+      "relationship": "alliance",
+      "detail": null,
       "context": "EPL was a member of the Simón Bolívar Guerrilla Coordinating Board.",
       "time_period": "1987-1991"
     },
@@ -304,110 +322,87 @@
       "target": "Revolutionary Armed Forces of Colombia",
       "relationship": "alliance",
       "detail": null,
-      "context": "IRA trained FARC members in bomb-making and received drug proceeds in return.",
-      "time_period": "1998-2002"
+      "context": "IRA trained FARC members in bomb-making and received drug proceeds in exchange.",
+      "time_period": "1998-2001"
+    },
+    {
+      "source": "Norte del Valle Cartel",
+      "target": "Revolutionary Armed Forces of Colombia",
+      "relationship": "other",
+      "detail": "shared territory",
+      "context": "FARC operated in the same region as the Norte del Valle Cartel, an important drug transport area.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Cali Cartel",
+      "target": "Revolutionary Armed Forces of Colombia",
+      "relationship": "other",
+      "detail": "shared territory",
+      "context": "FARC operated in the same region as the Cali Cartel, an important drug transport area.",
+      "time_period": "1990s"
     },
     {
       "source": "Revolutionary Armed Forces of Colombia",
       "target": "United Self-Defense Forces of Colombia",
       "relationship": "rivalry",
-      "context": "FARC and AUC are opposing forces in the Colombian conflict, with AUC being a right-wing paramilitary group.",
+      "detail": null,
+      "context": "FARC and AUC were enemies in the Colombian conflict, with AUC targeting leftist guerrillas.",
       "time_period": "1997-2006"
     },
     {
       "source": "Revolutionary Armed Forces of Colombia",
-      "target": "Common Alternative Revolutionary Force",
-      "relationship": "other",
-      "detail": "transformation",
-      "context": "FARC transformed into the Common Alternative Revolutionary Force political party after peace deal.",
-      "time_period": "2017"
+      "target": "National Liberation Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both groups are left-wing guerrillas in Colombia and maintain a cooperative relationship against government forces.",
+      "time_period": null
     },
     {
-      "source": "Revolutionary Armed Forces of Colombia",
-      "target": "FARC dissidents",
-      "relationship": "other",
-      "detail": "splinter",
-      "context": "FARC dissidents are former members who rejected peace deal and continued armed struggle.",
+      "source": "National Liberation Army",
+      "target": "Revolutionary Armed Forces of Colombia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "ELN and FARC announced they would work together to find a political solution to the conflict.",
+      "time_period": "2013"
+    },
+    {
+      "source": "Common Alternative Revolutionary Force",
+      "target": "Revolutionary Armed Forces of Colombia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Political party formed by former FARC members as part of peace process.",
       "time_period": "2017-present"
     },
     {
-      "source": "Revolutionary Armed Forces of Colombia",
-      "target": "M-19",
-      "relationship": "other",
-      "detail": "co-belligerents",
-      "context": "Both are left-wing guerrilla groups involved in the Colombian conflict.",
-      "time_period": "1970-1990"
-    },
-    {
-      "source": "Revolutionary Armed Forces of Colombia",
-      "target": "Fernandinho Beira-Mar's Organization",
-      "relationship": "alliance",
+      "source": "FARC dissidents",
+      "target": "Revolutionary Armed Forces of Colombia",
+      "relationship": "rivalry",
       "detail": null,
-      "context": "FARC cooperated with Fernandinho Beira-Mar, exchanging weapons for cocaine and providing armed protection.",
-      "time_period": "2001"
-    },
-    {
-      "source": "Revolutionary Armed Forces of Colombia",
-      "target": "FARC dissidents",
-      "relationship": "other",
-      "detail": "splinter faction",
-      "context": "FARC dissidents are former members who refused to demobilize after the 2016 peace treaty.",
+      "context": "FARC dissidents continued armed actions, criticized by former FARC leader Londoño.",
       "time_period": "2016-present"
     },
     {
       "source": "Revolutionary Armed Forces of Colombia",
-      "target": "Jalisco New Generation Cartel",
+      "target": "Fernandinho Beira-Mar",
       "relationship": "alliance",
       "detail": null,
-      "context": "Infobox lists CJNG as an ally of FARC.",
-      "time_period": null
+      "context": "FARC cooperated with Beira-Mar, exchanging weapons for cocaine and providing armed protection.",
+      "time_period": "1990s-2001"
     },
     {
-      "source": "Revolutionary Armed Forces of Colombia",
-      "target": "Sinaloa Cartel",
+      "source": "FARC dissidents",
+      "target": "Revolutionary Armed Forces of Colombia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Infobox lists Sinaloa Cartel as an ally of FARC.",
-      "time_period": null
-    },
-    {
-      "source": "Revolutionary Armed Forces of Colombia",
-      "target": "Euskadi Ta Askatasuna",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Infobox lists ETA as an ally of FARC.",
-      "time_period": null
-    },
-    {
-      "source": "Revolutionary Armed Forces of Colombia",
-      "target": "Fuerzas Armadas de Liberación Nacional",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Infobox lists FALN as an ally until 1969.",
-      "time_period": "until 1969"
-    },
-    {
-      "source": "Revolutionary Armed Forces of Colombia",
-      "target": "Provisional Irish Republican Army",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Infobox lists Provisional IRA as an ally until 2005.",
-      "time_period": "until 2005"
-    },
-    {
-      "source": "Revolutionary Armed Forces of Colombia",
-      "target": "Muerte a Secuestradores",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "MAS is a right-wing paramilitary group opposed to FARC.",
-      "time_period": null
+      "context": "FARC dissidents are former members of FARC who refused to demobilize.",
+      "time_period": "2016-present"
     },
     {
       "source": "FARC dissidents",
       "target": "Popular Liberation Army",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Colombian armed forces fight both FARC dissidents and EPL simultaneously.",
+      "context": "Colombian armed forces fight FARC dissidents, EPL, ELN, and Clan del Golfo simultaneously.",
       "time_period": null
     },
     {
@@ -415,7 +410,7 @@
       "target": "National Liberation Army",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Colombian armed forces fight both FARC dissidents and ELN simultaneously.",
+      "context": "Colombian armed forces fight FARC dissidents, EPL, ELN, and Clan del Golfo simultaneously.",
       "time_period": null
     },
     {
@@ -423,7 +418,55 @@
       "target": "Clan del Golfo",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Colombian armed forces fight both FARC dissidents and Clan del Golfo simultaneously.",
+      "context": "Colombian armed forces fight FARC dissidents, EPL, ELN, and Clan del Golfo simultaneously.",
+      "time_period": null
+    },
+    {
+      "source": "Revolutionary Armed Forces of Colombia",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "FARC allied with CJNG drug cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Revolutionary Armed Forces of Colombia",
+      "target": "Sinaloa Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "FARC allied with Sinaloa Cartel.",
+      "time_period": null
+    },
+    {
+      "source": "Revolutionary Armed Forces of Colombia",
+      "target": "Euskadi Ta Askatasuna",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "FARC allied with ETA.",
+      "time_period": null
+    },
+    {
+      "source": "Revolutionary Armed Forces of Colombia",
+      "target": "Fuerzas Armadas de Liberación Nacional",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "FARC allied with FALN until 1969.",
+      "time_period": "until 1969"
+    },
+    {
+      "source": "Revolutionary Armed Forces of Colombia",
+      "target": "Provisional Irish Republican Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "FARC allied with Provisional IRA until 2005.",
+      "time_period": "until 2005"
+    },
+    {
+      "source": "Revolutionary Armed Forces of Colombia",
+      "target": "Muerte a Secuestradores",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "MAS was a right-wing paramilitary group opposed to FARC.",
       "time_period": null
     }
   ],

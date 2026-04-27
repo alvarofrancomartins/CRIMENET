@@ -7,7 +7,7 @@
         "Os Charlíns"
       ],
       "type": "clan",
-      "context": "Galician drug trafficking clan involved in smuggling and cocaine trafficking.",
+      "context": "Galician drug trafficking clan involved in smuggling and drug trafficking.",
       "time_period": "1975-present"
     },
     {
@@ -15,7 +15,7 @@
       "original_text_name": "Oubiña",
       "aliases": [],
       "type": "clan",
-      "context": "Galician drug trafficking clan, mentioned alongside Los Charlines.",
+      "context": "Galician drug trafficking clan mentioned alongside Los Charlines.",
       "time_period": null
     },
     {
@@ -23,14 +23,14 @@
       "original_text_name": "Miñanco",
       "aliases": [],
       "type": "clan",
-      "context": "Galician drug trafficking clan, mentioned alongside Los Charlines.",
+      "context": "Galician drug trafficking clan mentioned alongside Los Charlines.",
       "time_period": null
     },
     {
       "standard_name": "Os Caneos",
-      "original_text_name": "Caneos clan",
+      "original_text_name": "Os Caneos",
       "aliases": [
-        "Os Caneos"
+        "Caneos clan"
       ],
       "type": "clan",
       "context": "Galician drug trafficking clan, rival of Los Charlines.",
@@ -90,6 +90,30 @@
   "edges": [
     {
       "source": "Los Charlines",
+      "target": "Oubiña",
+      "relationship": "other",
+      "detail": "mentioned together",
+      "context": "Los Charlines is mentioned alongside Oubiña as important Galician drug trafficking clans.",
+      "time_period": null
+    },
+    {
+      "source": "Los Charlines",
+      "target": "Miñanco",
+      "relationship": "other",
+      "detail": "mentioned together",
+      "context": "Los Charlines is mentioned alongside Miñanco as important Galician drug trafficking clans.",
+      "time_period": null
+    },
+    {
+      "source": "Los Charlines",
+      "target": "Os Caneos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Charlines and Os Caneos are rivals; a head of Os Caneos was assassinated by Colombian hitmen.",
+      "time_period": "1990s"
+    },
+    {
+      "source": "Los Charlines",
       "target": "Medellín Cartel",
       "relationship": "alliance",
       "detail": null,
@@ -134,14 +158,6 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Los Charlines allied with Sinaloa Cartel for drug trafficking.",
-      "time_period": null
-    },
-    {
-      "source": "Los Charlines",
-      "target": "Os Caneos",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Los Charlines had a rivalry with Os Caneos, leading to assassination of Os Caneos leader.",
       "time_period": null
     }
   ],

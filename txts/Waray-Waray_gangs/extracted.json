@@ -44,7 +44,7 @@
       ],
       "type": "gang",
       "context": "Alliance between Waray and Ozamiz criminals, conducts bank robberies and drug sales.",
-      "time_period": "2000s"
+      "time_period": "2000s-present"
     },
     {
       "standard_name": "O.G. Imba: Waray-Waray Gang",
@@ -71,24 +71,16 @@
       "target": "Sudoy-Sudoy Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Waray-Abuyog Gang has been documented making alliances with the Sudoy-Sudoy Gang.",
-      "time_period": "2000s"
+      "context": "Waray-Abuyog Gang has been documented making alliances with Sudoy-Sudoy Gang.",
+      "time_period": null
     },
     {
       "source": "Waray-Ozamiz Gang",
       "target": "Waray-Waray gangs",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Waray-Ozamiz Gang is an alliance between Waray and Ozamiz criminals, considered a sub-group of Waray-Waray gangs.",
-      "time_period": "2000s"
-    },
-    {
-      "source": "O.G. Imba: Waray-Waray Gang",
-      "target": "Waray-Waray gangs",
-      "relationship": "other",
-      "detail": "inspired by",
-      "context": "O.G. Imba is a street gang inspired by and taking its name from previous Waray-Waray gangs.",
-      "time_period": "2010s"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Waray-Ozamiz Gang is an alliance between Waray and Ozamiz criminals.",
+      "time_period": null
     }
   ],
   "source_file": "Waray-Waray_gangs"

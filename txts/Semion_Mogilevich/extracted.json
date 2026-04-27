@@ -16,23 +16,23 @@
       "aliases": [],
       "type": "mafia",
       "context": "Italian American Mafia family; involved in a toxic waste scheme with Mogilevich.",
-      "time_period": "1990s-present"
+      "time_period": "1930s-present"
     },
     {
       "standard_name": "Camorra",
       "original_text_name": "Camorra",
       "aliases": [],
       "type": "clan",
-      "context": "Italian organized crime group; Mogilevich had alliances with them, specifically the Giuliano clan.",
-      "time_period": "1990s-present"
+      "context": "Italian crime syndicate; Mogilevich had alliances with them, particularly the Giuliano clan.",
+      "time_period": "1800s-present"
     },
     {
       "standard_name": "Giuliano clan",
       "original_text_name": "Giuliano clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan; Salvatore De Falco was a member who met with Mogilevich in Prague.",
-      "time_period": "1990s"
+      "context": "Camorra clan; Salvatore De Falco, a member, met with Mogilevich in Prague in 1993.",
+      "time_period": "unknown"
     }
   ],
   "edges": [
@@ -62,11 +62,11 @@
     },
     {
       "source": "Giuliano clan",
-      "target": "Semion Mogilevich",
+      "target": "Camorra",
       "relationship": "alliance",
       "detail": null,
-      "context": "Salvatore De Falco of the Giuliano clan met with Mogilevich in Prague in 1993.",
-      "time_period": "1993"
+      "context": "The Giuliano clan is a sub-group of the Camorra.",
+      "time_period": null
     }
   ],
   "source_file": "Semion_Mogilevich"

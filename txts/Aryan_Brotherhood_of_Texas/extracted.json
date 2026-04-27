@@ -17,7 +17,7 @@
         "AB"
       ],
       "type": "gang",
-      "context": "Prison gang and crime syndicate founded in California in the 1960s.",
+      "context": "Notorious prison gang and crime syndicate founded in California in the 1960s.",
       "time_period": "1960s-present"
     },
     {
@@ -27,7 +27,7 @@
         "AC"
       ],
       "type": "gang",
-      "context": "Rival white supremacist prison gang formed from members who left the ABT merger.",
+      "context": "Rival white supremacist prison gang formed by former ABT members.",
       "time_period": "1980s-present"
     },
     {
@@ -35,7 +35,7 @@
       "original_text_name": "Mandingo Warriors",
       "aliases": [],
       "type": "gang",
-      "context": "Black prison gang that fought the ABT and was nearly exterminated.",
+      "context": "Black prison gang that fought the ABT in its first major war.",
       "time_period": "1980s"
     },
     {
@@ -85,7 +85,7 @@
       "original_text_name": "Gulf Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel listed as an ally of the ABT in the infobox.",
+      "context": "Mexican drug cartel listed as an ally of the ABT.",
       "time_period": null
     }
   ],
@@ -94,8 +94,8 @@
       "source": "Aryan Brotherhood of Texas",
       "target": "Aryan Brotherhood",
       "relationship": "other",
-      "detail": "no affiliation",
-      "context": "Despite similar names, the ABT is not affiliated with the Aryan Brotherhood.",
+      "detail": "not affiliated",
+      "context": "Despite similar names, ABT is not affiliated with the Aryan Brotherhood.",
       "time_period": null
     },
     {
@@ -103,23 +103,31 @@
       "target": "Aryan Circle",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The ABT and AC have been in multiple wars, including 1986-1994, 1998-2009, and ongoing since 2015.",
+      "context": "ABT and AC have been in multiple wars, including 1986-1994, 1998-2009, and ongoing since 2015.",
       "time_period": "1986-present"
+    },
+    {
+      "source": "Aryan Circle",
+      "target": "Aryan Brotherhood of Texas",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "AC was formed by former ABT members who left the merger.",
+      "time_period": "1980s"
     },
     {
       "source": "Aryan Brotherhood of Texas",
       "target": "Mandingo Warriors",
       "relationship": "rivalry",
       "detail": null,
-      "context": "ABT's first war was with the Mandingo Warriors, whom they nearly exterminated.",
+      "context": "ABT's first war was with the Mandingo Warriors, nearly exterminating them.",
       "time_period": "1980s"
     },
     {
       "source": "Aryan Brotherhood of Texas",
       "target": "Mexican Mafia",
-      "relationship": "other",
-      "detail": "peace treaty",
-      "context": "The ABT and Mexican Mafia made a peace treaty in the early 1990s.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "ABT and Mexican Mafia made a peace treaty in the early 1990s.",
       "time_period": "early 1990s"
     },
     {
@@ -127,7 +135,7 @@
       "target": "Texas Mafia",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The ABT fought wars with Texas Mafia in 1995/1996, resulting in TM being 'parked'.",
+      "context": "ABT fought wars with Texas Mafia in 1995/1996, resulting in TM being 'parked'.",
       "time_period": "1995-1996"
     },
     {
@@ -135,7 +143,7 @@
       "target": "Gulf Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Gulf Cartel is listed as an ally of the ABT in the infobox.",
+      "context": "Gulf Cartel is listed as an ally of the ABT.",
       "time_period": null
     }
   ],

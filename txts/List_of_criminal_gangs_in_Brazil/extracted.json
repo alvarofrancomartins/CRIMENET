@@ -30,7 +30,7 @@
         "Tram of the 40"
       ],
       "type": "gang",
-      "context": "Founded in Pedrinhas Penitentiary Complex, active in Maranhão, Piauí, Mato Grosso.",
+      "context": "Founded in Pedrinhas Penitentiary Complex, operates in Maranhão, Piauí, Mato Grosso.",
       "time_period": null
     },
     {
@@ -41,8 +41,8 @@
         "Red Command"
       ],
       "type": "gang",
-      "context": "Engaged in drug trafficking, arms trafficking, turf wars against PCC and TCP.",
-      "time_period": "1970s-present"
+      "context": "Engaged in drug trafficking, arms trafficking, protection rackets, turf wars.",
+      "time_period": null
     },
     {
       "standard_name": "Sindicato do Crime",
@@ -52,7 +52,7 @@
         "Syndicate of Crime"
       ],
       "type": "gang",
-      "context": "Largest criminal organization in Rio Grande do Norte, created in reaction to PCC.",
+      "context": "Largest criminal organization in Rio Grande do Norte prisons and drug trafficking.",
       "time_period": null
     },
     {
@@ -63,7 +63,7 @@
         "Crime Office"
       ],
       "type": "militia",
-      "context": "Criminal militia of gunmen in West Zone of Rio de Janeiro, involved in murder for hire.",
+      "context": "Criminal militia of gunmen in West Zone of Rio de Janeiro; murder for hire.",
       "time_period": null
     },
     {
@@ -98,8 +98,8 @@
         "First Capital Command"
       ],
       "type": "gang",
-      "context": "South America's largest drug gang, with ties to TCP, GDE, 'Ndrangheta, Tren de Aragua.",
-      "time_period": "1993-present"
+      "context": "South America's largest drug gang, with ties to many Latin American and European organizations.",
+      "time_period": null
     },
     {
       "standard_name": "Primeiro Grupo Catarinense",
@@ -109,7 +109,7 @@
         "First Catarinense Group"
       ],
       "type": "gang",
-      "context": "Biggest criminal organization in Southern Brazil, allied with CV, rival of PCC.",
+      "context": "Biggest criminal organization in Southern Brazil, operates in Santa Catarina and Paraná.",
       "time_period": null
     },
     {
@@ -120,7 +120,7 @@
         "Guardians of the State"
       ],
       "type": "gang",
-      "context": "Operates in Ceará, 4th largest gang in Brazil, made up mostly of teenagers.",
+      "context": "Operates in Ceará, 4th largest gang in Brazil, made up mostly of teenagers and young adults.",
       "time_period": null
     },
     {
@@ -131,11 +131,11 @@
         "Pure Third Command"
       ],
       "type": "gang",
-      "context": "Rio de Janeiro group, split from Terceiro Comando in 2002, involved in drug trafficking.",
+      "context": "Rio de Janeiro group that split from Terceiro Comando in 2002, involved in drug trafficking.",
       "time_period": "2002-present"
     },
     {
-      "standard_name": "'Ndrangheta",
+      "standard_name": "Ndrangheta",
       "original_text_name": "'Ndrangheta",
       "aliases": [],
       "type": "mafia",
@@ -155,7 +155,7 @@
       "original_text_name": "Triad",
       "aliases": [],
       "type": "triad",
-      "context": "Chinese mafia group operating in São Paulo, Recife, Pernambuco; runs protection rackets.",
+      "context": "Chinese mafia group operating worldwide, including Brazil; runs protection rackets in São Paulo.",
       "time_period": null
     },
     {
@@ -166,7 +166,7 @@
         "Third Command"
       ],
       "type": "gang",
-      "context": "Former Rio de Janeiro group, breakaway from CV, dominated drug trafficking; now defunct.",
+      "context": "Former Rio de Janeiro group that broke from Comando Vermelho; members later joined TCP.",
       "time_period": "1980s-2000s"
     },
     {
@@ -184,7 +184,7 @@
       "target": "Comando Vermelho",
       "relationship": "rivalry",
       "detail": null,
-      "context": "ADA formed when a CV member was expelled for ordering a hit on another member.",
+      "context": "ADA formed when a CV member was expelled; they are rivals.",
       "time_period": "1998-present"
     },
     {
@@ -237,7 +237,7 @@
     },
     {
       "source": "Primeiro Comando da Capital",
-      "target": "'Ndrangheta",
+      "target": "Ndrangheta",
       "relationship": "alliance",
       "detail": null,
       "context": "PCC is allied with 'Ndrangheta since the 2010s.",
@@ -270,18 +270,18 @@
     {
       "source": "Terceiro Comando Puro",
       "target": "Terceiro Comando",
-      "relationship": "other",
-      "detail": "split from",
-      "context": "TCP split from Terceiro Comando in 2002 due to disputes about TC's affiliations with ADA.",
-      "time_period": "2002"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "TCP split from TC in 2002 and eventually absorbed its members.",
+      "time_period": "2002-present"
     },
     {
       "source": "Terceiro Comando",
       "target": "Comando Vermelho",
-      "relationship": "other",
-      "detail": "breakaway from",
-      "context": "Terceiro Comando was founded as a breakaway faction of CV.",
-      "time_period": "early 1980s"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "TC was founded as a break-away faction of CV.",
+      "time_period": "1980s"
     }
   ],
   "source_file": "List_of_criminal_gangs_in_Brazil"

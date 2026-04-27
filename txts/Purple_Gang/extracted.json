@@ -17,23 +17,23 @@
         "Capone organization"
       ],
       "type": "mafia",
-      "context": "Chicago-based Italian-American crime syndicate led by Al Capone.",
-      "time_period": "1920s-present"
+      "context": "Italian-American organized crime syndicate based in Chicago, led by Al Capone.",
+      "time_period": "1910s-present"
     },
     {
       "standard_name": "Licavoli Squad",
       "original_text_name": "Licavoli Squad",
       "aliases": [],
       "type": "gang",
-      "context": "Italian bootlegging gang led by Tommy and Pete Licavoli in Detroit.",
-      "time_period": "1920s"
+      "context": "Italian bootlegging gang led by Tommy and Pete Licavoli, rivals of the Purple Gang.",
+      "time_period": "1920s-1930s"
     },
     {
       "standard_name": "Egan's Rats",
       "original_text_name": "Egan's Rats",
       "aliases": [],
       "type": "gang",
-      "context": "St. Louis-based gang active in the early 20th century.",
+      "context": "St. Louis-based gang active in the early 20th century, associated with Fred Burke.",
       "time_period": "1890s-1920s"
     },
     {
@@ -44,8 +44,16 @@
         "Sicilian mob"
       ],
       "type": "mafia",
-      "context": "Italian-American crime family that became dominant in Detroit after the Purple Gang's decline.",
+      "context": "Italian-American Mafia family in Detroit, successor to the Purple Gang's dominance.",
       "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Little Jewish Navy",
+      "original_text_name": "Little Jewish Navy",
+      "aliases": [],
+      "type": "gang",
+      "context": "Group employed by the Purple Gang to transport alcohol across the Detroit River from Canada.",
+      "time_period": "1920s"
     }
   ],
   "edges": [
@@ -62,14 +70,14 @@
       "target": "Licavoli Squad",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Purples fought a vicious turf war with the Licavoli Squad in Detroit.",
-      "time_period": "1927"
+      "context": "Purple Gang fought a vicious turf war with the Licavoli Squad in Detroit.",
+      "time_period": "1920s-1930s"
     },
     {
       "source": "Purple Gang",
       "target": "Egan's Rats",
-      "relationship": "other",
-      "detail": "associate affiliation",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Fred Burke, an associate of the Purple Gang, was originally connected to Egan's Rats.",
       "time_period": "1920s"
     },
@@ -80,6 +88,14 @@
       "detail": null,
       "context": "The Detroit Partnership (Sicilian mob) competed with and eventually replaced the Purple Gang.",
       "time_period": "1930s"
+    },
+    {
+      "source": "Purple Gang",
+      "target": "Little Jewish Navy",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Purple Gang enlisted the Little Jewish Navy to transport alcohol from Canada.",
+      "time_period": "1920s"
     }
   ],
   "source_file": "Purple_Gang"

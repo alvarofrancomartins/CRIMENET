@@ -43,7 +43,7 @@ python 0_urls_to_articles.py --input page_hyperlinks.csv --output articles.csv
 python 1_fetch_wikipedia.py --csv articles.csv --output ./txts
 python 2_extract_network.py --dir ./txts
 python 3_merge_network.py --dir ./txts --output global_network.json --stats
-python 4_cleanup_and_prepare.py --input global_network.json --stats
+python 4_cleanup_and_prepare.py --input global_network.json --output crimenet.json
 python 5_dedup_edges_with_llm.py --input crimenet.json
 ```
 

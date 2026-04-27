@@ -7,7 +7,7 @@
         "Northeast Cartel"
       ],
       "type": "cartel",
-      "context": "Mexican criminal organization splintered from Los Zetas, active in drug trafficking, kidnapping, extortion, etc. Based in Nuevo Laredo.",
+      "context": "Mexican criminal organization and U.S.-designated Foreign Terrorist Organization that splintered from Los Zetas. Operates mainly in Nuevo Laredo and several Mexican states, with presence in the US, Guatemala, Honduras, and Colombia.",
       "time_period": "2014-present"
     },
     {
@@ -15,15 +15,15 @@
       "original_text_name": "Los Zetas",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel that fractured after leadership capture, leading to splinter groups.",
-      "time_period": "1990s-present"
+      "context": "Mexican drug cartel from which Cártel del Noreste splintered. Formerly led by Omar Treviño Morales.",
+      "time_period": "1990s-2010s"
     },
     {
       "standard_name": "Los Texas",
       "original_text_name": "Los Texas",
       "aliases": [],
       "type": "gang",
-      "context": "Gang controlling Nuevo Laredo, later absorbed by Gulf Cartel in 2001.",
+      "context": "Gang that controlled Nuevo Laredo and was later absorbed by the Gulf Cartel in 2001. The Treviño Morales family had a relationship with them.",
       "time_period": "before 2001"
     },
     {
@@ -31,7 +31,7 @@
       "original_text_name": "Gulf Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel, original employer of Los Zetas and rival of Cártel del Noreste.",
+      "context": "Mexican drug cartel that absorbed Los Texas and employed Miguel Ángel Treviño Morales. Aligned with Zetas Vieja Escuela.",
       "time_period": "1970s-present"
     },
     {
@@ -39,7 +39,7 @@
       "original_text_name": "Zetas Vieja Escuela",
       "aliases": [],
       "type": "faction",
-      "context": "Splinter faction of Los Zetas aligned with Gulf Cartel, rivals of Cártel del Noreste.",
+      "context": "Faction of Los Zetas led by original members, aligned with the Gulf Cartel and rival to Cártel del Noreste.",
       "time_period": "2015-present"
     },
     {
@@ -49,7 +49,7 @@
         "Cártel de Jalisco Nueva Generación"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel, rival of Cártel del Noreste.",
+      "context": "Mexican drug cartel listed as a rival of Cártel del Noreste.",
       "time_period": "2009-present"
     },
     {
@@ -57,7 +57,7 @@
       "original_text_name": "La Línea",
       "aliases": [],
       "type": "faction",
-      "context": "Armed wing of the Juárez Cartel, rival of Cártel del Noreste.",
+      "context": "Faction of the Juárez Cartel, listed as a rival of Cártel del Noreste.",
       "time_period": "2000s-present"
     },
     {
@@ -65,7 +65,7 @@
       "original_text_name": "Sinaloa Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel, rival of Cártel del Noreste.",
+      "context": "Mexican drug cartel listed as a rival of Cártel del Noreste.",
       "time_period": "1980s-present"
     }
   ],
@@ -73,26 +73,18 @@
     {
       "source": "Cártel del Noreste",
       "target": "Los Zetas",
-      "relationship": "other",
-      "detail": "splintered from",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Cártel del Noreste splintered from Los Zetas after the capture of Omar Treviño Morales.",
       "time_period": "2014-2015"
     },
     {
       "source": "Los Texas",
       "target": "Gulf Cartel",
-      "relationship": "other",
-      "detail": "absorbed by",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Los Texas was absorbed by the Gulf Cartel in 2001.",
       "time_period": "2001"
-    },
-    {
-      "source": "Cártel del Noreste",
-      "target": "Zetas Vieja Escuela",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Cártel del Noreste and Zetas Vieja Escuela are rival factions formed after the split of Los Zetas.",
-      "time_period": "2015-present"
     },
     {
       "source": "Zetas Vieja Escuela",
@@ -104,10 +96,18 @@
     },
     {
       "source": "Cártel del Noreste",
+      "target": "Zetas Vieja Escuela",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Cártel del Noreste and Zetas Vieja Escuela are rival factions that formed after the split of Los Zetas.",
+      "time_period": "2015-present"
+    },
+    {
+      "source": "Cártel del Noreste",
       "target": "Gulf Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Cártel del Noreste is a rival of the Gulf Cartel.",
+      "context": "Cártel del Noreste is listed as a rival of the Gulf Cartel.",
       "time_period": "2014-present"
     },
     {
@@ -116,7 +116,7 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "CJNG is listed as a rival of Cártel del Noreste.",
-      "time_period": null
+      "time_period": "2014-present"
     },
     {
       "source": "Cártel del Noreste",
@@ -124,7 +124,7 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "La Línea is listed as a rival of Cártel del Noreste.",
-      "time_period": null
+      "time_period": "2014-present"
     },
     {
       "source": "Cártel del Noreste",
@@ -132,7 +132,7 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Sinaloa Cartel is listed as a rival of Cártel del Noreste.",
-      "time_period": null
+      "time_period": "2014-present"
     }
   ],
   "source_file": "Cártel_del_Noreste"

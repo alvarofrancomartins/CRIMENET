@@ -6,10 +6,7 @@
       "aliases": [
         "HSA",
         "Hip Sing Tong",
-        "協勝公會",
-        "协胜公会",
-        "協勝堂",
-        "协胜堂"
+        "Hip Sing"
       ],
       "type": "other",
       "context": "Chinese-American criminal organization/gang formed as a labor organization in New York City's Chinatown, involved in drug trafficking and vice.",
@@ -20,15 +17,15 @@
       "original_text_name": "On Leong Tong",
       "aliases": [],
       "type": "other",
-      "context": "Rival tong to Hip Sing, involved in Tong wars for control of Chinatown in early 1900s.",
-      "time_period": "early 1900s-present"
+      "context": "Rival tong to Hip Sing, involved in Tong wars for control of Chinatown.",
+      "time_period": "early 1900s"
     },
     {
       "standard_name": "Four Brothers",
       "original_text_name": "Four Brothers",
       "aliases": [],
       "type": "other",
-      "context": "Rival tong to Hip Sing, involved in Tong wars for control of Chinatown in early 1900s.",
+      "context": "Rival tong to Hip Sing, involved in Tong wars.",
       "time_period": "early 1900s"
     },
     {
@@ -38,7 +35,7 @@
         "KMT"
       ],
       "type": "other",
-      "context": "Chinese political party that collaborated with Hip Sing in drug trafficking during 1930s-1940s.",
+      "context": "Chinese political party that collaborated with Hip Sing in drug trafficking during the 1930s-1940s.",
       "time_period": "1930s-1940s"
     },
     {
@@ -47,7 +44,17 @@
       "aliases": [],
       "type": "gang",
       "context": "Street gang used by Hip Sing Tong to carry out crimes in New York City.",
-      "time_period": "1970s-1994"
+      "time_period": "until 1994"
+    },
+    {
+      "standard_name": "Chinese Consolidated Benevolent Association",
+      "original_text_name": "Chinese Consolidated Benevolent Association",
+      "aliases": [
+        "CCBA"
+      ],
+      "type": "other",
+      "context": "Legitimate fraternal organization that includes NYC HSA as a permanent member.",
+      "time_period": "present"
     }
   ],
   "edges": [
@@ -56,7 +63,7 @@
       "target": "On Leong Tong",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Hip Sing and On Leong were rivals in Tong wars for control of Chinatown in early 1900s.",
+      "context": "Hip Sing and On Leong were rivals in Tong wars for control of Chinatown.",
       "time_period": "early 1900s"
     },
     {
@@ -64,7 +71,7 @@
       "target": "Four Brothers",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Hip Sing and Four Brothers were rivals in Tong wars for control of Chinatown in early 1900s.",
+      "context": "Hip Sing and Four Brothers were rivals in Tong wars.",
       "time_period": "early 1900s"
     },
     {
@@ -72,16 +79,24 @@
       "target": "Kuomintang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Hip Sing collaborated with Kuomintang in drug trafficking operations during 1930s-1940s.",
+      "context": "Hip Sing collaborated with Kuomintang in drug trafficking operations.",
       "time_period": "1930s-1940s"
     },
     {
       "source": "Hip Sing Association",
       "target": "Flying Dragons",
-      "relationship": "other",
-      "detail": "control",
-      "context": "Hip Sing Tong secretly used Flying Dragons to carry out crimes, but control frayed by 1994.",
-      "time_period": "1970s-1994"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hip Sing secretly used Flying Dragons as a street gang to carry out crimes.",
+      "time_period": "until 1994"
+    },
+    {
+      "source": "Hip Sing Association",
+      "target": "Chinese Consolidated Benevolent Association",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "NYC HSA is a permanent member of CCBA and cooperates with them.",
+      "time_period": "present"
     }
   ],
   "source_file": "Hip_Sing_Association"

@@ -1,6 +1,16 @@
 {
   "nodes": [
     {
+      "standard_name": "Siderno Group",
+      "original_text_name": "Siderno Group",
+      "aliases": [
+        "Siderno crime group"
+      ],
+      "type": "clan",
+      "context": "Criminal association in Canada, Australia and Italy related to the 'Ndrangheta, involved in drug trafficking and money laundering.",
+      "time_period": "1950s-present"
+    },
+    {
       "standard_name": "'Ndrangheta",
       "original_text_name": "'Ndrangheta",
       "aliases": [],
@@ -9,23 +19,13 @@
       "time_period": "19th century-present"
     },
     {
-      "standard_name": "Siderno Group",
-      "original_text_name": "Siderno Group",
-      "aliases": [
-        "Siderno crime group"
-      ],
-      "type": "clan",
-      "context": "Criminal association in Canada, Australia and Italy related to the 'Ndrangheta, composed of families from Siderno.",
-      "time_period": "1950s-present"
-    },
-    {
       "standard_name": "Commisso 'ndrina",
       "original_text_name": "Commisso 'ndrina",
       "aliases": [
         "Commisso crime family"
       ],
       "type": "clan",
-      "context": "One of the biggest and most important clans in Siderno, involved in global cocaine business and money laundering.",
+      "context": "One of the biggest and most important clans of the 'Ndrangheta, based in Siderno, involved in global cocaine business and money laundering.",
       "time_period": "20th century-present"
     },
     {
@@ -33,7 +33,7 @@
       "original_text_name": "Luppino crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Crime family based in Hamilton, Ontario, Canada.",
+      "context": "Crime family based in Hamilton, Ontario, Canada, with close contacts to the Siderno Group.",
       "time_period": "20th century-present"
     },
     {
@@ -41,7 +41,7 @@
       "original_text_name": "Cotroni crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Crime family based in Montreal, Canada.",
+      "context": "Crime family based in Montreal, Canada, with close contacts to the Siderno Group.",
       "time_period": "20th century-present"
     },
     {
@@ -49,7 +49,7 @@
       "original_text_name": "Musitano crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Hamilton-based crime family involved in bombings and drug trafficking.",
+      "context": "Hamilton-based crime family involved in bombings and drug trafficking, had conflict with the Siderno Group.",
       "time_period": "20th century-present"
     },
     {
@@ -59,7 +59,7 @@
         "Coluccio crime family"
       ],
       "type": "clan",
-      "context": "Clan within the Siderno Group, based in Canada and Italy.",
+      "context": "Clan within the Siderno Group in the Greater Toronto Area, involved in drug trafficking and extortion.",
       "time_period": "20th century-present"
     },
     {
@@ -67,31 +67,7 @@
       "original_text_name": "Figliomeni clan",
       "aliases": [],
       "type": "clan",
-      "context": "Clan within the Siderno Group, allegedly headed by Angelo Figliomeni in Toronto.",
-      "time_period": "20th century-present"
-    },
-    {
-      "standard_name": "DeMaria clan",
-      "original_text_name": "DeMaria clan",
-      "aliases": [],
-      "type": "clan",
-      "context": "Clan within the Siderno Group, based in Canada and Italy.",
-      "time_period": "20th century-present"
-    },
-    {
-      "standard_name": "Tavernese clan",
-      "original_text_name": "Tavernese clan",
-      "aliases": [],
-      "type": "clan",
-      "context": "Clan within the Siderno Group.",
-      "time_period": "20th century-present"
-    },
-    {
-      "standard_name": "Ruso clan",
-      "original_text_name": "Ruso clan",
-      "aliases": [],
-      "type": "clan",
-      "context": "Clan within the Siderno Group.",
+      "context": "Clan within the Siderno Group in the Greater Toronto Area, allegedly headed by Angelo Figliomeni.",
       "time_period": "20th century-present"
     }
   ],
@@ -101,7 +77,7 @@
       "target": "'Ndrangheta",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Siderno Group is related to the 'Ndrangheta and operates as a branch of it.",
+      "context": "The Siderno Group is related to the 'Ndrangheta, a Mafia-type organization in Calabria.",
       "time_period": "1950s-present"
     },
     {
@@ -109,7 +85,7 @@
       "target": "'Ndrangheta",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Commisso 'ndrina is a clan within the 'Ndrangheta.",
+      "context": "The Commisso 'ndrina is one of the 'Ndrangheta's biggest and most important clans.",
       "time_period": "20th century-present"
     },
     {
@@ -117,7 +93,7 @@
       "target": "Luppino crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Michele Racco maintained close contacts with the Luppino crime family.",
+      "context": "Michele Racco maintained close contacts with the Luppino crime family in Hamilton.",
       "time_period": "1950s-1980"
     },
     {
@@ -125,7 +101,7 @@
       "target": "Cotroni crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Michele Racco maintained close contacts with the Cotroni crime family.",
+      "context": "Michele Racco maintained close contacts with the Cotroni crime family in Montreal.",
       "time_period": "1950s-1980"
     },
     {
@@ -133,15 +109,15 @@
       "target": "Musitano crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Domenic Racco was murdered by members of the Musitano crime family due to a drug trade dispute.",
-      "time_period": "1983"
+      "context": "The Musitano crime family orchestrated the murder of Domenic Racco of the Siderno Group due to a drug trade dispute.",
+      "time_period": "1980s"
     },
     {
       "source": "Coluccio clan",
       "target": "Siderno Group",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Coluccio clan is a family within the Siderno Group.",
+      "context": "The Coluccio clan is part of the Siderno Group in the Greater Toronto Area.",
       "time_period": "20th century-present"
     },
     {
@@ -149,31 +125,7 @@
       "target": "Siderno Group",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Figliomeni clan is a family within the Siderno Group.",
-      "time_period": "20th century-present"
-    },
-    {
-      "source": "DeMaria clan",
-      "target": "Siderno Group",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The DeMaria clan is a family within the Siderno Group.",
-      "time_period": "20th century-present"
-    },
-    {
-      "source": "Tavernese clan",
-      "target": "Siderno Group",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Tavernese clan is a family within the Siderno Group.",
-      "time_period": "20th century-present"
-    },
-    {
-      "source": "Ruso clan",
-      "target": "Siderno Group",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Ruso clan is a family within the Siderno Group.",
+      "context": "The Figliomeni clan is part of the Siderno Group in the Greater Toronto Area.",
       "time_period": "20th century-present"
     }
   ],

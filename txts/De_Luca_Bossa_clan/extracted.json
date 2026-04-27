@@ -21,7 +21,7 @@
       "original_text_name": "Sarno clan",
       "aliases": [],
       "type": "clan",
-      "context": "Powerful Camorra clan in Naples, now defunct due to arrests and pentiti.",
+      "context": "Former powerful Camorra clan in Naples, now defunct due to arrests and pentiti.",
       "time_period": "1980s-2000s"
     },
     {
@@ -37,7 +37,7 @@
       "original_text_name": "Lago clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan, rival of De Luca Bossa and Marfella clans.",
+      "context": "Camorra clan fought by De Luca Bossa and Marfella clans.",
       "time_period": null
     },
     {
@@ -65,7 +65,15 @@
       "original_text_name": "Secondigliano Alliance",
       "aliases": [],
       "type": "clan",
-      "context": "Powerful Camorra alliance based in Secondigliano, Naples.",
+      "context": "Powerful Camorra alliance in Naples.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Rinaldi clan",
+      "original_text_name": "Rinaldi clan",
+      "aliases": [],
+      "type": "clan",
+      "context": "Camorra clan based in eastern Naples.",
       "time_period": null
     },
     {
@@ -74,22 +82,6 @@
       "aliases": [],
       "type": "clan",
       "context": "Criminal group based in Ponticelli, merged with De Luca Bossa clan.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Rinaldi clan",
-      "original_text_name": "Rinaldi clan",
-      "aliases": [],
-      "type": "clan",
-      "context": "Camorra clan based in eastern Naples, allied with De Luca Bossa clan.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Schisa's faction",
-      "original_text_name": "Schisa's faction",
-      "aliases": [],
-      "type": "faction",
-      "context": "Faction within the De Luca Bossa clan, led by Tommaso Schisa.",
       "time_period": null
     },
     {
@@ -121,22 +113,32 @@
     {
       "source": "De Luca Bossa clan",
       "target": "Nuova Camorra Organizzata",
-      "relationship": "other",
-      "detail": "former affiliation",
-      "context": "Founder's father was a trusted member of Nuova Camorra Organizzata.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Founder's father was a trusted member of NCO.",
       "time_period": "before 1990s"
     },
     {
       "source": "De Luca Bossa clan",
       "target": "Sarno clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Founder was a trusted member before founding his own clan.",
+      "time_period": "late 1980s-early 1990s"
+    },
+    {
+      "source": "De Luca Bossa clan",
+      "target": "Sarno clan",
       "relationship": "rivalry",
-      "context": "Bloody war for territorial control after founder left Sarno clan.",
-      "time_period": "1990s-2000s"
+      "detail": null,
+      "context": "Bloody war for territorial control after De Luca Bossa clan was founded.",
+      "time_period": "1990s"
     },
     {
       "source": "De Luca Bossa clan",
       "target": "Marfella clan",
       "relationship": "alliance",
+      "detail": null,
       "context": "Alliance formed through family ties to fight Lago clan.",
       "time_period": "2000s"
     },
@@ -144,6 +146,7 @@
       "source": "De Luca Bossa clan",
       "target": "Lago clan",
       "relationship": "rivalry",
+      "detail": null,
       "context": "Fought against Lago clan in alliance with Marfella clan.",
       "time_period": "2000s"
     },
@@ -151,6 +154,7 @@
       "source": "De Luca Bossa clan",
       "target": "D'Amico clan",
       "relationship": "rivalry",
+      "detail": null,
       "context": "Rival clan disputing territory in Ponticelli.",
       "time_period": "2010s"
     },
@@ -158,42 +162,39 @@
       "source": "De Luca Bossa clan",
       "target": "De Micco clan",
       "relationship": "rivalry",
-      "context": "Rival clan; war led to killing of Antonio Minichini.",
+      "detail": null,
+      "context": "Rival clan; war between them led to killings.",
       "time_period": "2010s"
     },
     {
       "source": "De Luca Bossa clan",
       "target": "Secondigliano Alliance",
       "relationship": "alliance",
+      "detail": null,
       "context": "Alliance made when Teresa De Luca Bossa was in command.",
       "time_period": "2000s-2010"
     },
     {
       "source": "De Luca Bossa clan",
-      "target": "Minichini group",
-      "relationship": "alliance",
-      "context": "Merger with Minichini group, now considered most powerful in Ponticelli.",
-      "time_period": "2010s-present"
-    },
-    {
-      "source": "De Luca Bossa clan",
       "target": "Rinaldi clan",
       "relationship": "alliance",
-      "context": "Alliance between the two clans, facilitated by Michele Minichini and Tommaso Schisa.",
-      "time_period": "2010s-present"
+      "detail": null,
+      "context": "Alliance between the two clans, facilitated by Michele Minichini.",
+      "time_period": "2010s"
     },
     {
       "source": "De Luca Bossa clan",
-      "target": "Schisa's faction",
-      "relationship": "other",
-      "detail": "internal faction",
-      "context": "Schisa's faction is a part of the De Luca Bossa clan.",
-      "time_period": null
+      "target": "Minichini group",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Merger with Minichini group, now considered the same organization.",
+      "time_period": "2010s-present"
     },
     {
       "source": "De Luca Bossa clan",
       "target": "Aprea-Cuccaro clan",
       "relationship": "alliance",
+      "detail": null,
       "context": "Listed as ally in infobox.",
       "time_period": null
     },
@@ -201,6 +202,7 @@
       "source": "De Luca Bossa clan",
       "target": "Mazzarella clan",
       "relationship": "rivalry",
+      "detail": null,
       "context": "Listed as rival in infobox.",
       "time_period": null
     },
@@ -208,6 +210,7 @@
       "source": "De Luca Bossa clan",
       "target": "Mariano clan",
       "relationship": "rivalry",
+      "detail": null,
       "context": "Listed as rival in infobox.",
       "time_period": null
     }

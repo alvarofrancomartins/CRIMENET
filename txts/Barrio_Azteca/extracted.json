@@ -25,7 +25,7 @@
         "Vicente Carrillo Fuentes' cartel"
       ],
       "type": "cartel",
-      "context": "Drug trafficking cartel controlling the Juárez plaza; allied with Barrio Azteca.",
+      "context": "Drug trafficking cartel based in Ciudad Juarez, Mexico; controls smuggling routes into the US.",
       "time_period": null
     },
     {
@@ -33,7 +33,7 @@
       "original_text_name": "Sinaloa Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Drug trafficking cartel that attempted to take over smuggling routes in Ciudad Juarez; rival of Barrio Azteca and Juárez Cartel.",
+      "context": "Drug trafficking cartel that attempted to take over smuggling routes in Ciudad Juarez.",
       "time_period": null
     },
     {
@@ -41,7 +41,7 @@
       "original_text_name": "Los Salazar",
       "aliases": [],
       "type": "faction",
-      "context": "Cell of the Sinaloa Cartel; considered on par with La Línea for control of Ciudad Juarez drug market.",
+      "context": "Cell of the Sinaloa Cartel operating in Ciudad Juarez.",
       "time_period": null
     },
     {
@@ -57,7 +57,7 @@
       "original_text_name": "Artistas Asesinos",
       "aliases": [],
       "type": "gang",
-      "context": "Enforcer group of the Sinaloa Cartel; rival of Barrio Azteca.",
+      "context": "Enforcer group for the Sinaloa Cartel; rival of Barrio Azteca.",
       "time_period": null
     },
     {
@@ -73,7 +73,7 @@
       "original_text_name": "La Empresa",
       "aliases": [],
       "type": "gang",
-      "context": "Hybrid of Barrio Azteca founded by former member Luis Gerrado Mendez; involved in drug trafficking.",
+      "context": "Hybrid of Barrio Azteca founded by former member Luis Gerrado Mendez; involved in consulate murders.",
       "time_period": null
     },
     {
@@ -91,7 +91,7 @@
       "target": "La Línea",
       "relationship": "alliance",
       "detail": null,
-      "context": "In 2008, Barrio Azteca formed an alliance with La Línea to fight the Sinaloa Cartel.",
+      "context": "Barrio Azteca formed an alliance with La Línea in 2008 to fight the Sinaloa Cartel.",
       "time_period": "2008-present"
     },
     {
@@ -115,16 +115,8 @@
       "target": "Sinaloa Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Barrio Azteca allied with La Línea to fight Sinaloa Cartel incursions into Ciudad Juarez.",
+      "context": "Barrio Azteca allied with La Línea to fight the Sinaloa Cartel's incursion into Ciudad Juarez.",
       "time_period": "2008-present"
-    },
-    {
-      "source": "Juárez Cartel",
-      "target": "Sinaloa Cartel",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Sinaloa Cartel attempted to take over drug smuggling routes controlled by Juárez Cartel.",
-      "time_period": null
     },
     {
       "source": "Los Salazar",
@@ -155,31 +147,47 @@
       "target": "Los Mexicles",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Barrio Azteca carried out prison massacres against Los Mexicles in 2009 and 2011.",
-      "time_period": null
+      "context": "Barrio Azteca fought Los Mexicles in prison massacres in 2009 and 2011.",
+      "time_period": "2005-2011"
     },
     {
       "source": "Barrio Azteca",
       "target": "Artistas Asesinos",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Barrio Azteca fought Artistas Asesinos in prison massacres; they are rival gangs.",
+      "context": "Barrio Azteca and Artistas Asesinos are rival gangs fighting for control of drugs and guns.",
       "time_period": null
     },
     {
       "source": "Barrio Azteca",
       "target": "Mexican Mafia",
-      "relationship": "other",
-      "detail": "originated from",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Barrio Azteca originally morphed from the Mexican Mafia prison gang.",
-      "time_period": null
+      "time_period": "early 1980s"
     },
     {
       "source": "La Línea",
       "target": "Sinaloa Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "La Línea and the Sinaloa Cartel are rivals for control of the Juárez plaza.",
+      "context": "La Línea and the Sinaloa Cartel are rivals for control of the Juarez plaza.",
+      "time_period": null
+    },
+    {
+      "source": "Los Salazar",
+      "target": "La Línea",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Los Salazar and La Línea are rivals in the Ciudad Juarez drug market.",
+      "time_period": null
+    },
+    {
+      "source": "La Empresa",
+      "target": "Barrio Azteca",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "La Empresa is a hybrid of Barrio Azteca, founded by a former Barrio Azteca member.",
       "time_period": null
     },
     {
@@ -187,39 +195,7 @@
       "target": "Los Salazar",
       "relationship": "alliance",
       "detail": null,
-      "context": "Los Salazar is a powerful cell of the Sinaloa Cartel.",
-      "time_period": null
-    },
-    {
-      "source": "La Línea",
-      "target": "Los Salazar",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "La Línea and Los Salazar are rivals in the Ciudad Juarez drug market.",
-      "time_period": null
-    },
-    {
-      "source": "Barrio Azteca",
-      "target": "La Empresa",
-      "relationship": "other",
-      "detail": "hybrid",
-      "context": "La Empresa is a hybrid of Barrio Azteca, founded by a former member.",
-      "time_period": null
-    },
-    {
-      "source": "Barrio Azteca",
-      "target": "Artistas Asesinos",
-      "relationship": "other",
-      "detail": "possible involvement",
-      "context": "Barrio Azteca may have been responsible for the Horizontes del Sur massacre targeting an Artistas Asesinos member.",
-      "time_period": "2010"
-    },
-    {
-      "source": "Barrio Azteca",
-      "target": "La Empresa",
-      "relationship": "other",
-      "detail": "leadership overlap",
-      "context": "Barrio Azteca leader Jose Dolores Villegas Soto was also leader of La Empresa.",
+      "context": "Los Salazar is a cell of the Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -228,6 +204,14 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Border Brothers are listed as rivals of Barrio Azteca.",
+      "time_period": null
+    },
+    {
+      "source": "Barrio Azteca",
+      "target": "La Empresa",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Barrio Azteca leader Jose Dolores Villegas Soto was also leader of La Empresa, indicating close ties.",
       "time_period": null
     }
   ],

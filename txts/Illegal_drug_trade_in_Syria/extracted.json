@@ -4,9 +4,9 @@
       "standard_name": "Fourth Armoured Division",
       "original_text_name": "Fourth Armoured Division",
       "aliases": [],
-      "type": "faction",
+      "type": "militia",
       "context": "Elite military unit of the Assad regime involved in drug production and smuggling.",
-      "time_period": "2013-2024"
+      "time_period": "2011-2024"
     },
     {
       "standard_name": "Hezbollah",
@@ -14,17 +14,33 @@
       "aliases": [],
       "type": "terrorist_organization",
       "context": "Lebanese militant group participating in drug production and smuggling networks in Syria.",
-      "time_period": "2013-present"
+      "time_period": "1980s-present"
+    },
+    {
+      "standard_name": "Hassan Daqou's Organization",
+      "original_text_name": "Hassan Daqou",
+      "aliases": [],
+      "type": "other",
+      "context": "Lebanese criminal network led by drug kingpin Hassan Daqou, collaborating with the Fourth Armoured Division.",
+      "time_period": "unknown"
     }
   ],
   "edges": [
     {
-      "source": "Fourth Armoured Division",
-      "target": "Hezbollah",
+      "source": "Hassan Daqou's Organization",
+      "target": "Fourth Armoured Division",
       "relationship": "alliance",
       "detail": null,
-      "context": "Hezbollah closely participated in drug production and smuggling networks with the Fourth Armoured Division.",
-      "time_period": "2013-2024"
+      "context": "Hassan Daqou collaborated with the Fourth Armoured Division to traffic drugs.",
+      "time_period": "unknown"
+    },
+    {
+      "source": "Hezbollah",
+      "target": "Fourth Armoured Division",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hezbollah participated in drug production and smuggling networks alongside the Fourth Armoured Division.",
+      "time_period": "unknown"
     }
   ],
   "source_file": "Illegal_drug_trade_in_Syria"

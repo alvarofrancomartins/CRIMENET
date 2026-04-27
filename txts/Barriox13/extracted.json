@@ -15,16 +15,16 @@
       "standard_name": "West Side Barriox13",
       "original_text_name": "West Side Barriox13",
       "aliases": [],
-      "type": "faction",
-      "context": "Faction of Barriox13, loyal to the larger Barriox13.",
+      "type": "gang",
+      "context": "Faction of Barriox13 gang.",
       "time_period": null
     },
     {
       "standard_name": "East Side Barriox13",
       "original_text_name": "East Side Barriox13",
       "aliases": [],
-      "type": "faction",
-      "context": "Faction of Barriox13, loyal to the larger Barriox13.",
+      "type": "gang",
+      "context": "Faction of Barriox13 gang.",
       "time_period": null
     },
     {
@@ -32,20 +32,12 @@
       "original_text_name": "Mexican Mafia",
       "aliases": [],
       "type": "gang",
-      "context": "Prison gang that Barriox13 remains loyal to.",
+      "context": "Prison gang to which Barriox13 remains loyal.",
       "time_period": null
     },
     {
-      "standard_name": "CPP",
-      "original_text_name": "CPP",
-      "aliases": [],
-      "type": "gang",
-      "context": "Piru gang, rival of Barriox13.",
-      "time_period": null
-    },
-    {
-      "standard_name": "WSP",
-      "original_text_name": "WSP",
+      "standard_name": "Campanella Park Piru",
+      "original_text_name": "Campanella Park Piru",
       "aliases": [],
       "type": "gang",
       "context": "Piru gang, rival of Barriox13.",
@@ -54,6 +46,14 @@
     {
       "standard_name": "135th St Piru",
       "original_text_name": "135th St Piru",
+      "aliases": [],
+      "type": "gang",
+      "context": "Piru gang, rival of Barriox13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "West Side Piru",
+      "original_text_name": "West Side Piru",
       "aliases": [],
       "type": "gang",
       "context": "Piru gang, rival of Barriox13.",
@@ -84,44 +84,44 @@
       "time_period": null
     },
     {
-      "standard_name": "Campanella Park Piru",
-      "original_text_name": "Campanella Park Piru",
-      "aliases": [],
-      "type": "gang",
-      "context": "Black gang, rival of Barriox13.",
-      "time_period": null
-    },
-    {
-      "standard_name": "West Side Piru",
-      "original_text_name": "West Side Piru",
-      "aliases": [],
-      "type": "gang",
-      "context": "Black gang, rival of Barriox13.",
-      "time_period": null
-    },
-    {
       "standard_name": "Gardena 13",
       "original_text_name": "Gardena 13",
       "aliases": [],
       "type": "gang",
       "context": "Allied gang of Barriox13.",
       "time_period": null
+    },
+    {
+      "standard_name": "CPP",
+      "original_text_name": "CPP",
+      "aliases": [],
+      "type": "gang",
+      "context": "Piru gang, rival of Barriox13.",
+      "time_period": null
+    },
+    {
+      "standard_name": "WSP",
+      "original_text_name": "WSP",
+      "aliases": [],
+      "type": "gang",
+      "context": "Piru gang, rival of Barriox13.",
+      "time_period": null
     }
   ],
   "edges": [
     {
-      "source": "Barriox13",
-      "target": "West Side Barriox13",
-      "relationship": "other",
-      "detail": "sub-group",
+      "source": "West Side Barriox13",
+      "target": "Barriox13",
+      "relationship": "alliance",
+      "detail": null,
       "context": "West Side Barriox13 is a faction of Barriox13.",
       "time_period": null
     },
     {
-      "source": "Barriox13",
-      "target": "East Side Barriox13",
-      "relationship": "other",
-      "detail": "sub-group",
+      "source": "East Side Barriox13",
+      "target": "Barriox13",
+      "relationship": "alliance",
+      "detail": null,
       "context": "East Side Barriox13 is a faction of Barriox13.",
       "time_period": null
     },
@@ -135,50 +135,10 @@
     },
     {
       "source": "Barriox13",
-      "target": "CPP",
-      "relationship": "rivalry",
+      "target": "Gardena 13",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Barriox13 has conflicts with Piru gangs including CPP.",
-      "time_period": null
-    },
-    {
-      "source": "Barriox13",
-      "target": "WSP",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Barriox13 has conflicts with Piru gangs including WSP.",
-      "time_period": null
-    },
-    {
-      "source": "Barriox13",
-      "target": "135th St Piru",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Barriox13 has conflicts with 135th St Piru.",
-      "time_period": null
-    },
-    {
-      "source": "Barriox13",
-      "target": "CV155st",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Barriox13 maintains conflicts with Hispanic gang CV155st.",
-      "time_period": null
-    },
-    {
-      "source": "Barriox13",
-      "target": "CV Largo36",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Barriox13 maintains conflicts with Hispanic gang CV Largo36.",
-      "time_period": null
-    },
-    {
-      "source": "Barriox13",
-      "target": "CV117st",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Barriox13 maintains conflicts with Hispanic gang CV117st.",
+      "context": "Barriox13 has an alliance with Gardena 13.",
       "time_period": null
     },
     {
@@ -186,7 +146,15 @@
       "target": "Campanella Park Piru",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Barriox13 has clashed with black gang Campanella Park Piru.",
+      "context": "Barriox13 has clashed with Campanella Park Piru.",
+      "time_period": null
+    },
+    {
+      "source": "Barriox13",
+      "target": "135th St Piru",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Barriox13 has clashed with 135th St Piru.",
       "time_period": null
     },
     {
@@ -199,10 +167,42 @@
     },
     {
       "source": "Barriox13",
-      "target": "Gardena 13",
-      "relationship": "alliance",
+      "target": "CV155st",
+      "relationship": "rivalry",
       "detail": null,
-      "context": "Barriox13 has an alliance with Gardena 13.",
+      "context": "Barriox13 maintains conflicts with CV155st.",
+      "time_period": null
+    },
+    {
+      "source": "Barriox13",
+      "target": "CV Largo36",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Barriox13 maintains conflicts with CV Largo36.",
+      "time_period": null
+    },
+    {
+      "source": "Barriox13",
+      "target": "CV117st",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Barriox13 maintains conflicts with CV117st.",
+      "time_period": null
+    },
+    {
+      "source": "Barriox13",
+      "target": "CPP",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Barriox13 has had conflicts with CPP.",
+      "time_period": null
+    },
+    {
+      "source": "Barriox13",
+      "target": "WSP",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Barriox13 has had conflicts with WSP.",
       "time_period": null
     }
   ],

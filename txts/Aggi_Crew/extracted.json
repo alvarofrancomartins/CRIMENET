@@ -3,12 +3,10 @@
     {
       "standard_name": "Aggi Crew",
       "original_text_name": "Aggi Crew",
-      "aliases": [
-        "Aggis"
-      ],
+      "aliases": [],
       "type": "gang",
-      "context": "Criminal drug gang based in St Paul's, Bristol, active in the 1990s.",
-      "time_period": "1990s"
+      "context": "Criminal drug gang based in St Paul's, Bristol, dominated the city's drug market in the 1990s.",
+      "time_period": "1990s-1998"
     },
     {
       "standard_name": "Hype Crew",
@@ -16,7 +14,7 @@
       "aliases": [],
       "type": "gang",
       "context": "Yardie gang that filled the power vacuum after Aggi Crew members were jailed in 1998.",
-      "time_period": "late 1990s"
+      "time_period": "1998"
     },
     {
       "standard_name": "Mountain View Posse",
@@ -24,7 +22,7 @@
       "aliases": [],
       "type": "gang",
       "context": "Yardie gang that filled the power vacuum after Aggi Crew members were jailed in 1998.",
-      "time_period": "late 1990s"
+      "time_period": "1998"
     }
   ],
   "edges": [
@@ -33,16 +31,16 @@
       "target": "Hype Crew",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Turf war after Aggi Crew demanded taxes from Yardies; conflict included shootings and armed police patrols.",
-      "time_period": "late 1990s"
+      "context": "Aggi Crew demanded daily tax from Yardies, leading to a turf war with shootings.",
+      "time_period": "1998"
     },
     {
       "source": "Aggi Crew",
       "target": "Mountain View Posse",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Turf war after Aggi Crew demanded taxes from Yardies; conflict included shootings and armed police patrols.",
-      "time_period": "late 1990s"
+      "context": "Aggi Crew demanded daily tax from Yardies, leading to a turf war with shootings.",
+      "time_period": "1998"
     }
   ],
   "source_file": "Aggi_Crew"

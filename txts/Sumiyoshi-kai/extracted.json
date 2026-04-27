@@ -9,7 +9,7 @@
         "Minato-kai"
       ],
       "type": "mafia",
-      "context": "Second-largest yakuza group in Japan, operates in Tokyo's upscale districts like Kabukichō and Ginza, involved in protection rackets.",
+      "context": "Second-largest yakuza group in Japan, operates in upscale districts like Kabukichō and Ginza, involved in protection rackets.",
       "time_period": "1958-present"
     },
     {
@@ -21,11 +21,19 @@
       "time_period": "1915-present"
     },
     {
+      "standard_name": "Sumiyoshi-ikka",
+      "original_text_name": "Sumiyoshi-ikka",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Parent organization of Sumiyoshi-kai; its leaders became leaders of Sumiyoshi-kai.",
+      "time_period": "pre-1958-present"
+    },
+    {
       "standard_name": "Nishida-gumi",
       "original_text_name": "Nishida-gumi",
       "aliases": [],
       "type": "gang",
-      "context": "Affiliated group of Sumiyoshi-kai, its head was gunned down in 2003.",
+      "context": "Affiliated group of Sumiyoshi-kai; its head was gunned down in 2003.",
       "time_period": "unknown"
     },
     {
@@ -43,23 +51,31 @@
       "target": "Yamaguchi-gumi",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Main rival; involved in shootings and retribution attacks in 2003 and 2007.",
-      "time_period": "at least 2003-2007"
+      "context": "Main rivals; involved in shootings and retributions in 2003 and 2007.",
+      "time_period": "2003-2007"
+    },
+    {
+      "source": "Sumiyoshi-kai",
+      "target": "Sumiyoshi-ikka",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sumiyoshi-kai is a confederation of smaller gangs, with Sumiyoshi-ikka as its parent organization; leaders of Sumiyoshi-ikka also lead Sumiyoshi-kai.",
+      "time_period": "1958-present"
     },
     {
       "source": "Nishida-gumi",
       "target": "Sumiyoshi-kai",
       "relationship": "alliance",
       "detail": null,
-      "context": "Affiliated group of Sumiyoshi-kai.",
+      "context": "Nishida-gumi is an affiliated group of Sumiyoshi-kai.",
       "time_period": "unknown"
     },
     {
       "source": "Kokusui-kai",
       "target": "Sumiyoshi-kai",
-      "relationship": "other",
-      "detail": "affiliated",
-      "context": "Head's death raised tensions between Sumiyoshi-kai and Yamaguchi-gumi, implying affiliation.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kokusui-kai is mentioned in context of tensions with Yamaguchi-gumi, implying affiliation with Sumiyoshi-kai.",
       "time_period": "2007"
     }
   ],

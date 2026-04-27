@@ -7,29 +7,29 @@
         "Motisi clan",
         "Pagliarelli family"
       ],
-      "type": "clan",
+      "type": "mafia",
       "context": "Historical Sicilian Mafia clan from Pagliarelli area in Palermo, active since 1936.",
       "time_period": "1936-present"
     },
     {
-      "standard_name": "Corleonesi Mafia clan",
+      "standard_name": "Corleonesi",
       "original_text_name": "Corleonesi",
       "aliases": [
         "Corleonesi Mafia clan"
       ],
-      "type": "clan",
-      "context": "Sicilian Mafia clan from Corleone, allied with Motisi.",
-      "time_period": "defunct"
+      "type": "mafia",
+      "context": "Sicilian Mafia clan from Corleone, known for taking over the Commission in the 1980s.",
+      "time_period": "1950s-2000s"
     },
     {
       "standard_name": "Inzerillo Mafia clan",
-      "original_text_name": "Inzerillo clan",
+      "original_text_name": "Inzerillo Mafia clan",
       "aliases": [
-        "Inzerillo Mafia clan"
+        "Inzerillo clan"
       ],
-      "type": "clan",
-      "context": "Sicilian Mafia clan, rival of Motisi.",
-      "time_period": null
+      "type": "mafia",
+      "context": "Sicilian Mafia clan from Palermo, rivals of the Corleonesi.",
+      "time_period": "1960s-present"
     },
     {
       "standard_name": "Bontade Mafia family",
@@ -38,26 +38,26 @@
         "Bontade clan",
         "Santa Maria di Gesù family"
       ],
-      "type": "clan",
-      "context": "Sicilian Mafia family from Santa Maria di Gesù, rival of Motisi.",
-      "time_period": "defunct"
+      "type": "mafia",
+      "context": "Sicilian Mafia family from Santa Maria di Gesù, Palermo, led by Stefano Bontade.",
+      "time_period": "1960s-1980s"
     }
   ],
   "edges": [
     {
       "source": "Motisi Mafia clan",
-      "target": "Corleonesi Mafia clan",
+      "target": "Corleonesi",
       "relationship": "alliance",
       "detail": null,
-      "context": "Motisi clan was an ally of the Corleonesi during the Second Mafia War.",
-      "time_period": "1980s-1990s"
+      "context": "Matteo Motisi was an ally of the Corleonesi.",
+      "time_period": "1980s"
     },
     {
       "source": "Motisi Mafia clan",
       "target": "Inzerillo Mafia clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Motisi clan murdered members of the Inzerillo clan during the Second Mafia War.",
+      "context": "Motisi clan killed members of the Inzerillo clan during the Second Mafia War.",
       "time_period": "1981-1983"
     },
     {
@@ -65,7 +65,7 @@
       "target": "Bontade Mafia family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Motisi clan murdered members of the Bontade family during the Second Mafia War.",
+      "context": "Motisi clan killed members of the Bontade family during the Second Mafia War.",
       "time_period": "1981-1983"
     }
   ],

@@ -16,7 +16,7 @@
       "original_text_name": "Hamas",
       "aliases": [],
       "type": "other",
-      "context": "Islamist militant group governing Gaza; rival of Doghmush clan.",
+      "context": "Palestinian Islamist militant group and political faction controlling Gaza.",
       "time_period": "1987-present"
     },
     {
@@ -34,7 +34,7 @@
         "PRC"
       ],
       "type": "militia",
-      "context": "Palestinian militant coalition in Gaza.",
+      "context": "Palestinian militant coalition operating in Gaza.",
       "time_period": "2000-present"
     },
     {
@@ -42,7 +42,7 @@
       "original_text_name": "Al-Qaeda",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Global jihadist network; some Doghmush members affiliated.",
+      "context": "Global Islamist militant network.",
       "time_period": "1988-present"
     },
     {
@@ -52,8 +52,8 @@
         "Jaysh al-Islām"
       ],
       "type": "faction",
-      "context": "Militant group led by Mumtaz Doghmush; involved in kidnapping Alan Johnston.",
-      "time_period": "2000s-2010s"
+      "context": "Militant group formed by Doghmush clan members, involved in kidnapping Alan Johnston.",
+      "time_period": "2007-2008"
     }
   ],
   "edges": [
@@ -70,7 +70,7 @@
       "target": "Fatah",
       "relationship": "alliance",
       "detail": null,
-      "context": "Clan members affiliated with Fatah.",
+      "context": "Clan members are affiliated or aligned with Fatah.",
       "time_period": null
     },
     {
@@ -78,7 +78,7 @@
       "target": "Popular Resistance Committees",
       "relationship": "alliance",
       "detail": null,
-      "context": "Clan members affiliated with PRC; Zakaria Doghmush was secretary general.",
+      "context": "Clan members are affiliated or aligned with Popular Resistance Committees.",
       "time_period": null
     },
     {
@@ -86,16 +86,16 @@
       "target": "Al-Qaeda",
       "relationship": "alliance",
       "detail": null,
-      "context": "Clan members affiliated with Al-Qaeda, involved in kidnapping Alan Johnston.",
+      "context": "Clan members affiliated with Al-Qaeda were involved in kidnapping Alan Johnston.",
       "time_period": "2007"
     },
     {
-      "source": "Doghmush clan",
-      "target": "Army of Islam",
-      "relationship": "other",
-      "detail": "leadership",
-      "context": "Mumtaz Doghmush led the Army of Islam, which was formed by clan members.",
-      "time_period": "2008"
+      "source": "Army of Islam",
+      "target": "Doghmush clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Army of Islam was led by Mumtaz Doghmush and composed of clan members.",
+      "time_period": "2007-2008"
     }
   ],
   "source_file": "Doghmush_clan"

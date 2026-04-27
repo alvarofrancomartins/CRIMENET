@@ -9,7 +9,7 @@
         "Wa State Army"
       ],
       "type": "militia",
-      "context": "Military wing of the United Wa State Party, operates in Wa State, Myanmar. Involved in drug trafficking and armed conflict.",
+      "context": "Military wing of the United Wa State Party, operates in Wa State, Myanmar; involved in drug trafficking and armed conflict.",
       "time_period": "1989-present"
     },
     {
@@ -19,7 +19,7 @@
         "UWSP"
       ],
       "type": "other",
-      "context": "De facto ruling party of Wa State, political wing of the UWSA.",
+      "context": "De facto ruling party of Wa State, formed in 1989 from merger of BNUP and WNC.",
       "time_period": "1989-present"
     },
     {
@@ -29,19 +29,8 @@
         "CPB"
       ],
       "type": "other",
-      "context": "Former communist party whose armed wing collapsed in 1989, leading to UWSA formation.",
+      "context": "Former communist party whose armed wing collapsed in 1989, leading to formation of UWSA.",
       "time_period": "1939-1989"
-    },
-    {
-      "standard_name": "Shan State Army",
-      "original_text_name": "Shan State Army (RCSS)",
-      "aliases": [
-        "RCSS",
-        "SSA"
-      ],
-      "type": "militia",
-      "context": "Shan nationalist militia group, rival of UWSA.",
-      "time_period": "1960s-present"
     },
     {
       "standard_name": "Tatmadaw",
@@ -49,17 +38,38 @@
       "aliases": [
         "Myanmar Armed Forces"
       ],
-      "type": "other",
-      "context": "Myanmar's national military, sometimes allied with UWSA against Shan groups.",
-      "time_period": "1948-present"
+      "type": "militia",
+      "context": "Myanmar's armed forces; has allied with UWSA against Shan groups but also clashed with UWSA.",
+      "time_period": "1940s-present"
+    },
+    {
+      "standard_name": "Shan State Army (RCSS)",
+      "original_text_name": "Shan State Army (RCSS)",
+      "aliases": [
+        "RCSS",
+        "RCSS/SSA"
+      ],
+      "type": "militia",
+      "context": "Shan nationalist militia group; fought against UWSA and Tatmadaw.",
+      "time_period": "1996-present"
     },
     {
       "standard_name": "Mong Tai Army",
-      "original_text_name": "Shan Mong Tai Army",
+      "original_text_name": "Mong Tai Army",
       "aliases": [],
       "type": "militia",
-      "context": "Shan army led by drug kingpin Khun Sa, fought UWSA until 1996.",
+      "context": "Shan army led by Khun Sa; conflicted with UWSA until 1996.",
       "time_period": "1985-1996"
+    },
+    {
+      "standard_name": "Federal Political Negotiation and Consultative Committee",
+      "original_text_name": "Federal Political Negotiation and Consultative Committee",
+      "aliases": [
+        "FPNCC"
+      ],
+      "type": "other",
+      "context": "Alliance of ethnic armed groups led by UWSA since 2017.",
+      "time_period": "2017-present"
     },
     {
       "standard_name": "Myanmar National Democratic Alliance Army",
@@ -68,34 +78,54 @@
         "MNDAA"
       ],
       "type": "militia",
-      "context": "Kokang CPB splinter group, allied with UWSA.",
+      "context": "Kokang CPB splinter group; allied with UWSA and part of FPNCC.",
       "time_period": "1989-present"
     },
     {
-      "standard_name": "Ta'ang Army",
+      "standard_name": "Ta'ang National Liberation Army",
       "original_text_name": "Ta'ang Army",
       "aliases": [
         "TNLA"
       ],
       "type": "militia",
-      "context": "Ethnic armed group, allied with UWSA.",
-      "time_period": "2009-present"
+      "context": "Ethnic armed group allied with UWSA; part of FPNCC.",
+      "time_period": "1992-present"
     },
     {
       "standard_name": "Arakan Army",
       "original_text_name": "Arakan Army",
       "aliases": [],
       "type": "militia",
-      "context": "Ethnic armed group, allied with UWSA.",
+      "context": "Ethnic armed group allied with UWSA; part of FPNCC.",
       "time_period": "2009-present"
     },
     {
-      "standard_name": "ULFA-ATF",
+      "standard_name": "United Liberation Front of Asom - Anti-Talks Faction",
       "original_text_name": "ULFA-ATF",
       "aliases": [],
       "type": "militia",
-      "context": "Assam resistance group, works with UWSA.",
+      "context": "Assam resistance group that works with UWSA, launches attacks in India from Myanmar.",
       "time_period": "1990s-present"
+    },
+    {
+      "standard_name": "Burma National United Party",
+      "original_text_name": "Burma National United Party",
+      "aliases": [
+        "BNUP"
+      ],
+      "type": "other",
+      "context": "Predecessor to UWSP; merged with WNC to form UWSP.",
+      "time_period": "1980s-1989"
+    },
+    {
+      "standard_name": "Wa National Council",
+      "original_text_name": "Wa National Council",
+      "aliases": [
+        "WNC"
+      ],
+      "type": "other",
+      "context": "Founded by Ai Xiaoxue; merged with BNUP to form UWSP.",
+      "time_period": "1984-1989"
     },
     {
       "standard_name": "National Democratic Alliance Army",
@@ -104,15 +134,15 @@
         "NDAA"
       ],
       "type": "militia",
-      "context": "Ally of UWSA in Mongla.",
+      "context": "Allied with UWSA; controls Mongla area.",
       "time_period": "1989-present"
     },
     {
       "standard_name": "Three Brotherhood Alliance",
       "original_text_name": "Three Brotherhood Alliance",
       "aliases": [],
-      "type": "alliance",
-      "context": "Alliance of anti-Junta groups, allegedly supplied by UWSA.",
+      "type": "other",
+      "context": "Alliance of anti-junta groups; allegedly supplied weapons by UWSA.",
       "time_period": "2010s-present"
     },
     {
@@ -122,36 +152,6 @@
       "type": "other",
       "context": "Business conglomerate founded by Wei Hsueh-kang, linked to UWSA drug trade.",
       "time_period": "1998-present"
-    },
-    {
-      "standard_name": "Wa National Council",
-      "original_text_name": "Wa National Council",
-      "aliases": [
-        "WNC"
-      ],
-      "type": "other",
-      "context": "Political group that merged with BNUP to form UWSP.",
-      "time_period": "1984-1989"
-    },
-    {
-      "standard_name": "Burma National United Party",
-      "original_text_name": "Burma National United Party",
-      "aliases": [
-        "BNUP"
-      ],
-      "type": "other",
-      "context": "Predecessor to UWSP, merged with WNC.",
-      "time_period": "1980s-1989"
-    },
-    {
-      "standard_name": "Shan State Army (RCSS)",
-      "original_text_name": "Shan State Army (RCSS)",
-      "aliases": [
-        "RCSS"
-      ],
-      "type": "militia",
-      "context": "Shan nationalist militia group opposed by UWSA and Tatmadaw.",
-      "time_period": "unknown"
     },
     {
       "standard_name": "Karenni National People's Liberation Front",
@@ -190,118 +190,136 @@
     {
       "source": "United Wa State Army",
       "target": "United Wa State Party",
-      "relationship": "other",
-      "detail": "military wing",
-      "context": "UWSA is the military wing of the UWSP.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "UWSA is the military wing of UWSP.",
       "time_period": "1989-present"
     },
     {
       "source": "United Wa State Army",
       "target": "Communist Party of Burma",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "UWSA formed after the collapse of CPB's armed wing in 1989.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "UWSA formed after collapse of CPB's armed wing; UWSA originated from CPB mutiny.",
       "time_period": "1989"
     },
     {
       "source": "United Wa State Army",
       "target": "Tatmadaw",
       "relationship": "alliance",
-      "context": "Tatmadaw frequently allied with UWSA to fight Shan nationalist groups.",
-      "time_period": "1990s-2009"
+      "detail": null,
+      "context": "Tatmadaw frequently allied with UWSA to fight Shan groups; signed ceasefire and peace deals.",
+      "time_period": "1989-2009, 2013-present"
     },
     {
       "source": "United Wa State Army",
-      "target": "Shan State Army",
+      "target": "Shan State Army (RCSS)",
       "relationship": "rivalry",
-      "context": "UWSA fought against Shan State Army (RCSS) and other Shan groups.",
+      "detail": null,
+      "context": "UWSA fought against Shan State Army (RCSS) alongside Tatmadaw.",
       "time_period": "1990s-present"
     },
     {
       "source": "United Wa State Army",
       "target": "Mong Tai Army",
       "relationship": "rivalry",
-      "context": "UWSA was involved in conflict against the Shan Mong Tai Army until 1996.",
+      "detail": null,
+      "context": "UWSA was in conflict with Mong Tai Army until 1996.",
       "time_period": "until 1996"
+    },
+    {
+      "source": "United Wa State Army",
+      "target": "Federal Political Negotiation and Consultative Committee",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "UWSA effectively leads FPNCC since 2017.",
+      "time_period": "2017-present"
     },
     {
       "source": "United Wa State Army",
       "target": "Myanmar National Democratic Alliance Army",
       "relationship": "alliance",
-      "context": "UWSA maintains close links with MNDAA, providing Chinese weapons.",
+      "detail": null,
+      "context": "UWSA maintains close links with MNDAA; provides Chinese weapons.",
       "time_period": "2017-present"
     },
     {
       "source": "United Wa State Army",
-      "target": "Ta'ang Army",
+      "target": "Ta'ang National Liberation Army",
       "relationship": "alliance",
-      "context": "UWSA maintains close links with Ta'ang Army, providing weapons.",
-      "time_period": "2017-present"
+      "detail": null,
+      "context": "UWSA maintains close links with TNLA; provided weapons and financial aid until 2025.",
+      "time_period": "2017-2025"
     },
     {
       "source": "United Wa State Army",
       "target": "Arakan Army",
       "relationship": "alliance",
-      "context": "UWSA maintains close links with Arakan Army, providing weapons.",
+      "detail": null,
+      "context": "UWSA maintains close links with Arakan Army; provides Chinese weapons.",
       "time_period": "2017-present"
     },
     {
       "source": "United Wa State Army",
-      "target": "ULFA-ATF",
+      "target": "United Liberation Front of Asom - Anti-Talks Faction",
       "relationship": "alliance",
-      "context": "UWSA works with ULFA-ATF, an Assam resistance group.",
+      "detail": null,
+      "context": "UWSA works with ULFA-ATF, providing mobile bases in Myanmar.",
       "time_period": "unknown"
-    },
-    {
-      "source": "United Wa State Army",
-      "target": "National Democratic Alliance Army",
-      "relationship": "alliance",
-      "context": "UWSA allied with NDAA, with Mong Pawk serving as a link.",
-      "time_period": "1990s-present"
-    },
-    {
-      "source": "United Wa State Army",
-      "target": "Three Brotherhood Alliance",
-      "relationship": "other",
-      "detail": "supplier",
-      "context": "UWSA allegedly supplies weapons to anti-Junta groups like the Three Brotherhood Alliance.",
-      "time_period": "unknown"
-    },
-    {
-      "source": "United Wa State Army",
-      "target": "Hong Pang Group",
-      "relationship": "other",
-      "detail": "affiliated",
-      "context": "Hong Pang Group was founded by Wei Hsueh-kang, a UWSA narcotics trafficker.",
-      "time_period": "1998-present"
     },
     {
       "source": "United Wa State Party",
       "target": "Burma National United Party",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "UWSP formed as a merger of BNUP and WNC.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "UWSP formed from merger of BNUP and WNC.",
       "time_period": "1989"
     },
     {
       "source": "United Wa State Party",
       "target": "Wa National Council",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "UWSP formed as a merger of BNUP and WNC.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "UWSP formed from merger of BNUP and WNC.",
       "time_period": "1989"
     },
     {
       "source": "United Wa State Army",
-      "target": "Shan State Army (RCSS)",
-      "relationship": "rivalry",
-      "context": "UWSA and Tatmadaw have frequently allied to fight against RCSS.",
+      "target": "National Democratic Alliance Army",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "UWSA allied with NDAA; Mong Pawk serves as link with NDAA.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "United Wa State Army",
+      "target": "Three Brotherhood Alliance",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "UWSA allegedly supplies weapons to Three Brotherhood Alliance.",
       "time_period": "unknown"
+    },
+    {
+      "source": "United Wa State Army",
+      "target": "Hong Pang Group",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hong Pang Group founded by Wei Hsueh-kang, linked to UWSA drug trade.",
+      "time_period": "1998-present"
+    },
+    {
+      "source": "Myanmar National Democratic Alliance Army",
+      "target": "Communist Party of Burma",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "MNDAA is a Kokang CPB splinter group.",
+      "time_period": "1989"
     },
     {
       "source": "United Wa State Army",
       "target": "Karenni National People's Liberation Front",
       "relationship": "alliance",
+      "detail": null,
       "context": "Karenni National People's Liberation Front is listed as a non-state ally of UWSA.",
       "time_period": "unknown"
     },
@@ -309,6 +327,7 @@
       "source": "United Wa State Army",
       "target": "United Liberation Front of Assam",
       "relationship": "alliance",
+      "detail": null,
       "context": "United Liberation Front of Assam is listed as a non-state ally of UWSA.",
       "time_period": "unknown"
     },
@@ -316,6 +335,7 @@
       "source": "United Wa State Army",
       "target": "Shan State National Army",
       "relationship": "rivalry",
+      "detail": null,
       "context": "Shan State National Army was an opponent of UWSA until 2005.",
       "time_period": "until 2005"
     },
@@ -323,6 +343,7 @@
       "source": "United Wa State Army",
       "target": "Wa National Army",
       "relationship": "rivalry",
+      "detail": null,
       "context": "Wa National Army was an opponent of UWSA until 2007.",
       "time_period": "until 2007"
     }

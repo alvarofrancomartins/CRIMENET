@@ -7,7 +7,7 @@
         "Caro Quintero Organization"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel operating in northern Mexico and US border states, involved in drug trafficking, money laundering, extortion, murder, and arms trafficking.",
+      "context": "Mexican drug cartel operating in Sonora and neighboring states, involved in drug trafficking and money laundering.",
       "time_period": "1987-2007"
     },
     {
@@ -15,7 +15,7 @@
       "original_text_name": "Tijuana Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel that incorporated leaders of the disintegrated Sonora Cartel.",
+      "context": "Mexican drug cartel based in Tijuana, Baja California.",
       "time_period": null
     },
     {
@@ -23,7 +23,7 @@
       "original_text_name": "Sinaloa Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel that acquired the Sonora Cartel by 2007 and incorporated its leaders.",
+      "context": "Mexican drug cartel based in Sinaloa, one of the largest and most powerful cartels.",
       "time_period": null
     },
     {
@@ -31,7 +31,7 @@
       "original_text_name": "Colima Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel that became a branch of the Sinaloa Cartel by 2007.",
+      "context": "Mexican drug cartel based in Colima, became a branch of Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -39,7 +39,7 @@
       "original_text_name": "Milenio Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel that became a branch of the Sinaloa Cartel by 2007.",
+      "context": "Mexican drug cartel based in Jalisco, became a branch of Sinaloa Cartel.",
       "time_period": null
     },
     {
@@ -47,7 +47,7 @@
       "original_text_name": "Guadalajara Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Mexican drug cartel that dissolved after 1989; the Sonora Cartel's roots are in this cartel.",
+      "context": "Mexican drug cartel that dissolved after the arrest of its co-founder in 1989.",
       "time_period": null
     },
     {
@@ -55,7 +55,7 @@
       "original_text_name": "Cali Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel that shipped cocaine to the Sonora Cartel.",
+      "context": "Colombian drug cartel based in Cali, involved in cocaine trafficking.",
       "time_period": null
     },
     {
@@ -63,7 +63,7 @@
       "original_text_name": "Medellin Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Colombian drug cartel listed as an ally of the Sonora Cartel.",
+      "context": "Colombian drug cartel based in Medellin, involved in cocaine trafficking.",
       "time_period": null
     },
     {
@@ -71,7 +71,7 @@
       "original_text_name": "Los Salazar",
       "aliases": [],
       "type": "faction",
-      "context": "Affiliate of the Sinaloa Cartel that became a major figure in Sonora's drug trafficking business.",
+      "context": "Affiliate of Sinaloa Cartel operating in Sonora.",
       "time_period": null
     }
   ],
@@ -79,41 +79,41 @@
     {
       "source": "Sonora Cartel",
       "target": "Tijuana Cartel",
-      "relationship": "other",
-      "detail": "incorporation",
-      "context": "Upon the Sonora Cartel's disintegration, its leaders were incorporated into the Tijuana Cartel.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Upon disintegration, Sonora Cartel leaders were incorporated into Tijuana Cartel.",
       "time_period": null
     },
     {
       "source": "Sonora Cartel",
       "target": "Sinaloa Cartel",
-      "relationship": "other",
-      "detail": "acquisition",
-      "context": "By 2007, the Sinaloa Cartel had acquired the Sonora Cartel, making it defunct.",
-      "time_period": "by 2007"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Upon disintegration, Sonora Cartel leaders were incorporated into Sinaloa Cartel; by 2007, Sinaloa Cartel acquired Sonora Cartel.",
+      "time_period": "2007"
     },
     {
-      "source": "Colima Cartel",
-      "target": "Sinaloa Cartel",
-      "relationship": "other",
-      "detail": "subsidiary",
-      "context": "By 2007, the Colima Cartel became a branch of the Sinaloa Cartel.",
-      "time_period": "by 2007"
+      "source": "Sonora Cartel",
+      "target": "Colima Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both became branches of Sinaloa Cartel by 2007.",
+      "time_period": "2007"
     },
     {
-      "source": "Milenio Cartel",
-      "target": "Sinaloa Cartel",
-      "relationship": "other",
-      "detail": "subsidiary",
-      "context": "By 2007, the Milenio Cartel became a branch of the Sinaloa Cartel.",
-      "time_period": "by 2007"
+      "source": "Sonora Cartel",
+      "target": "Milenio Cartel",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both became branches of Sinaloa Cartel by 2007.",
+      "time_period": "2007"
     },
     {
       "source": "Sonora Cartel",
       "target": "Guadalajara Cartel",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "The Sonora Cartel's roots are in the Guadalajara Cartel, which dissolved after 1989.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sonora Cartel's roots are in the Guadalajara Cartel; co-founders were part of Guadalajara Cartel.",
       "time_period": null
     },
     {
@@ -121,7 +121,7 @@
       "target": "Cali Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Sonora Cartel shipped cocaine from the Cali Cartel.",
+      "context": "Sonora Cartel shipped cocaine from Cali Cartel.",
       "time_period": null
     },
     {
@@ -129,15 +129,15 @@
       "target": "Medellin Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Medellin Cartel is listed as an ally of the Sonora Cartel.",
+      "context": "Listed as an ally in the infobox.",
       "time_period": null
     },
     {
       "source": "Los Salazar",
       "target": "Sinaloa Cartel",
-      "relationship": "other",
-      "detail": "affiliate",
-      "context": "Los Salazar is an affiliate of the Sinaloa Cartel operating in Sonora.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Salazar is an affiliate of Sinaloa Cartel.",
       "time_period": null
     }
   ],

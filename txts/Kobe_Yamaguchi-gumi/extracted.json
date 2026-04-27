@@ -16,16 +16,16 @@
       "original_text_name": "Yamaken-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Core organization of Kobe Yamaguchi-gumi, later rejoined Yamaguchi-gumi.",
-      "time_period": "2015-2023"
+      "context": "Kobe-based yakuza group, core organization of Kobe Yamaguchi-gumi, later rejoined Yamaguchi-gumi.",
+      "time_period": null
     },
     {
       "standard_name": "Takumi-gumi",
       "original_text_name": "Takumi-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Osaka-based yakuza group that was part of Kobe Yamaguchi-gumi, later split.",
-      "time_period": "2015-2023"
+      "context": "Osaka-based yakuza group, part of Kobe Yamaguchi-gumi, later split.",
+      "time_period": null
     },
     {
       "standard_name": "Kyoyu-kai",
@@ -33,7 +33,7 @@
       "aliases": [],
       "type": "mafia",
       "context": "Yakuza group that was part of Kobe Yamaguchi-gumi, later disbanded.",
-      "time_period": "2015-2023"
+      "time_period": null
     },
     {
       "standard_name": "Sixth Yamaguchi-gumi",
@@ -42,8 +42,8 @@
         "Yamaguchi-gumi"
       ],
       "type": "mafia",
-      "context": "Major yakuza syndicate from which Kobe Yamaguchi-gumi split in 2015.",
-      "time_period": "1915-present"
+      "context": "Major yakuza syndicate from which Kobe Yamaguchi-gumi broke away in 2015.",
+      "time_period": null
     },
     {
       "standard_name": "Kizuna-kai",
@@ -53,7 +53,7 @@
       ],
       "type": "mafia",
       "context": "Yakuza group that split from Kobe Yamaguchi-gumi, listed as a rival.",
-      "time_period": "2015-present"
+      "time_period": null
     },
     {
       "standard_name": "Ikeda-gumi",
@@ -61,7 +61,7 @@
       "aliases": [],
       "type": "mafia",
       "context": "Yakuza group that split from Kobe Yamaguchi-gumi.",
-      "time_period": "2015-2023"
+      "time_period": null
     },
     {
       "standard_name": "Masaki-gumi",
@@ -69,7 +69,7 @@
       "aliases": [],
       "type": "mafia",
       "context": "Yakuza group that was part of Kobe Yamaguchi-gumi, later disbanded.",
-      "time_period": "2015-2023"
+      "time_period": null
     }
   ],
   "edges": [
@@ -84,26 +84,26 @@
     {
       "source": "Kobe Yamaguchi-gumi",
       "target": "Yamaken-gumi",
-      "relationship": "other",
-      "detail": "core component",
-      "context": "Yamaken-gumi was the core organization of Kobe Yamaguchi-gumi until it rejoined Yamaguchi-gumi.",
-      "time_period": "2015-2023"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Yamaken-gumi was the core organization of Kobe Yamaguchi-gumi before rejoining Yamaguchi-gumi.",
+      "time_period": "2015-? (until rejoining)"
     },
     {
       "source": "Kobe Yamaguchi-gumi",
       "target": "Takumi-gumi",
-      "relationship": "other",
-      "detail": "former component",
-      "context": "Takumi-gumi was part of Kobe Yamaguchi-gumi but later split.",
-      "time_period": "2015-2023"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Takumi-gumi was part of Kobe Yamaguchi-gumi before splitting.",
+      "time_period": "2015-? (until split)"
     },
     {
       "source": "Kobe Yamaguchi-gumi",
       "target": "Kyoyu-kai",
-      "relationship": "other",
-      "detail": "former component",
-      "context": "Kyoyu-kai was part of Kobe Yamaguchi-gumi but later disbanded.",
-      "time_period": "2015-2023"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kyoyu-kai was part of Kobe Yamaguchi-gumi before disbanding.",
+      "time_period": "2015-? (until disbandment)"
     },
     {
       "source": "Kobe Yamaguchi-gumi",
@@ -111,23 +111,23 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Kizuna-kai split from Kobe Yamaguchi-gumi and is listed as a rival.",
-      "time_period": "2015-present"
+      "time_period": null
     },
     {
       "source": "Kobe Yamaguchi-gumi",
       "target": "Ikeda-gumi",
-      "relationship": "other",
-      "detail": "former component",
-      "context": "Ikeda-gumi split from Kobe Yamaguchi-gumi.",
-      "time_period": "2015-2023"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ikeda-gumi was part of Kobe Yamaguchi-gumi before splitting.",
+      "time_period": "2015-? (until split)"
     },
     {
       "source": "Kobe Yamaguchi-gumi",
       "target": "Masaki-gumi",
-      "relationship": "other",
-      "detail": "former component",
-      "context": "Masaki-gumi was part of Kobe Yamaguchi-gumi but later disbanded.",
-      "time_period": "2015-2023"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Masaki-gumi was part of Kobe Yamaguchi-gumi before disbanding.",
+      "time_period": "2015-? (until disbandment)"
     }
   ],
   "source_file": "Kobe_Yamaguchi-gumi"

@@ -7,6 +7,7 @@
         "Dragna crime family",
         "L.A. Mafia",
         "L.A. crime family",
+        "L.A. family",
         "Los Angeles Cosa Nostra family",
         "Mickey Mouse Mafia",
         "Southern California crime family"
@@ -20,7 +21,7 @@
       "original_text_name": "American Mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Umbrella term for Italian American Mafia families across the United States.",
+      "context": "Umbrella term for Italian American Mafia families in the United States.",
       "time_period": "late 19th century-present"
     },
     {
@@ -38,7 +39,7 @@
         "Matranga gang"
       ],
       "type": "mafia",
-      "context": "Early Italian American organized crime group in Los Angeles, involved in extortion and violence.",
+      "context": "Early Italian street gang in Los Angeles, of Arbereshe origin, involved in extortion and violence.",
       "time_period": "1905-1930"
     },
     {
@@ -60,11 +61,17 @@
     {
       "standard_name": "National Mafia Syndicate",
       "original_text_name": "National Mafia Syndicate",
-      "aliases": [
-        "The Commission"
-      ],
+      "aliases": [],
       "type": "other",
-      "context": "Coordinating body of American Mafia families, also known as The Commission.",
+      "context": "Umbrella organization of American Mafia families, also known as The Commission.",
+      "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "The Commission",
+      "original_text_name": "The Commission",
+      "aliases": [],
+      "type": "other",
+      "context": "Governing body of the American Mafia, consisting of bosses from major families.",
       "time_period": "1931-present"
     },
     {
@@ -72,7 +79,7 @@
       "original_text_name": "Bonanno crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "New York Mafia family; boss Joseph Bonanno plotted to kill Frank DeSimone.",
+      "context": "New York Mafia family; Joseph Bonanno plotted to kill Frank DeSimone in the 1960s.",
       "time_period": "1930s-present"
     },
     {
@@ -80,19 +87,19 @@
       "original_text_name": "Buffalo crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Mafia family based in Buffalo, New York; allied with Los Angeles in Las Vegas operations and involved in murder of Herbert Blitzstein.",
+      "context": "Mafia family based in Buffalo, New York; allied with Los Angeles family in Las Vegas operations.",
       "time_period": "1910s-present"
     },
     {
-      "standard_name": "Gambino crime family",
+      "standard_name": "Gambino family",
       "original_text_name": "Gambino family",
       "aliases": [],
       "type": "mafia",
-      "context": "New York Mafia family; Tommaso Gambino is son of Rosario Gambino, a member of its Sicilian faction.",
+      "context": "New York Mafia family; Tommaso Gambino is the son of Rosario Gambino, a member of the New Jersey-based Sicilian faction.",
       "time_period": "1910s-present"
     },
     {
-      "standard_name": "Colombo crime family",
+      "standard_name": "Colombo family",
       "original_text_name": "Colombo family",
       "aliases": [],
       "type": "mafia",
@@ -100,11 +107,19 @@
       "time_period": "1920s-present"
     },
     {
+      "standard_name": "Bonnano family",
+      "original_text_name": "Bonnano family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York Mafia family; soldier Salvatore Giglio associated with Tommaso Gambino.",
+      "time_period": "1930s-present"
+    },
+    {
       "standard_name": "Musitano crime family",
       "original_text_name": "Musitano crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "Canadian Mafia family; associate Albert Iavarone was inducted into Los Angeles family.",
+      "context": "Canadian Mafia family; associate Albert Iavarone was inducted into the Los Angeles family.",
       "time_period": "1950s-present"
     },
     {
@@ -132,11 +147,27 @@
       "time_period": null
     },
     {
+      "standard_name": "Colombo crime family",
+      "original_text_name": "Colombo crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York Mafia family, listed as an ally.",
+      "time_period": null
+    },
+    {
       "standard_name": "Detroit Partnership",
       "original_text_name": "Detroit Partnership",
       "aliases": [],
       "type": "mafia",
       "context": "Michigan-based Mafia family, listed as an ally.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [],
+      "type": "mafia",
+      "context": "New York Mafia family, listed as an ally.",
       "time_period": null
     },
     {
@@ -218,15 +249,15 @@
       "target": "Los Angeles crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Chicago Outfit represented the Los Angeles family on The Commission after boss Jack Dragna's death in 1956.",
+      "context": "The Chicago Outfit represented the Los Angeles family on The Commission after boss Jack Dragna's death in 1956.",
       "time_period": "1956-present"
     },
     {
       "source": "Matranga family",
       "target": "Los Angeles crime family",
-      "relationship": "rivalry",
+      "relationship": "alliance",
       "detail": null,
-      "context": "The Matranga family was a predecessor and rival to the Ardizzone/Dragna faction that became the Los Angeles crime family.",
+      "context": "The Matranga family was a predecessor to the Los Angeles crime family, eventually eliminated by Ardizzone's faction.",
       "time_period": "1905-1930"
     },
     {
@@ -234,7 +265,7 @@
       "target": "Los Angeles crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The City Hall Gang controlled bootlegging and vice in Los Angeles in the 1920s, competing with the emerging Mafia.",
+      "context": "Albert Marco of the City Hall Gang seized control of Los Angeles in the 1920s, conflicting with the local Mafia.",
       "time_period": "1920s"
     },
     {
@@ -242,7 +273,7 @@
       "target": "Los Angeles crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Vito Di Giorgio, a Los Angeles mobster, was a cousin and associate of Giuseppe Morello, boss of the Morello crime family.",
+      "context": "Vito Di Giorgio, a predecessor figure, was a cousin and associate of Giuseppe Morello, first boss of the Morello crime family.",
       "time_period": "1920-1922"
     },
     {
@@ -250,7 +281,15 @@
       "target": "National Mafia Syndicate",
       "relationship": "alliance",
       "detail": null,
-      "context": "Jack Dragna made peace with the National Mafia Syndicate and secured a seat on The Commission.",
+      "context": "Jack Dragna made peace with the National Mafia Syndicate after taking control of the family.",
+      "time_period": "1931-1956"
+    },
+    {
+      "source": "Los Angeles crime family",
+      "target": "The Commission",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Jack Dragna was the only boss west of Chicago to hold a seat on The Commission.",
       "time_period": "1931-1956"
     },
     {
@@ -258,7 +297,7 @@
       "target": "Chicago Outfit",
       "relationship": "alliance",
       "detail": null,
-      "context": "Chicago Outfit represented Los Angeles on The Commission after Jack Dragna's death; members like Roselli and Fratianno transferred between families.",
+      "context": "Chicago Outfit represented Los Angeles on The Commission after Jack Dragna's death; members transferred between families.",
       "time_period": "1956-present"
     },
     {
@@ -266,7 +305,7 @@
       "target": "Bonanno crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Bonanno boss Joseph Bonanno plotted to kill Los Angeles boss Frank DeSimone for failing to exploit criminal opportunities.",
+      "context": "Bonanno boss Joseph Bonanno plotted to kill Los Angeles boss Frank DeSimone in the 1960s.",
       "time_period": "1960s"
     },
     {
@@ -274,32 +313,40 @@
       "target": "Buffalo crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both families moved into Las Vegas together and were involved in the murder of Chicago Outfit associate Herbert Blitzstein.",
+      "context": "The families collaborated in Las Vegas operations and the murder of Chicago Outfit associate Herbert Blitzstein in 1997.",
       "time_period": "1990s"
-    },
-    {
-      "source": "Los Angeles crime family",
-      "target": "Gambino crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Tommaso Gambino, son of Gambino family member Rosario Gambino, became boss of Los Angeles family.",
-      "time_period": "2012-present"
-    },
-    {
-      "source": "Los Angeles crime family",
-      "target": "Colombo crime family",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Colombo capo Dominic Montemarano partnered with Tommaso Gambino in a payphone company.",
-      "time_period": "2000s-2010s"
     },
     {
       "source": "Los Angeles crime family",
       "target": "Musitano crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Musitano associate Albert Iavarone was inducted into Los Angeles family as a liaison between Canadian and American Mafia.",
+      "context": "Musitano associate Albert Iavarone was inducted into the Los Angeles family as a liaison between Canadian and American Mafia.",
       "time_period": "2018"
+    },
+    {
+      "source": "Los Angeles crime family",
+      "target": "Gambino family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Tommaso Gambino, son of Gambino family member Rosario Gambino, became boss of the Los Angeles family.",
+      "time_period": "2012-present"
+    },
+    {
+      "source": "Los Angeles crime family",
+      "target": "Colombo family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Colombo capo Dominic Montemarano partnered with Tommaso Gambino in a payphone company.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Los Angeles crime family",
+      "target": "Bonnano family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bonnano soldier Salvatore Giglio associated with Tommaso Gambino.",
+      "time_period": "2000s"
     },
     {
       "source": "Los Angeles crime family",
@@ -327,7 +374,23 @@
     },
     {
       "source": "Los Angeles crime family",
+      "target": "Colombo crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Los Angeles crime family",
       "target": "Detroit Partnership",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Listed as ally in infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Los Angeles crime family",
+      "target": "Gambino crime family",
       "relationship": "alliance",
       "detail": null,
       "context": "Listed as ally in infobox.",

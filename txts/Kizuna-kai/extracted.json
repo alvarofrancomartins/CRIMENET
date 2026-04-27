@@ -26,7 +26,7 @@
       "original_text_name": "Kobe Yamaguchi-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Splinter group from Yamaguchi-gumi formed in 2015, based in Kobe, Japan.",
+      "context": "Yakuza group formed in 2015 from a split of the Yamaguchi-gumi, based in Kobe.",
       "time_period": "2015-present"
     },
     {
@@ -34,7 +34,7 @@
       "original_text_name": "Yamaken-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Affiliate of Kobe Yamaguchi-gumi, core organization of the Kobe Yamaguchi-gumi.",
+      "context": "Yakuza group, core organization of the Kobe Yamaguchi-gumi affiliate.",
       "time_period": null
     },
     {
@@ -42,7 +42,7 @@
       "original_text_name": "Keiji Union",
       "aliases": [],
       "type": "mafia",
-      "context": "Group that split from Tankai-ikka and joined Ninkyo-dantai-Yamaguchi-gumi.",
+      "context": "Yakuza group that split from the 6th generation Yamaguchi-gumi-affiliated Tankai-ikka.",
       "time_period": null
     },
     {
@@ -50,7 +50,7 @@
       "original_text_name": "Tankai-ikka",
       "aliases": [],
       "type": "mafia",
-      "context": "Affiliate of the 6th generation Yamaguchi-gumi, from which Keiji Union split.",
+      "context": "Yakuza group affiliated with the 6th generation Yamaguchi-gumi.",
       "time_period": null
     },
     {
@@ -61,7 +61,7 @@
         "4th generation Manabe-gumi"
       ],
       "type": "mafia",
-      "context": "Yakuza group whose office was used by Ninkyo Yamaguchi-gumi; later disbanded.",
+      "context": "Yakuza group that was used as headquarters for Ninkyo Yamaguchi-gumi; disbanded in 2020.",
       "time_period": null
     },
     {
@@ -69,17 +69,17 @@
       "original_text_name": "Ikeda-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Ally of Kizuna-kai according to infobox.",
+      "context": "Yakuza group allied with Kizuna-kai.",
       "time_period": null
     },
     {
       "standard_name": "Oda Kogyo",
       "original_text_name": "Oda Kogyo",
       "aliases": [
-        "3rd generation Oda Kogyo"
+        "third generation Oda Kogyo"
       ],
       "type": "mafia",
-      "context": "Yakuza group whose chairman was a top executive of Kizuna-kai before expulsion.",
+      "context": "Yakuza group whose chairman was a top executive of Kizuna-kai until expelled in 2022.",
       "time_period": null
     }
   ],
@@ -89,23 +89,15 @@
       "target": "Kobe Yamaguchi-gumi",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Kizuna-kai formed from members who rebelled against Kobe Yamaguchi-gumi.",
+      "context": "Kizuna-kai formed from a rebellion of some Kobe Yamaguchi-gumi members, leading to rivalry.",
       "time_period": "2017-present"
-    },
-    {
-      "source": "Kobe Yamaguchi-gumi",
-      "target": "Yamaguchi-gumi",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Kobe Yamaguchi-gumi split from Yamaguchi-gumi in 2015.",
-      "time_period": "2015-present"
     },
     {
       "source": "Kizuna-kai",
       "target": "Yamaguchi-gumi",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Kizuna-kai is a rival of Yamaguchi-gumi according to infobox.",
+      "context": "Kizuna-kai is a splinter from the Yamaguchi-gumi lineage and is listed as a rival.",
       "time_period": "2017-present"
     },
     {
@@ -113,40 +105,56 @@
       "target": "Ikeda-gumi",
       "relationship": "alliance",
       "detail": null,
-      "context": "Ikeda-gumi is listed as an ally of Kizuna-kai in infobox.",
+      "context": "Ikeda-gumi is listed as an ally of Kizuna-kai.",
       "time_period": null
     },
     {
-      "source": "Keiji Union",
-      "target": "Tankai-ikka",
+      "source": "Kobe Yamaguchi-gumi",
+      "target": "Yamaguchi-gumi",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Keiji Union split from Tankai-ikka.",
+      "context": "Kobe Yamaguchi-gumi split from Yamaguchi-gumi in 2015, creating a rivalry.",
+      "time_period": "2015-present"
+    },
+    {
+      "source": "Kizuna-kai",
+      "target": "Yamaken-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Yamaken-gumi is the core organization of the Kobe Yamaguchi-gumi affiliate, and Kizuna-kai's founding ceremony included its vice-chairman.",
       "time_period": "2017"
     },
     {
       "source": "Keiji Union",
-      "target": "Kizuna-kai",
+      "target": "Tankai-ikka",
       "relationship": "alliance",
       "detail": null,
-      "context": "Keiji Union joined Ninkyo-dantai-Yamaguchi-gumi (later Kizuna-kai) in 2017.",
+      "context": "Keiji Union split from Tankai-ikka, which is affiliated with the 6th generation Yamaguchi-gumi.",
+      "time_period": null
+    },
+    {
+      "source": "Kizuna-kai",
+      "target": "Keiji Union",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Members of Kizuna-kai attended the formation ceremony of Keiji Union, and it is believed Keiji Union joined Kizuna-kai.",
       "time_period": "2017"
     },
     {
       "source": "Kizuna-kai",
       "target": "Manabe-gumi",
-      "relationship": "other",
-      "detail": "used office",
-      "context": "Kizuna-kai used Manabe-gumi's office as headquarters.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Manabe-gumi's office was used as Kizuna-kai's headquarters; Manabe-gumi later disbanded.",
       "time_period": "2017-2020"
     },
     {
-      "source": "Kizuna-kai",
-      "target": "Oda Kogyo",
-      "relationship": "other",
-      "detail": "former affiliation",
-      "context": "Chairman of Oda Kogyo was a top executive of Kizuna-kai until expelled in 2022.",
-      "time_period": "2017-2022"
+      "source": "Oda Kogyo",
+      "target": "Kizuna-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The chairman of Oda Kogyo was a top executive of Kizuna-kai until expelled in 2022.",
+      "time_period": "until 2022"
     }
   ],
   "source_file": "Kizuna-kai"

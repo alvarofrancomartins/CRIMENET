@@ -31,7 +31,7 @@
       "original_text_name": "Kobe Yamaguchi-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Splinter group formed in 2015 from Yamaguchi-gumi, later Takumi-gumi withdrew from it.",
+      "context": "Splinter group formed in 2015 by Takumi-gumi and others withdrawing from Yamaguchi-gumi.",
       "time_period": "2015-present"
     }
   ],
@@ -41,7 +41,7 @@
       "target": "Yamaguchi-gumi",
       "relationship": "alliance",
       "detail": null,
-      "context": "Takumi-gumi was a subsidiary of Yamaguchi-gumi until 2015.",
+      "context": "Takumi-gumi was a sub-group of Yamaguchi-gumi until 2015.",
       "time_period": "1967-2015"
     },
     {
@@ -57,16 +57,16 @@
       "target": "Kobe Yamaguchi-gumi",
       "relationship": "alliance",
       "detail": null,
-      "context": "Takumi-gumi joined Kobe Yamaguchi-gumi in 2015 after leaving Yamaguchi-gumi.",
+      "context": "Takumi-gumi was a founding member of Kobe Yamaguchi-gumi in 2015.",
       "time_period": "2015-2022"
     },
     {
-      "source": "Takumi-gumi",
-      "target": "Kobe Yamaguchi-gumi",
-      "relationship": "other",
-      "detail": "withdrawal",
-      "context": "Takumi-gumi withdrew from Kobe Yamaguchi-gumi in 2022.",
-      "time_period": "2022"
+      "source": "Kobe Yamaguchi-gumi",
+      "target": "Yamaguchi-gumi",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Kobe Yamaguchi-gumi formed as a splinter from Yamaguchi-gumi in 2015.",
+      "time_period": "2015-present"
     }
   ],
   "source_file": "Takumi-gumi"

@@ -9,7 +9,7 @@
         "Unione Corse"
       ],
       "type": "mafia",
-      "context": "Collective of criminal groups from Corsica, involved in drug trafficking, racketeering, and other illegal activities.",
+      "context": "Collective of criminal groups from Corsica, involved in drug trafficking, racketeering, and other crimes in France, North Africa, and Latin America.",
       "time_period": "c. 1910s-present"
     },
     {
@@ -18,8 +18,8 @@
       "aliases": [
         "Guerini brothers"
       ],
-      "type": "faction",
-      "context": "Corsican mafia faction led by Antoine and Barthélémy Guerini, active in Marseille.",
+      "type": "gang",
+      "context": "Corsican criminal group led by Antoine and Barthélémy Guerini, active in Marseille from 1940s to 1960s.",
       "time_period": "1940s-1960s"
     },
     {
@@ -27,8 +27,8 @@
       "original_text_name": "American Mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian-American organized crime groups operating in the United States.",
-      "time_period": "c. 1900s-present"
+      "context": "Italian-American organized crime groups that partnered with Corsican mafia in the French Connection heroin trade.",
+      "time_period": "1930s-present"
     },
     {
       "standard_name": "Brise de Mer",
@@ -37,7 +37,7 @@
         "Gang de la Brise de Mer"
       ],
       "type": "gang",
-      "context": "Major Corsican criminal group, one of the largest in Corsica and France.",
+      "context": "Major Corsican criminal group that emerged in the 1970s, became one of the largest in Corsica and France.",
       "time_period": "1970-present"
     },
     {
@@ -45,7 +45,7 @@
       "original_text_name": "Venzolasca Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Corsican gang considered successors to Brise de Mer, based in Venzolasca.",
+      "context": "Corsican criminal group considered successors to Brise de Mer, named after the village of Venzolasca.",
       "time_period": "2000s-present"
     },
     {
@@ -53,7 +53,7 @@
       "original_text_name": "Petit Bar Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Corsican gang based in Ajaccio, active in mafia-style control.",
+      "context": "Corsican criminal group based in Ajaccio, active since the 2000s.",
       "time_period": "2000s-present"
     },
     {
@@ -61,7 +61,7 @@
       "original_text_name": "Mattei clan",
       "aliases": [],
       "type": "clan",
-      "context": "Corsican clan seeking to unify various groups, associated with one of two principal blocs.",
+      "context": "Corsican criminal clan that has sought to unify various groups, emerged in the 2010s.",
       "time_period": "2010s-present"
     },
     {
@@ -77,7 +77,7 @@
       "original_text_name": "Lebanese mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Lebanese organized crime groups, allied with Corsican mafia.",
+      "context": "Lebanese organized crime groups allied with Corsican mafia.",
       "time_period": null
     },
     {
@@ -93,7 +93,7 @@
       "original_text_name": "'Ndrangheta",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian organized crime group from Calabria, allied with Corsican mafia.",
+      "context": "Calabrian mafia organization allied with Corsican mafia.",
       "time_period": null
     },
     {
@@ -103,7 +103,7 @@
         "Cosa Nostra"
       ],
       "type": "mafia",
-      "context": "Italian organized crime group from Sicily, allied with Corsican mafia.",
+      "context": "Sicilian organized crime group allied with Corsican mafia.",
       "time_period": null
     }
   ],
@@ -113,7 +113,7 @@
       "target": "American Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Corsican mafia organized the French Connection heroin trafficking operation selling to the American Mafia.",
+      "context": "Corsican mafia organized the French Connection heroin trafficking operation that supplied the American Mafia.",
       "time_period": "1960s-1970s"
     },
     {
@@ -121,7 +121,7 @@
       "target": "Camorra",
       "relationship": "alliance",
       "detail": null,
-      "context": "Corsican mafia is allied with the Camorra according to the infobox.",
+      "context": "Corsican mafia is allied with the Camorra.",
       "time_period": null
     },
     {
@@ -129,7 +129,7 @@
       "target": "Lebanese mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Corsican mafia is allied with the Lebanese mafia according to the infobox.",
+      "context": "Corsican mafia is allied with the Lebanese mafia.",
       "time_period": null
     },
     {
@@ -137,7 +137,7 @@
       "target": "Milieu",
       "relationship": "alliance",
       "detail": null,
-      "context": "Corsican mafia is allied with the Milieu according to the infobox.",
+      "context": "Corsican mafia is tied to the French underworld (Milieu).",
       "time_period": null
     },
     {
@@ -145,7 +145,7 @@
       "target": "'Ndrangheta",
       "relationship": "alliance",
       "detail": null,
-      "context": "Corsican mafia is allied with the 'Ndrangheta according to the infobox.",
+      "context": "Corsican mafia is allied with the 'Ndrangheta.",
       "time_period": null
     },
     {
@@ -153,24 +153,48 @@
       "target": "Sicilian Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Corsican mafia is allied with the Sicilian Mafia according to the infobox.",
+      "context": "Corsican mafia is allied with the Sicilian Mafia.",
       "time_period": null
     },
     {
-      "source": "Venzolasca Gang",
-      "target": "Brise de Mer",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "Venzolasca Gang is considered the successor to Brise de Mer.",
+      "source": "Brise de Mer",
+      "target": "Venzolasca Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Venzolasca Gang is considered the successor of Brise de Mer.",
       "time_period": "2000s-present"
     },
     {
-      "source": "Petit Bar Gang",
-      "target": "Mattei clan",
-      "relationship": "rivalry",
+      "source": "Corsican mafia",
+      "target": "Brise de Mer",
+      "relationship": "alliance",
       "detail": null,
-      "context": "The two principal blocs in Corsican organized crime are linked to Petit Bar Gang and Mattei clan, with ongoing risk of violent conflict.",
-      "time_period": "2020s-present"
+      "context": "Brise de Mer is a major group within the Corsican mafia.",
+      "time_period": "1970-present"
+    },
+    {
+      "source": "Corsican mafia",
+      "target": "Petit Bar Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Petit Bar Gang is a group within the Corsican mafia.",
+      "time_period": "2000s-present"
+    },
+    {
+      "source": "Corsican mafia",
+      "target": "Mattei clan",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mattei clan is a group within the Corsican mafia.",
+      "time_period": "2010s-present"
+    },
+    {
+      "source": "Corsican mafia",
+      "target": "Guerini gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Guerini gang was a leading group within the Corsican mafia in the mid-20th century.",
+      "time_period": "1940s-1960s"
     }
   ],
   "source_file": "Corsican_mafia"

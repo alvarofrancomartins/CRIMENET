@@ -5,11 +5,10 @@
       "original_text_name": "Clerkenwell Crime Syndicate",
       "aliases": [
         "Adams Family",
-        "A-team",
-        "Adams mafia-like organised crime cartel"
+        "A-team"
       ],
-      "type": "other",
-      "context": "English criminal organisation based in Clerkenwell, London, involved in drug trafficking, extortion, and murder.",
+      "type": "gang",
+      "context": "English criminal organization based in Clerkenwell, London, involved in drug trafficking, extortion, murder, and money laundering.",
       "time_period": "1980s-present"
     },
     {
@@ -17,32 +16,32 @@
       "original_text_name": "Richardson Gang",
       "aliases": [],
       "type": "gang",
-      "context": "London-based gang involved in extortion and violence; former enforcer Frankie Fraser was shot in 1991.",
-      "time_period": "1960s-1990s"
+      "context": "London-based criminal gang active in the 1960s, known for violence and extortion.",
+      "time_period": "1960s"
     },
     {
       "standard_name": "Yardie Gangs",
       "original_text_name": "Yardie gangs",
       "aliases": [],
       "type": "gang",
-      "context": "Jamaican-origin gangs involved in drug trafficking; Tommy Adams established connections with them.",
-      "time_period": "1980s-present"
+      "context": "Jamaican-origin street gangs involved in drug trafficking and violence, operating in the UK and internationally.",
+      "time_period": null
     },
     {
       "standard_name": "Colombian Drug Cartels",
       "original_text_name": "Colombian drug cartels",
       "aliases": [],
       "type": "cartel",
-      "context": "South American drug trafficking organizations; Tommy Adams gained an $80 million credit line from them.",
-      "time_period": "1980s-present"
+      "context": "Colombian drug trafficking organizations that supply cocaine and other drugs globally.",
+      "time_period": null
     },
     {
       "standard_name": "South American Drug Cartels",
       "original_text_name": "South American drug cartels",
       "aliases": [],
       "type": "cartel",
-      "context": "General reference to drug cartels from South America; the Adams family has connections with them.",
-      "time_period": "1980s-present"
+      "context": "Drug trafficking organizations from South America, including Colombian and other cartels.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -59,24 +58,24 @@
       "target": "Yardie Gangs",
       "relationship": "alliance",
       "detail": null,
-      "context": "Tommy Adams established connections with numerous Yardie gangs for criminal cooperation.",
-      "time_period": "1990s"
+      "context": "Tommy Adams established connections with Yardie gangs for criminal operations.",
+      "time_period": null
     },
     {
       "source": "Clerkenwell Crime Syndicate",
       "target": "Colombian Drug Cartels",
       "relationship": "alliance",
       "detail": null,
-      "context": "Tommy Adams gained an $80 million credit line from Colombian drug cartels, indicating a financial partnership.",
-      "time_period": "1990s"
+      "context": "Tommy Adams gained an $80 million credit line from Colombian drug cartels.",
+      "time_period": null
     },
     {
       "source": "Clerkenwell Crime Syndicate",
       "target": "South American Drug Cartels",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Adams family is believed to have connections with South American drug cartels for drug trafficking.",
-      "time_period": "1990s-2000s"
+      "context": "The Adams family has connections with South American drug cartels for drug trafficking.",
+      "time_period": null
     }
   ],
   "source_file": "Clerkenwell_crime_syndicate"

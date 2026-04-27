@@ -7,7 +7,7 @@
         "LeT"
       ],
       "type": "terrorist_organization",
-      "context": "Pakistan-based terror outfit responsible for the 2008 Mumbai attacks.",
+      "context": "Pakistan-based terror outfit involved in the 2008 Mumbai attacks.",
       "time_period": "1990s-present"
     },
     {
@@ -26,35 +26,10 @@
       "original_text_name": "Hezbollah",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Lebanese militant group investigated for drug trafficking and terrorist financing.",
+      "context": "Lebanese militant group investigated for drug trafficking and terrorist financing in Project Cassandra.",
       "time_period": "1980s-present"
     }
   ],
-  "edges": [
-    {
-      "source": "Lashkar-e-Taiba",
-      "target": "Revolutionary Armed Forces of Colombia",
-      "relationship": "other",
-      "detail": "no direct relationship",
-      "context": "No direct relationship mentioned; both are separate groups referenced in the text.",
-      "time_period": null
-    },
-    {
-      "source": "Lashkar-e-Taiba",
-      "target": "Hezbollah",
-      "relationship": "other",
-      "detail": "no direct relationship",
-      "context": "No direct relationship mentioned; both are separate groups referenced in the text.",
-      "time_period": null
-    },
-    {
-      "source": "Revolutionary Armed Forces of Colombia",
-      "target": "Hezbollah",
-      "relationship": "other",
-      "detail": "no direct relationship",
-      "context": "No direct relationship mentioned; both are separate groups referenced in the text.",
-      "time_period": null
-    }
-  ],
+  "edges": [],
   "source_file": "Drug_Enforcement_Administration"
 }

@@ -16,7 +16,15 @@
       "original_text_name": "Wo Group",
       "aliases": [],
       "type": "other",
-      "context": "Umbrella group of triad societies in Hong Kong, of which Wo Shing Wo is the oldest.",
+      "context": "Umbrella term for triad societies including Wo Shing Wo.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Wo On Lok",
+      "original_text_name": "Wo on Lok",
+      "aliases": [],
+      "type": "triad",
+      "context": "Rival triad group that attacked Wo Shing Wo members.",
       "time_period": null
     },
     {
@@ -24,7 +32,7 @@
       "original_text_name": "14K",
       "aliases": [],
       "type": "triad",
-      "context": "Rival triad group active in Ireland, Netherlands, UK, and globally.",
+      "context": "Rival triad group active in Ireland, Netherlands, UK; cooperates with Wo Shing Wo in some areas.",
       "time_period": null
     },
     {
@@ -32,7 +40,7 @@
       "original_text_name": "Ah Kong",
       "aliases": [],
       "type": "triad",
-      "context": "Triad group that battled Wo Shing Wo for heroin trade in Amsterdam.",
+      "context": "Rival triad group that battled Wo Shing Wo in Amsterdam.",
       "time_period": null
     },
     {
@@ -40,15 +48,7 @@
       "original_text_name": "Sun Yee On",
       "aliases": [],
       "type": "triad",
-      "context": "Rival triad group mentioned in infobox.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Wo On Lok",
-      "original_text_name": "Wo On Lok",
-      "aliases": [],
-      "type": "triad",
-      "context": "Rival triad group; members attacked Wo Shing Wo members in 2006.",
+      "context": "Rival triad group listed in infobox.",
       "time_period": null
     },
     {
@@ -56,7 +56,7 @@
       "original_text_name": "Big Circle Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Allied group mentioned in infobox.",
+      "context": "Ally of Wo Shing Wo listed in infobox.",
       "time_period": null
     },
     {
@@ -64,41 +64,25 @@
       "original_text_name": "Shui Fong",
       "aliases": [],
       "type": "triad",
-      "context": "Triad group whose business adviser Philip Wong was murdered in Glasgow.",
+      "context": "Triad group whose member Philip Wong was murdered in Glasgow.",
       "time_period": null
+    },
+    {
+      "standard_name": "Wo Hop To",
+      "original_text_name": "Wo Hop To",
+      "aliases": [],
+      "type": "triad",
+      "context": "Triad founded in 1908; Wo Shing Wo was established as an international branch in Toronto.",
+      "time_period": "1908-present"
     }
   ],
   "edges": [
     {
       "source": "Wo Shing Wo",
       "target": "Wo Group",
-      "relationship": "other",
-      "detail": "member of",
-      "context": "Wo Shing Wo is the oldest triad of the Wo Group.",
-      "time_period": "1930-present"
-    },
-    {
-      "source": "Wo Shing Wo",
-      "target": "14K",
-      "relationship": "rivalry",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Rivalry in Ireland, Netherlands, and UK; machete attack in Glasgow in 2003.",
-      "time_period": "1970s-present"
-    },
-    {
-      "source": "Wo Shing Wo",
-      "target": "Ah Kong",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Battled for control of heroin trade in Amsterdam in the 1970s.",
-      "time_period": "1970s"
-    },
-    {
-      "source": "Wo Shing Wo",
-      "target": "Sun Yee On",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Listed as rival in infobox.",
+      "context": "Wo Shing Wo is the oldest of the Wo Group triad societies.",
       "time_period": null
     },
     {
@@ -106,15 +90,47 @@
       "target": "Wo On Lok",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Wo On Lok members attacked Wo Shing Wo members in 2006.",
-      "time_period": "2006"
+      "context": "Wo Shing Wo members were attacked by members of Wo On Lok.",
+      "time_period": null
+    },
+    {
+      "source": "Wo Shing Wo",
+      "target": "14K",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "14K is a rival triad; they battled in Amsterdam and Glasgow.",
+      "time_period": null
+    },
+    {
+      "source": "Wo Shing Wo",
+      "target": "14K",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Wo Shing Wo cooperated with 14K in cigarette smuggling in Scotland and in the Netherlands.",
+      "time_period": null
+    },
+    {
+      "source": "Wo Shing Wo",
+      "target": "Ah Kong",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Wo Shing Wo battled Ah Kong for control of heroin trade in Amsterdam.",
+      "time_period": "1970s"
+    },
+    {
+      "source": "Wo Shing Wo",
+      "target": "Sun Yee On",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Sun Yee On is listed as a rival in the infobox.",
+      "time_period": null
     },
     {
       "source": "Wo Shing Wo",
       "target": "Big Circle Gang",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as ally in infobox.",
+      "context": "Big Circle Gang is listed as an ally in the infobox.",
       "time_period": null
     },
     {
@@ -122,8 +138,16 @@
       "target": "Shui Fong",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Shui Fong business adviser Philip Wong was murdered after refusing to do business with Wo Shing Wo.",
+      "context": "Shui Fong member Philip Wong was murdered after refusing to do business with Wo Shing Wo.",
       "time_period": "1985"
+    },
+    {
+      "source": "Wo Shing Wo",
+      "target": "Wo Hop To",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Wo Shing Wo was established in Toronto as an international branch of Wo Hop To.",
+      "time_period": "1930"
     }
   ],
   "source_file": "Wo_Shing_Wo"

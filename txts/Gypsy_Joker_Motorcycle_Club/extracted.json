@@ -8,7 +8,7 @@
         "Gypsy Jokers"
       ],
       "type": "motorcycle_club",
-      "context": "One-percenter motorcycle club founded in 1956, active in US, Australia, Germany, Norway, Brazil. Involved in drug trafficking, murder, assault, etc.",
+      "context": "One-percenter motorcycle club founded in 1956 in San Bernardino, California, active in US, Australia, Germany, Norway, and Brazil. Involved in drug trafficking, murder, and other crimes.",
       "time_period": "1956-present"
     },
     {
@@ -16,43 +16,37 @@
       "original_text_name": "St Mary's Motorcycle Club",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Australian motorcycle club whose former members founded Gypsy Joker MC Australia in 1969.",
-      "time_period": "unknown"
+      "context": "Australian motorcycle club whose former members founded the Gypsy Joker MC Australia in 1969.",
+      "time_period": "before 1969"
     },
     {
       "standard_name": "Mandamas Motorcycle Club",
       "original_text_name": "Mandamas MC",
-      "aliases": [
-        "Mandamas MC"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
-      "context": "South Australian motorcycle club that amalgamated with Gypsy Joker MC in Australia.",
-      "time_period": "unknown"
+      "context": "South Australian motorcycle club that amalgamated with Gypsy Joker MC Australia.",
+      "time_period": "before 2000s"
     },
     {
       "standard_name": "Newboys",
       "original_text_name": "Newboys gang",
       "aliases": [],
       "type": "gang",
-      "context": "Australian gang; a member was shot and wounded by a Gypsy Joker in 2009.",
-      "time_period": "unknown"
+      "context": "Gang in Adelaide, South Australia; a member was shot by a Gypsy Joker in 2009.",
+      "time_period": "2000s"
     },
     {
       "standard_name": "Hells Angels",
       "original_text_name": "Hells Angel",
-      "aliases": [
-        "Hells Angels"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
-      "context": "International outlaw motorcycle club; a former Hells Angel was shot by a Gypsy Joker in 2009.",
-      "time_period": "unknown"
+      "context": "Outlaw motorcycle club; a former member was shot by a Gypsy Joker in 2009.",
+      "time_period": "1948-present"
     },
     {
       "standard_name": "Joker Motorcycle Club",
       "original_text_name": "Joker MC",
-      "aliases": [
-        "Joker MC"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
       "context": "Norwegian motorcycle club that patched over to become Gypsy Joker MC Norway in 2011.",
       "time_period": "1997-2011"
@@ -60,29 +54,19 @@
     {
       "standard_name": "Jesters Motorcycle Club",
       "original_text_name": "Jesters MC",
-      "aliases": [
-        "Jesters MC"
-      ],
-      "type": "motorcycle_club",
-      "context": "Support club for Gypsy Joker MC in Brazil, established 2017; later also in Norway.",
-      "time_period": "2017-present"
-    },
-    {
-      "standard_name": "Jester Crew",
-      "original_text_name": "Jester Crew",
       "aliases": [],
-      "type": "gang",
-      "context": "Observed in Norway around 2025, possibly a support group for Gypsy Joker MC.",
-      "time_period": "2025-present"
+      "type": "motorcycle_club",
+      "context": "Support club for Gypsy Joker MC in Brazil, established in 2017; later also established a chapter in Norway.",
+      "time_period": "2017-present"
     }
   ],
   "edges": [
     {
       "source": "Gypsy Joker Motorcycle Club",
       "target": "St Mary's Motorcycle Club",
-      "relationship": "other",
-      "detail": "former members founded",
-      "context": "Gypsy Joker MC Australia was founded by former members of St Mary's MC in 1969.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Gypsy Joker MC Australia was founded by former members of St Mary's MC.",
       "time_period": "1969"
     },
     {
@@ -90,8 +74,8 @@
       "target": "Mandamas Motorcycle Club",
       "relationship": "alliance",
       "detail": null,
-      "context": "Gypsy Joker MC Australia amalgamated with Mandamas MC in a friendly merger.",
-      "time_period": "unknown"
+      "context": "Gypsy Joker MC Australia amalgamated with Mandamas MC.",
+      "time_period": "before 2000s"
     },
     {
       "source": "Gypsy Joker Motorcycle Club",
@@ -106,14 +90,14 @@
       "target": "Hells Angels",
       "relationship": "rivalry",
       "detail": null,
-      "context": "A Gypsy Joker shot and wounded a former Hells Angel in 2009.",
+      "context": "A Gypsy Joker shot a former Hells Angel in 2009.",
       "time_period": "2009"
     },
     {
       "source": "Gypsy Joker Motorcycle Club",
       "target": "Joker Motorcycle Club",
-      "relationship": "other",
-      "detail": "patch-over",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Joker MC patched over to become Gypsy Joker MC Norway in 2011.",
       "time_period": "2011"
     },
@@ -124,14 +108,6 @@
       "detail": null,
       "context": "Jesters MC is a support club for Gypsy Joker MC in Brazil, established in 2017.",
       "time_period": "2017-present"
-    },
-    {
-      "source": "Jesters Motorcycle Club",
-      "target": "Jester Crew",
-      "relationship": "other",
-      "detail": "possible support",
-      "context": "Jester Crew observed in Norway around 2025, possibly a support group for Jesters MC.",
-      "time_period": "2025-present"
     }
   ],
   "source_file": "Gypsy_Joker_Motorcycle_Club"

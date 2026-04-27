@@ -8,7 +8,7 @@
         "Diablos"
       ],
       "type": "motorcycle_club",
-      "context": "International outlaw motorcycle club founded in 1999 in Thailand, serves as a support club for the Bandidos.",
+      "context": "International outlaw motorcycle club founded in 1999 in Pattaya, Thailand. Support club for the Bandidos.",
       "time_period": "1999-present"
     },
     {
@@ -16,23 +16,23 @@
       "original_text_name": "Bandidos",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Major outlaw motorcycle club, the Diablos are a support club for them.",
-      "time_period": "1966-present"
+      "context": "International outlaw motorcycle club. Diablos is a support club for Bandidos.",
+      "time_period": null
     },
     {
       "standard_name": "Hells Angels",
       "original_text_name": "Hells Angels",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Rival outlaw motorcycle club that raided the Diablos' clubhouse in Australia in 2013.",
-      "time_period": "1948-present"
+      "context": "International outlaw motorcycle club. Involved in a raid on Diablos clubhouse in Australia.",
+      "time_period": null
     },
     {
       "standard_name": "X-Team",
       "original_text_name": "X-Team",
       "aliases": [],
       "type": "gang",
-      "context": "Criminal group involved in violent extortion in Oulu, Finland, alongside Bandidos.",
+      "context": "Finnish criminal group involved in extortion alongside Bandidos and Diablos.",
       "time_period": null
     }
   ],
@@ -42,7 +42,7 @@
       "target": "Bandidos",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Diablos are a support club (puppet club) for the Bandidos.",
+      "context": "Diablos is a support club (puppet club) for the Bandidos.",
       "time_period": "1999-present"
     },
     {
@@ -50,7 +50,7 @@
       "target": "Diablos Motorcycle Club",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Hells Angels raided the Diablos' clubhouse in Melbourne in 2013, leading to a shootout with Bandidos.",
+      "context": "Hells Angels raided Diablos clubhouse in Melbourne in 2013, leading to a shootout with Bandidos.",
       "time_period": "2013"
     },
     {
@@ -58,15 +58,23 @@
       "target": "Bandidos",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Hells Angels ambushed Bandidos members arriving to aid the Diablos, resulting in a shootout.",
+      "context": "Hells Angels ambushed Bandidos members arriving to support Diablos after the raid, resulting in a shootout.",
       "time_period": "2013"
+    },
+    {
+      "source": "Diablos Motorcycle Club",
+      "target": "X-Team",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Diablos, Bandidos, and X-Team members were involved together in a violent extortion case in Oulu, Finland.",
+      "time_period": "2014-2015"
     },
     {
       "source": "Bandidos",
       "target": "X-Team",
       "relationship": "alliance",
       "detail": null,
-      "context": "Bandidos and X-Team members were convicted together for violent extortion in Oulu in 2015.",
+      "context": "Bandidos and X-Team members were convicted together for extortion related to a debt collection for Diablos.",
       "time_period": "2014-2015"
     }
   ],

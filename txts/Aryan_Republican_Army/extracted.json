@@ -7,7 +7,7 @@
         "ARA",
         "Midwest Bank bandits"
       ],
-      "type": "terrorist_organization",
+      "type": "gang",
       "context": "White nationalist terrorist gang that robbed 22 banks in the Midwest from 1994 to 1996.",
       "time_period": "1992-1996"
     },
@@ -26,16 +26,16 @@
         "KKK"
       ],
       "type": "other",
-      "context": "White supremacist group; some ARA members were affiliated.",
+      "context": "White supremacist hate group; some ARA members were also members.",
       "time_period": "1865-present"
     },
     {
-      "standard_name": "Day of the Sword",
-      "original_text_name": "Day of the Sword",
+      "standard_name": "Elohim City",
+      "original_text_name": "Elohim City",
       "aliases": [],
       "type": "other",
-      "context": "RAC band founded by ARA member Scott Stedeford.",
-      "time_period": "1990s"
+      "context": "Private community of Christian Identity followers; ARA members resided there.",
+      "time_period": "1973-present"
     }
   ],
   "edges": [
@@ -44,7 +44,7 @@
       "target": "Aryan Nations",
       "relationship": "alliance",
       "detail": null,
-      "context": "ARA members were recruited by Aryan Nations leaders and shared ideology.",
+      "context": "ARA members were recruited by Aryan Nations leaders and shared membership.",
       "time_period": "1992-1996"
     },
     {
@@ -52,16 +52,16 @@
       "target": "Ku Klux Klan",
       "relationship": "alliance",
       "detail": null,
-      "context": "ARA members had ties to Klan-affiliated church and members.",
+      "context": "ARA members were also members of the KKK; Langan was a minister at a Klan-affiliated church.",
       "time_period": "1992-1996"
     },
     {
       "source": "Aryan Republican Army",
-      "target": "Day of the Sword",
-      "relationship": "other",
-      "detail": "member affiliation",
-      "context": "ARA member Scott Stedeford was founding member and frontman of Day of the Sword.",
-      "time_period": "1990s"
+      "target": "Elohim City",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "ARA members resided at Elohim City and associated with its residents.",
+      "time_period": "1994-1996"
     }
   ],
   "source_file": "Aryan_Republican_Army"

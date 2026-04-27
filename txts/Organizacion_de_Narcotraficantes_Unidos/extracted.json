@@ -18,7 +18,7 @@
       "original_text_name": "Bin Laden Records",
       "aliases": [],
       "type": "gang",
-      "context": "Local gang within La ONU, involved in drug trade.",
+      "context": "Local gang that was part of La ONU.",
       "time_period": null
     },
     {
@@ -26,7 +26,7 @@
       "original_text_name": "los Extranjeros",
       "aliases": [],
       "type": "gang",
-      "context": "Local gang within La ONU, involved in drug trade.",
+      "context": "Local gang that was part of La ONU.",
       "time_period": null
     },
     {
@@ -34,7 +34,7 @@
       "original_text_name": "los Anormales",
       "aliases": [],
       "type": "gang",
-      "context": "Local gang within La ONU, involved in drug trade.",
+      "context": "Local gang that was part of La ONU.",
       "time_period": null
     },
     {
@@ -44,41 +44,41 @@
         "ONU Breakers"
       ],
       "type": "cartel",
-      "context": "Rival drug trafficking organization formed by former ONU members, engaged in violent war with ONU.",
+      "context": "Rival drug trafficking organization in Puerto Rico, formed by former ONU members.",
       "time_period": null
     }
   ],
   "edges": [
     {
-      "source": "Organizacion de Narcotraficantes Unidos",
-      "target": "Bin Laden Records",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Bin Laden Records was a local gang within La ONU.",
+      "source": "Bin Laden Records",
+      "target": "Organizacion de Narcotraficantes Unidos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bin Laden Records was a local gang that was part of La ONU.",
       "time_period": null
     },
     {
-      "source": "Organizacion de Narcotraficantes Unidos",
-      "target": "Los Extranjeros",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Los Extranjeros was a local gang within La ONU.",
+      "source": "Los Extranjeros",
+      "target": "Organizacion de Narcotraficantes Unidos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Extranjeros was a local gang that was part of La ONU.",
       "time_period": null
     },
     {
-      "source": "Organizacion de Narcotraficantes Unidos",
-      "target": "Los Anormales",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "Los Anormales was a local gang within La ONU.",
+      "source": "Los Anormales",
+      "target": "Organizacion de Narcotraficantes Unidos",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Los Anormales was a local gang that was part of La ONU.",
       "time_period": null
     },
     {
-      "source": "Organizacion de Narcotraficantes Unidos",
-      "target": "La Rompe ONU",
+      "source": "La Rompe ONU",
+      "target": "Organizacion de Narcotraficantes Unidos",
       "relationship": "rivalry",
       "detail": null,
-      "context": "La Rompe ONU is a rival organization formed by former ONU members, engaged in violent war.",
+      "context": "La Rompe ONU is a rival organization formed by former ONU members, engaged in a violent war.",
       "time_period": null
     }
   ],

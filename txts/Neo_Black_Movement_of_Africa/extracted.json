@@ -8,7 +8,7 @@
         "Neo-Black Movement of Africa"
       ],
       "type": "other",
-      "context": "International confraternity founded in 1977 at University of Benin, Nigeria, with Pan-African focus.",
+      "context": "International confraternity founded in 1977 at University of Benin, Nigeria; involved in organized crime through its subgroup Black Axe.",
       "time_period": "1977-present"
     },
     {
@@ -16,7 +16,7 @@
       "original_text_name": "Black Axe",
       "aliases": [],
       "type": "faction",
-      "context": "Criminal subgroup of the Neo Black Movement of Africa, formed in 1994, involved in organized crime.",
+      "context": "Criminal subgroup of the Neo Black Movement of Africa, formed in 1994; involved in organized crime, human trafficking, and money laundering.",
       "time_period": "1994-present"
     },
     {
@@ -26,17 +26,17 @@
         "Pyrates"
       ],
       "type": "other",
-      "context": "Similar confraternity established in 1952, whose excesses prompted the formation of NBM.",
+      "context": "Similar confraternity established in 1952; NBM formed as a response to its reported excesses.",
       "time_period": "1952-present"
     }
   ],
   "edges": [
     {
-      "source": "Neo Black Movement of Africa",
-      "target": "Black Axe",
-      "relationship": "other",
-      "detail": "parent-subgroup",
-      "context": "Black Axe is a criminal subgroup that formed within NBM in 1994; NBM publicly disassociated from it in 2024.",
+      "source": "Black Axe",
+      "target": "Neo Black Movement of Africa",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Black Axe is a criminal subgroup of the Neo Black Movement of Africa, formed in 1994.",
       "time_period": "1994-present"
     },
     {
@@ -44,7 +44,7 @@
       "target": "National Association of Seadogs",
       "relationship": "rivalry",
       "detail": null,
-      "context": "NBM formed as a response to the reported excesses of the Pyrates confraternity.",
+      "context": "NBM formed as a response to the reported excesses of the National Association of Seadogs.",
       "time_period": "1977-present"
     }
   ],

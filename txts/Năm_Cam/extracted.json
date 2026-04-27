@@ -1,121 +1,121 @@
 {
   "nodes": [
     {
-      "standard_name": "Năm Cam Organization",
+      "standard_name": "Năm Cam's Mob",
       "original_text_name": "Năm Cam's mob",
       "aliases": [
         "Năm Cam's gang",
         "Năm Cam's criminal enterprise"
       ],
-      "type": "other",
-      "context": "Vietnamese criminal enterprise led by Trương Văn Cam, involved in gambling, extortion, murder, and bribery in Saigon.",
+      "type": "gang",
+      "context": "Criminal organization led by Năm Cam, operating in Saigon (Ho Chi Minh City), involved in gambling, racketeering, extortion, loan sharking, and murder.",
       "time_period": "1962-2001"
     },
     {
-      "standard_name": "Huỳnh Tỳ Triad",
-      "original_text_name": "Huỳnh Tỳ",
+      "standard_name": "Dung Hà's Gang",
+      "original_text_name": "Dung Hà's gang",
+      "aliases": [
+        "Dung Hà's group"
+      ],
+      "type": "gang",
+      "context": "Female gangster Dung Hà's criminal group from Haiphong, attempted to establish presence in Saigon.",
+      "time_period": "1990s-2000"
+    },
+    {
+      "standard_name": "Huỳnh Tỳ's Triad",
+      "original_text_name": "Huỳnh Tỳ's triads",
       "aliases": [],
       "type": "triad",
-      "context": "Triad group in Saigon that initiated Năm Cam into the criminal underworld.",
+      "context": "Triad group in Saigon led by Huỳnh Tỳ, initiated Năm Cam into the criminal underworld.",
       "time_period": "1960s"
     },
     {
-      "standard_name": "Đại Cathay Organization",
+      "standard_name": "Đại Cathay's Mob",
       "original_text_name": "Đại Cathay's mob",
       "aliases": [
         "Cathay's mob"
       ],
-      "type": "other",
-      "context": "Criminal organization led by Đại Cathay, a top mob boss in Saigon during the 1960s.",
+      "type": "gang",
+      "context": "Criminal organization led by Đại Cathay, considered the top of the 'Four Great Kings' of Saigon in the 1960s.",
       "time_period": "1960s"
     },
     {
-      "standard_name": "Bảy Sy Organization",
-      "original_text_name": "Bảy Sy",
+      "standard_name": "Bảy Sy's Casino Gang",
+      "original_text_name": "Bảy Sy's casino",
       "aliases": [],
-      "type": "other",
-      "context": "Criminal group led by Bảy Sy, Năm Cam's brother-in-law, who ran a casino.",
+      "type": "gang",
+      "context": "Criminal group operating a casino, led by Bảy Sy, Năm Cam's brother-in-law.",
       "time_period": "1960s"
     },
     {
-      "standard_name": "Tài chém Gang",
+      "standard_name": "Tài chém's Gang",
       "original_text_name": "Tài chém's gang",
       "aliases": [],
       "type": "gang",
-      "context": "Gang led by Tài chém, a notorious gangster in the first district of Saigon.",
+      "context": "Gang led by Tài chém in the first district of Saigon, targeted by Năm Cam.",
       "time_period": "1960s"
     },
     {
-      "standard_name": "Dung Hà Gang",
-      "original_text_name": "Dung Hà's group",
-      "aliases": [
-        "Dung Hà's mob"
-      ],
-      "type": "gang",
-      "context": "Gang led by Dung Hà, a female gangster from Haiphong who operated in Saigon.",
-      "time_period": "1990s-2000"
-    },
-    {
-      "standard_name": "Lê Ngọc Lâm Organization",
-      "original_text_name": "Lê Ngọc Lâm",
+      "standard_name": "Lê Ngọc Lâm's Gang",
+      "original_text_name": "Lê Ngọc Lâm's gang",
       "aliases": [],
-      "type": "other",
-      "context": "Criminal group led by Lê Ngọc Lâm, a rival of Năm Cam.",
+      "type": "gang",
+      "context": "Criminal group led by Lê Ngọc Lâm, rival of Năm Cam.",
       "time_period": "1990s"
     }
   ],
   "edges": [
     {
-      "source": "Năm Cam Organization",
-      "target": "Huỳnh Tỳ Triad",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Năm Cam was initiated into the criminal underworld by Huỳnh Tỳ.",
-      "time_period": "1960s"
-    },
-    {
-      "source": "Năm Cam Organization",
-      "target": "Đại Cathay Organization",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Năm Cam was a follower of Đại Cathay and learned casino operations from him.",
-      "time_period": "1960s"
-    },
-    {
-      "source": "Năm Cam Organization",
-      "target": "Bảy Sy Organization",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Năm Cam worked in Bảy Sy's casino and planned a murder with him.",
-      "time_period": "1960s"
-    },
-    {
-      "source": "Năm Cam Organization",
-      "target": "Tài chém Gang",
+      "source": "Năm Cam's Mob",
+      "target": "Dung Hà's Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Năm Cam planned to kill Tài chém, leading to a chase by Tài chém's gang.",
-      "time_period": "1960s"
-    },
-    {
-      "source": "Năm Cam Organization",
-      "target": "Dung Hà Gang",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Dung Hà attempted to build her own gang in Saigon, leading to conflict and Năm Cam ordering her murder.",
+      "context": "Năm Cam and Dung Hà were rival gang leaders; conflict led to Dung Hà's assassination ordered by Năm Cam.",
       "time_period": "1990s-2000"
     },
     {
-      "source": "Năm Cam Organization",
-      "target": "Lê Ngọc Lâm Organization",
+      "source": "Năm Cam's Mob",
+      "target": "Huỳnh Tỳ's Triad",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Năm Cam was initiated into the criminal underworld by Huỳnh Tỳ, indicating a subordinate or mentorship relationship.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Năm Cam's Mob",
+      "target": "Đại Cathay's Mob",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Năm Cam was a follower of Đại Cathay, learning casino operations from him.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Năm Cam's Mob",
+      "target": "Bảy Sy's Casino Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Năm Cam helped run Bảy Sy's casino after Bảy Sy's release from prison.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Năm Cam's Mob",
+      "target": "Tài chém's Gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Năm Cam planned to kill Tài chém, leading to a chase by Tài chém's gang members.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Năm Cam's Mob",
+      "target": "Lê Ngọc Lâm's Gang",
       "relationship": "rivalry",
       "detail": null,
       "context": "Năm Cam ordered an acid attack on Lê Ngọc Lâm due to underworld friction.",
       "time_period": "1990s"
     },
     {
-      "source": "Dung Hà Gang",
-      "target": "Lê Ngọc Lâm Organization",
+      "source": "Dung Hà's Gang",
+      "target": "Lê Ngọc Lâm's Gang",
       "relationship": "alliance",
       "detail": null,
       "context": "Dung Hà organized the acid attack on Lê Ngọc Lâm on behalf of Năm Cam.",

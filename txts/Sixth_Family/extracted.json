@@ -4,12 +4,11 @@
       "standard_name": "Rizzuto crime family",
       "original_text_name": "Rizzuto crime family",
       "aliases": [
-        "Rizzuto family",
-        "Sixth Family"
+        "Rizzuto family"
       ],
       "type": "mafia",
       "context": "Italian-Canadian crime family based in Montreal, Quebec, Canada.",
-      "time_period": "1970s-present"
+      "time_period": null
     },
     {
       "standard_name": "Bonanno crime family",
@@ -17,33 +16,31 @@
       "aliases": [],
       "type": "mafia",
       "context": "One of the Five Families of New York City Italian-American Mafia.",
-      "time_period": "1930s-present"
+      "time_period": null
     },
     {
       "standard_name": "DeCavalcante crime family",
       "original_text_name": "DeCavalcante crime family",
-      "aliases": [
-        "Sixth Family"
-      ],
+      "aliases": [],
       "type": "mafia",
-      "context": "Italian-American crime family based in North Jersey, inspiration for The Sopranos.",
-      "time_period": "1910s-present"
+      "context": "Italian-American Mafia family based in North Jersey, inspiration for The Sopranos.",
+      "time_period": null
     },
     {
       "standard_name": "East Harlem Purple Gang",
       "original_text_name": "East Harlem Purple Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Italian-American gang of hitmen and heroin dealers in East Harlem and Bronx during late 1970s-early 1980s.",
-      "time_period": "1970s-1980s"
+      "context": "Italian-American gang of hitmen and heroin dealers active in New York City during late 1970s and early 1980s.",
+      "time_period": "late 1970s-early 1980s"
     },
     {
       "standard_name": "Gallo crew",
       "original_text_name": "Gallo crew",
       "aliases": [],
       "type": "faction",
-      "context": "Faction of the Colombo crime family led by Joe Gallo, waged war against their own family.",
-      "time_period": "1960s-1970s"
+      "context": "Crew within the Colombo crime family led by Joe Gallo that waged war against its own family.",
+      "time_period": null
     },
     {
       "standard_name": "Colombo crime family",
@@ -51,15 +48,15 @@
       "aliases": [],
       "type": "mafia",
       "context": "One of the Five Families of New York City Italian-American Mafia.",
-      "time_period": "1920s-present"
+      "time_period": null
     },
     {
       "standard_name": "Rudaj Organization",
       "original_text_name": "Rudaj Organization",
       "aliases": [],
       "type": "mafia",
-      "context": "Albanian mafia family in New York City.",
-      "time_period": "1990s-2000s"
+      "context": "Albanian mafia family operating in New York City.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -90,10 +87,18 @@
     {
       "source": "Gallo crew",
       "target": "Colombo crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Gallo crew was officially part of the Colombo crime family.",
+      "time_period": null
+    },
+    {
+      "source": "Gallo crew",
+      "target": "Colombo crime family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Gallo crew waged war against their own crime family, the Colombo crime family.",
-      "time_period": "1960s-1970s"
+      "context": "The Gallo crew waged war against their own crime family.",
+      "time_period": null
     }
   ],
   "source_file": "Sixth_Family"

@@ -7,7 +7,7 @@
         "Cosa Nostra"
       ],
       "type": "mafia",
-      "context": "The Sicilian Mafia is a criminal organization based in Sicily, Italy, involved in various illegal activities.",
+      "context": "The overarching Mafia organization in Sicily, involved in drug trafficking and political corruption.",
       "time_period": "19th century-present"
     },
     {
@@ -17,17 +17,15 @@
         "Santa Maria di Gesù Mafia Family"
       ],
       "type": "mafia",
-      "context": "A Mafia family based in Palermo, Sicily, headed by Stefano Bontade.",
-      "time_period": "1964-1981"
+      "context": "A Mafia family based in Palermo, led by Stefano Bontade, involved in heroin trafficking.",
+      "time_period": "1960s-1981"
     },
     {
       "standard_name": "Corleonesi",
       "original_text_name": "Corleonesi",
-      "aliases": [
-        "Corleonesi clan"
-      ],
-      "type": "faction",
-      "context": "A faction within the Sicilian Mafia from Corleone, led by Salvatore Riina, that waged war against other families.",
+      "aliases": [],
+      "type": "mafia",
+      "context": "A faction of the Sicilian Mafia from Corleone, led by Salvatore Riina, that waged war against other families.",
       "time_period": "1970s-1990s"
     },
     {
@@ -37,24 +35,24 @@
         "Gambino crime family"
       ],
       "type": "mafia",
-      "context": "An American Mafia family based in New York, involved in heroin trafficking with Sicilian Mafia.",
-      "time_period": "1910s-present"
+      "context": "An American Mafia family in New York, involved in heroin trafficking with Sicilian suppliers.",
+      "time_period": "1930s-present"
     },
     {
       "standard_name": "Camorra",
       "original_text_name": "Camorra",
       "aliases": [],
       "type": "mafia",
-      "context": "A Mafia-type criminal organization based in Campania, Italy, involved in smuggling and other crimes.",
-      "time_period": "18th century-present"
+      "context": "A Mafia-type organization based in Naples, involved in cigarette smuggling and other crimes.",
+      "time_period": "19th century-present"
     },
     {
       "standard_name": "Maisto clan",
       "original_text_name": "Maisto clan",
       "aliases": [],
       "type": "clan",
-      "context": "A Camorra clan from Naples, linked to Stefano Bontade.",
-      "time_period": "1970s-1980s"
+      "context": "A Camorra clan in Naples, linked to Stefano Bontade through Giuseppe Sciorio.",
+      "time_period": "1970s"
     },
     {
       "standard_name": "Spatola-Inzerillo-Gambino network",
@@ -63,7 +61,7 @@
         "Bontade-Spatola-Inzerillo-Gambino network"
       ],
       "type": "other",
-      "context": "A drug trafficking network involving Sicilian and American Mafia families.",
+      "context": "A drug trafficking network involving Sicilian and American Mafia families, dominant in heroin trade.",
       "time_period": "1970s-1980s"
     },
     {
@@ -73,65 +71,121 @@
         "American Mafia"
       ],
       "type": "mafia",
-      "context": "The American branch of the Mafia, involved in organized crime in the United States.",
-      "time_period": "19th century-present"
+      "context": "The American branch of the Mafia, involved in the murder of Enrico Mattei.",
+      "time_period": "20th century-present"
+    },
+    {
+      "standard_name": "Philadelphia crime family",
+      "original_text_name": "Philadelphia crime family",
+      "aliases": [
+        "Angelo Bruno's family"
+      ],
+      "type": "mafia",
+      "context": "An American Mafia family based in Philadelphia, led by Angelo Bruno, involved in the Mattei murder.",
+      "time_period": "1910s-present"
     },
     {
       "standard_name": "Greco clan (Croceverde Giardini)",
       "original_text_name": "Greco clan from Croceverde Giardini",
-      "aliases": [],
-      "type": "clan",
-      "context": "A Mafia clan from Croceverde Giardini, historically at odds with the Greco clan of Ciaculli.",
-      "time_period": "20th century"
+      "aliases": [
+        "Michele Greco's clan"
+      ],
+      "type": "mafia",
+      "context": "A Mafia clan allied with the Corleonesi, led by Michele Greco, involved in the Second Mafia War.",
+      "time_period": "1970s-1980s"
     },
     {
       "standard_name": "Greco clan (Ciaculli)",
       "original_text_name": "Greco clan of Ciaculli",
-      "aliases": [],
-      "type": "clan",
-      "context": "A Mafia clan from Ciaculli, led by Salvatore 'Ciaschiteddu' Greco, allied with Bontade.",
-      "time_period": "20th century"
+      "aliases": [
+        "Salvatore 'Ciaschiteddu' Greco's clan"
+      ],
+      "type": "mafia",
+      "context": "A Mafia clan led by Salvatore Greco, allied with Stefano Bontade.",
+      "time_period": "1960s-1970s"
     },
     {
       "standard_name": "Inzerillo clan",
-      "original_text_name": "Inzerillo",
-      "aliases": [],
-      "type": "clan",
-      "context": "A Mafia clan from Palermo, allied with Bontade and involved in heroin trafficking.",
+      "original_text_name": "Inzerillo clan",
+      "aliases": [
+        "Inzerillo family"
+      ],
+      "type": "mafia",
+      "context": "A Sicilian Mafia clan allied with Bontade, involved in heroin trafficking.",
       "time_period": "1970s-1980s"
     },
     {
       "standard_name": "Spatola clan",
-      "original_text_name": "Spatola",
-      "aliases": [],
-      "type": "clan",
-      "context": "A Mafia clan from Palermo, involved in heroin trafficking and construction.",
+      "original_text_name": "Spatola clan",
+      "aliases": [
+        "Spatola family"
+      ],
+      "type": "mafia",
+      "context": "A Sicilian Mafia clan involved in heroin trafficking and real estate.",
       "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "Gambino clan (Sicily)",
+      "original_text_name": "Gambino clan",
+      "aliases": [
+        "John Gambino's clan"
+      ],
+      "type": "mafia",
+      "context": "A Sicilian branch of the Gambino family, involved in heroin trafficking.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "Badalamenti clan",
+      "original_text_name": "Badalamenti clan",
+      "aliases": [
+        "Gaetano Badalamenti's family"
+      ],
+      "type": "mafia",
+      "context": "A Sicilian Mafia clan led by Gaetano Badalamenti, allied with Bontade.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "standard_name": "Calderone clan (Catania)",
+      "original_text_name": "Giuseppe Calderone's clan",
+      "aliases": [
+        "Calderone family"
+      ],
+      "type": "mafia",
+      "context": "A Mafia clan from Catania, allied with Bontade, targeted by Corleonesi.",
+      "time_period": "1970s-1981"
+    },
+    {
+      "standard_name": "Di Cristina clan",
+      "original_text_name": "Giuseppe Di Cristina's clan",
+      "aliases": [],
+      "type": "mafia",
+      "context": "A Mafia clan from Riesi, allied with Bontade, killed by Corleonesi.",
+      "time_period": "1970s-1981"
     }
   ],
   "edges": [
     {
       "source": "Santa Maria di Gesù Family",
       "target": "Sicilian Mafia",
-      "relationship": "other",
-      "detail": "sub-group",
+      "relationship": "alliance",
+      "detail": null,
       "context": "The Santa Maria di Gesù Family is a constituent family of the Sicilian Mafia.",
-      "time_period": "1964-1981"
+      "time_period": "1960s-1981"
     },
     {
       "source": "Corleonesi",
       "target": "Sicilian Mafia",
-      "relationship": "other",
-      "detail": "sub-group",
+      "relationship": "alliance",
+      "detail": null,
       "context": "The Corleonesi are a faction within the Sicilian Mafia.",
       "time_period": "1970s-1990s"
     },
     {
-      "source": "Santa Maria di Gesù Family",
-      "target": "Corleonesi",
+      "source": "Corleonesi",
+      "target": "Santa Maria di Gesù Family",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Corleonesi waged war against Bontade's family, leading to his assassination.",
+      "context": "The Corleonesi waged war against Bontade's family, killing him in 1981.",
       "time_period": "1981-1984"
     },
     {
@@ -139,7 +193,7 @@
       "target": "Gambino Family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Bontade-Spatola-Inzerillo network supplied heroin to the Gambino Family.",
+      "context": "Bontade's family supplied heroin to the Gambino Family through John Gambino.",
       "time_period": "1970s-1980s"
     },
     {
@@ -147,7 +201,7 @@
       "target": "Camorra",
       "relationship": "alliance",
       "detail": null,
-      "context": "Bontade linked up with the Maisto clan of the Camorra and collaborated in cigarette smuggling.",
+      "context": "Bontade linked up with the Camorra's Maisto clan for cigarette smuggling.",
       "time_period": "1970s"
     },
     {
@@ -155,7 +209,7 @@
       "target": "Maisto clan",
       "relationship": "alliance",
       "detail": null,
-      "context": "Bontade established contacts with the Maisto clan and initiated a member into Cosa Nostra.",
+      "context": "Bontade established contacts with the Maisto clan through Giuseppe Sciorio.",
       "time_period": "1970s"
     },
     {
@@ -171,48 +225,128 @@
       "target": "Gambino Family",
       "relationship": "alliance",
       "detail": null,
-      "context": "The network supplied heroin to the Gambino Family through John Gambino.",
+      "context": "The network supplied heroin to the Gambino Family in New York.",
       "time_period": "1970s-1980s"
     },
     {
-      "source": "Santa Maria di Gesù Family",
+      "source": "American Cosa Nostra",
+      "target": "Santa Maria di Gesù Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bontade allegedly helped the American Cosa Nostra kill Enrico Mattei.",
+      "time_period": "1962"
+    },
+    {
+      "source": "Philadelphia crime family",
       "target": "American Cosa Nostra",
       "relationship": "alliance",
       "detail": null,
-      "context": "Bontade was involved in the murder of Enrico Mattei at the request of the American Cosa Nostra.",
+      "context": "Angelo Bruno of Philadelphia requested the Mattei murder from Sicilian Mafia.",
       "time_period": "1962"
     },
     {
       "source": "Greco clan (Croceverde Giardini)",
-      "target": "Greco clan (Ciaculli)",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Historically, the Greco clan from Croceverde Giardini was at odds with the Greco clan of Ciaculli.",
-      "time_period": "20th century"
-    },
-    {
-      "source": "Santa Maria di Gesù Family",
-      "target": "Greco clan (Ciaculli)",
+      "target": "Corleonesi",
       "relationship": "alliance",
       "detail": null,
-      "context": "Bontade was an ally of Salvatore 'Ciaschiteddu' Greco of the Ciaculli clan.",
+      "context": "Michele Greco allied with Salvatore Riina and helped lure Bontade's allies to their deaths.",
+      "time_period": "1978-1984"
+    },
+    {
+      "source": "Greco clan (Ciaculli)",
+      "target": "Santa Maria di Gesù Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Salvatore Greco 'Ciaschiteddu' was an ally of Bontade.",
       "time_period": "1970s"
+    },
+    {
+      "source": "Inzerillo clan",
+      "target": "Santa Maria di Gesù Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Salvatore Inzerillo was a close ally of Bontade; both were killed by Corleonesi.",
+      "time_period": "1970s-1981"
+    },
+    {
+      "source": "Spatola clan",
+      "target": "Santa Maria di Gesù Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Spatola clan was part of the heroin trafficking network with Bontade.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "source": "Gambino clan (Sicily)",
+      "target": "Santa Maria di Gesù Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "John Gambino's clan worked with Bontade in heroin trafficking.",
+      "time_period": "1970s-1980s"
+    },
+    {
+      "source": "Badalamenti clan",
+      "target": "Santa Maria di Gesù Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Gaetano Badalamenti was an ally of Bontade against the Corleonesi.",
+      "time_period": "1970s-1981"
+    },
+    {
+      "source": "Calderone clan (Catania)",
+      "target": "Santa Maria di Gesù Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Giuseppe Calderone was an ally of Bontade, killed by Corleonesi.",
+      "time_period": "1970s-1981"
+    },
+    {
+      "source": "Di Cristina clan",
+      "target": "Santa Maria di Gesù Family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Giuseppe Di Cristina was an ally of Bontade, killed by Corleonesi.",
+      "time_period": "1970s-1981"
     },
     {
       "source": "Corleonesi",
       "target": "Inzerillo clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Corleonesi killed Salvatore Inzerillo, a close ally of Bontade.",
+      "context": "Corleonesi killed Salvatore Inzerillo and many of his relatives.",
+      "time_period": "1981-1984"
+    },
+    {
+      "source": "Corleonesi",
+      "target": "Badalamenti clan",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Corleonesi expelled Badalamenti from the Commission and targeted his allies.",
+      "time_period": "1978-1984"
+    },
+    {
+      "source": "Corleonesi",
+      "target": "Calderone clan (Catania)",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Corleonesi killed Giuseppe Calderone to isolate Bontade.",
       "time_period": "1981"
     },
     {
       "source": "Corleonesi",
-      "target": "Spatola clan",
+      "target": "Di Cristina clan",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Corleonesi targeted the Spatola clan as part of the Mafia War.",
-      "time_period": "1981-1984"
+      "context": "Corleonesi killed Giuseppe Di Cristina to isolate Bontade.",
+      "time_period": "1981"
+    },
+    {
+      "source": "Greco clan (Croceverde Giardini)",
+      "target": "Greco clan (Ciaculli)",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Historically, the two Greco clans were at odds.",
+      "time_period": "1960s-1970s"
     }
   ],
   "source_file": "Stefano_Bontade"

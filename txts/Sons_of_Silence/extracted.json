@@ -2,9 +2,10 @@
   "nodes": [
     {
       "standard_name": "Sons of Silence",
-      "original_text_name": "Sons of Silence",
+      "original_text_name": "Sons of Silence Motorcycle Club",
       "aliases": [
         "SOSMC",
+        "Sons of Silence",
         "Sons of Silence Motorcycle Club"
       ],
       "type": "motorcycle_club",
@@ -103,8 +104,8 @@
       "standard_name": "Diablos",
       "original_text_name": "Diablos",
       "aliases": [],
-      "type": "gang",
-      "context": "Gang that, along with Sons of Silence, is a primary wholesaler of methamphetamine in Vigo County, Indiana.",
+      "type": "motorcycle_club",
+      "context": "Motorcycle club that, along with Sons of Silence, is a primary methamphetamine wholesaler in Vigo County, Indiana.",
       "time_period": null
     },
     {
@@ -120,7 +121,7 @@
       "original_text_name": "Bad 7",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Rival motorcycle club, members assaulted by Sons of Silence in Wyoming.",
+      "context": "Rival motorcycle club whose member was beaten and robbed by Sons of Silence in 2017.",
       "time_period": null
     }
   ],
@@ -131,7 +132,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Sons of Silence have an alliance with Hells Angels, which enabled their expansion.",
-      "time_period": "since 1968"
+      "time_period": null
     },
     {
       "source": "Sons of Silence",
@@ -146,15 +147,15 @@
       "target": "Outlaws",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Sons of Silence are rivals of Outlaws, with a history of violent conflict.",
-      "time_period": "1970s-1980s"
+      "context": "Sons of Silence are rivals of the Outlaws, with a history of violent conflict.",
+      "time_period": null
     },
     {
       "source": "Sons of Silence",
       "target": "Dead Men",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Sons of Silence had a power struggle with Dead Men in 1972.",
+      "context": "Sons of Silence were involved in a power struggle with Dead Men in 1972.",
       "time_period": "1972"
     },
     {
@@ -162,7 +163,7 @@
       "target": "Philtown",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Sons of Silence had a power struggle with Philtown in 1972.",
+      "context": "Sons of Silence were involved in a power struggle with Philtown in 1972.",
       "time_period": "1972"
     },
     {
@@ -178,8 +179,8 @@
       "target": "Invaders",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Sons of Silence had a bar fight and shootings with Invaders.",
-      "time_period": "1980s"
+      "context": "Sons of Silence had a bar fight and shootings with the Invaders.",
+      "time_period": null
     },
     {
       "source": "Sons of Silence",
@@ -192,41 +193,25 @@
     {
       "source": "Sons of Silence",
       "target": "Diablos",
-      "relationship": "other",
-      "detail": "cooperation",
-      "context": "Sons of Silence and Diablos are primary wholesalers of methamphetamine in Vigo County.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Sons of Silence and Diablos are primary methamphetamine wholesalers in Vigo County, Indiana.",
       "time_period": null
-    },
-    {
-      "source": "Sons of Silence",
-      "target": "Barhoppers Motorcycle Club",
-      "relationship": "other",
-      "detail": "transaction",
-      "context": "Sons of Silence obtained a mobile drug lab from the wife of Barhoppers president.",
-      "time_period": "1983"
     },
     {
       "source": "Sons of Silence",
       "target": "Hells Angels",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Feud between the clubs connected to a 2019 arson in Fargo.",
+      "context": "A fire in Fargo in 2019 was connected to a feud between the Sons of Silence and Hells Angels.",
       "time_period": "2019"
-    },
-    {
-      "source": "Sons of Silence",
-      "target": "Iron Horsemen",
-      "relationship": "other",
-      "detail": "traveled together",
-      "context": "Members of both clubs were stopped together in 1997 while traveling to Sturgis.",
-      "time_period": "1997"
     },
     {
       "source": "Sons of Silence",
       "target": "Bad 7",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Sons of Silence members assaulted and robbed a Bad 7 member of his colors in 2017.",
+      "context": "Sons of Silence members beat and robbed a Bad 7 member of his colors in 2017.",
       "time_period": "2017"
     }
   ],

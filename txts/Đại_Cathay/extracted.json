@@ -5,17 +5,25 @@
       "original_text_name": "Đại Cathay's gang",
       "aliases": [],
       "type": "gang",
-      "context": "Saigon street gang led by Đại Cathay, involved in prostitution, drugs, nightclubs, and casinos.",
+      "context": "Saigon street gang led by Đại Cathay, involved in prostitution, drugs, nightclubs, and casinos in districts 1, 3, and 4.",
       "time_period": "1960s-1967"
     },
     {
       "standard_name": "Tín Mã Nàm's gang",
       "original_text_name": "Tín Mã Nàm's gang",
-      "aliases": [
-        "Chinese mafia in Chợ Lớn"
-      ],
+      "aliases": [],
       "type": "gang",
-      "context": "Chinese mafia in Chợ Lớn (Saigon's fifth district) led by Tín Mã Nàm, involved in illicit establishments.",
+      "context": "Chinese mafia gang in Chợ Lớn (District 5), Saigon, led by Tín Mã Nàm, involved in illicit establishments.",
+      "time_period": "1960s"
+    },
+    {
+      "standard_name": "Chinese mafia in Chợ Lớn",
+      "original_text_name": "Chinese mafia in the area",
+      "aliases": [
+        "Hoa gangs in Chợ Lớn"
+      ],
+      "type": "mafia",
+      "context": "Ethnic Chinese organized crime network in Chợ Lớn, Saigon, led by Hoàng Long.",
       "time_period": "1960s"
     },
     {
@@ -23,7 +31,7 @@
       "original_text_name": "Huỳnh Tỳ",
       "aliases": [],
       "type": "gang",
-      "context": "One of the 'four great kings' of Saigon, rival to Đại Cathay.",
+      "context": "One of the 'Four Great Kings' of Saigon, rival to Đại Cathay.",
       "time_period": "1960s"
     },
     {
@@ -31,7 +39,7 @@
       "original_text_name": "Ngô Văn Cái",
       "aliases": [],
       "type": "gang",
-      "context": "One of the 'four great kings' of Saigon, rival to Đại Cathay.",
+      "context": "One of the 'Four Great Kings' of Saigon, rival to Đại Cathay.",
       "time_period": "1960s"
     },
     {
@@ -39,7 +47,7 @@
       "original_text_name": "Ba Thế",
       "aliases": [],
       "type": "gang",
-      "context": "One of the 'four great kings' of Saigon, initially allied with Đại Cathay but later turned rival.",
+      "context": "One of the 'Four Great Kings' of Saigon, initially allied with Đại Cathay but later part of ambush.",
       "time_period": "1960s"
     },
     {
@@ -47,16 +55,8 @@
       "original_text_name": "Bé Bún's gang",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang in Saigon's fourth district, defeated by Đại Cathay.",
+      "context": "Rival gang in District 4, Saigon, defeated by Đại Cathay.",
       "time_period": "1960s"
-    },
-    {
-      "standard_name": "Bình Xuyên",
-      "original_text_name": "Bình Xuyên army",
-      "aliases": [],
-      "type": "militia",
-      "context": "Vietnamese revolutionary army that fought against the French; Đại Cathay's father served under Ba Dương.",
-      "time_period": "1945-1950s"
     }
   ],
   "edges": [
@@ -69,44 +69,44 @@
       "time_period": "1964"
     },
     {
-      "source": "Đại Cathay's gang",
-      "target": "Huỳnh Tỳ's gang",
-      "relationship": "rivalry",
+      "source": "Tín Mã Nàm's gang",
+      "target": "Chinese mafia in Chợ Lớn",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Huỳnh Tỳ was one of the 'four great kings' who ambushed Đại Cathay.",
+      "context": "Tín Mã Nàm was a leader within the Chinese mafia, second only to Hoàng Long.",
       "time_period": "1960s"
     },
     {
-      "source": "Đại Cathay's gang",
-      "target": "Ngô Văn Cái's gang",
+      "source": "Huỳnh Tỳ's gang",
+      "target": "Đại Cathay's gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Ngô Văn Cái was one of the 'four great kings' who ambushed Đại Cathay.",
+      "context": "Huỳnh Tỳ, Ngô Văn Cái, and Ba Thế ambushed Đại Cathay to stop his expansion.",
       "time_period": "1960s"
     },
     {
-      "source": "Đại Cathay's gang",
-      "target": "Ba Thế's gang",
+      "source": "Ngô Văn Cái's gang",
+      "target": "Đại Cathay's gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Ba Thế initially allied with Đại Cathay in the attack on Tín Mã Nàm, but later joined the ambush against him.",
-      "time_period": "1964-1965"
+      "context": "Participated in ambush against Đại Cathay.",
+      "time_period": "1960s"
+    },
+    {
+      "source": "Ba Thế's gang",
+      "target": "Đại Cathay's gang",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Initially allied with Đại Cathay in clash with Tín Mã Nàm, but later ambushed him.",
+      "time_period": "1964-1960s"
     },
     {
       "source": "Đại Cathay's gang",
       "target": "Bé Bún's gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Đại Cathay fought and defeated Bé Bún's gang to regain control of the fourth district.",
+      "context": "Đại Cathay fought and defeated Bé Bún's gang to regain control of District 4.",
       "time_period": "1960s"
-    },
-    {
-      "source": "Đại Cathay's gang",
-      "target": "Tín Mã Nàm's gang",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "After negotiation, Tín Mã Nàm ceded territory to Đại Cathay, allowing him to operate casinos.",
-      "time_period": "1964"
     }
   ],
   "source_file": "Đại_Cathay"

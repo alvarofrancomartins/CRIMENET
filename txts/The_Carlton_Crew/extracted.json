@@ -25,21 +25,19 @@
       "time_period": null
     },
     {
-      "standard_name": "Moran family",
+      "standard_name": "Moran Family",
       "original_text_name": "Moran family",
-      "aliases": [
-        "Moran and Pettingill families"
-      ],
+      "aliases": [],
       "type": "gang",
-      "context": "Mostly Irish criminal family allied with Carlton Crew.",
+      "context": "Mostly Irish criminal family based in Melbourne.",
       "time_period": null
     },
     {
-      "standard_name": "Williams Syndicate",
-      "original_text_name": "Williams Syndicate",
+      "standard_name": "Pettingill Family",
+      "original_text_name": "Pettingill families",
       "aliases": [],
       "type": "gang",
-      "context": "Criminal syndicate led by Carl Williams, rival to Carlton Crew.",
+      "context": "Criminal family based in Melbourne.",
       "time_period": null
     },
     {
@@ -47,7 +45,15 @@
       "original_text_name": "Radev Bratva",
       "aliases": [],
       "type": "other",
-      "context": "Criminal group allied with Carlton Crew.",
+      "context": "Criminal group based in Melbourne.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Williams Syndicate",
+      "original_text_name": "Williams Syndicate",
+      "aliases": [],
+      "type": "gang",
+      "context": "Criminal syndicate led by Carl Williams, based in Melbourne.",
       "time_period": null
     }
   ],
@@ -70,7 +76,7 @@
     },
     {
       "source": "Carlton Crew",
-      "target": "Moran family",
+      "target": "Moran Family",
       "relationship": "alliance",
       "detail": null,
       "context": "Allies of the mostly Irish Moran family.",
@@ -94,10 +100,10 @@
     },
     {
       "source": "Carlton Crew",
-      "target": "Williams Syndicate",
-      "relationship": "rivalry",
+      "target": "Pettingill Family",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Rivals; Carl Williams plotted to murder Carlton Crew member Mario Condello.",
+      "context": "Allies according to infobox.",
       "time_period": null
     },
     {
@@ -105,7 +111,15 @@
       "target": "Radev Bratva",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied with Radev Bratva.",
+      "context": "Allies according to infobox.",
+      "time_period": null
+    },
+    {
+      "source": "Carlton Crew",
+      "target": "Williams Syndicate",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Rivals according to infobox.",
       "time_period": null
     }
   ],

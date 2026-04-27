@@ -5,7 +5,7 @@
       "original_text_name": "Downtown Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Bootlegging, gambling, and nightclub operation in Galveston, Texas during Prohibition.",
+      "context": "Bootlegging gang active in Galveston, Texas during Prohibition.",
       "time_period": "c. 1920 – 1935"
     },
     {
@@ -13,23 +13,23 @@
       "original_text_name": "Beach Gang",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang controlling gambling and bootlegging in Galveston, Texas.",
-      "time_period": "c. 1920 – 1935"
+      "context": "Rival gang to the Downtown Gang, controlled gambling on Galveston Island.",
+      "time_period": "c. 1920 – 1930s"
     },
     {
       "standard_name": "Chicago Outfit",
       "original_text_name": "Chicago Outfit",
       "aliases": [],
       "type": "mafia",
-      "context": "Major organized crime syndicate based in Chicago, involved in bootlegging and other rackets.",
+      "context": "Major organized crime syndicate based in Chicago, Illinois.",
       "time_period": "1920s-present"
     },
     {
       "standard_name": "Maceo Syndicate",
       "original_text_name": "Maceo Syndicate",
       "aliases": [],
-      "type": "other",
-      "context": "Successor to the Beach Gang, took over much of Galveston island after Prohibition.",
+      "type": "gang",
+      "context": "Successor to the Beach Gang, took over much of Galveston Island.",
       "time_period": "1930s-1940s"
     }
   ],
@@ -39,8 +39,8 @@
       "target": "Beach Gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The two gangs fought for control of Galveston, with shootouts and hijackings common.",
-      "time_period": "c. 1920 – 1935"
+      "context": "The two gangs fought for control of Galveston Island during Prohibition.",
+      "time_period": "c. 1920 – 1930s"
     },
     {
       "source": "Downtown Gang",
@@ -51,20 +51,20 @@
       "time_period": "1920s"
     },
     {
-      "source": "Beach Gang",
-      "target": "Maceo Syndicate",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "The Maceo Syndicate succeeded the Beach Gang after Prohibition.",
-      "time_period": "1930s"
-    },
-    {
       "source": "Downtown Gang",
       "target": "Maceo Syndicate",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Maceo Syndicate ordered the assassination of George Musey, a leader of the Downtown Gang.",
-      "time_period": "1935"
+      "context": "The Maceo Syndicate succeeded the Beach Gang and ordered the assassination of George Musey.",
+      "time_period": "1930s"
+    },
+    {
+      "source": "Maceo Syndicate",
+      "target": "Beach Gang",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Maceo Syndicate is described as the successor of the Beach Gang.",
+      "time_period": "1930s"
     }
   ],
   "source_file": "Downtown_Gang"

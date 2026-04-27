@@ -4,7 +4,7 @@
       "standard_name": "Aryan Nations",
       "original_text_name": "Aryan Nations",
       "aliases": [],
-      "type": "other",
+      "type": "terrorist_organization",
       "context": "North American neo-Nazi organization adhering to Christian Identity, originally based in Idaho.",
       "time_period": "1970s-2004"
     },
@@ -13,38 +13,30 @@
       "original_text_name": "Church of Jesus Christ–Christian",
       "aliases": [],
       "type": "other",
-      "context": "Christian Identity church founded by Wesley A. Swift, later controlled by Richard Butler and linked to Aryan Nations.",
+      "context": "Christian Identity church founded by Wesley A. Swift, later controlled by Richard Butler.",
       "time_period": "1940s-present"
-    },
-    {
-      "standard_name": "Nation of Islam",
-      "original_text_name": "Nation of Islam",
-      "aliases": [],
-      "type": "other",
-      "context": "Black religious and political organization led by Louis Farrakhan, mentioned as a black ally of Aryan Nations.",
-      "time_period": "1930-present"
     },
     {
       "standard_name": "The Order",
       "original_text_name": "The Order",
       "aliases": [],
-      "type": "other",
-      "context": "White supremacist terrorist group formed by Robert Jay Mathews and Aryan Nations members, active 1983-1984.",
+      "type": "terrorist_organization",
+      "context": "White supremacist terrorist group formed by Robert Jay Mathews, committed domestic terrorism in 1983-1984.",
       "time_period": "1983-1984"
     },
     {
       "standard_name": "The New Order",
       "original_text_name": "The New Order",
       "aliases": [],
-      "type": "other",
-      "context": "Group formed by Dennis McGiffen, inspired by The Order, with ties to Aryan Nations.",
+      "type": "terrorist_organization",
+      "context": "Group formed by Dennis McGiffen, inspired by The Order, arrested before carrying out plans.",
       "time_period": "1980s"
     },
     {
       "standard_name": "Aryan Nations Revival",
       "original_text_name": "Aryan Nations Revival",
       "aliases": [],
-      "type": "other",
+      "type": "terrorist_organization",
       "context": "Splinter group of Aryan Nations led by Jay Faber, based in New York and later Texas.",
       "time_period": "2000s-2009"
     },
@@ -52,24 +44,32 @@
       "standard_name": "Crusaders of Yahweh",
       "original_text_name": "Crusaders of Yahweh",
       "aliases": [],
-      "type": "other",
-      "context": "Splinter group of Aryan Nations led by Paul Mullet, with branches in 17 states.",
+      "type": "terrorist_organization",
+      "context": "Splinter group of Aryan Nations led by Paul Mullet, had branches in 17 states.",
       "time_period": "2000s"
     },
     {
       "standard_name": "Holy Order of the Brotherhood of the Phineas Priesthood",
       "original_text_name": "Holy Order of the Brotherhood of the Phineas Priesthood",
       "aliases": [],
-      "type": "other",
-      "context": "Enforcement/terrorist wing of Aryan Nations according to the government.",
+      "type": "terrorist_organization",
+      "context": "Enforcement/terrorist wing of Aryan Nations according to government.",
       "time_period": "unknown"
+    },
+    {
+      "standard_name": "Nation of Islam",
+      "original_text_name": "Nation of Islam",
+      "aliases": [],
+      "type": "other",
+      "context": "Black religious organization; Butler claimed Louis Farrakhan as an ally.",
+      "time_period": "1930-present"
     },
     {
       "standard_name": "al-Qaeda",
       "original_text_name": "al Qaeda",
       "aliases": [],
       "type": "terrorist_organization",
-      "context": "Islamist terrorist group that August Kreis III attempted to form an alliance with.",
+      "context": "Islamist terrorist group; August Kreis III attempted to form an alliance with Aryan Nations.",
       "time_period": "1988-present"
     }
   ],
@@ -77,64 +77,64 @@
     {
       "source": "Aryan Nations",
       "target": "Church of Jesus Christ–Christian",
-      "relationship": "other",
-      "detail": "paramilitary wing",
+      "relationship": "alliance",
+      "detail": null,
       "context": "Aryan Nations was founded as the paramilitary wing of the Church of Jesus Christ–Christian.",
       "time_period": "1970s-2004"
+    },
+    {
+      "source": "The Order",
+      "target": "Aryan Nations",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Order was formed by Robert Jay Mathews, who visited Aryan Nations compound, and included Aryan Nations members.",
+      "time_period": "1983-1984"
+    },
+    {
+      "source": "The New Order",
+      "target": "The Order",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The New Order was inspired by The Order and formed by Dennis McGiffen, who had ties to Aryan Nations.",
+      "time_period": "1980s"
+    },
+    {
+      "source": "Aryan Nations Revival",
+      "target": "Aryan Nations",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Aryan Nations Revival was a splinter group of Aryan Nations led by Jay Faber.",
+      "time_period": "2000s-2009"
+    },
+    {
+      "source": "Crusaders of Yahweh",
+      "target": "Aryan Nations",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Crusaders of Yahweh was a splinter group of Aryan Nations led by Paul Mullet.",
+      "time_period": "2000s"
+    },
+    {
+      "source": "Holy Order of the Brotherhood of the Phineas Priesthood",
+      "target": "Aryan Nations",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Government concluded it was the enforcement/terrorist wing of Aryan Nations.",
+      "time_period": "unknown"
     },
     {
       "source": "Aryan Nations",
       "target": "Nation of Islam",
       "relationship": "alliance",
       "detail": null,
-      "context": "Richard Butler called Louis Farrakhan a black ally in the plan to divide the US into racial mini-states.",
+      "context": "Butler claimed Louis Farrakhan of Nation of Islam as a black ally in his plan for racial mini-states.",
       "time_period": "1980s"
-    },
-    {
-      "source": "Aryan Nations",
-      "target": "The Order",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Order was formed by Robert Jay Mathews and Aryan Nations members, sharing ideology and members.",
-      "time_period": "1983-1984"
-    },
-    {
-      "source": "Aryan Nations",
-      "target": "The New Order",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Dennis McGiffen, who had ties to Aryan Nations, formed The New Order inspired by The Order.",
-      "time_period": "1980s"
-    },
-    {
-      "source": "Aryan Nations",
-      "target": "Aryan Nations Revival",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "Aryan Nations Revival was a splinter group of Aryan Nations led by Jay Faber.",
-      "time_period": "2000s-2009"
-    },
-    {
-      "source": "Aryan Nations",
-      "target": "Crusaders of Yahweh",
-      "relationship": "other",
-      "detail": "splinter group",
-      "context": "Crusaders of Yahweh was a splinter group of Aryan Nations led by Paul Mullet.",
-      "time_period": "2000s"
-    },
-    {
-      "source": "Aryan Nations",
-      "target": "Holy Order of the Brotherhood of the Phineas Priesthood",
-      "relationship": "other",
-      "detail": "enforcement wing",
-      "context": "The government concluded that the Holy Order of the Brotherhood of the Phineas Priesthood was the enforcement/terrorist wing of Aryan Nations.",
-      "time_period": "unknown"
     },
     {
       "source": "Aryan Nations",
       "target": "al-Qaeda",
-      "relationship": "alliance",
-      "detail": null,
+      "relationship": "other",
+      "detail": "attempted alliance",
       "context": "August Kreis III attempted to form an Aryan Nations–al Qaeda alliance in 2005.",
       "time_period": "2005"
     }

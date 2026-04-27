@@ -29,7 +29,7 @@
       "original_text_name": "Misso clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan, allied with Mazzarella in Misso-Mazzarella-Sarno alliance.",
+      "context": "Camorra clan, allied with Mazzarella and Sarno in the 1980s.",
       "time_period": "1980s-2008"
     },
     {
@@ -37,15 +37,15 @@
       "original_text_name": "Sarno clan",
       "aliases": [],
       "type": "clan",
-      "context": "Camorra clan, allied with Mazzarella until its fall in 2008.",
+      "context": "Camorra clan, allied with Mazzarella and Misso until its fall in 2008.",
       "time_period": "1980s-2008"
     },
     {
       "standard_name": "Secondigliano Alliance",
       "original_text_name": "Secondigliano Alliance",
       "aliases": [],
-      "type": "alliance",
-      "context": "Alliance of Licciardi, Mallardo, and Contini clans, opposed by Misso-Mazzarella-Sarno.",
+      "type": "clan",
+      "context": "Alliance of Camorra clans including Licciardi, Mallardo, Contini, rival of Mazzarella.",
       "time_period": "1980s-present"
     },
     {
@@ -70,7 +70,7 @@
       "aliases": [],
       "type": "clan",
       "context": "Camorra clan, allied with Mazzarella through marriage in 1996.",
-      "time_period": "1970s-present"
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Rinaldi clan",
@@ -78,14 +78,14 @@
       "aliases": [],
       "type": "clan",
       "context": "Camorra clan, long-time rival of Mazzarella clan.",
-      "time_period": "1980s-present"
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Catania Mafia family",
       "original_text_name": "Catania Mafia family",
       "aliases": [],
       "type": "mafia",
-      "context": "Sicilian Mafia family, allied with Ciro Mazzarella.",
+      "context": "Sicilian Mafia family from Catania, allied with Mazzarella.",
       "time_period": "1960s-present"
     },
     {
@@ -94,7 +94,7 @@
       "aliases": [
         "NCO"
       ],
-      "type": "other",
+      "type": "clan",
       "context": "Camorra organization led by Raffaele Cutolo, involved in war with Nuova Famiglia.",
       "time_period": "1970s-1980s"
     },
@@ -104,7 +104,7 @@
       "aliases": [
         "NF"
       ],
-      "type": "other",
+      "type": "clan",
       "context": "Camorra alliance opposing NCO, included Michele Zaza.",
       "time_period": "1970s-1980s"
     },
@@ -121,7 +121,7 @@
       "original_text_name": "Albanian mafia groups",
       "aliases": [],
       "type": "mafia",
-      "context": "Albanian organized crime groups, allied with Mazzarella clan.",
+      "context": "Albanian organized crime groups, allied with Mazzarella.",
       "time_period": "2000s-present"
     },
     {
@@ -130,23 +130,15 @@
       "aliases": [],
       "type": "faction",
       "context": "Satellite group of Mazzarella clan handling drug distribution in Somma Vesuviana.",
-      "time_period": "2010s-present"
+      "time_period": "2020s-present"
     },
     {
       "standard_name": "Anastasio group",
       "original_text_name": "Anastasio group",
       "aliases": [],
       "type": "faction",
-      "context": "Satellite group of Mazzarella clan running extortion in Sant’Anastasia.",
-      "time_period": "2010s-present"
-    },
-    {
-      "standard_name": "South American drug cartels",
-      "original_text_name": "South American drug cartels",
-      "aliases": [],
-      "type": "cartel",
-      "context": "Drug cartels from South America, allied with Mazzarella clan.",
-      "time_period": "1990s-present"
+      "context": "Satellite group of Mazzarella clan running extortion rackets in Sant’Anastasia.",
+      "time_period": "2020s-present"
     },
     {
       "standard_name": "De Luca Bossa clan",
@@ -154,7 +146,7 @@
       "aliases": [],
       "type": "clan",
       "context": "Camorra clan, rival of Mazzarella.",
-      "time_period": "1990s-present"
+      "time_period": "unknown"
     },
     {
       "standard_name": "Vollaro clan",
@@ -162,7 +154,7 @@
       "aliases": [],
       "type": "clan",
       "context": "Camorra clan, rival of Mazzarella.",
-      "time_period": "1990s-present"
+      "time_period": "unknown"
     },
     {
       "standard_name": "Aprea-Cuccaro clan",
@@ -170,150 +162,143 @@
       "aliases": [],
       "type": "clan",
       "context": "Camorra clan, rival of Mazzarella.",
-      "time_period": "1990s-present"
+      "time_period": "unknown"
     }
   ],
   "edges": [
     {
       "source": "Mazzarella clan",
       "target": "Zaza clan",
-      "relationship": "other",
-      "detail": "branch of",
-      "context": "Mazzarella clan started as a branch of Zaza clan, founded by relatives of Michele Zaza.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Mazzarella clan was founded as a branch of Zaza clan.",
       "time_period": "1960s"
     },
     {
       "source": "Mazzarella clan",
       "target": "Contini clan",
       "relationship": "rivalry",
-      "context": "Mazzarella clan was involved in Camorra wars against Contini clan, leading to many deaths.",
+      "detail": null,
+      "context": "Mazzarella clan fought wars against Contini clan in the 1980s-1990s.",
       "time_period": "1980s-1990s"
     },
     {
       "source": "Mazzarella clan",
       "target": "Misso clan",
       "relationship": "alliance",
-      "context": "Mazzarella formed a strong alliance with Misso and Sarno clans to oppose Secondigliano Alliance.",
+      "detail": null,
+      "context": "Mazzarella formed an alliance with Misso and Sarno clans in the late 1980s.",
       "time_period": "late 1980s-2008"
     },
     {
       "source": "Mazzarella clan",
       "target": "Sarno clan",
       "relationship": "alliance",
-      "context": "Mazzarella formed a strong alliance with Misso and Sarno clans to oppose Secondigliano Alliance.",
+      "detail": null,
+      "context": "Mazzarella formed an alliance with Misso and Sarno clans in the late 1980s.",
       "time_period": "late 1980s-2008"
     },
     {
-      "source": "Misso clan",
-      "target": "Sarno clan",
-      "relationship": "alliance",
-      "context": "Misso and Sarno clans were part of the Misso-Mazzarella-Sarno alliance.",
-      "time_period": "late 1980s-2008"
-    },
-    {
-      "source": "Misso-Mazzarella-Sarno",
+      "source": "Mazzarella clan",
       "target": "Secondigliano Alliance",
       "relationship": "rivalry",
-      "context": "The Misso-Mazzarella-Sarno alliance opposed the rising power of the Secondigliano Alliance.",
-      "time_period": "late 1980s-2008"
+      "detail": null,
+      "context": "Mazzarella opposed the rising power of Secondigliano Alliance.",
+      "time_period": "late 1980s-present"
     },
     {
-      "source": "Secondigliano Alliance",
+      "source": "Mazzarella clan",
       "target": "Licciardi clan",
-      "relationship": "alliance",
-      "context": "Secondigliano Alliance was headed by Licciardi, Mallardo, and Contini bosses.",
-      "time_period": "1980s-present"
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Licciardi clan is part of Secondigliano Alliance, rival of Mazzarella.",
+      "time_period": "late 1980s-present"
     },
     {
-      "source": "Secondigliano Alliance",
+      "source": "Mazzarella clan",
       "target": "Mallardo clan",
-      "relationship": "alliance",
-      "context": "Secondigliano Alliance was headed by Licciardi, Mallardo, and Contini bosses.",
-      "time_period": "1980s-present"
-    },
-    {
-      "source": "Secondigliano Alliance",
-      "target": "Contini clan",
-      "relationship": "alliance",
-      "context": "Secondigliano Alliance was headed by Licciardi, Mallardo, and Contini bosses.",
-      "time_period": "1980s-present"
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Mallardo clan is part of Secondigliano Alliance, rival of Mazzarella.",
+      "time_period": "late 1980s-present"
     },
     {
       "source": "Mazzarella clan",
       "target": "Giuliano clan",
       "relationship": "alliance",
-      "context": "Marriage between Marianna Giuliano and Michele Mazzarella strengthened relations between the two clans.",
-      "time_period": "1996"
+      "detail": null,
+      "context": "Marriage between Marianna Giuliano and Michele Mazzarella strengthened relations.",
+      "time_period": "1996-present"
     },
     {
       "source": "Mazzarella clan",
       "target": "Rinaldi clan",
       "relationship": "rivalry",
-      "context": "Long history of rivalry causing dozens of deaths from bloody wars.",
-      "time_period": "1980s-present"
+      "detail": null,
+      "context": "Long history of rivalry causing dozens of deaths.",
+      "time_period": "1990s-present"
     },
     {
       "source": "Mazzarella clan",
       "target": "Catania Mafia family",
       "relationship": "alliance",
-      "context": "Ciro Mazzarella had strong relations with Catania Mafia family; Giuseppe Calderone was godparent to Mazzarella's son.",
-      "time_period": "1960s-1990s"
+      "detail": null,
+      "context": "Ciro Mazzarella had strong relations with Catania Mafia family.",
+      "time_period": "1960s-present"
     },
     {
       "source": "Mazzarella clan",
       "target": "Nuova Camorra Organizzata",
       "relationship": "other",
       "detail": "neutral",
-      "context": "Mazzarella never took a side in the war between Nuova Famiglia and NCO, despite Zaza's role in NF.",
+      "context": "Mazzarella never took a side in the war between NCO and Nuova Famiglia.",
       "time_period": "1970s-1980s"
     },
     {
       "source": "Mazzarella clan",
       "target": "Nuova Famiglia",
       "relationship": "other",
-      "detail": "associated via Zaza",
-      "context": "Michele Zaza held a top position in Nuova Famiglia, but Mazzarella remained neutral in the war.",
+      "detail": "neutral",
+      "context": "Mazzarella never took a side in the war, despite Zaza's role in NF.",
       "time_period": "1970s-1980s"
     },
     {
       "source": "Mazzarella clan",
       "target": "Russo clan",
       "relationship": "alliance",
-      "context": "New leaders of Russo clan formed an alliance with Mazzarellas in recent years.",
-      "time_period": "2010s-present"
+      "detail": null,
+      "context": "New leaders of Russo clan formed an alliance with Mazzarella.",
+      "time_period": "recent years"
     },
     {
       "source": "Mazzarella clan",
       "target": "Albanian mafia",
       "relationship": "alliance",
-      "context": "DIA reports indicate alliances with Albanian mafia groups.",
+      "detail": null,
+      "context": "DIA reports alliances with Albanian mafia groups.",
       "time_period": "2000s-present"
     },
     {
       "source": "Mazzarella clan",
       "target": "De Bernardo group",
       "relationship": "alliance",
-      "context": "De Bernardo group operated as a satellite group under Mazzarella clan's leadership.",
-      "time_period": "2010s-present"
+      "detail": null,
+      "context": "De Bernardo group is a satellite group operating under Mazzarella clan.",
+      "time_period": "2020s-present"
     },
     {
       "source": "Mazzarella clan",
       "target": "Anastasio group",
       "relationship": "alliance",
-      "context": "Anastasio group operated as a satellite group under Mazzarella clan's leadership.",
-      "time_period": "2010s-present"
-    },
-    {
-      "source": "Mazzarella clan",
-      "target": "South American drug cartels",
-      "relationship": "alliance",
-      "context": "Mazzarella clan has alliances with South American drug cartels for cocaine trafficking.",
-      "time_period": "1990s-present"
+      "detail": null,
+      "context": "Anastasio group is a satellite group operating under Mazzarella clan.",
+      "time_period": "2020s-present"
     },
     {
       "source": "Mazzarella clan",
       "target": "De Luca Bossa clan",
       "relationship": "rivalry",
+      "detail": null,
       "context": "Listed as rival in infobox.",
       "time_period": null
     },
@@ -321,6 +306,7 @@
       "source": "Mazzarella clan",
       "target": "Vollaro clan",
       "relationship": "rivalry",
+      "detail": null,
       "context": "Listed as rival in infobox.",
       "time_period": null
     },
@@ -328,6 +314,7 @@
       "source": "Mazzarella clan",
       "target": "Aprea-Cuccaro clan",
       "relationship": "rivalry",
+      "detail": null,
       "context": "Listed as rival in infobox.",
       "time_period": null
     }

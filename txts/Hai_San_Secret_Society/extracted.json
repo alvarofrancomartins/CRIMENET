@@ -4,12 +4,12 @@
       "standard_name": "Hai San Secret Society",
       "original_text_name": "Hai San Society",
       "aliases": [
-        "Hai San",
         "Hai San Secret Society",
+        "Hai San",
         "海山公司"
       ],
       "type": "other",
-      "context": "A Penang-based Chinese secret society active in Malaya and Singapore, involved in bribery, extortion, and mercenary activities.",
+      "context": "Penang-based Chinese secret society active in Malaya and Singapore, involved in tin mining and warfare.",
       "time_period": "1799-1890"
     },
     {
@@ -19,18 +19,16 @@
         "Ghee Hin"
       ],
       "type": "other",
-      "context": "A Chinese secret society that was a rival of the Hai San Society, involved in tin mining conflicts in Larut.",
+      "context": "Chinese secret society, rival of Hai San, involved in the Larut Wars over tin mines.",
       "time_period": "19th century"
     },
     {
       "standard_name": "Wah Sang Society",
       "original_text_name": "Wah Sang society",
-      "aliases": [
-        "Wah Sang"
-      ],
+      "aliases": [],
       "type": "other",
-      "context": "A Chinese secret society that was absorbed by the Hai San Society around 1854.",
-      "time_period": "19th century"
+      "context": "Chinese secret society absorbed by Hai San around 1854.",
+      "time_period": "until ~1854"
     },
     {
       "standard_name": "Tokong Society",
@@ -39,7 +37,7 @@
         "Tua Peh Kong society"
       ],
       "type": "other",
-      "context": "A Penang-based Chinese secret society allied with the Hai San Society, financing tin mining in Larut.",
+      "context": "Penang-based Chinese secret society allied with Hai San, financed tin mining in Larut.",
       "time_period": "19th century"
     }
   ],
@@ -49,24 +47,24 @@
       "target": "Ghee Hin Society",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The two societies fought in the Larut Wars over tin-rich fields and clashed in Selangor.",
-      "time_period": "1862-1873"
+      "context": "The two societies fought in the Larut Wars (1862-1873) over tin mines in Larut and also clashed in Selangor.",
+      "time_period": "1862-1874"
     },
     {
       "source": "Hai San Secret Society",
       "target": "Wah Sang Society",
-      "relationship": "other",
-      "detail": "absorption",
-      "context": "The Hai San Society absorbed the Wah Sang society around 1854.",
-      "time_period": "circa 1854"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Hai San absorbed the Wah Sang society around 1854.",
+      "time_period": "~1854"
     },
     {
       "source": "Hai San Secret Society",
       "target": "Tokong Society",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Hai San Society was allied with the Tokong society, which financed tin mining in Larut.",
-      "time_period": "1860s-1870s"
+      "context": "Hai San was allied with the Tokong society, which financed tin mining in Larut.",
+      "time_period": "19th century"
     }
   ],
   "source_file": "Hai_San_Secret_Society"

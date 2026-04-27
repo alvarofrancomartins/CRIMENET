@@ -15,7 +15,7 @@
         "Baanan Ajang Ajang"
       ],
       "type": "faction",
-      "context": "Cell within Abu Sayyaf specializing in bomb attacks, active in the southern Philippines.",
+      "context": "Cell within Abu Sayyaf, specialized in bomb attacks, active in southern Philippines.",
       "time_period": "2018-2019"
     },
     {
@@ -26,7 +26,7 @@
         "ISIL"
       ],
       "type": "terrorist_organization",
-      "context": "Global jihadist terrorist group; claimed responsibility for attacks alongside Ajang Ajang.",
+      "context": "Global jihadist terrorist group; claimed influence over Ajang Ajang group.",
       "time_period": "2014-present"
     }
   ],
@@ -34,9 +34,9 @@
     {
       "source": "Ajang Ajang group",
       "target": "Abu Sayyaf",
-      "relationship": "other",
-      "detail": "sub-group",
-      "context": "The Ajang Ajang group was a cell within Abu Sayyaf.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ajang Ajang group was a cell within Abu Sayyaf.",
       "time_period": "2018-2019"
     },
     {
@@ -44,7 +44,7 @@
       "target": "Islamic State",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Ajang Ajang group claimed attacks under the signature of Islamic State elders.",
+      "context": "Ajang Ajang group claimed allegiance to Islamic State, as bombs carried Islamic State's signature.",
       "time_period": "2018-2019"
     }
   ],

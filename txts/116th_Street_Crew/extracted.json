@@ -20,7 +20,7 @@
       ],
       "type": "mafia",
       "context": "One of the Five Families of New York, controlling organized crime in the city.",
-      "time_period": "c. 1930s-present"
+      "time_period": "c. 1890s-present"
     },
     {
       "standard_name": "East Harlem Purple Gang",
@@ -40,14 +40,14 @@
       ],
       "type": "mafia",
       "context": "Early Sicilian Mafia family in New York, precursor to the Genovese family.",
-      "time_period": "c. 1890s-1930s"
+      "time_period": "c. 1890s-1910s"
     },
     {
       "standard_name": "Camorra",
       "original_text_name": "Camorra",
       "aliases": [],
       "type": "clan",
-      "context": "Neapolitan crime organization active in New York during the Mafia-Camorra War.",
+      "context": "Neapolitan criminal organization active in New York in the early 20th century.",
       "time_period": "c. 1910s"
     },
     {
@@ -55,7 +55,7 @@
       "original_text_name": "Lucchese crime family",
       "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families of New York, allied with the Genovese family.",
+      "context": "One of the Five Families of New York.",
       "time_period": "c. 1920s-present"
     },
     {
@@ -63,7 +63,7 @@
       "original_text_name": "Bonanno",
       "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families of New York, listed as an ally in the infobox.",
+      "context": "One of the Five Families of New York.",
       "time_period": "c. 1930s-present"
     },
     {
@@ -71,7 +71,7 @@
       "original_text_name": "Colombo",
       "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families of New York, listed as an ally in the infobox.",
+      "context": "One of the Five Families of New York.",
       "time_period": "c. 1930s-present"
     },
     {
@@ -79,7 +79,7 @@
       "original_text_name": "Gambino",
       "aliases": [],
       "type": "mafia",
-      "context": "One of the Five Families of New York, listed as an ally in the infobox.",
+      "context": "One of the Five Families of New York.",
       "time_period": "c. 1930s-present"
     }
   ],
@@ -90,7 +90,7 @@
       "relationship": "alliance",
       "detail": null,
       "context": "The 116th Street Crew is a faction of the Genovese crime family.",
-      "time_period": "c. 1930s-present"
+      "time_period": "c. 1890s-present"
     },
     {
       "source": "116th Street Crew",
@@ -102,18 +102,26 @@
     },
     {
       "source": "Morello crime family",
+      "target": "Genovese crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The Morello crime family evolved into the Genovese crime family.",
+      "time_period": "c. 1910s-1930s"
+    },
+    {
+      "source": "Morello crime family",
       "target": "Camorra",
       "relationship": "rivalry",
       "detail": null,
-      "context": "The Morello family fought the Camorra in the Mafia-Camorra War for control of New York gangs.",
-      "time_period": "1915-1916"
+      "context": "The Morello family fought the Camorra in the Mafia–Camorra War.",
+      "time_period": "1915-1917"
     },
     {
       "source": "116th Street Crew",
       "target": "Lucchese crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Anthony Salerno discussed affairs with Lucchese boss Anthony Corallo, indicating cooperation.",
+      "context": "The 116th Street Crew's boss Salerno discussed business with Lucchese boss Corallo.",
       "time_period": "early 1980s"
     },
     {

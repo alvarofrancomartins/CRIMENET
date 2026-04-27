@@ -10,7 +10,7 @@
         "East Asia Friendship Enterprise Association"
       ],
       "type": "mafia",
-      "context": "Yakuza syndicate based in Tokyo, involved in anti-communist activism and legitimate businesses.",
+      "context": "Yakuza syndicate based in Tokyo, involved in anti-communist activities and legitimate businesses.",
       "time_period": "1948-present"
     },
     {
@@ -65,16 +65,16 @@
       "standard_name": "Yoshimi-kogyo",
       "original_text_name": "Yoshimi-kogyo",
       "aliases": [],
-      "type": "faction",
-      "context": "Notable branch organization of Toa-kai in Okinawa, dissolved in 2012.",
+      "type": "mafia",
+      "context": "Branch organization of Toa-kai in Okinawa, dissolved in 2012.",
       "time_period": "late 20th century-2012"
     },
     {
       "standard_name": "Makoto-kai",
       "original_text_name": "Makoto-kai",
       "aliases": [],
-      "type": "faction",
-      "context": "Anti-left nationalist organization formed by Toshio Gibo in Okinawa, affiliate of Tosei-kai.",
+      "type": "mafia",
+      "context": "Anti-left nationalist organization formed by Toshio Gibo in Okinawa, precursor to Yoshimi-kogyo.",
       "time_period": "late 20th century"
     },
     {
@@ -90,7 +90,7 @@
       "original_text_name": "Okinawa Kyokuryu-kai",
       "aliases": [],
       "type": "mafia",
-      "context": "Okinawa-based yakuza syndicate, possibly related to Kyokuryu-kai.",
+      "context": "Likely a faction or affiliate of Kyokuryu-kai in Okinawa.",
       "time_period": null
     },
     {
@@ -156,15 +156,23 @@
       "target": "Toa-kai",
       "relationship": "alliance",
       "detail": null,
-      "context": "Yoshimi-kogyo is a notable branch organization of Toa-kai in Okinawa.",
+      "context": "Yoshimi-kogyo is a branch organization of Toa-kai in Okinawa.",
       "time_period": "late 20th century-2012"
     },
     {
       "source": "Makoto-kai",
-      "target": "Toa-kai",
+      "target": "Tosei-kai",
       "relationship": "alliance",
       "detail": null,
-      "context": "Makoto-kai was an affiliate of Tosei-kai, predecessor of Toa-kai, in Okinawa.",
+      "context": "Makoto-kai was founded as an affiliate of Tosei-kai (predecessor of Toa-kai) in Okinawa.",
+      "time_period": "late 20th century"
+    },
+    {
+      "source": "Yoshimi-kogyo",
+      "target": "Makoto-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Yoshimi-kogyo traces its origin to Makoto-kai.",
       "time_period": "late 20th century"
     },
     {
@@ -172,7 +180,7 @@
       "target": "Toa-kai",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Kyokuryu-kai has attacked and expelled yakuza syndicates entering Okinawa, but Toa-kai has been tolerated due to its gentle stance.",
+      "context": "Kyokuryu-kai has attacked and expelled other syndicates from Okinawa, but Toa-kai has been tolerated due to its gentle stance.",
       "time_period": null
     },
     {
@@ -189,6 +197,14 @@
       "relationship": "rivalry",
       "detail": null,
       "context": "Kyokuryu-kai has violently opposed Dojin-kai's attempts to expand into Okinawa.",
+      "time_period": null
+    },
+    {
+      "source": "Okinawa Kyokuryu-kai",
+      "target": "Kyokuryu-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Okinawa Kyokuryu-kai is likely a faction or affiliate of Kyokuryu-kai.",
       "time_period": null
     }
   ],

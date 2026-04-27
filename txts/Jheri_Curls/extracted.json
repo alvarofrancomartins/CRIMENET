@@ -13,18 +13,35 @@
       "original_text_name": "Wild Cowboys",
       "aliases": [],
       "type": "gang",
-      "context": "Violent Dominican gang in New York City targeted in crackdown.",
-      "time_period": null
+      "context": "Violent Dominican gang in New York City targeted in crackdown alongside Jheri Curls.",
+      "time_period": "early 1990s"
     },
     {
       "standard_name": "Young Talented Children",
       "original_text_name": "Young Talented Children",
       "aliases": [],
       "type": "gang",
-      "context": "Violent Dominican gang in New York City targeted in crackdown.",
-      "time_period": null
+      "context": "Violent Dominican gang in New York City targeted in crackdown alongside Jheri Curls.",
+      "time_period": "early 1990s"
     }
   ],
-  "edges": [],
+  "edges": [
+    {
+      "source": "Jheri Curls",
+      "target": "Wild Cowboys",
+      "relationship": "other",
+      "detail": "co-targeted in crackdown",
+      "context": "Both were violent Dominican gangs targeted in a larger NYPD crackdown.",
+      "time_period": "early 1990s"
+    },
+    {
+      "source": "Jheri Curls",
+      "target": "Young Talented Children",
+      "relationship": "other",
+      "detail": "co-targeted in crackdown",
+      "context": "Both were violent Dominican gangs targeted in a larger NYPD crackdown.",
+      "time_period": "early 1990s"
+    }
+  ],
   "source_file": "Jheri_Curls"
 }

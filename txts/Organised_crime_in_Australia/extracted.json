@@ -2,15 +2,15 @@
   "nodes": [
     {
       "standard_name": "Carlton Crew",
-      "original_text_name": "The Carlton Crew",
+      "original_text_name": "Carlton Crew",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian-Australian criminal organization based in Melbourne, formed in late 1970s, involved in Melbourne gangland killings.",
+      "context": "Italian-Australian criminal organization based in Melbourne, formed in late 1970s.",
       "time_period": "late 1970s-present"
     },
     {
       "standard_name": "Honoured Society",
-      "original_text_name": "The Honoured Society",
+      "original_text_name": "Honoured Society",
       "aliases": [],
       "type": "mafia",
       "context": "Calabrian 'Ndrangheta group based in Melbourne, involved in Victoria Market Murders.",
@@ -71,7 +71,7 @@
         "Yugoslav clan"
       ],
       "type": "mafia",
-      "context": "Serbian organized crime group operating in Sydney, Wollongong, Melbourne since late 1970s.",
+      "context": "Serbian organized crime groups in Australia, active since late 1970s.",
       "time_period": "late 1970s-present"
     },
     {
@@ -87,7 +87,7 @@
       "original_text_name": "Albanian mafia",
       "aliases": [],
       "type": "mafia",
-      "context": "Albanian organized crime family involved in drug pipeline through Sydney and Brisbane.",
+      "context": "Albanian organized crime family involved in drug pipeline in Sydney and Brisbane.",
       "time_period": null
     },
     {
@@ -111,36 +111,32 @@
       "original_text_name": "Bandidos",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "International outlaw motorcycle club with 19 chapters in Australia, involved in Milperra Massacre.",
-      "time_period": "1984-present"
+      "context": "International outlaw motorcycle club with 19 chapters in Australia.",
+      "time_period": null
     },
     {
       "standard_name": "Hells Angels",
       "original_text_name": "Hells Angels",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "International outlaw motorcycle club active in Australia, involved in Sydney Airport clash.",
+      "context": "International outlaw motorcycle club active in Australia with 150-250 members.",
       "time_period": null
     },
     {
       "standard_name": "Gypsy Jokers",
       "original_text_name": "Gypsy Jokers",
-      "aliases": [
-        "Gypsy Joker MC"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
-      "context": "American-formed outlaw motorcycle club notorious for 2001 car-bomb murders in Western Australia.",
+      "context": "American-formed outlaw motorcycle club with 200-300 members in Australia.",
       "time_period": null
     },
     {
       "standard_name": "Comancheros",
       "original_text_name": "Comancheros",
-      "aliases": [
-        "Comanchero Motorcycle Club"
-      ],
+      "aliases": [],
       "type": "motorcycle_club",
-      "context": "One of the oldest outlaw clubs in Australia, involved in Milperra Massacre and Sydney Airport clash.",
-      "time_period": "1984-present"
+      "context": "One of the oldest outlaw clubs in Australia, headquartered in Western Sydney.",
+      "time_period": null
     },
     {
       "standard_name": "Coffin Cheaters",
@@ -155,7 +151,7 @@
       "original_text_name": "Nomads",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club allied with Hells Angels in Australia.",
+      "context": "Outlaw motorcycle club in Australia, allied with Hells Angels.",
       "time_period": null
     },
     {
@@ -163,7 +159,7 @@
       "original_text_name": "Notorious",
       "aliases": [],
       "type": "motorcycle_club",
-      "context": "Ethnically Middle Eastern based gang competing with traditional bikie gangs for drug sales.",
+      "context": "Ethnically Middle Eastern based gang competing with traditional bikie gangs.",
       "time_period": null
     },
     {
@@ -187,7 +183,7 @@
       "original_text_name": "Triad",
       "aliases": [],
       "type": "triad",
-      "context": "Chinese organized crime syndicates active in Australia.",
+      "context": "Chinese organized crime syndicates operating in Australia.",
       "time_period": null
     },
     {
@@ -195,7 +191,7 @@
       "original_text_name": "Spider Boys",
       "aliases": [],
       "type": "gang",
-      "context": "Chinese gang active in Australia.",
+      "context": "Chinese gang in Australia.",
       "time_period": null
     },
     {
@@ -203,7 +199,7 @@
       "original_text_name": "Sing Wah",
       "aliases": [],
       "type": "gang",
-      "context": "Chinese gang active in Australia.",
+      "context": "Chinese gang in Australia.",
       "time_period": null
     },
     {
@@ -211,7 +207,7 @@
       "original_text_name": "Yee Tong",
       "aliases": [],
       "type": "gang",
-      "context": "Chinese gang active in Australia.",
+      "context": "Chinese gang in Australia.",
       "time_period": null
     },
     {
@@ -219,8 +215,8 @@
       "original_text_name": "Bogota Cartel",
       "aliases": [],
       "type": "cartel",
-      "context": "Now-defunct Colombian drug cartel that had operations in Australia.",
-      "time_period": "defunct"
+      "context": "Colombian drug cartel that had operations in Australia, now defunct.",
+      "time_period": null
     },
     {
       "standard_name": "Sinaloa Cartel",
@@ -235,7 +231,7 @@
       "original_text_name": "Alameddine crime network",
       "aliases": [],
       "type": "other",
-      "context": "Crime network involved in ongoing feud with Brothers for Life in Sydney.",
+      "context": "Middle Eastern crime network in Sydney involved in feud with Brothers for Life.",
       "time_period": null
     },
     {
@@ -243,15 +239,7 @@
       "original_text_name": "Brothers for Life",
       "aliases": [],
       "type": "gang",
-      "context": "Gang of the Hamzy family involved in feud with Alameddine crime network.",
-      "time_period": null
-    },
-    {
-      "standard_name": "Benbrika Group",
-      "original_text_name": "Benbrika Group",
-      "aliases": [],
-      "type": "terrorist_organization",
-      "context": "Militant Islamic group in Melbourne involved in terrorism plot.",
+      "context": "Middle Eastern gang in Sydney, part of Hamzy family network.",
       "time_period": null
     }
   ],
@@ -281,68 +269,52 @@
       "time_period": null
     },
     {
-      "source": "Honoured Society",
-      "target": "Arena clan",
+      "source": "Arena clan",
+      "target": "Honoured Society",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Arena clan is part of the 'Ndrangheta operating in Australia, same as Honoured Society.",
+      "context": "Arena clan is part of the 'Ndrangheta operating in Australia, same as Honoured Society.",
       "time_period": null
     },
     {
-      "source": "Honoured Society",
-      "target": "Italiano clan",
+      "source": "Italiano clan",
+      "target": "Honoured Society",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Italiano clan is part of the 'Ndrangheta operating in Australia.",
+      "context": "Italiano clan is part of the 'Ndrangheta operating in Australia.",
       "time_period": null
     },
     {
-      "source": "Honoured Society",
-      "target": "Muratore clan",
+      "source": "Muratore clan",
+      "target": "Honoured Society",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Muratore clan is part of the 'Ndrangheta operating in Australia.",
+      "context": "Muratore clan is part of the 'Ndrangheta operating in Australia.",
       "time_period": null
     },
     {
-      "source": "Honoured Society",
-      "target": "Benvenuto clan",
+      "source": "Benvenuto clan",
+      "target": "Honoured Society",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Benvenuto clan is part of the 'Ndrangheta operating in Australia.",
+      "context": "Benvenuto clan is part of the 'Ndrangheta operating in Australia.",
       "time_period": null
     },
     {
-      "source": "Honoured Society",
-      "target": "Condello clan",
+      "source": "Condello clan",
+      "target": "Honoured Society",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Condello clan is part of the 'Ndrangheta operating in Australia.",
+      "context": "Condello clan is part of the 'Ndrangheta operating in Australia.",
       "time_period": null
     },
     {
-      "source": "Serbian Mafia",
-      "target": "Zemun clan",
+      "source": "Zemun clan",
+      "target": "Serbian Mafia",
       "relationship": "alliance",
       "detail": null,
       "context": "Zemun clan members operated in Australia as part of Serbian mafia.",
       "time_period": null
-    },
-    {
-      "source": "Bandidos",
-      "target": "Comancheros",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "The Milperra Massacre was a fight between Comancheros and Bandidos.",
-      "time_period": "1984"
-    },
-    {
-      "source": "Comancheros",
-      "target": "Hells Angels",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Comanchero and Hells Angels involved in a clash at Sydney Airport in 2009.",
-      "time_period": "2009"
     },
     {
       "source": "Hells Angels",
@@ -353,60 +325,28 @@
       "time_period": null
     },
     {
+      "source": "Comancheros",
+      "target": "Bandidos",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "The Milperra Massacre in 1984 was a fight between Comancheros and Bandidos.",
+      "time_period": "1984"
+    },
+    {
+      "source": "Comancheros",
+      "target": "Hells Angels",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Comanchero and Hells Angels were involved in a clash at Sydney Airport in 2009.",
+      "time_period": "2009"
+    },
+    {
       "source": "Alameddine crime network",
       "target": "Brothers for Life",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Ongoing feud between Alameddine crime network and Brothers for Life has led to at least 11 shooting deaths.",
+      "context": "Ongoing feud between Alameddine crime network and Brothers for Life has led to shootings.",
       "time_period": "2024"
-    },
-    {
-      "source": "Arena clan",
-      "target": "Honoured Society",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Arena clan is part of the 'Ndrangheta operating in Australia, likely allied with the Honoured Society.",
-      "time_period": null
-    },
-    {
-      "source": "Italiano clan",
-      "target": "Honoured Society",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Italiano clan is part of the 'Ndrangheta operating in Australia, likely allied with the Honoured Society.",
-      "time_period": null
-    },
-    {
-      "source": "Muratore clan",
-      "target": "Honoured Society",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Muratore clan is part of the 'Ndrangheta operating in Australia, likely allied with the Honoured Society.",
-      "time_period": null
-    },
-    {
-      "source": "Benvenuto clan",
-      "target": "Honoured Society",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Benvenuto clan is part of the 'Ndrangheta operating in Australia, likely allied with the Honoured Society.",
-      "time_period": null
-    },
-    {
-      "source": "Condello clan",
-      "target": "Honoured Society",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Condello clan is part of the 'Ndrangheta operating in Australia, likely allied with the Honoured Society.",
-      "time_period": null
-    },
-    {
-      "source": "Zemun clan",
-      "target": "Serbian Mafia",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "The Zemun clan is a Serbian organized crime clan with members operating in Australia, part of the Serbian Mafia.",
-      "time_period": null
     }
   ],
   "source_file": "Organised_crime_in_Australia"

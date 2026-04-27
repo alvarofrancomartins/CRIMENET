@@ -7,25 +7,15 @@
         "The Foxtrot Network"
       ],
       "type": "gang",
-      "context": "Swedish criminal network distributing narcotics, involved in shootings, bombings, and terrorism.",
+      "context": "Swedish criminal network distributing narcotics, with ties to Iran.",
       "time_period": "late 2010s-present"
-    },
-    {
-      "standard_name": "Iran's Ministry of Intelligence and Security",
-      "original_text_name": "Iran’s Ministry of Intelligence and Security (MOIS)",
-      "aliases": [
-        "MOIS"
-      ],
-      "type": "other",
-      "context": "Iranian government intelligence agency that recruited Foxtrot for attacks on Israeli and Jewish targets.",
-      "time_period": null
     },
     {
       "standard_name": "Bro-network",
       "original_text_name": "Bro-network",
       "aliases": [],
       "type": "gang",
-      "context": "Swedish criminal network allied with Foxtrot, involved in violent crimes against Dalen Network.",
+      "context": "Swedish criminal network allied with Foxtrot.",
       "time_period": null
     },
     {
@@ -33,7 +23,7 @@
       "original_text_name": "Zero Network",
       "aliases": [],
       "type": "gang",
-      "context": "Swedish criminal network allied with Foxtrot, involved in violent crimes against Dalen Network.",
+      "context": "Swedish criminal network allied with Foxtrot.",
       "time_period": null
     },
     {
@@ -41,7 +31,7 @@
       "original_text_name": "Dalen Network",
       "aliases": [],
       "type": "gang",
-      "context": "Swedish criminal network rival to Foxtrot, affiliated with Farsta yngre.",
+      "context": "Swedish criminal network rival to Foxtrot.",
       "time_period": null
     },
     {
@@ -56,18 +46,10 @@
   "edges": [
     {
       "source": "Foxtrot",
-      "target": "Iran's Ministry of Intelligence and Security",
-      "relationship": "alliance",
-      "detail": null,
-      "context": "Foxtrot developed direct operational ties with MOIS, carrying out attacks on Israeli and Jewish targets in exchange for protection.",
-      "time_period": "since September 2023"
-    },
-    {
-      "source": "Foxtrot",
       "target": "Bro-network",
       "relationship": "alliance",
       "detail": null,
-      "context": "Foxtrot is allied with Bro-network; Bro-network members committed violent crimes against Dalen Network on Foxtrot's behalf.",
+      "context": "Foxtrot is allied with Bro-network; Bro-network members commit violence for Foxtrot.",
       "time_period": null
     },
     {
@@ -75,7 +57,7 @@
       "target": "Zero Network",
       "relationship": "alliance",
       "detail": null,
-      "context": "Foxtrot is allied with Zero Network; Zero Network members committed violent crimes against Dalen Network on Foxtrot's behalf.",
+      "context": "Foxtrot is allied with Zero Network; Zero Network members commit violence for Foxtrot.",
       "time_period": null
     },
     {
@@ -83,7 +65,7 @@
       "target": "Dalen Network",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Foxtrot and Dalen Network have committed violent acts against each other and their respective allies.",
+      "context": "Foxtrot and Dalen Network commit violent acts against each other and their allies.",
       "time_period": null
     },
     {

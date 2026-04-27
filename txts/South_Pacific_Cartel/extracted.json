@@ -17,8 +17,8 @@
         "Beltran Leyva Cartel"
       ],
       "type": "cartel",
-      "context": "Mexican drug cartel, parent organization of the South Pacific Cartel.",
-      "time_period": "1990s-present"
+      "context": "Mexican drug cartel that founded the South Pacific Cartel as a local cell.",
+      "time_period": null
     },
     {
       "standard_name": "Los Zetas",
@@ -26,7 +26,7 @@
       "aliases": [],
       "type": "cartel",
       "context": "Mexican criminal organization, allied with South Pacific Cartel.",
-      "time_period": "1999-present"
+      "time_period": null
     },
     {
       "standard_name": "Los Mazatlecos",
@@ -42,7 +42,7 @@
       "aliases": [],
       "type": "cartel",
       "context": "Mexican drug cartel, rival of South Pacific Cartel.",
-      "time_period": "1980s-present"
+      "time_period": null
     },
     {
       "standard_name": "Gulf Cartel",
@@ -50,7 +50,7 @@
       "aliases": [],
       "type": "cartel",
       "context": "Mexican drug cartel, rival of South Pacific Cartel.",
-      "time_period": "1930s-present"
+      "time_period": null
     }
   ],
   "edges": [
@@ -59,7 +59,7 @@
       "target": "Beltrán-Leyva Cartel",
       "relationship": "alliance",
       "detail": null,
-      "context": "South Pacific Cartel is composed of remnants of the Beltrán-Leyva Cartel and was created by its leader.",
+      "context": "South Pacific Cartel is composed of remnants of Beltrán-Leyva Cartel and was created by its leader.",
       "time_period": "2010-present"
     },
     {
@@ -67,7 +67,7 @@
       "target": "Los Zetas",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied with Los Zetas according to the infobox.",
+      "context": "Allies according to the infobox.",
       "time_period": null
     },
     {
@@ -75,7 +75,7 @@
       "target": "Los Mazatlecos",
       "relationship": "alliance",
       "detail": null,
-      "context": "Allied with Los Mazatlecos according to the infobox.",
+      "context": "Allies according to the infobox.",
       "time_period": null
     },
     {
@@ -83,7 +83,7 @@
       "target": "Sinaloa Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rivalry with Sinaloa Cartel according to the infobox.",
+      "context": "Rivals according to the infobox.",
       "time_period": null
     },
     {
@@ -91,7 +91,7 @@
       "target": "Gulf Cartel",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Rivalry with Gulf Cartel according to the infobox.",
+      "context": "Rivals according to the infobox.",
       "time_period": null
     }
   ],

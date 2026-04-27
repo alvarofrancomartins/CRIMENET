@@ -40,7 +40,7 @@
       "original_text_name": "Kyushu Seido-kai",
       "aliases": [],
       "type": "mafia",
-      "context": "Yakuza syndicate based in Kyushu, Fukuoka.",
+      "context": "Yakuza syndicate based in Fukuoka.",
       "time_period": null
     },
     {
@@ -48,7 +48,7 @@
       "original_text_name": "Yamaguchi-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Major yakuza syndicate based in Kobe, Japan.",
+      "context": "Largest yakuza syndicate in Japan, based in Kobe.",
       "time_period": null
     },
     {
@@ -58,6 +58,14 @@
       "type": "mafia",
       "context": "Yakuza syndicate based in Kumamoto.",
       "time_period": null
+    },
+    {
+      "standard_name": "Yonsha-kai",
+      "original_text_name": "Yonsha-kai",
+      "aliases": [],
+      "type": "other",
+      "context": "Anti-Yamaguchi-gumi fraternal federation of yakuza groups.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -66,7 +74,7 @@
       "target": "Kudo-kai",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are members of the anti-Yamaguchi-gumi federation Yonsha-kai.",
+      "context": "Both are members of the Yonsha-kai federation.",
       "time_period": null
     },
     {
@@ -74,7 +82,7 @@
       "target": "Dojin-kai",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are members of the anti-Yamaguchi-gumi federation Yonsha-kai.",
+      "context": "Both are members of the Yonsha-kai federation.",
       "time_period": null
     },
     {
@@ -82,39 +90,47 @@
       "target": "Kumamoto-kai",
       "relationship": "alliance",
       "detail": null,
-      "context": "Both are members of the anti-Yamaguchi-gumi federation Yonsha-kai.",
+      "context": "Both are members of the Yonsha-kai federation.",
       "time_period": null
     },
     {
       "source": "Taishu-kai",
-      "target": "Yamaguchi-gumi",
-      "relationship": "rivalry",
+      "target": "Yonsha-kai",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Taishu-kai is part of an anti-Yamaguchi-gumi federation.",
+      "context": "Taishu-kai is a member of the Yonsha-kai federation.",
       "time_period": null
     },
     {
       "source": "Kudo-kai",
-      "target": "Yamaguchi-gumi",
-      "relationship": "rivalry",
+      "target": "Yonsha-kai",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Kudo-kai is part of an anti-Yamaguchi-gumi federation.",
+      "context": "Kudo-kai is a member of the Yonsha-kai federation.",
       "time_period": null
     },
     {
       "source": "Dojin-kai",
-      "target": "Yamaguchi-gumi",
-      "relationship": "rivalry",
+      "target": "Yonsha-kai",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Dojin-kai is part of an anti-Yamaguchi-gumi federation.",
+      "context": "Dojin-kai is a member of the Yonsha-kai federation.",
       "time_period": null
     },
     {
       "source": "Kumamoto-kai",
+      "target": "Yonsha-kai",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kumamoto-kai is a member of the Yonsha-kai federation.",
+      "time_period": null
+    },
+    {
+      "source": "Yonsha-kai",
       "target": "Yamaguchi-gumi",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Kumamoto-kai is part of an anti-Yamaguchi-gumi federation.",
+      "context": "Yonsha-kai is an anti-Yamaguchi-gumi federation.",
       "time_period": null
     }
   ],

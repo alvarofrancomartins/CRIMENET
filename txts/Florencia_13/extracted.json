@@ -9,7 +9,7 @@
         "F13"
       ],
       "type": "gang",
-      "context": "American street gang based in Los Angeles, involved in drug trafficking, murder, assault, robbery.",
+      "context": "American criminal street gang based in Los Angeles, involved in drug-smuggling, murder, assault, and robbery.",
       "time_period": "1930s-present"
     },
     {
@@ -17,7 +17,7 @@
       "original_text_name": "Mexican Mafia",
       "aliases": [],
       "type": "gang",
-      "context": "Prison gang that controls Florencia 13 and ordered hits on East Coast Crips.",
+      "context": "Prison gang that controls Florencia 13 and put a 'green light' on East Coast Crips.",
       "time_period": null
     },
     {
@@ -25,7 +25,7 @@
       "original_text_name": "East Coast Crips",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang targeted by Florencia 13 and Mexican Mafia after drug theft.",
+      "context": "Rival gang that stole drugs from Florencia 13, leading to conflict.",
       "time_period": null
     },
     {
@@ -33,7 +33,7 @@
       "original_text_name": "Norteños",
       "aliases": [],
       "type": "gang",
-      "context": "Rival gang involved in a shooting with Florencia 13 in Utah.",
+      "context": "Rival gang involved in a shooting with Florencia 13 in Salt Lake City.",
       "time_period": null
     },
     {
@@ -143,11 +143,11 @@
   ],
   "edges": [
     {
-      "source": "Mexican Mafia",
-      "target": "Florencia 13",
+      "source": "Florencia 13",
+      "target": "Mexican Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Mexican Mafia controls Florencia 13 and puts green lights on rivals.",
+      "context": "Florencia 13 is controlled by the Mexican Mafia.",
       "time_period": null
     },
     {
@@ -155,15 +155,7 @@
       "target": "East Coast Crips",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Conflict triggered by drug theft; Mexican Mafia ordered killings.",
-      "time_period": null
-    },
-    {
-      "source": "Mexican Mafia",
-      "target": "East Coast Crips",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Mexican Mafia put a green light on East Coast Crips.",
+      "context": "Conflict triggered by theft of drugs; Mexican Mafia put a 'green light' on East Coast Crips.",
       "time_period": null
     },
     {
@@ -171,7 +163,7 @@
       "target": "Norteños",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Shooting between members in Utah in 2019.",
+      "context": "Shooting between members in Salt Lake City in 2019.",
       "time_period": null
     },
     {
@@ -179,7 +171,7 @@
       "target": "Sureños",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as allies in infobox.",
+      "context": "Listed as allies in the infobox.",
       "time_period": null
     },
     {
@@ -187,7 +179,7 @@
       "target": "Pueblo Bishop Bloods",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as allies in infobox.",
+      "context": "Listed as allies in the infobox.",
       "time_period": null
     },
     {
@@ -195,7 +187,7 @@
       "target": "Mad Swan Bloods",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as allies in infobox.",
+      "context": "Listed as allies in the infobox.",
       "time_period": null
     },
     {
@@ -203,7 +195,7 @@
       "target": "Harvard Park Brims",
       "relationship": "alliance",
       "detail": null,
-      "context": "Listed as allies in infobox.",
+      "context": "Listed as allies in the infobox.",
       "time_period": null
     },
     {
@@ -211,7 +203,7 @@
       "target": "18th Street gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rival in infobox.",
+      "context": "Listed as rivals in the infobox.",
       "time_period": null
     },
     {
@@ -219,7 +211,7 @@
       "target": "38th Street gang",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rival in infobox.",
+      "context": "Listed as rivals in the infobox.",
       "time_period": null
     },
     {
@@ -227,7 +219,7 @@
       "target": "Grape Street Watts Crips",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rival in infobox.",
+      "context": "Listed as rivals in the infobox.",
       "time_period": null
     },
     {
@@ -235,7 +227,7 @@
       "target": "Watts Varrio Grape Street 13",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rival in infobox.",
+      "context": "Listed as rivals in the infobox.",
       "time_period": null
     },
     {
@@ -243,7 +235,7 @@
       "target": "Hat Gang Watts Crips",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rival in infobox.",
+      "context": "Listed as rivals in the infobox.",
       "time_period": null
     },
     {
@@ -251,7 +243,7 @@
       "target": "Huntington Park Locos",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rival in infobox.",
+      "context": "Listed as rivals in the infobox.",
       "time_period": null
     },
     {
@@ -259,7 +251,7 @@
       "target": "Playboys",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rival in infobox.",
+      "context": "Listed as rivals in the infobox.",
       "time_period": null
     },
     {
@@ -267,7 +259,7 @@
       "target": "East Side 13",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rival in infobox.",
+      "context": "Listed as rivals in the infobox.",
       "time_period": null
     },
     {
@@ -275,7 +267,7 @@
       "target": "South Los 13",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Listed as rival in infobox.",
+      "context": "Listed as rivals in the infobox.",
       "time_period": null
     }
   ],

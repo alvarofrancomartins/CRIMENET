@@ -7,8 +7,8 @@
         "Fourth Yamaken-gumi",
         "Yondaime Yamaken-gumi"
       ],
-      "type": "gang",
-      "context": "Yakuza gang based in Kobe, Japan, largest affiliate of Yamaguchi-gumi until 2015.",
+      "type": "mafia",
+      "context": "Yakuza gang based in Kobe, Japan; largest affiliate of Yamaguchi-gumi until 2015.",
       "time_period": "1961-present"
     },
     {
@@ -16,32 +16,32 @@
       "original_text_name": "Yamaguchi-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Largest known yakuza syndicate in Japan, based in Kobe.",
+      "context": "Largest yakuza syndicate in Japan, based in Kobe.",
       "time_period": "1915-present"
     },
     {
       "standard_name": "Kodo-kai",
       "original_text_name": "Kodo-kai",
       "aliases": [],
-      "type": "gang",
+      "type": "mafia",
       "context": "Nagoya-based affiliate of Yamaguchi-gumi.",
-      "time_period": "unknown"
+      "time_period": null
     },
     {
       "standard_name": "Kobe Yamaguchi-gumi",
       "original_text_name": "Kobe Yamaguchi-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Splinter group formed by Yamaken-gumi and others after leaving Yamaguchi-gumi in 2015.",
+      "context": "Splinter group formed in 2015 by Yamaken-gumi and others withdrawing from Yamaguchi-gumi.",
       "time_period": "2015-2020"
     },
     {
       "standard_name": "Yasuhara-kai",
       "original_text_name": "Yasuhara-kai",
       "aliases": [],
-      "type": "gang",
-      "context": "Former yakuza group; Kenichi Yamamoto was a former member.",
-      "time_period": "unknown"
+      "type": "mafia",
+      "context": "Former yakuza group; founder Kenichi Yamamoto was a former member.",
+      "time_period": null
     },
     {
       "standard_name": "Kenryu-kai",
@@ -52,9 +52,9 @@
         "Fourth Kenryu-kai",
         "Fifth Kenryu-kai"
       ],
-      "type": "gang",
-      "context": "Sub-group within Yamaguchi-gumi; leaders of Yamaken-gumi also led Kenryu-kai.",
-      "time_period": "unknown"
+      "type": "mafia",
+      "context": "Sub-group of Yamaguchi-gumi; several leaders of Yamaken-gumi were kaicho of Kenryu-kai.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -63,16 +63,16 @@
       "target": "Yamaguchi-gumi",
       "relationship": "alliance",
       "detail": null,
-      "context": "Yamaken-gumi was the largest affiliate of Yamaguchi-gumi until 2015.",
-      "time_period": "1961-2015"
+      "context": "Yamaken-gumi was the largest affiliate of Yamaguchi-gumi until 2015, then rejoined in 2021.",
+      "time_period": "1961-2015, 2021-present"
     },
     {
       "source": "Kodo-kai",
       "target": "Yamaguchi-gumi",
       "relationship": "alliance",
       "detail": null,
-      "context": "Kodo-kai was a Nagoya-based affiliate of Yamaguchi-gumi.",
-      "time_period": "unknown"
+      "context": "Kodo-kai is a Nagoya-based affiliate of Yamaguchi-gumi.",
+      "time_period": null
     },
     {
       "source": "Yamaken-gumi",
@@ -84,27 +84,19 @@
     },
     {
       "source": "Yamaken-gumi",
-      "target": "Yamaguchi-gumi",
-      "relationship": "rivalry",
+      "target": "Yasuhara-kai",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Yamaken-gumi withdrew from Yamaguchi-gumi in 2015, leading to conflict.",
-      "time_period": "2015-2021"
+      "context": "Founder Kenichi Yamamoto was a former member of Yasuhara-kai.",
+      "time_period": "before 1961"
     },
     {
       "source": "Yamaken-gumi",
       "target": "Kenryu-kai",
-      "relationship": "other",
-      "detail": "leadership overlap",
-      "context": "Leaders of Yamaken-gumi also served as kaicho of Kenryu-kai.",
-      "time_period": "1982-present"
-    },
-    {
-      "source": "Yasuhara-kai",
-      "target": "Yamaken-gumi",
-      "relationship": "other",
-      "detail": "former membership",
-      "context": "Founder Kenichi Yamamoto was a former member of Yasuhara-kai.",
-      "time_period": "before 1961"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Several Yamaken-gumi leaders also led Kenryu-kai, indicating close ties.",
+      "time_period": null
     }
   ],
   "source_file": "Yamaken-gumi"

@@ -14,18 +14,16 @@
     {
       "standard_name": "DeMeo crew",
       "original_text_name": "DeMeo crew",
-      "aliases": [
-        "Roy DeMeo Crew"
-      ],
+      "aliases": [],
       "type": "faction",
-      "context": "A crew within the Gambino family involved in murder, car theft, drug dealing, and pornography.",
+      "context": "A crew within the Gambino family, involved in murder, car theft, drug dealing, and pornography.",
       "time_period": "1960s-1983"
     },
     {
       "standard_name": "Lucchese crime family",
       "original_text_name": "Lucchese crime family",
       "aliases": [
-        "Lucchese crime family"
+        "Lucchese family"
       ],
       "type": "mafia",
       "context": "New York City Mafia family; DeMeo was initially an associate of its Brooklyn faction.",
@@ -44,7 +42,7 @@
       "original_text_name": "Westies",
       "aliases": [],
       "type": "gang",
-      "context": "Irish-American gang based in Hell's Kitchen, allied with Gambino family.",
+      "context": "Irish-American gang based in Hell's Kitchen, Manhattan; allied with the Gambino family.",
       "time_period": "1970s-1980s"
     },
     {
@@ -54,8 +52,16 @@
         "Colombo crime family"
       ],
       "type": "mafia",
-      "context": "New York Mafia family; soldier Ralph Scopo commented on DeMeo's murder.",
+      "context": "New York City Mafia family; soldier Ralph Scopo commented on DeMeo's murder.",
       "time_period": "1930s-present"
+    },
+    {
+      "standard_name": "Cuban drug cartel",
+      "original_text_name": "Cuban drug cartel",
+      "aliases": [],
+      "type": "cartel",
+      "context": "Cuban drug trafficking organization; had a conflict with the Gambino family over a drug deal.",
+      "time_period": null
     }
   ],
   "edges": [
@@ -70,17 +76,17 @@
     {
       "source": "DeMeo crew",
       "target": "Lucchese crime family",
-      "relationship": "other",
-      "detail": "former association",
-      "context": "DeMeo was initially an associate of the Lucchese family before shifting allegiance to the Gambinos.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "DeMeo was initially an associate of the Lucchese family before shifting allegiance.",
       "time_period": "before 1966"
     },
     {
       "source": "Bonanno crime family",
       "target": "DeMeo crew",
-      "relationship": "other",
-      "detail": "body disposal service",
-      "context": "Bonanno underboss Salvatore Vitale delivered a corpse to DeMeo's crew for disposal.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Bonanno underboss Vitale delivered a corpse to DeMeo for disposal, indicating cooperation.",
       "time_period": "1974"
     },
     {
@@ -88,32 +94,32 @@
       "target": "Gambino crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Westies became a de facto arm of the Gambino family, sharing profits.",
+      "context": "The Westies became a de facto arm of the Gambino family, sharing profits and taking murder contracts.",
       "time_period": "1977-1980s"
     },
     {
-      "source": "DeMeo crew",
-      "target": "Westies",
-      "relationship": "alliance",
+      "source": "Gambino crime family",
+      "target": "Cuban drug cartel",
+      "relationship": "rivalry",
       "detail": null,
-      "context": "DeMeo brokered the alliance between the Gambino family and the Westies.",
-      "time_period": "1977-1983"
+      "context": "Conflict arose over a drug deal involving a Cuban cartel associate; the Gambino family killed Rosenberg to avoid violence.",
+      "time_period": "1979"
     },
     {
-      "source": "Gambino crime family",
-      "target": "Lucchese crime family",
-      "relationship": "other",
-      "detail": "former association",
-      "context": "DeMeo was initially an associate of the Lucchese family before joining Gambino.",
-      "time_period": "before mid-1970s"
+      "source": "Roy DeMeo",
+      "target": "Gambino crime family",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "DeMeo was a member of the Gambino crime family.",
+      "time_period": "1970s-1983"
     },
     {
       "source": "Roy DeMeo",
       "target": "Lucchese crime family",
-      "relationship": "other",
-      "detail": "initial association",
-      "context": "DeMeo was initially an associate of the Lucchese crime family before joining the Gambinos.",
-      "time_period": "before 1970s"
+      "relationship": "alliance",
+      "detail": null,
+      "context": "DeMeo was initially an associate of the Lucchese crime family's Brooklyn faction.",
+      "time_period": "1960s-1970s"
     }
   ],
   "source_file": "Roy_DeMeo"

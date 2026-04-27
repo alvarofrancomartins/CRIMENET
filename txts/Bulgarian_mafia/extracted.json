@@ -28,8 +28,8 @@
       "original_text_name": "SIC",
       "aliases": [],
       "type": "mafia",
-      "context": "Criminal group founded by Krasimir Marinov, Milcho Bonev, and others, involved in drug trafficking, fraud, extortion.",
-      "time_period": "1990s-2000s"
+      "context": "Criminal group founded by Krasimir Marinov, Milcho Bonev, and Nikolay Marinov, involved in drug trafficking, fraud, extortion.",
+      "time_period": "1990s-present"
     },
     {
       "standard_name": "Multigroup",
@@ -52,15 +52,13 @@
       "original_text_name": "'Ndrangheta",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian mafia group reported to cooperate with Bulgarian mafia in Italy.",
+      "context": "Italian mafia group operating in Calabria, cooperating with Bulgarian mafia in Italy.",
       "time_period": "unknown"
     },
     {
       "standard_name": "Evelin Banev group",
       "original_text_name": "Bulgarian cocaine trafficking group",
-      "aliases": [
-        "Brendo group"
-      ],
+      "aliases": [],
       "type": "mafia",
       "context": "Drug trafficking group led by Evelin Banev, involved in cocaine smuggling and money laundering.",
       "time_period": "2004-2008"
@@ -69,27 +67,43 @@
   "edges": [
     {
       "source": "VIS",
-      "target": "SIC",
-      "relationship": "rivalry",
+      "target": "Bulgarian mafia",
+      "relationship": "alliance",
       "detail": null,
-      "context": "Pantyu Pantev initially affiliated with VIS later with SIC, indicating rivalry between groups.",
-      "time_period": "1990s-2000s"
+      "context": "VIS is a component group of the Bulgarian mafia.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "SIC",
+      "target": "Bulgarian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "SIC is a component group of the Bulgarian mafia.",
+      "time_period": "1990s-present"
+    },
+    {
+      "source": "Multigroup",
+      "target": "Bulgarian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Multigroup is a component group of the Bulgarian mafia.",
+      "time_period": "1990s-2003"
+    },
+    {
+      "source": "Evelin Banev group",
+      "target": "Bulgarian mafia",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Evelin Banev group is a component of the Bulgarian mafia.",
+      "time_period": "2004-2008"
     },
     {
       "source": "Bulgarian mafia",
       "target": "'Ndrangheta",
       "relationship": "alliance",
       "detail": null,
-      "context": "Italian police reported Bulgarian mafia cooperating with 'Ndrangheta in Italy.",
-      "time_period": "2020"
-    },
-    {
-      "source": "Evelin Banev group",
-      "target": "Credit Suisse",
-      "relationship": "other",
-      "detail": "money laundering",
-      "context": "Credit Suisse was accused of enabling Evelin Banev's group to launder drug trafficking proceeds.",
-      "time_period": "2004-2008"
+      "context": "Bulgarian mafia cooperates with 'Ndrangheta in Italy.",
+      "time_period": "unknown"
     }
   ],
   "source_file": "Bulgarian_mafia"

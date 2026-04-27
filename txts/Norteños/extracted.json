@@ -8,7 +8,7 @@
         "Northerners"
       ],
       "type": "gang",
-      "context": "Prison and street gang affiliated with Nuestra Familia, primarily Mexican American, active in Northern California and other states.",
+      "context": "Prison and street gang primarily of Mexican Americans, active in Northern California and other states.",
       "time_period": "1968-present"
     },
     {
@@ -36,7 +36,7 @@
         "La eMè"
       ],
       "type": "gang",
-      "context": "Prison gang that controls Sureños; originally created to protect Mexicans in prison.",
+      "context": "Prison gang that controls Sureños; enemy of Norteños and Nuestra Familia.",
       "time_period": "1950s-present"
     },
     {
@@ -58,7 +58,9 @@
     {
       "standard_name": "Black Guerilla Family",
       "original_text_name": "Black Guerilla Family",
-      "aliases": [],
+      "aliases": [
+        "BGF"
+      ],
       "type": "gang",
       "context": "Prison gang allied with Norteños.",
       "time_period": "1966-present"
@@ -76,7 +78,7 @@
       "original_text_name": "People Nation",
       "aliases": [],
       "type": "other",
-      "context": "Alliance of street gangs that includes Norteños.",
+      "context": "Alliance of street gangs; allied with Norteños.",
       "time_period": "1978-present"
     },
     {
@@ -84,7 +86,7 @@
       "original_text_name": "Fresno Bulldogs",
       "aliases": [],
       "type": "gang",
-      "context": "Street gang rival to Norteños.",
+      "context": "Street gang from Fresno; rival of Norteños.",
       "time_period": "1960s-present"
     },
     {
@@ -94,25 +96,27 @@
         "Mara Salvatrucha"
       ],
       "type": "gang",
-      "context": "Transnational gang rival to Norteños.",
+      "context": "Transnational gang; rival of Norteños.",
       "time_period": "1980s-present"
     },
     {
       "standard_name": "Aryan Brotherhood",
       "original_text_name": "Aryan Brotherhood",
-      "aliases": [],
+      "aliases": [
+        "AB"
+      ],
       "type": "gang",
-      "context": "White supremacist prison gang rival to Norteños.",
+      "context": "White supremacist prison gang; rival of Norteños.",
       "time_period": "1964-present"
     },
     {
-      "standard_name": "18th Street Gang",
+      "standard_name": "18th Street gang",
       "original_text_name": "18th Street gang",
       "aliases": [
         "Barrio 18"
       ],
       "type": "gang",
-      "context": "Street gang rival to Norteños.",
+      "context": "Transnational street gang; rival of Norteños.",
       "time_period": "1960s-present"
     },
     {
@@ -120,7 +124,7 @@
       "original_text_name": "White Fence",
       "aliases": [],
       "type": "gang",
-      "context": "Street gang rival to Norteños.",
+      "context": "Street gang from Los Angeles; rival of Norteños.",
       "time_period": "1940s-present"
     },
     {
@@ -128,23 +132,25 @@
       "original_text_name": "Border Brothers",
       "aliases": [],
       "type": "gang",
-      "context": "Prison gang rival to Norteños.",
+      "context": "Prison gang; rival of Norteños.",
       "time_period": "1990s-present"
     },
     {
       "standard_name": "Tiny Rascal Gang",
       "original_text_name": "Tiny Rascal Gang",
-      "aliases": [],
+      "aliases": [
+        "TRG"
+      ],
       "type": "gang",
-      "context": "Asian street gang rival to Norteños.",
-      "time_period": "1970s-present"
+      "context": "Asian street gang; rival of Norteños.",
+      "time_period": "1980s-present"
     },
     {
       "standard_name": "Oriental Troopz",
       "original_text_name": "Oriental Troopz",
       "aliases": [],
       "type": "gang",
-      "context": "Asian street gang rival to Norteños.",
+      "context": "Asian street gang; rival of Norteños.",
       "time_period": "1990s-present"
     },
     {
@@ -154,7 +160,7 @@
         "Mongols Motorcycle Club"
       ],
       "type": "motorcycle_club",
-      "context": "Outlaw motorcycle club rival to Norteños.",
+      "context": "Outlaw motorcycle club; rival of Norteños.",
       "time_period": "1969-present"
     }
   ],
@@ -172,15 +178,7 @@
       "target": "Sureños",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Norteños and Sureños are the biggest rivals, divided by north-south line in California.",
-      "time_period": "1968-present"
-    },
-    {
-      "source": "Nuestra Familia",
-      "target": "Mexican Mafia",
-      "relationship": "rivalry",
-      "detail": null,
-      "context": "Nuestra Familia was founded as a rival to the Mexican Mafia after abuses.",
+      "context": "Norteños and Sureños are the biggest rivals, divided by a north-south line in California.",
       "time_period": "1968-present"
     },
     {
@@ -188,7 +186,15 @@
       "target": "Mexican Mafia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Sureños are composed of members and affiliates of the Mexican Mafia.",
+      "context": "Sureños are composed of members and affiliates of the Mexican Mafia (La eMè).",
+      "time_period": "1968-present"
+    },
+    {
+      "source": "Nuestra Familia",
+      "target": "Mexican Mafia",
+      "relationship": "rivalry",
+      "detail": null,
+      "context": "Nuestra Familia was founded as a rival to the Mexican Mafia after a perceived abuse incident.",
       "time_period": "1968-present"
     },
     {
@@ -228,7 +234,7 @@
       "target": "People Nation",
       "relationship": "alliance",
       "detail": null,
-      "context": "Norteños are part of the People Nation alliance.",
+      "context": "People Nation is listed as an ally of Norteños.",
       "time_period": null
     },
     {
@@ -257,7 +263,7 @@
     },
     {
       "source": "Norteños",
-      "target": "18th Street Gang",
+      "target": "18th Street gang",
       "relationship": "rivalry",
       "detail": null,
       "context": "18th Street gang is listed as a rival of Norteños.",

@@ -1,11 +1,22 @@
 {
   "nodes": [
     {
+      "standard_name": "Jamaican posse",
+      "original_text_name": "Jamaican posse",
+      "aliases": [
+        "posse",
+        "massive"
+      ],
+      "type": "gang",
+      "context": "General term for Jamaican organized crime gangs, based in Jamaica and diaspora communities.",
+      "time_period": "1970s-present"
+    },
+    {
       "standard_name": "Shower Posse",
       "original_text_name": "Shower Posse",
       "aliases": [],
       "type": "gang",
-      "context": "One of the two largest Jamaican posses in the U.S., involved in drug trafficking and violence.",
+      "context": "One of the two largest Jamaican posses in the U.S., involved in drug trafficking.",
       "time_period": "1970s-present"
     },
     {
@@ -13,7 +24,7 @@
       "original_text_name": "Spangler Posse",
       "aliases": [],
       "type": "gang",
-      "context": "One of the two largest Jamaican posses in the U.S., involved in drug trafficking and violence.",
+      "context": "One of the two largest Jamaican posses in the U.S., involved in drug trafficking.",
       "time_period": "1970s-present"
     },
     {
@@ -149,25 +160,153 @@
     {
       "source": "Shower Posse",
       "target": "Spangler Posse",
-      "relationship": "other",
-      "detail": "splinter groups",
-      "context": "Many other posses in the U.S. are splinter groups of the Shower and Spangler posses.",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Both are the two largest Jamaican posses in the U.S., with many other posses as splinter groups.",
       "time_period": null
     },
     {
       "source": "Shower Posse",
-      "target": "Jamaican posses",
+      "target": "Jamaican posse",
       "relationship": "alliance",
       "detail": null,
-      "context": "Shower Posse is a subgroup of Jamaican posses, which are a general category.",
+      "context": "Shower Posse is a specific posse under the general category of Jamaican posses.",
       "time_period": null
     },
     {
       "source": "Spangler Posse",
-      "target": "Jamaican posses",
+      "target": "Jamaican posse",
       "relationship": "alliance",
       "detail": null,
-      "context": "Spangler Posse is a subgroup of Jamaican posses.",
+      "context": "Spangler Posse is a specific posse under the general category of Jamaican posses.",
+      "time_period": null
+    },
+    {
+      "source": "One Order Gang",
+      "target": "Jamaican posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "One Order Gang is a specific posse under the general category of Jamaican posses.",
+      "time_period": null
+    },
+    {
+      "source": "Banton Posse",
+      "target": "Jamaican posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Banton Posse is a specific posse under the general category of Jamaican posses.",
+      "time_period": null
+    },
+    {
+      "source": "Cuban Posse",
+      "target": "Jamaican posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Cuban Posse is a specific posse under the general category of Jamaican posses.",
+      "time_period": null
+    },
+    {
+      "source": "Dog Posse",
+      "target": "Jamaican posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dog Posse is a specific posse under the general category of Jamaican posses.",
+      "time_period": null
+    },
+    {
+      "source": "Dunkirk Boys",
+      "target": "Jamaican posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Dunkirk Boys is a specific posse under the general category of Jamaican posses.",
+      "time_period": null
+    },
+    {
+      "source": "Fatherless Crew",
+      "target": "Jamaican posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Fatherless Crew is a specific posse under the general category of Jamaican posses.",
+      "time_period": null
+    },
+    {
+      "source": "Jungle Posse",
+      "target": "Jamaican posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Jungle Posse is a specific posse under the general category of Jamaican posses.",
+      "time_period": null
+    },
+    {
+      "source": "Montego Bay Posse",
+      "target": "Jamaican posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Montego Bay Posse is a specific posse under the general category of Jamaican posses.",
+      "time_period": null
+    },
+    {
+      "source": "Ragamuffin Posse",
+      "target": "Jamaican posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ragamuffin Posse is a specific posse under the general category of Jamaican posses.",
+      "time_period": null
+    },
+    {
+      "source": "Reems Posse",
+      "target": "Jamaican posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Reems Posse is a specific posse under the general category of Jamaican posses.",
+      "time_period": null
+    },
+    {
+      "source": "Riverton Posse",
+      "target": "Jamaican posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Riverton Posse is a specific posse under the general category of Jamaican posses.",
+      "time_period": null
+    },
+    {
+      "source": "Super Posse",
+      "target": "Jamaican posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Super Posse is a specific posse under the general category of Jamaican posses.",
+      "time_period": null
+    },
+    {
+      "source": "Spanish Town Posse",
+      "target": "Jamaican posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Spanish Town Posse is a specific posse under the general category of Jamaican posses.",
+      "time_period": null
+    },
+    {
+      "source": "Tel Aviv Posse",
+      "target": "Jamaican posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Tel Aviv Posse is a specific posse under the general category of Jamaican posses.",
+      "time_period": null
+    },
+    {
+      "source": "Valley Boys",
+      "target": "Jamaican posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Valley Boys is a specific posse under the general category of Jamaican posses.",
+      "time_period": null
+    },
+    {
+      "source": "Waterhouse Posse",
+      "target": "Jamaican posse",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Waterhouse Posse is a specific posse under the general category of Jamaican posses.",
       "time_period": null
     }
   ],

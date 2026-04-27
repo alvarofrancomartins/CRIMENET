@@ -13,7 +13,7 @@
       "original_text_name": "Kobe Yamaguchi-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Split from Yamaguchi-gumi in 2015, based in Kobe.",
+      "context": "Splinter group from Yamaguchi-gumi formed in 2015.",
       "time_period": "2015-present"
     },
     {
@@ -21,7 +21,7 @@
       "original_text_name": "Kizuna-kai",
       "aliases": [],
       "type": "mafia",
-      "context": "Split from Kobe Yamaguchi-gumi in 2017.",
+      "context": "Splinter group from Kobe Yamaguchi-gumi formed in 2017.",
       "time_period": "2017-present"
     },
     {
@@ -29,7 +29,7 @@
       "original_text_name": "Ikeda-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Split from Kobe Yamaguchi-gumi in 2020.",
+      "context": "Splinter group from Kobe Yamaguchi-gumi formed in 2020.",
       "time_period": "2020-present"
     },
     {
@@ -37,15 +37,15 @@
       "original_text_name": "Sumiyoshi-kai",
       "aliases": [],
       "type": "mafia",
-      "context": "Major yakuza syndicate based in Tokyo.",
-      "time_period": "1920s-present"
+      "context": "Second-largest yakuza syndicate in Japan, based in Tokyo.",
+      "time_period": "1950s-present"
     },
     {
       "standard_name": "Inagawa-kai",
       "original_text_name": "Inagawa-kai",
       "aliases": [],
       "type": "mafia",
-      "context": "Major yakuza syndicate based in Tokyo.",
+      "context": "Third-largest yakuza syndicate in Japan, based in Tokyo.",
       "time_period": "1949-present"
     },
     {
@@ -53,7 +53,7 @@
       "original_text_name": "Kudo-kai",
       "aliases": [],
       "type": "mafia",
-      "context": "Designated yakuza based in Fukuoka, especially dangerous.",
+      "context": "Designated yakuza based in Fukuoka, known for violence.",
       "time_period": "1960s-present"
     },
     {
@@ -62,7 +62,7 @@
       "aliases": [],
       "type": "mafia",
       "context": "Designated yakuza based in Fukuoka.",
-      "time_period": "unknown-present"
+      "time_period": null
     },
     {
       "standard_name": "Fukuhaku-kai",
@@ -70,7 +70,7 @@
       "aliases": [],
       "type": "mafia",
       "context": "Designated yakuza based in Fukuoka.",
-      "time_period": "unknown-present"
+      "time_period": null
     },
     {
       "standard_name": "Dojin-kai",
@@ -78,7 +78,7 @@
       "aliases": [],
       "type": "mafia",
       "context": "Designated yakuza based in Fukuoka.",
-      "time_period": "unknown-present"
+      "time_period": null
     },
     {
       "standard_name": "Namikawa-kai",
@@ -86,14 +86,22 @@
       "aliases": [],
       "type": "mafia",
       "context": "Designated yakuza based in Fukuoka.",
-      "time_period": "unknown-present"
+      "time_period": null
     },
     {
       "standard_name": "Goto-gumi",
       "original_text_name": "Goto-gumi",
       "aliases": [],
       "type": "mafia",
-      "context": "Yakuza group headed by Tadamasa Goto; involved in information exchange with FBI.",
+      "context": "Yakuza group headed by Tadamasa Goto; provided information on Yamaguchi-gumi to FBI.",
+      "time_period": null
+    },
+    {
+      "standard_name": "Kodo-kai",
+      "original_text_name": "Kodo-kai",
+      "aliases": [],
+      "type": "mafia",
+      "context": "Yakuza group; chief Kiyoshi Takayama was arrested in 2010.",
       "time_period": null
     },
     {
@@ -101,7 +109,7 @@
       "original_text_name": "Tosei-kai",
       "aliases": [],
       "type": "mafia",
-      "context": "Yakuza group founded by Hisayuki Machii, of Korean ancestry.",
+      "context": "Yakuza group founded by Hisayuki Machii, who was of Korean ancestry.",
       "time_period": null
     },
     {
@@ -127,14 +135,6 @@
       "type": "mafia",
       "context": "Now-defunct yakuza group founded by Hirofumi Hashimoto, of Korean ancestry.",
       "time_period": null
-    },
-    {
-      "standard_name": "Kodo-kai",
-      "original_text_name": "Kodo-kai",
-      "aliases": [],
-      "type": "mafia",
-      "context": "Yakuza group; chief Kiyoshi Takayama was arrested in 2010.",
-      "time_period": null
     }
   ],
   "edges": [
@@ -143,7 +143,7 @@
       "target": "Yamaguchi-gumi",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Kobe Yamaguchi-gumi split from Yamaguchi-gumi in 2015 and they are fighting each other.",
+      "context": "Kobe Yamaguchi-gumi split from Yamaguchi-gumi in 2015 and they are fighting.",
       "time_period": "2015-present"
     },
     {
@@ -151,7 +151,7 @@
       "target": "Kobe Yamaguchi-gumi",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Kizuna-kai split from Kobe Yamaguchi-gumi in 2017 and they are fighting each other.",
+      "context": "Kizuna-kai split from Kobe Yamaguchi-gumi in 2017 and they are fighting.",
       "time_period": "2017-present"
     },
     {
@@ -159,7 +159,7 @@
       "target": "Kobe Yamaguchi-gumi",
       "relationship": "rivalry",
       "detail": null,
-      "context": "Ikeda-gumi split from Kobe Yamaguchi-gumi in 2020 and they are fighting each other.",
+      "context": "Ikeda-gumi split from Kobe Yamaguchi-gumi in 2020 and they are fighting.",
       "time_period": "2020-present"
     },
     {
@@ -167,7 +167,7 @@
       "target": "Sumiyoshi-kai",
       "relationship": "alliance",
       "detail": null,
-      "context": "The three major syndicates formed a loose alliance; leaders held a social gathering in April 2023.",
+      "context": "The three major syndicates formed a loose alliance; leaders held a social gathering in 2023.",
       "time_period": "2023-present"
     },
     {
@@ -175,7 +175,7 @@
       "target": "Inagawa-kai",
       "relationship": "alliance",
       "detail": null,
-      "context": "The three major syndicates formed a loose alliance; leaders held a social gathering in April 2023.",
+      "context": "The three major syndicates formed a loose alliance; leaders held a social gathering in 2023.",
       "time_period": "2023-present"
     },
     {
@@ -183,32 +183,24 @@
       "target": "Inagawa-kai",
       "relationship": "alliance",
       "detail": null,
-      "context": "The three major syndicates formed a loose alliance; leaders held a social gathering in April 2023.",
+      "context": "The three major syndicates formed a loose alliance; leaders held a social gathering in 2023.",
       "time_period": "2023-present"
     },
     {
-      "source": "Yamaguchi-gumi",
-      "target": "Dojin-kai",
-      "relationship": "other",
-      "detail": "contrast in drug policy",
-      "context": "Yamaguchi-gumi officially forbids drug trafficking, while Dojin-kai is heavily involved.",
-      "time_period": null
+      "source": "Goto-gumi",
+      "target": "Yamaguchi-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Goto-gumi provided information on Yamaguchi-gumi operations to the FBI.",
+      "time_period": "2001"
     },
     {
-      "source": "Yamaguchi-gumi",
-      "target": "Goto-gumi",
-      "relationship": "other",
-      "detail": "hierarchy",
-      "context": "Goto-gumi is a group within the Yamaguchi-gumi; its head provided information on Yamaguchi-gumi operations.",
-      "time_period": null
-    },
-    {
-      "source": "Yamaguchi-gumi",
-      "target": "Kodo-kai",
-      "relationship": "other",
-      "detail": "hierarchy",
-      "context": "Kodo-kai is a subsidiary of Yamaguchi-gumi; its chief was the number two in Yamaguchi-gumi.",
-      "time_period": null
+      "source": "Kodo-kai",
+      "target": "Yamaguchi-gumi",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Kodo-kai chief Kiyoshi Takayama was Yamaguchi-gumi's number two.",
+      "time_period": "2010"
     }
   ],
   "source_file": "Yakuza"

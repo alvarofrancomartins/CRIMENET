@@ -6,24 +6,24 @@
       "aliases": [],
       "type": "gang",
       "context": "One of two criminal organizations controlling Galveston underworld until mid-1920s, led by Ollie Quinn and Dutch Voight.",
-      "time_period": "1910s-mid 1920s"
+      "time_period": "1910s-mid-1920s"
     },
     {
-      "standard_name": "Sam Maceo's Organization",
+      "standard_name": "Maceo Organization",
       "original_text_name": "Sam Maceo's Organization",
       "aliases": [],
-      "type": "other",
-      "context": "Criminal organization led by Sam and Rosario Maceo that took over Galveston underworld after Quinn.",
+      "type": "gang",
+      "context": "Criminal organization led by Sam and Rosario Maceo, successors to Ollie Quinn's operation in Galveston.",
       "time_period": "1920s-1940s"
     }
   ],
   "edges": [
     {
       "source": "Beach Gang",
-      "target": "Sam Maceo's Organization",
-      "relationship": "other",
-      "detail": "successor",
-      "context": "Sam and Rosario Maceo, who later led Sam Maceo's Organization, were mentored by Quinn and took over the Galveston underworld.",
+      "target": "Maceo Organization",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Ollie Quinn mentored and partnered with Sam and Rosario Maceo, who later took over the Galveston underworld.",
       "time_period": "1920s"
     }
   ],

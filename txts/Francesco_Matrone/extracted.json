@@ -5,7 +5,7 @@
       "original_text_name": "Camorra",
       "aliases": [],
       "type": "clan",
-      "context": "Italian criminal organization based in Campania, involved in various illegal activities.",
+      "context": "Italian mafia-type organization based in Campania.",
       "time_period": "19th century-present"
     },
     {
@@ -13,8 +13,8 @@
       "original_text_name": "Nuova Famiglia",
       "aliases": [],
       "type": "clan",
-      "context": "Former Camorra coalition led by Carmine Alfieri, active in the 1980s.",
-      "time_period": "1980s"
+      "context": "Camorra coalition formed in the 1980s to oppose the Nuova Camorra Organizzata.",
+      "time_period": "1980s-1990s"
     },
     {
       "standard_name": "Loreto-Matrone clan",
@@ -23,7 +23,7 @@
         "Matrone clan"
       ],
       "type": "clan",
-      "context": "Camorra clan based in the Province of Salerno, headed by Francesco Matrone and Pasquale Loreto.",
+      "context": "Camorra clan based in the Province of Salerno, led by Francesco Matrone and Pasquale Loreto.",
       "time_period": "1980s-2010s"
     }
   ],
@@ -33,8 +33,8 @@
       "target": "Camorra",
       "relationship": "alliance",
       "detail": null,
-      "context": "The Loreto-Matrone clan is a clan within the Camorra organization.",
-      "time_period": "1980s-2010s"
+      "context": "The Loreto-Matrone clan is a clan of the Camorra.",
+      "time_period": null
     },
     {
       "source": "Nuova Famiglia",
@@ -42,14 +42,14 @@
       "relationship": "alliance",
       "detail": null,
       "context": "Nuova Famiglia was a coalition of Camorra clans.",
-      "time_period": "1980s"
+      "time_period": "1980s-1990s"
     },
     {
       "source": "Loreto-Matrone clan",
       "target": "Nuova Famiglia",
       "relationship": "alliance",
       "detail": null,
-      "context": "Francesco Matrone was the right-hand man of Carmine Alfieri, leader of Nuova Famiglia.",
+      "context": "Francesco Matrone was the right-hand man of Carmine Alfieri, godfather of the Nuova Famiglia.",
       "time_period": "1980s"
     }
   ],

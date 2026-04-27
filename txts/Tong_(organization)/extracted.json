@@ -5,7 +5,7 @@
       "original_text_name": "Tiandihui",
       "aliases": [],
       "type": "other",
-      "context": "A secret society in southern China that many tongs are connected to.",
+      "context": "A secret society from southern China that many tongs are connected to.",
       "time_period": "1644-present"
     },
     {
@@ -15,7 +15,7 @@
         "Zhigongtang"
       ],
       "type": "other",
-      "context": "One of the first tongs, aimed to restore Ming dynasty.",
+      "context": "One of the first tongs, established to restore the Ming dynasty.",
       "time_period": "1644-?"
     },
     {
@@ -23,7 +23,7 @@
       "original_text_name": "Hip Sing Tong",
       "aliases": [],
       "type": "other",
-      "context": "A tong involved in Tong Wars, based in New York with branches in 13 states.",
+      "context": "A tong involved in the Tong Wars, based in New York with branches in 13 states.",
       "time_period": "19th century-present"
     },
     {
@@ -31,7 +31,7 @@
       "original_text_name": "On Leong Tong",
       "aliases": [],
       "type": "other",
-      "context": "A tong involved in Tong Wars, based in New York.",
+      "context": "A tong involved in the Tong Wars, based in New York.",
       "time_period": "19th century-present"
     },
     {
@@ -55,49 +55,26 @@
       "original_text_name": "Hop Sing Tong",
       "aliases": [],
       "type": "other",
-      "context": "A tong operating in California, Oregon, Washington, Idaho, Colorado.",
+      "context": "A tong operating in California, Oregon, Washington, Idaho, and Colorado.",
       "time_period": null
-    },
-    {
-      "standard_name": "Chinese Six Companies",
-      "original_text_name": "Chinese Six Companies",
-      "aliases": [],
-      "type": "other",
-      "context": "A benevolent association that recommended vaccination to tongs during plague.",
-      "time_period": "19th century-20th century"
     }
   ],
   "edges": [
     {
-      "source": "Tiandihui",
-      "target": "Chee Kung Tong",
-      "relationship": "other",
-      "detail": "connected to",
-      "context": "Chee Kung Tong is a secret society connected to Tiandihui.",
-      "time_period": "1644-?"
-    },
-    {
       "source": "Hip Sing Tong",
       "target": "On Leong Tong",
       "relationship": "rivalry",
-      "context": "The two tongs fought in the Tong Wars over territory and profits.",
-      "time_period": "19th century-early 20th century"
+      "detail": null,
+      "context": "The two tongs fought in the Tong Wars over territory and profits from prostitution.",
+      "time_period": "19th-early 20th century"
     },
     {
-      "source": "Chinese Six Companies",
-      "target": "Hip Sing Tong",
-      "relationship": "other",
-      "detail": "recommended vaccination",
-      "context": "Chinese Six Companies recommended vaccination to tongs, but some tongs threatened harm.",
-      "time_period": "1900s"
-    },
-    {
-      "source": "Chinese Six Companies",
-      "target": "On Leong Tong",
-      "relationship": "other",
-      "detail": "recommended vaccination",
-      "context": "Chinese Six Companies recommended vaccination to tongs, but some tongs threatened harm.",
-      "time_period": "1900s"
+      "source": "Chee Kung Tong",
+      "target": "Tiandihui",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "Chee Kung Tong was established by the secret society Tiandihui.",
+      "time_period": "1644-?"
     }
   ],
   "source_file": "Tong_(organization)"

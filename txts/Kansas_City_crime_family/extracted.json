@@ -13,19 +13,30 @@
       "time_period": "1910s-present"
     },
     {
+      "standard_name": "DiGiovanni brothers",
+      "original_text_name": "DiGiovanni brothers",
+      "aliases": [
+        "Joseph DiGiovanni",
+        "Peter DiGiovanni"
+      ],
+      "type": "mafia",
+      "context": "Sicilian mafiosi who founded the Kansas City crime family in 1912.",
+      "time_period": "1912-1931"
+    },
+    {
       "standard_name": "Pendergast Machine",
       "original_text_name": "Pendergast Machine",
       "aliases": [],
       "type": "other",
-      "context": "Political machine that controlled Kansas City's government and allowed the DiGiovanni family to operate freely.",
-      "time_period": "early 1900s-1930s"
+      "context": "Political machine that controlled Kansas City government and allowed the family to operate freely.",
+      "time_period": "1910s-1930s"
     },
     {
       "standard_name": "Chicago Outfit",
       "original_text_name": "Chicago",
       "aliases": [],
       "type": "mafia",
-      "context": "Chicago Mafia family involved in skimming from Tropicana Casino alongside Kansas City family.",
+      "context": "Chicago Mafia family involved in skimming from Tropicana Casino with Kansas City family.",
       "time_period": "1970s-1980s"
     },
     {
@@ -33,7 +44,7 @@
       "original_text_name": "Cleveland",
       "aliases": [],
       "type": "mafia",
-      "context": "Cleveland Mafia family involved in skimming from Tropicana Casino alongside Kansas City family.",
+      "context": "Cleveland Mafia family involved in skimming from Tropicana Casino with Kansas City family.",
       "time_period": "1970s-1980s"
     },
     {
@@ -41,7 +52,7 @@
       "original_text_name": "Milwaukee",
       "aliases": [],
       "type": "mafia",
-      "context": "Milwaukee Mafia family involved in skimming from Tropicana Casino alongside Kansas City family.",
+      "context": "Milwaukee Mafia family involved in skimming from Tropicana Casino with Kansas City family.",
       "time_period": "1970s-1980s"
     },
     {
@@ -49,7 +60,7 @@
       "original_text_name": "St. Louis family",
       "aliases": [],
       "type": "mafia",
-      "context": "Italian American Mafia crime family based in St. Louis, Missouri, involved in loan sharking and other rackets.",
+      "context": "Italian American Mafia crime family based in St. Louis, Missouri.",
       "time_period": null
     },
     {
@@ -72,10 +83,18 @@
   "edges": [
     {
       "source": "Kansas City crime family",
+      "target": "DiGiovanni brothers",
+      "relationship": "alliance",
+      "detail": null,
+      "context": "The DiGiovanni brothers founded the Kansas City crime family.",
+      "time_period": "1912-1931"
+    },
+    {
+      "source": "Kansas City crime family",
       "target": "Pendergast Machine",
       "relationship": "alliance",
       "detail": null,
-      "context": "Pendergast Machine gave the DiGiovanni family free rein to operate in Kansas City.",
+      "context": "The Pendergast Machine allowed the family to operate freely in Kansas City.",
       "time_period": "1910s-1930s"
     },
     {
@@ -107,7 +126,7 @@
       "target": "St. Louis crime family",
       "relationship": "alliance",
       "detail": null,
-      "context": "Joint loan sharking operations between the two families, with Kansas City underboss overseeing expansion.",
+      "context": "Joint loan sharking operations between the two families.",
       "time_period": null
     },
     {
