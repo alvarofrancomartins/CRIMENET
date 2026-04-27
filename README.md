@@ -2,7 +2,7 @@
 
 Open-source database and interactive visualization of alliances and rivalries between criminal organizations worldwide, extracted from Wikipedia with an LLM pipeline.
 
-**1,554 organizations. 2,857 relationships. 737 source articles.**
+**1,890 organizations. 3,354 relationships. 771 source articles.**
 
 - Live visualization: <a href="https://www.alvarofrancomartins.com/crimenet" target="_blank">alvarofrancomartins.com/crimenet</a>
 
@@ -80,7 +80,7 @@ Add a DeepSeek API key in `deepseek_api_key.txt` in the project root.
 `2_extract_network.py` sends each article to the DeepSeek API with a structured prompt that enforces canonical output directly. Extracts:
 
 - **Nodes**: standardized name, aliases, type, context, time period. The `type` is constrained to one of 9 canonical values (`cartel`, `mafia`, `gang`, `motorcycle_club`, `clan`, `triad`, `militia`, `faction`, `terrorist_organization`) or `other`.
-- **Edges**: source, target, relationship (`alliance`, `rivalry`, or `other`), optional detail, context, time period. The prompt explicitly instructs that cooperation belongs to `alliance` and conflict belongs to `rivalry` — only structural relations (splinter, merger, parent, etc.) use `other`. The detail vocabulary is fixed.
+- **Edges**: source, target, relationship (`alliance`, `rivalry`, or `other`), optional detail, context, time period. The prompt explicitly maps both cooperation and structural relationships to `alliance` (sub-groups, factions, splinters, successors, mergers, support clubs, etc.), maps conflict to `rivalry`, and reserves `other` for the rare cases where the relationship is genuinely neither cooperative nor hostile.
 
 Constraining the schema in the prompt instead of post-processing means most cleanup work in step 4 becomes unnecessary.
 
