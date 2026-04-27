@@ -91,7 +91,7 @@ Edge format:
   "source": "standard_name of org A",
   "target": "standard_name of org B",
   "relationship": "alliance | rivalry | other",
-  "detail": "For 'other': specify the relationship in 1-2 words. For alliance/rivalry: strictly null."
+  "detail": "For 'other': specify the relationship in 1-2 words. For alliance/rivalry: strictly null.",
   "context": "Explain the relationship in 1-2 sentences.",
   "time_period": "When this relationship held, e.g. '2006-2012', 'since 1990s'. null if unknown."
 }

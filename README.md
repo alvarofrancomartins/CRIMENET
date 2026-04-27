@@ -60,7 +60,7 @@ https://en.wikipedia.org/wiki/Sinaloa_Cartel
 https://it.wikipedia.org/wiki/Cosa_nostra
 ```
 
-Both English and Italian Wikipedia URLs are supported. Language is detected from the domain. The script is resumable: if it crashes, re-run and it picks up where it left off. Titles that fail to resolve to a revision after retries are listed at the end of the run and never silently saved.
+Both English and Italian Wikipedia URLs are supported. Language is detected from the domain. The script is resumable: if it crashes, re-run and it picks up where it left off. Titles that fail to resolve to a revision after retries are listed at the end of the run and never silently saved. Duplicate URLs (or URLs that resolve to the same Wikipedia title) are deduplicated automatically.
 
 Folder names are sanitized to be filesystem-safe (path separators in titles like `CBL/BFL` become `CBL_BFL`), and URLs are properly percent-encoded so that titles with apostrophes, slashes, or accented characters work correctly downstream.
 
@@ -71,7 +71,7 @@ Folder names are sanitized to be filesystem-safe (path separators in titles like
 - `action=query&prop=extracts&explaintext=1` — clean, well-structured plain text body.
 - `action=parse&prop=text` — rendered HTML, parsed with BeautifulSoup to extract the infobox table (aliases, allies, rivals, years active). The infobox is appended to the article text as key-value pairs.
 
-Pinning both calls to the same `oldid` means the text used for extraction is exactly the version the URL points to, regardless of later edits to the article. Writes `txts/<slug>/content.txt` and `txts/<slug>/url.txt`. Resumes automatically. Use `--force` to re-fetch all.
+Two calls are needed because MediaWiki's plain-text endpoint produces well-structured prose but strips out infobox tables, while the HTML endpoint preserves the infobox but yields lower-quality body text. Pinning both calls to the same `oldid` means the text used for extraction is exactly the version the URL points to, regardless of later edits to the article. Writes `txts/<slug>/content.txt` and `txts/<slug>/url.txt`. Resumes automatically. Use `--force` to re-fetch all.
 
 ### Step 2: LLM extraction → `txts/<slug>/extracted.json`
 
@@ -84,7 +84,7 @@ Add a DeepSeek API key in `deepseek_api_key.txt` in the project root.
 
 Constraining the schema in the prompt instead of post-processing means most cleanup work in step 4 becomes unnecessary.
 
-Articles longer than 2,500 words are chunked, with the article's opening paragraph passed as context to every chunk for entity resolution. Runs in parallel across 20 workers by default. On JSON parse errors or `finish_reason=length` truncations, retries with double `max_tokens` and a "be concise" nudge. Partial failures (some chunks succeeded, others failed) are flagged loudly and the output JSON is marked `incomplete`.
+Articles longer than 2,500 words are chunked, with the article's opening paragraph passed as context to every chunk for entity resolution. Runs in parallel across 50 workers by default. On JSON parse errors or `finish_reason=length` truncations, retries with double `max_tokens` and a "be concise" nudge. Partial failures (some chunks succeeded, others failed) are flagged loudly and the output JSON is marked `incomplete`.
 
 - `--force`: re-extract everything.
 - `--force-failed`: retry only folders with missing, broken, or partial `extracted.json`.
@@ -102,13 +102,13 @@ Articles longer than 2,500 words are chunked, with the article's opening paragra
 - **Per-organization type overrides**: organizations the LLM consistently mistypes get their type forced to the correct value.
 - **Hand-curated exclusions**: non-criminal entities (governments, NGOs) that slip through extraction get removed.
 - **Generic node filtering**: umbrella terms (`"Russian organized crime"`, `"Colombian drug cartels"`) are removed; specific organizations with similar names are preserved via a safelist.
-- **Safety nets**: small fallback maps catch occasional LLM slips back to non-canonical types or relationship synonyms. The bulk of normalization happens upstream in step 2's prompt.
+- **Type-name safety net**: a small fallback map catches occasional LLM slips on type names (e.g., `crime_family` → `mafia`, `crew` → `gang`). Relationship and detail values are passed through unchanged — the prompt constrains those upstream.
 - **Source URL splitting**: each organization's URLs are split into `own_source` (the page about the organization) and `mentioned_in` (other articles referencing it).
 - **Betweenness centrality**: computed three ways (alliance-only, rivalry-only, combined) using NetworkX, so the visualization can resize nodes correctly for each filter.
 
 Hand-curated data lives in `cleanup_data.py` (`KNOWN_DUPLICATES`, `TO_BE_EXCLUDED`, `NODE_TYPE_OVERRIDES`). Edit that file to add new cases — no code changes needed.
 
-Outputs `crimenet.json`.
+Outputs `crimenet.json` by default. Use `--output` to write to a different filename.
 
 ### Step 5: Edge deduplication → `crimenet.json` (in place)
 
@@ -129,7 +129,3 @@ python -m http.server 8000
 ```
 
 Then open [http://localhost:8000/index.html](http://localhost:8000/index.html). `index.html` expects `crimenet.json` in the same folder. The D3.js graph supports alliance/rivalry filtering, search by organization (dropdown ranked by betweenness), neighbor isolation on click, a side panel with organization details and edge evidence, and adjustable force parameters.
-
-## License
-
-Code is MIT. Data is CC BY 4.0.

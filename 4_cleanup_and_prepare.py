@@ -1,6 +1,6 @@
 """
 4_cleanup_and_prepare.py
-Takes global_network.json → crimenet.json
+Takes global_network.json → crimenet.json (or whatever you specify with --output)
 
 The LLM extraction in 2_extract_network.py emits canonical types,
 canonical relationships, and a fixed detail vocabulary directly. This
@@ -16,12 +16,12 @@ script handles only what the LLM cannot:
 Hand-curated data lives in cleanup_data.py. Edit that file to add new
 duplicates, exclusions, or type overrides — no code changes needed.
 
-A small safety net catches occasional LLM slips (synonyms or stray
-non-canonical values).
+A small NODE_TYPE_FALLBACK map catches occasional LLM slips on type
+naming. Relationship and detail values are passed through unchanged
+(the prompt now constrains them upstream).
 
 Usage:
-    python 4_cleanup_and_prepare.py --input global_network.json
-    python 4_cleanup_and_prepare.py --input global_network.json --stats
+    python 4_cleanup_and_prepare.py --input global_network.json --output crimenet.json
 """
 
 import json
@@ -68,9 +68,9 @@ VALID_RELATIONSHIPS = {"alliance", "rivalry", "other"}
 
 
 # ═══════════════════════════════════════════════════════════════════
-# SAFETY NETS
-# Small maps to catch occasional LLM slips. If a value isn't here and
-# isn't canonical, it's replaced with a default and logged.
+# NODE TYPE SAFETY NET
+# Common slips back to old type names. Catches the few cases where the
+# LLM emits a non-canonical type despite the prompt constraints.
 # ═══════════════════════════════════════════════════════════════════
 
 NODE_TYPE_FALLBACK = {
@@ -81,47 +81,6 @@ NODE_TYPE_FALLBACK = {
     "crew": "gang",
     "yakuza": "mafia",
     "secret_society": "other",
-}
-
-# "other" edges whose detail value really means alliance.
-DETAIL_TO_ALLIANCE = {
-    "alliance", "allied_with", "aligned_with",
-    "collaboration", "cooperation", "cooperated_with",
-    "partnership", "partnered_with", "joint_operation",
-    "ties", "ties_to", "linked_to", "connected_to",
-    "associated_with", "association",
-}
-
-# "other" edges whose detail value really means rivalry.
-DETAIL_TO_RIVALRY = {
-    "rivalry", "conflict", "feud", "confrontation",
-    "competition", "war", "armed_conflict",
-    "targeted", "targeted_by", "retaliation",
-    "alliance_turned_rivalry",
-}
-
-DETAIL_FALLBACK = {
-    "member_of": "faction_of", "part_of": "faction_of",
-    "branch_of": "faction_of", "subgroup_of": "faction_of",
-    "chapter_of": "faction_of", "affiliated_with": "faction_of",
-
-    "absorbed": "merger", "absorbed_by": "merger",
-    "merged_into": "merger", "merged_with": "merger",
-
-    "split_off": "splinter", "broke_off": "splinter",
-    "offshoot": "splinter",
-
-    "predecessor": "successor", "took_over": "successor",
-    "replaced": "successor", "replaced_by": "successor",
-
-    "founded_by": "founded_by_members_of",
-    "formed_by": "founded_by_members_of",
-
-    "paramilitary_wing": "armed_wing",
-    "enforcement_wing": "armed_wing",
-
-    "puppet_club": "support_club",
-    "prospect_club": "support_club",
 }
 
 
@@ -377,15 +336,6 @@ def normalize_node_type(t):
     return NODE_TYPE_FALLBACK.get(t, "other")
 
 
-def normalize_detail(d):
-    if not d:
-        return None
-    d = d.strip().lower()
-    if d in CANONICAL_DETAILS:
-        return d
-    return DETAIL_FALLBACK.get(d, d)
-
-
 # ═══════════════════════════════════════════════════════════════════
 # CLEANUP PIPELINE
 # ═══════════════════════════════════════════════════════════════════
@@ -399,18 +349,18 @@ def cleanup(data, show_stats=False):
 
     # 1. Normalize node types (catch LLM slips)
     type_remapped = 0
-    non_canonical = Counter()
+    non_canonical_types = Counter()
     for node in nodes:
         old = node.get("type", "")
         new = normalize_node_type(old)
         if old != new:
             type_remapped += 1
-            non_canonical[old] += 1
+            non_canonical_types[old] += 1
         node["type"] = new
     if type_remapped:
         log.info(f"Node type normalization: {type_remapped} non-canonical values remapped")
         if show_stats:
-            log.info(f"  Top non-canonical types: {non_canonical.most_common(10)}")
+            log.info(f"  Top non-canonical types: {non_canonical_types.most_common(10)}")
 
     # 2. Hand-curated exclusions
     before = len(nodes)
@@ -439,46 +389,30 @@ def cleanup(data, show_stats=False):
     if null_fixed:
         log.info(f"String-null sanitization: {null_fixed} fields fixed")
 
-    # 4. Sanitize relationships and reclassify "other" edges that should be
-    #    alliance/rivalry (safety net for LLM slips)
+    # 4. Enforce valid relationship values. The prompt now constrains
+    #    cooperation→alliance / conflict→rivalry classification upstream,
+    #    so detail-based reclassification is no longer needed. Any edge
+    #    with an invalid relationship value falls back to "other".
     invalid_rels = 0
-    reclassified = 0
-    detail_remapped = 0
+    non_canonical_details = Counter()
     for edge in edges:
         rel = (edge.get("relationship") or "").strip().lower()
-
         if rel not in VALID_RELATIONSHIPS:
             edge["relationship"] = "other"
             invalid_rels += 1
-            rel = "other"
+        else:
+            edge["relationship"] = rel
 
+        # Track non-canonical details for diagnostics (not remapped).
         detail = (edge.get("detail") or "").strip().lower()
-
-        if rel == "other" and detail:
-            if detail in DETAIL_TO_ALLIANCE:
-                edge["relationship"] = "alliance"
-                edge["detail"] = None
-                reclassified += 1
-                continue
-            elif detail in DETAIL_TO_RIVALRY:
-                edge["relationship"] = "rivalry"
-                edge["detail"] = None
-                reclassified += 1
-                continue
-
-        if edge.get("detail"):
-            old = edge["detail"]
-            new = normalize_detail(old)
-            if old != new:
-                detail_remapped += 1
-            edge["detail"] = new
+        if detail and detail not in CANONICAL_DETAILS:
+            non_canonical_details[detail] += 1
 
     if invalid_rels:
         log.info(f"Relationship sanitization: {invalid_rels} invalid values fixed")
-    if reclassified:
-        log.info(f"Detail reclassification: {reclassified} edges moved to alliance/rivalry")
-    if detail_remapped:
-        log.info(f"Detail normalization: {detail_remapped} non-canonical values remapped")
+    if non_canonical_details and show_stats:
+        log.info(f"  Top non-canonical details (passed through): "
+                 f"{non_canonical_details.most_common(10)}")
 
     # 5. Cross-article deduplication
     merge_map, groups = build_dedup_map(nodes)
@@ -667,8 +601,11 @@ def build_specific(nodes, edges):
 # ═══════════════════════════════════════════════════════════════════
 
 def main():
-    parser = argparse.ArgumentParser(description="Cleanup and build crimenet.json")
-    parser.add_argument("--input", "-i", default="global_network.json")
+    parser = argparse.ArgumentParser(description="Cleanup and build the final network JSON")
+    parser.add_argument("--input", "-i", default="global_network.json",
+                        help="Merged network from step 3 (default: global_network.json)")
+    parser.add_argument("--output", "-o", default="crimenet.json",
+                        help="Output filename (default: crimenet.json)")
     parser.add_argument("--stats", "-s", action="store_true")
     args = parser.parse_args()
 
@@ -676,11 +613,11 @@ def main():
     nodes, edges = cleanup(data, show_stats=args.stats)
 
     specific = build_specific(nodes, edges)
-    Path("crimenet.json").write_text(
+    Path(args.output).write_text(
         json.dumps(specific, ensure_ascii=False, indent=2), "utf-8"
     )
     log.info(f"Output: {len(specific['entities'])} entities, "
-             f"{len(specific['relations'])} relations → crimenet.json")
+             f"{len(specific['relations'])} relations → {args.output}")
 
 
 if __name__ == "__main__":
