@@ -246,7 +246,7 @@ Max PageRank & 0.027264 & 0.019312 \\
 
 The alliance network has more active nodes (1{,}517 vs 876) and edges (2{,}293 vs 1{,}061) and its LCC covers 85\% of active nodes versus 55\%. Cooperation reaches more of the network than conflict does. Global clustering is 0.0906 vs 0.0859, mean local clustering 0.2957 vs 0.1893. Pseudo-diameters are close (12 vs 13). One detail worth noting: the rivalry LCC is denser than the alliance LCC (0.00653 vs 0.00255), even though the rivalry network is sparser overall. 
 
-Beyond the overall shape of the networks, it is also useful to measure how often similar groups interact. Type assortativity (Newman's categorical \href{https://journals.aps.org/pre/abstract/10.1103/PhysRevE.67.026126}{$r$}) is higher for rivalries than alliances ($r = 0.64$ vs $0.49$, $p < 0.001$, edge bootstrap). Organizations fight within their type even more often than they ally within it.
+Beyond the overall shape of the networks, it is also useful to measure how often similar groups interact. Type assortativity (Newman's categorical \href{https://journals.aps.org/pre/abstract/10.1103/PhysRevE.67.026126}{$r$}) is higher for rivalries than alliances ($r = 0.64$ vs $0.48$, $p < 0.001$, edge bootstrap). Organizations fight within their type even more often than they ally within it.
 
 \subsection{Network centrality}
 
@@ -261,9 +261,9 @@ To identify the most prominent organizations in each network, I ranked them usin
 
 Hells Angels top every ranking in both networks; no other organization does.
  
-Alliance: Hells Angels, 'Ndrangheta, and Sinaloa Cartel lead, with the rest of the top slots held by mafias (Camorra, Gambino crime family, American Mafia, Cosa Nostra, Mexican Mafia, Bonanno crime family, Chicago Outfit). Interestingly, only the Crips and Bloods break into the alliance betweenness top ten, and no gang reaches the alliance PageRank top ten.
+Alliance: Hells Angels, 'Ndrangheta, and Sinaloa Cartel lead, with the rest of the top slots held by mafias (Camorra, Gambino crime family, American Mafia, Cosa Nostra, Mexican Mafia, Bonanno crime family, Chicago Outfit). Interestingly, the only gangs that break into the alliance betweenness top ten are the Crips and Bloods. No other gang reaches the alliance PageRank top ten.
  
-Rivalry: motorcycle clubs move to the front and gangs fill much of the list (Crips, Bloods, Latin Kings, Mara Salvatrucha, Florencia 13, Norteños, Tiny Rascal Gang, Maniac Latin Disciples). Cartels stay prominent (Jalisco New Generation Cartel, Sinaloa Cartel). Notably, the only mafia present is Mexican Mafia, which is high in rivalry brokerage (2nd in betweenness) and absent from the alliance top ten.
+Rivalry: motorcycle clubs move to the front and gangs fill much of the list (Crips, Bloods, Latin Kings, Mara Salvatrucha, Florencia 13, Norteños, Tiny Rascal Gang, Maniac Latin Disciples). Cartels stay prominent (Jalisco New Generation Cartel, Sinaloa Cartel). Notably, the only mafias present are Mexican Mafia and Yamaguchi-gumi.
 
 Alliance and rivalry brokerage are held by mostly different organizations. Since gangs and motorcycle clubs clearly dominate the top of the rivalry network, the next step is to aggregate these metrics to see how each organizational type performs as a whole. Do the patterns hold when averaged across all organizations of a type? Figure~\ref{fig:type_centrality} shows the mean of each metric by type.
 
@@ -274,11 +274,24 @@ Alliance and rivalry brokerage are held by mostly different organizations. Since
   \label{fig:type_centrality}
 \end{figure}
 
-By type, mafias lead alliance mean degree and PageRank, while cartels lead alliance mean betweenness; mafias come second on betweenness, with triads and terrorist organizations rounding out the upper third. Factions sit at the bottom of mean alliance betweenness, with gangs in the middle of the pack. On the rivalry side, cartels lead in mean degree and mean PageRank, motorcycle clubs lead in mean betweenness, and mafias are third in PageRank but only fifth in degree and betweenness. The same handful of types dominates both layers, but the ordering depends on which relationship is being measured.
+Mafias and cartels lead the alliance rankings across all three metrics. On the rivalry network, cartels and motorcycle clubs take over and mafias drop. Gangs sit higher in the rivalry ordering than in the alliance one.
+
+\subsection{Edge composition by type}
+
+Centrality metrics do not reveal the cooperation-conflict mix within each type. For each type, I pool all edges incident on organizations of that type and compute the fraction that are alliances. Figure \ref{fig:edge_composition} the result.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{crimenet_alliance_share_by_type.pdf}
+  \caption{Alliance share of edges by organizational type, edge-weighted (each edge counts equally). Error bars are bootstrap 95\% confidence intervals over organizations ($B = 2000$). The dashed line marks 50\%.}
+  \label{fig:edge_composition}
+\end{figure}
+
+Mafias spend 86\% of their relational footprint on alliances (95\% CI [82.5, 89.1]): they are predominantly cooperative. Terrorist organizations, factions, and clans all exceed 75\%. Cartels and motorcycle clubs sit in the middle (66\% and 64\%). Gangs come in last at 55\% (95\% CI [52.1, 57.5]).
 
 \subsection{$k$-core decomposition}
 
-Which types sit at the core of each network, and which at the periphery? The \href{https://www.sciencedirect.com/science/article/abs/pii/037887338390028X}{$k$-core} of a network is the largest subgraph in which every vertex has at least $k$ neighbors. $k$-core decomposition applies this recursively, peeling off lower-connectivity vertices to reveal a nested shell structure. Figure~\ref{fig:kcore} shows the type composition of each shell.
+Which types sit at the core of each network? The \href{https://www.sciencedirect.com/science/article/abs/pii/037887338390028X}{$k$-core} of a network is the largest subgraph in which every vertex has at least $k$ neighbors. $k$-core decomposition applies this recursively, peeling off lower-connectivity vertices to reveal a nested shell structure. Figure~\ref{fig:kcore} shows the type composition of each shell.
 
 \begin{figure}[H]
   \centering
@@ -287,13 +300,17 @@ Which types sit at the core of each network, and which at the periphery? The \hr
   \label{fig:kcore}
 \end{figure}
 
-The alliance network reaches $k=8$; the rivalry network only reaches $k=4$. The alliance core runs deeper. The deepest alliance shell ($k=8$) contains 22 organizations, almost all mafias---including the major American Mafia crime families (Gambino, Genovese, Bonanno, Lucchese, Colombo), other crime families, and Hells Angels. The decomposition surfaces the Commission structure without supervision. By contrast, the rivalry $k=4$ shell contains 43 organizations, predominantly gangs, and gangs dominate every shell of the rivalry network. The rivalry core is shallower and more type-homogeneous shell by shell, consistent with the higher type assortativity reported in Section~\ref{sec:layers}.
+The alliance network reaches $k=8$; the rivalry network only reaches $k=4$. The alliance core runs deeper. The deepest alliance shell ($k=8$) contains 22 organizations, almost all mafias---including the major American Mafia crime families (Gambino, Genovese, Bonanno, Lucchese, Colombo), other crime families, and Hells Angels. By contrast, the rivalry $k=4$ shell contains 43 organizations, predominantly gangs, and gangs dominate every shell of the rivalry network. The rivalry core is shallower and more type-homogeneous shell by shell, consistent with the higher type assortativity reported in Section~\ref{sec:layers}.
 
 \subsection{Signed pairs}\label{sec:signed}
 
-So far I've looked at the two networks separately. Putting them side by side raises a different question: which organizations are pure cooperators, which are pure antagonists, and which keep a mixed book? I collapse parallel edges at the organization-pair level, giving each pair a signed label (ally, rival, or both). 2{,}293 pairs have an alliance edge, 1{,}061 have a rivalry edge. Table~\ref{tab:signed} lists the 15 organizations with the highest total signed degree (allies $+$ rivals): the most involved, regardless of direction.
+So far I've looked at the two networks separately. Putting them side by side raises a different question: which organizations are pure cooperators, which are pure antagonists, and which keep a mixed book? Table~\ref{tab:signed} lists the 15 organizations with the highest total signed degree (allies $+$ rivals): the most involved, regardless of direction.
 
 A caveat before reading the table: these counts only reflect relationships documented in the source articles. An organization may have additional allies or rivals that didn't make it into the dataset, either because they weren't mentioned in the relevant Wikipedia articles or because the corresponding article wasn't included in the source list.
+
+Hells Angels lead by a wide margin, with the next ten slots split between cartels (Sinaloa, Jalisco New Generation, Gulf, Los Zetas), motorcycle clubs (Bandidos, Outlaws), and large gangs (Crips, Bloods, Latin Kings, Mara Salvatrucha). Mexican Mafia is the only mafia in the top 15. 
+
+Looking at the extremes, the asymmetry between pure cooperators and pure antagonists is striking. The top pure cooperators (only allies, 0 rivals) are almost all mafias: Cosa Nostra (42 allies), Barbaro 'ndrina (22), Detroit Partnership (19), Patriarca crime family (18), Corsican mafia (17), New Orleans crime family (14), Trafficante crime family (14), and the Five Families (13), with two gangs (Jamaican posse, Queen City Kings) as the only non-mafia entries. On the other side, only two organizations qualify as pure antagonists (only rivals, 0 allies): Fresno Bulldogs and Trinitarios, both gangs. 
 
 \begin{table}[H]
 \centering
@@ -323,20 +340,10 @@ Mara Salvatrucha & gang & 13 & 16 \\
 \end{tabular}
 \end{table}
 
-Hells Angels lead by a wide margin, with the next ten slots split between cartels (Sinaloa, Jalisco New Generation, Gulf, Los Zetas), motorcycle clubs (Bandidos, Outlaws), and large gangs (Crips, Bloods, Latin Kings, Mara Salvatrucha). Mexican Mafia is the only mafia in the top 15. The Hells Angels' ally count alone (134) is more than the total signed degree of the next-largest organization.
-
-Looking at the extremes, the asymmetry between pure cooperators and pure antagonists is striking. The top pure cooperators (5+ allies, 0 rivals) are almost all mafias: Cosa Nostra (42 allies), Barbaro 'ndrina (22), Detroit Partnership (19), Patriarca crime family (18), Corsican mafia (17), New Orleans crime family (14), Trafficante crime family (14), and the Five Families (13), with two gangs (Jamaican posse, Queen City Kings) as the only non-mafia entries. On the other side, only two organizations qualify as pure antagonists (5+ rivals, 0 allies): Fresno Bulldogs and Trinitarios, both gangs. Mafias accumulate documented partners; gangs are documented through their conflicts.
 
 \subsection{Role persistence across networks}
 
-The signed-degree view groups organizations by total involvement, but it doesn't say whether the same organizations broker in both layers. If an organization is a broker in the alliance network, is it also a broker in the rivalry network? To find out, I rank each organization active in both layers by betweenness within each network and compare the ranks. Perfect transfer would put every point on the diagonal in Figure~\ref{fig:role_persistence}.
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=\textwidth]{crimenet_role_persistence.pdf}
-  \caption{Betweenness rank in the alliance network ($x$-axis) versus rivalry network ($y$-axis) for the 376 organizations with nonzero betweenness in at least one layer. Colors indicate organizational type; node size is proportional to degree.}
-  \label{fig:role_persistence}
-\end{figure}
+Total involvement does not tell us whether the same organizations broker in both layers. If an organization is a broker in the alliance network, is it also a broker in the rivalry network? To find out, I rank each organization active in both layers by betweenness within each network and compare the ranks. Perfect transfer would put points on the diagonal in Figure~\ref{fig:role_persistence}.
 
 Most points fall off the diagonal. To rank persistent brokers, I score each organization by $\max(\text{rank}_a, \text{rank}_r)$, so an organization scores well only if it ranks high in \emph{both} layers, with ties broken by $|\Delta|$. Table~\ref{tab:persistent} lists the top 10.
 
@@ -363,9 +370,18 @@ Los Zetas & Cartel & 17 & 14 & 3 \\
 \end{tabular}
 \end{table}
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{crimenet_role_persistence.pdf}
+  \caption{Betweenness rank in the alliance network ($x$-axis) versus rivalry network ($y$-axis) for the 376 organizations with nonzero betweenness in at least one layer. Colors indicate organizational type; node size is proportional to degree.}
+  \label{fig:role_persistence}
+\end{figure}
+
 The clearest exception is Hells Angels: rank 1 on both axes, and the system's outlier on every measure I've looked at (top of every centrality ranking in both networks, top of total signed degree).
 
 The points that fall \emph{off} the diagonal split into two groups: alliance-dominant brokers (high alliance rank, low rivalry rank) and rivalry-dominant brokers (the reverse). Tables~\ref{tab:alliance_dominant} and~\ref{tab:rivalry_dominant} list the top 10 in each direction.
+
+Alliance-dominant brokers (Table~\ref{tab:alliance_dominant}): the list is type-mixed. Three mafias (Serbian mafia, Greek mafia, Lucchese crime family), one clan (Secondigliano Alliance), one terrorist organization (Shining Path), and five gangs appear. What unites them is a relational profile of documented cooperation with little or no recorded conflict. 
 
 \begin{table}[H]
 \centering
@@ -390,7 +406,7 @@ Lucchese crime family & Mafia & 47 & 329 & $-$282 \\
 \end{tabular}
 \end{table}
 
-Alliance-dominant brokers (Table~\ref{tab:alliance_dominant}): the list is type-mixed. Three mafias (Serbian mafia, Greek mafia, Lucchese crime family), one clan (Secondigliano Alliance), one terrorist organization (Shining Path), and five gangs appear. What unites them is a relational profile of documented cooperation with little or no recorded conflict. Their alliance ranks sit in the top fifth of the network while their rivalry ranks fall to the very bottom. These organizations are visible to the dataset primarily through who they work with, not who they fight.
+Rivalry-dominant brokers (Table~\ref{tab:rivalry_dominant}): the list is overwhelmingly gangs (9 of 10), with one cartel (La Unión Tepito) and one motorcycle club (Original Red Devils MC). Several of the gangs are Los Angeles–area street gangs (Toonerville Rifa 13, West Side Piru, Grape Street Watts Crips, Santa Monica 13, Playboys, Logan Heights). 
 
 \begin{table}[H]
 \centering
@@ -415,30 +431,14 @@ Tango Blast & Gang & 370 & 105 & 265 \\
 \end{tabular}
 \end{table}
 
-Rivalry-dominant brokers (Table~\ref{tab:rivalry_dominant}): the list is overwhelmingly gangs (9 of 10), with one cartel (La Unión Tepito) and one motorcycle club (Original Red Devils MC). Several of the gangs are Los Angeles–area street gangs (Toonerville Rifa 13, West Side Piru, Grape Street Watts Crips, Santa Monica 13, Playboys, Logan Heights). 
-
-\subsection{Edge composition by type}
-
-The centrality and $k$-core analyses treat each organization individually. A complementary question: of all edges incident on organizations of a given type, what fraction are alliances? This measures how a type spends its relational footprint as a whole. For each type, I pool all edges incident on organizations of that type and compute the fraction that are alliances. Confidence intervals are bootstrap 95\% intervals obtained by resampling organizations within each type with replacement ($B = 2000$).
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=\textwidth]{crimenet_alliance_share_by_type.pdf}
-  \caption{Alliance share of edges by organizational type, edge-weighted (each edge counts equally). Error bars are bootstrap 95\% confidence intervals over organizations ($B = 2000$). The dashed line marks 50\%.}
-  \label{fig:edge_composition}
-\end{figure}
-
-The result is a clean gradient. Mafias spend 86\% of their relational footprint on alliances (95\% CI [82.5, 89.1])---they are predominantly cooperative. Terrorist organizations, factions, and clans all exceed 75\%. Cartels and motorcycle clubs sit in the middle (66\% and 64\%). Gangs come in last at 55\% (95\% CI [52.1, 57.5]); they are the only type whose alliance share is statistically distinguishable from the rest of the network at this level, and their relational profile is roughly balanced between cooperation and conflict. The previous sections showed which specific organizations dominate each layer; this measure shows that the layer-skew also holds at the type level as a whole.
-
-
 % ═══════════════════════════════════════════════════════
 \section{Limitations}\label{sec:limitations}
 % ═══════════════════════════════════════════════════════
 
 \begin{enumerate}[leftmargin=2em]
-  \item \textbf{Wikipedia coverage bias.} Wikipedia skews English-language and Western-centric. Well-documented organizations appear more connected. Coverage gaps likely exist in under-reported regions.
-  \item \textbf{LLM extraction errors.} The sanitization pipeline catches obvious problems, but I have not run a systematic precision/recall evaluation against expert-labeled data.
-  \item \textbf{Temporal conflation.} The network aggregates relationships across all time periods. An alliance from the 1970s and one from 2020 are treated identically.
+  \item \textbf{Wikipedia coverage bias.} Wikipedia skews English-language and Western-centric. Well-documented organizations appear more connected. Coverage gaps exist.
+  \item \textbf{LLM extraction errors.} The sanitization pipeline catches obvious problems, but connections and organization details may still contain errors that survive automated cleanup.
+  \item \textbf{Temporal conflation.} The network aggregates relationships across all time periods. An alliance from the 1970s and one from 2020 have the same weight.
   \item \textbf{Type classification ambiguity.} The boundary between ``cartel'' and ``militia'', or ``gang'' and ``faction'', is often fuzzy.
 \end{enumerate}
 
