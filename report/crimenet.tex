@@ -84,7 +84,7 @@
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 
 % ─── Graphics path ───
-\graphicspath{{../notebooks/images/}}
+\graphicspath{{../notebooks/images}}
 
 % ═══════════════════════════════════════════════════════
 %                     DOCUMENT
@@ -102,7 +102,7 @@
 % ─── Abstract ───
 \begin{abstract}
 \noindent
-CRIMENET is an open-source database mapping the alliances and rivalries between criminal organizations worldwide. An LLM pipeline extracted 1{,}890 organizations and 3{,}354 relationships (2{,}293 alliances, 1{,}061 rivalries) from 771 Wikipedia articles. The alliance and rivalry networks are analyzed separately. The alliance network is larger and more cohesive (largest connected component covers 85\% of active organizations); the rivalry network is sparser and more fragmented but locally denser. Type assortativity is higher for rivalries than for alliances ($r = 0.64$ vs $0.49$): organizations fight within their own type more often than they cooperate within it. The deepest alliance shells are dominated by mafias, including the major American crime families; the deepest rivalry shells are dominated by gangs. Mafias are overwhelmingly cooperative — 86\% of their edges are alliances. Gangs sit at the opposite end: nearly half of their edges (45\%) are rivalries, the highest rivalry share of any type. Brokerage roles are mostly layer-specific, with alliance-dominant brokers tending to be mafias and rivalry-dominant brokers almost exclusively gangs. The Hells Angels are the single most central organization across the entire dataset, topping every centrality ranking in both networks.
+CRIMENET is an open-source database mapping the alliances and rivalries between criminal organizations worldwide. An LLM pipeline extracted 1{,}890 organizations and 3{,}354 relationships (2{,}293 alliances, 1{,}061 rivalries) from 771 Wikipedia articles. The alliance and rivalry networks are analyzed separately. The alliance network is larger and more cohesive (largest connected component covers 85\% of active organizations); the rivalry network is sparser and more fragmented but locally denser. Type assortativity is higher for rivalries than for alliances ($r = 0.64$ vs $0.49$): organizations fight within their own type more often than they cooperate within it. The deepest alliance shells are dominated by mafias, including the major American crime families; the deepest rivalry shells are dominated by gangs. Mafias are overwhelmingly cooperative: 86\% of their edges are alliances. Gangs sit at the opposite end: nearly half of their edges (45\%) are rivalries, the highest rivalry share of any type. Across the two layers, rivalry-dominant brokers are almost all gangs, whereas alliance-dominant brokers are type-mixed. The Hells Angels are the single most central organization in the networks, topping every centrality ranking in both networks.
 
 \medskip
 \noindent\textbf{Keywords:} criminal networks, network science, signed networks, organized crime, open-source intelligence, large language models
@@ -157,7 +157,7 @@ Because the prompt enforced canonical types and relationship classifications dir
 The final dataset contains 771 source articles with full Wikipedia URL provenance, from which I extracted:
 
 \begin{itemize}[leftmargin=2em]
-  \item \textbf{1{,}890 entities} across nine organization types: gangs (39.7\%), clans (13.5\%), mafias (13.4\%), motorcycle clubs (10.4\%), factions (9.3\%), cartels (4.3\%), militias (4.2\%), triads (2.8\%), terrorist organizations (2.2\%).
+  \item \textbf{1{,}890 entities} across nine organization types: gangs (39.7\%), clans (13.5\%), mafias (13.4\%), motorcycle clubs (10.4\%), factions (9.4\%), cartels (4.3\%), militias (4.2\%), triads (2.8\%), terrorist organizations (2.2\%).
   \item \textbf{3{,}354 relationships:} 2{,}293 alliances (68\%) and 1{,}061 rivalries (32\%). All edges are undirected.
 \end{itemize}
 
@@ -194,12 +194,12 @@ Hells Angels lead by a wide margin (93 articles), followed by Sinaloa Cartel (69
 
 \subsection{The full network}\label{sec:layers}
 
-Alliance and rivalry are very different types of relationships. While the rest of this analysis treats them as two separate networks, seeing them combined first gives a helpful overview of the overall scale of these organizations and their connections. Figure \ref{fig:multiplex} shows the active landscape of global organized crime as of April 27, 2026.
+Alliance and rivalry are very different types of relationships. While the rest of this analysis treats them as two separate networks, seeing them combined gives a helpful overview of the overall scale of these organizations and their connections. Figure \ref{fig:multiplex} shows the active landscape of global organized crime as of April 27, 2026.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{crimenet_both_full.pdf}
-  \caption{Complete CRIMENET with both relationship types. Nodes are criminal organizations, sized by betweenness centrality. Blue edges are alliances, red edges are rivalries. The entire network contains 1{,}890 nodes and 3{,}354 edges. An additional 536 isolated organizations (no extracted connections) are omitted from the visualization.}
+  \caption{CRIMENET. Nodes are criminal organizations, sized by betweenness centrality. Blue edges are alliances, red edges are rivalries. The entire network contains 1{,}890 nodes and 3{,}354 edges. An additional 536 isolated organizations (no extracted connections) are omitted from the visualization (and report).}
   \label{fig:multiplex}
 \end{figure}
 
@@ -244,7 +244,7 @@ Max PageRank & 0.027264 & 0.019312 \\
 \end{tabular}
 \end{table}
 
-The alliance network has more active nodes (1{,}517 vs 876) and edges (2{,}293 vs 1{,}061) and its LCC covers 85\% of active nodes versus 55\%. Cooperation reaches more of the network than conflict does. Global clustering is 0.0906 vs 0.0859, mean local clustering 0.2957 vs 0.1893. Pseudo-diameters are close (12 vs 13). One detail worth flagging: the rivalry LCC is denser than the alliance LCC (0.00653 vs 0.00255), even though the rivalry network is sparser overall. Conflict packs into smaller, denser clusters; cooperation spreads thinner across a larger one.
+The alliance network has more active nodes (1{,}517 vs 876) and edges (2{,}293 vs 1{,}061) and its LCC covers 85\% of active nodes versus 55\%. Cooperation reaches more of the network than conflict does. Global clustering is 0.0906 vs 0.0859, mean local clustering 0.2957 vs 0.1893. Pseudo-diameters are close (12 vs 13). One detail worth noting: the rivalry LCC is denser than the alliance LCC (0.00653 vs 0.00255), even though the rivalry network is sparser overall. 
 
 Beyond the overall shape of the networks, it is also useful to measure how often similar groups interact. Type assortativity (Newman's categorical \href{https://journals.aps.org/pre/abstract/10.1103/PhysRevE.67.026126}{$r$}) is higher for rivalries than alliances ($r = 0.64$ vs $0.49$, $p < 0.001$, edge bootstrap). Organizations fight within their type even more often than they ally within it.
 
@@ -261,9 +261,9 @@ To identify the most prominent organizations in each network, I ranked them usin
 
 Hells Angels top every ranking in both networks; no other organization does.
  
-Alliance: Hells Angels, 'Ndrangheta, and Sinaloa Cartel lead, with the rest of the top slots held by mafias (Camorra, Gambino crime family, American Mafia, Cosa Nostra, Mexican Mafia, Bonanno crime family, Chicago Outfit) and the occasional cartel. Only the Crips and Bloods break into the alliance betweenness top ten, and no gang reaches the alliance PageRank top ten.
+Alliance: Hells Angels, 'Ndrangheta, and Sinaloa Cartel lead, with the rest of the top slots held by mafias (Camorra, Gambino crime family, American Mafia, Cosa Nostra, Mexican Mafia, Bonanno crime family, Chicago Outfit). Interestingly, only the Crips and Bloods break into the alliance betweenness top ten, and no gang reaches the alliance PageRank top ten.
  
-Rivalry: motorcycle clubs move to the front (Bandidos 2nd in degree and PageRank; Outlaws across rankings). Gangs fill much of the list (Crips, Bloods, Latin Kings, Mara Salvatrucha, Florencia 13, Norteños, Tiny Rascal Gang, Maniac Latin Disciples). Cartels stay prominent (Jalisco New Generation Cartel, Sinaloa Cartel). Notably, the only mafia present is Mexican Mafia, which is high in rivalry brokerage (2nd in betweenness) and absent from the alliance top ten.
+Rivalry: motorcycle clubs move to the front and gangs fill much of the list (Crips, Bloods, Latin Kings, Mara Salvatrucha, Florencia 13, Norteños, Tiny Rascal Gang, Maniac Latin Disciples). Cartels stay prominent (Jalisco New Generation Cartel, Sinaloa Cartel). Notably, the only mafia present is Mexican Mafia, which is high in rivalry brokerage (2nd in betweenness) and absent from the alliance top ten.
 
 Alliance and rivalry brokerage are held by mostly different organizations. Since gangs and motorcycle clubs clearly dominate the top of the rivalry network, the next step is to aggregate these metrics to see how each organizational type performs as a whole. Do the patterns hold when averaged across all organizations of a type? Figure~\ref{fig:type_centrality} shows the mean of each metric by type.
 

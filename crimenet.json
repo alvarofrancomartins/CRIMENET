@@ -9604,7 +9604,7 @@
     },
     {
       "name": "Camorra",
-      "type": "clan",
+      "type": "mafia",
       "descriptions": [
         "Italian Mafia-type criminal organization originating in Campania, dating to the 18th century. Engages in drug trafficking, racketeering, counterfeiting, and money laundering."
       ],
@@ -13438,7 +13438,7 @@
     },
     {
       "name": "Comando Vermelho",
-      "type": "cartel",
+      "type": "faction",
       "descriptions": [
         "Brazilian criminal organization engaged in drug trafficking, arms trafficking, and turf wars, controlling parts of Rio de Janeiro and expanding to other states and neighboring countries."
       ],
@@ -60158,22 +60158,22 @@
       ]
     },
     {
-      "source": "Serino clan",
-      "target": "Albanian Mafia",
+      "source": "Albanian Mafia",
+      "target": "Serino clan",
       "type": "allied_with",
       "descriptions": [
-        "Alliances with Albanian mafia according to DIA.",
-        "Albanian mafia has alliances with the Serino clan of the Camorra."
+        "Albanian mafia has alliances with the Serino clan of the Camorra.",
+        "Alliances with Albanian mafia according to DIA."
       ],
       "time_period": null,
       "sources": [
         {
-          "url": "https://en.wikipedia.org/w/index.php?title=Camorra&oldid=1347407298",
-          "title": "Camorra"
-        },
-        {
           "url": "https://en.wikipedia.org/w/index.php?title=Albanian_mafia&oldid=1351161949",
           "title": "Albanian mafia"
+        },
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=Camorra&oldid=1347407298",
+          "title": "Camorra"
         }
       ]
     },
@@ -93921,22 +93921,22 @@
       ]
     },
     {
-      "source": "Lucchese crime family",
-      "target": "Velentzas Organization",
+      "source": "Velentzas Organization",
+      "target": "Lucchese crime family",
       "type": "allied_with",
       "descriptions": [
-        "Allied with the Lucchese family.",
-        "The Lucchese family provided protection to the Velentzas Organization in exchange for a share of gambling profits."
+        "The Lucchese family provided protection to the Velentzas Organization in exchange for a share of gambling profits.",
+        "Allied with the Lucchese family."
       ],
-      "time_period": null,
+      "time_period": "1980s-1990s",
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/w/index.php?title=Lucchese_crime_family&oldid=1350207622",
-          "title": "Lucchese crime family"
-        },
         {
           "url": "https://en.wikipedia.org/w/index.php?title=Velentzas_Organization&oldid=1339087557",
           "title": "Velentzas Organization"
+        },
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=Lucchese_crime_family&oldid=1350207622",
+          "title": "Lucchese crime family"
         }
       ]
     },
@@ -101938,19 +101938,15 @@
       ]
     },
     {
-      "source": "Tren de Aragua",
-      "target": "Primeiro Comando da Capital",
+      "source": "Primeiro Comando da Capital",
+      "target": "Tren de Aragua",
       "type": "allied_with",
       "descriptions": [
-        "Tren de Aragua has alliances with Primeiro Comando da Capital in Brazil.",
-        "PCC operates alongside Tren de Aragua in Northern Brazil."
+        "PCC operates alongside Tren de Aragua in Northern Brazil.",
+        "Tren de Aragua has alliances with Primeiro Comando da Capital in Brazil."
       ],
       "time_period": null,
       "sources": [
-        {
-          "url": "https://en.wikipedia.org/w/index.php?title=Tren_de_Aragua&oldid=1349396333",
-          "title": "Tren de Aragua"
-        },
         {
           "url": "https://en.wikipedia.org/w/index.php?title=List_of_criminal_gangs_in_Brazil&oldid=1348520229",
           "title": "List of criminal gangs in Brazil"
@@ -101958,6 +101954,10 @@
         {
           "url": "https://en.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=1350242830",
           "title": "Primeiro Comando da Capital"
+        },
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=Tren_de_Aragua&oldid=1349396333",
+          "title": "Tren de Aragua"
         }
       ]
     },

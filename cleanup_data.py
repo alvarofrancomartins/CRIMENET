@@ -1967,10 +1967,6 @@ TO_BE_EXCLUDED = {
 # ═══════════════════════════════════════════════════════════════════
 
 NODE_TYPE_OVERRIDES = {
-    # Example:
-    # "albanian mafia": "mafia",
-    # "comando vermelho": "cartel",
-    # "hells angels": "motorcycle_club",
     "alleanza di secondigliano": "criminal_organization",
     "atf": "criminal_organization",
     "axis of resistance": "criminal_organization",
@@ -2178,7 +2174,7 @@ NODE_TYPE_OVERRIDES = {
     "cleveland syndicate": "crime_family",
     "coalition of patriots for change": "militia",
     "comando classe a": "gang",
-    "comando vermelho": "cartel",
+    "comando vermelho": "faction",
     "combat 18 serbia": "militia",
     "compton executioners": "gang",
     "counter-guerrilla": "militia",
@@ -2335,6 +2331,7 @@ NODE_TYPE_OVERRIDES = {
     "nordic resistance movement": "terrorist_organization",
     "northern structure": "gang",
     "nuova camorra organizzata": "mafia",
+    "camorra": "mafia",
     "nuova famiglia": "mafia",
     "nuova famiglia salentina": "clan",
     "nuova grande camorra pugliese": "clan",
