@@ -31,6 +31,7 @@ Open-source database and interactive visualization of alliances and rivalries be
 ├── deepseek_api_key.txt         # API key (not committed)
 ├── txts/                        # One folder per article (content.txt, url.txt, extracted.json)
 ├── notebooks/                   # Analysis notebooks for the report
+├── report/                      # Technical results report
 └── README.md
 ```
 
@@ -55,7 +56,6 @@ python 5_dedup_edges_with_llm.py --input crimenet.json
 
 ```csv
 url
-https://en.wikipedia.org/wiki/'Ndrangheta
 https://en.wikipedia.org/wiki/Sinaloa_Cartel
 https://it.wikipedia.org/wiki/Cosa_nostra
 ```
