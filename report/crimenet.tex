@@ -198,7 +198,7 @@ Alliance and rivalry are very different types of relationships. While the rest o
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth]{crimenet_both_full.pdf}
+  \includegraphics[width=0.98\textwidth]{crimenet_both_full.pdf}
   \caption{CRIMENET. Nodes are criminal organizations, sized by betweenness centrality. Blue edges are alliances, red edges are rivalries. The entire network contains 1{,}890 nodes and 3{,}354 edges. An additional 536 isolated organizations (no extracted connections) are omitted from the visualization (and report).}
   \label{fig:multiplex}
 \end{figure}
@@ -440,6 +440,7 @@ Tango Blast & Gang & 370 & 105 & 265 \\
   \item \textbf{LLM extraction errors.} The sanitization pipeline catches obvious problems, but connections and organization details may still contain errors that survive automated cleanup.
   \item \textbf{Temporal conflation.} The network aggregates relationships across all time periods. An alliance from the 1970s and one from 2020 have the same weight.
   \item \textbf{Type classification ambiguity.} The boundary between ``cartel'' and ``militia'', or ``gang'' and ``faction'', is often fuzzy.
+  \item \textbf{Relational oversimplification.} Categorizing complex interactions strictly as alliances or rivalries is an intentional simplification to enable macro-level analysis.
 \end{enumerate}
 
 % \bibliographystyle{unsrt}
