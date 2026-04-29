@@ -133,3 +133,7 @@ Then open [http://localhost:8000/index.html](http://localhost:8000/index.html). 
 ### Next steps
 
 Implement a workflow for correcting LLM extraction mistakes, such as misclassified edges or spurious nodes.
+
+### License
+
+Code: [MIT](LICENSE). Data (derived from Wikipedia): [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
