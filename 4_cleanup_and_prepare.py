@@ -153,7 +153,7 @@ GENERIC_SAFELIST = {
     "iranian mafia", "lebanese mafia", "kurdish mafia", "turkish mafia",
     "ukrainian mafia", "romanian mafia", "russian mafia", "russian mob",
     "nigerian mafia", "pakistani mafia", "moroccan mafia", "cuban mafia",
-    "greek mafia", "indian mafia", "irish mafia", "italian mafia", "italian mob",
+    "greek mafia", "indian mafia", "irish mafia", "italian mob",
     "polish mob", "portuguese mafia", "slovak mafia", "canadian mafia",
     "balkan mafia", "yugoslav mafia", "north macedonian mafia",
     "galician mafia", "red mafia", "new mafia", "dz mafia",
@@ -212,11 +212,6 @@ def split_node_sources(node_name, aliases, urls):
     alias_set = {a.strip().lower() for a in aliases} if aliases else set()
     alias_set.add(name_lower)
 
-    GENERIC_SOURCE_TITLES = {
-        "mafia", "gang", "cartel", "triad", "organized crime", "crime family",
-        "death squad", "irish mob", "bloods", "crips", "yakuza",
-    }
-
     SOURCE_OVERRIDES = {
         "cosa nostra": {"url": "https://en.wikipedia.org/w/index.php?title=Sicilian_Mafia&oldid=1343334461", "title": "Sicilian Mafia"},
         "bloods": {"url": "https://en.wikipedia.org/wiki/Bloods", "title": "Bloods"},
@@ -241,10 +236,6 @@ def split_node_sources(node_name, aliases, urls):
             mentioned_in.append({"url": url, "title": "Wikipedia"})
             continue
         title_lower = title.strip().lower()
-
-        if title_lower in GENERIC_SOURCE_TITLES:
-            mentioned_in.append({"url": url, "title": title})
-            continue
 
         is_own = False
         if title_lower == name_lower:
