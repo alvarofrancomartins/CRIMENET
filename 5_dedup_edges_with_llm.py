@@ -20,7 +20,6 @@ the latest one wins.
 
 Usage:
     python 5_dedup_edges_with_llm.py --input crimenet.json
-    python 5_dedup_edges_with_llm.py --input crimenet.json --dry-run
 """
 
 import json
