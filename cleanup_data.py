@@ -948,6 +948,7 @@ TO_BE_EXCLUDED = {
     "ahbash",
     "gerindo",
     "zaynabiyat",
+    "scuderie detetive le cocq",         # defunct
     "belle starr gang",                  # defunct
     "bob dozier gang",                   # defunct
     "cochise cowboy gang",               # defunct

@@ -123,6 +123,25 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:9000;
   <div class="tb-filters" id="tb-filters">
     <span class="flbl">Show:</span>
   </div>
+  <!-- COUNTRY FILTER -->
+  <div style="position:relative;display:flex;align-items:center;padding:0 18px;border-left:1px solid var(--b1);flex-shrink:0">
+    <button id="country-btn" style="display:flex;align-items:center;gap:8px;padding:8px 14px;background:var(--s2);border:1px solid var(--b1);border-radius:4px;color:var(--text);font-family:var(--body);font-size:16px;font-weight:500;cursor:pointer;transition:all .15s;white-space:nowrap" onmouseover="this.style.borderColor='var(--b2)'" onmouseout="this.style.borderColor='var(--b1)'">
+      <span style="font-size:14px;font-weight:600;letter-spacing:1px;color:var(--text3);text-transform:uppercase">Country:</span>
+      <span id="country-label" style="color:var(--amber);font-weight:600">All</span>
+      <span style="font-size:10px;opacity:0.6">▼</span>
+    </button>
+    <div id="country-dropdown" style="display:none;position:absolute;top:100%;left:18px;width:300px;margin-top:4px;background:var(--s2);border:1px solid var(--b2);border-radius:4px;z-index:400;box-shadow:0 8px 24px rgba(0,0,0,.5);overflow:hidden">
+      <div style="padding:10px 12px;border-bottom:1px solid var(--b1);display:flex;align-items:center;gap:8px">
+        <span style="font-size:13px;font-weight:600;letter-spacing:1px;color:var(--text3);text-transform:uppercase">Mode:</span>
+        <button class="cf-mode" data-mode="highlight" style="padding:5px 12px;font-size:14px;font-weight:500;letter-spacing:.5px;border-radius:3px;border:1px solid var(--b1);background:none;color:var(--text2);cursor:pointer;font-family:var(--body);transition:all .12s">Highlight</button>
+        <button class="cf-mode" data-mode="isolate"   style="padding:5px 12px;font-size:14px;font-weight:500;letter-spacing:.5px;border-radius:3px;border:1px solid var(--b1);background:none;color:var(--text2);cursor:pointer;font-family:var(--body);transition:all .12s">Isolate</button>
+      </div>
+      <div style="padding:8px;border-bottom:1px solid var(--b1)">
+        <input type="text" id="country-search" placeholder="Filter countries…" autocomplete="off" style="display:block;width:100%;padding:8px 10px;background:var(--s1);border:1px solid var(--b1);border-radius:3px;color:var(--text);font-family:var(--body);font-size:14px;outline:none">
+      </div>
+      <div id="country-list" style="max-height:380px;overflow-y:auto"></div>
+    </div>
+  </div>
   <div style="position:relative;display:flex;align-items:center;padding:0 18px;border-left:1px solid var(--b1);flex-shrink:0">
     <input type="text" id="node-search" placeholder="Search or browse…" autocomplete="off"
       style="width:280px;padding:10px 14px;background:var(--s2);border:1px solid var(--b1);border-radius:4px;color:var(--text);font-family:var(--body);font-size:16px;outline:none;transition:border-color .15s"
@@ -191,6 +210,21 @@ let simulation = null, svg_sel = null, g_sel = null;
 let linkSel, nodeSel;
 let allNodes = [], allLinks = [], orgADJ = {};
 let visNodeSet = new Set();
+// Country filter state. Empty Set === "All countries" (no filter).
+// Multi-select: each entry is a country name. matchCountry returns true if
+// the org operates in ANY of the selected countries (union semantics).
+let selectedCountries = new Set();
+let allCountries = [];
+// Country view mode:
+//   'highlight' — keep the whole network visible, dim everything outside the
+//                 selected countries. Layout never changes when toggling.
+//   'isolate'   — actually filter the graph to just the in-country subnet
+//                 (both edge endpoints must match). Simulation re-runs and
+//                 the subnet self-organizes into its own layout.
+let countryMode = 'highlight';
+// Cached visible links (after edge-type filter only). Used by updateStats so
+// country changes don't have to recompute against allLinks every time.
+let visLinks = [];
 const tick = () => new Promise(r=>setTimeout(r,0));
 const fmt = n => Number(n).toLocaleString();
 const esc = s => s.replace(/'/g,"\\'");
@@ -232,10 +266,12 @@ async function init() {
       orgADJ[r.target].push({...r, source:r.target, target:r.source});
     });
     setLD('Rendering…',85); await tick();
+    buildCountryList();
     buildFilters();
     buildGraph();
     buildTunePanel();
     buildSearch();
+    buildCountryFilter();
     document.getElementById('loader').style.display = 'none';
   } catch(e) {
     document.getElementById('ld-err').style.display = 'block';
@@ -243,6 +279,256 @@ async function init() {
     document.getElementById('ld-msg').style.display='none';
     document.getElementById('ld-fill').parentElement.style.display='none';
   }
+}
+
+// ═══════════════════════════════════════════
+// COUNTRY FILTER
+// ═══════════════════════════════════════════
+//
+// Each entity in crimenet.json has (after running 6_assign_country.py):
+//   - country           : single string, origin / primary base
+//   - countries_active  : list of countries it operates in (incl. origin)
+//
+// We filter on `countries_active` because that's the more useful semantics —
+// "show me Brazil" should include 'Ndrangheta clans operating in São Paulo,
+// not just Brazil-origin orgs. Edges are kept only when BOTH endpoints
+// match the selected country, i.e. "Brazil's internal network".
+//
+// If the JSON predates 6_assign_country.py and lacks these fields, every
+// org falls into "Unknown" and the filter is harmless but uninformative.
+
+function getOrgCountries(entity) {
+  if (!entity) return ['Unknown'];
+  const list = entity.countries_active;
+  if (Array.isArray(list) && list.length) return list;
+  if (entity.country) return [entity.country];
+  return ['Unknown'];
+}
+
+function buildCountryList() {
+  const counts = {};
+  G.entities.forEach(e => {
+    if (!ORG_SET.has(e.name)) return;
+    getOrgCountries(e).forEach(c => {
+      const key = (typeof c === 'string' && c.trim()) ? c.trim() : 'Unknown';
+      counts[key] = (counts[key] || 0) + 1;
+    });
+  });
+  allCountries = Object.entries(counts)
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+}
+
+function matchCountry(orgName) {
+  if (selectedCountries.size === 0) return true;
+  const e = EM[orgName];
+  if (!e) return false;
+  // Union semantics: org matches if it operates in ANY of the selected countries.
+  for (const c of getOrgCountries(e)) {
+    if (selectedCountries.has(c)) return true;
+  }
+  return false;
+}
+
+function updateCountryLabel() {
+  const label = document.getElementById('country-label');
+  const n = selectedCountries.size;
+  if (n === 0) {
+    label.textContent = 'All';
+    label.style.color = 'var(--amber)';
+  } else if (n === 1) {
+    const only = [...selectedCountries][0];
+    const entry = allCountries.find(c => c.name === only);
+    label.textContent = entry ? `${only} (${entry.count})` : only;
+    label.style.color = 'var(--amber)';
+  } else {
+    // Show first selection (insertion order) + count of additional ones.
+    const first = [...selectedCountries][0];
+    label.textContent = `${first} +${n - 1}`;
+    label.style.color = 'var(--amber)';
+  }
+}
+
+function updateStats() {
+  // Total visible from edge-type filter
+  const totalNodes = visNodeSet.size;
+  const totalEdges = visLinks.length;
+  if (selectedCountries.size === 0) {
+    document.getElementById('s-orgs').textContent = fmt(totalNodes);
+    document.getElementById('s-edges').textContent = fmt(totalEdges);
+    return;
+  }
+  // In-country subnet: edges with both endpoints matching the selection.
+  const inNodes = new Set();
+  let inEdges = 0;
+  for (const l of visLinks) {
+    const s = l.source?.id||l.source, t = l.target?.id||l.target;
+    if (matchCountry(s) && matchCountry(t)) {
+      inNodes.add(s); inNodes.add(t);
+      inEdges++;
+    }
+  }
+  document.getElementById('s-orgs').textContent = fmt(inNodes.size);
+  document.getElementById('s-edges').textContent = fmt(inEdges);
+}
+
+// Refresh visuals + stats only — never restarts the simulation. This is what
+// country toggling calls, so the layout stays absolutely still.
+function refreshOverlay() {
+  updateCountryLabel();
+  updateStats();
+  if (selectedNode) applyHighlight(selectedNode);
+  else applyCountryHighlight();
+}
+
+function toggleCountry(name) {
+  if (selectedCountries.has(name)) selectedCountries.delete(name);
+  else selectedCountries.add(name);
+  applyCountryChange();
+}
+
+function clearCountries() {
+  if (selectedCountries.size === 0) return false;
+  selectedCountries = new Set();
+  applyCountryChange();
+  return true;
+}
+
+// In isolate mode the country selection re-shapes the simulation graph
+// (different edges in play), so updateGraph() runs. In highlight mode the
+// graph is unchanged, so we only refresh the visual overlay — the layout
+// stays perfectly still while toggling countries.
+function applyCountryChange() {
+  if (countryMode === 'isolate') {
+    updateGraph();
+    // Subnet self-organizes into a smaller area; fit once it stabilizes.
+    setTimeout(() => { if (window._fitToScreen) window._fitToScreen(true); }, 600);
+  } else {
+    refreshOverlay();
+  }
+}
+
+function setCountryMode(mode) {
+  if (mode !== 'highlight' && mode !== 'isolate') return;
+  if (countryMode === mode) return;
+  countryMode = mode;
+  // Mode change always reshapes (or unshapes) the graph.
+  updateGraph();
+  setTimeout(() => { if (window._fitToScreen) window._fitToScreen(true); }, 600);
+}
+
+function buildCountryFilter() {
+  const btn = document.getElementById('country-btn');
+  const dropdown = document.getElementById('country-dropdown');
+  const search = document.getElementById('country-search');
+  const list = document.getElementById('country-list');
+
+  function render(query) {
+    const q = (query || '').trim().toLowerCase();
+    const matches = q
+      ? allCountries.filter(c => c.name.toLowerCase().includes(q))
+      : allCountries;
+
+    const noneSel = selectedCountries.size === 0;
+    let html = `<div class="cf-item" data-action="clear" style="padding:11px 14px;cursor:pointer;font-size:15px;font-weight:600;color:${noneSel ? 'var(--amber)' : 'var(--text)'};border-bottom:1px solid var(--b1);transition:background .08s;display:flex;justify-content:space-between;align-items:center">
+      <span>All countries${selectedCountries.size > 0 ? '  (clear)' : ''}</span>
+      <span style="font-size:13px;color:var(--text3);font-weight:600">${G.entities.filter(e => ORG_SET.has(e.name)).length}</span>
+    </div>`;
+
+    matches.forEach(c => {
+      const isSel = selectedCountries.has(c.name);
+      const safeName = c.name.replace(/"/g, '&quot;');
+      // Checkbox indicator: filled box for selected, empty box for not.
+      const box = isSel
+        ? '<span style="display:inline-block;width:12px;height:12px;border:1.5px solid var(--amber);background:var(--amber);border-radius:2px;margin-right:10px;flex-shrink:0"></span>'
+        : '<span style="display:inline-block;width:12px;height:12px;border:1.5px solid var(--b2);border-radius:2px;margin-right:10px;flex-shrink:0"></span>';
+      html += `<div class="cf-item" data-country="${safeName}" style="padding:9px 14px;cursor:pointer;font-size:15px;color:${isSel ? 'var(--amber)' : 'var(--text2)'};font-weight:${isSel ? '600' : '500'};display:flex;justify-content:space-between;align-items:center;transition:background .08s">
+        <span style="display:flex;align-items:center;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${box}${c.name}</span>
+        <span style="font-size:13px;color:var(--text3);font-weight:600;flex-shrink:0;margin-left:8px">${c.count}</span>
+      </div>`;
+    });
+
+    if (matches.length === 0 && q) {
+      html += `<div style="padding:14px;color:var(--text3);font-size:14px;text-align:center">No countries match "${q.replace(/</g, '&lt;')}"</div>`;
+    }
+
+    list.innerHTML = html;
+    list.querySelectorAll('.cf-item').forEach(el => {
+      el.addEventListener('mouseover', () => { el.style.background = 'rgba(232,160,32,.08)'; });
+      el.addEventListener('mouseout',  () => { el.style.background = 'none'; });
+      el.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (el.dataset.action === 'clear') {
+          clearCountries();
+          // Re-render to update checkmarks; keep dropdown open.
+          render(search.value);
+          return;
+        }
+        const c = el.dataset.country;
+        if (c) {
+          toggleCountry(c);
+          // Re-render in place to update checkmarks; dropdown stays open
+          // so the user can keep adding/removing countries.
+          render(search.value);
+        }
+      });
+    });
+  }
+
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const showing = dropdown.style.display !== 'none';
+    if (showing) {
+      dropdown.style.display = 'none';
+    } else {
+      render('');
+      dropdown.style.display = 'block';
+      search.focus();
+    }
+  });
+
+  search.addEventListener('input', () => render(search.value));
+  search.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { dropdown.style.display = 'none'; }
+    if (e.key === 'Enter') {
+      const first = list.querySelector('.cf-item');
+      if (first) first.click();
+    }
+  });
+
+  // Close on outside click; don't close when clicking inside the dropdown itself.
+  document.addEventListener('click', (e) => {
+    if (!dropdown.contains(e.target) && e.target !== btn && !btn.contains(e.target)) {
+      dropdown.style.display = 'none';
+    }
+  });
+  dropdown.addEventListener('click', (e) => e.stopPropagation());
+
+  // Mode toggle (Highlight / Isolate) — reflects current mode in styling.
+  const modeButtons = document.querySelectorAll('.cf-mode');
+  function paintModeButtons() {
+    modeButtons.forEach(b => {
+      const active = b.dataset.mode === countryMode;
+      b.style.color           = active ? 'var(--amber)' : 'var(--text2)';
+      b.style.borderColor     = active ? 'var(--amber)' : 'var(--b1)';
+      b.style.background      = active ? 'rgba(232,160,32,.08)' : 'none';
+      b.style.fontWeight      = active ? '600' : '500';
+    });
+  }
+  modeButtons.forEach(b => {
+    b.addEventListener('click', (e) => {
+      e.stopPropagation();
+      setCountryMode(b.dataset.mode);
+      paintModeButtons();
+    });
+    b.addEventListener('mouseover', () => {
+      if (b.dataset.mode !== countryMode) b.style.borderColor = 'var(--b2)';
+    });
+    b.addEventListener('mouseout', () => {
+      if (b.dataset.mode !== countryMode) b.style.borderColor = 'var(--b1)';
+    });
+  });
+  paintModeButtons();
 }
 
 // ═══════════════════════════════════════════
@@ -308,6 +594,10 @@ function buildGraph() {
   const zoom = d3.zoom().scaleExtent([.04,8])
     .on('zoom', e => g_sel.attr('transform', e.transform));
   svg_sel.call(zoom);
+  // Clicking on empty canvas closes any open node panel. d3-zoom handles pan
+  // and zoom on its own (those don't fire 'click'), so this is just for true
+  // single clicks on blank space. Country selection persists across canvas
+  // clicks — to clear countries, use the dropdown's "All countries" option.
   svg_sel.on('click', closePanel);
 
   // OPTIMIZATION: offload complex transformations (zooming/panning) to the GPU
@@ -424,7 +714,17 @@ function buildGraph() {
 function updateGraph() {
   if(!g_sel) return;
 
-  const visLinks = allLinks.filter(l => activeTypes.has(l.type));
+  // Edge-type toggles always shape the simulation graph. Country selection
+  // shapes it ONLY in isolate mode — in highlight mode it's overlay-only
+  // (handled by applyCountryHighlight), keeping the layout stable.
+  visLinks = allLinks.filter(l => {
+    if (!activeTypes.has(l.type)) return false;
+    if (countryMode === 'isolate' && selectedCountries.size > 0) {
+      const s = l.source?.id||l.source, t = l.target?.id||l.target;
+      return matchCountry(s) && matchCountry(t);
+    }
+    return true;
+  });
 
   // Count visible nodes (those with at least one visible edge)
   visNodeSet = new Set();
@@ -432,8 +732,8 @@ function updateGraph() {
     visNodeSet.add(l.source?.id||l.source);
     visNodeSet.add(l.target?.id||l.target);
   });
-  document.getElementById('s-orgs').textContent = fmt(visNodeSet.size);
-  document.getElementById('s-edges').textContent = fmt(visLinks.length);
+
+  updateStats();
 
   const linkLayer = g_sel.select('.link-layer');
 
@@ -444,23 +744,47 @@ function updateGraph() {
   .attr('stroke-dasharray', d => ETYPE_MAP[d.type]?.dash||null);
 
   simulation.force('link').links(visLinks);
-  simulation.force('collision', d3.forceCollide(d=>nodeR(d)+window._fp.coll).iterations(4)); // Reduced to 4
+  simulation.force('collision', d3.forceCollide(d=>nodeR(d)+window._fp.coll).iterations(4));
   simulation.alpha(.6).restart();
 
-  // Recalculate node sizes based on degree
   nodeSel?.attr('r', d => nodeR(d));
-  // Keep small nodes on top if sizes changed
   nodeSel?.sort((a, b) => nodeR(b) - nodeR(a));
 
-  // Apply default or selected node highlight immediately
-  if(selectedNode) {
-    applyHighlight(selectedNode);
-  } else {
+  if(selectedNode) applyHighlight(selectedNode);
+  else applyCountryHighlight();
+}
+
+// Country highlight overlay. Doesn't change visibility (display) of anything
+// in the simulation — only opacity. When countries are selected, in-country
+// nodes and the edges between them stay bright; everything else fades out.
+// When the selection is empty, this restores the global default styling.
+function applyCountryHighlight() {
+  if (!nodeSel || !linkSel) return;
+
+  // No dimming when (a) nothing selected, OR (b) we're in isolate mode where
+  // the visible graph already IS the in-country subnet — everything visible
+  // should look fully bright.
+  if (selectedCountries.size === 0 || countryMode === 'isolate') {
     linkSel.style('display', null).attr('stroke-opacity', .3);
-    nodeSel?.style('display', d => visNodeSet.has(d.id) ? null : 'none')
-           .attr('fill-opacity', 1)
-           .attr('stroke', '#07080a').attr('stroke-width', 1.5);
+    nodeSel.style('display', d => visNodeSet.has(d.id) ? null : 'none')
+      .attr('fill-opacity', 1)
+      .attr('stroke', '#07080a').attr('stroke-width', 1.5);
+    return;
   }
+
+  // Highlight mode + countries selected: dim everything outside the subnet
+  // hard so the country structure pops out of the global graph.
+  nodeSel
+    .style('display', d => visNodeSet.has(d.id) ? null : 'none')
+    .attr('fill-opacity', d => matchCountry(d.id) ? 1 : 0.05)
+    .attr('stroke', '#07080a').attr('stroke-width', 1.5);
+
+  linkSel
+    .style('display', null)
+    .attr('stroke-opacity', d => {
+      const s = d.source?.id||d.source, t = d.target?.id||d.target;
+      return (matchCountry(s) && matchCountry(t)) ? 0.9 : 0.015;
+    });
 }
 
 // ═══════════════════════════════════════════
@@ -496,10 +820,9 @@ let selectedNode = null;
 function applyHighlight(name) {
   if (!nodeSel || !linkSel) return;
   if (!name) {
-    nodeSel.style('display', d => visNodeSet.has(d.id) ? null : 'none')
-      .attr('fill-opacity', 1)
-      .attr('stroke', '#07080a').attr('stroke-width', 1.5);
-    linkSel.style('display', null).attr('stroke-opacity', .3);
+    // No node selected → fall back to the country overlay (which is itself a
+    // no-op when no country is selected, restoring full default styling).
+    applyCountryHighlight();
     return;
   }
   const neighbors = new Set([name]);
@@ -508,8 +831,12 @@ function applyHighlight(name) {
     if (s === name) neighbors.add(t);
     if (t === name) neighbors.add(s);
   });
+  // When highlighting, force the selected node + its visible neighbors to show
+  // even if the selected node would otherwise be hidden by the country filter.
+  // This keeps panel-driven navigation (clicking a relation that points outside
+  // the current country) consistent — the user always sees what they clicked.
   nodeSel
-    .style('display', d => (neighbors.has(d.id) && visNodeSet.has(d.id)) ? null : 'none')
+    .style('display', d => neighbors.has(d.id) ? null : 'none')
     .attr('fill-opacity', 1)
     .attr('stroke', d => d.id === name ? 'var(--amber)' : '#07080a')
     .attr('stroke-width', d => d.id === name ? 2.5 : 1.5);
@@ -696,7 +1023,13 @@ function buildSearch() {
   let hideTimeout = null;
 
   function getSortedNames() {
-    const sorted = allNodes.slice().sort((a,b) => (getBtwn(b)||0) - (getBtwn(a)||0));
+    // Search results respect the country filter: when a country is selected,
+    // only orgs active in that country appear, and ranks reflect betweenness
+    // within that scope.
+    const sorted = allNodes
+      .filter(d => matchCountry(d.id))
+      .slice()
+      .sort((a,b) => (getBtwn(b)||0) - (getBtwn(a)||0));
     return sorted.map(d => d.id);
   }
   function getRankMap(nameList) {
