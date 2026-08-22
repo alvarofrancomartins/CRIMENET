@@ -1,0 +1,115 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Jackson Street Boys",
+      "original_text_name": "Jackson Street Boys",
+      "aliases": [
+        "Jackson Boyz",
+        "JBZ",
+        "JSB",
+        "Jackson Boys"
+      ],
+      "context": "San Francisco based Asian American street gang and criminal organization, centered in Chinatown.",
+      "time_period": "1990-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jackson_Street_Boys&oldid=1343830070"
+    },
+    {
+      "standard_name": "Wo Hop To",
+      "original_text_name": "Wo Hop To",
+      "aliases": [],
+      "context": "Triad that ruled San Francisco's Chinatown in the 1980s and early 1990s.",
+      "time_period": "1980s-early 1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jackson_Street_Boys&oldid=1343830070"
+    },
+    {
+      "standard_name": "Wah Ching",
+      "original_text_name": "Wah Ching",
+      "aliases": [],
+      "context": "Gang that former Jackson Street Boys founders were members of before defecting to Wo Hop To.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jackson_Street_Boys&oldid=1343830070"
+    },
+    {
+      "standard_name": "Seven Stars",
+      "original_text_name": "Seven Stars",
+      "aliases": [],
+      "context": "Ally of Jackson Street Boys per infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jackson_Street_Boys&oldid=1343830070"
+    },
+    {
+      "standard_name": "21 Boys",
+      "original_text_name": "21 Boys",
+      "aliases": [],
+      "context": "Ally of Jackson Street Boys per infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jackson_Street_Boys&oldid=1343830070"
+    },
+    {
+      "standard_name": "Hop Sing Boys",
+      "original_text_name": "Hop Sing Boys",
+      "aliases": [],
+      "context": "Rival of Jackson Street Boys per infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jackson_Street_Boys&oldid=1343830070"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Jackson Street Boys",
+      "target": "Wo Hop To",
+      "evidence_quote": "The Jackson Boys gang was the successor to the Wo Hop To Triad which ruled the streets of San Francisco's Chinatown in the 1980s and early 1990s.",
+      "context": "Jackson Street Boys succeeded Wo Hop To after law enforcement cracked down on Wo Hop To around 1992.",
+      "relationship": "other",
+      "time_period": "1992",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jackson_Street_Boys&oldid=1343830070"
+    },
+    {
+      "source": "Jackson Street Boys",
+      "target": "Wah Ching",
+      "evidence_quote": "The Jackson Street Boys was founded by three brothers, Bobby Tsan, Johnny Tsan and Tommy Tsan, who were former Wah Ching members who had defected to the Wo Hop To after the Wo Hop To forced the Wah Ching out of San Francisco.",
+      "context": "Founders were former Wah Ching members who defected to Wo Hop To, indicating a past affiliation with Wah Ching.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jackson_Street_Boys&oldid=1343830070"
+    },
+    {
+      "source": "Wo Hop To",
+      "target": "Wah Ching",
+      "evidence_quote": "The Jackson Street Boys was founded by three brothers, Bobby Tsan, Johnny Tsan and Tommy Tsan, who were former Wah Ching members who had defected to the Wo Hop To after the Wo Hop To forced the Wah Ching out of San Francisco.",
+      "context": "Wo Hop To forced Wah Ching out of San Francisco, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jackson_Street_Boys&oldid=1343830070"
+    },
+    {
+      "source": "Jackson Street Boys",
+      "target": "Seven Stars",
+      "evidence_quote": "Allies: Seven Stars, 21 Boys",
+      "context": "Seven Stars is listed as an ally in the infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jackson_Street_Boys&oldid=1343830070"
+    },
+    {
+      "source": "Jackson Street Boys",
+      "target": "21 Boys",
+      "evidence_quote": "Allies: Seven Stars, 21 Boys",
+      "context": "21 Boys is listed as an ally in the infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jackson_Street_Boys&oldid=1343830070"
+    },
+    {
+      "source": "Jackson Street Boys",
+      "target": "Hop Sing Boys",
+      "evidence_quote": "Rivals: Wah Ching , Hop Sing Boys",
+      "context": "Hop Sing Boys is listed as a rival in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jackson_Street_Boys&oldid=1343830070"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Jackson_Street_Boys&oldid=1343830070",
+  "source_file": "en_Jackson_Street_Boys"
+}

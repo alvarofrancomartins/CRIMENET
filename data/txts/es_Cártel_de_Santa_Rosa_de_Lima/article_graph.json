@@ -1,0 +1,137 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cártel de Santa Rosa de Lima",
+      "original_text_name": "Cártel de Santa Rosa de Lima",
+      "aliases": [
+        "CSRL",
+        "CDSRL"
+      ],
+      "context": "Mexican criminal organization from Santa Rosa de Lima, Guanajuato, involved in fuel theft, drug trafficking, and violence.",
+      "time_period": "2014-present",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Santa_Rosa_de_Lima&oldid=173784736"
+    },
+    {
+      "standard_name": "Cártel de Jalisco Nueva Generación",
+      "original_text_name": "Cártel de Jalisco Nueva Generación",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Mexican criminal organization, rival of CSRL, involved in drug trafficking and violence.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Santa_Rosa_de_Lima&oldid=173784736"
+    },
+    {
+      "standard_name": "Grupo Escorpión",
+      "original_text_name": "Grupo Escorpión",
+      "aliases": [],
+      "context": "Ally of CSRL according to infobox.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Santa_Rosa_de_Lima&oldid=173784736"
+    },
+    {
+      "standard_name": "Grupo Flechas",
+      "original_text_name": "Grupo Flechas",
+      "aliases": [],
+      "context": "Ally of CSRL according to infobox.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Santa_Rosa_de_Lima&oldid=173784736"
+    },
+    {
+      "standard_name": "Cártel del Noreste",
+      "original_text_name": "Cártel del Noreste",
+      "aliases": [],
+      "context": "Enemy of CSRL according to infobox.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Santa_Rosa_de_Lima&oldid=173784736"
+    },
+    {
+      "standard_name": "Cártel de Santa Rosa de Lima",
+      "original_text_name": "Cártel de Santa Rosa de Lima",
+      "aliases": [
+        "CSRL",
+        "CRSL"
+      ],
+      "context": "Mexican criminal organization from Santa Rosa de Lima, Guanajuato, involved in fuel theft, drug trafficking, and violence.",
+      "time_period": "2014",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Santa_Rosa_de_Lima&oldid=173784736"
+    },
+    {
+      "standard_name": "Cártel de Jalisco Nueva Generación",
+      "original_text_name": "Cártel de Jalisco Nueva Generación",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Mexican criminal organization, rival of CSRL, involved in drug trafficking and violence.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Santa_Rosa_de_Lima&oldid=173784736"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cártel de Santa Rosa de Lima",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "estando en conflicto desde sus inicios contra el Cártel de Jalisco Nueva Generación",
+      "context": "CSRL has been in conflict with CJNG since its inception.",
+      "relationship": "conflict",
+      "time_period": "2014-present",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Santa_Rosa_de_Lima&oldid=173784736"
+    },
+    {
+      "source": "Cártel de Santa Rosa de Lima",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "realizó un efímero pacto con el CJNG, tregua que duró menos de un mes",
+      "context": "CSRL made a brief truce with CJNG after leader's capture.",
+      "relationship": "other",
+      "time_period": "2020",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Santa_Rosa_de_Lima&oldid=173784736"
+    },
+    {
+      "source": "Cártel de Santa Rosa de Lima",
+      "target": "Grupo Escorpión",
+      "evidence_quote": "Aliados: Grupo Escorpión , Grupo Flechas",
+      "context": "CSRL is allied with Grupo Escorpión according to infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Santa_Rosa_de_Lima&oldid=173784736"
+    },
+    {
+      "source": "Cártel de Santa Rosa de Lima",
+      "target": "Grupo Flechas",
+      "evidence_quote": "Aliados: Grupo Escorpión , Grupo Flechas",
+      "context": "CSRL is allied with Grupo Flechas according to infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Santa_Rosa_de_Lima&oldid=173784736"
+    },
+    {
+      "source": "Cártel de Santa Rosa de Lima",
+      "target": "Cártel del Noreste",
+      "evidence_quote": "Enemigos: ... Cártel del Noreste",
+      "context": "CSRL lists Cártel del Noreste as an enemy in infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Santa_Rosa_de_Lima&oldid=173784736"
+    },
+    {
+      "source": "Cártel de Santa Rosa de Lima",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "estando en conflicto desde sus inicios contra el Cártel de Jalisco Nueva Generación",
+      "context": "The CSRL has been in conflict with CJNG since its inception.",
+      "relationship": "conflict",
+      "time_period": "2014",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Santa_Rosa_de_Lima&oldid=173784736"
+    },
+    {
+      "source": "Cártel de Santa Rosa de Lima",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "El 31 de marzo del 2023, un enfrentamiento entre miembros del CRSL y CJNG dejó a cinco delincuentes rivales muertos",
+      "context": "A clash between CSRL and CJNG members resulted in five rival deaths.",
+      "relationship": "conflict",
+      "time_period": "2023",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Santa_Rosa_de_Lima&oldid=173784736"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Santa_Rosa_de_Lima&oldid=173784736",
+  "source_file": "es_Cártel_de_Santa_Rosa_de_Lima"
+}

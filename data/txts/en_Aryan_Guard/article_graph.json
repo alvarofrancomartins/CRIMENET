@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Aryan Guard",
+      "original_text_name": "Aryan Guard",
+      "aliases": [],
+      "context": "Neo-Nazi terrorist organization based in Alberta, Canada, primarily in Calgary. Founded late 2006, reported disbanded in 2009.",
+      "time_period": "2006-2009",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Aryan_Guard&oldid=1350985632"
+    },
+    {
+      "standard_name": "WEB (Western European Bloodline)",
+      "original_text_name": "WEB (Western European Bloodline)",
+      "aliases": [
+        "WEB"
+      ],
+      "context": "White supremacist group; member Tyler Sturrup was targeted by Aryan Guard bomb attack.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Aryan_Guard&oldid=1350985632"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Aryan Guard",
+      "target": "WEB (Western European Bloodline)",
+      "evidence_quote": "On the morning of November 21, 2009, two homemade bombs were left on the doorstep of WEB (Western European Bloodline) member Tyler Sturrup.",
+      "context": "Aryan Guard members bombed a WEB member's home, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": "2009",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Aryan_Guard&oldid=1350985632"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Aryan_Guard&oldid=1350985632",
+  "source_file": "en_Aryan_Guard"
+}

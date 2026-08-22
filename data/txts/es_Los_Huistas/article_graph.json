@@ -1,0 +1,125 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Huistas",
+      "original_text_name": "Los Huistas",
+      "aliases": [
+        "Cártel de Los Huistas"
+      ],
+      "context": "Influential and old Guatemalan criminal organization based in Huehuetenango, involved in drug trafficking, money laundering, and production of methamphetamine.",
+      "time_period": "1990s-present",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Huistas&oldid=173522663"
+    },
+    {
+      "standard_name": "Cartel de Sinaloa",
+      "original_text_name": "Cartel de Sinaloa",
+      "aliases": [
+        "Sinaloa"
+      ],
+      "context": "Major Mexican drug cartel that uses Los Huistas as logistical partners for drug transit.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Huistas&oldid=173522663"
+    },
+    {
+      "standard_name": "Cártel Jalisco Nueva Generación",
+      "original_text_name": "Cártel Jalisco Nueva Generación (CJNG)",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Major Mexican drug cartel that allies with Los Huistas and later forms Cartel Chiapas-Guatemala against them.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Huistas&oldid=173522663"
+    },
+    {
+      "standard_name": "Cartel del Golfo",
+      "original_text_name": "del Golfo",
+      "aliases": [],
+      "context": "Mexican cartel that initially controlled operations in the region alongside Sinaloa.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Huistas&oldid=173522663"
+    },
+    {
+      "standard_name": "Cartel Chiapas-Guatemala",
+      "original_text_name": "Cartel Chiapas-Guatemala",
+      "aliases": [],
+      "context": "Alliance formed by local groups and CJNG to oppose Los Huistas.",
+      "time_period": "2024-2025",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Huistas&oldid=173522663"
+    },
+    {
+      "standard_name": "Tío Balde",
+      "original_text_name": "Tío Balde",
+      "aliases": [],
+      "context": "Local criminal group that allied with CJNG to form Cartel Chiapas-Guatemala.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Huistas&oldid=173522663"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Huistas",
+      "target": "Cartel de Sinaloa",
+      "evidence_quote": "El grupo controla una ruta estratégica crítica para el tránsito de cocaína, metanfetaminas y heroína desde Centroamérica hacia Estados Unidos, actuando como un eslabón logístico fundamental para los grandes carteles mexicanos, como el Cartel de Sinaloa y el Cártel Jalisco Nueva Generación (CJNG).",
+      "context": "Los Huistas act as a logistical link for Sinaloa, transporting drugs.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Huistas&oldid=173522663"
+    },
+    {
+      "source": "Los Huistas",
+      "target": "Cártel Jalisco Nueva Generación",
+      "evidence_quote": "El grupo controla una ruta estratégica crítica para el tránsito de cocaína, metanfetaminas y heroína desde Centroamérica hacia Estados Unidos, actuando como un eslabón logístico fundamental para los grandes carteles mexicanos, como el Cartel de Sinaloa y el Cártel Jalisco Nueva Generación (CJNG).",
+      "context": "Los Huistas act as a logistical link for CJNG, transporting drugs.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Huistas&oldid=173522663"
+    },
+    {
+      "source": "Los Huistas",
+      "target": "Cartel del Golfo",
+      "evidence_quote": "Inicialmente, las operaciones en la región estaban controladas por traficantes mexicanos independientes y carteles como Sinaloa y del Golfo, quienes necesitaban aliados locales con experiencia en contrabando y conocimiento del terreno montañoso",
+      "context": "Los Huistas initially worked as local allies for the Gulf Cartel.",
+      "relationship": "cooperation",
+      "time_period": "late 1990s",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Huistas&oldid=173522663"
+    },
+    {
+      "source": "Los Huistas",
+      "target": "Cartel Chiapas-Guatemala",
+      "evidence_quote": "En 2024-2025, surgieron tensiones cuando Los Huistas comenzaron a cobrar 'impuestos' por el paso de drogas a otros grupos locales, como la banda de 'Tío Balde'. Esto llevó a que estos grupos locales se aliaran con el CJNG para formar el Cartel Chiapas-Guatemala, buscando hacer frente a la hegemonía de Los Huistas.",
+      "context": "Cartel Chiapas-Guatemala was formed to oppose Los Huistas' dominance.",
+      "relationship": "conflict",
+      "time_period": "2024-2025",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Huistas&oldid=173522663"
+    },
+    {
+      "source": "Los Huistas",
+      "target": "Tío Balde",
+      "evidence_quote": "En 2024-2025, surgieron tensiones cuando Los Huistas comenzaron a cobrar 'impuestos' por el paso de drogas a otros grupos locales, como la banda de 'Tío Balde'.",
+      "context": "Los Huistas imposed taxes on Tío Balde, causing tensions.",
+      "relationship": "conflict",
+      "time_period": "2024-2025",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Huistas&oldid=173522663"
+    },
+    {
+      "source": "Cártel Jalisco Nueva Generación",
+      "target": "Cartel Chiapas-Guatemala",
+      "evidence_quote": "Esto llevó a que estos grupos locales se aliaran con el CJNG para formar el Cartel Chiapas-Guatemala",
+      "context": "CJNG allied with local groups to form Cartel Chiapas-Guatemala.",
+      "relationship": "cooperation",
+      "time_period": "2024-2025",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Huistas&oldid=173522663"
+    },
+    {
+      "source": "Tío Balde",
+      "target": "Cartel Chiapas-Guatemala",
+      "evidence_quote": "Esto llevó a que estos grupos locales se aliaran con el CJNG para formar el Cartel Chiapas-Guatemala",
+      "context": "Tío Balde joined with CJNG to form Cartel Chiapas-Guatemala.",
+      "relationship": "cooperation",
+      "time_period": "2024-2025",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Huistas&oldid=173522663"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Huistas&oldid=173522663",
+  "source_file": "es_Los_Huistas"
+}

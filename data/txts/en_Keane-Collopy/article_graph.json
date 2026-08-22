@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Keane-Collopy gang",
+      "original_text_name": "Keane-Collopy gang",
+      "aliases": [
+        "Keane-Collopys"
+      ],
+      "context": "Criminal organisation based in Limerick City, Ireland, major drug suppliers in Mid-West region, involved in Limerick feud.",
+      "time_period": "1990s-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Keane-Collopy&oldid=1351598023"
+    },
+    {
+      "standard_name": "Ryan Gang",
+      "original_text_name": "Ryans",
+      "aliases": [
+        "Ryan Gang"
+      ],
+      "context": "Criminal group involved in the Limerick feud against Keane-Collopy.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Keane-Collopy&oldid=1351598023"
+    },
+    {
+      "standard_name": "McCarthy-Dundon gang",
+      "original_text_name": "McCarthy-Dundon gang",
+      "aliases": [
+        "McCarthy-Dundon"
+      ],
+      "context": "Criminal group involved in the Limerick feud against Keane-Collopy.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Keane-Collopy&oldid=1351598023"
+    },
+    {
+      "standard_name": "Hutch Organised Crime Gang",
+      "original_text_name": "Hutch Organised Crime Gang",
+      "aliases": [],
+      "context": "Criminal organisation allied with Keane-Collopy gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Keane-Collopy&oldid=1351598023"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Keane-Collopy gang",
+      "target": "Ryan Gang",
+      "evidence_quote": "The feud, which mainly involves the Keane-Collopys, the Ryans and the McCarthy-Dundon gang",
+      "context": "Keane-Collopy gang is in conflict with the Ryan Gang as part of the Limerick feud.",
+      "relationship": "conflict",
+      "time_period": "since 2000",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Keane-Collopy&oldid=1351598023"
+    },
+    {
+      "source": "Keane-Collopy gang",
+      "target": "McCarthy-Dundon gang",
+      "evidence_quote": "Rivals: McCarthy-Dundon Gang",
+      "context": "Keane-Collopy gang is in conflict with the McCarthy-Dundon gang as rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Keane-Collopy&oldid=1351598023"
+    },
+    {
+      "source": "Keane-Collopy gang",
+      "target": "Hutch Organised Crime Gang",
+      "evidence_quote": "Allies: Hutch Organised Crime Gang",
+      "context": "Keane-Collopy gang is allied with the Hutch Organised Crime Gang.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Keane-Collopy&oldid=1351598023"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Keane-Collopy&oldid=1351598023",
+  "source_file": "en_Keane-Collopy"
+}

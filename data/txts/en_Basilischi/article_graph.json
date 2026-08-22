@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Basilischi",
+      "original_text_name": "Basilischi",
+      "aliases": [],
+      "context": "Organized crime group based in Basilicata, Italy, formed in 1994.",
+      "time_period": "1994",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Basilischi&oldid=1317884371"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "context": "Calabrian-based organized crime group, more powerful than Basilischi.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Basilischi&oldid=1317884371"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Basilischi",
+      "target": "'Ndrangheta",
+      "evidence_quote": "The conviction of many high-profile members of the clan caused the group to become fractured and fall further under the influence of the more powerful Calabrian -based 'Ndrangheta .",
+      "context": "Basilischi fell under the influence of 'Ndrangheta after convictions weakened the group.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Basilischi&oldid=1317884371"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Basilischi&oldid=1317884371",
+  "source_file": "en_Basilischi"
+}

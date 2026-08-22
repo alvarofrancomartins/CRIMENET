@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Razor gang",
+      "original_text_name": "Razor gangs",
+      "aliases": [],
+      "context": "Criminal gangs in Sydney in the 1920s who used razors as weapons.",
+      "time_period": "1920s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Razor_gang&oldid=1276370120"
+    },
+    {
+      "standard_name": "Leigh gang",
+      "original_text_name": "gangs affiliated with Leigh",
+      "aliases": [],
+      "context": "Criminal gang associated with madam Kate Leigh in Sydney.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Razor_gang&oldid=1276370120"
+    },
+    {
+      "standard_name": "Devine gang",
+      "original_text_name": "gangs affiliated with Devine",
+      "aliases": [],
+      "context": "Criminal gang associated with madam Tilly Devine in Sydney.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Razor_gang&oldid=1276370120"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Leigh gang",
+      "target": "Devine gang",
+      "evidence_quote": "Later that year, on 8 August, the \"Battle of Kellett Street\" was waged between rival gangs affiliated with Leigh and Devine, and occurred in Kellett Street, near King's Cross.",
+      "context": "The Leigh and Devine gangs fought each other in the Battle of Kellett Street.",
+      "relationship": "conflict",
+      "time_period": "1929",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Razor_gang&oldid=1276370120"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Razor_gang&oldid=1276370120",
+  "source_file": "en_Razor_gang"
+}

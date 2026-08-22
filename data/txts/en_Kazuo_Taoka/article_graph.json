@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Japan's largest yakuza organization, led by Kazuo Taoka from 1946 to 1981.",
+      "time_period": "1946-1981",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kazuo_Taoka&oldid=1355167280"
+    },
+    {
+      "standard_name": "Kanto-kai",
+      "original_text_name": "Kanto-kai",
+      "aliases": [],
+      "context": "An inter-yakuza confederation that Taoka refused to join in 1963.",
+      "time_period": "1963",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kazuo_Taoka&oldid=1355167280"
+    },
+    {
+      "standard_name": "Inagawa-kai",
+      "original_text_name": "Inagawa-kai",
+      "aliases": [],
+      "context": "A yakuza gang that formed an alliance with Yamaguchi-gumi in 1972.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kazuo_Taoka&oldid=1355167280"
+    },
+    {
+      "standard_name": "Matsuda-gumi",
+      "original_text_name": "Matsuda-gumi",
+      "aliases": [],
+      "context": "A rival gang to Yamaguchi-gumi; member attempted to assassinate Taoka in 1978.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kazuo_Taoka&oldid=1355167280"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Yamaguchi-gumi",
+      "target": "Kanto-kai",
+      "evidence_quote": "he notably refused to join the Kanto-kai, an inter-yakuza confederation in 1963.",
+      "context": "Taoka refused to join the Kanto-kai, indicating non-cooperation.",
+      "relationship": "other",
+      "time_period": "1963",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kazuo_Taoka&oldid=1355167280"
+    },
+    {
+      "source": "Yamaguchi-gumi",
+      "target": "Inagawa-kai",
+      "evidence_quote": "Taoka forged an alliance between the Yamaguchi-gumi and the Inagawa-kai at a sakazuki ceremony at his home.",
+      "context": "Taoka formed an alliance between Yamaguchi-gumi and Inagawa-kai.",
+      "relationship": "cooperation",
+      "time_period": "1972",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kazuo_Taoka&oldid=1355167280"
+    },
+    {
+      "source": "Yamaguchi-gumi",
+      "target": "Matsuda-gumi",
+      "evidence_quote": "Taoka survived a 1978 assassination attempt when he was shot in the back of the neck by a member of the Matsuda-gumi (松田組), a rival gang to the Yamaguchi-gumi",
+      "context": "Matsuda-gumi attempted to assassinate Taoka, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": "1978",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kazuo_Taoka&oldid=1355167280"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Kazuo_Taoka&oldid=1355167280",
+  "source_file": "en_Kazuo_Taoka"
+}

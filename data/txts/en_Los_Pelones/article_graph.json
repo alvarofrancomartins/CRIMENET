@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Pelones",
+      "original_text_name": "Los Pelones",
+      "aliases": [
+        "The Bald Ones"
+      ],
+      "context": "Enforcer gang originally part of the Sinaloa Cartel, later allied with Gulf Cartel, then independent.",
+      "time_period": "2004-2025",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pelones&oldid=1359503147"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "context": "Mexican drug trafficking organization headed by Joaquín El Chapo Guzmán.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pelones&oldid=1359503147"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "context": "Mexican drug cartel; Los Pelones announced alliance with them in 2012.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pelones&oldid=1359503147"
+    },
+    {
+      "standard_name": "Gente Nueva",
+      "original_text_name": "Gente Nueva",
+      "aliases": [],
+      "context": "Rival group to Los Pelones according to infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pelones&oldid=1359503147"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Pelones",
+      "target": "Sinaloa Cartel",
+      "evidence_quote": "Los Pelones (\"The Bald Ones\") is an enforcer gang originally part of the Mexican drug trafficking organization known as the Sinaloa Cartel",
+      "context": "Los Pelones was originally part of the Sinaloa Cartel.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pelones&oldid=1359503147"
+    },
+    {
+      "source": "Los Pelones",
+      "target": "Gulf Cartel",
+      "evidence_quote": "On December 27, 2012, the group announced that they had stopped operating independently and that now they are part of the \"honorable\" Gulf Cartel.",
+      "context": "Los Pelones announced they were joining the Gulf Cartel in 2012.",
+      "relationship": "cooperation",
+      "time_period": "2012",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pelones&oldid=1359503147"
+    },
+    {
+      "source": "Los Pelones",
+      "target": "Gente Nueva",
+      "evidence_quote": "Rivals: Gente Nueva",
+      "context": "Los Pelones lists Gente Nueva as a rival in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pelones&oldid=1359503147"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pelones&oldid=1359503147",
+  "source_file": "en_Los_Pelones"
+}

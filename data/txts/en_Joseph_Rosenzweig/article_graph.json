@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Rosenzweig Gang",
+      "original_text_name": "Rosenzweig's organization",
+      "aliases": [],
+      "context": "Criminal gang led by Joseph Rosenzweig, active in labor slugging and strikebreaking in New York's Lower East Side.",
+      "time_period": "1907-1915",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Joseph_Rosenzweig&oldid=1347028924"
+    },
+    {
+      "standard_name": "Paul Gang",
+      "original_text_name": "Philip \"Pinchey\" Paul",
+      "aliases": [],
+      "context": "Criminal gang led by Philip Paul, rival to Rosenzweig Gang.",
+      "time_period": "1913-1914",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Joseph_Rosenzweig&oldid=1347028924"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Rosenzweig Gang",
+      "target": "Paul Gang",
+      "evidence_quote": "Rosenzweig's dominance was challenged in 1913, when Philip \"Pinchey\" Paul began a war with Rosenzweig, lasting over several months.",
+      "context": "The two gangs were in a violent conflict over control of labor slugging.",
+      "relationship": "conflict",
+      "time_period": "1913-1914",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Joseph_Rosenzweig&oldid=1347028924"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Joseph_Rosenzweig&oldid=1347028924",
+  "source_file": "en_Joseph_Rosenzweig"
+}

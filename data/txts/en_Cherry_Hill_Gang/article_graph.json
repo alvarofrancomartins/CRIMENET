@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cherry Hill Gang",
+      "original_text_name": "Cherry Hill Gang",
+      "aliases": [
+        "Cherry Hillers"
+      ],
+      "context": "New York street gang active in the late 19th century, known as dandies.",
+      "time_period": "1890s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Cherry_Hill_Gang&oldid=1263200886"
+    },
+    {
+      "standard_name": "Batavia Street Gang",
+      "original_text_name": "Batavia Street Gang",
+      "aliases": [],
+      "context": "Rival gang that robbed a jewelry store to compete with Cherry Hill Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Cherry_Hill_Gang&oldid=1263200886"
+    },
+    {
+      "standard_name": "Whyos",
+      "original_text_name": "Whyos",
+      "aliases": [],
+      "context": "Main rivals of the Cherry Hill Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Cherry_Hill_Gang&oldid=1263200886"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cherry Hill Gang",
+      "target": "Batavia Street Gang",
+      "evidence_quote": "Throughout the decade, rival gangs would attempt to compete with the gang's success. One incident in particular occurred when, after the Batavia Street Gang announced hosting a party at New Irving Hall, the Cherry Hillers planned to arrive in expensive wardrobe.",
+      "context": "The Batavia Street Gang competed with the Cherry Hill Gang by hosting a party and robbing a jewelry store to outdo them.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Cherry_Hill_Gang&oldid=1263200886"
+    },
+    {
+      "source": "Cherry Hill Gang",
+      "target": "Whyos",
+      "evidence_quote": "Their main rivals were the Whyos",
+      "context": "The Whyos are stated as the main rivals of the Cherry Hill Gang.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Cherry_Hill_Gang&oldid=1263200886"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Cherry_Hill_Gang&oldid=1263200886",
+  "source_file": "en_Cherry_Hill_Gang"
+}

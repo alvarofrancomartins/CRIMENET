@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Tosei-Kai",
+      "original_text_name": "Tosei-Kai",
+      "aliases": [
+        "Tosei-kai",
+        "Voice of the East Gang"
+      ],
+      "context": "Yakuza gang founded by Hisayuki Machii, active in Tokyo.",
+      "time_period": "1948-1965",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hisayuki_Machii&oldid=1354900831"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Major yakuza syndicate in Japan.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hisayuki_Machii&oldid=1354900831"
+    },
+    {
+      "standard_name": "Toa-kai",
+      "original_text_name": "Toa-kai",
+      "aliases": [
+        "Toa Yuai Jigyo Kumiai",
+        "East Asia Friendship Enterprises Association"
+      ],
+      "context": "Yakuza gang formed after Tosei-kai disbanded, still active.",
+      "time_period": "1965-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hisayuki_Machii&oldid=1354900831"
+    },
+    {
+      "standard_name": "Kudo-kai",
+      "original_text_name": "Kudo-kai",
+      "aliases": [],
+      "context": "Yakuza group controlling Kokura Port.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hisayuki_Machii&oldid=1354900831"
+    },
+    {
+      "standard_name": "Dojin-kai",
+      "original_text_name": "Dojin-kai",
+      "aliases": [],
+      "context": "Yakuza group controlling most ports in western Kyushu.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hisayuki_Machii&oldid=1354900831"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Tosei-Kai",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "even the Yamaguchi-gumi 's Taoka had to cut a deal with Machii to allow that group to operate in Tokyo.",
+      "context": "Tosei-kai and Yamaguchi-gumi made a deal allowing Yamaguchi-gumi to operate in Tokyo.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hisayuki_Machii&oldid=1354900831"
+    },
+    {
+      "source": "Tosei-Kai",
+      "target": "Toa-kai",
+      "evidence_quote": "By 1965, increasing police pressure led Machii to disband the Tosei-kai. But in their place, he formed two 'legitimate' front organizations, the Toa Yuai Jigyo Kumiai ... and the Toa Sogo Kigyo ...",
+      "context": "Toa-kai succeeded Tosei-kai after its disbandment.",
+      "relationship": "other",
+      "time_period": "1965",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hisayuki_Machii&oldid=1354900831"
+    },
+    {
+      "source": "Toa-kai",
+      "target": "Dojin-kai",
+      "evidence_quote": "the Dojin-kai attempted to compel the Toa-kai to co-operate in drug trafficking but the Toa-kai rejected it and then the mass attacks started",
+      "context": "Dojin-kai attacked Toa-kai after Toa-kai refused to cooperate in drug trafficking.",
+      "relationship": "conflict",
+      "time_period": "late 20th Century",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hisayuki_Machii&oldid=1354900831"
+    },
+    {
+      "source": "Toa-kai",
+      "target": "Kudo-kai",
+      "evidence_quote": "it was strongly believed that the perpetrators, from the underworld, were those belonging to the Kudo-kai (controlling the Kokura Port) or the Dojin-kai",
+      "context": "Kudo-kai was suspected of being involved in attacks on Toa-kai members.",
+      "relationship": "conflict",
+      "time_period": "late 20th Century",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hisayuki_Machii&oldid=1354900831"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Hisayuki_Machii&oldid=1354900831",
+  "source_file": "en_Hisayuki_Machii"
+}

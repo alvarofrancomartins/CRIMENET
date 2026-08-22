@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Massa Carcerária",
+      "original_text_name": "Massa Carcerária",
+      "aliases": [
+        "Massa",
+        "Neutros",
+        "Tudo Neutro",
+        "TDN",
+        "MC7"
+      ],
+      "context": "Criminal faction from Ceará, Brazil, formed in 2021 by former Comando Vermelho members.",
+      "time_period": "2021",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Massa_Carcer%C3%A1ria&oldid=71392013"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "CV"
+      ],
+      "context": "Criminal organization from which Massa Carcerária splintered.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Massa_Carcer%C3%A1ria&oldid=71392013"
+    },
+    {
+      "standard_name": "Guardiões do Estado",
+      "original_text_name": "Guardiões do Estado",
+      "aliases": [
+        "GDE"
+      ],
+      "context": "Criminal faction whose members left to join Massa Carcerária.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Massa_Carcer%C3%A1ria&oldid=71392013"
+    },
+    {
+      "standard_name": "Primeiro Comando da Capital",
+      "original_text_name": "Primeiro Comando da Capital",
+      "aliases": [
+        "PCC"
+      ],
+      "context": "Criminal organization that formed an alliance with Massa Carcerária in mid-2023.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Massa_Carcer%C3%A1ria&oldid=71392013"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Massa Carcerária",
+      "target": "Comando Vermelho",
+      "evidence_quote": "A decisão provocou uma sangrenta guerra entre os antigos aliados, sobretudo, em regiões como a Grande Messejana e Caucaia.",
+      "context": "Massa Carcerária and Comando Vermelho were formerly allies but are now in a violent conflict.",
+      "relationship": "conflict",
+      "time_period": "2021",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Massa_Carcer%C3%A1ria&oldid=71392013"
+    },
+    {
+      "source": "Massa Carcerária",
+      "target": "Guardiões do Estado",
+      "evidence_quote": "Após a debandada de criminosos do CV, também integrantes da facção Guardiões do Estado (GDE) decidiram deixar o grupo e passaram a se autodenominar Massa.",
+      "context": "Members of Guardiões do Estado left their group and joined Massa Carcerária.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Massa_Carcer%C3%A1ria&oldid=71392013"
+    },
+    {
+      "source": "Massa Carcerária",
+      "target": "Primeiro Comando da Capital",
+      "evidence_quote": "Em meados de 2023, a Massa passou a manter uma aliança com o Primeiro Comando da Capital (PCC).",
+      "context": "Massa Carcerária formed an alliance with the Primeiro Comando da Capital.",
+      "relationship": "cooperation",
+      "time_period": "2023",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Massa_Carcer%C3%A1ria&oldid=71392013"
+    }
+  ],
+  "source_url": "https://pt.wikipedia.org/w/index.php?title=Massa_Carcer%C3%A1ria&oldid=71392013",
+  "source_file": "pt_Massa_Carcerária"
+}

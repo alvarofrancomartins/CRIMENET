@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Five Point Generalz",
+      "original_text_name": "Five Point Generalz",
+      "aliases": [
+        "5PGz",
+        "5PG"
+      ],
+      "context": "Street gang based in Toronto, Ontario, Canada, involved in drug and weapon trafficking.",
+      "time_period": "late 1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Five_Point_Generalz&oldid=1356042537"
+    },
+    {
+      "standard_name": "Baghdad Crew",
+      "original_text_name": "Baghdad Crew",
+      "aliases": [],
+      "context": "Rival gang involved in a shootout with Five Point Generalz in 2007.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Five_Point_Generalz&oldid=1356042537"
+    },
+    {
+      "standard_name": "G2M",
+      "original_text_name": "G2M",
+      "aliases": [],
+      "context": "Younger subset of Five Point Generalz targeted in 2018 police raids.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Five_Point_Generalz&oldid=1356042537"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Five Point Generalz",
+      "target": "Baghdad Crew",
+      "evidence_quote": "11-year-old Ephraim Brown was killed by a stray bullet to the neck during a gang shootout, allegedly involving the Five Point Generalz and rival gang the Baghdad Crew",
+      "context": "The two gangs were involved in a shootout that killed a bystander.",
+      "relationship": "conflict",
+      "time_period": "2007",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Five_Point_Generalz&oldid=1356042537"
+    },
+    {
+      "source": "Five Point Generalz",
+      "target": "G2M",
+      "evidence_quote": "Toronto Police conducted a series of raids across the Greater Toronto Area targeting the Five Point Generalz and mainly the younger subset G2M.",
+      "context": "G2M is a younger subset of the Five Point Generalz.",
+      "relationship": "other",
+      "time_period": "2018",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Five_Point_Generalz&oldid=1356042537"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Five_Point_Generalz&oldid=1356042537",
+  "source_file": "en_Five_Point_Generalz"
+}

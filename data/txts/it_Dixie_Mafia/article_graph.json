@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Dixie Mafia",
+      "original_text_name": "Dixie Mafia",
+      "aliases": [
+        "mafia del Sud"
+      ],
+      "context": "Criminal organization originating in Biloxi, Mississippi, operating in the southern United States since the 1960s, involved in illegal alcohol and drug trafficking, fencing stolen goods, and violence.",
+      "time_period": "since the 1960s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Dixie_Mafia&oldid=138655634"
+    },
+    {
+      "standard_name": "State Line Mob",
+      "original_text_name": "State Line Mob",
+      "aliases": [],
+      "context": "Small criminal association operating in some Southern and Interior states.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Dixie_Mafia&oldid=138655634"
+    },
+    {
+      "standard_name": "American Mafia",
+      "original_text_name": "mafia italoamericana",
+      "aliases": [
+        "Cosa nostra statunitense"
+      ],
+      "context": "Largest and richest mafia organization in the United States.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Dixie_Mafia&oldid=138655634"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Dixie Mafia",
+      "target": "State Line Mob",
+      "evidence_quote": "Inizialmente alleata con la piccola associazione criminale State Line Mob",
+      "context": "Dixie Mafia was initially allied with State Line Mob.",
+      "relationship": "cooperation",
+      "time_period": "initial period, before late 1960s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Dixie_Mafia&oldid=138655634"
+    },
+    {
+      "source": "Dixie Mafia",
+      "target": "American Mafia",
+      "evidence_quote": "la Dixie Mafia trovò sostegno nella mafia italoamericana",
+      "context": "After the dissolution of State Line Mob, Dixie Mafia found support from the American Mafia.",
+      "relationship": "cooperation",
+      "time_period": "after late 1960s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Dixie_Mafia&oldid=138655634"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Dixie_Mafia&oldid=138655634",
+  "source_file": "it_Dixie_Mafia"
+}

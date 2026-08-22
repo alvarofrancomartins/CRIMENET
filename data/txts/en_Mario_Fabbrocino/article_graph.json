@@ -1,0 +1,78 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [
+        "Neapolitan mafia"
+      ],
+      "context": "The Camorra is the Neapolitan mafia, a criminal organization based in Campania, Italy.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mario_Fabbrocino&oldid=1353525937"
+    },
+    {
+      "standard_name": "Fabbrocino clan",
+      "original_text_name": "Fabbrocino clan",
+      "aliases": [],
+      "context": "The Fabbrocino clan is a Camorra clan based in the Vesuvius area, led by Mario Fabbrocino.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mario_Fabbrocino&oldid=1353525937"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "context": "The Nuova Famiglia is a Camorra coalition created in the 1980s to oppose the Nuova Camorra Organizzata.",
+      "time_period": "1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mario_Fabbrocino&oldid=1353525937"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [],
+      "context": "The Nuova Camorra Organizzata is a Camorra organization led by Raffaele Cutolo, opposed by the Nuova Famiglia.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mario_Fabbrocino&oldid=1353525937"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Fabbrocino clan",
+      "target": "Camorra",
+      "evidence_quote": "Mario Fabbrocino was a powerful Italian crime boss of the Camorra – the Neapolitan mafia.",
+      "context": "The Fabbrocino clan is a part of the Camorra.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mario_Fabbrocino&oldid=1353525937"
+    },
+    {
+      "source": "Fabbrocino clan",
+      "target": "Nuova Famiglia",
+      "evidence_quote": "He was one of the leaders of the Nuova Famiglia, created in the 1980s to face the rising power of Raffaele Cutolo's Nuova Camorra Organizzata.",
+      "context": "The Fabbrocino clan, through its leader, was a leading member of the Nuova Famiglia coalition.",
+      "relationship": "other",
+      "time_period": "1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mario_Fabbrocino&oldid=1353525937"
+    },
+    {
+      "source": "Nuova Famiglia",
+      "target": "Nuova Camorra Organizzata",
+      "evidence_quote": "He was one of the leaders of the Nuova Famiglia, created in the 1980s to face the rising power of Raffaele Cutolo's Nuova Camorra Organizzata.",
+      "context": "The Nuova Famiglia was formed to oppose the Nuova Camorra Organizzata.",
+      "relationship": "conflict",
+      "time_period": "1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mario_Fabbrocino&oldid=1353525937"
+    },
+    {
+      "source": "Fabbrocino clan",
+      "target": "Nuova Camorra Organizzata",
+      "evidence_quote": "The feud with Cutolo intensified when Cutolo ordered the killing of Fabbrocino's brother Francesco. Fabbrocino later avenged his brother's death by ordering the murder of Cutolo's only son, Roberto, on 19 December 1990.",
+      "context": "The Fabbrocino clan and the Nuova Camorra Organizzata were in a violent feud, with murders on both sides.",
+      "relationship": "conflict",
+      "time_period": "1990",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mario_Fabbrocino&oldid=1353525937"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Mario_Fabbrocino&oldid=1353525937",
+  "source_file": "en_Mario_Fabbrocino"
+}

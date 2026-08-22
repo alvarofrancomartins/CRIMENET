@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Downtown Gang",
+      "original_text_name": "Downtown Gang",
+      "aliases": [
+        "Nounes-Musey mob"
+      ],
+      "context": "One of two dominant gangs in Galveston, Texas during Prohibition, involved in bootlegging, gambling, and other crimes.",
+      "time_period": "c. 1920 – 1935",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Downtown_Gang&oldid=1339077596"
+    },
+    {
+      "standard_name": "Beach Gang",
+      "original_text_name": "Beach Gang",
+      "aliases": [],
+      "context": "Rival gang to the Downtown Gang, led by Ollie Quinn and Dutch Voight, controlling gambling on Galveston island before Prohibition.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Downtown_Gang&oldid=1339077596"
+    },
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [],
+      "context": "Organized crime syndicate based in Chicago, business partner of the Downtown Gang via Frank Nitti.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Downtown_Gang&oldid=1339077596"
+    },
+    {
+      "standard_name": "Maceo Syndicate",
+      "original_text_name": "Maceo Syndicate",
+      "aliases": [],
+      "context": "Successor to the Beach Gang, took over much of Galveston island and ordered the assassination of George Musey.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Downtown_Gang&oldid=1339077596"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Downtown Gang",
+      "target": "Beach Gang",
+      "evidence_quote": "They were the rival gang of Ollie Quinn and Dutch Voight's Beach Gang.",
+      "context": "The Downtown Gang and Beach Gang were rivals, fighting for control of Galveston island.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Downtown_Gang&oldid=1339077596"
+    },
+    {
+      "source": "Downtown Gang",
+      "target": "Chicago Outfit",
+      "evidence_quote": "Some of the gang's popular business partners were the Chicago Outfit's Frank Nitti",
+      "context": "The Downtown Gang had a business partnership with the Chicago Outfit through Frank Nitti.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Downtown_Gang&oldid=1339077596"
+    },
+    {
+      "source": "Downtown Gang",
+      "target": "Maceo Syndicate",
+      "evidence_quote": "George Musey was assassinated through orders by the Beach Gang's successors, the Maceo Syndicate",
+      "context": "The Maceo Syndicate, successors to the Beach Gang, ordered the assassination of Downtown Gang member George Musey.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Downtown_Gang&oldid=1339077596"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Downtown_Gang&oldid=1339077596",
+  "source_file": "en_Downtown_Gang"
+}

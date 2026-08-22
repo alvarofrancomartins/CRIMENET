@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "standard_name": "La Rosa 'ndrina",
+      "original_text_name": "La Rosa 'ndrina",
+      "aliases": [
+        "La Rosa"
+      ],
+      "context": "A clan of the 'Ndrangheta operating in Calabria, Italy, based in Tropea.",
+      "time_period": "1970s-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Rosa_%27ndrina&oldid=1339081615"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "context": "A criminal and mafia-type organisation in Calabria, Italy.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Rosa_%27ndrina&oldid=1339081615"
+    },
+    {
+      "standard_name": "Mancuso 'ndrina",
+      "original_text_name": "Mancuso 'ndrina",
+      "aliases": [
+        "Mancusos"
+      ],
+      "context": "A clan of the 'Ndrangheta from Limbadi, allied with La Rosa.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Rosa_%27ndrina&oldid=1339081615"
+    },
+    {
+      "standard_name": "Piserà 'ndrina",
+      "original_text_name": "Piserà 'ndrina",
+      "aliases": [],
+      "context": "A rival clan of the 'Ndrangheta in feud with La Rosa.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Rosa_%27ndrina&oldid=1339081615"
+    },
+    {
+      "standard_name": "Carones 'ndrina",
+      "original_text_name": "Carones",
+      "aliases": [],
+      "context": "A local 'ndrina in Santa Domenica di Ricadi, close to the Mancusos.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Rosa_%27ndrina&oldid=1339081615"
+    },
+    {
+      "standard_name": "Accorinti 'ndrina",
+      "original_text_name": "Accorinti 'ndrine",
+      "aliases": [
+        "Accorintis"
+      ],
+      "context": "A clan of the 'Ndrangheta involved in the Costa clean operation.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Rosa_%27ndrina&oldid=1339081615"
+    },
+    {
+      "standard_name": "Grande 'ndrina",
+      "original_text_name": "Grande",
+      "aliases": [],
+      "context": "A clan of the 'Ndrangheta mentioned in the Costa clean operation.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Rosa_%27ndrina&oldid=1339081615"
+    }
+  ],
+  "edges": [
+    {
+      "source": "La Rosa 'ndrina",
+      "target": "'Ndrangheta",
+      "evidence_quote": "The La Rosa 'ndrina are a clan of the 'Ndrangheta",
+      "context": "La Rosa is a sub-unit of the 'Ndrangheta.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Rosa_%27ndrina&oldid=1339081615"
+    },
+    {
+      "source": "La Rosa 'ndrina",
+      "target": "Mancuso 'ndrina",
+      "evidence_quote": "They are allied with the Mancuso 'ndrina of Limbadi.",
+      "context": "La Rosa is allied with the Mancuso 'ndrina.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Rosa_%27ndrina&oldid=1339081615"
+    },
+    {
+      "source": "La Rosa 'ndrina",
+      "target": "Piserà 'ndrina",
+      "evidence_quote": "The La Rosa are in feud with the rival clan the Piserà 'ndrina",
+      "context": "La Rosa is in a feud with the Piserà 'ndrina.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Rosa_%27ndrina&oldid=1339081615"
+    },
+    {
+      "source": "La Rosa 'ndrina",
+      "target": "Carones 'ndrina",
+      "evidence_quote": "since the 2000s have begun a settlement in the locality of Santa Domenica di Ricadi until then ruled by the local 'ndrina of the Carones close to the Mancusos.",
+      "context": "La Rosa settled in an area previously ruled by the Carones, implying displacement or rivalry.",
+      "relationship": "conflict",
+      "time_period": "since the 2000s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Rosa_%27ndrina&oldid=1339081615"
+    },
+    {
+      "source": "Mancuso 'ndrina",
+      "target": "Carones 'ndrina",
+      "evidence_quote": "the local 'ndrina of the Carones close to the Mancusos.",
+      "context": "The Carones are described as close to the Mancusos, indicating alliance.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Rosa_%27ndrina&oldid=1339081615"
+    },
+    {
+      "source": "La Rosa 'ndrina",
+      "target": "Accorinti 'ndrina",
+      "evidence_quote": "the Costa clean operation ... against the Mancusos and in particular ... the Accorinti 'ndrine, La Rosa and Grande",
+      "context": "La Rosa and Accorinti were both targeted in the same operation, but no direct relationship is stated.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Rosa_%27ndrina&oldid=1339081615"
+    },
+    {
+      "source": "La Rosa 'ndrina",
+      "target": "Grande 'ndrina",
+      "evidence_quote": "the Costa clean operation ... against the Mancusos and in particular ... the Accorinti 'ndrine, La Rosa and Grande",
+      "context": "La Rosa and Grande were both targeted in the same operation, but no direct relationship is stated.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Rosa_%27ndrina&oldid=1339081615"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=La_Rosa_%27ndrina&oldid=1339081615",
+  "source_file": "en_La_Rosa_'ndrina"
+}

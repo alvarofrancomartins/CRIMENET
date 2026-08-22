@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Pueblos Unidos",
+      "original_text_name": "Pueblos Unidos",
+      "aliases": [],
+      "context": "Mexican criminal group active in Michoacán, began in 2021 as a self-defense group but degenerated into a criminal racketeering group.",
+      "time_period": "2021",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pueblos_Unidos&oldid=1318116750"
+    },
+    {
+      "standard_name": "Los Viagras",
+      "original_text_name": "Los Viagras",
+      "aliases": [],
+      "context": "Cartel gang in Michoacán region.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pueblos_Unidos&oldid=1318116750"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Cartel gang in Michoacán region.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pueblos_Unidos&oldid=1318116750"
+    },
+    {
+      "standard_name": "La Resistencia",
+      "original_text_name": "La Resistencia",
+      "aliases": [],
+      "context": "Gang suggested to be tied to Pueblos Unidos.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pueblos_Unidos&oldid=1318116750"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Pueblos Unidos",
+      "target": "Los Viagras",
+      "evidence_quote": "It began in 2021 as a self-defense group defending the local avocado farmers from cartel gangs Los Viagras and Jalisco New Generation",
+      "context": "Pueblos Unidos formed to defend against Los Viagras, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": "2021",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pueblos_Unidos&oldid=1318116750"
+    },
+    {
+      "source": "Pueblos Unidos",
+      "target": "Jalisco New Generation Cartel",
+      "evidence_quote": "It began in 2021 as a self-defense group defending the local avocado farmers from cartel gangs Los Viagras and Jalisco New Generation",
+      "context": "Pueblos Unidos formed to defend against Jalisco New Generation, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": "2021",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pueblos_Unidos&oldid=1318116750"
+    },
+    {
+      "source": "Pueblos Unidos",
+      "target": "La Resistencia",
+      "evidence_quote": "It has been suggested that the group is tied to the gang La Resistencia .",
+      "context": "Pueblos Unidos is suggested to be tied to La Resistencia, unspecified tie.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pueblos_Unidos&oldid=1318116750"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Pueblos_Unidos&oldid=1318116750",
+  "source_file": "en_Pueblos_Unidos"
+}

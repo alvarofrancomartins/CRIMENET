@@ -1,0 +1,86 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Rojos Cartel",
+      "original_text_name": "Los Rojos Cartel",
+      "aliases": [
+        "Cártel de los Rojos"
+      ],
+      "context": "Mexican criminal organization that split from Beltran-Leyva Cartel, active in Guerrero, Morelos, and Puebla.",
+      "time_period": "2009−present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Rojos_Cartel&oldid=1349796743"
+    },
+    {
+      "standard_name": "Beltran-Leyva Cartel",
+      "original_text_name": "Beltran-Leyva Cartel",
+      "aliases": [],
+      "context": "Mexican drug cartel from which Los Rojos Cartel split.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Rojos_Cartel&oldid=1349796743"
+    },
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [],
+      "context": "Mexican criminal organization that fought Los Rojos over territory in 2015.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Rojos_Cartel&oldid=1349796743"
+    },
+    {
+      "standard_name": "Guerreros Unidos",
+      "original_text_name": "Guerreros Unidos",
+      "aliases": [],
+      "context": "Mexican criminal organization listed as ally of Los Rojos in infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Rojos_Cartel&oldid=1349796743"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [],
+      "context": "Mexican criminal organization listed as rival of Los Rojos in infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Rojos_Cartel&oldid=1349796743"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Rojos Cartel",
+      "target": "Beltran-Leyva Cartel",
+      "evidence_quote": "The Los Rojos Cartel ... emerged as a split from the Beltran-Leyva Cartel",
+      "context": "Los Rojos Cartel split from Beltran-Leyva Cartel.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Rojos_Cartel&oldid=1349796743"
+    },
+    {
+      "source": "Los Rojos Cartel",
+      "target": "La Familia Michoacana",
+      "evidence_quote": "The authorities confirmed that the cause of the confrontation was due to a dispute over territory between Los Rojos and cells belonging to La Familia Michoacana.",
+      "context": "Los Rojos fought La Familia Michoacana over territory in 2015.",
+      "relationship": "conflict",
+      "time_period": "2015",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Rojos_Cartel&oldid=1349796743"
+    },
+    {
+      "source": "Los Rojos Cartel",
+      "target": "Guerreros Unidos",
+      "evidence_quote": "Allies: Guerreros Unidos",
+      "context": "Los Rojos Cartel is allied with Guerreros Unidos according to infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Rojos_Cartel&oldid=1349796743"
+    },
+    {
+      "source": "Los Rojos Cartel",
+      "target": "Jalisco New Generation Cartel",
+      "evidence_quote": "Rivals: Mexico , Jalisco New Generation Cartel , La Familia Michoacana , Guerreros Unidos .",
+      "context": "Los Rojos Cartel is rival of Jalisco New Generation Cartel according to infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Rojos_Cartel&oldid=1349796743"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Rojos_Cartel&oldid=1349796743",
+  "source_file": "en_Los_Rojos_Cartel"
+}

@@ -1,0 +1,80 @@
+{
+  "nodes": [
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "context": "Mafia-type organization in Calabria, Southern Italy.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camera_di_Controllo&oldid=1333834072"
+    },
+    {
+      "standard_name": "Camera di Controllo",
+      "original_text_name": "Camera di Controllo",
+      "aliases": [
+        "La Provincia",
+        "Camera di Compensazione",
+        "Commission"
+      ],
+      "context": "Collegial body of the 'Ndrangheta, composed of leading members to decide important questions and settle disputes.",
+      "time_period": "established at the end of the Second 'Ndrangheta war (1985-1991)",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camera_di_Controllo&oldid=1333834072"
+    },
+    {
+      "standard_name": "Sicilian Mafia",
+      "original_text_name": "Sicilian Mafia",
+      "aliases": [],
+      "context": "Mafia organization in Sicily, contributed to ending the Second 'Ndrangheta war and suggested setting up a superordinate body.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camera_di_Controllo&oldid=1333834072"
+    },
+    {
+      "standard_name": "Siderno Group",
+      "original_text_name": "Siderno Group",
+      "aliases": [],
+      "context": "Group of 'Ndrangheta families in Southern Ontario, Canada, including Coluccio, Tavernese, DeMaria, Figliomeni, Ruso, and Commisso crime families.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camera_di_Controllo&oldid=1333834072"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Camera di Controllo",
+      "target": "'Ndrangheta",
+      "evidence_quote": "The Camera di Controllo (Board of Control), is a collegial body of the 'Ndrangheta",
+      "context": "Camera di Controllo is a governing body within the 'Ndrangheta organization.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camera_di_Controllo&oldid=1333834072"
+    },
+    {
+      "source": "Sicilian Mafia",
+      "target": "'Ndrangheta",
+      "evidence_quote": "The Sicilian Mafia contributed to the end of the conflict and probably suggested the subsequent set up of a superordinate body, similar to the Sicilian Mafia Commission",
+      "context": "Sicilian Mafia helped end the Second 'Ndrangheta war and advised creating the Camera di Controllo.",
+      "relationship": "cooperation",
+      "time_period": "end of the Second 'Ndrangheta war (1985-1991)",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camera_di_Controllo&oldid=1333834072"
+    },
+    {
+      "source": "Camera di Controllo",
+      "target": "Sicilian Mafia",
+      "evidence_quote": "The body, also referred to as the Commission in reference to its Sicilian counterpart",
+      "context": "Camera di Controllo is modeled after the Sicilian Mafia Commission.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camera_di_Controllo&oldid=1333834072"
+    },
+    {
+      "source": "Camera di Controllo",
+      "target": "Siderno Group",
+      "evidence_quote": "A Camera di Controllo also exists in Canada, according to 'confidential information' of the police 'which they believe to be reliable.' It consists of six or seven Toronto-area men, who co-ordinate activities and resolves disputes among the Siderno Group in Southern Ontario.",
+      "context": "The Canadian Camera di Controllo coordinates activities and resolves disputes for the Siderno Group.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camera_di_Controllo&oldid=1333834072"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Camera_di_Controllo&oldid=1333834072",
+  "source_file": "en_Camera_di_Controllo"
+}

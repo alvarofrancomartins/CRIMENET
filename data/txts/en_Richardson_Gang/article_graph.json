@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Richardson Gang",
+      "original_text_name": "Richardson Gang",
+      "aliases": [
+        "Torture Gang"
+      ],
+      "context": "English crime gang based in South London in the 1960s, involved in racketeering, extortion, torture, and other crimes.",
+      "time_period": "1960s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Richardson_Gang&oldid=1352282529"
+    },
+    {
+      "standard_name": "Kray Firm",
+      "original_text_name": "Kray twins",
+      "aliases": [
+        "Krays",
+        "Kray Firm"
+      ],
+      "context": "London-based criminal gang led by the Kray twins, rivals of the Richardson Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Richardson_Gang&oldid=1352282529"
+    },
+    {
+      "standard_name": "Watney Streeters",
+      "original_text_name": "The Watney Streeters",
+      "aliases": [],
+      "context": "East End gang that George Cornell originally belonged to.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Richardson_Gang&oldid=1352282529"
+    },
+    {
+      "standard_name": "Quality Street Gang",
+      "original_text_name": "Quality Street Gang",
+      "aliases": [],
+      "context": "Manchester-based criminal group; Dougie Flood was an alleged member.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Richardson_Gang&oldid=1352282529"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Richardson Gang",
+      "target": "Kray Firm",
+      "evidence_quote": "The Richardson gang and the Kray twins were engaged in a turf war in the mid-to-late 1960s.",
+      "context": "The two gangs were in a turf war, a conflict relationship.",
+      "relationship": "conflict",
+      "time_period": "mid-to-late 1960s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Richardson_Gang&oldid=1352282529"
+    },
+    {
+      "source": "Richardson Gang",
+      "target": "Kray Firm",
+      "evidence_quote": "Rivals: Kray Firm",
+      "context": "The infobox lists the Kray Firm as rivals of the Richardson Gang.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Richardson_Gang&oldid=1352282529"
+    },
+    {
+      "source": "Watney Streeters",
+      "target": "Richardson Gang",
+      "evidence_quote": "Cornell was originally a member of an East End gang called \"The Watney Streeters\" and later became involved with the Krays. However, he changed sides around 1964 and allied himself with the Richardsons.",
+      "context": "George Cornell moved from the Watney Streeters to ally with the Richardson Gang.",
+      "relationship": "other",
+      "time_period": "around 1964",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Richardson_Gang&oldid=1352282529"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Richardson_Gang&oldid=1352282529",
+  "source_file": "en_Richardson_Gang"
+}

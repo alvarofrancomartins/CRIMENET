@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Lazarus Group",
+      "original_text_name": "Lazarus Group",
+      "aliases": [
+        "Guardians of Peace",
+        "Whois Team",
+        "Hidden Cobra",
+        "ZINC",
+        "Diamond Sleet",
+        "APT38",
+        "Gods Apostles",
+        "Gods Disciples"
+      ],
+      "context": "State-sponsored hacker group run by North Korea, responsible for cyberattacks since the 2010s.",
+      "time_period": "since the 2010s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "standard_name": "Bluenoroff",
+      "original_text_name": "Bluenoroff",
+      "aliases": [],
+      "context": "Sub-group within Lazarus Group specializing in financial cyberattacks.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "standard_name": "Shadow Brokers",
+      "original_text_name": "Shadow Brokers",
+      "aliases": [],
+      "context": "Hacker group that made public the EternalBlue exploit in April 2017.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "standard_name": "Lab 110",
+      "original_text_name": "Lab 110",
+      "aliases": [],
+      "context": "Parent organization of Lazarus Group.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "standard_name": "Bureau 121",
+      "original_text_name": "Bureau 121",
+      "aliases": [],
+      "context": "Parent organization of Lazarus Group.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "standard_name": "Unit 180",
+      "original_text_name": "Unit 180",
+      "aliases": [],
+      "context": "Affiliation of Lazarus Group.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "standard_name": "AndAriel",
+      "original_text_name": "AndAriel",
+      "aliases": [],
+      "context": "Affiliation of Lazarus Group.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "standard_name": "Lazarus Group",
+      "original_text_name": "Lazarus Group",
+      "aliases": [
+        "Guardians of Peace",
+        "Whois Team",
+        "Hidden Cobra",
+        "ZINC",
+        "Diamond Sleet",
+        "414 Liaison Office"
+      ],
+      "context": "State-sponsored North Korean hacker group responsible for cyberattacks and thefts.",
+      "time_period": "since the 2010s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "standard_name": "BlueNorOff",
+      "original_text_name": "BlueNorOff",
+      "aliases": [
+        "APT38",
+        "Stardust Chollima",
+        "BeagleBoyz",
+        "NICKEL GLADSTONE"
+      ],
+      "context": "Financially motivated subgroup of Lazarus Group targeting financial institutions and cryptocurrency exchanges.",
+      "time_period": "2014-2021",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "standard_name": "AndAriel",
+      "original_text_name": "AndAriel",
+      "aliases": [
+        "Andarial",
+        "Silent Chollima",
+        "Dark Seoul",
+        "Rifle",
+        "Wassonite"
+      ],
+      "context": "Subgroup of Lazarus Group targeting South Korea and other governments, infrastructure, and businesses.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "standard_name": "Reconnaissance General Bureau",
+      "original_text_name": "Reconnaissance General Bureau",
+      "aliases": [],
+      "context": "North Korean military intelligence agency whose members were indicted for participating in Lazarus hacking campaigns.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Lazarus Group",
+      "target": "Bluenoroff",
+      "evidence_quote": "Kaspersky Lab reported in 2017 that Lazarus tended to concentrate on spying and infiltration cyberattacks whereas a sub-group within their organisation, which Kaspersky called Bluenoroff, specialised in financial cyberattacks.",
+      "context": "Bluenoroff is a sub-group within Lazarus Group.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "source": "Lazarus Group",
+      "target": "Shadow Brokers",
+      "evidence_quote": "This ransomware leverages an NSA exploit known as EternalBlue that a hacker group known as Shadow Brokers made public in April 2017.",
+      "context": "Lazarus Group used the EternalBlue exploit made public by Shadow Brokers in the WannaCry attack.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "source": "Lazarus Group",
+      "target": "Lab 110",
+      "evidence_quote": "Parent organization: Lab 110 and Bureau 121",
+      "context": "Lab 110 is a parent organization of Lazarus Group.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "source": "Lazarus Group",
+      "target": "Bureau 121",
+      "evidence_quote": "Parent organization: Lab 110 and Bureau 121",
+      "context": "Bureau 121 is a parent organization of Lazarus Group.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "source": "Lazarus Group",
+      "target": "Unit 180",
+      "evidence_quote": "Affiliations: Lab 110, Bureau 121, Unit 180, AndAriel",
+      "context": "Unit 180 is affiliated with Lazarus Group.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "source": "Lazarus Group",
+      "target": "AndAriel",
+      "evidence_quote": "Affiliations: Lab 110, Bureau 121, Unit 180, AndAriel",
+      "context": "AndAriel is affiliated with Lazarus Group.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "source": "Lazarus Group",
+      "target": "BlueNorOff",
+      "evidence_quote": "Lazarus is believed to have two units. BlueNorOff",
+      "context": "BlueNorOff is a unit of Lazarus Group.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "source": "Lazarus Group",
+      "target": "AndAriel",
+      "evidence_quote": "Lazarus is believed to have two units. AndAriel",
+      "context": "AndAriel is a unit of Lazarus Group.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    },
+    {
+      "source": "Lazarus Group",
+      "target": "Reconnaissance General Bureau",
+      "evidence_quote": "the US Department of Justice indicted three members of the Reconnaissance General Bureau ... for having participated in several Lazarus hacking campaigns",
+      "context": "Members of Reconnaissance General Bureau participated in Lazarus hacking campaigns.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Lazarus_Group&oldid=1356174462",
+  "source_file": "en_Lazarus_Group"
+}

@@ -1,0 +1,64 @@
+{
+  "nodes": [
+    {
+      "standard_name": "College Kidnappers",
+      "original_text_name": "College Kidnappers",
+      "aliases": [
+        "The College Kidnappers"
+      ],
+      "context": "A Chicago-based kidnapping gang composed of University of Illinois alumni, led by Theodore 'Handsome Jack' Klutas, active in the early 1930s.",
+      "time_period": "1930-1934",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=College_Kidnappers&oldid=1314391840"
+    },
+    {
+      "standard_name": "Al Capone mob",
+      "original_text_name": "Al Capone mob",
+      "aliases": [
+        "Capone syndicate",
+        "Capone gangsters"
+      ],
+      "context": "The organized crime syndicate led by Al Capone in Chicago, active in the 1920s-1930s.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=College_Kidnappers&oldid=1314391840"
+    },
+    {
+      "standard_name": "John Dillinger's gang",
+      "original_text_name": "John Dillinger",
+      "aliases": [],
+      "context": "The criminal group led by John Dillinger, active in the 1930s.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=College_Kidnappers&oldid=1314391840"
+    }
+  ],
+  "edges": [
+    {
+      "source": "College Kidnappers",
+      "target": "Al Capone mob",
+      "evidence_quote": "Most of the victims snatched by The College Kidnappers were a part of the Al Capone mob.",
+      "context": "The College Kidnappers targeted members of the Al Capone mob for kidnapping.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=College_Kidnappers&oldid=1314391840"
+    },
+    {
+      "source": "College Kidnappers",
+      "target": "Al Capone mob",
+      "evidence_quote": "In 1933, the Capone gangsters cornered Babe Jones, a member of The College Kidnappers, telling him to pass along the message of a payoff to stop kidnapping other Capone gangsters.",
+      "context": "The Capone mob attempted to negotiate a payoff to stop the kidnappings, indicating a cooperative interaction.",
+      "relationship": "cooperation",
+      "time_period": "1933",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=College_Kidnappers&oldid=1314391840"
+    },
+    {
+      "source": "College Kidnappers",
+      "target": "John Dillinger's gang",
+      "evidence_quote": "Klutas had connections with John Dillinger and with the Chicago crime world.",
+      "context": "Klutas, leader of the College Kidnappers, had connections with John Dillinger's gang.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=College_Kidnappers&oldid=1314391840"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=College_Kidnappers&oldid=1314391840",
+  "source_file": "en_College_Kidnappers"
+}

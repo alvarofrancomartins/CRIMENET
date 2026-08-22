@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cártel Nueva Plaza",
+      "original_text_name": "Cártel Nueva Plaza",
+      "aliases": [
+        "Cartel Nuevo"
+      ],
+      "context": "Criminal organization originating from Jalisco, splinter from CJNG, active in Guadalajara metropolitan area.",
+      "time_period": "2017-presente",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_Nueva_Plaza&oldid=172273604"
+    },
+    {
+      "standard_name": "Cártel de Jalisco Nueva Generación",
+      "original_text_name": "Cártel de Jalisco Nueva Generación",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Major Mexican criminal organization, original group from which Cártel Nueva Plaza splintered.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_Nueva_Plaza&oldid=172273604"
+    },
+    {
+      "standard_name": "Cártel de Sinaloa",
+      "original_text_name": "Cártel de Sinaloa",
+      "aliases": [],
+      "context": "Mexican criminal organization that provides financing to Cártel Nueva Plaza.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_Nueva_Plaza&oldid=172273604"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cártel Nueva Plaza",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "El Cártel Nueva Plaza nació en 2017, como una escisión del CJNG",
+      "context": "Cártel Nueva Plaza is a splinter group that broke away from CJNG.",
+      "relationship": "other",
+      "time_period": "2017",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_Nueva_Plaza&oldid=172273604"
+    },
+    {
+      "source": "Cártel Nueva Plaza",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "El grupo se disputa los municipios de Zapopan, Tonalá, Tlajomulco de Zúñiga y Tlaquepaque, principales centros de operaciones de ambos grupos del narco",
+      "context": "The two groups are in dispute over territory in the Guadalajara metropolitan area.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_Nueva_Plaza&oldid=172273604"
+    },
+    {
+      "source": "Cártel Nueva Plaza",
+      "target": "Cártel de Sinaloa",
+      "evidence_quote": "además de contar con financiación del Cártel de Sinaloa",
+      "context": "Cártel de Sinaloa provides financing to Cártel Nueva Plaza.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_Nueva_Plaza&oldid=172273604"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_Nueva_Plaza&oldid=172273604",
+  "source_file": "es_Cártel_Nueva_Plaza"
+}

@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Goryo-kai",
+      "original_text_name": "Goryo-kai",
+      "aliases": [],
+      "context": "Secondary organization of the Yamaguchi-gumi, based in Shizuoka.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Susumu_Kajiyama&oldid=1216677718"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Japan's largest yakuza syndicate.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Susumu_Kajiyama&oldid=1216677718"
+    },
+    {
+      "standard_name": "Suzuki-gumi",
+      "original_text_name": "Suzuki-gumi",
+      "aliases": [],
+      "context": "An Inagawa affiliate.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Susumu_Kajiyama&oldid=1216677718"
+    },
+    {
+      "standard_name": "Inagawa-kai",
+      "original_text_name": "Inagawa",
+      "aliases": [],
+      "context": "Yakuza syndicate, parent of Suzuki-gumi.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Susumu_Kajiyama&oldid=1216677718"
+    },
+    {
+      "standard_name": "Mio-gumi",
+      "original_text_name": "Mio-gumi",
+      "aliases": [],
+      "context": "Tertiary organization of the Yamaguchi-gumi, based in Shizuoka.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Susumu_Kajiyama&oldid=1216677718"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Goryo-kai",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "a secondary organization of Japan 's largest yakuza syndicate, the Yamaguchi-gumi",
+      "context": "Goryo-kai is a secondary organization of the Yamaguchi-gumi.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Susumu_Kajiyama&oldid=1216677718"
+    },
+    {
+      "source": "Suzuki-gumi",
+      "target": "Inagawa-kai",
+      "evidence_quote": "the Suzuki-gumi, an Inagawa affiliate",
+      "context": "Suzuki-gumi is an affiliate of the Inagawa-kai.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Susumu_Kajiyama&oldid=1216677718"
+    },
+    {
+      "source": "Mio-gumi",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "a tertiary organization of the Yamaguchi-gumi",
+      "context": "Mio-gumi is a tertiary organization of the Yamaguchi-gumi.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Susumu_Kajiyama&oldid=1216677718"
+    },
+    {
+      "source": "Goryo-kai",
+      "target": "Mio-gumi",
+      "evidence_quote": "Yasuo Takagi formed the Goryo-kai as the successor to the Mio-gumi",
+      "context": "Goryo-kai succeeded the Mio-gumi.",
+      "relationship": "other",
+      "time_period": "October 2002",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Susumu_Kajiyama&oldid=1216677718"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Susumu_Kajiyama&oldid=1216677718",
+  "source_file": "en_Susumu_Kajiyama"
+}

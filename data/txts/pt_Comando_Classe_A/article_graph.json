@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Comando Classe A",
+      "original_text_name": "Comando Classe A",
+      "aliases": [
+        "CCA",
+        "331"
+      ],
+      "context": "Brazilian criminal faction from Pará, involved in drug trafficking and prison control.",
+      "time_period": "2018 – presente",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595"
+    },
+    {
+      "standard_name": "Primeiro Comando da Capital",
+      "original_text_name": "PCC",
+      "aliases": [
+        "PCC"
+      ],
+      "context": "Brazilian criminal organization, ally of Comando Classe A.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "CV"
+      ],
+      "context": "Brazilian criminal faction, rival of Comando Classe A.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595"
+    },
+    {
+      "standard_name": "FTA",
+      "original_text_name": "FTA",
+      "aliases": [],
+      "context": "Criminal organization listed as ally of Comando Classe A in infobox.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595"
+    },
+    {
+      "standard_name": "B13",
+      "original_text_name": "B13",
+      "aliases": [],
+      "context": "Criminal organization listed as ally of Comando Classe A in infobox.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595"
+    },
+    {
+      "standard_name": "Cartéis colombianos",
+      "original_text_name": "cartéis colombianos",
+      "aliases": [],
+      "context": "Colombian drug cartels, allies of Comando Classe A.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595"
+    },
+    {
+      "standard_name": "FARC",
+      "original_text_name": "FARC",
+      "aliases": [
+        "Forças Armadas Revolucionárias da Colômbia"
+      ],
+      "context": "Colombian guerrilla group, former members involved with CCA.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Comando Classe A",
+      "target": "Primeiro Comando da Capital",
+      "evidence_quote": "O grupo surgiu por volta de 2018 e mantém relações próximas com o PCC",
+      "context": "CCA maintains close relations with PCC.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595"
+    },
+    {
+      "source": "Comando Classe A",
+      "target": "Comando Vermelho",
+      "evidence_quote": "rompendo com o Comando Vermelho e formando uma aliança com o PCC",
+      "context": "CCA broke away from Comando Vermelho, indicating a split.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595"
+    },
+    {
+      "source": "Comando Classe A",
+      "target": "Comando Vermelho",
+      "evidence_quote": "Em julho de 2019, uma rebelião ... O confronto foi entre membros do CCA/PCC e o CV.",
+      "context": "CCA and PCC fought against CV in a prison rebellion.",
+      "relationship": "conflict",
+      "time_period": "2019",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595"
+    },
+    {
+      "source": "Comando Classe A",
+      "target": "FTA",
+      "evidence_quote": "Aliados: PCC , FTA , B13 cartéis colombianos",
+      "context": "FTA is listed as an ally of CCA in the infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595"
+    },
+    {
+      "source": "Comando Classe A",
+      "target": "B13",
+      "evidence_quote": "Aliados: PCC , FTA , B13 cartéis colombianos",
+      "context": "B13 is listed as an ally of CCA in the infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595"
+    },
+    {
+      "source": "Comando Classe A",
+      "target": "Cartéis colombianos",
+      "evidence_quote": "Aliados: PCC , FTA , B13 cartéis colombianos",
+      "context": "Colombian cartels are listed as allies of CCA in the infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595"
+    },
+    {
+      "source": "Comando Classe A",
+      "target": "FARC",
+      "evidence_quote": "O CCA estaria envolvido com cartéis da Colômbia e ex-integrantes das FARC",
+      "context": "CCA is involved with former FARC members.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595"
+    }
+  ],
+  "source_url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595",
+  "source_file": "pt_Comando_Classe_A"
+}

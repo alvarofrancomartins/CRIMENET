@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Charles Martel Group",
+      "original_text_name": "Charles Martel Group",
+      "aliases": [
+        "Groupe Charles-Martel",
+        "Club Charles-Martel",
+        "Cercle Charles-Martel",
+        "Commando Charles-Martel"
+      ],
+      "context": "French far-right anti-Arab militant group active in the 1970s and 1980s.",
+      "time_period": "1973-1987",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charles_Martel_Group&oldid=1332335354"
+    },
+    {
+      "standard_name": "Organisation armée secrète",
+      "original_text_name": "Organisation armée secrète",
+      "aliases": [
+        "OAS"
+      ],
+      "context": "French far-right paramilitary organization that fought against Algerian independence.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charles_Martel_Group&oldid=1332335354"
+    },
+    {
+      "standard_name": "National Liberation Front",
+      "original_text_name": "FLN",
+      "aliases": [
+        "FLN"
+      ],
+      "context": "Algerian nationalist party that fought for independence from France.",
+      "time_period": "1954-1962",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charles_Martel_Group&oldid=1332335354"
+    },
+    {
+      "standard_name": "Polisario Front",
+      "original_text_name": "Polisario Front",
+      "aliases": [],
+      "context": "Algerian-backed radical group involved in conflict in Mauritania.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charles_Martel_Group&oldid=1332335354"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Charles Martel Group",
+      "target": "Organisation armée secrète",
+      "evidence_quote": "The group was formed by veterans of the Organisation armée secrète",
+      "context": "Charles Martel Group was formed by veterans of OAS.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charles_Martel_Group&oldid=1332335354"
+    },
+    {
+      "source": "Charles Martel Group",
+      "target": "National Liberation Front",
+      "evidence_quote": "Their attacks were primarily centered on Algerian properties, businesses, and government offices. This stemmed from the Algerian war fought between France and the FLN between 1954 and 1962.",
+      "context": "Charles Martel Group attacked Algerian targets associated with FLN.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charles_Martel_Group&oldid=1332335354"
+    },
+    {
+      "source": "Charles Martel Group",
+      "target": "Polisario Front",
+      "evidence_quote": "Claimed as a reprisal for the killing and kidnapping of French nationals in Mauritania the previous month by the Algerian-backed Polisario Front.",
+      "context": "Charles Martel Group kidnapped Algerians in reprisal for Polisario Front's actions.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charles_Martel_Group&oldid=1332335354"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Charles_Martel_Group&oldid=1332335354",
+  "source_file": "en_Charles_Martel_Group"
+}

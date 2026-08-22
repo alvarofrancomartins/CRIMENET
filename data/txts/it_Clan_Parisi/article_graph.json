@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Clan Parisi",
+      "original_text_name": "clan Parisi",
+      "aliases": [
+        "clan Parisi-Palermiti"
+      ],
+      "context": "Criminal organization from Bari, operating in Japigia district, involved in drug trafficking, extortion, and infiltration of businesses and politics.",
+      "time_period": "1980s-present",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Parisi&oldid=149844960"
+    },
+    {
+      "standard_name": "Clan Palermiti",
+      "original_text_name": "clan Palermiti",
+      "aliases": [],
+      "context": "Criminal faction that joined the Parisi clan in 2017, led by Eugenio Palermiti, involved in drug trafficking and violence.",
+      "time_period": "2017-present",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Parisi&oldid=149844960"
+    },
+    {
+      "standard_name": "Scissionisti",
+      "original_text_name": "compagine 'scissionista'",
+      "aliases": [],
+      "context": "Splinter group led by Antonio Busco that challenged the Parisi-Palermiti clan for drug dealing territories.",
+      "time_period": "2017",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Parisi&oldid=149844960"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Clan Parisi",
+      "target": "Clan Palermiti",
+      "evidence_quote": "Dal 2017 al clan Parisi si è unito il clan Palermiti, dando vita a una 'società della guerra', nata per sostenere il conflitto scoppiato nel quartiere contro la compagine 'scissionista' capeggiata da Antonio Busco",
+      "context": "The Parisi clan and Palermiti clan merged in 2017 to form a joint criminal society to fight against a splinter group.",
+      "relationship": "cooperation",
+      "time_period": "2017",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Parisi&oldid=149844960"
+    },
+    {
+      "source": "Clan Parisi",
+      "target": "Scissionisti",
+      "evidence_quote": "conflitto scoppiato nel quartiere contro la compagine 'scissionista' capeggiata da Antonio Busco",
+      "context": "The Parisi clan was in conflict with the splinter group led by Antonio Busco over drug dealing territories.",
+      "relationship": "conflict",
+      "time_period": "2017",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Parisi&oldid=149844960"
+    },
+    {
+      "source": "Clan Palermiti",
+      "target": "Scissionisti",
+      "evidence_quote": "conflitto scoppiato nel quartiere contro la compagine 'scissionista' capeggiata da Antonio Busco",
+      "context": "The Palermiti clan, as part of the merged group, was also in conflict with the splinter group.",
+      "relationship": "conflict",
+      "time_period": "2017",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Parisi&oldid=149844960"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Parisi&oldid=149844960",
+  "source_file": "it_Clan_Parisi"
+}

@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali cartel",
+      "aliases": [
+        "Cali Cartel"
+      ],
+      "context": "Colombian cocaine cartel that supplied drugs to Liverpool gangs.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gangs_in_Liverpool&oldid=1348619741"
+    },
+    {
+      "standard_name": "Curtis Warren Cartel",
+      "original_text_name": "Curtis Warren Cartel",
+      "aliases": [
+        "Warren's gang"
+      ],
+      "context": "Major drug trafficking organization led by Curtis Warren, active in UK and Europe.",
+      "time_period": "1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gangs_in_Liverpool&oldid=1348619741"
+    },
+    {
+      "standard_name": "The Huyton Firm",
+      "original_text_name": "The Huyton Firm",
+      "aliases": [
+        "Cantril Farm Cartel"
+      ],
+      "context": "Secretive cartel controlling organized crime in Liverpool, founded in the 1990s.",
+      "time_period": "1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gangs_in_Liverpool&oldid=1348619741"
+    },
+    {
+      "standard_name": "Crocky Crew",
+      "original_text_name": "Crocky Crew",
+      "aliases": [
+        "Croxteth Crew"
+      ],
+      "context": "Street gang from Croxteth, Liverpool, involved in feud with Strand Gang.",
+      "time_period": "2004-2012",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gangs_in_Liverpool&oldid=1348619741"
+    },
+    {
+      "standard_name": "Strand Gang",
+      "original_text_name": "Strand Gang",
+      "aliases": [],
+      "context": "Street gang from Norris Green, Liverpool, involved in feud with Crocky Crew.",
+      "time_period": "2004-2012",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gangs_in_Liverpool&oldid=1348619741"
+    },
+    {
+      "standard_name": "The Whitneys",
+      "original_text_name": "The Whitneys",
+      "aliases": [
+        "Whitney gang"
+      ],
+      "context": "Family gang from Anfield, Liverpool, involved in drug smuggling.",
+      "time_period": "until 2011",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gangs_in_Liverpool&oldid=1348619741"
+    },
+    {
+      "standard_name": "The Fitzgibbons",
+      "original_text_name": "The Fitzgibbons",
+      "aliases": [
+        "Fitzgibbon brothers"
+      ],
+      "context": "Family-run international drug empire based in Liverpool.",
+      "time_period": "until 2013",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gangs_in_Liverpool&oldid=1348619741"
+    },
+    {
+      "standard_name": "The Clarkes",
+      "original_text_name": "The Clarkes",
+      "aliases": [
+        "Clarke brothers"
+      ],
+      "context": "Liverpool drugs gang involved in cocaine and cannabis trafficking to Northern Ireland.",
+      "time_period": "until 2013",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gangs_in_Liverpool&oldid=1348619741"
+    },
+    {
+      "standard_name": "John Haase's Transit Mob",
+      "original_text_name": "John Haase's Transit Mob",
+      "aliases": [
+        "The Transit Mob"
+      ],
+      "context": "Criminal firm involved in bank robbery and drug smuggling, led by John Haase.",
+      "time_period": "1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gangs_in_Liverpool&oldid=1348619741"
+    },
+    {
+      "standard_name": "Crocky Crew",
+      "original_text_name": "Crocky Crew",
+      "aliases": [],
+      "context": "A gang from Croxteth, Liverpool, involved in a rivalry with Strand Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gangs_in_Liverpool&oldid=1348619741"
+    },
+    {
+      "standard_name": "Strand Gang",
+      "original_text_name": "Strand Gang",
+      "aliases": [],
+      "context": "A gang from Liverpool, rival of Crocky Crew.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gangs_in_Liverpool&oldid=1348619741"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Curtis Warren Cartel",
+      "target": "Cali Cartel",
+      "evidence_quote": "Forging direct links with the Cali Cartel , Warren and his gang flooded Europe with drugs.",
+      "context": "Warren's cartel established direct supply links with the Cali Cartel for cocaine trafficking.",
+      "relationship": "cooperation",
+      "time_period": "1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gangs_in_Liverpool&oldid=1348619741"
+    },
+    {
+      "source": "Crocky Crew",
+      "target": "Strand Gang",
+      "evidence_quote": "In 2007, the feud between two street gangs from Croxteth and Norris Green reached its peak with the murder of innocent 11 year old Rhys Jones .",
+      "context": "The two gangs were engaged in a violent feud with multiple shootings and murders.",
+      "relationship": "conflict",
+      "time_period": "2004-2012",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gangs_in_Liverpool&oldid=1348619741"
+    },
+    {
+      "source": "The Huyton Firm",
+      "target": "Curtis Warren Cartel",
+      "evidence_quote": "The Huyton Firm was established in the 1990s and led by two brothers from the Huyton area of Liverpool, who came to prominence by filling a power vacuum left behind when Curtis Warren and his gang were finally jailed.",
+      "context": "The Huyton Firm rose to power after Curtis Warren's cartel was dismantled, filling the void.",
+      "relationship": "other",
+      "time_period": "1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gangs_in_Liverpool&oldid=1348619741"
+    },
+    {
+      "source": "Crocky Crew",
+      "target": "Strand Gang",
+      "evidence_quote": "In August 2007, the ongoing war between two rival gangs the ‘Crocky Crew’ and ‘Strand Gang’, caused nationwide outrage when innocent 11-year-old Rhys Jones was shot in the back as he walked home from football practice and died in his mother's arms in the car park of the Fir Tree pub in the Croxteth district of Liverpool.",
+      "context": "The Crocky Crew and Strand Gang were engaged in a violent war that led to the death of an innocent child.",
+      "relationship": "conflict",
+      "time_period": "2007",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gangs_in_Liverpool&oldid=1348619741"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Gangs_in_Liverpool&oldid=1348619741",
+  "source_file": "en_Gangs_in_Liverpool"
+}

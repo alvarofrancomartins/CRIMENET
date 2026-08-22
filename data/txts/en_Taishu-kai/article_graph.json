@@ -1,0 +1,130 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Taishu-kai",
+      "original_text_name": "Taishu-kai",
+      "aliases": [
+        "Ota Group",
+        "Ota-gumi"
+      ],
+      "context": "Yakuza organization based in Fukuoka Prefecture, Japan, with about 60 active members.",
+      "time_period": "1954-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Taishu-kai&oldid=1349269418"
+    },
+    {
+      "standard_name": "Kudo-kai",
+      "original_text_name": "Kudo-kai",
+      "aliases": [],
+      "context": "Kitakyushu-based yakuza syndicate, one of five independent Fukuoka-based designated syndicates.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Taishu-kai&oldid=1349269418"
+    },
+    {
+      "standard_name": "Dojin-kai",
+      "original_text_name": "Dojin-kai",
+      "aliases": [],
+      "context": "Kurume-based yakuza syndicate, one of five independent Fukuoka-based designated syndicates.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Taishu-kai&oldid=1349269418"
+    },
+    {
+      "standard_name": "Fukuhaku-kai",
+      "original_text_name": "Fukuhaku-kai",
+      "aliases": [],
+      "context": "One of five independent Fukuoka-based designated yakuza syndicates.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Taishu-kai&oldid=1349269418"
+    },
+    {
+      "standard_name": "Kyushu Seido-kai",
+      "original_text_name": "Kyushu Seido-kai",
+      "aliases": [],
+      "context": "One of five independent Fukuoka-based designated yakuza syndicates.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Taishu-kai&oldid=1349269418"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Major yakuza syndicate, opposed by the Yonsha-kai federation.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Taishu-kai&oldid=1349269418"
+    },
+    {
+      "standard_name": "Kumamoto-kai",
+      "original_text_name": "Kumamoto-kai",
+      "aliases": [],
+      "context": "Kumamoto-based yakuza syndicate, member of the Yonsha-kai federation.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Taishu-kai&oldid=1349269418"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Taishu-kai",
+      "target": "Kudo-kai",
+      "evidence_quote": "The Taishu-kai is a member of an anti-Yamaguchi-gumi fraternal federation, the \"Yonsha-kai\", along with the Kitakyushu -based Kudo-kai , the Kurume -based Dojin-kai and the Kumamoto -based Kumamoto-kai.",
+      "context": "Taishu-kai and Kudo-kai are both members of the Yonsha-kai federation, indicating cooperation.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Taishu-kai&oldid=1349269418"
+    },
+    {
+      "source": "Taishu-kai",
+      "target": "Dojin-kai",
+      "evidence_quote": "The Taishu-kai is a member of an anti-Yamaguchi-gumi fraternal federation, the \"Yonsha-kai\", along with the Kitakyushu -based Kudo-kai , the Kurume -based Dojin-kai and the Kumamoto -based Kumamoto-kai.",
+      "context": "Taishu-kai and Dojin-kai are both members of the Yonsha-kai federation, indicating cooperation.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Taishu-kai&oldid=1349269418"
+    },
+    {
+      "source": "Taishu-kai",
+      "target": "Kumamoto-kai",
+      "evidence_quote": "The Taishu-kai is a member of an anti-Yamaguchi-gumi fraternal federation, the \"Yonsha-kai\", along with the Kitakyushu -based Kudo-kai , the Kurume -based Dojin-kai and the Kumamoto -based Kumamoto-kai.",
+      "context": "Taishu-kai and Kumamoto-kai are both members of the Yonsha-kai federation, indicating cooperation.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Taishu-kai&oldid=1349269418"
+    },
+    {
+      "source": "Taishu-kai",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "The Taishu-kai is a member of an anti-Yamaguchi-gumi fraternal federation, the \"Yonsha-kai\"",
+      "context": "Taishu-kai is part of a federation that opposes the Yamaguchi-gumi, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Taishu-kai&oldid=1349269418"
+    },
+    {
+      "source": "Kudo-kai",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "The Taishu-kai is a member of an anti-Yamaguchi-gumi fraternal federation, the \"Yonsha-kai\", along with the Kitakyushu -based Kudo-kai",
+      "context": "Kudo-kai is part of a federation that opposes the Yamaguchi-gumi, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Taishu-kai&oldid=1349269418"
+    },
+    {
+      "source": "Dojin-kai",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "The Taishu-kai is a member of an anti-Yamaguchi-gumi fraternal federation, the \"Yonsha-kai\", along with the ... Kurume -based Dojin-kai",
+      "context": "Dojin-kai is part of a federation that opposes the Yamaguchi-gumi, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Taishu-kai&oldid=1349269418"
+    },
+    {
+      "source": "Kumamoto-kai",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "The Taishu-kai is a member of an anti-Yamaguchi-gumi fraternal federation, the \"Yonsha-kai\", along with the ... Kumamoto -based Kumamoto-kai.",
+      "context": "Kumamoto-kai is part of a federation that opposes the Yamaguchi-gumi, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Taishu-kai&oldid=1349269418"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Taishu-kai&oldid=1349269418",
+  "source_file": "en_Taishu-kai"
+}

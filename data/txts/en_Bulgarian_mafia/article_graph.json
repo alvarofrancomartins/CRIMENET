@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bulgarian mafia",
+      "original_text_name": "Bulgarian mafia",
+      "aliases": [
+        "Bulgarian organized crime",
+        "Mutri"
+      ],
+      "context": "General term for criminal organizations based in Bulgaria composed of ethnic Bulgarians.",
+      "time_period": "1990s–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bulgarian_mafia&oldid=1357459835"
+    },
+    {
+      "standard_name": "VIS",
+      "original_text_name": "VIS",
+      "aliases": [
+        "VIS1",
+        "VIS2"
+      ],
+      "context": "Criminal group founded by Vasil Iliev, involved in various crimes.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bulgarian_mafia&oldid=1357459835"
+    },
+    {
+      "standard_name": "SIC",
+      "original_text_name": "SIC",
+      "aliases": [],
+      "context": "Criminal group founded by Milcho Bonev, Krasimir Marinov, and Nikolay Marinov, involved in drug trafficking, fraud, etc.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bulgarian_mafia&oldid=1357459835"
+    },
+    {
+      "standard_name": "Multigroup",
+      "original_text_name": "Multigroup",
+      "aliases": [],
+      "context": "Criminal organization founded by Ilia Pavlov, involved in various illegal activities.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bulgarian_mafia&oldid=1357459835"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "context": "Italian organized crime group; Bulgarian mafia reported to cooperate with them in Italy.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bulgarian_mafia&oldid=1357459835"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bulgarian mafia",
+      "target": "'Ndrangheta",
+      "evidence_quote": "it was reported that they would be cooperating with the 'Ndrangheta",
+      "context": "Bulgarian mafia cooperates with 'Ndrangheta in Italy.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bulgarian_mafia&oldid=1357459835"
+    },
+    {
+      "source": "VIS",
+      "target": "SIC",
+      "evidence_quote": "Pantyu Pantev, a.k.a. \"Polly\" - Drug smuggler, initially affiliated with VIS, later with SIC.",
+      "context": "A member moved from VIS to SIC, indicating a structural tie.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bulgarian_mafia&oldid=1357459835"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Bulgarian_mafia&oldid=1357459835",
+  "source_file": "en_Bulgarian_mafia"
+}

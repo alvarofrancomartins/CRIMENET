@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Axe Gang",
+      "original_text_name": "Axe Gang",
+      "aliases": [
+        "斧头帮",
+        "斧頭幫"
+      ],
+      "context": "Militant organisation active in Shanghai and surrounding areas of the Republic of China during the early 20th century, involved in political violence and assassinations.",
+      "time_period": "early 20th century",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Axe_Gang&oldid=1342676684"
+    },
+    {
+      "standard_name": "New Guangxi clique",
+      "original_text_name": "New Guangxi clique",
+      "aliases": [],
+      "context": "Regional military faction that the Axe Gang formed connections with after 1924.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Axe_Gang&oldid=1342676684"
+    },
+    {
+      "standard_name": "Green Gang",
+      "original_text_name": "Green Gang",
+      "aliases": [],
+      "context": "Larger syndicate that absorbed or eliminated smaller groups like the Axe Gang during the Nationalist period.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Axe_Gang&oldid=1342676684"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Axe Gang",
+      "target": "New Guangxi clique",
+      "evidence_quote": "Wang's organisation maintained its relevance by forming connections with other regional military factions, including elements of the New Guangxi clique.",
+      "context": "The Axe Gang formed connections with the New Guangxi clique for mutual benefit.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Axe_Gang&oldid=1342676684"
+    },
+    {
+      "source": "Axe Gang",
+      "target": "Green Gang",
+      "evidence_quote": "With the consolidation of Nationalist control and the strengthening of larger syndicates such as the Green Gang, smaller independent militant groups like the Axe Gang were gradually eliminated or absorbed.",
+      "context": "The Green Gang absorbed or eliminated the Axe Gang as it grew stronger.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Axe_Gang&oldid=1342676684"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=The_Axe_Gang&oldid=1342676684",
+  "source_file": "en_The_Axe_Gang"
+}

@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "standard_name": "211 Crew",
+      "original_text_name": "211 Crew",
+      "aliases": [
+        "Aryan Empire",
+        "Aryan Alliance",
+        "Brotherhood of Aryan Alliance",
+        "2-11 Crew",
+        "2-11 Irish Crew"
+      ],
+      "context": "American white supremacist prison gang active in and out of prison, formed in 1995 at Denver County Jail.",
+      "time_period": "1995–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=211_Crew&oldid=1359194682"
+    },
+    {
+      "standard_name": "Aryan Syndicate",
+      "original_text_name": "Aryan Syndicate",
+      "aliases": [],
+      "context": "Colorado prison gang that merged with 211 Crew.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=211_Crew&oldid=1359194682"
+    },
+    {
+      "standard_name": "American Nazi Party",
+      "original_text_name": "ANP (American Nazi Party but no relation to the group founded by Rockwell)",
+      "aliases": [
+        "ANP"
+      ],
+      "context": "Colorado prison gang that merged with 211 Crew; distinct from the original American Nazi Party.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=211_Crew&oldid=1359194682"
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "context": "Street gang; Benjamin Davis was a former member.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=211_Crew&oldid=1359194682"
+    },
+    {
+      "standard_name": "Texas Aryan Brotherhood",
+      "original_text_name": "Texas Aryan Brotherhood",
+      "aliases": [],
+      "context": "White supremacist prison gang; a member sent a threatening letter linking 211 Crew to assassinations.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=211_Crew&oldid=1359194682"
+    }
+  ],
+  "edges": [
+    {
+      "source": "211 Crew",
+      "target": "Aryan Syndicate",
+      "evidence_quote": "Eventually 2-11 merged with the Colorado prison gangs Aryan Syndicate and ANP (American Nazi Party but no relation to the group founded by Rockwell).",
+      "context": "211 Crew merged with Aryan Syndicate to form the Aryan Empire.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=211_Crew&oldid=1359194682"
+    },
+    {
+      "source": "211 Crew",
+      "target": "American Nazi Party",
+      "evidence_quote": "Eventually 2-11 merged with the Colorado prison gangs Aryan Syndicate and ANP (American Nazi Party but no relation to the group founded by Rockwell).",
+      "context": "211 Crew merged with ANP to form the Aryan Empire.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=211_Crew&oldid=1359194682"
+    },
+    {
+      "source": "211 Crew",
+      "target": "Texas Aryan Brotherhood",
+      "evidence_quote": "Due to a threatening letter sent by a Texas Aryan Brotherhood member, it was suspected to be linked to similar assassinations of Texas district attorney Mike McLelland, and his assistant prosecutor Mark Hasse",
+      "context": "A Texas Aryan Brotherhood member sent a threatening letter that led to suspicion of a link between 211 Crew and the assassinations.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=211_Crew&oldid=1359194682"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=211_Crew&oldid=1359194682",
+  "source_file": "en_211_Crew"
+}

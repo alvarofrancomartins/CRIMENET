@@ -1,0 +1,88 @@
+{
+  "nodes": [
+    {
+      "standard_name": "The Order",
+      "original_text_name": "The Order",
+      "aliases": [
+        "Silent Brotherhood"
+      ],
+      "context": "Neo-Nazi organization active in the US between September 1983 and December 1984, engaged in robberies and murder.",
+      "time_period": "September 1983 - December 1984",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Order_%28white_supremacist_group%29&oldid=1357125001"
+    },
+    {
+      "standard_name": "Aryan Nations",
+      "original_text_name": "Aryan Nations",
+      "aliases": [],
+      "context": "White supremacist group; some members of The Order II were previously members of Aryan Nations.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Order_%28white_supremacist_group%29&oldid=1357125001"
+    },
+    {
+      "standard_name": "National Alliance",
+      "original_text_name": "National Alliance",
+      "aliases": [],
+      "context": "White supremacist organization led by William Pierce; received proceeds from The Order's robberies.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Order_%28white_supremacist_group%29&oldid=1357125001"
+    },
+    {
+      "standard_name": "White Patriot Party",
+      "original_text_name": "White Patriot Party",
+      "aliases": [],
+      "context": "White supremacist group led by Frazier Glenn Miller, Jr.; received proceeds from The Order's robberies.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Order_%28white_supremacist_group%29&oldid=1357125001"
+    },
+    {
+      "standard_name": "The Order II",
+      "original_text_name": "The Order II",
+      "aliases": [
+        "Bruder Schweigen Strike Force II"
+      ],
+      "context": "Attempt to perpetuate The Order's activities, active in Idaho in 1986.",
+      "time_period": "1986",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Order_%28white_supremacist_group%29&oldid=1357125001"
+    }
+  ],
+  "edges": [
+    {
+      "source": "The Order",
+      "target": "Aryan Nations",
+      "evidence_quote": "Affiliations: Aryan Nations",
+      "context": "The Order is affiliated with Aryan Nations according to the infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Order_%28white_supremacist_group%29&oldid=1357125001"
+    },
+    {
+      "source": "The Order",
+      "target": "National Alliance",
+      "evidence_quote": "Proceeds from these robberies were distributed to leaders of sympathetic organizations such as William Pierce (National Alliance) and Frazier Glenn Miller, Jr. (White Patriot Party).",
+      "context": "The Order distributed robbery proceeds to the National Alliance.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Order_%28white_supremacist_group%29&oldid=1357125001"
+    },
+    {
+      "source": "The Order",
+      "target": "White Patriot Party",
+      "evidence_quote": "Proceeds from these robberies were distributed to leaders of sympathetic organizations such as William Pierce (National Alliance) and Frazier Glenn Miller, Jr. (White Patriot Party).",
+      "context": "The Order distributed robbery proceeds to the White Patriot Party.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Order_%28white_supremacist_group%29&oldid=1357125001"
+    },
+    {
+      "source": "The Order II",
+      "target": "The Order",
+      "evidence_quote": "Order II (Bruder Schweigen Strike Force II) was also anti-government and antisemitic.",
+      "context": "The Order II grew out of the original Order, attempting to perpetuate its activities.",
+      "relationship": "other",
+      "time_period": "1986",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Order_%28white_supremacist_group%29&oldid=1357125001"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=The_Order_%28white_supremacist_group%29&oldid=1357125001",
+  "source_file": "en_The_Order_(white_supremacist_group)"
+}

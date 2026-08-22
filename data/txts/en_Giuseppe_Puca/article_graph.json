@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata (NCO)",
+      "aliases": [
+        "NCO"
+      ],
+      "context": "Italian Camorra organization led by Raffaele Cutolo.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Giuseppe_Puca&oldid=1353412992"
+    },
+    {
+      "standard_name": "Verde clan",
+      "original_text_name": "Verde clan",
+      "aliases": [],
+      "context": "Camorra clan involved in a shootout with Giuseppe Puca.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Giuseppe_Puca&oldid=1353412992"
+    },
+    {
+      "standard_name": "Puca clan",
+      "original_text_name": "Puca clan",
+      "aliases": [],
+      "context": "Camorra clan led by Giuseppe Puca.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Giuseppe_Puca&oldid=1353412992"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Puca clan",
+      "target": "Verde clan",
+      "evidence_quote": "Puca was murdered on February 7, 1989, after a long shoot out with members of the Verde clan in Sant'Antimo.",
+      "context": "The Puca clan and Verde clan engaged in a shootout resulting in Puca's death.",
+      "relationship": "conflict",
+      "time_period": "1989",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Giuseppe_Puca&oldid=1353412992"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Giuseppe_Puca&oldid=1353412992",
+  "source_file": "en_Giuseppe_Puca"
+}

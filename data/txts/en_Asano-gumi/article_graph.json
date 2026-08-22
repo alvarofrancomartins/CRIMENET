@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Asano-gumi",
+      "original_text_name": "Asano-gumi",
+      "aliases": [
+        "Oyama-ikka"
+      ],
+      "context": "Yakuza group based in Okayama, Japan, formed in 1945 as Oyama-ikka, restarted as Asano-gumi in 1952.",
+      "time_period": "1945-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Asano-gumi&oldid=1294921194"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Yakuza group that had conflicts with Asano-gumi in the late 20th century.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Asano-gumi&oldid=1294921194"
+    },
+    {
+      "standard_name": "Kyodo-kai",
+      "original_text_name": "Kyodo-kai",
+      "aliases": [],
+      "context": "Yakuza group that had conflicts with Asano-gumi in the late 20th century.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Asano-gumi&oldid=1294921194"
+    },
+    {
+      "standard_name": "Gosha-kai",
+      "original_text_name": "Gosha-kai",
+      "aliases": [],
+      "context": "Anti-Yamaguchi federation formed in 1996, of which Asano-gumi is a member.",
+      "time_period": "1996-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Asano-gumi&oldid=1294921194"
+    },
+    {
+      "standard_name": "Kyosei-kai",
+      "original_text_name": "Kyosei-kai",
+      "aliases": [],
+      "context": "Chugoku-based organization, member of Gosha-kai.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Asano-gumi&oldid=1294921194"
+    },
+    {
+      "standard_name": "Goda-ikka",
+      "original_text_name": "Goda-ikka",
+      "aliases": [],
+      "context": "Chugoku-based organization, member of Gosha-kai.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Asano-gumi&oldid=1294921194"
+    },
+    {
+      "standard_name": "Shinwa-kai",
+      "original_text_name": "Shinwa-kai",
+      "aliases": [],
+      "context": "Shikoku-based organization, member of Gosha-kai.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Asano-gumi&oldid=1294921194"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Asano-gumi",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "The Asano-gumi caused conflicts with the Yamaguchi-gumi and the Kyodo-kai in the late 20th century. In one notable case, Asano member(s) shot and murdered two Yamaguchi members in Kurashiki in 1987, as a retaliation for an earlier attack by Yamaguchi member(s) involving carving knives against two Asano members.",
+      "context": "Asano-gumi and Yamaguchi-gumi were in conflict, with violent incidents including murders in 1987.",
+      "relationship": "conflict",
+      "time_period": "late 20th century",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Asano-gumi&oldid=1294921194"
+    },
+    {
+      "source": "Asano-gumi",
+      "target": "Kyodo-kai",
+      "evidence_quote": "The Asano-gumi caused conflicts with the Yamaguchi-gumi and the Kyodo-kai in the late 20th century.",
+      "context": "Asano-gumi had conflicts with Kyodo-kai in the late 20th century.",
+      "relationship": "conflict",
+      "time_period": "late 20th century",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Asano-gumi&oldid=1294921194"
+    },
+    {
+      "source": "Asano-gumi",
+      "target": "Gosha-kai",
+      "evidence_quote": "Since 1996, the Asano-gumi has been a member of an anti-Yamaguchi federation named the Gosha-kai, along with three other Chugoku-based organizations, the Kyosei-kai, the Kyodo-kai, the Goda-ikka, and the Shikoku-based Shinwa-kai.",
+      "context": "Asano-gumi is a member of the Gosha-kai federation since 1996.",
+      "relationship": "other",
+      "time_period": "1996-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Asano-gumi&oldid=1294921194"
+    },
+    {
+      "source": "Gosha-kai",
+      "target": "Kyosei-kai",
+      "evidence_quote": "Since 1996, the Asano-gumi has been a member of an anti-Yamaguchi federation named the Gosha-kai, along with three other Chugoku-based organizations, the Kyosei-kai, the Kyodo-kai, the Goda-ikka, and the Shikoku-based Shinwa-kai.",
+      "context": "Kyosei-kai is a member of the Gosha-kai federation.",
+      "relationship": "other",
+      "time_period": "1996-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Asano-gumi&oldid=1294921194"
+    },
+    {
+      "source": "Gosha-kai",
+      "target": "Kyodo-kai",
+      "evidence_quote": "Since 1996, the Asano-gumi has been a member of an anti-Yamaguchi federation named the Gosha-kai, along with three other Chugoku-based organizations, the Kyosei-kai, the Kyodo-kai, the Goda-ikka, and the Shikoku-based Shinwa-kai.",
+      "context": "Kyodo-kai is a member of the Gosha-kai federation.",
+      "relationship": "other",
+      "time_period": "1996-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Asano-gumi&oldid=1294921194"
+    },
+    {
+      "source": "Gosha-kai",
+      "target": "Goda-ikka",
+      "evidence_quote": "Since 1996, the Asano-gumi has been a member of an anti-Yamaguchi federation named the Gosha-kai, along with three other Chugoku-based organizations, the Kyosei-kai, the Kyodo-kai, the Goda-ikka, and the Shikoku-based Shinwa-kai.",
+      "context": "Goda-ikka is a member of the Gosha-kai federation.",
+      "relationship": "other",
+      "time_period": "1996-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Asano-gumi&oldid=1294921194"
+    },
+    {
+      "source": "Gosha-kai",
+      "target": "Shinwa-kai",
+      "evidence_quote": "Since 1996, the Asano-gumi has been a member of an anti-Yamaguchi federation named the Gosha-kai, along with three other Chugoku-based organizations, the Kyosei-kai, the Kyodo-kai, the Goda-ikka, and the Shikoku-based Shinwa-kai.",
+      "context": "Shinwa-kai is a member of the Gosha-kai federation.",
+      "relationship": "other",
+      "time_period": "1996-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Asano-gumi&oldid=1294921194"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Asano-gumi&oldid=1294921194",
+  "source_file": "en_Asano-gumi"
+}

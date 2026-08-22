@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Clan Serino",
+      "original_text_name": "clan Serino",
+      "aliases": [
+        "Serino"
+      ],
+      "context": "Camorra clan from Sarno, Salerno, involved in extortion, drug trafficking, and video poker.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Serino&oldid=149861269"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "context": "Camorra organization allied with Clan Serino.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Serino&oldid=149861269"
+    },
+    {
+      "standard_name": "Clan Parlato",
+      "original_text_name": "famiglia Parlato",
+      "aliases": [
+        "Parlato"
+      ],
+      "context": "Camorra clan from Sarno, affiliated with Nuova Camorra Organizzata, opposed to Clan Serino.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Serino&oldid=149861269"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "context": "Camorra organization led by Raffaele Cutolo, allied with Clan Parlato.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Serino&oldid=149861269"
+    },
+    {
+      "standard_name": "Clan Cava",
+      "original_text_name": "clan Cava",
+      "aliases": [],
+      "context": "Camorra clan from Quindici, present in Sarno.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Serino&oldid=149861269"
+    },
+    {
+      "standard_name": "Clan Graziano",
+      "original_text_name": "famiglia Graziano",
+      "aliases": [
+        "Graziano"
+      ],
+      "context": "Camorra clan from Quindici, present in Sarno.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Serino&oldid=149861269"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Clan Serino",
+      "target": "Nuova Famiglia",
+      "evidence_quote": "ai Serino (affiliati alla Nuova Famiglia)",
+      "context": "Clan Serino is affiliated with Nuova Famiglia.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Serino&oldid=149861269"
+    },
+    {
+      "source": "Clan Serino",
+      "target": "Clan Parlato",
+      "evidence_quote": "si era contrapposta l'altra consorteria camorristica sarnese, quella facente capo alla famiglia Parlato",
+      "context": "Clan Serino opposed Clan Parlato in a conflict.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Serino&oldid=149861269"
+    },
+    {
+      "source": "Clan Parlato",
+      "target": "Nuova Camorra Organizzata",
+      "evidence_quote": "famiglia Parlato ... (affiliata alla Nuova Camorra Organizzata)",
+      "context": "Clan Parlato is affiliated with Nuova Camorra Organizzata.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Serino&oldid=149861269"
+    },
+    {
+      "source": "Clan Serino",
+      "target": "Clan Graziano",
+      "evidence_quote": "un esponente del clan Serino avrebbe ucciso nel 1989 due nipoti di uno dei membri di spicco della famiglia Graziano",
+      "context": "A member of Clan Serino killed two nephews of a Graziano member.",
+      "relationship": "conflict",
+      "time_period": "1989",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Serino&oldid=149861269"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Serino&oldid=149861269",
+  "source_file": "it_Clan_Serino"
+}

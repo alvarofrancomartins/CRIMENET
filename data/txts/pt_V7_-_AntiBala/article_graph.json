@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "standard_name": "V7 - AntiBala",
+      "original_text_name": "V7",
+      "aliases": [
+        "Família do Sul",
+        "AntiBala"
+      ],
+      "context": "Criminal organization operating in Rio Grande do Sul, founded in 2013 as a coalition to fight Bala na Cara.",
+      "time_period": "2013 - presente",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=V7_-_AntiBala&oldid=71633263"
+    },
+    {
+      "standard_name": "Bala na Cara",
+      "original_text_name": "Bala na Cara (BNC)",
+      "aliases": [
+        "BNC"
+      ],
+      "context": "Rival criminal faction to V7, involved in conflict with V7 and other groups.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=V7_-_AntiBala&oldid=71633263"
+    },
+    {
+      "standard_name": "Os Manos",
+      "original_text_name": "Os Manos",
+      "aliases": [],
+      "context": "Criminal faction that had a non-aggression pact with V7, later entered into war over debts.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=V7_-_AntiBala&oldid=71633263"
+    },
+    {
+      "standard_name": "Os Aberto",
+      "original_text_name": "Os Aberto",
+      "aliases": [],
+      "context": "Criminal faction involved in the war between 2016 and 2017 alongside V7, BNC, and Os Manos.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=V7_-_AntiBala&oldid=71633263"
+    }
+  ],
+  "edges": [
+    {
+      "source": "V7 - AntiBala",
+      "target": "Bala na Cara",
+      "evidence_quote": "Sua criação tinha como objetivo enfrentar a facção rival Bala na Cara (BNC) na região.",
+      "context": "V7 was created to fight Bala na Cara, establishing a conflict relationship.",
+      "relationship": "conflict",
+      "time_period": "2013",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=V7_-_AntiBala&oldid=71633263"
+    },
+    {
+      "source": "V7 - AntiBala",
+      "target": "Bala na Cara",
+      "evidence_quote": "Em 2016, os V7 declararam guerra à Bala na Cara (BNC), após o sequestro e execução de Jeferson Lapuente, um membro da Bala na Cara.",
+      "context": "V7 declared war on Bala na Cara in 2016, escalating the conflict.",
+      "relationship": "conflict",
+      "time_period": "2016",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=V7_-_AntiBala&oldid=71633263"
+    },
+    {
+      "source": "V7 - AntiBala",
+      "target": "Os Manos",
+      "evidence_quote": "Os V7 entraram em guerra contra Os Manos por conta de dividas que não foram pagas, no inicio as duas facções tinham um acordo de 'não se agredir', estando neutra uma a outra, mas por conta das dividas e dos desacertos romperam o acordo.",
+      "context": "V7 initially had a non-aggression pact with Os Manos, but later entered into war over unpaid debts.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=V7_-_AntiBala&oldid=71633263"
+    },
+    {
+      "source": "V7 - AntiBala",
+      "target": "Os Manos",
+      "evidence_quote": "no inicio as duas facções tinham um acordo de 'não se agredir', estando neutra uma a outra",
+      "context": "V7 and Os Manos had a non-aggression pact, a cooperative agreement.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=V7_-_AntiBala&oldid=71633263"
+    }
+  ],
+  "source_url": "https://pt.wikipedia.org/w/index.php?title=V7_-_AntiBala&oldid=71633263",
+  "source_file": "pt_V7_-_AntiBala"
+}

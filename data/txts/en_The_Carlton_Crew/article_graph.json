@@ -1,0 +1,141 @@
+{
+  "nodes": [
+    {
+      "standard_name": "The Carlton Crew",
+      "original_text_name": "The Carlton Crew",
+      "aliases": [
+        "Carlton Crew"
+      ],
+      "context": "Criminal organisation based in Melbourne, Australia, involved in racketeering, murder, drug trafficking, etc.",
+      "time_period": "1970s−Present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Carlton_Crew&oldid=1339086935"
+    },
+    {
+      "standard_name": "Honoured Society",
+      "original_text_name": "Honoured Society",
+      "aliases": [],
+      "context": "Calabrian 'Ndrangheta group based in Melbourne.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Carlton_Crew&oldid=1339086935"
+    },
+    {
+      "standard_name": "Calabrese Family",
+      "original_text_name": "Calabrese Family",
+      "aliases": [],
+      "context": "Calabrian 'Ndrangheta group based in Melbourne.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Carlton_Crew&oldid=1339086935"
+    },
+    {
+      "standard_name": "Moran family",
+      "original_text_name": "Moran family",
+      "aliases": [
+        "Moran and Pettingill families"
+      ],
+      "context": "Mostly Irish criminal family based in Melbourne.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Carlton_Crew&oldid=1339086935"
+    },
+    {
+      "standard_name": "Williams Syndicate",
+      "original_text_name": "Williams Syndicate",
+      "aliases": [],
+      "context": "Criminal syndicate led by Carl Williams, rival to Carlton Crew.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Carlton_Crew&oldid=1339086935"
+    },
+    {
+      "standard_name": "Radev Bratva",
+      "original_text_name": "Radev Bratva",
+      "aliases": [],
+      "context": "Criminal group allied with Carlton Crew.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Carlton_Crew&oldid=1339086935"
+    }
+  ],
+  "edges": [
+    {
+      "source": "The Carlton Crew",
+      "target": "Honoured Society",
+      "evidence_quote": "The organisation was a fierce rival to the Honoured Society and the Calabrese Family",
+      "context": "The Carlton Crew was a fierce rival to the Honoured Society.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Carlton_Crew&oldid=1339086935"
+    },
+    {
+      "source": "The Carlton Crew",
+      "target": "Calabrese Family",
+      "evidence_quote": "The organisation was a fierce rival to the Honoured Society and the Calabrese Family",
+      "context": "The Carlton Crew was a fierce rival to the Calabrese Family.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Carlton_Crew&oldid=1339086935"
+    },
+    {
+      "source": "The Carlton Crew",
+      "target": "Moran family",
+      "evidence_quote": "and were additionally allies of the mostly Irish Moran family",
+      "context": "The Carlton Crew was allied with the Moran family.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Carlton_Crew&oldid=1339086935"
+    },
+    {
+      "source": "The Carlton Crew",
+      "target": "Honoured Society",
+      "evidence_quote": "Allies: Honoured Society and Calabrese Family (since the mid-90s)",
+      "context": "The Carlton Crew became allies with the Honoured Society since the mid-90s.",
+      "relationship": "cooperation",
+      "time_period": "since the mid-90s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Carlton_Crew&oldid=1339086935"
+    },
+    {
+      "source": "The Carlton Crew",
+      "target": "Calabrese Family",
+      "evidence_quote": "Allies: Honoured Society and Calabrese Family (since the mid-90s)",
+      "context": "The Carlton Crew became allies with the Calabrese Family since the mid-90s.",
+      "relationship": "cooperation",
+      "time_period": "since the mid-90s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Carlton_Crew&oldid=1339086935"
+    },
+    {
+      "source": "The Carlton Crew",
+      "target": "Honoured Society",
+      "evidence_quote": "Rivals: Williams Syndicate, Honoured Society and Calabrese Family (until the early 90s)",
+      "context": "The Carlton Crew was rivals with the Honoured Society until the early 90s.",
+      "relationship": "conflict",
+      "time_period": "until the early 90s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Carlton_Crew&oldid=1339086935"
+    },
+    {
+      "source": "The Carlton Crew",
+      "target": "Calabrese Family",
+      "evidence_quote": "Rivals: Williams Syndicate, Honoured Society and Calabrese Family (until the early 90s)",
+      "context": "The Carlton Crew was rivals with the Calabrese Family until the early 90s.",
+      "relationship": "conflict",
+      "time_period": "until the early 90s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Carlton_Crew&oldid=1339086935"
+    },
+    {
+      "source": "The Carlton Crew",
+      "target": "Williams Syndicate",
+      "evidence_quote": "Rivals: Williams Syndicate, Honoured Society and Calabrese Family (until the early 90s)",
+      "context": "The Carlton Crew was rivals with the Williams Syndicate.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Carlton_Crew&oldid=1339086935"
+    },
+    {
+      "source": "The Carlton Crew",
+      "target": "Radev Bratva",
+      "evidence_quote": "Allies: Honoured Society and Calabrese Family (since the mid-90s), Moran and Pettingill families, Radev Bratva",
+      "context": "The Carlton Crew was allied with Radev Bratva.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Carlton_Crew&oldid=1339086935"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=The_Carlton_Crew&oldid=1339086935",
+  "source_file": "en_The_Carlton_Crew"
+}

@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Japan's largest yakuza gang, led by a godfather, with a wakagashira (second-in-command).",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Masaru_Takumi&oldid=1353082199"
+    },
+    {
+      "standard_name": "Takumi-gumi",
+      "original_text_name": "Takumi-gumi",
+      "aliases": [],
+      "context": "Sub-organization of Yamaguchi-gumi, headed by Masaru Takumi, with about 1000 members.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Masaru_Takumi&oldid=1353082199"
+    },
+    {
+      "standard_name": "Nakano-kai",
+      "original_text_name": "Nakano-kai",
+      "aliases": [],
+      "context": "Breakaway affiliate of Yamaguchi-gumi that assassinated Masaru Takumi.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Masaru_Takumi&oldid=1353082199"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Takumi-gumi",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "he also headed his own sub-organization, the 1000-member Takumi-gumi",
+      "context": "Takumi-gumi is a sub-organization of Yamaguchi-gumi.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Masaru_Takumi&oldid=1353082199"
+    },
+    {
+      "source": "Nakano-kai",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "members of a breakaway Yamaguchi affiliate, the Nakano-kai",
+      "context": "Nakano-kai is a breakaway affiliate of Yamaguchi-gumi.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Masaru_Takumi&oldid=1353082199"
+    },
+    {
+      "source": "Nakano-kai",
+      "target": "Takumi-gumi",
+      "evidence_quote": "Takumi was shot and killed in a coffee shop ... by members of a breakaway Yamaguchi affiliate, the Nakano-kai",
+      "context": "Nakano-kai assassinated the head of Takumi-gumi, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": "1997",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Masaru_Takumi&oldid=1353082199"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Masaru_Takumi&oldid=1353082199",
+  "source_file": "en_Masaru_Takumi"
+}

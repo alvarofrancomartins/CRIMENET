@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Green Street Counts",
+      "original_text_name": "Green Street Counts",
+      "aliases": [],
+      "context": "Street gang in Philadelphia, active in early 1950s, specialized in armed robbery, kidnapping, weapons dealings.",
+      "time_period": "early 1950s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Green_Street_Counts&oldid=1323757336"
+    },
+    {
+      "standard_name": "Green Street Counts (West)",
+      "original_text_name": "Green Street Counts (West)",
+      "aliases": [],
+      "context": "Another group of teenagers in Philadelphia using the same name, operating in West Philadelphia, not affiliated with the original Green Street Counts.",
+      "time_period": "early to mid-1950s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Green_Street_Counts&oldid=1323757336"
+    },
+    {
+      "standard_name": "K&A Gang",
+      "original_text_name": "K&A Gang",
+      "aliases": [],
+      "context": "Gang from Philadelphia's Kensington section.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Green_Street_Counts&oldid=1323757336"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Green Street Counts",
+      "target": "Green Street Counts (West)",
+      "evidence_quote": "The Green Street Counts (West) were not affiliated with the Green Street Counts originally from the Fairmount section of Philadelphia.",
+      "context": "The text explicitly states they were not affiliated, meaning no relationship.",
+      "relationship": "other",
+      "time_period": "early to mid-1950s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Green_Street_Counts&oldid=1323757336"
+    },
+    {
+      "source": "Green Street Counts",
+      "target": "K&A Gang",
+      "evidence_quote": "After their release the Counts would later connect with the K&A Gang of Philadelphia's Kensington section.",
+      "context": "The Green Street Counts connected with the K&A Gang after release from prison.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Green_Street_Counts&oldid=1323757336"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Green_Street_Counts&oldid=1323757336",
+  "source_file": "en_Green_Street_Counts"
+}

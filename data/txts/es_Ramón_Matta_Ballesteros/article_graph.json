@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cartel de Medellín",
+      "original_text_name": "Cartel de Medellín",
+      "aliases": [],
+      "context": "Colombian drug cartel led by Pablo Escobar, involved in cocaine trafficking.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Ram%C3%B3n_Matta_Ballesteros&oldid=172774590"
+    },
+    {
+      "standard_name": "Cartel de Guadalajara",
+      "original_text_name": "Cartel de Guadalajara",
+      "aliases": [],
+      "context": "Mexican drug cartel led by Miguel Ángel Félix Gallardo, involved in cocaine trafficking.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Ram%C3%B3n_Matta_Ballesteros&oldid=172774590"
+    },
+    {
+      "standard_name": "Cartel de Cali",
+      "original_text_name": "Cartel de Cali",
+      "aliases": [],
+      "context": "Colombian drug cartel led by Gilberto Rodríguez Orejuela, involved in cocaine trafficking.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Ram%C3%B3n_Matta_Ballesteros&oldid=172774590"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cartel de Medellín",
+      "target": "Cartel de Guadalajara",
+      "evidence_quote": "Fue el principal responsable de la conexión colombo-mexicana entre el Cartel de Medellín , Cartel de Cali y Cartel de Guadalajara",
+      "context": "Matta Ballesteros was the main link connecting the three cartels, implying cooperation between Medellín and Guadalajara.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Ram%C3%B3n_Matta_Ballesteros&oldid=172774590"
+    },
+    {
+      "source": "Cartel de Medellín",
+      "target": "Cartel de Cali",
+      "evidence_quote": "Fue el principal responsable de la conexión colombo-mexicana entre el Cartel de Medellín , Cartel de Cali y Cartel de Guadalajara",
+      "context": "Matta Ballesteros connected Medellín and Cali cartels, indicating cooperation.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Ram%C3%B3n_Matta_Ballesteros&oldid=172774590"
+    },
+    {
+      "source": "Cartel de Cali",
+      "target": "Cartel de Guadalajara",
+      "evidence_quote": "Fue el principal responsable de la conexión colombo-mexicana entre el Cartel de Medellín , Cartel de Cali y Cartel de Guadalajara",
+      "context": "Matta Ballesteros connected Cali and Guadalajara cartels, indicating cooperation.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Ram%C3%B3n_Matta_Ballesteros&oldid=172774590"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Ram%C3%B3n_Matta_Ballesteros&oldid=172774590",
+  "source_file": "es_Ramón_Matta_Ballesteros"
+}

@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Zemun Clan",
+      "original_text_name": "Zemun Clan",
+      "aliases": [
+        "Zemunski klan",
+        "new Zemun Clan"
+      ],
+      "context": "Serbian mafia clan based in Zemun, Belgrade, involved in various criminal activities.",
+      "time_period": "1999-2003",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zemun_Clan&oldid=1350364888"
+    },
+    {
+      "standard_name": "Surčin clan",
+      "original_text_name": "Surčin clan",
+      "aliases": [],
+      "context": "Largest organized car theft group in Serbia, based in Surčin.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zemun_Clan&oldid=1350364888"
+    },
+    {
+      "standard_name": "Special Operations Unit",
+      "original_text_name": "Special Operations Unit",
+      "aliases": [
+        "Red Berets"
+      ],
+      "context": "Serbian special forces unit with ties to organized crime.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zemun_Clan&oldid=1350364888"
+    },
+    {
+      "standard_name": "Security Information Agency",
+      "original_text_name": "Security Information Agency",
+      "aliases": [
+        "BIA"
+      ],
+      "context": "Serbian state security service.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zemun_Clan&oldid=1350364888"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Zemun Clan",
+      "target": "Surčin clan",
+      "evidence_quote": "Presumably, the group operated either under the control, or in cooperation with, the Surčin clan, the largest organised car theft group in the country.",
+      "context": "Zemun Clan initially operated under or in cooperation with Surčin clan for car theft.",
+      "relationship": "cooperation",
+      "time_period": "1995",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zemun_Clan&oldid=1350364888"
+    },
+    {
+      "source": "Zemun Clan",
+      "target": "Surčin clan",
+      "evidence_quote": "In 2002, the clan attempted to assassinate Buha twice",
+      "context": "Zemun Clan attempted to assassinate the leader of Surčin clan, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": "2002",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zemun_Clan&oldid=1350364888"
+    },
+    {
+      "source": "Zemun Clan",
+      "target": "Special Operations Unit",
+      "evidence_quote": "The Zemun clan grew in prominence after the downfall of Slobodan Milošević with an influx of many veterans of the Special Operations Unit (widely known as Red Berets), including the unit's commander, Milorad Ulemek.",
+      "context": "Zemun Clan incorporated members from the Special Operations Unit.",
+      "relationship": "other",
+      "time_period": "after 2000",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zemun_Clan&oldid=1350364888"
+    },
+    {
+      "source": "Zemun Clan",
+      "target": "Security Information Agency",
+      "evidence_quote": "In 2001, the Zemun clan organized 'special training courses' with the BIA, lending them information on Kosovar Albanian insurgents in exchange.",
+      "context": "Zemun Clan cooperated with BIA by providing training and information.",
+      "relationship": "cooperation",
+      "time_period": "2001",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zemun_Clan&oldid=1350364888"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Zemun_Clan&oldid=1350364888",
+  "source_file": "en_Zemun_Clan"
+}

@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "standard_name": "La Nueva Familia Michoacana",
+      "original_text_name": "La Nueva Familia Michoacana",
+      "aliases": [
+        "La Nueva Familia",
+        "LNFM"
+      ],
+      "context": "Mexican criminal organization specializing in drug trafficking, illegal mining, and extortion. Formed as a splinter group in 2011.",
+      "time_period": "2011",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana&oldid=173649746"
+    },
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [],
+      "context": "Original criminal organization from which La Nueva Familia Michoacana split.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana&oldid=173649746"
+    },
+    {
+      "standard_name": "Caballeros Templarios",
+      "original_text_name": "Caballeros Templarios",
+      "aliases": [],
+      "context": "Criminal organization formed after the original La Familia Michoacana lost power.",
+      "time_period": "2010",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana&oldid=173649746"
+    },
+    {
+      "standard_name": "Cártel de Jalisco Nueva Generación",
+      "original_text_name": "Cártel de Jalisco Nueva Generación",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Mexican criminal organization that La Nueva Familia Michoacana fights against.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana&oldid=173649746"
+    }
+  ],
+  "edges": [
+    {
+      "source": "La Nueva Familia Michoacana",
+      "target": "La Familia Michoacana",
+      "evidence_quote": "La organización se formó como un grupo escindido en 2011 después de que la original La Familia Michoacana perdió su poder",
+      "context": "La Nueva Familia Michoacana is a splinter group of La Familia Michoacana.",
+      "relationship": "other",
+      "time_period": "2011",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana&oldid=173649746"
+    },
+    {
+      "source": "La Nueva Familia Michoacana",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "La organización se dedica principalmente al tráfico de drogas y a combatir a la organización criminal Cártel de Jalisco Nueva Generación",
+      "context": "La Nueva Familia Michoacana fights against the Cártel de Jalisco Nueva Generación.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana&oldid=173649746"
+    },
+    {
+      "source": "La Nueva Familia Michoacana",
+      "target": "La Familia Michoacana",
+      "evidence_quote": "Aliados: La Familia Michoacana",
+      "context": "The infobox lists La Familia Michoacana as an ally of La Nueva Familia Michoacana.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana&oldid=173649746"
+    },
+    {
+      "source": "La Nueva Familia Michoacana",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "Enemigos: Cártel de Jalisco Nueva Generación",
+      "context": "The infobox lists Cártel de Jalisco Nueva Generación as an enemy of La Nueva Familia Michoacana.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana&oldid=173649746"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana&oldid=173649746",
+  "source_file": "es_La_Nueva_Familia_Michoacana"
+}

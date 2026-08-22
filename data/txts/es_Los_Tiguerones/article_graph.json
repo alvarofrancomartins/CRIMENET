@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Tiguerones",
+      "original_text_name": "Los Tiguerones",
+      "aliases": [],
+      "context": "Ecuadorian narcoterrorist and criminal organization specializing in drug trafficking, extortion, kidnappings, and murder.",
+      "time_period": "2021",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Tiguerones&oldid=173511470"
+    },
+    {
+      "standard_name": "Los Choneros",
+      "original_text_name": "Los Choneros",
+      "aliases": [],
+      "context": "Major criminal organization in Ecuador, from which Los Tiguerones split.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Tiguerones&oldid=173511470"
+    },
+    {
+      "standard_name": "Los Lobos",
+      "original_text_name": "Los Lobos",
+      "aliases": [],
+      "context": "Ecuadorian criminal group that split from Los Choneros in 2021.",
+      "time_period": "2021",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Tiguerones&oldid=173511470"
+    },
+    {
+      "standard_name": "Los Chone Killers",
+      "original_text_name": "Los Chone Killers",
+      "aliases": [],
+      "context": "Ecuadorian criminal group that split from Los Choneros in 2021.",
+      "time_period": "2021",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Tiguerones&oldid=173511470"
+    },
+    {
+      "standard_name": "Cártel de Jalisco Nueva Generación",
+      "original_text_name": "Cártel de Jalisco Nueva Generación",
+      "aliases": [],
+      "context": "Mexican drug cartel, ally of Los Tiguerones.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Tiguerones&oldid=173511470"
+    },
+    {
+      "standard_name": "Mafia albanesa",
+      "original_text_name": "Mafia albanesa",
+      "aliases": [],
+      "context": "Albanian mafia, ally of Los Tiguerones.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Tiguerones&oldid=173511470"
+    },
+    {
+      "standard_name": "Los del norte",
+      "original_text_name": "Los del norte",
+      "aliases": [],
+      "context": "Criminal group, ally of Los Tiguerones.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Tiguerones&oldid=173511470"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Tiguerones",
+      "target": "Los Choneros",
+      "evidence_quote": "El grupo se dividió de Los Choneros en 2021, junto con Los Lobos y Los Chone Killers tras el asesinato del líder de Los Choneros, Jorge Luís Zambrano alias 'Rasquiña'.",
+      "context": "Los Tiguerones split from Los Choneros in 2021.",
+      "relationship": "other",
+      "time_period": "2021",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Tiguerones&oldid=173511470"
+    },
+    {
+      "source": "Los Tiguerones",
+      "target": "Los Lobos",
+      "evidence_quote": "El grupo se dividió de Los Choneros en 2021, junto con Los Lobos y Los Chone Killers tras el asesinato del líder de Los Choneros, Jorge Luís Zambrano alias 'Rasquiña'.",
+      "context": "Los Tiguerones and Los Lobos both split from Los Choneros at the same time.",
+      "relationship": "other",
+      "time_period": "2021",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Tiguerones&oldid=173511470"
+    },
+    {
+      "source": "Los Tiguerones",
+      "target": "Los Chone Killers",
+      "evidence_quote": "El grupo se dividió de Los Choneros en 2021, junto con Los Lobos y Los Chone Killers tras el asesinato del líder de Los Choneros, Jorge Luís Zambrano alias 'Rasquiña'.",
+      "context": "Los Tiguerones and Los Chone Killers both split from Los Choneros at the same time.",
+      "relationship": "other",
+      "time_period": "2021",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Tiguerones&oldid=173511470"
+    },
+    {
+      "source": "Los Tiguerones",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "Aliados: Cártel de Jalisco Nueva Generación , Mafia albanesa Los del norte",
+      "context": "Los Tiguerones are allied with the Jalisco New Generation Cartel.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Tiguerones&oldid=173511470"
+    },
+    {
+      "source": "Los Tiguerones",
+      "target": "Mafia albanesa",
+      "evidence_quote": "Aliados: Cártel de Jalisco Nueva Generación , Mafia albanesa Los del norte",
+      "context": "Los Tiguerones are allied with the Albanian mafia.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Tiguerones&oldid=173511470"
+    },
+    {
+      "source": "Los Tiguerones",
+      "target": "Los del norte",
+      "evidence_quote": "Aliados: Cártel de Jalisco Nueva Generación , Mafia albanesa Los del norte",
+      "context": "Los Tiguerones are allied with Los del norte.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Tiguerones&oldid=173511470"
+    },
+    {
+      "source": "Los Tiguerones",
+      "target": "Los Choneros",
+      "evidence_quote": "Enemigos: Los Choneros Los Lobos",
+      "context": "Los Tiguerones consider Los Choneros enemies.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Tiguerones&oldid=173511470"
+    },
+    {
+      "source": "Los Tiguerones",
+      "target": "Los Lobos",
+      "evidence_quote": "Enemigos: Los Choneros Los Lobos",
+      "context": "Los Tiguerones consider Los Lobos enemies.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Tiguerones&oldid=173511470"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Tiguerones&oldid=173511470",
+  "source_file": "es_Los_Tiguerones"
+}

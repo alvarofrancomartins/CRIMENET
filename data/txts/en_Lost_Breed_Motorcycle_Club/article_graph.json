@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Lost Breed Motorcycle Club",
+      "original_text_name": "Lost Breed Motorcycle Club",
+      "aliases": [
+        "Lost Breed"
+      ],
+      "context": "Outlaw motorcycle club in Nelson, New Zealand, formed in 1976.",
+      "time_period": "1976 – 21 December 2015",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lost_Breed_Motorcycle_Club&oldid=1339085387"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "context": "Outlaw motorcycle club that shut down Lost Breed and absorbed some members.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lost_Breed_Motorcycle_Club&oldid=1339085387"
+    },
+    {
+      "standard_name": "Fourth Reich (New Zealand gang)",
+      "original_text_name": "Fourth Reich (New Zealand gang)",
+      "aliases": [
+        "Fourth Reich"
+      ],
+      "context": "New Zealand gang listed as a rival of Lost Breed.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lost_Breed_Motorcycle_Club&oldid=1339085387"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Lost Breed Motorcycle Club",
+      "target": "Hells Angels",
+      "evidence_quote": "At the end of 2015, the group was \"shut down\" by the Hells Angels with some members patching over to a Hells Angels chapter established in the city.",
+      "context": "Hells Angels shut down Lost Breed and absorbed some members.",
+      "relationship": "other",
+      "time_period": "2015",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lost_Breed_Motorcycle_Club&oldid=1339085387"
+    },
+    {
+      "source": "Lost Breed Motorcycle Club",
+      "target": "Fourth Reich (New Zealand gang)",
+      "evidence_quote": "Rivals: Fourth Reich (New Zealand gang)",
+      "context": "Fourth Reich is listed as a rival of Lost Breed.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Lost_Breed_Motorcycle_Club&oldid=1339085387"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Lost_Breed_Motorcycle_Club&oldid=1339085387",
+  "source_file": "en_Lost_Breed_Motorcycle_Club"
+}

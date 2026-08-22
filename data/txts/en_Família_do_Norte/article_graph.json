@@ -1,0 +1,122 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Família do Norte",
+      "original_text_name": "Familia do Norte",
+      "aliases": [
+        "FDN",
+        "Northern Family",
+        "Cartel do Norte",
+        "CDN"
+      ],
+      "context": "Brazilian criminal faction operating in northern Brazil and neighboring countries, third largest in Brazil.",
+      "time_period": "2007-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=1356843015"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "CV"
+      ],
+      "context": "Brazilian criminal faction, allied with FDN from 2015-2018, later rival.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=1356843015"
+    },
+    {
+      "standard_name": "Primeiro Comando da Capital",
+      "original_text_name": "Primeiro Comando da Capital",
+      "aliases": [
+        "PCC"
+      ],
+      "context": "Brazilian criminal faction, rival of FDN and CV.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=1356843015"
+    },
+    {
+      "standard_name": "Guardiões do Estado",
+      "original_text_name": "Guardiões do Estado",
+      "aliases": [],
+      "context": "Brazilian criminal faction, rival of FDN.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=1356843015"
+    },
+    {
+      "standard_name": "Revolucionarios do Amazonas",
+      "original_text_name": "Revolucionarios do Amazonas",
+      "aliases": [
+        "RDA"
+      ],
+      "context": "CV splinter group that later joined PCC.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=1356843015"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Família do Norte",
+      "target": "Comando Vermelho",
+      "evidence_quote": "Between 2015 and 2018, the Familia do Norte and the Comando Vermelho (CV) formed an alliance to prevent the advance of the Primeiro Comando da Capital (PCC) in Amazonas",
+      "context": "FDN and CV were allied from 2015 to 2018 against PCC.",
+      "relationship": "cooperation",
+      "time_period": "2015-2018",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=1356843015"
+    },
+    {
+      "source": "Família do Norte",
+      "target": "Comando Vermelho",
+      "evidence_quote": "In 2018, the alliance dissolved, generating a confrontation between the CV and Familia do Norte",
+      "context": "After 2018, FDN and CV became enemies, engaging in conflict.",
+      "relationship": "conflict",
+      "time_period": "2018-2020",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=1356843015"
+    },
+    {
+      "source": "Família do Norte",
+      "target": "Primeiro Comando da Capital",
+      "evidence_quote": "Rivals: Comando Vermelho (after July 2020), Guardiões do Estado , Primeiro Comando da Capital",
+      "context": "FDN lists PCC as a rival in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=1356843015"
+    },
+    {
+      "source": "Família do Norte",
+      "target": "Guardiões do Estado",
+      "evidence_quote": "Rivals: Comando Vermelho (after July 2020), Guardiões do Estado , Primeiro Comando da Capital",
+      "context": "FDN lists Guardiões do Estado as a rival in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=1356843015"
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "Primeiro Comando da Capital",
+      "evidence_quote": "Between 2015 and 2018, the Familia do Norte and the Comando Vermelho (CV) formed an alliance to prevent the advance of the Primeiro Comando da Capital (PCC) in Amazonas, generating the War between the PCC and CV in 2016",
+      "context": "CV and PCC were in conflict, with the war starting in 2016.",
+      "relationship": "conflict",
+      "time_period": "2016",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=1356843015"
+    },
+    {
+      "source": "Revolucionarios do Amazonas",
+      "target": "Primeiro Comando da Capital",
+      "evidence_quote": "some leaving to join a CV splinter group known as \"Revolucionarios do Amazonas\" (Revolutionaries of Amazonas; RDA), which later joined PCC in the state.",
+      "context": "RDA, a CV splinter, later joined PCC.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=1356843015"
+    },
+    {
+      "source": "Revolucionarios do Amazonas",
+      "target": "Comando Vermelho",
+      "evidence_quote": "some leaving to join a CV splinter group known as \"Revolucionarios do Amazonas\" (Revolutionaries of Amazonas; RDA)",
+      "context": "RDA is a splinter group of CV.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=1356843015"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=1356843015",
+  "source_file": "en_Família_do_Norte"
+}

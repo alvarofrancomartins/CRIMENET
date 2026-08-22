@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cártel de los Rojos",
+      "original_text_name": "Cártel de los Rojos",
+      "aliases": [
+        "Los Rojos"
+      ],
+      "context": "Mexican criminal organization that split from the Beltrán-Leyva Cartel, active in Guerrero, Morelos, and Puebla.",
+      "time_period": "2009-2022",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_los_Rojos&oldid=172897402"
+    },
+    {
+      "standard_name": "Cartel de los Beltran Leyva",
+      "original_text_name": "Cartel de los Beltran Leyva",
+      "aliases": [],
+      "context": "Mexican drug cartel from which Los Rojos split.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_los_Rojos&oldid=172897402"
+    },
+    {
+      "standard_name": "Cártel del Golfo",
+      "original_text_name": "Cártel del Golfo",
+      "aliases": [],
+      "context": "Mexican drug cartel; a different cell called 'los Rojos' split from it.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_los_Rojos&oldid=172897402"
+    },
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [],
+      "context": "Mexican criminal organization that fought Los Rojos over territory.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_los_Rojos&oldid=172897402"
+    },
+    {
+      "standard_name": "Guerreros Unidos",
+      "original_text_name": "Guerreros Unidos",
+      "aliases": [],
+      "context": "Mexican criminal organization allied with Los Rojos.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_los_Rojos&oldid=172897402"
+    },
+    {
+      "standard_name": "Cártel de Jalisco Nueva Generación",
+      "original_text_name": "Cártel de Jalisco Nueva Generación",
+      "aliases": [],
+      "context": "Mexican criminal organization listed as an enemy of Los Rojos.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_los_Rojos&oldid=172897402"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cártel de los Rojos",
+      "target": "Cartel de los Beltran Leyva",
+      "evidence_quote": "El Cártel de los Rojos (conocidos popularmente como Los Rojos) fue una organización criminal mexicana surgida como escisión del Cartel de los Beltran Leyva",
+      "context": "Los Rojos split from the Beltrán-Leyva Cartel.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_los_Rojos&oldid=172897402"
+    },
+    {
+      "source": "Cártel de los Rojos",
+      "target": "Cártel del Golfo",
+      "evidence_quote": "No se debe confundir con la célula delincuencial de los Rojos, que son una escisión del Cártel del Golfo.",
+      "context": "A different cell called 'los Rojos' split from the Gulf Cartel, but this is a clarification, not a direct relationship between the two organizations.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_los_Rojos&oldid=172897402"
+    },
+    {
+      "source": "Cártel de los Rojos",
+      "target": "La Familia Michoacana",
+      "evidence_quote": "Las autoridades confirmaron que la causa del enfrentamiento fue por disputa de territorio entre Los Rojos y células pertenecientes a La Familia Michoacana.",
+      "context": "Los Rojos fought La Familia Michoacana over territory.",
+      "relationship": "conflict",
+      "time_period": "2015",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_los_Rojos&oldid=172897402"
+    },
+    {
+      "source": "Cártel de los Rojos",
+      "target": "Guerreros Unidos",
+      "evidence_quote": "Aliados: * Guerreros Unidos",
+      "context": "Los Rojos are allied with Guerreros Unidos.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_los_Rojos&oldid=172897402"
+    },
+    {
+      "source": "Cártel de los Rojos",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "Enemigos: ... Grupos Criminales : Cártel de Jalisco Nueva Generación",
+      "context": "Los Rojos consider CJNG an enemy.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_los_Rojos&oldid=172897402"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_los_Rojos&oldid=172897402",
+  "source_file": "es_Cártel_de_los_Rojos"
+}

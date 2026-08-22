@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Blood Family Mafia",
+      "original_text_name": "Blood Family Mafia",
+      "aliases": [
+        "BFM"
+      ],
+      "context": "Canadian street gang active in Quebec, founded in 2006.",
+      "time_period": "2006-Present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Blood_Family_Mafia&oldid=1353550214"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "context": "Outlaw motorcycle gang active in Quebec, involved in drug trade and taxation of street gangs.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Blood_Family_Mafia&oldid=1353550214"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Blood Family Mafia",
+      "target": "Hells Angels",
+      "evidence_quote": "The BFM traditionally paid a 10% 'tax' to the Hells Angels, but in 2023 the group came into conflict with the Hells Angels after it ceased paying the 'tax'.",
+      "context": "BFM stopped paying tax to Hells Angels, leading to conflict.",
+      "relationship": "conflict",
+      "time_period": "2023",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Blood_Family_Mafia&oldid=1353550214"
+    },
+    {
+      "source": "Blood Family Mafia",
+      "target": "Hells Angels",
+      "evidence_quote": "Rivals: Hells Angels",
+      "context": "Infobox lists Hells Angels as rivals of BFM.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Blood_Family_Mafia&oldid=1353550214"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Blood_Family_Mafia&oldid=1353550214",
+  "source_file": "en_Blood_Family_Mafia"
+}

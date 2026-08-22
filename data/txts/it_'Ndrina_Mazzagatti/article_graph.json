@@ -1,0 +1,203 @@
+{
+  "nodes": [
+    {
+      "standard_name": "'Ndrina Mazzagatti",
+      "original_text_name": "Mazzagatti",
+      "aliases": [
+        "Mazzagatti"
+      ],
+      "context": "'Ndrina of Oppido Mamertina, involved in cement business and feuds.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "standard_name": "'Ndrina Polimeni",
+      "original_text_name": "Polimeni",
+      "aliases": [
+        "Polimeni"
+      ],
+      "context": "'Ndrina allied with Mazzagatti and Bonarrigo.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "standard_name": "'Ndrina Bonarrigo",
+      "original_text_name": "Bonarrigo",
+      "aliases": [
+        "Bonarrigo"
+      ],
+      "context": "'Ndrina allied with Mazzagatti and Polimeni.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "standard_name": "'Ndrina Ferraro",
+      "original_text_name": "Ferraro",
+      "aliases": [
+        "Ferraro"
+      ],
+      "context": "'Ndrina in feud with Mazzagatti-Polimeni-Bonarrigo.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "standard_name": "'Ndrina Raccosta",
+      "original_text_name": "Raccosta",
+      "aliases": [
+        "Raccosta"
+      ],
+      "context": "'Ndrina in feud with Mazzagatti-Polimeni-Bonarrigo.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "standard_name": "'Ndrina Mammoliti",
+      "original_text_name": "Mammoliti",
+      "aliases": [
+        "Mammoliti"
+      ],
+      "context": "'Ndrina involved in feud on the side of Ferraro-Raccosta.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    }
+  ],
+  "edges": [
+    {
+      "source": "'Ndrina Mazzagatti",
+      "target": "'Ndrina Polimeni",
+      "evidence_quote": "I Mazzagatti sono una 'ndrina di Oppido Mamertina alleata dei Polimeni e dei Bonarrigo .",
+      "context": "Mazzagatti is allied with Polimeni.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "source": "'Ndrina Mazzagatti",
+      "target": "'Ndrina Bonarrigo",
+      "evidence_quote": "I Mazzagatti sono una 'ndrina di Oppido Mamertina alleata dei Polimeni e dei Bonarrigo .",
+      "context": "Mazzagatti is allied with Bonarrigo.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "source": "'Ndrina Polimeni",
+      "target": "'Ndrina Bonarrigo",
+      "evidence_quote": "Dal 1992 al 1998 i Mazzagatti- Polimeni-Bonarrigo sono in faida con i Ferraro-Raccosta .",
+      "context": "Polimeni and Bonarrigo are allied together with Mazzagatti in a feud.",
+      "relationship": "cooperation",
+      "time_period": "1992-1998",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "source": "'Ndrina Mazzagatti",
+      "target": "'Ndrina Ferraro",
+      "evidence_quote": "Dal 1992 al 1998 i Mazzagatti- Polimeni-Bonarrigo sono in faida con i Ferraro-Raccosta .",
+      "context": "Mazzagatti is in feud with Ferraro.",
+      "relationship": "conflict",
+      "time_period": "1992-1998",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "source": "'Ndrina Mazzagatti",
+      "target": "'Ndrina Raccosta",
+      "evidence_quote": "Dal 1992 al 1998 i Mazzagatti- Polimeni-Bonarrigo sono in faida con i Ferraro-Raccosta .",
+      "context": "Mazzagatti is in feud with Raccosta.",
+      "relationship": "conflict",
+      "time_period": "1992-1998",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "source": "'Ndrina Polimeni",
+      "target": "'Ndrina Ferraro",
+      "evidence_quote": "Dal 1992 al 1998 i Mazzagatti- Polimeni-Bonarrigo sono in faida con i Ferraro-Raccosta .",
+      "context": "Polimeni is in feud with Ferraro.",
+      "relationship": "conflict",
+      "time_period": "1992-1998",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "source": "'Ndrina Polimeni",
+      "target": "'Ndrina Raccosta",
+      "evidence_quote": "Dal 1992 al 1998 i Mazzagatti- Polimeni-Bonarrigo sono in faida con i Ferraro-Raccosta .",
+      "context": "Polimeni is in feud with Raccosta.",
+      "relationship": "conflict",
+      "time_period": "1992-1998",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "source": "'Ndrina Bonarrigo",
+      "target": "'Ndrina Ferraro",
+      "evidence_quote": "Dal 1992 al 1998 i Mazzagatti- Polimeni-Bonarrigo sono in faida con i Ferraro-Raccosta .",
+      "context": "Bonarrigo is in feud with Ferraro.",
+      "relationship": "conflict",
+      "time_period": "1992-1998",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "source": "'Ndrina Bonarrigo",
+      "target": "'Ndrina Raccosta",
+      "evidence_quote": "Dal 1992 al 1998 i Mazzagatti- Polimeni-Bonarrigo sono in faida con i Ferraro-Raccosta .",
+      "context": "Bonarrigo is in feud with Raccosta.",
+      "relationship": "conflict",
+      "time_period": "1992-1998",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "source": "'Ndrina Ferraro",
+      "target": "'Ndrina Raccosta",
+      "evidence_quote": "Dal 1992 al 1998 i Mazzagatti- Polimeni-Bonarrigo sono in faida con i Ferraro-Raccosta .",
+      "context": "Ferraro and Raccosta are allied together in a feud.",
+      "relationship": "cooperation",
+      "time_period": "1992-1998",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "source": "'Ndrina Mammoliti",
+      "target": "'Ndrina Ferraro",
+      "evidence_quote": "Dal 2011 sembra riesplosa la faida tra le due consorterie e questa volta sarebbero stati coinvolti anche i Mammoliti a favore di questi ultimi.",
+      "context": "Mammoliti sided with Ferraro-Raccosta in the feud.",
+      "relationship": "cooperation",
+      "time_period": "2011",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "source": "'Ndrina Mammoliti",
+      "target": "'Ndrina Raccosta",
+      "evidence_quote": "Dal 2011 sembra riesplosa la faida tra le due consorterie e questa volta sarebbero stati coinvolti anche i Mammoliti a favore di questi ultimi.",
+      "context": "Mammoliti sided with Ferraro-Raccosta in the feud.",
+      "relationship": "cooperation",
+      "time_period": "2011",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "source": "'Ndrina Mammoliti",
+      "target": "'Ndrina Mazzagatti",
+      "evidence_quote": "Dal 2011 sembra riesplosa la faida tra le due consorterie e questa volta sarebbero stati coinvolti anche i Mammoliti a favore di questi ultimi.",
+      "context": "Mammoliti sided against Mazzagatti-Polimeni-Bonarrigo in the feud.",
+      "relationship": "conflict",
+      "time_period": "2011",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "source": "'Ndrina Mammoliti",
+      "target": "'Ndrina Polimeni",
+      "evidence_quote": "Dal 2011 sembra riesplosa la faida tra le due consorterie e questa volta sarebbero stati coinvolti anche i Mammoliti a favore di questi ultimi.",
+      "context": "Mammoliti sided against Mazzagatti-Polimeni-Bonarrigo in the feud.",
+      "relationship": "conflict",
+      "time_period": "2011",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    },
+    {
+      "source": "'Ndrina Mammoliti",
+      "target": "'Ndrina Bonarrigo",
+      "evidence_quote": "Dal 2011 sembra riesplosa la faida tra le due consorterie e questa volta sarebbero stati coinvolti anche i Mammoliti a favore di questi ultimi.",
+      "context": "Mammoliti sided against Mazzagatti-Polimeni-Bonarrigo in the feud.",
+      "relationship": "conflict",
+      "time_period": "2011",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Mazzagatti&oldid=149627886",
+  "source_file": "it_'Ndrina_Mazzagatti"
+}

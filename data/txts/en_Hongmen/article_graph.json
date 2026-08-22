@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hongmen",
+      "original_text_name": "Hongmen",
+      "aliases": [
+        "Tiandihui",
+        "Sanhehui",
+        "Chinese Freemasons"
+      ],
+      "context": "Chinese fraternal organization, historically a secret society, now associated with criminal groups.",
+      "time_period": "1761-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hongmen&oldid=1359019068"
+    },
+    {
+      "standard_name": "White Lotus Society",
+      "original_text_name": "White Lotus Society",
+      "aliases": [],
+      "context": "Ming loyalist and anti-Qing secret society, ancestral organization of Tiandihui.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hongmen&oldid=1359019068"
+    },
+    {
+      "standard_name": "Triads",
+      "original_text_name": "Triads",
+      "aliases": [],
+      "context": "Modern criminal groups that emerged from Hongmen after 1911.",
+      "time_period": "post-1911",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hongmen&oldid=1359019068"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hongmen",
+      "target": "White Lotus Society",
+      "evidence_quote": "The Hongmen (Vast Family), formerly Tiandihui (Heaven and Earth Society), is a Chinese fraternal organisation and historically a secretive folk religious sect in the vein of the Ming loyalist and anti-Qing White Lotus Society, the Tiandihui's ancestral organisation.",
+      "context": "Hongmen's predecessor Tiandihui is described as being in the vein of White Lotus Society, which is its ancestral organization.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hongmen&oldid=1359019068"
+    },
+    {
+      "source": "Hongmen",
+      "target": "Triads",
+      "evidence_quote": "When some Hongmen groups based within China could no longer rely on donations from sympathetic locals; being unable to resume normal civilian lives after years of hiding, they turned to illegal activities – thus giving birth to the modern Triads.",
+      "context": "Hongmen groups turned to crime and gave birth to the modern Triads.",
+      "relationship": "other",
+      "time_period": "post-1911",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hongmen&oldid=1359019068"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Hongmen&oldid=1359019068",
+  "source_file": "en_Hongmen"
+}

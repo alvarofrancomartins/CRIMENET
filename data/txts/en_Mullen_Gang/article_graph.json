@@ -1,0 +1,64 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Mullen Gang",
+      "original_text_name": "Mullen Gang",
+      "aliases": [
+        "Mullens"
+      ],
+      "context": "Irish-American gang operating in Boston, Massachusetts, involved in racketeering, armed robbery, auto theft, burglary, extortion, loansharking, illegal gambling, murder.",
+      "time_period": "c. 1950s–1972",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mullen_Gang&oldid=1335870225"
+    },
+    {
+      "standard_name": "Killeen Gang",
+      "original_text_name": "Killeen Gang",
+      "aliases": [
+        "Killeen brothers",
+        "Killeen faction"
+      ],
+      "context": "Irish-American crime family running bookmaking and loansharking in South Boston, Massachusetts.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mullen_Gang&oldid=1335870225"
+    },
+    {
+      "standard_name": "Winter Hill Gang",
+      "original_text_name": "Winter Hill Gang",
+      "aliases": [],
+      "context": "Irish-American gang based in Somerville, Massachusetts, led by Howie Winter.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mullen_Gang&oldid=1335870225"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Mullen Gang",
+      "target": "Killeen Gang",
+      "evidence_quote": "After a decade-long gang war against another Irish mob group, the Killeen Gang, for control of criminal rackets in South Boston, both gangs were consolidated under the control of the Winter Hill Gang in 1972.",
+      "context": "The Mullen Gang and Killeen Gang fought a gang war for control of South Boston rackets.",
+      "relationship": "conflict",
+      "time_period": "mid-1960s–1972",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mullen_Gang&oldid=1335870225"
+    },
+    {
+      "source": "Mullen Gang",
+      "target": "Winter Hill Gang",
+      "evidence_quote": "Allies: Winter Hill Gang",
+      "context": "The Mullen Gang was allied with the Winter Hill Gang, as per infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mullen_Gang&oldid=1335870225"
+    },
+    {
+      "source": "Killeen Gang",
+      "target": "Winter Hill Gang",
+      "evidence_quote": "After a sit-down at Chandler's restaurant in the South End, Boston, the two gangs joined forces with Winter as overall boss.",
+      "context": "The Killeen Gang and Mullen Gang were consolidated under the control of the Winter Hill Gang in 1972.",
+      "relationship": "other",
+      "time_period": "1972",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mullen_Gang&oldid=1335870225"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Mullen_Gang&oldid=1335870225",
+  "source_file": "en_Mullen_Gang"
+}

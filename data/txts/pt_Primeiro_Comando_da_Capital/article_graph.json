@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Primeiro Comando da Capital",
+      "original_text_name": "Primeiro Comando da Capital",
+      "aliases": [
+        "PCC",
+        "15.3.3",
+        "15",
+        "Quinze",
+        "Partido",
+        "Partido do Crime"
+      ],
+      "context": "Maior organização criminosa do Brasil, atua principalmente em São Paulo e em todo o Brasil, além de países fronteiriços. Envolvida em tráfico de drogas, roubos, lavagem de dinheiro.",
+      "time_period": "1993-",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=72382164"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "CV"
+      ],
+      "context": "Facção criminosa do Rio de Janeiro, considerada a maior facção do país após o PCC se tornar máfia.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=72382164"
+    },
+    {
+      "standard_name": "Família do Norte",
+      "original_text_name": "Família do Norte",
+      "aliases": [
+        "FDN"
+      ],
+      "context": "Facção criminosa aliada ao Comando Vermelho, envolvida em conflitos com o PCC.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=72382164"
+    },
+    {
+      "standard_name": "Comando Classe A",
+      "original_text_name": "Comando Classe A",
+      "aliases": [],
+      "context": "Facção criminosa aliada ao PCC, envolvida em massacre contra o CV.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=72382164"
+    },
+    {
+      "standard_name": "Primeiro Comando da Capital",
+      "original_text_name": "Primeiro Comando da Capital",
+      "aliases": [
+        "PCC",
+        "15.3.3",
+        "15",
+        "Quinze",
+        "Partido"
+      ],
+      "context": "Maior organização criminosa do Brasil, atua principalmente em São Paulo e em outros países.",
+      "time_period": "1993-presente",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=72382164"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "CV"
+      ],
+      "context": "Facção criminosa brasileira, assumiu o posto de maior facção do país após o PCC ser considerado máfia.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=72382164"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Primeiro Comando da Capital",
+      "target": "Comando Vermelho",
+      "evidence_quote": "responsáveis pela aliança do grupo com a facção criminosa Comando Vermelho (CV), do Rio de Janeiro.",
+      "context": "PCC e CV foram aliados sob a liderança de Geleião e Cesinha.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=72382164"
+    },
+    {
+      "source": "Primeiro Comando da Capital",
+      "target": "Comando Vermelho",
+      "evidence_quote": "O conflito entre facções criminosas brasileiras de 2016–2020 foram uma série de confrontos entre organizações criminosas do país divididas em dois lados em fins da década de 2010. Os confrontos têm sido encabeçados por Primeiro Comando da Capital (PCC) e Comando Vermelho (CV), em lados opostos",
+      "context": "PCC e CV estão em lados opostos em um conflito que começou em 2016.",
+      "relationship": "conflict",
+      "time_period": "2016-2020",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=72382164"
+    },
+    {
+      "source": "Primeiro Comando da Capital",
+      "target": "Família do Norte",
+      "evidence_quote": "Integrantes de duas quadrilhas rivais de tráfico de drogas, o Primeiro Comando da Capital (PCC) e a Família do Norte (FDN) — aliada do Comando Vermelho (CV) — entraram em confronto",
+      "context": "PCC e FDN são rivais e entraram em confronto em 2017.",
+      "relationship": "conflict",
+      "time_period": "2017",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=72382164"
+    },
+    {
+      "source": "Primeiro Comando da Capital",
+      "target": "Comando Classe A",
+      "evidence_quote": "massacre executado pela facção Comando Classe A, então aliada recente do PCC, contra o CV.",
+      "context": "Comando Classe A é aliado do PCC.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=72382164"
+    },
+    {
+      "source": "Primeiro Comando da Capital",
+      "target": "Comando Vermelho",
+      "evidence_quote": "Com isso, o Comando Vermelho (CV) assumiu o posto de maior facção do país.",
+      "context": "O PCC foi considerado a primeira máfia do Brasil, e o CV tornou-se a maior facção.",
+      "relationship": "other",
+      "time_period": "setembro de 2020",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=72382164"
+    }
+  ],
+  "source_url": "https://pt.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=72382164",
+  "source_file": "pt_Primeiro_Comando_da_Capital"
+}

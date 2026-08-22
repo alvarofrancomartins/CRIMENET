@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "standard_name": "National Crime Syndicate",
+      "original_text_name": "National Crime Syndicate",
+      "aliases": [],
+      "context": "A confederation of organized crime groups in the United States.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Abner_Zwillman&oldid=1355230671"
+    },
+    {
+      "standard_name": "New Jersey Minutemen",
+      "original_text_name": "New Jersey Minutemen",
+      "aliases": [],
+      "context": "A militant anti-fascist group founded by Abner Zwillman, operating in Newark, New Jersey.",
+      "time_period": "1933 to 1941",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Abner_Zwillman&oldid=1355230671"
+    },
+    {
+      "standard_name": "German American Bund",
+      "original_text_name": "German American Bund",
+      "aliases": [],
+      "context": "A pro-Nazi organization in the United States.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Abner_Zwillman&oldid=1355230671"
+    },
+    {
+      "standard_name": "Christian Front",
+      "original_text_name": "Christian Front",
+      "aliases": [],
+      "context": "A pro-Nazi organization in the United States.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Abner_Zwillman&oldid=1355230671"
+    },
+    {
+      "standard_name": "Luciano Family",
+      "original_text_name": "Luciano Family",
+      "aliases": [],
+      "context": "A Mafia crime family, also known as the Genovese family.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Abner_Zwillman&oldid=1355230671"
+    }
+  ],
+  "edges": [
+    {
+      "source": "New Jersey Minutemen",
+      "target": "German American Bund",
+      "evidence_quote": "They were antagonists of the pro-Nazi German American Bund and the Christian Front.",
+      "context": "The New Jersey Minutemen were antagonists of the German American Bund.",
+      "relationship": "conflict",
+      "time_period": "1933 to 1941",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Abner_Zwillman&oldid=1355230671"
+    },
+    {
+      "source": "New Jersey Minutemen",
+      "target": "Christian Front",
+      "evidence_quote": "They were antagonists of the pro-Nazi German American Bund and the Christian Front.",
+      "context": "The New Jersey Minutemen were antagonists of the Christian Front.",
+      "relationship": "conflict",
+      "time_period": "1933 to 1941",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Abner_Zwillman&oldid=1355230671"
+    },
+    {
+      "source": "Luciano Family",
+      "target": "National Crime Syndicate",
+      "evidence_quote": "Allegiance: Luciano Family (Associate)",
+      "context": "The Luciano Family was an associate of the National Crime Syndicate.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Abner_Zwillman&oldid=1355230671"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Abner_Zwillman&oldid=1355230671",
+  "source_file": "en_Abner_Zwillman"
+}

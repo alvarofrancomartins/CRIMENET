@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Peasant Self-Defenders of Córdoba and Urabá",
+      "original_text_name": "Autodefensas Campesinas de Córdoba y Urabá ( ACCU )",
+      "aliases": [
+        "ACCU",
+        "Field Workers Self-Defenders of Córdoba and Urabá"
+      ],
+      "context": "Colombian paramilitary group formed to retaliate against FARC-EP, later became part of AUC.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Peasant_Self-Defenders_of_C%C3%B3rdoba_and_Urab%C3%A1&oldid=1115824793"
+    },
+    {
+      "standard_name": "Revolutionary Armed Forces of Colombia",
+      "original_text_name": "FARC-EP",
+      "aliases": [
+        "FARC-EP"
+      ],
+      "context": "Colombian guerrilla group that assassinated Jesús Castaño, prompting formation of ACCU.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Peasant_Self-Defenders_of_C%C3%B3rdoba_and_Urab%C3%A1&oldid=1115824793"
+    },
+    {
+      "standard_name": "United Self-Defenders of Colombia",
+      "original_text_name": "United Self-Defenders of Colombia (AUC)",
+      "aliases": [
+        "AUC"
+      ],
+      "context": "Umbrella paramilitary group formed by ACCU and other small armies.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Peasant_Self-Defenders_of_C%C3%B3rdoba_and_Urab%C3%A1&oldid=1115824793"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Peasant Self-Defenders of Córdoba and Urabá",
+      "target": "Revolutionary Armed Forces of Colombia",
+      "evidence_quote": "It was founded by Fidel Castaño , Carlos Castaño and Vicente Castaño to retaliate against the assassination of their father Jesús Castaño by FARC-EP guerrillas.",
+      "context": "ACCU was formed to fight FARC-EP in retaliation for killing their father.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Peasant_Self-Defenders_of_C%C3%B3rdoba_and_Urab%C3%A1&oldid=1115824793"
+    },
+    {
+      "source": "Peasant Self-Defenders of Córdoba and Urabá",
+      "target": "United Self-Defenders of Colombia",
+      "evidence_quote": "After Fidel Castaño's disappearance, his brother Carlos took over the ACCU and eventually led it to the formation of the United Self-Defenders of Colombia (AUC), which grouped other small paramilitary armies organized throughout Colombia.",
+      "context": "ACCU led to the formation of AUC and became its most powerful component.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Peasant_Self-Defenders_of_C%C3%B3rdoba_and_Urab%C3%A1&oldid=1115824793"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Peasant_Self-Defenders_of_C%C3%B3rdoba_and_Urab%C3%A1&oldid=1115824793",
+  "source_file": "en_Peasant_Self-Defenders_of_Córdoba_and_Urabá"
+}

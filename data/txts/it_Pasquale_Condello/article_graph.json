@@ -1,0 +1,110 @@
+{
+  "nodes": [
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'ndrangheta",
+      "aliases": [],
+      "context": "Italian mafia organization based in Calabria.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Pasquale_Condello&oldid=150918985"
+    },
+    {
+      "standard_name": "De Stefano",
+      "original_text_name": "De Stefano",
+      "aliases": [],
+      "context": "Criminal clan within 'Ndrangheta, led by Paolo De Stefano.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Pasquale_Condello&oldid=150918985"
+    },
+    {
+      "standard_name": "Imerti",
+      "original_text_name": "Imerti",
+      "aliases": [],
+      "context": "Criminal clan within 'Ndrangheta, allied with Condello.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Pasquale_Condello&oldid=150918985"
+    },
+    {
+      "standard_name": "Rosmini",
+      "original_text_name": "Rosmini",
+      "aliases": [],
+      "context": "Criminal clan within 'Ndrangheta, allied with Condello.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Pasquale_Condello&oldid=150918985"
+    },
+    {
+      "standard_name": "Fontana",
+      "original_text_name": "Fontana",
+      "aliases": [],
+      "context": "Criminal clan within 'Ndrangheta, allied with Condello.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Pasquale_Condello&oldid=150918985"
+    },
+    {
+      "standard_name": "Saraceno",
+      "original_text_name": "Saraceno",
+      "aliases": [],
+      "context": "Criminal clan within 'Ndrangheta, allied with Condello.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Pasquale_Condello&oldid=150918985"
+    }
+  ],
+  "edges": [
+    {
+      "source": "De Stefano",
+      "target": "Imerti",
+      "evidence_quote": "l'11 ottobre 1985 piazzarono un'autobomba contro Nino Imerti",
+      "context": "De Stefano clan attacked Imerti with a car bomb.",
+      "relationship": "conflict",
+      "time_period": "1985",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Pasquale_Condello&oldid=150918985"
+    },
+    {
+      "source": "Condello",
+      "target": "Imerti",
+      "evidence_quote": "I condelliani erano alleati con gli Imerti",
+      "context": "Condello's faction was allied with the Imerti clan.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Pasquale_Condello&oldid=150918985"
+    },
+    {
+      "source": "Condello",
+      "target": "Rosmini",
+      "evidence_quote": "I condelliani erano alleati con gli Imerti , i Rosmini , i Fontana e i Saraceno.",
+      "context": "Condello's faction was allied with the Rosmini clan.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Pasquale_Condello&oldid=150918985"
+    },
+    {
+      "source": "Condello",
+      "target": "Fontana",
+      "evidence_quote": "I condelliani erano alleati con gli Imerti , i Rosmini , i Fontana e i Saraceno.",
+      "context": "Condello's faction was allied with the Fontana clan.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Pasquale_Condello&oldid=150918985"
+    },
+    {
+      "source": "Condello",
+      "target": "Saraceno",
+      "evidence_quote": "I condelliani erano alleati con gli Imerti , i Rosmini , i Fontana e i Saraceno.",
+      "context": "Condello's faction was allied with the Saraceno clan.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Pasquale_Condello&oldid=150918985"
+    },
+    {
+      "source": "Condello",
+      "target": "De Stefano",
+      "evidence_quote": "Due giorni dopo, si scatenò l'eclatante riposta con il duplice omicidio di don Paolino De Stefano e dell'autista Antonio Pellicanò, di cui Condello e il fratello Domenico furono esecutori.",
+      "context": "Condello killed Paolo De Stefano in retaliation for the car bomb.",
+      "relationship": "conflict",
+      "time_period": "1985",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Pasquale_Condello&oldid=150918985"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Pasquale_Condello&oldid=150918985",
+  "source_file": "it_Pasquale_Condello"
+}

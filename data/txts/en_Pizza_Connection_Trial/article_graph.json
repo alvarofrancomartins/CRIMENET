@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sicilian Mafia",
+      "original_text_name": "Sicilian Mafia",
+      "aliases": [],
+      "context": "Italian criminal organization involved in heroin trafficking and the Pizza Connection Trial.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pizza_Connection_Trial&oldid=1341889163"
+    },
+    {
+      "standard_name": "American Mafia",
+      "original_text_name": "American Mafia",
+      "aliases": [],
+      "context": "US-based criminal organization involved in the Pizza Connection Trial.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pizza_Connection_Trial&oldid=1341889163"
+    },
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno crime family",
+      "aliases": [],
+      "context": "American Mafia family; a faction allied with Sicilian faction in the trial.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pizza_Connection_Trial&oldid=1341889163"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Sicilian Mafia",
+      "target": "American Mafia",
+      "evidence_quote": "The Pizza Connection Trial (in full, United States v. Badalamenti et al. ) was a criminal trial against the Sicilian Mafia and American Mafia",
+      "context": "Both organizations were defendants in the same trial, indicating cooperation in the drug ring.",
+      "relationship": "cooperation",
+      "time_period": "1975-1984",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pizza_Connection_Trial&oldid=1341889163"
+    },
+    {
+      "source": "Bonanno crime family",
+      "target": "Sicilian Mafia",
+      "evidence_quote": "Pistone testified that he was told that a Bonanno faction headed by Dominick Napolitano had formed an alliance with a Sicilian faction, which involved Salvatore Catalano.",
+      "context": "A Bonanno faction allied with a Sicilian faction for drug trafficking.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pizza_Connection_Trial&oldid=1341889163"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Pizza_Connection_Trial&oldid=1341889163",
+  "source_file": "en_Pizza_Connection_Trial"
+}

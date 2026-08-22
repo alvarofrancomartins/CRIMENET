@@ -1,0 +1,139 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Clan Matrone",
+      "original_text_name": "clan Matrone",
+      "aliases": [],
+      "context": "Camorra clan based in Scafati, Salerno province.",
+      "time_period": "1970s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Matrone&oldid=149812113"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "context": "Camorra organization led by Raffaele Cutolo, sought dominance in Campania.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Matrone&oldid=149812113"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "context": "Criminal cartel formed to oppose the NCO.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Matrone&oldid=149812113"
+    },
+    {
+      "standard_name": "Clan Loreto",
+      "original_text_name": "Loreto",
+      "aliases": [],
+      "context": "Camorra family from Scafati.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Matrone&oldid=149812113"
+    },
+    {
+      "standard_name": "Clan Ridosso",
+      "original_text_name": "Ridosso",
+      "aliases": [],
+      "context": "Camorra family from Scafati.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Matrone&oldid=149812113"
+    },
+    {
+      "standard_name": "Aquino-Annunziata",
+      "original_text_name": "Aquino-Annunziata",
+      "aliases": [],
+      "context": "Criminal group from Boscoreale, historical allies of the Matrone.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Matrone&oldid=149812113"
+    },
+    {
+      "standard_name": "Clan Cesarano",
+      "original_text_name": "clan Cesarano",
+      "aliases": [],
+      "context": "Camorra clan from Ponte Persica, in conflict with Buonocore group.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Matrone&oldid=149812113"
+    },
+    {
+      "standard_name": "Gruppo Buonocore",
+      "original_text_name": "Gruppo Buonocore",
+      "aliases": [
+        "Buonocore"
+      ],
+      "context": "Group led by Giuseppe Buonocore, aiming to restore Matrone dominance.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Matrone&oldid=149812113"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Clan Matrone",
+      "target": "Nuova Famiglia",
+      "evidence_quote": "il clan si schierò, unitamente alle famiglie camorristiche dei \"Loreto\" e dei \"Ridosso\" - anch'esse di Scafati - con la Nuova Famiglia",
+      "context": "Clan Matrone allied with Nuova Famiglia against NCO.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Matrone&oldid=149812113"
+    },
+    {
+      "source": "Clan Matrone",
+      "target": "Nuova Camorra Organizzata",
+      "evidence_quote": "il clan si schierò, unitamente alle famiglie camorristiche dei \"Loreto\" e dei \"Ridosso\" - anch'esse di Scafati - con la Nuova Famiglia , cartello criminale nato con l'intento di stroncare le trame e lo strapotere della NCO di Cutolo.",
+      "context": "Clan Matrone opposed NCO by siding with Nuova Famiglia.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Matrone&oldid=149812113"
+    },
+    {
+      "source": "Clan Matrone",
+      "target": "Clan Loreto",
+      "evidence_quote": "il clan si schierò, unitamente alle famiglie camorristiche dei \"Loreto\" e dei \"Ridosso\" - anch'esse di Scafati - con la Nuova Famiglia",
+      "context": "Clan Matrone allied with Loreto and Ridosso families.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Matrone&oldid=149812113"
+    },
+    {
+      "source": "Clan Matrone",
+      "target": "Clan Ridosso",
+      "evidence_quote": "il clan si schierò, unitamente alle famiglie camorristiche dei \"Loreto\" e dei \"Ridosso\" - anch'esse di Scafati - con la Nuova Famiglia",
+      "context": "Clan Matrone allied with Loreto and Ridosso families.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Matrone&oldid=149812113"
+    },
+    {
+      "source": "Clan Matrone",
+      "target": "Aquino-Annunziata",
+      "evidence_quote": "contratto con gli Aquino-Annunziata di Boscoreale , storici alleati dei Matrone",
+      "context": "Aquino-Annunziata are historical allies of the Matrone.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Matrone&oldid=149812113"
+    },
+    {
+      "source": "Gruppo Buonocore",
+      "target": "Clan Cesarano",
+      "evidence_quote": "I Buonocore sono giunti allo scontro con il clan Cesarano di Ponte Persica .",
+      "context": "Buonocore group clashed with Cesarano clan in 2017-2018.",
+      "relationship": "conflict",
+      "time_period": "2017-2018",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Matrone&oldid=149812113"
+    },
+    {
+      "source": "Gruppo Buonocore",
+      "target": "Clan Matrone",
+      "evidence_quote": "Giuseppe Buonocore, alias \"Zi' Peppe 'e Scafati\", genero di Franco Matrone , voleva ripristinare il dominio dei Matrone su Scafati e dintorni.",
+      "context": "Buonocore group sought to restore Matrone dominance.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Matrone&oldid=149812113"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Matrone&oldid=149812113",
+  "source_file": "it_Clan_Matrone"
+}

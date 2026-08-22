@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Japan's largest yakuza gang, led by Masahisa Takenaka as fourth-generation boss.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Masahisa_Takenaka&oldid=1342764628"
+    },
+    {
+      "standard_name": "Ichiwa-kai",
+      "original_text_name": "Ichiwa-kai",
+      "aliases": [],
+      "context": "A rival yakuza group that seceded from Yamaguchi-gumi and assassinated Takenaka.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Masahisa_Takenaka&oldid=1342764628"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Yamaguchi-gumi",
+      "target": "Ichiwa-kai",
+      "evidence_quote": "However, Takenaka was assassinated at a girlfriend's home in Osaka early the following year by a rival group, the Ichiwa-kai , led by Hiroshi Yamamoto, who had seceded from the clan.",
+      "context": "Ichiwa-kai seceded from Yamaguchi-gumi and assassinated its boss, sparking the Yama–Ichi War.",
+      "relationship": "conflict",
+      "time_period": "1985",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Masahisa_Takenaka&oldid=1342764628"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Masahisa_Takenaka&oldid=1342764628",
+  "source_file": "en_Masahisa_Takenaka"
+}

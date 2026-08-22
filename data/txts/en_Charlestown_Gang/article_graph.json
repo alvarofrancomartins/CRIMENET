@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Charlestown Gang",
+      "original_text_name": "Charlestown Gang",
+      "aliases": [
+        "McLaughlin Gang"
+      ],
+      "context": "Irish American organized crime gang based in Charlestown, Boston, led by the McLaughlin brothers.",
+      "time_period": "c. 1950s–1966",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charlestown_Gang&oldid=1356611100"
+    },
+    {
+      "standard_name": "Winter Hill Gang",
+      "original_text_name": "Winter Hill Gang",
+      "aliases": [],
+      "context": "Rival Irish mob group from Somerville led by James 'Buddy' McLean.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charlestown_Gang&oldid=1356611100"
+    },
+    {
+      "standard_name": "Patriarca crime family",
+      "original_text_name": "Patriarca crime family",
+      "aliases": [],
+      "context": "Mafia family in Boston for which the Charlestown Gang carried out contract killings.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charlestown_Gang&oldid=1356611100"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [],
+      "context": "Mafia family in New York City for which the Charlestown Gang carried out contract killings.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charlestown_Gang&oldid=1356611100"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Charlestown Gang",
+      "target": "Winter Hill Gang",
+      "evidence_quote": "The Charlestown Gang became involved in a gang war with a rival Irish mob group, the Winter Hill Gang of Somerville led by James 'Buddy' McLean, beginning in 1961.",
+      "context": "The two gangs were engaged in a violent gang war from 1961 onward.",
+      "relationship": "conflict",
+      "time_period": "1961-1966",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charlestown_Gang&oldid=1356611100"
+    },
+    {
+      "source": "Charlestown Gang",
+      "target": "Patriarca crime family",
+      "evidence_quote": "The McLaughlin brothers forged ties with the Mafia, carrying out contract killings for the Patriarca crime family in Boston and the Genovese crime family in New York City.",
+      "context": "The Charlestown Gang performed contract killings for the Patriarca crime family.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charlestown_Gang&oldid=1356611100"
+    },
+    {
+      "source": "Charlestown Gang",
+      "target": "Genovese crime family",
+      "evidence_quote": "The McLaughlin brothers forged ties with the Mafia, carrying out contract killings for the Patriarca crime family in Boston and the Genovese crime family in New York City.",
+      "context": "The Charlestown Gang performed contract killings for the Genovese crime family.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charlestown_Gang&oldid=1356611100"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Charlestown_Gang&oldid=1356611100",
+  "source_file": "en_Charlestown_Gang"
+}

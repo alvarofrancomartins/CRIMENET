@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "White Uno Gang",
+      "original_text_name": "White Uno Gang",
+      "aliases": [
+        "Banda della Uno bianca"
+      ],
+      "context": "Italian criminal organization operating mainly in Emilia-Romagna and Marche, active 1987-1994.",
+      "time_period": "1987-1994",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=White_Uno_Gang&oldid=1353305510"
+    },
+    {
+      "standard_name": "Falange Armata",
+      "original_text_name": "Falange Armata",
+      "aliases": [],
+      "context": "Terrorist group that claimed responsibility for the Pilastro massacre.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=White_Uno_Gang&oldid=1353305510"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Falange Armata",
+      "target": "White Uno Gang",
+      "evidence_quote": "The massacre was immediately claimed by the terrorist group Falange Armata.",
+      "context": "Falange Armata claimed responsibility for a massacre committed by the White Uno Gang.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=White_Uno_Gang&oldid=1353305510"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=White_Uno_Gang&oldid=1353305510",
+  "source_file": "en_White_Uno_Gang"
+}

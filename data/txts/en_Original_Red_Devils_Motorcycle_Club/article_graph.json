@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Original Red Devils Motorcycle Club",
+      "original_text_name": "Original Red Devils Motorcycle Club",
+      "aliases": [
+        "Red Devils",
+        "Original Red Devils MC"
+      ],
+      "context": "Canadian outlaw motorcycle club based in Southern Ontario, founded in Hamilton in 1948.",
+      "time_period": "1948-2014",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Original_Red_Devils_Motorcycle_Club&oldid=1339086020"
+    },
+    {
+      "standard_name": "Bacchus Motorcycle Club",
+      "original_text_name": "Bacchus Motorcycle Club",
+      "aliases": [
+        "Bacchus MC"
+      ],
+      "context": "Motorcycle club that the Original Red Devils patched over to in late 2014.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Original_Red_Devils_Motorcycle_Club&oldid=1339086020"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "context": "Outlaw motorcycle club mentioned as having good relationships with the Original Red Devils.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Original_Red_Devils_Motorcycle_Club&oldid=1339086020"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Original Red Devils Motorcycle Club",
+      "target": "Bacchus Motorcycle Club",
+      "evidence_quote": "They would end up patching over to long-time ally Bacchus Motorcycle Club in late 2014, with their three chapters Hamilton , Chatham-Kent , and Sudbury joining Bacchus MC.",
+      "context": "The Original Red Devils merged into Bacchus MC by patching over their chapters.",
+      "relationship": "other",
+      "time_period": "2014",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Original_Red_Devils_Motorcycle_Club&oldid=1339086020"
+    },
+    {
+      "source": "Original Red Devils Motorcycle Club",
+      "target": "Hells Angels",
+      "evidence_quote": "All of this has led to the Red Devils being \"comfortable in their own skin,\" and have good relationships with other clubs, including the Hells Angels.",
+      "context": "The Original Red Devils have good relationships with Hells Angels.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Original_Red_Devils_Motorcycle_Club&oldid=1339086020"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Original_Red_Devils_Motorcycle_Club&oldid=1339086020",
+  "source_file": "en_Original_Red_Devils_Motorcycle_Club"
+}

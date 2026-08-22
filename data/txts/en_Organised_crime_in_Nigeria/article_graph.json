@@ -1,0 +1,139 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Area Boys",
+      "original_text_name": "Area Boys",
+      "aliases": [
+        "Agberos"
+      ],
+      "context": "Loosely organised gangs of street children and teenagers in Lagos, Nigeria, involved in extortion, drug sales, and other crimes.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_Nigeria&oldid=1339973705"
+    },
+    {
+      "standard_name": "Neo Black Movement of Africa",
+      "original_text_name": "Neo Black Movement of Africa",
+      "aliases": [
+        "NBM"
+      ],
+      "context": "Nigerian confraternity/campus gang involved in fraud, cybercrime, drug smuggling, and other crimes; linked to Black Axe.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_Nigeria&oldid=1339973705"
+    },
+    {
+      "standard_name": "Black Axe",
+      "original_text_name": "Black Axe",
+      "aliases": [],
+      "context": "Nigerian campus cult and organized crime group, considered the most dreaded wing of the Neo Black Movement; involved in car theft, fraud, and other crimes.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_Nigeria&oldid=1339973705"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "context": "Neapolitan mafia-type organization; allied with Nigerian groups in prostitution, drugs, and human trafficking.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_Nigeria&oldid=1339973705"
+    },
+    {
+      "standard_name": "Sicilian Mafia",
+      "original_text_name": "Sicilian Mafia",
+      "aliases": [],
+      "context": "Italian mafia organization; allied with Nigerian groups in prostitution, drugs, and human trafficking.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_Nigeria&oldid=1339973705"
+    },
+    {
+      "standard_name": "Capriati clan",
+      "original_text_name": "Capriati clan",
+      "aliases": [],
+      "context": "Historic crime clan in Bari, Italy; allied with a Nigerian crime group in drug trafficking.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_Nigeria&oldid=1339973705"
+    },
+    {
+      "standard_name": "Yakuza",
+      "original_text_name": "yakuza",
+      "aliases": [],
+      "context": "Japanese organized crime syndicate; involved in heroin dealing with Nigerian mafia in Tokyo.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_Nigeria&oldid=1339973705"
+    },
+    {
+      "standard_name": "Chinese triads",
+      "original_text_name": "Chinese triads",
+      "aliases": [],
+      "context": "Chinese organized crime groups; collaborated with Nigerian mafia in heroin trafficking in France.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_Nigeria&oldid=1339973705"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Neo Black Movement of Africa",
+      "target": "Black Axe",
+      "evidence_quote": "Behind the welfare facade of the Neo Black Movement hides indeed the most dreaded Nigerian campus cult, the Black Axe confraternity.",
+      "context": "Black Axe is the violent wing of the Neo Black Movement.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_Nigeria&oldid=1339973705"
+    },
+    {
+      "source": "Nigerian mafia",
+      "target": "Camorra",
+      "evidence_quote": "According to the police, the Nigerians are increasing their alliances with the Neapolitan Camorra and the Sicilian Mafia, the alliances are most regarded to prostitution, drugs and human trafficking business.",
+      "context": "Nigerian mafia is allied with Camorra in prostitution, drugs, and human trafficking.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_Nigeria&oldid=1339973705"
+    },
+    {
+      "source": "Nigerian mafia",
+      "target": "Sicilian Mafia",
+      "evidence_quote": "According to the police, the Nigerians are increasing their alliances with the Neapolitan Camorra and the Sicilian Mafia, the alliances are most regarded to prostitution, drugs and human trafficking business.",
+      "context": "Nigerian mafia is allied with Sicilian Mafia in prostitution, drugs, and human trafficking.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_Nigeria&oldid=1339973705"
+    },
+    {
+      "source": "Nigerian mafia",
+      "target": "Capriati clan",
+      "evidence_quote": "In January 2025, the Italian police dismantled a drug trafficking scheme between a Nigerian crime group and the historic Capriati clan in the city of Bari in the region of Apulia.",
+      "context": "Nigerian crime group allied with Capriati clan in drug trafficking.",
+      "relationship": "cooperation",
+      "time_period": "2025",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_Nigeria&oldid=1339973705"
+    },
+    {
+      "source": "Nigerian mafia",
+      "target": "Yakuza",
+      "evidence_quote": "The Nigerian mafia in Tokyo engages in heroin dealing with the yakuza, the prostitution of Filipino women, money laundering, car theft and arranging fake marriages, amongst other crimes.",
+      "context": "Nigerian mafia cooperates with yakuza in heroin dealing and other crimes.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_Nigeria&oldid=1339973705"
+    },
+    {
+      "source": "Nigerian mafia",
+      "target": "Chinese triads",
+      "evidence_quote": "The Nigerian mafia in France is involved in the sex trafficking of Nigerian women and girls, as well as heroin trafficking, in which they have collaborated with Chinese triads and other groups.",
+      "context": "Nigerian mafia collaborated with Chinese triads in heroin trafficking in France.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_Nigeria&oldid=1339973705"
+    },
+    {
+      "source": "Nigerian mafia",
+      "target": "Black Axe",
+      "evidence_quote": "Allies: Black Axe",
+      "context": "Black Axe is listed as an ally of the Nigerian mafia in the infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_Nigeria&oldid=1339973705"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_Nigeria&oldid=1339973705",
+  "source_file": "en_Organised_crime_in_Nigeria"
+}

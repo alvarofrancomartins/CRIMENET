@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "French Connection",
+      "original_text_name": "French Connection",
+      "aliases": [],
+      "context": "A drug trafficking network led by François Spirito, involved in heroin smuggling to the United States.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Paul_Carbone&oldid=1340990670"
+    },
+    {
+      "standard_name": "Carlingue",
+      "original_text_name": "Carlingue",
+      "aliases": [],
+      "context": "A French collaborationist police force during World War II that worked with the Germans.",
+      "time_period": "World War II",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Paul_Carbone&oldid=1340990670"
+    }
+  ],
+  "edges": [
+    {
+      "source": "French Connection",
+      "target": "Carlingue",
+      "evidence_quote": "During World War II, Carbone and Spirito joined the Carlingue, which collaborated with the Germans in France; in return, the local civilian authorities in Marseille were expected to ignore their criminal activities.",
+      "context": "Carbone and Spirito, leaders of the French Connection, joined the Carlingue during WWII.",
+      "relationship": "cooperation",
+      "time_period": "World War II",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Paul_Carbone&oldid=1340990670"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Paul_Carbone&oldid=1340990670",
+  "source_file": "en_Paul_Carbone"
+}

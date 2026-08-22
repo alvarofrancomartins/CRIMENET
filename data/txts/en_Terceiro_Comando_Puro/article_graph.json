@@ -1,0 +1,106 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Terceiro Comando Puro",
+      "original_text_name": "Terceiro Comando Puro",
+      "aliases": [
+        "TCP",
+        "Pure Third Command"
+      ],
+      "context": "Brazilian criminal organization in Rio de Janeiro, involved in drug trafficking.",
+      "time_period": "2002 – present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=1359161571"
+    },
+    {
+      "standard_name": "Terceiro Comando",
+      "original_text_name": "Terceiro Comando",
+      "aliases": [
+        "TC"
+      ],
+      "context": "Brazilian criminal organization in Rio de Janeiro, parent of TCP.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=1359161571"
+    },
+    {
+      "standard_name": "Amigos dos Amigos",
+      "original_text_name": "Amigos dos Amigos",
+      "aliases": [],
+      "context": "Brazilian criminal gang in Rio de Janeiro.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=1359161571"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [],
+      "context": "Brazilian criminal organization, rival of TCP.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=1359161571"
+    },
+    {
+      "standard_name": "Bonde do Maluco",
+      "original_text_name": "Bonde do Maluco",
+      "aliases": [],
+      "context": "Brazilian criminal organization, ally of TCP.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=1359161571"
+    },
+    {
+      "standard_name": "Primeiro Comando de Vitória",
+      "original_text_name": "Primeiro Comando de Vitória",
+      "aliases": [],
+      "context": "Brazilian criminal organization, rival of TCP.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=1359161571"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Terceiro Comando Puro",
+      "target": "Terceiro Comando",
+      "evidence_quote": "Terceiro Comando Puro ( Pure Third Command , TCP ) is a Brazilian criminal organization in Rio de Janeiro that split off from the Terceiro Comando (TC) in 2002 due to disputes about TC's affiliations with the Amigos dos Amigos gang.",
+      "context": "TCP split off from TC in 2002 and later absorbed its members.",
+      "relationship": "other",
+      "time_period": "2002",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=1359161571"
+    },
+    {
+      "source": "Terceiro Comando Puro",
+      "target": "Amigos dos Amigos",
+      "evidence_quote": "Rivals: Amigos dos Amigos , Comando Vermelho , Primeiro Comando de Vitória",
+      "context": "TCP is a rival of Amigos dos Amigos.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=1359161571"
+    },
+    {
+      "source": "Terceiro Comando Puro",
+      "target": "Comando Vermelho",
+      "evidence_quote": "The faction continues to operate against the Comando Vermelho in regions outside Rio de Janeiro",
+      "context": "TCP operates against Comando Vermelho.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=1359161571"
+    },
+    {
+      "source": "Terceiro Comando Puro",
+      "target": "Bonde do Maluco",
+      "evidence_quote": "Allies: Bonde do Maluco",
+      "context": "TCP is allied with Bonde do Maluco.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=1359161571"
+    },
+    {
+      "source": "Terceiro Comando Puro",
+      "target": "Primeiro Comando de Vitória",
+      "evidence_quote": "Rivals: Amigos dos Amigos , Comando Vermelho , Primeiro Comando de Vitória",
+      "context": "TCP is a rival of Primeiro Comando de Vitória.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=1359161571"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=1359161571",
+  "source_file": "en_Terceiro_Comando_Puro"
+}

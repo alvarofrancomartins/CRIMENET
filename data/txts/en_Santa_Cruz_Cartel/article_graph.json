@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Santa Cruz Cartel",
+      "original_text_name": "Santa Cruz Cartel",
+      "aliases": [
+        "La Conexión",
+        "Cártel de Santa Cruz"
+      ],
+      "context": "Bolivian drug cartel headquartered in Santa Cruz de la Sierra, one of the largest in the country.",
+      "time_period": "1980s – present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Santa_Cruz_Cartel&oldid=1339086515"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "Red Command"
+      ],
+      "context": "Brazilian drug gang operating in favelas.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Santa_Cruz_Cartel&oldid=1339086515"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [],
+      "context": "Colombian drug trafficking organization.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Santa_Cruz_Cartel&oldid=1339086515"
+    },
+    {
+      "standard_name": "La Corporación",
+      "original_text_name": "La Corporación",
+      "aliases": [],
+      "context": "Rival criminal organization to Santa Cruz Cartel.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Santa_Cruz_Cartel&oldid=1339086515"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Santa Cruz Cartel",
+      "target": "Comando Vermelho",
+      "evidence_quote": "Allies: Medellín Cartel , Comando Vermelho",
+      "context": "Santa Cruz Cartel is allied with Comando Vermelho.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Santa_Cruz_Cartel&oldid=1339086515"
+    },
+    {
+      "source": "Santa Cruz Cartel",
+      "target": "Medellín Cartel",
+      "evidence_quote": "Allies: Medellín Cartel , Comando Vermelho",
+      "context": "Santa Cruz Cartel is allied with Medellín Cartel.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Santa_Cruz_Cartel&oldid=1339086515"
+    },
+    {
+      "source": "Santa Cruz Cartel",
+      "target": "La Corporación",
+      "evidence_quote": "Rivals: La Corporación , Bolivian government",
+      "context": "Santa Cruz Cartel has La Corporación as a rival.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Santa_Cruz_Cartel&oldid=1339086515"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Santa_Cruz_Cartel&oldid=1339086515",
+  "source_file": "en_Santa_Cruz_Cartel"
+}

@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "context": "Criminal group that took over streets of Michoacán from previously dominant groups.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grupos_de_autodefensa_comunitaria&oldid=1346688871"
+    },
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [],
+      "context": "Local criminal gang created to oust Los Zetas and take back control of Michoacán.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grupos_de_autodefensa_comunitaria&oldid=1346688871"
+    },
+    {
+      "standard_name": "Knights Templar Cartel",
+      "original_text_name": "Knights Templar Cartel",
+      "aliases": [
+        "Caballeros Templarios"
+      ],
+      "context": "Criminal group formed by former members of La Familia Michoacana after its disintegration.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grupos_de_autodefensa_comunitaria&oldid=1346688871"
+    },
+    {
+      "standard_name": "Los Viagras",
+      "original_text_name": "Los Viagras",
+      "aliases": [],
+      "context": "Drug cartel created by former Autodefensas leader Nicolás Sierra Santana.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grupos_de_autodefensa_comunitaria&oldid=1346688871"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "Jalisco's New-Generation Cartel"
+      ],
+      "context": "Cartel that has ties and rivalry with Los Viagras.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grupos_de_autodefensa_comunitaria&oldid=1346688871"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "context": "Cartel suspected to have members in self-defense groups in Tamaulipas.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grupos_de_autodefensa_comunitaria&oldid=1346688871"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Zetas",
+      "target": "La Familia Michoacana",
+      "evidence_quote": "When the criminal groups known as Los Zetas took over the streets of Michoacán from the previously dominant criminal groups in this state, a local criminal gang La Familia Michoacana was created to oust them and to take back control of the area.",
+      "context": "La Familia Michoacana was created to oust Los Zetas from Michoacán.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grupos_de_autodefensa_comunitaria&oldid=1346688871"
+    },
+    {
+      "source": "La Familia Michoacana",
+      "target": "Knights Templar Cartel",
+      "evidence_quote": "When power vacuum occurred La Familia Michoacana fell into infighting and disintegrated, its former members created the Knights Templar Cartel.",
+      "context": "Knights Templar Cartel was created by former members of La Familia Michoacana after its disintegration.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grupos_de_autodefensa_comunitaria&oldid=1346688871"
+    },
+    {
+      "source": "Los Viagras",
+      "target": "Jalisco New Generation Cartel",
+      "evidence_quote": "Los Viagras (which is now known to have ties and rivalry with the Jalisco New Generation Cartel).",
+      "context": "Los Viagras has both ties and rivalry with Jalisco New Generation Cartel.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grupos_de_autodefensa_comunitaria&oldid=1346688871"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Grupos_de_autodefensa_comunitaria&oldid=1346688871",
+  "source_file": "en_Grupos_de_autodefensa_comunitaria"
+}

@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Carlton Crew",
+      "original_text_name": "The Carlton Crew",
+      "aliases": [],
+      "context": "Melbourne-based organized crime group involved in the gangland killings.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Carl_Williams_%28criminal%29&oldid=1358395610"
+    },
+    {
+      "standard_name": "Williams Family",
+      "original_text_name": "The Williams Family",
+      "aliases": [],
+      "context": "Criminal organization led by Carl Williams, active in Melbourne gangland killings.",
+      "time_period": "2000-2007",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Carl_Williams_%28criminal%29&oldid=1358395610"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Carlton Crew",
+      "target": "Williams Family",
+      "evidence_quote": "Allegiance: The Carlton Crew (Until 2000) , The Williams Family (2000-2007)",
+      "context": "Carl Williams switched allegiance from the Carlton Crew to the Williams Family in 2000.",
+      "relationship": "other",
+      "time_period": "2000",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Carl_Williams_%28criminal%29&oldid=1358395610"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Carl_Williams_%28criminal%29&oldid=1358395610",
+  "source_file": "en_Carl_Williams_(criminal)"
+}

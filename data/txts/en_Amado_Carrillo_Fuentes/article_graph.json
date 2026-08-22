@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Juárez Cartel",
+      "original_text_name": "Juárez Cartel",
+      "aliases": [],
+      "context": "Mexican drug cartel led by Amado Carrillo Fuentes after he assassinated his boss.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Amado_Carrillo_Fuentes&oldid=1357024281"
+    },
+    {
+      "standard_name": "Guadalajara Cartel",
+      "original_text_name": "Guadalajara Cartel",
+      "aliases": [],
+      "context": "Mexican drug cartel led by Ernesto Fonseca Carrillo, uncle of Amado Carrillo Fuentes.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Amado_Carrillo_Fuentes&oldid=1357024281"
+    },
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali Cartel",
+      "aliases": [],
+      "context": "Colombian drug cartel that worked with Amado Carrillo Fuentes smuggling drugs.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Amado_Carrillo_Fuentes&oldid=1357024281"
+    },
+    {
+      "standard_name": "Tijuana Cartel",
+      "original_text_name": "Tijuana Cartel",
+      "aliases": [],
+      "context": "Mexican drug cartel whose gunmen killed Juárez Cartel members after Carrillo's death.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Amado_Carrillo_Fuentes&oldid=1357024281"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Juárez Cartel",
+      "target": "Guadalajara Cartel",
+      "evidence_quote": "Carrillo was the nephew of Ernesto Fonseca Carrillo, also known as \"Don Neto\", the Guadalajara Cartel leader. Amado got his start in the drug business under the tutelage of his Uncle Ernesto",
+      "context": "Amado Carrillo Fuentes, later head of Juárez Cartel, was trained by his uncle who led the Guadalajara Cartel.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Amado_Carrillo_Fuentes&oldid=1357024281"
+    },
+    {
+      "source": "Juárez Cartel",
+      "target": "Cali Cartel",
+      "evidence_quote": "Later, Carrillo worked with Pablo Escobar and the Cali Cartel smuggling drugs from Colombia to Mexico and the United States.",
+      "context": "Amado Carrillo Fuentes, head of Juárez Cartel, cooperated with the Cali Cartel in drug smuggling.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Amado_Carrillo_Fuentes&oldid=1357024281"
+    },
+    {
+      "source": "Juárez Cartel",
+      "target": "Tijuana Cartel",
+      "evidence_quote": "it was later stated that the perpetrators were gunmen of the Tijuana Cartel.",
+      "context": "After Carrillo's death, Tijuana Cartel gunmen killed Juárez Cartel members in a restaurant shooting.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Amado_Carrillo_Fuentes&oldid=1357024281"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Amado_Carrillo_Fuentes&oldid=1357024281",
+  "source_file": "en_Amado_Carrillo_Fuentes"
+}

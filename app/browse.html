@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Browse the network | CRIMENET</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="description" content="Trace connections between criminal organizations in CRIMENET's knowledge graph of global organized crime.">
+<link rel="canonical" href="https://www.alvarofrancomartins.com/crimenet/browse.html">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Browse the network | CRIMENET">
+<meta property="og:description" content="Trace connections between criminal organizations in CRIMENET's knowledge graph of global organized crime.">
+<meta property="og:url" content="https://www.alvarofrancomartins.com/crimenet/browse.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="wrap wide browse-wrap">
+
+<div class="crumb"><a href="index.html">CRIMENET</a> <span>/</span> Browse</div>
+
+
+<div id="tab-browse">
+
+<div class="browse-cols" style="grid-template-columns:1fr">
+
+<section class="browse-panel panel-finder">
+<header class="panel-head">
+<div class="panel-head-row">
+<h2 id="finder-panel-title">Trace a Connection</h2>
+</div>
+<p class="panel-sub" id="finder-panel-sub">Find how two organizations link: directly or through a shared group</p>
+<div class="browse-toggle">
+<button class="browse-toggle-btn active" data-view="finder">Trace a Connection</button>
+<button class="browse-toggle-btn" data-view="communities">Communities</button>
+<button class="browse-toggle-btn" data-view="bridges">Bridges</button>
+<button class="browse-toggle-btn" data-view="signals">Triadic Signals</button>
+</div>
+<div id="finder" data-base="" data-locked="">
+<div class="finder-row">
+<div class="pf-field"><input type="text" id="pf-a" class="pf-input"
+placeholder="Search organizations…" autocomplete="off" spellcheck="false">
+<div class="pf-dd" id="pf-dd-a"></div></div>
+<span class="pf-arrow">—</span>
+<div class="pf-field"><input type="text" id="pf-b" class="pf-input"
+placeholder="Search organizations…" autocomplete="off" spellcheck="false">
+<div class="pf-dd" id="pf-dd-b"></div></div>
+<button type="button" class="pf-go" id="pf-go">Trace</button>
+<button type="button" class="pf-reset" id="pf-reset" hidden>Clear</button>
+</div>
+</div>
+</header>
+<div class="panel-scroll">
+<div id="finder-view" style="display:none">
+<div class="finder-results" id="pf-results"></div>
+</div>
+<div id="communities-view" style="display:none">
+<div class="cc-list" id="cc-list"></div>
+</div>
+<div id="bridges-view" style="display:none">
+<div class="br-list" id="br-list"></div>
+</div>
+<div id="signals-view" style="display:none">
+<div class="sig-list" id="sig-list"></div>
+</div>
+</div>
+</div>
+</section>
+
+</div>
+</div>
+  <script src="js/utils.js"></script>
+  <script src="js/triadic_signals.js"></script>
+  <script src="js/browse.js"></script>
+
+</div>
+</body>
+</html>

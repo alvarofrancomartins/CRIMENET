@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Nuova camorra pugliese",
+      "original_text_name": "Nuova camorra pugliese",
+      "aliases": [
+        "NCOP"
+      ],
+      "context": "Criminal organization active in Apulia, especially in Foggia and Taranto provinces, founded by Raffaele Cutolo.",
+      "time_period": "early 1970s to mid-1980s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Nuova_camorra_pugliese&oldid=150482173"
+    },
+    {
+      "standard_name": "Sacra corona unita",
+      "original_text_name": "Sacra corona unita",
+      "aliases": [],
+      "context": "Criminal organization founded by Giuseppe Rogoli in 1983 in Bari prison.",
+      "time_period": "1983",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Nuova_camorra_pugliese&oldid=150482173"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "context": "Criminal organization led by Raffaele Cutolo, active in Campania and beyond.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Nuova_camorra_pugliese&oldid=150482173"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "context": "Calabrian mafia organization.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Nuova_camorra_pugliese&oldid=150482173"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Nuova camorra pugliese",
+      "target": "Sacra corona unita",
+      "evidence_quote": "Il periodo di attività della Nuova camorra pugliese va dall'inizio degli anni '70 fino a metà degli anni '80, quando fu definitivamente assorbita dalla Sacra corona unita di Giuseppe Rogoli.",
+      "context": "The Nuova camorra pugliese was absorbed by the Sacra corona unita.",
+      "relationship": "other",
+      "time_period": "mid-1980s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Nuova_camorra_pugliese&oldid=150482173"
+    },
+    {
+      "source": "Nuova camorra pugliese",
+      "target": "Nuova Camorra Organizzata",
+      "evidence_quote": "La Nuova camorra organizzata pugliese (NCOP) nasce all'inizio degli anni '80 come 'costola' della Nuova Camorra Organizzata di Raffaele Cutolo",
+      "context": "The NCOP originated as a branch of the NCO.",
+      "relationship": "other",
+      "time_period": "early 1980s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Nuova_camorra_pugliese&oldid=150482173"
+    },
+    {
+      "source": "Nuova camorra pugliese",
+      "target": "Nuova Camorra Organizzata",
+      "evidence_quote": "Nel giro di pochi anni, tuttavia, l'organizzazione criminale si liberò dai vincoli con la camorra cutoliana",
+      "context": "The NCOP later broke free from ties with the NCO.",
+      "relationship": "conflict",
+      "time_period": "early 1980s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Nuova_camorra_pugliese&oldid=150482173"
+    },
+    {
+      "source": "Nuova camorra pugliese",
+      "target": "'Ndrangheta",
+      "evidence_quote": "Antonio Modeo e Aldo Vuto entrarono negli anni ottanta a far parte inizialmente delle cosche della 'Ndrangheta.",
+      "context": "Key members of NCOP initially joined 'Ndrangheta clans.",
+      "relationship": "cooperation",
+      "time_period": "1980s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Nuova_camorra_pugliese&oldid=150482173"
+    },
+    {
+      "source": "Sacra corona unita",
+      "target": "'Ndrangheta",
+      "evidence_quote": "Sacra corona unita, fondata nel 1983 da Giuseppe Rogoli nel carcere di Bari con il permesso dello 'ndranghetista Umberto Bellocco",
+      "context": "The Sacra corona unita was founded with permission from an 'Ndrangheta member.",
+      "relationship": "cooperation",
+      "time_period": "1983",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Nuova_camorra_pugliese&oldid=150482173"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Nuova_camorra_pugliese&oldid=150482173",
+  "source_file": "it_Nuova_camorra_pugliese"
+}

@@ -1,0 +1,98 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Black Diamond Riders Motorcycle Club",
+      "original_text_name": "Black Diamond Riders Motorcycle Club",
+      "aliases": [
+        "Black Diamond Riders"
+      ],
+      "context": "Toronto-based Canadian outlaw biker gang, active since 1951.",
+      "time_period": "1951–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Black_Diamond_Riders_Motorcycle_Club&oldid=1296301145"
+    },
+    {
+      "standard_name": "Humber Valley Riders Motorcycle Club",
+      "original_text_name": "Humber Valley Riders Motorcycle Club",
+      "aliases": [],
+      "context": "Motorcycle club that Harry Paul Barnes was a member of before founding Black Diamond Riders.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Black_Diamond_Riders_Motorcycle_Club&oldid=1296301145"
+    },
+    {
+      "standard_name": "Satan's Choice Motorcycle Club",
+      "original_text_name": "Satan's Choice Motorcycle Club",
+      "aliases": [
+        "Satan's Choice"
+      ],
+      "context": "Canadian outlaw biker club founded in 1965, rival of Black Diamond Riders.",
+      "time_period": "1965–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Black_Diamond_Riders_Motorcycle_Club&oldid=1296301145"
+    },
+    {
+      "standard_name": "Lost Souls Motorcycle Club",
+      "original_text_name": "Lost Souls Motorcycle Club",
+      "aliases": [],
+      "context": "Motorcycle club founded by expelled Black Diamond Riders in 1996, later joined Satan's Choice.",
+      "time_period": "1996",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Black_Diamond_Riders_Motorcycle_Club&oldid=1296301145"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Black Diamond Riders Motorcycle Club",
+      "target": "Humber Valley Riders Motorcycle Club",
+      "evidence_quote": "Harry Paul Barnes, aka \"Johnny Sombrero\", of Toronto was a member of the Humber Valley Riders Motorcycle Club, but broke away in 1951 to found the Black Diamond Riders.",
+      "context": "Black Diamond Riders was founded by a former member of Humber Valley Riders.",
+      "relationship": "other",
+      "time_period": "1951",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Black_Diamond_Riders_Motorcycle_Club&oldid=1296301145"
+    },
+    {
+      "source": "Black Diamond Riders Motorcycle Club",
+      "target": "Satan's Choice Motorcycle Club",
+      "evidence_quote": "Rivals: Satan's Choice Motorcycle Club",
+      "context": "Satan's Choice is listed as a rival in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Black_Diamond_Riders_Motorcycle_Club&oldid=1296301145"
+    },
+    {
+      "source": "Black Diamond Riders Motorcycle Club",
+      "target": "Satan's Choice Motorcycle Club",
+      "evidence_quote": "To end the attacks of the Black Diamond Riders, four other biker gangs merged under the leadership of Bernie Guindon to found Satan's Choice Motorcycle Club in 1965. Satan's Choice greatly outnumbered the Black Diamond Riders, and in turn used their numerical superiority to beat the Black Diamond Riders in a series of brawls across the Toronto area in 1965–1966.",
+      "context": "Satan's Choice was founded to counter Black Diamond Riders and fought them in a biker war.",
+      "relationship": "conflict",
+      "time_period": "1965–1966",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Black_Diamond_Riders_Motorcycle_Club&oldid=1296301145"
+    },
+    {
+      "source": "Black Diamond Riders Motorcycle Club",
+      "target": "Satan's Choice Motorcycle Club",
+      "evidence_quote": "On a Saturday night during the Labour Day weekend in 1992, a brawl broke in the parking lot of the Sorrento Motor Hotel in Sudbury, where Barnes and 6 other Black Diamond Riders were beaten up by Guindon along with 44 other Satan's Choice bikers armed with guns, knives, boards and baseball bats.",
+      "context": "Satan's Choice attacked Black Diamond Riders in the 'Sudbury Saturday Night' brawl.",
+      "relationship": "conflict",
+      "time_period": "1992",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Black_Diamond_Riders_Motorcycle_Club&oldid=1296301145"
+    },
+    {
+      "source": "Black Diamond Riders Motorcycle Club",
+      "target": "Lost Souls Motorcycle Club",
+      "evidence_quote": "The expelled Black Diamond Riders founded what journalist Jerry Langton called the \"rather forlornly named\" Lost Souls Motorcycle Club of Milton.",
+      "context": "Lost Souls was founded by expelled members of Black Diamond Riders.",
+      "relationship": "other",
+      "time_period": "1996",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Black_Diamond_Riders_Motorcycle_Club&oldid=1296301145"
+    },
+    {
+      "source": "Lost Souls Motorcycle Club",
+      "target": "Satan's Choice Motorcycle Club",
+      "evidence_quote": "Instead of rejoining the Black Diamond Riders, Satan's Choice to made a better offer, leading for the Lost Souls to join Satan's Choice on 13 April 1996.",
+      "context": "Lost Souls merged into Satan's Choice.",
+      "relationship": "other",
+      "time_period": "1996",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Black_Diamond_Riders_Motorcycle_Club&oldid=1296301145"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Black_Diamond_Riders_Motorcycle_Club&oldid=1296301145",
+  "source_file": "en_Black_Diamond_Riders_Motorcycle_Club"
+}

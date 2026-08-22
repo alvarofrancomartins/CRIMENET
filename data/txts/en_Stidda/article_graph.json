@@ -1,0 +1,88 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Stidda",
+      "original_text_name": "Stidda",
+      "aliases": [],
+      "context": "Sicilian Mafia-type criminal organization centered in central-southern Sicily, rival to Cosa Nostra.",
+      "time_period": "1980s-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stidda&oldid=1339086825"
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra",
+      "aliases": [
+        "Sicilian Cosa Nostra",
+        "Mafia"
+      ],
+      "context": "Sicilian Mafia organization, rival to Stidda.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stidda&oldid=1339086825"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "context": "Calabrian Mafia organization, ally of Stidda.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stidda&oldid=1339086825"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "context": "Neapolitan Mafia organization, ally of Stidda.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stidda&oldid=1339086825"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Stidda",
+      "target": "Cosa Nostra",
+      "evidence_quote": "It is most active in the rural parts of southern Sicily and is a rival to the Cosa Nostra, originating as a dissident offshoot group of the Sicilian Cosa Nostra.",
+      "context": "Stidda is a rival and dissident offshoot of Cosa Nostra.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stidda&oldid=1339086825"
+    },
+    {
+      "source": "Stidda",
+      "target": "Cosa Nostra",
+      "evidence_quote": "Rivals: Cosa Nostra (until the end of 1990s)",
+      "context": "Stidda and Cosa Nostra were rivals until the end of the 1990s.",
+      "relationship": "conflict",
+      "time_period": "until the end of 1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stidda&oldid=1339086825"
+    },
+    {
+      "source": "Stidda",
+      "target": "'Ndrangheta",
+      "evidence_quote": "Allies: 'Ndrangheta, Camorra, Cosa Nostra",
+      "context": "Stidda is allied with 'Ndrangheta.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stidda&oldid=1339086825"
+    },
+    {
+      "source": "Stidda",
+      "target": "Camorra",
+      "evidence_quote": "Allies: 'Ndrangheta, Camorra, Cosa Nostra",
+      "context": "Stidda is allied with Camorra.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stidda&oldid=1339086825"
+    },
+    {
+      "source": "Stidda",
+      "target": "Cosa Nostra",
+      "evidence_quote": "Allies: 'Ndrangheta, Camorra, Cosa Nostra",
+      "context": "Stidda is allied with Cosa Nostra (infobox lists as ally despite rivalry).",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stidda&oldid=1339086825"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Stidda&oldid=1339086825",
+  "source_file": "en_Stidda"
+}

@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Honda-kai",
+      "original_text_name": "Honda-kai",
+      "aliases": [
+        "本多会"
+      ],
+      "context": "Japanese yakuza gang active in Kobe, devoted to illegal gambling.",
+      "time_period": "middle of the 20th century",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Honda-kai&oldid=1232096108"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Japanese yakuza syndicate that grew under Kazuo Taoka.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Honda-kai&oldid=1232096108"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Honda-kai",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "After World War II , they formed an alliance with the Yamaguchi-gumi syndicate",
+      "context": "Honda-kai and Yamaguchi-gumi formed an alliance after World War II.",
+      "relationship": "cooperation",
+      "time_period": "after World War II",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Honda-kai&oldid=1232096108"
+    },
+    {
+      "source": "Honda-kai",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "the Honda-kai were soon absorbed into the Yamaguchi-gumi's ranks and ceased to be an independent operation",
+      "context": "Honda-kai was absorbed into Yamaguchi-gumi, ceasing independent operation.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Honda-kai&oldid=1232096108"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Honda-kai&oldid=1232096108",
+  "source_file": "en_Honda-kai"
+}

@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "standard_name": "OFB",
+      "original_text_name": "OFB",
+      "aliases": [
+        "Original Farm Boys",
+        "Y.OFB"
+      ],
+      "context": "British hip hop collective based in Broadwater Farm, North London, prominent in UK drill.",
+      "time_period": "2016–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=OFB_%28rap_group%29&oldid=1359556974"
+    },
+    {
+      "standard_name": "Star Gang",
+      "original_text_name": "Star Gang",
+      "aliases": [],
+      "context": "Road rap group from the 2000s, offshoot from Tottenham Mandem gang.",
+      "time_period": "2000s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=OFB_%28rap_group%29&oldid=1359556974"
+    },
+    {
+      "standard_name": "Tottenham Mandem",
+      "original_text_name": "Tottenham Mandem",
+      "aliases": [],
+      "context": "Gang from Tottenham, parent group of Star Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=OFB_%28rap_group%29&oldid=1359556974"
+    },
+    {
+      "standard_name": "67",
+      "original_text_name": "67",
+      "aliases": [],
+      "context": "UK drill group mentioned as influence on Bandokay.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=OFB_%28rap_group%29&oldid=1359556974"
+    },
+    {
+      "standard_name": "NPK",
+      "original_text_name": "NPK",
+      "aliases": [],
+      "context": "Tottenham gang linked to convicted group in SJ's murder case.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=OFB_%28rap_group%29&oldid=1359556974"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Star Gang",
+      "target": "Tottenham Mandem",
+      "evidence_quote": "They were both originally rappers in Star Gang, a road rap group from the 2000s and an offshoot group from the Tottenham Mandem gang.",
+      "context": "Star Gang is an offshoot of Tottenham Mandem.",
+      "relationship": "other",
+      "time_period": "2000s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=OFB_%28rap_group%29&oldid=1359556974"
+    },
+    {
+      "source": "OFB",
+      "target": "Star Gang",
+      "evidence_quote": "They were both originally rappers in Star Gang, a road rap group from the 2000s and an offshoot group from the Tottenham Mandem gang.",
+      "context": "Headie One and RV, prominent OFB members, were originally in Star Gang.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=OFB_%28rap_group%29&oldid=1359556974"
+    },
+    {
+      "source": "OFB",
+      "target": "67",
+      "evidence_quote": "Bandokay credited fellow OFB rapper Headie One as a major influence, as well as UK drill group 67 and American rapper Lil Durk.",
+      "context": "Bandokay cited 67 as an influence.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=OFB_%28rap_group%29&oldid=1359556974"
+    },
+    {
+      "source": "NPK",
+      "target": "OFB",
+      "evidence_quote": "The convicted group was reportedly linked to Tottenham gang NPK.",
+      "context": "SJ and others convicted of murder were linked to NPK; SJ is an OFB member.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=OFB_%28rap_group%29&oldid=1359556974"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=OFB_%28rap_group%29&oldid=1359556974",
+  "source_file": "en_OFB_(rap_group)"
+}

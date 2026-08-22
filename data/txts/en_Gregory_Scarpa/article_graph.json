@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Colombo crime family",
+      "original_text_name": "Colombo crime family",
+      "aliases": [
+        "Colombo family"
+      ],
+      "context": "An Italian-American Mafia crime family based in New York City, involved in various criminal activities.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gregory_Scarpa&oldid=1358829657"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese mobster",
+      "aliases": [],
+      "context": "An Italian-American Mafia crime family based in New York City.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gregory_Scarpa&oldid=1358829657"
+    },
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese mobsters",
+      "aliases": [],
+      "context": "An Italian-American Mafia crime family based in New York City.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gregory_Scarpa&oldid=1358829657"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Colombo crime family",
+      "target": "Genovese crime family",
+      "evidence_quote": "Over the next few weeks, Scarpa and his associates killed Genovese mobster Thomas Amato and Orena loyalists Rosario Nastasa, Vincent Fusaro and James Malpiso.",
+      "context": "Scarpa, a Colombo member, killed a Genovese mobster, indicating conflict between the families.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gregory_Scarpa&oldid=1358829657"
+    },
+    {
+      "source": "Colombo crime family",
+      "target": "Lucchese crime family",
+      "evidence_quote": "In December 1992, two Lucchese mobsters, Michael DeRosa and Ronald Moran, threatened Scarpa's grandson Joey over a drug deal.",
+      "context": "Lucchese mobsters threatened Scarpa's grandson, leading to a violent confrontation.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gregory_Scarpa&oldid=1358829657"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Gregory_Scarpa&oldid=1358829657",
+  "source_file": "en_Gregory_Scarpa"
+}

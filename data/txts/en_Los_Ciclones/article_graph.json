@@ -1,0 +1,190 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Ciclones",
+      "original_text_name": "Los Ciclones",
+      "aliases": [
+        "Grupo Escorpiones"
+      ],
+      "context": "Faction of the Gulf Cartel, created in 2015, active in Matamoros and Tampico.",
+      "time_period": "2015–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [
+        "CDG"
+      ],
+      "context": "Mexican drug cartel, parent organization of Los Ciclones.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "standard_name": "Cártel del Noreste",
+      "original_text_name": "Cártel del Noreste",
+      "aliases": [],
+      "context": "Enemy of Los Ciclones.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "standard_name": "Los Metros",
+      "original_text_name": "Los Metros",
+      "aliases": [],
+      "context": "Enemy of Los Ciclones.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "context": "Former allies of Gulf Cartel, later separated.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "standard_name": "Los Escorpiones",
+      "original_text_name": "Los Escorpiones",
+      "aliases": [],
+      "context": "Armed wing of Gulf Cartel, predecessor to Los Ciclones.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "standard_name": "Los Rojos",
+      "original_text_name": "Los Rojos",
+      "aliases": [],
+      "context": "Ally of Los Ciclones per infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "standard_name": "Los Fresitas",
+      "original_text_name": "Los Fresitas",
+      "aliases": [],
+      "context": "Ally of Los Ciclones per infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [],
+      "context": "Ally of Los Ciclones per infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "standard_name": "Los Dragones",
+      "original_text_name": "Los Dragones",
+      "aliases": [],
+      "context": "Rival of Los Ciclones per infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "context": "Rival of Los Ciclones per infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Ciclones",
+      "target": "Gulf Cartel",
+      "evidence_quote": "Los Ciclones is a faction of the Gulf Cartel",
+      "context": "Los Ciclones is a faction of the Gulf Cartel.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "source": "Los Ciclones",
+      "target": "Cártel del Noreste",
+      "evidence_quote": "with the Cártel del Noreste and Los Metros as its main enemies.",
+      "context": "Cártel del Noreste is a main enemy of Los Ciclones.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "source": "Los Ciclones",
+      "target": "Los Metros",
+      "evidence_quote": "with the Cártel del Noreste and Los Metros as its main enemies.",
+      "context": "Los Metros is a main enemy of Los Ciclones.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "source": "Los Ciclones",
+      "target": "Los Rojos",
+      "evidence_quote": "Allies: Gulf Cartel , Los Rojos , Los Fresitas , Jalisco New Generation Cartel",
+      "context": "Los Rojos is an ally of Los Ciclones per infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "source": "Los Ciclones",
+      "target": "Los Fresitas",
+      "evidence_quote": "Allies: Gulf Cartel , Los Rojos , Los Fresitas , Jalisco New Generation Cartel",
+      "context": "Los Fresitas is an ally of Los Ciclones per infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "source": "Los Ciclones",
+      "target": "Jalisco New Generation Cartel",
+      "evidence_quote": "Allies: Gulf Cartel , Los Rojos , Los Fresitas , Jalisco New Generation Cartel",
+      "context": "Jalisco New Generation Cartel is an ally of Los Ciclones per infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "source": "Los Ciclones",
+      "target": "Los Dragones",
+      "evidence_quote": "Rivals: Los Metros , Cártel del Noreste , Los Dragones , Sinaloa Cartel",
+      "context": "Los Dragones is a rival of Los Ciclones per infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "source": "Los Ciclones",
+      "target": "Sinaloa Cartel",
+      "evidence_quote": "Rivals: Los Metros , Cártel del Noreste , Los Dragones , Sinaloa Cartel",
+      "context": "Sinaloa Cartel is a rival of Los Ciclones per infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "source": "Los Ciclones",
+      "target": "Los Escorpiones",
+      "evidence_quote": "a cell emerged in Matamoros and Tampico that initially called itself Grupo Escorpiones.",
+      "context": "Los Ciclones initially called itself Grupo Escorpiones, indicating a predecessor or earlier name.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    },
+    {
+      "source": "Gulf Cartel",
+      "target": "Los Zetas",
+      "evidence_quote": "especially to confront Los Zetas founded by Osiel",
+      "context": "Los Ciclones were created to confront Los Zetas, implying conflict between Gulf Cartel and Los Zetas.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Ciclones&oldid=1339085174",
+  "source_file": "en_Los_Ciclones"
+}

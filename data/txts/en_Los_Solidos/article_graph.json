@@ -1,0 +1,42 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Solidos",
+      "original_text_name": "Los Solidos",
+      "aliases": [],
+      "context": "Street gang based in Hartford, Connecticut, operating in northeastern US.",
+      "time_period": "Early 1990s—present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Solidos&oldid=1352734202"
+    },
+    {
+      "standard_name": "Latin Kings",
+      "original_text_name": "Latin Kings",
+      "aliases": [],
+      "context": "Larger gang that Los Solidos defended against and feuded with.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Solidos&oldid=1352734202"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Solidos",
+      "target": "Latin Kings",
+      "evidence_quote": "Los Solidos was founded by Lawrence Beauvais from the remains of two other gangs that merged to help defend themselves against larger gangs such as the Latin Kings.",
+      "context": "Los Solidos formed to defend against Latin Kings, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Solidos&oldid=1352734202"
+    },
+    {
+      "source": "Los Solidos",
+      "target": "Latin Kings",
+      "evidence_quote": "Following the 1993-1994 feud with the Latin Kings, the President of the Puerto Rican street gang, Jorge Rivera, was given 13 concurrent life sentences...",
+      "context": "Los Solidos and Latin Kings engaged in a feud from 1993-1994.",
+      "relationship": "conflict",
+      "time_period": "1993-1994",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Solidos&oldid=1352734202"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Solidos&oldid=1352734202",
+  "source_file": "en_Los_Solidos"
+}

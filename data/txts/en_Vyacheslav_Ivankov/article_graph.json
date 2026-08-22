@@ -1,0 +1,88 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Russian mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [],
+      "context": "Russian organized crime syndicate operating in Russia and abroad.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vyacheslav_Ivankov&oldid=1358533284"
+    },
+    {
+      "standard_name": "Solntsevskaya Bratva",
+      "original_text_name": "Solntsevskaya",
+      "aliases": [
+        "Solntsevskaya Bratva"
+      ],
+      "context": "Russian criminal organization led by Mikhas.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vyacheslav_Ivankov&oldid=1358533284"
+    },
+    {
+      "standard_name": "Semion Mogilevich crime network",
+      "original_text_name": "Semion Mogilevich crime network",
+      "aliases": [],
+      "context": "Criminal network led by Semion Mogilevich.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vyacheslav_Ivankov&oldid=1358533284"
+    },
+    {
+      "standard_name": "Mazutka gang",
+      "original_text_name": "Mazutka gang",
+      "aliases": [
+        "Mazutkinskaya OPG"
+      ],
+      "context": "Russian criminal gang headed by Alexei Petrov.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vyacheslav_Ivankov&oldid=1358533284"
+    },
+    {
+      "standard_name": "Brothers' Circle",
+      "original_text_name": "Brothers' Circle",
+      "aliases": [],
+      "context": "International criminal organization; Lasha Shushanashvili is a member.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vyacheslav_Ivankov&oldid=1358533284"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Russian mafia",
+      "target": "Solntsevskaya Bratva",
+      "evidence_quote": "both Mikhas 's Solntsevskaya and the Semion Mogilevich crime network gained Ivankov's criminal assets.",
+      "context": "Solntsevskaya Bratva acquired assets from Ivankov's criminal empire after his death.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vyacheslav_Ivankov&oldid=1358533284"
+    },
+    {
+      "source": "Russian mafia",
+      "target": "Semion Mogilevich crime network",
+      "evidence_quote": "both Mikhas 's Solntsevskaya and the Semion Mogilevich crime network gained Ivankov's criminal assets.",
+      "context": "Semion Mogilevich crime network acquired assets from Ivankov's criminal empire after his death.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vyacheslav_Ivankov&oldid=1358533284"
+    },
+    {
+      "source": "Mazutka gang",
+      "target": "Russian mafia",
+      "evidence_quote": "he headed the Mazutka gang or Mazutkinskaya OPG",
+      "context": "Mazutka gang is a part of the Russian mafia, headed by Ivankov's successor.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vyacheslav_Ivankov&oldid=1358533284"
+    },
+    {
+      "source": "Brothers' Circle",
+      "target": "Russian mafia",
+      "evidence_quote": "who is close to Aslan Usoyan (Ded Khasan) and is in the Brothers' Circle",
+      "context": "Lasha Shushanashvili, a member of Brothers' Circle, is close to Aslan Usoyan, a Russian mafia boss.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vyacheslav_Ivankov&oldid=1358533284"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Vyacheslav_Ivankov&oldid=1358533284",
+  "source_file": "en_Vyacheslav_Ivankov"
+}

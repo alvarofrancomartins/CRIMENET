@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hongmen",
+      "original_text_name": "Hongmen",
+      "aliases": [],
+      "context": "First secret society established in Singapore, traced origins to Tiandihui in Fujian.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Secret_societies_in_Singapore&oldid=1352614988"
+    },
+    {
+      "standard_name": "Tiandihui",
+      "original_text_name": "Tiandihui",
+      "aliases": [],
+      "context": "Parent organization of Hongmen, based in Fujian, China.",
+      "time_period": "mid-18th century",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Secret_societies_in_Singapore&oldid=1352614988"
+    },
+    {
+      "standard_name": "Ghee Hin",
+      "original_text_name": "Ghee Hin",
+      "aliases": [],
+      "context": "Secret society involved in the Penang Riots of 1867.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Secret_societies_in_Singapore&oldid=1352614988"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hongmen",
+      "target": "Tiandihui",
+      "evidence_quote": "The Hongmen, the first secret society to be established in Singapore, traced its origins to the Tiandihui in Fujian.",
+      "context": "Hongmen originated from Tiandihui.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Secret_societies_in_Singapore&oldid=1352614988"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Secret_societies_in_Singapore&oldid=1352614988",
+  "source_file": "en_Secret_societies_in_Singapore"
+}

@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "standard_name": "69th Street Gang",
+      "original_text_name": "69th Street Gang",
+      "aliases": [],
+      "context": "A criminal gang based in southwest Philadelphia, involved in prostitution, extortion, labor racketeering, and narcotics.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nig_Rosen&oldid=1305642239"
+    },
+    {
+      "standard_name": "Big Seven",
+      "original_text_name": "Big Seven",
+      "aliases": [],
+      "context": "A group of major bootleggers during Prohibition, aligned with the Philadelphia faction.",
+      "time_period": "Prohibition era",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nig_Rosen&oldid=1305642239"
+    },
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese crime family",
+      "aliases": [],
+      "context": "A New York-based Mafia family involved in racketeering and other criminal activities.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nig_Rosen&oldid=1305642239"
+    }
+  ],
+  "edges": [
+    {
+      "source": "69th Street Gang",
+      "target": "Big Seven",
+      "evidence_quote": "he was a member of the \" Big Seven \" aligned with the Philadelphia faction along with Waxey Gordon and Irving Blitz",
+      "context": "Nig Rosen, as head of the 69th Street Gang, was a member of the Big Seven.",
+      "relationship": "other",
+      "time_period": "Prohibition era",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nig_Rosen&oldid=1305642239"
+    },
+    {
+      "source": "69th Street Gang",
+      "target": "Lucchese crime family",
+      "evidence_quote": "Rosen became partners with Gaetano \"Tommy\" Lucchese after buying the Sweet Valley Improvement Company which was used by the Lucchese crime family to ship clothing out of New York's garment district.",
+      "context": "Nig Rosen, head of the 69th Street Gang, became partners with the Lucchese crime family through a business venture.",
+      "relationship": "cooperation",
+      "time_period": "early 1950s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nig_Rosen&oldid=1305642239"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Nig_Rosen&oldid=1305642239",
+  "source_file": "en_Nig_Rosen"
+}

@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hai San Secret Society",
+      "original_text_name": "Hai San Society",
+      "aliases": [
+        "Hai San",
+        "海山公司"
+      ],
+      "context": "Penang-based Chinese secret society established around 1820, involved in tin mining and conflicts.",
+      "time_period": "1820–1890",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hai_San_Secret_Society&oldid=1320225181"
+    },
+    {
+      "standard_name": "Ghee Hin Society",
+      "original_text_name": "Ghee Hin society",
+      "aliases": [
+        "Ghee Hin"
+      ],
+      "context": "Chinese secret society, rival of Hai San in the Larut Wars.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hai_San_Secret_Society&oldid=1320225181"
+    },
+    {
+      "standard_name": "Wah Sang Society",
+      "original_text_name": "Wah Sang society",
+      "aliases": [],
+      "context": "Chinese secret society absorbed by Hai San around 1854.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hai_San_Secret_Society&oldid=1320225181"
+    },
+    {
+      "standard_name": "Tokong Society",
+      "original_text_name": "Tokong or Tua Peh Kong society",
+      "aliases": [
+        "Tua Peh Kong society"
+      ],
+      "context": "Penang-based society allied with Hai San, financed tin mining.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hai_San_Secret_Society&oldid=1320225181"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hai San Secret Society",
+      "target": "Ghee Hin Society",
+      "evidence_quote": "Rivals: Ghee Hin Society",
+      "context": "Hai San and Ghee Hin were rivals, fighting in the Larut Wars.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hai_San_Secret_Society&oldid=1320225181"
+    },
+    {
+      "source": "Hai San Secret Society",
+      "target": "Wah Sang Society",
+      "evidence_quote": "Bolton et al. suggest that the Hai San society ... by around 1854 had absorbed the Wah Sang society",
+      "context": "Hai San absorbed the Wah Sang society around 1854.",
+      "relationship": "other",
+      "time_period": "1854",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hai_San_Secret_Society&oldid=1320225181"
+    },
+    {
+      "source": "Hai San Secret Society",
+      "target": "Tokong Society",
+      "evidence_quote": "The Hai San society was allied with the Penang-based Tokong or Tua Peh Kong society",
+      "context": "Hai San was allied with the Tokong society, which financed tin mining.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hai_San_Secret_Society&oldid=1320225181"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Hai_San_Secret_Society&oldid=1320225181",
+  "source_file": "en_Hai_San_Secret_Society"
+}

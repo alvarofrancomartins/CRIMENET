@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    {
+      "standard_name": "North Side Gang",
+      "original_text_name": "North Side Gang",
+      "aliases": [
+        "North Side Mob"
+      ],
+      "context": "Multi-ethnic criminal organization in Chicago during Prohibition, principal rival of the South Side Gang.",
+      "time_period": "early 1920s to mid-1930s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=North_Side_Gang&oldid=1346761976"
+    },
+    {
+      "standard_name": "South Side Gang",
+      "original_text_name": "South Side Gang",
+      "aliases": [
+        "Chicago Outfit",
+        "Chicago Mafia"
+      ],
+      "context": "Predominantly Italian-American crime syndicate led by Johnny Torrio and Al Capone.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=North_Side_Gang&oldid=1346761976"
+    },
+    {
+      "standard_name": "Market Street Gang",
+      "original_text_name": "Market Street Gang",
+      "aliases": [],
+      "context": "Street gang in Chicago at the turn of the 20th century, origin of the North Side Gang.",
+      "time_period": "turn of the 20th century",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=North_Side_Gang&oldid=1346761976"
+    },
+    {
+      "standard_name": "Little Hellions",
+      "original_text_name": "Little Hellions",
+      "aliases": [],
+      "context": "Juvenile satellite gang from which Dean O'Banion was a member.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=North_Side_Gang&oldid=1346761976"
+    },
+    {
+      "standard_name": "Ragen's Colts",
+      "original_text_name": "Ragen's Colts",
+      "aliases": [],
+      "context": "Ethnic gang with which North Side Gang had trouble; O'Banion shot a member in 1921.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=North_Side_Gang&oldid=1346761976"
+    },
+    {
+      "standard_name": "Genna crime family",
+      "original_text_name": "Genna crime family",
+      "aliases": [
+        "Genna brothers"
+      ],
+      "context": "Allies of Chicago Outfit, targeted by North Side Gang after O'Banion's death.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=North_Side_Gang&oldid=1346761976"
+    },
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [
+        "South Side Gang",
+        "Chicago Mafia"
+      ],
+      "context": "Italian-American crime syndicate led by Johnny Torrio and Al Capone, principal rival of North Side Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=North_Side_Gang&oldid=1346761976"
+    },
+    {
+      "standard_name": "National Crime Syndicate",
+      "original_text_name": "National Crime Syndicate",
+      "aliases": [],
+      "context": "New syndicate that took over North Side Gang's gambling operations after Prohibition repeal.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=North_Side_Gang&oldid=1346761976"
+    }
+  ],
+  "edges": [
+    {
+      "source": "North Side Gang",
+      "target": "South Side Gang",
+      "evidence_quote": "It was the principal rival of the South Side Gang , later known as the Chicago Outfit or Chicago Mafia",
+      "context": "North Side Gang was the principal rival of the South Side Gang.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=North_Side_Gang&oldid=1346761976"
+    },
+    {
+      "source": "North Side Gang",
+      "target": "Market Street Gang",
+      "evidence_quote": "the North Side Gang originated from the Market Street Gang",
+      "context": "North Side Gang originated from the Market Street Gang.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=North_Side_Gang&oldid=1346761976"
+    },
+    {
+      "source": "North Side Gang",
+      "target": "Ragen's Colts",
+      "evidence_quote": "the North Side Gang also ran into trouble with other ethnic gangs; in 1921, O'Banion shot Ragen's Colts member Davy \"Yiddles\" Miller",
+      "context": "North Side Gang had conflict with Ragen's Colts, O'Banion shot a member.",
+      "relationship": "conflict",
+      "time_period": "1921",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=North_Side_Gang&oldid=1346761976"
+    },
+    {
+      "source": "North Side Gang",
+      "target": "Genna crime family",
+      "evidence_quote": "Rivals: Chicago Outfit and Genna crime family",
+      "context": "North Side Gang had Genna crime family as rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=North_Side_Gang&oldid=1346761976"
+    },
+    {
+      "source": "North Side Gang",
+      "target": "Chicago Outfit",
+      "evidence_quote": "Rivals: Chicago Outfit and Genna crime family",
+      "context": "North Side Gang had Chicago Outfit as rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=North_Side_Gang&oldid=1346761976"
+    },
+    {
+      "source": "Genna crime family",
+      "target": "Chicago Outfit",
+      "evidence_quote": "allies of Chicago Outfit",
+      "context": "Genna crime family were allies of Chicago Outfit.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=North_Side_Gang&oldid=1346761976"
+    },
+    {
+      "source": "North Side Gang",
+      "target": "National Crime Syndicate",
+      "evidence_quote": "Moran and the North Side Gang eventually lost control of their gambling operations to the new National Crime Syndicate",
+      "context": "National Crime Syndicate took over North Side Gang's gambling operations.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=North_Side_Gang&oldid=1346761976"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=North_Side_Gang&oldid=1346761976",
+  "source_file": "en_North_Side_Gang"
+}

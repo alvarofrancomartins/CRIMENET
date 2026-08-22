@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Baltimore Crew",
+      "original_text_name": "Baltimore Crew",
+      "aliases": [
+        "Baltimore Cosca"
+      ],
+      "context": "Italian-American organized-crime group that became a faction of the Gambino crime family, operating in Baltimore, Maryland from about 1900 until the 1990s.",
+      "time_period": "1900-1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Baltimore_Crew&oldid=1339076681"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [
+        "Gambino family"
+      ],
+      "context": "New York-based Mafia family that took over the Baltimore Crew in 1955.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Baltimore_Crew&oldid=1339076681"
+    },
+    {
+      "standard_name": "D'Urso family",
+      "original_text_name": "D'Urso family",
+      "aliases": [],
+      "context": "Original leaders of the Baltimore Crew until the Corbi takeover in the 1920s.",
+      "time_period": "until 1920s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Baltimore_Crew&oldid=1339076681"
+    },
+    {
+      "standard_name": "Corbi family",
+      "original_text_name": "Corbi family",
+      "aliases": [
+        "Corbi"
+      ],
+      "context": "Family that took over the Baltimore Crew in the 1920s and functionally headed it after 1920.",
+      "time_period": "1920s-1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Baltimore_Crew&oldid=1339076681"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "context": "Italian crime organization; a reputed Camorra member was murdered by Patsy Corbi in 1923.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Baltimore_Crew&oldid=1339076681"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Baltimore Crew",
+      "target": "Gambino crime family",
+      "evidence_quote": "The Baltimore Crew was an Italian-American organized-crime group that ultimately became a faction of the Gambino crime family",
+      "context": "The Baltimore Crew became a faction of the Gambino crime family.",
+      "relationship": "other",
+      "time_period": "1955-1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Baltimore_Crew&oldid=1339076681"
+    },
+    {
+      "source": "Baltimore Crew",
+      "target": "D'Urso family",
+      "evidence_quote": "It was originally an independent organization, led by the D'Urso family until the Corbi takeover in the 1920s.",
+      "context": "The D'Urso family originally led the Baltimore Crew.",
+      "relationship": "other",
+      "time_period": "until 1920s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Baltimore_Crew&oldid=1339076681"
+    },
+    {
+      "source": "Baltimore Crew",
+      "target": "Corbi family",
+      "evidence_quote": "The Corbi family acquiesced to the Gambino relationship, but maintained local leaders, simply answering to and accessing support from Morici and his New York Gambino connections.",
+      "context": "The Corbi family functionally headed the Baltimore Crew after 1920.",
+      "relationship": "other",
+      "time_period": "1920s-1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Baltimore_Crew&oldid=1339076681"
+    },
+    {
+      "source": "Corbi family",
+      "target": "Camorra",
+      "evidence_quote": "Patsy Corbi was sentenced to life imprisonment for the murder of local barber Frank Naples, a reputed Camorra member.",
+      "context": "A Corbi family member murdered a reputed Camorra member.",
+      "relationship": "conflict",
+      "time_period": "1923",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Baltimore_Crew&oldid=1339076681"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Baltimore_Crew&oldid=1339076681",
+  "source_file": "en_Baltimore_Crew"
+}

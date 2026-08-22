@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sons of Samoa",
+      "original_text_name": "Sons of Samoa",
+      "aliases": [
+        "SOS"
+      ],
+      "context": "Crips-affiliated street gang based in Long Beach, California, with Samoan and Pacific Islander members.",
+      "time_period": "1985-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sons_of_Samoa&oldid=1339086752"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "context": "Major street gang alliance; Sons of Samoa is a faction of the Crips.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sons_of_Samoa&oldid=1339086752"
+    },
+    {
+      "standard_name": "Suicidals",
+      "original_text_name": "Suicidals",
+      "aliases": [],
+      "context": "Subset of the Sons of Samoa that sold drugs in alleyways in the 1990s.",
+      "time_period": "1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sons_of_Samoa&oldid=1339086752"
+    },
+    {
+      "standard_name": "P.V.C. (Park Village Crip)",
+      "original_text_name": "P.V.C. (Park Village Crip)",
+      "aliases": [
+        "Park Village Crip"
+      ],
+      "context": "Rival gang of Sons of Samoa listed in infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sons_of_Samoa&oldid=1339086752"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Sons of Samoa",
+      "target": "Crips",
+      "evidence_quote": "Sons of Samoa is a Crips -affiliated street gang",
+      "context": "Sons of Samoa is affiliated with the Crips gang.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sons_of_Samoa&oldid=1339086752"
+    },
+    {
+      "source": "Sons of Samoa",
+      "target": "Suicidals",
+      "evidence_quote": "the Suicidals subset of the Sons of Samoa",
+      "context": "Suicidals is a subset of Sons of Samoa.",
+      "relationship": "other",
+      "time_period": "1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sons_of_Samoa&oldid=1339086752"
+    },
+    {
+      "source": "Sons of Samoa",
+      "target": "P.V.C. (Park Village Crip)",
+      "evidence_quote": "Rivals: P.V.C. (Park Village Crip)",
+      "context": "Sons of Samoa and P.V.C. are rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sons_of_Samoa&oldid=1339086752"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Sons_of_Samoa&oldid=1339086752",
+  "source_file": "en_Sons_of_Samoa"
+}

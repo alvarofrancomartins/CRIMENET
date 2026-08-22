@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Green Gang",
+      "original_text_name": "Green Gang",
+      "aliases": [
+        "Qing Bang",
+        "Green Society",
+        "Society for Common Progress"
+      ],
+      "context": "Chinese secret society and criminal triad organization prominent in Shanghai during early to mid 20th century.",
+      "time_period": "early to mid 20th century",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Green_Gang&oldid=1352003460"
+    },
+    {
+      "standard_name": "Kuomintang",
+      "original_text_name": "Kuomintang",
+      "aliases": [],
+      "context": "Chinese Nationalist political party led by Chiang Kai-shek.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Green_Gang&oldid=1352003460"
+    },
+    {
+      "standard_name": "Chaozhou syndicates",
+      "original_text_name": "small syndicates of ethnic Chaozhou",
+      "aliases": [],
+      "context": "Ethnic Chaozhou criminal groups that took over heroin market in Hong Kong after Green Gang's decline.",
+      "time_period": "mid-1950s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Green_Gang&oldid=1352003460"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Green Gang",
+      "target": "Kuomintang",
+      "evidence_quote": "The Green Gang was a major financial supporter of Chiang Kai-shek",
+      "context": "Green Gang financially supported the Kuomintang.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Green_Gang&oldid=1352003460"
+    },
+    {
+      "source": "Green Gang",
+      "target": "Chaozhou syndicates",
+      "evidence_quote": "Control of the heroin market was then taken by small syndicates of ethnic Chaozhou hailing from the nearby coastal town of Swatow. They used the Green Gang's chemists",
+      "context": "Chaozhou syndicates took over heroin market and used Green Gang's chemists.",
+      "relationship": "other",
+      "time_period": "mid-1950s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Green_Gang&oldid=1352003460"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Green_Gang&oldid=1352003460",
+  "source_file": "en_Green_Gang"
+}

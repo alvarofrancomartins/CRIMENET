@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Evil Corp",
+      "original_text_name": "Evil Corp",
+      "aliases": [
+        "Dridex",
+        "INDRIK SPIDER"
+      ],
+      "context": "Russian hacking group behind Dridex malware, active since 2009.",
+      "time_period": "since 2009",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dridex&oldid=1345627816"
+    },
+    {
+      "standard_name": "LockBit",
+      "original_text_name": "LockBit",
+      "aliases": [],
+      "context": "Ransomware group that Evil Corp affiliated with.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dridex&oldid=1345627816"
+    },
+    {
+      "standard_name": "Necurs",
+      "original_text_name": "Necurs",
+      "aliases": [],
+      "context": "Botnet or group listed as author of Dridex in infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dridex&oldid=1345627816"
+    },
+    {
+      "standard_name": "Jabber Zeus",
+      "original_text_name": "Jabber Zeus",
+      "aliases": [],
+      "context": "Hacking group whose core member Vyacheslav Penchukov was a personal friend of Evil Corp leader.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dridex&oldid=1345627816"
+    },
+    {
+      "standard_name": "REvil",
+      "original_text_name": "REvil",
+      "aliases": [],
+      "context": "Ransomware group that may have been confused with Evil Corp in a 2021 attack.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dridex&oldid=1345627816"
+    },
+    {
+      "standard_name": "Raspberry Robin",
+      "original_text_name": "Raspberry Robin",
+      "aliases": [],
+      "context": "Worm whose infrastructure may be used by Evil Corp according to IBM.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dridex&oldid=1345627816"
+    },
+    {
+      "standard_name": "Wagner Group",
+      "original_text_name": "Wagner Group",
+      "aliases": [],
+      "context": "Russian paramilitary organization; an Evil Corp member participated in a hackathon organized by them.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dridex&oldid=1345627816"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Evil Corp",
+      "target": "LockBit",
+      "evidence_quote": "Between 2022 and 2024, Evil Corp diversified its tactics and began affiliating with other ransomware groups, including LockBit.",
+      "context": "Evil Corp affiliated with LockBit to use its ransomware.",
+      "relationship": "cooperation",
+      "time_period": "2022-2024",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dridex&oldid=1345627816"
+    },
+    {
+      "source": "Evil Corp",
+      "target": "Jabber Zeus",
+      "evidence_quote": "Yakubets was a personal friend of core member or leader of the Jabber Zeus hacking group Vyacheslav Penchukov",
+      "context": "The leader of Evil Corp was a personal friend of a core member of Jabber Zeus.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dridex&oldid=1345627816"
+    },
+    {
+      "source": "Evil Corp",
+      "target": "Raspberry Robin",
+      "evidence_quote": "IBM suggested that Evil Corp may be using Raspberry Robin infrastructure to carry out attacks.",
+      "context": "Evil Corp may be using Raspberry Robin's infrastructure for attacks.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dridex&oldid=1345627816"
+    },
+    {
+      "source": "Evil Corp",
+      "target": "REvil",
+      "evidence_quote": "analysts at Emsisoft suggested that a ransomware attack initially attributed to REvil may have been the work of Evil Corp.",
+      "context": "A ransomware attack attributed to REvil may have actually been by Evil Corp, indicating possible confusion or misattribution.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dridex&oldid=1345627816"
+    },
+    {
+      "source": "Evil Corp",
+      "target": "Wagner Group",
+      "evidence_quote": "in December 2022, Igor Turashev and his company placed third in a hackathon organized by the Wagner Group",
+      "context": "An Evil Corp member participated in a hackathon organized by Wagner Group.",
+      "relationship": "cooperation",
+      "time_period": "2022",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dridex&oldid=1345627816"
+    },
+    {
+      "source": "Evil Corp",
+      "target": "Necurs",
+      "evidence_quote": "Authors: Necurs , Maksim Yakubets",
+      "context": "Necurs is listed as an author of Dridex, which is an alias of Evil Corp.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dridex&oldid=1345627816"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Dridex&oldid=1345627816",
+  "source_file": "en_Dridex"
+}

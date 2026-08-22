@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kantō-kai",
+      "original_text_name": "Kantō-kai",
+      "aliases": [],
+      "context": "Japanese underworld organization formed by Yoshio Kodama in 1964, based in Kantō region.",
+      "time_period": "1964-1965",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kant%C5%8D-kai&oldid=1189488540"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Kansai-based gang led by Kazuo Taoka, refused to join Kodama's envisioned Japan-wide gangster society.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kant%C5%8D-kai&oldid=1189488540"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Yamaguchi-gumi",
+      "target": "Kantō-kai",
+      "evidence_quote": "Kodama had originally envisioned a Japan-wide gangster society, but in 1963 Kazuo Taoka and his Kansai -based Yamaguchi-gumi gang refused to join, leaving Kodama with a Kantō-heavy organization.",
+      "context": "Yamaguchi-gumi refused to join the Kantō-kai, indicating a lack of cooperation.",
+      "relationship": "conflict",
+      "time_period": "1963",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kant%C5%8D-kai&oldid=1189488540"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Kant%C5%8D-kai&oldid=1189488540",
+  "source_file": "en_Kantō-kai"
+}

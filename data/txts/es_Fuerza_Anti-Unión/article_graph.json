@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Fuerza Anti-Unión",
+      "original_text_name": "Fuerza Anti-Unión",
+      "aliases": [
+        "Fuerza Anti-Unión Tepito",
+        "Fuerza Tepito",
+        "FAU"
+      ],
+      "context": "Mexican criminal organization from Tepito, Mexico City, founded around 2016.",
+      "time_period": "2016",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Fuerza_Anti-Uni%C3%B3n&oldid=172726890"
+    },
+    {
+      "standard_name": "Unión Tepito",
+      "original_text_name": "Unión Tepito",
+      "aliases": [
+        "La Unión Tepito"
+      ],
+      "context": "Mexican criminal organization from Tepito, Mexico City.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Fuerza_Anti-Uni%C3%B3n&oldid=172726890"
+    },
+    {
+      "standard_name": "Cártel de Jalisco Nueva Generación",
+      "original_text_name": "CJNG",
+      "aliases": [
+        "Cártel de Jalisco Nueva Generación"
+      ],
+      "context": "Mexican criminal organization.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Fuerza_Anti-Uni%C3%B3n&oldid=172726890"
+    },
+    {
+      "standard_name": "Cártel de Tláhuac",
+      "original_text_name": "Cártel de Tláhuac",
+      "aliases": [],
+      "context": "Mexican criminal organization.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Fuerza_Anti-Uni%C3%B3n&oldid=172726890"
+    },
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [],
+      "context": "Mexican criminal organization.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Fuerza_Anti-Uni%C3%B3n&oldid=172726890"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Fuerza Anti-Unión",
+      "target": "Unión Tepito",
+      "evidence_quote": "varios miembros de la organización se separaron para formar la Fuerza Anti Unión, lo que orillo la competencia de ambos grupos por el control del territorio",
+      "context": "Fuerza Anti-Unión formed from splinter of Unión Tepito, leading to competition for territory.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Fuerza_Anti-Uni%C3%B3n&oldid=172726890"
+    },
+    {
+      "source": "Fuerza Anti-Unión",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "Aliados: Cártel de Jalisco Nueva Generación",
+      "context": "CJNG is listed as an ally of Fuerza Anti-Unión in the infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Fuerza_Anti-Uni%C3%B3n&oldid=172726890"
+    },
+    {
+      "source": "Fuerza Anti-Unión",
+      "target": "Cártel de Tláhuac",
+      "evidence_quote": "Enemigos: ... Cártel de Tláhuac",
+      "context": "Cártel de Tláhuac is listed as an enemy of Fuerza Anti-Unión in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Fuerza_Anti-Uni%C3%B3n&oldid=172726890"
+    },
+    {
+      "source": "Fuerza Anti-Unión",
+      "target": "La Familia Michoacana",
+      "evidence_quote": "Enemigos: ... La Familia Michoacana",
+      "context": "La Familia Michoacana is listed as an enemy of Fuerza Anti-Unión in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Fuerza_Anti-Uni%C3%B3n&oldid=172726890"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Fuerza_Anti-Uni%C3%B3n&oldid=172726890",
+  "source_file": "es_Fuerza_Anti-Unión"
+}

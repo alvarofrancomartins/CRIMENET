@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Casalesi clan",
+      "original_text_name": "clan dei Casalesi",
+      "aliases": [],
+      "context": "Camorra clan from the Agro Aversano area, founded by Antonio Bardellino.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mario_Iovine&oldid=148691497"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "context": "Coalition of Camorra clans formed by Antonio Bardellino and others to oppose the Nuova Camorra Organizzata.",
+      "time_period": "late 1970s to 1991",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mario_Iovine&oldid=148691497"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [],
+      "context": "Camorra organization led by Raffaele Cutolo, opposed by the Nuova Famiglia.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mario_Iovine&oldid=148691497"
+    },
+    {
+      "standard_name": "Nuvoletta clan",
+      "original_text_name": "Nuvoletta",
+      "aliases": [
+        "fratelli Nuvoletta"
+      ],
+      "context": "Camorra clan from Marano di Napoli, led by the Nuvoletta brothers.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mario_Iovine&oldid=148691497"
+    },
+    {
+      "standard_name": "Schiavone clan",
+      "original_text_name": "Schiavone",
+      "aliases": [
+        "Francesco Schiavone"
+      ],
+      "context": "Faction within the Casalesi clan led by Francesco Schiavone.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mario_Iovine&oldid=148691497"
+    },
+    {
+      "standard_name": "Bidognetti clan",
+      "original_text_name": "Bidognetti",
+      "aliases": [
+        "Francesco Bidognetti"
+      ],
+      "context": "Faction within the Casalesi clan led by Francesco Bidognetti.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mario_Iovine&oldid=148691497"
+    },
+    {
+      "standard_name": "De Falco clan",
+      "original_text_name": "De Falco",
+      "aliases": [
+        "Vincenzo De Falco",
+        "Nunzio De Falco"
+      ],
+      "context": "Faction within the Casalesi clan led by Vincenzo De Falco and later his brother Nunzio.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mario_Iovine&oldid=148691497"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Casalesi clan",
+      "target": "Nuova Famiglia",
+      "evidence_quote": "Insieme ad Antonio Bardellino e gli altri clan di camorra dell'agro aversano, costituì la cosiddetta Nuova Famiglia",
+      "context": "The Casalesi clan was a founding component of the Nuova Famiglia coalition.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mario_Iovine&oldid=148691497"
+    },
+    {
+      "source": "Nuova Famiglia",
+      "target": "Nuova Camorra Organizzata",
+      "evidence_quote": "che si contrapponeva alla Nuova Camorra Organizzata di Raffaele Cutolo",
+      "context": "The Nuova Famiglia opposed the Nuova Camorra Organizzata in a war.",
+      "relationship": "conflict",
+      "time_period": "late 1970s to 1991",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mario_Iovine&oldid=148691497"
+    },
+    {
+      "source": "Nuova Famiglia",
+      "target": "Nuvoletta clan",
+      "evidence_quote": "Da una parte i Bardellino e le altre fedelissime famiglie e dall'altra i Nuvoletta",
+      "context": "After defeating the NCO, the Nuova Famiglia split into factions, with the Nuvoletta clan opposing the Bardellino faction.",
+      "relationship": "conflict",
+      "time_period": "1984",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mario_Iovine&oldid=148691497"
+    },
+    {
+      "source": "Casalesi clan",
+      "target": "Nuvoletta clan",
+      "evidence_quote": "Anche stavolta Mario Iovine si schierò con Antonio Bardellino per contrastare i fratelli Nuvoletta di Marano di Napoli",
+      "context": "The Casalesi clan (under Bardellino) fought against the Nuvoletta clan.",
+      "relationship": "conflict",
+      "time_period": "1984",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mario_Iovine&oldid=148691497"
+    },
+    {
+      "source": "Schiavone clan",
+      "target": "De Falco clan",
+      "evidence_quote": "I contrasti tra gli Schiavone e i De Falco",
+      "context": "The Schiavone and De Falco factions were in conflict over money and power.",
+      "relationship": "conflict",
+      "time_period": "1991-1994",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mario_Iovine&oldid=148691497"
+    },
+    {
+      "source": "Bidognetti clan",
+      "target": "De Falco clan",
+      "evidence_quote": "Francesco Schiavone e Francesco Bidognetti sospettavano che Vincenzo De Falco non spartisse con loro i soldi",
+      "context": "The Bidognetti faction allied with Schiavone against De Falco.",
+      "relationship": "conflict",
+      "time_period": "1991-1994",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mario_Iovine&oldid=148691497"
+    },
+    {
+      "source": "Schiavone clan",
+      "target": "Bidognetti clan",
+      "evidence_quote": "Francesco Schiavone e Francesco Bidognetti sospettavano che Vincenzo De Falco non spartisse con loro i soldi",
+      "context": "Schiavone and Bidognetti were allies against De Falco.",
+      "relationship": "cooperation",
+      "time_period": "1991-1994",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mario_Iovine&oldid=148691497"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Mario_Iovine&oldid=148691497",
+  "source_file": "it_Mario_Iovine"
+}

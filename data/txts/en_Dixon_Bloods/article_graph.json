@@ -1,0 +1,36 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Dixon Bloods",
+      "original_text_name": "Dixon Bloods",
+      "aliases": [
+        "Dixon City Bloods",
+        "Dixon Goonies"
+      ],
+      "context": "Street gang based in Toronto, Ontario, Canada, involved in weapons and drug trafficking.",
+      "time_period": "2006–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dixon_Bloods&oldid=1356857665"
+    },
+    {
+      "standard_name": "G-Shine Bloods",
+      "original_text_name": "G-Shine Bloods",
+      "aliases": [],
+      "context": "New York-based gang; a former member allegedly co-founded the Dixon Bloods.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dixon_Bloods&oldid=1356857665"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Dixon Bloods",
+      "target": "G-Shine Bloods",
+      "evidence_quote": "Unconfirmed rumours state that one of the founding members of the gang was a former member of a New York-based gang known as G-Shine Bloods, who had relocated to the neighborhood in the early 2000s.",
+      "context": "A former member of G-Shine Bloods allegedly co-founded the Dixon Bloods, indicating a structural link.",
+      "relationship": "other",
+      "time_period": "early 2000s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dixon_Bloods&oldid=1356857665"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Dixon_Bloods&oldid=1356857665",
+  "source_file": "en_Dixon_Bloods"
+}

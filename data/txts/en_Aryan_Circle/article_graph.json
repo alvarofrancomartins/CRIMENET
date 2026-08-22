@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Aryan Circle",
+      "original_text_name": "Aryan Circle",
+      "aliases": [
+        "AC"
+      ],
+      "context": "White supremacist, Neo-Nazi prison gang in U.S. correctional facilities.",
+      "time_period": "1985–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Aryan_Circle&oldid=1358407231"
+    },
+    {
+      "standard_name": "Aryan Brotherhood of Texas",
+      "original_text_name": "Aryan Brotherhood of Texas",
+      "aliases": [
+        "ABT"
+      ],
+      "context": "White supremacist prison gang that shifted focus to religion in the 1980s.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Aryan_Circle&oldid=1358407231"
+    },
+    {
+      "standard_name": "White Knights",
+      "original_text_name": "White Knights",
+      "aliases": [],
+      "context": "White supremacist prison gang that fought a war with the Aryan Circle in the mid-1990s.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Aryan_Circle&oldid=1358407231"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Aryan Circle",
+      "target": "Aryan Brotherhood of Texas",
+      "evidence_quote": "The Aryan Circle was founded by Mark \"Cowboy\" Gaspard in 1985 in the Texas Department of Corrections as a splinter group of the Aryan Brotherhood of Texas (ABT).",
+      "context": "Aryan Circle split from Aryan Brotherhood of Texas as a splinter group.",
+      "relationship": "other",
+      "time_period": "1985",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Aryan_Circle&oldid=1358407231"
+    },
+    {
+      "source": "Aryan Circle",
+      "target": "White Knights",
+      "evidence_quote": "in the mid-1990s it was caught up in a bloody war with another white supremacist prison gang called the White Knights that cost the life of one White Knights member.",
+      "context": "Aryan Circle fought a war with White Knights in the mid-1990s.",
+      "relationship": "conflict",
+      "time_period": "mid-1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Aryan_Circle&oldid=1358407231"
+    },
+    {
+      "source": "Aryan Circle",
+      "target": "Aryan Brotherhood of Texas",
+      "evidence_quote": "Rivals: Aryan Brotherhood of Texas",
+      "context": "Infobox lists Aryan Brotherhood of Texas as a rival.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Aryan_Circle&oldid=1358407231"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Aryan_Circle&oldid=1358407231",
+  "source_file": "en_Aryan_Circle"
+}

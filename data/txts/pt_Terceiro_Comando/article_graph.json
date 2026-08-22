@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Terceiro Comando",
+      "original_text_name": "Terceiro Comando",
+      "aliases": [
+        "TC"
+      ],
+      "context": "Brazilian criminal faction based in Rio de Janeiro, active from 1980 to 2002, opposed to Comando Vermelho.",
+      "time_period": "1980 – 2002",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando&oldid=72383730"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "Falange Vermelha"
+      ],
+      "context": "Brazilian criminal faction, also known as Falange Vermelha, based in Rio de Janeiro.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando&oldid=72383730"
+    },
+    {
+      "standard_name": "Falange Jacaré",
+      "original_text_name": "Falange Jacaré",
+      "aliases": [],
+      "context": "Brazilian criminal faction that controlled the Ilha Grande prison.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando&oldid=72383730"
+    },
+    {
+      "standard_name": "Amigos dos Amigos",
+      "original_text_name": "ADA",
+      "aliases": [
+        "Amigos dos Amigos"
+      ],
+      "context": "Brazilian criminal faction created in 1994, allied with Terceiro Comando.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando&oldid=72383730"
+    },
+    {
+      "standard_name": "Terceiro Comando Puro",
+      "original_text_name": "Terceiro Comando Puro",
+      "aliases": [],
+      "context": "Dissident faction of Terceiro Comando, formed in 2002.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando&oldid=72383730"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Terceiro Comando",
+      "target": "Comando Vermelho",
+      "evidence_quote": "surgida para se opor ao Comando Vermelho em 1988",
+      "context": "Terceiro Comando was created to oppose Comando Vermelho.",
+      "relationship": "conflict",
+      "time_period": "1988",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando&oldid=72383730"
+    },
+    {
+      "source": "Terceiro Comando",
+      "target": "Falange Jacaré",
+      "evidence_quote": "pode ter sido criado de uma dissidência de uma das falanges que controlavam a prisão de Ilha Grande, provavelmente a Falange Jacaré",
+      "context": "Terceiro Comando may have originated as a dissident group from Falange Jacaré.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando&oldid=72383730"
+    },
+    {
+      "source": "Terceiro Comando",
+      "target": "Amigos dos Amigos",
+      "evidence_quote": "Com a criação da facção ADA (Amigos dos Amigos) , em 1994 , ambas às organizações firmam uma aliança.",
+      "context": "Terceiro Comando and ADA formed an alliance in 1994.",
+      "relationship": "cooperation",
+      "time_period": "1994",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando&oldid=72383730"
+    },
+    {
+      "source": "Terceiro Comando",
+      "target": "Terceiro Comando Puro",
+      "evidence_quote": "Em 2002, surgiu uma dissidência, o Terceiro Comando Puro",
+      "context": "Terceiro Comando Puro is a dissident faction of Terceiro Comando.",
+      "relationship": "other",
+      "time_period": "2002",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando&oldid=72383730"
+    },
+    {
+      "source": "Comando Vermelho",
+      "target": "Falange Jacaré",
+      "evidence_quote": "duas facções criminosas guerreavam entre si no estado do Rio de Janeiro; Falange Vermelha e Falange Jacaré.",
+      "context": "Comando Vermelho (Falange Vermelha) and Falange Jacaré were at war.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando&oldid=72383730"
+    }
+  ],
+  "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando&oldid=72383730",
+  "source_file": "pt_Terceiro_Comando"
+}

@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Norman Conks",
+      "original_text_name": "Norman Conks",
+      "aliases": [
+        "Norman Conquerors"
+      ],
+      "context": "Large Catholic sectarian street gang active in Glasgow, one of the Glasgow razor gangs, active from 1880s to 1960s, based in Norman Street, Bridgeton.",
+      "time_period": "1880s-1960s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Norman_Conks&oldid=1335996470"
+    },
+    {
+      "standard_name": "Billy Boys",
+      "original_text_name": "Billy Boys of Bridgeton",
+      "aliases": [],
+      "context": "Protestant street gang in Bridgeton, Glasgow, rivals of the Norman Conks.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Norman_Conks&oldid=1335996470"
+    },
+    {
+      "standard_name": "Calton Tongs",
+      "original_text_name": "Calton Tongs",
+      "aliases": [],
+      "context": "Mostly Catholic street gang in Glasgow, on friendly terms with the Norman Conks.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Norman_Conks&oldid=1335996470"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Norman Conks",
+      "target": "Billy Boys",
+      "evidence_quote": "They were often involved in street fighting with the Protestant Billy Boys of Bridgeton",
+      "context": "The Norman Conks and Billy Boys were engaged in street fighting, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Norman_Conks&oldid=1335996470"
+    },
+    {
+      "source": "Norman Conks",
+      "target": "Calton Tongs",
+      "evidence_quote": "but were on friendlier terms with the Calton Tongs who were also mostly Catholic",
+      "context": "The Norman Conks had friendly relations with the Calton Tongs, indicating cooperation.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Norman_Conks&oldid=1335996470"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Norman_Conks&oldid=1335996470",
+  "source_file": "en_Norman_Conks"
+}

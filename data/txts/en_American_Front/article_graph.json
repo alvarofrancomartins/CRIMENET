@@ -1,0 +1,80 @@
+{
+  "nodes": [
+    {
+      "standard_name": "American Front",
+      "original_text_name": "American Front",
+      "aliases": [
+        "AF"
+      ],
+      "context": "White supremacist organization founded in San Francisco in 1984.",
+      "time_period": "1984",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=American_Front&oldid=1317253639"
+    },
+    {
+      "standard_name": "British National Front",
+      "original_text_name": "British National Front",
+      "aliases": [],
+      "context": "British far-right political party that the American Front was modeled after.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=American_Front&oldid=1317253639"
+    },
+    {
+      "standard_name": "White Aryan Resistance",
+      "original_text_name": "White Aryan Resistance",
+      "aliases": [
+        "WAR"
+      ],
+      "context": "White supremacist organization led by Tom Metzger, allied with American Front.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=American_Front&oldid=1317253639"
+    },
+    {
+      "standard_name": "Combat 18",
+      "original_text_name": "Combat 18",
+      "aliases": [],
+      "context": "Neo-Nazi organization in England with ties to American Front's magazine.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=American_Front&oldid=1317253639"
+    }
+  ],
+  "edges": [
+    {
+      "source": "American Front",
+      "target": "British National Front",
+      "evidence_quote": "It began as a loose organization modeled after the British National Front.",
+      "context": "American Front was modeled after the British National Front.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=American_Front&oldid=1317253639"
+    },
+    {
+      "source": "American Front",
+      "target": "White Aryan Resistance",
+      "evidence_quote": "Heick began working with Tom Metzger 's White Aryan Resistance (WAR) in 1988.",
+      "context": "American Front cooperated with White Aryan Resistance starting in 1988.",
+      "relationship": "cooperation",
+      "time_period": "1988",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=American_Front&oldid=1317253639"
+    },
+    {
+      "source": "American Front",
+      "target": "White Aryan Resistance",
+      "evidence_quote": "Tension between AF and WAR increased soon after.",
+      "context": "Tension and disagreement arose between American Front and White Aryan Resistance after Aryan Woodstock.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=American_Front&oldid=1317253639"
+    },
+    {
+      "source": "American Front",
+      "target": "Combat 18",
+      "evidence_quote": "the Washington and California AF sections published The Voice of Revolution magazine, which had ties to Combat 18 in England.",
+      "context": "American Front's magazine had ties to Combat 18.",
+      "relationship": "cooperation",
+      "time_period": "1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=American_Front&oldid=1317253639"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=American_Front&oldid=1317253639",
+  "source_file": "en_American_Front"
+}

@@ -1,0 +1,134 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Japan's largest yakuza organization, based in Kobe.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kenichi_Shinoda&oldid=1353521756"
+    },
+    {
+      "standard_name": "Hirota-gumi",
+      "original_text_name": "Hirota-gumi",
+      "aliases": [],
+      "context": "Nagoya-based Yamaguchi-gumi affiliate that Shinoda joined in 1962.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kenichi_Shinoda&oldid=1353521756"
+    },
+    {
+      "standard_name": "Kodo-kai",
+      "original_text_name": "Kodo-kai",
+      "aliases": [],
+      "context": "Successor to the Hirota-gumi, founded in 1984 by Shinoda and others; a branch of Yamaguchi-gumi.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kenichi_Shinoda&oldid=1353521756"
+    },
+    {
+      "standard_name": "Kanto-Hatsukakai",
+      "original_text_name": "Kanto-Hatsukakai",
+      "aliases": [],
+      "context": "Federation of Tokyo-based yakuza groups including Inagawa-kai and Sumiyoshi-kai.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kenichi_Shinoda&oldid=1353521756"
+    },
+    {
+      "standard_name": "Inagawa-kai",
+      "original_text_name": "Inagawa-kai",
+      "aliases": [],
+      "context": "Tokyo-based yakuza group, part of Kanto-Hatsukakai.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kenichi_Shinoda&oldid=1353521756"
+    },
+    {
+      "standard_name": "Sumiyoshi-kai",
+      "original_text_name": "Sumiyoshi-kai",
+      "aliases": [],
+      "context": "Tokyo-based yakuza group, part of Kanto-Hatsukakai.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kenichi_Shinoda&oldid=1353521756"
+    },
+    {
+      "standard_name": "Brothers' Circle",
+      "original_text_name": "Brothers' Circle",
+      "aliases": [],
+      "context": "Russian transnational organized crime group.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kenichi_Shinoda&oldid=1353521756"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "context": "Italian organized crime group.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kenichi_Shinoda&oldid=1353521756"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "context": "Mexican organized crime group.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kenichi_Shinoda&oldid=1353521756"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hirota-gumi",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "He began his yakuza career in 1962 when he joined the Hirota-gumi, a Nagoya -based Yamaguchi-gumi affiliate.",
+      "context": "Hirota-gumi is an affiliate of Yamaguchi-gumi.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kenichi_Shinoda&oldid=1353521756"
+    },
+    {
+      "source": "Kodo-kai",
+      "target": "Hirota-gumi",
+      "evidence_quote": "Following the disbanding of the Hirota-gumi, he founded the Kodo-kai with Kiyoshi Takayama among others in 1984 as the successor to the Hirota-gumi.",
+      "context": "Kodo-kai is the successor to Hirota-gumi.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kenichi_Shinoda&oldid=1353521756"
+    },
+    {
+      "source": "Kodo-kai",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "Under Shinoda and his long-term partner Takayama, the Kodo-kai was a successful branch of the Yamaguchi-Gumi",
+      "context": "Kodo-kai is a branch of Yamaguchi-gumi.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kenichi_Shinoda&oldid=1353521756"
+    },
+    {
+      "source": "Yamaguchi-gumi",
+      "target": "Kanto-Hatsukakai",
+      "evidence_quote": "According to both yakuza and police, this movement would inevitably create conflict between the Yamaguchi-gumi and the Kanto-Hatsukakai",
+      "context": "Yamaguchi-gumi's expansion into Tokyo is expected to create conflict with Kanto-Hatsukakai.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kenichi_Shinoda&oldid=1353521756"
+    },
+    {
+      "source": "Kanto-Hatsukakai",
+      "target": "Inagawa-kai",
+      "evidence_quote": "a federation of Tokyo-based yakuza groups including the Inagawa-kai and the Sumiyoshi-kai",
+      "context": "Inagawa-kai is a member of the Kanto-Hatsukakai federation.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kenichi_Shinoda&oldid=1353521756"
+    },
+    {
+      "source": "Kanto-Hatsukakai",
+      "target": "Sumiyoshi-kai",
+      "evidence_quote": "a federation of Tokyo-based yakuza groups including the Inagawa-kai and the Sumiyoshi-kai",
+      "context": "Sumiyoshi-kai is a member of the Kanto-Hatsukakai federation.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kenichi_Shinoda&oldid=1353521756"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Kenichi_Shinoda&oldid=1353521756",
+  "source_file": "en_Kenichi_Shinoda"
+}

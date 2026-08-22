@@ -1,0 +1,139 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Unione Corse",
+      "original_text_name": "Unione Corse",
+      "aliases": [
+        "Corsican Gang",
+        "Corsican underworld",
+        "Corsican cartel",
+        "Corsican traffickers",
+        "French underground"
+      ],
+      "context": "Corsican organized crime group involved in heroin trafficking from Marseille to the US.",
+      "time_period": "1930s-1970s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=French_Connection&oldid=1350361601"
+    },
+    {
+      "standard_name": "Guérini clan",
+      "original_text_name": "Guérini clan",
+      "aliases": [],
+      "context": "Corsican crime family led by Antoine Guérini, ruling dynasty of Unione Corse.",
+      "time_period": "until 1970s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=French_Connection&oldid=1350361601"
+    },
+    {
+      "standard_name": "Sicilian Mafia",
+      "original_text_name": "Sicilian Mafia",
+      "aliases": [],
+      "context": "Sicilian organized crime group involved in heroin trade discussions.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=French_Connection&oldid=1350361601"
+    },
+    {
+      "standard_name": "American Mafia",
+      "original_text_name": "American Mafia",
+      "aliases": [],
+      "context": "US-based organized crime groups involved in heroin distribution.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=French_Connection&oldid=1350361601"
+    },
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese crime family",
+      "aliases": [],
+      "context": "American Mafia family involved in heroin distribution and theft of French Connection heroin.",
+      "time_period": "early 1970s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=French_Connection&oldid=1350361601"
+    },
+    {
+      "standard_name": "Cotroni crime family",
+      "original_text_name": "Cotroni crime family",
+      "aliases": [],
+      "context": "Italian-Canadian crime family based in Montreal.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=French_Connection&oldid=1350361601"
+    },
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno crime family",
+      "aliases": [],
+      "context": "American Mafia family involved in narcotics trafficking.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=French_Connection&oldid=1350361601"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [],
+      "context": "American Mafia family involved in narcotics trafficking.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=French_Connection&oldid=1350361601"
+    },
+    {
+      "standard_name": "Trafficante crime family",
+      "original_text_name": "Trafficante crime family",
+      "aliases": [],
+      "context": "American Mafia family based in Tampa, Florida.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=French_Connection&oldid=1350361601"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [],
+      "context": "American Mafia family founded by Lucky Luciano.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=French_Connection&oldid=1350361601"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Unione Corse",
+      "target": "Guérini clan",
+      "evidence_quote": "After Paul Carbone's death, the Guérini clan was the ruling dynasty of the Unione Corse",
+      "context": "Guérini clan ruled Unione Corse after Carbone's death.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=French_Connection&oldid=1350361601"
+    },
+    {
+      "source": "Sicilian Mafia",
+      "target": "American Mafia",
+      "evidence_quote": "In October 1957, a meeting between Sicilian Mafia and American Mafia members was held at the Grand Hotel et des Palmes in Palermo to discuss the international illegal heroin trade in the French Connection.",
+      "context": "Sicilian Mafia and American Mafia met to discuss heroin trade.",
+      "relationship": "cooperation",
+      "time_period": "1957",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=French_Connection&oldid=1350361601"
+    },
+    {
+      "source": "Unione Corse",
+      "target": "American Mafia",
+      "evidence_quote": "Also broken up as part of this investigation was the crew of American Mafia Lucchese family mobster Vincent Papa",
+      "context": "American Mafia crew distributed heroin from French Connection.",
+      "relationship": "cooperation",
+      "time_period": "early 1970s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=French_Connection&oldid=1350361601"
+    },
+    {
+      "source": "Unione Corse",
+      "target": "Lucchese crime family",
+      "evidence_quote": "Also broken up as part of this investigation was the crew of American Mafia Lucchese family mobster Vincent Papa",
+      "context": "Lucchese family crew distributed heroin from French Connection.",
+      "relationship": "cooperation",
+      "time_period": "early 1970s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=French_Connection&oldid=1350361601"
+    },
+    {
+      "source": "Guérini clan",
+      "target": "Unione Corse",
+      "evidence_quote": "After Paul Carbone's death, the Guérini clan was the ruling dynasty of the Unione Corse",
+      "context": "Guérini clan ruled Unione Corse.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=French_Connection&oldid=1350361601"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=French_Connection&oldid=1350361601",
+  "source_file": "en_French_Connection"
+}

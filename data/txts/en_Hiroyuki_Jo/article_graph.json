@@ -1,0 +1,58 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Shinshushieikan",
+      "original_text_name": "Shinshushieikan",
+      "aliases": [],
+      "context": "Uyoku organization of which Hiroyuki Jo is a member.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hiroyuki_Jo&oldid=1314848756"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Yakuza organization with a branch called Hane-gumi based in Mie Prefecture.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hiroyuki_Jo&oldid=1314848756"
+    },
+    {
+      "standard_name": "Hane-gumi",
+      "original_text_name": "Hane-gumi",
+      "aliases": [],
+      "context": "Mie Prefecture-based branch of Yamaguchi-gumi.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hiroyuki_Jo&oldid=1314848756"
+    },
+    {
+      "standard_name": "Aum Shinrikyo",
+      "original_text_name": "Aum Shinrikyo",
+      "aliases": [],
+      "context": "Cult of which Hideo Murai was a member; yakuza had connections to it.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hiroyuki_Jo&oldid=1314848756"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hane-gumi",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "the Mie Prefecture -based Hane-gumi branch of Yamaguchi-gumi",
+      "context": "Hane-gumi is a branch of Yamaguchi-gumi.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hiroyuki_Jo&oldid=1314848756"
+    },
+    {
+      "source": "Yamaguchi-gumi",
+      "target": "Aum Shinrikyo",
+      "evidence_quote": "It is believed that this was done out of fear of the yakuza's connections to the cult being made public.",
+      "context": "Yamaguchi-gumi had connections to Aum Shinrikyo.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hiroyuki_Jo&oldid=1314848756"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Hiroyuki_Jo&oldid=1314848756",
+  "source_file": "en_Hiroyuki_Jo"
+}

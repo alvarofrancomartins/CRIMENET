@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bande des Trois Canards",
+      "original_text_name": "Bande des Trois Canards",
+      "aliases": [
+        "Three Ducks Gang"
+      ],
+      "context": "French gang specializing in burglaries, hold-ups and racketeering, active in Marseille in the 1950s-1960s.",
+      "time_period": "1950s-1965",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jacky_Imbert&oldid=1303206187"
+    },
+    {
+      "standard_name": "Milieu",
+      "original_text_name": "Milieu",
+      "aliases": [],
+      "context": "French organized crime group that supported the murder of Antoine Guérini.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jacky_Imbert&oldid=1303206187"
+    },
+    {
+      "standard_name": "Guérini clan",
+      "original_text_name": "Guérini clan",
+      "aliases": [],
+      "context": "Corsican crime clan in Marseille, involved in the murder of Robert Blémant.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jacky_Imbert&oldid=1303206187"
+    },
+    {
+      "standard_name": "Russian Mafia",
+      "original_text_name": "Russian Mafia",
+      "aliases": [],
+      "context": "Russian organized crime group planning a clandestine cigarette factory in Marseille.",
+      "time_period": "2003",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jacky_Imbert&oldid=1303206187"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bande des Trois Canards",
+      "target": "Milieu",
+      "evidence_quote": "The murder was supported by the Milieu gang, who wanted revenge for the killing of Robert Blémant by the Guérini clan.",
+      "context": "Milieu supported the murder of Antoine Guérini, which was carried out by Imbert on Zampa's orders, and the Bande des Trois Canards was Imbert's former gang.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jacky_Imbert&oldid=1303206187"
+    },
+    {
+      "source": "Milieu",
+      "target": "Guérini clan",
+      "evidence_quote": "The murder was supported by the Milieu gang, who wanted revenge for the killing of Robert Blémant by the Guérini clan.",
+      "context": "Milieu sought revenge against the Guérini clan for killing Robert Blémant.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jacky_Imbert&oldid=1303206187"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Jacky_Imbert&oldid=1303206187",
+  "source_file": "en_Jacky_Imbert"
+}

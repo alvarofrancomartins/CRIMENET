@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Tren del Llano",
+      "original_text_name": "Tren del Llano",
+      "aliases": [
+        "El Picure",
+        "Banda de El Picure"
+      ],
+      "context": "Venezuelan criminal megaband founded in 2008, operating in Guárico, Aragua, and other states, involved in vehicle theft, extortion, drug trafficking, and murder.",
+      "time_period": "2008-actualidad",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Tren_del_Llano&oldid=171375769"
+    },
+    {
+      "standard_name": "Tren de Aragua",
+      "original_text_name": "Tren de Aragua",
+      "aliases": [],
+      "context": "Venezuelan criminal organization mentioned as an ally of Tren del Llano.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Tren_del_Llano&oldid=171375769"
+    },
+    {
+      "standard_name": "Cártel de los Soles",
+      "original_text_name": "Cártel de los Soles",
+      "aliases": [],
+      "context": "Venezuelan drug cartel mentioned as having a cocaine shipment stolen by Tren del Llano.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Tren_del_Llano&oldid=171375769"
+    },
+    {
+      "standard_name": "Los Caraqueños",
+      "original_text_name": "Los Caraqueños",
+      "aliases": [],
+      "context": "Criminal cell linked to Tren de Aragua, displaced by Tren del Llano in Sucre state.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Tren_del_Llano&oldid=171375769"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Tren del Llano",
+      "target": "Tren de Aragua",
+      "evidence_quote": "Aliados: El Tren de Aragua",
+      "context": "The infobox lists Tren de Aragua as an ally of Tren del Llano.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Tren_del_Llano&oldid=171375769"
+    },
+    {
+      "source": "Tren del Llano",
+      "target": "Cártel de los Soles",
+      "evidence_quote": "El gobierno inició una operación contra Tren del Llano a finales de 2021, después de que el grupo presuntamente robara un cargamento de cocaína perteneciente al Cártel de los Soles.",
+      "context": "Tren del Llano allegedly stole a cocaine shipment from Cártel de los Soles, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": "2021",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Tren_del_Llano&oldid=171375769"
+    },
+    {
+      "source": "Tren del Llano",
+      "target": "Los Caraqueños",
+      "evidence_quote": "Para mediados del 2020, el grupo expandió sus actividades al estado de Sucre, desplazando a una célula criminal llamada \"Los Caraqueños\" ligada al Tren de Aragua.",
+      "context": "Tren del Llano displaced Los Caraqueños, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": "2020",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Tren_del_Llano&oldid=171375769"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Tren_del_Llano&oldid=171375769",
+  "source_file": "es_Tren_del_Llano"
+}

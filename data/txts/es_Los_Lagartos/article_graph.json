@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Lagartos",
+      "original_text_name": "Los Lagartos",
+      "aliases": [
+        "Los Cubanos"
+      ],
+      "context": "Narcoterrorist cartel from Guayaquil, Ecuador, involved in drug trafficking, extortion, and sicariato.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Lagartos&oldid=172727859"
+    },
+    {
+      "standard_name": "Los Choneros",
+      "original_text_name": "Los Choneros",
+      "aliases": [],
+      "context": "Criminal organization in Ecuador, considered the top criminal group, rival of Los Lagartos.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Lagartos&oldid=172727859"
+    },
+    {
+      "standard_name": "Cartel de Jalisco Nueva Generación",
+      "original_text_name": "Cartel de Jalisco Nueva Generación",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Mexican drug cartel that pays Los Lagartos for logistics, drug storage, and security.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Lagartos&oldid=172727859"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Lagartos",
+      "target": "Los Choneros",
+      "evidence_quote": "Son los máximos rivales acérrimos de Los Choneros con quienes se disputan el control de territorios y de plazas",
+      "context": "Los Lagartos are the fiercest rivals of Los Choneros, competing for territorial control.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Lagartos&oldid=172727859"
+    },
+    {
+      "source": "Los Lagartos",
+      "target": "Cartel de Jalisco Nueva Generación",
+      "evidence_quote": "Los Lagartos prestan servicios logísticos, de acopio de droga y seguridad a traficantes como los del Cartel de Jalisco Nueva Generación de México que paga con dinero, armas, heroína o productos para la venta local.",
+      "context": "Los Lagartos provide logistics, drug storage, and security services to CJNG in exchange for payment.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Lagartos&oldid=172727859"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Lagartos&oldid=172727859",
+  "source_file": "es_Los_Lagartos"
+}

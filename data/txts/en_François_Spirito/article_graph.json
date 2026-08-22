@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "standard_name": "French Connection",
+      "original_text_name": "French Connection",
+      "aliases": [],
+      "context": "A major heroin smuggling network based in France, active mid-20th century.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fran%C3%A7ois_Spirito&oldid=1282225359"
+    },
+    {
+      "standard_name": "Carbone-Spirito clan",
+      "original_text_name": "Carbone-Spirito clan",
+      "aliases": [],
+      "context": "Marseille-based criminal organization led by Paul Carbone and François Spirito, involved in prostitution, drug trafficking, and other crimes.",
+      "time_period": "late 1920s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fran%C3%A7ois_Spirito&oldid=1282225359"
+    },
+    {
+      "standard_name": "Carlingue",
+      "original_text_name": "Carlingue",
+      "aliases": [],
+      "context": "French collaborationist police force during World War II, involved in criminal activities.",
+      "time_period": "World War II",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fran%C3%A7ois_Spirito&oldid=1282225359"
+    },
+    {
+      "standard_name": "Lucchese Crime Family",
+      "original_text_name": "Lucchese Crime Family",
+      "aliases": [],
+      "context": "American Mafia family based in New York, involved in organized crime.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fran%C3%A7ois_Spirito&oldid=1282225359"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Carbone-Spirito clan",
+      "target": "French Connection",
+      "evidence_quote": "He was one of the leaders of the French Connection",
+      "context": "François Spirito was a leader of the French Connection, indicating the clan's involvement.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fran%C3%A7ois_Spirito&oldid=1282225359"
+    },
+    {
+      "source": "Carbone-Spirito clan",
+      "target": "Carlingue",
+      "evidence_quote": "Carbone and Spirito joined the Carlingue which collaborated with the Germans in France",
+      "context": "The clan joined the Carlingue during WWII, cooperating with the collaborationist force.",
+      "relationship": "cooperation",
+      "time_period": "World War II",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fran%C3%A7ois_Spirito&oldid=1282225359"
+    },
+    {
+      "source": "Carbone-Spirito clan",
+      "target": "Lucchese Crime Family",
+      "evidence_quote": "The distribution in New York was handled by the Lucchese Crime Family.",
+      "context": "The Lucchese family handled heroin distribution for Spirito's shipments in New York.",
+      "relationship": "cooperation",
+      "time_period": "1946",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Fran%C3%A7ois_Spirito&oldid=1282225359"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Fran%C3%A7ois_Spirito&oldid=1282225359",
+  "source_file": "en_François_Spirito"
+}

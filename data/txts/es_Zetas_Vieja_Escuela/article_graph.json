@@ -1,0 +1,88 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Zetas Vieja Escuela",
+      "original_text_name": "Zetas Vieja Escuela",
+      "aliases": [
+        "Zetas Vieja Guardia"
+      ],
+      "context": "Escisión de Los Zetas, opera en norte y centro de México, dedicada al narcotráfico y otros delitos.",
+      "time_period": "2014-presente",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=173385747"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "context": "Organización criminal original de la que se escindió Zetas Vieja Escuela, originada en fuerzas especiales mexicanas.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=173385747"
+    },
+    {
+      "standard_name": "Cártel de Jalisco Nueva Generación",
+      "original_text_name": "Cártel de Jalisco Nueva Generación",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Grupo criminal rival que ejecutó a un miembro de Zetas Vieja Escuela en 2019.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=173385747"
+    },
+    {
+      "standard_name": "Cártel del Noreste",
+      "original_text_name": "Cártel del Noreste",
+      "aliases": [],
+      "context": "Grupo criminal listado como enemigo en la infobox de Zetas Vieja Escuela.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=173385747"
+    },
+    {
+      "standard_name": "Los Ciclones",
+      "original_text_name": "Los Ciclones",
+      "aliases": [],
+      "context": "Grupo criminal listado como enemigo en la infobox de Zetas Vieja Escuela.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=173385747"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Zetas Vieja Escuela",
+      "target": "Los Zetas",
+      "evidence_quote": "Los Zetas Vieja Escuela o Zetas Vieja Guardia , es una organización criminal escindida de Los Zetas.",
+      "context": "Zetas Vieja Escuela es una escisión de Los Zetas.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=173385747"
+    },
+    {
+      "source": "Zetas Vieja Escuela",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "En marzo del 2019, miembros del Cártel de Jalisco Nueva Generación ejecutaron a un miembro de los Zetas Vieja Escuela, posiblemente en el estado de Veracruz.",
+      "context": "CJNG ejecutó a un miembro de Zetas Vieja Escuela, indicando conflicto.",
+      "relationship": "conflict",
+      "time_period": "2019",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=173385747"
+    },
+    {
+      "source": "Zetas Vieja Escuela",
+      "target": "Cártel del Noreste",
+      "evidence_quote": "Enemigos: ... Grupos Criminales : Cártel del Noreste , Los Ciclones",
+      "context": "Cártel del Noreste es listado como enemigo en la infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=173385747"
+    },
+    {
+      "source": "Zetas Vieja Escuela",
+      "target": "Los Ciclones",
+      "evidence_quote": "Enemigos: ... Grupos Criminales : Cártel del Noreste , Los Ciclones",
+      "context": "Los Ciclones es listado como enemigo en la infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=173385747"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=173385747",
+  "source_file": "es_Zetas_Vieja_Escuela"
+}

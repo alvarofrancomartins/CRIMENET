@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Forming Kaos",
+      "original_text_name": "Forming Kaos",
+      "aliases": [
+        "Forming Kaos 13",
+        "Varrio Forming Kaos x3",
+        "Forming Kaos Rifa",
+        "4MK",
+        "Kaos Gang",
+        "Formando Desmadre"
+      ],
+      "context": "Criminal street gang based in Costa Mesa, California, affiliated with Sureños and Mexican Mafia.",
+      "time_period": "1990s–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Forming_Kaos&oldid=1342298111"
+    },
+    {
+      "standard_name": "Sureños",
+      "original_text_name": "Sureños",
+      "aliases": [],
+      "context": "A confederation of Mexican-American street gangs in Southern California, allied with the Mexican Mafia.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Forming_Kaos&oldid=1342298111"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mexican Mafia",
+      "aliases": [
+        "La Eme"
+      ],
+      "context": "A Mexican-American prison gang and organized crime syndicate operating in the United States.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Forming_Kaos&oldid=1342298111"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Forming Kaos",
+      "target": "Sureños",
+      "evidence_quote": "FK is affiliated with the Sureños",
+      "context": "Forming Kaos is affiliated with the Sureños.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Forming_Kaos&oldid=1342298111"
+    },
+    {
+      "source": "Forming Kaos",
+      "target": "Mexican Mafia",
+      "evidence_quote": "FK is affiliated with the Sureños and has documented ties to the Mexican Mafia (La Eme).",
+      "context": "Forming Kaos has documented ties to the Mexican Mafia.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Forming_Kaos&oldid=1342298111"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Forming_Kaos&oldid=1342298111",
+  "source_file": "en_Forming_Kaos"
+}

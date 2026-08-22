@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Clan de Zemun",
+      "original_text_name": "Clan de Zemun",
+      "aliases": [
+        "Zemunski klan",
+        "Zemun clan"
+      ],
+      "context": "Serbian mafia clan based in Zemun, Belgrade, active in organized crime.",
+      "time_period": "2000-2003",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Clan_de_Zemun&oldid=154986976"
+    },
+    {
+      "standard_name": "Mafia serbia",
+      "original_text_name": "Mafia serbia",
+      "aliases": [],
+      "context": "Serbian mafia, the broader criminal organization to which Clan de Zemun belongs.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Clan_de_Zemun&oldid=154986976"
+    },
+    {
+      "standard_name": "Boinas rojas",
+      "original_text_name": "boinas rojas",
+      "aliases": [
+        "Red Berets"
+      ],
+      "context": "Paramilitary unit that joined the clan after Milošević's fall.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Clan_de_Zemun&oldid=154986976"
+    },
+    {
+      "standard_name": "UDBA",
+      "original_text_name": "UDBA",
+      "aliases": [],
+      "context": "State security service of Serbia, connected to the clan.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Clan_de_Zemun&oldid=154986976"
+    },
+    {
+      "standard_name": "BIA",
+      "original_text_name": "Agencia de Información de Seguridad serbia (BIA)",
+      "aliases": [
+        "BIA"
+      ],
+      "context": "Serbian security agency that cooperated with the clan.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Clan_de_Zemun&oldid=154986976"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Clan de Zemun",
+      "target": "Mafia serbia",
+      "evidence_quote": "El Clan de Zemun ... es uno de los clanes de Belgrado de la Mafia serbia.",
+      "context": "Clan de Zemun is a part of the Serbian mafia.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Clan_de_Zemun&oldid=154986976"
+    },
+    {
+      "source": "Clan de Zemun",
+      "target": "Boinas rojas",
+      "evidence_quote": "El clan creció en importancia después de la caída de Slobodan Milošević con la llegada de muchos paramilitares boinas rojas, incluyendo Milorad Ulemek.",
+      "context": "Red Berets paramilitaries joined the clan, increasing its power.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Clan_de_Zemun&oldid=154986976"
+    },
+    {
+      "source": "Clan de Zemun",
+      "target": "BIA",
+      "evidence_quote": "En 2001, el clan Zemun organizó 'cursos de formación especiales' con la BIA, prestándoles, a cambio, información sobre insurgentes albaneses de Kosovo.",
+      "context": "Clan de Zemun cooperated with BIA by providing training and exchanging information.",
+      "relationship": "cooperation",
+      "time_period": "2001",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Clan_de_Zemun&oldid=154986976"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Clan_de_Zemun&oldid=154986976",
+  "source_file": "es_Clan_de_Zemun"
+}

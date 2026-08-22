@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Clan dei marsigliesi",
+      "original_text_name": "Clan dei marsigliesi",
+      "aliases": [
+        "banda delle tre B"
+      ],
+      "context": "Mafia-type criminal organization active in Rome, France, and Italy in the early 1970s, involved in drug trafficking and kidnappings.",
+      "time_period": "1973-1976",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_dei_marsigliesi&oldid=148605810"
+    },
+    {
+      "standard_name": "French Connection",
+      "original_text_name": "French Connection",
+      "aliases": [],
+      "context": "French criminal cartel involved in drug and cigarette trafficking, acting as a bridge between Turkey and the West.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_dei_marsigliesi&oldid=148605810"
+    },
+    {
+      "standard_name": "Banda della Magliana",
+      "original_text_name": "Banda della Magliana",
+      "aliases": [],
+      "context": "Roman criminal organization that emerged after the decline of the Clan dei marsigliesi, formed by the union of local batteries.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_dei_marsigliesi&oldid=148605810"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Clan dei marsigliesi",
+      "target": "French Connection",
+      "evidence_quote": "provenienti in gran parte dal cosiddetto milieu marsigliese , il cartello criminale francese meglio conosciuto come \" French Connection \"",
+      "context": "The Clan dei marsigliesi originated from members of the French Connection milieu.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_dei_marsigliesi&oldid=148605810"
+    },
+    {
+      "source": "Clan dei marsigliesi",
+      "target": "Banda della Magliana",
+      "evidence_quote": "La successiva unione di alcune di queste batterie diede poi vita a una vera e propria banda per il controllo totale dei traffici illeciti romani conosciuta come Banda della Magliana .",
+      "context": "The Banda della Magliana succeeded the Clan dei marsigliesi after its decline.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_dei_marsigliesi&oldid=148605810"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_dei_marsigliesi&oldid=148605810",
+  "source_file": "it_Clan_dei_marsigliesi"
+}

@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Inagawa-kai",
+      "original_text_name": "Inagawa-kai",
+      "aliases": [
+        "Inagawa-gumi"
+      ],
+      "context": "Third largest yakuza group in Japan, based in Kantō region, involved in gambling, drug trafficking, extortion.",
+      "time_period": "1949–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Inagawa-kai&oldid=1349267822"
+    },
+    {
+      "standard_name": "Sixth Yamaguchi-gumi",
+      "original_text_name": "The Sixth Yamaguchi-gumi",
+      "aliases": [],
+      "context": "A yakuza group listed as an ally of Inagawa-kai in the infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Inagawa-kai&oldid=1349267822"
+    },
+    {
+      "standard_name": "Kobe Yamaguchi-gumi",
+      "original_text_name": "Kobe Yamaguchi-gumi",
+      "aliases": [],
+      "context": "A yakuza group listed as a rival of Inagawa-kai in the infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Inagawa-kai&oldid=1349267822"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Inagawa-kai",
+      "target": "Sixth Yamaguchi-gumi",
+      "evidence_quote": "Allies: The Sixth Yamaguchi-gumi",
+      "context": "The infobox lists the Sixth Yamaguchi-gumi as an ally of Inagawa-kai.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Inagawa-kai&oldid=1349267822"
+    },
+    {
+      "source": "Inagawa-kai",
+      "target": "Kobe Yamaguchi-gumi",
+      "evidence_quote": "Rivals: Kobe Yamaguchi-gumi",
+      "context": "The infobox lists the Kobe Yamaguchi-gumi as a rival of Inagawa-kai.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Inagawa-kai&oldid=1349267822"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Inagawa-kai&oldid=1349267822",
+  "source_file": "en_Inagawa-kai"
+}

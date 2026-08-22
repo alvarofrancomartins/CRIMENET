@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Yüksekova Gang",
+      "original_text_name": "Yüksekova Gang",
+      "aliases": [],
+      "context": "Illegal organization in Yüksekova district accused of killing 16 people, smuggling drugs and weapons, linked to JITEM and possibly Ergenekon.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Y%C3%BCksekova_Gang&oldid=1357890895"
+    },
+    {
+      "standard_name": "JİTEM",
+      "original_text_name": "JITEM",
+      "aliases": [
+        "JİTEM"
+      ],
+      "context": "Turkish Gendarmerie's intelligence unit, involved in illegal activities; Yüksekova Gang's activities are part of JİTEM activities.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Y%C3%BCksekova_Gang&oldid=1357890895"
+    },
+    {
+      "standard_name": "Ergenekon",
+      "original_text_name": "Ergenekon",
+      "aliases": [],
+      "context": "Alleged clandestine organization in Turkey; Yüksekova Gang had possible links to Ergenekon.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Y%C3%BCksekova_Gang&oldid=1357890895"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Yüksekova Gang",
+      "target": "JİTEM",
+      "evidence_quote": "The Yüksekova Gang was an illegal organization ... with apparent links to the Turkish Gendarmerie 's JITEM unit",
+      "context": "The Yüksekova Gang had apparent links to JITEM.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Y%C3%BCksekova_Gang&oldid=1357890895"
+    },
+    {
+      "source": "Yüksekova Gang",
+      "target": "Ergenekon",
+      "evidence_quote": "The Yüksekova Gang was an illegal organization ... and possible links to the Ergenekon organization.",
+      "context": "The Yüksekova Gang had possible links to Ergenekon.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Y%C3%BCksekova_Gang&oldid=1357890895"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Y%C3%BCksekova_Gang&oldid=1357890895",
+  "source_file": "en_Yüksekova_Gang"
+}

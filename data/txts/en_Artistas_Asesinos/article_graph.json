@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Artistas Asesinos",
+      "original_text_name": "Artistas Asesinos",
+      "aliases": [
+        "Doble A",
+        "AA"
+      ],
+      "context": "Mexican street gang that works as an enforcement wing of the Sinaloa Cartel in Ciudad Juárez.",
+      "time_period": "2008 - Present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Artistas_Asesinos&oldid=1339076599"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "context": "Mexican drug cartel; Artistas Asesinos works as its enforcement wing.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Artistas_Asesinos&oldid=1339076599"
+    },
+    {
+      "standard_name": "Barrio Azteca",
+      "original_text_name": "Barrio Azteca",
+      "aliases": [],
+      "context": "Rival gang of Artistas Asesinos.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Artistas_Asesinos&oldid=1339076599"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Artistas Asesinos",
+      "target": "Sinaloa Cartel",
+      "evidence_quote": "Artistas Asesinos (also known as Doble A or AA ) is a Mexican street gang that works as an enforcement wing of the Sinaloa Cartel in Ciudad Juárez .",
+      "context": "Artistas Asesinos acts as an enforcement wing for the Sinaloa Cartel.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Artistas_Asesinos&oldid=1339076599"
+    },
+    {
+      "source": "Artistas Asesinos",
+      "target": "Barrio Azteca",
+      "evidence_quote": "Rivals: Barrio Azteca",
+      "context": "Artistas Asesinos and Barrio Azteca are rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Artistas_Asesinos&oldid=1339076599"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Artistas_Asesinos&oldid=1339076599",
+  "source_file": "en_Artistas_Asesinos"
+}

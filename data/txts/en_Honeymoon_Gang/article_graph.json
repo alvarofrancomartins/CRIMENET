@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Honeymoon Gang",
+      "original_text_name": "Honeymoon Gang",
+      "aliases": [],
+      "context": "New York street gang of the mid 19th century, known for brutal attacks and controlling the 18th Ward.",
+      "time_period": "mid 19th century",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Honeymoon_Gang&oldid=1343449453"
+    },
+    {
+      "standard_name": "Strong Arm Squad",
+      "original_text_name": "Strong Arm Squad",
+      "aliases": [],
+      "context": "Group of handpicked plainclothes police officers formed by Captain George W. Walling to combat the Honeymoon Gang.",
+      "time_period": "1853",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Honeymoon_Gang&oldid=1343449453"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Honeymoon Gang",
+      "target": "Strong Arm Squad",
+      "evidence_quote": "He formed a group of handpicked men, later known as the Strong Arm Squad.",
+      "context": "The Strong Arm Squad was formed specifically to attack and disband the Honeymoon Gang.",
+      "relationship": "conflict",
+      "time_period": "1853",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Honeymoon_Gang&oldid=1343449453"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Honeymoon_Gang&oldid=1343449453",
+  "source_file": "en_Honeymoon_Gang"
+}

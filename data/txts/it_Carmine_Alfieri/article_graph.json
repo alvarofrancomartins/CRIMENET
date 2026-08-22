@@ -1,0 +1,113 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra napoletana",
+      "aliases": [
+        "Camorra"
+      ],
+      "context": "Neapolitan mafia organization active in Campania.",
+      "time_period": "1980s-1990s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Carmine_Alfieri&oldid=150209803"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "context": "Criminal organization founded by Raffaele Cutolo, active in Campania.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Carmine_Alfieri&oldid=150209803"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "context": "Confederation of Camorra clans formed to oppose the NCO.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Carmine_Alfieri&oldid=150209803"
+    },
+    {
+      "standard_name": "Clan dei Casalesi",
+      "original_text_name": "clan dei Casalesi",
+      "aliases": [],
+      "context": "Camorra clan from Casal di Principe, led by Antonio Bardellino.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Carmine_Alfieri&oldid=150209803"
+    },
+    {
+      "standard_name": "Clan Alfieri",
+      "original_text_name": "clan Alfieri",
+      "aliases": [],
+      "context": "Camorra clan led by Carmine Alfieri.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Carmine_Alfieri&oldid=150209803"
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa nostra",
+      "aliases": [],
+      "context": "Sicilian mafia organization.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Carmine_Alfieri&oldid=150209803"
+    },
+    {
+      "standard_name": "Clan Gionta",
+      "original_text_name": "clan Gionta",
+      "aliases": [],
+      "context": "Camorra clan from Torre Annunziata.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Carmine_Alfieri&oldid=150209803"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Nuova Famiglia",
+      "target": "Nuova Camorra Organizzata",
+      "evidence_quote": "con l'obiettivo di contrastare la NCO di Cutolo.",
+      "context": "Nuova Famiglia was formed to oppose the NCO.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Carmine_Alfieri&oldid=150209803"
+    },
+    {
+      "source": "Nuova Famiglia",
+      "target": "Cosa Nostra",
+      "evidence_quote": "vicina a Cosa nostra",
+      "context": "Nuova Famiglia was close to Cosa Nostra.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Carmine_Alfieri&oldid=150209803"
+    },
+    {
+      "source": "Nuova Famiglia",
+      "target": "Clan dei Casalesi",
+      "evidence_quote": "la Nuova Famiglia , in cui confluivano i Nuvoletta , il clan dei Casalesi con Antonio Bardellino , Umberto Ammaturo e il clan Alfieri",
+      "context": "Clan dei Casalesi was part of the Nuova Famiglia confederation.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Carmine_Alfieri&oldid=150209803"
+    },
+    {
+      "source": "Nuova Famiglia",
+      "target": "Clan Alfieri",
+      "evidence_quote": "la Nuova Famiglia , in cui confluivano i Nuvoletta , il clan dei Casalesi con Antonio Bardellino , Umberto Ammaturo e il clan Alfieri",
+      "context": "Clan Alfieri was part of the Nuova Famiglia confederation.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Carmine_Alfieri&oldid=150209803"
+    },
+    {
+      "source": "Clan Alfieri",
+      "target": "Clan Gionta",
+      "evidence_quote": "uccise 8 persone appartenenti al clan Gionta",
+      "context": "Clan Alfieri attacked and killed members of Clan Gionta.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Carmine_Alfieri&oldid=150209803"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Carmine_Alfieri&oldid=150209803",
+  "source_file": "it_Carmine_Alfieri"
+}

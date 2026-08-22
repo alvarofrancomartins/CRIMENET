@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Beland crime family",
+      "original_text_name": "Beland crime family",
+      "aliases": [
+        "Beland gang"
+      ],
+      "context": "American criminal family based in Fort Worth, Texas, involved in narcotics trafficking from 1921 to 1947.",
+      "time_period": "1921-1947",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ma_Beland&oldid=1338562695"
+    },
+    {
+      "standard_name": "Ginsberg-Kayne-Gordon criminal syndicate",
+      "original_text_name": "Ginsberg-Kayne-Gordon criminal syndicate",
+      "aliases": [],
+      "context": "Texas-based criminal syndicate arrested in 1936 by the Federal Bureau of Narcotics.",
+      "time_period": "until 1936",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ma_Beland&oldid=1338562695"
+    },
+    {
+      "standard_name": "Lola la Chata",
+      "original_text_name": "Lola la Chata",
+      "aliases": [],
+      "context": "Contemporary Mexican drug trafficker, possible supplier of heroin to the Beland family.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ma_Beland&oldid=1338562695"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Beland crime family",
+      "target": "Ginsberg-Kayne-Gordon criminal syndicate",
+      "evidence_quote": "After the Federal Bureau of Narcotics under Harry J. Anslinger arrested the Texas-based Ginsberg-Kayne-Gordon criminal syndicate in 1936, the Belands were able to take over international trafficking.",
+      "context": "The Beland family took over international trafficking after the Ginsberg-Kayne-Gordon syndicate was arrested.",
+      "relationship": "other",
+      "time_period": "after 1936",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ma_Beland&oldid=1338562695"
+    },
+    {
+      "source": "Beland crime family",
+      "target": "Lola la Chata",
+      "evidence_quote": "It is not known if the Beland family's supply of heroin came from Lola la Chata, a contemporary Mexican drug trafficker.",
+      "context": "The text speculates that Lola la Chata may have supplied heroin to the Beland family.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ma_Beland&oldid=1338562695"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Ma_Beland&oldid=1338562695",
+  "source_file": "en_Ma_Beland"
+}

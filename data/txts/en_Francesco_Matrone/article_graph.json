@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "context": "Italian criminal organization operating in Campania.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Francesco_Matrone&oldid=1327319962"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "context": "Former criminal organization in Campania, dissolved.",
+      "time_period": "1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Francesco_Matrone&oldid=1327319962"
+    },
+    {
+      "standard_name": "Matrone clan",
+      "original_text_name": "Matrone clan",
+      "aliases": [
+        "Loreto-Matrone clan"
+      ],
+      "context": "Camorra clan based in the Province of Salerno, headed by Francesco Matrone.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Francesco_Matrone&oldid=1327319962"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Matrone clan",
+      "target": "Camorra",
+      "evidence_quote": "Matrone was at the head of the Loreto-Matrone clan of the Camorra",
+      "context": "The Matrone clan is a part of the Camorra.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Francesco_Matrone&oldid=1327319962"
+    },
+    {
+      "source": "Matrone clan",
+      "target": "Nuova Famiglia",
+      "evidence_quote": "After the dissolution of the Nuova Famiglia, Francesco Matrone, headed one of the most powerful clans",
+      "context": "The Matrone clan succeeded the Nuova Famiglia after its dissolution.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Francesco_Matrone&oldid=1327319962"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Francesco_Matrone&oldid=1327319962",
+  "source_file": "en_Francesco_Matrone"
+}

@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "standard_name": "The Council",
+      "original_text_name": "The Council",
+      "aliases": [],
+      "context": "African-American organized crime syndicate in New York City that controlled the heroin trade in Harlem during the 1970s.",
+      "time_period": "1972-1983",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Council_%28drug_syndicate%29&oldid=1356185351"
+    },
+    {
+      "standard_name": "Lucchese crime family",
+      "original_text_name": "Lucchese crime family",
+      "aliases": [],
+      "context": "Italian-American Mafia family in New York City that supplied raw heroin to The Council.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Council_%28drug_syndicate%29&oldid=1356185351"
+    },
+    {
+      "standard_name": "East Harlem Purple Gang",
+      "original_text_name": "East Harlem Purple Gang",
+      "aliases": [],
+      "context": "Criminal gang allied with The Council according to infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Council_%28drug_syndicate%29&oldid=1356185351"
+    },
+    {
+      "standard_name": "Frank Lucas gang",
+      "original_text_name": "Frank Lucas gang",
+      "aliases": [],
+      "context": "Rival gang to The Council according to infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Council_%28drug_syndicate%29&oldid=1356185351"
+    }
+  ],
+  "edges": [
+    {
+      "source": "The Council",
+      "target": "Lucchese crime family",
+      "evidence_quote": "The Council was heavily connected to the Italian-American Mafia in New York City, where Matthew Madonna of the Lucchese crime family supplied the group with raw heroin",
+      "context": "Lucchese crime family supplied raw heroin to The Council.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Council_%28drug_syndicate%29&oldid=1356185351"
+    },
+    {
+      "source": "The Council",
+      "target": "East Harlem Purple Gang",
+      "evidence_quote": "Allies: Lucchese Crime Family , East Harlem Purple Gang",
+      "context": "East Harlem Purple Gang is listed as an ally of The Council in the infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Council_%28drug_syndicate%29&oldid=1356185351"
+    },
+    {
+      "source": "The Council",
+      "target": "Frank Lucas gang",
+      "evidence_quote": "Rivals: Frank Lucas gang, various gangs in New York City including their allies",
+      "context": "Frank Lucas gang is listed as a rival of The Council in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Council_%28drug_syndicate%29&oldid=1356185351"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=The_Council_%28drug_syndicate%29&oldid=1356185351",
+  "source_file": "en_The_Council_(drug_syndicate)"
+}

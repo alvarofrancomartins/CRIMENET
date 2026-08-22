@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Islamic State – Somalia Province",
+      "original_text_name": "Islamic State – Somalia Province",
+      "aliases": [
+        "ISS"
+      ],
+      "context": "Militant group operating in Somalia, rival of al-Shabaab.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Piracy_off_the_coast_of_Somalia&oldid=1358328261"
+    },
+    {
+      "standard_name": "Hobyo-Haradhere Piracy Network",
+      "original_text_name": "Hobyo - Haradhere Piracy Network",
+      "aliases": [],
+      "context": "Somali pirate network led by Mohamed Garfanje.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Piracy_off_the_coast_of_Somalia&oldid=1358328261"
+    },
+    {
+      "standard_name": "Al-Shabaab",
+      "original_text_name": "al-Shabaab",
+      "aliases": [],
+      "context": "Islamist militant group in Somalia, rival of ISS.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Piracy_off_the_coast_of_Somalia&oldid=1358328261"
+    },
+    {
+      "standard_name": "Houthis",
+      "original_text_name": "Houthis",
+      "aliases": [],
+      "context": "Yemeni militant group, allied with al-Shabaab.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Piracy_off_the_coast_of_Somalia&oldid=1358328261"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Islamic State – Somalia Province",
+      "target": "Hobyo-Haradhere Piracy Network",
+      "evidence_quote": "In 2017, it was revealed that the Islamic State – Somalia Province works closely with Somali pirates, namely Mohamed Garfanje's Hobyo - Haradhere Piracy Network and another unidentified group that is based in Qandala.",
+      "context": "ISS cooperates with the Hobyo-Haradhere Piracy Network.",
+      "relationship": "cooperation",
+      "time_period": "2017",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Piracy_off_the_coast_of_Somalia&oldid=1358328261"
+    },
+    {
+      "source": "Hobyo-Haradhere Piracy Network",
+      "target": "Al-Shabaab",
+      "evidence_quote": "These pirates do, however, also supply ISS' rival in Puntland, al-Shabaab, with weapons and other materials.",
+      "context": "The pirate network supplies al-Shabaab with weapons.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Piracy_off_the_coast_of_Somalia&oldid=1358328261"
+    },
+    {
+      "source": "Al-Shabaab",
+      "target": "Houthis",
+      "evidence_quote": "There is a growing relationship between the al-Shabaab and Houthis. The former has pledged to escalate piracy off Somalia in exchange for more advanced weapons and training. The United Nations reported physical meetings occurring between the two militant groups in February 2025.",
+      "context": "Al-Shabaab and Houthis have a growing relationship involving weapons and training.",
+      "relationship": "cooperation",
+      "time_period": "2025",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Piracy_off_the_coast_of_Somalia&oldid=1358328261"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Piracy_off_the_coast_of_Somalia&oldid=1358328261",
+  "source_file": "en_Piracy_off_the_coast_of_Somalia"
+}

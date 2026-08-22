@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Diablos Motorcycle Club",
+      "original_text_name": "Diablos Motorcycle Club",
+      "aliases": [
+        "Diablos MC",
+        "Los Diablos Motorcycle Club",
+        "DMC"
+      ],
+      "context": "Outlaw motorcycle club founded in San Bernardino, California in 1961, with chapters across the United States.",
+      "time_period": "1961",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Diablos_Motorcycle_Club&oldid=1354073110"
+    },
+    {
+      "standard_name": "James Gang MC",
+      "original_text_name": "James Gang MC",
+      "aliases": [],
+      "context": "Rival motorcycle gang from Wallingford, Connecticut.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Diablos_Motorcycle_Club&oldid=1354073110"
+    },
+    {
+      "standard_name": "Outlaws Motorcycle Club",
+      "original_text_name": "Outlaws",
+      "aliases": [],
+      "context": "Outlaw motorcycle club involved in a mass brawl with Diablos in 2019.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Diablos_Motorcycle_Club&oldid=1354073110"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Diablos Motorcycle Club",
+      "target": "James Gang MC",
+      "evidence_quote": "Stone's confession in his involvement in the 1992 murder of rival gang member Mike D'Amato of Wallingford, Connecticut's James Gang MC",
+      "context": "Diablos member Raymond Stone confessed to the 1992 murder of a James Gang MC member, indicating a conflict.",
+      "relationship": "conflict",
+      "time_period": "1992",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Diablos_Motorcycle_Club&oldid=1354073110"
+    },
+    {
+      "source": "Diablos Motorcycle Club",
+      "target": "Outlaws Motorcycle Club",
+      "evidence_quote": "Diablos were involved in a mass brawl with members of the Outlaws at a bar in Plainville, Connecticut in May 2019, leaving two outlaws injured.",
+      "context": "Diablos and Outlaws engaged in a mass brawl in May 2019, resulting in injuries.",
+      "relationship": "conflict",
+      "time_period": "May 2019",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Diablos_Motorcycle_Club&oldid=1354073110"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Diablos_Motorcycle_Club&oldid=1354073110",
+  "source_file": "en_Diablos_Motorcycle_Club"
+}

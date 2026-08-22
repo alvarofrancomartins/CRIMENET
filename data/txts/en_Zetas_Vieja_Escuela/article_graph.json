@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Zetas Vieja Escuela",
+      "original_text_name": "Zetas Vieja Escuela",
+      "aliases": [
+        "ZVE",
+        "Old School Zetas"
+      ],
+      "context": "Mexican criminal organization that splintered from Los Zetas, operating since 2014.",
+      "time_period": "2014−present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=1356647809"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "context": "Original criminal organization from which Zetas Vieja Escuela splintered; originated from Mexican Army special forces.",
+      "time_period": "since 1997",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=1356647809"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Mexican criminal cartel, rival of Zetas Vieja Escuela.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=1356647809"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "context": "Mexican criminal organization, ally of Zetas Vieja Escuela.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=1356647809"
+    },
+    {
+      "standard_name": "Cártel del Noreste",
+      "original_text_name": "Cártel del Noreste",
+      "aliases": [],
+      "context": "Mexican criminal organization, rival of Zetas Vieja Escuela.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=1356647809"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Zetas Vieja Escuela",
+      "target": "Los Zetas",
+      "evidence_quote": "The Zetas Vieja Escuela (English: Old School Zetas ) is a Mexican criminal organization that splintered from Los Zetas.",
+      "context": "Zetas Vieja Escuela is a splinter group that broke away from Los Zetas.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=1356647809"
+    },
+    {
+      "source": "Zetas Vieja Escuela",
+      "target": "Jalisco New Generation Cartel",
+      "evidence_quote": "Rivals: Mexico , Jalisco New Generation Cartel , Cártel del Noreste",
+      "context": "Zetas Vieja Escuela and Jalisco New Generation Cartel are rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=1356647809"
+    },
+    {
+      "source": "Zetas Vieja Escuela",
+      "target": "Gulf Cartel",
+      "evidence_quote": "Allies: Gulf Cartel",
+      "context": "Zetas Vieja Escuela and Gulf Cartel are allies.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=1356647809"
+    },
+    {
+      "source": "Zetas Vieja Escuela",
+      "target": "Cártel del Noreste",
+      "evidence_quote": "Rivals: Mexico , Jalisco New Generation Cartel , Cártel del Noreste",
+      "context": "Zetas Vieja Escuela and Cártel del Noreste are rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=1356647809"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Zetas_Vieja_Escuela&oldid=1356647809",
+  "source_file": "en_Zetas_Vieja_Escuela"
+}

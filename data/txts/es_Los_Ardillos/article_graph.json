@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Ardillos",
+      "original_text_name": "Los Ardillos",
+      "aliases": [],
+      "context": "Criminal group based in La Montaña, Mexico, involved in violence, drug trafficking, extortion, and kidnapping.",
+      "time_period": "~2000-present",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Ardillos&oldid=173770804"
+    },
+    {
+      "standard_name": "Cártel de los Beltrán Leyva",
+      "original_text_name": "Cártel de los Beltrán Leyva",
+      "aliases": [],
+      "context": "Mexican drug cartel, former ally of Los Ardillos.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Ardillos&oldid=173770804"
+    },
+    {
+      "standard_name": "Cártel de los Rojos",
+      "original_text_name": "Cártel de los Rojos",
+      "aliases": [],
+      "context": "Mexican criminal group, enemy of Los Ardillos.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Ardillos&oldid=173770804"
+    },
+    {
+      "standard_name": "Guerreros Unidos",
+      "original_text_name": "Guerreros Unidos",
+      "aliases": [],
+      "context": "Mexican criminal group, ally of Los Ardillos according to infobox.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Ardillos&oldid=173770804"
+    },
+    {
+      "standard_name": "Cártel de Jalisco Nueva Generación",
+      "original_text_name": "Cártel de Jalisco Nueva Generación",
+      "aliases": [],
+      "context": "Mexican criminal group, enemy of Los Ardillos according to infobox.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Ardillos&oldid=173770804"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Ardillos",
+      "target": "Cártel de los Beltrán Leyva",
+      "evidence_quote": "acabando siendo un aliado del Cártel de los Beltrán Leyva",
+      "context": "Los Ardillos became an ally of the Beltrán Leyva Cartel.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Ardillos&oldid=173770804"
+    },
+    {
+      "source": "Los Ardillos",
+      "target": "Cártel de los Rojos",
+      "evidence_quote": "recrudecer su conflicto con el Cártel de los Rojos",
+      "context": "Los Ardillos has an escalating conflict with the Cartel de los Rojos.",
+      "relationship": "conflict",
+      "time_period": "2014",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Ardillos&oldid=173770804"
+    },
+    {
+      "source": "Los Ardillos",
+      "target": "Guerreros Unidos",
+      "evidence_quote": "Aliados: Guerreros Unidos",
+      "context": "Infobox lists Guerreros Unidos as an ally of Los Ardillos.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Ardillos&oldid=173770804"
+    },
+    {
+      "source": "Los Ardillos",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "Enemigos: ... Cártel de Jalisco Nueva Generación",
+      "context": "Infobox lists CJNG as an enemy of Los Ardillos.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Ardillos&oldid=173770804"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Ardillos&oldid=173770804",
+  "source_file": "es_Los_Ardillos"
+}

@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Road Knights Motorcycle Club",
+      "original_text_name": "Road Knights Motorcycle Club",
+      "aliases": [
+        "Road Knights"
+      ],
+      "context": "Outlaw motorcycle club operating in South Island, New Zealand, with chapters in Thailand, Netherlands, and US since 2012.",
+      "time_period": "1979",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Road_Knights_Motorcycle_Club&oldid=1339086410"
+    },
+    {
+      "standard_name": "Mongrel Mob",
+      "original_text_name": "Mongrel Mob",
+      "aliases": [],
+      "context": "Rival gang involved in arson against Road Knights in 2008.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Road_Knights_Motorcycle_Club&oldid=1339086410"
+    },
+    {
+      "standard_name": "Damned",
+      "original_text_name": "Damned",
+      "aliases": [],
+      "context": "Gang involved in a war with Road Knights in the late 1980s.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Road_Knights_Motorcycle_Club&oldid=1339086410"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Road Knights Motorcycle Club",
+      "target": "Mongrel Mob",
+      "evidence_quote": "Its rivalry with the Mongrel Mob boiled over in June 2008 in Invercargill when the Road Knights' building was burned down and two motorcycles stolen.",
+      "context": "Road Knights and Mongrel Mob are rivals, with a violent incident in 2008.",
+      "relationship": "conflict",
+      "time_period": "2008",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Road_Knights_Motorcycle_Club&oldid=1339086410"
+    },
+    {
+      "source": "Road Knights Motorcycle Club",
+      "target": "Damned",
+      "evidence_quote": "In the late 1980s, the Road Knights became involved in a war with the Damned which resulted in several violent incidents.",
+      "context": "Road Knights and Damned were in a war with violent incidents.",
+      "relationship": "conflict",
+      "time_period": "late 1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Road_Knights_Motorcycle_Club&oldid=1339086410"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Road_Knights_Motorcycle_Club&oldid=1339086410",
+  "source_file": "en_Road_Knights_Motorcycle_Club"
+}

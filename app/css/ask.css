@@ -1,0 +1,279 @@
+/* Ask CRIMENET AI — message rendering and DeepSeek-style centered layout */
+
+/* ── Message styles ── */
+.ask-msg{margin-bottom:16px}
+.ask-msg-label{font-size:26px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:var(--text-muted);margin-bottom:4px}
+.ask-user .ask-msg-body{color:var(--text-bright);font-size:26px}
+.ask-assistant .ask-msg-body{color:var(--text-main);line-height:1.7;font-size:26px}
+
+/* Conversation turns — newest on top; the current turn is framed */
+.ask-turn{padding:18px 22px;border:1px solid transparent;border-radius:14px;margin-bottom:16px}
+.ask-turn .ask-msg:last-child{margin-bottom:0}
+.ask-turn.ask-current{border-color:var(--amber2);background:var(--s1)}
+.ask-assistant .ask-msg-body strong{color:var(--amber)}
+.ask-spinner{display:inline-block;width:14px;height:14px;border:2px solid var(--b2);border-left-color:var(--amber);border-radius:50%;animation:spin .8s linear infinite;vertical-align:middle;margin-right:6px}
+
+/* Example question buttons */
+.ask-examples-toggle{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:var(--body);font-size:20px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:var(--text-main);background:var(--s2);border:1px solid var(--b2);border-radius:8px;padding:12px 20px;cursor:pointer;margin-bottom:16px;transition:background .2s,border-color .2s,color .2s}
+.ask-examples-toggle:hover{background:var(--s3);border-color:var(--amber);color:var(--text-bright)}
+.ask-examples-toggle svg{flex-shrink:0;width:16px;height:16px;color:var(--amber);transition:transform .2s}
+.ds-suggestions.collapsed .ask-examples-toggle svg{transform:rotate(-90deg)}
+.ds-suggestions.collapsed .ask-examples-toggle{margin-bottom:0}
+.ds-suggestions.collapsed .ask-examples-body{display:none}
+.ask-examples-group{margin-bottom:14px}
+.ask-examples-group-title{font-size:20px;font-weight:600;text-transform:uppercase;letter-spacing:.6px;color:var(--amber);margin-bottom:6px;opacity:.8}
+.ask-example{display:block;width:100%;text-align:left;padding:12px 16px;margin-bottom:3px;background:var(--s2);border:1px solid #000;border-radius:8px;color:var(--text-main);font-family:var(--body);font-size:20px;cursor:pointer;transition:border-color .2s,background .2s;line-height:1.35}
+.ask-example:hover{background:var(--s3);border-color:var(--b2);color:var(--text-bright)}
+.ask-example:active{background:var(--s1)}
+.ask-example.hidden-example{display:none}
+.ask-example-more-btn{display:block;width:100%;text-align:left;padding:8px 16px;margin-bottom:3px;background:none;border:1px solid transparent;border-radius:8px;color:var(--amber);font-family:var(--body);font-size:20px;font-weight:500;cursor:pointer;opacity:.7;transition:opacity .2s}
+.ask-example-more-btn:hover{opacity:1}
+.ask-examples-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 28px}
+
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* Ask AI rendered markdown */
+.ask-msg-body p{margin:0 0 .6em}
+.ask-msg-body p:last-child{margin-bottom:0}
+.ask-msg-body .ask-h{font-family:var(--body);font-weight:600;color:var(--text-bright);margin:1.2em 0 .4em;line-height:1.3}
+.ask-msg-body .ask-h:first-child{margin-top:0}
+.ask-msg-body h1.ask-h{font-size:1.2em}
+.ask-msg-body h2.ask-h{font-size:1.1em}
+.ask-msg-body h3.ask-h{font-size:1.05em}
+.ask-msg-body h4.ask-h{font-size:1em}
+.ask-msg-body .ask-hr{border:none;border-top:1px solid var(--b1);margin:1em 0}
+.ask-msg-body .ask-table{width:100%;border-collapse:collapse;margin:.6em 0 1em;font-size:.9em}
+.ask-msg-body .ask-table th{text-align:left;padding:6px 10px;background:var(--s2);border-bottom:2px solid var(--b2);font-weight:600;color:var(--amber);white-space:nowrap}
+.ask-msg-body .ask-table td{padding:5px 10px;border-bottom:1px solid var(--b1);vertical-align:top;line-height:1.45}
+.ask-msg-body .ask-table tr:last-child td{border-bottom:none}
+.ask-msg-body ul{padding-left:20px;margin:.4em 0 .8em}
+.ask-msg-body li{margin-bottom:4px;line-height:1.5}
+.ask-msg-body li:last-child{margin-bottom:0}
+.ask-msg-body a{color:var(--amber);text-decoration:underline}
+.ask-msg-body a:hover{color:var(--text-bright)}
+.ask-msg-body code{font-size:.9em;background:var(--s2);padding:1px 5px;border-radius:3px;color:var(--amber)}
+.ask-msg-body em{color:var(--text-bright)}
+
+/* Auto-appended evidence section (matches Trace a Connection format) */
+.ask-evid{margin:1.2em 0 0;padding-top:1em;border-top:1px solid var(--b1)}
+.ask-evid-head{font-size:22px;font-weight:700;color:var(--amber);cursor:pointer;user-select:none;margin-bottom:.6em;display:flex;align-items:center;gap:8px}
+.ask-evid-head::before{content:"▸ ";font-size:18px}
+.ask-evid-head.open::before{content:"▾ "}
+.ask-evid-head .ask-evid-badge{font-size:16px;font-weight:600;color:var(--bg);background:var(--amber);padding:2px 12px;border-radius:12px;text-transform:none;letter-spacing:0}
+.ask-evid-subhead{font-size:18px;color:var(--text-muted);margin-bottom:16px;line-height:1.6;font-style:italic}
+.ask-evid-body.collapsed{display:none}
+/* rs-evidence-divider is used by ask_ai.js inside AI-rendered markdown */
+.rs-evidence-divider{font-family:var(--disp);font-size:24px;letter-spacing:1.5px;color:var(--amber2);border-bottom:2px solid var(--b1);padding-bottom:6px;margin:10px 0 16px}
+
+/* Evidence body renders shared .rp-*/.ev-*/.rs-* classes from main.css, which
+   are sized for browse.html's compact layout. On this page everything reads at
+   the ~26px .ask-msg-body scale, so scale the evidence body to match. Scoped to
+   .ask-evid so browse.html is untouched (main.css is the shared source). */
+.ask-evid .rp-section-title{font-size:24px}
+.ask-evid .rp-section-title::after{font-size:20px}
+.ask-evid .rp-linkage-desc{font-size:24px;line-height:1.7;margin-bottom:16px}
+.ask-evid .rs-heading{font-size:26px}
+.ask-evid .rs-ai-note{font-size:18px}
+.ask-evid .rs-summary{font-size:24px;line-height:1.7}
+.ask-evid .ev-meta{gap:20px}
+.ask-evid .ev-toggle{font-size:17px}
+.ask-evid .ev-toggle .chev{font-size:14px}
+.ask-evid .ev-srcs,.ask-evid .ev-meta .ev-srcs{font-size:18px}
+.ask-evid .ev-srcs-label{font-size:15px}
+.ask-evid .ev-quote{font-size:23px;line-height:1.7}
+.ask-evid .rp-linkage .ev-time{font-size:18px}
+
+/* Auto-appended source links */
+.ask-src-head{font-size:26px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:var(--text-muted);margin:1.2em 0 .5em;padding-top:1em;border-top:1px solid var(--b1)}
+.ask-src-list{display:flex;flex-wrap:wrap;gap:10px}
+.ask-src-list a{display:inline-flex;align-items:center;gap:8px;font-size:22px;font-weight:600;padding:6px 14px;border:1px solid var(--b2);border-radius:6px;color:var(--amber);text-decoration:none;transition:background .2s,border-color .2s}
+.ask-src-list a::before{content:"";flex-shrink:0;width:20px;height:20px;background:currentColor;mask:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>') center/contain no-repeat;-webkit-mask:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>') center/contain no-repeat}
+.ask-src-list a::after{content:"\2197";font-size:18px;opacity:.85}
+.ask-src-list a:hover{background:rgba(232,160,32,.15);border-color:var(--amber);color:#ffd27a}
+
+@media(max-width:900px){
+  .ask-examples-grid{grid-template-columns:1fr}
+  .ask-examples-toggle{font-size:20px;padding:10px 16px}
+  .ask-example{font-size:20px;padding:10px 14px}
+  .ask-examples-group-title{font-size:20px}
+}
+
+/* ── DeepSeek-style centered layout ─────────────────── */
+
+#ask-centered{
+  display:flex;flex-direction:column;
+  min-height:100vh;
+  background:var(--bg);
+  padding:30px 22px 90px;
+  padding-top:max(30px,env(safe-area-inset-top));
+  padding-left:max(22px,env(safe-area-inset-left));
+  padding-right:max(22px,env(safe-area-inset-right));
+}
+
+/* wrapper: search bar + examples, centered vertically */
+.ds-centered-wrap{
+  width:100%;
+  display:flex;flex-direction:column;align-items:center;
+  padding-top:18vh;
+}
+/* centered greeting + search area */
+.ds-centered{display:flex;flex-direction:column;align-items:center;flex-shrink:0;width:100%}
+.ds-centered-inner{text-align:center;width:100%;max-width:1100px;padding:0 24px;margin:0 auto}
+
+.ds-greeting{margin-bottom:40px}
+.ds-greeting-text{
+  font-family:var(--disp);font-size:64px;font-weight:600;letter-spacing:.5px;
+  color:var(--text-bright);line-height:1.08;
+}
+/* top bar: breadcrumb */
+.ask-topbar{display:flex;align-items:center;justify-content:space-between;gap:16px}
+
+/* About trigger sits just above the greeting/search block */
+.ds-notice{
+  width:fit-content;max-width:100%;margin:0 auto 22px;text-align:left;
+  display:flex;flex-direction:column;align-items:flex-start;gap:12px;
+}
+.ds-notice-item{
+  display:flex;gap:13px;align-items:flex-start;
+  font-size:19px;line-height:1.55;color:var(--text-muted);
+}
+.ds-notice-item svg{flex-shrink:0;width:22px;height:22px;color:var(--amber);margin-top:2px}
+.ds-notice-item strong{color:var(--text-bright);font-weight:600}
+
+/* About: "About" trigger + modal box */
+.ds-about-toggle{
+  display:inline-flex;align-items:center;gap:9px;
+  background:none;border:none;padding:0;
+  font-family:var(--body);font-size:20px;font-weight:600;
+  color:var(--amber);cursor:pointer;transition:color .2s;
+}
+.ds-about-toggle:hover{color:var(--text-bright)}
+.ds-about-toggle svg{width:22px;height:22px}
+
+.ds-about-modal{
+  position:fixed;inset:0;z-index:100;
+  display:flex;align-items:center;justify-content:center;padding:24px;
+  background:rgba(0,0,0,.6);
+  opacity:0;visibility:hidden;
+  transition:opacity .18s ease,visibility .18s;
+}
+.ds-about-modal.open{opacity:1;visibility:visible}
+.ds-about-box{
+  position:relative;
+  width:min(620px,92vw);max-height:86vh;overflow-y:auto;text-align:left;
+  background:var(--s1);border:1px solid var(--b2);border-radius:12px;
+  padding:34px 32px 30px;box-shadow:0 18px 50px rgba(0,0,0,.55);
+  transform:translateY(-8px);transition:transform .18s ease;
+}
+.ds-about-modal.open .ds-about-box{transform:translateY(0)}
+.ds-about-close{
+  position:absolute;top:14px;right:14px;
+  width:36px;height:36px;display:flex;align-items:center;justify-content:center;
+  background:var(--s2);border:1px solid var(--b2);border-radius:8px;
+  color:var(--text-muted);cursor:pointer;
+  transition:background .2s,border-color .2s,color .2s;
+}
+.ds-about-close:hover{background:var(--s3);border-color:var(--amber);color:var(--text-bright)}
+.ds-about-close svg{width:20px;height:20px}
+.ds-about-box p{
+  margin:0 0 14px;font-family:var(--body);font-size:19px;line-height:1.6;color:var(--text-muted);
+}
+.ds-about-box p:first-of-type{padding-right:40px}
+.ds-about-box strong{color:var(--text-bright);font-weight:600}
+.ds-about-points{
+  margin-top:20px;padding-top:18px;border-top:1px solid var(--b1);
+  display:flex;flex-direction:column;gap:14px;
+}
+
+/* pill-shaped search input */
+.ds-search-wrapper{width:100%;margin:0 auto}
+.ds-search-pill{
+  border:1px solid var(--b2);background:var(--s1);
+  border-radius:16px;display:flex;align-items:flex-end;
+  gap:8px;padding:14px 14px 14px 36px;position:relative;overflow:hidden;
+  transition:border-color .2s;
+}
+.ds-search-pill:focus-within{border-color:var(--amber2)}
+
+.ds-textarea{
+  flex:1;border:none;outline:none;resize:none;
+  background:transparent;color:var(--text-bright);
+  caret-color:var(--amber);font-family:var(--body);
+  font-size:32px;line-height:1.5;padding:6px 0;
+  min-height:32px;max-height:200px;overflow-y:hidden;
+}
+.ds-textarea::placeholder{color:var(--text2)}
+
+.ds-send-btn{
+  flex-shrink:0;width:56px;height:56px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  background:var(--amber);color:var(--bg);border:none;cursor:pointer;
+  transition:filter .15s;
+}
+.ds-send-btn svg{width:26px;height:26px}
+.ds-send-btn:hover{filter:brightness(1.15)}
+.ds-send-btn:disabled{opacity:.5;cursor:default;filter:none}
+
+/* examples grid — scrollable independently below search bar */
+.ds-suggestions{
+  flex-shrink:0;text-align:center;
+  width:100%;padding:0 24px;margin-top:48px;
+}
+.ds-suggestions .ask-examples-body{
+  max-width:100%;margin-left:auto;margin-right:auto;
+}
+.ds-suggestions .ask-examples-grid{
+  max-width:100%;margin-left:auto;margin-right:auto;
+}
+
+/* answers scroll area (appears after first question) */
+.ds-answers-scroll{
+  display:none;width:100%;
+}
+.ds-answers-scroll.show{display:block;padding-top:48px}
+
+.ds-answers{width:90%;margin:0 auto;padding:0 28px 12px}
+
+.ds-search-bottom{
+  position:sticky;bottom:0;padding:16px 0 32px;
+  background:linear-gradient(180deg,transparent,var(--bg) 40%);
+  display:none;
+}
+
+@media(max-width:640px){
+  .ds-greeting-text{font-size:36px}
+  .ds-notice-item{font-size:16px}
+  .ds-suggestions .ask-examples-toggle{font-size:16px}
+  .ds-suggestions .ask-examples-group-title{font-size:16px}
+  .ds-suggestions .ask-example{font-size:16px}
+  .ds-suggestions .ask-example-more-btn{font-size:16px}
+  .ds-textarea{font-size:22px}
+  #ds-input{min-height:78px}
+  .ds-search-pill{padding:10px 10px 10px 22px}
+  .ds-send-btn{width:44px;height:44px}
+  .ds-send-btn svg{width:20px;height:20px}
+  /* reading scale: message + evidence text sized down for phone */
+  .ask-msg-label{font-size:15px}
+  .ask-user .ask-msg-body,.ask-assistant .ask-msg-body{font-size:17px}
+  .ask-turn{padding:14px 16px;border-radius:12px}
+  .ds-answers{width:100%;padding:0 0 12px}
+  .ask-evid-head{font-size:17px}
+  .ask-evid-subhead{font-size:15px}
+  .ask-evid .rp-section-title{font-size:17px}
+  .ask-evid .rp-section-title::after{font-size:15px}
+  .ask-evid .rp-linkage-desc{font-size:17px}
+  .ask-evid .rs-heading{font-size:18px}
+  .ask-evid .rs-summary{font-size:17px}
+  .ask-evid .rs-ai-note{font-size:15px}
+  .ask-evid .ev-quote{font-size:17px}
+  .ask-evid .ev-srcs,.ask-evid .ev-meta .ev-srcs{font-size:15px}
+  .ask-evid .ev-toggle{font-size:15px}
+  .ask-evid .rp-linkage .ev-time{font-size:15px}
+  .ask-src-head{font-size:16px}
+  .ask-src-list a{font-size:16px}
+  /* centered layout tighten */
+  .ds-greeting{margin-bottom:24px}
+  .ds-centered-inner{padding:0 16px}
+  .ds-suggestions{padding:0 12px;margin-top:32px}
+  .ds-about-box{padding:26px 20px 22px}
+}

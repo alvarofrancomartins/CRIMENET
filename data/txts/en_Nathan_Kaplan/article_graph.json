@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Five Points Gang",
+      "original_text_name": "Five Points Gang",
+      "aliases": [],
+      "context": "Powerful street gang led by Paul Kelly, mostly Italian members but also some Irish and Jewish.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nathan_Kaplan&oldid=1358930928"
+    },
+    {
+      "standard_name": "Eastman Gang",
+      "original_text_name": "Eastman Gang",
+      "aliases": [],
+      "context": "Rival gang to the Five Points Gang, led by Monk Eastman, predominantly joined by Jewish East Siders.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nathan_Kaplan&oldid=1358930928"
+    },
+    {
+      "standard_name": "Kaplan Gang",
+      "original_text_name": "Kaplan's gang",
+      "aliases": [
+        "Kid Dropper's gang"
+      ],
+      "context": "Small gang formed by Nathan Kaplan, involved in labor slugging.",
+      "time_period": "late 1900s or early 1910s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nathan_Kaplan&oldid=1358930928"
+    },
+    {
+      "standard_name": "Spanish Gang",
+      "original_text_name": "Spanish's gang",
+      "aliases": [
+        "Johnny Spanish's gang"
+      ],
+      "context": "Small gang formed by Johnny Spanish, involved in labor slugging.",
+      "time_period": "late 1900s or early 1910s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nathan_Kaplan&oldid=1358930928"
+    },
+    {
+      "standard_name": "Orgen Gang",
+      "original_text_name": "Orgen's gang",
+      "aliases": [
+        "Little Augie's gang"
+      ],
+      "context": "Jewish labor slugging gang led by Jacob 'Little Augie' Orgen.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nathan_Kaplan&oldid=1358930928"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Five Points Gang",
+      "target": "Eastman Gang",
+      "evidence_quote": "This was in contrast to many of his fellow Jewish East Siders who predominantly joined the Five Points Gang's rival Eastman Gang led by its namesake Monk Eastman.",
+      "context": "The Five Points Gang and Eastman Gang were rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nathan_Kaplan&oldid=1358930928"
+    },
+    {
+      "source": "Kaplan Gang",
+      "target": "Spanish Gang",
+      "evidence_quote": "The two gangs were allied for a while before a bitter personal rivalry developed between the Dropper and Johnny Spanish.",
+      "context": "Kaplan's gang and Spanish's gang were initially allied, then became rivals.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nathan_Kaplan&oldid=1358930928"
+    },
+    {
+      "source": "Kaplan Gang",
+      "target": "Spanish Gang",
+      "evidence_quote": "A violent war between the two soon began; fighting, particularly in the garment district, continued until Johnny Spanish was killed while leaving a Manhattan restaurant by three men, most likely including Kaplan, on July 29, 1919.",
+      "context": "After the alliance broke, the two gangs engaged in a violent war.",
+      "relationship": "conflict",
+      "time_period": "1919",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nathan_Kaplan&oldid=1358930928"
+    },
+    {
+      "source": "Kaplan Gang",
+      "target": "Orgen Gang",
+      "evidence_quote": "Kaplan and Orgen soon began fighting over protection of wet wash laundry workers in violent shootouts around New York.",
+      "context": "Kaplan's gang and Orgen's gang fought over labor slugging operations.",
+      "relationship": "conflict",
+      "time_period": "1923",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nathan_Kaplan&oldid=1358930928"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Nathan_Kaplan&oldid=1358930928",
+  "source_file": "en_Nathan_Kaplan"
+}

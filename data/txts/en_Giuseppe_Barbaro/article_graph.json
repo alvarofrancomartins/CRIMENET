@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "context": "Mafia-type criminal organisation based in Calabria, Italy.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Giuseppe_Barbaro&oldid=1331376823"
+    },
+    {
+      "standard_name": "Barbaro 'ndrina",
+      "original_text_name": "Barbaro 'ndrina",
+      "aliases": [
+        "Barbaro clan"
+      ],
+      "context": "A clan of the 'Ndrangheta based in Platì, involved in kidnapping, drug trafficking, and construction.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Giuseppe_Barbaro&oldid=1331376823"
+    },
+    {
+      "standard_name": "Mafia family of Mariano Agate",
+      "original_text_name": "Mafia family of Mariano Agate",
+      "aliases": [],
+      "context": "A Mafia family involved in cocaine trafficking, allied with the Barbaro 'ndrina.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Giuseppe_Barbaro&oldid=1331376823"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "'Ndrangheta",
+      "evidence_quote": "Giuseppe Barbaro ... is a boss of the 'Ndrangheta, a Mafia-type criminal organisation based in Calabria, Italy. He is a son of Francesco Barbaro, one of the leaders of the Barbaro 'ndrina based in Platì.",
+      "context": "The Barbaro 'ndrina is a clan within the 'Ndrangheta.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Giuseppe_Barbaro&oldid=1331376823"
+    },
+    {
+      "source": "Barbaro 'ndrina",
+      "target": "Mafia family of Mariano Agate",
+      "evidence_quote": "The clan participated in a cartel of 'Ndrangheta families involved in cocaine trafficking with the Mafia family of Mariano Agate.",
+      "context": "The Barbaro 'ndrina cooperated with the Mafia family of Mariano Agate in a cocaine trafficking cartel.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Giuseppe_Barbaro&oldid=1331376823"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Giuseppe_Barbaro&oldid=1331376823",
+  "source_file": "en_Giuseppe_Barbaro"
+}

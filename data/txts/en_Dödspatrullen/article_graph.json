@@ -1,0 +1,36 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Dödspatrullen",
+      "original_text_name": "Dödspatrullen",
+      "aliases": [
+        "Kuolemanpartio",
+        "3MST"
+      ],
+      "context": "Swedish Somali organised crime syndicate originating from Rinkeby, Stockholm, involved in drug trade and murders.",
+      "time_period": "since 2015",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=D%C3%B6dspatrullen&oldid=1359555532"
+    },
+    {
+      "standard_name": "Shottaz",
+      "original_text_name": "Shottaz",
+      "aliases": [],
+      "context": "Another Swedish Somali criminal organization originating from Rinkeby, rival of Dödspatrullen.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=D%C3%B6dspatrullen&oldid=1359555532"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Dödspatrullen",
+      "target": "Shottaz",
+      "evidence_quote": "Dödspatrullen has been in a gang war with Shottaz, another Swedish Somali criminal organization originating from Rinkeby, since 2015.",
+      "context": "Dödspatrullen and Shottaz have been in a gang war since 2015, resulting in multiple deaths.",
+      "relationship": "conflict",
+      "time_period": "since 2015",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=D%C3%B6dspatrullen&oldid=1359555532"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=D%C3%B6dspatrullen&oldid=1359555532",
+  "source_file": "en_Dödspatrullen"
+}

@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "camorra",
+      "aliases": [],
+      "context": "Italian mafia-type criminal organization operating in Campania.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Salvatore_Serra&oldid=150565725"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "context": "Criminal organization opposed to the NCO, active in the Agro Nocerino-Sarnese area.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Salvatore_Serra&oldid=150565725"
+    },
+    {
+      "standard_name": "NCO",
+      "original_text_name": "NCO",
+      "aliases": [
+        "Nuova Camorra Organizzata"
+      ],
+      "context": "Criminal organization led by Raffaele Cutolo, opposed by the Nuova Famiglia.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Salvatore_Serra&oldid=150565725"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Nuova Famiglia",
+      "target": "NCO",
+      "evidence_quote": "Salvatore Serra, detto \"Cartuccia\", era un boss di Pagani , affiliato alla Nuova Famiglia , che si opponeva alla NCO",
+      "context": "The Nuova Famiglia opposed the NCO.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Salvatore_Serra&oldid=150565725"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Salvatore_Serra&oldid=150565725",
+  "source_file": "it_Salvatore_Serra"
+}

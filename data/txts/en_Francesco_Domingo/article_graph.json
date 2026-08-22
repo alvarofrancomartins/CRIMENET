@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sicilian Mafia",
+      "original_text_name": "Sicilian Mafia",
+      "aliases": [
+        "Cosa Nostra"
+      ],
+      "context": "The Sicilian Mafia is a criminal organization operating in Sicily, Italy.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Francesco_Domingo&oldid=1334236380"
+    },
+    {
+      "standard_name": "Castellammare del Golfo Mafia family",
+      "original_text_name": "Castellammare del Golfo Mafia family",
+      "aliases": [
+        "Castellammare family",
+        "Castellammarese Mafia family"
+      ],
+      "context": "A Mafia family based in Castellammare del Golfo, Sicily, part of the mandamento of Alcamo.",
+      "time_period": "1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Francesco_Domingo&oldid=1334236380"
+    },
+    {
+      "standard_name": "Mandamento of Alcamo",
+      "original_text_name": "mandamento of Alcamo",
+      "aliases": [
+        "Alcamo's mandamento"
+      ],
+      "context": "A Mafia district in Sicily that includes the Castellammare del Golfo family.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Francesco_Domingo&oldid=1334236380"
+    },
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonannos",
+      "aliases": [
+        "Bonanno family",
+        "New York family"
+      ],
+      "context": "A New York-based Mafia family with ties to the Castellammare del Golfo family.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Francesco_Domingo&oldid=1334236380"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Castellammare del Golfo Mafia family",
+      "target": "Sicilian Mafia",
+      "evidence_quote": "Francesco Domingo (born 1956) is a member of the Sicilian Mafia and the boss of the Castellammare del Golfo Mafia family",
+      "context": "The Castellammare del Golfo family is a part of the Sicilian Mafia.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Francesco_Domingo&oldid=1334236380"
+    },
+    {
+      "source": "Castellammare del Golfo Mafia family",
+      "target": "Mandamento of Alcamo",
+      "evidence_quote": "the boss of the Castellammare del Golfo Mafia family, which in turn belongs to the mandamento of Alcamo",
+      "context": "The Castellammare del Golfo family is a constituent part of the mandamento of Alcamo.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Francesco_Domingo&oldid=1334236380"
+    },
+    {
+      "source": "Castellammare del Golfo Mafia family",
+      "target": "Bonanno crime family",
+      "evidence_quote": "the boss has maintained close relations with the branches of the Cosa Nostra in the United States, in particular with the Bonannos",
+      "context": "The Castellammare del Golfo family has close relations with the Bonanno crime family.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Francesco_Domingo&oldid=1334236380"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Francesco_Domingo&oldid=1334236380",
+  "source_file": "en_Francesco_Domingo"
+}

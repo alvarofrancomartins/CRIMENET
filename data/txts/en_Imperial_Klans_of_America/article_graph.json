@@ -1,0 +1,91 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Imperial Klans of America",
+      "original_text_name": "Imperial Klans of America",
+      "aliases": [
+        "IKA",
+        "Imperial Klans of America, Knights of the Ku Klux Klan"
+      ],
+      "context": "White supremacist, white nationalist, neo-Nazi paramilitary organization in the United States.",
+      "time_period": "1996-2020",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Imperial_Klans_of_America&oldid=1345882778"
+    },
+    {
+      "standard_name": "Knights of the Ku Klux Klan",
+      "original_text_name": "Knights of the Ku Klux Klan",
+      "aliases": [
+        "Knights of the KKK"
+      ],
+      "context": "A Klan group from which the IKA splintered.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Imperial_Klans_of_America&oldid=1345882778"
+    },
+    {
+      "standard_name": "Federation of Klans",
+      "original_text_name": "Federation of Klans",
+      "aliases": [],
+      "context": "Short-lived splinter group from the Knights of the KKK.",
+      "time_period": "1994-1995",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Imperial_Klans_of_America&oldid=1345882778"
+    },
+    {
+      "standard_name": "Supreme White Alliance",
+      "original_text_name": "Supreme White Alliance",
+      "aliases": [],
+      "context": "White power skinhead group that assisted the IKA with hate rock gatherings.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Imperial_Klans_of_America&oldid=1345882778"
+    },
+    {
+      "standard_name": "Ku Klux Klan",
+      "original_text_name": "Ku Klux Klan",
+      "aliases": [
+        "KKK"
+      ],
+      "context": "The broader Klan movement; the IKA describes itself as the sixth era of the Klan.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Imperial_Klans_of_America&oldid=1345882778"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Imperial Klans of America",
+      "target": "Knights of the Ku Klux Klan",
+      "evidence_quote": "In the early 1990s, Ron Edwards was the head of a Kentucky-based klavern (local unit) of the Knights of the Ku Klux Klan . In July 1994, he joined the short-lived Federation of Klans after it broke away from the Knights of the KKK",
+      "context": "Edwards was a member of the Knights of the Ku Klux Klan before founding the IKA.",
+      "relationship": "other",
+      "time_period": "early 1990s-1994",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Imperial_Klans_of_America&oldid=1345882778"
+    },
+    {
+      "source": "Imperial Klans of America",
+      "target": "Federation of Klans",
+      "evidence_quote": "In July 1994, he joined the short-lived Federation of Klans after it broke away from the Knights of the KKK",
+      "context": "Edwards joined the Federation of Klans before founding the IKA.",
+      "relationship": "other",
+      "time_period": "1994-1995",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Imperial_Klans_of_America&oldid=1345882778"
+    },
+    {
+      "source": "Imperial Klans of America",
+      "target": "Supreme White Alliance",
+      "evidence_quote": "the Supreme White Alliance, a white power skinhead group that had been assisting the IKA with annual hate rock gatherings, decided to break ties with the IKA after Edwards' arrest.",
+      "context": "The Supreme White Alliance assisted the IKA with hate rock gatherings until breaking ties after Edwards' arrest.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Imperial_Klans_of_America&oldid=1345882778"
+    },
+    {
+      "source": "Imperial Klans of America",
+      "target": "Ku Klux Klan",
+      "evidence_quote": "The group describes itself as the sixth era of the Ku Klux Klan",
+      "context": "The IKA claims to be a continuation of the Ku Klux Klan.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Imperial_Klans_of_America&oldid=1345882778"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Imperial_Klans_of_America&oldid=1345882778",
+  "source_file": "en_Imperial_Klans_of_America"
+}

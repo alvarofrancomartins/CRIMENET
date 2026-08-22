@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [
+        "HA",
+        "Hells Angels Motorcycle Club"
+      ],
+      "context": "International outlaw motorcycle club involved in criminal activities in Nova Scotia between 1984 and 2003.",
+      "time_period": "1984-2003",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hells_Angels_MC_criminal_allegations_and_incidents_in_Nova_Scotia&oldid=1321184061"
+    },
+    {
+      "standard_name": "Thirteenth Tribe",
+      "original_text_name": "Thirteenth Tribe",
+      "aliases": [],
+      "context": "Halifax biker gang that patched over to become the first Hells Angels chapter in Atlantic Canada in 1984.",
+      "time_period": "1984",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hells_Angels_MC_criminal_allegations_and_incidents_in_Nova_Scotia&oldid=1321184061"
+    },
+    {
+      "standard_name": "West End Gang",
+      "original_text_name": "West End Gang",
+      "aliases": [],
+      "context": "Montreal-based organized crime group led by Allan Ross, involved in drug trafficking and debt collection.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hells_Angels_MC_criminal_allegations_and_incidents_in_Nova_Scotia&oldid=1321184061"
+    },
+    {
+      "standard_name": "Marriot brothers",
+      "original_text_name": "Marriot brothers",
+      "aliases": [
+        "Billy and Ricky Marriot"
+      ],
+      "context": "Spryfield-based gang allied to the Hells Angels, involved in drug trade and murder.",
+      "time_period": "1998",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hells_Angels_MC_criminal_allegations_and_incidents_in_Nova_Scotia&oldid=1321184061"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Thirteenth Tribe",
+      "target": "Hells Angels",
+      "evidence_quote": "On 5 December 1984, the Thirteenth Tribe biker gang of Halifax led by David Carroll \"patched over\" to become the first Hells Angels chapter in Atlantic Canada.",
+      "context": "Thirteenth Tribe merged into Hells Angels by patching over to form the Halifax chapter.",
+      "relationship": "other",
+      "time_period": "1984",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hells_Angels_MC_criminal_allegations_and_incidents_in_Nova_Scotia&oldid=1321184061"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "West End Gang",
+      "evidence_quote": "Allan \"the Weasel\" Ross, the boss of the West End Gang, told the Hells Angels Yves Trudeau that he was willing to forgive the drug debts owned to him by the Halifax chapter in exchange for the Halifax chapter paying Trudeau money that Ross owned him.",
+      "context": "West End Gang and Hells Angels engaged in a financial arrangement involving debt forgiveness and payment.",
+      "relationship": "cooperation",
+      "time_period": "1984",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hells_Angels_MC_criminal_allegations_and_incidents_in_Nova_Scotia&oldid=1321184061"
+    },
+    {
+      "source": "Hells Angels",
+      "target": "Marriot brothers",
+      "evidence_quote": "Another gang allied to the Hells Angels were the Marriot brothers, Billy and Ricky, of Spryfield.",
+      "context": "Marriot brothers were allied with Hells Angels.",
+      "relationship": "cooperation",
+      "time_period": "1998",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hells_Angels_MC_criminal_allegations_and_incidents_in_Nova_Scotia&oldid=1321184061"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Hells_Angels_MC_criminal_allegations_and_incidents_in_Nova_Scotia&oldid=1321184061",
+  "source_file": "en_Hells_Angels_MC_criminal_allegations_and_incidents_in_Nova_Scotia"
+}

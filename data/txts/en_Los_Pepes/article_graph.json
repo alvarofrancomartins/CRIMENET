@@ -1,0 +1,141 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Pepes",
+      "original_text_name": "Los Pepes",
+      "aliases": [
+        "Los Perseguidos por Pablo Escobar"
+      ],
+      "context": "Paramilitary group composed of enemies of Pablo Escobar, waged war against Medellín Cartel in 1993.",
+      "time_period": "1992–1993",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pepes&oldid=1328262979"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [],
+      "context": "Drug cartel led by Pablo Escobar, targeted by Los Pepes.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pepes&oldid=1328262979"
+    },
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali Cartel",
+      "aliases": [],
+      "context": "Drug cartel that financed Los Pepes.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pepes&oldid=1328262979"
+    },
+    {
+      "standard_name": "United Self-Defense Forces of Colombia",
+      "original_text_name": "United Self-Defense Forces of Colombia (AUC)",
+      "aliases": [
+        "AUC"
+      ],
+      "context": "National paramilitary alliance formed after Los Pepes, led by former Los Pepes leaders.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pepes&oldid=1328262979"
+    },
+    {
+      "standard_name": "Revolutionary Armed Forces of Colombia",
+      "original_text_name": "Revolutionary Armed Forces of Colombia (FARC)",
+      "aliases": [
+        "FARC"
+      ],
+      "context": "Marxist guerrilla group fought by AUC.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pepes&oldid=1328262979"
+    },
+    {
+      "standard_name": "Oficina de Envigado",
+      "original_text_name": "Oficina de Envigado",
+      "aliases": [],
+      "context": "Criminal organization led by Diego Murillo Bejarano, former Los Pepes member.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pepes&oldid=1328262979"
+    },
+    {
+      "standard_name": "National Police of Colombia",
+      "original_text_name": "National Police of Colombia",
+      "aliases": [],
+      "context": "Colombian law enforcement agency that had ties with Los Pepes.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pepes&oldid=1328262979"
+    },
+    {
+      "standard_name": "Search Bloc",
+      "original_text_name": "Search Bloc",
+      "aliases": [],
+      "context": "Special police unit that cooperated with Los Pepes against Escobar.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pepes&oldid=1328262979"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Pepes",
+      "target": "Medellín Cartel",
+      "evidence_quote": "They waged a small-scale war against the Medellín Cartel in 1993",
+      "context": "Los Pepes fought a war against the Medellín Cartel.",
+      "relationship": "conflict",
+      "time_period": "1993",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pepes&oldid=1328262979"
+    },
+    {
+      "source": "Los Pepes",
+      "target": "Cali Cartel",
+      "evidence_quote": "The group was financed by the Cali Cartel",
+      "context": "Cali Cartel provided financial support to Los Pepes.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pepes&oldid=1328262979"
+    },
+    {
+      "source": "Los Pepes",
+      "target": "United Self-Defense Forces of Colombia",
+      "evidence_quote": "several of their leaders eventually went on to become leaders of a national paramilitary alliance in Colombia, the United Self-Defense Forces of Colombia (AUC)",
+      "context": "Former Los Pepes leaders became leaders of AUC.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pepes&oldid=1328262979"
+    },
+    {
+      "source": "United Self-Defense Forces of Colombia",
+      "target": "Revolutionary Armed Forces of Colombia",
+      "evidence_quote": "the United Self-Defense Forces of Colombia (AUC), a paramilitary death squad that was formed not only for the purpose of fighting the Cartel but also the Revolutionary Armed Forces of Colombia (FARC)",
+      "context": "AUC fought against FARC.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pepes&oldid=1328262979"
+    },
+    {
+      "source": "Los Pepes",
+      "target": "Oficina de Envigado",
+      "evidence_quote": "Another member of Los Pepes, Diego \"Don Berna\" Murillo Bejarano eventually became Inspector General of the AUC, as well as an important drug trafficker with Oficina de Envigado.",
+      "context": "A former Los Pepes member became a leader in Oficina de Envigado.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pepes&oldid=1328262979"
+    },
+    {
+      "source": "Los Pepes",
+      "target": "National Police of Colombia",
+      "evidence_quote": "Allies: Cali Cartel, National Police of Colombia, Search Bloc",
+      "context": "Los Pepes had an alliance with the National Police of Colombia.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pepes&oldid=1328262979"
+    },
+    {
+      "source": "Los Pepes",
+      "target": "Search Bloc",
+      "evidence_quote": "Allies: Cali Cartel, National Police of Colombia, Search Bloc",
+      "context": "Los Pepes had an alliance with the Search Bloc.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pepes&oldid=1328262979"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Pepes&oldid=1328262979",
+  "source_file": "en_Los_Pepes"
+}

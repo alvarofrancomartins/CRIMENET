@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [
+        "The Outfit"
+      ],
+      "context": "American organized crime syndicate based in Chicago, involved in illegal gambling and skimming casino profits in Las Vegas.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Anthony_Spilotro&oldid=1358620527"
+    },
+    {
+      "standard_name": "Hole in the Wall Gang",
+      "original_text_name": "Hole in the Wall Gang",
+      "aliases": [],
+      "context": "Burglary crew formed by Anthony Spilotro in Las Vegas in 1971, known for drilling through walls.",
+      "time_period": "1971-1986",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Anthony_Spilotro&oldid=1358620527"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hole in the Wall Gang",
+      "target": "Chicago Outfit",
+      "evidence_quote": "Spilotro moved to Las Vegas to help oversee the local concerns of the Chicago Outfit... Bored with his new assignment, Spilotro formed a burglary crew later dubbed the 'Hole in the Wall Gang.'",
+      "context": "The Hole in the Wall Gang was a crew formed by a Chicago Outfit member while overseeing Outfit interests, but no direct operational tie is stated.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Anthony_Spilotro&oldid=1358620527"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Anthony_Spilotro&oldid=1358620527",
+  "source_file": "en_Anthony_Spilotro"
+}

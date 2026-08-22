@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Croxteth Crew",
+      "original_text_name": "Croxteth Crew",
+      "aliases": [],
+      "context": "A criminal gang in Croxteth, Liverpool, involved in the murder of Rhys Jones.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Murder_of_Rhys_Jones&oldid=1356221098"
+    },
+    {
+      "standard_name": "Norris Green Strand Crew",
+      "original_text_name": "Norris Green Strand Crew",
+      "aliases": [
+        "Strand Crew"
+      ],
+      "context": "A rival gang to the Croxteth Crew, based in Norris Green, Liverpool.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Murder_of_Rhys_Jones&oldid=1356221098"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Croxteth Crew",
+      "target": "Norris Green Strand Crew",
+      "evidence_quote": "The murder came the day before the first anniversary of the killing of Liam Smith, an alleged member of a rival gang, the Norris Green Strand Crew, who was shot dead by members of the Croxteth Crew on 23 August 2006.",
+      "context": "The Croxteth Crew killed a member of the Norris Green Strand Crew, indicating a violent rivalry.",
+      "relationship": "conflict",
+      "time_period": "2006",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Murder_of_Rhys_Jones&oldid=1356221098"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Murder_of_Rhys_Jones&oldid=1356221098",
+  "source_file": "en_Murder_of_Rhys_Jones"
+}

@@ -1,0 +1,42 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Red Wa",
+      "original_text_name": "Red Wa",
+      "aliases": [],
+      "context": "A group associated with the United Wa State Army, involved in drug trafficking.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chao_pho&oldid=1350107797"
+    },
+    {
+      "standard_name": "United Wa State Army",
+      "original_text_name": "United Wa State Army",
+      "aliases": [],
+      "context": "An armed group associated with the Red Wa, involved in narcotics trafficking.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chao_pho&oldid=1350107797"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Chao pho",
+      "target": "Red Wa",
+      "evidence_quote": "They are known for cooperating with the Red Wa (who are associated with the United Wa State Army) for the trafficking and sale of narcotics.",
+      "context": "Chao pho groups cooperate with the Red Wa for drug trafficking.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chao_pho&oldid=1350107797"
+    },
+    {
+      "source": "Red Wa",
+      "target": "United Wa State Army",
+      "evidence_quote": "They are known for cooperating with the Red Wa (who are associated with the United Wa State Army) for the trafficking and sale of narcotics.",
+      "context": "The Red Wa are associated with the United Wa State Army.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chao_pho&oldid=1350107797"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Chao_pho&oldid=1350107797",
+  "source_file": "en_Chao_pho"
+}

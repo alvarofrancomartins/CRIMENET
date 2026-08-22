@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Peaky Blinders",
+      "original_text_name": "Peaky Blinders",
+      "aliases": [
+        "Blinders"
+      ],
+      "context": "Street gang based in Birmingham, England, active from 1880s to 1920s, engaged in robbery, violence, racketeering, illegal bookmaking, and gambling control.",
+      "time_period": "1880s to 1920s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Peaky_Blinders&oldid=1358347263"
+    },
+    {
+      "standard_name": "Sloggers",
+      "original_text_name": "Sloggers",
+      "aliases": [
+        "Cheapside Sloggers"
+      ],
+      "context": "Rival street gang in Birmingham, fought Peaky Blinders for territory.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Peaky_Blinders&oldid=1358347263"
+    },
+    {
+      "standard_name": "Birmingham Boys",
+      "original_text_name": "Birmingham Boys",
+      "aliases": [],
+      "context": "Larger gang led by Billy Kimber that overtook the Peaky Blinders in 1920.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Peaky_Blinders&oldid=1358347263"
+    },
+    {
+      "standard_name": "Sabini gang",
+      "original_text_name": "Sabini gang",
+      "aliases": [
+        "Sabinis"
+      ],
+      "context": "Gang that moved in on the Birmingham Boys after the Peaky Blinders' withdrawal, solidifying political control over Central England in the 1930s.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Peaky_Blinders&oldid=1358347263"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Peaky Blinders",
+      "target": "Sloggers",
+      "evidence_quote": "The Blinders' dominance came about from beating rivals, including the \"Sloggers\", \"a pugilistic term for someone who could strike a heavy blow in the ring\", whom they fought for territory in Birmingham and its surrounding districts.",
+      "context": "Peaky Blinders fought the Sloggers for territory in Birmingham.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Peaky_Blinders&oldid=1358347263"
+    },
+    {
+      "source": "Peaky Blinders",
+      "target": "Birmingham Boys",
+      "evidence_quote": "They held \"control\" for 30 years until 1920, when a larger gang, the Birmingham Boys, led by Billy Kimber, overtook them.",
+      "context": "The Birmingham Boys overtook the Peaky Blinders in 1920.",
+      "relationship": "conflict",
+      "time_period": "1920",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Peaky_Blinders&oldid=1358347263"
+    },
+    {
+      "source": "Peaky Blinders",
+      "target": "Sabini gang",
+      "evidence_quote": "With the Blinders' withdrawal from the criminal underworld, the Sabini gang moved in on the Birmingham Boys gang and solidified political control over Central England in the 1930s.",
+      "context": "The Sabini gang moved into territory after the Peaky Blinders withdrew.",
+      "relationship": "other",
+      "time_period": "1930s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Peaky_Blinders&oldid=1358347263"
+    },
+    {
+      "source": "Birmingham Boys",
+      "target": "Sabini gang",
+      "evidence_quote": "With the Blinders' withdrawal from the criminal underworld, the Sabini gang moved in on the Birmingham Boys gang and solidified political control over Central England in the 1930s.",
+      "context": "The Sabini gang moved in on the Birmingham Boys gang.",
+      "relationship": "conflict",
+      "time_period": "1930s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Peaky_Blinders&oldid=1358347263"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Peaky_Blinders&oldid=1358347263",
+  "source_file": "en_Peaky_Blinders"
+}

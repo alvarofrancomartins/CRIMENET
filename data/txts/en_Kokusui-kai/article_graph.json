@@ -1,0 +1,62 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kokusui-kai",
+      "original_text_name": "Kokusui-kai",
+      "aliases": [
+        "National Society",
+        "國粹会"
+      ],
+      "context": "Tokyo-based yakuza organization founded in 1958, controls Ginza district.",
+      "time_period": "1958-1965, active again after 1965",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kokusui-kai&oldid=1288684772"
+    },
+    {
+      "standard_name": "Kantō Hatsukakai",
+      "original_text_name": "Kantō Hatsukakai",
+      "aliases": [],
+      "context": "Federation of Tokyo yakuza groups opposed to Yamaguchi-gumi.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kokusui-kai&oldid=1288684772"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Powerful Kansai-based yakuza organization.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kokusui-kai&oldid=1288684772"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kokusui-kai",
+      "target": "Kantō Hatsukakai",
+      "evidence_quote": "The gang had long been a member of the Kantō Hatsukakai, a federation of Tokyo yakuza groups opposed to the powerful, Kansai -based Yamaguchi-gumi.",
+      "context": "Kokusui-kai was a member of the Kantō Hatsukakai federation.",
+      "relationship": "other",
+      "time_period": "long been a member (until August 2005)",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kokusui-kai&oldid=1288684772"
+    },
+    {
+      "source": "Kantō Hatsukakai",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "The gang had long been a member of the Kantō Hatsukakai, a federation of Tokyo yakuza groups opposed to the powerful, Kansai -based Yamaguchi-gumi.",
+      "context": "Kantō Hatsukakai was a federation opposed to Yamaguchi-gumi.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kokusui-kai&oldid=1288684772"
+    },
+    {
+      "source": "Kokusui-kai",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "This changed in August 2005, when in a surprise move, the Kokusui-kai withdrew from the Kantō alliance and became an affiliate of the Yamaguchi-gumi.",
+      "context": "Kokusui-kai became an affiliate of Yamaguchi-gumi in August 2005.",
+      "relationship": "cooperation",
+      "time_period": "August 2005",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kokusui-kai&oldid=1288684772"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Kokusui-kai&oldid=1288684772",
+  "source_file": "en_Kokusui-kai"
+}

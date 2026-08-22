@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Metros",
+      "original_text_name": "Los Metros",
+      "aliases": [
+        "Metros"
+      ],
+      "context": "Faction of the Gulf Cartel, formed in late 1980s as armed wing, headquartered in Matamoros.",
+      "time_period": "late 1980s–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Metros&oldid=1339085192"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [
+        "Gulf cartel"
+      ],
+      "context": "Mexican drug trafficking organization, parent of Los Metros.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Metros&oldid=1339085192"
+    },
+    {
+      "standard_name": "Los Rojos",
+      "original_text_name": "Los Rojos",
+      "aliases": [
+        "Rojos"
+      ],
+      "context": "Faction of the Gulf Cartel, based in Reynosa.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Metros&oldid=1339085192"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "context": "Former armed wing of Gulf Cartel, later bitter enemy.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Metros&oldid=1339085192"
+    },
+    {
+      "standard_name": "Cártel del Noreste",
+      "original_text_name": "Cártel del Noreste",
+      "aliases": [],
+      "context": "Rival of Los Metros according to infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Metros&oldid=1339085192"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Metros",
+      "target": "Gulf Cartel",
+      "evidence_quote": "Los Metros is a faction of a Mexican drug trafficking organization known as the Gulf Cartel.",
+      "context": "Los Metros is a faction of the Gulf Cartel.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Metros&oldid=1339085192"
+    },
+    {
+      "source": "Los Metros",
+      "target": "Los Rojos",
+      "evidence_quote": "The infighting between the Metros and the Rojos of the Gulf cartel began in 2010",
+      "context": "Los Metros and Los Rojos are rival factions engaged in infighting.",
+      "relationship": "conflict",
+      "time_period": "2010",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Metros&oldid=1339085192"
+    },
+    {
+      "source": "Los Metros",
+      "target": "Los Zetas",
+      "evidence_quote": "Allies: Gulf Cartel, Los Zetas",
+      "context": "Los Metros are allied with Los Zetas according to infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Metros&oldid=1339085192"
+    },
+    {
+      "source": "Los Metros",
+      "target": "Cártel del Noreste",
+      "evidence_quote": "Rivals: Los Rojos, Cártel del Noreste",
+      "context": "Los Metros are rivals with Cártel del Noreste according to infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Metros&oldid=1339085192"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Metros&oldid=1339085192",
+  "source_file": "en_Los_Metros"
+}

@@ -1,0 +1,197 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Terceiro Comando Puro",
+      "original_text_name": "Terceiro Comando Puro",
+      "aliases": [
+        "TCP"
+      ],
+      "context": "Segunda maior facção criminosa do Rio de Janeiro, surgida de dissidência do Terceiro Comando.",
+      "time_period": "2002–presente",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "standard_name": "Terceiro Comando",
+      "original_text_name": "Terceiro Comando",
+      "aliases": [
+        "TC"
+      ],
+      "context": "Facção criminosa extinta, atuante nas décadas de 1980 e 1990, antecessora do TCP.",
+      "time_period": "década de 1980 e 1990",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "standard_name": "Primeiro Comando da Capital",
+      "original_text_name": "Primeiro Comando da Capital",
+      "aliases": [
+        "PCC"
+      ],
+      "context": "Maior facção criminosa do Brasil, citada como aliada do TCP.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "CV"
+      ],
+      "context": "Facção criminosa rival declarada do TCP.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "standard_name": "Amigos dos Amigos",
+      "original_text_name": "Amigos dos Amigos",
+      "aliases": [
+        "ADA"
+      ],
+      "context": "Facção criminosa que se aliou ao Terceiro Comando em 1998 e posteriormente se tornou rival do TCP.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "standard_name": "Bonde do Maluco",
+      "original_text_name": "BDM",
+      "aliases": [],
+      "context": "Facção criminosa listada como aliada do TCP na infobox.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "standard_name": "OKD",
+      "original_text_name": "OKD",
+      "aliases": [],
+      "context": "Facção criminosa listada como aliada do TCP na infobox.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "standard_name": "GDE",
+      "original_text_name": "GDE",
+      "aliases": [],
+      "context": "Facção criminosa listada como aliada do TCP na infobox.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "standard_name": "SDC",
+      "original_text_name": "SDC",
+      "aliases": [],
+      "context": "Facção criminosa listada como aliada do TCP na infobox.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "standard_name": "PCV",
+      "original_text_name": "PCV",
+      "aliases": [],
+      "context": "Facção criminosa listada como rival do TCP na infobox.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Terceiro Comando Puro",
+      "target": "Terceiro Comando",
+      "evidence_quote": "surgida no Rio de Janeiro, a partir de uma dissidência do Terceiro Comando",
+      "context": "TCP originou-se como dissidência do Terceiro Comando.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "source": "Terceiro Comando Puro",
+      "target": "Comando Vermelho",
+      "evidence_quote": "Comando Vermelho (rival declarado)",
+      "context": "TCP tem o CV como rival declarado.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "source": "Terceiro Comando Puro",
+      "target": "Comando Vermelho",
+      "evidence_quote": "O Terceiro Comando Puro mantém sua atuação contra o Comando Vermelho (CV) fora do Rio de Janeiro",
+      "context": "TCP atua contra o CV em vários estados.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "source": "Terceiro Comando",
+      "target": "Amigos dos Amigos",
+      "evidence_quote": "Em 1998, o Terceiro Comando (TC) aliou-se a facção recém-criada Amigos dos Amigos (ADA)",
+      "context": "TC e ADA formaram aliança em 1998.",
+      "relationship": "cooperation",
+      "time_period": "1998",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "source": "Terceiro Comando Puro",
+      "target": "Primeiro Comando da Capital",
+      "evidence_quote": "Aliados: PCC",
+      "context": "PCC é listado como aliado do TCP na infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "source": "Terceiro Comando Puro",
+      "target": "Bonde do Maluco",
+      "evidence_quote": "Aliados: BDM",
+      "context": "BDM é listado como aliado do TCP na infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "source": "Terceiro Comando Puro",
+      "target": "OKD",
+      "evidence_quote": "Aliados: OKD",
+      "context": "OKD é listado como aliado do TCP na infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "source": "Terceiro Comando Puro",
+      "target": "GDE",
+      "evidence_quote": "Aliados: GDE",
+      "context": "GDE é listado como aliado do TCP na infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "source": "Terceiro Comando Puro",
+      "target": "SDC",
+      "evidence_quote": "Aliados: SDC",
+      "context": "SDC é listado como aliado do TCP na infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "source": "Terceiro Comando Puro",
+      "target": "Amigos dos Amigos",
+      "evidence_quote": "Rivais: ADA",
+      "context": "ADA é listado como rival do TCP na infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    },
+    {
+      "source": "Terceiro Comando Puro",
+      "target": "PCV",
+      "evidence_quote": "Rivais: PCV",
+      "context": "PCV é listado como rival do TCP na infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240"
+    }
+  ],
+  "source_url": "https://pt.wikipedia.org/w/index.php?title=Terceiro_Comando_Puro&oldid=72353240",
+  "source_file": "pt_Terceiro_Comando_Puro"
+}

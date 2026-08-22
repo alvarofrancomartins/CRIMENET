@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "standard_name": "La Guajira Cartel",
+      "original_text_name": "La Guajira Cartel",
+      "aliases": [
+        "Cartel de La Guajira",
+        "Alianza Fronteriza"
+      ],
+      "context": "Criminal organization from Maicao operating in Guajira Peninsula, specializing in contraband and drug trafficking.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Guajira_Cartel&oldid=1339081578"
+    },
+    {
+      "standard_name": "Cartel of the Suns",
+      "original_text_name": "Cartel of the Suns",
+      "aliases": [
+        "Los Soles"
+      ],
+      "context": "Criminal organization led by Nicolás Maduro and his leadership, involved in drug trafficking.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Guajira_Cartel&oldid=1339081578"
+    },
+    {
+      "standard_name": "Clan del Golfo",
+      "original_text_name": "Clan del Golfo",
+      "aliases": [],
+      "context": "Criminal organization rival to La Guajira Cartel.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Guajira_Cartel&oldid=1339081578"
+    },
+    {
+      "standard_name": "Tren de Aragua",
+      "original_text_name": "Tren de Aragua",
+      "aliases": [],
+      "context": "Criminal organization rival to La Guajira Cartel.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Guajira_Cartel&oldid=1339081578"
+    }
+  ],
+  "edges": [
+    {
+      "source": "La Guajira Cartel",
+      "target": "Cartel of the Suns",
+      "evidence_quote": "According to the Colombian outlet Caracol Radio , the marriage between Alcalá and González would have meant an alliance between the La Guajira and Los Soles cartels.",
+      "context": "Marriage between Clíver Alcalá and Marta González signified an alliance between the two cartels.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Guajira_Cartel&oldid=1339081578"
+    },
+    {
+      "source": "La Guajira Cartel",
+      "target": "Clan del Golfo",
+      "evidence_quote": "Rivals: Clan del Golfo , Tren de Aragua",
+      "context": "Clan del Golfo is listed as a rival in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Guajira_Cartel&oldid=1339081578"
+    },
+    {
+      "source": "La Guajira Cartel",
+      "target": "Tren de Aragua",
+      "evidence_quote": "Rivals: Clan del Golfo , Tren de Aragua",
+      "context": "Tren de Aragua is listed as a rival in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Guajira_Cartel&oldid=1339081578"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=La_Guajira_Cartel&oldid=1339081578",
+  "source_file": "en_La_Guajira_Cartel"
+}

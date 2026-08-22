@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bonde dos 13",
+      "original_text_name": "Bonde dos 13",
+      "aliases": [
+        "B13"
+      ],
+      "context": "Brazilian criminal faction active in Acre and Bolivia border, involved in drug trafficking.",
+      "time_period": "2013 – presente",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Bonde_dos_13&oldid=72176234"
+    },
+    {
+      "standard_name": "Primeiro Comando da Capital",
+      "original_text_name": "Primeiro Comando da Capital (PCC)",
+      "aliases": [
+        "PCC"
+      ],
+      "context": "Brazilian criminal organization, ally of Bonde dos 13.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Bonde_dos_13&oldid=72176234"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho (CV)",
+      "aliases": [
+        "CV"
+      ],
+      "context": "Brazilian criminal organization, rival of Bonde dos 13.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Bonde_dos_13&oldid=72176234"
+    },
+    {
+      "standard_name": "Ifara",
+      "original_text_name": "Ifara",
+      "aliases": [],
+      "context": "Another criminal faction in Acre, rival of Bonde dos 13.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Bonde_dos_13&oldid=72176234"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bonde dos 13",
+      "target": "Primeiro Comando da Capital",
+      "evidence_quote": "Aliados: PCC",
+      "context": "Bonde dos 13 is allied with PCC.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Bonde_dos_13&oldid=72176234"
+    },
+    {
+      "source": "Bonde dos 13",
+      "target": "Comando Vermelho",
+      "evidence_quote": "Rivais: CV",
+      "context": "Bonde dos 13 is in conflict with Comando Vermelho.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Bonde_dos_13&oldid=72176234"
+    },
+    {
+      "source": "Bonde dos 13",
+      "target": "Ifara",
+      "evidence_quote": "Rivais: Ifara",
+      "context": "Bonde dos 13 has rivalry with Ifara.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Bonde_dos_13&oldid=72176234"
+    }
+  ],
+  "source_url": "https://pt.wikipedia.org/w/index.php?title=Bonde_dos_13&oldid=72176234",
+  "source_file": "pt_Bonde_dos_13"
+}

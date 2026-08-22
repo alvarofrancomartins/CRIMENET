@@ -1,0 +1,86 @@
+{
+  "nodes": [
+    {
+      "standard_name": "La Corporación",
+      "original_text_name": "La Corporación",
+      "aliases": [
+        "Santa Ana Cartel"
+      ],
+      "context": "Bolivian drug cartel and criminal organization, major cocaine producer in the 1970s-1980s.",
+      "time_period": "1970s-1990",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Corporaci%C3%B3n&oldid=1313356057"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [],
+      "context": "Colombian drug cartel, major buyer from La Corporación.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Corporaci%C3%B3n&oldid=1313356057"
+    },
+    {
+      "standard_name": "Mexican drug cartels",
+      "original_text_name": "Mexican drug cartels",
+      "aliases": [],
+      "context": "Mexican criminal organizations allied with La Corporación.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Corporaci%C3%B3n&oldid=1313356057"
+    },
+    {
+      "standard_name": "Contras",
+      "original_text_name": "Contras",
+      "aliases": [],
+      "context": "Nicaraguan rebel group, allied with La Corporación per infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Corporaci%C3%B3n&oldid=1313356057"
+    },
+    {
+      "standard_name": "La Conexión",
+      "original_text_name": "La Conexión",
+      "aliases": [],
+      "context": "Rival criminal organization to La Corporación per infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Corporaci%C3%B3n&oldid=1313356057"
+    }
+  ],
+  "edges": [
+    {
+      "source": "La Corporación",
+      "target": "Medellín Cartel",
+      "evidence_quote": "Because of the relationship with Suárez and Pablo Escobar, \"La Corporación\" became a major supplier to the Medellín Cartel.",
+      "context": "La Corporación supplied cocaine to the Medellín Cartel.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Corporaci%C3%B3n&oldid=1313356057"
+    },
+    {
+      "source": "La Corporación",
+      "target": "Mexican drug cartels",
+      "evidence_quote": "Allies: Bolivian military junta, Medellín Cartel, Mexican drug cartels, Contras",
+      "context": "La Corporación was allied with Mexican drug cartels.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Corporaci%C3%B3n&oldid=1313356057"
+    },
+    {
+      "source": "La Corporación",
+      "target": "Contras",
+      "evidence_quote": "Allies: Bolivian military junta, Medellín Cartel, Mexican drug cartels, Contras",
+      "context": "La Corporación was allied with the Contras.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Corporaci%C3%B3n&oldid=1313356057"
+    },
+    {
+      "source": "La Corporación",
+      "target": "La Conexión",
+      "evidence_quote": "Rivals: DEA, Bolivian constitutional government, La Conexión",
+      "context": "La Corporación had La Conexión as a rival.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Corporaci%C3%B3n&oldid=1313356057"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=La_Corporaci%C3%B3n&oldid=1313356057",
+  "source_file": "en_La_Corporación"
+}

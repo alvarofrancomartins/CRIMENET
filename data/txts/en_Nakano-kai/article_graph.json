@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Nakano-kai",
+      "original_text_name": "Nakano-kai",
+      "aliases": [
+        "Dojin-kai in the Yamaguchi-gumi"
+      ],
+      "context": "Osaka-based yakuza gang, known for bellicosity, formerly affiliated with Yamaguchi-gumi.",
+      "time_period": "after World War 2 - 1997",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nakano-kai&oldid=1182749056"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Kobe-based yakuza group, Japan's largest, parent organization of Nakano-kai before 1997.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nakano-kai&oldid=1182749056"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Nakano-kai",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "Before 1997, the Nakano-kai had been an affiliate of the Kobe -based Yamaguchi-gumi , Japan's largest yakuza group.",
+      "context": "Nakano-kai was an affiliate of Yamaguchi-gumi before 1997.",
+      "relationship": "other",
+      "time_period": "before 1997",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nakano-kai&oldid=1182749056"
+    },
+    {
+      "source": "Nakano-kai",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "But in July of that year, the Nakano-kai broke spectacularly from its parent in a violent attack that led to the group's disbanding.",
+      "context": "Nakano-kai broke from Yamaguchi-gumi in a violent attack, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": "July 1997",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nakano-kai&oldid=1182749056"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Nakano-kai&oldid=1182749056",
+  "source_file": "en_Nakano-kai"
+}

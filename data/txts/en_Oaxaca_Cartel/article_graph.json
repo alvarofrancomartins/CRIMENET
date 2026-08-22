@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Oaxaca Cartel",
+      "original_text_name": "Oaxaca cartel",
+      "aliases": [
+        "Cártel de Oaxaca",
+        "Díaz-Parada cartel",
+        "Cártel del Istmo"
+      ],
+      "context": "Smaller Mexican drug cartel focused on marijuana and cocaine trafficking, operating in southern Mexico.",
+      "time_period": "1980 - 2011",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Oaxaca_Cartel&oldid=1339085907"
+    },
+    {
+      "standard_name": "Tijuana Cartel",
+      "original_text_name": "Tijuana Cartel",
+      "aliases": [],
+      "context": "Mexican drug cartel that the Oaxaca Cartel served and allied with.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Oaxaca_Cartel&oldid=1339085907"
+    },
+    {
+      "standard_name": "Juárez Cartel",
+      "original_text_name": "Juárez Cartel",
+      "aliases": [],
+      "context": "Mexican drug cartel listed as an ally of the Oaxaca Cartel in the infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Oaxaca_Cartel&oldid=1339085907"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Oaxaca Cartel",
+      "target": "Tijuana Cartel",
+      "evidence_quote": "The Oaxaca cartel ... was one of the smaller drug cartels operating in Mexico and at the service of the Tijuana Cartel",
+      "context": "The Oaxaca Cartel operated at the service of the Tijuana Cartel, indicating a subordinate cooperation.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Oaxaca_Cartel&oldid=1339085907"
+    },
+    {
+      "source": "Oaxaca Cartel",
+      "target": "Tijuana Cartel",
+      "evidence_quote": "The Oaxaca cartel reportedly joined forces with the Tijuana Cartel in 2003",
+      "context": "The Oaxaca Cartel joined forces with the Tijuana Cartel in 2003, a cooperative alliance.",
+      "relationship": "cooperation",
+      "time_period": "2003",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Oaxaca_Cartel&oldid=1339085907"
+    },
+    {
+      "source": "Oaxaca Cartel",
+      "target": "Juárez Cartel",
+      "evidence_quote": "Allies: Tijuana Cartel , Juárez Cartel",
+      "context": "The infobox lists the Juárez Cartel as an ally of the Oaxaca Cartel.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Oaxaca_Cartel&oldid=1339085907"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Oaxaca_Cartel&oldid=1339085907",
+  "source_file": "en_Oaxaca_Cartel"
+}

@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Grady Gang",
+      "original_text_name": "Grady Gang",
+      "aliases": [],
+      "context": "New York City sneak thief gang during the 1860s, organized by fence John D. Grady.",
+      "time_period": "1860s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grady_Gang&oldid=1333424089"
+    },
+    {
+      "standard_name": "Marm Mandelbaum's Gang",
+      "original_text_name": "Marm Mandelbaum who had formed a gang of her own",
+      "aliases": [],
+      "context": "Rival gang formed by fence Marm Mandelbaum, competing with Grady Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grady_Gang&oldid=1333424089"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Grady Gang",
+      "target": "Marm Mandelbaum's Gang",
+      "evidence_quote": "Later, he competed against rival fence Marm Mandelbaum who had formed a gang of her own.",
+      "context": "Grady Gang competed against Marm Mandelbaum's gang as rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grady_Gang&oldid=1333424089"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Grady_Gang&oldid=1333424089",
+  "source_file": "en_Grady_Gang"
+}

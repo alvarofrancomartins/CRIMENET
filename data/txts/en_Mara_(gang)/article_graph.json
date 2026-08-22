@@ -1,0 +1,64 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Mara Salvatrucha",
+      "original_text_name": "Mara Salvatrucha",
+      "aliases": [
+        "MS-13"
+      ],
+      "context": "International criminal gang founded in Los Angeles in the 1980s by Salvadoran migrants.",
+      "time_period": "second half of the 1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mara_%28gang%29&oldid=1338943612"
+    },
+    {
+      "standard_name": "18th Street Gang",
+      "original_text_name": "18th Street",
+      "aliases": [
+        "M-18",
+        "Calle 18"
+      ],
+      "context": "Transnational criminal organization formed in the 1960s by mainly Mexican immigrants.",
+      "time_period": "1960s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mara_%28gang%29&oldid=1338943612"
+    },
+    {
+      "standard_name": "Sombra Negra",
+      "original_text_name": "Sombra Negra",
+      "aliases": [],
+      "context": "Death squad that hunted maras.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mara_%28gang%29&oldid=1338943612"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Mara Salvatrucha",
+      "target": "18th Street Gang",
+      "evidence_quote": "Mara Salvatrucha members compete with the earlier existing M-18.",
+      "context": "Mara Salvatrucha and 18th Street are rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mara_%28gang%29&oldid=1338943612"
+    },
+    {
+      "source": "Mara Salvatrucha",
+      "target": "Sombra Negra",
+      "evidence_quote": "Maras were hunted by death squads including Sombra Negra.",
+      "context": "Sombra Negra hunted maras, including Mara Salvatrucha.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mara_%28gang%29&oldid=1338943612"
+    },
+    {
+      "source": "18th Street Gang",
+      "target": "Sombra Negra",
+      "evidence_quote": "Maras were hunted by death squads including Sombra Negra.",
+      "context": "Sombra Negra hunted maras, including 18th Street.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Mara_%28gang%29&oldid=1338943612"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Mara_%28gang%29&oldid=1338943612",
+  "source_file": "en_Mara_(gang)"
+}

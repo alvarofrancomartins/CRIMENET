@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Dead Man Incorporated",
+      "original_text_name": "Dead Man Inc.",
+      "aliases": [
+        "DMI"
+      ],
+      "context": "Predominantly white organized crime enterprise founded in prison, active in Maryland and other states.",
+      "time_period": "2000–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dead_Man_Incorporated&oldid=1352843894"
+    },
+    {
+      "standard_name": "Black Guerrilla Family",
+      "original_text_name": "Black Guerrilla Family",
+      "aliases": [
+        "BGF"
+      ],
+      "context": "Prison gang that gave permission for DMI to form and initially employed DMI for services.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dead_Man_Incorporated&oldid=1352843894"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Dead Man Incorporated",
+      "target": "Black Guerrilla Family",
+      "evidence_quote": "Roark was a close associate of the Black Guerrilla Family and received permission from them to start an organization to unite white inmates in the system.",
+      "context": "DMI was founded with permission from BGF and initially worked for BGF.",
+      "relationship": "cooperation",
+      "time_period": "late 1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dead_Man_Incorporated&oldid=1352843894"
+    },
+    {
+      "source": "Dead Man Incorporated",
+      "target": "Black Guerrilla Family",
+      "evidence_quote": "Initially, DMI worked for the BGF, but soon began offering those services to other gangs by targeting rivals and correctional staff.",
+      "context": "DMI initially worked for BGF, indicating a cooperative relationship.",
+      "relationship": "cooperation",
+      "time_period": "late 1990s–early 2000s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dead_Man_Incorporated&oldid=1352843894"
+    },
+    {
+      "source": "Dead Man Incorporated",
+      "target": "Black Guerrilla Family",
+      "evidence_quote": "Allies: Black Guerrilla Family",
+      "context": "Infobox lists BGF as an ally of DMI.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dead_Man_Incorporated&oldid=1352843894"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Dead_Man_Incorporated&oldid=1352843894",
+  "source_file": "en_Dead_Man_Incorporated"
+}

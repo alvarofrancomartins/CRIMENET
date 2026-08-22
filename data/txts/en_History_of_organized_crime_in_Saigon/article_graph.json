@@ -1,0 +1,94 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bình Xuyên",
+      "original_text_name": "Bình Xuyên",
+      "aliases": [
+        "QDQG Bình Xuyên"
+      ],
+      "context": "Vietnamese criminal organization that started as river pirates in the 1920s, later became a military force and dominated opium distribution in Southern Vietnam.",
+      "time_period": "1920s-1954",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_organized_crime_in_Saigon&oldid=1256307087"
+    },
+    {
+      "standard_name": "Macanese organized crime groups",
+      "original_text_name": "Macanese organized crime groups",
+      "aliases": [],
+      "context": "Criminal groups from Macau that ran casinos in Saigon before being forcibly taken over by Bảy Viễn.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_organized_crime_in_Saigon&oldid=1256307087"
+    },
+    {
+      "standard_name": "Hồng Môn",
+      "original_text_name": "Hồng Môn",
+      "aliases": [],
+      "context": "Chinese triad operating in Chợ Lớn, Saigon, during the 1960s. Tín Mã Nàm was the second highest-ranking member.",
+      "time_period": "1960s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_organized_crime_in_Saigon&oldid=1256307087"
+    },
+    {
+      "standard_name": "Đại Cathay's gang",
+      "original_text_name": "Đại Cathay's gang",
+      "aliases": [],
+      "context": "Criminal group led by Đại Cathay, one of the Four Great Kings of Saigon in the 1960s, involved in prostitution, nightclubs, drug dens, and casinos.",
+      "time_period": "1960s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_organized_crime_in_Saigon&oldid=1256307087"
+    },
+    {
+      "standard_name": "Tín Mã Nàm's gang",
+      "original_text_name": "Tín Mã Nàm's gang",
+      "aliases": [],
+      "context": "Criminal group led by Tín Mã Nàm, a Chinese crime boss and triad member in Chợ Lớn during the 1960s.",
+      "time_period": "1960s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_organized_crime_in_Saigon&oldid=1256307087"
+    },
+    {
+      "standard_name": "Năm Cam's organization",
+      "original_text_name": "Năm Cam's organization",
+      "aliases": [],
+      "context": "Criminal organization led by Năm Cam, dominant in Saigon during the 1990s, involved in illegal gambling and bribery.",
+      "time_period": "1990s-2003",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_organized_crime_in_Saigon&oldid=1256307087"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bình Xuyên",
+      "target": "Macanese organized crime groups",
+      "evidence_quote": "Bảy Viễn forcibly took control of the casinos from Macanese organized crime groups.",
+      "context": "Bình Xuyên forcibly took over casinos from Macanese groups.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_organized_crime_in_Saigon&oldid=1256307087"
+    },
+    {
+      "source": "Đại Cathay's gang",
+      "target": "Tín Mã Nàm's gang",
+      "evidence_quote": "In 1964, a bloody gang battle ensued between the two gangs when Đại and his followers attacked the Great World quarters of Chợ Lớn with knives, swords, and bayonets.",
+      "context": "Đại Cathay's gang fought a gang war with Tín Mã Nàm's gang in 1964.",
+      "relationship": "conflict",
+      "time_period": "1964",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_organized_crime_in_Saigon&oldid=1256307087"
+    },
+    {
+      "source": "Đại Cathay's gang",
+      "target": "Tín Mã Nàm's gang",
+      "evidence_quote": "Tín Mã Nàm was then forced to call for a negotiation with Đại, where he and many of the Chinese gangs in Chợ Lớn decided to give up away the areas between Nancy market and District 1 to Đại Cathay's gang.",
+      "context": "After the conflict, Tín Mã Nàm negotiated and ceded territory to Đại Cathay.",
+      "relationship": "other",
+      "time_period": "1964",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_organized_crime_in_Saigon&oldid=1256307087"
+    },
+    {
+      "source": "Năm Cam's organization",
+      "target": "Đại Cathay's gang",
+      "evidence_quote": "Đại Cathay would go on to leave a lasting mark on Năm Cam, a mobster who would go on to later build his own fiefdom in Saigon during the 90s, and he did it mainly through his casino business, a method which he learned during his time of following Đại Cathay.",
+      "context": "Năm Cam learned casino business methods from Đại Cathay, indicating a mentorship or influence relationship.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_organized_crime_in_Saigon&oldid=1256307087"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_organized_crime_in_Saigon&oldid=1256307087",
+  "source_file": "en_History_of_organized_crime_in_Saigon"
+}

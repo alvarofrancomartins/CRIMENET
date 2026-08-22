@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Maceo Organization",
+      "original_text_name": "Maceo Organization",
+      "aliases": [
+        "Maceo Syndicate"
+      ],
+      "context": "Criminal organization that ran Galveston, Texas politically and criminally during its open era.",
+      "time_period": "c. 1920s-1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Maceo_Organization&oldid=1356793310"
+    },
+    {
+      "standard_name": "Beach Gang",
+      "original_text_name": "Beach Gang",
+      "aliases": [],
+      "context": "Gang controlled by Ollie Quinn and Dutch Voight, active in Galveston's Beach area in the 1910s-1920s.",
+      "time_period": "1910s-1920s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Maceo_Organization&oldid=1356793310"
+    },
+    {
+      "standard_name": "Downtown Gang",
+      "original_text_name": "Downtown Gang",
+      "aliases": [],
+      "context": "Rival gang led by Johnny Jack Nounes and George Musey in Galveston.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Maceo_Organization&oldid=1356793310"
+    },
+    {
+      "standard_name": "Fertitta Group",
+      "original_text_name": "Fertitta Group",
+      "aliases": [
+        "Fertitta Organization"
+      ],
+      "context": "Successor organization to the Maceo Organization, moved operations to Las Vegas.",
+      "time_period": "c. 1954-1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Maceo_Organization&oldid=1356793310"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Maceo Organization",
+      "target": "Beach Gang",
+      "evidence_quote": "Allies: Beach Gang",
+      "context": "The Maceo Organization evolved from the Beach Gang, with Quinn and Voight becoming partners.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Maceo_Organization&oldid=1356793310"
+    },
+    {
+      "source": "Maceo Organization",
+      "target": "Downtown Gang",
+      "evidence_quote": "Rivals: Downtown Gang",
+      "context": "The Maceo Organization was a rival of the Downtown Gang.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Maceo_Organization&oldid=1356793310"
+    },
+    {
+      "source": "Maceo Organization",
+      "target": "Fertitta Group",
+      "evidence_quote": "After Sam and Rose's deaths in the early 1950s, the brothers were succeeded by the Fertitta Group",
+      "context": "The Fertitta Group succeeded the Maceo Organization after the Maceo brothers' deaths.",
+      "relationship": "other",
+      "time_period": "early 1950s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Maceo_Organization&oldid=1356793310"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Maceo_Organization&oldid=1356793310",
+  "source_file": "en_Maceo_Organization"
+}

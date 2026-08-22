@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Shinwa-kai",
+      "original_text_name": "Shinwa-kai",
+      "aliases": [
+        "Takamatsu Shinwa-kai"
+      ],
+      "context": "Yakuza group based in Takamatsu, Kagawa, Japan, with about 30 active members.",
+      "time_period": "1971-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Shinwa-kai&oldid=1149700324"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Designated yakuza syndicate active in Kagawa Prefecture.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Shinwa-kai&oldid=1149700324"
+    },
+    {
+      "standard_name": "Sumiyoshi-kai",
+      "original_text_name": "Sumiyoshi-kai",
+      "aliases": [],
+      "context": "Designated yakuza syndicate active in Kagawa Prefecture.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Shinwa-kai&oldid=1149700324"
+    },
+    {
+      "standard_name": "Kyodo-kai",
+      "original_text_name": "Kyodo-kai",
+      "aliases": [],
+      "context": "Designated yakuza syndicate active in Kagawa Prefecture and member of Gosha-kai.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Shinwa-kai&oldid=1149700324"
+    },
+    {
+      "standard_name": "Gosha-kai",
+      "original_text_name": "Gosha-kai",
+      "aliases": [],
+      "context": "Anti-Yamaguchi federation formed in 1996, including Shinwa-kai and four Chugoku-based organizations.",
+      "time_period": "1996-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Shinwa-kai&oldid=1149700324"
+    },
+    {
+      "standard_name": "Kyosei-kai",
+      "original_text_name": "Kyosei-kai",
+      "aliases": [],
+      "context": "Chugoku-based yakuza organization, member of Gosha-kai.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Shinwa-kai&oldid=1149700324"
+    },
+    {
+      "standard_name": "Goda-ikka",
+      "original_text_name": "Goda-ikka",
+      "aliases": [],
+      "context": "Chugoku-based yakuza organization, member of Gosha-kai.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Shinwa-kai&oldid=1149700324"
+    },
+    {
+      "standard_name": "Asano-gumi",
+      "original_text_name": "Asano-gumi",
+      "aliases": [],
+      "context": "Chugoku-based yakuza organization, member of Gosha-kai.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Shinwa-kai&oldid=1149700324"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Shinwa-kai",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "Since 1996, the Shinwa-kai has been a member of an anti- Yamaguchi federation named the Gosha-kai",
+      "context": "Shinwa-kai is part of an anti-Yamaguchi federation, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": "1996-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Shinwa-kai&oldid=1149700324"
+    },
+    {
+      "source": "Shinwa-kai",
+      "target": "Gosha-kai",
+      "evidence_quote": "Since 1996, the Shinwa-kai has been a member of an anti- Yamaguchi federation named the Gosha-kai, along with four Chugoku -based organizations, the Kyosei-kai , the Kyodo-kai , the Goda-ikka , and the Asano-gumi .",
+      "context": "Shinwa-kai is a member of the Gosha-kai federation.",
+      "relationship": "other",
+      "time_period": "1996-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Shinwa-kai&oldid=1149700324"
+    },
+    {
+      "source": "Shinwa-kai",
+      "target": "Kyosei-kai",
+      "evidence_quote": "Since 1996, the Shinwa-kai has been a member of an anti- Yamaguchi federation named the Gosha-kai, along with four Chugoku -based organizations, the Kyosei-kai , the Kyodo-kai , the Goda-ikka , and the Asano-gumi .",
+      "context": "Shinwa-kai and Kyosei-kai are both members of the Gosha-kai federation.",
+      "relationship": "cooperation",
+      "time_period": "1996-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Shinwa-kai&oldid=1149700324"
+    },
+    {
+      "source": "Shinwa-kai",
+      "target": "Kyodo-kai",
+      "evidence_quote": "Since 1996, the Shinwa-kai has been a member of an anti- Yamaguchi federation named the Gosha-kai, along with four Chugoku -based organizations, the Kyosei-kai , the Kyodo-kai , the Goda-ikka , and the Asano-gumi .",
+      "context": "Shinwa-kai and Kyodo-kai are both members of the Gosha-kai federation.",
+      "relationship": "cooperation",
+      "time_period": "1996-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Shinwa-kai&oldid=1149700324"
+    },
+    {
+      "source": "Shinwa-kai",
+      "target": "Goda-ikka",
+      "evidence_quote": "Since 1996, the Shinwa-kai has been a member of an anti- Yamaguchi federation named the Gosha-kai, along with four Chugoku -based organizations, the Kyosei-kai , the Kyodo-kai , the Goda-ikka , and the Asano-gumi .",
+      "context": "Shinwa-kai and Goda-ikka are both members of the Gosha-kai federation.",
+      "relationship": "cooperation",
+      "time_period": "1996-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Shinwa-kai&oldid=1149700324"
+    },
+    {
+      "source": "Shinwa-kai",
+      "target": "Asano-gumi",
+      "evidence_quote": "Since 1996, the Shinwa-kai has been a member of an anti- Yamaguchi federation named the Gosha-kai, along with four Chugoku -based organizations, the Kyosei-kai , the Kyodo-kai , the Goda-ikka , and the Asano-gumi .",
+      "context": "Shinwa-kai and Asano-gumi are both members of the Gosha-kai federation.",
+      "relationship": "cooperation",
+      "time_period": "1996-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Shinwa-kai&oldid=1149700324"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Shinwa-kai&oldid=1149700324",
+  "source_file": "en_Shinwa-kai"
+}

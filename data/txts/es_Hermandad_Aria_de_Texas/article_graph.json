@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Aryan Brotherhood of Texas",
+      "original_text_name": "Hermandad Aria de Texas",
+      "aliases": [
+        "ABT",
+        "Texas Aryan Brotherhood - Church of Aryan Christian Heritage",
+        "TAB-COACH"
+      ],
+      "context": "White supremacist prison gang operating in Texas prisons, one of the largest and most violent prison gangs in the US.",
+      "time_period": "1981-present",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Hermandad_Aria_de_Texas&oldid=169020118"
+    },
+    {
+      "standard_name": "Aryan Brotherhood",
+      "original_text_name": "Hermandad aria",
+      "aliases": [
+        "AB"
+      ],
+      "context": "Notorious prison gang and crime syndicate founded in California in the 1960s, with branches in federal and state prisons.",
+      "time_period": "1960s",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Hermandad_Aria_de_Texas&oldid=169020118"
+    },
+    {
+      "standard_name": "Aryan Circle",
+      "original_text_name": "Círculo Ario",
+      "aliases": [
+        "AC"
+      ],
+      "context": "Rival prison gang formed by those who did not join the ABT merger.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Hermandad_Aria_de_Texas&oldid=169020118"
+    },
+    {
+      "standard_name": "Mandingo Warriors",
+      "original_text_name": "Mandingo Warriors",
+      "aliases": [],
+      "context": "Black prison gang that was attacked by ABT.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Hermandad_Aria_de_Texas&oldid=169020118"
+    },
+    {
+      "standard_name": "Mexican Mafia",
+      "original_text_name": "Mafia mexicana",
+      "aliases": [],
+      "context": "Prison gang that had peace treaties with ABT.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Hermandad_Aria_de_Texas&oldid=169020118"
+    },
+    {
+      "standard_name": "Texas Syndicate",
+      "original_text_name": "Mafia Texana",
+      "aliases": [
+        "TM"
+      ],
+      "context": "Prison gang that was 'stationed' after wars with ABT.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Hermandad_Aria_de_Texas&oldid=169020118"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Cártel del Golfo",
+      "aliases": [],
+      "context": "Drug cartel allied with ABT according to infobox.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Hermandad_Aria_de_Texas&oldid=169020118"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Aryan Brotherhood of Texas",
+      "target": "Aryan Brotherhood",
+      "evidence_quote": "A pesar de la semejanza en sus nombres, la Hermandad Aria de Texas no está relacionada con el grupo homónimo (AB por sus siglas en inglés)",
+      "context": "The text states ABT is not related to AB, despite name similarity.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Hermandad_Aria_de_Texas&oldid=169020118"
+    },
+    {
+      "source": "Aryan Brotherhood of Texas",
+      "target": "Aryan Circle",
+      "evidence_quote": "El Círculo Ario fue la siguiente gran guerra, que duró aproximadamente 8 años (1986-1994).",
+      "context": "ABT and AC were at war from 1986 to 1994, and again later.",
+      "relationship": "conflict",
+      "time_period": "1986-1994",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Hermandad_Aria_de_Texas&oldid=169020118"
+    },
+    {
+      "source": "Aryan Brotherhood of Texas",
+      "target": "Mandingo Warriors",
+      "evidence_quote": "La primera guerra de la ABT fue con la pandilla negra Mandingo Warriors, quienes fueron atacados hasta el punto de casi exterminarlos dentro del sistema penitenciario.",
+      "context": "ABT attacked Mandingo Warriors nearly to extinction.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Hermandad_Aria_de_Texas&oldid=169020118"
+    },
+    {
+      "source": "Aryan Brotherhood of Texas",
+      "target": "Mexican Mafia",
+      "evidence_quote": "la Mafia mexicana y el Círculo Ario tuvieron \"tratados de paz\" de ellos a principios de la década de 1990.",
+      "context": "ABT had peace treaties with Mexican Mafia in early 1990s.",
+      "relationship": "cooperation",
+      "time_period": "early 1990s",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Hermandad_Aria_de_Texas&oldid=169020118"
+    },
+    {
+      "source": "Aryan Brotherhood of Texas",
+      "target": "Texas Syndicate",
+      "evidence_quote": "La Mafia Texana (TM) estuvo «estacionada» en todo el sistema, lo que significa que ya no se les permitía reclutar miembros, después de las guerras ABT-TM en 1995 a 1996.",
+      "context": "ABT fought wars with Texas Syndicate in 1995-1996, resulting in TM being 'stationed'.",
+      "relationship": "conflict",
+      "time_period": "1995-1996",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Hermandad_Aria_de_Texas&oldid=169020118"
+    },
+    {
+      "source": "Aryan Brotherhood of Texas",
+      "target": "Gulf Cartel",
+      "evidence_quote": "Aliados: Cártel del Golfo",
+      "context": "Infobox lists Gulf Cartel as an ally of ABT.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Hermandad_Aria_de_Texas&oldid=169020118"
+    },
+    {
+      "source": "Aryan Brotherhood of Texas",
+      "target": "Aryan Circle",
+      "evidence_quote": "Enemigos: Círculo Ario",
+      "context": "Infobox lists Aryan Circle as an enemy of ABT.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Hermandad_Aria_de_Texas&oldid=169020118"
+    },
+    {
+      "source": "Aryan Brotherhood of Texas",
+      "target": "Aryan Brotherhood",
+      "evidence_quote": "Enemigos: Hermandad Aria",
+      "context": "Infobox lists Aryan Brotherhood as an enemy of ABT.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Hermandad_Aria_de_Texas&oldid=169020118"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Hermandad_Aria_de_Texas&oldid=169020118",
+  "source_file": "es_Hermandad_Aria_de_Texas"
+}

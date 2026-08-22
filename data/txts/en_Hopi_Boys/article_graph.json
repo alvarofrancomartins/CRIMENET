@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hopi Boys",
+      "original_text_name": "Hopi Boys",
+      "aliases": [],
+      "context": "Afro-Curaçaoan criminal group from Amsterdam, influential in the Dutch capital, involved in racket, drug dealing, prostitution.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hopi_Boys&oldid=1359553634"
+    },
+    {
+      "standard_name": "Green Gang",
+      "original_text_name": "Green gang",
+      "aliases": [],
+      "context": "Criminal organization listed as an ally of the Hopi Boys.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hopi_Boys&oldid=1359553634"
+    },
+    {
+      "standard_name": "Kloekhorststraat Gang",
+      "original_text_name": "Kloekhorststraat Gang",
+      "aliases": [],
+      "context": "Criminal organization listed as a rival of the Hopi Boys.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hopi_Boys&oldid=1359553634"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hopi Boys",
+      "target": "Green Gang",
+      "evidence_quote": "Allies: Green gang",
+      "context": "The Hopi Boys are allied with the Green Gang.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hopi_Boys&oldid=1359553634"
+    },
+    {
+      "source": "Hopi Boys",
+      "target": "Kloekhorststraat Gang",
+      "evidence_quote": "Rivals: Kloekhorststraat Gang",
+      "context": "The Hopi Boys are rivals with the Kloekhorststraat Gang.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hopi_Boys&oldid=1359553634"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Hopi_Boys&oldid=1359553634",
+  "source_file": "en_Hopi_Boys"
+}

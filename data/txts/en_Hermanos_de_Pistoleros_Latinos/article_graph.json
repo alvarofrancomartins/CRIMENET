@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hermanos de Pistoleros Latinos",
+      "original_text_name": "Hermanos Pistoleros Latinos",
+      "aliases": [
+        "HPL",
+        "Hermanos Pistoleros Latinos",
+        "Brotherhood of Latin Gunmen"
+      ],
+      "context": "Mexican American prison gang founded in early 1980s in Texas, active in Texas prisons and Mexico, involved in drug trafficking.",
+      "time_period": "1980s–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hermanos_de_Pistoleros_Latinos&oldid=1326819040"
+    },
+    {
+      "standard_name": "HPL 45s",
+      "original_text_name": "HPL 45s",
+      "aliases": [],
+      "context": "Splinter faction of HPL consisting of original members from the Rio Grande Valley.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hermanos_de_Pistoleros_Latinos&oldid=1326819040"
+    },
+    {
+      "standard_name": "16/12s",
+      "original_text_name": "16/12s",
+      "aliases": [],
+      "context": "Splinter faction of HPL consisting of members from San Antonio and Houston.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hermanos_de_Pistoleros_Latinos&oldid=1326819040"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hermanos de Pistoleros Latinos",
+      "target": "HPL 45s",
+      "evidence_quote": "The original HPL members decided to call themselves the HPL 45s, while the San Antonio and Houston members were known as the 16/12s.",
+      "context": "HPL 45s is a splinter faction of HPL.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hermanos_de_Pistoleros_Latinos&oldid=1326819040"
+    },
+    {
+      "source": "Hermanos de Pistoleros Latinos",
+      "target": "16/12s",
+      "evidence_quote": "The original HPL members decided to call themselves the HPL 45s, while the San Antonio and Houston members were known as the 16/12s.",
+      "context": "16/12s is a splinter faction of HPL.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hermanos_de_Pistoleros_Latinos&oldid=1326819040"
+    },
+    {
+      "source": "HPL 45s",
+      "target": "16/12s",
+      "evidence_quote": "The two factions went to war and finally reunited under the name HPL in 1998.",
+      "context": "HPL 45s and 16/12s were in conflict with each other.",
+      "relationship": "conflict",
+      "time_period": "until 1998",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hermanos_de_Pistoleros_Latinos&oldid=1326819040"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Hermanos_de_Pistoleros_Latinos&oldid=1326819040",
+  "source_file": "en_Hermanos_de_Pistoleros_Latinos"
+}

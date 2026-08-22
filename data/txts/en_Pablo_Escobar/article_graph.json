@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [],
+      "context": "Colombian drug cartel founded by Pablo Escobar, monopolized cocaine trade to the US in the 1980s and early 1990s.",
+      "time_period": "1976-1993",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali Cartel",
+      "aliases": [],
+      "context": "Rival Colombian drug cartel that dominated the cocaine market after Escobar's death.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "standard_name": "National Liberation Army",
+      "original_text_name": "National Liberation Army (ELN)",
+      "aliases": [
+        "ELN"
+      ],
+      "context": "Colombian left-wing guerrilla group hired by Escobar to carry out bombings and assassinations.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "standard_name": "Los Extraditables",
+      "original_text_name": "Los Extraditable Organization",
+      "aliases": [
+        "Los Extraditables"
+      ],
+      "context": "Organization founded by Escobar to fight extradition policy, accused of supporting the Palace of Justice siege.",
+      "time_period": "mid-1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [],
+      "context": "Colombian drug cartel founded by Pablo Escobar, monopolized cocaine trade to the US in the 1980s and early 1990s.",
+      "time_period": "1976-1993",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "standard_name": "M-19",
+      "original_text_name": "M-19",
+      "aliases": [],
+      "context": "Colombian guerrilla group that carried out the 1985 Palace of Justice siege, financed by Escobar.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali Cartel",
+      "aliases": [],
+      "context": "Colombian drug cartel, rival of the Medellín Cartel, involved in conflict with Escobar.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "standard_name": "Los Pepes",
+      "original_text_name": "Los Pepes",
+      "aliases": [],
+      "context": "Group that helped hunt Escobar, mentioned in the context of his death.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [
+        "Medellín Cartel"
+      ],
+      "context": "Colombian drug cartel founded by Pablo Escobar, monopolized cocaine trade to the US in the 1980s and early 1990s.",
+      "time_period": "1976-1993",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali Cartel",
+      "aliases": [],
+      "context": "Colombian drug cartel that contracted mercenaries to assassinate Pablo Escobar in 1989.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "standard_name": "Cartel del Sur",
+      "original_text_name": "Cartel del Sur",
+      "aliases": [],
+      "context": "Rival cartel depicted in the TV series El cartel, whose hitmen kill Escobar.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Medellín Cartel",
+      "target": "Cali Cartel",
+      "evidence_quote": "He quickly became one of the richest people in the world, but constantly battled rival cartels domestically and abroad",
+      "context": "The Medellín Cartel battled rival cartels, including the Cali Cartel.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "source": "Medellín Cartel",
+      "target": "National Liberation Army",
+      "evidence_quote": "Escobar also maintained relations with the Sandinista government in Nicaragua and hired the National Liberation Army (ELN) to carry out bombings and assassinations against government targets.",
+      "context": "Escobar hired the ELN to carry out bombings and assassinations.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "source": "Medellín Cartel",
+      "target": "Los Extraditables",
+      "evidence_quote": "Escobar subsequently founded and implicitly supported the Los Extraditable Organization, which aims to fight the extradition policy.",
+      "context": "Escobar founded and supported Los Extraditables to fight extradition.",
+      "relationship": "other",
+      "time_period": "mid-1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "source": "Medellín Cartel",
+      "target": "M-19",
+      "evidence_quote": "She stated that Escobar had financed the operation, which was committed by M-19",
+      "context": "Escobar financed the 1985 Palace of Justice siege carried out by M-19.",
+      "relationship": "cooperation",
+      "time_period": "1985",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "source": "Medellín Cartel",
+      "target": "Cali Cartel",
+      "evidence_quote": "Members of the Cali Cartel even replayed their recordings of her conversations with Pablo for their wives to demonstrate how a woman should behave.",
+      "context": "Cali Cartel had recordings of Escobar's wife and demanded reparations for Escobar's war against them.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "source": "Medellín Cartel",
+      "target": "Cali Cartel",
+      "evidence_quote": "The building was initially built for Escobar's wife but was gutted by a Cali Cartel car bomb in 1988",
+      "context": "Cali Cartel bombed Escobar's apartment building in 1988.",
+      "relationship": "conflict",
+      "time_period": "1988",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "source": "Medellín Cartel",
+      "target": "Cali Cartel",
+      "evidence_quote": "Killing Escobar was a documentary televised in the UK in 2021. It concerned a failed attempt by mercenaries, contracted by the Cali Cartel and led by Peter McAleese, to assassinate Escobar in 1989.",
+      "context": "The Cali Cartel contracted mercenaries to assassinate Pablo Escobar, leader of the Medellín Cartel.",
+      "relationship": "conflict",
+      "time_period": "1989",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    },
+    {
+      "source": "Medellín Cartel",
+      "target": "Cartel del Sur",
+      "evidence_quote": "Caracol TV produced a television series, El cartel (The Cartel), which began airing on 4 June 2008 where Escobar is portrayed by an unknown model when he is shot down by Cartel del Sur's hitmen.",
+      "context": "In the TV series El cartel, Escobar is killed by hitmen from Cartel del Sur, indicating a conflict between the Medellín Cartel and Cartel del Sur.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Pablo_Escobar&oldid=1358962398",
+  "source_file": "en_Pablo_Escobar"
+}

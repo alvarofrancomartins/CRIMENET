@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Tonton Macoute",
+      "original_text_name": "Tonton Macoute",
+      "aliases": [
+        "Macoute",
+        "Volontaires de la Sécurité Nationale",
+        "VSN",
+        "National Security Volunteers"
+      ],
+      "context": "Haitian paramilitary and secret police force during the Duvalier family rule, known for brutality and state terrorism.",
+      "time_period": "1959-1986",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Tonton_Macoute&oldid=1359160253"
+    },
+    {
+      "standard_name": "Cagoulards",
+      "original_text_name": "Cagoulards",
+      "aliases": [],
+      "context": "Earlier name for the paramilitary force created by Duvalier in 1959.",
+      "time_period": "1959",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Tonton_Macoute&oldid=1359160253"
+    },
+    {
+      "standard_name": "Milice Civile",
+      "original_text_name": "Milice Civile",
+      "aliases": [],
+      "context": "Another name for the paramilitary force after Cagoulards.",
+      "time_period": "1959-1962",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Tonton_Macoute&oldid=1359160253"
+    },
+    {
+      "standard_name": "Front for the Advancement and Progress of Haïti",
+      "original_text_name": "Front for the Advancement and Progress of Haïti",
+      "aliases": [
+        "FRAPH"
+      ],
+      "context": "Paramilitary group spawned from the Macoutes, active in the 1990s.",
+      "time_period": "1990s-1994",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Tonton_Macoute&oldid=1359160253"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Tonton Macoute",
+      "target": "Cagoulards",
+      "evidence_quote": "In 1959, his paramilitary force was called the Cagoulards (\"Hooded Men\"). They were renamed to Milice Civile (Civilian Militia) and, after 1962, Volontaires de la Sécurité Nationale (National Security Volunteers, or VSN).",
+      "context": "Cagoulards was a predecessor name for the same paramilitary force that became Tonton Macoute.",
+      "relationship": "other",
+      "time_period": "1959",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Tonton_Macoute&oldid=1359160253"
+    },
+    {
+      "source": "Tonton Macoute",
+      "target": "Milice Civile",
+      "evidence_quote": "In 1959, his paramilitary force was called the Cagoulards (\"Hooded Men\"). They were renamed to Milice Civile (Civilian Militia) and, after 1962, Volontaires de la Sécurité Nationale (National Security Volunteers, or VSN).",
+      "context": "Milice Civile was a predecessor name for the same paramilitary force that became Tonton Macoute.",
+      "relationship": "other",
+      "time_period": "1959-1962",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Tonton_Macoute&oldid=1359160253"
+    },
+    {
+      "source": "Tonton Macoute",
+      "target": "Front for the Advancement and Progress of Haïti",
+      "evidence_quote": "The most feared paramilitary group during the 1990s was the Front for the Advancement and Progress of Haïti (FRAPH), which Toronto Star journalist Linda Diebel described as modern Tonton Macoutes, and not the legitimate political party it claimed to be.",
+      "context": "FRAPH was a paramilitary group spawned from the Macoutes, described as modern Tonton Macoutes.",
+      "relationship": "other",
+      "time_period": "1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Tonton_Macoute&oldid=1359160253"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Tonton_Macoute&oldid=1359160253",
+  "source_file": "en_Tonton_Macoute"
+}

@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "standard_name": "'Ndrina Belfiore",
+      "original_text_name": "'ndrina Belfiore",
+      "aliases": [
+        "Belfiore",
+        "clan Belfiore"
+      ],
+      "context": "Calabrian criminal organization based in Gioiosa Ionica with operations in Turin, France, and Spain.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belfiore&oldid=150443414"
+    },
+    {
+      "standard_name": "Ursino-Macrì",
+      "original_text_name": "Ursino -Macrì",
+      "aliases": [
+        "Ursino",
+        "Macrì"
+      ],
+      "context": "Criminal organization allied with 'Ndrina Belfiore in Turin.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belfiore&oldid=150443414"
+    },
+    {
+      "standard_name": "'Ndrina Piromalli",
+      "original_text_name": "Piromalli",
+      "aliases": [],
+      "context": "Calabrian 'ndrina involved in drug trafficking with Belfiore.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belfiore&oldid=150443414"
+    }
+  ],
+  "edges": [
+    {
+      "source": "'Ndrina Belfiore",
+      "target": "Ursino-Macrì",
+      "evidence_quote": "A Torino stringono alleanze con gli Ursino -Macrì.",
+      "context": "Belfiore forms alliances with Ursino-Macrì in Turin.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belfiore&oldid=150443414"
+    },
+    {
+      "source": "'Ndrina Belfiore",
+      "target": "Ursino-Macrì",
+      "evidence_quote": "Il 26 giugno 1983 fanno uccidere insieme agli Ursino a Torino il magistrato Bruno Caccia.",
+      "context": "Belfiore and Ursino jointly ordered the murder of magistrate Bruno Caccia.",
+      "relationship": "cooperation",
+      "time_period": "1983",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belfiore&oldid=150443414"
+    },
+    {
+      "source": "'Ndrina Belfiore",
+      "target": "'Ndrina Piromalli",
+      "evidence_quote": "Nel 1994 vengono sequestrati dal distretto antimafia di Torino 5 tonnellate di droga alla cosca dei Piromalli e dei Belfiore",
+      "context": "Belfiore and Piromalli were jointly involved in a drug trafficking operation.",
+      "relationship": "cooperation",
+      "time_period": "1994",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belfiore&oldid=150443414"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belfiore&oldid=150443414",
+  "source_file": "it_'Ndrina_Belfiore"
+}

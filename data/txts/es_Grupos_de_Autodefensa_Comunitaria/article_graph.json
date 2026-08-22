@@ -1,0 +1,113 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Grupos de Autodefensa Comunitaria",
+      "original_text_name": "Grupos de Autodefensa Comunitaria",
+      "aliases": [
+        "Grupos de Autodefensa",
+        "Guardias Comunitarias",
+        "Autodefensas"
+      ],
+      "context": "Civilian armed groups formed in 2013 to resist Mexican drug cartels in Michoacán, Guerrero, and Jalisco.",
+      "time_period": "2013-presente",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupos_de_Autodefensa_Comunitaria&oldid=173169316"
+    },
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [],
+      "context": "Mexican drug cartel that attacked civilians and was a target of the Autodefensas.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupos_de_Autodefensa_Comunitaria&oldid=173169316"
+    },
+    {
+      "standard_name": "Los Caballeros Templarios",
+      "original_text_name": "Los Caballeros Templarios",
+      "aliases": [
+        "Caballeros Templarios"
+      ],
+      "context": "Mexican drug cartel that committed abuses and was a primary target of the Autodefensas.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupos_de_Autodefensa_Comunitaria&oldid=173169316"
+    },
+    {
+      "standard_name": "Cártel de Jalisco Nueva Generación",
+      "original_text_name": "El Cártel de Jalisco Nueva Generación",
+      "aliases": [
+        "CJNG",
+        "Cartel de Jalisco Nueva Generación"
+      ],
+      "context": "Mexican drug cartel that provided vehicles and weapons to the Autodefensas, and had leaders linked to them.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupos_de_Autodefensa_Comunitaria&oldid=173169316"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "los Zetas",
+      "aliases": [
+        "Zetas"
+      ],
+      "context": "Mexican drug cartel mentioned as having money laundered by companies that paid derecho de piso to Caballeros Templarios.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupos_de_Autodefensa_Comunitaria&oldid=173169316"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Grupos de Autodefensa Comunitaria",
+      "target": "La Familia Michoacana",
+      "evidence_quote": "Los Grupos de Autodefensa o Guardias Comunitarias son un grupo de civiles armados y un movimiento de resistencia contra grupos delictivos, mayoritariamente aguacateros o limoneros que toman las armas para defenderse de los ataques de los cárteles mexicanos, más notablemente La Familia Michoacana",
+      "context": "The Autodefensas formed to resist attacks by La Familia Michoacana.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupos_de_Autodefensa_Comunitaria&oldid=173169316"
+    },
+    {
+      "source": "Grupos de Autodefensa Comunitaria",
+      "target": "Los Caballeros Templarios",
+      "evidence_quote": "Los Grupos de Autodefensa o Guardias Comunitarias son un grupo de civiles armados y un movimiento de resistencia contra grupos delictivos, mayoritariamente aguacateros o limoneros que toman las armas para defenderse de los ataques de los cárteles mexicanos, más notablemente La Familia Michoacana , Los Caballeros Templarios",
+      "context": "The Autodefensas formed to resist attacks by Los Caballeros Templarios.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupos_de_Autodefensa_Comunitaria&oldid=173169316"
+    },
+    {
+      "source": "Grupos de Autodefensa Comunitaria",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "los líderes son vinculados directamente con el Cartel de Jalisco Nueva Generación como Juan José Farías Álvarez",
+      "context": "Leaders of the Autodefensas are directly linked to CJNG.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupos_de_Autodefensa_Comunitaria&oldid=173169316"
+    },
+    {
+      "source": "Grupos de Autodefensa Comunitaria",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "Cuentan con diferentes tipos de vehículos de diferentes marcas y modelos recientes, en su mayoría robadas a Los Caballeros Templarios y proporcionados por el CJNG.",
+      "context": "CJNG provided vehicles to the Autodefensas.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupos_de_Autodefensa_Comunitaria&oldid=173169316"
+    },
+    {
+      "source": "Los Caballeros Templarios",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "el cobro de derecho de piso principalmente a empresas que lavaban dinero de otros carteles como el CJNG y los Zetas",
+      "context": "Caballeros Templarios collected protection fees from companies that laundered money for CJNG.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupos_de_Autodefensa_Comunitaria&oldid=173169316"
+    },
+    {
+      "source": "Los Caballeros Templarios",
+      "target": "Los Zetas",
+      "evidence_quote": "el cobro de derecho de piso principalmente a empresas que lavaban dinero de otros carteles como el CJNG y los Zetas",
+      "context": "Caballeros Templarios collected protection fees from companies that laundered money for Los Zetas.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupos_de_Autodefensa_Comunitaria&oldid=173169316"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Grupos_de_Autodefensa_Comunitaria&oldid=173169316",
+  "source_file": "es_Grupos_de_Autodefensa_Comunitaria"
+}

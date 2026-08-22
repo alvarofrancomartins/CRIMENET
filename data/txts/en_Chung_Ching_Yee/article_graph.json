@@ -1,0 +1,122 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Joe Boys",
+      "original_text_name": "Joe Boys",
+      "aliases": [
+        "JBS",
+        "Chung Ching Yee",
+        "Joe Fong Boys"
+      ],
+      "context": "Chinese American youth gang founded in the 1960s in San Francisco's Chinatown.",
+      "time_period": "1969–1977",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chung_Ching_Yee&oldid=1348203672"
+    },
+    {
+      "standard_name": "Wah Ching",
+      "original_text_name": "Wah Ching",
+      "aliases": [],
+      "context": "Youth gang formed in Chinatown in 1964 to protect new immigrants.",
+      "time_period": "1964–1977",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chung_Ching_Yee&oldid=1348203672"
+    },
+    {
+      "standard_name": "Hop Sing Tong",
+      "original_text_name": "Hop Sing Tong",
+      "aliases": [
+        "Hop Sing"
+      ],
+      "context": "Traditional Chinatown gang that absorbed the Wah Ching.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chung_Ching_Yee&oldid=1348203672"
+    },
+    {
+      "standard_name": "Yau Lai",
+      "original_text_name": "Yau Lai",
+      "aliases": [
+        "Yo Le",
+        "Yau Lay"
+      ],
+      "context": "Splinter group from Wah Ching formed in 1969.",
+      "time_period": "1969",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chung_Ching_Yee&oldid=1348203672"
+    },
+    {
+      "standard_name": "Suey Sing Tong",
+      "original_text_name": "Suey Sing Tong",
+      "aliases": [
+        "Suey Sing"
+      ],
+      "context": "Traditional Chinatown gang, rivals of Wah Ching and later allies of Joe Boys.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chung_Ching_Yee&oldid=1348203672"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Joe Boys",
+      "target": "Wah Ching",
+      "evidence_quote": "By 1973, the struggle between the Chung Ching Yee and the Wah Ching had erupted into a war that had claimed 13 lives since 1969",
+      "context": "The Joe Boys and Wah Ching were engaged in a violent war.",
+      "relationship": "conflict",
+      "time_period": "1969–1977",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chung_Ching_Yee&oldid=1348203672"
+    },
+    {
+      "source": "Joe Boys",
+      "target": "Suey Sing Tong",
+      "evidence_quote": "Allies: Suey Sing Tong",
+      "context": "The infobox lists Suey Sing Tong as an ally of the Joe Boys.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chung_Ching_Yee&oldid=1348203672"
+    },
+    {
+      "source": "Joe Boys",
+      "target": "Hop Sing Tong",
+      "evidence_quote": "Rivals: Wah Ching , Hop Sing Tong",
+      "context": "The infobox lists Hop Sing Tong as a rival of the Joe Boys.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chung_Ching_Yee&oldid=1348203672"
+    },
+    {
+      "source": "Wah Ching",
+      "target": "Hop Sing Tong",
+      "evidence_quote": "By approximately 1968, the Wah Ching were absorbed into the Hop Sing Tong",
+      "context": "The Wah Ching were absorbed into the Hop Sing Tong.",
+      "relationship": "other",
+      "time_period": "1968",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chung_Ching_Yee&oldid=1348203672"
+    },
+    {
+      "source": "Wah Ching",
+      "target": "Yau Lai",
+      "evidence_quote": "The Yau Lai (also known as the Yo Le or Yau Lay, meaning 'good fortune') split from the Wah Ching in 1969",
+      "context": "The Yau Lai split from the Wah Ching.",
+      "relationship": "other",
+      "time_period": "1969",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chung_Ching_Yee&oldid=1348203672"
+    },
+    {
+      "source": "Wah Ching",
+      "target": "Suey Sing Tong",
+      "evidence_quote": "Their rivals, the Suey Sing Tong , extended their fight to the Wah Ching.",
+      "context": "The Suey Sing Tong were rivals of the Wah Ching.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chung_Ching_Yee&oldid=1348203672"
+    },
+    {
+      "source": "Yau Lai",
+      "target": "Joe Boys",
+      "evidence_quote": "Joe Fong's group had splintered from the main Yau Lai in early 1971",
+      "context": "The Joe Boys originated as a splinter from the Yau Lai.",
+      "relationship": "other",
+      "time_period": "1971",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chung_Ching_Yee&oldid=1348203672"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Chung_Ching_Yee&oldid=1348203672",
+  "source_file": "en_Chung_Ching_Yee"
+}

@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hogan Gang",
+      "original_text_name": "Hogan Gang",
+      "aliases": [],
+      "context": "St. Louis-based Irish-American criminal organization active during Prohibition, involved in bootlegging, robbery, and murder.",
+      "time_period": "1920s-1930s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hogan_Gang&oldid=1356186284"
+    },
+    {
+      "standard_name": "Egan's Rats",
+      "original_text_name": "Egan's Rats",
+      "aliases": [],
+      "context": "St. Louis-based Irish-American gang, rivals of the Hogan Gang during the Egan-Hogan War.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hogan_Gang&oldid=1356186284"
+    },
+    {
+      "standard_name": "Russo Gang",
+      "original_text_name": "Russo Gang",
+      "aliases": [],
+      "context": "Local Mafia faction in St. Louis, business partner of the Hogan Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hogan_Gang&oldid=1356186284"
+    },
+    {
+      "standard_name": "Cuckoo Gang",
+      "original_text_name": "Cuckoo Gang",
+      "aliases": [],
+      "context": "Criminal organization mentioned as an ally of the Hogan Gang in the infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hogan_Gang&oldid=1356186284"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hogan Gang",
+      "target": "Egan's Rats",
+      "evidence_quote": "They fought a notoriously violent gang war with Egan's Rats in the early 1920s.",
+      "context": "The Hogan Gang and Egan's Rats were engaged in a violent gang war.",
+      "relationship": "conflict",
+      "time_period": "early 1920s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hogan_Gang&oldid=1356186284"
+    },
+    {
+      "source": "Hogan Gang",
+      "target": "Russo Gang",
+      "evidence_quote": "they had a close business partnership with the Russo Gang",
+      "context": "The Hogan Gang had a close business partnership with the Russo Gang.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hogan_Gang&oldid=1356186284"
+    },
+    {
+      "source": "Hogan Gang",
+      "target": "Cuckoo Gang",
+      "evidence_quote": "Allies: Cuckoo Gang , Russo Gang",
+      "context": "The infobox lists the Cuckoo Gang as an ally of the Hogan Gang.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hogan_Gang&oldid=1356186284"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Hogan_Gang&oldid=1356186284",
+  "source_file": "en_Hogan_Gang"
+}

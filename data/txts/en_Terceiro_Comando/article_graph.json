@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Terceiro Comando",
+      "original_text_name": "Terceiro Comando",
+      "aliases": [
+        "TC",
+        "Third Command"
+      ],
+      "context": "Brazilian criminal organization engaged in drug trafficking in Rio de Janeiro, founded in early 1980s as a break-away faction of Comando Vermelho.",
+      "time_period": "early 1980s-2006",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando&oldid=1306511588"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [],
+      "context": "Rival criminal organization in Rio de Janeiro, from which Terceiro Comando broke away.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando&oldid=1306511588"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Terceiro Comando",
+      "target": "Comando Vermelho",
+      "evidence_quote": "It was founded in the early 1980s and is a break-away faction of the Comando Vermelho.",
+      "context": "Terceiro Comando was formed as a splinter group from Comando Vermelho.",
+      "relationship": "other",
+      "time_period": "early 1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando&oldid=1306511588"
+    },
+    {
+      "source": "Terceiro Comando",
+      "target": "Comando Vermelho",
+      "evidence_quote": "The Terceiro Comando has fought several small-scale conflicts (in 2001 and 2004) with the rival gang Comando Vermelho.",
+      "context": "Terceiro Comando fought conflicts with Comando Vermelho in 2001 and 2004.",
+      "relationship": "conflict",
+      "time_period": "2001, 2004",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando&oldid=1306511588"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Terceiro_Comando&oldid=1306511588",
+  "source_file": "en_Terceiro_Comando"
+}

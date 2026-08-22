@@ -1,0 +1,91 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Libertadores del Vichada",
+      "original_text_name": "Libertadores del Vichada",
+      "aliases": [
+        "Los Libertadores del Vichada",
+        "The Liberators of Vichada"
+      ],
+      "context": "Colombian drug trafficking neo-paramilitary group involved in the Colombian armed conflict.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Libertadores_del_Vichada&oldid=1357223459"
+    },
+    {
+      "standard_name": "ERPAC",
+      "original_text_name": "ERPAC",
+      "aliases": [],
+      "context": "Armed, paramilitary group that partially demobilized in 2009; former leaders joined Libertadores del Vichada.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Libertadores_del_Vichada&oldid=1357223459"
+    },
+    {
+      "standard_name": "Meta Block",
+      "original_text_name": "Meta Block",
+      "aliases": [],
+      "context": "Rival group to Libertadores del Vichada, formed from ERPAC remnants.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Libertadores_del_Vichada&oldid=1357223459"
+    },
+    {
+      "standard_name": "Los Puntilleros",
+      "original_text_name": "Los Puntilleros",
+      "aliases": [
+        "Puntilleros"
+      ],
+      "context": "Group formed by reuniting Libertadores del Vichada and Meta Block under Mauricio Pachón Rozo.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Libertadores_del_Vichada&oldid=1357223459"
+    },
+    {
+      "standard_name": "FARC",
+      "original_text_name": "FARC",
+      "aliases": [
+        "FARC rebel group"
+      ],
+      "context": "Colombian rebel group that fought battles against Libertadores del Vichada.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Libertadores_del_Vichada&oldid=1357223459"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Libertadores del Vichada",
+      "target": "ERPAC",
+      "evidence_quote": "The group was led by Martín Farfán Díaz González, alias 'Pijarbey,' a former leader of the neo-paramilitary group ERPAC.",
+      "context": "Libertadores del Vichada's leader was a former leader of ERPAC, indicating a successor relationship.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Libertadores_del_Vichada&oldid=1357223459"
+    },
+    {
+      "source": "Libertadores del Vichada",
+      "target": "Meta Block",
+      "evidence_quote": "the remaining 600 were believed to have joined Libertadores de Vichada or the rivalling Meta Block.",
+      "context": "Libertadores del Vichada and Meta Block are described as rivals, both formed from ERPAC remnants.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Libertadores_del_Vichada&oldid=1357223459"
+    },
+    {
+      "source": "Libertadores del Vichada",
+      "target": "Los Puntilleros",
+      "evidence_quote": "the two blocs were in the hands of the drug trafficker Mauricio Pachón Rozo, also known as 'Puntilla', reunited the two groups; This time with a new name: 'Los Puntilleros'",
+      "context": "Libertadores del Vichada and Meta Block were reunited under Los Puntilleros, making Libertadores del Vichada a predecessor.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Libertadores_del_Vichada&oldid=1357223459"
+    },
+    {
+      "source": "Libertadores del Vichada",
+      "target": "FARC",
+      "evidence_quote": "Los Libertadores del Vichada have frequently fought battles against the FARC rebel group in eastern Colombia.",
+      "context": "Libertadores del Vichada fought battles against the FARC.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Libertadores_del_Vichada&oldid=1357223459"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Libertadores_del_Vichada&oldid=1357223459",
+  "source_file": "en_Libertadores_del_Vichada"
+}

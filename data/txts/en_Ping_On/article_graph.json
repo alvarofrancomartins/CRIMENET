@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Ping On",
+      "original_text_name": "Ping On",
+      "aliases": [],
+      "context": "Boston-based Chinese criminal organization active from 1970s to early 2000s, involved in various illegal activities.",
+      "time_period": "1970s–early 2000s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ping_On&oldid=1356672329"
+    },
+    {
+      "standard_name": "14K Triad",
+      "original_text_name": "14K Triad",
+      "aliases": [
+        "14K"
+      ],
+      "context": "Hong Kong-based triad society, infamous criminal organization.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ping_On&oldid=1356672329"
+    },
+    {
+      "standard_name": "Hung Mong",
+      "original_text_name": "Hung Mong",
+      "aliases": [],
+      "context": "Criminal organization operating in New York City, ally of Ping On in the late 1980s.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ping_On&oldid=1356672329"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ping On",
+      "target": "14K Triad",
+      "evidence_quote": "The Ping On was regarded as a 'farm team' for the 14K triad in Hong Kong.",
+      "context": "Ping On served as a recruitment and training ground for 14K Triad.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ping_On&oldid=1356672329"
+    },
+    {
+      "source": "Ping On",
+      "target": "14K Triad",
+      "evidence_quote": "Allies: 14K , Hung Mong",
+      "context": "Ping On and 14K Triad are listed as allies in the infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ping_On&oldid=1356672329"
+    },
+    {
+      "source": "Ping On",
+      "target": "Hung Mong",
+      "evidence_quote": "The organization had several allies in the late 1980s, including the Hung Mong which was in operation in New York City.",
+      "context": "Ping On and Hung Mong were allies in the late 1980s.",
+      "relationship": "cooperation",
+      "time_period": "late 1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ping_On&oldid=1356672329"
+    },
+    {
+      "source": "Ping On",
+      "target": "Hung Mong",
+      "evidence_quote": "Allies: 14K , Hung Mong",
+      "context": "Ping On and Hung Mong are listed as allies in the infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ping_On&oldid=1356672329"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Ping_On&oldid=1356672329",
+  "source_file": "en_Ping_On"
+}

@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "La Mano con Ojos",
+      "original_text_name": "La Mano con Ojos",
+      "aliases": [
+        "La Mano con Ojos NV Imperio"
+      ],
+      "context": "Mexican criminal organization dedicated to drug trafficking and methamphetamine production, remnant of Beltrán Leyva Cartel and Los Valencia.",
+      "time_period": "2010-2016",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=La_Mano_con_Ojos&oldid=172728731"
+    },
+    {
+      "standard_name": "Cártel de los Beltrán Leyva",
+      "original_text_name": "Cártel de los Beltrán Leyva",
+      "aliases": [],
+      "context": "Mexican drug cartel, predecessor of La Mano con Ojos.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=La_Mano_con_Ojos&oldid=172728731"
+    },
+    {
+      "standard_name": "Los Valencia",
+      "original_text_name": "Los Valencia",
+      "aliases": [],
+      "context": "Mexican criminal organization, predecessor of La Mano con Ojos.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=La_Mano_con_Ojos&oldid=172728731"
+    }
+  ],
+  "edges": [
+    {
+      "source": "La Mano con Ojos",
+      "target": "Cártel de los Beltrán Leyva",
+      "evidence_quote": "La Mano con Ojos fue una organización criminal mexicana dedicada al tráfico ilegal de drogas y a la producción de metanfetamina, siendo remanentes del Cártel de los Beltrán Leyva y Los Valencia.",
+      "context": "La Mano con Ojos is a remnant of the Beltrán Leyva Cartel.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=La_Mano_con_Ojos&oldid=172728731"
+    },
+    {
+      "source": "La Mano con Ojos",
+      "target": "Los Valencia",
+      "evidence_quote": "La Mano con Ojos fue una organización criminal mexicana dedicada al tráfico ilegal de drogas y a la producción de metanfetamina, siendo remanentes del Cártel de los Beltrán Leyva y Los Valencia.",
+      "context": "La Mano con Ojos is a remnant of Los Valencia.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=La_Mano_con_Ojos&oldid=172728731"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=La_Mano_con_Ojos&oldid=172728731",
+  "source_file": "es_La_Mano_con_Ojos"
+}

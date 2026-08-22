@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Dnipropetrovsk Mafia",
+      "original_text_name": "Dnipropetrovsk Mafia",
+      "aliases": [
+        "Dnipropetrovsk clan",
+        "Dnipropetrovtsi"
+      ],
+      "context": "A group of Ukrainian oligarchs, politicians, and organised crime figures, based in Dnipro.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dnipropetrovsk_Mafia&oldid=1348911331"
+    },
+    {
+      "standard_name": "Donetsk Clan",
+      "original_text_name": "Donetsk Clan",
+      "aliases": [],
+      "context": "A rival oligarch group from the Donbas region of Ukraine.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dnipropetrovsk_Mafia&oldid=1348911331"
+    },
+    {
+      "standard_name": "Kyiv Clan",
+      "original_text_name": "Kyiv clan",
+      "aliases": [],
+      "context": "Another oligarch group from Kyiv.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dnipropetrovsk_Mafia&oldid=1348911331"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Dnipropetrovsk Mafia",
+      "target": "Donetsk Clan",
+      "evidence_quote": "These events precipitated the conflict between the Dnipropetrovsk Mafia, led by Kuchma, and the Donetsk Clan, led by Zvyahilsky.",
+      "context": "The Dnipropetrovsk Mafia and Donetsk Clan were in conflict.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dnipropetrovsk_Mafia&oldid=1348911331"
+    },
+    {
+      "source": "Dnipropetrovsk Mafia",
+      "target": "Kyiv Clan",
+      "evidence_quote": "Kuchma's efforts to stamp out Lazarenko were supported by both the remnants of the Donetsk clan and the Kyiv clan, another oligarch group.",
+      "context": "The Kyiv clan supported Kuchma (leader of Dnipropetrovsk Mafia) against Lazarenko.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Dnipropetrovsk_Mafia&oldid=1348911331"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Dnipropetrovsk_Mafia&oldid=1348911331",
+  "source_file": "en_Dnipropetrovsk_Mafia"
+}

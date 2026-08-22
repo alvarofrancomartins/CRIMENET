@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "standard_name": "McCarthy-Dundon Gang",
+      "original_text_name": "McCarthy-Dundon' s",
+      "aliases": [
+        "McCarthy-Dundon Gang",
+        "McCarthy-Dundons"
+      ],
+      "context": "Criminal gang based in Limerick City, Ireland, involved in drug dealing, extortion, armed robbery, and central to the Limerick feud.",
+      "time_period": "2000s-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=McCarthy-Dundon&oldid=1351598423"
+    },
+    {
+      "standard_name": "Ryan Gang",
+      "original_text_name": "Ryans",
+      "aliases": [],
+      "context": "Criminal family involved in the Limerick feud.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=McCarthy-Dundon&oldid=1351598423"
+    },
+    {
+      "standard_name": "Keane-Collopy Gang",
+      "original_text_name": "Keane-Collopy gang",
+      "aliases": [],
+      "context": "Criminal gang from St. Mary's Park, involved in the Limerick feud.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=McCarthy-Dundon&oldid=1351598423"
+    },
+    {
+      "standard_name": "Hutch Organised Crime Gang",
+      "original_text_name": "Hutch Organised Crime Gang",
+      "aliases": [],
+      "context": "Allied criminal organization mentioned in infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=McCarthy-Dundon&oldid=1351598423"
+    }
+  ],
+  "edges": [
+    {
+      "source": "McCarthy-Dundon Gang",
+      "target": "Ryan Gang",
+      "evidence_quote": "The feud, which involves several criminal families, mainly the McCarthy-Dundons, the Ryans and the Keane-Collopy gang from St. Mary's Park, has been ongoing since 2000.",
+      "context": "The McCarthy-Dundon Gang and the Ryan Gang are both participants in the Limerick feud, which is a conflict.",
+      "relationship": "conflict",
+      "time_period": "2000-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=McCarthy-Dundon&oldid=1351598423"
+    },
+    {
+      "source": "McCarthy-Dundon Gang",
+      "target": "Keane-Collopy Gang",
+      "evidence_quote": "The feud, which involves several criminal families, mainly the McCarthy-Dundons, the Ryans and the Keane-Collopy gang from St. Mary's Park, has been ongoing since 2000.",
+      "context": "The McCarthy-Dundon Gang and the Keane-Collopy Gang are both participants in the Limerick feud, which is a conflict.",
+      "relationship": "conflict",
+      "time_period": "2000-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=McCarthy-Dundon&oldid=1351598423"
+    },
+    {
+      "source": "McCarthy-Dundon Gang",
+      "target": "Hutch Organised Crime Gang",
+      "evidence_quote": "Allies: Hutch Organised Crime Gang, Ryan Gang",
+      "context": "The infobox lists the Hutch Organised Crime Gang as an ally of the McCarthy-Dundon Gang.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=McCarthy-Dundon&oldid=1351598423"
+    },
+    {
+      "source": "McCarthy-Dundon Gang",
+      "target": "Ryan Gang",
+      "evidence_quote": "Allies: Hutch Organised Crime Gang, Ryan Gang",
+      "context": "The infobox lists the Ryan Gang as an ally of the McCarthy-Dundon Gang, despite the text describing them as participants in the same feud.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=McCarthy-Dundon&oldid=1351598423"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=McCarthy-Dundon&oldid=1351598423",
+  "source_file": "en_McCarthy-Dundon"
+}

@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sicilian Mafia",
+      "original_text_name": "Sicilian Mafia",
+      "aliases": [],
+      "context": "Classical organized crime group from Sicily, Italy.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    },
+    {
+      "standard_name": "D-Company",
+      "original_text_name": "D-Company",
+      "aliases": [],
+      "context": "Organised crime group controlled by Dawood Ibrahim, originating in Mumbai.",
+      "time_period": "1980s–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    },
+    {
+      "standard_name": "Chotta Rajan Gang",
+      "original_text_name": "Chotta Rajan",
+      "aliases": [],
+      "context": "Crime syndicate based in Mumbai, formerly led by Chotta Rajan, a former aide of Dawood Ibrahim.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    },
+    {
+      "standard_name": "Arun Gawli Gang",
+      "original_text_name": "Arun Gawli's gang",
+      "aliases": [],
+      "context": "Gang based at Dagdi Chawl in Byculla, Mumbai, involved in kidnapping, extortion, and murder.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    },
+    {
+      "standard_name": "Haji Mastan Gang",
+      "original_text_name": "Haji Mastan",
+      "aliases": [],
+      "context": "Bombay-based mobster involved in smuggling gold, silver, and electronic goods, and Bollywood film production.",
+      "time_period": "1940s–1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    },
+    {
+      "standard_name": "Varadarajan Mudaliar Gang",
+      "original_text_name": "Varadarajan Mudaliar",
+      "aliases": [
+        "Vardha Bhai"
+      ],
+      "context": "Bombay-based ethnic Tamil mobster, operated from early 1960s to 1980, involved in illicit liquor, dock cargo theft, contract killings, and narcotics.",
+      "time_period": "1960s–1980",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    },
+    {
+      "standard_name": "Karim Lala Gang",
+      "original_text_name": "Karim Lala",
+      "aliases": [
+        "Afghan mafia",
+        "Pathan mafia"
+      ],
+      "context": "Crime syndicate of ethnic Pashtuns from Afghanistan's Kunar province, involved in hashish trafficking, protection rackets, extortion, illegal gambling, gold smuggling, and contract killings.",
+      "time_period": "1940–1985",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    },
+    {
+      "standard_name": "Indian Mafia",
+      "original_text_name": "Indian mafia",
+      "aliases": [],
+      "context": "Umbrella term for organized crime in India, active since 1940s, with international reach.",
+      "time_period": "1940s–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    },
+    {
+      "standard_name": "Afghan Mafia",
+      "original_text_name": "Afghan mafia",
+      "aliases": [],
+      "context": "Criminal group from Afghanistan, allied with Indian mafia.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    },
+    {
+      "standard_name": "Canadian Mafia",
+      "original_text_name": "Canadian mafia",
+      "aliases": [],
+      "context": "Organized crime group in Canada, allied with Indian mafia.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    },
+    {
+      "standard_name": "Pakistani Mafia",
+      "original_text_name": "Pakistani mafia",
+      "aliases": [],
+      "context": "Organized crime group from Pakistan, rival of Indian mafia.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    },
+    {
+      "standard_name": "D-Company",
+      "original_text_name": "D-Company",
+      "aliases": [],
+      "context": "A Mumbai underworld criminal organization founded by Dawood Ibrahim.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Haji Mastan Gang",
+      "target": "Karim Lala Gang",
+      "evidence_quote": "He worked in association with Karim Lala and by the 1960s became a rich man.",
+      "context": "Haji Mastan worked in association with Karim Lala.",
+      "relationship": "cooperation",
+      "time_period": "1940s–1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    },
+    {
+      "source": "Varadarajan Mudaliar Gang",
+      "target": "Haji Mastan Gang",
+      "evidence_quote": "Mudaliar, in tandem with Haji Mastan, ventured into stealing dock cargo.",
+      "context": "Varadarajan Mudaliar acted in tandem with Haji Mastan to steal dock cargo.",
+      "relationship": "cooperation",
+      "time_period": "1960s–1980",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    },
+    {
+      "source": "Chotta Rajan Gang",
+      "target": "D-Company",
+      "evidence_quote": "He was a former key aide and lieutenant of Dawood Ibrahim.",
+      "context": "Chotta Rajan was a former key aide and lieutenant of Dawood Ibrahim, leader of D-Company.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    },
+    {
+      "source": "Indian Mafia",
+      "target": "Afghan Mafia",
+      "evidence_quote": "Allies: Afghan mafia",
+      "context": "Indian mafia is allied with Afghan mafia.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    },
+    {
+      "source": "Indian Mafia",
+      "target": "Canadian Mafia",
+      "evidence_quote": "Allies: Canadian mafia",
+      "context": "Indian mafia is allied with Canadian mafia.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    },
+    {
+      "source": "Indian Mafia",
+      "target": "Pakistani Mafia",
+      "evidence_quote": "Rivals: Pakistani mafia",
+      "context": "Indian mafia has a rivalry with Pakistani mafia.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Organised_crime_in_India&oldid=1357628292",
+  "source_file": "en_Organised_crime_in_India"
+}

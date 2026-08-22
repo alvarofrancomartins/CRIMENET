@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "standard_name": "LRGP",
+      "original_text_name": "LRGP",
+      "aliases": [
+        "LRGP Crew",
+        "Lombard, Rother, Gibson, and Playter"
+      ],
+      "context": "A gang based in Buffalo, New York, active in the 2000s-2016, involved in drug trafficking and violence.",
+      "time_period": "2000s—2016",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=LRGP_%28gang%29&oldid=1328948084"
+    },
+    {
+      "standard_name": "Bailey Boys",
+      "original_text_name": "Bailey Boys",
+      "aliases": [],
+      "context": "A rival gang to LRGP in Buffalo, New York.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=LRGP_%28gang%29&oldid=1328948084"
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "context": "A street gang allied with LRGP.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=LRGP_%28gang%29&oldid=1328948084"
+    }
+  ],
+  "edges": [
+    {
+      "source": "LRGP",
+      "target": "Bailey Boys",
+      "evidence_quote": "Lombard, Rother, Gibson, and Playter ( LRGP ), also known as the LRGP Crew , is/was a gang based in Buffalo, New York in the Broadway-Fillmore area of the city and is the direct opposition to the Bailey Boys .",
+      "context": "LRGP is the direct opposition to the Bailey Boys, indicating a rivalry.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=LRGP_%28gang%29&oldid=1328948084"
+    },
+    {
+      "source": "LRGP",
+      "target": "Bloods",
+      "evidence_quote": "Allies: Bloods",
+      "context": "The infobox lists Bloods as allies of LRGP.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=LRGP_%28gang%29&oldid=1328948084"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=LRGP_%28gang%29&oldid=1328948084",
+  "source_file": "en_LRGP_(gang)"
+}

@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "context": "A street gang alliance originating in Los Angeles, California.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_30s_Harlem_Crips&oldid=1357313909"
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "context": "A street gang alliance, rivals of the Crips.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_30s_Harlem_Crips&oldid=1357313909"
+    },
+    {
+      "standard_name": "Rollin' 30s Harlem Crips",
+      "original_text_name": "Rollin' 30s Harlem Crips",
+      "aliases": [
+        "Rollin' 30s Crips"
+      ],
+      "context": "A set of the Crips alliance, formed by Belizean American Crips, active in Los Angeles, New York City, and Belize.",
+      "time_period": "1960s-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_30s_Harlem_Crips&oldid=1357313909"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Rollin' 30s Harlem Crips",
+      "target": "Crips",
+      "evidence_quote": "The Rollin' 30s Harlem Crips are a \" set \" of the Crips alliance of street gangs.",
+      "context": "Rollin' 30s Harlem Crips is a subset of the Crips alliance.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_30s_Harlem_Crips&oldid=1357313909"
+    },
+    {
+      "source": "Rollin' 30s Harlem Crips",
+      "target": "Bloods",
+      "evidence_quote": "In November 1995 after several members assaulted a teenaged girl who was wearing red clothing — the gang colors of the rival Bloods gang.",
+      "context": "Rollin' 30s Harlem Crips are rivals of the Bloods, as indicated by the assault on a girl wearing Bloods colors.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_30s_Harlem_Crips&oldid=1357313909"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_30s_Harlem_Crips&oldid=1357313909",
+  "source_file": "en_Rollin'_30s_Harlem_Crips"
+}

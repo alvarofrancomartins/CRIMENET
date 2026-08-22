@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Taliban",
+      "original_text_name": "Taliban",
+      "aliases": [],
+      "context": "Islamist militant group that ruled Afghanistan and engaged in opium trade.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Opium_production_in_Afghanistan&oldid=1349834028"
+    },
+    {
+      "standard_name": "Hizb-i-Islami",
+      "original_text_name": "Hizb-i-Islami",
+      "aliases": [],
+      "context": "Militia founded by Gulbuddin Hekmatyar, involved in opium production.",
+      "time_period": "1979–1989",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Opium_production_in_Afghanistan&oldid=1349834028"
+    },
+    {
+      "standard_name": "Kuki-Chin militants",
+      "original_text_name": "Kuki-Chin militants",
+      "aliases": [],
+      "context": "Militant groups in Manipur, India, financed by poppy export.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Opium_production_in_Afghanistan&oldid=1349834028"
+    },
+    {
+      "standard_name": "Taliban",
+      "original_text_name": "Taliban",
+      "aliases": [],
+      "context": "Islamist militant group that controlled Afghanistan and engaged in opium trade.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Opium_production_in_Afghanistan&oldid=1349834028"
+    },
+    {
+      "standard_name": "Northern Alliance",
+      "original_text_name": "Northern Alliance",
+      "aliases": [],
+      "context": "Afghan military coalition that opposed the Taliban.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Opium_production_in_Afghanistan&oldid=1349834028"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Taliban",
+      "target": "Hizb-i-Islami",
+      "evidence_quote": "The Taliban have taken a mixed stance on opium over the years. ... The opium trade spiked in 2006 after the Taliban lost control of local warlords.",
+      "context": "Taliban lost control of local warlords, implying a conflict or rivalry with Hizb-i-Islami.",
+      "relationship": "conflict",
+      "time_period": "2006",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Opium_production_in_Afghanistan&oldid=1349834028"
+    },
+    {
+      "source": "Taliban",
+      "target": "Northern Alliance",
+      "evidence_quote": "In Herat, the Northern Alliance stronghold, it was estimated that only 30% of the hawala market's overall transaction volume is directly linked to drugs.",
+      "context": "The text mentions Herat as a Northern Alliance stronghold, but does not assert a direct relationship between the Taliban and Northern Alliance.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Opium_production_in_Afghanistan&oldid=1349834028"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Opium_production_in_Afghanistan&oldid=1349834028",
+  "source_file": "en_Opium_production_in_Afghanistan"
+}

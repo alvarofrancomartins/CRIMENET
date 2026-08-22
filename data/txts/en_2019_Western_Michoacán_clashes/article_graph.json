@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel (CJNG)",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Mexican criminal organization that attacked El Abuelo Cartel in Michoacán.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=2019_Western_Michoac%C3%A1n_clashes&oldid=1323989469"
+    },
+    {
+      "standard_name": "El Abuelo Cartel",
+      "original_text_name": "El Abuelo Cartel",
+      "aliases": [
+        "Cártel del Abuelo"
+      ],
+      "context": "Mexican criminal organization based in Tepalcatepec, Michoacán, targeted by CJNG.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=2019_Western_Michoac%C3%A1n_clashes&oldid=1323989469"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Jalisco New Generation Cartel",
+      "target": "El Abuelo Cartel",
+      "evidence_quote": "The 2019 Western Michoacán clashes were a series of armed confrontations on 30 August 2019 between the Jalisco New Generation Cartel (CJNG) and the El Abuelo Cartel based in Tepalcatepec, Michoacán, Mexico.",
+      "context": "CJNG attacked El Abuelo Cartel, leading to armed clashes.",
+      "relationship": "conflict",
+      "time_period": "30 August 2019",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=2019_Western_Michoac%C3%A1n_clashes&oldid=1323989469"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=2019_Western_Michoac%C3%A1n_clashes&oldid=1323989469",
+  "source_file": "en_2019_Western_Michoacán_clashes"
+}

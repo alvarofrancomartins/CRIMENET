@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "standard_name": "'Ndrina Crea",
+      "original_text_name": "Crea",
+      "aliases": [
+        "'Ndrina Crea"
+      ],
+      "context": "'Ndrina from Rizziconi, part of the 'Ndrangheta.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Crea&oldid=149923187"
+    },
+    {
+      "standard_name": "'Ndrina Alvaro",
+      "original_text_name": "Alvaro",
+      "aliases": [
+        "'Ndrina Alvaro"
+      ],
+      "context": "'Ndrina mentioned in connection with Crea in a 2014 arrest.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Crea&oldid=149923187"
+    },
+    {
+      "standard_name": "Molè",
+      "original_text_name": "Molè",
+      "aliases": [],
+      "context": "'Ndrina targeted in operation Nuova Narcos Europea in 2021.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Crea&oldid=149923187"
+    },
+    {
+      "standard_name": "Pesce",
+      "original_text_name": "Pesce",
+      "aliases": [],
+      "context": "'Ndrina targeted in operation Nuova Narcos Europea in 2021.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Crea&oldid=149923187"
+    }
+  ],
+  "edges": [
+    {
+      "source": "'Ndrina Crea",
+      "target": "'Ndrina Alvaro",
+      "evidence_quote": "Il 4 giugno 2014 a Rizziconi, su denuncia del sindaco e dopo due anni di indagini vengono arrestate 16 persone riconducibile alle 'ndrine Crea ed Alvaro.",
+      "context": "Crea and Alvaro were both implicated in the same 2014 arrest operation, suggesting cooperation or shared criminal activities.",
+      "relationship": "cooperation",
+      "time_period": "2014",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Crea&oldid=149923187"
+    },
+    {
+      "source": "'Ndrina Crea",
+      "target": "Molè",
+      "evidence_quote": "16 novembre 2021: operazione \"Nuova Narcos Europea\" contro i Molè, i Pesce e i Crea.",
+      "context": "Crea, Molè, and Pesce were all targeted together in the same 2021 operation, indicating they were part of a joint criminal network.",
+      "relationship": "cooperation",
+      "time_period": "2021",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Crea&oldid=149923187"
+    },
+    {
+      "source": "'Ndrina Crea",
+      "target": "Pesce",
+      "evidence_quote": "16 novembre 2021: operazione \"Nuova Narcos Europea\" contro i Molè, i Pesce e i Crea.",
+      "context": "Crea, Pesce, and Molè were all targeted together in the same 2021 operation, indicating they were part of a joint criminal network.",
+      "relationship": "cooperation",
+      "time_period": "2021",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Crea&oldid=149923187"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Crea&oldid=149923187",
+  "source_file": "it_'Ndrina_Crea"
+}

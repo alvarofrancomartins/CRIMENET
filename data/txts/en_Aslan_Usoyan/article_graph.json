@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Brothers' Circle",
+      "original_text_name": "Brothers' Circle",
+      "aliases": [],
+      "context": "Alleged criminal organization speculated to be a stand-in for Usoyan's network.",
+      "time_period": "early 2010s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Aslan_Usoyan&oldid=1358047003"
+    },
+    {
+      "standard_name": "Kurdistan Workers' Party",
+      "original_text_name": "Kurdistan Workers' Party (PKK)",
+      "aliases": [
+        "PKK"
+      ],
+      "context": "Kurdish militant organization; Usoyan was accused of supplying money and weapons to them.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Aslan_Usoyan&oldid=1358047003"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Brothers' Circle",
+      "target": "Kurdistan Workers' Party",
+      "evidence_quote": "Usoyan, an ethnic Kurd, was accused of supplying money and weapons to the Kurdistan Workers' Party (PKK).",
+      "context": "Usoyan's network (Brothers' Circle) allegedly supplied money and weapons to PKK.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Aslan_Usoyan&oldid=1358047003"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Aslan_Usoyan&oldid=1358047003",
+  "source_file": "en_Aslan_Usoyan"
+}

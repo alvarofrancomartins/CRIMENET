@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "standard_name": "La Empresa",
+      "original_text_name": "La Empresa",
+      "aliases": [
+        "The New Company",
+        "The Enterprise",
+        "La Nueva Empresa",
+        "A empresa"
+      ],
+      "context": "Colombian drug trafficking cartel formed in Medellín in the late 1990s, breakaway from Juárez Cartel.",
+      "time_period": "late 1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Empresa&oldid=1332164490"
+    },
+    {
+      "standard_name": "Juárez Cartel",
+      "original_text_name": "Juárez Cartel",
+      "aliases": [],
+      "context": "Mexican drug cartel from which La Empresa broke away; members became adversaries.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Empresa&oldid=1332164490"
+    },
+    {
+      "standard_name": "The Golden Triangle Alliance",
+      "original_text_name": "The Golden Triangle Alliance",
+      "aliases": [
+        "La Alianza Triángulo de Oro"
+      ],
+      "context": "Alliance of Juárez members and drug lords from Chihuahua, Durango, and Sinaloa formed in early 2000s.",
+      "time_period": "early 2000s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Empresa&oldid=1332164490"
+    },
+    {
+      "standard_name": "La Linea",
+      "original_text_name": "La Linea",
+      "aliases": [],
+      "context": "Criminal group listed as ally of La Empresa in infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Empresa&oldid=1332164490"
+    },
+    {
+      "standard_name": "Barrio Azteca",
+      "original_text_name": "Barrio Azteca",
+      "aliases": [],
+      "context": "Criminal group listed as ally of La Empresa in infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Empresa&oldid=1332164490"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "context": "Mexican drug cartel listed as rival of La Empresa in infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Empresa&oldid=1332164490"
+    }
+  ],
+  "edges": [
+    {
+      "source": "La Empresa",
+      "target": "Juárez Cartel",
+      "evidence_quote": "The cartel is alleged to be a \"breakaway\" cartel of the Juárez Cartel , many of the Juárez Cartel members became adversaries of the cartel",
+      "context": "La Empresa broke away from Juárez Cartel, and Juárez members became adversaries.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Empresa&oldid=1332164490"
+    },
+    {
+      "source": "La Empresa",
+      "target": "Juárez Cartel",
+      "evidence_quote": "many of the Juárez Cartel members became adversaries of the cartel",
+      "context": "Juárez Cartel members became adversaries of La Empresa.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Empresa&oldid=1332164490"
+    },
+    {
+      "source": "La Empresa",
+      "target": "The Golden Triangle Alliance",
+      "evidence_quote": "During the early 2000s, the Juarez members and drug lords from contiguous Mexican states forged an alliance that became known as 'The Golden Triangle Alliance' ... La Empresa formed during this time and was one of the gangs.",
+      "context": "La Empresa was one of the gangs that formed along with the alliance.",
+      "relationship": "other",
+      "time_period": "early 2000s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Empresa&oldid=1332164490"
+    },
+    {
+      "source": "La Empresa",
+      "target": "La Linea",
+      "evidence_quote": "Allies: Juárez Cartel , La Linea , Barrio Azteca",
+      "context": "La Linea is listed as an ally of La Empresa in the infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Empresa&oldid=1332164490"
+    },
+    {
+      "source": "La Empresa",
+      "target": "Barrio Azteca",
+      "evidence_quote": "Allies: Juárez Cartel , La Linea , Barrio Azteca",
+      "context": "Barrio Azteca is listed as an ally of La Empresa in the infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Empresa&oldid=1332164490"
+    },
+    {
+      "source": "La Empresa",
+      "target": "Sinaloa Cartel",
+      "evidence_quote": "Rivals: Sinaloa Cartel",
+      "context": "Sinaloa Cartel is listed as a rival of La Empresa in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Empresa&oldid=1332164490"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=La_Empresa&oldid=1332164490",
+  "source_file": "en_La_Empresa"
+}

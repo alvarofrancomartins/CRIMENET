@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Batavia Street Gang",
+      "original_text_name": "Batavia Street Gang",
+      "aliases": [],
+      "context": "New York independent street gang based in the Fourth Ward during the 1890s.",
+      "time_period": "1890s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Batavia_Street_Gang&oldid=1135479812"
+    },
+    {
+      "standard_name": "Eastman Gang",
+      "original_text_name": "Eastman Gang",
+      "aliases": [],
+      "context": "Criminal gang affiliated with Batavia Street Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Batavia_Street_Gang&oldid=1135479812"
+    },
+    {
+      "standard_name": "Cherry Hill Gang",
+      "original_text_name": "Cherry Hill Gang",
+      "aliases": [],
+      "context": "Rival gang to Batavia Street Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Batavia_Street_Gang&oldid=1135479812"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Batavia Street Gang",
+      "target": "Eastman Gang",
+      "evidence_quote": "Affiliated with the Eastman Gang during the turn of the 20th century",
+      "context": "Batavia Street Gang was affiliated with Eastman Gang.",
+      "relationship": "cooperation",
+      "time_period": "turn of the 20th century",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Batavia_Street_Gang&oldid=1135479812"
+    },
+    {
+      "source": "Batavia Street Gang",
+      "target": "Cherry Hill Gang",
+      "evidence_quote": "they were rivals of the Cherry Hill Gang throughout the previous decade",
+      "context": "Batavia Street Gang were rivals of Cherry Hill Gang.",
+      "relationship": "conflict",
+      "time_period": "1890s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Batavia_Street_Gang&oldid=1135479812"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Batavia_Street_Gang&oldid=1135479812",
+  "source_file": "en_Batavia_Street_Gang"
+}

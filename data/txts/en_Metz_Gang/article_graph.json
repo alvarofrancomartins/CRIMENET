@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Metz Gang",
+      "original_text_name": "Metz Gang",
+      "aliases": [
+        "Metz gang",
+        "Metz group",
+        "Metz's crew"
+      ],
+      "context": "Notorious drug ring founded by Glenn Metz and his brother, active in New Orleans from 1985 to 1992, involved in cocaine distribution and violent crimes.",
+      "time_period": "1985–1992",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Metz_Gang&oldid=1339085590"
+    },
+    {
+      "standard_name": "Sam Clay organization",
+      "original_text_name": "Sam Clay organization",
+      "aliases": [
+        "Sam Clay's crew",
+        "Sam 'Scully' Clay's crew"
+      ],
+      "context": "Organized drug gang in New Orleans led by Sam 'Scully' Clay, active until Clay's death in 1987.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Metz_Gang&oldid=1339085590"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Metz Gang",
+      "target": "Sam Clay organization",
+      "evidence_quote": "Rivals: Various organizations over, Sam Clay organization",
+      "context": "The infobox lists the Sam Clay organization as a rival of the Metz Gang.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Metz_Gang&oldid=1339085590"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Metz_Gang&oldid=1339085590",
+  "source_file": "en_Metz_Gang"
+}

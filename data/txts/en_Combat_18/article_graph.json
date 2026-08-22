@@ -1,0 +1,125 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Combat 18",
+      "original_text_name": "Combat 18",
+      "aliases": [
+        "C18",
+        "318"
+      ],
+      "context": "Neo-Nazi terrorist organisation founded in 1992 in the UK, active worldwide.",
+      "time_period": "1992-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Combat_18&oldid=1359357984"
+    },
+    {
+      "standard_name": "Blood & Honour",
+      "original_text_name": "Blood & Honour",
+      "aliases": [],
+      "context": "Neo-Nazi group affiliated with Combat 18, added to Canadian terrorist list alongside it.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Combat_18&oldid=1359357984"
+    },
+    {
+      "standard_name": "British National Party",
+      "original_text_name": "British National Party",
+      "aliases": [
+        "BNP"
+      ],
+      "context": "Far-right political party that formed Combat 18 as a stewarding group in 1992.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Combat_18&oldid=1359357984"
+    },
+    {
+      "standard_name": "White Wolves",
+      "original_text_name": "White Wolves",
+      "aliases": [],
+      "context": "Alleged splinter group of Combat 18, set up by former C18 second-in-command Del O'Connor.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Combat_18&oldid=1359357984"
+    },
+    {
+      "standard_name": "Racial Volunteer Force",
+      "original_text_name": "Racial Volunteer Force",
+      "aliases": [],
+      "context": "Splinter group from Combat 18 in 2002, retains close links to parent organisation.",
+      "time_period": "2002-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Combat_18&oldid=1359357984"
+    },
+    {
+      "standard_name": "Atomwaffen Division",
+      "original_text_name": "Atomwaffen",
+      "aliases": [],
+      "context": "Neo-Nazi group that received firearms trafficked by Serbian Combat 18.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Combat_18&oldid=1359357984"
+    },
+    {
+      "standard_name": "Order of Nine Angles",
+      "original_text_name": "Order of Nine Angles",
+      "aliases": [
+        "O9A"
+      ],
+      "context": "Terrorist organization banned in New Zealand in 2025; Combat 18 was instrumental in setting it up.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Combat_18&oldid=1359357984"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Combat 18",
+      "target": "Blood & Honour",
+      "evidence_quote": "On 21 June 2019, the government of Canada added Combat 18 (alongside its affiliate Blood & Honour) to its list of terrorist organisations",
+      "context": "Blood & Honour is an affiliate of Combat 18.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Combat_18&oldid=1359357984"
+    },
+    {
+      "source": "Combat 18",
+      "target": "British National Party",
+      "evidence_quote": "In early 1992, the far-right British National Party (BNP) formed Combat 18 as a stewarding group",
+      "context": "The BNP formed Combat 18 as a stewarding group.",
+      "relationship": "other",
+      "time_period": "1992",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Combat_18&oldid=1359357984"
+    },
+    {
+      "source": "Combat 18",
+      "target": "White Wolves",
+      "evidence_quote": "Some journalists believed that the White Wolves are a C18 splinter group, alleging that the group had been set up by Del O'Connor, the former second-in-command of C18",
+      "context": "White Wolves are alleged to be a splinter group of Combat 18.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Combat_18&oldid=1359357984"
+    },
+    {
+      "source": "Combat 18",
+      "target": "Racial Volunteer Force",
+      "evidence_quote": "A group calling itself the Racial Volunteer Force split from C18 in 2002, although it has retained close links to its parent organisation.",
+      "context": "Racial Volunteer Force split from Combat 18 but retains close links.",
+      "relationship": "other",
+      "time_period": "2002-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Combat_18&oldid=1359357984"
+    },
+    {
+      "source": "Combat 18",
+      "target": "Atomwaffen Division",
+      "evidence_quote": "In 2019 Serbian Combat 18 was discovered to be trafficking firearms to Atomwaffen neo-Nazis selling handguns, assault rifles, grenades and RPG-7s from the Balkans to French neo-Nazis in Marseille.",
+      "context": "Serbian Combat 18 trafficked firearms to Atomwaffen Division.",
+      "relationship": "cooperation",
+      "time_period": "2019",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Combat_18&oldid=1359357984"
+    },
+    {
+      "source": "Combat 18",
+      "target": "Order of Nine Angles",
+      "evidence_quote": "The New Zealand Police said in a statement that Combat 18 had been instrumental in setting up the O9A.",
+      "context": "Combat 18 was instrumental in setting up the Order of Nine Angles.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Combat_18&oldid=1359357984"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Combat_18&oldid=1359357984",
+  "source_file": "en_Combat_18"
+}

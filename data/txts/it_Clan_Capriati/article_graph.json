@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Clan Capriati",
+      "original_text_name": "Clan Capriati",
+      "aliases": [
+        "Capriati"
+      ],
+      "context": "Criminal organization from Bari, Italy, involved in drug trafficking, extortion, and gambling.",
+      "time_period": "since the 1980s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Capriati&oldid=150318784"
+    },
+    {
+      "standard_name": "Clan Parisi",
+      "original_text_name": "clan Parisi",
+      "aliases": [],
+      "context": "Criminal organization from Bari, Italy, historical ally of Clan Capriati.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Capriati&oldid=150318784"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Clan Capriati",
+      "target": "Clan Parisi",
+      "evidence_quote": "ha avuto anche il sostegno di Tommaso Parisi, figlio di Savino Parisi, boss del clan Parisi, storico alleato dei Capriati.",
+      "context": "Clan Parisi is a historical ally of Clan Capriati, providing support.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Capriati&oldid=150318784"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Capriati&oldid=150318784",
+  "source_file": "it_Clan_Capriati"
+}

@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cartel de Tepalcatepec",
+      "original_text_name": "Cartel de Tepalcatepec",
+      "aliases": [
+        "Cartel del Abuelo"
+      ],
+      "context": "Mexican criminal organization dedicated to drug trafficking, known for clashes with CJNG in Jalisco-Michoacán border.",
+      "time_period": "2018",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Tepalcatepec&oldid=173306959"
+    },
+    {
+      "standard_name": "Cartel de Jalisco Nueva Generación",
+      "original_text_name": "Cartel de Jalisco Nueva Generación",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Mexican criminal organization, enemy of Cartel de Tepalcatepec.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Tepalcatepec&oldid=173306959"
+    },
+    {
+      "standard_name": "Cárteles Unidos",
+      "original_text_name": "Carteles Unidos",
+      "aliases": [],
+      "context": "Alliance of criminal groups that protects Cartel de Tepalcatepec.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Tepalcatepec&oldid=173306959"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cartel de Tepalcatepec",
+      "target": "Cartel de Jalisco Nueva Generación",
+      "evidence_quote": "El Cartel de Tepalcatepec , también conocido como el Cartel del Abuelo , es una organización criminal mexicana dedicada al tráfico de drogas, conocida por sus constantes enfrentamientos y disputas con el Cartel de Jalisco Nueva Generación en la frontera de Jalisco y Michoacán.",
+      "context": "The two cartels are in constant clashes and disputes.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Tepalcatepec&oldid=173306959"
+    },
+    {
+      "source": "Cartel de Tepalcatepec",
+      "target": "Cárteles Unidos",
+      "evidence_quote": "El Cartel de Tepalcatepec antiguamente fue un grupo de autodefensas local, para luego pasar al narcotráfico , integrandosé a los Carteles Unidos para luchar contra el Cartel Jalisco Nueva Generación.",
+      "context": "Cartel de Tepalcatepec joined Cárteles Unidos to fight CJNG.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Tepalcatepec&oldid=173306959"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Tepalcatepec&oldid=173306959",
+  "source_file": "es_Cártel_de_Tepalcatepec"
+}

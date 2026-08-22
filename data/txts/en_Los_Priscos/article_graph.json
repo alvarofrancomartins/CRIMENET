@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Priscos",
+      "original_text_name": "Los Priscos",
+      "aliases": [
+        "Prisco brothers"
+      ],
+      "context": "Criminal group affiliated with the Medellín Cartel, acted as its armed wing in the 1980s-1991.",
+      "time_period": "1980s-1991",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Priscos&oldid=1359135666"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [],
+      "context": "Colombian drug cartel led by Pablo Escobar, active in the 1980s-1990s.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Priscos&oldid=1359135666"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Priscos",
+      "target": "Medellín Cartel",
+      "evidence_quote": "Los Priscos were a criminal group affiliated with the Medellín Cartel in Colombia.",
+      "context": "Los Priscos were affiliated with and acted as the armed wing of the Medellín Cartel.",
+      "relationship": "cooperation",
+      "time_period": "1980s-1991",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Priscos&oldid=1359135666"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Los_Priscos&oldid=1359135666",
+  "source_file": "en_Los_Priscos"
+}

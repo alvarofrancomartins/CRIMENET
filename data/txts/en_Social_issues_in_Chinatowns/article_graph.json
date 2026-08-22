@@ -1,0 +1,88 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Tongs",
+      "original_text_name": "tongs",
+      "aliases": [],
+      "context": "Chinese secret societies prominent in the 19th and 20th centuries, involved in organized crime in Chinatowns.",
+      "time_period": "19th and 20th centuries",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Social_issues_in_Chinatowns&oldid=1345870102"
+    },
+    {
+      "standard_name": "Triads",
+      "original_text_name": "triads",
+      "aliases": [],
+      "context": "Hong Kong-based organized crime groups operating in Chinatowns worldwide, involved in smuggling and extortion.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Social_issues_in_Chinatowns&oldid=1345870102"
+    },
+    {
+      "standard_name": "Wah Ching",
+      "original_text_name": "Wah Ching",
+      "aliases": [
+        "華青"
+      ],
+      "context": "Hong Kong-born immigrant gang active in San Francisco's Chinatown since the late 1960s.",
+      "time_period": "since the late 1960s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Social_issues_in_Chinatowns&oldid=1345870102"
+    },
+    {
+      "standard_name": "Joe Boys",
+      "original_text_name": "Joe Boys",
+      "aliases": [],
+      "context": "Chinese American street gang named after a major street in San Francisco's Chinatown.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Social_issues_in_Chinatowns&oldid=1345870102"
+    },
+    {
+      "standard_name": "Jackson Street Boys",
+      "original_text_name": "Jackson Street Boys",
+      "aliases": [
+        "Jackson Boys"
+      ],
+      "context": "Chinese American street gang named after a major street in San Francisco's Chinatown, involved in turf wars and illegal fireworks trafficking.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Social_issues_in_Chinatowns&oldid=1345870102"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Wah Ching",
+      "target": "Joe Boys",
+      "evidence_quote": "Examples of such street gangs include the Joe Boys and Jackson Street Boys, which are named after the major street of San Francisco's Chinatown.",
+      "context": "Both are examples of Chinese American street gangs with connections to tongs and triads, but no direct relationship is stated.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Social_issues_in_Chinatowns&oldid=1345870102"
+    },
+    {
+      "source": "Wah Ching",
+      "target": "Jackson Street Boys",
+      "evidence_quote": "Examples of such street gangs include the Joe Boys and Jackson Street Boys, which are named after the major street of San Francisco's Chinatown.",
+      "context": "Both are examples of Chinese American street gangs with connections to tongs and triads, but no direct relationship is stated.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Social_issues_in_Chinatowns&oldid=1345870102"
+    },
+    {
+      "source": "Joe Boys",
+      "target": "Jackson Street Boys",
+      "evidence_quote": "Examples of such street gangs include the Joe Boys and Jackson Street Boys, which are named after the major street of San Francisco's Chinatown.",
+      "context": "Both are examples of Chinese American street gangs with connections to tongs and triads, but no direct relationship is stated.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Social_issues_in_Chinatowns&oldid=1345870102"
+    },
+    {
+      "source": "Tongs",
+      "target": "Triads",
+      "evidence_quote": "In modern times, competing Asian street gangs and organized crime, such as the tongs and the Hong Kong-based triads, continue to plague the metropolitan Chinatowns worldwide where Triads have their operations",
+      "context": "Both are mentioned as examples of organized crime in Chinatowns, but no direct relationship between them is stated.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Social_issues_in_Chinatowns&oldid=1345870102"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Social_issues_in_Chinatowns&oldid=1345870102",
+  "source_file": "en_Social_issues_in_Chinatowns"
+}

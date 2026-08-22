@@ -1,0 +1,177 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Grupo Flechas",
+      "original_text_name": "Grupo Flechas",
+      "aliases": [
+        "Operativa MZ/MF",
+        "Operativa MZ",
+        "Grupo Flechas MZ"
+      ],
+      "context": "Armed wing of La Mayiza faction of Sinaloa Cartel, created by Ismael Zambada to fight CJNG.",
+      "time_period": "2020-presente",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "standard_name": "Cártel de Sinaloa",
+      "original_text_name": "Cártel de Sinaloa",
+      "aliases": [],
+      "context": "Mexican drug cartel, parent organization of La Mayiza faction.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "standard_name": "La Mayiza",
+      "original_text_name": "La Mayiza",
+      "aliases": [],
+      "context": "Faction of Sinaloa Cartel led by Ismael Zambada.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "standard_name": "Cártel de Jalisco Nueva Generación",
+      "original_text_name": "Cártel de Jalisco Nueva Generación",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Mexican drug cartel, enemy of Grupo Flechas and Sinaloa Cartel.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "standard_name": "Cártel de Santa Rosa de Lima",
+      "original_text_name": "Cártel de Santa Rosa de Lima",
+      "aliases": [],
+      "context": "Mexican cartel led by El Marro, allied with Sinaloa Cartel.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "standard_name": "Cártel Nueva Plaza",
+      "original_text_name": "Cártel Nueva Plaza",
+      "aliases": [],
+      "context": "Splinter group from CJNG, allied with Grupo Flechas.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "standard_name": "Cártel del Noreste",
+      "original_text_name": "Cártel del Noreste",
+      "aliases": [],
+      "context": "Mexican cartel listed as ally of Grupo Flechas in infobox.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "standard_name": "Los Chapitos",
+      "original_text_name": "Los Chapitos",
+      "aliases": [],
+      "context": "Faction of Sinaloa Cartel, listed as enemy of Grupo Flechas in infobox.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Grupo Flechas",
+      "target": "Cártel de Sinaloa",
+      "evidence_quote": "El Grupo Flechas también conocido como Operativa MZ/MF , es un brazo armado de los hermanos Cabrera Sarabia de Durango de la facción La Mayiza del Cártel de Sinaloa",
+      "context": "Grupo Flechas is an armed wing of the Sinaloa Cartel's La Mayiza faction.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "source": "Grupo Flechas",
+      "target": "La Mayiza",
+      "evidence_quote": "El Grupo Flechas también conocido como Operativa MZ/MF , es un brazo armado de los hermanos Cabrera Sarabia de Durango de la facción La Mayiza del Cártel de Sinaloa",
+      "context": "Grupo Flechas is the armed wing of the La Mayiza faction.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "source": "Grupo Flechas",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "su misión principal consiste en frenar el avance del Cártel de Jalisco Nueva Generación",
+      "context": "Grupo Flechas's main mission is to stop the advance of CJNG.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "source": "Cártel de Santa Rosa de Lima",
+      "target": "Cártel de Sinaloa",
+      "evidence_quote": "En 2017 el Cártel de Santa Rosa de Lima liderado por José Antonio Yépez Ortiz «El Marro» realizó un pacto con el Cártel de Sinaloa para compartirse las rutas de trasiego de drogas y el robo de combustible en el estado de Guanajuato.",
+      "context": "Santa Rosa de Lima and Sinaloa Cartel made a pact in 2017 to share drug routes and fuel theft.",
+      "relationship": "cooperation",
+      "time_period": "2017",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "source": "Cártel de Santa Rosa de Lima",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "ambas organizaciones tienen un enemigo en común, se trata del Cártel de Jalisco Nueva Generación",
+      "context": "Both Santa Rosa de Lima and Sinaloa Cartel share CJNG as a common enemy.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "source": "Cártel de Sinaloa",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "ambas organizaciones tienen un enemigo en común, se trata del Cártel de Jalisco Nueva Generación",
+      "context": "Sinaloa Cartel and Santa Rosa de Lima share CJNG as a common enemy.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "source": "Grupo Flechas",
+      "target": "Cártel Nueva Plaza",
+      "evidence_quote": "el Grupo Flechas le ha otorgado apoyo armamentistico y financiamiento a un grupo local denominado Cártel Nueva Plaza",
+      "context": "Grupo Flechas provides weapons and funding to Cartel Nueva Plaza.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "source": "Cártel Nueva Plaza",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "el cual se separó del CJNG en 2017 y comenzó a disputarle el territorio a su antiguo aliado",
+      "context": "Cartel Nueva Plaza split from CJNG in 2017 and disputes territory with it.",
+      "relationship": "conflict",
+      "time_period": "2017",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "source": "Grupo Flechas",
+      "target": "Cártel de Santa Rosa de Lima",
+      "evidence_quote": "Aliados: Cártel de Santa Rosa de Lima",
+      "context": "Infobox lists Santa Rosa de Lima as an ally of Grupo Flechas.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "source": "Grupo Flechas",
+      "target": "Cártel del Noreste",
+      "evidence_quote": "Aliados: Cártel del Noreste",
+      "context": "Infobox lists Cartel del Noreste as an ally of Grupo Flechas.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    },
+    {
+      "source": "Grupo Flechas",
+      "target": "Los Chapitos",
+      "evidence_quote": "Enemigos: Los Chapitos",
+      "context": "Infobox lists Los Chapitos as an enemy of Grupo Flechas.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Grupo_Flechas&oldid=172931786",
+  "source_file": "es_Grupo_Flechas"
+}

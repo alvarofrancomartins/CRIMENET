@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "standard_name": "The Corporation",
+      "original_text_name": "The Corporation",
+      "aliases": [
+        "Cuban mafia"
+      ],
+      "context": "Cuban-American organized crime group founded by José Miguel Battle Sr., involved in gambling, loansharking, drug trafficking, and murder.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jos%C3%A9_Miguel_Battle_Sr.&oldid=1358767151"
+    },
+    {
+      "standard_name": "Italian Mafia",
+      "original_text_name": "Italian Mafia",
+      "aliases": [],
+      "context": "Italian organized crime families in the New York City area.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jos%C3%A9_Miguel_Battle_Sr.&oldid=1358767151"
+    },
+    {
+      "standard_name": "Trafficante crime family",
+      "original_text_name": "Trafficante crime family",
+      "aliases": [],
+      "context": "Mafia crime family in Florida, led by Santo Trafficante Jr.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jos%C3%A9_Miguel_Battle_Sr.&oldid=1358767151"
+    }
+  ],
+  "edges": [
+    {
+      "source": "The Corporation",
+      "target": "Italian Mafia",
+      "evidence_quote": "He allegedly established good working relationships with the Italian Mafia in the New York City area, but at other times the corporation had violent turf wars with various Italian mafia families.",
+      "context": "The Corporation had both cooperative and conflictual relationships with the Italian Mafia.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jos%C3%A9_Miguel_Battle_Sr.&oldid=1358767151"
+    },
+    {
+      "source": "The Corporation",
+      "target": "Italian Mafia",
+      "evidence_quote": "He allegedly established good working relationships with the Italian Mafia in the New York City area, but at other times the corporation had violent turf wars with various Italian mafia families.",
+      "context": "The Corporation had violent turf wars with various Italian mafia families.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jos%C3%A9_Miguel_Battle_Sr.&oldid=1358767151"
+    },
+    {
+      "source": "The Corporation",
+      "target": "Trafficante crime family",
+      "evidence_quote": "He also introduced Battle to Santo Trafficante Jr., boss of the Trafficante crime family in Florida.",
+      "context": "Battle was introduced to the Trafficante crime family boss, indicating a connection.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Jos%C3%A9_Miguel_Battle_Sr.&oldid=1358767151"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Jos%C3%A9_Miguel_Battle_Sr.&oldid=1358767151",
+  "source_file": "en_José_Miguel_Battle_Sr."
+}

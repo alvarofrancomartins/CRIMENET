@@ -1,0 +1,94 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Scattered Spider",
+      "original_text_name": "Scattered Spider",
+      "aliases": [
+        "UNC3944",
+        "ShinyHunters",
+        "Star Fraud",
+        "Octo Tempest",
+        "Scatter Swine",
+        "Muddled Libra"
+      ],
+      "context": "Hacking group mostly made up of teens and young adults in the US and UK, involved in ransomware and data theft.",
+      "time_period": "c. May 2022",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Scattered_Spider&oldid=1359362483"
+    },
+    {
+      "standard_name": "The Com",
+      "original_text_name": "The Com",
+      "aliases": [
+        "The Community",
+        "Hacker Com"
+      ],
+      "context": "Larger global hacking community, also known as 'The Community', with members who have hacked major American tech companies.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Scattered_Spider&oldid=1359362483"
+    },
+    {
+      "standard_name": "ShinyHunters",
+      "original_text_name": "ShinyHunters",
+      "aliases": [],
+      "context": "Hacking group that merged with Scattered Spider in 2025.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Scattered_Spider&oldid=1359362483"
+    },
+    {
+      "standard_name": "Lapsus$",
+      "original_text_name": "Lapsus$",
+      "aliases": [],
+      "context": "Cybercrime group that formed a collective with Scattered Spider and ShinyHunters in 2025.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Scattered_Spider&oldid=1359362483"
+    },
+    {
+      "standard_name": "ALPHV",
+      "original_text_name": "ALPHV",
+      "aliases": [],
+      "context": "Software development team providing ransomware as a service, collaborated with Scattered Spider.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Scattered_Spider&oldid=1359362483"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Scattered Spider",
+      "target": "The Com",
+      "evidence_quote": "The group is believed to be affiliated with cybercriminal network, \" The Com \", or more specifically the Hacker Com, a subset of The Com.",
+      "context": "Scattered Spider is affiliated with The Com, a larger cybercriminal network.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Scattered_Spider&oldid=1359362483"
+    },
+    {
+      "source": "Scattered Spider",
+      "target": "ShinyHunters",
+      "evidence_quote": "In 2025, DataBreaches.net reported that Scattered Spider had merged with ShinyHunters or vice versa.",
+      "context": "Scattered Spider merged with ShinyHunters in 2025.",
+      "relationship": "other",
+      "time_period": "2025",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Scattered_Spider&oldid=1359362483"
+    },
+    {
+      "source": "Scattered Spider",
+      "target": "Lapsus$",
+      "evidence_quote": "A collective of cybercrime groups, including Scattered Spider, Lapsus$ and ShinyHunters was forged in 2025, and has created at least 16 Telegram channels since August 8, 2025.",
+      "context": "Scattered Spider formed a collective with Lapsus$ and ShinyHunters in 2025.",
+      "relationship": "cooperation",
+      "time_period": "2025",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Scattered_Spider&oldid=1359362483"
+    },
+    {
+      "source": "Scattered Spider",
+      "target": "ALPHV",
+      "evidence_quote": "Scattered Spider collaborated with ALPHV , a software development team which provides ransomware as a service.",
+      "context": "Scattered Spider collaborated with ALPHV for ransomware operations.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Scattered_Spider&oldid=1359362483"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Scattered_Spider&oldid=1359362483",
+  "source_file": "en_Scattered_Spider"
+}

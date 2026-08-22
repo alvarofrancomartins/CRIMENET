@@ -1,0 +1,108 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Independent Cartel of Acapulco",
+      "original_text_name": "Independent Cartel of Acapulco",
+      "aliases": [
+        "Independent Cartel of Guerrero",
+        "CIDA",
+        "Cártel Independiente de Acapulco"
+      ],
+      "context": "Mexican criminal gang based in Acapulco, Guerrero, involved in drug trafficking, extortion, and violence.",
+      "time_period": "2010–2014",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Independent_Cartel_of_Acapulco&oldid=1339078121"
+    },
+    {
+      "standard_name": "Beltrán-Leyva Cartel",
+      "original_text_name": "Beltrán-Leyva Cartel",
+      "aliases": [
+        "Beltrán Leyva cartel"
+      ],
+      "context": "Mexican drug cartel that originally operated in Acapulco; splintered after leader's death.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Independent_Cartel_of_Acapulco&oldid=1339078121"
+    },
+    {
+      "standard_name": "La Barredora",
+      "original_text_name": "La Barredora",
+      "aliases": [],
+      "context": "Rival gang formed from a splinter of the Independent Cartel of Acapulco; affiliated with Sinaloa Cartel.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Independent_Cartel_of_Acapulco&oldid=1339078121"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "context": "Major Mexican drug cartel; La Barredora is affiliated with it.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Independent_Cartel_of_Acapulco&oldid=1339078121"
+    },
+    {
+      "standard_name": "Milenio Cartel",
+      "original_text_name": "Milenio Cartel",
+      "aliases": [],
+      "context": "Mexican drug cartel listed as an ally of the Independent Cartel of Acapulco in the infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Independent_Cartel_of_Acapulco&oldid=1339078121"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Independent Cartel of Acapulco",
+      "target": "Beltrán-Leyva Cartel",
+      "evidence_quote": "The criminal group came into existence during the rapid decentralization of Mexico's drug trafficking organizations as a split-off group of the Beltrán-Leyva Cartel.",
+      "context": "The Independent Cartel of Acapulco was formed as a splinter group from the Beltrán-Leyva Cartel.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Independent_Cartel_of_Acapulco&oldid=1339078121"
+    },
+    {
+      "source": "Independent Cartel of Acapulco",
+      "target": "La Barredora",
+      "evidence_quote": "Within weeks, however, the group had splintered also, forming a new and rival group known as La Barredora.",
+      "context": "La Barredora splintered from the Independent Cartel of Acapulco and became a rival.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Independent_Cartel_of_Acapulco&oldid=1339078121"
+    },
+    {
+      "source": "Independent Cartel of Acapulco",
+      "target": "Sinaloa Cartel",
+      "evidence_quote": "Rivals: La Barredora , Sinaloa Cartel",
+      "context": "The infobox lists the Sinaloa Cartel as a rival of the Independent Cartel of Acapulco.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Independent_Cartel_of_Acapulco&oldid=1339078121"
+    },
+    {
+      "source": "Independent Cartel of Acapulco",
+      "target": "Milenio Cartel",
+      "evidence_quote": "Allies: Beltrán-Leyva Cartel , Milenio Cartel",
+      "context": "The infobox lists the Milenio Cartel as an ally of the Independent Cartel of Acapulco.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Independent_Cartel_of_Acapulco&oldid=1339078121"
+    },
+    {
+      "source": "Independent Cartel of Acapulco",
+      "target": "Beltrán-Leyva Cartel",
+      "evidence_quote": "Allies: Beltrán-Leyva Cartel , Milenio Cartel",
+      "context": "The infobox lists the Beltrán-Leyva Cartel as an ally of the Independent Cartel of Acapulco.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Independent_Cartel_of_Acapulco&oldid=1339078121"
+    },
+    {
+      "source": "La Barredora",
+      "target": "Sinaloa Cartel",
+      "evidence_quote": "La Barredora, a Sinaloa Cartel -affiliated gang",
+      "context": "La Barredora is affiliated with the Sinaloa Cartel.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Independent_Cartel_of_Acapulco&oldid=1339078121"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Independent_Cartel_of_Acapulco&oldid=1339078121",
+  "source_file": "en_Independent_Cartel_of_Acapulco"
+}

@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Brooklyn Camorra",
+      "original_text_name": "Brooklyn Camorra",
+      "aliases": [
+        "New York Camorra",
+        "NY Camorra"
+      ],
+      "context": "Loose grouping of early-20th-century organized crime gangs formed among Italian immigrants from Naples and Campania in Brooklyn.",
+      "time_period": "1885–1918",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camorra_in_New_York_City&oldid=1339077091"
+    },
+    {
+      "standard_name": "Navy Street gang",
+      "original_text_name": "Navy Street gang",
+      "aliases": [],
+      "context": "Neapolitan Camorra gang in Brooklyn headed by Alessandro Vollero and Leopoldo Lauritano.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camorra_in_New_York_City&oldid=1339077091"
+    },
+    {
+      "standard_name": "Coney Island gang",
+      "original_text_name": "Coney Island gang",
+      "aliases": [],
+      "context": "Neapolitan Camorra gang under Pellegrino Morano operating from Santa Lucia restaurant in Coney Island.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camorra_in_New_York_City&oldid=1339077091"
+    },
+    {
+      "standard_name": "Morello crime family",
+      "original_text_name": "Morello crime family",
+      "aliases": [
+        "Morello family"
+      ],
+      "context": "Sicilian Mafia group based in Italian Harlem, Manhattan.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camorra_in_New_York_City&oldid=1339077091"
+    },
+    {
+      "standard_name": "Italian-American Mafia",
+      "original_text_name": "Italian-American Mafia",
+      "aliases": [],
+      "context": "Modern organized crime groups that absorbed Neapolitan/Campanian groups after the Camorra's downfall.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camorra_in_New_York_City&oldid=1339077091"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Navy Street gang",
+      "target": "Coney Island gang",
+      "evidence_quote": "Both gangs initially worked together against the Morello family from Italian Harlem for control of the lucrative New York rackets",
+      "context": "The two Camorra gangs cooperated against the Morello family.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camorra_in_New_York_City&oldid=1339077091"
+    },
+    {
+      "source": "Navy Street gang",
+      "target": "Morello crime family",
+      "evidence_quote": "Both gangs initially worked together against the Morello family from Italian Harlem for control of the lucrative New York rackets",
+      "context": "The Navy Street gang and Coney Island gang were in conflict with the Morello family.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camorra_in_New_York_City&oldid=1339077091"
+    },
+    {
+      "source": "Coney Island gang",
+      "target": "Morello crime family",
+      "evidence_quote": "Both gangs initially worked together against the Morello family from Italian Harlem for control of the lucrative New York rackets",
+      "context": "The Coney Island gang and Navy Street gang were in conflict with the Morello family.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camorra_in_New_York_City&oldid=1339077091"
+    },
+    {
+      "source": "Brooklyn Camorra",
+      "target": "Italian-American Mafia",
+      "evidence_quote": "Following the downfall of the New York Camorra, Neapolitan or Campanian organized crime groups in New York were absorbed into or merged with the newly dominant Sicilian Mafia groups in New York, creating the modern Italian-American Mafia",
+      "context": "The Brooklyn Camorra was absorbed into the Italian-American Mafia.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Camorra_in_New_York_City&oldid=1339077091"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Camorra_in_New_York_City&oldid=1339077091",
+  "source_file": "en_Camorra_in_New_York_City"
+}

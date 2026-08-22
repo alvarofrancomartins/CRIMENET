@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Rasta City",
+      "original_text_name": "Rasta City",
+      "aliases": [
+        "Seven",
+        "7"
+      ],
+      "context": "Gang in Trinidad and Tobago, formerly called Seven.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rasta_City&oldid=1335642021"
+    },
+    {
+      "standard_name": "Muslim City",
+      "original_text_name": "Muslim City",
+      "aliases": [],
+      "context": "Former main rival of Rasta City.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rasta_City&oldid=1335642021"
+    },
+    {
+      "standard_name": "Sixx/6ixx/6",
+      "original_text_name": "Sixx/6ixx/6",
+      "aliases": [
+        "6"
+      ],
+      "context": "Splinter group formed from Rasta City after a falling out.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rasta_City&oldid=1335642021"
+    },
+    {
+      "standard_name": "ABG",
+      "original_text_name": "ABG (Anybody Gets It)",
+      "aliases": [
+        "Anybody Gets It"
+      ],
+      "context": "Current enemy of Rasta City.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rasta_City&oldid=1335642021"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Rasta City",
+      "target": "Muslim City",
+      "evidence_quote": "Their main rival used to be Muslim City",
+      "context": "Rasta City and Muslim City were rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rasta_City&oldid=1335642021"
+    },
+    {
+      "source": "Rasta City",
+      "target": "Sixx/6ixx/6",
+      "evidence_quote": "after a falling out between some Rasta City members, a split occurred, leading to the formation of Sixx/6ixx/6 and Seven, the latter of which is now called Rasta City",
+      "context": "Sixx/6ixx/6 split from Rasta City.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rasta_City&oldid=1335642021"
+    },
+    {
+      "source": "Rasta City",
+      "target": "Sixx/6ixx/6",
+      "evidence_quote": "Their current enemies also include 6",
+      "context": "Rasta City and Sixx/6ixx/6 are currently enemies.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rasta_City&oldid=1335642021"
+    },
+    {
+      "source": "Rasta City",
+      "target": "ABG",
+      "evidence_quote": "Their current enemies also include 6 and ABG (Anybody Gets It)",
+      "context": "Rasta City and ABG are enemies.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rasta_City&oldid=1335642021"
+    },
+    {
+      "source": "Rasta City",
+      "target": "Sixx/6ixx/6",
+      "evidence_quote": "In November 2023 it was reported in the news that Rasta City had agreed to a peace deal with Sixx.",
+      "context": "Rasta City agreed to a peace deal with Sixx.",
+      "relationship": "other",
+      "time_period": "November 2023",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rasta_City&oldid=1335642021"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Rasta_City&oldid=1335642021",
+  "source_file": "en_Rasta_City"
+}

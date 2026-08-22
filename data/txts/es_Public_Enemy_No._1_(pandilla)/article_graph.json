@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Public Enemy No. 1",
+      "original_text_name": "Public Enemy No. 1",
+      "aliases": [
+        "PEN1",
+        "PENI Death Squad",
+        "PDS"
+      ],
+      "context": "A street and prison gang based in Orange County, California, involved in identity theft, drug trafficking, and other crimes.",
+      "time_period": "~1986-Presente",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Public_Enemy_No._1_%28pandilla%29&oldid=164569674"
+    },
+    {
+      "standard_name": "Hermandad Aria",
+      "original_text_name": "Hermandad Aria",
+      "aliases": [],
+      "context": "A white supremacist prison gang in the United States.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Public_Enemy_No._1_%28pandilla%29&oldid=164569674"
+    },
+    {
+      "standard_name": "Nazi Lowriders",
+      "original_text_name": "Lowriders nazis",
+      "aliases": [
+        "Nazi Lowriders"
+      ],
+      "context": "A white supremacist prison gang in California.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Public_Enemy_No._1_%28pandilla%29&oldid=164569674"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Public Enemy No. 1",
+      "target": "Hermandad Aria",
+      "evidence_quote": "La pandilla también formó vínculos con la Hermandad Aria y los Lowriders nazis en el sistema penitenciario.",
+      "context": "PEN1 formed ties with the Aryan Brotherhood in the prison system.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Public_Enemy_No._1_%28pandilla%29&oldid=164569674"
+    },
+    {
+      "source": "Public Enemy No. 1",
+      "target": "Nazi Lowriders",
+      "evidence_quote": "La pandilla también formó vínculos con la Hermandad Aria y los Lowriders nazis en el sistema penitenciario.",
+      "context": "PEN1 formed ties with the Nazi Lowriders in the prison system.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Public_Enemy_No._1_%28pandilla%29&oldid=164569674"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Public_Enemy_No._1_%28pandilla%29&oldid=164569674",
+  "source_file": "es_Public_Enemy_No._1_(pandilla)"
+}

@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "standard_name": "El Forastero Motorcycle Club",
+      "original_text_name": "El Forastero Motorcycle Club",
+      "aliases": [
+        "EFMC",
+        "El Forasteros"
+      ],
+      "context": "One-percenter outlaw motorcycle club founded in 1962, involved in drug trafficking and other crimes.",
+      "time_period": "1962",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=El_Forastero_Motorcycle_Club&oldid=1356895281"
+    },
+    {
+      "standard_name": "Satan Slaves Motorcycle Club",
+      "original_text_name": "Satan Slaves MC",
+      "aliases": [],
+      "context": "Outlaw motorcycle club that turned down El Forastero for a chapter.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=El_Forastero_Motorcycle_Club&oldid=1356895281"
+    },
+    {
+      "standard_name": "Galloping Goose Motorcycle Club",
+      "original_text_name": "Galloping Goose MC",
+      "aliases": [
+        "Galloping Goose Motorcycle Club"
+      ],
+      "context": "Motorcycle club with close links to El Forastero, involved in drug trafficking together.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=El_Forastero_Motorcycle_Club&oldid=1356895281"
+    }
+  ],
+  "edges": [
+    {
+      "source": "El Forastero Motorcycle Club",
+      "target": "Satan Slaves Motorcycle Club",
+      "evidence_quote": "El Forastero Motorcycle Club ( EFMC ) is a one-percenter motorcycle club which was established after being turned down for a chapter by the Satan Slaves MC.",
+      "context": "Satan Slaves MC rejected El Forastero's application for a chapter, leading to El Forastero's independent founding.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=El_Forastero_Motorcycle_Club&oldid=1356895281"
+    },
+    {
+      "source": "El Forastero Motorcycle Club",
+      "target": "Galloping Goose Motorcycle Club",
+      "evidence_quote": "The club was founded in 1962 by Tom Fugle and Harlan \"Tiny\" Brower has chapters in Iowa, Minnesota, Kansas, and Missouri and close links to the Galloping Goose MC .",
+      "context": "El Forastero has close links to Galloping Goose MC, and members of both clubs pooled money to buy drugs together.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=El_Forastero_Motorcycle_Club&oldid=1356895281"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=El_Forastero_Motorcycle_Club&oldid=1356895281",
+  "source_file": "en_El_Forastero_Motorcycle_Club"
+}

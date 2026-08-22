@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "HooNaRa",
+      "original_text_name": "HooNaRa",
+      "aliases": [
+        "Hooligans-Nazis-Racists"
+      ],
+      "context": "Far-right hooligan group based around Chemnitzer FC, active since early 1990s.",
+      "time_period": "early 1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=HooNaRa&oldid=1344673254"
+    },
+    {
+      "standard_name": "CFC Security",
+      "original_text_name": "CFC Security",
+      "aliases": [],
+      "context": "Security service run by Thomas Haller, associated with HooNaRa.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=HooNaRa&oldid=1344673254"
+    }
+  ],
+  "edges": [
+    {
+      "source": "HooNaRa",
+      "target": "CFC Security",
+      "evidence_quote": "HooNaRa was founded in the early 1990s by Thomas Haller, who also ran the security service CFC Security.",
+      "context": "HooNaRa was founded by the same person who ran CFC Security, indicating a close association.",
+      "relationship": "other",
+      "time_period": "early 1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=HooNaRa&oldid=1344673254"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=HooNaRa&oldid=1344673254",
+  "source_file": "en_HooNaRa"
+}

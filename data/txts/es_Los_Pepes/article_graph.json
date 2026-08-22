@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Pepes",
+      "original_text_name": "Los Pepes",
+      "aliases": [
+        "Los Perseguidos por Pablo Escobar"
+      ],
+      "context": "Grupo narcoparamilitar colombiano conformado por ex-socios de Pablo Escobar, financiado por el Cartel de Cali, activo entre 1992 y 1993.",
+      "time_period": "1992-1993",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "standard_name": "Cartel de Cali",
+      "original_text_name": "Cartel de Cali",
+      "aliases": [],
+      "context": "Cartel de drogas colombiano, rival del Cartel de Medellín, financió a Los Pepes.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "standard_name": "Cartel de Medellín",
+      "original_text_name": "Cartel de Medellín",
+      "aliases": [],
+      "context": "Cartel de drogas colombiano liderado por Pablo Escobar, enemigo de Los Pepes y del Cartel de Cali.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "standard_name": "Autodefensas Unidas de Colombia",
+      "original_text_name": "AUC",
+      "aliases": [
+        "Autodefensas Unidas de Colombia"
+      ],
+      "context": "Grupo paramilitar colombiano que surgió después de Los Pepes, fundado por los hermanos Castaño.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "standard_name": "Oficina de Envigado",
+      "original_text_name": "Oficina de Envigado",
+      "aliases": [],
+      "context": "Organización criminal colombiana, liderada por Don Berna tras la muerte de Escobar.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "standard_name": "Cartel del Norte del Valle",
+      "original_text_name": "cartel del Norte del Valle",
+      "aliases": [],
+      "context": "Cartel de drogas colombiano que colaboró con Los Pepes.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "standard_name": "Los Pepes",
+      "original_text_name": "Los Pepes",
+      "aliases": [
+        "Los Perseguidos por Pablo Escobar"
+      ],
+      "context": "Grupo narcoparamilitar colombiano conformado por ex-socios de Pablo Escobar, financiado por el Cartel de Cali.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "standard_name": "Cartel de Cali",
+      "original_text_name": "Cartel de Cali",
+      "aliases": [],
+      "context": "Cúpula de narcotraficantes que financió a Los Pepes y fue enemiga de Pablo Escobar.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "standard_name": "Bloque de Búsqueda",
+      "original_text_name": "Bloque de Búsqueda",
+      "aliases": [],
+      "context": "Unidad de la Policía Nacional de Colombia que colaboró con Los Pepes.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "standard_name": "DEA",
+      "original_text_name": "DEA",
+      "aliases": [
+        "Drug Enforcement Administration"
+      ],
+      "context": "Agencia estadounidense que tuvo conexiones con Los Pepes según investigaciones.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "standard_name": "CIA",
+      "original_text_name": "CIA",
+      "aliases": [
+        "Central Intelligence Agency"
+      ],
+      "context": "Agencia de inteligencia estadounidense con conexiones documentadas con Los Pepes.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Pepes",
+      "target": "Cartel de Cali",
+      "evidence_quote": "Los Pepes ... financiado principalmente por la cúpula del Cartel de Cali",
+      "context": "El Cartel de Cali financió a Los Pepes.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "source": "Los Pepes",
+      "target": "Cartel de Medellín",
+      "evidence_quote": "El grupo atacó al cartel de Medellín y más directamente a amigos, familiares y socios de Pablo Escobar",
+      "context": "Los Pepes atacaron al Cartel de Medellín.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "source": "Cartel de Cali",
+      "target": "Cartel de Medellín",
+      "evidence_quote": "los cabecillas del Cartel de Cali, quienes para la época eran los máximos competidores del Cartel de Medellín en el narcotráfico",
+      "context": "El Cartel de Cali era competidor del Cartel de Medellín.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "source": "Los Pepes",
+      "target": "Autodefensas Unidas de Colombia",
+      "evidence_quote": "Otros se consolidarían como líderes de las autodefensas, que se agruparían años después bajo el nombre de AUC",
+      "context": "Miembros de Los Pepes se convirtieron en líderes de las AUC.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "source": "Los Pepes",
+      "target": "Oficina de Envigado",
+      "evidence_quote": "Diego Murillo Bejarano alias «Don Berna», se convirtió con el tiempo en líder de las AUC, así como en un importante narcotraficante de la Oficina de Envigado",
+      "context": "Don Berna, miembro de Los Pepes, lideró la Oficina de Envigado.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "source": "Los Pepes",
+      "target": "Cartel del Norte del Valle",
+      "evidence_quote": "no dudaron en asociarse con los enemigos de Escobar, particularmente el cartel de Cali y el cartel del Norte del Valle",
+      "context": "Los Pepes se asociaron con el Cartel del Norte del Valle.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "source": "Cartel de Cali",
+      "target": "Los Pepes",
+      "evidence_quote": "Los Pepes ... fue un grupo narcoparamilitar colombiano conformado por narcotraficantes ex-socios de Pablo Escobar y financiado principalmente por la cúpula del Cartel de Cali",
+      "context": "El Cartel de Cali financió a Los Pepes.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "source": "Bloque de Búsqueda",
+      "target": "Los Pepes",
+      "evidence_quote": "Los Pepes ... también estaba compuesta por ... varios miembros del Bloque de Búsqueda",
+      "context": "Miembros del Bloque de Búsqueda formaban parte de Los Pepes.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "source": "DEA",
+      "target": "Los Pepes",
+      "evidence_quote": "El Institute for Policy Studies de los Estados Unidos ha investigado sobre las conexiones entre agencias de seguridad de ese país como la CIA y la DEA y Los Pepes.",
+      "context": "La DEA tuvo conexiones con Los Pepes según investigaciones.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    },
+    {
+      "source": "CIA",
+      "target": "Los Pepes",
+      "evidence_quote": "El Institute for Policy Studies de los Estados Unidos ha investigado sobre las conexiones entre agencias de seguridad de ese país como la CIA y la DEA y Los Pepes.",
+      "context": "La CIA tuvo conexiones con Los Pepes según investigaciones.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Pepes&oldid=172096852",
+  "source_file": "es_Los_Pepes"
+}

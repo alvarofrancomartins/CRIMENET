@@ -1,0 +1,204 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Guardiões do Estado",
+      "original_text_name": "Guardiões do Estado",
+      "aliases": [
+        "G.D.E",
+        "GDE"
+      ],
+      "context": "Criminal faction from Fortaleza, Ceará, active 2016-2025, involved in attacks and drug trafficking.",
+      "time_period": "2016-2025",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "CV"
+      ],
+      "context": "Major criminal faction in Brazil, rival of GDE and PCC.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "standard_name": "Primeiro Comando da Capital",
+      "original_text_name": "Primeiro Comando da Capital",
+      "aliases": [
+        "PCC"
+      ],
+      "context": "Major criminal faction in Brazil, allied with GDE at times.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "standard_name": "TDN",
+      "original_text_name": "TDN",
+      "aliases": [
+        "Massa",
+        "Massa Carcerária",
+        "Tudo Neutro"
+      ],
+      "context": "Criminal group that expanded and later became a dissidence of GDE.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "standard_name": "Bonde dos 40",
+      "original_text_name": "Bonde dos 40",
+      "aliases": [],
+      "context": "Criminal faction allied with GDE and PCC in 2017.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "standard_name": "Terceiro Comando Puro",
+      "original_text_name": "Terceiro Comando Puro",
+      "aliases": [
+        "TCP"
+      ],
+      "context": "Criminal faction that GDE changed its name to in 2025.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "standard_name": "SDC",
+      "original_text_name": "SDC",
+      "aliases": [],
+      "context": "Criminal faction listed as ally of GDE in infobox.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "standard_name": "Massa Carcerária",
+      "original_text_name": "Massa Carcerária",
+      "aliases": [
+        "Tudo Neutro"
+      ],
+      "context": "Criminal faction that controlled regions later taken by CV.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Guardiões do Estado",
+      "target": "Comando Vermelho",
+      "evidence_quote": "A G.D.E. foi a segunda maior facção do estado do Ceará nas ruas e no presídio, perdendo o título de maior do estado para o Comando Vermelho",
+      "context": "GDE lost the title of largest faction to CV, indicating rivalry.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "source": "Guardiões do Estado",
+      "target": "Comando Vermelho",
+      "evidence_quote": "Ao lado de integrantes do Comando Vermelho e do Primeiro Comando da Capital , membros da GDE praticaram mais de 400 ações criminosas",
+      "context": "GDE cooperated with CV and PCC in joint attacks in 2019.",
+      "relationship": "cooperation",
+      "time_period": "2019",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "source": "Guardiões do Estado",
+      "target": "Primeiro Comando da Capital",
+      "evidence_quote": "Em 2017, a facção, que antes era 'neutra', decide se aliar ao Primeiro Comando da Capital e ao Bonde dos 40",
+      "context": "GDE allied with PCC and Bonde dos 40 in 2017.",
+      "relationship": "cooperation",
+      "time_period": "2017",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "source": "Guardiões do Estado",
+      "target": "Primeiro Comando da Capital",
+      "evidence_quote": "Porém, a G.D.E deixa a aliança com o PCC após um golpe na liderança da comunidade do Sossego na capital cearense, Fortaleza.",
+      "context": "GDE left the alliance with PCC after a leadership coup.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "source": "Guardiões do Estado",
+      "target": "Bonde dos 40",
+      "evidence_quote": "Em 2017, a facção, que antes era 'neutra', decide se aliar ao Primeiro Comando da Capital e ao Bonde dos 40",
+      "context": "GDE allied with Bonde dos 40 in 2017.",
+      "relationship": "cooperation",
+      "time_period": "2017",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "source": "Guardiões do Estado",
+      "target": "TDN",
+      "evidence_quote": "a região é dominada quase completamente pelo grupo TDN ou MASSA, que é uma dissidência dos antigos membros da GDE",
+      "context": "TDN is a dissident group from GDE.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "source": "Guardiões do Estado",
+      "target": "Terceiro Comando Puro",
+      "evidence_quote": "a antiga maior facção do estado do Ceará, mudou a sua bandeira e passou a usar o nome da facção Terceiro Comando Puro",
+      "context": "GDE changed its name to Terceiro Comando Puro in 2025.",
+      "relationship": "other",
+      "time_period": "2025",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "source": "Guardiões do Estado",
+      "target": "SDC",
+      "evidence_quote": "Aliados: TCP , SDC",
+      "context": "SDC listed as ally of GDE in infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "source": "Guardiões do Estado",
+      "target": "Comando Vermelho",
+      "evidence_quote": "Rivais: CV , PCC , Massa Carcerária",
+      "context": "CV listed as rival of GDE in infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "source": "Guardiões do Estado",
+      "target": "Primeiro Comando da Capital",
+      "evidence_quote": "Rivais: CV , PCC , Massa Carcerária",
+      "context": "PCC listed as rival of GDE in infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "source": "Guardiões do Estado",
+      "target": "Massa Carcerária",
+      "evidence_quote": "Rivais: CV , PCC , Massa Carcerária",
+      "context": "Massa Carcerária listed as rival of GDE in infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "source": "Guardiões do Estado",
+      "target": "Comando Vermelho",
+      "evidence_quote": "A facção também teria mantido um pacto de paz com o Comando Vermelho , que também foi quebrado",
+      "context": "GDE had a peace pact with CV that was later broken.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    },
+    {
+      "source": "Guardiões do Estado",
+      "target": "Comando Vermelho",
+      "evidence_quote": "A disputa por pontos de venda de drogas entre G.D.E e Comando Vermelho estaria por trás de uma 'escalada da tensão'",
+      "context": "GDE and CV fought over drug sales points.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842"
+    }
+  ],
+  "source_url": "https://pt.wikipedia.org/w/index.php?title=Guardi%C3%B5es_do_Estado&oldid=71948842",
+  "source_file": "pt_Guardiões_do_Estado"
+}

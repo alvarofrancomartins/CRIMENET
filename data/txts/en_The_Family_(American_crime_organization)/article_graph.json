@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "The Family",
+      "original_text_name": "The Family",
+      "aliases": [],
+      "context": "Organized crime group known for drug trafficking, founded by Akbar Pray in Newark, New Jersey in the early 1970s.",
+      "time_period": "1970-1995",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Family_%28American_crime_organization%29&oldid=1359551659"
+    },
+    {
+      "standard_name": "New World of Islam",
+      "original_text_name": "New World of Islam",
+      "aliases": [],
+      "context": "Group from which The Family originated, initially focused on bank robberies.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Family_%28American_crime_organization%29&oldid=1359551659"
+    }
+  ],
+  "edges": [
+    {
+      "source": "The Family",
+      "target": "New World of Islam",
+      "evidence_quote": "Pray's organization started in the early 1970s as [an outgrowth of] the New World of Islam.",
+      "context": "The Family originated as an outgrowth of the New World of Islam.",
+      "relationship": "other",
+      "time_period": "early 1970s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=The_Family_%28American_crime_organization%29&oldid=1359551659"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=The_Family_%28American_crime_organization%29&oldid=1359551659",
+  "source_file": "en_The_Family_(American_crime_organization)"
+}

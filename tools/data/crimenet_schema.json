@@ -1,0 +1,70 @@
+{
+    "metadata": {
+        "n_nodes": "int",
+        "n_edges": "int",
+        "n_profiled": "int",
+        "n_unprofiled": "int",
+        "n_defunct": "int",
+        "corrections_applied": {
+            "nodes_dropped": "int",
+            "nodes_merged": "int",
+            "nodes_split": "int",
+            "edges_dropped": "int"
+        },
+        "generated": "str"
+    },
+    "nodes": [
+        {
+            "standard_name": "str",
+            "aliases": [
+                "str"
+            ],
+            "original_text_names": [
+                "str"
+            ],
+            "description": "str",
+            "country": "str",
+            "country_links": [
+                {
+                    "country": "str",
+                    "evidence_quote": "str",
+                    "context": "str"
+                }
+            ],
+            "time_period": "str",
+            "is_defunct": "bool",
+            "founded_year": "NoneType",
+            "dissolved_year": "NoneType",
+            "profiled": "bool",
+            "own_sources": [
+                {
+                    "url": "str",
+                    "title": "str"
+                }
+            ],
+            "mentioned_in": [
+                {
+                    "url": "str",
+                    "title": "str"
+                }
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "source": "str",
+            "target": "str",
+            "relationship": "str",
+            "descriptions": [
+                "str"
+            ],
+            "time_periods": [
+                "unknown"
+            ],
+            "evidence_quote": "str",
+            "source_urls": [
+                "str"
+            ]
+        }
+    ]
+}

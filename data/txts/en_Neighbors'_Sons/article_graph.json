@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Neighbors' Sons",
+      "original_text_name": "Neighbors' Sons",
+      "aliases": [],
+      "context": "New York street gang operating between Bleecker and Grove Streets, active early 1900s.",
+      "time_period": "early 1900s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Neighbors%27_Sons&oldid=951472273"
+    },
+    {
+      "standard_name": "Gopher Gang",
+      "original_text_name": "Gopher Gang",
+      "aliases": [],
+      "context": "New York street gang, rival of Neighbors' Sons.",
+      "time_period": "early 1900s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Neighbors%27_Sons&oldid=951472273"
+    },
+    {
+      "standard_name": "Hudson Dusters",
+      "original_text_name": "Hudson Dusters",
+      "aliases": [],
+      "context": "New York street gang, rival of Neighbors' Sons.",
+      "time_period": "early 1900s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Neighbors%27_Sons&oldid=951472273"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Neighbors' Sons",
+      "target": "Gopher Gang",
+      "evidence_quote": "The Neighbors' Sons was a New York street gang which, operating in the neighborhoods between Bleecker and Grove Streets , were rivals of the Gopher Gang and the Hudson Dusters during the early 1900s.",
+      "context": "The text states Neighbors' Sons were rivals of the Gopher Gang.",
+      "relationship": "conflict",
+      "time_period": "early 1900s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Neighbors%27_Sons&oldid=951472273"
+    },
+    {
+      "source": "Neighbors' Sons",
+      "target": "Hudson Dusters",
+      "evidence_quote": "The Neighbors' Sons was a New York street gang which, operating in the neighborhoods between Bleecker and Grove Streets , were rivals of the Gopher Gang and the Hudson Dusters during the early 1900s.",
+      "context": "The text states Neighbors' Sons were rivals of the Hudson Dusters.",
+      "relationship": "conflict",
+      "time_period": "early 1900s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Neighbors%27_Sons&oldid=951472273"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Neighbors%27_Sons&oldid=951472273",
+  "source_file": "en_Neighbors'_Sons"
+}

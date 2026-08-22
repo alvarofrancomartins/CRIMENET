@@ -1,0 +1,86 @@
+{
+  "nodes": [
+    {
+      "standard_name": "ShadowCrew",
+      "original_text_name": "ShadowCrew",
+      "aliases": [
+        "ShadowCrew.com"
+      ],
+      "context": "Cybercrime forum operating between August 2002 and November 2004.",
+      "time_period": "2002-2004",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=ShadowCrew&oldid=1339413706"
+    },
+    {
+      "standard_name": "Counterfeit Library",
+      "original_text_name": "counterfeitlibrary.com",
+      "aliases": [],
+      "context": "Underground site run by Brett Johnson, predecessor to ShadowCrew.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=ShadowCrew&oldid=1339413706"
+    },
+    {
+      "standard_name": "Carder Planet",
+      "original_text_name": "carderplanet.com",
+      "aliases": [],
+      "context": "Russian-language website owned by Dmitry Golubov, successor to counterfeitlibrary.com.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=ShadowCrew&oldid=1339413706"
+    },
+    {
+      "standard_name": "ScandinavianCarding",
+      "original_text_name": "ScandinavianCarding",
+      "aliases": [],
+      "context": "Carding forum where Brett Johnson was embedded as admin.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=ShadowCrew&oldid=1339413706"
+    },
+    {
+      "standard_name": "CardersMarket",
+      "original_text_name": "CardersMarket",
+      "aliases": [],
+      "context": "Carding forum where Brett Johnson was embedded as admin.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=ShadowCrew&oldid=1339413706"
+    }
+  ],
+  "edges": [
+    {
+      "source": "ShadowCrew",
+      "target": "Counterfeit Library",
+      "evidence_quote": "ShadowCrew emerged early in 2002 from another underground site, counterfeitlibrary.com , which was run by Brett Johnson",
+      "context": "ShadowCrew emerged from Counterfeit Library.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=ShadowCrew&oldid=1339413706"
+    },
+    {
+      "source": "Counterfeit Library",
+      "target": "Carder Planet",
+      "evidence_quote": "counterfeitlibrary.com ... would be followed up by carderplanet.com owned by Dmitry Golubov",
+      "context": "Carder Planet succeeded Counterfeit Library.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=ShadowCrew&oldid=1339413706"
+    },
+    {
+      "source": "ShadowCrew",
+      "target": "ScandinavianCarding",
+      "evidence_quote": "Operation Anglerphish' embedded him ... as admins on both ScandinavianCarding and CardersMarket.",
+      "context": "ShadowCrew admin Brett Johnson was embedded as admin on ScandinavianCarding.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=ShadowCrew&oldid=1339413706"
+    },
+    {
+      "source": "ShadowCrew",
+      "target": "CardersMarket",
+      "evidence_quote": "Operation Anglerphish' embedded him ... as admins on both ScandinavianCarding and CardersMarket.",
+      "context": "ShadowCrew admin Brett Johnson was embedded as admin on CardersMarket.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=ShadowCrew&oldid=1339413706"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=ShadowCrew&oldid=1339413706",
+  "source_file": "en_ShadowCrew"
+}

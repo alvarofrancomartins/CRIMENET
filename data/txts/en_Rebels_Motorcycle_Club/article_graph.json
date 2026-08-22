@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Rebels Motorcycle Club",
+      "original_text_name": "Rebels Motorcycle Club",
+      "aliases": [
+        "Rebels MC",
+        "Rebels"
+      ],
+      "context": "Outlaw motorcycle club, largest in Australia at its peak, involved in drug trafficking, arms dealing, etc.",
+      "time_period": "1969-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rebels_Motorcycle_Club&oldid=1351250697"
+    },
+    {
+      "standard_name": "Bandidos Motorcycle Club",
+      "original_text_name": "Bandidos",
+      "aliases": [],
+      "context": "Outlaw motorcycle club, member Ross Brand was murdered by Rebels associates.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rebels_Motorcycle_Club&oldid=1351250697"
+    },
+    {
+      "standard_name": "Rock Machine Motorcycle Club",
+      "original_text_name": "Rock Machine",
+      "aliases": [
+        "Rock Machine MC"
+      ],
+      "context": "Outlaw motorcycle club, established a chapter in Perth in 2009, involved in conflict with Rebels.",
+      "time_period": "2009-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rebels_Motorcycle_Club&oldid=1351250697"
+    },
+    {
+      "standard_name": "Gypsy Joker Motorcycle Club",
+      "original_text_name": "Gypsy Joker Motorcycle Club",
+      "aliases": [
+        "Gypsy Joker MC"
+      ],
+      "context": "Outlaw motorcycle club, member Anthony Perish was involved in a homicide with a Rebels member.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rebels_Motorcycle_Club&oldid=1351250697"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Rebels Motorcycle Club",
+      "target": "Bandidos Motorcycle Club",
+      "evidence_quote": "Two Rebel associates were arrested for the murder of Bandidos member Ross Brand after their clubhouse was raided, on 16 November 2008.",
+      "context": "Rebels associates killed a Bandidos member, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": "2008",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rebels_Motorcycle_Club&oldid=1351250697"
+    },
+    {
+      "source": "Rebels Motorcycle Club",
+      "target": "Rock Machine Motorcycle Club",
+      "evidence_quote": "The defection of Rebels MC members to the Rock Machine MC sparked an ongoing violent feud between the groups, when the Rock Machine settled in Perth in 2009 there were allegations by media that a turf war broke out between the two rival motorcycle clubs, with exchanges between the two groups including firebombings, assaults and the assassination attempt in 2011 of Rebels WA president Nick Martin, who survived being shot, tensions remain ongoing.",
+      "context": "Rebels and Rock Machine engaged in a violent feud with firebombings, assaults, and assassination attempts.",
+      "relationship": "conflict",
+      "time_period": "2009-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rebels_Motorcycle_Club&oldid=1351250697"
+    },
+    {
+      "source": "Rebels Motorcycle Club",
+      "target": "Gypsy Joker Motorcycle Club",
+      "evidence_quote": "On 14 April 2012, Anthony Perish (a Gypsy Joker Motorcycle Club member), his brother Andrew (a Rebels Motorcycle Club member) and Matthew Lawton were sentenced to eighteen, nine and fifteen years respectively imprisonment for the homicide of convicted Sydney drug trafficker Terry Falconer, as well as firearms and drug dealing offences.",
+      "context": "A Gypsy Joker member and a Rebels member were jointly involved in a homicide, indicating cooperation.",
+      "relationship": "cooperation",
+      "time_period": "2012",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rebels_Motorcycle_Club&oldid=1351250697"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Rebels_Motorcycle_Club&oldid=1351250697",
+  "source_file": "en_Rebels_Motorcycle_Club"
+}

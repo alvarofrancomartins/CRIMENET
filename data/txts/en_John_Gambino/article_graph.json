@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [
+        "Gambino family"
+      ],
+      "context": "American Mafia family based in New York, involved in racketeering, drug trafficking, and loansharking.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=John_Gambino&oldid=1356644658"
+    },
+    {
+      "standard_name": "Inzerillo clan",
+      "original_text_name": "Inzerillo clan",
+      "aliases": [
+        "Inzerillo family"
+      ],
+      "context": "Sicilian Mafia clan from Palermo, involved in heroin trafficking and allied with the Gambinos.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=John_Gambino&oldid=1356644658"
+    },
+    {
+      "standard_name": "Corleonesi",
+      "original_text_name": "Corleonesi",
+      "aliases": [],
+      "context": "Sicilian Mafia faction led by Totò Riina, enemies of the Inzerillo-Gambino clan during the Second Mafia War.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=John_Gambino&oldid=1356644658"
+    },
+    {
+      "standard_name": "Cuntrera-Caruana Mafia clan",
+      "original_text_name": "Cuntrera-Caruana Mafia clan",
+      "aliases": [],
+      "context": "Sicilian Mafia clan involved in heroin trafficking, received half of a 400-kg heroin shipment in 1981.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=John_Gambino&oldid=1356644658"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Gambino crime family",
+      "target": "Inzerillo clan",
+      "evidence_quote": "Together the Inzerillo-Gambino Mafia clan formed a transatlantic Mafia family, based in Palermo and New York.",
+      "context": "The Gambino family and Inzerillo clan formed a transatlantic alliance, cooperating in heroin trafficking and mutual protection.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=John_Gambino&oldid=1356644658"
+    },
+    {
+      "source": "Inzerillo clan",
+      "target": "Corleonesi",
+      "evidence_quote": "The Inzerillo clan had been on the verge of total extermination by Totò Riina and the Corleonesi during the Second Mafia War in Sicily when in 1981 the family boss Salvatore Inzerillo was killed.",
+      "context": "The Corleonesi attacked and nearly exterminated the Inzerillo clan during the Second Mafia War.",
+      "relationship": "conflict",
+      "time_period": "Second Mafia War (1981)",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=John_Gambino&oldid=1356644658"
+    },
+    {
+      "source": "Gambino crime family",
+      "target": "Cuntrera-Caruana Mafia clan",
+      "evidence_quote": "The Cuntrera-Caruana Mafia clan received half of the load, while John Gambino took possession of the other 200 kilograms.",
+      "context": "The Gambino family and Cuntrera-Caruana clan shared a 400-kg heroin shipment, indicating cooperation in drug trafficking.",
+      "relationship": "cooperation",
+      "time_period": "1981",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=John_Gambino&oldid=1356644658"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=John_Gambino&oldid=1356644658",
+  "source_file": "en_John_Gambino"
+}

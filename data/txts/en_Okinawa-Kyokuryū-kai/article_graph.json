@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Okinawa Kyokuryu-kai",
+      "original_text_name": "Okinawa Kyokuryu-kai",
+      "aliases": [
+        "Okinawa Kyokuryū-kai"
+      ],
+      "context": "Yakuza criminal organization based in Okinawa, Japan; largest yakuza group in Okinawa Prefecture.",
+      "time_period": "1990-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Okinawa-Kyokury%C5%AB-kai&oldid=1314149865"
+    },
+    {
+      "standard_name": "Kyokuryu-kai",
+      "original_text_name": "Kyokuryu-kai",
+      "aliases": [],
+      "context": "Former parent organization of Okinawa Kyokuryu-kai; designated yakuza group in Okinawa Prefecture.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Okinawa-Kyokury%C5%AB-kai&oldid=1314149865"
+    },
+    {
+      "standard_name": "Yoshimi-kogyo",
+      "original_text_name": "Yoshimi-kogyo",
+      "aliases": [],
+      "context": "Third-largest yakuza organization in Okinawa Prefecture.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Okinawa-Kyokury%C5%AB-kai&oldid=1314149865"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Okinawa Kyokuryu-kai",
+      "target": "Kyokuryu-kai",
+      "evidence_quote": "The Okinawa Kyokuryu-kai was formed in 1990 when it split from Okinawa's main yakuza group, the Kyokuryu-kai.",
+      "context": "Okinawa Kyokuryu-kai split from Kyokuryu-kai in 1990, making it a splinter group.",
+      "relationship": "other",
+      "time_period": "1990",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Okinawa-Kyokury%C5%AB-kai&oldid=1314149865"
+    },
+    {
+      "source": "Okinawa Kyokuryu-kai",
+      "target": "Kyokuryu-kai",
+      "evidence_quote": "The Okinawa Kyokuryu-kai, along with the Kyokuryu-kai, was registered as a designated yakuza group under the Organized Crime Countermeasures Law in June 1992.",
+      "context": "Both organizations were registered as designated yakuza groups together, indicating a cooperative relationship.",
+      "relationship": "cooperation",
+      "time_period": "June 1992",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Okinawa-Kyokury%C5%AB-kai&oldid=1314149865"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Okinawa-Kyokury%C5%AB-kai&oldid=1314149865",
+  "source_file": "en_Okinawa-Kyokuryū-kai"
+}

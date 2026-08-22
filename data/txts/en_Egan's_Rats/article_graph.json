@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Egan's Rats",
+      "original_text_name": "Egan's Rats",
+      "aliases": [
+        "Egan Gang",
+        "Rats Gang"
+      ],
+      "context": "American organized crime gang active in St. Louis from 1890 to 1924, involved in bootlegging, robbery, murder, and political intimidation.",
+      "time_period": "1890-1924",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Egan%27s_Rats&oldid=1356186272"
+    },
+    {
+      "standard_name": "Hogan Gang",
+      "original_text_name": "Hogan Gang",
+      "aliases": [],
+      "context": "Rival gang to Egan's Rats, headed by Edward 'Jelly Roll' Hogan, involved in bootlegging and violence.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Egan%27s_Rats&oldid=1356186272"
+    },
+    {
+      "standard_name": "Bottoms Gang",
+      "original_text_name": "Bottoms Gang",
+      "aliases": [],
+      "context": "Violent gang from the Twenty-second Ward of St. Louis, rival to Egan's Rats.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Egan%27s_Rats&oldid=1356186272"
+    },
+    {
+      "standard_name": "Cuckoo Gang",
+      "original_text_name": "Cuckoo Gang",
+      "aliases": [],
+      "context": "Gang that provided a tip to Egan's Rats for an armored mail truck robbery.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Egan%27s_Rats&oldid=1356186272"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Egan's Rats",
+      "target": "Hogan Gang",
+      "evidence_quote": "Egan's Rats soon went to war with the rival Hogan Gang, whom they suspected of killing Willie Egan.",
+      "context": "Egan's Rats and Hogan Gang were in a violent conflict after the murder of Willie Egan.",
+      "relationship": "conflict",
+      "time_period": "1921-1923",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Egan%27s_Rats&oldid=1356186272"
+    },
+    {
+      "source": "Egan's Rats",
+      "target": "Bottoms Gang",
+      "evidence_quote": "The Egan Gang's main rival at this time was the violent Bottoms Gang from the Twenty-second Ward.",
+      "context": "Egan's Rats and Bottoms Gang were rivals, with a war in 1916.",
+      "relationship": "conflict",
+      "time_period": "1916",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Egan%27s_Rats&oldid=1356186272"
+    },
+    {
+      "source": "Egan's Rats",
+      "target": "Cuckoo Gang",
+      "evidence_quote": "The Rats took control of the truck and made off with $2.4 million in cash and negotiable bonds after receiving a tip from the Cuckoo Gang.",
+      "context": "Cuckoo Gang provided information to Egan's Rats for a robbery.",
+      "relationship": "cooperation",
+      "time_period": "1923",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Egan%27s_Rats&oldid=1356186272"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Egan%27s_Rats&oldid=1356186272",
+  "source_file": "en_Egan's_Rats"
+}

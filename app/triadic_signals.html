@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Triadic Signals | CRIMENET</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="description" content="Candidate undocumented allies discovered through triadic closure: common cooperation partners, common adversaries, and combined signals.">
+<link rel="canonical" href="https://www.alvarofrancomartins.com/crimenet/triadic_signals.html">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Triadic Signals | CRIMENET">
+<meta property="og:description" content="Candidate undocumented allies discovered through triadic closure in the organized crime knowledge graph.">
+<meta property="og:url" content="https://www.alvarofrancomartins.com/crimenet/triadic_signals.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+<style>
+/* page-specific overrides for standalone layout */
+.sig-sub{font-size:18px;color:var(--text-muted);margin-bottom:28px;max-width:74ch;line-height:1.55}
+.sig-sub code{color:var(--amber);font-size:15px;background:rgba(232,160,32,.08);padding:1px 6px;border-radius:3px}
+
+@media(max-width:900px){
+  .sig-table{font-size:14px;min-width:700px}
+  .sig-table td,.sig-table th{padding:7px 8px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="crumb"><a href="index.html">CRIMENET</a> <span>/</span> Triadic Signals</nav>
+<h1>Candidate Undocumented Allies</h1>
+<p class="sig-sub">When two organizations A and B have no direct edge between them but share several of the same cooperation partners or the same adversaries, these common neighbors suggest a real-world relationship that may be missing from Wikipedia. This page lists every such pair. Each common neighbor Cᵢ contributes <code>min(statements A↔Cᵢ, statements B↔Cᵢ)</code> — the minimum number of Wikipedia statements linking each side to that neighbor — and the <b>Total Score</b> is the sum across all shared neighbors, so relationships backed by more evidence weigh proportionally. 2,561 unique pairs: 1,609 with both signals, 486 cooperation-partner-only, 466 adversary-only.</p>
+
+<div class="sig-filters">
+  <span class="sig-filters-label">Signal:</span>
+  <button class="sig-pill active" data-sig="all">All <span class="sig-pill-count">2,561</span></button>
+  <button class="sig-pill" data-sig="both">Both <span class="sig-pill-count">1,609</span></button>
+  <button class="sig-pill" data-sig="cp">Only Common Partners <span class="sig-pill-count">486</span></button>
+  <button class="sig-pill" data-sig="sa">Only Common Adversaries <span class="sig-pill-count">466</span></button>
+</div>
+
+<div class="sig-table-wrap">
+<table class="sig-table" id="sig-table">
+<thead>
+<tr>
+  <th data-col="rank" class="sort-desc">#</th>
+  <th data-col="signal">Signal</th>
+  <th data-col="a">Org A</th>
+  <th data-col="b">Org B</th>
+  <th data-col="cp_count">CP Count</th>
+  <th data-col="adv_count">CA Count</th>
+  <th data-col="total_weighted">Total Score</th>
+  <th data-col="cp_items">Common Partners</th>
+  <th data-col="adv_items">Common Adversaries</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+</div>
+
+</div>
+
+<script src="js/triadic_signals.js"></script>
+<script>
+(function(){
+var T=CrimenetTriadic;
+var DATA=null;
+var currentSignal='all';
+var currentSort={col:'total_weighted',dir:'desc'};
+var pageSize=100, visible=100;
+
+var COLUMNS=[
+  {key:'rank',sortable:true,cell:function(v){return v;}},
+  {key:'signal',sortable:true,cell:function(v,r){return T.signalTag(r);}},
+  {key:'a',sortable:true,cell:function(v){return'<span class="sig-org-name">'+T.esc(v)+'</span>';}},
+  {key:'b',sortable:true,cell:function(v){return'<span class="sig-org-name">'+T.esc(v)+'</span>';}},
+  {key:'cp_count',sortable:true,cell:function(v){return v>0?v:'<span class="sig-val-zero">0</span>';},cls:function(v){return v>0?'sig-val-count':'sig-val-zero';}},
+  {key:'adv_count',sortable:true,cell:function(v){return v>0?v:'<span class="sig-val-zero">0</span>';},cls:function(v){return v>0?'sig-val-count':'sig-val-zero';}},
+  {key:'total_weighted',sortable:true,cell:function(v){return v;},cls:'sig-val-score'},
+  {key:'cp_items',sortable:false,cell:function(v){return'<div class="sig-items">'+T.formatItems(v,5)+'</div>';}},
+  {key:'adv_items',sortable:false,cell:function(v){return'<div class="sig-items">'+T.formatItems(v,5)+'</div>';}}
+];
+
+function renderHeader(){
+  var ths=document.querySelectorAll('#sig-table thead th');
+  ths.forEach(function(th){
+    th.classList.remove('sort-asc','sort-desc');
+    var col=th.getAttribute('data-col');
+    if(col&&currentSort.col===col){
+      th.classList.add(currentSort.dir==='asc'?'sort-asc':'sort-desc');
+    }
+  });
+}
+
+function renderBody(){
+  var rows=T.filterAndSort(DATA,currentSignal,currentSort.col,currentSort.dir);
+  var tbody=document.querySelector('#sig-table tbody');
+  var html='';
+  for(var i=0;i<rows.length&&i<visible;i++){
+    var r=rows[i];
+    html+='<tr>';
+    for(var j=0;j<COLUMNS.length;j++){
+      var c=COLUMNS[j];
+      var v=r[c.key];
+      var cls=typeof c.cls==='function'?c.cls(v):(c.cls||'');
+      html+='<td class="'+cls+'">'+c.cell(v,r)+'</td>';
+    }
+    html+='</tr>';
+  }
+  tbody.innerHTML=html;
+  if(visible<rows.length){
+    var lm=document.getElementById('sig-load-more');
+    if(!lm){
+      lm=document.createElement('button');
+      lm.id='sig-load-more';
+      lm.className='sig-load-more';
+      lm.addEventListener('click',function(){visible+=pageSize;renderAll();});
+      tbody.parentElement.parentElement.parentElement.appendChild(lm);
+    }
+    lm.textContent='Load more ('+(rows.length-visible)+' remaining)';
+    lm.style.display='';
+  }else{
+    var el=document.getElementById('sig-load-more');
+    if(el)el.style.display='none';
+  }
+}
+
+function renderAll(){renderHeader();renderBody();}
+
+// Header sort
+document.querySelector('#sig-table thead').addEventListener('click',function(e){
+  var th=e.target.closest('th[data-col]');
+  if(!th)return;
+  var col=th.getAttribute('data-col');
+  for(var i=0;i<COLUMNS.length;i++){
+    if(COLUMNS[i].key===col){
+      if(!COLUMNS[i].sortable)return;
+      break;
+    }
+  }
+  if(currentSort.col===col){
+    currentSort.dir=currentSort.dir==='asc'?'desc':'asc';
+  }else{currentSort.col=col;currentSort.dir='desc';}
+  visible=pageSize;
+  renderAll();
+});
+
+// Signal filter pills
+document.querySelectorAll('.sig-pill').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    document.querySelectorAll('.sig-pill').forEach(function(b){b.classList.remove('active');});
+    btn.classList.add('active');
+    currentSignal=btn.getAttribute('data-sig');
+    currentSort={col:'total_weighted',dir:'desc'};
+    visible=pageSize;
+    renderAll();
+  });
+});
+
+// Init
+fetch('data/triadic_signals.json')
+  .then(function(r){return r.json();})
+  .then(function(d){DATA=d;renderAll();});
+})();
+</script>
+</body>
+</html>

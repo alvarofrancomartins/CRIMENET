@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Shelton Brothers Gang",
+      "original_text_name": "Shelton Brothers Gang",
+      "aliases": [
+        "Shelton Gang",
+        "Shelton Brothers"
+      ],
+      "context": "Bootlegging gang in southern Illinois, rivals and later enemies of Charles Birger.",
+      "time_period": "1920s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charles_Birger&oldid=1356930687"
+    },
+    {
+      "standard_name": "Ku Klux Klan",
+      "original_text_name": "Ku Klux Klan",
+      "aliases": [
+        "KKK"
+      ],
+      "context": "White supremacist organization that supported Prohibition and clashed with bootleggers in southern Illinois.",
+      "time_period": "1920s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charles_Birger&oldid=1356930687"
+    },
+    {
+      "standard_name": "Birger Gang",
+      "original_text_name": "Birger Gang",
+      "aliases": [
+        "Birger's gang"
+      ],
+      "context": "Bootlegging gang led by Charles Birger in southern Illinois.",
+      "time_period": "1920s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charles_Birger&oldid=1356930687"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Birger Gang",
+      "target": "Shelton Brothers Gang",
+      "evidence_quote": "in 1920 he joined forces with the Shelton Brothers.",
+      "context": "Birger initially allied with the Shelton Brothers Gang to bootleg alcohol.",
+      "relationship": "cooperation",
+      "time_period": "1920",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charles_Birger&oldid=1356930687"
+    },
+    {
+      "source": "Birger Gang",
+      "target": "Shelton Brothers Gang",
+      "evidence_quote": "By October 1926, the Birger and Shelton Gangs were in open conflict.",
+      "context": "Birger and the Shelton Brothers Gang fought a war over bootlegging control.",
+      "relationship": "conflict",
+      "time_period": "1926",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charles_Birger&oldid=1356930687"
+    },
+    {
+      "source": "Birger Gang",
+      "target": "Ku Klux Klan",
+      "evidence_quote": "Charlie Birger and the Shelton Brothers joined forces to attack the remaining Klan leaders in Herrin, using Tommy guns and shotguns.",
+      "context": "Birger and the Shelton Brothers jointly attacked the Klan.",
+      "relationship": "conflict",
+      "time_period": "April 1926",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Charles_Birger&oldid=1356930687"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Charles_Birger&oldid=1356930687",
+  "source_file": "en_Charles_Birger"
+}

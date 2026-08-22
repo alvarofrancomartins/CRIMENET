@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "standard_name": "La Nueva Familia Michoacana",
+      "original_text_name": "La Nueva Familia Michoacana",
+      "aliases": [
+        "LNFM",
+        "La Nueva Familia"
+      ],
+      "context": "Mexican criminal organization and U.S.-designated Foreign Terrorist Organization specializing in drug trafficking, illegal mining, and extortion.",
+      "time_period": "2011—present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana_Organization&oldid=1356263451"
+    },
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [],
+      "context": "Original criminal organization from which La Nueva Familia Michoacana splintered.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana_Organization&oldid=1356263451"
+    },
+    {
+      "standard_name": "Knights Templar Cartel",
+      "original_text_name": "Knights Templar Cartel",
+      "aliases": [],
+      "context": "Criminal organization that formed after the original La Familia Michoacana lost power.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana_Organization&oldid=1356263451"
+    },
+    {
+      "standard_name": "CJNG",
+      "original_text_name": "CJNG",
+      "aliases": [
+        "Cártel de Jalisco Nueva Generación"
+      ],
+      "context": "Criminal organization that La Nueva Familia Michoacana battles in Tierra Caliente region.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana_Organization&oldid=1356263451"
+    }
+  ],
+  "edges": [
+    {
+      "source": "La Nueva Familia Michoacana",
+      "target": "La Familia Michoacana",
+      "evidence_quote": "Allies: La Familia Michoacana",
+      "context": "La Nueva Familia Michoacana is allied with La Familia Michoacana.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana_Organization&oldid=1356263451"
+    },
+    {
+      "source": "La Nueva Familia Michoacana",
+      "target": "CJNG",
+      "evidence_quote": "Rivals: CJNG",
+      "context": "La Nueva Familia Michoacana is a rival of CJNG.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana_Organization&oldid=1356263451"
+    },
+    {
+      "source": "La Nueva Familia Michoacana",
+      "target": "La Familia Michoacana",
+      "evidence_quote": "The organization formed as a splinter group in 2011 after the original La Familia Michoacana lost their power in 2010 with the formation of the Knights Templar Cartel",
+      "context": "La Nueva Familia Michoacana formed as a splinter group from La Familia Michoacana.",
+      "relationship": "other",
+      "time_period": "2011",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana_Organization&oldid=1356263451"
+    },
+    {
+      "source": "La Nueva Familia Michoacana",
+      "target": "CJNG",
+      "evidence_quote": "The Organization mainly dedicated to drug trafficking and battling the CJNG criminal organization out of Tierra Caliente region in Michoacán and Guerrero.",
+      "context": "La Nueva Familia Michoacana battles CJNG in Tierra Caliente.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana_Organization&oldid=1356263451"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=La_Nueva_Familia_Michoacana_Organization&oldid=1356263451",
+  "source_file": "en_La_Nueva_Familia_Michoacana_Organization"
+}

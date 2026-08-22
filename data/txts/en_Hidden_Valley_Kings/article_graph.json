@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Hidden Valley Kings",
+      "original_text_name": "Hidden Valley Kings",
+      "aliases": [
+        "HVK"
+      ],
+      "context": "Neighborhood-based gang in Charlotte, North Carolina, originally a branch of Queen City Kings.",
+      "time_period": "Early 2000s–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hidden_Valley_Kings&oldid=1353411890"
+    },
+    {
+      "standard_name": "Queen City Kings",
+      "original_text_name": "Queen City Kings",
+      "aliases": [],
+      "context": "Gang formed in Charlotte, North Carolina, by People Nation and Folk Nation members from Chicago.",
+      "time_period": "early to mid 1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hidden_Valley_Kings&oldid=1353411890"
+    },
+    {
+      "standard_name": "People Nation",
+      "original_text_name": "People Nation",
+      "aliases": [],
+      "context": "Chicago-based gang alliance.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hidden_Valley_Kings&oldid=1353411890"
+    },
+    {
+      "standard_name": "Folk Nation",
+      "original_text_name": "Folk Nation",
+      "aliases": [],
+      "context": "Chicago-based gang alliance.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hidden_Valley_Kings&oldid=1353411890"
+    },
+    {
+      "standard_name": "United Blood Nation",
+      "original_text_name": "United Blood Nation",
+      "aliases": [],
+      "context": "Gang with which Hidden Valley Kings have had altercations.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hidden_Valley_Kings&oldid=1353411890"
+    },
+    {
+      "standard_name": "Zoe Pound",
+      "original_text_name": "Zoe Pound",
+      "aliases": [],
+      "context": "Criminal organization listed as an ally of Hidden Valley Kings.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hidden_Valley_Kings&oldid=1353411890"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hidden Valley Kings",
+      "target": "Queen City Kings",
+      "evidence_quote": "The gang was formed in the late 1990s to early 2000s, as a branch of the Queen City Kings",
+      "context": "Hidden Valley Kings originated as a branch of Queen City Kings.",
+      "relationship": "other",
+      "time_period": "late 1990s to early 2000s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hidden_Valley_Kings&oldid=1353411890"
+    },
+    {
+      "source": "Queen City Kings",
+      "target": "People Nation",
+      "evidence_quote": "The Queen City Kings were formed simultaneously by both People Nation and Folk Nation members who moved to Charlotte, North Carolina from Chicago, Illinois in the early to mid 1990s.",
+      "context": "Queen City Kings was formed by members of People Nation and Folk Nation.",
+      "relationship": "other",
+      "time_period": "early to mid 1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hidden_Valley_Kings&oldid=1353411890"
+    },
+    {
+      "source": "Queen City Kings",
+      "target": "Folk Nation",
+      "evidence_quote": "The Queen City Kings were formed simultaneously by both People Nation and Folk Nation members who moved to Charlotte, North Carolina from Chicago, Illinois in the early to mid 1990s.",
+      "context": "Queen City Kings was formed by members of People Nation and Folk Nation.",
+      "relationship": "other",
+      "time_period": "early to mid 1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hidden_Valley_Kings&oldid=1353411890"
+    },
+    {
+      "source": "Hidden Valley Kings",
+      "target": "United Blood Nation",
+      "evidence_quote": "The Hidden Valley Kings don't have many known enemies, but within the neighborhood members have been known to have altercations with the United Blood Nation.",
+      "context": "Hidden Valley Kings have had altercations with United Blood Nation.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hidden_Valley_Kings&oldid=1353411890"
+    },
+    {
+      "source": "Hidden Valley Kings",
+      "target": "Zoe Pound",
+      "evidence_quote": "Allies: Zoe Pound",
+      "context": "Zoe Pound is listed as an ally of Hidden Valley Kings in the infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Hidden_Valley_Kings&oldid=1353411890"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Hidden_Valley_Kings&oldid=1353411890",
+  "source_file": "en_Hidden_Valley_Kings"
+}

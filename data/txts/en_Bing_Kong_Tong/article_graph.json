@@ -1,0 +1,62 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bing Kong Tong",
+      "original_text_name": "Bing Kong Tong",
+      "aliases": [
+        "Bing Kong Tong Society",
+        "Bing Kung Association"
+      ],
+      "context": "One of the most powerful Tongs in San Francisco's Chinatown during the early 20th century, involved in Tong wars and organized crime.",
+      "time_period": "early 20th century",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bing_Kong_Tong&oldid=1299041243"
+    },
+    {
+      "standard_name": "Hop Sing Tong",
+      "original_text_name": "Hop Sing",
+      "aliases": [],
+      "context": "A Tong that allied with Suey Sing Tong against Bing Kong Tong, instigating a Tong war.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bing_Kong_Tong&oldid=1299041243"
+    },
+    {
+      "standard_name": "Suey Sing Tong",
+      "original_text_name": "Suey Sing",
+      "aliases": [],
+      "context": "A Tong that allied with Hop Sing Tong against Bing Kong Tong, instigating a Tong war.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bing_Kong_Tong&oldid=1299041243"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Hop Sing Tong",
+      "target": "Suey Sing Tong",
+      "evidence_quote": "the Hop Sing and Suey Sing Tongs allied against the Bing Kong Tong",
+      "context": "Hop Sing and Suey Sing Tongs formed an alliance against Bing Kong Tong.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bing_Kong_Tong&oldid=1299041243"
+    },
+    {
+      "source": "Hop Sing Tong",
+      "target": "Bing Kong Tong",
+      "evidence_quote": "the Hop Sing and Suey Sing Tongs allied against the Bing Kong Tong, instigating one of the most violent Tong wars",
+      "context": "Hop Sing Tong was in conflict with Bing Kong Tong during a Tong war.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bing_Kong_Tong&oldid=1299041243"
+    },
+    {
+      "source": "Suey Sing Tong",
+      "target": "Bing Kong Tong",
+      "evidence_quote": "the Hop Sing and Suey Sing Tongs allied against the Bing Kong Tong, instigating one of the most violent Tong wars",
+      "context": "Suey Sing Tong was in conflict with Bing Kong Tong during a Tong war.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bing_Kong_Tong&oldid=1299041243"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Bing_Kong_Tong&oldid=1299041243",
+  "source_file": "en_Bing_Kong_Tong"
+}

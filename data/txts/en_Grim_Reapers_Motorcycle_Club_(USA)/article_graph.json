@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Grim Reapers Motorcycle Club",
+      "original_text_name": "Grim Reapers Motorcycle Club",
+      "aliases": [
+        "Grim Reapers MC",
+        "GRMC"
+      ],
+      "context": "American outlaw motorcycle club founded in 1965, active in Southeastern and Midwestern US.",
+      "time_period": "1965",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grim_Reapers_Motorcycle_Club_%28USA%29&oldid=1351126310"
+    },
+    {
+      "standard_name": "Outlaws Motorcycle Club",
+      "original_text_name": "Outlaws",
+      "aliases": [],
+      "context": "Outlaw motorcycle club, allied with Grim Reapers.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grim_Reapers_Motorcycle_Club_%28USA%29&oldid=1351126310"
+    },
+    {
+      "standard_name": "Ku Klux Klan",
+      "original_text_name": "Ku Klux Klan (KKK)",
+      "aliases": [
+        "KKK"
+      ],
+      "context": "White supremacist organization, alleged ties to Grim Reapers.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grim_Reapers_Motorcycle_Club_%28USA%29&oldid=1351126310"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Grim Reapers Motorcycle Club",
+      "target": "Outlaws Motorcycle Club",
+      "evidence_quote": "The Grim Reapers are allied with the Outlaws",
+      "context": "The text states the Grim Reapers are allied with the Outlaws.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grim_Reapers_Motorcycle_Club_%28USA%29&oldid=1351126310"
+    },
+    {
+      "source": "Grim Reapers Motorcycle Club",
+      "target": "Ku Klux Klan",
+      "evidence_quote": "The Grim Reapers are ... have alleged ties to the Ku Klux Klan (KKK)",
+      "context": "The text states the Grim Reapers have alleged ties to the KKK.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grim_Reapers_Motorcycle_Club_%28USA%29&oldid=1351126310"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Grim_Reapers_Motorcycle_Club_%28USA%29&oldid=1351126310",
+  "source_file": "en_Grim_Reapers_Motorcycle_Club_(USA)"
+}

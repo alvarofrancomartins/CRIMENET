@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sicilian Mafia",
+      "original_text_name": "Sicilian Mafia",
+      "aliases": [
+        "Mafia"
+      ],
+      "context": "The Sicilian Mafia is a criminal organization operating in Sicily, Italy.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Angelo_La_Barbera&oldid=1341535754"
+    },
+    {
+      "standard_name": "Palermo Centro Mafia family",
+      "original_text_name": "Palermo Centro Mafia family",
+      "aliases": [
+        "Palermo Centro cosca",
+        "Palermo Centro family"
+      ],
+      "context": "A Mafia family based in Palermo Centro, led by the La Barbera brothers.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Angelo_La_Barbera&oldid=1341535754"
+    },
+    {
+      "standard_name": "Sicilian Mafia Commission",
+      "original_text_name": "Sicilian Mafia Commission",
+      "aliases": [
+        "Commission"
+      ],
+      "context": "The ruling body of the Sicilian Mafia, set up in 1958.",
+      "time_period": "1958",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Angelo_La_Barbera&oldid=1341535754"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [],
+      "context": "A powerful American Mafia family based in New York City.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Angelo_La_Barbera&oldid=1341535754"
+    },
+    {
+      "standard_name": "Greco Mafia clan",
+      "original_text_name": "Greco cousins",
+      "aliases": [
+        "Grecos"
+      ],
+      "context": "A Mafia clan from Ciaculli, led by Salvatore Greco 'Ciaschiteddu' and Salvatore Greco 'The Engineer'.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Angelo_La_Barbera&oldid=1341535754"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Palermo Centro Mafia family",
+      "target": "Sicilian Mafia Commission",
+      "evidence_quote": "Salvatore La Barbera became a member of the first Sicilian Mafia Commission when it was set up somewhere in 1958.",
+      "context": "Salvatore La Barbera, leader of the Palermo Centro family, was a member of the Commission.",
+      "relationship": "other",
+      "time_period": "1958",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Angelo_La_Barbera&oldid=1341535754"
+    },
+    {
+      "source": "Palermo Centro Mafia family",
+      "target": "Sicilian Mafia Commission",
+      "evidence_quote": "Angelo La Barbera refused to recognize the authority of the Commission over his family altogether.",
+      "context": "Angelo La Barbera refused to accept the Commission's authority, leading to conflict.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Angelo_La_Barbera&oldid=1341535754"
+    },
+    {
+      "source": "Palermo Centro Mafia family",
+      "target": "Gambino crime family",
+      "evidence_quote": "La Barbera tried to smuggle heroin from Mexico into the US, but was stopped by Carlo Gambino, the boss of the powerful Gambino crime family in New York City, who threatened to kill him if he would proceed.",
+      "context": "Carlo Gambino of the Gambino family threatened Angelo La Barbera to stop his heroin smuggling.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Angelo_La_Barbera&oldid=1341535754"
+    },
+    {
+      "source": "Palermo Centro Mafia family",
+      "target": "Greco Mafia clan",
+      "evidence_quote": "The conflict erupted over an underweight shipment of heroin... between clans allied with the Grecos... and clans allied with the La Barberas.",
+      "context": "The La Barbera family and the Greco clan were on opposite sides in the First Mafia War.",
+      "relationship": "conflict",
+      "time_period": "early 1960s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Angelo_La_Barbera&oldid=1341535754"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Angelo_La_Barbera&oldid=1341535754",
+  "source_file": "en_Angelo_La_Barbera"
+}

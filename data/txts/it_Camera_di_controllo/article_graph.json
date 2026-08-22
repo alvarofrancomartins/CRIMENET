@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "context": "Calabrian mafia organization with global operations.",
+      "time_period": "since the 1970s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Camera_di_controllo&oldid=149861239"
+    },
+    {
+      "standard_name": "Camera di controllo",
+      "original_text_name": "Camera di controllo",
+      "aliases": [
+        "Camera di compensazione",
+        "Crimine"
+      ],
+      "context": "Management and control bodies of 'Ndrangheta outside Calabria.",
+      "time_period": "since the 1970s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Camera_di_controllo&oldid=149861239"
+    },
+    {
+      "standard_name": "Cosa Nostra",
+      "original_text_name": "Cosa Nostra americana",
+      "aliases": [],
+      "context": "American Mafia organization.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Camera_di_controllo&oldid=149861239"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Camera di controllo",
+      "target": "'Ndrangheta",
+      "evidence_quote": "La Camera di controllo o Camera di compensazione sono degli organismi di gestione e controllo della 'Ndrangheta al di fuori della Calabria adottati sin dagli anni settanta.",
+      "context": "Camera di controllo is a management and control body of 'Ndrangheta.",
+      "relationship": "other",
+      "time_period": "since the 1970s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Camera_di_controllo&oldid=149861239"
+    },
+    {
+      "source": "Camera di controllo",
+      "target": "Cosa Nostra",
+      "evidence_quote": "Fin dagli anni sessanta esiste in Canada una camera di controllo voluta dai boss italo-americani di origine calabrese Frank Costello e Albert Anastasia per evitare contrasti con Cosa Nostra americana.",
+      "context": "Camera di controllo in Canada was created to avoid conflicts with American Cosa Nostra.",
+      "relationship": "cooperation",
+      "time_period": "since the 1960s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Camera_di_controllo&oldid=149861239"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Camera_di_controllo&oldid=149861239",
+  "source_file": "it_Camera_di_controllo"
+}

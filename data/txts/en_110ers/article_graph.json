@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "standard_name": "110ers Gang",
+      "original_text_name": "110ers Gang",
+      "aliases": [
+        "110ers"
+      ],
+      "context": "Criminal organization in New Orleans, Louisiana, operating in the 11th and 10th Wards, involved in drug trafficking, murder, theft, and kidnapping.",
+      "time_period": "2000s–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=110ers&oldid=1339076254"
+    },
+    {
+      "standard_name": "Young Melph Mafia",
+      "original_text_name": "Young Melph Mafia",
+      "aliases": [],
+      "context": "Criminal organization from New Orleans, feuding with the 110ers Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=110ers&oldid=1339076254"
+    },
+    {
+      "standard_name": "Ride or Die Gang",
+      "original_text_name": "Ride or Die Gang",
+      "aliases": [],
+      "context": "Criminal organization from the 8th Ward of New Orleans, feuding with the 110ers Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=110ers&oldid=1339076254"
+    },
+    {
+      "standard_name": "39ers Gang",
+      "original_text_name": "39ers gang",
+      "aliases": [],
+      "context": "Criminal organization listed as a rival of the 110ers Gang in the infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=110ers&oldid=1339076254"
+    }
+  ],
+  "edges": [
+    {
+      "source": "110ers Gang",
+      "target": "Young Melph Mafia",
+      "evidence_quote": "In recent years the gang have been known to feud with the Young Melph Mafia and the Ride or Die Gang from the 8th Ward of New Orleans.",
+      "context": "The 110ers Gang feuds with the Young Melph Mafia.",
+      "relationship": "conflict",
+      "time_period": "recent years",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=110ers&oldid=1339076254"
+    },
+    {
+      "source": "110ers Gang",
+      "target": "Ride or Die Gang",
+      "evidence_quote": "In recent years the gang have been known to feud with the Young Melph Mafia and the Ride or Die Gang from the 8th Ward of New Orleans.",
+      "context": "The 110ers Gang feuds with the Ride or Die Gang.",
+      "relationship": "conflict",
+      "time_period": "recent years",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=110ers&oldid=1339076254"
+    },
+    {
+      "source": "110ers Gang",
+      "target": "39ers Gang",
+      "evidence_quote": "Rivals: Ride or Die Gang , Young Melph Mafia , 39ers gang",
+      "context": "The 39ers gang is listed as a rival of the 110ers Gang in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=110ers&oldid=1339076254"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=110ers&oldid=1339076254",
+  "source_file": "en_110ers"
+}

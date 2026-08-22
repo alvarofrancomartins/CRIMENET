@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Neo Black Movement of Africa",
+      "original_text_name": "Neo Black Movement of Africa",
+      "aliases": [
+        "NBM",
+        "Neo-Black Movement of Africa"
+      ],
+      "context": "International confraternity established in 1977 at University of Benin, Nigeria, as part of Pan-African movement.",
+      "time_period": "1977",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Neo_Black_Movement_of_Africa&oldid=1359541679"
+    },
+    {
+      "standard_name": "Black Axe",
+      "original_text_name": "Black Axe",
+      "aliases": [],
+      "context": "Criminal subgroup of the Neo Black Movement of Africa, formed in 1994.",
+      "time_period": "1994",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Neo_Black_Movement_of_Africa&oldid=1359541679"
+    },
+    {
+      "standard_name": "National Association of Seadogs",
+      "original_text_name": "National Association of Seadogs (Pyrates)",
+      "aliases": [
+        "Pyrates"
+      ],
+      "context": "Similar group established in 1952, to which NBM formed as a response.",
+      "time_period": "1952",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Neo_Black_Movement_of_Africa&oldid=1359541679"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Neo Black Movement of Africa",
+      "target": "Black Axe",
+      "evidence_quote": "In February 2024, the Neo Black Movement of Africa publicly disassociated itself from the Black Axe, a criminal subgroup of the confraternity that formed in 1994.",
+      "context": "Black Axe is a criminal subgroup of NBM, but NBM publicly disassociated from it in 2024.",
+      "relationship": "other",
+      "time_period": "1994-2024",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Neo_Black_Movement_of_Africa&oldid=1359541679"
+    },
+    {
+      "source": "Neo Black Movement of Africa",
+      "target": "National Association of Seadogs",
+      "evidence_quote": "The NBM formed as a response to the reported excesses of National Association of Seadogs (Pyrates), a similar group established in 1952.",
+      "context": "NBM was formed in response to the excesses of the National Association of Seadogs.",
+      "relationship": "conflict",
+      "time_period": "1977",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Neo_Black_Movement_of_Africa&oldid=1359541679"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Neo_Black_Movement_of_Africa&oldid=1359541679",
+  "source_file": "en_Neo_Black_Movement_of_Africa"
+}

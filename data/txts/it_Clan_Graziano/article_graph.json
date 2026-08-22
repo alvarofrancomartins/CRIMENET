@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Clan Graziano",
+      "original_text_name": "clan Graziano",
+      "aliases": [
+        "Graziano"
+      ],
+      "context": "Camorra clan from Quindici, involved in a long conflict with the Cava clan.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Graziano&oldid=147972398"
+    },
+    {
+      "standard_name": "Clan Cava",
+      "original_text_name": "clan Cava",
+      "aliases": [
+        "Cava"
+      ],
+      "context": "Camorra clan from Quindici, rival of the Graziano clan.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Graziano&oldid=147972398"
+    },
+    {
+      "standard_name": "Clan dei Quindiciari",
+      "original_text_name": "Clan dei Quindiciari",
+      "aliases": [],
+      "context": "Original unified Camorra group in Quindici, formed by Graziano, Cava, and other families.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Graziano&oldid=147972398"
+    },
+    {
+      "standard_name": "Siniscalchi family",
+      "original_text_name": "Siniscalchi",
+      "aliases": [],
+      "context": "Powerful criminal family in Quindici before the Graziano clan.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Graziano&oldid=147972398"
+    },
+    {
+      "standard_name": "Grasso family",
+      "original_text_name": "Grasso",
+      "aliases": [],
+      "context": "Camorra family involved in the Grasso-Graziano conflict in the 1970s.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Graziano&oldid=147972398"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "context": "Camorra organization led by Raffaele Cutolo, which the Graziano clan joined.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Graziano&oldid=147972398"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "context": "Camorra coalition opposed to the NCO, which the Cava clan joined.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Graziano&oldid=147972398"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Clan Graziano",
+      "target": "Clan Cava",
+      "evidence_quote": "Da decenni è coinvolto in un feroce conflitto, nel quale è contrapposto al clan Cava.",
+      "context": "The Graziano clan has been in a fierce conflict with the Cava clan for decades.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Graziano&oldid=147972398"
+    },
+    {
+      "source": "Clan Graziano",
+      "target": "Clan Cava",
+      "evidence_quote": "I due clan, fino ad allora alleati in un unico clan, si scindono.",
+      "context": "The two clans were previously allied in a single clan before splitting.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Graziano&oldid=147972398"
+    },
+    {
+      "source": "Clan Graziano",
+      "target": "Clan dei Quindiciari",
+      "evidence_quote": "congiuntamente agli attuali rivali dei Cava e ad altre famiglie criminali, formava un unico gruppo camorristico, denominato \"Clan dei Quindiciari\".",
+      "context": "The Graziano clan was part of the unified Clan dei Quindiciari along with the Cava and other families.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Graziano&oldid=147972398"
+    },
+    {
+      "source": "Clan Cava",
+      "target": "Clan dei Quindiciari",
+      "evidence_quote": "congiuntamente agli attuali rivali dei Cava e ad altre famiglie criminali, formava un unico gruppo camorristico, denominato \"Clan dei Quindiciari\".",
+      "context": "The Cava clan was part of the unified Clan dei Quindiciari along with the Graziano and other families.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Graziano&oldid=147972398"
+    },
+    {
+      "source": "Clan Graziano",
+      "target": "Grasso family",
+      "evidence_quote": "l'omicidio del boss-sindaco Fiore Graziano - avvenuto nel settembre del '72 ad opera della famiglia Grasso -, un omicidio eccellente che aveva dato il via al conflitto Grasso-Graziano.",
+      "context": "The Graziano clan was in conflict with the Grasso family after the murder of Fiore Graziano.",
+      "relationship": "conflict",
+      "time_period": "1972",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Graziano&oldid=147972398"
+    },
+    {
+      "source": "Clan Graziano",
+      "target": "Nuova Camorra Organizzata",
+      "evidence_quote": "a seguito dell'adesione dei Graziano alla Nuova Camorra Organizzata",
+      "context": "The Graziano clan joined the Nuova Camorra Organizzata.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Graziano&oldid=147972398"
+    },
+    {
+      "source": "Clan Cava",
+      "target": "Nuova Famiglia",
+      "evidence_quote": "e dei Cava alla Nuova Famiglia",
+      "context": "The Cava clan joined the Nuova Famiglia.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Graziano&oldid=147972398"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Graziano&oldid=147972398",
+  "source_file": "it_Clan_Graziano"
+}

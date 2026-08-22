@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Gremium Motorcycle Club",
+      "original_text_name": "Gremium Motorcycle Club",
+      "aliases": [
+        "Gremium",
+        "Black Seven"
+      ],
+      "context": "German outlaw motorcycle club, established in 1972 in Mannheim.",
+      "time_period": "1972",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gremium_Motorcycle_Club&oldid=1359554307"
+    },
+    {
+      "standard_name": "Bones MC",
+      "original_text_name": "Bones MC",
+      "aliases": [],
+      "context": "Formerly Mannheim-based motorcycle club whose German chapters patched over to Hells Angels MC in 1999.",
+      "time_period": "until 1999",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gremium_Motorcycle_Club&oldid=1359554307"
+    },
+    {
+      "standard_name": "Hells Angels MC",
+      "original_text_name": "Hells Angels MC",
+      "aliases": [],
+      "context": "Outlaw motorcycle club that received the patchover of Bones MC German chapters in 1999.",
+      "time_period": "since 1999",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gremium_Motorcycle_Club&oldid=1359554307"
+    },
+    {
+      "standard_name": "Bad 7 MC",
+      "original_text_name": "Bad 7 MC",
+      "aliases": [],
+      "context": "Support club for Gremium Motorcycle Club in Germany.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gremium_Motorcycle_Club&oldid=1359554307"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Gremium Motorcycle Club",
+      "target": "Bones MC",
+      "evidence_quote": "Gremium claims to be the largest German motorcycle club since the patchover of the also formerly Mannheim-based German chapters of the Bones MC to the Hells Angels MC in 1999",
+      "context": "Gremium became the largest German MC after Bones MC chapters patched over to Hells Angels.",
+      "relationship": "other",
+      "time_period": "1999",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gremium_Motorcycle_Club&oldid=1359554307"
+    },
+    {
+      "source": "Bones MC",
+      "target": "Hells Angels MC",
+      "evidence_quote": "patchover of the also formerly Mannheim-based German chapters of the Bones MC to the Hells Angels MC in 1999",
+      "context": "Bones MC German chapters merged into Hells Angels MC via patchover.",
+      "relationship": "other",
+      "time_period": "1999",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gremium_Motorcycle_Club&oldid=1359554307"
+    },
+    {
+      "source": "Gremium Motorcycle Club",
+      "target": "Bad 7 MC",
+      "evidence_quote": "several associate chapters (Bad 7 MC support club) in Germany",
+      "context": "Bad 7 MC is a support club for Gremium.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gremium_Motorcycle_Club&oldid=1359554307"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Gremium_Motorcycle_Club&oldid=1359554307",
+  "source_file": "en_Gremium_Motorcycle_Club"
+}

@@ -1,0 +1,62 @@
+{
+  "nodes": [
+    {
+      "standard_name": "'Ndrina Valle",
+      "original_text_name": "Valle",
+      "aliases": [
+        "clan Valle-Lampada",
+        "Valle-Lampada"
+      ],
+      "context": "A 'ndrangheta clan based in Vigevano and Cisliano since the 1980s, active in real estate, gambling, and restaurants.",
+      "time_period": "1980s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Valle&oldid=149653199"
+    },
+    {
+      "standard_name": "Lampada",
+      "original_text_name": "Lampada",
+      "aliases": [],
+      "context": "A 'ndrangheta clan allied with the Valle clan.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Valle&oldid=149653199"
+    },
+    {
+      "standard_name": "De Stefano",
+      "original_text_name": "De Stefano",
+      "aliases": [],
+      "context": "A 'ndrangheta clan from Reggio Calabria, with whom the Valle clan was allied during the first 'ndrangheta war.",
+      "time_period": "1970s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Valle&oldid=149653199"
+    }
+  ],
+  "edges": [
+    {
+      "source": "'Ndrina Valle",
+      "target": "Lampada",
+      "evidence_quote": "alleati dei Lampada",
+      "context": "The Valle clan is allied with the Lampada clan.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Valle&oldid=149653199"
+    },
+    {
+      "source": "'Ndrina Valle",
+      "target": "De Stefano",
+      "evidence_quote": "legati ai De Stefano",
+      "context": "The Valle clan is linked to the De Stefano clan.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Valle&oldid=149653199"
+    },
+    {
+      "source": "'Ndrina Valle",
+      "target": "De Stefano",
+      "evidence_quote": "erano schierati con i De Stefano",
+      "context": "During the first 'ndrangheta war in the 1970s, the Valle clan sided with the De Stefano clan.",
+      "relationship": "cooperation",
+      "time_period": "1970s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Valle&oldid=149653199"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Valle&oldid=149653199",
+  "source_file": "it_'Ndrina_Valle"
+}

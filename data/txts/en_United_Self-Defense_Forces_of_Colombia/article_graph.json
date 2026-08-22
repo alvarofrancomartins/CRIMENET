@@ -1,0 +1,197 @@
+{
+  "nodes": [
+    {
+      "standard_name": "United Self-Defense Forces of Colombia",
+      "original_text_name": "United Self-Defense Forces of Colombia",
+      "aliases": [
+        "AUC",
+        "Autodefensas Unidas de Colombia",
+        "Paramilitaries",
+        "Paras",
+        "Paracos"
+      ],
+      "context": "Colombian far-right paramilitary and drug trafficking group active from 1997 to 2006.",
+      "time_period": "1997-2006",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "standard_name": "Revolutionary Armed Forces of Colombia",
+      "original_text_name": "FARC",
+      "aliases": [
+        "FARC",
+        "Revolutionary Armed Forces of Colombia"
+      ],
+      "context": "Leftist insurgency group, enemy of AUC.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "standard_name": "National Liberation Army",
+      "original_text_name": "ELN",
+      "aliases": [
+        "ELN",
+        "Ejército de Liberación Nacional",
+        "National Liberation Army"
+      ],
+      "context": "Leftist insurgency group, enemy of AUC.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "standard_name": "Peasant Self-Defense Forces of Córdoba and Urabá",
+      "original_text_name": "ACCU",
+      "aliases": [
+        "ACCU"
+      ],
+      "context": "Local right-wing militia that orchestrated the merger forming AUC.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'Ndrangheta",
+      "aliases": [],
+      "context": "Calabrian mafia group with close links to AUC concerning cocaine trafficking.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "standard_name": "Black Eagles",
+      "original_text_name": "Black Eagles",
+      "aliases": [],
+      "context": "Local successor group to AUC that continues to exist after AUC demobilization.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "standard_name": "United Self-Defense Forces of Colombia",
+      "original_text_name": "United Self-Defense Forces of Colombia",
+      "aliases": [
+        "AUC",
+        "Autodefensas Unidas de Colombia"
+      ],
+      "context": "Colombian far-right paramilitary and drug trafficking group active in the Colombian armed conflict from 1997 to 2006.",
+      "time_period": "1997-2006",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "standard_name": "Revolutionary Armed Forces of Colombia",
+      "original_text_name": "FARC",
+      "aliases": [],
+      "context": "Communist guerrilla organization in Colombia, targeted by the AUC.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "standard_name": "National Liberation Army",
+      "original_text_name": "ELN",
+      "aliases": [],
+      "context": "Communist guerrilla organization in Colombia, targeted by the AUC.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "standard_name": "Peasant Self-Defense Forces of Córdoba and Urabá",
+      "original_text_name": "ACCU",
+      "aliases": [],
+      "context": "Local right-wing militia that orchestrated the merger forming the AUC.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "standard_name": "BACRIM",
+      "original_text_name": "BACRIM",
+      "aliases": [
+        "bandas criminales emergentes"
+      ],
+      "context": "Neo-paramilitary alliance that succeeded the AUC after its demobilization.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    }
+  ],
+  "edges": [
+    {
+      "source": "United Self-Defense Forces of Colombia",
+      "target": "Revolutionary Armed Forces of Colombia",
+      "evidence_quote": "The AUC's main enemies were the leftist insurgency groups Revolutionary Armed Forces of Colombia (FARC) and the National Liberation Army (ELN).",
+      "context": "AUC considered FARC as main enemy and engaged in conflict.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "source": "United Self-Defense Forces of Colombia",
+      "target": "National Liberation Army",
+      "evidence_quote": "The AUC's main enemies were the leftist insurgency groups Revolutionary Armed Forces of Colombia (FARC) and the National Liberation Army (ELN).",
+      "context": "AUC considered ELN as main enemy and engaged in conflict.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "source": "United Self-Defense Forces of Colombia",
+      "target": "Peasant Self-Defense Forces of Córdoba and Urabá",
+      "evidence_quote": "In April 1997 the AUC was formed through a merger, orchestrated by the ACCU, of local right-wing militias.",
+      "context": "ACCU orchestrated the merger that formed AUC.",
+      "relationship": "other",
+      "time_period": "1997",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "source": "United Self-Defense Forces of Colombia",
+      "target": "'Ndrangheta",
+      "evidence_quote": "Under the leadership of Salvatore Mancuso, son of Italian immigrants, the AUC maintained close links with the Calabrian 'Ndrangheta concerning cocaine trafficking.",
+      "context": "AUC cooperated with 'Ndrangheta in cocaine trafficking.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "source": "United Self-Defense Forces of Colombia",
+      "target": "Black Eagles",
+      "evidence_quote": "However, local successors such as the Black Eagles continue to exist and death threats have been made using its name.",
+      "context": "Black Eagles are a successor group to AUC.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "source": "United Self-Defense Forces of Colombia",
+      "target": "Revolutionary Armed Forces of Colombia",
+      "evidence_quote": "The AUC was responsible for retaliations against the FARC and ELN communist organization as well as numerous attacks against civilians beginning in 1997 with the Mapiripán massacre.",
+      "context": "The AUC conducted retaliations and attacks against the FARC.",
+      "relationship": "conflict",
+      "time_period": "1997",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "source": "United Self-Defense Forces of Colombia",
+      "target": "National Liberation Army",
+      "evidence_quote": "The AUC was responsible for retaliations against the FARC and ELN communist organization as well as numerous attacks against civilians beginning in 1997 with the Mapiripán massacre.",
+      "context": "The AUC conducted retaliations and attacks against the ELN.",
+      "relationship": "conflict",
+      "time_period": "1997",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "source": "United Self-Defense Forces of Colombia",
+      "target": "Peasant Self-Defense Forces of Córdoba and Urabá",
+      "evidence_quote": "In April 1997 the AUC was formed through a merger, orchestrated by the ACCU, of local right-wing militias.",
+      "context": "The ACCU orchestrated the merger that formed the AUC.",
+      "relationship": "other",
+      "time_period": "1997",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    },
+    {
+      "source": "United Self-Defense Forces of Colombia",
+      "target": "BACRIM",
+      "evidence_quote": "The AUC was supposed to have demobilized completely by 2006 but successor organizations continued to operate such as the neo-paramilitary alliance BACRIM ('bandas criminales emergentes').",
+      "context": "BACRIM is a successor organization to the AUC.",
+      "relationship": "other",
+      "time_period": "2006",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=United_Self-Defense_Forces_of_Colombia&oldid=1357224316",
+  "source_file": "en_United_Self-Defense_Forces_of_Colombia"
+}

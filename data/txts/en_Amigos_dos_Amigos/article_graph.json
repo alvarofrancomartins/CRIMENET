@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Amigos dos Amigos",
+      "original_text_name": "Amigos dos Amigos",
+      "aliases": [
+        "ADA"
+      ],
+      "context": "Brazilian criminal organization operating in Rio de Janeiro, controls drug selling points and favelas.",
+      "time_period": "1998–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Amigos_dos_Amigos&oldid=1356941819"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "Red Command"
+      ],
+      "context": "Brazilian criminal organization, rival of ADA, expelled a member who founded ADA.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Amigos_dos_Amigos&oldid=1356941819"
+    },
+    {
+      "standard_name": "Terceiro Comando Puro",
+      "original_text_name": "Terceiro Comando Puro",
+      "aliases": [],
+      "context": "Brazilian criminal organization, rival of ADA.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Amigos_dos_Amigos&oldid=1356941819"
+    },
+    {
+      "standard_name": "Brazilian militias",
+      "original_text_name": "Brazilian militias",
+      "aliases": [],
+      "context": "Paramilitary groups in Brazil, listed as rivals of ADA in infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Amigos_dos_Amigos&oldid=1356941819"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Amigos dos Amigos",
+      "target": "Comando Vermelho",
+      "evidence_quote": "The gang's main rivals are Comando Vermelho and Terceiro Comando Puro.",
+      "context": "ADA and Comando Vermelho are rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Amigos_dos_Amigos&oldid=1356941819"
+    },
+    {
+      "source": "Amigos dos Amigos",
+      "target": "Terceiro Comando Puro",
+      "evidence_quote": "The gang's main rivals are Comando Vermelho and Terceiro Comando Puro.",
+      "context": "ADA and Terceiro Comando Puro are rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Amigos_dos_Amigos&oldid=1356941819"
+    },
+    {
+      "source": "Amigos dos Amigos",
+      "target": "Brazilian militias",
+      "evidence_quote": "Rivals: Comando Vermelho , Terceiro Comando Puro , Brazilian militias",
+      "context": "ADA and Brazilian militias are rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Amigos_dos_Amigos&oldid=1356941819"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Amigos_dos_Amigos&oldid=1356941819",
+  "source_file": "en_Amigos_dos_Amigos"
+}

@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Revolutionary Guard Corps",
+      "original_text_name": "Revolutionary Guard Corps",
+      "aliases": [
+        "Liwa Haris al-Jamahiriya",
+        "Jamahiriya Guard"
+      ],
+      "context": "Key Gaddafi protection force, paramilitary wing of Revolutionary Committees.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_Libya_under_Muammar_Gaddafi&oldid=1357494341"
+    },
+    {
+      "standard_name": "Revolutionary Committees",
+      "original_text_name": "Revolutionary Committees",
+      "aliases": [],
+      "context": "Introduced into workplaces and communities, later extended to military.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_Libya_under_Muammar_Gaddafi&oldid=1357494341"
+    },
+    {
+      "standard_name": "Islamic Legion",
+      "original_text_name": "Islamic Legion",
+      "aliases": [],
+      "context": "Created by Gaddafi to unify and Arabize the region, active in Chad and Sudan.",
+      "time_period": "1972",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_Libya_under_Muammar_Gaddafi&oldid=1357494341"
+    },
+    {
+      "standard_name": "Tajammu al-Arabi",
+      "original_text_name": "Tajammu al-Arabi",
+      "aliases": [],
+      "context": "Militantly racist and pan-Arabist organization in Darfur, supported by Gaddafi.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_Libya_under_Muammar_Gaddafi&oldid=1357494341"
+    },
+    {
+      "standard_name": "Janjaweed",
+      "original_text_name": "Janjaweed",
+      "aliases": [],
+      "context": "Group accused of genocide in Darfur, emerged in 1988 with former Islamic Legion leaders.",
+      "time_period": "1988",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_Libya_under_Muammar_Gaddafi&oldid=1357494341"
+    },
+    {
+      "standard_name": "Islamic Pan-African Legion",
+      "original_text_name": "Islamic Pan-African Legion",
+      "aliases": [
+        "Pan-African Legion"
+      ],
+      "context": "Body recruited among dissidents from various African states, committed in Chad.",
+      "time_period": "1980",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_Libya_under_Muammar_Gaddafi&oldid=1357494341"
+    },
+    {
+      "standard_name": "Islamic Arab Legion",
+      "original_text_name": "Islamic Arab Legion",
+      "aliases": [],
+      "context": "Planned united Arab military force under Gaddafi, existence unconfirmed as of 1987.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_Libya_under_Muammar_Gaddafi&oldid=1357494341"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Revolutionary Guard Corps",
+      "target": "Revolutionary Committees",
+      "evidence_quote": "The Revolutionary Guard developed from the Revolutionary Committees, even if the latter had at first been introduced only into workplaces and communities, and not extended to the military.",
+      "context": "Revolutionary Guard developed as a paramilitary wing of the Revolutionary Committees.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_Libya_under_Muammar_Gaddafi&oldid=1357494341"
+    },
+    {
+      "source": "Islamic Legion",
+      "target": "Tajammu al-Arabi",
+      "evidence_quote": "The two organizations shared members and a source of support, and the distinction between them is often ambiguous.",
+      "context": "Islamic Legion and Tajammu al-Arabi shared members and support.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_Libya_under_Muammar_Gaddafi&oldid=1357494341"
+    },
+    {
+      "source": "Islamic Legion",
+      "target": "Janjaweed",
+      "evidence_quote": "The Janjaweed, a group accused by the US of carrying out a genocide in Darfur in the 2000s, emerged in 1988 and some of its leaders are former legionnaires.",
+      "context": "Janjaweed emerged in 1988 with some leaders formerly from the Islamic Legion.",
+      "relationship": "other",
+      "time_period": "1988",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_Libya_under_Muammar_Gaddafi&oldid=1357494341"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=History_of_Libya_under_Muammar_Gaddafi&oldid=1357494341",
+  "source_file": "en_History_of_Libya_under_Muammar_Gaddafi"
+}

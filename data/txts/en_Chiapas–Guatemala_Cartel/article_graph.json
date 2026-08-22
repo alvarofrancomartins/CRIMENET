@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Chiapas–Guatemala Cartel",
+      "original_text_name": "Chiapas–Guatemala Cartel",
+      "aliases": [
+        "Cártel de Chiapas y Guatemala"
+      ],
+      "context": "Mexican cartel active in Chiapas and Guatemala, splinter of Sinaloa Cartel, founded in 2022.",
+      "time_period": "2022-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chiapas%E2%80%93Guatemala_Cartel&oldid=1352117027"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "context": "Mexican cartel, parent organization of Chiapas–Guatemala Cartel, rival of Jalisco New Generation Cartel.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chiapas%E2%80%93Guatemala_Cartel&oldid=1352117027"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Mexican cartel, rival of Sinaloa Cartel, ally of Chiapas–Guatemala Cartel.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chiapas%E2%80%93Guatemala_Cartel&oldid=1352117027"
+    },
+    {
+      "standard_name": "La Mayiza",
+      "original_text_name": "La Mayiza",
+      "aliases": [],
+      "context": "Faction of the Sinaloa Cartel, rival of Chiapas–Guatemala Cartel.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chiapas%E2%80%93Guatemala_Cartel&oldid=1352117027"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Chiapas–Guatemala Cartel",
+      "target": "Sinaloa Cartel",
+      "evidence_quote": "It emerged as a splinter group of the Sinaloa Cartel.",
+      "context": "Chiapas–Guatemala Cartel is a splinter group of Sinaloa Cartel.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chiapas%E2%80%93Guatemala_Cartel&oldid=1352117027"
+    },
+    {
+      "source": "Chiapas–Guatemala Cartel",
+      "target": "Jalisco New Generation Cartel",
+      "evidence_quote": "Allies: Jalisco New Generation Cartel",
+      "context": "Chiapas–Guatemala Cartel is allied with Jalisco New Generation Cartel.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chiapas%E2%80%93Guatemala_Cartel&oldid=1352117027"
+    },
+    {
+      "source": "Chiapas–Guatemala Cartel",
+      "target": "Sinaloa Cartel",
+      "evidence_quote": "Rivals: Sinaloa Cartel",
+      "context": "Chiapas–Guatemala Cartel is a rival of Sinaloa Cartel.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chiapas%E2%80%93Guatemala_Cartel&oldid=1352117027"
+    },
+    {
+      "source": "Chiapas–Guatemala Cartel",
+      "target": "La Mayiza",
+      "evidence_quote": "including a beheading of someone from La Mayiza (a faction of the Sinaloa Cartel) in 2026.",
+      "context": "Chiapas–Guatemala Cartel executed a member of La Mayiza.",
+      "relationship": "conflict",
+      "time_period": "2026",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chiapas%E2%80%93Guatemala_Cartel&oldid=1352117027"
+    },
+    {
+      "source": "Sinaloa Cartel",
+      "target": "Jalisco New Generation Cartel",
+      "evidence_quote": "Chiapas has seen a spike in violence in recent years due to a turf war between the Sinaloa Cartel and Jalisco New Generation Cartel over trafficking routes.",
+      "context": "Sinaloa Cartel and Jalisco New Generation Cartel are engaged in a turf war.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Chiapas%E2%80%93Guatemala_Cartel&oldid=1352117027"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Chiapas%E2%80%93Guatemala_Cartel&oldid=1352117027",
+  "source_file": "en_Chiapas–Guatemala_Cartel"
+}

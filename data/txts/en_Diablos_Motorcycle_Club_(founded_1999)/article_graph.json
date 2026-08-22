@@ -1,0 +1,88 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Diablos Motorcycle Club",
+      "original_text_name": "Diablos Motorcycle Club",
+      "aliases": [
+        "Diablos MC",
+        "Diablos"
+      ],
+      "context": "International outlaw motorcycle club founded in 1999 in Pattaya, Thailand; support club for the Bandidos.",
+      "time_period": "1999",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Diablos_Motorcycle_Club_%28founded_1999%29&oldid=1350095302"
+    },
+    {
+      "standard_name": "Bandidos Motorcycle Club",
+      "original_text_name": "Bandidos",
+      "aliases": [],
+      "context": "Outlaw motorcycle club; Diablos is a support club for Bandidos.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Diablos_Motorcycle_Club_%28founded_1999%29&oldid=1350095302"
+    },
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "context": "Outlaw motorcycle club; raided Diablos clubhouse in 2013 and clashed with Bandidos.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Diablos_Motorcycle_Club_%28founded_1999%29&oldid=1350095302"
+    },
+    {
+      "standard_name": "X-Team",
+      "original_text_name": "X-Team",
+      "aliases": [],
+      "context": "Criminal group; members involved with Bandidos in extortion case in Finland.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Diablos_Motorcycle_Club_%28founded_1999%29&oldid=1350095302"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Diablos Motorcycle Club",
+      "target": "Bandidos Motorcycle Club",
+      "evidence_quote": "The Diablos are a support club (called puppet clubs by law enforcement) for the Bandidos.",
+      "context": "Diablos is a support club for Bandidos, indicating a structural tie.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Diablos_Motorcycle_Club_%28founded_1999%29&oldid=1350095302"
+    },
+    {
+      "source": "Hells Angels Motorcycle Club",
+      "target": "Diablos Motorcycle Club",
+      "evidence_quote": "Members of the Hells Angels and associated clubs raided the Diablos' clubhouse in Melton, Melbourne, on 1 March 2013, according to the Sydney Morning Herald 'bashing' a Diablos member and taking identification details of the Diablos' girlfriends at gunpoint as a threat to stop them reporting the attack to police.",
+      "context": "Hells Angels raided Diablos clubhouse, attacking members.",
+      "relationship": "conflict",
+      "time_period": "1 March 2013",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Diablos_Motorcycle_Club_%28founded_1999%29&oldid=1350095302"
+    },
+    {
+      "source": "Hells Angels Motorcycle Club",
+      "target": "Bandidos Motorcycle Club",
+      "evidence_quote": "Approximately thirty minutes after the assault began, Bandidos members arrived in four cars in response to the raid. The Hells Angels group set up their own ambush, ramming a car driven by Bandidos national sergeant-at-arms Toby Mitchell and firing around thirty shots.",
+      "context": "Hells Angels ambushed Bandidos members who arrived to support Diablos, resulting in a shootout.",
+      "relationship": "conflict",
+      "time_period": "1 March 2013",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Diablos_Motorcycle_Club_%28founded_1999%29&oldid=1350095302"
+    },
+    {
+      "source": "Diablos Motorcycle Club",
+      "target": "Bandidos Motorcycle Club",
+      "evidence_quote": "According to the district court, the events originated when the Diablos chapter in Varkaus asked Bandidos' Oulu branch to collect the debt.",
+      "context": "Diablos asked Bandidos to collect a debt, indicating cooperation.",
+      "relationship": "cooperation",
+      "time_period": "July 2014",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Diablos_Motorcycle_Club_%28founded_1999%29&oldid=1350095302"
+    },
+    {
+      "source": "Bandidos Motorcycle Club",
+      "target": "X-Team",
+      "evidence_quote": "In January 2015, a total of eight people, some of whom were members of the Bandidos and X-Team, were given prison sentences of various lengths for the violent extortion of a man in Oulu that took place in July 2014.",
+      "context": "Bandidos and X-Team members jointly committed extortion.",
+      "relationship": "cooperation",
+      "time_period": "July 2014",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Diablos_Motorcycle_Club_%28founded_1999%29&oldid=1350095302"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Diablos_Motorcycle_Club_%28founded_1999%29&oldid=1350095302",
+  "source_file": "en_Diablos_Motorcycle_Club_(founded_1999)"
+}

@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cartel de Buga",
+      "original_text_name": "Cartel de Buga",
+      "aliases": [],
+      "context": "Colombian drug trafficking organization led by Ramón Quintero Sanclemente and Duffay Gutiérrez, active in cocaine trafficking.",
+      "time_period": "1990 - 2012",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Cartel_de_Buga&oldid=170791319"
+    },
+    {
+      "standard_name": "Cartel de Cali",
+      "original_text_name": "Cartel de Cali",
+      "aliases": [],
+      "context": "Colombian drug cartel, rival of Cartel de Buga.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Cartel_de_Buga&oldid=170791319"
+    },
+    {
+      "standard_name": "Cartel del Norte del Valle",
+      "original_text_name": "Cartel del Norte del Valle",
+      "aliases": [],
+      "context": "Colombian drug cartel, ally of Cartel de Buga.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Cartel_de_Buga&oldid=170791319"
+    },
+    {
+      "standard_name": "Cartel de Sinaloa",
+      "original_text_name": "Cartel de Sinaloa",
+      "aliases": [],
+      "context": "Mexican drug cartel, ally of Cartel de Buga.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Cartel_de_Buga&oldid=170791319"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cartel de Buga",
+      "target": "Cartel de Cali",
+      "evidence_quote": "El nombre de \" cartel \" se le dio, principalmente, en contraste con el así llamado Cartel de Cali , quien fue su principal rival, a partir del enfrentamiento armado que tuvieron estas dos organizaciones a mediados de la década de los 90s.",
+      "context": "Cartel de Buga and Cartel de Cali were armed rivals in the mid-1990s.",
+      "relationship": "conflict",
+      "time_period": "mid-1990s",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Cartel_de_Buga&oldid=170791319"
+    },
+    {
+      "source": "Cartel de Buga",
+      "target": "Cartel del Norte del Valle",
+      "evidence_quote": "Aliados: Cartel del Norte del Valle . Cartel de Sinaloa .",
+      "context": "Cartel de Buga was allied with Cartel del Norte del Valle.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Cartel_de_Buga&oldid=170791319"
+    },
+    {
+      "source": "Cartel de Buga",
+      "target": "Cartel de Sinaloa",
+      "evidence_quote": "Aliados: Cartel del Norte del Valle . Cartel de Sinaloa .",
+      "context": "Cartel de Buga was allied with Cartel de Sinaloa.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Cartel_de_Buga&oldid=170791319"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Cartel_de_Buga&oldid=170791319",
+  "source_file": "es_Cartel_de_Buga"
+}

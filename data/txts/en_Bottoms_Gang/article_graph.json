@@ -1,0 +1,86 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bottoms Gang",
+      "original_text_name": "Bottoms Gang",
+      "aliases": [],
+      "context": "American street gang in St. Louis, Missouri, active early 20th century, involved in voter intimidation, armed robbery, assault, illegal lottery, and murder.",
+      "time_period": "1905-1917",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bottoms_Gang&oldid=1356192621"
+    },
+    {
+      "standard_name": "Egan's Rats",
+      "original_text_name": "Egan's Rats",
+      "aliases": [
+        "Kinney Gang"
+      ],
+      "context": "Larger, more powerful St. Louis gang, rivals of the Bottoms Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bottoms_Gang&oldid=1356192621"
+    },
+    {
+      "standard_name": "Chouteau Avenue Gang",
+      "original_text_name": "Chouteau Avenue Gang",
+      "aliases": [],
+      "context": "Local mob in Soulard district that absorbed surviving Bottoms Gang members.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bottoms_Gang&oldid=1356192621"
+    },
+    {
+      "standard_name": "Cuckoo Gang",
+      "original_text_name": "Cuckoo Gang",
+      "aliases": [],
+      "context": "Evolved from the Chouteau Avenue Gang over time.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bottoms_Gang&oldid=1356192621"
+    },
+    {
+      "standard_name": "Nixie Fighters",
+      "original_text_name": "Nixie Fighters",
+      "aliases": [],
+      "context": "Splinter group of the Bottoms Gang known for fighting police.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bottoms_Gang&oldid=1356192621"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bottoms Gang",
+      "target": "Egan's Rats",
+      "evidence_quote": "The number-one enemy of the Bottoms Gang was the larger, more powerful Egan's Rats gang.",
+      "context": "The Bottoms Gang feuded with Egan's Rats, their primary rival.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bottoms_Gang&oldid=1356192621"
+    },
+    {
+      "source": "Bottoms Gang",
+      "target": "Nixie Fighters",
+      "evidence_quote": "A splinter group of the Bottoms Gang became known as the \"Nixie Fighters\" because of their penchant for fighting police officers.",
+      "context": "The Nixie Fighters were a splinter group that broke away from the Bottoms Gang.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bottoms_Gang&oldid=1356192621"
+    },
+    {
+      "source": "Bottoms Gang",
+      "target": "Chouteau Avenue Gang",
+      "evidence_quote": "A handful of the surviving members had relocated to the Soulard district where they fell in with a local mob known as the Chouteau Avenue Gang.",
+      "context": "Surviving Bottoms Gang members joined the Chouteau Avenue Gang after the Bottoms Gang dissolved.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bottoms_Gang&oldid=1356192621"
+    },
+    {
+      "source": "Chouteau Avenue Gang",
+      "target": "Cuckoo Gang",
+      "evidence_quote": "Over the fullness of time, this crew would evolve into the Cuckoo Gang.",
+      "context": "The Chouteau Avenue Gang eventually evolved into the Cuckoo Gang.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Bottoms_Gang&oldid=1356192621"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Bottoms_Gang&oldid=1356192621",
+  "source_file": "en_Bottoms_Gang"
+}

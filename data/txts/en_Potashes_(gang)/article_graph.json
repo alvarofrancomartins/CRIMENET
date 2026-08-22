@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Potashes",
+      "original_text_name": "Potashes",
+      "aliases": [],
+      "context": "19th-century Irish-American street gang active in Greenwich Village and New York waterfront during early to mid-1890s.",
+      "time_period": "1890s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Potashes_%28gang%29&oldid=1339086262"
+    },
+    {
+      "standard_name": "Boodle Gang",
+      "original_text_name": "Boodle Gang",
+      "aliases": [],
+      "context": "Much older gang that dominated Lower West Side Manhattan with Potashes until end of 1890s.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Potashes_%28gang%29&oldid=1339086262"
+    },
+    {
+      "standard_name": "Hudson Dusters",
+      "original_text_name": "Hudson Dusters",
+      "aliases": [],
+      "context": "Emerging gang that displaced Potashes and Boodle Gang, controlling the area for the next decade.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Potashes_%28gang%29&oldid=1339086262"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Potashes",
+      "target": "Boodle Gang",
+      "evidence_quote": "They and the much older Boodle Gang dominated Lower West Side Manhattan until the end of the 1890s",
+      "context": "Potashes and Boodle Gang jointly dominated Lower West Side Manhattan.",
+      "relationship": "cooperation",
+      "time_period": "until the end of the 1890s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Potashes_%28gang%29&oldid=1339086262"
+    },
+    {
+      "source": "Potashes",
+      "target": "Hudson Dusters",
+      "evidence_quote": "Rivals: Boodle Gang , Hudson Dusters",
+      "context": "Hudson Dusters are listed as rivals of Potashes in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Potashes_%28gang%29&oldid=1339086262"
+    },
+    {
+      "source": "Boodle Gang",
+      "target": "Hudson Dusters",
+      "evidence_quote": "They and the much older Boodle Gang dominated Lower West Side Manhattan until the end of the 1890s when they were displaced by the then emerging Hudson Dusters",
+      "context": "Hudson Dusters displaced Boodle Gang from dominance in Lower West Side Manhattan.",
+      "relationship": "conflict",
+      "time_period": "end of the 1890s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Potashes_%28gang%29&oldid=1339086262"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Potashes_%28gang%29&oldid=1339086262",
+  "source_file": "en_Potashes_(gang)"
+}

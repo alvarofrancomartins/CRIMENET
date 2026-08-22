@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Forty-Two Gang",
+      "original_text_name": "Forty-Two Gang",
+      "aliases": [
+        "42ers"
+      ],
+      "context": "Teenage street gang in Chicago, active during Prohibition, served as a farm team for the Chicago Outfit.",
+      "time_period": "1925-1934",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Forty-Two_Gang&oldid=1246971512"
+    },
+    {
+      "standard_name": "Chicago Outfit",
+      "original_text_name": "Chicago Outfit",
+      "aliases": [
+        "Outfit",
+        "Chicago Syndicate"
+      ],
+      "context": "Major organized crime syndicate in Chicago, led by Al Capone and later Sam Giancana.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Forty-Two_Gang&oldid=1246971512"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Forty-Two Gang",
+      "target": "Chicago Outfit",
+      "evidence_quote": "the Forty-Two Gang served as a 'farm team' for future members of the Chicago Outfit.",
+      "context": "The Forty-Two Gang supplied future members to the Chicago Outfit.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Forty-Two_Gang&oldid=1246971512"
+    },
+    {
+      "source": "Forty-Two Gang",
+      "target": "Chicago Outfit",
+      "evidence_quote": "The Outfit would occasionally hire gang members as beer runners or truck drivers",
+      "context": "The Chicago Outfit hired Forty-Two Gang members for occasional jobs.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Forty-Two_Gang&oldid=1246971512"
+    },
+    {
+      "source": "Forty-Two Gang",
+      "target": "Chicago Outfit",
+      "evidence_quote": "the Outfit eliminated him in 1938 due to his interference in their operations.",
+      "context": "The Chicago Outfit killed a Forty-Two Gang leader who interfered with their operations.",
+      "relationship": "conflict",
+      "time_period": "1938",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Forty-Two_Gang&oldid=1246971512"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Forty-Two_Gang&oldid=1246971512",
+  "source_file": "en_Forty-Two_Gang"
+}

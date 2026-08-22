@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Nueva Plaza Cartel",
+      "original_text_name": "Nueva Plaza Cartel",
+      "aliases": [
+        "Cártel Nueva Plaza",
+        "Cartel Nuevo"
+      ],
+      "context": "Mexican criminal organization from Jalisco, split from CJNG in 2018.",
+      "time_period": "2018−present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nueva_Plaza_Cartel&oldid=1354177240"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Mexican criminal organization from Jalisco, parent group of Nueva Plaza Cartel.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nueva_Plaza_Cartel&oldid=1354177240"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "context": "Mexican criminal organization, provides funding to Nueva Plaza Cartel.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nueva_Plaza_Cartel&oldid=1354177240"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Nueva Plaza Cartel",
+      "target": "Jalisco New Generation Cartel",
+      "evidence_quote": "The group began as a split from the Jalisco New Generation Cartel",
+      "context": "Nueva Plaza Cartel split from CJNG, making it a splinter group.",
+      "relationship": "other",
+      "time_period": "2018",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nueva_Plaza_Cartel&oldid=1354177240"
+    },
+    {
+      "source": "Nueva Plaza Cartel",
+      "target": "Jalisco New Generation Cartel",
+      "evidence_quote": "El Salto, Chapala, Juanacatlán, Poncitlán, Tlajomulco de Zuñiga and Ixtlahuacán de los Membrillos are the areas they dispute.",
+      "context": "Nueva Plaza Cartel and CJNG dispute territories in Jalisco.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nueva_Plaza_Cartel&oldid=1354177240"
+    },
+    {
+      "source": "Nueva Plaza Cartel",
+      "target": "Sinaloa Cartel",
+      "evidence_quote": "in addition to having funding from the Sinaloa Cartel",
+      "context": "Sinaloa Cartel provides funding to Nueva Plaza Cartel.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nueva_Plaza_Cartel&oldid=1354177240"
+    },
+    {
+      "source": "Nueva Plaza Cartel",
+      "target": "Jalisco New Generation Cartel",
+      "evidence_quote": "Rivals: Mexico , Jalisco New Generation Cartel , United States",
+      "context": "Infobox lists CJNG as a rival of Nueva Plaza Cartel.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nueva_Plaza_Cartel&oldid=1354177240"
+    },
+    {
+      "source": "Nueva Plaza Cartel",
+      "target": "Sinaloa Cartel",
+      "evidence_quote": "Allies: Sinaloa Cartel",
+      "context": "Infobox lists Sinaloa Cartel as an ally of Nueva Plaza Cartel.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Nueva_Plaza_Cartel&oldid=1354177240"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Nueva_Plaza_Cartel&oldid=1354177240",
+  "source_file": "en_Nueva_Plaza_Cartel"
+}

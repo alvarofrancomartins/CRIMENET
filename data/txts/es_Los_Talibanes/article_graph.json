@@ -1,0 +1,88 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Talibanes",
+      "original_text_name": "Los Talibanes",
+      "aliases": [
+        "Los Nortes"
+      ],
+      "context": "Mexican criminal group based in San Luis Potosí and Zacatecas, formed by Iván Velázquez Caballero after breaking with Los Zetas.",
+      "time_period": "~2013-Presente",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Talibanes&oldid=172273682"
+    },
+    {
+      "standard_name": "Cártel del Golfo",
+      "original_text_name": "Cártel del Golfo",
+      "aliases": [],
+      "context": "Mexican drug cartel allied with Los Talibanes.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Talibanes&oldid=172273682"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "context": "Mexican criminal organization, former group of Iván Velázquez Caballero, later enemy of Los Talibanes.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Talibanes&oldid=172273682"
+    },
+    {
+      "standard_name": "Cártel de Sinaloa",
+      "original_text_name": "Cártel de Sinaloa",
+      "aliases": [],
+      "context": "Mexican drug cartel allied with Los Talibanes.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Talibanes&oldid=172273682"
+    },
+    {
+      "standard_name": "Cártel Jalisco Nueva Generación",
+      "original_text_name": "Cártel Jalisco Nueva Generación",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Mexican criminal organization, enemy of Los Talibanes.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Talibanes&oldid=172273682"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Talibanes",
+      "target": "Cártel del Golfo",
+      "evidence_quote": "se alió con el Cártel del Golfo para desplazar a su antiguo compañero.",
+      "context": "Los Talibanes allied with the Gulf Cartel to fight against Los Zetas.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Talibanes&oldid=172273682"
+    },
+    {
+      "source": "Los Talibanes",
+      "target": "Los Zetas",
+      "evidence_quote": "Desde finales del 2011 los Talibanes tuvieron una violenta pugna contra Los Zetas",
+      "context": "Los Talibanes had a violent feud with Los Zetas.",
+      "relationship": "conflict",
+      "time_period": "finales del 2011",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Talibanes&oldid=172273682"
+    },
+    {
+      "source": "Los Talibanes",
+      "target": "Cártel de Sinaloa",
+      "evidence_quote": "estando aliado al Cártel de Sinaloa",
+      "context": "Los Talibanes are allied with the Sinaloa Cartel.",
+      "relationship": "cooperation",
+      "time_period": "marzo del 2021",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Talibanes&oldid=172273682"
+    },
+    {
+      "source": "Los Talibanes",
+      "target": "Cártel Jalisco Nueva Generación",
+      "evidence_quote": "enfrentando al Cártel Jalisco Nueva Generación en cruentos enfrentamientos",
+      "context": "Los Talibanes are fighting against CJNG.",
+      "relationship": "conflict",
+      "time_period": "marzo del 2021",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Talibanes&oldid=172273682"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Talibanes&oldid=172273682",
+  "source_file": "es_Los_Talibanes"
+}

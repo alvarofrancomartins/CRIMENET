@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Ghee Hin Kongsi",
+      "original_text_name": "Ghee Hin Kongsi",
+      "aliases": [
+        "Ghee Hin",
+        "義興公司"
+      ],
+      "context": "A secret society in Singapore and Malaya, formed in 1820, part of the Hongmen overseas network.",
+      "time_period": "1820-1892",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ghee_Hin_Kongsi&oldid=1346825769"
+    },
+    {
+      "standard_name": "Hai San secret society",
+      "original_text_name": "Hai San secret society",
+      "aliases": [
+        "Hai San"
+      ],
+      "context": "A Hakka-dominated secret society in Malaya.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ghee_Hin_Kongsi&oldid=1346825769"
+    },
+    {
+      "standard_name": "Hongmen",
+      "original_text_name": "Hongmen",
+      "aliases": [],
+      "context": "An overseas network of secret societies of which Ghee Hin was a part.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ghee_Hin_Kongsi&oldid=1346825769"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ghee Hin Kongsi",
+      "target": "Hai San secret society",
+      "evidence_quote": "The Ghee Hin often fought against the Hakka -dominated Hai San secret society .",
+      "context": "Ghee Hin frequently engaged in violent conflict with Hai San.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ghee_Hin_Kongsi&oldid=1346825769"
+    },
+    {
+      "source": "Ghee Hin Kongsi",
+      "target": "Hongmen",
+      "evidence_quote": "Ghee Hin ... was part of the Hongmen overseas network.",
+      "context": "Ghee Hin was a constituent part of the Hongmen network.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Ghee_Hin_Kongsi&oldid=1346825769"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Ghee_Hin_Kongsi&oldid=1346825769",
+  "source_file": "en_Ghee_Hin_Kongsi"
+}

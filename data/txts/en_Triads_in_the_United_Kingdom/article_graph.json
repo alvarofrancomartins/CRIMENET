@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "standard_name": "14K Triad",
+      "original_text_name": "14K Triad",
+      "aliases": [
+        "14k"
+      ],
+      "context": "A triad organization that emerged in UK Chinese communities as early as 1952, involved in drug trafficking, loan sharking, and extortion.",
+      "time_period": "since 1952",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Triads_in_the_United_Kingdom&oldid=1332622336"
+    },
+    {
+      "standard_name": "Wo Shing Wo",
+      "original_text_name": "Wo Shing Wo",
+      "aliases": [],
+      "context": "Considered the largest Triad operating in Britain, based in Manchester, Birmingham, Glasgow, and London, with affiliated groups in other cities.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Triads_in_the_United_Kingdom&oldid=1332622336"
+    },
+    {
+      "standard_name": "Wo On Lok",
+      "original_text_name": "Wo On Lok",
+      "aliases": [],
+      "context": "A triad that fled to Britain after the Sino-British Joint Declaration in 1984, established in Wales, London, and Southampton, involved in tax evasion, money laundering, and extortion.",
+      "time_period": "since 1984",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Triads_in_the_United_Kingdom&oldid=1332622336"
+    },
+    {
+      "standard_name": "Sun Yee On",
+      "original_text_name": "Sun Yee On",
+      "aliases": [],
+      "context": "An influential triad organization that fled to Britain after 1984, involved in white-collar crime and legitimate businesses, based in London and Liverpool.",
+      "time_period": "since 1984",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Triads_in_the_United_Kingdom&oldid=1332622336"
+    }
+  ],
+  "edges": [
+    {
+      "source": "14K Triad",
+      "target": "Wo Shing Wo",
+      "evidence_quote": "It is unclear which Triad was responsible for first importing heroin into the UK; however, authorities believe it was originally transported from Hong Kong via Amsterdam by the Ng Sik-ho , and received by either the 14k or the recently arrived Wo Shing Wo .",
+      "context": "Both 14K and Wo Shing Wo are mentioned as possible recipients of heroin shipments, indicating a potential cooperative or competitive relationship in drug trafficking.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Triads_in_the_United_Kingdom&oldid=1332622336"
+    },
+    {
+      "source": "Wo On Lok",
+      "target": "Sun Yee On",
+      "evidence_quote": "Following the signing of the Sino-British Joint Declaration between the UK and China in 1984, the news of Hong Kong's return to China caused many Triads to flee to Britain, specifically the Wo On Lok and the Sun Yee On .",
+      "context": "Both Wo On Lok and Sun Yee On fled to Britain around the same time due to the same political event, but no direct relationship between them is stated.",
+      "relationship": "other",
+      "time_period": "since 1984",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Triads_in_the_United_Kingdom&oldid=1332622336"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Triads_in_the_United_Kingdom&oldid=1332622336",
+  "source_file": "en_Triads_in_the_United_Kingdom"
+}

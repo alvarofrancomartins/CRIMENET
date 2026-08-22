@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Bonanno crime family",
+      "original_text_name": "Bonanno crime family",
+      "aliases": [
+        "Bonanno family"
+      ],
+      "context": "An American Mafia crime family based in New York City.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Al_Indelicato&oldid=1332080316"
+    },
+    {
+      "standard_name": "Colombo crime family",
+      "original_text_name": "Colombo crime family",
+      "aliases": [],
+      "context": "An American Mafia crime family based in New York City.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Al_Indelicato&oldid=1332080316"
+    },
+    {
+      "standard_name": "Gambino crime family",
+      "original_text_name": "Gambino crime family",
+      "aliases": [
+        "Gambino mob"
+      ],
+      "context": "An American Mafia crime family based in New York City.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Al_Indelicato&oldid=1332080316"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Bonanno crime family",
+      "target": "Colombo crime family",
+      "evidence_quote": "Massino turned to Colombo crime family boss Carmine Persico and Gambino crime family boss Paul Castellano for advice; they told him to act immediately.",
+      "context": "Bonanno capo Massino sought advice from Colombo boss Persico, indicating cooperation.",
+      "relationship": "cooperation",
+      "time_period": "1981",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Al_Indelicato&oldid=1332080316"
+    },
+    {
+      "source": "Bonanno crime family",
+      "target": "Gambino crime family",
+      "evidence_quote": "Massino turned to Colombo crime family boss Carmine Persico and Gambino crime family boss Paul Castellano for advice; they told him to act immediately.",
+      "context": "Bonanno capo Massino sought advice from Gambino boss Castellano, indicating cooperation.",
+      "relationship": "cooperation",
+      "time_period": "1981",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Al_Indelicato&oldid=1332080316"
+    },
+    {
+      "source": "Bonanno crime family",
+      "target": "Gambino crime family",
+      "evidence_quote": "The lot was a Gambino mob graveyard; Gambino capo John Gotti arranged for his men to bury the bodies there as a favor to Massino.",
+      "context": "Gambino family provided burial services for Bonanno family, indicating cooperation.",
+      "relationship": "cooperation",
+      "time_period": "1981",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Al_Indelicato&oldid=1332080316"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Al_Indelicato&oldid=1332080316",
+  "source_file": "en_Al_Indelicato"
+}

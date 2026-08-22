@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cártel de Colima",
+      "original_text_name": "Cártel de Colima",
+      "aliases": [
+        "Cártel del Pacífico",
+        "Cártel de los Amezcua Contreras"
+      ],
+      "context": "Mexican criminal organization dedicated to drug trafficking and methamphetamine production.",
+      "time_period": "1988-2005",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508"
+    },
+    {
+      "standard_name": "Cártel de Sinaloa",
+      "original_text_name": "Cártel de Sinaloa",
+      "aliases": [],
+      "context": "Mexican drug cartel; the Colima Cartel operated outside its control initially but later became a branch.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508"
+    },
+    {
+      "standard_name": "Los Mezcales",
+      "original_text_name": "Los Mezcales",
+      "aliases": [],
+      "context": "Criminal group that sometimes uses the name Cártel de Colima; a splinter of CJNG.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508"
+    },
+    {
+      "standard_name": "Cártel de Jalisco Nueva Generación",
+      "original_text_name": "Cártel de Jalisco Nueva Generación",
+      "aliases": [
+        "Cartel Jalisco Nueva Generación"
+      ],
+      "context": "Mexican criminal organization; Los Mezcales are a splinter of this cartel.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508"
+    },
+    {
+      "standard_name": "Cártel del Milenio",
+      "original_text_name": "Cártel del Milenio",
+      "aliases": [],
+      "context": "Mexican drug cartel; allied with Colima Cartel and became a branch of Sinaloa Cartel.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508"
+    },
+    {
+      "standard_name": "Cartel de Guadalajara",
+      "original_text_name": "Cartel de Guadalajara",
+      "aliases": [],
+      "context": "Mexican drug cartel; allied with Colima Cartel and became a branch of Sinaloa Cartel.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508"
+    },
+    {
+      "standard_name": "Cartel de Sonora",
+      "original_text_name": "Cartel de Sonora",
+      "aliases": [],
+      "context": "Mexican drug cartel; became a branch of Sinaloa Cartel.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508"
+    },
+    {
+      "standard_name": "Cártel de Tijuana",
+      "original_text_name": "Cártel de Tijuana",
+      "aliases": [],
+      "context": "Mexican drug cartel; listed as enemy of Colima Cartel.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508"
+    },
+    {
+      "standard_name": "Cártel de Juárez",
+      "original_text_name": "Cártel de Juárez",
+      "aliases": [],
+      "context": "Mexican drug cartel; listed as enemy of Colima Cartel.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cártel de Colima",
+      "target": "Cártel de Sinaloa",
+      "evidence_quote": "El cartel de Colima se ha convertido en una rama del Cartel de Sinaloa",
+      "context": "Colima Cartel became a branch of Sinaloa Cartel.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508"
+    },
+    {
+      "source": "Cártel de Colima",
+      "target": "Los Mezcales",
+      "evidence_quote": "Este cártel no tiene como relación con el grupo delincuencial Los Mezcales, los cuáles en ocasiones usan el nombre de Cártel de Colima, siendo esta organización una escisión del Cártel de Jalisco Nueva Generación",
+      "context": "Los Mezcales sometimes use the name Cártel de Colima but are a splinter of CJNG, not related to Colima Cartel.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508"
+    },
+    {
+      "source": "Los Mezcales",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "siendo esta organización una escisión del Cártel de Jalisco Nueva Generación",
+      "context": "Los Mezcales are a splinter of CJNG.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508"
+    },
+    {
+      "source": "Cártel de Colima",
+      "target": "Cártel del Milenio",
+      "evidence_quote": "Aliados: Cártel de Sinaloa , Cártel del Milenio , Cartel de Guadalajara",
+      "context": "Colima Cartel allied with Milenio Cartel.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508"
+    },
+    {
+      "source": "Cártel de Colima",
+      "target": "Cartel de Guadalajara",
+      "evidence_quote": "Aliados: Cártel de Sinaloa , Cártel del Milenio , Cartel de Guadalajara",
+      "context": "Colima Cartel allied with Guadalajara Cartel.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508"
+    },
+    {
+      "source": "Cártel de Colima",
+      "target": "Cártel de Tijuana",
+      "evidence_quote": "Enemigos: Cártel de Tijuana , Cártel de Juárez",
+      "context": "Colima Cartel considered Tijuana Cartel an enemy.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508"
+    },
+    {
+      "source": "Cártel de Colima",
+      "target": "Cártel de Juárez",
+      "evidence_quote": "Enemigos: Cártel de Tijuana , Cártel de Juárez",
+      "context": "Colima Cartel considered Juárez Cartel an enemy.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Colima&oldid=173177508",
+  "source_file": "es_Cártel_de_Colima"
+}

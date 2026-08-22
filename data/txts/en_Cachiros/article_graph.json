@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cachiros",
+      "original_text_name": "Cachiros",
+      "aliases": [
+        "Los Cachiros"
+      ],
+      "context": "Honduran criminal organization dedicated to drug trafficking, founded in early 1990s.",
+      "time_period": "1990s-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Cachiros&oldid=1341692169"
+    },
+    {
+      "standard_name": "Los Rastrojos",
+      "original_text_name": "Los Rastrojos",
+      "aliases": [],
+      "context": "Colombian criminal organization, ally of Cachiros.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Cachiros&oldid=1341692169"
+    },
+    {
+      "standard_name": "Norte del Valle Cartel",
+      "original_text_name": "Norte del Valle Cartel",
+      "aliases": [],
+      "context": "Colombian drug cartel, ally of Cachiros.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Cachiros&oldid=1341692169"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "context": "Mexican drug cartel, ally of Cachiros.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Cachiros&oldid=1341692169"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cachiros",
+      "target": "Los Rastrojos",
+      "evidence_quote": "Allies: Los Rastrojos , Norte del Valle Cartel , Sinaloa Cartel",
+      "context": "Cachiros is allied with Los Rastrojos.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Cachiros&oldid=1341692169"
+    },
+    {
+      "source": "Cachiros",
+      "target": "Norte del Valle Cartel",
+      "evidence_quote": "Allies: Los Rastrojos , Norte del Valle Cartel , Sinaloa Cartel",
+      "context": "Cachiros is allied with Norte del Valle Cartel.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Cachiros&oldid=1341692169"
+    },
+    {
+      "source": "Cachiros",
+      "target": "Sinaloa Cartel",
+      "evidence_quote": "Allies: Los Rastrojos , Norte del Valle Cartel , Sinaloa Cartel",
+      "context": "Cachiros is allied with Sinaloa Cartel.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Cachiros&oldid=1341692169"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Cachiros&oldid=1341692169",
+  "source_file": "en_Cachiros"
+}

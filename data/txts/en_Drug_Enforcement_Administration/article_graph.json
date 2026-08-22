@@ -1,0 +1,62 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Revolutionary Armed Forces of Colombia",
+      "original_text_name": "Revolutionary Armed Forces of Colombia (FARC–EP)",
+      "aliases": [
+        "FARC",
+        "FARC-EP"
+      ],
+      "context": "Colombian guerrilla group involved in the Colombian conflict.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Drug_Enforcement_Administration&oldid=1358597022"
+    },
+    {
+      "standard_name": "Hezbollah",
+      "original_text_name": "Hezbollah",
+      "aliases": [],
+      "context": "Lebanese militant group and political party, investigated for drug trafficking and terrorist financing.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Drug_Enforcement_Administration&oldid=1358597022"
+    },
+    {
+      "standard_name": "Lashkar-e-Taiba",
+      "original_text_name": "Lashkar-e-Taiba",
+      "aliases": [],
+      "context": "Pakistan-based terror outfit involved in the 2008 Mumbai attacks.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Drug_Enforcement_Administration&oldid=1358597022"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Drug Enforcement Administration",
+      "target": "Revolutionary Armed Forces of Colombia",
+      "evidence_quote": "the Special Jurisdiction for Peace found that the DEA had plotted with Colombian Attorney General Néstor Humberto Martínez to fabricate drug trafficking charges against Jesús Santrich, in a bid to jeopardize the peace agreement by inciting the FARC to take up arms again.",
+      "context": "The DEA allegedly plotted to fabricate charges against a FARC member to incite the group to resume hostilities.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Drug_Enforcement_Administration&oldid=1358597022"
+    },
+    {
+      "source": "Drug Enforcement Administration",
+      "target": "Hezbollah",
+      "evidence_quote": "In 2008 the Special Operations part of the agency launched a multi-agency effort named Project Cassandra to investigate Hezbollah for allegations of illicit drug trafficking and terrorist financing.",
+      "context": "The DEA investigated Hezbollah for drug trafficking and terrorist financing.",
+      "relationship": "conflict",
+      "time_period": "2008",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Drug_Enforcement_Administration&oldid=1358597022"
+    },
+    {
+      "source": "Drug Enforcement Administration",
+      "target": "Lashkar-e-Taiba",
+      "evidence_quote": "Headley, while working with the DEA, took part in the plot by providing reconnaissance to the Pakistan based terror outfit Lashkar-e-Taiba",
+      "context": "A DEA informant provided reconnaissance to Lashkar-e-Taiba for terror attacks.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Drug_Enforcement_Administration&oldid=1358597022"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Drug_Enforcement_Administration&oldid=1358597022",
+  "source_file": "en_Drug_Enforcement_Administration"
+}

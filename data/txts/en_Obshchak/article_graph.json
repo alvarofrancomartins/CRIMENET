@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Obshchak",
+      "original_text_name": "Obshchak",
+      "aliases": [
+        "Common Fund",
+        "obštšak",
+        "ühiskassa"
+      ],
+      "context": "Umbrella organization of criminal groups in Estonia, settling conflicts and establishing boundaries.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Obshchak&oldid=1350796198"
+    },
+    {
+      "standard_name": "Russian mafia",
+      "original_text_name": "Russian mafia",
+      "aliases": [],
+      "context": "Criminal groups of Russian origin operating in Estonia.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Obshchak&oldid=1350796198"
+    },
+    {
+      "standard_name": "Estonian organized crime",
+      "original_text_name": "Estonian organized crime",
+      "aliases": [],
+      "context": "Criminal groups of Estonian origin operating in Estonia.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Obshchak&oldid=1350796198"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Obshchak",
+      "target": "Russian mafia",
+      "evidence_quote": "a traditional umbrella organisation of criminal groups in Estonia, a trade union of sorts that settles conflicts and establishes boundaries of the spheres of interest of various groups such as the Russian mafia and Estonian organized crime",
+      "context": "Obshchak is an umbrella organization that includes Russian mafia groups.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Obshchak&oldid=1350796198"
+    },
+    {
+      "source": "Obshchak",
+      "target": "Estonian organized crime",
+      "evidence_quote": "a traditional umbrella organisation of criminal groups in Estonia, a trade union of sorts that settles conflicts and establishes boundaries of the spheres of interest of various groups such as the Russian mafia and Estonian organized crime",
+      "context": "Obshchak is an umbrella organization that includes Estonian organized crime groups.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Obshchak&oldid=1350796198"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Obshchak&oldid=1350796198",
+  "source_file": "en_Obshchak"
+}

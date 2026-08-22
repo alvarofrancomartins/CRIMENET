@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kyokuto-kai",
+      "original_text_name": "Kyokuto-kai",
+      "aliases": [
+        "Kyokutō-kai"
+      ],
+      "context": "Yakuza organization based in Tokyo, Japan.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kyokuto-kai&oldid=1359469836"
+    },
+    {
+      "standard_name": "Matsuba-kai",
+      "original_text_name": "Matsuba-kai",
+      "aliases": [],
+      "context": "Rival yakuza organization involved in a feud with Kyokuto-kai.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kyokuto-kai&oldid=1359469836"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Kyokuto-kai",
+      "target": "Matsuba-kai",
+      "evidence_quote": "In the early 2000s, the Kyokuto-kai was involved in a feud with the rival Matsuba-kai , which led to a number of shootings.",
+      "context": "Kyokuto-kai and Matsuba-kai were involved in a feud that led to shootings.",
+      "relationship": "conflict",
+      "time_period": "early 2000s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kyokuto-kai&oldid=1359469836"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Kyokuto-kai&oldid=1359469836",
+  "source_file": "en_Kyokuto-kai"
+}

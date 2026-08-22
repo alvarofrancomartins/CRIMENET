@@ -1,0 +1,161 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Rollin' 60s Neighborhood Crips",
+      "original_text_name": "Rollin' 60s Neighborhood Crips",
+      "aliases": [
+        "Rollin' 60s",
+        "Rollin 60s Neighborhood Crips"
+      ],
+      "context": "A set of the Crips street gang alliance based in Los Angeles, formed in 1976 from the Westside Crips.",
+      "time_period": "1976–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "context": "A street gang alliance based in Los Angeles, of which the Rollin' 60s is a set.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    },
+    {
+      "standard_name": "Westside Crips",
+      "original_text_name": "Westside Crips",
+      "aliases": [],
+      "context": "The gang from which the Rollin' 60s Neighborhood Crips originally formed in 1976.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    },
+    {
+      "standard_name": "Rollin' 40's Neighborhood Crips",
+      "original_text_name": "Rollin 40's and Rollin 90's NHCs",
+      "aliases": [
+        "Rollin 40's NHC"
+      ],
+      "context": "An ally of the Rollin' 60s Neighborhood Crips listed in the infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    },
+    {
+      "standard_name": "Rollin' 90's Neighborhood Crips",
+      "original_text_name": "Rollin 40's and Rollin 90's NHCs",
+      "aliases": [
+        "Rollin 90's NHC"
+      ],
+      "context": "An ally of the Rollin' 60s Neighborhood Crips listed in the infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    },
+    {
+      "standard_name": "Bloods",
+      "original_text_name": "Bloods",
+      "aliases": [],
+      "context": "A rival gang to the Rollin' 60s Neighborhood Crips listed in the infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    },
+    {
+      "standard_name": "Hoover factions",
+      "original_text_name": "Hoover factions",
+      "aliases": [],
+      "context": "Rival factions to the Rollin' 60s Neighborhood Crips listed in the infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    },
+    {
+      "standard_name": "Eight Trey Gangster Crips",
+      "original_text_name": "Eight Trey Gangster Crip (83GC)",
+      "aliases": [
+        "83GC"
+      ],
+      "context": "A rival gang to the Rollin' 60s Neighborhood Crips listed in the infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    },
+    {
+      "standard_name": "Roosevelt Bloods",
+      "original_text_name": "Roosevelt Bloods",
+      "aliases": [],
+      "context": "A Bloods set in Roosevelt, Long Island, feuding with the Rollin' 60s set there.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Crips",
+      "evidence_quote": "The Rollin' 60s Neighborhood Crips is a \" set \" of the Crips street gang alliance",
+      "context": "Rollin' 60s is a subset of the Crips alliance.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    },
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Westside Crips",
+      "evidence_quote": "originally formed around Hyde Park, Los Angeles , in 1976 from the Westside Crips",
+      "context": "Rollin' 60s formed from the Westside Crips.",
+      "relationship": "other",
+      "time_period": "1976",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    },
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Rollin' 40's Neighborhood Crips",
+      "evidence_quote": "Allies: Rollin 40's and Rollin 90's NHCs",
+      "context": "Rollin' 60s is allied with Rollin' 40's NHC.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    },
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Rollin' 90's Neighborhood Crips",
+      "evidence_quote": "Allies: Rollin 40's and Rollin 90's NHCs",
+      "context": "Rollin' 60s is allied with Rollin' 90's NHC.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    },
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Bloods",
+      "evidence_quote": "Rivals: Bloods , \"Hoover factions\", \"Eight Trey Gangster Crip (83GC)\"",
+      "context": "Rollin' 60s has Bloods as rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    },
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Hoover factions",
+      "evidence_quote": "Rivals: Bloods , \"Hoover factions\", \"Eight Trey Gangster Crip (83GC)\"",
+      "context": "Rollin' 60s has Hoover factions as rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    },
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Eight Trey Gangster Crips",
+      "evidence_quote": "Rivals: Bloods , \"Hoover factions\", \"Eight Trey Gangster Crip (83GC)\"",
+      "context": "Rollin' 60s has Eight Trey Gangster Crips as rivals.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    },
+    {
+      "source": "Rollin' 60s Neighborhood Crips",
+      "target": "Roosevelt Bloods",
+      "evidence_quote": "This set had been established in 2003 and was responsible for dozens of shootings over the years as part of a feud with the Roosevelt Bloods gang.",
+      "context": "The Roosevelt, Long Island set of Rollin' 60s feuded with Roosevelt Bloods.",
+      "relationship": "conflict",
+      "time_period": "2003–2018",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Rollin%27_60s_Neighborhood_Crips&oldid=1354080093",
+  "source_file": "en_Rollin'_60s_Neighborhood_Crips"
+}

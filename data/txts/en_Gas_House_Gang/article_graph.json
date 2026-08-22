@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Gas House Gang",
+      "original_text_name": "Gas House Gang",
+      "aliases": [],
+      "context": "New York City street gang active in the late 19th century, based in the Gas House district of Manhattan, specializing in armed robbery and extortion.",
+      "time_period": "1890s-1910",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gas_House_Gang&oldid=1307089156"
+    },
+    {
+      "standard_name": "Five Points Gang",
+      "original_text_name": "Five Points Gang",
+      "aliases": [],
+      "context": "New York City street gang that absorbed the Gas House Gang in 1910.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gas_House_Gang&oldid=1307089156"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Gas House Gang",
+      "target": "Five Points Gang",
+      "evidence_quote": "The gang continued to control the district for over two decades until it was eventually absorbed by the Five Points Gang in 1910.",
+      "context": "The Gas House Gang was absorbed by the Five Points Gang in 1910.",
+      "relationship": "other",
+      "time_period": "1910",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gas_House_Gang&oldid=1307089156"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Gas_House_Gang&oldid=1307089156",
+  "source_file": "en_Gas_House_Gang"
+}

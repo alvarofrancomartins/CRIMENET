@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Albanian Boys",
+      "original_text_name": "Albanian Boys",
+      "aliases": [
+        "Albanian Bad Boys",
+        "Albanian Boys Inc."
+      ],
+      "context": "Albanian-American street gang operating in the Bronx, New York, involved in extortion, intimidation, and debt collection.",
+      "time_period": "1991-1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Albanian_Boys&oldid=1336995089"
+    },
+    {
+      "standard_name": "Rudaj Organization",
+      "original_text_name": "Rudaj Organization",
+      "aliases": [],
+      "context": "Organized crime group allied with the Albanian Boys.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Albanian_Boys&oldid=1336995089"
+    },
+    {
+      "standard_name": "MS-13",
+      "original_text_name": "MS-13",
+      "aliases": [],
+      "context": "Rival gang to the Albanian Boys.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Albanian_Boys&oldid=1336995089"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Albanian Boys",
+      "target": "Rudaj Organization",
+      "evidence_quote": "Allies: Rudaj Organization",
+      "context": "The Albanian Boys were allied with the Rudaj Organization.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Albanian_Boys&oldid=1336995089"
+    },
+    {
+      "source": "Albanian Boys",
+      "target": "MS-13",
+      "evidence_quote": "Rivals: MS-13",
+      "context": "The Albanian Boys were rivals with MS-13.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Albanian_Boys&oldid=1336995089"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Albanian_Boys&oldid=1336995089",
+  "source_file": "en_Albanian_Boys"
+}

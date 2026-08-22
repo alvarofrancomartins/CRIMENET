@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sangre Nueva Zeta",
+      "original_text_name": "Sangre Nueva Zeta",
+      "aliases": [],
+      "context": "Mexican criminal syndicate formed in 2019, made up of former Los Zetas members.",
+      "time_period": "2019−present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sangre_Nueva_Zeta&oldid=1339086505"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "context": "Mexican criminal organization; former members formed Sangre Nueva Zeta.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sangre_Nueva_Zeta&oldid=1339086505"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Major Mexican cartel, ally of Sangre Nueva Zeta and enemy of Los Zetas.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sangre_Nueva_Zeta&oldid=1339086505"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Sangre Nueva Zeta",
+      "target": "Los Zetas",
+      "evidence_quote": "The organization is made up of former members of Los Zetas.",
+      "context": "Sangre Nueva Zeta is composed of former Los Zetas members.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sangre_Nueva_Zeta&oldid=1339086505"
+    },
+    {
+      "source": "Sangre Nueva Zeta",
+      "target": "Jalisco New Generation Cartel",
+      "evidence_quote": "Sangre Nueva Zeta then expanded thanks to its alliance with the Jalisco New Generation Cartel",
+      "context": "Sangre Nueva Zeta allied with CJNG to expand.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sangre_Nueva_Zeta&oldid=1339086505"
+    },
+    {
+      "source": "Jalisco New Generation Cartel",
+      "target": "Los Zetas",
+      "evidence_quote": "a major enemy of Los Zetas",
+      "context": "CJNG is a major enemy of Los Zetas.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sangre_Nueva_Zeta&oldid=1339086505"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Sangre_Nueva_Zeta&oldid=1339086505",
+  "source_file": "en_Sangre_Nueva_Zeta"
+}

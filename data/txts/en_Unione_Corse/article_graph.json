@@ -1,0 +1,95 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Unione Corse",
+      "original_text_name": "Unione Corse",
+      "aliases": [
+        "Union Corse",
+        "Unione Corsa",
+        "Union Corsa"
+      ],
+      "context": "Corsican organized crime syndicate active in the French Connection heroin trade from 1930s to 1970s.",
+      "time_period": "1930s–1970s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Unione_Corse&oldid=1344024427"
+    },
+    {
+      "standard_name": "American Mafia",
+      "original_text_name": "American Mafia",
+      "aliases": [
+        "Italian-American Mafia",
+        "Italian-American Cosa Nostra"
+      ],
+      "context": "Italian-American organized crime syndicate, more powerful than Unione Corse.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Unione_Corse&oldid=1344024427"
+    },
+    {
+      "standard_name": "Sicilian Mafia",
+      "original_text_name": "Sicilian Mafia",
+      "aliases": [
+        "Sicilians",
+        "Cosa Nostra"
+      ],
+      "context": "Sicilian organized crime syndicate involved in the French Connection.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Unione_Corse&oldid=1344024427"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "context": "Italian organized crime syndicate from Campania, mentioned as former source of heroin.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Unione_Corse&oldid=1344024427"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Unione Corse",
+      "target": "American Mafia",
+      "evidence_quote": "those clans remained overshadowed by the much more powerful Italian-American Mafia",
+      "context": "Unione Corse clans were less powerful than the American Mafia.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Unione_Corse&oldid=1344024427"
+    },
+    {
+      "source": "Unione Corse",
+      "target": "American Mafia",
+      "evidence_quote": "they rather constituted the local segment of a vast international network and were commercial partners, or even subcontractors, of the much more powerful Italian-American Cosa Nostra",
+      "context": "Unione Corse acted as commercial partners or subcontractors for the American Mafia in the French Connection.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Unione_Corse&oldid=1344024427"
+    },
+    {
+      "source": "Unione Corse",
+      "target": "Sicilian Mafia",
+      "evidence_quote": "the latter did not control the whole traffic and participated in it in response to a call for tender from the Sicilians in New York",
+      "context": "Unione Corse participated in the French Connection at the request of Sicilian Mafia in New York.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Unione_Corse&oldid=1344024427"
+    },
+    {
+      "source": "Unione Corse",
+      "target": "Camorra",
+      "evidence_quote": "previous source, legal Italian pharmaceutical production hijacked by the Camorra, was shut down in 1951",
+      "context": "Camorra was a previous source of heroin for the network before being shut down.",
+      "relationship": "other",
+      "time_period": "before 1951",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Unione_Corse&oldid=1344024427"
+    },
+    {
+      "source": "American Mafia",
+      "target": "Sicilian Mafia",
+      "evidence_quote": "structured by mobster Lucky Luciano and the Italian-American mafia after their previous source... was shut down",
+      "context": "American Mafia and Sicilian Mafia collaborated in structuring the French Connection.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Unione_Corse&oldid=1344024427"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Unione_Corse&oldid=1344024427",
+  "source_file": "en_Unione_Corse"
+}

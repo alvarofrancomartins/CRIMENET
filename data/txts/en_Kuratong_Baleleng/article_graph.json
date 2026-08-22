@@ -1,0 +1,107 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Kuratong Baleleng",
+      "original_text_name": "Kuratong Baleleng",
+      "aliases": [],
+      "context": "Organized crime syndicate in the Philippines, originally an anti-communist vigilante group.",
+      "time_period": "1986–unknown",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kuratong_Baleleng&oldid=1347343020"
+    },
+    {
+      "standard_name": "Botanical Youth Club",
+      "original_text_name": "Botanical Youth Club",
+      "aliases": [],
+      "context": "Group that originally established Kuratong Baleleng in 1986.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kuratong_Baleleng&oldid=1347343020"
+    },
+    {
+      "standard_name": "Maguindanao guerrillas",
+      "original_text_name": "Maguindanao guerrillas",
+      "aliases": [],
+      "context": "Muslim Maguindanaon guerrilla groups that had ties to Kuratong Baleleng.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kuratong_Baleleng&oldid=1347343020"
+    },
+    {
+      "standard_name": "Armed Forces of the Philippines",
+      "original_text_name": "Armed Forces of the Philippines",
+      "aliases": [
+        "AFP"
+      ],
+      "context": "Military force that handpicked the first leader of Kuratong Baleleng.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kuratong_Baleleng&oldid=1347343020"
+    },
+    {
+      "standard_name": "Presidential Anti-Crime Commission",
+      "original_text_name": "Presidential Anti-Crime Commission",
+      "aliases": [
+        "PACC"
+      ],
+      "context": "Government commission that killed 11 members of Kuratong Baleleng in 1995.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kuratong_Baleleng&oldid=1347343020"
+    },
+    {
+      "standard_name": "Free Legal Assistance Group",
+      "original_text_name": "Free Legal Assistance Group (FLAG)",
+      "aliases": [
+        "FLAG"
+      ],
+      "context": "Human rights law firm that prosecuted the PACC officers in the 1995 murder case.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kuratong_Baleleng&oldid=1347343020"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Botanical Youth Club",
+      "target": "Kuratong Baleleng",
+      "evidence_quote": "The group was originally established in 1986 by the Botanical Youth Club",
+      "context": "Botanical Youth Club founded Kuratong Baleleng.",
+      "relationship": "other",
+      "time_period": "1986",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kuratong_Baleleng&oldid=1347343020"
+    },
+    {
+      "source": "Kuratong Baleleng",
+      "target": "Maguindanao guerrillas",
+      "evidence_quote": "ties to the Maguindanao guerrillas led Muslim Maguindanaon clans to join",
+      "context": "Kuratong Baleleng had ties to Maguindanao guerrillas, leading to Muslim clans joining.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kuratong_Baleleng&oldid=1347343020"
+    },
+    {
+      "source": "Armed Forces of the Philippines",
+      "target": "Kuratong Baleleng",
+      "evidence_quote": "Its first leader was Octavio \"Ongkoy\" Parojinog, handpicked by the Armed Forces of the Philippines",
+      "context": "AFP handpicked the first leader of Kuratong Baleleng.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kuratong_Baleleng&oldid=1347343020"
+    },
+    {
+      "source": "Presidential Anti-Crime Commission",
+      "target": "Kuratong Baleleng",
+      "evidence_quote": "11 members of Kuratong Baleleng were killed by the forces of the Presidential Anti-Crime Commission",
+      "context": "PACC killed 11 members of Kuratong Baleleng in 1995.",
+      "relationship": "conflict",
+      "time_period": "1995",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kuratong_Baleleng&oldid=1347343020"
+    },
+    {
+      "source": "Free Legal Assistance Group",
+      "target": "Presidential Anti-Crime Commission",
+      "evidence_quote": "Officers were prosecuted with the Free Legal Assistance Group (FLAG), the largest human rights law firm, serving as the chief prosecutor in the case.",
+      "context": "FLAG prosecuted PACC officers for the killing of Kuratong Baleleng members.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Kuratong_Baleleng&oldid=1347343020"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Kuratong_Baleleng&oldid=1347343020",
+  "source_file": "en_Kuratong_Baleleng"
+}

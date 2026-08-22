@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Westmob",
+      "original_text_name": "Westmob",
+      "aliases": [],
+      "context": "Primarily African-American street gang in San Francisco, California, active in Hunters Point projects.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Westmob&oldid=1336338277"
+    },
+    {
+      "standard_name": "Big Block",
+      "original_text_name": "Big Block gang",
+      "aliases": [],
+      "context": "Major rival gang of Westmob in San Francisco.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Westmob&oldid=1336338277"
+    },
+    {
+      "standard_name": "Oakdale Mob",
+      "original_text_name": "Oakdale Mob",
+      "aliases": [],
+      "context": "Gang associated with Westmob.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Westmob&oldid=1336338277"
+    },
+    {
+      "standard_name": "Sunnydale Gangsters",
+      "original_text_name": "Sunnydale Gangsters",
+      "aliases": [],
+      "context": "Gang associated with Westmob.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Westmob&oldid=1336338277"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Westmob",
+      "target": "Big Block",
+      "evidence_quote": "Since 1999, they have been in conflict with the Big Block gang, which is its major rival in the area.",
+      "context": "Westmob has been in conflict with Big Block since 1999.",
+      "relationship": "conflict",
+      "time_period": "1999",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Westmob&oldid=1336338277"
+    },
+    {
+      "source": "Westmob",
+      "target": "Oakdale Mob",
+      "evidence_quote": "Westmob is known to associate with the Oakdale Mob and Sunnydale Gangsters.",
+      "context": "Westmob associates with Oakdale Mob.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Westmob&oldid=1336338277"
+    },
+    {
+      "source": "Westmob",
+      "target": "Sunnydale Gangsters",
+      "evidence_quote": "Westmob is known to associate with the Oakdale Mob and Sunnydale Gangsters.",
+      "context": "Westmob associates with Sunnydale Gangsters.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Westmob&oldid=1336338277"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Westmob&oldid=1336338277",
+  "source_file": "en_Westmob"
+}

@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [],
+      "context": "Mexican drug cartel based in Michoacán, involved in the drug war.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Ej%C3%A9rcito_Mexicano&oldid=173810869"
+    },
+    {
+      "standard_name": "Ejército Zapatista de Liberación Nacional",
+      "original_text_name": "Ejército Zapatista de Liberación Nacional",
+      "aliases": [
+        "EZLN"
+      ],
+      "context": "Mexican guerrilla group active in Chiapas, fought against the Mexican Army in 1994.",
+      "time_period": "1994",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Ej%C3%A9rcito_Mexicano&oldid=173810869"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ejército Mexicano",
+      "target": "La Familia Michoacana",
+      "evidence_quote": "provocando represalias por parte de La Familia Michoacana",
+      "context": "The Mexican Army's deployment in Michoacán provoked reprisals from La Familia Michoacana, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": "2006",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Ej%C3%A9rcito_Mexicano&oldid=173810869"
+    },
+    {
+      "source": "Ejército Mexicano",
+      "target": "Ejército Zapatista de Liberación Nacional",
+      "evidence_quote": "el Ejército Mexicano se enfrentó durante 12 días contra la guerrilla del Ejército Zapatista de Liberación Nacional",
+      "context": "The Mexican Army fought against the EZLN for 12 days in 1994.",
+      "relationship": "conflict",
+      "time_period": "1994",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Ej%C3%A9rcito_Mexicano&oldid=173810869"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Ej%C3%A9rcito_Mexicano&oldid=173810869",
+  "source_file": "es_Ejército_Mexicano"
+}

@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Mafia corsa",
+      "original_text_name": "Mafia corsa",
+      "aliases": [
+        "milieu corso"
+      ],
+      "context": "Designates the mafia structures of Corsican origin, active in Corsica, Marseille, and other regions.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mafia_corsa&oldid=149586642"
+    },
+    {
+      "standard_name": "Brise de Mer",
+      "original_text_name": "Brezza del Mare",
+      "aliases": [
+        "Brise de Mer"
+      ],
+      "context": "Main Corsican mafia organization from the 1980s to the 2000s.",
+      "time_period": "1980s-2000s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mafia_corsa&oldid=149586642"
+    },
+    {
+      "standard_name": "Petit Bar",
+      "original_text_name": "Petit Bar",
+      "aliases": [],
+      "context": "Important Corsican mafia gang based in Ajaccio, prominent since the 2010s.",
+      "time_period": "2010s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mafia_corsa&oldid=149586642"
+    },
+    {
+      "standard_name": "American Mafia",
+      "original_text_name": "mafia statunitense",
+      "aliases": [],
+      "context": "US mafia that received heroin from the Corsican mafia via the French Connection.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mafia_corsa&oldid=149586642"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Mafia corsa",
+      "target": "Brise de Mer",
+      "evidence_quote": "Dagli anni '80 agli anni 2000 la principale organizzazione era quella che andava sotto il nome di \" Brezza del Mare \" ( Brise de Mer ).",
+      "context": "Brise de Mer was the main organization within the Corsican mafia from the 1980s to the 2000s.",
+      "relationship": "other",
+      "time_period": "1980s-2000s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mafia_corsa&oldid=149586642"
+    },
+    {
+      "source": "Mafia corsa",
+      "target": "Petit Bar",
+      "evidence_quote": "La fascia più importante sarebbe quella dei \"Petit Bar\" di Ajaccio .",
+      "context": "Petit Bar is described as the most important gang within the Corsican mafia since the 2010s.",
+      "relationship": "other",
+      "time_period": "2010s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mafia_corsa&oldid=149586642"
+    },
+    {
+      "source": "Mafia corsa",
+      "target": "American Mafia",
+      "evidence_quote": "Negli anni settanta i suoi clan costituivano la French Connection , massiccio traffico di eroina verso gli USA destinata perlopiù alla mafia statunitense .",
+      "context": "Corsican mafia clans supplied heroin to the American Mafia via the French Connection in the 1970s.",
+      "relationship": "cooperation",
+      "time_period": "1970s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mafia_corsa&oldid=149586642"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Mafia_corsa&oldid=149586642",
+  "source_file": "it_Mafia_corsa"
+}

@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Gitans Moto Club",
+      "original_text_name": "Gitans Moto Club",
+      "aliases": [
+        "Gitans MC"
+      ],
+      "context": "French-Canadian outlaw motorcycle gang based in Sherbrooke, Quebec, active 1967-1984.",
+      "time_period": "1967─1984",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gitans_Moto_Club&oldid=1322245000"
+    },
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels Motorcycle Club (HAMC)",
+      "aliases": [
+        "Hells Angels MC",
+        "HAMC"
+      ],
+      "context": "Larger outlaw motorcycle club that the Gitans MC integrated into.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gitans_Moto_Club&oldid=1322245000"
+    },
+    {
+      "standard_name": "Popeye Moto Club",
+      "original_text_name": "Popeye Moto Club",
+      "aliases": [
+        "Popeyes MC"
+      ],
+      "context": "Powerful Québécois biker gang that supplied drugs and weapons to the Gitans MC.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gitans_Moto_Club&oldid=1322245000"
+    },
+    {
+      "standard_name": "Atomes MC",
+      "original_text_name": "Atomes MC",
+      "aliases": [],
+      "context": "Rival outlaw biker gang based in Sherbrooke, fought a turf war with the Gitans MC.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gitans_Moto_Club&oldid=1322245000"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Gitans Moto Club",
+      "target": "Hells Angels Motorcycle Club",
+      "evidence_quote": "The Gitans Moto Club ... integrated into the larger Hells Angels Motorcycle Club (HAMC) in December 1984 to become what is now the Hells Angels MC Sherbrooke charter",
+      "context": "The Gitans MC merged into the Hells Angels MC to become a chapter.",
+      "relationship": "other",
+      "time_period": "December 1984",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gitans_Moto_Club&oldid=1322245000"
+    },
+    {
+      "source": "Gitans Moto Club",
+      "target": "Popeye Moto Club",
+      "evidence_quote": "They bought their narcotics stockpile from the Popeye Moto Club",
+      "context": "The Gitans MC purchased drugs from the Popeye MC.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gitans_Moto_Club&oldid=1322245000"
+    },
+    {
+      "source": "Gitans Moto Club",
+      "target": "Atomes MC",
+      "evidence_quote": "Tensions between both groups eventually erupted in 1973, when a violent turf war commenced.",
+      "context": "The Gitans MC fought a turf war with the Atomes MC from 1973 to 1975.",
+      "relationship": "conflict",
+      "time_period": "1973-1975",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gitans_Moto_Club&oldid=1322245000"
+    },
+    {
+      "source": "Gitans Moto Club",
+      "target": "Atomes MC",
+      "evidence_quote": "both gangs reluctantly reached an agreement to share the city's drug market",
+      "context": "The Gitans and Atomes agreed to share the drug market, ending the war.",
+      "relationship": "other",
+      "time_period": "1975",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Gitans_Moto_Club&oldid=1322245000"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Gitans_Moto_Club&oldid=1322245000",
+  "source_file": "en_Gitans_Moto_Club"
+}

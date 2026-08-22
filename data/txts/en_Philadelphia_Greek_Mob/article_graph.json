@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Philadelphia Greek Mob",
+      "original_text_name": "Philadelphia Greek Mob",
+      "aliases": [
+        "Philadelphia Greek Mafia"
+      ],
+      "context": "A loose-knit Greek mafia faction consisting of Greek-American racketeers and drug dealers operating in Philadelphia, Pennsylvania.",
+      "time_period": "1970s-1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Philadelphia_Greek_Mob&oldid=1356193101"
+    },
+    {
+      "standard_name": "Philadelphia crime family",
+      "original_text_name": "Philadelphia crime family",
+      "aliases": [
+        "Philadelphia Mafia",
+        "Philadelphia Cosa Nostra"
+      ],
+      "context": "Italian-American organized crime family operating in Philadelphia, Pennsylvania.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Philadelphia_Greek_Mob&oldid=1356193101"
+    },
+    {
+      "standard_name": "K&A Gang",
+      "original_text_name": "K&A Gang",
+      "aliases": [],
+      "context": "A criminal gang allied with the Philadelphia Greek Mob according to the infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Philadelphia_Greek_Mob&oldid=1356193101"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Philadelphia Greek Mob",
+      "target": "Philadelphia crime family",
+      "evidence_quote": "The group was closely affiliated with the Italian-American Philadelphia crime family, and fell under complete control of the family during the reign of Philadelphia Mafia boss Nicky Scarfo.",
+      "context": "The Philadelphia Greek Mob was closely affiliated with and later fell under complete control of the Philadelphia crime family.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Philadelphia_Greek_Mob&oldid=1356193101"
+    },
+    {
+      "source": "Philadelphia Greek Mob",
+      "target": "K&A Gang",
+      "evidence_quote": "Allies: K&A Gang , Philadelphia crime family",
+      "context": "The infobox lists the K&A Gang as an ally of the Philadelphia Greek Mob.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Philadelphia_Greek_Mob&oldid=1356193101"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Philadelphia_Greek_Mob&oldid=1356193101",
+  "source_file": "en_Philadelphia_Greek_Mob"
+}

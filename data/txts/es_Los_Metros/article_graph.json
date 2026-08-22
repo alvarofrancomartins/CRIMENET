@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Los Metros",
+      "original_text_name": "Los Metros",
+      "aliases": [],
+      "context": "Escisión del Cártel del Golfo, con presencia en Reynosa, México. Es un brazo armado del CDG que opera de manera autónoma.",
+      "time_period": "~2005 - Presente",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    },
+    {
+      "standard_name": "Cártel del Golfo",
+      "original_text_name": "Cártel del Golfo",
+      "aliases": [
+        "CDG"
+      ],
+      "context": "Organización criminal mexicana, de la cual Los Metros es una escisión.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "context": "Grupo criminal que rompió su pacto con el Cártel del Golfo en 2010.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    },
+    {
+      "standard_name": "Los Rojos",
+      "original_text_name": "Los Rojos",
+      "aliases": [],
+      "context": "Facción del Cártel del Golfo, rival de Los Metros durante la fragmentación interna.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    },
+    {
+      "standard_name": "Los Ciclones",
+      "original_text_name": "Los Ciclones",
+      "aliases": [],
+      "context": "Escisión del Cártel del Golfo, mencionada en narcomantas de tregua.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    },
+    {
+      "standard_name": "Los Escorpiones",
+      "original_text_name": "Los Escorpiones",
+      "aliases": [],
+      "context": "Brazo armado del Cártel del Golfo, en disputa con Los Metros.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    },
+    {
+      "standard_name": "Cártel de Jalisco Nueva Generación",
+      "original_text_name": "Cártel de Jalisco Nueva Generación",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Organización criminal mexicana aliada de Los Metros.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    },
+    {
+      "standard_name": "Cártel del Noreste",
+      "original_text_name": "Cártel del Noreste",
+      "aliases": [],
+      "context": "Organización criminal en conflicto con Los Metros.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    },
+    {
+      "standard_name": "Cártel de Sinaloa",
+      "original_text_name": "Cártel de Sinaloa",
+      "aliases": [],
+      "context": "Organización criminal enemiga de Los Metros según infobox.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Los Metros",
+      "target": "Cártel del Golfo",
+      "evidence_quote": "Los Metros es una organización criminal, escisión del Cártel del Golfo",
+      "context": "Los Metros es una escisión del Cártel del Golfo.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    },
+    {
+      "source": "Los Metros",
+      "target": "Los Zetas",
+      "evidence_quote": "Fue en 2010 cuando Los Zetas rompieron su pacto con el Cartel Del Golfo llamado \"La Compañía\" y fue cuando se desató la ola de violencia en Tamaulipas",
+      "context": "Los Zetas rompieron su pacto con el Cártel del Golfo, del cual Los Metros es parte, iniciando violencia.",
+      "relationship": "conflict",
+      "time_period": "2010",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    },
+    {
+      "source": "Los Metros",
+      "target": "Los Rojos",
+      "evidence_quote": "La división tuvo dos bandos principales particularmente, unos apoyando al Coss (Los Metros) y otros fieles a la familia Cárdenas (Los Rojos) por el control máximo del cártel.",
+      "context": "Los Metros y Los Rojos fueron bandos rivales en la fragmentación interna del Cártel del Golfo.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    },
+    {
+      "source": "Los Metros",
+      "target": "Los Escorpiones",
+      "evidence_quote": "En la actualidad Los Metros sostienen una sangrienta disputa contra \"Los Escorpiones\", otro brazo armado del CDG que lucha para hacerse del control de la organanización.",
+      "context": "Los Metros están en una disputa violenta con Los Escorpiones por el control del Cártel del Golfo.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    },
+    {
+      "source": "Los Metros",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "Recientemente se han observado videos donde muestran una alianza con el Cártel de Jalisco Nueva Generación",
+      "context": "Los Metros tienen una alianza con el Cártel de Jalisco Nueva Generación.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    },
+    {
+      "source": "Los Metros",
+      "target": "Cártel del Noreste",
+      "evidence_quote": "un tiroteo entre miembros de Los Metros y del Cártel del Noreste, dejaron como saldo tres muertos",
+      "context": "Los Metros y el Cártel del Noreste se enfrentaron en un tiroteo.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    },
+    {
+      "source": "Los Metros",
+      "target": "Cártel de Sinaloa",
+      "evidence_quote": "Enemigos: ... Cártel de Sinaloa",
+      "context": "El infobox lista al Cártel de Sinaloa como enemigo de Los Metros.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    },
+    {
+      "source": "Los Metros",
+      "target": "Los Ciclones",
+      "evidence_quote": "Enemigos: ... Los Ciclones",
+      "context": "El infobox lista a Los Ciclones como enemigos de Los Metros.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Los_Metros&oldid=173915795",
+  "source_file": "es_Los_Metros"
+}

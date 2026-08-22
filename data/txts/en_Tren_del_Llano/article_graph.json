@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Tren del Llano",
+      "original_text_name": "Tren del Llano",
+      "aliases": [
+        "El Picure"
+      ],
+      "context": "Venezuelan criminal organization founded in 2008, initially a car theft gang, now involved in drug trafficking, extortion, homicide, kidnapping.",
+      "time_period": "2008-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Tren_del_Llano&oldid=1350186480"
+    },
+    {
+      "standard_name": "Tren de Aragua",
+      "original_text_name": "Tren de Aragua",
+      "aliases": [],
+      "context": "Venezuelan criminal organization listed as an ally of Tren del Llano.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Tren_del_Llano&oldid=1350186480"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Tren del Llano",
+      "target": "Tren de Aragua",
+      "evidence_quote": "Allies: Tren de Aragua",
+      "context": "Tren del Llano is allied with Tren de Aragua.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Tren_del_Llano&oldid=1350186480"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Tren_del_Llano&oldid=1350186480",
+  "source_file": "en_Tren_del_Llano"
+}

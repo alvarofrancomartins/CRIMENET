@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'ndrangheta",
+      "aliases": [],
+      "context": "Calabrian mafia organization; the capobastone is a rank within it.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Capobastone&oldid=144593682"
+    },
+    {
+      "standard_name": "'Ndrina",
+      "original_text_name": "'ndrina",
+      "aliases": [],
+      "context": "Local mafia family within the 'Ndrangheta, commanded by a capobastone.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Capobastone&oldid=144593682"
+    },
+    {
+      "standard_name": "Locale di Crotone",
+      "original_text_name": "locale di Crotone",
+      "aliases": [],
+      "context": "A local 'Ndrangheta group in Crotone, led by Luigi Vrenna as capobastone until the 1970s.",
+      "time_period": "until the 1970s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Capobastone&oldid=144593682"
+    }
+  ],
+  "edges": [
+    {
+      "source": "'Ndrangheta",
+      "target": "'Ndrina",
+      "evidence_quote": "Il capobastone ... è il nome che nella 'ndrangheta si dà a chi comanda una 'ndrina",
+      "context": "'Ndrina is a subunit of 'Ndrangheta.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Capobastone&oldid=144593682"
+    },
+    {
+      "source": "'Ndrangheta",
+      "target": "Locale di Crotone",
+      "evidence_quote": "fino agli anni settanta i locali attivi ... dipendevano dal locale di Crotone",
+      "context": "Locale di Crotone was a local group within 'Ndrangheta.",
+      "relationship": "other",
+      "time_period": "until the 1970s",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Capobastone&oldid=144593682"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Capobastone&oldid=144593682",
+  "source_file": "it_Capobastone"
+}

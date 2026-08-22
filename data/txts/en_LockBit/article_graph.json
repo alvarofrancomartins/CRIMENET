@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "standard_name": "LockBit",
+      "original_text_name": "LockBit",
+      "aliases": [
+        ".abcd",
+        "LockBit 2.0",
+        "LockBit 3.0",
+        "LockBit-NG-Dev",
+        "LockBit 4.0"
+      ],
+      "context": "Cybercriminal group proposing ransomware as a service (RaaS).",
+      "time_period": "2019",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=LockBit&oldid=1350980319"
+    },
+    {
+      "standard_name": "Maze",
+      "original_text_name": "Maze",
+      "aliases": [],
+      "context": "Criminal group that LockBit cooperates with.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=LockBit&oldid=1350980319"
+    },
+    {
+      "standard_name": "Mora_001",
+      "original_text_name": "Mora_001",
+      "aliases": [],
+      "context": "Ransomware group that used a variant of LockBit 3.0 to create SuperBlack.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=LockBit&oldid=1350980319"
+    },
+    {
+      "standard_name": "LockBit",
+      "original_text_name": "LockBit",
+      "aliases": [
+        "Lockbit"
+      ],
+      "context": "Cybercriminal group proposing ransomware as a service (RaaS).",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=LockBit&oldid=1350980319"
+    },
+    {
+      "standard_name": "Akira",
+      "original_text_name": "Akira",
+      "aliases": [],
+      "context": "Rival ransomware group.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=LockBit&oldid=1350980319"
+    },
+    {
+      "standard_name": "RansomHub",
+      "original_text_name": "RansomHub",
+      "aliases": [],
+      "context": "Rival ransomware group.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=LockBit&oldid=1350980319"
+    }
+  ],
+  "edges": [
+    {
+      "source": "LockBit",
+      "target": "Maze",
+      "evidence_quote": "They hire network access brokers, cooperate with organizations like Maze, and recruit insiders from targeted companies.",
+      "context": "LockBit cooperates with Maze.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=LockBit&oldid=1350980319"
+    },
+    {
+      "source": "LockBit",
+      "target": "Mora_001",
+      "evidence_quote": "cybersecurity researchers at Forescout reported that a ransomware group known as Mora_001 had used a variant of LockBit 3.0, also known as LockBit Black, as the foundation for a new strain called SuperBlack.",
+      "context": "Mora_001 used a variant of LockBit 3.0, suggesting a possible operational link or shared infrastructure.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=LockBit&oldid=1350980319"
+    },
+    {
+      "source": "LockBit",
+      "target": "Akira",
+      "evidence_quote": "Researchers linked its continued activity to the leaked LockBit builder and noted that disruption of the group may have boosted rival operations like Akira and RansomHub.",
+      "context": "LockBit's disruption may have boosted Akira, indicating a competitive dynamic.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=LockBit&oldid=1350980319"
+    },
+    {
+      "source": "LockBit",
+      "target": "RansomHub",
+      "evidence_quote": "Researchers linked its continued activity to the leaked LockBit builder and noted that disruption of the group may have boosted rival operations like Akira and RansomHub.",
+      "context": "LockBit's disruption may have boosted RansomHub, indicating a competitive dynamic.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=LockBit&oldid=1350980319"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=LockBit&oldid=1350980319",
+  "source_file": "en_LockBit"
+}

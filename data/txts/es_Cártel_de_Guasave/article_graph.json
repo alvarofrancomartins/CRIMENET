@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Cártel de Guasave",
+      "original_text_name": "Cártel de Guasave",
+      "aliases": [
+        "Los Mazatlecos"
+      ],
+      "context": "Mexican criminal organization dedicated to drug trafficking and money laundering, based in Guasave, Sinaloa.",
+      "time_period": "2008-presente",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Guasave&oldid=173331484"
+    },
+    {
+      "standard_name": "Cártel de los Beltrán Leyva",
+      "original_text_name": "Cártel de los Beltrán Leyva",
+      "aliases": [],
+      "context": "Mexican drug cartel from which the Cártel de Guasave emerged as an armed wing.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Guasave&oldid=173331484"
+    },
+    {
+      "standard_name": "La Mayiza",
+      "original_text_name": "La Mayiza",
+      "aliases": [],
+      "context": "Facción comandada por Ismael Zambada Sicairos, allied with Cártel de Guasave.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Guasave&oldid=173331484"
+    },
+    {
+      "standard_name": "Los Chapitos",
+      "original_text_name": "Los Chapitos",
+      "aliases": [],
+      "context": "Sons of Joaquín Guzmán Loera, rivals of Cártel de Guasave.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Guasave&oldid=173331484"
+    },
+    {
+      "standard_name": "Cártel de Sinaloa",
+      "original_text_name": "Cártel de Sinaloa",
+      "aliases": [],
+      "context": "Mexican drug cartel, former rival of Cártel de Guasave and involved in internal war.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Guasave&oldid=173331484"
+    },
+    {
+      "standard_name": "Cártel del Noreste",
+      "original_text_name": "Cártel del Noreste",
+      "aliases": [],
+      "context": "Mexican criminal group listed as ally in infobox.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Guasave&oldid=173331484"
+    },
+    {
+      "standard_name": "Cártel de Jalisco Nueva Generación",
+      "original_text_name": "Cártel de Jalisco Nueva Generación",
+      "aliases": [],
+      "context": "Mexican criminal group listed as enemy in infobox.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Guasave&oldid=173331484"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cártel de Guasave",
+      "target": "Cártel de los Beltrán Leyva",
+      "evidence_quote": "El grupo surgió en el año 2008 como brazo armado del Cártel de los Beltrán Leyva",
+      "context": "Cártel de Guasave originated as an armed wing of Cártel de los Beltrán Leyva.",
+      "relationship": "other",
+      "time_period": "2008",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Guasave&oldid=173331484"
+    },
+    {
+      "source": "Cártel de Guasave",
+      "target": "La Mayiza",
+      "evidence_quote": "El grupo se alió con la facción de La Mayiza comandada por Ismael Zambada Sicairos para combatir a Los Chapitos",
+      "context": "Cártel de Guasave allied with La Mayiza to fight Los Chapitos.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Guasave&oldid=173331484"
+    },
+    {
+      "source": "Cártel de Guasave",
+      "target": "Los Chapitos",
+      "evidence_quote": "El grupo se alió con la facción de La Mayiza comandada por Ismael Zambada Sicairos para combatir a Los Chapitos",
+      "context": "Cártel de Guasave fought against Los Chapitos.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Guasave&oldid=173331484"
+    },
+    {
+      "source": "Cártel de Guasave",
+      "target": "Cártel de Sinaloa",
+      "evidence_quote": "Los Mazatlecos intensificaron su actividad violenta contra el Cártel de Sinaloa",
+      "context": "Cártel de Guasave engaged in violent clashes with Cártel de Sinaloa.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Guasave&oldid=173331484"
+    },
+    {
+      "source": "Cártel de Guasave",
+      "target": "Cártel del Noreste",
+      "evidence_quote": "Aliados: La Mayiza , Cártel del Noreste",
+      "context": "Cártel del Noreste is listed as an ally in the infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Guasave&oldid=173331484"
+    },
+    {
+      "source": "Cártel de Guasave",
+      "target": "Cártel de Jalisco Nueva Generación",
+      "evidence_quote": "Enemigos: ... Grupos Criminales: , Los Chapitos , Cártel de Jalisco Nueva Generación",
+      "context": "Cártel de Jalisco Nueva Generación is listed as an enemy in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Guasave&oldid=173331484"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=C%C3%A1rtel_de_Guasave&oldid=173331484",
+  "source_file": "es_Cártel_de_Guasave"
+}

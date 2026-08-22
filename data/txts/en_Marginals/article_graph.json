@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Marginals",
+      "original_text_name": "Marginals",
+      "aliases": [
+        "Paddy Irish gang",
+        "Tanner Smiths"
+      ],
+      "context": "New York street gang active in early 1900s, involved in extortion and labor slugging, based on Lower West Side.",
+      "time_period": "early 1900s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Marginals&oldid=1346762323"
+    },
+    {
+      "standard_name": "Hudson Dusters",
+      "original_text_name": "Hudson Dusters",
+      "aliases": [],
+      "context": "Longtime New York street gang that controlled Lower West Side territory before being succeeded by the Marginals.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Marginals&oldid=1346762323"
+    },
+    {
+      "standard_name": "Gas House Gang",
+      "original_text_name": "Gas House",
+      "aliases": [],
+      "context": "New York street gang; members were apprehended with Marginals in 1910.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Marginals&oldid=1346762323"
+    },
+    {
+      "standard_name": "Car Barn Gang",
+      "original_text_name": "Car Barn Gangs",
+      "aliases": [],
+      "context": "New York street gang; members were apprehended with Marginals in 1910.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Marginals&oldid=1346762323"
+    },
+    {
+      "standard_name": "Pearl Buttons",
+      "original_text_name": "Pearl Buttons",
+      "aliases": [],
+      "context": "Rival gang driven out by the Marginals.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Marginals&oldid=1346762323"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Marginals",
+      "target": "Hudson Dusters",
+      "evidence_quote": "succeeded the longtime Hudson Dusters in their territory of New York's Lower West Side",
+      "context": "Marginals succeeded Hudson Dusters in territory, indicating a structural succession.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Marginals&oldid=1346762323"
+    },
+    {
+      "source": "Marginals",
+      "target": "Hudson Dusters",
+      "evidence_quote": "Smith was witnessed pursuing a member of the Hudson Dusters with a revolver in his hand",
+      "context": "Marginals member pursued a Hudson Dusters member with a gun, showing conflict.",
+      "relationship": "conflict",
+      "time_period": "1914",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Marginals&oldid=1346762323"
+    },
+    {
+      "source": "Marginals",
+      "target": "Pearl Buttons",
+      "evidence_quote": "After driving out the rival Hudson Dusters and the Pearl Buttons",
+      "context": "Marginals drove out Pearl Buttons, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Marginals&oldid=1346762323"
+    },
+    {
+      "source": "Marginals",
+      "target": "Gas House Gang",
+      "evidence_quote": "eight members of the Tanner Smiths were apprehended along with members of the Gas House and Car Barn Gangs in September 1910",
+      "context": "Members of Marginals and Gas House Gang were arrested together, suggesting possible cooperation or shared activity.",
+      "relationship": "cooperation",
+      "time_period": "1910",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Marginals&oldid=1346762323"
+    },
+    {
+      "source": "Marginals",
+      "target": "Car Barn Gang",
+      "evidence_quote": "eight members of the Tanner Smiths were apprehended along with members of the Gas House and Car Barn Gangs in September 1910",
+      "context": "Members of Marginals and Car Barn Gang were arrested together, suggesting possible cooperation or shared activity.",
+      "relationship": "cooperation",
+      "time_period": "1910",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Marginals&oldid=1346762323"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Marginals&oldid=1346762323",
+  "source_file": "en_Marginals"
+}

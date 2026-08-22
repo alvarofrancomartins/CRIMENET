@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Solntsevskaya Bratva",
+      "original_text_name": "Solntsevskaya Bratva",
+      "aliases": [
+        "Solntsevo group"
+      ],
+      "context": "Russian organized crime syndicate, involved in money laundering and other criminal activities.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Semion_Mogilevich&oldid=1351405518"
+    },
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "context": "Italian organized crime syndicate based in Campania.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Semion_Mogilevich&oldid=1351405518"
+    },
+    {
+      "standard_name": "Genovese crime family",
+      "original_text_name": "Genovese crime family",
+      "aliases": [],
+      "context": "Italian-American Mafia family based in New York City.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Semion_Mogilevich&oldid=1351405518"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Solntsevskaya Bratva",
+      "target": "Camorra",
+      "evidence_quote": "According to FBI reports, Mogilevich had alliances with the Camorra, in particular with Salvatore De Falco, a lower-echelon member of the Giuliano clan.",
+      "context": "Mogilevich, who had ties to Solntsevskaya Bratva, had alliances with the Camorra.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Semion_Mogilevich&oldid=1351405518"
+    },
+    {
+      "source": "Solntsevskaya Bratva",
+      "target": "Genovese crime family",
+      "evidence_quote": "In 1998, an FBI informant told the bureau that one of Mogilevich's chief lieutenants in Los Angeles met two Russians from New York City with Genovese crime family ties to broker a scheme to dump American toxic waste in Russia or Ukraine.",
+      "context": "Mogilevich's associate met with Genovese crime family members to arrange a toxic waste dumping scheme.",
+      "relationship": "cooperation",
+      "time_period": "1998",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Semion_Mogilevich&oldid=1351405518"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Semion_Mogilevich&oldid=1351405518",
+  "source_file": "en_Semion_Mogilevich"
+}

@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Venice Shoreline Crips",
+      "original_text_name": "Venice Shoreline Crips",
+      "aliases": [
+        "VSLC",
+        "Shoreline Crips",
+        "Shorelines"
+      ],
+      "context": "A set of the Crips gang alliance based in Venice, Los Angeles, California.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Venice_Shoreline_Crips&oldid=1328955566"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "context": "A gang alliance based in Los Angeles, California.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Venice_Shoreline_Crips&oldid=1328955566"
+    },
+    {
+      "standard_name": "Venice 13",
+      "original_text_name": "Venice 13",
+      "aliases": [],
+      "context": "A gang based in Venice, Los Angeles, California.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Venice_Shoreline_Crips&oldid=1328955566"
+    },
+    {
+      "standard_name": "Culver City 13",
+      "original_text_name": "Culver City 13",
+      "aliases": [
+        "Culver City Boyz"
+      ],
+      "context": "A rival gang to the Venice Shoreline Crips.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Venice_Shoreline_Crips&oldid=1328955566"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Venice Shoreline Crips",
+      "target": "Crips",
+      "evidence_quote": "The Venice Shoreline Crips ( VSLC ) is a \" set \" of the Crips gang alliance",
+      "context": "Venice Shoreline Crips is a subset of the Crips gang alliance.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Venice_Shoreline_Crips&oldid=1328955566"
+    },
+    {
+      "source": "Venice Shoreline Crips",
+      "target": "Culver City 13",
+      "evidence_quote": "the Shorelines warred with rival Culver City 13 after Shoreline cliques were pushed out of the Mar Vista Gardens projects",
+      "context": "Venice Shoreline Crips fought with Culver City 13 over territory.",
+      "relationship": "conflict",
+      "time_period": "1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Venice_Shoreline_Crips&oldid=1328955566"
+    },
+    {
+      "source": "Venice Shoreline Crips",
+      "target": "Venice 13",
+      "evidence_quote": "a war broke out between the Shorelines and Venice 13 over control of the Venice drug trade until a cease-fire was arranged between the two gangs",
+      "context": "Venice Shoreline Crips fought with Venice 13 over drug trade control, then agreed to a cease-fire.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Venice_Shoreline_Crips&oldid=1328955566"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Venice_Shoreline_Crips&oldid=1328955566",
+  "source_file": "en_Venice_Shoreline_Crips"
+}

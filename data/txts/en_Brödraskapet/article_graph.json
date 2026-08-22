@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Brödraskapet",
+      "original_text_name": "Brödraskapet",
+      "aliases": [
+        "BSK",
+        "The Brotherhood"
+      ],
+      "context": "Swedish prison gang founded in 1995, involved in drug trafficking, arms trafficking, robbery, murder, and extortion.",
+      "time_period": "1995–present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Br%C3%B6draskapet&oldid=1339076999"
+    },
+    {
+      "standard_name": "Asa MC",
+      "original_text_name": "Asa MC",
+      "aliases": [],
+      "context": "Outlaw motorcycle club in Stockholm that joined with Brotherhood members to form the first Brotherhood chapter outside prison.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Br%C3%B6draskapet&oldid=1339076999"
+    },
+    {
+      "standard_name": "Hells Angels",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "context": "Outlaw motorcycle club; Hog Riders MC is a support club for Hells Angels.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Br%C3%B6draskapet&oldid=1339076999"
+    },
+    {
+      "standard_name": "Hog Riders Motorcycle Club",
+      "original_text_name": "Hog Riders Motorcycle Club",
+      "aliases": [],
+      "context": "Support club for Hells Angels; members were charged with involvement in the murder of Danny Fitzpatrick.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Br%C3%B6draskapet&oldid=1339076999"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Brödraskapet",
+      "target": "Asa MC",
+      "evidence_quote": "At the end of the year 1995 the outlaw motorcycle club (omc) Asa MC in Stockholm joined up with Brotherhood members that had been released from prison and founded the first Brotherhood chapter outside of the prison walls.",
+      "context": "Asa MC merged with released Brotherhood members to form the first outside chapter.",
+      "relationship": "other",
+      "time_period": "1995",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Br%C3%B6draskapet&oldid=1339076999"
+    },
+    {
+      "source": "Brödraskapet",
+      "target": "Hells Angels",
+      "evidence_quote": "Rivals: Hells Angels",
+      "context": "Infobox lists Hells Angels as rivals of Brödraskapet.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Br%C3%B6draskapet&oldid=1339076999"
+    },
+    {
+      "source": "Hog Riders Motorcycle Club",
+      "target": "Hells Angels",
+      "evidence_quote": "Three members of the Hog Riders Motorcycle Club, a support club for the Hells Angels, were later charged with involvement in the murder.",
+      "context": "Hog Riders MC is a support club for Hells Angels.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Br%C3%B6draskapet&oldid=1339076999"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Br%C3%B6draskapet&oldid=1339076999",
+  "source_file": "en_Brödraskapet"
+}

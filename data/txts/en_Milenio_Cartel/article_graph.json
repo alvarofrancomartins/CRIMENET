@@ -1,0 +1,174 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Milenio Cartel",
+      "original_text_name": "Milenio Cartel",
+      "aliases": [
+        "Cártel de los Valencia"
+      ],
+      "context": "Mexican criminal organization based in Michoacán, later relocated to Jalisco. Active from 1970s to 2010.",
+      "time_period": "1970s–2010",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "standard_name": "Jalisco New Generation Cartel",
+      "original_text_name": "Jalisco New Generation Cartel",
+      "aliases": [
+        "CJNG"
+      ],
+      "context": "Splinter faction of the Milenio Cartel formed in 2010, headed by Nemesio 'El Mencho' Oseguera.",
+      "time_period": "2010",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "standard_name": "Sinaloa Cartel",
+      "original_text_name": "Sinaloa Cartel",
+      "aliases": [],
+      "context": "Mexican drug cartel that the Milenio Cartel associated with and became a branch of the Sinaloa Federation.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "standard_name": "La Resistencia",
+      "original_text_name": "La Resistencia",
+      "aliases": [],
+      "context": "Faction that splintered from the Milenio Cartel after 2009, headed by Ramiro Pozos El Molca.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "context": "Mexican criminal organization that allied with La Resistencia against CJNG.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "standard_name": "La Familia Michoacana",
+      "original_text_name": "La Familia Michoacana",
+      "aliases": [],
+      "context": "Mexican criminal organization that had a working agreement with remnants of the Milenio Cartel.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [],
+      "context": "Colombian drug cartel that the Milenio Cartel had close connections with in the mid 1990s.",
+      "time_period": "mid 1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "standard_name": "Gulf Cartel",
+      "original_text_name": "Gulf Cartel",
+      "aliases": [],
+      "context": "Rival of the Milenio Cartel according to infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "standard_name": "Knights Templar Cartel",
+      "original_text_name": "Knights Templar Cartel",
+      "aliases": [],
+      "context": "Rival of the Milenio Cartel according to infobox.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Milenio Cartel",
+      "target": "Jalisco New Generation Cartel",
+      "evidence_quote": "The Jalisco New Generation Cartel was born from the splintering of the Milenio Cartel in 2010.",
+      "context": "CJNG splintered from the Milenio Cartel in 2010.",
+      "relationship": "other",
+      "time_period": "2010",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "source": "Milenio Cartel",
+      "target": "Sinaloa Cartel",
+      "evidence_quote": "the Milenio Cartel became a branch of what was known as the Sinaloa Federation",
+      "context": "Milenio Cartel became a branch of the Sinaloa Federation under Sinaloa Cartel's direction.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "source": "Milenio Cartel",
+      "target": "Medellín Cartel",
+      "evidence_quote": "By the mid 1990s they had close connections with Colombian traffickers like Fabio Ochoa Vásquez of the Medellín Cartel",
+      "context": "Milenio Cartel had close connections with Medellín Cartel in the mid 1990s.",
+      "relationship": "cooperation",
+      "time_period": "mid 1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "source": "La Resistencia",
+      "target": "Los Zetas",
+      "evidence_quote": "La Resistencia formed a brief alliance with Los Zetas to oppose CJNG",
+      "context": "La Resistencia allied with Los Zetas to oppose CJNG.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "source": "Jalisco New Generation Cartel",
+      "target": "Sinaloa Cartel",
+      "evidence_quote": "CJNG reunited with the Sinaloa Cartel",
+      "context": "CJNG reunited with the Sinaloa Cartel.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "source": "Milenio Cartel",
+      "target": "La Familia Michoacana",
+      "evidence_quote": "reached a working agreement with La Familia Michoacana",
+      "context": "Remnants of the Milenio Cartel reached a working agreement with La Familia Michoacana.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "source": "Milenio Cartel",
+      "target": "Los Zetas",
+      "evidence_quote": "forged a loose alliance with a faction of Los Zetas Cartel",
+      "context": "Former Milenio Cartel members forged a loose alliance with a faction of Los Zetas.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "source": "Milenio Cartel",
+      "target": "Gulf Cartel",
+      "evidence_quote": "Rivals: Gulf Cartel",
+      "context": "Gulf Cartel is listed as a rival of the Milenio Cartel in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "source": "Milenio Cartel",
+      "target": "Knights Templar Cartel",
+      "evidence_quote": "Rivals: Knights Templar Cartel",
+      "context": "Knights Templar Cartel is listed as a rival of the Milenio Cartel in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    },
+    {
+      "source": "Milenio Cartel",
+      "target": "La Resistencia",
+      "evidence_quote": "Allies: Sinaloa Cartel, La Resistencia",
+      "context": "La Resistencia is listed as an ally of the Milenio Cartel in the infobox.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Milenio_Cartel&oldid=1352429230",
+  "source_file": "en_Milenio_Cartel"
+}

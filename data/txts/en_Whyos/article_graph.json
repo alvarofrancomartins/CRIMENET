@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Whyos",
+      "original_text_name": "Whyos",
+      "aliases": [
+        "Whyos Gang"
+      ],
+      "context": "Dominant street gang in New York City from late 1860s to early 1890s, involved in various criminal activities.",
+      "time_period": "1860s-1890s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Whyos&oldid=1352477818"
+    },
+    {
+      "standard_name": "Monk Eastman Gang",
+      "original_text_name": "Monk Eastman Gang",
+      "aliases": [],
+      "context": "Gang that defeated the Whyos and controlled Manhattan in the 1890s.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Whyos&oldid=1352477818"
+    },
+    {
+      "standard_name": "Chichesters",
+      "original_text_name": "Chichesters",
+      "aliases": [],
+      "context": "Earlier gang from which the Whyos formed.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Whyos&oldid=1352477818"
+    },
+    {
+      "standard_name": "Five Points Gang",
+      "original_text_name": "Five Points Gang",
+      "aliases": [],
+      "context": "Rival gang that came to prominence in the mid-1890s.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Whyos&oldid=1352477818"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Monk Eastman Gang",
+      "target": "Whyos",
+      "evidence_quote": "the Monk Eastman Gang defeated the last of the Whyos",
+      "context": "Monk Eastman Gang defeated the Whyos, ending their dominance.",
+      "relationship": "conflict",
+      "time_period": "early 1890s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Whyos&oldid=1352477818"
+    },
+    {
+      "source": "Whyos",
+      "target": "Chichesters",
+      "evidence_quote": "Originally forming from members of the Chichesters",
+      "context": "Whyos formed from members of the Chichesters.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Whyos&oldid=1352477818"
+    },
+    {
+      "source": "Whyos",
+      "target": "Five Points Gang",
+      "evidence_quote": "gunfight with rival Five Points gangster Johnny McCarthy",
+      "context": "Whyos had a gunfight with a Five Points gang member.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Whyos&oldid=1352477818"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Whyos&oldid=1352477818",
+  "source_file": "en_Whyos"
+}

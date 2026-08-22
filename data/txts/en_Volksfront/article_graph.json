@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Volksfront",
+      "original_text_name": "Volksfront",
+      "aliases": [
+        "Volksfront International"
+      ],
+      "context": "American white separatist organization founded in 1994, active until 2012.",
+      "time_period": "1994-2012",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Volksfront&oldid=1341255728"
+    },
+    {
+      "standard_name": "National Alliance",
+      "original_text_name": "National Alliance",
+      "aliases": [],
+      "context": "Neo-Nazi organization mentioned as using the same rune symbol.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Volksfront&oldid=1341255728"
+    },
+    {
+      "standard_name": "Hammerskins",
+      "original_text_name": "Hammerskins",
+      "aliases": [],
+      "context": "White supremacist group formed in Texas, linked to Volksfront members.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Volksfront&oldid=1341255728"
+    },
+    {
+      "standard_name": "Blood & Honour",
+      "original_text_name": "Blood & Honour",
+      "aliases": [],
+      "context": "White supremacist group founded in the United Kingdom in 1987, linked to Volksfront members.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Volksfront&oldid=1341255728"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Volksfront",
+      "target": "National Alliance",
+      "evidence_quote": "The logo of Volksfront was the Algiz rune, a common rune used as a neo-Nazi symbol common among other organizations such as National Alliance.",
+      "context": "Both organizations use the same neo-Nazi symbol, but no direct relationship is asserted.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Volksfront&oldid=1341255728"
+    },
+    {
+      "source": "Volksfront",
+      "target": "Hammerskins",
+      "evidence_quote": "A number of Volksfront's members were linked with the Hammerskins, a white supremacist group formed in Texas",
+      "context": "Members of Volksfront were linked to Hammerskins.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Volksfront&oldid=1341255728"
+    },
+    {
+      "source": "Volksfront",
+      "target": "Blood & Honour",
+      "evidence_quote": "A number of Volksfront's members were linked with the Hammerskins, a white supremacist group formed in Texas, and Blood & Honour, a group founded in the United Kingdom in 1987.",
+      "context": "Members of Volksfront were linked to Blood & Honour.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Volksfront&oldid=1341255728"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Volksfront&oldid=1341255728",
+  "source_file": "en_Volksfront"
+}

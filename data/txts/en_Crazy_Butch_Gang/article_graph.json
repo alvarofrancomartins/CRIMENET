@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Crazy Butch Gang",
+      "original_text_name": "Crazy Butch Gang",
+      "aliases": [],
+      "context": "American juvenile street gang active in New York City's Lower East Side during the late 19th century, known for pickpocketing and sneak thievery.",
+      "time_period": "late 19th century",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Crazy_Butch_Gang&oldid=1263200435"
+    },
+    {
+      "standard_name": "Eastman Gang",
+      "original_text_name": "Eastman Gang",
+      "aliases": [],
+      "context": "New York gang allied with the Crazy Butch Gang, at war with Five Points and Humpty Jackson Gangs.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Crazy_Butch_Gang&oldid=1263200435"
+    },
+    {
+      "standard_name": "Five Points Gang",
+      "original_text_name": "Five Points",
+      "aliases": [],
+      "context": "New York gang at war with the Eastman Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Crazy_Butch_Gang&oldid=1263200435"
+    },
+    {
+      "standard_name": "Humpty Jackson Gang",
+      "original_text_name": "Humpty Jackson Gangs",
+      "aliases": [],
+      "context": "New York gang at war with the Eastman Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Crazy_Butch_Gang&oldid=1263200435"
+    },
+    {
+      "standard_name": "Squab Wheelmen",
+      "original_text_name": "Squab Wheelmen",
+      "aliases": [],
+      "context": "Ally of Monk Eastman's organization, incorporated the Crazy Butch Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Crazy_Butch_Gang&oldid=1263200435"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Crazy Butch Gang",
+      "target": "Eastman Gang",
+      "evidence_quote": "The gang was allied to the Eastman Gang who were at almost constant war with the Five Points and Humpty Jackson Gangs between the late 1890s and early 1900s as they were incorporated into the Squab Wheelmen , an ally of Monk Eastman's organization.",
+      "context": "The Crazy Butch Gang was allied with the Eastman Gang.",
+      "relationship": "cooperation",
+      "time_period": "late 1890s-early 1900s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Crazy_Butch_Gang&oldid=1263200435"
+    },
+    {
+      "source": "Eastman Gang",
+      "target": "Five Points Gang",
+      "evidence_quote": "The gang was allied to the Eastman Gang who were at almost constant war with the Five Points and Humpty Jackson Gangs between the late 1890s and early 1900s",
+      "context": "The Eastman Gang was at war with the Five Points Gang.",
+      "relationship": "conflict",
+      "time_period": "late 1890s-early 1900s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Crazy_Butch_Gang&oldid=1263200435"
+    },
+    {
+      "source": "Eastman Gang",
+      "target": "Humpty Jackson Gang",
+      "evidence_quote": "The gang was allied to the Eastman Gang who were at almost constant war with the Five Points and Humpty Jackson Gangs between the late 1890s and early 1900s",
+      "context": "The Eastman Gang was at war with the Humpty Jackson Gang.",
+      "relationship": "conflict",
+      "time_period": "late 1890s-early 1900s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Crazy_Butch_Gang&oldid=1263200435"
+    },
+    {
+      "source": "Crazy Butch Gang",
+      "target": "Squab Wheelmen",
+      "evidence_quote": "as they were incorporated into the Squab Wheelmen , an ally of Monk Eastman's organization.",
+      "context": "The Crazy Butch Gang was incorporated into the Squab Wheelmen.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Crazy_Butch_Gang&oldid=1263200435"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Crazy_Butch_Gang&oldid=1263200435",
+  "source_file": "en_Crazy_Butch_Gang"
+}

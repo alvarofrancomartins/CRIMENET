@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Mara Salvatrucha",
+      "original_text_name": "Mara Salvatrucha",
+      "aliases": [
+        "MS",
+        "Mara",
+        "MS-13"
+      ],
+      "context": "Transnational criminal organization of associated gangs, originating in Los Angeles, active in the Americas and Europe.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mara_Salvatrucha&oldid=150314904"
+    },
+    {
+      "standard_name": "Cartello di Sinaloa",
+      "original_text_name": "Cartello di Sinaloa",
+      "aliases": [],
+      "context": "Mexican drug cartel that recruited and trained MS-13 members.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mara_Salvatrucha&oldid=150314904"
+    },
+    {
+      "standard_name": "Los Zetas",
+      "original_text_name": "Los Zetas",
+      "aliases": [],
+      "context": "Armed wing of the Cartel del Golfo, opposed by MS-13 on the US-Mexico border.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mara_Salvatrucha&oldid=150314904"
+    },
+    {
+      "standard_name": "Cartel del Golfo",
+      "original_text_name": "Cartello del Golfo",
+      "aliases": [],
+      "context": "Mexican drug cartel whose armed wing was Los Zetas.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mara_Salvatrucha&oldid=150314904"
+    },
+    {
+      "standard_name": "18th Street Gang",
+      "original_text_name": "18th Street Gang",
+      "aliases": [],
+      "context": "Rival gang to MS-13, also originating in Los Angeles.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mara_Salvatrucha&oldid=150314904"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Mara Salvatrucha",
+      "target": "Cartello di Sinaloa",
+      "evidence_quote": "un esempio fu il Cartello di Sinaloa , guidato da Joaquin Guzman Loera , che ne addestrò diversi all'uso di armi e li dispiegò sulla frontiera fra USA e Messico per contrastare i Los Zetas",
+      "context": "Cartello di Sinaloa recruited and trained MS-13 members to fight Los Zetas.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mara_Salvatrucha&oldid=150314904"
+    },
+    {
+      "source": "Mara Salvatrucha",
+      "target": "Los Zetas",
+      "evidence_quote": "li dispiegò sulla frontiera fra USA e Messico per contrastare i Los Zetas",
+      "context": "MS-13 members were deployed by Sinaloa to fight against Los Zetas.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mara_Salvatrucha&oldid=150314904"
+    },
+    {
+      "source": "Mara Salvatrucha",
+      "target": "18th Street Gang",
+      "evidence_quote": "una delle bande rivali, la 18th Street Gang , sia nata nella 18th Street",
+      "context": "18th Street Gang is mentioned as a rival gang to MS-13.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Mara_Salvatrucha&oldid=150314904"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Mara_Salvatrucha&oldid=150314904",
+  "source_file": "it_Mara_Salvatrucha"
+}

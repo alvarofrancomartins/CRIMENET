@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "311 Boyz",
+      "original_text_name": "311 Boyz",
+      "aliases": [],
+      "context": "Teen gang in Las Vegas, Nevada, active in 2003, involved in violent acts.",
+      "time_period": "2003",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=311_Boyz&oldid=1348466391"
+    },
+    {
+      "standard_name": "Ku Klux Klan",
+      "original_text_name": "Ku Klux Klan",
+      "aliases": [
+        "KKK"
+      ],
+      "context": "White supremacist organization; speculated to be referenced by the gang's name.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=311_Boyz&oldid=1348466391"
+    }
+  ],
+  "edges": [
+    {
+      "source": "311 Boyz",
+      "target": "Ku Klux Klan",
+      "evidence_quote": "CBS News speculated that the name might be a coded reference to the Ku Klux Klan: K is the 11th letter of the alphabet, and there are 3 in 'KKK'.",
+      "context": "The text speculates that the gang's name may reference the Ku Klux Klan, but no actual relationship is asserted.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=311_Boyz&oldid=1348466391"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=311_Boyz&oldid=1348466391",
+  "source_file": "en_311_Boyz"
+}

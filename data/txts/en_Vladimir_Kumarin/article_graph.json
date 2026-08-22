@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Tambovskaya Bratva",
+      "original_text_name": "Tambovskaya Bratva",
+      "aliases": [
+        "Tambov gang",
+        "Tambovskaya"
+      ],
+      "context": "Russian criminal organization founded by Vladimir Kumarin and Valery Ledovskikh, initially recruiting only from Tambov region.",
+      "time_period": "1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vladimir_Kumarin&oldid=1308049550"
+    },
+    {
+      "standard_name": "Velikolukskaya",
+      "original_text_name": "Velikolukskaya",
+      "aliases": [],
+      "context": "Large criminal group from Velikie Luki, Pskov region, which the Tambov gang merged into and later fought.",
+      "time_period": "1980s-1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vladimir_Kumarin&oldid=1308049550"
+    },
+    {
+      "standard_name": "Malyshevskaya",
+      "original_text_name": "Malyshevskaya",
+      "aliases": [],
+      "context": "Criminal gang that fought with Kumarin's gang in 1989.",
+      "time_period": "1989",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vladimir_Kumarin&oldid=1308049550"
+    },
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali cocaine cartel",
+      "aliases": [],
+      "context": "Colombian cocaine cartel allegedly involved in money-laundering scheme with connections to Kumarin.",
+      "time_period": "2003",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vladimir_Kumarin&oldid=1308049550"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Tambovskaya Bratva",
+      "target": "Velikolukskaya",
+      "evidence_quote": "the gang merged into the large criminal group Velikolukskaya",
+      "context": "Tambov gang initially merged into Velikolukskaya for protection.",
+      "relationship": "other",
+      "time_period": "1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vladimir_Kumarin&oldid=1308049550"
+    },
+    {
+      "source": "Tambovskaya Bratva",
+      "target": "Velikolukskaya",
+      "evidence_quote": "A bloody skirmish with the Velikolukskaya gang caused Kumarin to fall into a month-long coma.",
+      "context": "Tambov gang fought a bloody skirmish with Velikolukskaya.",
+      "relationship": "conflict",
+      "time_period": "1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vladimir_Kumarin&oldid=1308049550"
+    },
+    {
+      "source": "Tambovskaya Bratva",
+      "target": "Malyshevskaya",
+      "evidence_quote": "multiple members of Kumarin's gang were convicted for the bloody firefight with another criminal gang, Malyshevskaya.",
+      "context": "Tambov gang engaged in a firefight with Malyshevskaya.",
+      "relationship": "conflict",
+      "time_period": "1989",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vladimir_Kumarin&oldid=1308049550"
+    },
+    {
+      "source": "Tambovskaya Bratva",
+      "target": "Cali Cartel",
+      "evidence_quote": "the German firm St. Petersburg Real Estate Holding Company ... had fallen under suspicion of being involved in a money-laundering scheme through the Cali cocaine cartel with connections to Kumarin.",
+      "context": "Tambov gang leader Kumarin was connected to Cali Cartel via money-laundering scheme.",
+      "relationship": "cooperation",
+      "time_period": "2003",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Vladimir_Kumarin&oldid=1308049550"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Vladimir_Kumarin&oldid=1308049550",
+  "source_file": "en_Vladimir_Kumarin"
+}

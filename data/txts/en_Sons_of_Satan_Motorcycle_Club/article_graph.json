@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sons of Satan Motorcycle Club",
+      "original_text_name": "Sons of Satan Motorcycle Club",
+      "aliases": [
+        "The Sons"
+      ],
+      "context": "One percenter outlaw motorcycle club and brother club for the Pagan's Motorcycle Club, founded in 1949 in Lancaster, Pennsylvania.",
+      "time_period": "1949",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sons_of_Satan_Motorcycle_Club&oldid=1254606138"
+    },
+    {
+      "standard_name": "Pagans Motorcycle Club",
+      "original_text_name": "Pagan's Motorcycle Club",
+      "aliases": [
+        "The Pagans"
+      ],
+      "context": "Outlaw motorcycle club that took over the Sons of Satan after a conflict in the 1960s.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sons_of_Satan_Motorcycle_Club&oldid=1254606138"
+    },
+    {
+      "standard_name": "Hells Angels Motorcycle Club",
+      "original_text_name": "Hells Angels",
+      "aliases": [],
+      "context": "Rival motorcycle gang suspected of bombing the Sons of Satan clubhouse in 2002.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sons_of_Satan_Motorcycle_Club&oldid=1254606138"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Sons of Satan Motorcycle Club",
+      "target": "Pagans Motorcycle Club",
+      "evidence_quote": "Sons of Satan Motorcycle Club , known locally as The Sons , is a one percenter outlaw motorcycle club and brother club for the Pagan's Motorcycle Club .",
+      "context": "The Sons of Satan are a brother club to the Pagans, indicating a cooperative alliance.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sons_of_Satan_Motorcycle_Club&oldid=1254606138"
+    },
+    {
+      "source": "Sons of Satan Motorcycle Club",
+      "target": "Pagans Motorcycle Club",
+      "evidence_quote": "During the 1960s, The Pagans began moving north into Central Pennsylvania which sparked a brief conflict between the two clubs.",
+      "context": "The Pagans' expansion led to a brief conflict with the Sons of Satan.",
+      "relationship": "conflict",
+      "time_period": "1960s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sons_of_Satan_Motorcycle_Club&oldid=1254606138"
+    },
+    {
+      "source": "Sons of Satan Motorcycle Club",
+      "target": "Pagans Motorcycle Club",
+      "evidence_quote": "The conflict was resolved when Sons of Satan President John Marron and Pagans' President Fred 'Dutch' Burhans formally met and became close friends. Marron and a few select Sons members soon moved over to the Pagans while the remaining Sons were allowed to continue their club under Pagan oversight.",
+      "context": "After the conflict, the Sons of Satan came under Pagan oversight, becoming a subordinate club.",
+      "relationship": "other",
+      "time_period": "1960s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sons_of_Satan_Motorcycle_Club&oldid=1254606138"
+    },
+    {
+      "source": "Sons of Satan Motorcycle Club",
+      "target": "Hells Angels Motorcycle Club",
+      "evidence_quote": "On December 13, 2002, the Sons of Satan clubhouse was destroyed by a pipe bomb explosion while the building was unattended. Although authorities believe it to be the work of rival motorcycle gang, the Hells Angels , the case has yet to be officially solved.",
+      "context": "The Hells Angels are suspected of bombing the Sons of Satan clubhouse, indicating a hostile rivalry.",
+      "relationship": "conflict",
+      "time_period": "2002",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Sons_of_Satan_Motorcycle_Club&oldid=1254606138"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Sons_of_Satan_Motorcycle_Club&oldid=1254606138",
+  "source_file": "en_Sons_of_Satan_Motorcycle_Club"
+}

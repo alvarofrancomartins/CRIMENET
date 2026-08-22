@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Foxtrot",
+      "original_text_name": "Foxtrot",
+      "aliases": [
+        "The Foxtrot Network"
+      ],
+      "context": "Criminal network in Sweden, main distributor of narcotics, emerged at end of 2010s.",
+      "time_period": "end of the 2010s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Foxtrot_%28criminal_network%29&oldid=1337345535"
+    },
+    {
+      "standard_name": "Iran",
+      "original_text_name": "Iran",
+      "aliases": [],
+      "context": "Country; Foxtrot has direct operational ties with Iranian government and MOIS.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Foxtrot_%28criminal_network%29&oldid=1337345535"
+    },
+    {
+      "standard_name": "Bro-network",
+      "original_text_name": "Bro-network",
+      "aliases": [],
+      "context": "Criminal network allied with Foxtrot.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Foxtrot_%28criminal_network%29&oldid=1337345535"
+    },
+    {
+      "standard_name": "Zero Network",
+      "original_text_name": "Zero Network",
+      "aliases": [],
+      "context": "Criminal network allied with Foxtrot.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Foxtrot_%28criminal_network%29&oldid=1337345535"
+    },
+    {
+      "standard_name": "Dalen Network",
+      "original_text_name": "Dalen Network",
+      "aliases": [],
+      "context": "Criminal network in conflict with Foxtrot.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Foxtrot_%28criminal_network%29&oldid=1337345535"
+    },
+    {
+      "standard_name": "Farsta yngre",
+      "original_text_name": "Farsta yngre",
+      "aliases": [],
+      "context": "Criminal network affiliated with Dalen Network.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Foxtrot_%28criminal_network%29&oldid=1337345535"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Foxtrot",
+      "target": "Iran",
+      "evidence_quote": "Foxtrot has developed direct operational ties with the Iranian government, specifically Iran’s Ministry of Intelligence and Security (MOIS).",
+      "context": "Foxtrot has direct operational ties with Iran's government and MOIS.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Foxtrot_%28criminal_network%29&oldid=1337345535"
+    },
+    {
+      "source": "Foxtrot",
+      "target": "Bro-network",
+      "evidence_quote": "it has been established through numerous investigations that the Foxtrot Network is allied with the Bro-network and Zero Network.",
+      "context": "Foxtrot is allied with Bro-network.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Foxtrot_%28criminal_network%29&oldid=1337345535"
+    },
+    {
+      "source": "Foxtrot",
+      "target": "Zero Network",
+      "evidence_quote": "it has been established through numerous investigations that the Foxtrot Network is allied with the Bro-network and Zero Network.",
+      "context": "Foxtrot is allied with Zero Network.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Foxtrot_%28criminal_network%29&oldid=1337345535"
+    },
+    {
+      "source": "Foxtrot",
+      "target": "Dalen Network",
+      "evidence_quote": "People hired by the Foxtrot network and Majid have committed several violent crimes against the Dalen Network and their allies.",
+      "context": "Foxtrot commits violent crimes against Dalen Network.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Foxtrot_%28criminal_network%29&oldid=1337345535"
+    },
+    {
+      "source": "Dalen Network",
+      "target": "Farsta yngre",
+      "evidence_quote": "the Dalen Network, which appears to be affiliated with Farsta yngre among other things",
+      "context": "Dalen Network is affiliated with Farsta yngre.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Foxtrot_%28criminal_network%29&oldid=1337345535"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Foxtrot_%28criminal_network%29&oldid=1337345535",
+  "source_file": "en_Foxtrot_(criminal_network)"
+}

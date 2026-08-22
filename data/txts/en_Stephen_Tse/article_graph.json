@@ -1,0 +1,86 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Ping On",
+      "original_text_name": "Ping On",
+      "aliases": [
+        "Ping On syndicate",
+        "Ping On Club"
+      ],
+      "context": "Chinese criminal syndicate that controlled Boston Chinatown from late 1970s to mid-1980s, founded by Stephen Tse.",
+      "time_period": "late 1970s through the mid-1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stephen_Tse&oldid=1353546096"
+    },
+    {
+      "standard_name": "14K Triad",
+      "original_text_name": "14K Triad",
+      "aliases": [],
+      "context": "Hong Kong-based triad organization; Stephen Tse was a member before moving to the US.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stephen_Tse&oldid=1353546096"
+    },
+    {
+      "standard_name": "On Leong Tong",
+      "original_text_name": "On Leong",
+      "aliases": [
+        "On Leong Tong"
+      ],
+      "context": "Chinese tong that operated in Boston Chinatown; Tse joined briefly but was expelled.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stephen_Tse&oldid=1353546096"
+    },
+    {
+      "standard_name": "Hung Mun",
+      "original_text_name": "Hung Mun",
+      "aliases": [
+        "Chee Kung Tong",
+        "CKT"
+      ],
+      "context": "Chinese social club/tong; Tse joined in 1977 and later allied with its head Harry Mook.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stephen_Tse&oldid=1353546096"
+    },
+    {
+      "standard_name": "Chee Kung Tong",
+      "original_text_name": "Chee Kung Tong",
+      "aliases": [
+        "CKT",
+        "Hung Mun"
+      ],
+      "context": "Also known as Hung Mun; Tse joined this social club in 1977.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stephen_Tse&oldid=1353546096"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Ping On",
+      "target": "On Leong Tong",
+      "evidence_quote": "Tse joined the On Leong, but they expelled him shortly afterward and he joined the Hung Mun",
+      "context": "Tse was briefly a member of On Leong before being expelled, indicating a conflict or falling out.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stephen_Tse&oldid=1353546096"
+    },
+    {
+      "source": "Ping On",
+      "target": "Hung Mun",
+      "evidence_quote": "Tse joined the On Leong, but they expelled him shortly afterward and he joined the Hung Mun (Chee Kung Tong or CKT) social club in 1977, then founded the Ping On Club in 1982",
+      "context": "Tse joined Hung Mun before founding Ping On, indicating a predecessor or structural tie.",
+      "relationship": "other",
+      "time_period": "1977",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stephen_Tse&oldid=1353546096"
+    },
+    {
+      "source": "Ping On",
+      "target": "Chee Kung Tong",
+      "evidence_quote": "Tse was allied with Harry Mook (Goon Chun Yee), head of the local CKT",
+      "context": "Tse and Ping On were allied with Harry Mook, head of the local Chee Kung Tong.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Stephen_Tse&oldid=1353546096"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Stephen_Tse&oldid=1353546096",
+  "source_file": "en_Stephen_Tse"
+}

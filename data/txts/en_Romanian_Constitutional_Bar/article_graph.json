@@ -1,0 +1,104 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Romanian Constitutional Bar",
+      "original_text_name": "Constitutional Bar",
+      "aliases": [
+        "Romanian Constitutional Bar",
+        "Bota Bar",
+        "National Association of Romanian Bars",
+        "UNBR Bota"
+      ],
+      "context": "Parallel, illegal bar association in Romania, established in 2002, lacking legal personality, involved in unauthorized legal practice.",
+      "time_period": "2002",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Romanian_Constitutional_Bar&oldid=1338577214"
+    },
+    {
+      "standard_name": "National Union of Romanian Bars",
+      "original_text_name": "UNBR",
+      "aliases": [],
+      "context": "Genuine Romanian bar association, the legitimate professional organization for lawyers.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Romanian_Constitutional_Bar&oldid=1338577214"
+    },
+    {
+      "standard_name": "UNBR Botomei",
+      "original_text_name": "UNBR Botomei",
+      "aliases": [],
+      "context": "A former associate of Pompiliu Bota, head of an entity, definitively sentenced to prison.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Romanian_Constitutional_Bar&oldid=1338577214"
+    },
+    {
+      "standard_name": "Constitutional Bar",
+      "original_text_name": "Constitutional Bar",
+      "aliases": [
+        "Romanian Constitutional Bar",
+        "Bota Bar",
+        "National Association of Romanian Bars",
+        "UNBR Bota"
+      ],
+      "context": "Parallel, illegal bar association established by Pompiliu Bota in 2002, lacking legal personality, involved in unauthorized legal practice.",
+      "time_period": "2002",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Romanian_Constitutional_Bar&oldid=1338577214"
+    },
+    {
+      "standard_name": "UNBR-Botomei",
+      "original_text_name": "UNBR-Botomei",
+      "aliases": [
+        "Botomei Bar"
+      ],
+      "context": "Splinter group from UNBR Bota, led by Vasile Botomei, involved in clandestine legal practice.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Romanian_Constitutional_Bar&oldid=1338577214"
+    },
+    {
+      "standard_name": "Independent Union of Romanian Jurists",
+      "original_text_name": "Independent Union of Romanian Jurists",
+      "aliases": [],
+      "context": "Clandestine lawyers structure led by Pompiliu Bota, promoting nonsensical court actions.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Romanian_Constitutional_Bar&oldid=1338577214"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Romanian Constitutional Bar",
+      "target": "National Union of Romanian Bars",
+      "evidence_quote": "The Constitutional Bar ... was a parallel, illegal bar, bereft of juridical personhood, established by Pompiliu Bota in 2002 as an alternative to the 'classic bars' of Romanian lawyers, reorganized after 1990 within UNBR, which is the genuine Romanian bar association.",
+      "context": "The Constitutional Bar was established as an alternative to the legitimate UNBR, indicating a conflictual rivalry.",
+      "relationship": "conflict",
+      "time_period": "2002",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Romanian_Constitutional_Bar&oldid=1338577214"
+    },
+    {
+      "source": "Romanian Constitutional Bar",
+      "target": "UNBR Botomei",
+      "evidence_quote": "The head of UNBR Botomei, a former associate of Pompiliu Bota, was definitively sentenced to prison with immediate effect.",
+      "context": "UNBR Botomei is a former associate of the founder of the Constitutional Bar, suggesting a cooperative past.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Romanian_Constitutional_Bar&oldid=1338577214"
+    },
+    {
+      "source": "UNBR-Botomei",
+      "target": "Constitutional Bar",
+      "evidence_quote": "At one point there was UNBR-Botomei, which had split from UNBR-Bota",
+      "context": "UNBR-Botomei split from UNBR Bota (Constitutional Bar).",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Romanian_Constitutional_Bar&oldid=1338577214"
+    },
+    {
+      "source": "Independent Union of Romanian Jurists",
+      "target": "Constitutional Bar",
+      "evidence_quote": "The Independent Union of Romanian Jurists, led by Pompiliu Bota, is another clandestine lawyers structure.",
+      "context": "The Independent Union of Romanian Jurists is led by the same person as the Constitutional Bar and is another clandestine structure.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Romanian_Constitutional_Bar&oldid=1338577214"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Romanian_Constitutional_Bar&oldid=1338577214",
+  "source_file": "en_Romanian_Constitutional_Bar"
+}

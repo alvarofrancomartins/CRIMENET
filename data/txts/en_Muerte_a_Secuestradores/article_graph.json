@@ -1,0 +1,110 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Muerte a Secuestradores",
+      "original_text_name": "Muerte a Secuestradores",
+      "aliases": [
+        "MAS",
+        "Death to Kidnappers"
+      ],
+      "context": "Colombian paramilitary group and private army supported by drug cartels, U.S. corporations, and politicians during the 1980s.",
+      "time_period": "1981–1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Muerte_a_Secuestradores&oldid=1359253744"
+    },
+    {
+      "standard_name": "FARC-EP",
+      "original_text_name": "FARC-EP",
+      "aliases": [],
+      "context": "Colombian guerrilla movement targeted by MAS.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Muerte_a_Secuestradores&oldid=1359253744"
+    },
+    {
+      "standard_name": "M-19",
+      "original_text_name": "M-19",
+      "aliases": [],
+      "context": "Colombian guerrilla movement targeted by MAS.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Muerte_a_Secuestradores&oldid=1359253744"
+    },
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellin cartel",
+      "aliases": [
+        "Medellín Cartel"
+      ],
+      "context": "Colombian drug cartel that supported and formed MAS.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Muerte_a_Secuestradores&oldid=1359253744"
+    },
+    {
+      "standard_name": "Asociación Campesina de Ganaderos y Agricultores del Magdalena Medio",
+      "original_text_name": "Asociación Campesina de Ganaderos y Agricultores del Magdalena Medio",
+      "aliases": [
+        "ACDEGAM"
+      ],
+      "context": "Legal front for paramilitary groups, handled logistics and public relations for MAS.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Muerte_a_Secuestradores&oldid=1359253744"
+    },
+    {
+      "standard_name": "Movimiento de Restauración Nacional",
+      "original_text_name": "Movimiento de Restauración Nacional",
+      "aliases": [
+        "MORENA"
+      ],
+      "context": "Political movement formed by members of ACDEGAM.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Muerte_a_Secuestradores&oldid=1359253744"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Muerte a Secuestradores",
+      "target": "FARC-EP",
+      "evidence_quote": "Muerte a Secuestradores assassinated political opponents and community organizers, and waged counterinsurgency warfare against guerrilla movements such as the FARC-EP and the M-19 .",
+      "context": "MAS waged counterinsurgency warfare against FARC-EP.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Muerte_a_Secuestradores&oldid=1359253744"
+    },
+    {
+      "source": "Muerte a Secuestradores",
+      "target": "M-19",
+      "evidence_quote": "Muerte a Secuestradores assassinated political opponents and community organizers, and waged counterinsurgency warfare against guerrilla movements such as the FARC-EP and the M-19 .",
+      "context": "MAS waged counterinsurgency warfare against M-19.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Muerte_a_Secuestradores&oldid=1359253744"
+    },
+    {
+      "source": "Muerte a Secuestradores",
+      "target": "Medellín Cartel",
+      "evidence_quote": "members of the Medellín Cartel , the Colombian military, the U.S.-based corporation Texas Petroleum , the Colombian legislature, small industrialists, and wealthy cattle ranchers came together in a series of meetings in Puerto Boyacá , and formed a paramilitary organization known as Muerte a Secuestradores",
+      "context": "Medellín Cartel members co-founded MAS.",
+      "relationship": "cooperation",
+      "time_period": "1981–1982",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Muerte_a_Secuestradores&oldid=1359253744"
+    },
+    {
+      "source": "Muerte a Secuestradores",
+      "target": "Asociación Campesina de Ganaderos y Agricultores del Magdalena Medio",
+      "evidence_quote": "ACDEGAM worked to promote anti-labor policies, and threatened anyone involved with organizing for labor or peasants' rights. The threats were backed up by the MAS, which would come in and attack or assassinate anyone who was suspected of being a 'subversive'.",
+      "context": "ACDEGAM provided legal front and logistics for MAS, and MAS backed up ACDEGAM's threats with violence.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Muerte_a_Secuestradores&oldid=1359253744"
+    },
+    {
+      "source": "Asociación Campesina de Ganaderos y Agricultores del Magdalena Medio",
+      "target": "Movimiento de Restauración Nacional",
+      "evidence_quote": "In August 1989, the Movimiento de Restauración Nacional (\"Movement of National Restoration\", MORENA) was formed by members of ACDEGAM.",
+      "context": "MORENA was formed by members of ACDEGAM.",
+      "relationship": "other",
+      "time_period": "1989",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Muerte_a_Secuestradores&oldid=1359253744"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Muerte_a_Secuestradores&oldid=1359253744",
+  "source_file": "en_Muerte_a_Secuestradores"
+}

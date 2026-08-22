@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Clan Pariante",
+      "original_text_name": "clan Pariante",
+      "aliases": [],
+      "context": "Camorra clan operating in the western suburbs of Naples, specifically Bacoli and Monte di Procida.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Pariante&oldid=149861227"
+    },
+    {
+      "standard_name": "Clan Di Lauro",
+      "original_text_name": "clan Di Lauro",
+      "aliases": [
+        "Di Lauro"
+      ],
+      "context": "Camorra clan founded by Paolo Di Lauro, involved in drug trafficking and extortion.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Pariante&oldid=149861227"
+    },
+    {
+      "standard_name": "Scissionisti di Secondigliano",
+      "original_text_name": "Scissionisti di Secondigliano",
+      "aliases": [],
+      "context": "Splinter group from the Di Lauro clan, involved in the First Scampia feud.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Pariante&oldid=149861227"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Clan Pariante",
+      "target": "Clan Di Lauro",
+      "evidence_quote": "Infatti, Pariante aiuterà Di Lauro a fondare il suo impero criminale, il clan Di Lauro.",
+      "context": "Rosario Pariante helped Paolo Di Lauro found the Di Lauro clan, indicating cooperation.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Pariante&oldid=149861227"
+    },
+    {
+      "source": "Clan Pariante",
+      "target": "Clan Di Lauro",
+      "evidence_quote": "insieme a Gennaro Marino e Arcangelo Abete decide la scissione dal clan",
+      "context": "Pariante and others split from the Di Lauro clan, starting a conflict.",
+      "relationship": "conflict",
+      "time_period": "2004",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Pariante&oldid=149861227"
+    },
+    {
+      "source": "Clan Pariante",
+      "target": "Scissionisti di Secondigliano",
+      "evidence_quote": "Inizia così la Prima faida di Scampia.",
+      "context": "The split from Di Lauro led to the formation of the Scissionisti, with Pariante likely joining them.",
+      "relationship": "other",
+      "time_period": "2004",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Pariante&oldid=149861227"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Clan_Pariante&oldid=149861227",
+  "source_file": "it_Clan_Pariante"
+}

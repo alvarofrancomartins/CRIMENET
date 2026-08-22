@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Goto-gumi",
+      "original_text_name": "Goto-gumi",
+      "aliases": [],
+      "context": "A Fujinomiya-based yakuza group founded by Tadamasa Goto, affiliate of Yamaguchi-gumi.",
+      "time_period": "1985-2008",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Tadamasa_Goto&oldid=1344204983"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Japan's largest yakuza syndicate, based in Kobe.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Tadamasa_Goto&oldid=1344204983"
+    },
+    {
+      "standard_name": "Kodo-kai",
+      "original_text_name": "Kodo-kai",
+      "aliases": [],
+      "context": "A faction within Yamaguchi-gumi led by Kiyoshi Takayama.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Tadamasa_Goto&oldid=1344204983"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Goto-gumi",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "He was the founding head of the Goto-gumi, a Fujinomiya-based affiliate of Japan's largest yakuza syndicate, the Yamaguchi-gumi.",
+      "context": "Goto-gumi is a secondary affiliate of Yamaguchi-gumi.",
+      "relationship": "other",
+      "time_period": "1985-2008",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Tadamasa_Goto&oldid=1344204983"
+    },
+    {
+      "source": "Kodo-kai",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "Goto began disappearing from the yakuza scene in 2008 after allegedly being forced into retirement by the Kobe headquarters' ruling faction led by Kiyoshi Takayama of the Kodo-kai.",
+      "context": "Kodo-kai is a ruling faction within Yamaguchi-gumi.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Tadamasa_Goto&oldid=1344204983"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Tadamasa_Goto&oldid=1344204983",
+  "source_file": "en_Tadamasa_Goto"
+}

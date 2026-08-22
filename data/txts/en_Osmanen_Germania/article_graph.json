@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Osmanen Germania",
+      "original_text_name": "Osmanen Germania",
+      "aliases": [
+        "Osmanen Germania BC",
+        "OGBC"
+      ],
+      "context": "Turkish-nationalistic and extreme right criminal gang in Germany, active 2014-2018.",
+      "time_period": "2014-2018",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Osmanen_Germania&oldid=1329355763"
+    },
+    {
+      "standard_name": "AKP",
+      "original_text_name": "AKP",
+      "aliases": [],
+      "context": "Turkish ruling party, alleged financial supporter of Osmanen Germania.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Osmanen_Germania&oldid=1329355763"
+    },
+    {
+      "standard_name": "Grey Wolves",
+      "original_text_name": "Grey Wolves",
+      "aliases": [
+        "Gray Wolves"
+      ],
+      "context": "Neo-fascist Turkish organization with connections to Osmanen Germania.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Osmanen_Germania&oldid=1329355763"
+    },
+    {
+      "standard_name": "Bahoz",
+      "original_text_name": "Bahoz",
+      "aliases": [],
+      "context": "Kurdish-rooted gang structured like a rocker gang, rival of Osmanen Germania.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Osmanen_Germania&oldid=1329355763"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Osmanen Germania",
+      "target": "AKP",
+      "evidence_quote": "The gang was said to be financially supported by the Turkish ruling party AKP",
+      "context": "AKP financially supported Osmanen Germania.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Osmanen_Germania&oldid=1329355763"
+    },
+    {
+      "source": "Osmanen Germania",
+      "target": "Grey Wolves",
+      "evidence_quote": "It had connections to the neo-fascist Grey Wolves .",
+      "context": "Osmanen Germania had connections with the Grey Wolves.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Osmanen_Germania&oldid=1329355763"
+    },
+    {
+      "source": "Osmanen Germania",
+      "target": "Bahoz",
+      "evidence_quote": "There were also numerous violent clashes with the Kurdish-rooted Bahoz",
+      "context": "Osmanen Germania had violent clashes with Bahoz.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Osmanen_Germania&oldid=1329355763"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Osmanen_Germania&oldid=1329355763",
+  "source_file": "en_Osmanen_Germania"
+}

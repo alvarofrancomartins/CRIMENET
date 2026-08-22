@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "standard_name": "'Ndrina Belcastro",
+      "original_text_name": "Belcastro",
+      "aliases": [
+        "Belcastro-Romeo"
+      ],
+      "context": "'Ndrina based in Sant'Ilario dello Ionio, RC.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belcastro&oldid=149185726"
+    },
+    {
+      "standard_name": "'Ndrina D'Agostino",
+      "original_text_name": "D'Agostino",
+      "aliases": [],
+      "context": "'Ndrina involved in the Faida di Sant'Ilario.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belcastro&oldid=149185726"
+    },
+    {
+      "standard_name": "'Ndrina Romeo",
+      "original_text_name": "Romeo",
+      "aliases": [],
+      "context": "'Ndrina allied with Belcastro in the faida.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belcastro&oldid=149185726"
+    },
+    {
+      "standard_name": "'Ndrina De Stefano",
+      "original_text_name": "De Stefano",
+      "aliases": [],
+      "context": "'Ndrina that ordered the killing of Emanuele Quattrone.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belcastro&oldid=149185726"
+    },
+    {
+      "standard_name": "'Ndrina Imerti",
+      "original_text_name": "Imerti",
+      "aliases": [],
+      "context": "'Ndrina in conflict with De Stefano.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belcastro&oldid=149185726"
+    },
+    {
+      "standard_name": "'Ndrina Bellocco",
+      "original_text_name": "Bellocco",
+      "aliases": [],
+      "context": "'Ndrina that commissioned a murder from D'Agostino.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belcastro&oldid=149185726"
+    }
+  ],
+  "edges": [
+    {
+      "source": "'Ndrina Belcastro",
+      "target": "'Ndrina Romeo",
+      "evidence_quote": "si apre una nuova faida tra i Belcastro-Romeo (Giuseppe Belcastro e Tommaso Romeo) che vogliono distaccarsi dai D'Agostino",
+      "context": "Belcastro and Romeo are allied as a single faction in the faida.",
+      "relationship": "cooperation",
+      "time_period": "1990",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belcastro&oldid=149185726"
+    },
+    {
+      "source": "'Ndrina Belcastro",
+      "target": "'Ndrina D'Agostino",
+      "evidence_quote": "si apre una nuova faida tra i Belcastro-Romeo (Giuseppe Belcastro e Tommaso Romeo) che vogliono distaccarsi dai D'Agostino",
+      "context": "Belcastro-Romeo faction is in conflict with D'Agostino.",
+      "relationship": "conflict",
+      "time_period": "1990",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belcastro&oldid=149185726"
+    },
+    {
+      "source": "'Ndrina Romeo",
+      "target": "'Ndrina D'Agostino",
+      "evidence_quote": "si apre una nuova faida tra i Belcastro-Romeo (Giuseppe Belcastro e Tommaso Romeo) che vogliono distaccarsi dai D'Agostino",
+      "context": "Romeo, allied with Belcastro, is in conflict with D'Agostino.",
+      "relationship": "conflict",
+      "time_period": "1990",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belcastro&oldid=149185726"
+    },
+    {
+      "source": "'Ndrina De Stefano",
+      "target": "'Ndrina Imerti",
+      "evidence_quote": "viene ucciso Emanuele Quattrone (mandato dai De Stefano per proteggerlo dalla faida con gli Imerti)",
+      "context": "De Stefano and Imerti are in a faida (conflict).",
+      "relationship": "conflict",
+      "time_period": "1990",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belcastro&oldid=149185726"
+    },
+    {
+      "source": "'Ndrina D'Agostino",
+      "target": "'Ndrina Bellocco",
+      "evidence_quote": "al capobastone Giuseppe D'Agostino sono stati imputati ben 10 omicidi, compresa l'uccisione su commissione della cosca Bellocco",
+      "context": "D'Agostino committed a murder on commission from Bellocco.",
+      "relationship": "cooperation",
+      "time_period": "1990",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belcastro&oldid=149185726"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Belcastro&oldid=149185726",
+  "source_file": "it_'Ndrina_Belcastro"
+}

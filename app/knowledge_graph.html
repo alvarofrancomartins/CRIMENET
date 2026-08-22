@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRIMENET · Organized Crime Network (3D)</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+<!-- 3d-force-graph library -->
+<script src="https://unpkg.com/3d-force-graph"></script>
+
+<style>
+:root {
+  --bg:#07080a; --s1:#0d1117; --s2:#111820; --s3:#161e2c;
+  --b1:#1a2535; --b2:#243347; --b3:#2e4060;
+  --amber:#e8a020; --amber2:#b87818; --amber3:#3d2a06;
+  --green:#2db87d; --red:#d63b3b;
+  --text:#bdd0e8; --text2:#56708a; --text3:#2c3f58;
+  --body:'Inter',sans-serif; --disp:'Oswald',sans-serif;
+  --panel:500px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--body);font-size:20px}
+
+/* SCANLINES */
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:9000;
+  background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.04) 2px,rgba(0,0,0,.04) 4px)}
+
+/* TOPBAR */
+#topbar{
+  position:fixed;top:0;left:0;right:0;height:90px;z-index:400;
+  background:rgba(7,8,10,.94);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--b1);
+  display:flex;align-items:stretch;
+}
+.tb-logo{display:flex;align-items:center;gap:14px;padding:0 24px;border-right:1px solid var(--b1);flex-shrink:0}
+.tb-mark{font-family:var(--disp);font-size:30px;letter-spacing:2px;line-height:1;color:var(--amber);text-shadow:0 0 18px rgba(232,160,32,.3);text-transform:uppercase}
+.tb-sub{font-size:15px;letter-spacing:1px;font-weight:500;color:var(--text2);text-transform:uppercase}
+/* back to browse */
+.tb-back{display:flex;align-items:center;justify-content:center;width:42px;height:42px;border:1px solid var(--b1);border-radius:8px;color:var(--text2);font-size:20px;line-height:1;text-decoration:none;transition:all .12s;flex-shrink:0}
+.tb-back:hover{border-color:var(--amber);color:var(--amber);background:rgba(232,160,32,.07)}
+.tb-home{text-decoration:none;display:inline-block}
+
+.tb-stats{display:flex}
+.tb-stat{display:flex;flex-direction:column;justify-content:center;padding:0 24px;border-right:1px solid var(--b1)}
+.tb-val{font-family:var(--disp);font-size:42px;color:var(--amber);line-height:1}
+.tb-lbl{font-size:15px;font-weight:600;letter-spacing:1px;color:var(--text3);text-transform:uppercase;margin-top:3px}
+.tb-filters-wrap{position:relative;flex:1;min-width:0;display:flex;align-items:center}
+.tb-filters{display:flex;align-items:center;gap:6px;padding:0 18px;flex:1;min-width:0;overflow-x:auto;scrollbar-width:none;scroll-behavior:smooth}
+.tb-filters::-webkit-scrollbar{display:none}
+
+.tb-farrow{
+  position:absolute;top:0;bottom:0;width:34px;z-index:6;
+  display:flex;align-items:center;justify-content:center;
+  border:none;cursor:pointer;color:var(--text2);
+  background:rgba(7,8,10,0.001);opacity:0;pointer-events:none;
+  transition:opacity .15s,color .15s;
+}
+.tb-farrow.show{opacity:1;pointer-events:auto}
+.tb-farrow:hover{color:var(--amber)}
+.tb-farrow.left{left:0;background:linear-gradient(90deg,var(--bg) 35%,rgba(7,8,10,0) 100%)}
+.tb-farrow.right{right:0;background:linear-gradient(270deg,var(--bg) 35%,rgba(7,8,10,0) 100%)}
+.fgroup{display:flex;align-items:center;gap:6px;padding-right:8px;border-right:1px solid var(--b1);flex-shrink:0}
+.fgroup:last-of-type{border-right:none}
+.flbl{font-size:15px;font-weight:600;letter-spacing:1px;color:var(--text3);text-transform:uppercase;white-space:nowrap;margin-right:4px}
+.ftog{
+  padding:8px 18px;border-radius:4px;cursor:pointer;font-size:15px;font-weight:600;letter-spacing:.8px;
+  border:1px solid var(--b1);color:var(--text2);background:none;font-family:var(--body);
+  transition:all .12s;user-select:none;white-space:nowrap;flex-shrink:0;
+}
+.ftog.on{color:var(--fg,var(--amber));border-color:var(--fg,var(--amber));background:rgba(232,160,32,.07)}
+.tb-right{display:flex;align-items:center;gap:12px;padding:0 20px;border-left:1px solid var(--b1);flex-shrink:0}
+.tb-btn{padding:8px 18px;background:none;border:1px solid var(--b1);color:var(--text2);font-family:var(--body);font-weight:600;font-size:16px;letter-spacing:1px;cursor:pointer;border-radius:4px;transition:all .12s;text-transform:uppercase; white-space:nowrap;}
+.tb-btn:hover{color:var(--text);border-color:var(--b2)}
+
+/* GRAPH & PERFORMANCE OPTIMIZATIONS */
+#graph-wrap{position:fixed;inset:0;top:90px; outline:none}
+
+/* NODE PANEL */
+#node-panel{
+  position:fixed;top:90px;right:0;bottom:0;width:var(--panel);
+  background:var(--s1);border-left:1px solid var(--b1);
+  z-index:300;transform:translateX(100%);transition:transform .25s cubic-bezier(.2,.8,.3,1);
+  display:flex;flex-direction:column;overflow:hidden;
+}
+#node-panel.open{transform:translateX(0)}
+.np-close{position:absolute;top:16px;right:16px;background:none;border:none;color:var(--text2);cursor:pointer;font-size:26px;z-index:1;padding:4px 8px;border-radius:2px;transition:color .12s;font-family:var(--body)}
+.np-close:hover{color:var(--text)}
+.np-head{padding:26px 26px 18px;border-bottom:1px solid var(--b1);flex-shrink:0}
+.np-name{font-family:var(--disp);font-size:48px;color:var(--amber);letter-spacing:1px;line-height:1.1;text-transform:uppercase}
+.np-type{display:inline-block;padding:4px 12px;border-radius:4px;font-size:15px;font-weight:600;letter-spacing:1px;text-transform:uppercase;border:1px solid var(--b2);color:var(--text2);background:var(--s2);margin-right:4px}
+.np-desc{font-size:17px;color:var(--text);line-height:1.6;border-left:3px solid var(--amber2);padding-left:14px;margin-bottom:16px}
+
+.np-rels{flex:1;overflow-y:auto;padding:16px 0}
+.np-sec{border-bottom:1px solid var(--b1)}
+.np-sec:last-child{border-bottom:none}
+.np-sec-hdr{padding:12px 24px;cursor:pointer;display:flex;align-items:center;justify-content:space-between;transition:background .08s;user-select:none}
+.np-sec-hdr:hover{background:rgba(255,255,255,.02)}
+.np-sec-title{font-size:16px;font-weight:600;letter-spacing:1px;text-transform:uppercase}
+.np-sec-n{font-size:18px;font-weight:600;color:var(--text3)}
+.np-items{display:none}
+.np-sec.open .np-items{display:block}
+.np-item{padding:14px 20px 14px 32px;border-top:1px solid var(--b1);transition:background .08s}
+.np-item:hover{background:rgba(232,160,32,.03)}
+.np-item-name{color:var(--text);font-size:18px;font-weight:600;cursor:pointer;display:inline-block;margin-bottom:8px;font-family:var(--disp);letter-spacing:0.5px}
+.np-item-name:hover{color:var(--amber)}
+.np-rel-desc{font-size:15px;color:var(--text);line-height:1.5;margin-bottom:8px}
+
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--b2);border-radius:3px}
+
+.src-dropdown.src-open{display:block!important}
+
+/* LOADER */
+#loader{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;gap:20px}
+.ld-logo{font-family:var(--disp);font-size:96px;letter-spacing:8px;color:var(--amber);text-shadow:0 0 40px rgba(232,160,32,.4)}
+.ld-msg{font-size:16px;font-weight:600;letter-spacing:2px;color:var(--text2);text-transform:uppercase}
+.ld-bar{width:280px;height:3px;background:var(--b1);border-radius:2px;overflow:hidden}
+.ld-fill{height:100%;background:var(--amber);width:0;transition:width .3s}
+.ld-err{color:#d63b3b;font-size:18px;text-align:center;line-height:1.9;display:none;max-width:450px}
+
+/* 3D Force Graph Tooltip Restyling */
+.scene-tooltip {
+  background: var(--s2) !important;
+  border: 1px solid var(--b2) !important;
+  border-radius: 4px !important;
+  padding: 12px 16px !important;
+  box-shadow: 0 6px 20px rgba(0,0,0,.5) !important;
+  pointer-events: none;
+  transform: translate(-50%, 25px);
+  color: var(--text) !important;
+}
+.tt-name { font-family:var(--disp); font-size:36px; color:var(--amber); letter-spacing:1px; line-height:1.1; text-transform:uppercase; }
+.tt-type { font-size:14px; font-weight:600; letter-spacing:1px; color:var(--text3); text-transform:uppercase; margin-top:5px; }
+
+</style>
+</head>
+<body>
+
+<div id="loader">
+  <div class="ld-logo">CRIMENET</div>
+  <div class="ld-msg" id="ld-msg">Loading…</div>
+  <div class="ld-bar"><div class="ld-fill" id="ld-fill"></div></div>
+  <div class="ld-err" id="ld-err"></div>
+</div>
+
+<div id="topbar">
+  <div class="tb-logo">
+    <a href="index.html" class="tb-back" title="Back to CRIMENET" aria-label="Back to CRIMENET browse">←</a>
+    <div>
+      <a href="index.html" class="tb-home"><div class="tb-mark">CRIMENET</div></a>
+    </div>
+  </div>
+  
+
+  <div class="tb-stats">
+    <div class="tb-stat"><div class="tb-val" id="s-orgs">—</div><div class="tb-lbl">Orgs shown</div></div>
+    <div class="tb-stat"><div class="tb-val" id="s-edges">—</div><div class="tb-lbl">Edges shown</div></div>
+  </div>
+  <div class="tb-filters-wrap">
+    <button class="tb-farrow left" id="farrow-left" aria-label="Scroll filters left">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    </button>
+    <div class="tb-filters" id="tb-filters"></div>
+    <button class="tb-farrow right" id="farrow-right" aria-label="Scroll filters right">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+    </button>
+  </div>
+  <div style="position:relative;display:flex;align-items:center;padding:0 18px;border-left:1px solid var(--b1);flex-shrink:0">
+    <input type="text" id="node-search" placeholder="Search or browse…" autocomplete="off"
+      style="width:280px;padding:10px 14px;background:var(--s2);border:1px solid var(--b1);border-radius:4px;color:var(--text);font-family:var(--body);font-size:16px;outline:none;transition:border-color .15s"
+      onfocus="this.style.borderColor='var(--amber)'" onblur="this.style.borderColor='var(--b1)'">
+    <div id="search-results" style="display:none;position:absolute;top:100%;left:18px;width:320px;max-height:420px;overflow-y:auto;background:var(--s2);border:1px solid var(--b2);border-radius:4px;z-index:400;box-shadow:0 8px 24px rgba(0,0,0,.5)"></div>
+  </div>
+  <div class="tb-right">
+    <div style="display:flex; align-items:center; gap: 12px;">
+      <button class="tb-btn" id="btn-orbit" style="color:var(--amber);border-color:var(--amber)">Orbit: ON</button>
+      <div style="display:flex; align-items:center; gap: 8px;" title="Orbit Speed">
+        <span style="font-size: 12px; font-weight: 700; color: var(--text3); text-transform: uppercase; letter-spacing: 0.5px;">Speed</span>
+        <input type="range" id="orbit-speed" min="0.1" max="5" step="0.1" value="2.0" style="width: 80px; accent-color: var(--amber); cursor: pointer;">
+      </div>
+    </div>
+    <button class="tb-btn" id="btn-fit">Fit Camera</button>
+  </div>
+</div>
+
+<!-- WebGL Container replaces SVG -->
+<div id="graph-wrap"></div>
+
+<!-- NODE PANEL -->
+<div id="node-panel">
+  <button class="np-close" id="np-close">✕</button>
+  <div class="np-head" id="np-head"></div>
+  <div class="np-rels" id="np-rels"></div>
+</div>
+
+<!-- TUNING PANEL (Simplified for 3D simulation params) -->
+<div id="tune-panel" style="position:fixed;bottom:18px;right:18px;z-index:200;background:rgba(13,17,23,.94);border:1px solid var(--b1);border-radius:4px;font-family:var(--body);width:300px">
+  <div id="tune-toggle" style="padding:10px 14px;cursor:pointer;display:flex;align-items:center;justify-content:space-between;font-size:14px;font-weight:600;letter-spacing:1px;color:var(--text3);text-transform:uppercase;user-select:none" onclick="document.getElementById('tune-body').style.display=document.getElementById('tune-body').style.display==='none'?'block':'none'">
+    <span>⚙ Force Tuning</span><span id="tune-arrow">▸</span>
+  </div>
+  <div id="tune-body" style="display:none;padding:6px 14px 14px;border-top:1px solid var(--b1)">
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════
+// EDGE TYPE CONFIG
+// ═══════════════════════════════════════════
+const ETYPES = [
+  { key:'cooperation',           label:'Cooperation',  color:'#2db87d', defaultOn:true  },
+  { key:'conflict',              label:'Conflict',     color:'#d63b3b', defaultOn:true  },
+  { key:'other',                 label:'Other',        color:'#8090a0', defaultOn:false  },
+];
+const ETYPE_MAP = Object.fromEntries(ETYPES.map(e=>[e.key,e]));
+
+const ORG_COLOR = () => '#637f99';
+const AMBER_COLOR = '#e8a020';
+
+// ═══════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════
+let G = null, NM = {}, ORG_SET = new Set();
+let activeTypes = new Set(ETYPES.filter(e=>e.defaultOn).map(e=>e.key));
+let Graph; 
+let allNodes = [], allLinks = [], orgADJ = {};
+let visNodeSet = new Set();
+
+const tick = () => new Promise(r=>setTimeout(r,0));
+const fmt = n => Number(n).toLocaleString();
+const esc = s => (s||'').replace(/'/g,"\\'");
+const escHtml = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+const getId = d => typeof d === 'object' ? d.id : d;
+
+function primaryDesc(node) {
+  if (!node) return '';
+  if (typeof node.description === 'string' && node.description) return node.description;
+  const d = node.descriptions;
+  if (Array.isArray(d) && d.length) return d[0];
+  return '';
+}
+
+function titleFromUrl(url) {
+  if (!url) return 'Wikipedia';
+  try {
+    const u = new URL(url);
+    const m = u.searchParams.get('title');
+    if (m) return decodeURIComponent(m.replace(/_/g,' '));
+    const path = u.pathname.split('/wiki/')[1];
+    if (path) return decodeURIComponent(path.split('?')[0].split('#')[0].replace(/_/g,' '));
+  } catch(e) {}
+  return 'Wikipedia';
+}
+
+function edgeSources(edge) {
+  if (Array.isArray(edge.source_urls)) {
+    return edge.source_urls.map(u => ({ url:u, title:titleFromUrl(u) }));
+  }
+  return [];
+}
+
+// Converts HEX and applies alpha blending so WebGL parses proper transparency
+function hexToRgba(hex, alpha) {
+  let h = (hex || '#ffffff').replace('#', '');
+  if (h.length === 3) h = h.split('').map(c=>c+c).join('');
+  const r = parseInt(h.substring(0,2), 16) || 0;
+  const g = parseInt(h.substring(2,4), 16) || 0;
+  const b = parseInt(h.substring(4,6), 16) || 0;
+  return `rgba(${r},${g},${b},${alpha})`;
+}
+
+// ═══════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════
+async function init() {
+  const setLD = (t,p) => {
+    document.getElementById('ld-msg').textContent = t;
+    document.getElementById('ld-fill').style.width = p+'%';
+  };
+  try {
+    setLD('Fetching crimenet.json…',15);
+    const res = await fetch('data/crimenet.json');
+    if(!res.ok) throw new Error(`HTTP ${res.status}`);
+    setLD('Parsing…',40); G = await res.json(); await tick();
+    setLD('Building index…',65);
+
+    const nodes = G.nodes || G.entities || [];
+    const edges = G.edges || G.relations || [];
+
+    nodes.forEach(n => {
+      const name = n.standard_name || n.name;
+      if (!name) return;
+      n._name = name;
+      NM[name] = n;
+      ORG_SET.add(name);
+    });
+
+    edges.forEach(r => {
+      if(!ORG_SET.has(r.source)||!ORG_SET.has(r.target)) return;
+      if(!orgADJ[r.source]) orgADJ[r.source] = [];
+      orgADJ[r.source].push(r);
+      if(!orgADJ[r.target]) orgADJ[r.target] = [];
+      orgADJ[r.target].push({...r, source:r.target, target:r.source});
+    });
+    setLD('Rendering…',85); await tick();
+    
+    buildFilters();
+    buildGraph(nodes, edges);
+    buildTunePanel();
+    buildSearch();
+    
+    // Yield to the event loop so the simulation gets a few animation
+    // frames to organize the initial random layout before we reveal
+    // the graph — avoids a flash of chaotic overlapping nodes.
+    await new Promise(r => setTimeout(r, 600));
+    document.getElementById('loader').style.display = 'none';
+  } catch(e) {
+    document.getElementById('ld-err').style.display = 'block';
+    document.getElementById('ld-err').innerHTML = `⚠ Cannot load <code>data/crimenet.json</code><br>Check that the data/ directory is deployed alongside this page.<br><small style="color:#3a5060">${e.message}</small>`;
+    document.getElementById('ld-msg').style.display='none';
+    document.getElementById('ld-fill').parentElement.style.display='none';
+  }
+}
+
+// ═══════════════════════════════════════════
+// FILTERS
+// ═══════════════════════════════════════════
+function buildFilters() {
+  const bar = document.getElementById('tb-filters');
+  
+  const group = document.createElement('div');
+  group.className = 'fgroup';
+  group.style.borderRight = 'none'; 
+  
+  const lbl = document.createElement('span');
+  lbl.className = 'flbl';
+  lbl.textContent = 'EDGE TYPES:';
+  group.appendChild(lbl);
+  
+  ETYPES.forEach(et => {
+    const btn = document.createElement('button');
+    btn.className = 'ftog' + (et.defaultOn?' on':'');
+    btn.dataset.t = et.key;
+    btn.textContent = et.label;
+    btn.style.setProperty('--fg', et.color);
+    btn.addEventListener('click', () => {
+      if(activeTypes.has(et.key)) { activeTypes.delete(et.key); btn.classList.remove('on'); }
+      else { activeTypes.add(et.key); btn.classList.add('on'); }
+      updateGraph();
+    });
+    group.appendChild(btn);
+  });
+  
+  bar.appendChild(group);
+  bindFilterScroll();
+}
+
+function bindFilterScroll() {
+  const bar = document.getElementById('tb-filters');
+  const left = document.getElementById('farrow-left');
+  const right = document.getElementById('farrow-right');
+  if (!bar || !left || !right) return;
+
+  const update = () => {
+    const max = bar.scrollWidth - bar.clientWidth;
+    const x = bar.scrollLeft;
+    left.classList.toggle('show', x > 4);
+    right.classList.toggle('show', x < max - 4);
+  };
+
+  const step = () => Math.max(160, Math.round(bar.clientWidth * 0.7));
+  left.addEventListener('click', () => bar.scrollBy({ left: -step(), behavior: 'smooth' }));
+  right.addEventListener('click', () => bar.scrollBy({ left: step(), behavior: 'smooth' }));
+
+  bar.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update);
+  bar.addEventListener('wheel', (e) => {
+    if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+      const max = bar.scrollWidth - bar.clientWidth;
+      if (max > 0) { bar.scrollLeft += e.deltaY; e.preventDefault(); }
+    }
+  }, { passive: false });
+  requestAnimationFrame(update);
+  setTimeout(update, 200);
+}
+
+
+// ═══════════════════════════════════════════
+// 3D GRAPH BUILD & OPTIMIZATION
+// ═══════════════════════════════════════════
+function buildGraph(nodes, edges) {
+  const orgDeg = {};
+  edges.forEach(r => {
+    if(!ORG_SET.has(r.source)||!ORG_SET.has(r.target)) return;
+    orgDeg[r.source] = (orgDeg[r.source]||0)+1;
+    orgDeg[r.target] = (orgDeg[r.target]||0)+1;
+  });
+
+  const allOrgs = Object.keys(orgDeg);
+  const allSet = new Set(allOrgs);
+
+  allNodes = allOrgs.map(name => ({
+    id: name,
+    deg: orgDeg[name]||1,
+    visDeg: orgDeg[name]||1, 
+  }));
+
+  allLinks = edges
+    .filter(r => ORG_SET.has(r.source)&&ORG_SET.has(r.target)&&allSet.has(r.source)&&allSet.has(r.target))
+    .map(r => ({
+      source: r.source, target: r.target,
+      type: r.relationship,
+      desc: r.descriptions?.[0]||'',
+      sources: edgeSources(r),
+    }));
+
+  const wrap = document.getElementById('graph-wrap');
+
+  // Initialization of ForceGraph3D
+  Graph = ForceGraph3D({ controlType: 'orbit' })(wrap)
+    .graphData({ nodes: allNodes, links: allLinks })
+    .nodeId('id')
+    .backgroundColor('#07080a')
+    .enableNodeDrag(false)
+    .nodeVal(node => Math.max(1, node.visDeg || 1)) 
+    // Setting opacity to 0.99 globally instructs WebGL to flag materials as transparent 
+    // This allows the hexToRgba alpha blending later on to perfectly render dimming.
+    .nodeOpacity(0.99)
+    .linkOpacity(0.99)
+    .nodeColor(node => hexToRgba(ORG_COLOR(), 0.9))
+    .nodeResolution(12)             
+    .linkColor(link => hexToRgba(ETYPE_MAP[link.type]?.color || '#3a5060', 0.15))
+    .linkWidth(0)                   
+    // Custom Tooltip injection
+    .nodeLabel(node => {
+      const c = NM[node.id] && NM[node.id].country;
+      const typeStr = (c && String(c).toLowerCase() !== 'unknown') ? c : '';
+      return `<div class="tt-name">${node.id}</div><div class="tt-type">${typeStr}</div>`;
+    })
+    .onNodeClick(node => {
+      openPanel(node.id);
+    })
+    .onBackgroundClick(() => {
+      closePanel();
+    });
+
+  // Initial camera distance — tweak via Force Tuning panel
+  const INITIAL_Z = 5900;
+  Graph.cameraPosition({ z: INITIAL_Z });
+
+  Graph.d3Force('charge').strength(-150);
+  Graph.d3Force('link').distance(45);
+
+  // Physics tuned for ~5,400 nodes / ~16,500 edges.
+  // Default d3 alphaDecay is ~0.0228 (≈300 ticks).  We use 0.015 (≈460 ticks,
+  // ≈7.5 s at 60 fps) so link forces have time to propagate through the full
+  // graph before the engine idles.
+  //   warmupTicks is ZERO — synchronous warmup blocks the UI thread for seconds.
+  // The animation loop drives the simulation instead; the page stays responsive
+  // the entire time and the layout converges in the background.
+  Graph.d3AlphaDecay(0.015);
+  Graph.d3VelocityDecay(0.35);     // friction → kills oscillation, aids settling
+  Graph.warmupTicks(0);            // DO NOT block the UI thread
+  Graph.cooldownTime(25000);       // 25 s idle before pausing
+
+  const controls = Graph.controls();
+  controls.panSpeed = 1.5;
+  controls.zoomSpeed = 1.5;
+
+  document.getElementById('btn-fit').addEventListener('click', () => {
+    Graph.zoomToFit(800, 50);
+  });
+
+  // Orbit Camera Logic
+  let isOrbiting = true;
+  let orbitReq = null;
+  let orbitAngle = 0;
+  let orbitSpeedMult = 2.0;
+  const baseSpeed = Math.PI / 360;
+
+  function orbitLoop() {
+    if (!isOrbiting) return;
+    const currentPos = Graph.cameraPosition();
+    const distance = Math.hypot(currentPos.x, currentPos.z);
+    Graph.cameraPosition({
+      x: distance * Math.sin(orbitAngle),
+      z: distance * Math.cos(orbitAngle),
+      y: currentPos.y
+    });
+    orbitAngle += baseSpeed * orbitSpeedMult;
+    orbitReq = requestAnimationFrame(orbitLoop);
+  }
+
+  function startOrbit() {
+    if (!Graph) return;
+    const camPos = Graph.cameraPosition();
+    orbitAngle = Math.atan2(camPos.x, camPos.z);
+    orbitReq = requestAnimationFrame(orbitLoop);
+  }
+
+  document.getElementById('btn-orbit').addEventListener('click', (e) => {
+    isOrbiting = !isOrbiting;
+    const btn = e.target;
+    if (isOrbiting) {
+      btn.textContent = 'Orbit: ON';
+      btn.style.color = 'var(--amber)';
+      btn.style.borderColor = 'var(--amber)';
+      startOrbit();
+    } else {
+      btn.textContent = 'Orbit: OFF';
+      btn.style.color = '';
+      btn.style.borderColor = '';
+      if (orbitReq) cancelAnimationFrame(orbitReq);
+    }
+  });
+
+  document.getElementById('orbit-speed').addEventListener('input', (e) => {
+    orbitSpeedMult = parseFloat(e.target.value);
+  });
+
+  window.addEventListener('resize', () => {
+    Graph.width(wrap.clientWidth).height(wrap.clientHeight);
+  });
+
+  updateGraph();
+  startOrbit();
+}
+
+function updateGraph() {
+  if(!Graph) return;
+
+  let edgeCount = 0;
+  const activeNodes = new Set();
+  const degMap = {};
+
+  allLinks.forEach(l => {
+    if(activeTypes.has(l.type)) {
+      edgeCount++;
+      const sId = getId(l.source);
+      const tId = getId(l.target);
+      activeNodes.add(sId);
+      activeNodes.add(tId);
+      degMap[sId] = (degMap[sId] || 0) + 1;
+      degMap[tId] = (degMap[tId] || 0) + 1;
+    }
+  });
+
+  visNodeSet = activeNodes;
+  allNodes.forEach(n => { n.visDeg = degMap[n.id] || 0; });
+
+  document.getElementById('s-orgs').textContent = fmt(visNodeSet.size);
+  document.getElementById('s-edges').textContent = fmt(edgeCount);
+
+  // We use Node/Link visibility to filter instead of recreating graphData. (Massive perf boost)
+  Graph
+    .nodeVisibility(d => visNodeSet.has(d.id))
+    .linkVisibility(d => activeTypes.has(d.type))
+    .nodeVal(d => Math.max(1, d.visDeg || 1));
+
+  applyHighlight(selectedNode);
+}
+
+
+// ═══════════════════════════════════════════
+// NODE PANEL & HIGHLIGHTING
+// ═══════════════════════════════════════════
+// Current taxonomy is just these three (see crimenet.json edges). Any other
+// type that ever appears is appended after these by the grouping code below.
+const TYPE_ORDER = ['cooperation', 'conflict', 'other'];
+const AUTO_OPEN  = new Set(['cooperation', 'conflict']);
+
+let selectedNode = null;
+
+function applyHighlight(name) {
+  if (!Graph) return;
+
+  if (!name) {
+    // Reset visuals
+    Graph
+      .nodeColor(d => hexToRgba(ORG_COLOR(), 0.9))
+      .linkColor(d => hexToRgba(ETYPE_MAP[d.type]?.color || '#3a5060', 0.15))
+      .linkWidth(0);
+    return;
+  }
+
+  // Highlight logic
+  const neighbors = new Set([name]);
+  allLinks.forEach(d => {
+    if(!activeTypes.has(d.type)) return;
+    const s = getId(d.source);
+    const t = getId(d.target);
+    if (s === name) neighbors.add(t);
+    if (t === name) neighbors.add(s);
+  });
+
+  Graph
+    .nodeColor(d => {
+       if (d.id === name) return hexToRgba(AMBER_COLOR, 1);
+       if (neighbors.has(d.id)) return hexToRgba(ORG_COLOR(), 1);
+       return hexToRgba(ORG_COLOR(), 0.08);
+    })
+    .linkColor(d => {
+       const baseColor = ETYPE_MAP[d.type]?.color || '#3a5060';
+       const s = getId(d.source), t = getId(d.target);
+       return (s === name || t === name) ? hexToRgba(baseColor, 0.9) : hexToRgba(baseColor, 0.01);
+    })
+    .linkWidth(d => {
+      const s = getId(d.source), t = getId(d.target);
+      return (s === name || t === name) ? 1.5 : 0;
+    });
+}
+
+function openPanel(name) {
+  const n = NM[name]; if(!n) return;
+
+  if (selectedNode === name) {
+    selectedNode = null;
+    applyHighlight(null);
+    document.getElementById('node-panel').classList.remove('open');
+    return;
+  }
+  selectedNode = name;
+  applyHighlight(name);
+
+  const rels = orgADJ[name]||[];
+  const byType = {};
+  rels.forEach(r => {
+    const t = r.relationship || r.type;
+    if(!byType[t]) byType[t]=[];
+    byType[t].push(r);
+  });
+
+  const ownSources = Array.isArray(n.own_sources) ? n.own_sources : [];
+  const mentionedIn = n.mentioned_in||[];
+
+  const originHtml = ownSources.length > 0
+    ? `<div style="display:flex; justify-content:space-between; align-items:flex-start; gap:12px;">
+         <div style="display:flex; align-items:center; gap:8px;">
+           <span style="background:rgba(232,160,32,0.15); color:var(--amber); padding:3px 6px; border-radius:4px; font-size:11px; font-weight:700; letter-spacing:1px; text-transform:uppercase;">Origin Data</span>
+           <span style="font-size:14px; font-weight:500; color:var(--text2);">Main Article${ownSources.length>1?'s':''}</span>
+         </div>
+         <div style="display:flex; flex-direction:column; gap:4px; align-items:flex-end;">
+           ${ownSources.map(s => `<a href="${s.url}" target="_blank" rel="noopener" style="font-size:14px; color:var(--amber); text-decoration:none; font-weight:600; display:flex; align-items:center; gap:4px;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">
+             ${s.title||titleFromUrl(s.url)} <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+           </a>`).join('')}
+         </div>
+       </div>`
+    : '';
+
+  const mentionsHtml = mentionedIn.length > 0
+    ? `<div style="position:relative; display:flex; justify-content:space-between; align-items:center;">
+         <div style="display:flex; align-items:center; gap:8px;">
+           <span style="background:rgba(86,112,138,0.15); color:var(--text2); padding:3px 6px; border-radius:4px; font-size:11px; font-weight:700; letter-spacing:1px; text-transform:uppercase;">Mentions</span>
+           <span style="font-size:14px; font-weight:500; color:var(--text2);">Found in other pages</span>
+         </div>
+         <button onclick="this.nextElementSibling.classList.toggle('src-open')" style="font-size:13px; font-weight:600; color:var(--text); background:var(--b1); border:1px solid var(--b2); border-radius:4px; padding:4px 10px; cursor:pointer; font-family:var(--body); display:flex; align-items:center; gap:6px; transition:all 0.15s;" onmouseover="this.style.borderColor='var(--amber)'; this.style.color='var(--amber)'" onmouseout="this.style.borderColor='var(--b2)'; this.style.color='var(--text)'">
+           View ${mentionedIn.length} sources <span style="font-size:10px;">▼</span>
+         </button>
+         <div class="src-dropdown" style="display:none; position:absolute; top:100%; right:0; margin-top:8px; background:var(--s3); border:1px solid var(--b2); border-radius:6px; padding:6px 0; width:380px; max-width:calc(100vw - 40px); max-height:260px; overflow-y:auto; z-index:10; box-shadow:0 12px 30px rgba(0,0,0,0.8);">
+           ${mentionedIn.map(s => `<a href="${s.url}" target="_blank" rel="noopener" style="display:flex; align-items:center; gap:8px; padding:8px 14px; font-size:14px; font-weight:500; color:var(--text); text-decoration:none; transition:background 0.1s;" onmouseover="this.style.background='rgba(232,160,32,0.1)'; this.style.color='var(--amber)'" onmouseout="this.style.background='none'; this.style.color='var(--text)'">
+             <span style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap; flex:1; min-width:0;">${s.title||titleFromUrl(s.url)}</span>
+             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity:0.4; flex-shrink:0;"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+           </a>`).join('')}
+         </div>
+       </div>`
+    : '';
+
+  const sourcesBox = (ownSources.length > 0 || mentionedIn.length > 0) ? `
+    <div style="background:var(--s2); border: 1px solid var(--b1); border-radius: 6px; padding: 12px; margin-bottom: 16px; display:flex; flex-direction:column; gap:12px;">
+      ${originHtml}
+      ${ownSources.length > 0 && mentionedIn.length > 0 ? `<div style="height:1px; background:var(--b1); width:100%"></div>` : ''}
+      ${mentionsHtml}
+    </div>
+  ` : '';
+
+  let countryHtml = '';
+  if (n.country && n.country !== 'Unknown') {
+    countryHtml = `<div style="margin-bottom:14px;font-size:14px;color:var(--text2)">
+        <span style="font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--text3)">Origin · </span>
+        <span style="color:var(--text);font-weight:600">${n.country}</span>`;
+    if (Array.isArray(n.countries_active) && n.countries_active.length > 1) {
+      const otherCountries = n.countries_active.filter(c => c !== n.country);
+      if (otherCountries.length) {
+        countryHtml += `<br><span style="font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--text3)">Active · </span>
+          <span style="color:var(--text)">${otherCountries.join(', ')}</span>`;
+      }
+    }
+    countryHtml += `</div>`;
+  }
+
+  const descText = primaryDesc(n);
+  const descHtml = descText ? `<div class="np-desc">${descText}</div>` : '';
+
+  const isDefunct = n.is_defunct === true;
+  const statusColor = isDefunct ? 'var(--red)' : 'var(--green)';
+  const statusLabel = isDefunct ? 'Defunct' : 'Active';
+  const fy = n.founded_year ? String(n.founded_year) : '';
+  const dy = n.dissolved_year ? String(n.dissolved_year) : '';
+  const tperiod = (typeof n.time_period === 'string' && n.time_period.toLowerCase() !== 'unknown')
+                  ? n.time_period.trim() : '';
+  let timeline = '';
+  if (fy || dy) timeline = `${fy || '?'}–${dy || (isDefunct ? '?' : 'present')}`;
+  else if (tperiod) timeline = tperiod;
+
+  const chipBase = 'display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:4px;font-size:12px;font-weight:700;letter-spacing:.5px;';
+  let statusRow = `<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;align-items:center;">`;
+  statusRow += `<span style="${chipBase}text-transform:uppercase;border:1px solid ${statusColor};color:${statusColor};background:rgba(0,0,0,0.2);">
+      <span style="width:7px;height:7px;border-radius:50%;background:${statusColor};box-shadow:0 0 6px ${statusColor};"></span>${statusLabel}</span>`;
+  if (timeline) {
+    statusRow += `<span style="${chipBase}border:1px solid var(--b2);color:var(--text2);background:var(--s2);">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>${timeline}</span>`;
+  }
+  if (n.profiled !== true) {
+    statusRow += `<span title="No dedicated article — fields aggregated from mentions in other orgs' articles" style="${chipBase}text-transform:uppercase;border:1px dashed var(--b3);color:var(--text3);background:var(--s2);">Unprofiled</span>`;
+  }
+  statusRow += `</div>`;
+
+  document.getElementById('np-head').innerHTML = `
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; padding-right: 40px; margin-bottom: 10px;">
+      <div class="np-name" style="margin-bottom:0;">${name}</div>
+      <button id="np-focus-btn" style="background:none; border:none; cursor:pointer; color:var(--text2); transition:color 0.15s; margin-top:12px; flex-shrink:0;" title="Focus Camera on Node" onmouseover="this.style.color='var(--text)'" onmouseout="this.style.color='var(--text2)'">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19 12h2"></path><path d="M3 12h2"></path><path d="M12 3v2"></path><path d="M12 19v2"></path></svg>
+      </button>
+    </div>
+    ${statusRow}
+    ${countryHtml}
+    ${sourcesBox}
+    ${descHtml}`;
+
+  // Attach Focus camera event
+  setTimeout(() => {
+    document.getElementById('np-focus-btn')?.addEventListener('click', () => {
+      const node = allNodes.find(n => n.id === name);
+      if(node && node.x != null) {
+        const distance = 160;
+        const distRatio = 1 + distance / Math.hypot(node.x, node.y, node.z);
+        Graph.cameraPosition(
+          { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio },
+          node,
+          1000
+        );
+      }
+    });
+  }, 0);
+
+  const sorted = TYPE_ORDER.filter(t=>byType[t]).concat(Object.keys(byType).filter(t=>!TYPE_ORDER.includes(t)));
+  let html = '';
+  sorted.forEach(type => {
+    const items = byType[type];
+    const col = ETYPE_MAP[type]?.color || '#607080';
+    const label = ETYPE_MAP[type]?.label || type.replace(/_/g,' ');
+    const open = AUTO_OPEN.has(type)?' open':'';
+    html += `<div class="np-sec${open}">
+      <div class="np-sec-hdr" onclick="this.parentElement.classList.toggle('open')">
+        <span class="np-sec-title" style="color:${col}">${label}</span>
+        <span class="np-sec-n">${items.length}</span>
+      </div><div class="np-items">`;
+    items.slice(0,40).forEach(r => {
+      const tname = getId(r.target);
+      const desc = r.descriptions?.[0] || r.desc || '';
+      const srcs = edgeSources(r);
+      const srcN = srcs.length;
+      const uid = Math.random().toString(36).slice(2,8);
+
+      const edgeSrcHtml = srcN > 0
+        ? `<div style="margin-top:8px">
+            <button onclick="document.getElementById('es-${uid}').style.display=document.getElementById('es-${uid}').style.display==='none'?'block':'none'" style="display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);background:var(--s2);border:1px solid var(--b1);padding:4px 10px;border-radius:4px;cursor:pointer;font-family:var(--body);font-weight:600;transition:all .15s" onmouseover="this.style.color='var(--amber)';this.style.borderColor='var(--b2)'" onmouseout="this.style.color='var(--text2)';this.style.borderColor='var(--b1)'">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 10.5L21 3"></path><path d="M16 3h5v5"></path><path d="M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"></path></svg>
+              ${srcN} RELATION SOURCE${srcN>1?'S':''}
+            </button>
+            <div id="es-${uid}" style="display:none;margin-top:8px;padding:4px;background:var(--s1);border:1px solid var(--b1);border-radius:4px;">
+              ${srcs.map(s => `<a href="${s.url}" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:6px;padding:6px 8px;font-size:13px;font-weight:500;color:var(--text);text-decoration:none;border-radius:3px;" onmouseover="this.style.background='rgba(232,160,32,.08)';this.style.color='var(--amber)'" onmouseout="this.style.background='none';this.style.color='var(--text)'">
+                <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;min-width:0;">${s.title||titleFromUrl(s.url)}</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="opacity:0.4;flex-shrink:0;"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>`).join('')}
+            </div>
+          </div>`
+        : '';
+
+      html += `<div class="np-item">
+        <div class="np-item-name" onclick="panelNav('${esc(tname)}')">${tname} <span style="font-size:14px; opacity:0.6; font-family:var(--body); font-weight:400">↗</span></div>
+        ${desc ? `<div class="np-rel-desc">${desc}</div>` : ''}
+        ${edgeSrcHtml}
+      </div>`;
+    });
+    if(items.length>40) html += `<div style="padding:8px 16px 12px 32px;color:var(--text3);font-size:14px;font-weight:600">+${items.length-40} MORE RELATIONS</div>`;
+    html += '</div></div>';
+  });
+
+  document.getElementById('np-rels').innerHTML = html;
+  document.getElementById('node-panel').classList.add('open');
+}
+
+function panelNav(name) { openPanel(name); }
+
+function closePanel() {
+  selectedNode = null;
+  applyHighlight(null);
+  document.getElementById('node-panel').classList.remove('open');
+}
+
+document.getElementById('np-close').addEventListener('click', closePanel);
+
+document.addEventListener('click', e => {
+  if(!e.target.closest('.src-dropdown') && !e.target.closest('button')) {
+    document.querySelectorAll('.src-dropdown.src-open').forEach(d => d.classList.remove('src-open'));
+  }
+});
+
+// ═══════════════════════════════════════════
+// FORCE TUNING PANEL
+// ═══════════════════════════════════════════
+function buildTunePanel() {
+  const body = document.getElementById('tune-body');
+  
+  const sliders = [
+    { id:'t-charge',   label:'Charge',   min:-600, max:0,  step:10,  val:-150, set:v=>{Graph.d3Force('charge').strength(v); Graph.d3ReheatSimulation()} },
+    { id:'t-linkdist', label:'Link Dist', min:10,   max:200,  step:2,   val:45, set:v=>{Graph.d3Force('link').distance(v); Graph.d3ReheatSimulation()} },
+    { id:'t-distance', label:'Distance',  min:500,  max:12000, step:100, val:5900, set:v=>{
+      const pos = Graph.cameraPosition();
+      const dist = Math.hypot(pos.x, pos.y, pos.z) || 1;
+      const ratio = v / dist;
+      Graph.cameraPosition({ x: pos.x * ratio, y: pos.y * ratio, z: pos.z * ratio });
+    }},
+  ];
+  
+  body.innerHTML = sliders.map(s =>
+    `<div style="margin-top:12px">
+      <div style="display:flex;justify-content:space-between;font-size:14px;font-weight:600;color:var(--text3);letter-spacing:1px;text-transform:uppercase;margin-bottom:6px">
+        <span>${s.label}</span><span id="${s.id}-val" style="color:var(--amber)">${s.val}</span>
+      </div>
+      <input type="range" id="${s.id}" min="${s.min}" max="${s.max}" step="${s.step}" value="${s.val}"
+        style="width:100%;accent-color:var(--amber);cursor:pointer;height:14px">
+    </div>`
+  ).join('');
+  
+  sliders.forEach(s => {
+    document.getElementById(s.id).addEventListener('input', function() {
+      const v = parseFloat(this.value);
+      document.getElementById(s.id+'-val').textContent = v;
+      if (Graph) s.set(v);
+    });
+  });
+}
+
+// ═══════════════════════════════════════════
+// SEARCH
+// ═══════════════════════════════════════════
+function buildSearch() {
+  const input = document.getElementById('node-search');
+  const resultsEl = document.getElementById('search-results');
+  let hideTimeout = null;
+
+  function getSortedNames() {
+    const sorted = allNodes.filter(n => visNodeSet.has(n.id));
+    sorted.sort((a,b) => (b.visDeg||0) - (a.visDeg||0));
+    return sorted.map(d => d.id);
+  }
+  
+  function getRankMap(nameList) {
+    const m = {};
+    nameList.forEach((n, i) => { m[n] = i + 1; });
+    return m;
+  }
+
+  function renderResults(q) {
+    const nameList = getSortedNames();
+    const rankMap = getRankMap(nameList);
+    const query = (q||'').trim().toLowerCase();
+    let matches;
+    if(query.length === 0) {
+      matches = nameList.slice(0, 40);
+    } else {
+      matches = nameList.filter(n => n.toLowerCase().includes(query)).slice(0, 25);
+    }
+    if(!matches.length) {
+      resultsEl.innerHTML = '<div style="padding:12px 16px;font-size:16px;font-weight:500;color:var(--text3)">No results</div>';
+      resultsEl.style.display = 'block';
+      return;
+    }
+    resultsEl.innerHTML = matches.map((n, i) => {
+      const rank = rankMap[n] || '—';
+      let display;
+      if(query.length > 0) {
+        const idx = n.toLowerCase().indexOf(query);
+        display = n.slice(0,idx) + '<span style="color:var(--amber);font-weight:700">' + n.slice(idx,idx+query.length) + '</span>' + n.slice(idx+query.length);
+      } else {
+        display = n;
+      }
+      return `<div class="sr-item" data-idx="${i}" style="padding:10px 16px;font-size:16px;font-weight:500;color:var(--text2);cursor:pointer;transition:background .08s;display:flex;align-items:center;gap:12px"
+        onmouseover="this.style.background='rgba(232,160,32,.08)';this.style.color='var(--text)'"
+        onmouseout="this.style.background='none';this.style.color='var(--text2)'">
+        <span style="font-size:14px;font-weight:700;color:var(--text3);min-width:32px;text-align:right;flex-shrink:0">#${rank}</span>
+        <span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;">${display}</span>
+      </div>`;
+    }).join('');
+    resultsEl.style.display = 'block';
+    resultsEl._matches = matches;
+    resultsEl.querySelectorAll('.sr-item').forEach(el => {
+      el.addEventListener('mousedown', function(e) {
+        e.preventDefault();
+        const idx = parseInt(this.dataset.idx);
+        const name = resultsEl._matches[idx];
+        if(!name) return;
+        input.value = name;
+        resultsEl.style.display = 'none';
+        openPanel(name);
+      });
+    });
+  }
+
+  input.addEventListener('focus', function() {
+    if(hideTimeout) clearTimeout(hideTimeout);
+    renderResults(this.value);
+  });
+  input.addEventListener('input', function() { renderResults(this.value); });
+  input.addEventListener('blur', function() {
+    hideTimeout = setTimeout(() => { resultsEl.style.display = 'none'; }, 200);
+  });
+  input.addEventListener('keydown', function(e) {
+    if(e.key === 'Escape') { this.value = ''; resultsEl.style.display = 'none'; closePanel(); }
+    if(e.key === 'Enter') {
+      const first = resultsEl._matches?.[0];
+      if(first) {
+        input.value = first;
+        resultsEl.style.display = 'none';
+        openPanel(first);
+      }
+    }
+  });
+}
+
+init();
+</script>
+</body>
+</html>

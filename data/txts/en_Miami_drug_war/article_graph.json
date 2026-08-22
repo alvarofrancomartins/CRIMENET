@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Medellín Cartel",
+      "original_text_name": "Medellín Cartel",
+      "aliases": [
+        "Medellín cartel"
+      ],
+      "context": "Colombian drug cartel that established cocaine trafficking routes into the US through Miami in the 1970s and 1980s.",
+      "time_period": "1970s-1980s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Miami_drug_war&oldid=1359170982"
+    },
+    {
+      "standard_name": "Cuban mafia",
+      "original_text_name": "Cuban mafia",
+      "aliases": [],
+      "context": "Criminal organization that previously controlled drug smuggling in Florida before being superseded by the Medellín Cartel.",
+      "time_period": "before 1975",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Miami_drug_war&oldid=1359170982"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Medellín Cartel",
+      "target": "Cuban mafia",
+      "evidence_quote": "By 1975, Pablo Escobar and the Medellín cartel had established cocaine trafficking routes into the US through Miami, superseding the 'Cuban mafia' which had previously controlled drug smuggling in Florida.",
+      "context": "The Medellín Cartel replaced the Cuban mafia as the dominant drug smuggling organization in Florida.",
+      "relationship": "other",
+      "time_period": "1975",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Miami_drug_war&oldid=1359170982"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Miami_drug_war&oldid=1359170982",
+  "source_file": "en_Miami_drug_war"
+}

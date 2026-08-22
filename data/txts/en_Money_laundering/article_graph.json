@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Mafia",
+      "original_text_name": "Mafia",
+      "aliases": [],
+      "context": "Traditional organized crime group involved in money laundering.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Money_laundering&oldid=1358522582"
+    },
+    {
+      "standard_name": "Chinese organized criminal groups",
+      "original_text_name": "Chinese organized criminal groups",
+      "aliases": [],
+      "context": "Principal money launderers for drug cartels in Mexico, Italy, and elsewhere.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Money_laundering&oldid=1358522582"
+    },
+    {
+      "standard_name": "Mexican drug cartels",
+      "original_text_name": "drug cartels in Mexico",
+      "aliases": [],
+      "context": "Drug cartels that use Chinese organized criminal groups for money laundering.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Money_laundering&oldid=1358522582"
+    },
+    {
+      "standard_name": "Italian organized crime",
+      "original_text_name": "Italy",
+      "aliases": [],
+      "context": "Italian criminal organizations that use Chinese money launderers.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Money_laundering&oldid=1358522582"
+    },
+    {
+      "standard_name": "Huione Group",
+      "original_text_name": "Huione",
+      "aliases": [
+        "Huione Group",
+        "Huione Pay"
+      ],
+      "context": "Cambodia-based operation identified as a major illicit online marketplace and money laundering facilitator.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Money_laundering&oldid=1358522582"
+    },
+    {
+      "standard_name": "Lazarus Group",
+      "original_text_name": "Lazarus Group",
+      "aliases": [],
+      "context": "A cybercriminal group associated with DPRK (North Korea) that laundered funds through Tornado Cash.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Money_laundering&oldid=1358522582"
+    },
+    {
+      "standard_name": "Chee Kung Tong",
+      "original_text_name": "Chee Kung Tong",
+      "aliases": [],
+      "context": "An organization involved in reverse money laundering activities, as alleged in an FBI affidavit.",
+      "time_period": "2014",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Money_laundering&oldid=1358522582"
+    },
+    {
+      "standard_name": "Cali Cartel",
+      "original_text_name": "Cali Cartel",
+      "aliases": [],
+      "context": "A drug cartel involved in money laundering, with kingpin Jose Santacruz Londono.",
+      "time_period": "1990s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Money_laundering&oldid=1358522582"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Chinese organized criminal groups",
+      "target": "Mexican drug cartels",
+      "evidence_quote": "Chinese organized criminal groups have become the principal money launderers for drug cartels in Mexico , Italy , and elsewhere.",
+      "context": "Chinese groups launder money for Mexican drug cartels.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Money_laundering&oldid=1358522582"
+    },
+    {
+      "source": "Chinese organized criminal groups",
+      "target": "Italian organized crime",
+      "evidence_quote": "Chinese organized criminal groups have become the principal money launderers for drug cartels in Mexico , Italy , and elsewhere.",
+      "context": "Chinese groups launder money for Italian organized crime.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Money_laundering&oldid=1358522582"
+    },
+    {
+      "source": "Lazarus Group",
+      "target": "Chee Kung Tong",
+      "evidence_quote": null,
+      "context": "No direct relationship between Lazarus Group and Chee Kung Tong is stated in the text.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Money_laundering&oldid=1358522582"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Money_laundering&oldid=1358522582",
+  "source_file": "en_Money_laundering"
+}

@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Boodle Gang",
+      "original_text_name": "Boodle Gang",
+      "aliases": [
+        "Boodlers"
+      ],
+      "context": "American street gang active in New York City during the mid-to-late 19th century, known for hijacking butcher carts.",
+      "time_period": "1850s–1890s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Boodle_Gang&oldid=1339076919"
+    },
+    {
+      "standard_name": "Potashes",
+      "original_text_name": "Potashes",
+      "aliases": [],
+      "context": "Rival butcher cart mob in New York City during the 19th century.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Boodle_Gang&oldid=1339076919"
+    },
+    {
+      "standard_name": "Hudson Dusters",
+      "original_text_name": "Hudson Dusters",
+      "aliases": [],
+      "context": "Rival gang that dominated the area by the end of the 1890s.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Boodle_Gang&oldid=1339076919"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Boodle Gang",
+      "target": "Potashes",
+      "evidence_quote": "Rivals: Potashes , Hudson Dusters",
+      "context": "The Boodle Gang and Potashes were rival butcher cart mobs competing in the same area.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Boodle_Gang&oldid=1339076919"
+    },
+    {
+      "source": "Boodle Gang",
+      "target": "Hudson Dusters",
+      "evidence_quote": "Rivals: Potashes , Hudson Dusters",
+      "context": "The Boodle Gang fared poorly in gang wars against the Hudson Dusters, who dominated the area by the end of the 1890s.",
+      "relationship": "conflict",
+      "time_period": "1890s",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Boodle_Gang&oldid=1339076919"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Boodle_Gang&oldid=1339076919",
+  "source_file": "en_Boodle_Gang"
+}

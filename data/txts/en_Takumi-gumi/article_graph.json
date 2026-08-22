@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Takumi-gumi",
+      "original_text_name": "Takumi-gumi",
+      "aliases": [
+        "Second Takumi-gumi"
+      ],
+      "context": "Japanese yakuza syndicate based in Kansai, founded in 1967 by Masaru Takumi.",
+      "time_period": "1967-2023",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Takumi-gumi&oldid=1277826125"
+    },
+    {
+      "standard_name": "Yamaguchi-gumi",
+      "original_text_name": "Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Japanese yakuza syndicate; Takumi-gumi was founded by its former second-in-command.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Takumi-gumi&oldid=1277826125"
+    },
+    {
+      "standard_name": "Nakano-kai",
+      "original_text_name": "Nakano-kai",
+      "aliases": [],
+      "context": "Japanese yakuza group; members assassinated Masaru Takumi in 1997.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Takumi-gumi&oldid=1277826125"
+    },
+    {
+      "standard_name": "Kobe Yamaguchi-gumi",
+      "original_text_name": "Kobe Yamaguchi-gumi",
+      "aliases": [],
+      "context": "Splinter group formed in 2015 by Takumi-gumi and others withdrawing from Yamaguchi-gumi.",
+      "time_period": "2015-2022",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Takumi-gumi&oldid=1277826125"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Takumi-gumi",
+      "target": "Yamaguchi-gumi",
+      "evidence_quote": "The Second Takumi-gumi is a Japanese yakuza syndicate. The Kansai -based yakuza was founded in 1967 by Masaru Takumi , the longtime second-in-command ( wakagashira ) and financial oversteer of the Yamaguchi-gumi.",
+      "context": "Takumi-gumi was founded by a former high-ranking member of Yamaguchi-gumi, indicating a structural predecessor relationship.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Takumi-gumi&oldid=1277826125"
+    },
+    {
+      "source": "Takumi-gumi",
+      "target": "Nakano-kai",
+      "evidence_quote": "Takumi was kumicho of yakuza's 1000-members until his assassination in Kobe in 1997 by members of the Nakano-kai.",
+      "context": "Members of Nakano-kai assassinated the leader of Takumi-gumi, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": "1997",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Takumi-gumi&oldid=1277826125"
+    },
+    {
+      "source": "Takumi-gumi",
+      "target": "Kobe Yamaguchi-gumi",
+      "evidence_quote": "In 2015, the Takumi-gumi, along with other yakuza organisations, withdrew from the Yamaguchi-gumi to form the Kobe Yamaguchi-gumi , which withdrew from the Kobe Yamaguchi-gumi in 2022.",
+      "context": "Takumi-gumi was a founding member of Kobe Yamaguchi-gumi, a splinter group, and later left it.",
+      "relationship": "other",
+      "time_period": "2015-2022",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Takumi-gumi&oldid=1277826125"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Takumi-gumi&oldid=1277826125",
+  "source_file": "en_Takumi-gumi"
+}

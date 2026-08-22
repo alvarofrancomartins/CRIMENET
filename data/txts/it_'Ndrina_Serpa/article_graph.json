@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "standard_name": "'Ndrina Serpa",
+      "original_text_name": "'ndrina o cosca Serpa",
+      "aliases": [
+        "cosca Serpa"
+      ],
+      "context": "Mafia organization linked to 'Ndrangheta, operating in Cosenza province, involved in drug and arms trafficking, illegal waste disposal, public contracts, extortion, and usury.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Serpa&oldid=150765204"
+    },
+    {
+      "standard_name": "'Ndrangheta",
+      "original_text_name": "'ndrangheta",
+      "aliases": [],
+      "context": "Mafia organization based in Calabria, Italy.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Serpa&oldid=150765204"
+    },
+    {
+      "standard_name": "Scofano-Martello-La Rosa",
+      "original_text_name": "Scofano-Martello-La Rosa",
+      "aliases": [],
+      "context": "Rival criminal group that killed Francescopio Serpe.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Serpa&oldid=150765204"
+    }
+  ],
+  "edges": [
+    {
+      "source": "'Ndrina Serpa",
+      "target": "'Ndrangheta",
+      "evidence_quote": "La 'ndrina o cosca Serpa è un'organizzazione mafiosa legata alla 'ndrangheta",
+      "context": "'Ndrina Serpa is a 'ndrina (sub-unit) of the 'Ndrangheta.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Serpa&oldid=150765204"
+    },
+    {
+      "source": "'Ndrina Serpa",
+      "target": "Scofano-Martello-La Rosa",
+      "evidence_quote": "Francescopio Serpe, boss della famiglia negli anni '90 e nei primi anni '2000, prima di essere ucciso dai rivali Scofano-Martello-La Rosa il 27 maggio 2003",
+      "context": "Scofano-Martello-La Rosa killed the boss of 'Ndrina Serpa, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": "2003",
+      "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Serpa&oldid=150765204"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=%27Ndrina_Serpa&oldid=150765204",
+  "source_file": "it_'Ndrina_Serpa"
+}

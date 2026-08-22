@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {
+      "standard_name": "10th Street Gang",
+      "original_text_name": "10th Street Gang",
+      "aliases": [
+        "1015",
+        "MOB",
+        "1015 Gang"
+      ],
+      "context": "Street gang located in Buffalo, New York, mainly Hispanic, active since 1980s.",
+      "time_period": "1980s to present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=10th_Street_Gang&oldid=1341956387"
+    },
+    {
+      "standard_name": "7th Street Gang",
+      "original_text_name": "7th Street gang",
+      "aliases": [],
+      "context": "A newly established gang in Buffalo, New York, rival of the 10th Street Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=10th_Street_Gang&oldid=1341956387"
+    }
+  ],
+  "edges": [
+    {
+      "source": "10th Street Gang",
+      "target": "7th Street Gang",
+      "evidence_quote": "The gang started garnering infamy when they started having rivalries with a newly established gang, the 7th Street gang.",
+      "context": "The 10th Street Gang had a rivalry with the 7th Street Gang, leading to violence and homicides.",
+      "relationship": "conflict",
+      "time_period": "2009-2012",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=10th_Street_Gang&oldid=1341956387"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=10th_Street_Gang&oldid=1341956387",
+  "source_file": "en_10th_Street_Gang"
+}

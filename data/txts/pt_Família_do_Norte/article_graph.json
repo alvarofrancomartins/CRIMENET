@@ -1,0 +1,157 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Família do Norte",
+      "original_text_name": "Família do Norte",
+      "aliases": [
+        "FDN"
+      ],
+      "context": "Major criminal organization in Amazonas, founded in 2007, involved in drug trafficking, murders, and prison rebellions.",
+      "time_period": "2007-2021",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855"
+    },
+    {
+      "standard_name": "Primeiro Comando da Capital",
+      "original_text_name": "PCC",
+      "aliases": [
+        "PCC"
+      ],
+      "context": "Brazilian criminal faction, rival of FDN and CV, involved in drug trafficking and prison wars.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855"
+    },
+    {
+      "standard_name": "Comando Vermelho",
+      "original_text_name": "Comando Vermelho",
+      "aliases": [
+        "CV"
+      ],
+      "context": "Brazilian criminal faction from Rio de Janeiro, former ally of FDN and PCC, later rival of both.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855"
+    },
+    {
+      "standard_name": "Cartel do Norte",
+      "original_text_name": "Cartel do Norte",
+      "aliases": [
+        "CDN"
+      ],
+      "context": "Splinter faction of FDN, created by Zé Roberto's son, allied with RDA, active until 2022.",
+      "time_period": "until 2022",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855"
+    },
+    {
+      "standard_name": "Revolucionários do Amazonas",
+      "original_text_name": "Revolucionários do Amazonas",
+      "aliases": [
+        "RDA"
+      ],
+      "context": "Dissident faction from CV, allied with CDN and later with PCC against CV.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855"
+    },
+    {
+      "standard_name": "FARC",
+      "original_text_name": "FARC",
+      "aliases": [],
+      "context": "Colombian guerrilla group, connected to FDN in international drug trafficking network.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855"
+    },
+    {
+      "standard_name": "Sindicato do Crime",
+      "original_text_name": "SDC",
+      "aliases": [
+        "SDC"
+      ],
+      "context": "Criminal organization listed as rival of FDN in infobox.",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Família do Norte",
+      "target": "Primeiro Comando da Capital",
+      "evidence_quote": "Após 2015, atritos entre PCC e FDN deram início a um confronto que eclodiu na Guerra entre PCC e CV em 2016 .",
+      "context": "FDN and PCC had conflicts that led to a war in 2016.",
+      "relationship": "conflict",
+      "time_period": "after 2015",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855"
+    },
+    {
+      "source": "Família do Norte",
+      "target": "Comando Vermelho",
+      "evidence_quote": "Cerca de um ano após a FDN declarar guerra contra o PCC com o apoio do CV, o grupo pôs em prática o plano de acabar com o PCC no Amazonas, em outubro de 2016.",
+      "context": "FDN and CV were allies against PCC in 2016.",
+      "relationship": "cooperation",
+      "time_period": "2016",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855"
+    },
+    {
+      "source": "Família do Norte",
+      "target": "Comando Vermelho",
+      "evidence_quote": "A Família do Norte teve a união quebrada com o Comando Vermelho em 2018, por motivos pessoais.",
+      "context": "FDN and CV broke their alliance in 2018.",
+      "relationship": "other",
+      "time_period": "2018",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855"
+    },
+    {
+      "source": "Família do Norte",
+      "target": "Comando Vermelho",
+      "evidence_quote": "Em fevereiro de 2020, a facção carioca Comando Vermelho tomou vários territórios da FDN e dominando vários bairros de Manaus .",
+      "context": "CV took territories from FDN in 2020, indicating conflict.",
+      "relationship": "conflict",
+      "time_period": "2020",
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855"
+    },
+    {
+      "source": "Família do Norte",
+      "target": "Cartel do Norte",
+      "evidence_quote": "criminosos comandados pelo filho de Zé Roberto criam a facção Cartel do Norte, o CDN.",
+      "context": "CDN is a splinter faction created from FDN members.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855"
+    },
+    {
+      "source": "Cartel do Norte",
+      "target": "Revolucionários do Amazonas",
+      "evidence_quote": "O CDN tinha uma aliança com outra facção amazonense, os Revolucionários do Amazonas (RDA).",
+      "context": "CDN and RDA were allies.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855"
+    },
+    {
+      "source": "Revolucionários do Amazonas",
+      "target": "Primeiro Comando da Capital",
+      "evidence_quote": "Atualmente há informações que apontam uma aliança entre o RDA e o PCC contra o avanço do Comando Vermelho no Amazonas.",
+      "context": "RDA and PCC are allied against CV.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855"
+    },
+    {
+      "source": "Família do Norte",
+      "target": "FARC",
+      "evidence_quote": "Há fortes indícios de que a FDN faça parte de uma rede internacional de tráfico de drogas com fortes conexões com as FARC na Colômbia",
+      "context": "FDN has connections with FARC in drug trafficking.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855"
+    },
+    {
+      "source": "Família do Norte",
+      "target": "Sindicato do Crime",
+      "evidence_quote": "Rivais: PCC [ carece de fontes ? ] , SDC [ carece de fontes ? ] , CV , etc.",
+      "context": "SDC is listed as a rival of FDN in the infobox.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855"
+    }
+  ],
+  "source_url": "https://pt.wikipedia.org/w/index.php?title=Fam%C3%ADlia_do_Norte&oldid=71585855",
+  "source_file": "pt_Família_do_Norte"
+}

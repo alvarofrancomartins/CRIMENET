@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "standard_name": "ROD Gang",
+      "original_text_name": "Ride or Die Gang",
+      "aliases": [
+        "ROD Gang"
+      ],
+      "context": "Small murderous drug ring operating in New Orleans, St. Roch neighborhood, from 2007 to 2013.",
+      "time_period": "2007-2013",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=ROD_Gang&oldid=1339086313"
+    },
+    {
+      "standard_name": "39ers gang",
+      "original_text_name": "39ers gang",
+      "aliases": [],
+      "context": "Rival gang mentioned in the infobox as a rival of ROD Gang.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=ROD_Gang&oldid=1339086313"
+    }
+  ],
+  "edges": [
+    {
+      "source": "ROD Gang",
+      "target": "39ers gang",
+      "evidence_quote": "Rivals: 39ers gang",
+      "context": "The infobox lists 39ers gang as a rival of ROD Gang.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=ROD_Gang&oldid=1339086313"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=ROD_Gang&oldid=1339086313",
+  "source_file": "en_ROD_Gang"
+}

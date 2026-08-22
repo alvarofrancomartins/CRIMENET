@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Sombra Negra",
+      "original_text_name": "Sombra Negra",
+      "aliases": [],
+      "context": "Death squad in El Salvador composed mainly of police and military personnel, targeting criminals and gang members.",
+      "time_period": "1989-1995, 2014-present",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Sombra_Negra&oldid=167642972"
+    },
+    {
+      "standard_name": "Mara Salvatrucha",
+      "original_text_name": "Mara Salvatrucha",
+      "aliases": [
+        "MS-13"
+      ],
+      "context": "Salvadoran street gang known for tattoos and crimes such as murder, rape, extortion.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Sombra_Negra&oldid=167642972"
+    },
+    {
+      "standard_name": "Mara 18",
+      "original_text_name": "Mara 18",
+      "aliases": [
+        "Street Gang 18",
+        "Barrio 18"
+      ],
+      "context": "Salvadoran street gang, rival of Mara Salvatrucha.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Sombra_Negra&oldid=167642972"
+    },
+    {
+      "standard_name": "FMLN",
+      "original_text_name": "FMLN",
+      "aliases": [],
+      "context": "Political party and former guerrilla group in El Salvador.",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Sombra_Negra&oldid=167642972"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Sombra Negra",
+      "target": "Mara Salvatrucha",
+      "evidence_quote": "Apuntando a la Mara Salvatrucha y a la Mara 18",
+      "context": "Sombra Negra targets and executes members of Mara Salvatrucha.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Sombra_Negra&oldid=167642972"
+    },
+    {
+      "source": "Sombra Negra",
+      "target": "Mara 18",
+      "evidence_quote": "Apuntando a la Mara Salvatrucha y a la Mara 18",
+      "context": "Sombra Negra targets and executes members of Mara 18.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Sombra_Negra&oldid=167642972"
+    },
+    {
+      "source": "Sombra Negra",
+      "target": "FMLN",
+      "evidence_quote": "Enemigos: FMLN ( Durante la Guerra Civil )",
+      "context": "Sombra Negra considered FMLN an enemy during the civil war.",
+      "relationship": "conflict",
+      "time_period": "Durante la Guerra Civil",
+      "source_url": "https://es.wikipedia.org/w/index.php?title=Sombra_Negra&oldid=167642972"
+    }
+  ],
+  "source_url": "https://es.wikipedia.org/w/index.php?title=Sombra_Negra&oldid=167642972",
+  "source_file": "es_Sombra_Negra"
+}

@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Camorra",
+      "original_text_name": "Camorra",
+      "aliases": [],
+      "context": "Italian mafia-type criminal organization operating in Campania.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Giuseppe_Olivieri_%28criminale%29&oldid=150565611"
+    },
+    {
+      "standard_name": "Nuova Famiglia",
+      "original_text_name": "Nuova Famiglia",
+      "aliases": [],
+      "context": "Camorra organization opposed to the Nuova Camorra Organizzata.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Giuseppe_Olivieri_%28criminale%29&oldid=150565611"
+    },
+    {
+      "standard_name": "Nuova Camorra Organizzata",
+      "original_text_name": "Nuova Camorra Organizzata",
+      "aliases": [
+        "NCO"
+      ],
+      "context": "Camorra organization led by Raffaele Cutolo.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Giuseppe_Olivieri_%28criminale%29&oldid=150565611"
+    },
+    {
+      "standard_name": "Clan Fezza-De Vivo",
+      "original_text_name": "clan Fezza-De Vivo",
+      "aliases": [],
+      "context": "Criminal clan that succeeded Olivieri's organization in Pagani.",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Giuseppe_Olivieri_%28criminale%29&oldid=150565611"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Nuova Famiglia",
+      "target": "Nuova Camorra Organizzata",
+      "evidence_quote": "organizzazione che si opponeva alla Nuova Camorra Organizzata di Raffaele Cutolo",
+      "context": "Nuova Famiglia opposed the Nuova Camorra Organizzata.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Giuseppe_Olivieri_%28criminale%29&oldid=150565611"
+    },
+    {
+      "source": "Nuova Famiglia",
+      "target": "Clan Fezza-De Vivo",
+      "evidence_quote": "L'eredità criminale di Olivieri è stata raccolta negli anni da uomini a lui vicini, intorno ai quali si è strutturato il clan Fezza-De Vivo",
+      "context": "Clan Fezza-De Vivo succeeded Nuova Famiglia's criminal legacy.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://it.wikipedia.org/w/index.php?title=Giuseppe_Olivieri_%28criminale%29&oldid=150565611"
+    }
+  ],
+  "source_url": "https://it.wikipedia.org/w/index.php?title=Giuseppe_Olivieri_%28criminale%29&oldid=150565611",
+  "source_file": "it_Giuseppe_Olivieri_(criminale)"
+}

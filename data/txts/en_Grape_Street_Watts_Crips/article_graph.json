@@ -1,0 +1,67 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Grape Street Watts Crips",
+      "original_text_name": "Grape Street Watts Crips",
+      "aliases": [],
+      "context": "A set of the Crips gang based in Watts, Los Angeles, active since the 1970s.",
+      "time_period": "1970s – present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grape_Street_Watts_Crips&oldid=1339077903"
+    },
+    {
+      "standard_name": "Crips",
+      "original_text_name": "Crips",
+      "aliases": [],
+      "context": "A major street gang based in Los Angeles, of which Grape Street Watts Crips is a set.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grape_Street_Watts_Crips&oldid=1339077903"
+    },
+    {
+      "standard_name": "Bounty Hunter Bloods",
+      "original_text_name": "Bounty Hunter Bloods",
+      "aliases": [],
+      "context": "A rival gang to the Grape Street Watts Crips, involved in a long-lasting feud.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grape_Street_Watts_Crips&oldid=1339077903"
+    },
+    {
+      "standard_name": "East Coast Crips",
+      "original_text_name": "East Coast Crips",
+      "aliases": [],
+      "context": "A Crips set that murdered Brandon Bullard, sparking a war with Grape Street Watts Crips.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grape_Street_Watts_Crips&oldid=1339077903"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Grape Street Watts Crips",
+      "target": "Crips",
+      "evidence_quote": "The Grape Street Watts Crips is a set of the Crips gang",
+      "context": "Grape Street Watts Crips is a subset of the Crips gang.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grape_Street_Watts_Crips&oldid=1339077903"
+    },
+    {
+      "source": "Grape Street Watts Crips",
+      "target": "Bounty Hunter Bloods",
+      "evidence_quote": "The gang's rivalry with the Bounty Hunter Bloods has been described as being 'the most violent and long lasting feud between two gangs that are in the Watts area.'",
+      "context": "Grape Street Watts Crips and Bounty Hunter Bloods have a violent, long-lasting feud.",
+      "relationship": "conflict",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grape_Street_Watts_Crips&oldid=1339077903"
+    },
+    {
+      "source": "Grape Street Watts Crips",
+      "target": "East Coast Crips",
+      "evidence_quote": "Brandon 'BL' Bullard, a veteran of the Grape Street Watts Crips, was murdered by the East Coast Crips in 2008. The murder of Bullard sparked a war that resulted in 26 wounded and 9 dead in the six weeks that followed.",
+      "context": "East Coast Crips murdered a Grape Street Watts Crips member, sparking a war between the two sets.",
+      "relationship": "conflict",
+      "time_period": "2008",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Grape_Street_Watts_Crips&oldid=1339077903"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Grape_Street_Watts_Crips&oldid=1339077903",
+  "source_file": "en_Grape_Street_Watts_Crips"
+}

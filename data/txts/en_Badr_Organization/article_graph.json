@@ -1,0 +1,102 @@
+{
+  "nodes": [
+    {
+      "standard_name": "Badr Organization",
+      "original_text_name": "Badr Organization",
+      "aliases": [
+        "Badr Brigades",
+        "Badr Corps",
+        "Badr Brigade"
+      ],
+      "context": "Iraqi Shia Islamist political party and paramilitary organization, formerly the military arm of SCIRI.",
+      "time_period": "1982-present",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Badr_Organization&oldid=1356611515"
+    },
+    {
+      "standard_name": "Supreme Council for Islamic Revolution in Iraq",
+      "original_text_name": "Supreme Council for Islamic Revolution in Iraq",
+      "aliases": [
+        "SCIRI",
+        "ISCI"
+      ],
+      "context": "Shia Islamic party based in Iran, whose military arm was the Badr Brigade.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Badr_Organization&oldid=1356611515"
+    },
+    {
+      "standard_name": "Islamic State of Iraq and the Levant",
+      "original_text_name": "Islamic State of Iraq and the Levant",
+      "aliases": [
+        "ISIL",
+        "IS"
+      ],
+      "context": "Jihadist militant group that Badr Organization fought against in Iraq.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Badr_Organization&oldid=1356611515"
+    },
+    {
+      "standard_name": "Popular Mobilization Forces",
+      "original_text_name": "Popular Mobilization Forces",
+      "aliases": [],
+      "context": "Coalition of Iraqi militias, of which Badr Organization is a part.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Badr_Organization&oldid=1356611515"
+    },
+    {
+      "standard_name": "Mahdi Army",
+      "original_text_name": "Mahdi Army",
+      "aliases": [],
+      "context": "Shia militia led by Muqtada al-Sadr, accused of sectarian killings alongside Badr Brigade.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Badr_Organization&oldid=1356611515"
+    },
+    {
+      "standard_name": "Hezbollah",
+      "original_text_name": "Hezbollah",
+      "aliases": [],
+      "context": "Lebanese Shia militant group, compared to Badr Organization in role.",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Badr_Organization&oldid=1356611515"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Badr Organization",
+      "target": "Supreme Council for Islamic Revolution in Iraq",
+      "evidence_quote": "The Badr Brigade, formed in 1982 and led by Iranian officers, served as the military arm of the Supreme Council for Islamic Revolution in Iraq (SCIRI)",
+      "context": "Badr Organization was the military wing of SCIRI.",
+      "relationship": "other",
+      "time_period": "1982-2003",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Badr_Organization&oldid=1356611515"
+    },
+    {
+      "source": "Badr Organization",
+      "target": "Islamic State of Iraq and the Levant",
+      "evidence_quote": "Badr Brigade forces, and their Iranian commanders, have come to prominence in 2014 fighting the Islamic State of Iraq and the Levant (ISIL) in Iraq.",
+      "context": "Badr Organization fought against ISIL in Iraq.",
+      "relationship": "conflict",
+      "time_period": "2014",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Badr_Organization&oldid=1356611515"
+    },
+    {
+      "source": "Badr Organization",
+      "target": "Popular Mobilization Forces",
+      "evidence_quote": "It is a part of the Popular Mobilization Forces.",
+      "context": "Badr Organization is a component of the Popular Mobilization Forces.",
+      "relationship": "other",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Badr_Organization&oldid=1356611515"
+    },
+    {
+      "source": "Badr Organization",
+      "target": "Mahdi Army",
+      "evidence_quote": "Another was the Mahdi Army of the young cleric Muqtada al-Sadr, who is now part of the Shia coalition seeking to form a government after winning the mid-December election.",
+      "context": "Both Badr Brigade and Mahdi Army were accused of carrying out sectarian killings.",
+      "relationship": "cooperation",
+      "time_period": null,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Badr_Organization&oldid=1356611515"
+    }
+  ],
+  "source_url": "https://en.wikipedia.org/w/index.php?title=Badr_Organization&oldid=1356611515",
+  "source_file": "en_Badr_Organization"
+}
