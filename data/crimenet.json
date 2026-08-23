@@ -11,7 +11,7 @@
       "nodes_split": 18,
       "edges_dropped": 1018
     },
-    "generated": "2026-08-11T13:09:58"
+    "generated": "2026-08-23T19:59:38"
   },
   "nodes": [
     {
@@ -28635,16 +28635,7 @@
           "title": "Barriox13"
         }
       ],
-      "mentioned_in": [
-        {
-          "url": "https://en.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=1358436972",
-          "title": "Primeiro Comando da Capital"
-        },
-        {
-          "url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595",
-          "title": "Comando Classe A"
-        }
-      ]
+      "mentioned_in": []
     },
     {
       "standard_name": "Barrow Gang",
@@ -33567,7 +33558,16 @@
           "title": "Bonde dos 13"
         }
       ],
-      "mentioned_in": []
+      "mentioned_in": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=1358436972",
+          "title": "Primeiro Comando da Capital"
+        },
+        {
+          "url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595",
+          "title": "Comando Classe A"
+        }
+      ]
     },
     {
       "standard_name": "Bonde dos 40",
@@ -209351,7 +209351,7 @@
     },
     {
       "source": "Comando Classe A",
-      "target": "Barriox13",
+      "target": "Bonde dos 13",
       "relationship": "cooperation",
       "descriptions": [
         "B13 is listed as an ally of CCA in the infobox."
@@ -274207,7 +274207,20 @@
     },
     {
       "source": "Primeiro Comando da Capital",
-      "target": "Barriox13",
+      "target": "Bonde do Maluco",
+      "relationship": "cooperation",
+      "descriptions": [
+        "PCC lists BDM as an ally in infobox."
+      ],
+      "time_periods": [],
+      "evidence_quote": "Allies: Latin America : TCP , GDE , BDM , EPP , FARC , Tren de Aragua , Jalisco Cartel , Massa Carcerária [ pt ] , Primer Cartel Uruguayo.",
+      "source_urls": [
+        "https://en.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=1358436972"
+      ]
+    },
+    {
+      "source": "Primeiro Comando da Capital",
+      "target": "Bonde dos 13",
       "relationship": "cooperation",
       "descriptions": [
         "PCC financed B13 as a proxy against CV."
@@ -274216,19 +274229,6 @@
         "2016"
       ],
       "evidence_quote": "the PCC embarked on an aggressive expansion campaign by absorbing less organized gangs and financing local groups to operate as proxies against the CV across the country, such as the B13 gang in Acre",
-      "source_urls": [
-        "https://en.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=1358436972"
-      ]
-    },
-    {
-      "source": "Primeiro Comando da Capital",
-      "target": "Bonde do Maluco",
-      "relationship": "cooperation",
-      "descriptions": [
-        "PCC lists BDM as an ally in infobox."
-      ],
-      "time_periods": [],
-      "evidence_quote": "Allies: Latin America : TCP , GDE , BDM , EPP , FARC , Tren de Aragua , Jalisco Cartel , Massa Carcerária [ pt ] , Primer Cartel Uruguayo.",
       "source_urls": [
         "https://en.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=1358436972"
       ]

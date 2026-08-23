@@ -31862,7 +31862,6 @@
         "West Side Barriox13"
       ],
       "original_text_names": [
-        "B13",
         "Barriox13",
         "East Side Barriox13",
         "West Side Barriox13"
@@ -31889,16 +31888,7 @@
           "title": "Barriox13"
         }
       ],
-      "mentioned_in": [
-        {
-          "url": "https://en.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=1358436972",
-          "title": "Primeiro Comando da Capital"
-        },
-        {
-          "url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595",
-          "title": "Comando Classe A"
-        }
-      ]
+      "mentioned_in": []
     },
     {
       "standard_name": "Barrow Gang",
@@ -37637,6 +37627,7 @@
         "B13"
       ],
       "original_text_names": [
+        "B13",
         "Bonde dos 13"
       ],
       "description": "Brazilian criminal faction based in Acre, founded around 2013 in the Rio Branco penitentiary complex. It operates drug trafficking along the Bolivia border and is allied with the Primeiro Comando da Capital (PCC). Engaged in violent conflict with Comando Vermelho (CV) and rival faction Ifara for control of drug routes and territories. Present in all municipalities of Acre.",
@@ -37661,7 +37652,16 @@
           "title": "Bonde dos 13"
         }
       ],
-      "mentioned_in": []
+      "mentioned_in": [
+        {
+          "url": "https://en.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=1358436972",
+          "title": "Primeiro Comando da Capital"
+        },
+        {
+          "url": "https://pt.wikipedia.org/w/index.php?title=Comando_Classe_A&oldid=71669595",
+          "title": "Comando Classe A"
+        }
+      ]
     },
     {
       "standard_name": "Bonde dos 40",
@@ -252462,7 +252462,7 @@
     },
     {
       "source": "Comando Classe A",
-      "target": "Barriox13",
+      "target": "Bonde dos 13",
       "relationship": "cooperation",
       "descriptions": [
         "B13 is listed as an ally of CCA in the infobox."
@@ -337347,7 +337347,20 @@
     },
     {
       "source": "Primeiro Comando da Capital",
-      "target": "Barriox13",
+      "target": "Bonde do Maluco",
+      "relationship": "cooperation",
+      "descriptions": [
+        "PCC lists BDM as an ally in infobox."
+      ],
+      "time_periods": [],
+      "evidence_quote": "Allies: Latin America : TCP , GDE , BDM , EPP , FARC , Tren de Aragua , Jalisco Cartel , Massa Carcerária [ pt ] , Primer Cartel Uruguayo.",
+      "source_urls": [
+        "https://en.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=1358436972"
+      ]
+    },
+    {
+      "source": "Primeiro Comando da Capital",
+      "target": "Bonde dos 13",
       "relationship": "cooperation",
       "descriptions": [
         "PCC financed B13 as a proxy against CV."
@@ -337356,19 +337369,6 @@
         "2016"
       ],
       "evidence_quote": "the PCC embarked on an aggressive expansion campaign by absorbing less organized gangs and financing local groups to operate as proxies against the CV across the country, such as the B13 gang in Acre",
-      "source_urls": [
-        "https://en.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=1358436972"
-      ]
-    },
-    {
-      "source": "Primeiro Comando da Capital",
-      "target": "Bonde do Maluco",
-      "relationship": "cooperation",
-      "descriptions": [
-        "PCC lists BDM as an ally in infobox."
-      ],
-      "time_periods": [],
-      "evidence_quote": "Allies: Latin America : TCP , GDE , BDM , EPP , FARC , Tren de Aragua , Jalisco Cartel , Massa Carcerária [ pt ] , Primer Cartel Uruguayo.",
       "source_urls": [
         "https://en.wikipedia.org/w/index.php?title=Primeiro_Comando_da_Capital&oldid=1358436972"
       ]

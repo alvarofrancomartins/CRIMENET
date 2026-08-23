@@ -126,6 +126,18 @@ GENERIC_ALIAS_BLOCK = {
     }
 }
 
+# Curated alias disambiguation. When two different orgs both list a short
+# alias (step 3), the "first profile wins" rule (which is just folder order)
+# decides where that alias resolves, and that can attach edges to the wrong
+# org. Pin the ambiguous alias to the org it actually abbreviates. "B13" is
+# the native short form of "Bonde dos 13" (B + 13, a Brazilian gang), not of
+# "Barriox13" (a Los Angeles Sureños gang whose short form is "Barrio13");
+# both profiles list "B13", so without the pin a mention like PCC's "the B13
+# gang in Acre" resolves to Barriox13 instead of Bonde dos 13.
+ALIAS_DISAMBIGUATION = {
+    fold("B13"): "Bonde dos 13",
+}
+
 
 def sig_tokens(name):
     """Significant (non-generic) folded tokens of a name, as a frozenset."""
@@ -382,6 +394,12 @@ def build_maps(profiles):
                     sig_map[s] = c
                 elif fold(prev) != fold(c):
                     ambiguous_sigs.add(s)
+
+    # Curated alias disambiguation: override the first-profile-wins resolution
+    # for aliases that two different orgs both claim (see ALIAS_DISAMBIGUATION).
+    for fa, canonical in ALIAS_DISAMBIGUATION.items():
+        if fold(canonical) in canonical_by_fold:
+            canon_map[fa] = canonical
 
     for s in ambiguous_sigs:
         sig_map.pop(s, None)
