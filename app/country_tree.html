@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRIMENET · Country Tree</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+
+<style>
+:root {
+  --bg:#07080a; --s1:#0d1117; --s2:#111820; --s3:#161e2c;
+  --b1:#1a2535; --b2:#243347; --b3:#2e4060;
+  --amber:#e8a020; --amber2:#b87818; --amber3:#3d2a06;
+  --green:#2db87d; --red:#d63b3b;
+  --text:#bdd0e8; --text2:#56708a; --text3:#2c3f58;
+  --body:'Inter',sans-serif; --disp:'Oswald',sans-serif;
+  --panel:500px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--body);font-size:20px}
+
+/* SCANLINES */
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:9000;
+  background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.04) 2px,rgba(0,0,0,.04) 4px)}
+
+/* TOPBAR */
+#topbar{
+  position:fixed;top:0;left:0;right:0;height:90px;z-index:400;
+  background:rgba(7,8,10,.94);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--b1);
+  display:flex;align-items:stretch;
+}
+.tb-logo{display:flex;align-items:center;gap:14px;padding:0 24px;border-right:1px solid var(--b1);flex-shrink:0}
+.tb-mark{font-family:var(--disp);font-size:30px;letter-spacing:2px;line-height:1;color:var(--amber);text-shadow:0 0 18px rgba(232,160,32,.3);text-transform:uppercase}
+.tb-sub{font-size:13px;letter-spacing:1px;font-weight:500;color:var(--text2);text-transform:uppercase;margin-top:4px}
+.tb-back{display:flex;align-items:center;justify-content:center;width:42px;height:42px;border:1px solid var(--b1);border-radius:8px;color:var(--text2);font-size:20px;line-height:1;text-decoration:none;transition:all .12s;flex-shrink:0}
+.tb-back:hover{border-color:var(--amber);color:var(--amber);background:rgba(232,160,32,.07)}
+.tb-home{text-decoration:none;display:inline-block}
+
+.tb-stats{display:flex}
+.tb-stat{display:flex;flex-direction:column;justify-content:center;padding:0 24px;border-right:1px solid var(--b1)}
+.tb-val{font-family:var(--disp);font-size:42px;color:var(--amber);line-height:1}
+.tb-lbl{font-size:15px;font-weight:600;letter-spacing:1px;color:var(--text3);text-transform:uppercase;margin-top:3px}
+.tb-filters-wrap{position:relative;flex:1;min-width:0;display:flex;align-items:center}
+.tb-filters{display:flex;align-items:center;gap:6px;padding:0 18px;flex:1;min-width:0;overflow-x:auto;scrollbar-width:none;scroll-behavior:smooth}
+.tb-filters::-webkit-scrollbar{display:none}
+
+.tb-farrow{
+  position:absolute;top:0;bottom:0;width:34px;z-index:6;
+  display:flex;align-items:center;justify-content:center;
+  border:none;cursor:pointer;color:var(--text2);
+  background:rgba(7,8,10,0.001);opacity:0;pointer-events:none;
+  transition:opacity .15s,color .15s;
+}
+.tb-farrow.show{opacity:1;pointer-events:auto}
+.tb-farrow:hover{color:var(--amber)}
+.tb-farrow.left{left:0;background:linear-gradient(90deg,var(--bg) 35%,rgba(7,8,10,0) 100%)}
+.tb-farrow.right{right:0;background:linear-gradient(270deg,var(--bg) 35%,rgba(7,8,10,0) 100%)}
+.fgroup{display:flex;align-items:center;gap:6px;padding-right:8px;border-right:1px solid var(--b1);flex-shrink:0}
+.fgroup:last-of-type{border-right:none}
+.flbl{font-size:15px;font-weight:600;letter-spacing:1px;color:var(--text3);text-transform:uppercase;white-space:nowrap;margin-right:4px}
+.ftog{
+  padding:8px 18px;border-radius:4px;cursor:pointer;font-size:15px;font-weight:600;letter-spacing:.8px;
+  border:1px solid var(--b1);color:var(--text2);background:none;font-family:var(--body);
+  transition:all .12s;user-select:none;white-space:nowrap;flex-shrink:0;
+}
+.ftog.on{color:var(--fg,var(--amber));border-color:var(--fg,var(--amber));background:rgba(232,160,32,.07)}
+.tb-right{display:flex;align-items:center;gap:12px;padding:0 20px;border-left:1px solid var(--b1);flex-shrink:0}
+.tb-btn{padding:8px 18px;background:none;border:1px solid var(--b1);color:var(--text2);font-family:var(--body);font-weight:600;font-size:16px;letter-spacing:1px;cursor:pointer;border-radius:4px;transition:all .12s;text-transform:uppercase; white-space:nowrap;}
+.tb-btn:hover{color:var(--text);border-color:var(--b2)}
+
+/* Country + node search inputs (share one layout) */
+.tb-search{position:relative;display:flex;align-items:center;flex-shrink:0;border-left:1px solid var(--b1)}
+.tb-search .tb-in{padding:10px 14px;background:var(--s2);border:none;color:var(--text);font-family:var(--body);font-size:16px;outline:none;transition:box-shadow .15s}
+.tb-search.country .tb-in{width:230px;color:var(--amber);font-weight:600}
+.tb-search.node .tb-in{width:250px}
+.tb-search .tb-in::placeholder{color:var(--text3);font-weight:400}
+.tb-search .tb-in:focus{box-shadow:inset 0 0 0 1px var(--amber)}
+.tb-clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--text2);cursor:pointer;font-size:18px;padding:2px 6px;border-radius:2px;display:none;font-family:var(--body)}
+.tb-clear.show{display:block}
+.tb-clear:hover{color:var(--amber)}
+.tb-results{display:none;position:absolute;top:100%;left:0;width:340px;max-height:420px;overflow-y:auto;background:var(--s2);border:1px solid var(--b2);border-radius:4px;z-index:400;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.tb-results .hint{padding:10px 16px;font-size:13px;font-weight:600;letter-spacing:1px;color:var(--text3);text-transform:uppercase;border-bottom:1px solid var(--b1)}
+
+/* TREE */
+#tree-wrap{position:fixed;inset:0;top:90px; outline:none}
+#svg{width:100%;height:100%}
+.link-layer{pointer-events:none}
+.node{cursor:pointer}
+.node text{user-select:none;paint-order:stroke;stroke:#07080a;stroke-width:2.5;stroke-linejoin:round}
+
+/* LEGEND */
+#legend{
+  position:fixed;left:18px;bottom:18px;z-index:200;
+  background:rgba(13,17,23,.94);border:1px solid var(--b1);border-radius:6px;
+  padding:14px 18px;font-family:var(--body);
+}
+#legend .lg-row{display:flex;align-items:center;gap:9px;font-size:14px;font-weight:600;color:var(--text2);letter-spacing:.3px;margin-top:7px}
+#legend .lg-row:first-child{margin-top:0}
+#legend .lg-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+#legend .lg-hint{font-size:12px;color:var(--text3);font-weight:500;margin-top:10px;letter-spacing:.2px;max-width:300px;line-height:1.5}
+
+/* TITLE OVERLAY */
+#tree-title{position:fixed;left:24px;top:114px;z-index:150;pointer-events:none;font-family:var(--disp);max-width:52vw}
+.tt-country{font-size:48px;letter-spacing:3px;line-height:1.04;color:var(--amber);text-shadow:0 0 28px rgba(232,160,32,.35);text-transform:uppercase}
+.tt-count{font-size:16px;font-weight:600;letter-spacing:2px;color:var(--text2);text-transform:uppercase;margin-top:9px}
+
+/* NODE PANEL */
+#node-panel{
+  position:fixed;top:90px;right:0;bottom:0;width:var(--panel);
+  background:var(--s1);border-left:1px solid var(--b1);
+  z-index:300;transform:translateX(100%);transition:transform .25s cubic-bezier(.2,.8,.3,1);
+  display:flex;flex-direction:column;overflow:hidden;
+}
+#node-panel.open{transform:translateX(0)}
+.np-close{position:absolute;top:16px;right:16px;background:none;border:none;color:var(--text2);cursor:pointer;font-size:26px;z-index:1;padding:4px 8px;border-radius:2px;transition:color .12s;font-family:var(--body)}
+.np-close:hover{color:var(--text)}
+.np-head{padding:26px 26px 18px;border-bottom:1px solid var(--b1);flex-shrink:0}
+.np-name{font-family:var(--disp);font-size:44px;color:var(--amber);letter-spacing:1px;line-height:1.1;text-transform:uppercase}
+.np-desc{font-size:17px;color:var(--text);line-height:1.6;border-left:3px solid var(--amber2);padding-left:14px;margin-bottom:16px}
+.np-rels{flex:1;overflow-y:auto;padding:16px 0}
+.np-sec{border-bottom:1px solid var(--b1)}
+.np-sec:last-child{border-bottom:none}
+.np-sec-hdr{padding:12px 24px;cursor:pointer;display:flex;align-items:center;justify-content:space-between;transition:background .08s;user-select:none}
+.np-sec-hdr:hover{background:rgba(255,255,255,.02)}
+.np-sec-title{font-size:16px;font-weight:600;letter-spacing:1px;text-transform:uppercase}
+.np-sec-n{font-size:18px;font-weight:600;color:var(--text3)}
+.np-items{display:none}
+.np-sec.open .np-items{display:block}
+.np-item{padding:14px 20px 14px 32px;border-top:1px solid var(--b1);transition:background .08s}
+.np-item:hover{background:rgba(232,160,32,.03)}
+.np-item-name{color:var(--text);font-size:18px;font-weight:600;cursor:pointer;display:inline-block;font-family:var(--disp);letter-spacing:0.5px}
+.np-item-name:hover{color:var(--amber)}
+
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--b2);border-radius:3px}
+
+/* LOADER */
+#loader{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;gap:20px}
+.ld-logo{font-family:var(--disp);font-size:96px;letter-spacing:8px;color:var(--amber);text-shadow:0 0 40px rgba(232,160,32,.4)}
+.ld-msg{font-size:16px;font-weight:600;letter-spacing:2px;color:var(--text2);text-transform:uppercase}
+.ld-bar{width:280px;height:3px;background:var(--b1);border-radius:2px;overflow:hidden}
+.ld-fill{height:100%;background:var(--amber);width:0;transition:width .3s}
+.ld-err{color:#d63b3b;font-size:18px;text-align:center;line-height:1.9;display:none;max-width:450px}
+</style>
+</head>
+<body>
+
+<div id="loader">
+  <div class="ld-logo">CRIMENET</div>
+  <div class="ld-msg" id="ld-msg">Loading…</div>
+  <div class="ld-bar"><div class="ld-fill" id="ld-fill"></div></div>
+  <div class="ld-err" id="ld-err"></div>
+</div>
+
+<div id="topbar">
+  <div class="tb-logo">
+    <a href="index.html" class="tb-back" title="Back to CRIMENET" aria-label="Back to CRIMENET browse">←</a>
+    <div>
+      <a href="index.html" class="tb-home"><div class="tb-mark">CRIMENET</div></a>
+      <div class="tb-sub">Country Tree</div>
+    </div>
+  </div>
+
+  <div class="tb-stats">
+    <div class="tb-stat"><div class="tb-val" id="s-orgs">—</div><div class="tb-lbl">Organizations</div></div>
+    <div class="tb-stat"><div class="tb-val" id="s-edges">—</div><div class="tb-lbl">Connections</div></div>
+    <div class="tb-stat"><div class="tb-val" id="s-country" style="font-size:28px;line-height:1.2;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">All</div><div class="tb-lbl">Country</div></div>
+  </div>
+
+  <div class="tb-filters-wrap">
+    <button class="tb-farrow left" id="farrow-left" aria-label="Scroll filters left">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    </button>
+    <div class="tb-filters" id="tb-filters"></div>
+    <button class="tb-farrow right" id="farrow-right" aria-label="Scroll filters right">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+    </button>
+  </div>
+
+  <div class="tb-search country">
+    <input type="text" id="country-search" class="tb-in" placeholder="Type a country…" autocomplete="off" spellcheck="false">
+    <button class="tb-clear" id="country-clear" title="Reset to default country" aria-label="Reset to default country">✕</button>
+    <div class="tb-results" id="country-results"></div>
+  </div>
+
+  <div class="tb-search node">
+    <input type="text" id="node-search" class="tb-in" placeholder="Search or browse…" autocomplete="off">
+    <div class="tb-results" id="search-results"></div>
+  </div>
+
+  <div class="tb-right">
+    <button class="tb-btn" id="btn-expand">Expand</button>
+    <button class="tb-btn" id="btn-collapse">Collapse</button>
+    <button class="tb-btn" id="btn-fit">Fit</button>
+  </div>
+</div>
+
+<!-- SVG container -->
+<div id="tree-wrap"><svg id="svg"></svg></div>
+
+<!-- TITLE OVERLAY -->
+<div id="tree-title">
+  <div class="tt-country" id="tt-country">All</div>
+  <div class="tt-count" id="tt-count">—</div>
+</div>
+
+<!-- NODE PANEL -->
+<div id="node-panel">
+  <button class="np-close" id="np-close">✕</button>
+  <div class="np-head" id="np-head"></div>
+  <div class="np-rels" id="np-rels"></div>
+</div>
+
+<!-- NODE TOOLTIP -->
+<div id="node-tip" style="position:fixed;display:none;z-index:500;background:var(--s2);border:1px solid var(--b2);border-radius:4px;padding:12px 16px;pointer-events:none;box-shadow:0 6px 20px rgba(0,0,0,.5);max-width:420px">
+  <div id="nt-name" style="font-family:var(--disp);font-size:34px;color:var(--amber);letter-spacing:1px;line-height:1.1;text-transform:uppercase"></div>
+  <div id="nt-type" style="font-size:14px;font-weight:600;letter-spacing:1px;color:var(--text3);text-transform:uppercase;margin-top:6px;line-height:1.5"></div>
+</div>
+
+<!-- LEGEND -->
+<div id="legend">
+  <div class="lg-row"><span class="lg-dot" style="background:#2db87d"></span>Cooperation</div>
+  <div class="lg-row"><span class="lg-dot" style="background:#d63b3b"></span>Conflict</div>
+  <div class="lg-row"><span class="lg-dot" style="background:#ffa500"></span>Mixed</div>
+  <div class="lg-hint">Each organization appears once, sized by its number of links. A thicker line means more links between two groups. Click a connection to see every link, click an organization's name for its profile. Drag to pan, scroll to zoom.</div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════
+// EDGE TYPE CONFIG
+// ═══════════════════════════════════════════
+const ETYPES = [
+  { key:'cooperation', label:'Cooperation', color:'#2db87d', defaultOn:true },
+  { key:'conflict',    label:'Conflict',    color:'#d63b3b', defaultOn:true },
+  { key:'other',       label:'Other',       color:'#8090a0', defaultOn:false },
+];
+const ETYPE_MAP = Object.fromEntries(ETYPES.map(e=>[e.key,e]));
+
+const ORG_COLOR = '#637f99';
+const LABEL_COLOR = '#bdd0e8';
+const MIXED_COLOR = '#ffa500'; // a pair linked by more than one relationship type
+
+// Experimental: start second-layer links (org → connection) at the right edge of the
+// org's name text instead of at the org node circle. Set to false to revert.
+const LINK_FROM_LABEL = true;
+
+// Tree geometry: SIB = vertical gap between siblings, DEPTH = horizontal gap
+// between levels (root → org → connection). The layout runs top-down and is
+// rendered rotated 90° so depth reads left-to-right.
+const SIB = 44;
+const DEPTH = 320;
+
+// ═══════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════
+let G = null, NM = {}, ORG_SET = new Set();
+let activeTypes = new Set(ETYPES.filter(e=>e.defaultOn).map(e=>e.key));
+let svg_sel = null, g_sel = null;
+let layout = null, linkGen = null, zoom = null, segArc = null;
+let root = null;                 // d3 hierarchy node (mutated in place on expand/collapse)
+let expandedIds = new Set();     // org ids currently expanded
+
+const DEFAULT_COUNTRY = 'Brazil';
+let selectedCountry = null;
+let countryOrgs = {};            // country -> Set of org names based there (origin)
+let countryList = [];            // [{name, count}] sorted by name
+let subNodes = [], subLinks = [];// current country's induced subgraph
+let selOrgs = new Set();         // org ids highlighted (org profile or relationship pair)
+let selRel = null;               // relationship-leaf id highlighted (pair panel)
+
+const tick = () => new Promise(r=>setTimeout(r,0));
+const fmt = n => Number(n).toLocaleString();
+const esc = s => (s||'').replace(/'/g,"\\'");
+const truncate = (s, n) => (s && s.length > n) ? s.slice(0, n-1) + '…' : (s||'');
+const chipBase = 'display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:4px;font-size:12px;font-weight:700;letter-spacing:.5px;';
+
+function primaryDesc(node) {
+  if (!node) return '';
+  if (typeof node.description === 'string' && node.description) return node.description;
+  const d = node.descriptions;
+  if (Array.isArray(d) && d.length) return d[0];
+  return '';
+}
+
+function titleFromUrl(url) {
+  if (!url) return 'Wikipedia';
+  try {
+    const u = new URL(url);
+    const m = u.searchParams.get('title');
+    if (m) return decodeURIComponent(m.replace(/_/g,' '));
+    const path = u.pathname.split('/wiki/')[1];
+    if (path) return decodeURIComponent(path.split('?')[0].split('#')[0].replace(/_/g,' '));
+  } catch(e) {}
+  return 'Wikipedia';
+}
+
+// ═══════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════
+async function init() {
+  const setLD = (t,p) => {
+    document.getElementById('ld-msg').textContent = t;
+    document.getElementById('ld-fill').style.width = p+'%';
+  };
+  try {
+    setLD('Fetching crimenet.json…',15);
+    const res = await fetch('data/crimenet.json');
+    if(!res.ok) throw new Error(`HTTP ${res.status}`);
+    setLD('Parsing…',40); G = await res.json(); await tick();
+    setLD('Building index…',65);
+
+    const nodes = G.nodes || G.entities || [];
+    const edges = G.edges || G.relations || [];
+
+    nodes.forEach(n => {
+      const name = n.standard_name || n.name;
+      if (!name) return;
+      n._name = name;
+      NM[name] = n;
+      ORG_SET.add(name);
+    });
+
+    // Country membership: orgs BASED in a country (origin only, not footprints).
+    // Defunct organizations are excluded entirely.
+    nodes.forEach(n => {
+      const name = n.standard_name || n.name;
+      if (!name || !n.country) return;
+      if (n.is_defunct === true) return;
+      if (!countryOrgs[n.country]) countryOrgs[n.country] = new Set();
+      countryOrgs[n.country].add(name);
+    });
+    countryList = Object.keys(countryOrgs)
+      .map(c => ({ name:c, count: countryOrgs[c].size }))
+      .sort((a,b) => a.name.localeCompare(b.name));
+
+    // Deep-link ?country=Italy (or ?c=) overrides the default country.
+    const params = new URLSearchParams(location.search);
+    const qc = params.get('country') || params.get('c');
+    selectedCountry = (qc && countryOrgs[qc]) ? qc
+      : (countryOrgs[DEFAULT_COUNTRY] ? DEFAULT_COUNTRY : (countryList[0]?.name || null));
+
+    setLD('Rendering…',85); await tick();
+
+    buildFilters();
+    buildTreeLayout();
+    buildSearch();
+    buildCountrySearch();
+    setCountry(selectedCountry);
+
+    document.getElementById('loader').style.display = 'none';
+  } catch(e) {
+    document.getElementById('ld-err').style.display = 'block';
+    document.getElementById('ld-err').innerHTML = `⚠ Cannot load <code>data/crimenet.json</code><br>Check that the data/ directory is deployed alongside this page.<br><small style="color:#3a5060">${e.message}</small>`;
+    document.getElementById('ld-msg').style.display='none';
+    document.getElementById('ld-fill').parentElement.style.display='none';
+  }
+}
+
+// ═══════════════════════════════════════════
+// FILTERS
+// ═══════════════════════════════════════════
+function buildFilters() {
+  const bar = document.getElementById('tb-filters');
+  const group = document.createElement('div');
+  group.className = 'fgroup';
+  group.style.borderRight = 'none';
+
+  const lbl = document.createElement('span');
+  lbl.className = 'flbl';
+  lbl.textContent = 'EDGE TYPES:';
+  group.appendChild(lbl);
+
+  ETYPES.forEach(et => {
+    const btn = document.createElement('button');
+    btn.className = 'ftog' + (et.defaultOn?' on':'');
+    btn.dataset.t = et.key;
+    btn.textContent = et.label;
+    btn.style.setProperty('--fg', et.color);
+    btn.addEventListener('click', () => {
+      if(activeTypes.has(et.key)) { activeTypes.delete(et.key); btn.classList.remove('on'); }
+      else { activeTypes.add(et.key); btn.classList.add('on'); }
+      rebuildTree();
+    });
+    group.appendChild(btn);
+  });
+  bar.appendChild(group);
+  bindFilterScroll();
+}
+
+function bindFilterScroll() {
+  const bar = document.getElementById('tb-filters');
+  const left = document.getElementById('farrow-left');
+  const right = document.getElementById('farrow-right');
+  if (!bar || !left || !right) return;
+  const update = () => {
+    const max = bar.scrollWidth - bar.clientWidth;
+    const x = bar.scrollLeft;
+    left.classList.toggle('show', x > 4);
+    right.classList.toggle('show', x < max - 4);
+  };
+  const step = () => Math.max(160, Math.round(bar.clientWidth * 0.7));
+  left.addEventListener('click', () => bar.scrollBy({ left: -step(), behavior: 'smooth' }));
+  right.addEventListener('click', () => bar.scrollBy({ left: step(), behavior: 'smooth' }));
+  bar.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update);
+  bar.addEventListener('wheel', (e) => {
+    if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+      const max = bar.scrollWidth - bar.clientWidth;
+      if (max > 0) { bar.scrollLeft += e.deltaY; e.preventDefault(); }
+    }
+  }, { passive: false });
+  requestAnimationFrame(update);
+  setTimeout(update, 200);
+}
+
+// ═══════════════════════════════════════════
+// TREE LAYOUT
+// ═══════════════════════════════════════════
+function buildTreeLayout() {
+  const W = window.innerWidth, H = window.innerHeight - 90;
+  svg_sel = d3.select('#svg').attr('width', W).attr('height', H);
+  svg_sel.selectAll('*').remove();
+
+  zoom = d3.zoom().scaleExtent([.04, 8]).on('zoom', e => g_sel.attr('transform', e.transform));
+  svg_sel.call(zoom);
+  svg_sel.on('click', closePanel);
+
+  g_sel = svg_sel.append('g').style('will-change', 'transform');
+  g_sel.append('g').attr('class', 'link-layer');
+  g_sel.append('g').attr('class', 'node-layer');
+
+  layout = d3.tree().nodeSize([SIB, DEPTH]);
+  linkGen = d3.linkHorizontal().x(d => d.y).y(d => d.x);
+  segArc = d3.arc().innerRadius(0)
+    .outerRadius(d => d.r)
+    .startAngle(d => d.t0 * Math.PI * 2)
+    .endAngle(d => d.t1 * Math.PI * 2);
+
+  document.getElementById('btn-fit').addEventListener('click', () => fitTree(true));
+  document.getElementById('btn-expand').addEventListener('click', expandAll);
+  document.getElementById('btn-collapse').addEventListener('click', collapseAll);
+
+  window.addEventListener('resize', () => {
+    svg_sel.attr('width', window.innerWidth).attr('height', window.innerHeight - 90);
+  });
+}
+
+// Build the plain data tree: country root → orgs (sorted by degree) → connection
+// leaves. Multiple links between the same pair are collapsed into a single leaf,
+// coloured by type (or a mixed colour when the pair spans several types).
+function buildTreeData() {
+  const adj = {};
+  subLinks.forEach(l => {
+    (adj[l.source] = adj[l.source] || []).push(l);
+    (adj[l.target] = adj[l.target] || []).push(l);
+  });
+
+  const mkRelLeaf = (parent, edges) => {
+    const target = edges[0].source === parent ? edges[0].target : edges[0].source;
+    const types = Array.from(new Set(edges.map(e => e.type)));
+    const color = types.length === 1 ? (ETYPE_MAP[types[0]]?.color || '#8090a0') : MIXED_COLOR;
+    return {
+      id: `rel:${parent}|${target}`,
+      name: target,
+      kind: 'rel',
+      sourceOrg: parent,
+      targetOrg: target,
+      count: edges.length,
+      types,
+      color,
+      edges,
+    };
+  };
+
+  const mkOrg = n => {
+    const byTarget = {};
+    (adj[n.id] || []).forEach(e => {
+      if (!activeTypes.has(e.type)) return;
+      const other = e.source === n.id ? e.target : e.source;
+      (byTarget[other] = byTarget[other] || []).push(e);
+    });
+    const children = Object.keys(byTarget)
+      .map(t => mkRelLeaf(n.id, byTarget[t]))
+      .sort((a, b) => (b.count - a.count) || a.name.localeCompare(b.name));
+    return {
+      id: n.id,
+      name: n.id,
+      kind: 'org',
+      degree: n.degree,
+      children: children.length ? children : undefined,
+    };
+  };
+
+  const connected = subNodes.filter(n => n.degree > 0)
+    .sort((a,b) => (b.degree - a.degree) || a.id.localeCompare(b.id));
+  const isolated = subNodes.filter(n => n.degree === 0)
+    .sort((a,b) => a.id.localeCompare(b.id));
+
+  const orgs = [...connected.map(mkOrg), ...isolated.map(mkOrg)];
+
+  return {
+    id: 'root',
+    name: selectedCountry,
+    kind: 'country',
+    children: orgs,
+  };
+}
+
+// Rebuild the hierarchy from scratch (used on country change / type toggle),
+// applying the persisted expand state.
+function buildRoot() {
+  root = d3.hierarchy(buildTreeData());
+  root.each(d => {
+    if (d.data.kind === 'org' && d.children && !expandedIds.has(d.data.id)) {
+      d._children = d.children;
+      d.children = null;
+    }
+  });
+  layout(root);
+}
+
+function rebuildTree() {
+  buildRoot();
+  render(null);
+  updateStats();
+  applyHighlight();
+}
+
+// ═══════════════════════════════════════════
+// NODE RENDERING HELPERS
+// ═══════════════════════════════════════════
+function relSegments(d) {
+  const counts = {};
+  d.edges.forEach(e => { counts[e.type] = (counts[e.type] || 0) + 1; });
+  const total = d.edges.length || 1;
+  let acc = 0;
+  return Object.keys(counts).map(t => {
+    const frac = counts[t] / total;
+    const seg = { color: ETYPE_MAP[t]?.color || '#8090a0', t0: acc, t1: acc + frac };
+    acc += frac;
+    return seg;
+  });
+}
+
+function rFor(d) {
+  const k = d.data.kind;
+  if (k === 'country') return 18;
+  if (k === 'rel') return Math.min(12 + Math.log2(d.data.count + 1), 20);
+  return Math.max(10, Math.sqrt(d.data.degree || 1) * 2.2);
+}
+function fillFor(d) {
+  const k = d.data.kind;
+  if (k === 'country') return ORG_COLOR;
+  if (k === 'rel') return '#0b0e13'; // dark disc behind the proportional wedges
+  return ORG_COLOR;
+}
+function textLabel(d) {
+  const k = d.data.kind;
+  if (k === 'country') return d.data.name;
+  if (k === 'rel') return d.data.name + (d.data.count > 1 ? ' · ' + d.data.count : '');
+  const has = d.children || d._children;
+  const pre = has ? (d.children ? '▾ ' : '▸ ') : '';
+  return pre + d.data.name;
+}
+function textFill(d) {
+  const k = d.data.kind;
+  if (k === 'country') return LABEL_COLOR;
+  if (k === 'rel') return d.data.color || '#8090a0';
+  return LABEL_COLOR;
+}
+function textSize(d) {
+  if (d.data.kind === 'country') return 22;
+  if (d.data.kind === 'rel') return 18;
+  return 19;
+}
+function relStroke(t) {
+  if (t.data.kind === 'rel') return t.data.color || '#8090a0';
+  return '#2e4060';
+}
+function strokeW(t) {
+  if (t.data.kind === 'rel') return Math.min(1.3 + (t.data.count - 1) * 0.7, 5.5);
+  return 1.5;
+}
+
+function estLabelWidth(d) {
+  return textLabel(d).length * textSize(d) * 0.6;
+}
+
+// Custom link path: identical to linkGen, except second-layer links (org → connection)
+// can start at the right edge of the org's name text instead of at the node circle.
+function linkPath(d) {
+  const off = (LINK_FROM_LABEL && d.source.data && d.source.data.kind === 'org')
+    ? rFor(d.source) + 8 + estLabelWidth(d.source) : 0;
+  const sx = d.source.y + off;
+  const sy = d.source.x;
+  const tx = d.target.y;
+  const ty = d.target.x;
+  const mx = (sx + tx) / 2;
+  return `M${sx},${sy}C${mx},${sy},${mx},${ty},${tx},${ty}`;
+}
+
+// ═══════════════════════════════════════════
+// RENDER
+// ═══════════════════════════════════════════
+function render(source) {
+  if (!root) return;
+  source = source || { x:0, y:0 };
+  const duration = 450;
+
+  const nodes = root.descendants();
+  const links = root.links();
+
+  // Links
+  const linkLayer = g_sel.select('.link-layer');
+  const link = linkLayer.selectAll('path.link').data(links, d => d.target.data.id);
+  const linkEnter = link.enter().append('path')
+    .attr('class', 'link')
+    .attr('fill', 'none')
+    .attr('stroke', d => relStroke(d.target))
+    .attr('stroke-opacity', 0.35)
+    .attr('stroke-width', d => strokeW(d.target))
+    .attr('d', () => linkPath({ source, target: source }));
+  linkEnter.merge(link).transition().duration(duration)
+    .attr('d', d => linkPath(d))
+    .attr('stroke', d => relStroke(d.target))
+    .attr('stroke-width', d => strokeW(d.target));
+  link.exit().remove();
+
+  // Nodes
+  const nodeLayer = g_sel.select('.node-layer');
+  const node = nodeLayer.selectAll('g.node').data(nodes, d => d.data.id);
+
+  const nodeEnter = node.enter().append('g')
+    .attr('class', 'node')
+    .attr('transform', `translate(${source.y},${source.x})`)
+    .on('click', (e, d) => {
+      e.stopPropagation();
+      const onText = e.target && e.target.tagName === 'text';
+      handleNodeClick(d, onText);
+    })
+    .on('mouseover', (e, d) => showTip(e, d))
+    .on('mousemove', e => moveTip(e))
+    .on('mouseout', hideTip);
+
+  nodeEnter.append('circle')
+    .attr('r', 0)
+    .attr('fill', d => fillFor(d))
+    .attr('stroke', '#07080a')
+    .attr('stroke-width', 1.5);
+
+  nodeEnter.append('g').attr('class', 'segs');
+
+  nodeEnter.append('text')
+    .attr('dy', '0.32em')
+    .attr('x', d => rFor(d) + 8)
+    .attr('text-anchor', 'start')
+    .attr('font-family', 'Inter, sans-serif')
+    .attr('font-size', d => textSize(d))
+    .attr('font-weight', d => d.data.kind === 'country' ? 700 : 500)
+    .attr('fill', d => textFill(d))
+    .text(d => textLabel(d));
+
+  nodeEnter.append('circle')
+    .attr('class', 'ring')
+    .attr('fill', 'none')
+    .attr('stroke', 'none')
+    .attr('stroke-width', 2.5)
+    .attr('pointer-events', 'none')
+    .attr('r', d => rFor(d) + 3);
+
+  const nodeUpdate = nodeEnter.merge(node);
+  nodeUpdate.transition().duration(duration)
+    .attr('transform', d => `translate(${d.y},${d.x})`);
+
+  nodeUpdate.select('circle')
+    .attr('r', d => rFor(d))
+    .attr('fill', d => fillFor(d));
+
+  // Proportional pie for relationship leaves: one wedge per relationship type,
+  // sized by that type's share of the pair's links.
+  nodeUpdate.select('g.segs').each(function(d) {
+    const g = d3.select(this);
+    const segs = d.data.kind === 'rel' ? relSegments(d.data) : [];
+    const seg = g.selectAll('path').data(segs);
+    const segEnter = seg.enter().append('path');
+    segEnter.merge(seg)
+      .attr('stroke', segs.length > 1 ? '#07080a' : 'none')
+      .attr('stroke-width', 1)
+      .attr('fill', s => s.color)
+      .attr('d', s => segArc({ r: rFor(d), t0: s.t0, t1: s.t1 }));
+    seg.exit().remove();
+  });
+
+  nodeUpdate.select('.ring')
+    .attr('r', d => rFor(d) + 3);
+
+  nodeUpdate.select('text')
+    .attr('x', d => rFor(d) + 8)
+    .attr('font-size', d => textSize(d))
+    .attr('font-weight', d => d.data.kind === 'country' ? 700 : 500)
+    .attr('fill', d => textFill(d))
+    .text(d => textLabel(d));
+
+  node.exit().remove();
+
+  applyHighlight();
+}
+
+function handleNodeClick(d, onText) {
+  const k = d.data.kind;
+  if (k === 'country') return;
+  if (k === 'rel') { openRelPanel(d.data); return; }
+  const expandable = d.children || d._children;
+  if (onText) { openPanel(d.data.id); return; }
+  if (expandable) toggle(d);
+  else openPanel(d.data.id);
+}
+
+function toggle(d) {
+  if (d.children) {
+    d._children = d.children;
+    d.children = null;
+    expandedIds.delete(d.data.id);
+  } else {
+    d.children = d._children;
+    d._children = null;
+    expandedIds.add(d.data.id);
+  }
+  const src = { x: d.x, y: d.y };
+  layout(root);
+  render(src);
+}
+
+function expandAll() {
+  if (!root) return;
+  root.descendants().forEach(d => {
+    if (d.data.kind === 'org' && d._children) {
+      d.children = d._children;
+      d._children = null;
+      expandedIds.add(d.data.id);
+    }
+  });
+  layout(root);
+  render(null);
+}
+
+function collapseAll() {
+  expandedIds.clear();
+  buildRoot();
+  render(null);
+  applyHighlight();
+}
+
+function applyHighlight() {
+  if (!g_sel) return;
+  const any = selOrgs.size > 0 || !!selRel;
+  g_sel.selectAll('g.node').select('.ring')
+    .attr('stroke', d => (selRel && d.data.id === selRel) || selOrgs.has(d.data.id) ? 'var(--amber)' : 'none');
+  g_sel.selectAll('g.node').select('text')
+    .attr('fill', d => textFill(d))
+    .attr('fill-opacity', d => (any && d.data.kind === 'org' && !selOrgs.has(d.data.id)) ? 0.4 : 1);
+}
+
+function fitTree(animate) {
+  if (!root) return;
+  const W = window.innerWidth, H = window.innerHeight - 90;
+  let x0=Infinity, y0=Infinity, x1=-Infinity, y1=-Infinity;
+  root.descendants().forEach(d => {
+    const x = d.y, y = d.x;
+    if (x < x0) x0 = x;
+    if (y < y0) y0 = y; if (y > y1) y1 = y;
+    // Extend the right edge past each node's full label so long names are never cut.
+    const label = textLabel(d) || '';
+    const lw = label.length * textSize(d) * 0.6 + rFor(d) + 10;
+    if (x + lw > x1) x1 = x + lw;
+  });
+  if (!isFinite(x0)) return;
+  const pad = 70;
+  const bw = (x1 - x0) || 1, bh = (y1 - y0) || 1;
+  const scale = Math.min(W / (bw + pad*2), H / (bh + pad*2), 1.1);
+  const tx = W/2 - scale * (x0 + bw/2);
+  const ty = H/2 - scale * (y0 + bh/2);
+  const t = d3.zoomIdentity.translate(tx, ty).scale(scale);
+  if (animate) svg_sel.transition().duration(500).call(zoom.transform, t);
+  else svg_sel.call(zoom.transform, t);
+}
+
+// ═══════════════════════════════════════════
+// COUNTRY → SUBGRAPH
+// ═══════════════════════════════════════════
+function setCountry(name) {
+  if (!name || !countryOrgs[name]) return;
+  selectedCountry = name;
+  syncCountryUI();
+  closePanel();
+
+  const core = countryOrgs[name];
+  const links = [];
+  const deg = {};
+  (G.edges || G.relations || []).forEach(r => {
+    if (!ORG_SET.has(r.source) || !ORG_SET.has(r.target)) return;
+    if (!core.has(r.source) || !core.has(r.target)) return;
+    links.push({
+      source: r.source, target: r.target,
+      type: r.relationship,
+      descriptions: Array.isArray(r.descriptions) ? r.descriptions : (r.descriptions ? [r.descriptions] : []),
+      quote: r.evidence_quote || '',
+      time_periods: Array.isArray(r.time_periods) ? r.time_periods : [],
+      source_urls: Array.isArray(r.source_urls) ? r.source_urls : [],
+    });
+    deg[r.source] = (deg[r.source] || 0) + 1;
+    deg[r.target] = (deg[r.target] || 0) + 1;
+  });
+
+  subLinks = links;
+  subNodes = Array.from(core).map(n => ({ id: n, degree: deg[n] || 0 }));
+
+  // Reset expand state, then auto-expand the single most-connected hub so the
+  // tree doesn't open fully collapsed.
+  expandedIds = new Set();
+  let topHub = null;
+  subNodes.forEach(n => { if (n.degree > 0 && (!topHub || n.degree > topHub.degree)) topHub = n; });
+  if (topHub) expandedIds.add(topHub.id);
+
+  buildRoot();
+  render(null);
+  updateStats();
+  applyHighlight();
+  fitTree(true);
+}
+
+function updateStats() {
+  const visEdges = subLinks.filter(l => activeTypes.has(l.type));
+  document.getElementById('s-orgs').textContent = fmt(subNodes.length);
+  document.getElementById('s-edges').textContent = fmt(visEdges.length);
+  document.getElementById('s-country').textContent = selectedCountry || '—';
+  const ttCountry = document.getElementById('tt-country');
+  const ttCount = document.getElementById('tt-count');
+  if (ttCountry) ttCountry.textContent = selectedCountry || 'All';
+  if (ttCount) ttCount.textContent = fmt(subNodes.length) + (subNodes.length === 1 ? ' organization' : ' organizations');
+}
+
+// ═══════════════════════════════════════════
+// TOOLTIP
+// ═══════════════════════════════════════════
+function showTip(e, d) {
+  const tip = document.getElementById('node-tip');
+  const name = document.getElementById('nt-name');
+  const type = document.getElementById('nt-type');
+  const k = d.data.kind;
+  if (k === 'rel') {
+    name.textContent = d.data.sourceOrg + ' → ' + d.data.targetOrg;
+    name.style.fontSize = '20px';
+    const types = d.data.types || [];
+    const lbl = types.length === 1 ? (ETYPE_MAP[types[0]]?.label || types[0]) : 'Mixed';
+    const c = d.data.count || 1;
+    type.textContent = lbl + (c > 1 ? ' · ' + c + ' links' : '') + ' · click to view';
+    type.style.color = d.data.color || 'var(--text3)';
+  } else if (k === 'org') {
+    name.textContent = d.data.name;
+    name.style.fontSize = '34px';
+    const n = NM[d.data.name];
+    type.textContent = (n?.country || '') + (d.data.degree ? ' · ' + d.data.degree + ' links' : ' · no links');
+    type.style.color = 'var(--text3)';
+  } else {
+    name.textContent = d.data.name;
+    name.style.fontSize = '34px';
+    type.textContent = fmt(subNodes.length) + ' orgs · ' + fmt(subLinks.length) + ' links';
+    type.style.color = 'var(--text3)';
+  }
+  tip.style.display = 'block';
+  moveTip(e);
+}
+function moveTip(e) {
+  const tip = document.getElementById('node-tip');
+  const x = e.clientX + 14, y = e.clientY - 8;
+  const maxX = window.innerWidth - 440, maxY = window.innerHeight - 60;
+  tip.style.left = Math.min(x, maxX) + 'px';
+  tip.style.top = Math.min(y, maxY) + 'px';
+}
+function hideTip() { document.getElementById('node-tip').style.display = 'none'; }
+
+// ═══════════════════════════════════════════
+// NODE PANEL
+// ═══════════════════════════════════════════
+function openPanel(name) {
+  const n = NM[name]; if (!n) return;
+  selOrgs = new Set([name]);
+  selRel = null;
+
+  // Auto-expand this org in the tree so its connections become visible.
+  let expandedSomething = false;
+  root?.descendants().forEach(d => {
+    if (d.data.kind === 'org' && d.data.id === name && d._children) {
+      d.children = d._children;
+      d._children = null;
+      expandedIds.add(name);
+      expandedSomething = true;
+    }
+  });
+  if (expandedSomething) { layout(root); render(null); }
+  applyHighlight();
+
+  // Connections within the current country, grouped by type then by target org,
+  // with a count of how many links each pair shares.
+  const adj = subLinks.filter(l => l.source === name || l.target === name);
+  const connByType = {};
+  adj.forEach(l => {
+    const t = l.type;
+    const other = l.source === name ? l.target : l.source;
+    (connByType[t] = connByType[t] || {});
+    connByType[t][other] = (connByType[t][other] || 0) + 1;
+  });
+
+  const isDefunct = n.is_defunct === true;
+  const statusColor = isDefunct ? 'var(--red)' : 'var(--green)';
+  const statusLabel = isDefunct ? 'Defunct' : 'Active';
+  const fy = n.founded_year ? String(n.founded_year) : '';
+  const dy = n.dissolved_year ? String(n.dissolved_year) : '';
+  const tperiod = (typeof n.time_period === 'string' && n.time_period.toLowerCase() !== 'unknown')
+                  ? n.time_period.trim() : '';
+  let timeline = '';
+  if (fy || dy) timeline = `${fy || '?'}–${dy || (isDefunct ? '?' : 'present')}`;
+  else if (tperiod) timeline = tperiod;
+
+  let statusRow = `<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;align-items:center;">`;
+  statusRow += `<span style="${chipBase}text-transform:uppercase;border:1px solid ${statusColor};color:${statusColor};background:rgba(0,0,0,0.2);">
+      <span style="width:7px;height:7px;border-radius:50%;background:${statusColor};box-shadow:0 0 6px ${statusColor};"></span>${statusLabel}</span>`;
+  if (timeline) {
+    statusRow += `<span style="${chipBase}border:1px solid var(--b2);color:var(--text2);background:var(--s2);">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>${timeline}</span>`;
+  }
+  if (n.profiled !== true) {
+    statusRow += `<span title="No dedicated article — fields aggregated from mentions in other orgs' articles" style="${chipBase}text-transform:uppercase;border:1px dashed var(--b3);color:var(--text3);background:var(--s2);">Unprofiled</span>`;
+  }
+  statusRow += `</div>`;
+
+  let countryHtml = '';
+  if (n.country && n.country !== 'Unknown') {
+    countryHtml = `<div style="margin-bottom:14px;font-size:14px;color:var(--text2)">
+        <span style="font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--text3)">Origin · </span>
+        <span style="color:var(--text);font-weight:600">${n.country}</span>`;
+    if (Array.isArray(n.countries_active) && n.countries_active.length > 1) {
+      const otherCountries = n.countries_active.filter(c => c !== n.country);
+      if (otherCountries.length) {
+        countryHtml += `<br><span style="font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--text3)">Active · </span>
+          <span style="color:var(--text)">${otherCountries.join(', ')}</span>`;
+      }
+    }
+    countryHtml += `</div>`;
+  }
+
+  const ownSources = Array.isArray(n.own_sources) ? n.own_sources : [];
+  let srcHtml = '';
+  if (ownSources.length) {
+    srcHtml = `<div style="background:var(--s2);border:1px solid var(--b1);border-radius:6px;padding:12px;margin-bottom:16px;display:flex;flex-direction:column;gap:6px">
+      <span style="font-size:11px;font-weight:700;letter-spacing:1px;color:var(--text3);text-transform:uppercase">Origin Data · Main Article${ownSources.length>1?'s':''}</span>
+      ${ownSources.map(s => `<a href="${s.url}" target="_blank" rel="noopener" style="font-size:14px;color:var(--amber);text-decoration:none;font-weight:600;display:flex;align-items:center;gap:4px" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">${s.title||titleFromUrl(s.url)} <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>`).join('')}
+    </div>`;
+  }
+
+  const descText = primaryDesc(n);
+  const descHtml = descText ? `<div class="np-desc">${descText}</div>` : '';
+
+  document.getElementById('np-head').innerHTML = `
+    <div style="padding-right:40px;margin-bottom:10px;"><div class="np-name" style="margin-bottom:0;">${name}</div></div>
+    ${statusRow}
+    ${countryHtml}
+    ${srcHtml}
+    ${descHtml}`;
+
+  const TYPE_ORDER = ['cooperation', 'conflict', 'other'];
+  const order = TYPE_ORDER.concat(Object.keys(connByType).filter(t => !TYPE_ORDER.includes(t)));
+  let relsHtml = '';
+  order.forEach(type => {
+    const map = connByType[type];
+    if (!map || !Object.keys(map).length) return;
+    const col = ETYPE_MAP[type]?.color || '#607080';
+    const label = ETYPE_MAP[type]?.label || type;
+    const names = Object.keys(map).sort();
+    relsHtml += `<div class="np-sec open">
+      <div class="np-sec-hdr" onclick="this.parentElement.classList.toggle('open')">
+        <span class="np-sec-title" style="color:${col}">${label}</span>
+        <span class="np-sec-n">${names.length}</span>
+      </div><div class="np-items">`;
+    names.forEach(t => {
+      const cnt = map[t];
+      relsHtml += `<div class="np-item">
+        <div class="np-item-name" onclick="panelPair('${esc(name)}','${esc(t)}')">${t} <span style="font-size:14px;opacity:0.6;font-family:var(--body);font-weight:400">${cnt > 1 ? '· ' + cnt + ' links' : ''} ↗</span></div>
+      </div>`;
+    });
+    relsHtml += '</div></div>';
+  });
+
+  document.getElementById('np-rels').innerHTML = relsHtml ||
+    '<div style="padding:22px;color:var(--text3);font-size:15px;font-style:italic">No connections within this country.</div>';
+
+  document.getElementById('node-panel').classList.add('open');
+}
+
+// Relationship pair panel: every link between two orgs in the current country.
+function openRelPanel(d) {
+  const src = d.sourceOrg, tgt = d.targetOrg;
+  selOrgs = new Set([src, tgt]);
+  selRel = d.id;
+  let expandedSomething = false;
+  root?.descendants().forEach(x => {
+    if (x.data.kind === 'org' && selOrgs.has(x.data.id) && x._children) {
+      x.children = x._children;
+      x._children = null;
+      expandedIds.add(x.data.id);
+      expandedSomething = true;
+    }
+  });
+  if (expandedSomething) { layout(root); render(null); }
+  applyHighlight();
+  panelPair(src, tgt);
+}
+
+function panelPair(src, tgt) {
+  const edges = subLinks.filter(l => (l.source === src && l.target === tgt) || (l.source === tgt && l.target === src));
+  const byType = {};
+  edges.forEach(l => { (byType[l.type] = byType[l.type] || []).push(l); });
+
+  document.getElementById('np-head').innerHTML = `
+    <div style="padding-right:40px;margin-bottom:6px;">
+      <div class="np-name" style="margin-bottom:0;font-size:22px;">${src}</div>
+      <div style="font-size:15px;color:var(--text3);margin:2px 0 12px;">↔ ${tgt}</div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;align-items:center;">
+      <span style="${chipBase}border:1px solid var(--b2);color:var(--text2);background:var(--s2);">${edges.length} link${edges.length !== 1 ? 's' : ''}</span>
+    </div>`;
+
+  const TYPE_ORDER = ['cooperation', 'conflict', 'other'];
+  const order = TYPE_ORDER.concat(Object.keys(byType).filter(t => !TYPE_ORDER.includes(t)));
+  let html = '';
+  order.forEach(type => {
+    const list = byType[type];
+    if (!list || !list.length) return;
+    const col = ETYPE_MAP[type]?.color || '#607080';
+    const label = ETYPE_MAP[type]?.label || type;
+    html += `<div class="np-sec open">
+      <div class="np-sec-hdr" onclick="this.parentElement.classList.toggle('open')">
+        <span class="np-sec-title" style="color:${col}">${label}</span>
+        <span class="np-sec-n">${list.length}</span>
+      </div><div class="np-items">`;
+    list.forEach(l => {
+      const descs = Array.isArray(l.descriptions) ? l.descriptions : [];
+      const quote = l.quote || '';
+      const periods = Array.isArray(l.time_periods) ? l.time_periods.filter(Boolean) : [];
+      const urls = Array.isArray(l.source_urls) ? l.source_urls : [];
+      html += `<div class="np-item" style="flex-direction:column;align-items:stretch;gap:8px;">
+        ${quote ? `<div style="font-size:14px;color:var(--text);line-height:1.5;">“${truncate(quote, 500)}”</div>` : ''}
+        ${descs.length ? descs.map(dd => `<div style="font-size:14px;color:var(--text2);line-height:1.5;">${truncate(dd, 400)}</div>`).join('') : ''}
+        <div style="display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;">
+          ${periods.map(p => `<span style="${chipBase}border:1px solid var(--b2);color:var(--text2);background:var(--s2);">${p}</span>`).join('')}
+          ${urls.map(u => `<a href="${u}" target="_blank" rel="noopener" style="font-size:13px;color:var(--amber);text-decoration:none;font-weight:600;">${titleFromUrl(u)}</a>`).join('')}
+        </div>
+      </div>`;
+    });
+    html += '</div></div>';
+  });
+
+  document.getElementById('np-rels').innerHTML = html || '<div style="padding:22px;color:var(--text3);font-size:15px;font-style:italic">No links between these organizations within this country.</div>';
+  document.getElementById('node-panel').classList.add('open');
+}
+
+function closePanel() {
+  if (!selOrgs.size && !selRel) return;
+  selOrgs = new Set();
+  selRel = null;
+  applyHighlight();
+  document.getElementById('node-panel').classList.remove('open');
+}
+
+document.getElementById('np-close').addEventListener('click', closePanel);
+
+// ═══════════════════════════════════════════
+// COUNTRY SELECTOR
+// ═══════════════════════════════════════════
+function syncCountryUI() {
+  const input = document.getElementById('country-search');
+  const stat = document.getElementById('s-country');
+  const clearBtn = document.getElementById('country-clear');
+  input.value = selectedCountry || '';
+  stat.textContent = selectedCountry || '—';
+  clearBtn.classList.add('show');
+}
+
+function buildCountrySearch() {
+  const input = document.getElementById('country-search');
+  const resultsEl = document.getElementById('country-results');
+  const clearBtn = document.getElementById('country-clear');
+  let hideTimeout = null;
+
+  function render(q) {
+    const query = (q || '').trim().toLowerCase();
+    let matches;
+    if (!query) matches = countryList.slice(0, 40);
+    else matches = countryList.filter(c => c.name.toLowerCase().includes(query)).slice(0, 25);
+    if (!matches.length) {
+      resultsEl.innerHTML = '<div style="padding:12px 16px;font-size:16px;font-weight:500;color:var(--text3)">No country found</div>';
+      resultsEl.style.display = 'block';
+      return;
+    }
+    resultsEl.innerHTML = `<div class="hint">${query ? 'Matching countries' : 'All countries'}</div>` + matches.map((c, i) => {
+      let display;
+      if (query) {
+        const idx = c.name.toLowerCase().indexOf(query);
+        display = c.name.slice(0, idx) + '<span style="color:var(--amber);font-weight:700">' + c.name.slice(idx, idx + query.length) + '</span>' + c.name.slice(idx + query.length);
+      } else display = c.name;
+      return `<div class="cr-item" data-idx="${i}" style="padding:10px 16px;font-size:16px;font-weight:500;color:var(--text2);cursor:pointer;transition:background .08s;display:flex;align-items:center;justify-content:space-between;gap:12px"
+        onmouseover="this.style.background='rgba(232,160,32,.08)';this.style.color='var(--text)'"
+        onmouseout="this.style.background='none';this.style.color='var(--text2)'">
+        <span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;">${display}</span>
+        <span style="font-size:13px;font-weight:700;color:var(--text3);flex-shrink:0">${fmt(c.count)} orgs</span>
+      </div>`;
+    }).join('');
+    resultsEl.style.display = 'block';
+    resultsEl._matches = matches;
+    resultsEl.querySelectorAll('.cr-item').forEach(el => {
+      el.addEventListener('mousedown', function(e) {
+        e.preventDefault();
+        const name = resultsEl._matches[parseInt(this.dataset.idx)].name;
+        resultsEl.style.display = 'none';
+        setCountry(name);
+      });
+    });
+  }
+
+  input.addEventListener('focus', function() {
+    if (hideTimeout) clearTimeout(hideTimeout);
+    render(this.value);
+  });
+  input.addEventListener('input', function() { render(this.value); });
+  input.addEventListener('blur', function() {
+    hideTimeout = setTimeout(() => { resultsEl.style.display = 'none'; }, 200);
+  });
+  input.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { setCountry(DEFAULT_COUNTRY); resultsEl.style.display = 'none'; }
+    if (e.key === 'Enter') {
+      const first = resultsEl._matches?.[0];
+      if (first) { resultsEl.style.display = 'none'; setCountry(first.name); }
+    }
+  });
+  clearBtn.addEventListener('click', () => setCountry(DEFAULT_COUNTRY));
+}
+
+// ═══════════════════════════════════════════
+// SEARCH (organizations, scoped to the current country)
+// ═══════════════════════════════════════════
+function buildSearch() {
+  const input = document.getElementById('node-search');
+  const resultsEl = document.getElementById('search-results');
+  let hideTimeout = null;
+
+  function getSortedNames() {
+    return subNodes.slice().sort((a,b) => (b.degree - a.degree) || a.id.localeCompare(b.id)).map(d => d.id);
+  }
+
+  function renderResults(q) {
+    const nameList = getSortedNames();
+    const query = (q || '').trim().toLowerCase();
+    let matches;
+    if (query.length === 0) matches = nameList.slice(0, 40);
+    else matches = nameList.filter(n => n.toLowerCase().includes(query)).slice(0, 25);
+    if (!matches.length) {
+      resultsEl.innerHTML = '<div style="padding:12px 16px;font-size:16px;font-weight:500;color:var(--text3)">No results</div>';
+      resultsEl.style.display = 'block';
+      return;
+    }
+    resultsEl.innerHTML = matches.map((n, i) => {
+      let display;
+      if (query.length > 0) {
+        const idx = n.toLowerCase().indexOf(query);
+        display = n.slice(0, idx) + '<span style="color:var(--amber);font-weight:700">' + n.slice(idx, idx + query.length) + '</span>' + n.slice(idx + query.length);
+      } else display = n;
+      return `<div class="sr-item" data-idx="${i}" style="padding:10px 16px;font-size:16px;font-weight:500;color:var(--text2);cursor:pointer;transition:background .08s;display:flex;align-items:center;gap:12px"
+        onmouseover="this.style.background='rgba(232,160,32,.08)';this.style.color='var(--text)'"
+        onmouseout="this.style.background='none';this.style.color='var(--text2)'">
+        <span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;">${display}</span>
+      </div>`;
+    }).join('');
+    resultsEl.style.display = 'block';
+    resultsEl._matches = matches;
+    resultsEl.querySelectorAll('.sr-item').forEach(el => {
+      el.addEventListener('mousedown', function(e) {
+        e.preventDefault();
+        const idx = parseInt(this.dataset.idx);
+        const name = resultsEl._matches[idx];
+        if (!name) return;
+        input.value = name;
+        resultsEl.style.display = 'none';
+        openPanel(name);
+      });
+    });
+  }
+
+  input.addEventListener('focus', function() {
+    if (hideTimeout) clearTimeout(hideTimeout);
+    renderResults(this.value);
+  });
+  input.addEventListener('input', function() { renderResults(this.value); });
+  input.addEventListener('blur', function() {
+    hideTimeout = setTimeout(() => { resultsEl.style.display = 'none'; }, 200);
+  });
+  input.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { this.value = ''; resultsEl.style.display = 'none'; closePanel(); }
+    if (e.key === 'Enter') {
+      const first = resultsEl._matches?.[0];
+      if (first) { input.value = first; resultsEl.style.display = 'none'; openPanel(first); }
+    }
+  });
+}
+
+init();
+</script>
+</body>
+</html>
