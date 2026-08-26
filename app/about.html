@@ -195,7 +195,7 @@ explore how criminal organizations connect.
     h1: 'Sobre o CRIMENET',
     intro: 'CRIMENET é um catálogo de organizações criminosas mapeado exclusivamente a partir de dados abertos da Wikipédia.',
     why: 'Como funciona',
-    'why-1': 'Os dados foram extraídos de 1.418 artigos da Wikipédia em inglês, italiano, português e espanhol. Esses artigos cobrem cartéis, máfias, gangues, motoclubes, tríades, clãs, facções, milícias e grupos terroristas.',
+    'why-1': 'Os dados foram extraídos de 1418 artigos da Wikipédia em inglês, italiano, português e espanhol. Esses artigos cobrem cartéis, máfias, gangues, motoclubes, tríades, clãs, facções, milícias e grupos terroristas.',
     'why-2': 'Um sistema de LLM (modelo de linguagem) lê cada artigo, extrai toda organização mencionada e toda cooperação, conflito ou outro vínculo documentado entre elas. Cada conexão carrega a frase literal da Wikipédia que a justifica, uma descrição parafraseada, um período de tempo extraído e uma URL de fonte versionada. Qualquer afirmação pode ser auditada até a revisão específica do artigo específico de onde veio.',
     'most-extensive': '',
     'most-extensive-1': '',
@@ -220,6 +220,7 @@ explore how criminal organizations connect.
   var TITLES = { en: 'About CRIMENET', pt: 'Sobre o CRIMENET' };
   var els = Array.from(document.querySelectorAll('[data-i18n]'));
   var statSpans = Array.from(document.querySelectorAll('.stat span'));
+  var statNums = Array.from(document.querySelectorAll('.stat b'));
   var btn = document.getElementById('lang-toggle');
   var lang = 'en';
   try { lang = localStorage.getItem('crimenet-lang') || 'en'; } catch (e) {}
@@ -244,6 +245,14 @@ explore how criminal organizations connect.
       var t = s.textContent.trim();
       if (l === 'pt' && STAT_PT[t]) s.textContent = STAT_PT[t];
       else if (l === 'en' && STAT_EN[t]) s.textContent = STAT_EN[t];
+    });
+    statNums.forEach(function (b) {
+      if (l === 'pt') {
+        if (b.dataset.en === undefined) b.dataset.en = b.textContent;
+        b.textContent = b.textContent.replace(/,/g, '');
+      } else if (b.dataset.en !== undefined) {
+        b.textContent = b.dataset.en;
+      }
     });
     try { localStorage.setItem('crimenet-lang', l); } catch (e) {}
   }
