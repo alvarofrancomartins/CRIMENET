@@ -18,6 +18,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/main.css">
 <style>
+.lang-toggle{position:fixed;top:14px;right:16px;z-index:20;font:600 13px/1 var(--body);
+  padding:8px 16px;border-radius:999px;cursor:pointer;letter-spacing:.5px;
+  color:var(--amber);border:1px solid var(--amber2);
+  background:linear-gradient(180deg,rgba(232,160,32,.16),rgba(232,160,32,.05))}
+.lang-toggle:hover{opacity:.85}
 /* Mobile only: tighten the single-column About layout on small screens.
    Desktop is untouched (this only applies at phone widths). */
 @media (max-width: 640px) {
@@ -30,13 +35,15 @@
 </style>
 </head>
 <body>
+<button id="lang-toggle" class="lang-toggle" type="button" aria-label="Mudar idioma">Português</button>
+
 <div class="wrap">
 
-<div class="crumb"><a href="index.html">CRIMENET</a> <span>/</span> About</div>
+<div class="crumb"><a href="index.html">CRIMENET</a> <span>/</span> <span data-i18n="crumb">About</span></div>
 
-<h1>About CRIMENET</h1>
+<h1 data-i18n="h1">About CRIMENET</h1>
 
-<div class="desc">
+<div class="desc" data-i18n="intro">
 CRIMENET is the first open source Knowledge Graph of global organized crime, and
 to my knowledge the most extensive catalog of criminal organizations ever assembled.
 Every node and every relationship is traceable to a versioned Wikipedia source.
@@ -51,16 +58,16 @@ Every node and every relationship is traceable to a versioned Wikipedia source.
   <div class="stat"><b>4</b><span>Languages</span></div>
 </div>
 
-<div class="section-h">Why this exists</div>
+<div class="section-h" data-i18n="why">Why this exists</div>
 
-<p class="desc">
+<p class="desc" data-i18n="why-1">
 CRIMENET maps criminal organizations and their relationships into a single,
 searchable graph. It covers cartels, mafias, gangs, motorcycle clubs, triads,
 clans, factions, militias, and terrorist groups, drawn from 1,418 Wikipedia
 articles in English, Italian, Portuguese, and Spanish.
 </p>
 
-<p class="desc">
+<p class="desc" data-i18n="why-2">
 An LLM pipeline reads each article and extracts every organization mentioned and
 every alliance, rivalry, or other tie between them. Every edge carries the verbatim
 Wikipedia sentence that justifies it, a paraphrased description, an extracted time
@@ -68,9 +75,9 @@ period, and a versioned source URL. Any claim can be audited back to the specifi
 revision of the specific article it came from.
 </p>
 
-<div class="section-h">The most extensive catalog of its kind</div>
+<div class="section-h" data-i18n="most-extensive">The most extensive catalog of its kind</div>
 
-<p class="desc">
+<p class="desc" data-i18n="most-extensive-1">
 There is, to my knowledge, no larger directory of criminal organizations anywhere.
 Wikipedia's own
 <a href="https://en.wikipedia.org/wiki/List_of_criminal_enterprises,_gangs,_and_syndicates" target="_blank" rel="noopener">list of criminal enterprises, gangs, and syndicates</a>
@@ -81,7 +88,7 @@ organizations mapped across nearly 11,000 relationships, each one backed by a sp
 Wikipedia source.
 </p>
 
-<p class="desc">
+<p class="desc" data-i18n="most-extensive-2">
 This was an accidental achievement. The goal was to build a Knowledge Graph of how
 criminal organizations relate to each other, not to catalog every group mentioned on
 Wikipedia. But because the LLM pipeline reads 1,418 articles across four
@@ -91,9 +98,9 @@ Italian, Portuguese, and Spanish Wikipedia. CRIMENET became the comprehensive
 list that did not exist before.
 </p>
 
-<div class="section-h">What CRIMENET does not claim</div>
+<div class="section-h" data-i18n="not-claim">What CRIMENET does not claim</div>
 
-<p class="desc">
+<p class="desc" data-i18n="not-claim-1">
 The graph reflects what was found in the articles processed. Not every organization
 retrieved in the process is necessarily a criminal organization. Some state forces,
 political parties, or other non-criminal entities may have slipped in. The LLM pipeline
@@ -105,9 +112,9 @@ catalog available, it is certainly not exhaustive: organized crime is by nature
 hidden, and many groups operate below the threshold of public documentation.
 </p>
 
-<div class="section-h">Open source</div>
+<div class="section-h" data-i18n="open-source">Open source</div>
 
-<p class="desc">
+<p class="desc" data-i18n="open-source-1">
 The code, the dataset, the pipeline, and a detailed technical report are all open source.
 The GitHub repository has the full pipeline, the audit tools, and the build system that
 turns the data into this site.
@@ -115,7 +122,7 @@ turns the data into this site.
 
 <div class="section-h">CRIMENET AI</div>
 
-<p class="desc">
+<p class="desc" data-i18n="when-to-use">
 <strong>When to use what.</strong> For specific, structured queries (looking up a single
 organization, finding all edges between two specific orgs, seeing which orgs operate in a
 given country, browsing community clusters, or exploring triadic signals), use the
@@ -129,7 +136,7 @@ tools and synthesizes an answer. As with any LLM response, verify claims against
 source evidence the answer cites.
 </p>
 
-<p class="desc">
+<p class="desc" data-i18n="graphrag">
 This is a complete example of <strong>GraphRAG</strong>, retrieval-augmented generation
 over a Knowledge Graph. Instead of searching documents by keyword similarity, the AI
 queries the graph's actual structure: it looks up organizations, traces connections
@@ -145,9 +152,9 @@ site. Every answer cites the underlying Wikipedia sources, so claims remain trac
 and auditable.
 </p>
 
-<div class="section-h">Explore</div>
+<div class="section-h" data-i18n="explore">Explore</div>
 
-<p class="desc">
+<p class="desc" data-i18n="explore-map">
 An interactive world map of cross-border organized crime. Each country shows the
 organizations based there and foreign groups operating within its borders, drawn
 from CRIMENET's documented country footprints.
@@ -155,11 +162,11 @@ from CRIMENET's documented country footprints.
 
 <a class="explore-card" href="footprints.html" style="max-width:300px">
 <span class="explore-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
-<span class="explore-tx"><b>Footprints</b></span>
+<span class="explore-tx"><b data-i18n="footprints">Footprints</b></span>
 <span class="explore-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></span>
 </a>
 
-<p class="desc" style="margin-top:28px">
+<p class="desc" style="margin-top:28px" data-i18n="explore-3d">
 An interactive 3D network of the full graph, nearly 5,000 organizations and nearly
 11,000 relationships rendered as a force-directed layout. Pan, zoom, and hover to
 explore how criminal organizations connect.
@@ -167,18 +174,83 @@ explore how criminal organizations connect.
 
 <a class="explore-card" href="knowledge_graph.html" style="max-width:300px">
 <span class="explore-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 21 7v10l-9 5-9-5V7z"/><path d="M12 22V12"/><path d="M21 7l-9 5-9-5"/></svg></span>
-<span class="explore-tx"><b>Knowledge Graph</b></span>
+<span class="explore-tx"><b data-i18n="knowledge-graph">Knowledge Graph</b></span>
 <span class="explore-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></span>
 </a>
 
 <div class="cta" style="display:flex;gap:12px;flex-wrap:wrap;margin-top:28px">
 <a class="btn" href="https://github.com/alvarofrancomartins/CRIMENET" target="_blank" rel="noopener">
-GitHub Repository
+<span data-i18n="github">GitHub Repository</span>
 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
 </a>
-<a class="btn" href="index.html">Browse All</a>
+<a class="btn" href="index.html" data-i18n="browse-all">Browse All</a>
 </div>
 
 </div>
+
+<script>
+(function () {
+  var PT = {
+    crumb: 'Sobre',
+    h1: 'Sobre o CRIMENET',
+    intro: 'CRIMENET é um catálogo de organizações criminosas mapeado exclusivamente a partir de dados abertos da Wikipédia.',
+    why: 'Como funciona',
+    'why-1': 'Os dados foram extraídos de 1.418 artigos da Wikipédia em inglês, italiano, português e espanhol. Esses artigos cobrem cartéis, máfias, gangues, motoclubes, tríades, clãs, facções, milícias e grupos terroristas.',
+    'why-2': 'Um sistema de LLM (modelo de linguagem) lê cada artigo, extrai toda organização mencionada e toda cooperação, conflito ou outro vínculo documentado entre elas. Cada conexão carrega a frase literal da Wikipédia que a justifica, uma descrição parafraseada, um período de tempo extraído e uma URL de fonte versionada. Qualquer afirmação pode ser auditada até a revisão específica do artigo específico de onde veio.',
+    'most-extensive': '',
+    'most-extensive-1': '',
+    'most-extensive-2': '',
+    'not-claim': 'O que o CRIMENET não afirma',
+    'not-claim-1': 'O grafo reflete o que foi encontrado nos artigos processados. Nem toda organização recuperada no processo é necessariamente uma organização criminosa. Algumas forças estatais, partidos políticos ou outras entidades não criminosas podem ter entrado. O pipeline de LLM não é perfeito e, ocasionalmente, deixa de capturar uma conexão ou classifica mal alguma. Além disso, a própria Wikipédia está longe de documentar todo vínculo do mundo real.',
+    'open-source': 'Código aberto',
+    'open-source-1': 'O código, o conjunto de dados, o pipeline e um relatório técnico detalhado são todos de código aberto. O repositório do GitHub tem o pipeline completo, as ferramentas de auditoria e o sistema de build que transforma os dados neste site.',
+    'when-to-use': 'Para consultas específicas (procurar uma única organização, encontrar todas as ligações entre duas organizações específicas, ver quais organizações operam em um determinado país), use as abas dedicadas no <a href="browse.html">buscador de conexões</a> e no <a href="index.html">painel</a>. Já para perguntas complexas que combinam várias informações (rastrear relações indiretas por meio de intermediários, comparar organizações entre países, classificar por influência de rede), use <a href="ask.html">CRIMENET AI</a>. A IA consulta a estrutura da rede por meio de ferramentas avançadas e sintetiza uma resposta. Como em qualquer resposta de IA, verifique as afirmações contra a evidência de fonte citada na resposta.',
+    graphrag: '',
+    explore: 'Explorar',
+    'explore-map': 'Veja abaixo um mapa geográfico do crime organizado e suas conexões com outros países.',
+    footprints: 'Mapa',
+    'explore-3d': 'Veja abaixo uma visualização 3D da rede completa.',
+    'knowledge-graph': 'Grafo de Conhecimento',
+    github: 'Repositório GitHub',
+    'browse-all': 'Ver todos'
+  };
+  var STAT_PT = { Organizations: 'Organizações', Relationships: 'Relações', 'Wikipedia Articles': 'Artigos da Wikipédia', Languages: 'Idiomas' };
+  var STAT_EN = {};
+  Object.keys(STAT_PT).forEach(function (k) { STAT_EN[STAT_PT[k]] = k; });
+  var TITLES = { en: 'About CRIMENET', pt: 'Sobre o CRIMENET' };
+  var els = Array.from(document.querySelectorAll('[data-i18n]'));
+  var statSpans = Array.from(document.querySelectorAll('.stat span'));
+  var btn = document.getElementById('lang-toggle');
+  var lang = 'en';
+  try { lang = localStorage.getItem('crimenet-lang') || 'en'; } catch (e) {}
+
+  function apply(l) {
+    lang = l;
+    document.documentElement.lang = (l === 'pt') ? 'pt-BR' : 'en';
+    document.title = TITLES[l];
+    if (btn) btn.textContent = (l === 'pt') ? 'English' : 'Português';
+    els.forEach(function (el) {
+      var key = el.getAttribute('data-i18n');
+      if (l === 'pt' && PT[key] !== undefined) {
+        el.dataset.en = el.innerHTML;
+        el.innerHTML = PT[key];
+        el.style.display = (PT[key] === '') ? 'none' : '';
+      } else if (l === 'en' && el.dataset.en !== undefined) {
+        el.innerHTML = el.dataset.en;
+        el.style.display = '';
+      }
+    });
+    statSpans.forEach(function (s) {
+      var t = s.textContent.trim();
+      if (l === 'pt' && STAT_PT[t]) s.textContent = STAT_PT[t];
+      else if (l === 'en' && STAT_EN[t]) s.textContent = STAT_EN[t];
+    });
+    try { localStorage.setItem('crimenet-lang', l); } catch (e) {}
+  }
+
+  if (btn) btn.addEventListener('click', function () { apply(lang === 'pt' ? 'en' : 'pt'); });
+  if (lang === 'pt') apply('pt');
+})();
+</script>
 </body>
 </html>
