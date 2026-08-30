@@ -18,30 +18,38 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/ask.css">
+<style>
+.lang-toggle{position:fixed;top:14px;right:16px;z-index:20;font:600 13px/1 var(--body);
+  padding:8px 16px;border-radius:999px;cursor:pointer;letter-spacing:.5px;
+  color:var(--amber);border:1px solid var(--amber2);
+  background:linear-gradient(180deg,rgba(232,160,32,.16),rgba(232,160,32,.05))}
+.lang-toggle:hover{opacity:.85}
+</style>
 </head>
 <body>
+<button id="lang-toggle" class="lang-toggle" type="button" aria-label="Mudar idioma">Português</button>
 
 <div id="ask-centered">
   <div class="ask-topbar">
     <div class="crumb"><a href="index.html">CRIMENET</a> <span>/</span> CRIMENET AI</div>
   </div>
 
-  <div class="ds-about-modal" id="ds-about-modal" role="dialog" aria-modal="true" aria-label="About CRIMENET AI">
+  <div class="ds-about-modal" id="ds-about-modal" role="dialog" aria-modal="true" aria-label="About CRIMENET AI" data-i18n-aria="aria-about">
     <div class="ds-about-box">
-      <button type="button" class="ds-about-close" id="ds-about-close" aria-label="Close">
+      <button type="button" class="ds-about-close" id="ds-about-close" aria-label="Close" data-i18n-aria="aria-close">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
       </button>
-      <p><strong>CRIMENET AI answers questions about organized crime.</strong></p>
-      <p>It queries a knowledge graph of 4,504 criminal organizations and 10,935 relationships between them. Everything extracted from Wikipedia.</p>
-      <p>The engine is a GraphRAG system I built from scratch. It connects a Large Language Model directly to a knowledge graph, so the model reasons from evidence instead of inventing facts.</p>
+      <p data-i18n="about-1"><strong>CRIMENET is a research project that aims to understand how organized crime works.</strong></p>
+      <p data-i18n="about-2">This page answers questions about organized crime by querying a knowledge graph on criminal organizations, all extracted from Wikipedia.</p>
+      <p data-i18n="about-3">A large language model is connected directly to the graph, so it reasons from the evidence instead of inventing facts.</p>
       <div class="ds-about-points">
         <div class="ds-notice-item">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-          <span><strong>Like any AI, CRIMENET AI can make mistakes.</strong> You can double check any information on the <a href="index.html">dashboard</a> and the <a href="browse.html">network browser</a>.</span>
+          <span data-i18n="about-note-1"><strong>Like any AI, CRIMENET AI can make mistakes.</strong> You can double check any information on the <a href="index.html">dashboard</a> and the <a href="browse.html">network browser</a>.</span>
         </div>
         <div class="ds-notice-item">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-          <span><strong>Nothing is saved.</strong> Copy anything you want to keep before you leave.</span>
+          <span data-i18n="about-note-2"><strong>Nothing is saved.</strong> Copy anything you want to keep before you leave.</span>
         </div>
       </div>
     </div>
@@ -51,7 +59,7 @@
     <div class="ds-notice">
       <button type="button" class="ds-about-toggle" id="ds-about-toggle" aria-haspopup="dialog" aria-expanded="false" aria-controls="ds-about-modal">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-        <span>About</span>
+        <span data-i18n="about-btn">About</span>
       </button>
     </div>
     <div class="ds-centered">
@@ -63,9 +71,9 @@
         <div class="ds-search-wrapper">
           <div class="ds-search-pill">
             <textarea id="ds-input" class="ds-textarea" rows="1"
-              placeholder="Ask about organized crime"
+              placeholder="Ask about organized crime" data-i18n-placeholder="ph-ask"
               autocomplete="off" spellcheck="false"></textarea>
-            <button type="button" class="ds-send-btn" id="ds-send" aria-label="Send">
+            <button type="button" class="ds-send-btn" id="ds-send" aria-label="Send" data-i18n-aria="aria-send">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
             </button>
           </div>
@@ -75,63 +83,63 @@
 
     <div class="ds-suggestions">
         <button type="button" class="ask-examples-toggle" id="ask-examples-toggle" aria-expanded="true" aria-controls="ask-examples-body">
-          Examples
+          <span data-i18n="examples">Examples</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div class="ask-examples-body" id="ask-examples-body">
         <div class="ask-examples-grid">
 
         <div class="ask-examples-group">
-          <div class="ask-examples-group-title">Organizations</div>
-          <button class="ask-example" data-prompt="Tell me about the Sinaloa Cartel">Tell me about the Sinaloa Cartel</button>
-          <button class="ask-example" data-prompt="What are the main 'Ndrangheta 'ndrine?">What are the main 'Ndrangheta 'ndrine?</button>
-          <button class="ask-example" data-prompt="Which motorcycle clubs are defunct?">Which motorcycle clubs are defunct?</button>
-          <button class="ask-example" data-prompt="What is the history of the Camorra?">What is the history of the Camorra?</button>
-          <button class="ask-example" data-prompt="What are the oldest criminal organizations still active?">What are the oldest criminal organizations still active?</button>
+          <div class="ask-examples-group-title" data-i18n="grp-org">Organizations</div>
+          <button class="ask-example" data-i18n="ex-sinaloa" data-prompt="Tell me about the Sinaloa Cartel">Tell me about the Sinaloa Cartel</button>
+          <button class="ask-example" data-i18n="ex-ndrine" data-prompt="What are the main 'Ndrangheta 'ndrine?">What are the main 'Ndrangheta 'ndrine?</button>
+          <button class="ask-example" data-i18n="ex-mc-defunct" data-prompt="Which motorcycle clubs are defunct?">Which motorcycle clubs are defunct?</button>
+          <button class="ask-example" data-i18n="ex-camorra" data-prompt="What is the history of the Camorra?">What is the history of the Camorra?</button>
+          <button class="ask-example" data-i18n="ex-oldest" data-prompt="What are the oldest criminal organizations still active?">What are the oldest criminal organizations still active?</button>
         </div>
 
         <div class="ask-examples-group">
-          <div class="ask-examples-group-title">Relationships &amp; Networks</div>
-          <button class="ask-example" data-prompt="What's the relationship between the Sinaloa Cartel and CJNG?">What's the relationship between the Sinaloa Cartel and CJNG?</button>
-          <button class="ask-example" data-prompt="Who are the Sinaloa Cartel's closest allies?">Who are the Sinaloa Cartel's closest allies?</button>
-          <button class="ask-example" data-prompt="How are Hells Angels and the 'Ndrangheta connected?">How are Hells Angels and the 'Ndrangheta connected?</button>
-          <button class="ask-example" data-prompt="What is the local network around the American Mafia?">What is the local network around the American Mafia?</button>
-          <button class="ask-example" data-prompt="What criminal organizations does the Sinaloa Cartel have conflicts with?">What criminal organizations does the Sinaloa Cartel have conflicts with?</button>
+          <div class="ask-examples-group-title" data-i18n="grp-rel">Relationships &amp; Networks</div>
+          <button class="ask-example" data-i18n="ex-sinaloa-cjng" data-prompt="What's the relationship between the Sinaloa Cartel and CJNG?">What's the relationship between the Sinaloa Cartel and CJNG?</button>
+          <button class="ask-example" data-i18n="ex-sinaloa-allies" data-prompt="Who are the Sinaloa Cartel's closest allies?">Who are the Sinaloa Cartel's closest allies?</button>
+          <button class="ask-example" data-i18n="ex-ha-ndrangheta" data-prompt="How are Hells Angels and the 'Ndrangheta connected?">How are Hells Angels and the 'Ndrangheta connected?</button>
+          <button class="ask-example" data-i18n="ex-am-local" data-prompt="What is the local network around the American Mafia?">What is the local network around the American Mafia?</button>
+          <button class="ask-example" data-i18n="ex-sinaloa-conflicts" data-prompt="What criminal organizations does the Sinaloa Cartel have conflicts with?">What criminal organizations does the Sinaloa Cartel have conflicts with?</button>
         </div>
 
         <div class="ask-examples-group">
-          <div class="ask-examples-group-title">Countries &amp; Geography</div>
-          <button class="ask-example" data-prompt="What criminal organizations operate in Brazil?">What criminal organizations operate in Brazil?</button>
-          <button class="ask-example" data-prompt="Which countries does the 'Ndrangheta have a footprint in?">Which countries does the 'Ndrangheta have a footprint in?</button>
-          <button class="ask-example" data-prompt="Compare organized crime in Mexico and Colombia">Compare organized crime in Mexico and Colombia</button>
-          <button class="ask-example" data-prompt="Which criminal organizations operate in both Colombia and Venezuela?">Which criminal organizations operate in both Colombia and Venezuela?</button>
+          <div class="ask-examples-group-title" data-i18n="grp-country">Countries &amp; Geography</div>
+          <button class="ask-example" data-i18n="ex-brazil" data-prompt="What criminal organizations operate in Brazil?">What criminal organizations operate in Brazil?</button>
+          <button class="ask-example" data-i18n="ex-ndrangheta-footprint" data-prompt="Which countries does the 'Ndrangheta have a footprint in?">Which countries does the 'Ndrangheta have a footprint in?</button>
+          <button class="ask-example" data-i18n="ex-mexico-colombia" data-prompt="Compare organized crime in Mexico and Colombia">Compare organized crime in Mexico and Colombia</button>
+          <button class="ask-example" data-i18n="ex-colombia-venezuela" data-prompt="Which criminal organizations operate in both Colombia and Venezuela?">Which criminal organizations operate in both Colombia and Venezuela?</button>
         </div>
 
         <div class="ask-examples-group">
-          <div class="ask-examples-group-title">Paths &amp; Cooperation</div>
-          <button class="ask-example" data-prompt="Are the Yakuza and the Sicilian Mafia connected?">Are the Yakuza and the Sicilian Mafia connected?</button>
-          <button class="ask-example" data-prompt="Who are the allies of allies of Mara Salvatrucha?">Who are the allies of allies of Mara Salvatrucha?</button>
-          <button class="ask-example" data-prompt="Does the Sinaloa Cartel cooperate with the Sicilian Mafia?">Does the Sinaloa Cartel cooperate with the Sicilian Mafia?</button>
-          <button class="ask-example" data-prompt="Is there cooperation between Comando Vermelho and Sinaloa Cartel?">Is there cooperation between Comando Vermelho and Sinaloa Cartel?</button>
+          <div class="ask-examples-group-title" data-i18n="grp-path">Paths &amp; Cooperation</div>
+          <button class="ask-example" data-i18n="ex-yakuza-sicilian" data-prompt="Are the Yakuza and the Sicilian Mafia connected?">Are the Yakuza and the Sicilian Mafia connected?</button>
+          <button class="ask-example" data-i18n="ex-ms13-allies" data-prompt="Who are the allies of allies of Mara Salvatrucha?">Who are the allies of allies of Mara Salvatrucha?</button>
+          <button class="ask-example" data-i18n="ex-sinaloa-sicilian-coop" data-prompt="Does the Sinaloa Cartel cooperate with the Sicilian Mafia?">Does the Sinaloa Cartel cooperate with the Sicilian Mafia?</button>
+          <button class="ask-example" data-i18n="ex-cv-sinaloa" data-prompt="Is there cooperation between Comando Vermelho and Sinaloa Cartel?">Is there cooperation between Comando Vermelho and Sinaloa Cartel?</button>
         </div>
 
         <div class="ask-examples-group">
-          <div class="ask-examples-group-title">Network Centrality</div>
-          <button class="ask-example" data-prompt="What is the most important criminal organization in the global network?">What is the most important criminal organization in the global network?</button>
-          <button class="ask-example" data-prompt="Which Italian mafia group is the most central in the network?">Which Italian mafia group is the most central in the network?</button>
-          <button class="ask-example" data-prompt="How does the Sinaloa Cartel rank in network importance, and how does it compare to the American Mafia?">How does the Sinaloa Cartel rank in network importance, and how does it compare to the American Mafia?</button>
-          <button class="ask-example" data-prompt="Which Mexican cartels have the most network influence?">Which Mexican cartels have the most network influence?</button>
-          <button class="ask-example" data-prompt="Who are the most connected criminal organizations in the world?">Who are the most connected criminal organizations in the world?</button>
+          <div class="ask-examples-group-title" data-i18n="grp-central">Network Centrality</div>
+          <button class="ask-example" data-i18n="ex-most-important" data-prompt="What is the most important criminal organization in the global network?">What is the most important criminal organization in the global network?</button>
+          <button class="ask-example" data-i18n="ex-italian-central" data-prompt="Which Italian mafia group is the most central in the network?">Which Italian mafia group is the most central in the network?</button>
+          <button class="ask-example" data-i18n="ex-sinaloa-rank" data-prompt="How does the Sinaloa Cartel rank in network importance, and how does it compare to the American Mafia?">How does the Sinaloa Cartel rank in network importance, and how does it compare to the American Mafia?</button>
+          <button class="ask-example" data-i18n="ex-mexican-influence" data-prompt="Which Mexican cartels have the most network influence?">Which Mexican cartels have the most network influence?</button>
+          <button class="ask-example" data-i18n="ex-most-connected" data-prompt="Who are the most connected criminal organizations in the world?">Who are the most connected criminal organizations in the world?</button>
         </div>
 
         <div class="ask-examples-group">
-          <div class="ask-examples-group-title">Communities &amp; Structure</div>
-          <button class="ask-example" data-prompt="What community does the Sinaloa Cartel belong to?">What community does the Sinaloa Cartel belong to?</button>
-          <button class="ask-example" data-prompt="What are the largest criminal communities?">What are the largest criminal communities?</button>
-          <button class="ask-example" data-prompt="What is the most surprising community on CRIMENET?">What is the most surprising community on CRIMENET?</button>
-          <button class="ask-example" data-prompt="Which organizations bridge the most communities?">Which organizations bridge the most communities?</button>
-          <button class="ask-example" data-prompt="Who might the 'Ndrangheta be secretly allied with, based on shared partners?">Who might the 'Ndrangheta be secretly allied with, based on shared partners?</button>
-          <button class="ask-example" data-prompt="What potential rivalries does the Sinaloa Cartel have based on shared adversaries?">What potential rivalries does the Sinaloa Cartel have based on shared adversaries?</button>
+          <div class="ask-examples-group-title" data-i18n="grp-comm">Communities &amp; Structure</div>
+          <button class="ask-example" data-i18n="ex-sinaloa-community" data-prompt="What community does the Sinaloa Cartel belong to?">What community does the Sinaloa Cartel belong to?</button>
+          <button class="ask-example" data-i18n="ex-largest-communities" data-prompt="What are the largest criminal communities?">What are the largest criminal communities?</button>
+          <button class="ask-example" data-i18n="ex-surprising-community" data-prompt="What is the most surprising community on CRIMENET?">What is the most surprising community on CRIMENET?</button>
+          <button class="ask-example" data-i18n="ex-bridges" data-prompt="Which organizations bridge the most communities?">Which organizations bridge the most communities?</button>
+          <button class="ask-example" data-i18n="ex-ndrangheta-secret" data-prompt="Who might the 'Ndrangheta be secretly allied with, based on shared partners?">Who might the 'Ndrangheta be secretly allied with, based on shared partners?</button>
+          <button class="ask-example" data-i18n="ex-sinaloa-rivalries" data-prompt="What potential rivalries does the Sinaloa Cartel have based on shared adversaries?">What potential rivalries does the Sinaloa Cartel have based on shared adversaries?</button>
         </div>
 
         </div>
@@ -144,9 +152,9 @@
       <div class="ds-search-wrapper ds-search-bottom" id="ds-search-bottom">
         <div class="ds-search-pill">
           <textarea id="ds-input-bottom" class="ds-textarea" rows="1"
-            placeholder="Ask a follow-up…"
+            placeholder="Ask a follow-up…" data-i18n-placeholder="ph-followup"
             autocomplete="off" spellcheck="false"></textarea>
-          <button type="button" class="ds-send-btn" id="ds-send-bottom" aria-label="Send">
+          <button type="button" class="ds-send-btn" id="ds-send-bottom" aria-label="Send" data-i18n-aria="aria-send">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
           </button>
         </div>
@@ -156,6 +164,125 @@
 </div>
 
 <script src="js/utils.js"></script>
+<script>
+(function () {
+  var PT = {
+    'about-1': '<strong>CRIMENET é um projeto de pesquisa que visa entender como o crime organizado funciona.</strong>',
+    'about-2': 'Esta página responde perguntas sobre crime organizado consultando um grafo de conhecimento sobre organizações criminosas, tudo extraído da Wikipédia.',
+    'about-3': 'Um modelo de linguagem é conectado diretamente ao grafo, então ele raciocina a partir das evidências em vez de inventar fatos.',
+    'about-note-1': '<strong>Como qualquer IA, o CRIMENET AI pode cometer erros.</strong> Você pode conferir qualquer informação no <a href="index.html">painel</a> e no <a href="browse.html">navegador de rede</a>.',
+    'about-note-2': '<strong>Nada é salvo.</strong> Copie o que quiser guardar antes de sair.',
+    'about-btn': 'Sobre',
+    'aria-about': 'Sobre o CRIMENET AI',
+    'aria-close': 'Fechar',
+    'aria-send': 'Enviar',
+    'ph-ask': 'Pergunte sobre crime organizado',
+    'ph-followup': 'Faça uma pergunta de acompanhamento…',
+    'examples': 'Exemplos',
+    'grp-org': 'Organizações',
+    'grp-rel': 'Relações e Redes',
+    'grp-country': 'Países e Geografia',
+    'grp-path': 'Caminhos e Cooperação',
+    'grp-central': 'Centralidade de Rede',
+    'grp-comm': 'Comunidades e Estrutura',
+    'ex-sinaloa': 'Fale sobre o Sinaloa Cartel',
+    'ex-ndrine': 'Quais são as principais \'ndrine da \'Ndrangheta?',
+    'ex-mc-defunct': 'Quais motoclubes estão extintos?',
+    'ex-camorra': 'Qual é a história da Camorra?',
+    'ex-oldest': 'Quais são as organizações criminosas mais antigas ainda ativas?',
+    'ex-sinaloa-cjng': 'Qual é a relação entre o Sinaloa Cartel e o CJNG?',
+    'ex-sinaloa-allies': 'Quem são os aliados mais próximos do Sinaloa Cartel?',
+    'ex-ha-ndrangheta': 'Como os Hells Angels e a \'Ndrangheta estão conectados?',
+    'ex-am-local': 'Qual é a rede local em torno da American Mafia?',
+    'ex-sinaloa-conflicts': 'Com quais organizações criminosas o Sinaloa Cartel tem conflitos?',
+    'ex-brazil': 'Quais organizações criminosas operam no Brasil?',
+    'ex-ndrangheta-footprint': 'Em quais países a \'Ndrangheta tem presença?',
+    'ex-mexico-colombia': 'Compare o crime organizado no México e na Colômbia',
+    'ex-colombia-venezuela': 'Quais organizações criminosas operam tanto na Colômbia quanto na Venezuela?',
+    'ex-yakuza-sicilian': 'A Yakuza e a Sicilian Mafia estão conectadas?',
+    'ex-ms13-allies': 'Quem são os aliados dos aliados da Mara Salvatrucha?',
+    'ex-sinaloa-sicilian-coop': 'O Sinaloa Cartel coopera com a Sicilian Mafia?',
+    'ex-cv-sinaloa': 'Há cooperação entre o Comando Vermelho e o Sinaloa Cartel?',
+    'ex-most-important': 'Qual é a organização criminosa mais importante na rede global?',
+    'ex-italian-central': 'Qual grupo de máfia italiana é o mais central na rede?',
+    'ex-sinaloa-rank': 'Como o Sinaloa Cartel se classifica em importância na rede, e como ele se compara à American Mafia?',
+    'ex-mexican-influence': 'Quais cartéis mexicanos têm mais influência na rede?',
+    'ex-most-connected': 'Quais são as organizações criminosas mais conectadas do mundo?',
+    'ex-sinaloa-community': 'A qual comunidade o Sinaloa Cartel pertence?',
+    'ex-largest-communities': 'Quais são as maiores comunidades criminosas?',
+    'ex-surprising-community': 'Qual é a comunidade mais surpreendente do CRIMENET?',
+    'ex-bridges': 'Quais organizações conectam mais comunidades?',
+    'ex-ndrangheta-secret': 'Com quem a \'Ndrangheta pode estar secretamente aliada, com base em parceiros em comum?',
+    'ex-sinaloa-rivalries': 'Quais rivalidades potenciais o Sinaloa Cartel tem com base em adversários em comum?'
+  };
+  var els = Array.from(document.querySelectorAll('[data-i18n]'));
+  var phEls = Array.from(document.querySelectorAll('[data-i18n-placeholder]'));
+  var ariaEls = Array.from(document.querySelectorAll('[data-i18n-aria]'));
+  var btn = document.getElementById('lang-toggle');
+  var lang = 'en';
+  try { lang = localStorage.getItem('crimenet-lang') || 'en'; } catch (e) {}
+
+  function refreshMore() {
+    var moreBtns = document.querySelectorAll('.ask-example-more-btn');
+    var pt = (lang === 'pt');
+    for (var i = 0; i < moreBtns.length; i++) {
+      var b = moreBtns[i];
+      var group = b.parentNode;
+      if (!group) continue;
+      var all = group.querySelectorAll('.ask-example');
+      if (all.length <= 2) continue;
+      var expanded = all[2] && !all[2].classList.contains('hidden-example');
+      var n = all.length - 2;
+      b.textContent = expanded ? (pt ? 'Mostrar menos' : 'Show less') : (pt ? ('+ ' + n + ' mais') : ('+ ' + n + ' more'));
+    }
+  }
+
+  function apply(l) {
+    lang = l;
+    document.documentElement.lang = (l === 'pt') ? 'pt-BR' : 'en';
+    if (btn) btn.textContent = (l === 'pt') ? 'English' : 'Português';
+    els.forEach(function (el) {
+      var key = el.getAttribute('data-i18n');
+      if (l === 'pt' && PT[key] !== undefined) {
+        el.dataset.en = el.innerHTML;
+        el.innerHTML = PT[key];
+        if (el.hasAttribute('data-prompt')) {
+          if (el.dataset.enPrompt === undefined) el.dataset.enPrompt = el.getAttribute('data-prompt');
+          el.setAttribute('data-prompt', PT[key]);
+        }
+      } else if (l === 'en' && el.dataset.en !== undefined) {
+        el.innerHTML = el.dataset.en;
+        if (el.hasAttribute('data-prompt') && el.dataset.enPrompt !== undefined) {
+          el.setAttribute('data-prompt', el.dataset.enPrompt);
+        }
+      }
+    });
+    phEls.forEach(function (el) {
+      var key = el.getAttribute('data-i18n-placeholder');
+      if (l === 'pt' && PT[key] !== undefined) {
+        if (el.dataset.enPh === undefined) el.dataset.enPh = el.getAttribute('placeholder');
+        el.setAttribute('placeholder', PT[key]);
+      } else if (l === 'en' && el.dataset.enPh !== undefined) {
+        el.setAttribute('placeholder', el.dataset.enPh);
+      }
+    });
+    ariaEls.forEach(function (el) {
+      var key = el.getAttribute('data-i18n-aria');
+      if (l === 'pt' && PT[key] !== undefined) {
+        if (el.dataset.enAria === undefined) el.dataset.enAria = el.getAttribute('aria-label');
+        el.setAttribute('aria-label', PT[key]);
+      } else if (l === 'en' && el.dataset.enAria !== undefined) {
+        el.setAttribute('aria-label', el.dataset.enAria);
+      }
+    });
+    refreshMore();
+    try { localStorage.setItem('crimenet-lang', l); } catch (e) {}
+  }
+
+  if (btn) btn.addEventListener('click', function () { apply(lang === 'pt' ? 'en' : 'pt'); });
+  if (lang === 'pt') apply('pt');
+})();
+</script>
 <script src="js/ask_ai.js"></script>
 </body>
 </html>

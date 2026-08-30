@@ -435,6 +435,18 @@ grid. Clicking an example copies it to the input field; clicking Send runs the q
 and renders the answer below the input. Only one Q&A pair is shown at a time — sending
 a new question replaces the previous answer.
 
+**Language toggle.** `ask.html` has a Portuguese toggle (same `.lang-toggle` button and
+`crimenet-lang` `localStorage` key as `about.html`). It translates the static chrome (About
+modal, placeholders, examples, group titles) via an inline i18n script with `data-i18n` /
+`data-i18n-placeholder` / `data-i18n-aria` attributes, plus the dynamic conversation chrome
+in `ask_ai.js` ("You", "Thinking…", "Sources", the evidence Time/Quote/Source pills,
+"Verified Evidence", "Path"/"Cooperation Route", and error messages) via a small `L(en, pt)`
+helper that reads `document.documentElement.lang`. Two things stay in English by design: the
+AI's answer prose (the system prompt ends "Answer in English") and the relationship-type
+section titles Cooperation/Conflict/Other, which come from the shared `utils.js` `EDGE_META`
+also used by the untranslated `browse.html`. Example buttons keep their `data-prompt` in sync
+with the visible label so a Portuguese example still fills the input correctly.
+
 ### Tool functions
 
 DeepSeek can call these 13 tools to query the graph. Each tool reads from existing static
